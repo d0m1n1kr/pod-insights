@@ -99,6 +99,22 @@ input[type="range"].slider-green::-moz-range-thumb {
   background-color: #16a34a;
 }
 
+/* Cyan Slider */
+input[type="range"].slider-cyan::-webkit-slider-thumb {
+  background-color: #06b6d4;
+}
+input[type="range"].slider-cyan::-moz-range-thumb {
+  background-color: #06b6d4;
+}
+
+/* Teal Slider */
+input[type="range"].slider-teal::-webkit-slider-thumb {
+  background-color: #14b8a6;
+}
+input[type="range"].slider-teal::-moz-range-thumb {
+  background-color: #14b8a6;
+}
+
 /* Custom Checkbox Styles */
 input[type="checkbox"] {
   cursor: pointer;

@@ -7,7 +7,7 @@ const route = useRoute();
 const settingsStore = useSettingsStore();
 
 const activeView = computed(() => {
-  return route.name as 'topics' | 'categories' | 'speakers' | 'heatmap' | 'cluster-heatmap' | 'about';
+  return route.name as 'topics' | 'categories' | 'speakers' | 'heatmap' | 'cluster-heatmap' | 'speaker-speaker-heatmap' | 'about';
 });
 
 const themeIcon = computed(() => {
@@ -104,6 +104,30 @@ const themeLabel = computed(() => {
             ]"
           >
             Sprecher × Cluster
+          </router-link>
+          <!--
+          <router-link
+            to="/cluster-cluster-heatmap"
+            :class="[
+              'px-6 py-3 font-semibold border-b-2 transition-colors',
+              activeView === 'cluster-cluster-heatmap' 
+                ? 'border-cyan-500 text-cyan-600 dark:text-cyan-400' 
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
+            ]"
+          >
+            Cluster × Cluster
+          </router-link>
+          -->
+          <router-link
+            to="/speaker-speaker-heatmap"
+            :class="[
+              'px-6 py-3 font-semibold border-b-2 transition-colors',
+              activeView === 'speaker-speaker-heatmap' 
+                ? 'border-teal-500 text-teal-600 dark:text-teal-400' 
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
+            ]"
+          >
+            Sprecher × Sprecher
           </router-link>
           <router-link
             to="/about"

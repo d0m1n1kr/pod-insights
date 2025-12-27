@@ -125,17 +125,27 @@ const drawHeatmap = () => {
       const categoryData = (speaker.categories || []).find(c => c.categoryId === category.id);
       const value = categoryData?.count || 0;
       
+      // Get empty cell color based on dark mode
+      const isDark = document.documentElement.classList.contains('dark');
+      const emptyCellColor = isDark ? '#1f2937' : '#f0f0f0'; // dark:bg-gray-800 or light gray
+      
       g.append('rect')
         .attr('x', j * cellSize)
         .attr('y', i * cellSize)
-        .attr('width', cellSize - 1)
-        .attr('height', cellSize - 1)
-        .attr('fill', value > 0 ? colorScale(value) : '#f0f0f0')
+        .attr('width', cellSize)
+        .attr('height', cellSize)
+        .attr('fill', value > 0 ? colorScale(value) : emptyCellColor)
         .attr('stroke', () => {
           if (selectedSpeaker.value === speaker.id && selectedCategory.value === category.id) {
             return '#000';
           }
-          return 'white';
+          return 'none';
+        })
+        .attr('stroke-width', () => {
+          if (selectedSpeaker.value === speaker.id && selectedCategory.value === category.id) {
+            return 2;
+          }
+          return 0;
         })
         .attr('stroke-width', () => {
           if (selectedSpeaker.value === speaker.id && selectedCategory.value === category.id) {
@@ -297,7 +307,7 @@ const drawHeatmap = () => {
     .text('Episoden');
 };
 
-watch([() => settingsStore.topNSpeakersHeatmap, () => settingsStore.topNCategoriesHeatmap], () => {
+watch([() => settingsStore.topNSpeakersHeatmap, () => settingsStore.topNCategoriesHeatmap, () => settingsStore.isDarkMode], () => {
   selectedSpeaker.value = null;
   selectedCategory.value = null;
   drawHeatmap();

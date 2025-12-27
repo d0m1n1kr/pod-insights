@@ -548,11 +548,11 @@ watch(selectedYear, () => {
         </label>
       </div>
       
-      <div v-if="selectedSpeakerInfo" class="mt-4 p-4 bg-green-50 border border-green-200 rounded-lg">
+      <div v-if="selectedSpeakerInfo" class="mt-4 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700 rounded-lg">
         <div class="flex items-start justify-between">
           <div class="flex-1">
-            <h3 class="font-semibold text-lg text-green-900">{{ selectedSpeakerInfo.name }}</h3>
-            <p class="text-sm text-green-700 mt-1">
+            <h3 class="font-semibold text-lg text-green-900 dark:text-green-100">{{ selectedSpeakerInfo.name }}</h3>
+            <p class="text-sm text-green-700 dark:text-green-300 mt-1">
               {{ selectedSpeakerInfo.totalAppearances }} Episoden
               <span v-if="selectedSpeakerInfo.firstAppearance">
                 ({{ selectedSpeakerInfo.firstAppearance }} - {{ selectedSpeakerInfo.lastAppearance }})
@@ -574,42 +574,42 @@ watch(selectedYear, () => {
             <div class="mt-2">
               <button
                 @click="showEpisodeList = !showEpisodeList"
-                class="text-sm text-green-600 hover:text-green-800 font-semibold underline"
+                class="text-sm text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 font-semibold underline"
               >
                 {{ showEpisodeList ? 'Episoden ausblenden' : (selectedYear ? `${selectedSpeakerInfo.filteredCount} von ${selectedSpeakerInfo.totalEpisodes} Episoden anzeigen` : `${selectedSpeakerInfo.episodeNumbers.length} Episoden anzeigen`) }}
               </button>
             </div>
             
             <!-- Episode List -->
-            <div v-if="showEpisodeList" class="mt-4 bg-white rounded-lg border border-green-300 overflow-hidden">
-              <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600">
+            <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-green-300 dark:border-green-700 overflow-hidden">
+              <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                 Lade Episoden-Details...
               </div>
               <div v-else class="max-h-96 overflow-y-auto">
                 <table class="w-full text-sm">
-                  <thead class="bg-green-100 sticky top-0">
+                  <thead class="bg-green-100 dark:bg-green-900 sticky top-0">
                     <tr>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">#</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Datum</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Titel</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Dauer</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Sprecher</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Link</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">#</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Datum</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Titel</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Dauer</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Sprecher</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Link</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr 
                       v-for="episodeNum in selectedSpeakerInfo.episodeNumbers" 
                       :key="episodeNum"
-                      class="border-t border-green-100 hover:bg-green-50"
+                      class="border-t border-green-100 dark:border-green-800 hover:bg-green-50 dark:hover:bg-green-900/20"
                     >
                       <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum)">
-                        <td class="px-3 py-2 text-green-700 font-mono text-xs">{{ episodeNum }}</td>
-                        <td class="px-3 py-2 text-gray-600 whitespace-nowrap">
+                        <td class="px-3 py-2 text-green-700 dark:text-green-300 font-mono text-xs">{{ episodeNum }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap">
                           {{ new Date(episodeDetails.get(episodeNum).date).toLocaleDateString('de-DE') }}
                         </td>
-                        <td class="px-3 py-2 text-gray-900">{{ episodeDetails.get(episodeNum).title }}</td>
-                        <td class="px-3 py-2 text-gray-600 text-xs">
+                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100">{{ episodeDetails.get(episodeNum).title }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs">
                           {{ formatDuration(episodeDetails.get(episodeNum).duration) }}
                         </td>
                         <td class="px-3 py-2 text-xs">
@@ -618,10 +618,10 @@ watch(selectedYear, () => {
                               :class="[
                                 'inline-block',
                                 speaker === selectedSpeakerInfo?.name 
-                                  ? 'font-semibold text-green-700 bg-green-100 px-1 rounded' 
-                                  : 'text-gray-600'
+                                  ? 'font-semibold text-green-700 dark:text-green-300 bg-green-100 dark:bg-green-900/30 px-1 rounded' 
+                                  : 'text-gray-600 dark:text-gray-400'
                               ]"
-                            >{{ speaker }}</span><span v-if="(idx as number) < (episodeDetails.get(episodeNum).speakers.length - 1)" class="text-gray-600">, </span>
+                            >{{ speaker }}</span><span v-if="(idx as number) < (episodeDetails.get(episodeNum).speakers.length - 1)" class="text-gray-600 dark:text-gray-400">, </span>
                           </template>
                         </td>
                         <td class="px-3 py-2">
@@ -629,17 +629,17 @@ watch(selectedYear, () => {
                             :href="episodeDetails.get(episodeNum).url"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="text-green-600 hover:text-green-800 underline text-xs"
+                            class="text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 underline text-xs"
                           >
                             🔗
                           </a>
                         </td>
                       </template>
                       <template v-else-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) === null">
-                        <td colspan="6" class="px-3 py-2 text-gray-400 text-xs">Episode {{ episodeNum }} - Daten nicht verfügbar (Datei fehlt)</td>
+                        <td colspan="6" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">Episode {{ episodeNum }} - Daten nicht verfügbar (Datei fehlt)</td>
                       </template>
                       <template v-else>
-                        <td colspan="6" class="px-3 py-2 text-gray-400 text-xs">Episode {{ episodeNum }} - Lädt...</td>
+                        <td colspan="6" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">Episode {{ episodeNum }} - Lädt...</td>
                       </template>
                     </tr>
                   </tbody>
@@ -649,7 +649,7 @@ watch(selectedYear, () => {
           </div>
           <button
             @click="selectedSpeaker = null; selectedYear = null; showEpisodeList = false;"
-            class="text-green-600 hover:text-green-800 font-semibold ml-4"
+            class="text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 font-semibold ml-4"
           >
             ✕
           </button>

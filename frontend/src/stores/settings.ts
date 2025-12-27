@@ -10,6 +10,12 @@ export const useSettingsStore = defineStore('settings', () => {
   const topNCategoriesHeatmap = ref(10);
   const topNSpeakersClusterHeatmap = ref(15);
   const topNClustersHeatmap = ref(20);
+  const topNClustersCluster1Heatmap = ref(20);
+  const topNClustersCluster2Heatmap = ref(20);
+  const topNSpeakers1Heatmap = ref(15);
+  const topNSpeakers2Heatmap = ref(15);
+  const topNSpeakersSpeaker1Heatmap = ref(15);
+  const topNSpeakersSpeaker2Heatmap = ref(15);
   
   // Dark mode: 'auto' | 'light' | 'dark'
   const themeMode = ref<'auto' | 'light' | 'dark'>('auto');
@@ -71,6 +77,12 @@ export const useSettingsStore = defineStore('settings', () => {
     topNCategoriesHeatmap,
     topNSpeakersClusterHeatmap,
     topNClustersHeatmap,
+    topNClustersCluster1Heatmap,
+    topNClustersCluster2Heatmap,
+    topNSpeakers1Heatmap,
+    topNSpeakers2Heatmap,
+    topNSpeakersSpeaker1Heatmap,
+    topNSpeakersSpeaker2Heatmap,
     themeMode,
     isDarkMode,
     toggleNormalizedView,

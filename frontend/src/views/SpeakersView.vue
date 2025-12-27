@@ -44,13 +44,13 @@ onMounted(async () => {
             <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">Sprecher insgesamt</div>
           </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-emerald-600 dark:text-emerald-400">
+          <div class="text-3xl font-bold text-green-600 dark:text-green-400">
             {{ speakerData.statistics.totalAppearances }}
           </div>
           <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">Gesamt-Auftritte</div>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-teal-600 dark:text-teal-400">
+          <div class="text-3xl font-bold text-green-600 dark:text-green-400">
             {{ speakerData.statistics.yearRange.start }} - {{ speakerData.statistics.yearRange.end }}
           </div>
           <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">Zeitspanne</div>

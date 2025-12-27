@@ -645,11 +645,11 @@ const formatDuration = (duration: [number, number, number]) => {
         </label>
       </div>
       
-      <div v-if="selectedTopicInfo" class="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+      <div v-if="selectedTopicInfo" :class="['mt-4 p-4 border rounded-lg', themeColor === 'blue' ? 'bg-blue-50 dark:bg-blue-900/20 border-blue-200 dark:border-blue-700' : 'bg-purple-50 dark:bg-purple-900/20 border-purple-200 dark:border-purple-700']">
         <div class="flex items-start justify-between">
           <div class="flex-1">
-            <h3 class="font-semibold text-lg text-blue-900">{{ selectedTopicInfo.name }}</h3>
-            <p class="text-sm text-blue-700 mt-1">{{ selectedTopicInfo.description }}</p>
+            <h3 :class="['font-semibold text-lg', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">{{ selectedTopicInfo.name }}</h3>
+            <p :class="['text-sm mt-1', themeColor === 'blue' ? 'text-blue-700 dark:text-blue-300' : 'text-purple-700 dark:text-purple-300']">{{ selectedTopicInfo.description }}</p>
             
             <!-- Year Filter Badge -->
             <div v-if="selectedYear" class="mt-2 inline-flex items-center gap-2 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
@@ -666,51 +666,51 @@ const formatDuration = (duration: [number, number, number]) => {
             <div class="mt-2 flex gap-4">
               <button
                 @click="showEpisodeList = !showEpisodeList; if (showEpisodeList) showTopicList = false;"
-                :class="['text-sm font-semibold underline', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800' : 'text-purple-600 hover:text-purple-800']"
+                :class="['text-sm font-semibold underline', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
               >
                 {{ showEpisodeList ? 'Episoden ausblenden' : (selectedYear ? `${selectedTopicInfo.filteredCount} von ${selectedTopicInfo.totalEpisodes} Episoden anzeigen` : `${selectedTopicInfo.episodes.length} Episoden anzeigen`) }}
               </button>
               <button
                 @click="showTopicList = !showTopicList; if (showTopicList) showEpisodeList = false;"
-                :class="['text-sm font-semibold underline', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800' : 'text-purple-600 hover:text-purple-800']"
+                :class="['text-sm font-semibold underline', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
               >
                 {{ showTopicList ? 'Einzelne Themen ausblenden' : 'Alle einzelnen Themen anzeigen' }}
               </button>
             </div>
             
             <!-- Episode List -->
-            <div v-if="showEpisodeList" class="mt-4 bg-white rounded-lg border border-blue-300 overflow-hidden">
-              <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600">
+            <div v-if="showEpisodeList" :class="['mt-4 rounded-lg border overflow-hidden', themeColor === 'blue' ? 'bg-white dark:bg-gray-900 border-blue-300 dark:border-blue-700' : 'bg-white dark:bg-gray-900 border-purple-300 dark:border-purple-700']">
+              <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                 Lade Episoden-Details...
               </div>
               <div v-else class="max-h-96 overflow-y-auto">
                 <table class="w-full text-sm">
-                  <thead class="bg-blue-100 sticky top-0">
+                  <thead :class="['sticky top-0', themeColor === 'blue' ? 'bg-blue-100 dark:bg-blue-900' : 'bg-purple-100 dark:bg-purple-900']">
                     <tr>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-blue-900">#</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-blue-900">Datum</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-blue-900">Titel</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-blue-900">Dauer</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-blue-900">Sprecher</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-blue-900">Link</th>
+                      <th :class="['px-3 py-2 text-left text-xs font-semibold', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">#</th>
+                      <th :class="['px-3 py-2 text-left text-xs font-semibold', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Datum</th>
+                      <th :class="['px-3 py-2 text-left text-xs font-semibold', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Titel</th>
+                      <th :class="['px-3 py-2 text-left text-xs font-semibold', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Dauer</th>
+                      <th :class="['px-3 py-2 text-left text-xs font-semibold', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Sprecher</th>
+                      <th :class="['px-3 py-2 text-left text-xs font-semibold', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Link</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr 
                       v-for="episode in selectedTopicInfo.episodes" 
                       :key="episode.number"
-                      class="border-t border-blue-100 hover:bg-blue-50"
+                      :class="['border-t', themeColor === 'blue' ? 'border-blue-100 dark:border-blue-800 hover:bg-blue-50 dark:hover:bg-blue-900/20' : 'border-purple-100 dark:border-purple-800 hover:bg-purple-50 dark:hover:bg-purple-900/20']"
                     >
                       <template v-if="episodeDetails.has(episode.number) && episodeDetails.get(episode.number)">
-                        <td class="px-3 py-2 text-blue-700 font-mono text-xs">{{ episode.number }}</td>
-                        <td class="px-3 py-2 text-gray-600 whitespace-nowrap">
+                        <td :class="['px-3 py-2 font-mono text-xs', themeColor === 'blue' ? 'text-blue-700 dark:text-blue-300' : 'text-purple-700 dark:text-purple-300']">{{ episode.number }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap">
                           {{ new Date(episode.date).toLocaleDateString('de-DE') }}
                         </td>
-                        <td class="px-3 py-2 text-gray-900">{{ episode.title }}</td>
-                        <td class="px-3 py-2 text-gray-600 text-xs whitespace-nowrap">
+                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100">{{ episode.title }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
                           {{ formatDuration(episodeDetails.get(episode.number).duration) }}
                         </td>
-                        <td class="px-3 py-2 text-gray-600 text-xs">
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs">
                           {{ episodeDetails.get(episode.number).speakers.join(', ') }}
                         </td>
                         <td class="px-3 py-2">
@@ -718,27 +718,27 @@ const formatDuration = (duration: [number, number, number]) => {
                             :href="episodeDetails.get(episode.number).url"
                             target="_blank"
                             rel="noopener noreferrer"
-                            :class="['underline text-xs', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800' : 'text-purple-600 hover:text-purple-800']"
+                            :class="['underline text-xs', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
                           >
                             🔗
                           </a>
                         </td>
                       </template>
                       <template v-else-if="episodeDetails.has(episode.number) && episodeDetails.get(episode.number) === null">
-                        <td class="px-3 py-2 text-blue-700 font-mono text-xs">{{ episode.number }}</td>
-                        <td class="px-3 py-2 text-gray-600 whitespace-nowrap">
+                        <td :class="['px-3 py-2 font-mono text-xs', themeColor === 'blue' ? 'text-blue-700 dark:text-blue-300' : 'text-purple-700 dark:text-purple-300']">{{ episode.number }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap">
                           {{ new Date(episode.date).toLocaleDateString('de-DE') }}
                         </td>
-                        <td class="px-3 py-2 text-gray-900">{{ episode.title }}</td>
-                        <td colspan="3" class="px-3 py-2 text-gray-400 text-xs">Details nicht verfügbar (Datei fehlt)</td>
+                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100">{{ episode.title }}</td>
+                        <td colspan="3" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">Details nicht verfügbar (Datei fehlt)</td>
                       </template>
                       <template v-else>
-                        <td class="px-3 py-2 text-blue-700 font-mono text-xs">{{ episode.number }}</td>
-                        <td class="px-3 py-2 text-gray-600 whitespace-nowrap">
+                        <td :class="['px-3 py-2 font-mono text-xs', themeColor === 'blue' ? 'text-blue-700 dark:text-blue-300' : 'text-purple-700 dark:text-purple-300']">{{ episode.number }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap">
                           {{ new Date(episode.date).toLocaleDateString('de-DE') }}
                         </td>
-                        <td class="px-3 py-2 text-gray-900">{{ episode.title }}</td>
-                        <td colspan="3" class="px-3 py-2 text-gray-400 text-xs">Lädt...</td>
+                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100">{{ episode.title }}</td>
+                        <td colspan="3" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">Lädt...</td>
                       </template>
                     </tr>
                   </tbody>
@@ -747,36 +747,36 @@ const formatDuration = (duration: [number, number, number]) => {
             </div>
             
             <!-- Individual Topics List -->
-            <div v-if="showTopicList" class="mt-4 bg-white rounded-lg border border-blue-300 overflow-hidden">
-              <div v-if="loadingTopics" class="p-4 text-center text-gray-600">
+            <div v-if="showTopicList" :class="['mt-4 rounded-lg border overflow-hidden', themeColor === 'blue' ? 'bg-white dark:bg-gray-900 border-blue-300 dark:border-blue-700' : 'bg-white dark:bg-gray-900 border-purple-300 dark:border-purple-700']">
+              <div v-if="loadingTopics" class="p-4 text-center text-gray-600 dark:text-gray-400">
                 Lade alle Themen...
               </div>
               <div v-else class="max-h-96 overflow-y-auto">
-                <div class="p-3 bg-blue-100 sticky top-0">
-                  <p class="text-sm font-semibold text-blue-900">
+                <div :class="['p-3 sticky top-0', themeColor === 'blue' ? 'bg-blue-100 dark:bg-blue-900' : 'bg-purple-100 dark:bg-purple-900']">
+                  <p :class="['text-sm font-semibold', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">
                     {{ allIndividualTopics.length }} einzelne Themen gefunden
                   </p>
                 </div>
-                <div class="divide-y divide-blue-100">
+                <div :class="[themeColor === 'blue' ? 'divide-y divide-blue-100 dark:divide-blue-800' : 'divide-y divide-purple-100 dark:divide-purple-800']">
                   <div 
                     v-for="(topicItem, index) in allIndividualTopics" 
                     :key="`${topicItem.episodeNumber}-${index}`"
-                    class="p-3 hover:bg-blue-50"
+                    :class="['p-3', themeColor === 'blue' ? 'hover:bg-blue-50 dark:hover:bg-blue-900/20' : 'hover:bg-purple-50 dark:hover:bg-purple-900/20']"
                   >
                     <div class="flex items-start justify-between gap-2">
                       <div class="flex-1">
-                        <p class="text-sm font-medium text-gray-900">{{ topicItem.topic }}</p>
+                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">{{ topicItem.topic }}</p>
                         <div class="mt-1 flex flex-wrap gap-1 items-center">
                           <span 
                             v-if="topicItem.clusterName"
-                            class="inline-block px-2 py-0.5 text-xs bg-purple-100 text-purple-700 rounded font-medium"
+                            class="inline-block px-2 py-0.5 text-xs bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded font-medium"
                           >
                             📁 {{ topicItem.clusterName }}
                           </span>
                           <span 
                             v-for="keyword in topicItem.keywords" 
                             :key="keyword"
-                            class="inline-block px-2 py-0.5 text-xs bg-blue-100 text-blue-700 rounded"
+                            :class="['inline-block px-2 py-0.5 text-xs rounded', themeColor === 'blue' ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300' : 'bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300']"
                           >
                             {{ keyword }}
                           </span>
@@ -787,7 +787,7 @@ const formatDuration = (duration: [number, number, number]) => {
                           :href="episodeDetails.get(topicItem.episodeNumber)?.url || `https://freakshow.fm/${topicItem.episodeTitle.toLowerCase().split(' ')[0]}`"
                           target="_blank"
                           rel="noopener noreferrer"
-                          :class="['text-xs', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800' : 'text-purple-600 hover:text-purple-800']"
+                          :class="['text-xs', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
                         >
                           {{ topicItem.episodeTitle }}
                         </a>

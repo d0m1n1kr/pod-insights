@@ -4,6 +4,7 @@ import CategoriesView from '../views/CategoriesView.vue';
 import SpeakersView from '../views/SpeakersView.vue';
 import HeatmapView from '../views/HeatmapView.vue';
 import ClusterHeatmapView from '../views/ClusterHeatmapView.vue';
+import SpeakerSpeakerHeatmapView from '../views/SpeakerSpeakerHeatmapView.vue';
 import AboutView from '../views/AboutView.vue';
 
 const router = createRouter({
@@ -37,6 +38,11 @@ const router = createRouter({
       path: '/cluster-heatmap',
       name: 'cluster-heatmap',
       component: ClusterHeatmapView
+    },
+    {
+      path: '/speaker-speaker-heatmap',
+      name: 'speaker-speaker-heatmap',
+      component: SpeakerSpeakerHeatmapView
     },
     {
       path: '/about',

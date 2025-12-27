@@ -1,15 +1,15 @@
 <template>
   <div class="flex flex-col h-full">
     <!-- Header -->
-    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/20 dark:to-orange-900/30">
+    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-900/30">
       <div v-if="heatmapData" class="grid grid-cols-2 gap-4">
         <div class="text-center">
-          <div class="text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalSpeakers }}</div>
+          <div class="text-3xl font-bold text-teal-600 dark:text-teal-400">{{ heatmapData.statistics.totalSpeakers }}</div>
           <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Sprecher insgesamt</p>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalClusters }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Cluster insgesamt</p>
+          <div class="text-3xl font-bold text-teal-600 dark:text-teal-400">{{ heatmapData.statistics.totalCombinations }}</div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Kombinationen</p>
         </div>
       </div>
     </div>
@@ -25,77 +25,77 @@
           <!-- Controls -->
           <div class="mb-6 flex gap-6 flex-wrap items-center">
             <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-              Anzahl Sprecher:
+              Sprecher 1:
               <input
-                v-model.number="settingsStore.topNSpeakersClusterHeatmap"
+                v-model.number="settingsStore.topNSpeakersSpeaker1Heatmap"
                 type="range"
                 min="5"
                 max="30"
                 step="1"
-                class="ml-2 w-48 slider-orange"
+                class="ml-2 w-48 slider-teal"
               />
-              <span class="ml-2 text-orange-600 dark:text-orange-400 font-semibold">{{ settingsStore.topNSpeakersClusterHeatmap }}</span>
+              <span class="ml-2 text-teal-600 dark:text-teal-400 font-semibold">{{ settingsStore.topNSpeakersSpeaker1Heatmap }}</span>
             </label>
             
             <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-              Anzahl Cluster:
+              Sprecher 2:
               <input
-                v-model.number="settingsStore.topNClustersHeatmap"
+                v-model.number="settingsStore.topNSpeakersSpeaker2Heatmap"
                 type="range"
                 min="10"
                 max="50"
                 step="1"
-                class="ml-2 w-48 slider-orange"
+                class="ml-2 w-48 slider-teal"
               />
-              <span class="ml-2 text-orange-600 dark:text-orange-400 font-semibold">{{ settingsStore.topNClustersHeatmap }}</span>
+              <span class="ml-2 text-teal-600 dark:text-teal-400 font-semibold">{{ settingsStore.topNSpeakersSpeaker2Heatmap }}</span>
             </label>
           </div>
 
           <!-- Selected Cell Details -->
-          <div v-if="selectedCell" class="mb-6 p-4 bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-700 rounded-lg">
+          <div v-if="selectedCell" class="mb-6 p-4 bg-teal-50 dark:bg-teal-900/20 border border-teal-200 dark:border-teal-700 rounded-lg">
             <div class="flex items-start justify-between">
               <div class="flex-1">
-                <h3 class="font-semibold text-lg text-orange-900 dark:text-orange-100">
-                  {{ selectedCell.speakerName }} → {{ selectedCell.clusterName }}
+                <h3 class="font-semibold text-lg text-teal-900 dark:text-teal-100">
+                  {{ selectedCell.speaker1Name }} → {{ selectedCell.speaker2Name }}
                 </h3>
-                <p class="text-sm text-orange-600 dark:text-orange-400 mt-2">
+                <p class="text-sm text-teal-600 dark:text-teal-400 mt-2">
                   <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
                 </p>
                 
                 <div class="mt-3">
                   <button
                     @click="showEpisodeList = !showEpisodeList"
-                    class="text-sm text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-300 font-semibold underline"
+                    class="text-sm text-teal-600 hover:text-teal-800 dark:text-teal-400 dark:hover:text-teal-300 font-semibold underline"
                   >
                     {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
                   </button>
                 </div>
 
                 <!-- Episode List -->
-                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-orange-300 dark:border-orange-700 overflow-hidden">
+                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-teal-300 dark:border-teal-700 overflow-hidden">
                   <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                     Lade Episoden-Details...
                   </div>
                   <div v-else class="max-h-96 overflow-y-auto">
                     <table class="w-full text-sm">
-                      <thead class="bg-orange-100 dark:bg-orange-900 sticky top-0">
+                      <thead class="bg-teal-100 dark:bg-teal-900 sticky top-0">
                         <tr>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">#</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Datum</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Titel</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Dauer</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Sprecher</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Link</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">#</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Datum</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Titel</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Dauer</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Sprecher</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Link</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr 
                           v-for="episodeNum in selectedCell.episodes" 
                           :key="episodeNum"
-                          class="border-t border-orange-100 dark:border-orange-800 hover:bg-orange-50 dark:hover:bg-orange-900/50"
+                          class="border-t border-teal-100 dark:border-teal-800 hover:bg-teal-50 dark:hover:bg-teal-900/50"
                         >
                           <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
-                            <td class="px-3 py-2 text-orange-700 dark:text-orange-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-teal-700 dark:text-teal-300 font-mono text-xs">{{ episodeNum }}</td>
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                               {{ formatDate(episodeDetails.get(episodeNum)?.date) }}
                             </td>
@@ -110,8 +110,8 @@
                                 <span
                                   :class="[
                                     'inline-block',
-                                    speaker === selectedCell?.speakerName 
-                                      ? 'font-semibold text-orange-700 dark:text-orange-300 bg-orange-100 dark:bg-orange-900/30 px-1 rounded' 
+                                    speaker === selectedCell?.speaker1Name || speaker === selectedCell?.speaker2Name
+                                      ? 'font-semibold text-teal-700 dark:text-teal-300 bg-teal-100 dark:bg-teal-900/30 px-1 rounded' 
                                       : 'text-gray-600 dark:text-gray-400'
                                   ]"
                                 >{{ speaker }}</span><span v-if="idx < ((episodeDetails.get(episodeNum)?.speakers?.length || 0) - 1)" class="text-gray-600 dark:text-gray-400">, </span>
@@ -123,20 +123,20 @@
                                 :href="episodeDetails.get(episodeNum)?.url" 
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                class="text-orange-600 dark:text-orange-400 hover:text-orange-800 dark:hover:text-orange-300 text-xs underline"
+                                class="text-teal-600 dark:text-teal-400 hover:text-teal-800 dark:hover:text-teal-300 text-xs underline"
                               >
                                 🔗
                               </a>
                             </td>
                           </template>
                           <template v-else-if="episodeDetails.get(episodeNum) === null">
-                            <td class="px-3 py-2 text-orange-700 dark:text-orange-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-teal-700 dark:text-teal-300 font-mono text-xs">{{ episodeNum }}</td>
                             <td colspan="5" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs italic">
                               Details nicht verfügbar
                             </td>
                           </template>
                           <template v-else>
-                            <td class="px-3 py-2 text-orange-700 dark:text-orange-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-teal-700 dark:text-teal-300 font-mono text-xs">{{ episodeNum }}</td>
                             <td colspan="5" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">
                               Lade...
                             </td>
@@ -192,8 +192,8 @@ const svgElement = ref<SVGSVGElement | null>(null);
 const heatmapContainer = ref<HTMLDivElement | null>(null);
 
 const selectedCell = ref<{
-  speakerName: string;
-  clusterName: string;
+  speaker1Name: string;
+  speaker2Name: string;
   count: number;
   episodes: number[];
 } | null>(null);
@@ -205,38 +205,38 @@ const episodeDetails = ref<Map<number, EpisodeDetail | null>>(new Map());
 
 // Filtered data based on slider values
 const filteredData = computed(() => {
-  if (!heatmapData.value) return { speakers: [], clusters: [] };
+  if (!heatmapData.value) return { speakers1: [], speakers2: [] };
   
-  // Get top N speakers (already sorted by episodes in the data)
-  const speakers = heatmapData.value.speakers.slice(0, settingsStore.topNSpeakersClusterHeatmap);
+  // Get top N speakers for axis 1 (already sorted by episodes in the data)
+  const speakers1 = heatmapData.value.speakers.slice(0, settingsStore.topNSpeakersSpeaker1Heatmap);
   
-  // Get top N clusters (already sorted by episodes in the data)
-  const clusters = (heatmapData.value.clusters || []).slice(0, settingsStore.topNClustersHeatmap);
+  // Get top N speakers for axis 2 (already sorted by episodes in the data)
+  const speakers2 = heatmapData.value.speakers.slice(0, settingsStore.topNSpeakersSpeaker2Heatmap);
   
-  return { speakers, clusters };
+  return { speakers1, speakers2 };
 });
 
 const filteredMatrix = computed(() => {
   if (!heatmapData.value) return [];
   
-  const { speakers, clusters } = filteredData.value;
-  const speakerIds = new Set(speakers.map(s => s.id));
-  const clusterIds = new Set(clusters.map(c => c.id));
+  const { speakers1, speakers2 } = filteredData.value;
+  const speaker1Ids = new Set(speakers1.map(s => s.id));
+  const speaker2Ids = new Set(speakers2.map(s => s.id));
   
   // Filter matrix by selected speakers
-  let matrix = heatmapData.value.matrix.filter(row => speakerIds.has(row.speakerId));
+  let matrix = heatmapData.value.matrix.filter(row => speaker1Ids.has(row.speakerId));
   
-  // Filter values by selected clusters
+  // Filter values by selected speakers
   matrix = matrix.map(row => ({
     ...row,
-    values: row.values.filter(val => clusterIds.has(val.clusterId || ''))
+    values: row.values.filter(val => speaker2Ids.has(val.speakerId || ''))
   }));
   
   return matrix;
 });
 
-const filteredClusters = computed(() => {
-  return filteredData.value.clusters;
+const filteredSpeakers2 = computed(() => {
+  return filteredData.value.speakers2;
 });
 
 function clearSelection() {
@@ -324,9 +324,9 @@ function drawHeatmap() {
   svg.selectAll('*').remove();
 
   const matrix = filteredMatrix.value;
-  const clusters = filteredClusters.value;
+  const speakers2 = filteredSpeakers2.value;
 
-  if (matrix.length === 0 || clusters.length === 0) {
+  if (matrix.length === 0 || speakers2.length === 0) {
     svg.append('text')
       .attr('x', 200)
       .attr('y', 100)
@@ -338,9 +338,9 @@ function drawHeatmap() {
 
   // Dimensions
   const containerWidth = heatmapContainer.value.clientWidth - 48; // padding
-  const cellSize = Math.min(30, Math.max(10, containerWidth / (clusters.length + 10)));
+  const cellSize = Math.min(30, Math.max(10, containerWidth / (speakers2.length + 10)));
   const margin = { top: 180, right: 20, bottom: 20, left: 200 };
-  const width = clusters.length * cellSize;
+  const width = speakers2.length * cellSize;
   const height = matrix.length * cellSize;
 
   svg.attr('width', width + margin.left + margin.right)
@@ -351,16 +351,16 @@ function drawHeatmap() {
 
   // Color scale
   const maxCount = d3.max(matrix.flatMap(row => row.values.map(v => v.count))) || 0;
-  const colorScale = d3.scaleSequential(d3.interpolateBlues)
+  const colorScale = d3.scaleSequential(d3.interpolateBuGn)
     .domain([0, maxCount]);
 
-  // X axis (clusters)
+  // X axis (speakers on x-axis)
   const xScale = d3.scaleBand()
-    .domain(clusters.map(c => c.id))
+    .domain(speakers2.map(s => s.id))
     .range([0, width])
     .padding(0.05);
 
-  // Y axis (speakers)
+  // Y axis (speakers on y-axis)
   const yScale = d3.scaleBand()
     .domain(matrix.map(row => row.speakerId))
     .range([0, height])
@@ -369,9 +369,9 @@ function drawHeatmap() {
   // Draw cells
   matrix.forEach((row) => {
     row.values.forEach((value) => {
-      if (!value.clusterId) return;
+      if (!value.speakerId) return;
       
-      const x = xScale(value.clusterId);
+      const x = xScale(value.speakerId);
       const y = yScale(row.speakerId);
       
       if (x === undefined || y === undefined) return;
@@ -414,8 +414,8 @@ function drawHeatmap() {
             .style('font-size', '12px')
             .style('z-index', '1000')
             .html(`
-              <strong>${row.speakerName}</strong><br/>
-              ${value.clusterName}<br/>
+              <strong>${row.speaker1Name}</strong><br/>
+              ${value.speaker2Name}<br/>
               ${value.count} Episoden
             `)
             .style('left', (event.pageX + 10) + 'px')
@@ -436,8 +436,8 @@ function drawHeatmap() {
           d3.selectAll('.heatmap-tooltip').remove();
           
           selectedCell.value = {
-            speakerName: row.speakerName || '',
-            clusterName: value.clusterName || '',
+            speaker1Name: row.speaker1Name || row.speakerName || '',
+            speaker2Name: value.speaker2Name || '',
             count: value.count,
             episodes: value.episodes
           };
@@ -465,10 +465,10 @@ function drawHeatmap() {
     });
   });
 
-  // X axis labels (clusters)
+  // X axis labels (speakers on x-axis)
   g.append('g')
     .selectAll('text')
-    .data(clusters)
+    .data(speakers2)
     .enter()
     .append('text')
     .attr('x', d => (xScale(d.id) || 0) + xScale.bandwidth() / 2)
@@ -482,7 +482,7 @@ function drawHeatmap() {
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
     .text(d => d.name);
 
-  // Y axis labels (speakers)
+  // Y axis labels (speakers on y-axis)
   g.append('g')
     .selectAll('text')
     .data(matrix)
@@ -494,7 +494,7 @@ function drawHeatmap() {
     .attr('dominant-baseline', 'middle')
     .attr('font-size', '10px')
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
-    .text(d => d.speakerName || '');
+    .text(d => d.speaker1Name || d.speakerName || '');
 
   // Legend
   const legendWidth = 200;
@@ -543,7 +543,7 @@ function drawHeatmap() {
 // Load data on mount
 onMounted(async () => {
   try {
-    const response = await fetch('/speaker-cluster-heatmap.json');
+    const response = await fetch('/speaker-speaker-heatmap.json');
     heatmapData.value = await response.json();
   } catch (error) {
     console.error('Failed to load heatmap data:', error);
@@ -551,14 +551,14 @@ onMounted(async () => {
 });
 
 // Watch for data changes and redraw
-watch([heatmapData, filteredMatrix, filteredClusters, () => settingsStore.isDarkMode], () => {
+watch([heatmapData, filteredMatrix, filteredSpeakers2, () => settingsStore.isDarkMode], () => {
   if (heatmapData.value) {
     drawHeatmap();
   }
 });
 
 // Clear selection when slider values change
-watch([() => settingsStore.topNSpeakersClusterHeatmap, () => settingsStore.topNClustersHeatmap], () => {
+watch([() => settingsStore.topNSpeakers1Heatmap, () => settingsStore.topNSpeakers2Heatmap], () => {
   selectedCell.value = null;
   showEpisodeList.value = false;
 });
