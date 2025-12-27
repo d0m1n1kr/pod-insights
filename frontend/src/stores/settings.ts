@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import { ref } from 'vue';
+import { ref, computed, watch } from 'vue';
 
 export const useSettingsStore = defineStore('settings', () => {
   // State
@@ -11,6 +11,17 @@ export const useSettingsStore = defineStore('settings', () => {
   const topNSpeakersClusterHeatmap = ref(15);
   const topNClustersHeatmap = ref(20);
   
+  // Dark mode: 'auto' | 'light' | 'dark'
+  const themeMode = ref<'auto' | 'light' | 'dark'>('auto');
+  
+  // Computed: actual dark mode state
+  const isDarkMode = computed(() => {
+    if (themeMode.value === 'auto') {
+      return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    return themeMode.value === 'dark';
+  });
+  
   // Actions
   function toggleNormalizedView() {
     normalizedView.value = !normalizedView.value;
@@ -20,6 +31,38 @@ export const useSettingsStore = defineStore('settings', () => {
     normalizedView.value = value;
   }
   
+  function setThemeMode(mode: 'auto' | 'light' | 'dark') {
+    themeMode.value = mode;
+    applyTheme();
+  }
+  
+  function cycleThemeMode() {
+    const modes: Array<'auto' | 'light' | 'dark'> = ['auto', 'light', 'dark'];
+    const currentIndex = modes.indexOf(themeMode.value);
+    const nextIndex = (currentIndex + 1) % modes.length;
+    const nextMode = modes[nextIndex];
+    if (nextMode) {
+      setThemeMode(nextMode);
+    }
+  }
+  
+  function applyTheme() {
+    console.log('applyTheme called, isDarkMode:', isDarkMode.value, 'themeMode:', themeMode.value);
+    if (isDarkMode.value) {
+      document.documentElement.classList.add('dark');
+      console.log('Added dark class to html');
+    } else {
+      document.documentElement.classList.remove('dark');
+      console.log('Removed dark class from html');
+    }
+    console.log('Current classes:', document.documentElement.className);
+  }
+  
+  // Watch for theme changes
+  watch([themeMode, isDarkMode], () => {
+    applyTheme();
+  });
+  
   return {
     normalizedView,
     topicFilter,
@@ -28,8 +71,13 @@ export const useSettingsStore = defineStore('settings', () => {
     topNCategoriesHeatmap,
     topNSpeakersClusterHeatmap,
     topNClustersHeatmap,
+    themeMode,
+    isDarkMode,
     toggleNormalizedView,
-    setNormalizedView
+    setNormalizedView,
+    setThemeMode,
+    cycleThemeMode,
+    applyTheme
   };
 }, {
   persist: {

@@ -622,7 +622,7 @@ const formatDuration = (duration: [number, number, number]) => {
     
     <div class="controls mb-6">
       <div class="flex items-center gap-4 flex-wrap">
-        <label class="m-2 text-sm font-medium text-gray-700">
+        <label class="m-2 text-sm font-medium text-gray-700 dark:text-gray-300">
           Anzahl Themen:
           <input
             v-model.number="settingsStore.topicFilter"
@@ -632,10 +632,10 @@ const formatDuration = (duration: [number, number, number]) => {
             step="1"
             :class="['ml-2 w-48', themeColor === 'blue' ? 'slider-blue' : 'slider-purple']"
           />
-          <span :class="['ml-2 font-semibold', themeColor === 'blue' ? 'text-blue-600' : 'text-purple-600']">{{ settingsStore.topicFilter }}</span>
+          <span :class="['ml-2 font-semibold', themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400' : 'text-purple-600 dark:text-purple-400']">{{ settingsStore.topicFilter }}</span>
         </label>
         
-        <label class="flex items-center gap-2 text-sm font-medium text-gray-700 cursor-pointer">
+        <label class="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300 cursor-pointer">
           <input
             v-model="settingsStore.normalizedView"
             type="checkbox"

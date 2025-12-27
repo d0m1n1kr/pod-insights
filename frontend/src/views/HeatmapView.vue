@@ -355,8 +355,8 @@ const formatDuration = (duration: [number, number, number]) => {
     <p class="text-red-800 font-semibold">{{ error }}</p>
   </div>
 
-  <div v-else-if="heatmapData" class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
-    <div class="p-6 border-b border-gray-200 bg-gradient-to-r from-pink-50 to-pink-100">
+  <div v-else-if="heatmapData" class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-pink-50 to-pink-100 dark:from-pink-900/20 dark:to-pink-900/30">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div class="text-center">
           <div class="text-3xl font-bold text-pink-600">{{ heatmapData.statistics.totalSpeakers }}</div>
@@ -376,7 +376,7 @@ const formatDuration = (duration: [number, number, number]) => {
     <div class="p-6">
       <!-- Controls -->
       <div class="mb-6 flex gap-6 flex-wrap items-center">
-        <label class="text-sm font-medium text-gray-700">
+        <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
           Anzahl Sprecher:
           <input
             v-model.number="settingsStore.topNSpeakersHeatmap"
@@ -386,10 +386,10 @@ const formatDuration = (duration: [number, number, number]) => {
             step="1"
             class="ml-2 w-48 slider-pink"
           />
-          <span class="ml-2 text-pink-600 font-semibold">{{ settingsStore.topNSpeakersHeatmap }}</span>
+          <span class="ml-2 text-pink-600 dark:text-pink-400 font-semibold">{{ settingsStore.topNSpeakersHeatmap }}</span>
         </label>
         
-        <label class="text-sm font-medium text-gray-700">
+        <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
           Anzahl Kategorien:
           <input
             v-model.number="settingsStore.topNCategoriesHeatmap"
@@ -399,7 +399,7 @@ const formatDuration = (duration: [number, number, number]) => {
             step="1"
             class="ml-2 w-48 slider-pink"
           />
-          <span class="ml-2 text-pink-600 font-semibold">{{ settingsStore.topNCategoriesHeatmap }}</span>
+          <span class="ml-2 text-pink-600 dark:text-pink-400 font-semibold">{{ settingsStore.topNCategoriesHeatmap }}</span>
         </label>
       </div>
 
@@ -425,8 +425,8 @@ const formatDuration = (duration: [number, number, number]) => {
             </div>
 
             <!-- Episode List -->
-            <div v-if="showEpisodeList" class="mt-4 bg-white rounded-lg border border-pink-300 overflow-hidden">
-              <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600">
+            <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-pink-300 dark:border-pink-700 overflow-hidden">
+              <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                 Lade Episoden-Details...
               </div>
               <div v-else class="max-h-96 overflow-y-auto">

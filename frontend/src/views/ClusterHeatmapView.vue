@@ -34,7 +34,7 @@
                 step="1"
                 class="ml-2 w-48 slider-orange"
               />
-              <span class="ml-2 text-blue-600 dark:text-blue-400 font-semibold">{{ settingsStore.topNSpeakersClusterHeatmap }}</span>
+              <span class="ml-2 text-orange-600 dark:text-orange-400 font-semibold">{{ settingsStore.topNSpeakersClusterHeatmap }}</span>
             </label>
             
             <label class="text-sm font-medium text-gray-700 dark:text-gray-300">

@@ -1,34 +1,62 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
+import { useSettingsStore } from './stores/settings';
 
 const route = useRoute();
+const settingsStore = useSettingsStore();
 
 const activeView = computed(() => {
   return route.name as 'topics' | 'categories' | 'speakers' | 'heatmap' | 'cluster-heatmap' | 'about';
 });
+
+const themeIcon = computed(() => {
+  if (settingsStore.themeMode === 'auto') return '🌓';
+  if (settingsStore.themeMode === 'light') return '☀️';
+  return '🌙';
+});
+
+const themeLabel = computed(() => {
+  if (settingsStore.themeMode === 'auto') return 'Auto';
+  if (settingsStore.themeMode === 'light') return 'Hell';
+  return 'Dunkel';
+});
 </script>
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-    <header class="bg-white border-b border-gray-200 shadow-sm">
+  <div class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
+    <header class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 shadow-sm">
       <div class="container mx-auto px-4 py-6">
-        <h1 class="text-4xl font-bold text-gray-900">
-          Freak Show Visualisierung
-        </h1>
-        <p class="text-gray-600 mt-2">
-          Visualisierung der Themen- und Sprecher-Entwicklung über die Jahre
-        </p>
+        <div class="flex items-start justify-between">
+          <div class="flex-1">
+            <h1 class="text-4xl font-bold text-gray-900 dark:text-white">
+              Freak Show Visualisierung
+            </h1>
+            <p class="text-gray-600 dark:text-gray-400 mt-2">
+              Visualisierung der Themen- und Sprecher-Entwicklung über die Jahre
+            </p>
+          </div>
+          
+          <!-- Theme Toggle -->
+          <button
+            @click="settingsStore.cycleThemeMode()"
+            class="flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+            :title="`Aktuell: ${themeLabel}`"
+          >
+            <span class="text-2xl">{{ themeIcon }}</span>
+            <span class="text-sm font-medium text-gray-700 dark:text-gray-300">{{ themeLabel }}</span>
+          </button>
+        </div>
         
         <!-- Tab Navigation with Router Links -->
-        <div class="mt-6 flex gap-2 border-b border-gray-200">
+        <div class="mt-6 flex gap-2 border-b border-gray-200 dark:border-gray-700">
           <router-link
             to="/categories"
             :class="[
               'px-6 py-3 font-semibold border-b-2 transition-colors',
               activeView === 'categories' 
-                ? 'border-purple-500 text-purple-600' 
-                : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+                ? 'border-purple-500 text-purple-600 dark:text-purple-400' 
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
             ]"
           >
             Kategorien
@@ -38,8 +66,8 @@ const activeView = computed(() => {
             :class="[
               'px-6 py-3 font-semibold border-b-2 transition-colors',
               activeView === 'topics' 
-                ? 'border-blue-500 text-blue-600' 
-                : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+                ? 'border-blue-500 text-blue-600 dark:text-blue-400' 
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
             ]"
           >
             Themen
@@ -49,8 +77,8 @@ const activeView = computed(() => {
             :class="[
               'px-6 py-3 font-semibold border-b-2 transition-colors',
               activeView === 'speakers' 
-                ? 'border-green-500 text-green-600' 
-                : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+                ? 'border-green-500 text-green-600 dark:text-green-400' 
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
             ]"
           >
             Sprecher
@@ -60,8 +88,8 @@ const activeView = computed(() => {
             :class="[
               'px-6 py-3 font-semibold border-b-2 transition-colors',
               activeView === 'heatmap' 
-                ? 'border-pink-500 text-pink-600' 
-                : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+                ? 'border-pink-500 text-pink-600 dark:text-pink-400' 
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
             ]"
           >
             Sprecher × Kategorien
@@ -71,8 +99,8 @@ const activeView = computed(() => {
             :class="[
               'px-6 py-3 font-semibold border-b-2 transition-colors',
               activeView === 'cluster-heatmap' 
-                ? 'border-orange-500 text-orange-600' 
-                : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+                ? 'border-orange-500 text-orange-600 dark:text-orange-400' 
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
             ]"
           >
             Sprecher × Cluster
@@ -82,8 +110,8 @@ const activeView = computed(() => {
             :class="[
               'px-6 py-3 font-semibold border-b-2 transition-colors',
               activeView === 'about' 
-                ? 'border-indigo-500 text-indigo-600' 
-                : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+                ? 'border-indigo-500 text-indigo-600 dark:text-indigo-400' 
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
             ]"
           >
             Über

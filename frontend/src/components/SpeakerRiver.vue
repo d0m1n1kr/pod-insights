@@ -525,7 +525,7 @@ watch(selectedYear, () => {
     
     <div class="controls mb-6">
       <div class="flex items-center gap-4 flex-wrap">
-        <label class="m-2 text-sm font-medium text-gray-700">
+        <label class="m-2 text-sm font-medium text-gray-700 dark:text-gray-300">
           Anzahl Sprecher:
           <input
             v-model.number="settingsStore.speakerFilter"
@@ -535,10 +535,10 @@ watch(selectedYear, () => {
             step="1"
             class="ml-2 w-48 slider-green"
           />
-          <span class="ml-2 text-green-600 font-semibold">{{ settingsStore.speakerFilter }}</span>
+          <span class="ml-2 text-green-600 dark:text-green-400 font-semibold">{{ settingsStore.speakerFilter }}</span>
         </label>
         
-        <label class="flex items-center gap-2 text-sm font-medium text-gray-700 cursor-pointer">
+        <label class="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300 cursor-pointer">
           <input
             v-model="settingsStore.normalizedView"
             type="checkbox"

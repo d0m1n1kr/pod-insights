@@ -1,5 +1,31 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  /* Enable dark mode based on class */
+  :root {
+    color-scheme: light;
+  }
+  
+  .dark {
+    color-scheme: dark;
+  }
+  
+  /* D3 Labels in Dark Mode */
+  .dark svg text {
+    fill: #d1d5db !important; /* gray-300 */
+  }
+  
+  .dark svg .axis-label {
+    fill: #9ca3af !important; /* gray-400 */
+  }
+  
+  .dark svg .legend-text {
+    fill: #d1d5db !important; /* gray-300 */
+  }
+}
+
 /* Base Range Slider Styles */
 input[type="range"] {
   -webkit-appearance: none;
