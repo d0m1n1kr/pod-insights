@@ -1,14 +1,14 @@
 <template>
   <div class="flex flex-col h-full">
     <!-- Header -->
-    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-orange-50 to-orange-100">
+    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/20 dark:to-orange-900/30">
       <div v-if="heatmapData" class="grid grid-cols-2 gap-4">
         <div class="text-center">
-          <div class="text-3xl font-bold text-orange-600">{{ heatmapData.statistics.totalSpeakers }}</div>
+          <div class="text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalSpeakers }}</div>
           <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Sprecher insgesamt</p>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-orange-600">{{ heatmapData.statistics.totalClusters }}</div>
+          <div class="text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalClusters }}</div>
           <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Cluster insgesamt</p>
         </div>
       </div>
@@ -386,13 +386,20 @@ function drawHeatmap() {
 
       // Add text for non-zero values
       if (value.count > 0 && cellSize > 15) {
+        // Calculate luminance of the cell color to determine text color
+        const color = d3.rgb(colorScale(value.count));
+        const luminance = (0.299 * color.r + 0.587 * color.g + 0.114 * color.b) / 255;
+        
+        // Use dark text for light cells, white text for dark cells
+        const textColor = luminance > 0.5 ? '#1f2937' : 'white';
+        
         cellGroup.append('text')
           .attr('x', x + xScale.bandwidth() / 2)
           .attr('y', y + yScale.bandwidth() / 2)
           .attr('text-anchor', 'middle')
           .attr('dominant-baseline', 'middle')
           .attr('font-size', Math.min(10, cellSize * 0.4))
-          .attr('fill', value.count > maxCount / 2 ? 'white' : 'black')
+          .attr('fill', textColor)
           .attr('pointer-events', 'none')
           .text(value.count);
       }

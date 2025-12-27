@@ -12,18 +12,20 @@
     color-scheme: dark;
   }
   
-  /* D3 Labels in Dark Mode */
-  .dark svg text {
-    fill: #d1d5db !important; /* gray-300 */
+  /* D3 Axis and Legend Labels in Dark Mode - but NOT heatmap cell text */
+  .dark svg text:not([pointer-events="none"]) {
+    fill: #d1d5db; /* gray-300 */
   }
   
   .dark svg .axis-label {
-    fill: #9ca3af !important; /* gray-400 */
+    fill: #9ca3af; /* gray-400 */
   }
   
   .dark svg .legend-text {
-    fill: #d1d5db !important; /* gray-300 */
+    fill: #d1d5db; /* gray-300 */
   }
+  
+  /* Heatmap cell text keeps its dynamic color (pointer-events: none) */
 }
 
 /* Base Range Slider Styles */

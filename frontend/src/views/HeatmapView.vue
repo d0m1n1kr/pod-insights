@@ -193,12 +193,19 @@ const drawHeatmap = () => {
       
       // Add text for non-zero values
       if (value > 0) {
+        // Calculate luminance of the cell color to determine text color
+        const color = d3.rgb(colorScale(value));
+        const luminance = (0.299 * color.r + 0.587 * color.g + 0.114 * color.b) / 255;
+        
+        // Use dark text for light cells, white text for dark cells
+        const textColor = luminance > 0.5 ? '#1f2937' : 'white';
+        
         g.append('text')
           .attr('x', j * cellSize + cellSize / 2)
           .attr('y', i * cellSize + cellSize / 2)
           .attr('text-anchor', 'middle')
           .attr('dominant-baseline', 'middle')
-          .attr('fill', value > maxValue / 2 ? 'white' : '#333')
+          .attr('fill', textColor)
           .attr('font-size', '11px')
           .attr('font-weight', '600')
           .attr('pointer-events', 'none')
@@ -404,21 +411,21 @@ const formatDuration = (duration: [number, number, number]) => {
       </div>
 
       <!-- Selected Cell Details -->
-      <div v-if="selectedCellData && selectedCellData.count > 0" class="mb-6 p-4 bg-pink-50 border border-pink-200 rounded-lg">
+      <div v-if="selectedCellData && selectedCellData.count > 0" class="mb-6 p-4 bg-pink-50 dark:bg-pink-900/20 border border-pink-200 dark:border-pink-700 rounded-lg">
         <div class="flex items-start justify-between">
           <div class="flex-1">
-            <h3 class="font-semibold text-lg text-pink-900">
+            <h3 class="font-semibold text-lg text-pink-900 dark:text-pink-100">
               {{ selectedCellData.speakerName }} → {{ selectedCellData.categoryName }}
             </h3>
-            <p class="text-sm text-pink-700 mt-1">{{ selectedCellData.categoryDescription }}</p>
-            <p class="text-sm text-pink-600 mt-2">
+            <p class="text-sm text-pink-700 dark:text-pink-300 mt-1">{{ selectedCellData.categoryDescription }}</p>
+            <p class="text-sm text-pink-600 dark:text-pink-400 mt-2">
               <strong>{{ selectedCellData.count }}</strong> Episoden in dieser Kombination
             </p>
             
             <div class="mt-3 flex gap-4">
               <button
                 @click="showEpisodeList = !showEpisodeList; if (showEpisodeList) showTopicList = false;"
-                class="text-sm text-pink-600 hover:text-pink-800 font-semibold underline"
+                class="text-sm text-pink-600 hover:text-pink-800 dark:text-pink-400 dark:hover:text-pink-300 font-semibold underline"
               >
                 {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCellData.episodes.length} Episoden anzeigen` }}
               </button>
@@ -431,29 +438,29 @@ const formatDuration = (duration: [number, number, number]) => {
               </div>
               <div v-else class="max-h-96 overflow-y-auto">
                 <table class="w-full text-sm">
-                  <thead class="bg-pink-100 sticky top-0">
+                  <thead class="bg-pink-100 dark:bg-pink-900 sticky top-0">
                     <tr>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900">#</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900">Datum</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900">Titel</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900">Dauer</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900">Sprecher</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900">Link</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">#</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Datum</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Titel</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Dauer</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Sprecher</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Link</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr 
                       v-for="episodeNum in selectedCellData.episodes" 
                       :key="episodeNum"
-                      class="border-t border-pink-100 hover:bg-pink-50"
+                      class="border-t border-pink-100 dark:border-pink-800 hover:bg-pink-50 dark:hover:bg-pink-900/20"
                     >
                       <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum)">
-                        <td class="px-3 py-2 text-pink-700 font-mono text-xs">{{ episodeNum }}</td>
-                        <td class="px-3 py-2 text-gray-600 whitespace-nowrap">
+                        <td class="px-3 py-2 text-pink-700 dark:text-pink-300 font-mono text-xs">{{ episodeNum }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap">
                           {{ new Date(episodeDetails.get(episodeNum).date).toLocaleDateString('de-DE') }}
                         </td>
-                        <td class="px-3 py-2 text-gray-900">{{ episodeDetails.get(episodeNum).title }}</td>
-                        <td class="px-3 py-2 text-gray-600 text-xs">
+                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100">{{ episodeDetails.get(episodeNum).title }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs">
                           {{ formatDuration(episodeDetails.get(episodeNum).duration) }}
                         </td>
                         <td class="px-3 py-2 text-xs">
@@ -462,10 +469,10 @@ const formatDuration = (duration: [number, number, number]) => {
                               :class="[
                                 'inline-block',
                                 speaker === selectedCellData?.speakerName 
-                                  ? 'font-semibold text-pink-700 bg-pink-100 px-1 rounded' 
-                                  : 'text-gray-600'
+                                  ? 'font-semibold text-pink-700 dark:text-pink-300 bg-pink-100 dark:bg-pink-900/30 px-1 rounded' 
+                                  : 'text-gray-600 dark:text-gray-400'
                               ]"
-                            >{{ speaker }}</span><span v-if="(idx as number) < (episodeDetails.get(episodeNum).speakers.length - 1)" class="text-gray-600">, </span>
+                            >{{ speaker }}</span><span v-if="(idx as number) < (episodeDetails.get(episodeNum).speakers.length - 1)" class="text-gray-600 dark:text-gray-400">, </span>
                           </template>
                         </td>
                         <td class="px-3 py-2">
@@ -473,17 +480,17 @@ const formatDuration = (duration: [number, number, number]) => {
                             :href="episodeDetails.get(episodeNum).url"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="text-pink-600 hover:text-pink-800 underline text-xs"
+                            class="text-pink-600 hover:text-pink-800 dark:text-pink-400 dark:hover:text-pink-300 underline text-xs"
                           >
                             🔗
                           </a>
                         </td>
                       </template>
                       <template v-else-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) === null">
-                        <td colspan="6" class="px-3 py-2 text-gray-400 text-xs">Episode {{ episodeNum }} - Daten nicht verfügbar</td>
+                        <td colspan="6" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">Episode {{ episodeNum }} - Daten nicht verfügbar</td>
                       </template>
                       <template v-else>
-                        <td colspan="6" class="px-3 py-2 text-gray-400 text-xs">Lädt...</td>
+                        <td colspan="6" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">Lädt...</td>
                       </template>
                     </tr>
                   </tbody>
@@ -493,7 +500,7 @@ const formatDuration = (duration: [number, number, number]) => {
           </div>
           <button
             @click="selectedSpeaker = null; selectedCategory = null; showEpisodeList = false;"
-            class="text-pink-600 hover:text-pink-800 font-semibold ml-4"
+            class="text-pink-600 hover:text-pink-800 dark:text-pink-400 dark:hover:text-pink-300 font-semibold ml-4"
           >
             ✕
           </button>

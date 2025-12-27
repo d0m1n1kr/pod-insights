@@ -812,7 +812,7 @@ const formatDuration = (duration: [number, number, number]) => {
       <svg ref="svgRef" class="topic-river-svg"></svg>
     </div>
     
-    <div class="mt-6 text-sm text-gray-600">
+    <div class="mt-6 text-sm text-gray-600 dark:text-gray-400">
       <p>
         <strong>Interaktion:</strong> Bewege die Maus über einen Stream oder die Legende, um das Topic hervorzuheben. 
         Klicke, um Details anzuzeigen.
