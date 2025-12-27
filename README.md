@@ -300,3 +300,47 @@ For more details, see [RUST-CLUSTERING.md](RUST-CLUSTERING.md).
 
 **Note**: The original JavaScript implementation is kept in `cluster-topics.js` for reference.
 
+## Topic Category Grouping
+
+After clustering topics into 256 clusters, you can create higher-level categories for a more abstract view:
+
+### Generate Category Groups
+
+```bash
+# Create topic categories (default: 12 categories)
+node cluster-categories.js
+```
+
+This script:
+1. Loads your existing topic clusters from `topic-taxonomy.json`
+2. Creates cluster embeddings by averaging topic embeddings
+3. Performs hierarchical clustering on the clusters themselves
+4. Uses LLM to name each category (e.g., "Technology & Hardware", "Politics & Society")
+5. Outputs to `topic-categories.json`
+
+### Configure Category Count
+
+Edit `settings.json`:
+
+```json
+{
+  "categoryGrouping": {
+    "categories": 12
+  }
+}
+```
+
+Recommended values:
+- **8-10**: Very high-level overview
+- **12-15**: Balanced (default)
+- **20-25**: More granular categories
+
+### Generate Category River Chart
+
+```bash
+# Generate river chart data for categories
+node generate-category-river.js
+```
+
+This creates `category-river-data.json` which can be visualized using the same frontend as the topic river chart, providing a "zoomed out" view of how broad themes evolved over time.
+

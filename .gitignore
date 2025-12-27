@@ -6,6 +6,17 @@ episodes/
 .env
 settings.json
 
+# Generated data files
+topic-embeddings.json
+topic-taxonomy.json
+topic-categories.json
+topic-river-data.json
+category-river-data.json
+speaker-river-data.json
+
 # Rust build artifacts
 /target/
 Cargo.lock
+
+# Frontend public data - symlink to episodes
+frontend/public/episodes

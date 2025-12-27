@@ -12,7 +12,9 @@
     "normalize-topics": "node normalize-topics.js",
     "create-embeddings": "node create-embeddings.js",
     "cluster-topics": "node cluster-topics.js",
-    "topic-river": "node generate-topic-river.js"
+    "topic-river": "node generate-topic-river.js",
+    "cluster-categories": "node cluster-categories.js",
+    "category-river": "node generate-category-river.js"
   },
   "dependencies": {
     "puppeteer": "^24.0.0"

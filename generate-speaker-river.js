@@ -101,11 +101,16 @@ function aggregateSpeakersByYear(episodes) {
       }
       
       const metadata = speakerMetadata.get(speakerId);
-      metadata.totalEpisodes++;
-      metadata.totalDurationHours += durationToHours(episode.duration);
+      
+      // Only add episode if not already in list (prevent duplicates)
+      if (!metadata.episodes.includes(episode.number)) {
+        metadata.episodes.push(episode.number);
+        metadata.totalEpisodes++;
+        metadata.totalDurationHours += durationToHours(episode.duration);
+      }
+      
       metadata.firstAppearance = Math.min(metadata.firstAppearance, year);
       metadata.lastAppearance = Math.max(metadata.lastAppearance, year);
-      metadata.episodes.push(episode.number);
       
       // Aggregiere nach Jahr
       const yearKey = `${speakerId}-${year}`;
@@ -123,7 +128,11 @@ function aggregateSpeakersByYear(episodes) {
       const yearData = speakersByYear.get(yearKey);
       yearData.episodeCount++;
       yearData.durationHours += durationToHours(episode.duration);
-      yearData.episodes.push(episode.number);
+      
+      // Only add episode if not already in list (prevent duplicates)
+      if (!yearData.episodes.includes(episode.number)) {
+        yearData.episodes.push(episode.number);
+      }
     }
   }
   

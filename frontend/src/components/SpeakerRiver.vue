@@ -12,6 +12,7 @@ const containerRef = ref<HTMLDivElement | null>(null);
 const selectedSpeaker = ref<string | null>(null);
 const hoveredSpeaker = ref<string | null>(null);
 const speakerFilter = ref<number>(15);
+const normalizedView = ref<boolean>(false);
 const dimensions = ref({ width: 1200, height: 600 });
 
 // Prozessiere die Daten
@@ -36,8 +37,33 @@ const processedData = computed(() => {
   
   console.log('Top speakers count:', topSpeakers.length);
   
-  const colorScale = d3.scaleOrdinal(d3.schemeCategory10)
-    .domain(topSpeakers.map((_, i) => i.toString()));
+  // Erweiterte Farbpalette für mehr Speaker
+  const generateColors = (count: number): string[] => {
+    if (count <= 10) {
+      return d3.schemeCategory10.slice(0, count);
+    }
+    
+    // Kombiniere mehrere D3 Farbschemata für bessere Unterscheidbarkeit
+    const colors = [
+      ...d3.schemeCategory10,
+      ...d3.schemePaired,
+      ...d3.schemeSet3
+    ];
+    
+    // Falls immer noch nicht genug, generiere zusätzliche Farben mit HSL
+    if (count > colors.length) {
+      for (let i = colors.length; i < count; i++) {
+        const hue = (i * 137.5) % 360; // Goldener Winkel für gute Verteilung
+        const saturation = 60 + (i % 3) * 15;
+        const lightness = 45 + (i % 4) * 10;
+        colors.push(`hsl(${hue}, ${saturation}%, ${lightness}%)`);
+      }
+    }
+    
+    return colors.slice(0, count);
+  };
+  
+  const colors = generateColors(topSpeakers.length);
   
   topSpeakers.forEach((speakerMeta, index) => {
     const speaker = speakerMeta.data;
@@ -60,7 +86,7 @@ const processedData = computed(() => {
       name: speaker.name,
       yearValues,
       totalAppearances: speaker.totalEpisodes,
-      color: colorScale(index.toString())
+      color: colors[index] || '#888'
     });
   });
   
@@ -76,7 +102,7 @@ const drawRiver = () => {
   const height = dimensions.value.height;
   dimensions.value.width = width;
   
-  const margin = { top: 20, right: 200, bottom: 60, left: 60 };
+  const margin = { top: 20, right: 280, bottom: 60, left: 60 };
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
   
@@ -106,17 +132,20 @@ const drawRiver = () => {
   const keys = speakers.map(s => s.id);
   const stack = d3.stack()
     .keys(keys)
-    .offset(d3.stackOffsetWiggle)
+    // In normierter Ansicht: stackOffsetExpand sorgt für gleich hohe Jahre (0-1)
+    // In normaler Ansicht: stackOffsetWiggle für schöne Stream-Optik
+    .offset(normalizedView.value ? d3.stackOffsetExpand : d3.stackOffsetWiggle)
     .order(d3.stackOrderInsideOut);
   
   const series = stack(stackData);
   
   // Scales
   const xScale = d3.scaleLinear()
-    .domain([years[0], years[years.length - 1]])
+    .domain([years[0] || 0, years[years.length - 1] || 0])
     .range([0, innerWidth]);
   
-  const yExtent = d3.extent(series.flat(2)) as [number, number];
+  const flatValues = series.flat(2).filter((d): d is number => d !== undefined);
+  const yExtent = d3.extent(flatValues) as [number, number];
   const yScale = d3.scaleLinear()
     .domain(yExtent)
     .range([innerHeight, 0]);
@@ -145,13 +174,16 @@ const drawRiver = () => {
       return 0.2;
     })
     .style('cursor', 'pointer')
-    .on('mouseover', function(event: any, d: any) {
+    .on('mouseover', function(_event: any, d: any) {
       hoveredSpeaker.value = d.key;
     })
-    .on('mouseout', function() {
-      hoveredSpeaker.value = null;
+    .on('mouseout', function(_event: any, d: any) {
+      // Only clear if we're leaving the current hovered item
+      if (hoveredSpeaker.value === d.key) {
+        hoveredSpeaker.value = null;
+      }
     })
-    .on('click', function(event: any, d: any) {
+    .on('click', function(_event: any, d: any) {
       selectedSpeaker.value = selectedSpeaker.value === d.key ? null : d.key;
     });
   
@@ -184,13 +216,18 @@ const drawRiver = () => {
   
   speakers.forEach((speaker, i) => {
     const legendRow = legend.append('g')
+      .attr('class', 'legend-item')
+      .attr('data-speaker-id', speaker.id)
       .attr('transform', `translate(0, ${i * 24})`)
       .style('cursor', 'pointer')
       .on('mouseover', function() {
         hoveredSpeaker.value = speaker.id;
       })
       .on('mouseout', function() {
-        hoveredSpeaker.value = null;
+        // Only clear if we're leaving the current hovered item
+        if (hoveredSpeaker.value === speaker.id) {
+          hoveredSpeaker.value = null;
+        }
       })
       .on('click', function() {
         selectedSpeaker.value = selectedSpeaker.value === speaker.id ? null : speaker.id;
@@ -206,7 +243,7 @@ const drawRiver = () => {
         return 0.2;
       });
     
-    legendRow.append('text')
+    const text = legendRow.append('text')
       .attr('x', 22)
       .attr('y', 12)
       .attr('fill', '#333')
@@ -216,18 +253,75 @@ const drawRiver = () => {
         return '400';
       })
       .text(`${speaker.name} (${speaker.totalAppearances} Episoden)`);
+    
+    // Tooltip für lange Namen
+    text.append('title').text(`${speaker.name} (${speaker.totalAppearances} Episoden)`);
+  });
+  
+  return streams; // Return streams for updating
+};
+
+// Function to update opacity without full redraw
+const updateOpacity = () => {
+  if (!svgRef.value) return;
+  
+  const svg = d3.select(svgRef.value);
+  
+  // Update stream opacity
+  svg.selectAll('.stream')
+    .attr('opacity', function(d: any) {
+      if (!hoveredSpeaker.value && !selectedSpeaker.value) return 0.8;
+      if (hoveredSpeaker.value && d.key === hoveredSpeaker.value) return 1;
+      if (selectedSpeaker.value && d.key === selectedSpeaker.value) return 1;
+      return 0.2;
+    });
+  
+  // Update legend opacity and font weight
+  svg.selectAll('.legend-item').each(function() {
+    const item = d3.select(this);
+    const speakerId = item.attr('data-speaker-id');
+    
+    item.select('rect')
+      .attr('opacity', () => {
+        if (!hoveredSpeaker.value && !selectedSpeaker.value) return 0.8;
+        if (hoveredSpeaker.value === speakerId || selectedSpeaker.value === speakerId) return 1;
+        return 0.2;
+      });
+    
+    item.select('text')
+      .style('font-weight', () => {
+        if (hoveredSpeaker.value === speakerId || selectedSpeaker.value === speakerId) return '600';
+        return '400';
+      });
   });
 };
 
 // Watch für Änderungen
 watch(speakerFilter, () => {
   console.log('speakerFilter changed to:', speakerFilter.value);
+  hoveredSpeaker.value = null; // Clear hover on filter change
   drawRiver();
 });
 
-watch([hoveredSpeaker, selectedSpeaker], () => {
+watch(normalizedView, () => {
+  console.log('normalizedView changed to:', normalizedView.value);
+  hoveredSpeaker.value = null; // Clear hover on view change
   drawRiver();
 });
+
+// For hover/selection, just update opacity without redrawing
+watch([hoveredSpeaker, selectedSpeaker], () => {
+  updateOpacity();
+});
+
+// Helper function to format duration
+const formatDuration = (duration: [number, number, number]) => {
+  const [hours, minutes, seconds] = duration;
+  if (hours > 0) {
+    return `${hours}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+  }
+  return `${minutes}:${seconds.toString().padStart(2, '0')}`;
+};
 
 // Initial draw und resize listener
 onMounted(() => {
@@ -253,22 +347,71 @@ const selectedSpeakerInfo = computed(() => {
     return {
       ...speaker,
       firstAppearance: null,
-      lastAppearance: null
+      lastAppearance: null,
+      episodeNumbers: []
     };
   }
+  
+  // Sammle alle Episode-Nummern
+  const episodeNumbers: number[] = [];
+  fullSpeaker.timeline.forEach(tl => {
+    episodeNumbers.push(...tl.episodes);
+  });
+  
+  // Sortiere nach Nummer (neueste zuerst)
+  episodeNumbers.sort((a, b) => b - a);
   
   return {
     ...speaker,
     firstAppearance: fullSpeaker.firstAppearance,
-    lastAppearance: fullSpeaker.lastAppearance
+    lastAppearance: fullSpeaker.lastAppearance,
+    episodeNumbers
   };
+});
+
+const showEpisodeList = ref(false);
+const episodeDetails = ref<Map<number, any>>(new Map());
+const loadingEpisodes = ref(false);
+
+// Lade Episode-Details
+const loadEpisodeDetails = async () => {
+  if (!selectedSpeakerInfo.value || loadingEpisodes.value) return;
+  
+  loadingEpisodes.value = true;
+  const newDetails = new Map<number, any>();
+  
+  // Lade nur Episoden, die noch nicht geladen sind
+  const toLoad = selectedSpeakerInfo.value.episodeNumbers.filter(num => !episodeDetails.value.has(num));
+  
+  for (const episodeNum of toLoad) {
+    try {
+      const response = await fetch(`/episodes/${episodeNum}.json`);
+      if (response.ok) {
+        const data = await response.json();
+        newDetails.set(episodeNum, data);
+      }
+    } catch (e) {
+      console.error(`Failed to load episode ${episodeNum}:`, e);
+    }
+  }
+  
+  // Merge mit existierenden Details
+  episodeDetails.value = new Map([...episodeDetails.value, ...newDetails]);
+  loadingEpisodes.value = false;
+};
+
+// Watch für showEpisodeList
+watch(showEpisodeList, (newValue) => {
+  if (newValue && selectedSpeakerInfo.value) {
+    loadEpisodeDetails();
+  }
 });
 </script>
 
 <template>
   <div class="speaker-river-container">
     <div class="controls mb-6">
-      <div class="flex items-center gap-4">
+      <div class="flex items-center gap-4 flex-wrap">
         <label class="text-sm font-medium text-gray-700">
           Anzahl Speaker:
           <input
@@ -282,11 +425,20 @@ const selectedSpeakerInfo = computed(() => {
           />
           <span class="ml-2 text-green-600 font-semibold">{{ speakerFilter }}</span>
         </label>
+        
+        <label class="flex items-center gap-2 text-sm font-medium text-gray-700 cursor-pointer">
+          <input
+            v-model="normalizedView"
+            type="checkbox"
+            class="w-4 h-4 text-green-600 rounded focus:ring-green-500"
+          />
+          <span>Normierte Ansicht (100%/Jahr)</span>
+        </label>
       </div>
       
       <div v-if="selectedSpeakerInfo" class="mt-4 p-4 bg-green-50 border border-green-200 rounded-lg">
         <div class="flex items-start justify-between">
-          <div>
+          <div class="flex-1">
             <h3 class="font-semibold text-lg text-green-900">{{ selectedSpeakerInfo.name }}</h3>
             <p class="text-sm text-green-700 mt-1">
               {{ selectedSpeakerInfo.totalAppearances }} Episoden
@@ -294,10 +446,82 @@ const selectedSpeakerInfo = computed(() => {
                 ({{ selectedSpeakerInfo.firstAppearance }} - {{ selectedSpeakerInfo.lastAppearance }})
               </span>
             </p>
+            <div class="mt-2">
+              <button
+                @click="showEpisodeList = !showEpisodeList"
+                class="text-sm text-green-600 hover:text-green-800 font-semibold underline"
+              >
+                {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedSpeakerInfo.episodeNumbers.length} Episoden anzeigen` }}
+              </button>
+            </div>
+            
+            <!-- Episode List -->
+            <div v-if="showEpisodeList" class="mt-4 bg-white rounded-lg border border-green-300 overflow-hidden">
+              <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600">
+                Lade Episoden-Details...
+              </div>
+              <div v-else class="max-h-96 overflow-y-auto">
+                <table class="w-full text-sm">
+                  <thead class="bg-green-100 sticky top-0">
+                    <tr>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">#</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Datum</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Titel</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Dauer</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Speaker</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900">Link</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr 
+                      v-for="episodeNum in selectedSpeakerInfo.episodeNumbers" 
+                      :key="episodeNum"
+                      class="border-t border-green-100 hover:bg-green-50"
+                    >
+                      <template v-if="episodeDetails.has(episodeNum)">
+                        <td class="px-3 py-2 text-green-700 font-mono text-xs">{{ episodeNum }}</td>
+                        <td class="px-3 py-2 text-gray-600 whitespace-nowrap">
+                          {{ new Date(episodeDetails.get(episodeNum).date).toLocaleDateString('de-DE') }}
+                        </td>
+                        <td class="px-3 py-2 text-gray-900">{{ episodeDetails.get(episodeNum).title }}</td>
+                        <td class="px-3 py-2 text-gray-600 text-xs">
+                          {{ formatDuration(episodeDetails.get(episodeNum).duration) }}
+                        </td>
+                        <td class="px-3 py-2 text-xs">
+                          <template v-for="(speaker, idx) in episodeDetails.get(episodeNum).speakers" :key="`${episodeNum}-${idx}`">
+                            <span
+                              :class="[
+                                'inline-block',
+                                speaker === selectedSpeakerInfo?.name 
+                                  ? 'font-semibold text-green-700 bg-green-100 px-1 rounded' 
+                                  : 'text-gray-600'
+                              ]"
+                            >{{ speaker }}</span><span v-if="(idx as number) < (episodeDetails.get(episodeNum).speakers.length - 1)" class="text-gray-600">, </span>
+                          </template>
+                        </td>
+                        <td class="px-3 py-2">
+                          <a 
+                            :href="episodeDetails.get(episodeNum).url"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-green-600 hover:text-green-800 underline text-xs"
+                          >
+                            🔗
+                          </a>
+                        </td>
+                      </template>
+                      <template v-else>
+                        <td colspan="6" class="px-3 py-2 text-gray-400 text-xs">Episode {{ episodeNum }} - Daten nicht verfügbar</td>
+                      </template>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
           <button
-            @click="selectedSpeaker = null"
-            class="text-green-600 hover:text-green-800 font-semibold"
+            @click="selectedSpeaker = null; showEpisodeList = false;"
+            class="text-green-600 hover:text-green-800 font-semibold ml-4"
           >
             ✕
           </button>

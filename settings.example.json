@@ -32,6 +32,10 @@
     "model": null,
     "_comment": "linkageMethod: 'average', 'weighted', 'ward', 'complete'. useRelevanceWeighting: Gewichtet Topics nach Episoden-Anzahl"
   },
+  "categoryGrouping": {
+    "categories": 12,
+    "_comment": "Anzahl der übergeordneten Kategorien für Topic-Gruppierung"
+  },
   "_examples": {
     "_comment": "Beispiel-Konfigurationen für verschiedene LLM-Anbieter. Kopiere die gewünschte Konfiguration in den 'llm' Abschnitt oben.",
     "openai": {

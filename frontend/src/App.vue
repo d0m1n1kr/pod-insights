@@ -5,16 +5,18 @@ import SpeakerRiver from './components/SpeakerRiver.vue';
 import type { TopicRiverData, SpeakerRiverData } from './types';
 
 const topicData = ref<TopicRiverData | null>(null);
+const categoryData = ref<TopicRiverData | null>(null);
 const speakerData = ref<SpeakerRiverData | null>(null);
 const loading = ref(true);
 const error = ref<string | null>(null);
-const activeView = ref<'topics' | 'speakers'>('topics');
+const activeView = ref<'topics' | 'categories' | 'speakers'>('topics');
 
 onMounted(async () => {
   try {
-    const [topicResponse, speakerResponse] = await Promise.all([
+    const [topicResponse, speakerResponse, categoryResponse] = await Promise.all([
       fetch('/topic-river-data.json'),
-      fetch('/speaker-river-data.json')
+      fetch('/speaker-river-data.json'),
+      fetch('/category-river-data.json').catch(() => null)
     ]);
     
     if (!topicResponse.ok || !speakerResponse.ok) {
@@ -23,6 +25,11 @@ onMounted(async () => {
     
     topicData.value = await topicResponse.json();
     speakerData.value = await speakerResponse.json();
+    
+    // Category data is optional
+    if (categoryResponse && categoryResponse.ok) {
+      categoryData.value = await categoryResponse.json();
+    }
   } catch (e) {
     error.value = e instanceof Error ? e.message : 'Unbekannter Fehler';
   } finally {
@@ -53,7 +60,19 @@ onMounted(async () => {
                 : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
             ]"
           >
-            Topics
+            Topics (Detail)
+          </button>
+          <button
+            v-if="categoryData"
+            @click="activeView = 'categories'"
+            :class="[
+              'px-6 py-3 font-semibold border-b-2 transition-colors',
+              activeView === 'categories' 
+                ? 'border-purple-500 text-purple-600' 
+                : 'border-transparent text-gray-600 hover:text-gray-900 hover:border-gray-300'
+            ]"
+          >
+            Kategorien (Übersicht)
           </button>
           <button
             @click="activeView = 'speakers'"
@@ -85,6 +104,7 @@ onMounted(async () => {
       <!-- Topics View -->
       <div v-else-if="activeView === 'topics' && topicData" class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
         <div class="p-6 border-b border-gray-200 bg-gradient-to-r from-blue-50 to-indigo-50">
+          <h2 class="text-xl font-bold text-gray-900 mb-3">Topic-Cluster (Detailansicht)</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="text-center">
               <div class="text-3xl font-bold text-blue-600">{{ topicData.statistics.totalTopics }}</div>
@@ -100,6 +120,27 @@ onMounted(async () => {
         </div>
 
         <TopicRiver :data="topicData" />
+      </div>
+
+      <!-- Categories View -->
+      <div v-else-if="activeView === 'categories' && categoryData" class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+        <div class="p-6 border-b border-gray-200 bg-gradient-to-r from-purple-50 to-pink-50">
+          <h2 class="text-xl font-bold text-gray-900 mb-3">Topic-Kategorien (Überblick)</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="text-center">
+              <div class="text-3xl font-bold text-purple-600">{{ categoryData.statistics.totalTopics }}</div>
+              <div class="text-sm text-gray-600 mt-1">Kategorien insgesamt</div>
+            </div>
+            <div class="text-center">
+              <div class="text-3xl font-bold text-pink-600">
+                {{ categoryData.statistics.yearRange.start }} - {{ categoryData.statistics.yearRange.end }}
+              </div>
+              <div class="text-sm text-gray-600 mt-1">Zeitspanne</div>
+            </div>
+          </div>
+        </div>
+
+        <TopicRiver :data="categoryData" />
       </div>
 
       <!-- Speakers View -->
@@ -131,6 +172,9 @@ onMounted(async () => {
       <footer class="mt-12 text-center text-gray-500 text-sm">
         <p v-if="activeView === 'topics' && topicData">
           Generiert am: {{ new Date(topicData.generatedAt).toLocaleString('de-DE') }}
+        </p>
+        <p v-else-if="activeView === 'categories' && categoryData">
+          Generiert am: {{ new Date(categoryData.generatedAt).toLocaleString('de-DE') }}
         </p>
         <p v-else-if="activeView === 'speakers' && speakerData">
           Generiert am: {{ new Date(speakerData.generatedAt).toLocaleString('de-DE') }}

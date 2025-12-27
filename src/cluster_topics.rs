@@ -81,7 +81,7 @@ struct Cluster {
     max_merge_distance: f64,
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Clone, Serialize)]
 struct NamedCluster {
     id: String,
     name: String,
@@ -95,14 +95,14 @@ struct NamedCluster {
     episodes: Vec<u32>,
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Clone, Serialize)]
 struct ClusterTopic {
     topic: String,
     count: usize,
     keywords: Vec<String>,
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Clone, Serialize)]
 struct TaxonomyResult {
     #[serde(rename = "createdAt")]
     created_at: String,
@@ -120,7 +120,7 @@ struct TaxonomyResult {
     clusters: Vec<TaxonomyCluster>,
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Clone, Serialize)]
 struct ClusterSettings {
     clusters: usize,
     #[serde(rename = "outlierThreshold")]
@@ -131,7 +131,7 @@ struct ClusterSettings {
     use_relevance_weighting: bool,
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Clone, Serialize)]
 struct Statistics {
     #[serde(rename = "clusterCount")]
     cluster_count: usize,
@@ -141,7 +141,7 @@ struct Statistics {
     outlier_percentage: String,
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Clone, Serialize)]
 struct TaxonomyCluster {
     id: String,
     name: String,
@@ -172,7 +172,7 @@ struct LlmMessage {
     content: String,
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Clone, Serialize)]
 struct LlmRequest {
     model: String,
     messages: Vec<LlmRequestMessage>,
@@ -180,7 +180,7 @@ struct LlmRequest {
     max_tokens: u32,
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Clone, Serialize)]
 struct LlmRequestMessage {
     role: String,
     content: String,
@@ -712,6 +712,36 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let result_json = serde_json::to_string_pretty(&result)?;
     fs::write(&taxonomy_file, result_json)?;
     println!("✅ Taxonomie gespeichert: {:?}", taxonomy_file);
+    
+    // Save detailed mapping with all topics per cluster
+    #[derive(Serialize)]
+    struct DetailedCluster {
+        id: String,
+        name: String,
+        #[serde(rename = "topicCount")]
+        topic_count: usize,
+        topics: Vec<ClusterTopic>,
+    }
+    #[derive(Serialize)]
+    struct DetailedMapping {
+        #[serde(rename = "createdAt")]
+        created_at: String,
+        clusters: Vec<DetailedCluster>,
+    }
+    
+    let detailed_file = PathBuf::from("topic-taxonomy-detailed.json");
+    let detailed_mapping = DetailedMapping {
+        created_at: chrono::Utc::now().to_rfc3339(),
+        clusters: named_clusters.iter().map(|c| DetailedCluster {
+            id: c.id.clone(),
+            name: c.name.clone(),
+            topic_count: c.topic_count,
+            topics: c.topics.clone(),
+        }).collect(),
+    };
+    let detailed_json = serde_json::to_string_pretty(&detailed_mapping)?;
+    fs::write(&detailed_file, detailed_json)?;
+    println!("✅ Detailed Topic-Mapping gespeichert: {:?}", detailed_file);
     println!("\n📋 Top 15 Cluster:");
     for (i, c) in named_clusters.iter().take(15).enumerate() {
         let outlier_tag = if c.is_outlier { " [Outlier]" } else { "" };
