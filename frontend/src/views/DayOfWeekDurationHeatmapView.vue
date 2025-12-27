@@ -1,15 +1,19 @@
 <template>
   <div class="flex flex-col h-full">
     <!-- Header -->
-    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-cyan-50 to-cyan-100 dark:from-cyan-900/20 dark:to-cyan-900/30">
-      <div v-if="heatmapData" class="grid grid-cols-2 gap-4">
+    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-violet-50 to-violet-100 dark:from-violet-900/20 dark:to-violet-900/30">
+      <div v-if="heatmapData" class="grid grid-cols-3 gap-4">
         <div class="text-center">
-          <div class="text-3xl font-bold text-cyan-600 dark:text-cyan-400">{{ heatmapData.statistics.totalClusters }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Cluster insgesamt</p>
+          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ heatmapData.statistics.totalEpisodes }}</div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Episoden insgesamt</p>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-cyan-600 dark:text-cyan-400">{{ heatmapData.statistics.totalCombinations }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Kombinationen</p>
+          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ heatmapData.statistics.mostCommonDay }}</div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Häufigster Wochentag</p>
+        </div>
+        <div class="text-center">
+          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ heatmapData.statistics.mostCommonDurationLabel }}</div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Häufigste Dauer</p>
         </div>
       </div>
     </div>
@@ -22,80 +26,51 @@
           <p class="text-gray-500 dark:text-gray-400">Lade Daten...</p>
         </div>
         <div v-else>
-          <!-- Controls -->
-          <div class="mb-6 flex gap-6 flex-wrap items-center">
-            <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-              Cluster 1:
-              <input
-                v-model.number="settingsStore.topNClustersCluster1Heatmap"
-                type="range"
-                min="5"
-                max="30"
-                step="1"
-                class="ml-2 w-48 slider-cyan"
-              />
-              <span class="ml-2 text-cyan-600 dark:text-cyan-400 font-semibold">{{ settingsStore.topNClustersCluster1Heatmap }}</span>
-            </label>
-            
-            <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-              Cluster 2:
-              <input
-                v-model.number="settingsStore.topNClustersCluster2Heatmap"
-                type="range"
-                min="10"
-                max="50"
-                step="1"
-                class="ml-2 w-48 slider-cyan"
-              />
-              <span class="ml-2 text-cyan-600 dark:text-cyan-400 font-semibold">{{ settingsStore.topNClustersCluster2Heatmap }}</span>
-            </label>
-          </div>
-
           <!-- Selected Cell Details -->
-          <div v-if="selectedCell" class="mb-6 p-4 bg-cyan-50 dark:bg-cyan-900/20 border border-cyan-200 dark:border-cyan-700 rounded-lg">
+          <div v-if="selectedCell" class="mb-6 p-4 bg-violet-50 dark:bg-violet-900/20 border border-violet-200 dark:border-violet-700 rounded-lg">
             <div class="flex items-start justify-between">
               <div class="flex-1">
-                <h3 class="font-semibold text-lg text-cyan-900 dark:text-cyan-100">
-                  {{ selectedCell.cluster1Name }} → {{ selectedCell.cluster2Name }}
+                <h3 class="font-semibold text-lg text-violet-900 dark:text-violet-100">
+                  {{ selectedCell.day }} – {{ selectedCell.durationLabel }}
                 </h3>
-                <p class="text-sm text-cyan-600 dark:text-cyan-400 mt-2">
-                  <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
+                <p class="text-sm text-violet-600 dark:text-violet-400 mt-2">
+                  <strong>{{ selectedCell.episodes.length }}</strong> Episoden
                 </p>
                 
                 <div class="mt-3">
                   <button
                     @click="showEpisodeList = !showEpisodeList"
-                    class="text-sm text-cyan-600 hover:text-cyan-800 dark:text-cyan-400 dark:hover:text-cyan-300 font-semibold underline"
+                    class="text-sm text-violet-600 hover:text-violet-800 dark:text-violet-400 dark:hover:text-violet-300 font-semibold underline"
                   >
                     {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
                   </button>
                 </div>
 
                 <!-- Episode List -->
-                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-cyan-300 dark:border-cyan-700 overflow-hidden">
+                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-violet-300 dark:border-violet-700 overflow-hidden">
                   <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                     Lade Episoden-Details...
                   </div>
                   <div v-else class="max-h-96 overflow-y-auto">
                     <table class="w-full text-sm">
-                      <thead class="bg-cyan-100 dark:bg-cyan-900 sticky top-0">
+                      <thead class="bg-violet-100 dark:bg-violet-900 sticky top-0">
                         <tr>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">#</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Datum</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Titel</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Dauer</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Sprecher</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Link</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">#</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Datum</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Titel</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Dauer</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Sprecher</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Link</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr 
                           v-for="episodeNum in selectedCell.episodes" 
                           :key="episodeNum"
-                          class="border-t border-cyan-100 dark:border-cyan-800 hover:bg-cyan-50 dark:hover:bg-cyan-900/20"
+                          class="border-t border-violet-100 dark:border-violet-800 hover:bg-violet-50 dark:hover:bg-violet-900/20"
                         >
                           <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
-                            <td class="px-3 py-2 text-cyan-700 dark:text-cyan-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-violet-700 dark:text-violet-300 font-mono text-xs">{{ episodeNum }}</td>
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                               {{ formatDate(episodeDetails.get(episodeNum)?.date) }}
                             </td>
@@ -115,20 +90,20 @@
                                 v-if="episodeDetails.get(episodeNum)?.url" 
                                 :href="episodeDetails.get(episodeNum)?.url" 
                                 target="_blank"
-                                class="text-cyan-600 hover:text-cyan-800 dark:text-cyan-400 dark:hover:text-cyan-300 underline"
+                                class="text-violet-600 hover:text-violet-800 dark:text-violet-400 dark:hover:text-violet-300 underline"
                               >
                                 →
                               </a>
                             </td>
                           </template>
                           <template v-else-if="episodeDetails.get(episodeNum) === null">
-                            <td class="px-3 py-2 text-cyan-700 dark:text-cyan-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-violet-700 dark:text-violet-300 font-mono text-xs">{{ episodeNum }}</td>
                             <td colspan="5" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs italic">
                               Details nicht verfügbar
                             </td>
                           </template>
                           <template v-else>
-                            <td class="px-3 py-2 text-cyan-700 dark:text-cyan-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-violet-700 dark:text-violet-300 font-mono text-xs">{{ episodeNum }}</td>
                             <td colspan="5" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">
                               Lade...
                             </td>
@@ -160,7 +135,7 @@
           
           <!-- Interaction Instructions -->
           <p class="text-xs text-gray-500 dark:text-gray-400 mt-4 text-center">
-            Klicke auf eine Zelle, um Episoden zu sehen, in denen beide Cluster vorkommen
+            Klicke auf eine Zelle, um Episoden an diesem Wochentag mit dieser Dauer zu sehen
           </p>
         </div>
       </div>
@@ -169,9 +144,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed, watch } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 import * as d3 from 'd3';
-import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 
 const settingsStore = useSettingsStore();
@@ -184,13 +158,47 @@ interface EpisodeDetail {
   url?: string;
 }
 
-const heatmapData = ref<HeatmapData | null>(null);
+interface DayOfWeekDurationData {
+  generatedAt: string;
+  description: string;
+  statistics: {
+    totalEpisodes: number;
+    totalDays: number;
+    totalDurationBuckets: number;
+    totalCombinations: number;
+    mostCommonDay: string;
+    mostCommonDayCount: number;
+    mostCommonDuration: number;
+    mostCommonDurationLabel: string;
+    mostCommonDurationCount: number;
+  };
+  days: Array<{
+    name: string;
+    totalEpisodes: number;
+  }>;
+  durations: Array<{
+    minutes: number;
+    label: string;
+    totalEpisodes: number;
+  }>;
+  matrix: Array<{
+    day: string;
+    values: Array<{
+      duration: number;
+      durationLabel: string;
+      count: number;
+      episodes: number[];
+    }>;
+  }>;
+}
+
+const heatmapData = ref<DayOfWeekDurationData | null>(null);
 const svgElement = ref<SVGSVGElement | null>(null);
 const heatmapContainer = ref<HTMLDivElement | null>(null);
 
 const selectedCell = ref<{
-  cluster1Name: string;
-  cluster2Name: string;
+  day: string;
+  durationLabel: string;
   count: number;
   episodes: number[];
 } | null>(null);
@@ -199,42 +207,6 @@ const showEpisodeList = ref(false);
 const loadingEpisodes = ref(false);
 
 const episodeDetails = ref<Map<number, EpisodeDetail | null>>(new Map());
-
-// Filtered data based on slider values
-const filteredData = computed(() => {
-  if (!heatmapData.value) return { clusters1: [], clusters2: [] };
-  
-  // Get top N clusters for axis 1 (already sorted by episodes in the data)
-  const clusters1 = heatmapData.value.clusters?.slice(0, settingsStore.topNClustersCluster1Heatmap) || [];
-  
-  // Get top N clusters for axis 2 (already sorted by episodes in the data)
-  const clusters2 = heatmapData.value.clusters?.slice(0, settingsStore.topNClustersCluster2Heatmap) || [];
-  
-  return { clusters1, clusters2 };
-});
-
-const filteredMatrix = computed(() => {
-  if (!heatmapData.value) return [];
-  
-  const { clusters1, clusters2 } = filteredData.value;
-  const cluster1Ids = new Set(clusters1.map(c => c.id));
-  const cluster2Ids = new Set(clusters2.map(c => c.id));
-  
-  // Filter matrix by selected clusters (rows)
-  let matrix = heatmapData.value.matrix.filter(row => row.clusterId && cluster1Ids.has(row.clusterId));
-  
-  // Filter values by selected clusters (columns)
-  matrix = matrix.map(row => ({
-    ...row,
-    values: row.values.filter(val => val.clusterId && cluster2Ids.has(val.clusterId))
-  }));
-  
-  return matrix;
-});
-
-const filteredClusters2 = computed(() => {
-  return filteredData.value.clusters2;
-});
 
 function clearSelection() {
   selectedCell.value = null;
@@ -339,24 +311,24 @@ function drawHeatmap() {
   const svg = d3.select(svgElement.value);
   svg.selectAll('*').remove();
 
-  const matrix = filteredMatrix.value;
-  const clusters2 = filteredClusters2.value;
+  const matrix = heatmapData.value.matrix;
+  const durations = heatmapData.value.durations;
 
-  if (matrix.length === 0 || clusters2.length === 0) {
+  if (matrix.length === 0 || durations.length === 0) {
     svg.append('text')
       .attr('x', 200)
       .attr('y', 100)
       .attr('text-anchor', 'middle')
       .attr('class', 'text-gray-500 dark:text-gray-400')
-      .text('Keine Daten für die ausgewählten Filter');
+      .text('Keine Daten verfügbar');
     return;
   }
 
   // Dimensions
-  const containerWidth = heatmapContainer.value.clientWidth - 48; // padding
-  const cellSize = Math.min(30, Math.max(10, containerWidth / (clusters2.length + 10)));
-  const margin = { top: 180, right: 20, bottom: 20, left: 200 };
-  const width = clusters2.length * cellSize;
+  const containerWidth = heatmapContainer.value.clientWidth - 48;
+  const cellSize = Math.min(80, Math.max(40, containerWidth / (durations.length + 3)));
+  const margin = { top: 100, right: 20, bottom: 20, left: 150 };
+  const width = durations.length * cellSize;
   const height = matrix.length * cellSize;
 
   svg.attr('width', width + margin.left + margin.right)
@@ -367,35 +339,32 @@ function drawHeatmap() {
 
   // Color scale
   const maxCount = d3.max(matrix.flatMap(row => row.values.map(v => v.count))) || 0;
-  const colorScale = d3.scaleSequential(d3.interpolateBuPu)
+  const colorScale = d3.scaleSequential(d3.interpolatePurples)
     .domain([0, maxCount]);
 
-  // X axis (clusters on x-axis)
+  // X axis (durations)
   const xScale = d3.scaleBand()
-    .domain(clusters2.map(c => c.id))
+    .domain(durations.map(d => d.minutes.toString()))
     .range([0, width])
     .padding(0.05);
 
-  // Y axis (clusters on y-axis)
+  // Y axis (days)
   const yScale = d3.scaleBand()
-    .domain(matrix.map(row => row.clusterId || '').filter(id => id))
+    .domain(matrix.map(row => row.day))
     .range([0, height])
     .padding(0.05);
 
   // Draw cells
   matrix.forEach((row) => {
-    if (!row.clusterId) return;
     row.values.forEach((value) => {
-      if (!value.clusterId) return;
-      
-      const x = xScale(value.clusterId);
-      const y = yScale(row.clusterId || '');
+      const x = xScale(value.duration.toString());
+      const y = yScale(row.day);
       
       if (x === undefined || y === undefined) return;
 
       // Get empty cell color based on dark mode
       const isDark = document.documentElement.classList.contains('dark');
-      const emptyCellColor = isDark ? '#1f2937' : '#f0f0f0'; // dark:bg-gray-800 or light gray
+      const emptyCellColor = isDark ? '#1f2937' : '#f0f0f0';
 
       const cellGroup = g.append('g')
         .attr('class', 'cell-group')
@@ -416,7 +385,6 @@ function drawHeatmap() {
             .attr('stroke', '#000')
             .attr('stroke-width', 2);
           
-          // Remove any existing tooltips first
           d3.selectAll('.heatmap-tooltip').remove();
           
           d3.select('body').append('div')
@@ -430,8 +398,8 @@ function drawHeatmap() {
             .style('font-size', '12px')
             .style('z-index', '1000')
             .html(`
-              <strong>${row.cluster1Name || row.clusterName || ''}</strong><br/>
-              ${value.cluster2Name || value.clusterName || ''}<br/>
+              <strong>${row.day}</strong><br/>
+              ${value.durationLabel}<br/>
               ${value.count} Episoden
             `)
             .style('left', (event.pageX + 10) + 'px')
@@ -447,12 +415,11 @@ function drawHeatmap() {
         .on('click', function() {
           if (value.count === 0) return;
           
-          // Remove tooltip on click
           d3.selectAll('.heatmap-tooltip').remove();
           
           selectedCell.value = {
-            cluster1Name: row.cluster1Name || row.clusterName || '',
-            cluster2Name: value.cluster2Name || value.clusterName || '',
+            day: row.day,
+            durationLabel: value.durationLabel,
             count: value.count,
             episodes: value.episodes
           };
@@ -461,17 +428,17 @@ function drawHeatmap() {
           loadEpisodeDetails();
         });
 
-      // Add text if cell is large enough and has data
-      if (value.count > 0 && cellSize > 15) {
-        const hexColor = colorScale(value.count);
-        const textColor = getTextColor(hexColor);
+      // Add text if cell has data
+      if (value.count > 0 && cellSize > 30) {
+        const cellColor = colorScale(value.count);
+        const textColor = getTextColor(cellColor);
         
         cellGroup.append('text')
           .attr('x', x + xScale.bandwidth() / 2)
           .attr('y', y + yScale.bandwidth() / 2)
           .attr('text-anchor', 'middle')
           .attr('dominant-baseline', 'middle')
-          .attr('font-size', Math.min(10, cellSize * 0.4))
+          .attr('font-size', Math.min(14, cellSize * 0.3))
           .attr('fill', textColor)
           .attr('pointer-events', 'none')
           .text(value.count);
@@ -479,36 +446,32 @@ function drawHeatmap() {
     });
   });
 
-  // X axis labels (clusters on x-axis)
+  // X axis labels (durations)
   g.append('g')
     .selectAll('text')
-    .data(clusters2)
+    .data(durations)
     .enter()
     .append('text')
-    .attr('x', d => (xScale(d.id) || 0) + xScale.bandwidth() / 2)
+    .attr('x', d => (xScale(d.minutes.toString()) || 0) + xScale.bandwidth() / 2)
     .attr('y', -15)
-    .attr('text-anchor', 'start')
-    .attr('transform', d => {
-      const x = (xScale(d.id) || 0) + xScale.bandwidth() / 2;
-      return `rotate(-65 ${x} -15)`;
-    })
-    .attr('font-size', '11px')
+    .attr('text-anchor', 'middle')
+    .attr('font-size', '12px')
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
-    .text(d => d.name);
+    .text(d => d.label);
 
-  // Y axis labels (clusters on y-axis)
+  // Y axis labels (days)
   g.append('g')
     .selectAll('text')
     .data(matrix)
     .enter()
     .append('text')
     .attr('x', -10)
-    .attr('y', d => (yScale(d.clusterId || '') || 0) + yScale.bandwidth() / 2)
+    .attr('y', d => (yScale(d.day) || 0) + yScale.bandwidth() / 2)
     .attr('text-anchor', 'end')
     .attr('dominant-baseline', 'middle')
-    .attr('font-size', '10px')
+    .attr('font-size', '12px')
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
-    .text(d => d.cluster1Name || d.clusterName || '');
+    .text(d => d.day);
 
   // Legend
   const legendWidth = 200;
@@ -527,7 +490,7 @@ function drawHeatmap() {
   // Create gradient
   const gradient = svg.append('defs')
     .append('linearGradient')
-    .attr('id', 'legend-gradient')
+    .attr('id', 'legend-gradient-dayofweek')
     .attr('x1', '0%')
     .attr('x2', '100%');
 
@@ -540,7 +503,7 @@ function drawHeatmap() {
   legend.append('rect')
     .attr('width', legendWidth)
     .attr('height', legendHeight)
-    .style('fill', 'url(#legend-gradient)');
+    .style('fill', 'url(#legend-gradient-dayofweek)');
 
   legend.append('g')
     .attr('transform', `translate(0,${legendHeight})`)
@@ -561,7 +524,7 @@ function drawHeatmap() {
 // Load data on mount
 onMounted(async () => {
   try {
-    const response = await fetch('/cluster-cluster-heatmap.json');
+    const response = await fetch('/dayofweek-duration-heatmap.json');
     heatmapData.value = await response.json();
   } catch (error) {
     console.error('Failed to load heatmap data:', error);
@@ -569,16 +532,10 @@ onMounted(async () => {
 });
 
 // Watch for data changes and redraw
-watch([heatmapData, filteredMatrix, filteredClusters2, () => settingsStore.isDarkMode], () => {
+watch([heatmapData, () => settingsStore.isDarkMode], () => {
   if (heatmapData.value) {
     drawHeatmap();
   }
-});
-
-// Clear selection when slider values change
-watch([() => settingsStore.topNClustersCluster1Heatmap, () => settingsStore.topNClustersCluster2Heatmap], () => {
-  selectedCell.value = null;
-  showEpisodeList.value = false;
 });
 
 // Watch for selected cell changes
@@ -601,3 +558,4 @@ onMounted(() => {
   }
 });
 </script>
+

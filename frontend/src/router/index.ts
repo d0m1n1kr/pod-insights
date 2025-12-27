@@ -6,6 +6,7 @@ import HeatmapView from '../views/HeatmapView.vue';
 import ClusterHeatmapView from '../views/ClusterHeatmapView.vue';
 import SpeakerSpeakerHeatmapView from '../views/SpeakerSpeakerHeatmapView.vue';
 import ClusterClusterHeatmapView from '../views/ClusterClusterHeatmapView.vue';
+import DayOfWeekDurationHeatmapView from '../views/DayOfWeekDurationHeatmapView.vue';
 import AboutView from '../views/AboutView.vue';
 
 const router = createRouter({
@@ -49,6 +50,11 @@ const router = createRouter({
       path: '/cluster-cluster-heatmap',
       name: 'cluster-cluster-heatmap',
       component: ClusterClusterHeatmapView
+    },
+    {
+      path: '/dayofweek-duration-heatmap',
+      name: 'dayofweek-duration-heatmap',
+      component: DayOfWeekDurationHeatmapView
     },
     {
       path: '/about',

@@ -124,6 +124,27 @@
         </div>
       </section>
 
+      <!-- Development Tools -->
+      <section>
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">🛠️ Entwicklungswerkzeuge</h3>
+        <div class="space-y-4">
+          <div class="p-5 bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-indigo-900/20 dark:to-blue-900/20 rounded-lg border border-indigo-200 dark:border-indigo-700">
+            <h4 class="font-semibold text-indigo-900 dark:text-indigo-100 mb-2 flex items-center gap-2">
+              <span>Cursor</span>
+              <span class="text-xs bg-indigo-200 dark:bg-indigo-800 text-indigo-800 dark:text-indigo-200 px-2 py-0.5 rounded-full">AI-Powered IDE</span>
+            </h4>
+            <p class="text-sm text-gray-700 dark:text-gray-300 mb-2">
+              KI-gestützte Entwicklungsumgebung für schnellere und intelligentere Code-Generierung.
+            </p>
+            <ul class="text-xs text-gray-600 dark:text-gray-400 list-disc list-inside space-y-1">
+              <li>Claude Sonnet 4.5 - Schnelle Code-Generierung und Refactoring</li>
+              <li>Claude Opus 4.5 - Komplexe Problemlösung und Architektur-Entscheidungen</li>
+              <li>AI-Pair-Programming für effiziente Entwicklung</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <!-- Data Processing Pipeline -->
       <section>
         <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">🔄 Datenverarbeitungs-Pipeline</h3>
