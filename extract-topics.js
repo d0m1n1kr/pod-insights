@@ -27,7 +27,7 @@ async function callLLM(prompt, retryCount = 0) {
     messages: [
       {
         role: "system",
-        content: "Du bist ein Assistent, der Hauptthemen aus Podcast-Episoden extrahiert. Antworte immer mit einem JSON-Array von Themen-Objekten. Jedes Objekt sollte ein 'topic' (kurze Beschreibung) und optional 'keywords' (Array von Schlagwörtern) enthalten."
+        content: "Du bist ein Assistent, der Hauptthemen aus Podcast-Episoden extrahiert. Antworte immer mit einem JSON-Array von Themen-Objekten. Jedes Objekt sollte ein 'topic' (kurze Beschreibung) und optional 'keywords' (Array von Schlagwörtern) enthalten. Extrahiere ALLE wichtigen Hauptthemen ohne Maximalbeschränkung."
       },
       {
         role: "user",
@@ -115,60 +115,87 @@ function loadEpisodeData(episodeNumber) {
 }
 
 /**
- * Erstelle einen Prompt für das LLM aus den Episode-Daten
+ * Bestimme die beste Datenquelle für Topic-Extraktion nach Priorität
  */
-function createPrompt(episodeData) {
-  const { maxTopics, language } = settings.topicExtraction;
-  
-  let prompt = `Analysiere die folgenden Informationen einer Podcast-Episode und extrahiere die ${maxTopics} wichtigsten Hauptthemen. Wenn weniger themen relevant sind oder die themen sich zu weniger Hauptthemen sinnvoll zusammenfassen lassen, dann gib entsprechend weniger themen zurück.\n\n`;
-  
-  // Titel und Beschreibung
-  if (episodeData.main) {
-    prompt += `**Titel:** ${episodeData.main.title}\n`;
-    if (episodeData.main.description) {
-      prompt += `**Beschreibung:** ${episodeData.main.description}\n\n`;
-    }
+function selectDataSource(episodeData) {
+  // Priorität 1: Kapitel aus Hauptdatei
+  if (episodeData.main && episodeData.main.chapters && Array.isArray(episodeData.main.chapters) && episodeData.main.chapters.length > 0) {
+    return {
+      source: 'chapters',
+      data: episodeData.main.chapters
+    };
   }
 
-  // Beschreibungstext
-  if (episodeData.text) {
-    // HTML-Tags entfernen und auf eine vernünftige Länge kürzen
-    const cleanText = episodeData.text.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
-    if (cleanText.length > 0) {
-      prompt += `**Text:** ${cleanText.substring(0, 1000)}${cleanText.length > 1000 ? '...' : ''}\n\n`;
-    }
-  }
-
-  // Kapitel aus OSF Show Notes
+  // Priorität 2: Kapitel aus OSF Show Notes
   if (episodeData.osf && episodeData.osf.shownotes) {
     const chapters = episodeData.osf.shownotes
       .filter(section => section.chapter && section.chapter !== '')
-      .map(section => section.chapter)
-      .slice(0, 20); // Maximal 20 Kapitel
+      .map(section => section.chapter);
     
     if (chapters.length > 0) {
-      prompt += `**Kapitel:**\n${chapters.map(c => `- ${c}`).join('\n')}\n\n`;
+      return {
+        source: 'osf-chapters',
+        data: chapters
+      };
     }
+  }
 
-    // Wichtige Begriffe/Links aus Show Notes
-    const items = [];
-    episodeData.osf.shownotes.forEach(section => {
-      if (section.items) {
-        section.items.forEach(item => {
-          if (item.type === 'link' && item.text) {
-            items.push(item.text);
-          } else if (item.type === 'span' && item.text && !item.text.startsWith('"')) {
-            // Nur Spans ohne Anführungszeichen (keine Zitate)
-            items.push(item.text);
-          }
-        });
+  // Priorität 3: Text & Description
+  let textData = '';
+  if (episodeData.main && episodeData.main.description) {
+    textData += episodeData.main.description;
+  }
+  if (episodeData.text) {
+    const cleanText = episodeData.text.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+    if (cleanText.length > 0) {
+      textData += (textData ? '\n\n' : '') + cleanText;
+    }
+  }
+  
+  if (textData.length > 0) {
+    return {
+      source: 'text-description',
+      data: textData
+    };
+  }
+
+  return null;
+}
+
+/**
+ * Erstelle einen Prompt für das LLM aus den Episode-Daten
+ */
+function createPrompt(episodeData, dataSource) {
+  const { language } = settings.topicExtraction;
+  
+  let prompt = `Analysiere die folgenden Informationen einer Podcast-Episode und extrahiere ALLE wichtigen Hauptthemen. Es gibt keine Maximalzahl - extrahiere möglichst alle relevanten Hauptthemen, die in der Episode besprochen werden.\n\n`;
+  
+  // Titel
+  if (episodeData.main) {
+    prompt += `**Titel:** ${episodeData.main.title}\n\n`;
+  }
+
+  // Datenquelle basierend auf Priorität
+  if (dataSource.source === 'chapters') {
+    prompt += `**Kapitel:**\n`;
+    dataSource.data.forEach((chapter, i) => {
+      // Prüfe verschiedene Kapitel-Formate
+      const chapterText = typeof chapter === 'string' ? chapter : (chapter.title || chapter.name || '');
+      if (chapterText) {
+        prompt += `${i + 1}. ${chapterText}\n`;
       }
     });
-    
-    if (items.length > 0) {
-      const uniqueItems = [...new Set(items)].slice(0, 30); // Top 30 einzigartige Items
-      prompt += `**Erwähnte Themen/Links:**\n${uniqueItems.slice(0, 20).join(', ')}\n\n`;
-    }
+    prompt += `\n`;
+  } else if (dataSource.source === 'osf-chapters') {
+    prompt += `**Kapitel:**\n`;
+    dataSource.data.forEach((chapter, i) => {
+      prompt += `${i + 1}. ${chapter}\n`;
+    });
+    prompt += `\n`;
+  } else if (dataSource.source === 'text-description') {
+    // Begrenze Text auf sinnvolle Länge für LLM
+    const text = dataSource.data.substring(0, 4000);
+    prompt += `**Inhalt:**\n${text}${dataSource.data.length > 4000 ? '...' : ''}\n\n`;
   }
 
   prompt += `Antworte ausschließlich mit einem JSON-Array im folgenden Format (ohne zusätzlichen Text):\n`;
@@ -179,7 +206,8 @@ function createPrompt(episodeData) {
   prompt += `  }\n`;
   prompt += `]\n\n`;
   prompt += `Wichtig:\n`;
-  prompt += `- Extrahiere maximal ${maxTopics} Hauptthemen\n`;
+  prompt += `- Extrahiere ALLE wichtigen Hauptthemen (keine Maximalbeschränkung)\n`;
+  prompt += `- Jedes Hauptthema sollte ein eigenständiges, substantielles Thema sein\n`;
   prompt += `- Themen sollten die wichtigsten besprochenen Inhalte widerspiegeln\n`;
   prompt += `- Jedes Thema sollte klar und präzise sein\n`;
   prompt += `- Keywords sollten relevante Schlagwörter zum Thema sein\n`;
@@ -191,14 +219,18 @@ function createPrompt(episodeData) {
 /**
  * Extrahiere Topics für eine Episode
  */
-async function extractTopicsForEpisode(episodeNumber) {
+async function extractTopicsForEpisode(episodeNumber, forceOverwrite = false) {
   console.log(`\nVerarbeite Episode ${episodeNumber}...`);
   
   // Prüfe, ob topics-Datei bereits existiert
   const topicsFile = path.join(__dirname, 'episodes', `${episodeNumber}-topics.json`);
-  if (fs.existsSync(topicsFile)) {
+  if (fs.existsSync(topicsFile) && !forceOverwrite) {
     console.log(`  ⚠️  Topics existieren bereits, überspringe...`);
     return;
+  }
+  
+  if (fs.existsSync(topicsFile) && forceOverwrite) {
+    console.log(`  🔄 Topics existieren bereits, werden überschrieben (--force)...`);
   }
 
   // Lade Episode-Daten
@@ -209,8 +241,18 @@ async function extractTopicsForEpisode(episodeNumber) {
     return;
   }
 
+  // Wähle beste Datenquelle
+  const dataSource = selectDataSource(episodeData);
+  
+  if (!dataSource) {
+    console.log(`  ❌ Keine verwendbaren Daten gefunden (keine Kapitel, kein Text), überspringe...`);
+    return;
+  }
+
+  console.log(`  📊 Verwende Datenquelle: ${dataSource.source}`);
+
   // Erstelle Prompt
-  const prompt = createPrompt(episodeData);
+  const prompt = createPrompt(episodeData, dataSource);
   
   try {
     // LLM aufrufen
@@ -244,6 +286,7 @@ async function extractTopicsForEpisode(episodeNumber) {
       episodeNumber: episodeNumber,
       title: episodeData.main.title,
       extractedAt: new Date().toISOString(),
+      dataSource: dataSource.source,
       topics: validTopics
     };
 
@@ -287,7 +330,7 @@ async function main() {
   console.log('🚀 Starte Topic-Extraktion für Freakshow Episoden\n');
   console.log(`LLM: ${settings.llm.provider} - ${settings.llm.model}`);
   console.log(`Sprache: ${settings.topicExtraction.language}`);
-  console.log(`Max Topics pro Episode: ${settings.topicExtraction.maxTopics}\n`);
+  console.log(`Keine Maximalzahl - extrahiere alle Hauptthemen\n`);
 
   // Hole Episoden-Nummern
   const episodeNumbers = findEpisodeNumbers();
@@ -296,6 +339,15 @@ async function main() {
   // Verarbeite Kommandozeilen-Argumente
   const args = process.argv.slice(2);
   let episodesToProcess = episodeNumbers;
+  let forceOverwrite = false;
+
+  // Prüfe auf --force Flag
+  if (args.includes('--force')) {
+    forceOverwrite = true;
+    console.log('🔄 Force-Modus aktiviert: Bestehende Topic-Dateien werden überschrieben\n');
+    // Entferne --force aus den Argumenten
+    args.splice(args.indexOf('--force'), 1);
+  }
 
   if (args.length > 0) {
     if (args[0] === '--all') {
@@ -320,7 +372,8 @@ async function main() {
     console.log(`  node extract-topics.js <episode-nummer>          # Einzelne Episode`);
     console.log(`  node extract-topics.js 1 2 3                     # Mehrere Episoden`);
     console.log(`  node extract-topics.js --range 1 10              # Bereich von Episoden`);
-    console.log(`  node extract-topics.js --all                     # Alle Episoden\n`);
+    console.log(`  node extract-topics.js --all                     # Alle Episoden`);
+    console.log(`  node extract-topics.js --force <episode>         # Überschreibe bestehende Topics\n`);
   }
 
   // Verarbeite Episoden
@@ -332,7 +385,7 @@ async function main() {
   
   for (const episodeNumber of episodesToProcess) {
     try {
-      await extractTopicsForEpisode(episodeNumber);
+      await extractTopicsForEpisode(episodeNumber, forceOverwrite);
       processed++;
       
       // Pause zwischen Anfragen, um Rate Limits zu vermeiden

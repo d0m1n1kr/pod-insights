@@ -1,0 +1,24 @@
+[package]
+name = "freakshow-clustering"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cluster-topics"
+path = "src/cluster_topics.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rayon = "1.10"
+indicatif = { version = "0.17", features = ["rayon"] }
+regex = "1.10"
+chrono = { version = "0.4", features = ["serde"] }
+tokio = { version = "1.35", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+

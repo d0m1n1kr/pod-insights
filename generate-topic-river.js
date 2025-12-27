@@ -16,7 +16,7 @@ const OUTPUT_FILE = 'topic-river-data.json';
 function loadTaxonomy() {
   console.log('Lade topic-taxonomy.json...');
   const data = JSON.parse(fs.readFileSync(TAXONOMY_FILE, 'utf-8'));
-  return data.mainTopics;
+  return data.clusters;
 }
 
 /**

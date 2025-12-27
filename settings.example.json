@@ -24,15 +24,13 @@
   "topicClustering": {
     "embeddingModel": "text-embedding-3-small",
     "embeddingBatchSize": 100,
-    "fineClusters": 256,
-    "coarseClusters": 64,
-    "overviewClusters": 16,
+    "clusters": 256,
     "outlierThreshold": 0.7,
     "linkageMethod": "weighted",
     "useRelevanceWeighting": true,
     "useLLMNaming": true,
     "model": null,
-    "_comment": "linkageMethod: 'average', 'weighted', 'ward', 'complete'. useRelevanceWeighting: Gewichtet Topics/Cluster nach Episoden-Anzahl"
+    "_comment": "linkageMethod: 'average', 'weighted', 'ward', 'complete'. useRelevanceWeighting: Gewichtet Topics nach Episoden-Anzahl"
   },
   "_examples": {
     "_comment": "Beispiel-Konfigurationen für verschiedene LLM-Anbieter. Kopiere die gewünschte Konfiguration in den 'llm' Abschnitt oben.",
