@@ -85,16 +85,10 @@ onMounted(async () => {
       <!-- Topics View -->
       <div v-else-if="activeView === 'topics' && topicData" class="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
         <div class="p-6 border-b border-gray-200 bg-gradient-to-r from-blue-50 to-indigo-50">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="text-center">
               <div class="text-3xl font-bold text-blue-600">{{ topicData.statistics.totalTopics }}</div>
               <div class="text-sm text-gray-600 mt-1">Topics insgesamt</div>
-            </div>
-            <div class="text-center">
-              <div class="text-3xl font-bold text-indigo-600">
-                {{ topicData.statistics.totalDurationHours.toFixed(0) }}h
-              </div>
-              <div class="text-sm text-gray-600 mt-1">Gesamtdauer</div>
             </div>
             <div class="text-center">
               <div class="text-3xl font-bold text-purple-600">

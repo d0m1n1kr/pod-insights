@@ -3,7 +3,7 @@ export interface TopicRiverData {
   description: string;
   statistics: {
     totalTopics: number;
-    totalDurationHours: number;
+    totalDurationHours?: number;
     yearRange: {
       start: number;
       end: number;
@@ -14,7 +14,7 @@ export interface TopicRiverData {
       name: string;
       count: number;
     }>;
-    topicsByDuration: Array<{
+    topicsByDuration?: Array<{
       id: string;
       name: string;
       hours: number;
@@ -27,18 +27,18 @@ export interface TopicRiverData {
       description: string;
       totalEpisodes: number;
       totalTopics: number;
-      totalDurationMinutes: number;
-      totalDurationHours: number;
+      totalDurationMinutes?: number;
+      totalDurationHours?: number;
       yearData: Array<{
         year: number;
         count: number;
-        totalDurationMinutes: number;
-        totalDurationHours: number;
+        totalDurationMinutes?: number;
+        totalDurationHours?: number;
         episodes: Array<{
           number: number;
           date: string;
           title: string;
-          durationMinutes: number;
+          durationMinutes?: number;
         }>;
       }>;
     };

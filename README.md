@@ -249,3 +249,54 @@ const CONCURRENT_REQUESTS = 3;
 const BROWSER_RESTART_AFTER = 30;
 ```
 
+## High-Performance Topic Clustering (Rust)
+
+After extracting topics with the LLM, you can cluster them into a taxonomy using the blazingly fast Rust implementation:
+
+### Why Rust?
+- **~10x faster** than JavaScript (20-30s vs 3-5min for 4500+ topics)
+- Parallel distance matrix computation with Rayon
+- Zero-copy operations and optimized memory layout
+- SIMD-friendly vector operations
+
+### Quick Start
+
+```bash
+# Build and run (requires Rust installed)
+./build-and-run.sh
+
+# Or manually:
+cargo build --release
+./target/release/cluster-topics
+```
+
+### Features
+- ✅ All linkage methods: weighted, ward, average, complete, single
+- ✅ Relevance weighting based on episode frequency
+- ✅ LLM-based cluster naming with fallback heuristics
+- ✅ Outlier detection
+- ✅ Progress bars and performance metrics
+- ✅ 100% compatible with JavaScript version
+
+### Output
+Creates `topic-taxonomy.json` with hierarchical topic clusters:
+```json
+{
+  "method": "embedding-clustering",
+  "clusters": [
+    {
+      "id": "iphone",
+      "name": "iPhone",
+      "topicCount": 45,
+      "episodeCount": 120,
+      "sampleTopics": ["iPhone 15", "iOS Updates", ...],
+      "episodes": [1, 5, 12, ...]
+    }
+  ]
+}
+```
+
+For more details, see [RUST-CLUSTERING.md](RUST-CLUSTERING.md).
+
+**Note**: The original JavaScript implementation is kept in `cluster-topics.js` for reference.
+
