@@ -1,4 +1,4 @@
-# Freak Show Topic River Visualisierung
+# Freak Show Visualisierung
 
 Ein interaktives Topic River Diagramm, das die Themenentwicklung des Freak Show Podcasts über die Jahre visualisiert.
 

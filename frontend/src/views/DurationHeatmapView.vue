@@ -2,17 +2,39 @@
   <div class="flex flex-col h-full">
     <!-- Header -->
     <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-violet-50 to-violet-100 dark:from-violet-900/20 dark:to-violet-900/30">
-      <div v-if="heatmapData" class="grid grid-cols-3 gap-4">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-bold text-violet-900 dark:text-violet-100">Duration Heatmaps</h2>
+        
+        <!-- Tab Switch -->
+        <div class="flex gap-2 bg-white dark:bg-gray-800 rounded-lg p-1 shadow-md">
+          <button
+            v-for="tab in tabs"
+            :key="tab.id"
+            @click="activeTab = tab.id"
+            :class="[
+              'px-4 py-2 rounded-md transition-colors text-sm font-medium',
+              activeTab === tab.id
+                ? 'bg-violet-500 text-white'
+                : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
+            ]"
+          >
+            {{ tab.label }}
+          </button>
+        </div>
+      </div>
+      
+      <!-- Statistics for active tab -->
+      <div v-if="currentData" class="grid grid-cols-3 gap-4">
         <div class="text-center">
-          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ heatmapData.statistics.totalEpisodes }}</div>
+          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ currentData.statistics.totalEpisodes }}</div>
           <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Episoden insgesamt</p>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ heatmapData.statistics.mostCommonDay }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Häufigster Wochentag</p>
+          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ currentData.statistics[mostCommonLabel] }}</div>
+          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">{{ mostCommonDesc }}</p>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ heatmapData.statistics.mostCommonDurationLabel }}</div>
+          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ currentData.statistics.mostCommonDurationLabel }}</div>
           <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Häufigste Dauer</p>
         </div>
       </div>
@@ -22,7 +44,7 @@
     <div class="flex-1 overflow-hidden">
       <!-- Heatmap -->
       <div class="flex-1 overflow-auto p-6" ref="heatmapContainer">
-        <div v-if="!heatmapData" class="flex items-center justify-center h-full">
+        <div v-if="loading" class="flex items-center justify-center h-full">
           <p class="text-gray-500 dark:text-gray-400">Lade Daten...</p>
         </div>
         <div v-else>
@@ -31,7 +53,7 @@
             <div class="flex items-start justify-between">
               <div class="flex-1">
                 <h3 class="font-semibold text-lg text-violet-900 dark:text-violet-100">
-                  {{ selectedCell.day }} – {{ selectedCell.durationLabel }}
+                  {{ selectedCell.label }} – {{ selectedCell.durationLabel }}
                 </h3>
                 <p class="text-sm text-violet-600 dark:text-violet-400 mt-2">
                   <strong>{{ selectedCell.episodes.length }}</strong> Episoden
@@ -135,7 +157,7 @@
           
           <!-- Interaction Instructions -->
           <p class="text-xs text-gray-500 dark:text-gray-400 mt-4 text-center">
-            Klicke auf eine Zelle, um Episoden an diesem Wochentag mit dieser Dauer zu sehen
+            Klicke auf eine Zelle, um Episoden mit dieser Kombination zu sehen
           </p>
         </div>
       </div>
@@ -144,7 +166,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue';
+import { ref, onMounted, watch, computed } from 'vue';
 import * as d3 from 'd3';
 import { useSettingsStore } from '../stores/settings';
 
@@ -158,31 +180,15 @@ interface EpisodeDetail {
   url?: string;
 }
 
-interface DayOfWeekDurationData {
+interface HeatmapData {
   generatedAt: string;
   description: string;
   statistics: {
     totalEpisodes: number;
-    totalDays: number;
-    totalDurationBuckets: number;
-    totalCombinations: number;
-    mostCommonDay: string;
-    mostCommonDayCount: number;
-    mostCommonDuration: number;
-    mostCommonDurationLabel: string;
-    mostCommonDurationCount: number;
+    [key: string]: any;
   };
-  days: Array<{
-    name: string;
-    totalEpisodes: number;
-  }>;
-  durations: Array<{
-    minutes: number;
-    label: string;
-    totalEpisodes: number;
-  }>;
   matrix: Array<{
-    day: string;
+    [key: string]: any;
     values: Array<{
       duration: number;
       durationLabel: string;
@@ -190,14 +196,27 @@ interface DayOfWeekDurationData {
       episodes: number[];
     }>;
   }>;
+  durations: Array<{
+    minutes: number;
+    label: string;
+    totalEpisodes: number;
+  }>;
 }
 
-const heatmapData = ref<DayOfWeekDurationData | null>(null);
+const tabs = [
+  { id: 'dayofweek', label: 'Wochentag', file: 'dayofweek-duration-heatmap.json' },
+  { id: 'year', label: 'Jahr', file: 'year-duration-heatmap.json' },
+  { id: 'speaker', label: 'Sprecher', file: 'speaker-duration-heatmap.json' }
+];
+
+const activeTab = ref('dayofweek');
+const heatmapDataCache = ref<Record<string, HeatmapData>>({});
+const loading = ref(false);
 const svgElement = ref<SVGSVGElement | null>(null);
 const heatmapContainer = ref<HTMLDivElement | null>(null);
 
 const selectedCell = ref<{
-  day: string;
+  label: string;
   durationLabel: string;
   count: number;
   episodes: number[];
@@ -205,8 +224,29 @@ const selectedCell = ref<{
 
 const showEpisodeList = ref(false);
 const loadingEpisodes = ref(false);
-
 const episodeDetails = ref<Map<number, EpisodeDetail | null>>(new Map());
+
+const currentData = computed(() => {
+  return heatmapDataCache.value[activeTab.value] || null;
+});
+
+const mostCommonLabel = computed(() => {
+  switch (activeTab.value) {
+    case 'dayofweek': return 'mostCommonDay';
+    case 'year': return 'mostCommonYear';
+    case 'speaker': return 'mostCommonSpeaker';
+    default: return 'mostCommonDay';
+  }
+});
+
+const mostCommonDesc = computed(() => {
+  switch (activeTab.value) {
+    case 'dayofweek': return 'Häufigster Wochentag';
+    case 'year': return 'Häufigstes Jahr';
+    case 'speaker': return 'Häufigster Sprecher';
+    default: return 'Häufigster Wert';
+  }
+});
 
 function clearSelection() {
   selectedCell.value = null;
@@ -221,10 +261,8 @@ function formatDate(dateStr?: string) {
 function formatDuration(duration?: string | number): string {
   if (!duration) return '';
   
-  // If it's already a string, return it
   if (typeof duration === 'string') return duration;
   
-  // If it's a number (seconds), convert to "Xh Ym" format
   const hours = Math.floor(duration / 3600);
   const minutes = Math.floor((duration % 3600) / 60);
   
@@ -246,14 +284,12 @@ async function loadEpisodeDetails() {
         if (response.ok) {
           const data = await response.json();
           
-          // Convert duration from [h, m, s] to total seconds
           let durationInSeconds: number | undefined;
           if (Array.isArray(data.duration) && data.duration.length === 3) {
             const [h, m, s] = data.duration;
             durationInSeconds = h * 3600 + m * 60 + s;
           }
           
-          // Create a clean EpisodeDetail object
           const episodeDetail: EpisodeDetail = {
             title: data.title || '',
             date: data.date || '',
@@ -276,11 +312,9 @@ async function loadEpisodeDetails() {
   loadingEpisodes.value = false;
 }
 
-// Helper function to determine text color based on background luminance
 function getTextColor(color: string): string {
   let r: number, g: number, b: number;
   
-  // Handle both hex (#rrggbb) and rgb(r, g, b) formats
   if (color.startsWith('#')) {
     r = parseInt(color.slice(1, 3), 16);
     g = parseInt(color.slice(3, 5), 16);
@@ -299,20 +333,26 @@ function getTextColor(color: string): string {
   }
   
   const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
-  return luminance > 0.35 ? '#1f2937' : 'white'; // Dark text for light cells, white for dark cells
+  return luminance > 0.35 ? '#1f2937' : 'white';
+}
+
+function getRowLabel(row: any): string {
+  if (activeTab.value === 'dayofweek') return row.day;
+  if (activeTab.value === 'year') return row.year;
+  if (activeTab.value === 'speaker') return row.speaker;
+  return '';
 }
 
 function drawHeatmap() {
-  if (!svgElement.value || !heatmapData.value || !heatmapContainer.value) return;
+  if (!svgElement.value || !currentData.value || !heatmapContainer.value) return;
 
-  // Remove all existing tooltips first
   d3.selectAll('.heatmap-tooltip').remove();
 
   const svg = d3.select(svgElement.value);
   svg.selectAll('*').remove();
 
-  const matrix = heatmapData.value.matrix;
-  const durations = heatmapData.value.durations;
+  const matrix = currentData.value.matrix;
+  const durations = currentData.value.durations;
 
   if (matrix.length === 0 || durations.length === 0) {
     svg.append('text')
@@ -327,7 +367,8 @@ function drawHeatmap() {
   // Dimensions
   const containerWidth = heatmapContainer.value.clientWidth - 48;
   const cellSize = Math.min(80, Math.max(40, containerWidth / (durations.length + 3)));
-  const margin = { top: 100, right: 20, bottom: 20, left: 150 };
+  const labelWidth = activeTab.value === 'speaker' ? 180 : 150;
+  const margin = { top: 100, right: 20, bottom: 60, left: labelWidth };
   const width = durations.length * cellSize;
   const height = matrix.length * cellSize;
 
@@ -348,21 +389,22 @@ function drawHeatmap() {
     .range([0, width])
     .padding(0.05);
 
-  // Y axis (days)
+  // Y axis (rows)
   const yScale = d3.scaleBand()
-    .domain(matrix.map(row => row.day))
+    .domain(matrix.map(row => getRowLabel(row)))
     .range([0, height])
     .padding(0.05);
 
   // Draw cells
   matrix.forEach((row) => {
+    const rowLabel = getRowLabel(row);
+    
     row.values.forEach((value) => {
       const x = xScale(value.duration.toString());
-      const y = yScale(row.day);
+      const y = yScale(rowLabel);
       
       if (x === undefined || y === undefined) return;
 
-      // Get empty cell color based on dark mode
       const isDark = document.documentElement.classList.contains('dark');
       const emptyCellColor = isDark ? '#1f2937' : '#f0f0f0';
 
@@ -398,7 +440,7 @@ function drawHeatmap() {
             .style('font-size', '12px')
             .style('z-index', '1000')
             .html(`
-              <strong>${row.day}</strong><br/>
+              <strong>${rowLabel}</strong><br/>
               ${value.durationLabel}<br/>
               ${value.count} Episoden
             `)
@@ -418,7 +460,7 @@ function drawHeatmap() {
           d3.selectAll('.heatmap-tooltip').remove();
           
           selectedCell.value = {
-            day: row.day,
+            label: rowLabel,
             durationLabel: value.durationLabel,
             count: value.count,
             episodes: value.episodes
@@ -428,7 +470,6 @@ function drawHeatmap() {
           loadEpisodeDetails();
         });
 
-      // Add text if cell has data
       if (value.count > 0 && cellSize > 30) {
         const cellColor = colorScale(value.count);
         const textColor = getTextColor(cellColor);
@@ -459,19 +500,19 @@ function drawHeatmap() {
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
     .text(d => d.label);
 
-  // Y axis labels (days)
+  // Y axis labels
   g.append('g')
     .selectAll('text')
     .data(matrix)
     .enter()
     .append('text')
     .attr('x', -10)
-    .attr('y', d => (yScale(d.day) || 0) + yScale.bandwidth() / 2)
+    .attr('y', d => (yScale(getRowLabel(d)) || 0) + yScale.bandwidth() / 2)
     .attr('text-anchor', 'end')
     .attr('dominant-baseline', 'middle')
-    .attr('font-size', '12px')
+    .attr('font-size', '11px')
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
-    .text(d => d.day);
+    .text(d => getRowLabel(d));
 
   // Legend
   const legendWidth = 200;
@@ -487,10 +528,9 @@ function drawHeatmap() {
     .ticks(5)
     .tickFormat(d => d.toString());
 
-  // Create gradient
   const gradient = svg.append('defs')
     .append('linearGradient')
-    .attr('id', 'legend-gradient-dayofweek')
+    .attr('id', `legend-gradient-${activeTab.value}`)
     .attr('x1', '0%')
     .attr('x2', '100%');
 
@@ -503,7 +543,7 @@ function drawHeatmap() {
   legend.append('rect')
     .attr('width', legendWidth)
     .attr('height', legendHeight)
-    .style('fill', 'url(#legend-gradient-dayofweek)');
+    .style('fill', `url(#legend-gradient-${activeTab.value})`);
 
   legend.append('g')
     .attr('transform', `translate(0,${legendHeight})`)
@@ -521,19 +561,40 @@ function drawHeatmap() {
     .text('Anzahl Episoden');
 }
 
+async function loadData(tabId: string) {
+  if (heatmapDataCache.value[tabId]) {
+    return;
+  }
+  
+  loading.value = true;
+  try {
+    const tab = tabs.find(t => t.id === tabId);
+    if (!tab) return;
+    
+    const response = await fetch(`/${tab.file}`);
+    heatmapDataCache.value[tabId] = await response.json();
+  } catch (error) {
+    console.error(`Failed to load ${tabId} data:`, error);
+  } finally {
+    loading.value = false;
+  }
+}
+
 // Load data on mount
 onMounted(async () => {
-  try {
-    const response = await fetch('/dayofweek-duration-heatmap.json');
-    heatmapData.value = await response.json();
-  } catch (error) {
-    console.error('Failed to load heatmap data:', error);
-  }
+  await loadData(activeTab.value);
+});
+
+// Watch for tab changes
+watch(activeTab, async (newTab) => {
+  clearSelection();
+  await loadData(newTab);
+  drawHeatmap();
 });
 
 // Watch for data changes and redraw
-watch([heatmapData, () => settingsStore.isDarkMode], () => {
-  if (heatmapData.value) {
+watch([currentData, () => settingsStore.isDarkMode], () => {
+  if (currentData.value) {
     drawHeatmap();
   }
 });
@@ -550,7 +611,7 @@ let resizeObserver: ResizeObserver | null = null;
 onMounted(() => {
   if (heatmapContainer.value) {
     resizeObserver = new ResizeObserver(() => {
-      if (heatmapData.value) {
+      if (currentData.value) {
         drawHeatmap();
       }
     });

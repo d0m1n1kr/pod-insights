@@ -7,7 +7,7 @@ const route = useRoute();
 const settingsStore = useSettingsStore();
 
 const activeView = computed(() => {
-  return route.name as 'topics' | 'categories' | 'speakers' | 'heatmap' | 'cluster-heatmap' | 'speaker-speaker-heatmap' | 'cluster-cluster-heatmap' | 'dayofweek-duration-heatmap' | 'about';
+  return route.name as 'topics' | 'categories' | 'speakers' | 'heatmap' | 'cluster-heatmap' | 'speaker-speaker-heatmap' | 'cluster-cluster-heatmap' | 'duration-heatmap' | 'about';
 });
 
 const themeIcon = computed(() => {
@@ -128,15 +128,15 @@ const themeLabel = computed(() => {
             Sprecher × Sprecher
           </router-link>
           <router-link
-            to="/dayofweek-duration-heatmap"
+            to="/duration-heatmap"
             :class="[
               'px-6 py-3 font-semibold border-b-2 transition-colors',
-              activeView === 'dayofweek-duration-heatmap' 
+              activeView === 'duration-heatmap' 
                 ? 'border-violet-500 text-violet-600 dark:text-violet-400' 
                 : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
             ]"
           >
-            Wochentag × Dauer
+            Duration
           </router-link>
           <router-link
             to="/about"
