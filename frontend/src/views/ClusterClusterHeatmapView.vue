@@ -175,7 +175,6 @@
 import { ref, onMounted, computed, watch } from 'vue';
 import * as d3 from 'd3';
 import { loadVariantData } from '@/composables/useVariants';
-import NoVariantsMessage from '../components/NoVariantsMessage.vue';
 import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 

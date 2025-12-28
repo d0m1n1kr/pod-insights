@@ -153,7 +153,7 @@
       </div>
 
       <!-- Top Clusters Preview -->
-      <div v-if="taxonomyData.clusters" class="mt-4">
+      <div v-if="taxonomyData && taxonomyData.clusters" class="mt-4">
         <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-2">
           {{ $t('variantInfo.topClusters') }} (Top 5)
         </h4>
@@ -257,7 +257,7 @@ const loadVariantInfo = async () => {
   }
 };
 
-const getDefaultDescription = (variantId: string, variant: VariantInfo): string => {
+const getDefaultDescription = (_variantId: string, variant: VariantInfo): string => {
   // Generate description from settings if not provided
   if (variant.settings) {
     if (variant.version === 'v1') {
