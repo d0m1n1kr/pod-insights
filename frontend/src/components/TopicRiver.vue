@@ -112,15 +112,15 @@ const drawRiver = () => {
   const height = dimensions.value.height;
   dimensions.value.width = width;
   
-  // Responsive margins
+  // Responsive margins (reduced right margin since legend is now separate)
   const isMobile = width < 640;
   const isTablet = width >= 640 && width < 1024;
   
   const margin = isMobile
     ? { top: 20, right: 10, bottom: 60, left: 40 }
     : isTablet
-    ? { top: 20, right: 150, bottom: 60, left: 50 }
-    : { top: 20, right: 280, bottom: 60, left: 60 };
+    ? { top: 20, right: 20, bottom: 60, left: 50 }
+    : { top: 20, right: 20, bottom: 60, left: 60 };
   
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
