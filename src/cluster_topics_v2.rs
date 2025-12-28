@@ -15,6 +15,53 @@ use std::fs;
 use std::path::PathBuf;
 use std::time::Instant;
 use indicatif::{ProgressBar, ProgressStyle};
+use clap::Parser;
+
+// ============================================================================
+// Command-line Arguments
+// ============================================================================
+
+#[derive(Parser, Debug)]
+#[command(name = "cluster-topics-v2")]
+#[command(about = "V2 Topic clustering using HDBSCAN with dimensionality reduction")]
+struct Args {
+    /// Variant name to load from variants.json
+    #[arg(short, long)]
+    variant: Option<String>,
+}
+
+// ============================================================================
+// Variant Configuration (from variants.json)
+// ============================================================================
+
+#[derive(Debug, Deserialize, Clone)]
+struct VariantsConfig {
+    variants: HashMap<String, VariantConfig>,
+}
+
+#[derive(Debug, Deserialize, Clone)]
+struct VariantConfig {
+    #[allow(dead_code)]
+    version: String,
+    name: String,
+    settings: VariantSettingsJson,
+}
+
+#[derive(Debug, Deserialize, Clone, Default)]
+struct VariantSettingsJson {
+    #[serde(rename = "minClusterSize")]
+    min_cluster_size: Option<usize>,
+    #[serde(rename = "minSamples")]
+    min_samples: Option<usize>,
+    #[serde(rename = "reducedDimensions")]
+    reduced_dimensions: Option<usize>,
+    #[serde(rename = "outlierThreshold")]
+    outlier_threshold: Option<f64>,
+    #[serde(rename = "useRelevanceWeighting")]
+    use_relevance_weighting: Option<bool>,
+    #[serde(rename = "useLLMNaming")]
+    use_llm_naming: Option<bool>,
+}
 use rand::SeedableRng;
 use rand_distr::{Distribution, Normal};
 
@@ -1151,13 +1198,34 @@ Regeln:
 // Main
 // ============================================================================
 
+
+/// Load variant settings from variants.json
+fn load_variant_settings(variant_name: &str) -> Result<(String, VariantSettingsJson), Box<dyn std::error::Error>> {
+    let variants_path = PathBuf::from("variants.json");
+    if !variants_path.exists() {
+        return Err("variants.json not found".into());
+    }
+    
+    let variants_content = fs::read_to_string(&variants_path)?;
+    let variants_config: VariantsConfig = serde_json::from_str(&variants_content)?;
+    
+    let variant = variants_config.variants.get(variant_name)
+        .ok_or_else(|| format!("Variant '{}' not found in variants.json", variant_name))?;
+    
+    Ok((variant.name.clone(), variant.settings.clone()))
+}
+
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let start_time = Instant::now();
+    
+    // Parse command-line arguments
+    let args = Args::parse();
+    
     println!("🔬 Topic-Clustering V2 für Freakshow Episoden");
     println!("   (HDBSCAN + Dimensionsreduktion)\n");
     
-    // Load settings
+    // Load base settings
     let settings_path = PathBuf::from("settings.json");
     if !settings_path.exists() {
         eprintln!("\n❌ settings.json nicht gefunden!");
@@ -1168,25 +1236,48 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let settings_content = fs::read_to_string(&settings_path)?;
     let settings: Settings = serde_json::from_str(&settings_content)?;
     
-    // V2-specific settings
-    let min_cluster_size = settings.topic_clustering.as_ref()
-        .and_then(|s| s.min_cluster_size)
-        .unwrap_or(5);
-    let min_samples = settings.topic_clustering.as_ref()
-        .and_then(|s| s.min_samples)
-        .unwrap_or(3);
-    let reduced_dims = settings.topic_clustering.as_ref()
-        .and_then(|s| s.reduced_dimensions)
-        .unwrap_or(50);
-    let use_llm_naming = settings.topic_clustering.as_ref()
-        .and_then(|s| s.use_llm_naming)
-        .unwrap_or(true);
-    let use_relevance_weighting = settings.topic_clustering.as_ref()
-        .and_then(|s| s.use_relevance_weighting)
-        .unwrap_or(true);
-    let outlier_threshold = settings.topic_clustering.as_ref()
-        .and_then(|s| s.outlier_threshold)
-        .unwrap_or(0.15);
+    // Load variant settings if specified, otherwise use base settings
+    let (min_cluster_size, min_samples, reduced_dims, use_llm_naming, use_relevance_weighting, outlier_threshold) = 
+        if let Some(ref variant_name) = args.variant {
+            match load_variant_settings(variant_name) {
+                Ok((variant_display_name, variant_settings)) => {
+                    println!("📋 Lade Variante: {} ({})\n", variant_display_name, variant_name);
+                    (
+                        variant_settings.min_cluster_size
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.min_cluster_size))
+                            .unwrap_or(5),
+                        variant_settings.min_samples
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.min_samples))
+                            .unwrap_or(3),
+                        variant_settings.reduced_dimensions
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.reduced_dimensions))
+                            .unwrap_or(50),
+                        variant_settings.use_llm_naming
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.use_llm_naming))
+                            .unwrap_or(true),
+                        variant_settings.use_relevance_weighting
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.use_relevance_weighting))
+                            .unwrap_or(true),
+                        variant_settings.outlier_threshold
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.outlier_threshold))
+                            .unwrap_or(0.15),
+                    )
+                },
+                Err(e) => {
+                    eprintln!("\n❌ Fehler beim Laden der Variante '{}': {}", variant_name, e);
+                    std::process::exit(1);
+                }
+            }
+        } else {
+            (
+                settings.topic_clustering.as_ref().and_then(|s| s.min_cluster_size).unwrap_or(5),
+                settings.topic_clustering.as_ref().and_then(|s| s.min_samples).unwrap_or(3),
+                settings.topic_clustering.as_ref().and_then(|s| s.reduced_dimensions).unwrap_or(50),
+                settings.topic_clustering.as_ref().and_then(|s| s.use_llm_naming).unwrap_or(true),
+                settings.topic_clustering.as_ref().and_then(|s| s.use_relevance_weighting).unwrap_or(true),
+                settings.topic_clustering.as_ref().and_then(|s| s.outlier_threshold).unwrap_or(0.15),
+            )
+        };
     
     // Load embeddings
     println!("📂 Lade Embeddings-Datenbank...");

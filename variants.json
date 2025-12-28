@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Clustering Varianten Konfiguration - Verschiedene Parametrisierungen für Topic-Clustering",
-  "defaultVariant": "default-v1",
+  "defaultVariant": "auto-v2",
   "variants": {
     "default-v1": {
       "version": "v1",

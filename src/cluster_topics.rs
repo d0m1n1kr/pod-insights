@@ -5,6 +5,54 @@ use std::fs;
 use std::path::PathBuf;
 use std::time::Instant;
 use indicatif::{ProgressBar, ProgressStyle};
+use clap::Parser;
+
+// ============================================================================
+// Command-line Arguments
+// ============================================================================
+
+#[derive(Parser, Debug)]
+#[command(name = "cluster-topics")]
+#[command(about = "V1 Topic clustering using Hierarchical Agglomerative Clustering")]
+struct Args {
+    /// Variant name to load from variants.json
+    #[arg(short, long)]
+    variant: Option<String>,
+}
+
+// ============================================================================
+// Variant Configuration (from variants.json)
+// ============================================================================
+
+#[derive(Debug, Deserialize, Clone)]
+struct VariantsConfig {
+    variants: HashMap<String, VariantConfig>,
+}
+
+#[derive(Debug, Deserialize, Clone)]
+struct VariantConfig {
+    #[allow(dead_code)]
+    version: String,
+    name: String,
+    settings: VariantSettingsJson,
+}
+
+#[derive(Debug, Deserialize, Clone, Default)]
+struct VariantSettingsJson {
+    clusters: Option<usize>,
+    #[serde(rename = "outlierThreshold")]
+    outlier_threshold: Option<f64>,
+    #[serde(rename = "linkageMethod")]
+    linkage_method: Option<String>,
+    #[serde(rename = "useRelevanceWeighting")]
+    use_relevance_weighting: Option<bool>,
+    #[serde(rename = "useLLMNaming")]
+    use_llm_naming: Option<bool>,
+}
+
+// ============================================================================
+// Settings & Data Structures
+// ============================================================================
 
 #[derive(Debug, Deserialize)]
 struct Settings {
@@ -350,11 +398,14 @@ fn hierarchical_clustering(
             .progress_chars("#>-"),
     );
     while clusters.len() > target_clusters {
-        let mut min_dist = f64::INFINITY;
-        let mut merge_i = 0;
-        let mut merge_j = 1;
-        for i in 0..clusters.len() {
-            for j in (i + 1)..clusters.len() {
+        // Parallel search for minimum distance pair
+        let n_clusters = clusters.len();
+        let (merge_i, merge_j, min_dist): (usize, usize, f64) = (0..n_clusters)
+            .into_par_iter()
+            .flat_map_iter(|i| {
+                ((i + 1)..n_clusters).map(move |j| (i, j))
+            })
+            .map(|(i, j)| {
                 let dist = compute_cluster_distance(
                     &clusters[i],
                     &clusters[j],
@@ -362,13 +413,12 @@ fn hierarchical_clustering(
                     &weights,
                     linkage_method,
                 );
-                if dist < min_dist {
-                    min_dist = dist;
-                    merge_i = i;
-                    merge_j = j;
-                }
-            }
-        }
+                (i, j, dist)
+            })
+            .reduce(
+                || (0, 1, f64::INFINITY),
+                |a, b| if a.2 <= b.2 { a } else { b }
+            );
         let mut is_outlier = clusters[merge_i].is_outlier || clusters[merge_j].is_outlier;
         if min_dist > outlier_threshold {
             is_outlier = true;
@@ -512,8 +562,8 @@ fn call_llm_for_naming<'a>(
     Box::pin(async move {
     let client = reqwest::Client::new();
     let model_name = model.unwrap_or(&settings.llm.model);
-    let max_retries = settings.topic_extraction.as_ref().and_then(|s| s.max_retries).unwrap_or(5);
-    let retry_delay_ms = settings.topic_extraction.as_ref().and_then(|s| s.retry_delay_ms).unwrap_or(10000);
+    let max_retries = settings.topic_extraction.as_ref().and_then(|s| s.max_retries).unwrap_or(3);
+    let retry_delay_ms = settings.topic_extraction.as_ref().and_then(|s| s.retry_delay_ms).unwrap_or(5000);
     let system_prompt = r#"Du bist ein Experte für präzise Kategorisierung. Deine Aufgabe ist es, für eine Gruppe von Podcast-Topics einen kurzen, prägnanten Kategorie-Namen zu finden.
 
 Regeln:
@@ -586,10 +636,33 @@ Regeln:
     })
 }
 
+
+/// Load variant settings from variants.json
+fn load_variant_settings(variant_name: &str) -> Result<(String, VariantSettingsJson), Box<dyn std::error::Error>> {
+    let variants_path = PathBuf::from("variants.json");
+    if !variants_path.exists() {
+        return Err("variants.json not found".into());
+    }
+    
+    let variants_content = fs::read_to_string(&variants_path)?;
+    let variants_config: VariantsConfig = serde_json::from_str(&variants_content)?;
+    
+    let variant = variants_config.variants.get(variant_name)
+        .ok_or_else(|| format!("Variant '{}' not found in variants.json", variant_name))?;
+    
+    Ok((variant.name.clone(), variant.settings.clone()))
+}
+
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let start_time = Instant::now();
+    
+    // Parse command-line arguments
+    let args = Args::parse();
+    
     println!("🔬 Topic-Clustering für Freakshow Episoden\n");
+    
+    // Load base settings
     let settings_path = PathBuf::from("settings.json");
     if !settings_path.exists() {
         eprintln!("\n❌ settings.json nicht gefunden!");
@@ -598,11 +671,45 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
     let settings_content = fs::read_to_string(&settings_path)?;
     let settings: Settings = serde_json::from_str(&settings_content)?;
-    let target_clusters = settings.topic_clustering.as_ref().and_then(|s| s.clusters).unwrap_or(256);
-    let outlier_threshold = settings.topic_clustering.as_ref().and_then(|s| s.outlier_threshold).unwrap_or(0.7);
-    let linkage_method = settings.topic_clustering.as_ref().and_then(|s| s.linkage_method.clone()).unwrap_or_else(|| "weighted".to_string());
-    let use_relevance_weighting = settings.topic_clustering.as_ref().and_then(|s| s.use_relevance_weighting).unwrap_or(true);
-    let use_llm_naming = settings.topic_clustering.as_ref().and_then(|s| s.use_llm_naming).unwrap_or(true);
+    
+    // Load variant settings if specified, otherwise use base settings
+    let (target_clusters, outlier_threshold, linkage_method, use_relevance_weighting, use_llm_naming) = 
+        if let Some(ref variant_name) = args.variant {
+            match load_variant_settings(variant_name) {
+                Ok((variant_display_name, variant_settings)) => {
+                    println!("📋 Lade Variante: {} ({})\n", variant_display_name, variant_name);
+                    (
+                        variant_settings.clusters
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.clusters))
+                            .unwrap_or(256),
+                        variant_settings.outlier_threshold
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.outlier_threshold))
+                            .unwrap_or(0.7),
+                        variant_settings.linkage_method
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.linkage_method.clone()))
+                            .unwrap_or_else(|| "weighted".to_string()),
+                        variant_settings.use_relevance_weighting
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.use_relevance_weighting))
+                            .unwrap_or(true),
+                        variant_settings.use_llm_naming
+                            .or(settings.topic_clustering.as_ref().and_then(|s| s.use_llm_naming))
+                            .unwrap_or(true),
+                    )
+                },
+                Err(e) => {
+                    eprintln!("\n❌ Fehler beim Laden der Variante '{}': {}", variant_name, e);
+                    std::process::exit(1);
+                }
+            }
+        } else {
+            (
+                settings.topic_clustering.as_ref().and_then(|s| s.clusters).unwrap_or(256),
+                settings.topic_clustering.as_ref().and_then(|s| s.outlier_threshold).unwrap_or(0.7),
+                settings.topic_clustering.as_ref().and_then(|s| s.linkage_method.clone()).unwrap_or_else(|| "weighted".to_string()),
+                settings.topic_clustering.as_ref().and_then(|s| s.use_relevance_weighting).unwrap_or(true),
+                settings.topic_clustering.as_ref().and_then(|s| s.use_llm_naming).unwrap_or(true),
+            )
+        };
     println!("📂 Lade Embeddings-Datenbank...");
     let db_path = PathBuf::from("topic-embeddings.json");
     if !db_path.exists() {

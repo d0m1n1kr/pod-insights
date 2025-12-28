@@ -69,20 +69,6 @@ echo -e "${GREEN}   Version: $VERSION${NC}"
 echo -e "${GREEN}   Output: $OUTPUT_DIR${NC}"
 echo ""
 
-# Create temporary settings file for this variant
-TEMP_SETTINGS="settings.variant.$VARIANT_NAME.json"
-echo -e "${BLUE}⚙️  Erstelle temporäre Settings...${NC}"
-
-if command -v jq &> /dev/null; then
-    # Merge base settings with variant settings
-    jq --argjson variantSettings "$(jq ".variants[\"$VARIANT_NAME\"].settings" variants.json)" \
-       '.topicClustering = (.topicClustering + $variantSettings)' \
-       settings.json > "$TEMP_SETTINGS"
-else
-    # Fallback: just copy settings.json
-    cp settings.json "$TEMP_SETTINGS"
-fi
-
 # Step 1: Build Rust binary if needed
 if [ "$VERSION" == "v1" ]; then
     BINARY="cluster-topics"
@@ -101,27 +87,22 @@ fi
 echo ""
 echo -e "${BLUE}🔬 Running clustering ($VERSION)...${NC}"
 
-# Export settings file location for Rust binary
-export SETTINGS_FILE="$TEMP_SETTINGS"
-export OUTPUT_DIR_VAR="$OUTPUT_DIR"
-
-# Run the binary with output redirection
-"./target/release/$BINARY" --output-dir "$OUTPUT_DIR" --settings "$TEMP_SETTINGS" 2>/dev/null || {
-    # Fallback: run without args and move files manually
-    echo -e "${YELLOW}   Note: Binary doesn't support --output-dir yet, using fallback${NC}"
-    "./target/release/$BINARY"
-    
-    # Move generated files to variant directory
-    echo -e "${BLUE}📦 Moving clustering files to $OUTPUT_DIR...${NC}"
-    if [ -f topic-taxonomy.json ]; then
-        mv topic-taxonomy.json "$OUTPUT_DIR/"
-        echo "   ✓ topic-taxonomy.json"
-    fi
-    if [ -f topic-taxonomy-detailed.json ]; then
-        mv topic-taxonomy-detailed.json "$OUTPUT_DIR/"
-        echo "   ✓ topic-taxonomy-detailed.json"
-    fi
+# Run the binary with --variant argument (reads settings from variants.json)
+"./target/release/$BINARY" --variant "$VARIANT_NAME" || {
+    echo -e "${RED}Error: Failed to run $BINARY${NC}"
+    exit 1
 }
+
+# Move generated files to variant directory
+echo -e "${BLUE}📦 Moving clustering files to $OUTPUT_DIR...${NC}"
+if [ -f topic-taxonomy.json ]; then
+    mv topic-taxonomy.json "$OUTPUT_DIR/"
+    echo "   ✓ topic-taxonomy.json"
+fi
+if [ -f topic-taxonomy-detailed.json ]; then
+    mv topic-taxonomy-detailed.json "$OUTPUT_DIR/"
+    echo "   ✓ topic-taxonomy-detailed.json"
+fi
 
 # Step 3: Generate derived visualizations
 echo ""
@@ -163,8 +144,7 @@ else
     echo "     (skipped - file not generated)"
 fi
 
-# Cleanup temporary settings
-rm -f "$TEMP_SETTINGS"
+# Cleanup (no longer needed - binaries read directly from variants.json)
 
 # Step 4: Update manifest
 echo ""
@@ -185,15 +165,24 @@ if command -v jq &> /dev/null; then
     fi
     
     # Add this variant to manifest
+    # Get full variant config including description and settings
+    VARIANT_CONFIG=$(jq ".variants[\"$VARIANT_NAME\"]" variants.json)
+    VARIANT_DESCRIPTION=$(echo "$VARIANT_CONFIG" | jq -r '.description // ""')
+    VARIANT_SETTINGS=$(echo "$VARIANT_CONFIG" | jq '.settings')
+    
     echo "$EXISTING_MANIFEST" | jq \
         --arg name "$VARIANT_NAME" \
         --arg displayName "$VARIANT_DISPLAY_NAME" \
         --arg version "$VERSION" \
         --arg timestamp "$TIMESTAMP" \
+        --arg description "$VARIANT_DESCRIPTION" \
+        --argjson settings "$VARIANT_SETTINGS" \
         '.variants[$name] = {
             "name": $displayName,
             "version": $version,
-            "lastBuilt": $timestamp
+            "lastBuilt": $timestamp,
+            "description": $description,
+            "settings": $settings
         } | .lastUpdated = $timestamp' > "$MANIFEST_FILE"
     
     echo -e "${GREEN}✓ Updated manifest${NC}"

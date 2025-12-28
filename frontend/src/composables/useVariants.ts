@@ -2,12 +2,30 @@
 import { computed } from 'vue';
 import { useSettingsStore } from '@/stores/settings';
 
+export interface VariantSettings {
+  // V1 settings
+  clusters?: number;
+  linkageMethod?: string;
+  // V2 settings
+  minClusterSize?: number;
+  minSamples?: number;
+  reducedDimensions?: number;
+  // Common settings
+  outlierThreshold?: number;
+  useRelevanceWeighting?: boolean;
+  useLLMNaming?: boolean;
+}
+
+export interface VariantInfo {
+  name: string;
+  version: string;
+  lastBuilt: string;
+  description?: string;
+  settings?: VariantSettings;
+}
+
 export interface VariantManifest {
-  variants: Record<string, {
-    name: string;
-    version: string;
-    lastBuilt: string;
-  }>;
+  variants: Record<string, VariantInfo>;
   defaultVariant: string;
   lastUpdated: string;
 }
@@ -19,11 +37,11 @@ export function useVariantPath() {
   const settings = useSettingsStore();
   
   const variantPath = computed(() => {
-    const variant = settings.clusteringVariant || 'default-v1';
+    const variant = settings.clusteringVariant || 'auto-v2';
     return `/topics/${variant}`;
   });
   
-  const variantName = computed(() => settings.clusteringVariant || 'default-v1');
+  const variantName = computed(() => settings.clusteringVariant || 'auto-v2');
   
   return {
     variantPath,
@@ -72,13 +90,13 @@ export async function loadVariantsManifest(): Promise<VariantManifest> {
       console.warn('No variants manifest found, using default');
       return {
         variants: {
-          'default-v1': {
-            name: 'Standard (V1)',
-            version: 'v1',
+          'auto-v2': {
+            name: 'Automatisch (V2)',
+            version: 'v2',
             lastBuilt: ''
           }
         },
-        defaultVariant: 'default-v1',
+        defaultVariant: 'auto-v2',
         lastUpdated: ''
       };
     }
@@ -87,13 +105,13 @@ export async function loadVariantsManifest(): Promise<VariantManifest> {
     console.error('Error loading variants manifest:', error);
     return {
       variants: {
-        'default-v1': {
-          name: 'Standard (V1)',
-          version: 'v1',
+        'auto-v2': {
+          name: 'Automatisch (V2)',
+          version: 'v2',
           lastBuilt: ''
         }
       },
-      defaultVariant: 'default-v1',
+      defaultVariant: 'auto-v2',
       lastUpdated: ''
     };
   }
@@ -104,7 +122,7 @@ export async function loadVariantsManifest(): Promise<VariantManifest> {
  */
 export function getVariantFileUrl(filename: string, variant?: string): string {
   const settings = useSettingsStore();
-  const v = variant || settings.clusteringVariant || 'default-v1';
+  const v = variant || settings.clusteringVariant || 'auto-v2';
   return `/topics/${v}/${filename}`;
 }
 

@@ -1,5 +1,5 @@
 {
-  "createdAt": "2025-12-28T15:00:22.320676+00:00",
+  "createdAt": "2025-12-28T16:12:39.672570+00:00",
   "clusters": [
     {
       "id": "episodenabschluss",
@@ -3821,8 +3821,8 @@
       ]
     },
     {
-      "id": "technologie-podcasts",
-      "name": "Technologie-Podcasts",
+      "id": "tech-podcasts",
+      "name": "Tech-Podcasts",
       "topicCount": 210,
       "topics": [
         {
@@ -8679,8 +8679,8 @@
       ]
     },
     {
-      "id": "technik-produkte",
-      "name": "Technik & Produkte",
+      "id": "technik-trends",
+      "name": "Technik-Trends",
       "topicCount": 153,
       "topics": [
         {
@@ -11256,8 +11256,8 @@
       ]
     },
     {
-      "id": "technologie-und-mobilität",
-      "name": "Technologie und Mobilität",
+      "id": "lifestyle-gadgets",
+      "name": "Lifestyle Gadgets",
       "topicCount": 131,
       "topics": [
         {
@@ -12416,8 +12416,8 @@
       ]
     },
     {
-      "id": "internet-sicherheit",
-      "name": "Internet-Sicherheit",
+      "id": "digitale-sicherheit-und-kommunikation",
+      "name": "Digitale Sicherheit und Kommunikation",
       "topicCount": 133,
       "topics": [
         {
@@ -15443,8 +15443,2094 @@
       ]
     },
     {
-      "id": "lebensstil-und-reisen",
-      "name": "Lebensstil und Reisen",
+      "id": "internet-diskussionen",
+      "name": "Internet-Diskussionen",
+      "topicCount": 123,
+      "topics": [
+        {
+          "topic": "Abkehr von Firefox als Diskussionsthema",
+          "count": 1,
+          "keywords": [
+            "Firefox",
+            "Browser",
+            "Abkehr"
+          ]
+        },
+        {
+          "topic": "Technische Probleme beim Streaming",
+          "count": 1,
+          "keywords": [
+            "Ruckelstream",
+            "Technik",
+            "Streaming"
+          ]
+        },
+        {
+          "topic": "Werbung im Internet und deren Rentabilität",
+          "count": 1,
+          "keywords": [
+            "Werbung",
+            "Internet",
+            "Rentabilität"
+          ]
+        },
+        {
+          "topic": "Synchronisation von Daten",
+          "count": 1,
+          "keywords": [
+            "Syncing",
+            "Daten"
+          ]
+        },
+        {
+          "topic": "Kritik an Internet Service Providern (ISPs)",
+          "count": 1,
+          "keywords": [
+            "ISPs",
+            "Internet",
+            "Kritik"
+          ]
+        },
+        {
+          "topic": "Diskussion über die Bedeutung von Sex im Internet",
+          "count": 1,
+          "keywords": [
+            "Sex",
+            "Internet",
+            "Kultur"
+          ]
+        },
+        {
+          "topic": "Detaillierte Analyse von Honey Rider",
+          "count": 1,
+          "keywords": [
+            "Honey Rider",
+            "Charakteranalyse",
+            "Film"
+          ]
+        },
+        {
+          "topic": "Kulturelle Einflüsse und Rezeption von Honey Rider",
+          "count": 1,
+          "keywords": [
+            "Kultur",
+            "Rezeption",
+            "Film"
+          ]
+        },
+        {
+          "topic": "Persönliche Meinungen der Podcaster zu Honey Rider",
+          "count": 1,
+          "keywords": [
+            "Meinungen",
+            "Diskussion",
+            "Perspektiven"
+          ]
+        },
+        {
+          "topic": "Max' Erfahrungen in Dresden",
+          "count": 1,
+          "keywords": [
+            "Dresden",
+            "Max"
+          ]
+        },
+        {
+          "topic": "Europachef in Dresden",
+          "count": 1,
+          "keywords": [
+            "Europachef",
+            "Dresden"
+          ]
+        },
+        {
+          "topic": "The Restart Page und deren Bedeutung",
+          "count": 1,
+          "keywords": [
+            "Restart Page",
+            "Webseite"
+          ]
+        },
+        {
+          "topic": "Max' Problemlösung für den Google-Sync",
+          "count": 1,
+          "keywords": [
+            "Google-Sync",
+            "Problemlösung",
+            "Max"
+          ]
+        },
+        {
+          "topic": "CRE191 Internet im Festnetz",
+          "count": 1,
+          "keywords": [
+            "CRE191",
+            "Internet",
+            "Festnetz"
+          ]
+        },
+        {
+          "topic": "Bittorrent Live",
+          "count": 1,
+          "keywords": [
+            "Bittorrent",
+            "Streaming",
+            "Peer-to-Peer"
+          ]
+        },
+        {
+          "topic": "CouchDB",
+          "count": 1,
+          "keywords": [
+            "Datenbank",
+            "NoSQL",
+            "Webanwendungen"
+          ]
+        },
+        {
+          "topic": "Browserkompatibilität",
+          "count": 1,
+          "keywords": [
+            "Webentwicklung",
+            "Kompatibilität",
+            "Browser"
+          ]
+        },
+        {
+          "topic": "Disk Cleanup Tools",
+          "count": 1,
+          "keywords": [
+            "Disk CC",
+            "Speicherplatz"
+          ]
+        },
+        {
+          "topic": "Erlang Diskussion",
+          "count": 1,
+          "keywords": [
+            "Erlang",
+            "Programmiersprache",
+            "Softwareentwicklung"
+          ]
+        },
+        {
+          "topic": "Twitter: Apps vs. Browser",
+          "count": 1,
+          "keywords": [
+            "Twitter",
+            "Apps",
+            "Browser",
+            "Nutzererfahrung"
+          ]
+        },
+        {
+          "topic": "Aufsetzen von Root-Servern",
+          "count": 1,
+          "keywords": [
+            "Root Server",
+            "Server Setup"
+          ]
+        },
+        {
+          "topic": "Erklärung von Streamabbrüchen",
+          "count": 1,
+          "keywords": [
+            "Streamabbruch",
+            "Streaming",
+            "Technik"
+          ]
+        },
+        {
+          "topic": "Streaming-Technologien",
+          "count": 1,
+          "keywords": [
+            "Streaming",
+            "Technologie",
+            "Medien"
+          ]
+        },
+        {
+          "topic": "Internetfoo und digitale Trends",
+          "count": 1,
+          "keywords": [
+            "Internetfoo",
+            "Trends",
+            "Digitalisierung"
+          ]
+        },
+        {
+          "topic": "Onlinezugang und Provider",
+          "count": 1,
+          "keywords": [
+            "Internet",
+            "Provider",
+            "Zugang"
+          ]
+        },
+        {
+          "topic": "VNC-Experiment und Remote-Zugriff",
+          "count": 1,
+          "keywords": [
+            "VNC",
+            "Experiment",
+            "Remote-Zugriff"
+          ]
+        },
+        {
+          "topic": "Privatsphäre bei VPN-Anbietern und SixXS",
+          "count": 1,
+          "keywords": [
+            "VPN",
+            "Privatsphäre",
+            "SixXS"
+          ]
+        },
+        {
+          "topic": "Neuer Morseanschluss der Telekom",
+          "count": 1,
+          "keywords": [
+            "Telekom",
+            "Morseanschluss"
+          ]
+        },
+        {
+          "topic": "Telekom DroSseL",
+          "count": 1,
+          "keywords": [
+            "Telekom",
+            "Drosselung"
+          ]
+        },
+        {
+          "topic": "Telekomdrosselung",
+          "count": 1,
+          "keywords": [
+            "Telekom",
+            "Drosselung",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "Drosselkom",
+          "count": 1,
+          "keywords": [
+            "Drosselung",
+            "Telekommunikation",
+            "Netzneutralität"
+          ]
+        },
+        {
+          "topic": "IFA und neue Produkte von AVM",
+          "count": 1,
+          "keywords": [
+            "IFA",
+            "AVM",
+            "Fritz!Box"
+          ]
+        },
+        {
+          "topic": "Probleme mit Telekom-DSL-Routern",
+          "count": 1,
+          "keywords": [
+            "Stress",
+            "Telekom",
+            "DSL-Router"
+          ]
+        },
+        {
+          "topic": "DynDNS und Netzwerktechnologie",
+          "count": 1,
+          "keywords": [
+            "DynDNS",
+            "Netzwerktechnologie"
+          ]
+        },
+        {
+          "topic": "Audio/Video über Ethernet",
+          "count": 1,
+          "keywords": [
+            "Audio",
+            "Video",
+            "Ethernet"
+          ]
+        },
+        {
+          "topic": "Analoge Hobbys und deren Bedeutung",
+          "count": 1,
+          "keywords": [
+            "analoge Hobbys",
+            "Hobbys",
+            "Kreativität"
+          ]
+        },
+        {
+          "topic": "Energieverbrauch und Lichtmanagement im Netzwerk",
+          "count": 1,
+          "keywords": [
+            "Netz aus",
+            "Licht an",
+            "Energieeffizienz"
+          ]
+        },
+        {
+          "topic": "Zertifikate und deren Bedeutung",
+          "count": 1,
+          "keywords": [
+            "Zertifikate",
+            "Sicherheit",
+            "Authentifizierung"
+          ]
+        },
+        {
+          "topic": "Loadbalancing in Netzwerken",
+          "count": 1,
+          "keywords": [
+            "Loadbalancing",
+            "Netzwerk",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Das Thema Sterben im Netz",
+          "count": 1,
+          "keywords": [
+            "Sterben",
+            "Netz",
+            "Digitalisierung"
+          ]
+        },
+        {
+          "topic": "Glasfasertechnologie in der Schweiz",
+          "count": 1,
+          "keywords": [
+            "Glasfaser",
+            "Schweiz",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "Internet-Zugang in Kuba",
+          "count": 1,
+          "keywords": [
+            "Internet",
+            "Kuba",
+            "Zugang"
+          ]
+        },
+        {
+          "topic": "Webhosting-Optionen und Empfehlungen",
+          "count": 1,
+          "keywords": [
+            "Webhosting",
+            "Server",
+            "Hosting-Anbieter",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "Internet Breitbandausbau part I",
+          "count": 1,
+          "keywords": [
+            "Breitbandausbau",
+            "Internet",
+            "Infrastruktur"
+          ]
+        },
+        {
+          "topic": "Internet Breitbandausbau part II",
+          "count": 1,
+          "keywords": [
+            "Breitbandausbau",
+            "Internet",
+            "Infrastruktur"
+          ]
+        },
+        {
+          "topic": "Telekom Hybrid DSL",
+          "count": 1,
+          "keywords": [
+            "Telekom",
+            "Hybrid DSL",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "AVB (Audio Video Bridging)",
+          "count": 1,
+          "keywords": [
+            "AVB",
+            "Audio",
+            "Video"
+          ]
+        },
+        {
+          "topic": "Slack als Kommunikationswerkzeug",
+          "count": 1,
+          "keywords": [
+            "Slack",
+            "Kommunikation",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Reduzierung von Netzwerkverzögerungen",
+          "count": 1,
+          "keywords": [
+            "Network Delay Reduction",
+            "Netzwerk",
+            "Performance"
+          ]
+        },
+        {
+          "topic": "Einfluss der Bahn auf das Internet",
+          "count": 1,
+          "keywords": [
+            "Bahn",
+            "Internet",
+            "Netzwerk"
+          ]
+        },
+        {
+          "topic": "hitch: TLS-Netzwerkproxy",
+          "count": 1,
+          "keywords": [
+            "hitch",
+            "TLS",
+            "Netzwerk"
+          ]
+        },
+        {
+          "topic": "Spülschrubber mit Wechselkopf",
+          "count": 1,
+          "keywords": [
+            "Spülschrubber",
+            "Wechselkopf",
+            "Haushalt"
+          ]
+        },
+        {
+          "topic": "Sand Grabber",
+          "count": 1,
+          "keywords": [
+            "Sand",
+            "Grabber",
+            "Zubehör"
+          ]
+        },
+        {
+          "topic": "RC4 NO MORE im Browser",
+          "count": 1,
+          "keywords": [
+            "RC4",
+            "Browser",
+            "Sicherheit"
+          ]
+        },
+        {
+          "topic": "Z-MODEM Protokoll",
+          "count": 1,
+          "keywords": [
+            "Z-MODEM",
+            "Protokoll",
+            "Datenübertragung"
+          ]
+        },
+        {
+          "topic": "Atom Routerboard",
+          "count": 1,
+          "keywords": [
+            "Atom",
+            "Router",
+            "Hardware"
+          ]
+        },
+        {
+          "topic": "Vectoring-Technologie in Netzwerken",
+          "count": 1,
+          "keywords": [
+            "Vectoring",
+            "Netzwerktechnologie"
+          ]
+        },
+        {
+          "topic": "Einführung in das Konzept 'Staubsauger as a Service'",
+          "count": 1,
+          "keywords": [
+            "Staubsauger",
+            "Service",
+            "Abonnement"
+          ]
+        },
+        {
+          "topic": "Beyond Your Cable Modem - Vortrag",
+          "count": 1,
+          "keywords": [
+            "32C3",
+            "Cable Modem"
+          ]
+        },
+        {
+          "topic": "Kommandozeile: Remote Deployment",
+          "count": 1,
+          "keywords": [
+            "Kommandozeile",
+            "Deployment",
+            "Remote"
+          ]
+        },
+        {
+          "topic": "Urbane Strom- und Mobilfunkinfrastruktur",
+          "count": 1,
+          "keywords": [
+            "Strominfrastruktur",
+            "Mobilfunk",
+            "Stadtentwicklung"
+          ]
+        },
+        {
+          "topic": "Einsatz von günstigen Headsets und DIY Audio",
+          "count": 1,
+          "keywords": [
+            "Headsets",
+            "DIY Audio",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Google As A Fetish",
+          "count": 1,
+          "keywords": [
+            "Suchmaschine",
+            "Kultur",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "ISDN-Datencalls über VoIP",
+          "count": 1,
+          "keywords": [
+            "ISDN",
+            "VoIP",
+            "Datencalls"
+          ]
+        },
+        {
+          "topic": "Probleme mit Telekom-Router",
+          "count": 1,
+          "keywords": [
+            "Telekom",
+            "Router",
+            "Netzwerkausfall"
+          ]
+        },
+        {
+          "topic": "Datenübertragung durch T",
+          "count": 1,
+          "keywords": [
+            "Daten",
+            "Übertragung",
+            "T"
+          ]
+        },
+        {
+          "topic": "3G/4G Modems und deren Einsatz",
+          "count": 1,
+          "keywords": [
+            "33C3",
+            "3G/4G Modems"
+          ]
+        },
+        {
+          "topic": "Einsatz von FreeBSD auf Servern",
+          "count": 1,
+          "keywords": [
+            "FreeBSD",
+            "Server",
+            "Betriebssystem"
+          ]
+        },
+        {
+          "topic": "Der Ian Knot als effizienter Knoten",
+          "count": 1,
+          "keywords": [
+            "Ian Knot",
+            "Knoten",
+            "Effizienz"
+          ]
+        },
+        {
+          "topic": "WebAssembly (WebASM) Einführung",
+          "count": 1,
+          "keywords": [
+            "WebASM",
+            "WebAssembly",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Breitbandausbau in Deutschland",
+          "count": 1,
+          "keywords": [
+            "Breitbandausbau",
+            "Deutschland",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "Digitale Verstärker",
+          "count": 1,
+          "keywords": [
+            "Audio",
+            "Verstärker",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Quad9 DNS",
+          "count": 1,
+          "keywords": [
+            "DNS",
+            "Sicherheit",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "VPNs und deren Nutzung mit tinc",
+          "count": 1,
+          "keywords": [
+            "VPN",
+            "tinc",
+            "Sicherheit"
+          ]
+        },
+        {
+          "topic": "Erlang und die Philosophie des 'fail early'",
+          "count": 1,
+          "keywords": [
+            "Erlang",
+            "fail early",
+            "Programmierung"
+          ]
+        },
+        {
+          "topic": "DNS-Dienst 1.1.1.1",
+          "count": 1,
+          "keywords": [
+            "DNS",
+            "Internet",
+            "Sicherheit"
+          ]
+        },
+        {
+          "topic": "DSL-Vectoring und Internetgeschwindigkeit",
+          "count": 1,
+          "keywords": [
+            "DSL",
+            "Internet",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Streaming-Dienste und deren Marktanteile",
+          "count": 1,
+          "keywords": [
+            "Streaming",
+            "Marktanteile",
+            "Medien"
+          ]
+        },
+        {
+          "topic": "Erfahrungen mit Glasfaser in Venedig",
+          "count": 1,
+          "keywords": [
+            "Glasfaser",
+            "Venedig",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "Netzausbau",
+          "count": 1,
+          "keywords": [
+            "Netzausbau",
+            "Infrastruktur",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Web Log Analyzer",
+          "count": 1,
+          "keywords": [
+            "Web Log",
+            "Analyse",
+            "Daten"
+          ]
+        },
+        {
+          "topic": "Wechsel von Stromanbietern",
+          "count": 1,
+          "keywords": [
+            "Stromanbieter",
+            "Energie",
+            "Wechsel"
+          ]
+        },
+        {
+          "topic": "Internetprobleme in Thüringen",
+          "count": 1,
+          "keywords": [
+            "Internet",
+            "Thüringen",
+            "Probleme"
+          ]
+        },
+        {
+          "topic": "AVR Transistormeter und Elektrobastel-Projekte",
+          "count": 1,
+          "keywords": [
+            "AVR Transistormeter",
+            "Elektrobasteln",
+            "Technik"
+          ]
+        },
+        {
+          "topic": "HTTP/3 und DNS-Technologien",
+          "count": 1,
+          "keywords": [
+            "HTTP/3",
+            "DNS",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "Hetzner Volumes",
+          "count": 1,
+          "keywords": [
+            "Hetzner",
+            "Cloud-Hosting"
+          ]
+        },
+        {
+          "topic": "DNS über TCP und TLS",
+          "count": 1,
+          "keywords": [
+            "DNS",
+            "TCP",
+            "TLS"
+          ]
+        },
+        {
+          "topic": "Ultrawide Monitore und Window Manager",
+          "count": 1,
+          "keywords": [
+            "Ultrawide Monitore",
+            "Window Manager",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "VSCode und das Language Server Protocol",
+          "count": 1,
+          "keywords": [
+            "VSCode",
+            "Language Server Protocol",
+            "Entwicklung"
+          ]
+        },
+        {
+          "topic": "Audioübertragung über das Internet",
+          "count": 1,
+          "keywords": [
+            "Audio",
+            "Internet",
+            "Streaming"
+          ]
+        },
+        {
+          "topic": "Internetversorgung während der Pandemie",
+          "count": 1,
+          "keywords": [
+            "Internetversorgung",
+            "Zugang",
+            "Netzwerk"
+          ]
+        },
+        {
+          "topic": "Wartenummern und digitale Warteschlangen",
+          "count": 1,
+          "keywords": [
+            "Wartenummern",
+            "Online-Warteschlangen",
+            "Benutzererfahrung"
+          ]
+        },
+        {
+          "topic": "Digitale Affinität in Deutschland",
+          "count": 1,
+          "keywords": [
+            "Digitalaffinität",
+            "Deutschland",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Online-Immersion und virtuelle Erlebnisse",
+          "count": 1,
+          "keywords": [
+            "Online-Immersion",
+            "Virtuelle Realität",
+            "Erlebnisse"
+          ]
+        },
+        {
+          "topic": "Elgato StreamDeck",
+          "count": 1,
+          "keywords": [
+            "StreamDeck",
+            "Elgato",
+            "Streaming"
+          ]
+        },
+        {
+          "topic": "HexFiend",
+          "count": 1,
+          "keywords": [
+            "HexFiend",
+            "Software",
+            "Hex-Editor"
+          ]
+        },
+        {
+          "topic": "Technische Ausstattung: Headset und Mischpult",
+          "count": 1,
+          "keywords": [
+            "Headset",
+            "Mischpult",
+            "Audio"
+          ]
+        },
+        {
+          "topic": "Gamer-Headsets und ihre Funktionen",
+          "count": 1,
+          "keywords": [
+            "Gamer-Headsets",
+            "Gaming",
+            "Audioqualität"
+          ]
+        },
+        {
+          "topic": "Virtuelle Events und deren Bedeutung",
+          "count": 1,
+          "keywords": [
+            "Virtuelle Events",
+            "Online"
+          ]
+        },
+        {
+          "topic": "Mikrofone und Headsets für Audioqualität",
+          "count": 1,
+          "keywords": [
+            "Mikrofone",
+            "Headsets",
+            "Audio"
+          ]
+        },
+        {
+          "topic": "Vorteile von Ethernet in der Technik",
+          "count": 1,
+          "keywords": [
+            "Ethernet",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "NAS-Lösungen: Vorteile und Einsatz",
+          "count": 1,
+          "keywords": [
+            "NAS",
+            "Speicherlösungen",
+            "Daten"
+          ]
+        },
+        {
+          "topic": "Technische Aspekte von Audio und Internet",
+          "count": 1,
+          "keywords": [
+            "Audio",
+            "Internet",
+            "Technik"
+          ]
+        },
+        {
+          "topic": "Social Bookmarking",
+          "count": 1,
+          "keywords": [
+            "Social",
+            "Bookmarking",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "Dongle Hell",
+          "count": 1,
+          "keywords": [
+            "Dongle",
+            "Probleme",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "DNS over TLS als Sicherheitsmaßnahme",
+          "count": 1,
+          "keywords": [
+            "DNS over TLS",
+            "Sicherheit",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "Programmierung mit Elixir und Verbesserung der Programmierpraktiken",
+          "count": 1,
+          "keywords": [
+            "Elixir",
+            "Programmierung",
+            "Softwareentwicklung"
+          ]
+        },
+        {
+          "topic": "Webcam-Probleme",
+          "count": 1,
+          "keywords": [
+            "Webcam",
+            "Technikprobleme",
+            "Videokonferenzen"
+          ]
+        },
+        {
+          "topic": "Programmierung mit Elixir",
+          "count": 1,
+          "keywords": [
+            "Elixir",
+            "Programmierung",
+            "Softwareentwicklung"
+          ]
+        },
+        {
+          "topic": "Tailscale für Netzwerkverbindungen",
+          "count": 1,
+          "keywords": [
+            "Tailscale",
+            "Netzwerk",
+            "VPN"
+          ]
+        },
+        {
+          "topic": "Kleben statt Bohren",
+          "count": 1,
+          "keywords": [
+            "Befestigung",
+            "DIY",
+            "Handwerk"
+          ]
+        },
+        {
+          "topic": "Eye Tracking",
+          "count": 1,
+          "keywords": [
+            "Eye Tracking",
+            "Technologie",
+            "Benutzererfahrung"
+          ]
+        },
+        {
+          "topic": "In-Ear Monitoring für die digitale Band",
+          "count": 1,
+          "keywords": [
+            "In-Ear Monitoring",
+            "Musik",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Digital-Rack v1 der digitalen Band",
+          "count": 1,
+          "keywords": [
+            "Digital-Rack",
+            "Musik",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Digital-Rack v2 der digitalen Band",
+          "count": 1,
+          "keywords": [
+            "Digital-Rack",
+            "Musik",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Auracast-Technologie",
+          "count": 1,
+          "keywords": [
+            "Auracast",
+            "Audio-Technologie"
+          ]
+        },
+        {
+          "topic": "Diskussion über Toilettenpapier",
+          "count": 1,
+          "keywords": [
+            "Toilettenpapier",
+            "Scheißthema",
+            "Hygiene"
+          ]
+        },
+        {
+          "topic": "Blender MCP Server",
+          "count": 1,
+          "keywords": [
+            "Blender",
+            "MCP Server",
+            "3D-Modellierung"
+          ]
+        },
+        {
+          "topic": "Highlights der ElixirConf",
+          "count": 1,
+          "keywords": [
+            "ElixirConf",
+            "Highlights",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Stromausfall auf der iberischen Halbinsel",
+          "count": 1,
+          "keywords": [
+            "Stromausfall",
+            "Iberische Halbinsel",
+            "Energie"
+          ]
+        },
+        {
+          "topic": "Glasfaseranschlüsse",
+          "count": 1,
+          "keywords": [
+            "Glasfaser",
+            "Internet",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Nerves Framework und seine Nutzung",
+          "count": 1,
+          "keywords": [
+            "Nerves",
+            "Entwicklung",
+            "IoT"
+          ]
+        },
+        {
+          "topic": "Yak Shaving und FM Transmitter",
+          "count": 1,
+          "keywords": [
+            "Yak Shaving",
+            "FM Transmitter",
+            "Technologie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mobile-macs-rückblicke",
+      "name": "Mobile Macs Rückblicke",
+      "topicCount": 110,
+      "topics": [
+        {
+          "topic": "Einführung des mobilenMacs Podcasts",
+          "count": 1,
+          "keywords": [
+            "Podcast",
+            "Einführung",
+            "Pilotfolge"
+          ]
+        },
+        {
+          "topic": "Uneinigkeit über die Bewertung der aktuellen Situation von Microsoft",
+          "count": 1,
+          "keywords": [
+            "Uneinigkeit",
+            "Bewertung",
+            "Microsoft-Situation"
+          ]
+        },
+        {
+          "topic": "Zukünftige Episodenplanung",
+          "count": 1,
+          "keywords": [
+            "Episoden",
+            "Planung",
+            "Inhalte"
+          ]
+        },
+        {
+          "topic": "Rückblick auf die vorherigen Episoden",
+          "count": 1,
+          "keywords": [
+            "Rückblick",
+            "Episoden",
+            "MobileMacs"
+          ]
+        },
+        {
+          "topic": "Mobile Macs Podcast",
+          "count": 1,
+          "keywords": [
+            "Mobile Macs",
+            "Podcast",
+            "Episoden"
+          ]
+        },
+        {
+          "topic": "Rückblick auf die Weihnachts- und Neujahrspause",
+          "count": 1,
+          "keywords": [
+            "Weihnachten",
+            "Neujahr",
+            "Podcast-Pause"
+          ]
+        },
+        {
+          "topic": "Besprechung der Episode 23 von mobileMacs",
+          "count": 1,
+          "keywords": [
+            "mobileMacs",
+            "Episode 23",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Terminverschiebung der Episode",
+          "count": 1,
+          "keywords": [
+            "Termin",
+            "Verschiebung",
+            "Zeitplan"
+          ]
+        },
+        {
+          "topic": "Rückkehr des Teams nach Sendepause",
+          "count": 1,
+          "keywords": [
+            "Team",
+            "Sendepause",
+            "Zusammenkunft"
+          ]
+        },
+        {
+          "topic": "Mitschnitt der 25. Episode von MobileMacs",
+          "count": 1,
+          "keywords": [
+            "Mitschnitt",
+            "MobileMacs",
+            "Episode 25"
+          ]
+        },
+        {
+          "topic": "Rückblick auf mobileMacs Episode MM028",
+          "count": 1,
+          "keywords": [
+            "mobileMacs",
+            "Episode",
+            "Rückblick",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Mobile Macs",
+          "count": 1,
+          "keywords": [
+            "mobileMacs",
+            "Podcast",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Vorbereitung auf die Sommerpause",
+          "count": 1,
+          "keywords": [
+            "Sommerpause",
+            "Sendepause",
+            "Vorbereitung"
+          ]
+        },
+        {
+          "topic": "Rückblick auf vergangene Episoden",
+          "count": 1,
+          "keywords": [
+            "Rückblick",
+            "Vergangenheit",
+            "Episoden"
+          ]
+        },
+        {
+          "topic": "Einsatz von Macs in Schulen",
+          "count": 1,
+          "keywords": [
+            "Macs",
+            "Bildung",
+            "Schulen"
+          ]
+        },
+        {
+          "topic": "Vorstellung neuer iMacs",
+          "count": 2,
+          "keywords": [
+            "iMac",
+            "Apple",
+            "Computer",
+            "Neue iMacs"
+          ]
+        },
+        {
+          "topic": "Teamvorstellungsrunde",
+          "count": 1,
+          "keywords": [
+            "Team",
+            "Vorstellung"
+          ]
+        },
+        {
+          "topic": "Neue MacBook Pros im Fokus",
+          "count": 1,
+          "keywords": [
+            "MacBook Pro",
+            "Apple",
+            "Laptop"
+          ]
+        },
+        {
+          "topic": "Fehlende Kapitelmarken in der Episode",
+          "count": 2,
+          "keywords": [
+            "Kapitelmarken",
+            "MP3",
+            "Audio",
+            "Podcast",
+            "Struktur"
+          ]
+        },
+        {
+          "topic": "Zukunftige Veröffentlichung und Planung",
+          "count": 1,
+          "keywords": [
+            "Planung",
+            "Episodenstruktur",
+            "Stringenz"
+          ]
+        },
+        {
+          "topic": "Rückkehr aus der Sommerpause",
+          "count": 1,
+          "keywords": [
+            "Sommerpause",
+            "Rückkehr",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Zukünftige Sendefrequenz",
+          "count": 1,
+          "keywords": [
+            "regelmäßige Sendungen",
+            "Planung",
+            "Zukunft"
+          ]
+        },
+        {
+          "topic": "Rückblick auf die 52. Episode des Podcasts",
+          "count": 1,
+          "keywords": [
+            "Episode 52",
+            "Rückblick",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Selbstironie und Humor im Podcast",
+          "count": 1,
+          "keywords": [
+            "Selbstironie",
+            "Humor",
+            "Unterhaltung"
+          ]
+        },
+        {
+          "topic": "MobileMacs als Full-Feature-Podcast",
+          "count": 1,
+          "keywords": [
+            "MobileMacs",
+            "Full-Feature",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Humor und Unterhaltung in der Episode",
+          "count": 1,
+          "keywords": [
+            "Humor",
+            "Unterhaltung",
+            "mobileMacs"
+          ]
+        },
+        {
+          "topic": "Simulation einer möglichen Neugestaltung des Podcasts",
+          "count": 1,
+          "keywords": [
+            "Neugestaltung",
+            "Simulation",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Rückblick auf vergangene Episoden und Entwicklungen",
+          "count": 1,
+          "keywords": [
+            "Rückblick",
+            "Episoden",
+            "Entwicklungen"
+          ]
+        },
+        {
+          "topic": "Trauer um den Computer-Standort Europa",
+          "count": 1,
+          "keywords": [
+            "Computer-Standort",
+            "Europa",
+            "Trauer"
+          ]
+        },
+        {
+          "topic": "Einführung durch David",
+          "count": 1,
+          "keywords": [
+            "Previously on mobileMacs",
+            "Podcast",
+            "Einführung"
+          ]
+        },
+        {
+          "topic": "Zusammenfassung und Ausblick auf die nächste Episode",
+          "count": 1,
+          "keywords": [
+            "Zusammenfassung",
+            "Ausblick",
+            "nächste Episode"
+          ]
+        },
+        {
+          "topic": "Rückblick auf vorherige Episoden",
+          "count": 4,
+          "keywords": [
+            "Previously",
+            "mobileMacs",
+            "Rückblick",
+            "Previously on Freak Show",
+            "Episoden"
+          ]
+        },
+        {
+          "topic": "Rückkehr von Bumm Zack",
+          "count": 1,
+          "keywords": [
+            "Bumm Zack",
+            "Rückkehr"
+          ]
+        },
+        {
+          "topic": "Diskussion über Final Cut Pro X",
+          "count": 1,
+          "keywords": [
+            "Final Cut Pro X",
+            "FCPX"
+          ]
+        },
+        {
+          "topic": "FCPX: Funktionen und Verbesserungen",
+          "count": 1,
+          "keywords": [
+            "FCPX",
+            "Management Summary",
+            "Color Sync",
+            "Rendern",
+            "Material importieren"
+          ]
+        },
+        {
+          "topic": "Überblick über Mac OS X 10.7 Lion",
+          "count": 1,
+          "keywords": [
+            "Mac OS X",
+            "Lion"
+          ]
+        },
+        {
+          "topic": "Rückkehr nach der Camp-Pause",
+          "count": 1,
+          "keywords": [
+            "Pause",
+            "Camp",
+            "Wiedereinstieg"
+          ]
+        },
+        {
+          "topic": "Programmfortsetzung von mobileMacs",
+          "count": 1,
+          "keywords": [
+            "Podcast",
+            "mobileMacs",
+            "Fortsetzung"
+          ]
+        },
+        {
+          "topic": "Prognosen und Einschätzungen der Runde",
+          "count": 1,
+          "keywords": [
+            "Prognosen",
+            "Einschätzungen",
+            "Meinungen"
+          ]
+        },
+        {
+          "topic": "Rückblick auf iTunes",
+          "count": 1,
+          "keywords": [
+            "iTunes Rewind"
+          ]
+        },
+        {
+          "topic": "This American Life: Mr. Daisey und die Apple Factory",
+          "count": 1,
+          "keywords": [
+            "This American Life",
+            "Mr. Daisey",
+            "Apple"
+          ]
+        },
+        {
+          "topic": "Lion Recovery Mode",
+          "count": 1,
+          "keywords": [
+            "Lion",
+            "macOS",
+            "Systemwiederherstellung"
+          ]
+        },
+        {
+          "topic": "Notizen-App (Notes)",
+          "count": 1,
+          "keywords": [
+            "Notes",
+            "Notizen"
+          ]
+        },
+        {
+          "topic": "Technikpanne während der Sendung",
+          "count": 1,
+          "keywords": [
+            "Technikpanne",
+            "Podcast",
+            "Aufnahme"
+          ]
+        },
+        {
+          "topic": "Dank an die Community für Unterstützung bei Show Notes",
+          "count": 1,
+          "keywords": [
+            "Community",
+            "Show Notes",
+            "Unterstützung"
+          ]
+        },
+        {
+          "topic": "Erwartungen an zukünftige Berichte",
+          "count": 1,
+          "keywords": [
+            "Bericht",
+            "Erwartungen",
+            "Max"
+          ]
+        },
+        {
+          "topic": "Rückblick auf die vorherige Episode",
+          "count": 4,
+          "keywords": [
+            "mobileMacs",
+            "Rückblick",
+            "Episode 94",
+            "Episode 107",
+            "Episode 111"
+          ]
+        },
+        {
+          "topic": "Funktionen der Podcast-App",
+          "count": 1,
+          "keywords": [
+            "Podcast-App",
+            "Funktionen",
+            "Apple"
+          ]
+        },
+        {
+          "topic": "Rückblick auf vorherige Episoden von mobileMacs",
+          "count": 2,
+          "keywords": [
+            "Rückblick",
+            "mobileMacs",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Interview mit Gast Dominik",
+          "count": 1,
+          "keywords": [
+            "Gast",
+            "Interview",
+            "Dominik"
+          ]
+        },
+        {
+          "topic": "Neue Mac-Modelle",
+          "count": 1,
+          "keywords": [
+            "Neue Macs",
+            "Apple",
+            "Hardware"
+          ]
+        },
+        {
+          "topic": "Rückblick auf die vorherige Episode MM100",
+          "count": 1,
+          "keywords": [
+            "Rückblick",
+            "MM100",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Rückblick auf die vorherige Episode MM104",
+          "count": 1,
+          "keywords": [
+            "Rückblick",
+            "MM104"
+          ]
+        },
+        {
+          "topic": "Rückblick auf Erlang Factory Lite",
+          "count": 1,
+          "keywords": [
+            "Erlang",
+            "Factory Lite",
+            "Rückblick"
+          ]
+        },
+        {
+          "topic": "Rückblick auf die vorherige Episode von mobileMacs",
+          "count": 1,
+          "keywords": [
+            "mobileMacs",
+            "Rückblick",
+            "Episode 105"
+          ]
+        },
+        {
+          "topic": "Aufruf zur Unterstützung für eine Apple Mail Frage",
+          "count": 1,
+          "keywords": [
+            "Apple Mail",
+            "Followerpower",
+            "Community"
+          ]
+        },
+        {
+          "topic": "Videoschnitt mit iMovie",
+          "count": 1,
+          "keywords": [
+            "Videoschnitt",
+            "iMovie",
+            "Videobearbeitung"
+          ]
+        },
+        {
+          "topic": "Aktuelle Nachrichten im Podcast-Bereich",
+          "count": 1,
+          "keywords": [
+            "News",
+            "Überblick"
+          ]
+        },
+        {
+          "topic": "Musik und kreative Elemente in der Episode",
+          "count": 1,
+          "keywords": [
+            "Musik",
+            "iPhone Ringtone Remix",
+            "Kreativität"
+          ]
+        },
+        {
+          "topic": "Nachträge aus der letzten Episode",
+          "count": 1,
+          "keywords": [
+            "Nachträge",
+            "Rückblick"
+          ]
+        },
+        {
+          "topic": "Erklärung der Continuity-Funktion",
+          "count": 1,
+          "keywords": [
+            "Continuity",
+            "Apple",
+            "Integration"
+          ]
+        },
+        {
+          "topic": "Verwendung von Markdown-Editoren",
+          "count": 1,
+          "keywords": [
+            "Markdown",
+            "Editoren",
+            "Schreiben"
+          ]
+        },
+        {
+          "topic": "Podcast-Apps und Statistiken",
+          "count": 1,
+          "keywords": [
+            "Podcast Apps",
+            "Statistiken",
+            "Podlove"
+          ]
+        },
+        {
+          "topic": "Podcast-Aufnahmesoftware",
+          "count": 1,
+          "keywords": [
+            "Aufnahme",
+            "Software",
+            "Podcasting"
+          ]
+        },
+        {
+          "topic": "Podcasts Connect und deren Funktionen",
+          "count": 1,
+          "keywords": [
+            "Podcasts",
+            "Connect"
+          ]
+        },
+        {
+          "topic": "Episode 23 - Nichts ist so wie es scheint",
+          "count": 1,
+          "keywords": [
+            "Episode 23",
+            "Thema"
+          ]
+        },
+        {
+          "topic": "Hackintosh und seine Herausforderungen",
+          "count": 1,
+          "keywords": [
+            "Hackintosh",
+            "Computer",
+            "Betriebssystem"
+          ]
+        },
+        {
+          "topic": "Migration auf das MacBook Pro",
+          "count": 1,
+          "keywords": [
+            "Migration",
+            "MacBook Pro"
+          ]
+        },
+        {
+          "topic": "Diskussion über das Netzteil des MacBook Pro",
+          "count": 1,
+          "keywords": [
+            "MacBook Pro",
+            "Netzteil"
+          ]
+        },
+        {
+          "topic": "Clarett 4Pre Teil 2",
+          "count": 1,
+          "keywords": [
+            "Clarett 4Pre",
+            "Audio-Interface",
+            "Teil 2"
+          ]
+        },
+        {
+          "topic": "Rückblick auf Episode FS200",
+          "count": 1,
+          "keywords": [
+            "FS200",
+            "Rückblick",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Rückblick auf vergangene und kommende Episoden",
+          "count": 1,
+          "keywords": [
+            "Dieses und nächstes",
+            "Episodenplanung"
+          ]
+        },
+        {
+          "topic": "iOS 11 und seine Funktionen",
+          "count": 1,
+          "keywords": [
+            "iOS 11",
+            "Apple",
+            "Mobile Betriebssystem"
+          ]
+        },
+        {
+          "topic": "Rückkehr der Freak Show",
+          "count": 1,
+          "keywords": [
+            "Freak Show",
+            "Podcast",
+            "Rückkehr"
+          ]
+        },
+        {
+          "topic": "FC/MC beim G20",
+          "count": 1,
+          "keywords": [
+            "FC/MC",
+            "G20",
+            "Politik"
+          ]
+        },
+        {
+          "topic": "10 Jahre Freak Show",
+          "count": 1,
+          "keywords": [
+            "Jubiläum",
+            "Podcast-Geschichte",
+            "Rückblick"
+          ]
+        },
+        {
+          "topic": "Rückblick auf 10 Jahre Freak Show",
+          "count": 1,
+          "keywords": [
+            "Jubiläum",
+            "Podcast-Geschichte",
+            "Rückblick"
+          ]
+        },
+        {
+          "topic": "Freak Show Live-Events",
+          "count": 1,
+          "keywords": [
+            "Live-Show",
+            "Events",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Tim bei der heise show",
+          "count": 1,
+          "keywords": [
+            "Heise",
+            "TV-Show",
+            "Interview"
+          ]
+        },
+        {
+          "topic": "HomePod Video und Multimedia",
+          "count": 1,
+          "keywords": [
+            "HomePod",
+            "Video",
+            "Multimedia"
+          ]
+        },
+        {
+          "topic": "iOS 12: Screenshots und neue Funktionen",
+          "count": 1,
+          "keywords": [
+            "iOS 12",
+            "Screenshots"
+          ]
+        },
+        {
+          "topic": "Sommerpause des Podcasts",
+          "count": 1,
+          "keywords": [
+            "Sommerpause",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Hinweis auf Abonnements und Unterstützungsaufruf",
+          "count": 1,
+          "keywords": [
+            "SUBSCRIBE",
+            "Unterstützung",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Aufforderung zum Abonnieren des Podcasts",
+          "count": 1,
+          "keywords": [
+            "SUBSCRIBE",
+            "Podcast",
+            "Abonnieren"
+          ]
+        },
+        {
+          "topic": "UIConf",
+          "count": 1,
+          "keywords": [
+            "UIConf",
+            "Benutzeroberfläche",
+            "Konferenz"
+          ]
+        },
+        {
+          "topic": "Freak Show Community im Internet",
+          "count": 1,
+          "keywords": [
+            "Freak Show",
+            "Community",
+            "Internet"
+          ]
+        },
+        {
+          "topic": "Turtle Operation Center",
+          "count": 1,
+          "keywords": [
+            "Turtle",
+            "Operation",
+            "Zentrum"
+          ]
+        },
+        {
+          "topic": "Hafermilch Revisited",
+          "count": 1,
+          "keywords": [
+            "Ernährung",
+            "Hafermilch",
+            "Nachhaltigkeit"
+          ]
+        },
+        {
+          "topic": "Text bearbeiten und eingeben auf iOS 13",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "iOS",
+            "Benutzererfahrung"
+          ]
+        },
+        {
+          "topic": "Erinnerungen an vergangene Episoden",
+          "count": 1,
+          "keywords": [
+            "Erinnerungen",
+            "Wiedergänger",
+            "Podcastgeschichte"
+          ]
+        },
+        {
+          "topic": "Scribble",
+          "count": 1,
+          "keywords": [
+            "Scribble",
+            "Notizen",
+            "Apple Pencil"
+          ]
+        },
+        {
+          "topic": "20 Macs für 2020: Eine Übersicht",
+          "count": 1,
+          "keywords": [
+            "20 Macs for 2020",
+            "Hardware"
+          ]
+        },
+        {
+          "topic": "Interview mit Ralf Rottmann",
+          "count": 1,
+          "keywords": [
+            "Interview",
+            "Gast",
+            "Ralf Rottmann"
+          ]
+        },
+        {
+          "topic": "Podcastarchive und Shownotes",
+          "count": 1,
+          "keywords": [
+            "Podcastarchive",
+            "Shownotes",
+            "Dokumentation"
+          ]
+        },
+        {
+          "topic": "WWDC: Focus",
+          "count": 1,
+          "keywords": [
+            "iOS",
+            "Fokus",
+            "Produktivität"
+          ]
+        },
+        {
+          "topic": "Energiekrise",
+          "count": 1,
+          "keywords": [
+            "Energie",
+            "Krise",
+            "Ressourcen"
+          ]
+        },
+        {
+          "topic": "macOS Support für alte Macs",
+          "count": 1,
+          "keywords": [
+            "macOS",
+            "Support",
+            "alte Macs"
+          ]
+        },
+        {
+          "topic": "Live Text Funktion in macOS",
+          "count": 1,
+          "keywords": [
+            "Live Text",
+            "macOS",
+            "Funktion"
+          ]
+        },
+        {
+          "topic": "macOS Ventura und seine Funktionen",
+          "count": 1,
+          "keywords": [
+            "macOS Ventura",
+            "Betriebssystem",
+            "Apple"
+          ]
+        },
+        {
+          "topic": "Interview mit Hans",
+          "count": 1,
+          "keywords": [
+            "Gast",
+            "Interview",
+            "Hans"
+          ]
+        },
+        {
+          "topic": "Diskussion über das Ende von Flattr",
+          "count": 1,
+          "keywords": [
+            "Flattr",
+            "RIP",
+            "Crowdfunding"
+          ]
+        },
+        {
+          "topic": "Tim @ PodFest",
+          "count": 1,
+          "keywords": [
+            "PodFest",
+            "Vortrag",
+            "Dunkelheit"
+          ]
+        },
+        {
+          "topic": "Screen Recording Prompts",
+          "count": 1,
+          "keywords": [
+            "Screen Recording",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "VisionOS 2.0 und seine Funktionen",
+          "count": 1,
+          "keywords": [
+            "VisionOS 2.0",
+            "Apple",
+            "Software"
+          ]
+        },
+        {
+          "topic": "Feedumstellung bei der Freak Show",
+          "count": 1,
+          "keywords": [
+            "Feedumstellung",
+            "Podcast",
+            "Freak Show"
+          ]
+        },
+        {
+          "topic": "Diskussion über die Wahrhaftigkeit und Grenzen von LLMs",
+          "count": 1,
+          "keywords": [
+            "Wahrhaftigkeit",
+            "LLMs",
+            "Ethik"
+          ]
+        },
+        {
+          "topic": "Rückblick auf die Programme des Jahres",
+          "count": 1,
+          "keywords": [
+            "Programme des Jahres",
+            "Rückblick"
+          ]
+        },
+        {
+          "topic": "Einsatz von LLMs im Support",
+          "count": 1,
+          "keywords": [
+            "LLMs",
+            "Support",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Bumm Zack Return: Rückblick und Ausblick",
+          "count": 1,
+          "keywords": [
+            "Bumm Zack Return",
+            "Rückblick",
+            "Ausblick"
+          ]
+        },
+        {
+          "topic": "Nachklapp: Rückblick auf die Episode",
+          "count": 1,
+          "keywords": [
+            "Nachklapp",
+            "Rückblick"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reise-und-genuss",
+      "name": "Reise und Genuss",
       "topicCount": 128,
       "topics": [
         {
@@ -16573,2092 +18659,6 @@
           "keywords": [
             "Letty",
             "Einblicke"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mobile-macs-rückblicke",
-      "name": "Mobile Macs Rückblicke",
-      "topicCount": 110,
-      "topics": [
-        {
-          "topic": "Einführung des mobilenMacs Podcasts",
-          "count": 1,
-          "keywords": [
-            "Podcast",
-            "Einführung",
-            "Pilotfolge"
-          ]
-        },
-        {
-          "topic": "Uneinigkeit über die Bewertung der aktuellen Situation von Microsoft",
-          "count": 1,
-          "keywords": [
-            "Uneinigkeit",
-            "Bewertung",
-            "Microsoft-Situation"
-          ]
-        },
-        {
-          "topic": "Zukünftige Episodenplanung",
-          "count": 1,
-          "keywords": [
-            "Episoden",
-            "Planung",
-            "Inhalte"
-          ]
-        },
-        {
-          "topic": "Rückblick auf die vorherigen Episoden",
-          "count": 1,
-          "keywords": [
-            "Rückblick",
-            "Episoden",
-            "MobileMacs"
-          ]
-        },
-        {
-          "topic": "Mobile Macs Podcast",
-          "count": 1,
-          "keywords": [
-            "Mobile Macs",
-            "Podcast",
-            "Episoden"
-          ]
-        },
-        {
-          "topic": "Rückblick auf die Weihnachts- und Neujahrspause",
-          "count": 1,
-          "keywords": [
-            "Weihnachten",
-            "Neujahr",
-            "Podcast-Pause"
-          ]
-        },
-        {
-          "topic": "Besprechung der Episode 23 von mobileMacs",
-          "count": 1,
-          "keywords": [
-            "mobileMacs",
-            "Episode 23",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Terminverschiebung der Episode",
-          "count": 1,
-          "keywords": [
-            "Termin",
-            "Verschiebung",
-            "Zeitplan"
-          ]
-        },
-        {
-          "topic": "Rückkehr des Teams nach Sendepause",
-          "count": 1,
-          "keywords": [
-            "Team",
-            "Sendepause",
-            "Zusammenkunft"
-          ]
-        },
-        {
-          "topic": "Mitschnitt der 25. Episode von MobileMacs",
-          "count": 1,
-          "keywords": [
-            "Mitschnitt",
-            "MobileMacs",
-            "Episode 25"
-          ]
-        },
-        {
-          "topic": "Rückblick auf mobileMacs Episode MM028",
-          "count": 1,
-          "keywords": [
-            "mobileMacs",
-            "Episode",
-            "Rückblick",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Mobile Macs",
-          "count": 1,
-          "keywords": [
-            "mobileMacs",
-            "Podcast",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Vorbereitung auf die Sommerpause",
-          "count": 1,
-          "keywords": [
-            "Sommerpause",
-            "Sendepause",
-            "Vorbereitung"
-          ]
-        },
-        {
-          "topic": "Rückblick auf vergangene Episoden",
-          "count": 1,
-          "keywords": [
-            "Rückblick",
-            "Vergangenheit",
-            "Episoden"
-          ]
-        },
-        {
-          "topic": "Einsatz von Macs in Schulen",
-          "count": 1,
-          "keywords": [
-            "Macs",
-            "Bildung",
-            "Schulen"
-          ]
-        },
-        {
-          "topic": "Vorstellung neuer iMacs",
-          "count": 2,
-          "keywords": [
-            "iMac",
-            "Apple",
-            "Computer",
-            "Neue iMacs"
-          ]
-        },
-        {
-          "topic": "Teamvorstellungsrunde",
-          "count": 1,
-          "keywords": [
-            "Team",
-            "Vorstellung"
-          ]
-        },
-        {
-          "topic": "Neue MacBook Pros im Fokus",
-          "count": 1,
-          "keywords": [
-            "MacBook Pro",
-            "Apple",
-            "Laptop"
-          ]
-        },
-        {
-          "topic": "Fehlende Kapitelmarken in der Episode",
-          "count": 2,
-          "keywords": [
-            "Kapitelmarken",
-            "MP3",
-            "Audio",
-            "Podcast",
-            "Struktur"
-          ]
-        },
-        {
-          "topic": "Zukunftige Veröffentlichung und Planung",
-          "count": 1,
-          "keywords": [
-            "Planung",
-            "Episodenstruktur",
-            "Stringenz"
-          ]
-        },
-        {
-          "topic": "Rückkehr aus der Sommerpause",
-          "count": 1,
-          "keywords": [
-            "Sommerpause",
-            "Rückkehr",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Zukünftige Sendefrequenz",
-          "count": 1,
-          "keywords": [
-            "regelmäßige Sendungen",
-            "Planung",
-            "Zukunft"
-          ]
-        },
-        {
-          "topic": "Rückblick auf die 52. Episode des Podcasts",
-          "count": 1,
-          "keywords": [
-            "Episode 52",
-            "Rückblick",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Selbstironie und Humor im Podcast",
-          "count": 1,
-          "keywords": [
-            "Selbstironie",
-            "Humor",
-            "Unterhaltung"
-          ]
-        },
-        {
-          "topic": "MobileMacs als Full-Feature-Podcast",
-          "count": 1,
-          "keywords": [
-            "MobileMacs",
-            "Full-Feature",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Humor und Unterhaltung in der Episode",
-          "count": 1,
-          "keywords": [
-            "Humor",
-            "Unterhaltung",
-            "mobileMacs"
-          ]
-        },
-        {
-          "topic": "Simulation einer möglichen Neugestaltung des Podcasts",
-          "count": 1,
-          "keywords": [
-            "Neugestaltung",
-            "Simulation",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Rückblick auf vergangene Episoden und Entwicklungen",
-          "count": 1,
-          "keywords": [
-            "Rückblick",
-            "Episoden",
-            "Entwicklungen"
-          ]
-        },
-        {
-          "topic": "Trauer um den Computer-Standort Europa",
-          "count": 1,
-          "keywords": [
-            "Computer-Standort",
-            "Europa",
-            "Trauer"
-          ]
-        },
-        {
-          "topic": "Einführung durch David",
-          "count": 1,
-          "keywords": [
-            "Previously on mobileMacs",
-            "Podcast",
-            "Einführung"
-          ]
-        },
-        {
-          "topic": "Zusammenfassung und Ausblick auf die nächste Episode",
-          "count": 1,
-          "keywords": [
-            "Zusammenfassung",
-            "Ausblick",
-            "nächste Episode"
-          ]
-        },
-        {
-          "topic": "Rückblick auf vorherige Episoden",
-          "count": 4,
-          "keywords": [
-            "Previously",
-            "mobileMacs",
-            "Rückblick",
-            "Previously on Freak Show",
-            "Episoden"
-          ]
-        },
-        {
-          "topic": "Rückkehr von Bumm Zack",
-          "count": 1,
-          "keywords": [
-            "Bumm Zack",
-            "Rückkehr"
-          ]
-        },
-        {
-          "topic": "Diskussion über Final Cut Pro X",
-          "count": 1,
-          "keywords": [
-            "Final Cut Pro X",
-            "FCPX"
-          ]
-        },
-        {
-          "topic": "FCPX: Funktionen und Verbesserungen",
-          "count": 1,
-          "keywords": [
-            "FCPX",
-            "Management Summary",
-            "Color Sync",
-            "Rendern",
-            "Material importieren"
-          ]
-        },
-        {
-          "topic": "Überblick über Mac OS X 10.7 Lion",
-          "count": 1,
-          "keywords": [
-            "Mac OS X",
-            "Lion"
-          ]
-        },
-        {
-          "topic": "Rückkehr nach der Camp-Pause",
-          "count": 1,
-          "keywords": [
-            "Pause",
-            "Camp",
-            "Wiedereinstieg"
-          ]
-        },
-        {
-          "topic": "Programmfortsetzung von mobileMacs",
-          "count": 1,
-          "keywords": [
-            "Podcast",
-            "mobileMacs",
-            "Fortsetzung"
-          ]
-        },
-        {
-          "topic": "Prognosen und Einschätzungen der Runde",
-          "count": 1,
-          "keywords": [
-            "Prognosen",
-            "Einschätzungen",
-            "Meinungen"
-          ]
-        },
-        {
-          "topic": "Rückblick auf iTunes",
-          "count": 1,
-          "keywords": [
-            "iTunes Rewind"
-          ]
-        },
-        {
-          "topic": "This American Life: Mr. Daisey und die Apple Factory",
-          "count": 1,
-          "keywords": [
-            "This American Life",
-            "Mr. Daisey",
-            "Apple"
-          ]
-        },
-        {
-          "topic": "Lion Recovery Mode",
-          "count": 1,
-          "keywords": [
-            "Lion",
-            "macOS",
-            "Systemwiederherstellung"
-          ]
-        },
-        {
-          "topic": "Notizen-App (Notes)",
-          "count": 1,
-          "keywords": [
-            "Notes",
-            "Notizen"
-          ]
-        },
-        {
-          "topic": "Technikpanne während der Sendung",
-          "count": 1,
-          "keywords": [
-            "Technikpanne",
-            "Podcast",
-            "Aufnahme"
-          ]
-        },
-        {
-          "topic": "Dank an die Community für Unterstützung bei Show Notes",
-          "count": 1,
-          "keywords": [
-            "Community",
-            "Show Notes",
-            "Unterstützung"
-          ]
-        },
-        {
-          "topic": "Erwartungen an zukünftige Berichte",
-          "count": 1,
-          "keywords": [
-            "Bericht",
-            "Erwartungen",
-            "Max"
-          ]
-        },
-        {
-          "topic": "Rückblick auf die vorherige Episode",
-          "count": 4,
-          "keywords": [
-            "mobileMacs",
-            "Rückblick",
-            "Episode 94",
-            "Episode 107",
-            "Episode 111"
-          ]
-        },
-        {
-          "topic": "Funktionen der Podcast-App",
-          "count": 1,
-          "keywords": [
-            "Podcast-App",
-            "Funktionen",
-            "Apple"
-          ]
-        },
-        {
-          "topic": "Rückblick auf vorherige Episoden von mobileMacs",
-          "count": 2,
-          "keywords": [
-            "Rückblick",
-            "mobileMacs",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Interview mit Gast Dominik",
-          "count": 1,
-          "keywords": [
-            "Gast",
-            "Interview",
-            "Dominik"
-          ]
-        },
-        {
-          "topic": "Neue Mac-Modelle",
-          "count": 1,
-          "keywords": [
-            "Neue Macs",
-            "Apple",
-            "Hardware"
-          ]
-        },
-        {
-          "topic": "Rückblick auf die vorherige Episode MM100",
-          "count": 1,
-          "keywords": [
-            "Rückblick",
-            "MM100",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Rückblick auf die vorherige Episode MM104",
-          "count": 1,
-          "keywords": [
-            "Rückblick",
-            "MM104"
-          ]
-        },
-        {
-          "topic": "Rückblick auf Erlang Factory Lite",
-          "count": 1,
-          "keywords": [
-            "Erlang",
-            "Factory Lite",
-            "Rückblick"
-          ]
-        },
-        {
-          "topic": "Rückblick auf die vorherige Episode von mobileMacs",
-          "count": 1,
-          "keywords": [
-            "mobileMacs",
-            "Rückblick",
-            "Episode 105"
-          ]
-        },
-        {
-          "topic": "Aufruf zur Unterstützung für eine Apple Mail Frage",
-          "count": 1,
-          "keywords": [
-            "Apple Mail",
-            "Followerpower",
-            "Community"
-          ]
-        },
-        {
-          "topic": "Videoschnitt mit iMovie",
-          "count": 1,
-          "keywords": [
-            "Videoschnitt",
-            "iMovie",
-            "Videobearbeitung"
-          ]
-        },
-        {
-          "topic": "Aktuelle Nachrichten im Podcast-Bereich",
-          "count": 1,
-          "keywords": [
-            "News",
-            "Überblick"
-          ]
-        },
-        {
-          "topic": "Musik und kreative Elemente in der Episode",
-          "count": 1,
-          "keywords": [
-            "Musik",
-            "iPhone Ringtone Remix",
-            "Kreativität"
-          ]
-        },
-        {
-          "topic": "Nachträge aus der letzten Episode",
-          "count": 1,
-          "keywords": [
-            "Nachträge",
-            "Rückblick"
-          ]
-        },
-        {
-          "topic": "Erklärung der Continuity-Funktion",
-          "count": 1,
-          "keywords": [
-            "Continuity",
-            "Apple",
-            "Integration"
-          ]
-        },
-        {
-          "topic": "Verwendung von Markdown-Editoren",
-          "count": 1,
-          "keywords": [
-            "Markdown",
-            "Editoren",
-            "Schreiben"
-          ]
-        },
-        {
-          "topic": "Podcast-Apps und Statistiken",
-          "count": 1,
-          "keywords": [
-            "Podcast Apps",
-            "Statistiken",
-            "Podlove"
-          ]
-        },
-        {
-          "topic": "Podcast-Aufnahmesoftware",
-          "count": 1,
-          "keywords": [
-            "Aufnahme",
-            "Software",
-            "Podcasting"
-          ]
-        },
-        {
-          "topic": "Podcasts Connect und deren Funktionen",
-          "count": 1,
-          "keywords": [
-            "Podcasts",
-            "Connect"
-          ]
-        },
-        {
-          "topic": "Episode 23 - Nichts ist so wie es scheint",
-          "count": 1,
-          "keywords": [
-            "Episode 23",
-            "Thema"
-          ]
-        },
-        {
-          "topic": "Hackintosh und seine Herausforderungen",
-          "count": 1,
-          "keywords": [
-            "Hackintosh",
-            "Computer",
-            "Betriebssystem"
-          ]
-        },
-        {
-          "topic": "Migration auf das MacBook Pro",
-          "count": 1,
-          "keywords": [
-            "Migration",
-            "MacBook Pro"
-          ]
-        },
-        {
-          "topic": "Diskussion über das Netzteil des MacBook Pro",
-          "count": 1,
-          "keywords": [
-            "MacBook Pro",
-            "Netzteil"
-          ]
-        },
-        {
-          "topic": "Clarett 4Pre Teil 2",
-          "count": 1,
-          "keywords": [
-            "Clarett 4Pre",
-            "Audio-Interface",
-            "Teil 2"
-          ]
-        },
-        {
-          "topic": "Rückblick auf Episode FS200",
-          "count": 1,
-          "keywords": [
-            "FS200",
-            "Rückblick",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Rückblick auf vergangene und kommende Episoden",
-          "count": 1,
-          "keywords": [
-            "Dieses und nächstes",
-            "Episodenplanung"
-          ]
-        },
-        {
-          "topic": "iOS 11 und seine Funktionen",
-          "count": 1,
-          "keywords": [
-            "iOS 11",
-            "Apple",
-            "Mobile Betriebssystem"
-          ]
-        },
-        {
-          "topic": "Rückkehr der Freak Show",
-          "count": 1,
-          "keywords": [
-            "Freak Show",
-            "Podcast",
-            "Rückkehr"
-          ]
-        },
-        {
-          "topic": "FC/MC beim G20",
-          "count": 1,
-          "keywords": [
-            "FC/MC",
-            "G20",
-            "Politik"
-          ]
-        },
-        {
-          "topic": "10 Jahre Freak Show",
-          "count": 1,
-          "keywords": [
-            "Jubiläum",
-            "Podcast-Geschichte",
-            "Rückblick"
-          ]
-        },
-        {
-          "topic": "Rückblick auf 10 Jahre Freak Show",
-          "count": 1,
-          "keywords": [
-            "Jubiläum",
-            "Podcast-Geschichte",
-            "Rückblick"
-          ]
-        },
-        {
-          "topic": "Freak Show Live-Events",
-          "count": 1,
-          "keywords": [
-            "Live-Show",
-            "Events",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Tim bei der heise show",
-          "count": 1,
-          "keywords": [
-            "Heise",
-            "TV-Show",
-            "Interview"
-          ]
-        },
-        {
-          "topic": "HomePod Video und Multimedia",
-          "count": 1,
-          "keywords": [
-            "HomePod",
-            "Video",
-            "Multimedia"
-          ]
-        },
-        {
-          "topic": "iOS 12: Screenshots und neue Funktionen",
-          "count": 1,
-          "keywords": [
-            "iOS 12",
-            "Screenshots"
-          ]
-        },
-        {
-          "topic": "Sommerpause des Podcasts",
-          "count": 1,
-          "keywords": [
-            "Sommerpause",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Hinweis auf Abonnements und Unterstützungsaufruf",
-          "count": 1,
-          "keywords": [
-            "SUBSCRIBE",
-            "Unterstützung",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Aufforderung zum Abonnieren des Podcasts",
-          "count": 1,
-          "keywords": [
-            "SUBSCRIBE",
-            "Podcast",
-            "Abonnieren"
-          ]
-        },
-        {
-          "topic": "UIConf",
-          "count": 1,
-          "keywords": [
-            "UIConf",
-            "Benutzeroberfläche",
-            "Konferenz"
-          ]
-        },
-        {
-          "topic": "Freak Show Community im Internet",
-          "count": 1,
-          "keywords": [
-            "Freak Show",
-            "Community",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "Turtle Operation Center",
-          "count": 1,
-          "keywords": [
-            "Turtle",
-            "Operation",
-            "Zentrum"
-          ]
-        },
-        {
-          "topic": "Hafermilch Revisited",
-          "count": 1,
-          "keywords": [
-            "Ernährung",
-            "Hafermilch",
-            "Nachhaltigkeit"
-          ]
-        },
-        {
-          "topic": "Text bearbeiten und eingeben auf iOS 13",
-          "count": 1,
-          "keywords": [
-            "Technologie",
-            "iOS",
-            "Benutzererfahrung"
-          ]
-        },
-        {
-          "topic": "Erinnerungen an vergangene Episoden",
-          "count": 1,
-          "keywords": [
-            "Erinnerungen",
-            "Wiedergänger",
-            "Podcastgeschichte"
-          ]
-        },
-        {
-          "topic": "Scribble",
-          "count": 1,
-          "keywords": [
-            "Scribble",
-            "Notizen",
-            "Apple Pencil"
-          ]
-        },
-        {
-          "topic": "20 Macs für 2020: Eine Übersicht",
-          "count": 1,
-          "keywords": [
-            "20 Macs for 2020",
-            "Hardware"
-          ]
-        },
-        {
-          "topic": "Interview mit Ralf Rottmann",
-          "count": 1,
-          "keywords": [
-            "Interview",
-            "Gast",
-            "Ralf Rottmann"
-          ]
-        },
-        {
-          "topic": "Podcastarchive und Shownotes",
-          "count": 1,
-          "keywords": [
-            "Podcastarchive",
-            "Shownotes",
-            "Dokumentation"
-          ]
-        },
-        {
-          "topic": "WWDC: Focus",
-          "count": 1,
-          "keywords": [
-            "iOS",
-            "Fokus",
-            "Produktivität"
-          ]
-        },
-        {
-          "topic": "Energiekrise",
-          "count": 1,
-          "keywords": [
-            "Energie",
-            "Krise",
-            "Ressourcen"
-          ]
-        },
-        {
-          "topic": "macOS Support für alte Macs",
-          "count": 1,
-          "keywords": [
-            "macOS",
-            "Support",
-            "alte Macs"
-          ]
-        },
-        {
-          "topic": "Live Text Funktion in macOS",
-          "count": 1,
-          "keywords": [
-            "Live Text",
-            "macOS",
-            "Funktion"
-          ]
-        },
-        {
-          "topic": "macOS Ventura und seine Funktionen",
-          "count": 1,
-          "keywords": [
-            "macOS Ventura",
-            "Betriebssystem",
-            "Apple"
-          ]
-        },
-        {
-          "topic": "Interview mit Hans",
-          "count": 1,
-          "keywords": [
-            "Gast",
-            "Interview",
-            "Hans"
-          ]
-        },
-        {
-          "topic": "Diskussion über das Ende von Flattr",
-          "count": 1,
-          "keywords": [
-            "Flattr",
-            "RIP",
-            "Crowdfunding"
-          ]
-        },
-        {
-          "topic": "Tim @ PodFest",
-          "count": 1,
-          "keywords": [
-            "PodFest",
-            "Vortrag",
-            "Dunkelheit"
-          ]
-        },
-        {
-          "topic": "Screen Recording Prompts",
-          "count": 1,
-          "keywords": [
-            "Screen Recording",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "VisionOS 2.0 und seine Funktionen",
-          "count": 1,
-          "keywords": [
-            "VisionOS 2.0",
-            "Apple",
-            "Software"
-          ]
-        },
-        {
-          "topic": "Feedumstellung bei der Freak Show",
-          "count": 1,
-          "keywords": [
-            "Feedumstellung",
-            "Podcast",
-            "Freak Show"
-          ]
-        },
-        {
-          "topic": "Diskussion über die Wahrhaftigkeit und Grenzen von LLMs",
-          "count": 1,
-          "keywords": [
-            "Wahrhaftigkeit",
-            "LLMs",
-            "Ethik"
-          ]
-        },
-        {
-          "topic": "Rückblick auf die Programme des Jahres",
-          "count": 1,
-          "keywords": [
-            "Programme des Jahres",
-            "Rückblick"
-          ]
-        },
-        {
-          "topic": "Einsatz von LLMs im Support",
-          "count": 1,
-          "keywords": [
-            "LLMs",
-            "Support",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Bumm Zack Return: Rückblick und Ausblick",
-          "count": 1,
-          "keywords": [
-            "Bumm Zack Return",
-            "Rückblick",
-            "Ausblick"
-          ]
-        },
-        {
-          "topic": "Nachklapp: Rückblick auf die Episode",
-          "count": 1,
-          "keywords": [
-            "Nachklapp",
-            "Rückblick"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "internet-diskussionen",
-      "name": "Internet-Diskussionen",
-      "topicCount": 123,
-      "topics": [
-        {
-          "topic": "Abkehr von Firefox als Diskussionsthema",
-          "count": 1,
-          "keywords": [
-            "Firefox",
-            "Browser",
-            "Abkehr"
-          ]
-        },
-        {
-          "topic": "Technische Probleme beim Streaming",
-          "count": 1,
-          "keywords": [
-            "Ruckelstream",
-            "Technik",
-            "Streaming"
-          ]
-        },
-        {
-          "topic": "Werbung im Internet und deren Rentabilität",
-          "count": 1,
-          "keywords": [
-            "Werbung",
-            "Internet",
-            "Rentabilität"
-          ]
-        },
-        {
-          "topic": "Synchronisation von Daten",
-          "count": 1,
-          "keywords": [
-            "Syncing",
-            "Daten"
-          ]
-        },
-        {
-          "topic": "Kritik an Internet Service Providern (ISPs)",
-          "count": 1,
-          "keywords": [
-            "ISPs",
-            "Internet",
-            "Kritik"
-          ]
-        },
-        {
-          "topic": "Diskussion über die Bedeutung von Sex im Internet",
-          "count": 1,
-          "keywords": [
-            "Sex",
-            "Internet",
-            "Kultur"
-          ]
-        },
-        {
-          "topic": "Detaillierte Analyse von Honey Rider",
-          "count": 1,
-          "keywords": [
-            "Honey Rider",
-            "Charakteranalyse",
-            "Film"
-          ]
-        },
-        {
-          "topic": "Kulturelle Einflüsse und Rezeption von Honey Rider",
-          "count": 1,
-          "keywords": [
-            "Kultur",
-            "Rezeption",
-            "Film"
-          ]
-        },
-        {
-          "topic": "Persönliche Meinungen der Podcaster zu Honey Rider",
-          "count": 1,
-          "keywords": [
-            "Meinungen",
-            "Diskussion",
-            "Perspektiven"
-          ]
-        },
-        {
-          "topic": "Max' Erfahrungen in Dresden",
-          "count": 1,
-          "keywords": [
-            "Dresden",
-            "Max"
-          ]
-        },
-        {
-          "topic": "Europachef in Dresden",
-          "count": 1,
-          "keywords": [
-            "Europachef",
-            "Dresden"
-          ]
-        },
-        {
-          "topic": "The Restart Page und deren Bedeutung",
-          "count": 1,
-          "keywords": [
-            "Restart Page",
-            "Webseite"
-          ]
-        },
-        {
-          "topic": "Max' Problemlösung für den Google-Sync",
-          "count": 1,
-          "keywords": [
-            "Google-Sync",
-            "Problemlösung",
-            "Max"
-          ]
-        },
-        {
-          "topic": "CRE191 Internet im Festnetz",
-          "count": 1,
-          "keywords": [
-            "CRE191",
-            "Internet",
-            "Festnetz"
-          ]
-        },
-        {
-          "topic": "Bittorrent Live",
-          "count": 1,
-          "keywords": [
-            "Bittorrent",
-            "Streaming",
-            "Peer-to-Peer"
-          ]
-        },
-        {
-          "topic": "CouchDB",
-          "count": 1,
-          "keywords": [
-            "Datenbank",
-            "NoSQL",
-            "Webanwendungen"
-          ]
-        },
-        {
-          "topic": "Browserkompatibilität",
-          "count": 1,
-          "keywords": [
-            "Webentwicklung",
-            "Kompatibilität",
-            "Browser"
-          ]
-        },
-        {
-          "topic": "Disk Cleanup Tools",
-          "count": 1,
-          "keywords": [
-            "Disk CC",
-            "Speicherplatz"
-          ]
-        },
-        {
-          "topic": "Erlang Diskussion",
-          "count": 1,
-          "keywords": [
-            "Erlang",
-            "Programmiersprache",
-            "Softwareentwicklung"
-          ]
-        },
-        {
-          "topic": "Twitter: Apps vs. Browser",
-          "count": 1,
-          "keywords": [
-            "Twitter",
-            "Apps",
-            "Browser",
-            "Nutzererfahrung"
-          ]
-        },
-        {
-          "topic": "Aufsetzen von Root-Servern",
-          "count": 1,
-          "keywords": [
-            "Root Server",
-            "Server Setup"
-          ]
-        },
-        {
-          "topic": "Erklärung von Streamabbrüchen",
-          "count": 1,
-          "keywords": [
-            "Streamabbruch",
-            "Streaming",
-            "Technik"
-          ]
-        },
-        {
-          "topic": "Streaming-Technologien",
-          "count": 1,
-          "keywords": [
-            "Streaming",
-            "Technologie",
-            "Medien"
-          ]
-        },
-        {
-          "topic": "Internetfoo und digitale Trends",
-          "count": 1,
-          "keywords": [
-            "Internetfoo",
-            "Trends",
-            "Digitalisierung"
-          ]
-        },
-        {
-          "topic": "Onlinezugang und Provider",
-          "count": 1,
-          "keywords": [
-            "Internet",
-            "Provider",
-            "Zugang"
-          ]
-        },
-        {
-          "topic": "VNC-Experiment und Remote-Zugriff",
-          "count": 1,
-          "keywords": [
-            "VNC",
-            "Experiment",
-            "Remote-Zugriff"
-          ]
-        },
-        {
-          "topic": "Privatsphäre bei VPN-Anbietern und SixXS",
-          "count": 1,
-          "keywords": [
-            "VPN",
-            "Privatsphäre",
-            "SixXS"
-          ]
-        },
-        {
-          "topic": "Neuer Morseanschluss der Telekom",
-          "count": 1,
-          "keywords": [
-            "Telekom",
-            "Morseanschluss"
-          ]
-        },
-        {
-          "topic": "Telekom DroSseL",
-          "count": 1,
-          "keywords": [
-            "Telekom",
-            "Drosselung"
-          ]
-        },
-        {
-          "topic": "Telekomdrosselung",
-          "count": 1,
-          "keywords": [
-            "Telekom",
-            "Drosselung",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "Drosselkom",
-          "count": 1,
-          "keywords": [
-            "Drosselung",
-            "Telekommunikation",
-            "Netzneutralität"
-          ]
-        },
-        {
-          "topic": "IFA und neue Produkte von AVM",
-          "count": 1,
-          "keywords": [
-            "IFA",
-            "AVM",
-            "Fritz!Box"
-          ]
-        },
-        {
-          "topic": "Probleme mit Telekom-DSL-Routern",
-          "count": 1,
-          "keywords": [
-            "Stress",
-            "Telekom",
-            "DSL-Router"
-          ]
-        },
-        {
-          "topic": "DynDNS und Netzwerktechnologie",
-          "count": 1,
-          "keywords": [
-            "DynDNS",
-            "Netzwerktechnologie"
-          ]
-        },
-        {
-          "topic": "Audio/Video über Ethernet",
-          "count": 1,
-          "keywords": [
-            "Audio",
-            "Video",
-            "Ethernet"
-          ]
-        },
-        {
-          "topic": "Analoge Hobbys und deren Bedeutung",
-          "count": 1,
-          "keywords": [
-            "analoge Hobbys",
-            "Hobbys",
-            "Kreativität"
-          ]
-        },
-        {
-          "topic": "Energieverbrauch und Lichtmanagement im Netzwerk",
-          "count": 1,
-          "keywords": [
-            "Netz aus",
-            "Licht an",
-            "Energieeffizienz"
-          ]
-        },
-        {
-          "topic": "Zertifikate und deren Bedeutung",
-          "count": 1,
-          "keywords": [
-            "Zertifikate",
-            "Sicherheit",
-            "Authentifizierung"
-          ]
-        },
-        {
-          "topic": "Loadbalancing in Netzwerken",
-          "count": 1,
-          "keywords": [
-            "Loadbalancing",
-            "Netzwerk",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Das Thema Sterben im Netz",
-          "count": 1,
-          "keywords": [
-            "Sterben",
-            "Netz",
-            "Digitalisierung"
-          ]
-        },
-        {
-          "topic": "Glasfasertechnologie in der Schweiz",
-          "count": 1,
-          "keywords": [
-            "Glasfaser",
-            "Schweiz",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "Internet-Zugang in Kuba",
-          "count": 1,
-          "keywords": [
-            "Internet",
-            "Kuba",
-            "Zugang"
-          ]
-        },
-        {
-          "topic": "Webhosting-Optionen und Empfehlungen",
-          "count": 1,
-          "keywords": [
-            "Webhosting",
-            "Server",
-            "Hosting-Anbieter",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "Internet Breitbandausbau part I",
-          "count": 1,
-          "keywords": [
-            "Breitbandausbau",
-            "Internet",
-            "Infrastruktur"
-          ]
-        },
-        {
-          "topic": "Internet Breitbandausbau part II",
-          "count": 1,
-          "keywords": [
-            "Breitbandausbau",
-            "Internet",
-            "Infrastruktur"
-          ]
-        },
-        {
-          "topic": "Telekom Hybrid DSL",
-          "count": 1,
-          "keywords": [
-            "Telekom",
-            "Hybrid DSL",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "AVB (Audio Video Bridging)",
-          "count": 1,
-          "keywords": [
-            "AVB",
-            "Audio",
-            "Video"
-          ]
-        },
-        {
-          "topic": "Slack als Kommunikationswerkzeug",
-          "count": 1,
-          "keywords": [
-            "Slack",
-            "Kommunikation",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Reduzierung von Netzwerkverzögerungen",
-          "count": 1,
-          "keywords": [
-            "Network Delay Reduction",
-            "Netzwerk",
-            "Performance"
-          ]
-        },
-        {
-          "topic": "Einfluss der Bahn auf das Internet",
-          "count": 1,
-          "keywords": [
-            "Bahn",
-            "Internet",
-            "Netzwerk"
-          ]
-        },
-        {
-          "topic": "hitch: TLS-Netzwerkproxy",
-          "count": 1,
-          "keywords": [
-            "hitch",
-            "TLS",
-            "Netzwerk"
-          ]
-        },
-        {
-          "topic": "Spülschrubber mit Wechselkopf",
-          "count": 1,
-          "keywords": [
-            "Spülschrubber",
-            "Wechselkopf",
-            "Haushalt"
-          ]
-        },
-        {
-          "topic": "Sand Grabber",
-          "count": 1,
-          "keywords": [
-            "Sand",
-            "Grabber",
-            "Zubehör"
-          ]
-        },
-        {
-          "topic": "RC4 NO MORE im Browser",
-          "count": 1,
-          "keywords": [
-            "RC4",
-            "Browser",
-            "Sicherheit"
-          ]
-        },
-        {
-          "topic": "Z-MODEM Protokoll",
-          "count": 1,
-          "keywords": [
-            "Z-MODEM",
-            "Protokoll",
-            "Datenübertragung"
-          ]
-        },
-        {
-          "topic": "Atom Routerboard",
-          "count": 1,
-          "keywords": [
-            "Atom",
-            "Router",
-            "Hardware"
-          ]
-        },
-        {
-          "topic": "Vectoring-Technologie in Netzwerken",
-          "count": 1,
-          "keywords": [
-            "Vectoring",
-            "Netzwerktechnologie"
-          ]
-        },
-        {
-          "topic": "Einführung in das Konzept 'Staubsauger as a Service'",
-          "count": 1,
-          "keywords": [
-            "Staubsauger",
-            "Service",
-            "Abonnement"
-          ]
-        },
-        {
-          "topic": "Beyond Your Cable Modem - Vortrag",
-          "count": 1,
-          "keywords": [
-            "32C3",
-            "Cable Modem"
-          ]
-        },
-        {
-          "topic": "Kommandozeile: Remote Deployment",
-          "count": 1,
-          "keywords": [
-            "Kommandozeile",
-            "Deployment",
-            "Remote"
-          ]
-        },
-        {
-          "topic": "Urbane Strom- und Mobilfunkinfrastruktur",
-          "count": 1,
-          "keywords": [
-            "Strominfrastruktur",
-            "Mobilfunk",
-            "Stadtentwicklung"
-          ]
-        },
-        {
-          "topic": "Einsatz von günstigen Headsets und DIY Audio",
-          "count": 1,
-          "keywords": [
-            "Headsets",
-            "DIY Audio",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Google As A Fetish",
-          "count": 1,
-          "keywords": [
-            "Suchmaschine",
-            "Kultur",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "ISDN-Datencalls über VoIP",
-          "count": 1,
-          "keywords": [
-            "ISDN",
-            "VoIP",
-            "Datencalls"
-          ]
-        },
-        {
-          "topic": "Probleme mit Telekom-Router",
-          "count": 1,
-          "keywords": [
-            "Telekom",
-            "Router",
-            "Netzwerkausfall"
-          ]
-        },
-        {
-          "topic": "Datenübertragung durch T",
-          "count": 1,
-          "keywords": [
-            "Daten",
-            "Übertragung",
-            "T"
-          ]
-        },
-        {
-          "topic": "3G/4G Modems und deren Einsatz",
-          "count": 1,
-          "keywords": [
-            "33C3",
-            "3G/4G Modems"
-          ]
-        },
-        {
-          "topic": "Einsatz von FreeBSD auf Servern",
-          "count": 1,
-          "keywords": [
-            "FreeBSD",
-            "Server",
-            "Betriebssystem"
-          ]
-        },
-        {
-          "topic": "Der Ian Knot als effizienter Knoten",
-          "count": 1,
-          "keywords": [
-            "Ian Knot",
-            "Knoten",
-            "Effizienz"
-          ]
-        },
-        {
-          "topic": "WebAssembly (WebASM) Einführung",
-          "count": 1,
-          "keywords": [
-            "WebASM",
-            "WebAssembly",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Breitbandausbau in Deutschland",
-          "count": 1,
-          "keywords": [
-            "Breitbandausbau",
-            "Deutschland",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "Digitale Verstärker",
-          "count": 1,
-          "keywords": [
-            "Audio",
-            "Verstärker",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Quad9 DNS",
-          "count": 1,
-          "keywords": [
-            "DNS",
-            "Sicherheit",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "VPNs und deren Nutzung mit tinc",
-          "count": 1,
-          "keywords": [
-            "VPN",
-            "tinc",
-            "Sicherheit"
-          ]
-        },
-        {
-          "topic": "Erlang und die Philosophie des 'fail early'",
-          "count": 1,
-          "keywords": [
-            "Erlang",
-            "fail early",
-            "Programmierung"
-          ]
-        },
-        {
-          "topic": "DNS-Dienst 1.1.1.1",
-          "count": 1,
-          "keywords": [
-            "DNS",
-            "Internet",
-            "Sicherheit"
-          ]
-        },
-        {
-          "topic": "DSL-Vectoring und Internetgeschwindigkeit",
-          "count": 1,
-          "keywords": [
-            "DSL",
-            "Internet",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Streaming-Dienste und deren Marktanteile",
-          "count": 1,
-          "keywords": [
-            "Streaming",
-            "Marktanteile",
-            "Medien"
-          ]
-        },
-        {
-          "topic": "Erfahrungen mit Glasfaser in Venedig",
-          "count": 1,
-          "keywords": [
-            "Glasfaser",
-            "Venedig",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "Netzausbau",
-          "count": 1,
-          "keywords": [
-            "Netzausbau",
-            "Infrastruktur",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Web Log Analyzer",
-          "count": 1,
-          "keywords": [
-            "Web Log",
-            "Analyse",
-            "Daten"
-          ]
-        },
-        {
-          "topic": "Wechsel von Stromanbietern",
-          "count": 1,
-          "keywords": [
-            "Stromanbieter",
-            "Energie",
-            "Wechsel"
-          ]
-        },
-        {
-          "topic": "Internetprobleme in Thüringen",
-          "count": 1,
-          "keywords": [
-            "Internet",
-            "Thüringen",
-            "Probleme"
-          ]
-        },
-        {
-          "topic": "AVR Transistormeter und Elektrobastel-Projekte",
-          "count": 1,
-          "keywords": [
-            "AVR Transistormeter",
-            "Elektrobasteln",
-            "Technik"
-          ]
-        },
-        {
-          "topic": "HTTP/3 und DNS-Technologien",
-          "count": 1,
-          "keywords": [
-            "HTTP/3",
-            "DNS",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "Hetzner Volumes",
-          "count": 1,
-          "keywords": [
-            "Hetzner",
-            "Cloud-Hosting"
-          ]
-        },
-        {
-          "topic": "DNS über TCP und TLS",
-          "count": 1,
-          "keywords": [
-            "DNS",
-            "TCP",
-            "TLS"
-          ]
-        },
-        {
-          "topic": "Ultrawide Monitore und Window Manager",
-          "count": 1,
-          "keywords": [
-            "Ultrawide Monitore",
-            "Window Manager",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "VSCode und das Language Server Protocol",
-          "count": 1,
-          "keywords": [
-            "VSCode",
-            "Language Server Protocol",
-            "Entwicklung"
-          ]
-        },
-        {
-          "topic": "Audioübertragung über das Internet",
-          "count": 1,
-          "keywords": [
-            "Audio",
-            "Internet",
-            "Streaming"
-          ]
-        },
-        {
-          "topic": "Internetversorgung während der Pandemie",
-          "count": 1,
-          "keywords": [
-            "Internetversorgung",
-            "Zugang",
-            "Netzwerk"
-          ]
-        },
-        {
-          "topic": "Wartenummern und digitale Warteschlangen",
-          "count": 1,
-          "keywords": [
-            "Wartenummern",
-            "Online-Warteschlangen",
-            "Benutzererfahrung"
-          ]
-        },
-        {
-          "topic": "Digitale Affinität in Deutschland",
-          "count": 1,
-          "keywords": [
-            "Digitalaffinität",
-            "Deutschland",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Online-Immersion und virtuelle Erlebnisse",
-          "count": 1,
-          "keywords": [
-            "Online-Immersion",
-            "Virtuelle Realität",
-            "Erlebnisse"
-          ]
-        },
-        {
-          "topic": "Elgato StreamDeck",
-          "count": 1,
-          "keywords": [
-            "StreamDeck",
-            "Elgato",
-            "Streaming"
-          ]
-        },
-        {
-          "topic": "HexFiend",
-          "count": 1,
-          "keywords": [
-            "HexFiend",
-            "Software",
-            "Hex-Editor"
-          ]
-        },
-        {
-          "topic": "Technische Ausstattung: Headset und Mischpult",
-          "count": 1,
-          "keywords": [
-            "Headset",
-            "Mischpult",
-            "Audio"
-          ]
-        },
-        {
-          "topic": "Gamer-Headsets und ihre Funktionen",
-          "count": 1,
-          "keywords": [
-            "Gamer-Headsets",
-            "Gaming",
-            "Audioqualität"
-          ]
-        },
-        {
-          "topic": "Virtuelle Events und deren Bedeutung",
-          "count": 1,
-          "keywords": [
-            "Virtuelle Events",
-            "Online"
-          ]
-        },
-        {
-          "topic": "Mikrofone und Headsets für Audioqualität",
-          "count": 1,
-          "keywords": [
-            "Mikrofone",
-            "Headsets",
-            "Audio"
-          ]
-        },
-        {
-          "topic": "Vorteile von Ethernet in der Technik",
-          "count": 1,
-          "keywords": [
-            "Ethernet",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "NAS-Lösungen: Vorteile und Einsatz",
-          "count": 1,
-          "keywords": [
-            "NAS",
-            "Speicherlösungen",
-            "Daten"
-          ]
-        },
-        {
-          "topic": "Technische Aspekte von Audio und Internet",
-          "count": 1,
-          "keywords": [
-            "Audio",
-            "Internet",
-            "Technik"
-          ]
-        },
-        {
-          "topic": "Social Bookmarking",
-          "count": 1,
-          "keywords": [
-            "Social",
-            "Bookmarking",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "Dongle Hell",
-          "count": 1,
-          "keywords": [
-            "Dongle",
-            "Probleme",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "DNS over TLS als Sicherheitsmaßnahme",
-          "count": 1,
-          "keywords": [
-            "DNS over TLS",
-            "Sicherheit",
-            "Internet"
-          ]
-        },
-        {
-          "topic": "Programmierung mit Elixir und Verbesserung der Programmierpraktiken",
-          "count": 1,
-          "keywords": [
-            "Elixir",
-            "Programmierung",
-            "Softwareentwicklung"
-          ]
-        },
-        {
-          "topic": "Webcam-Probleme",
-          "count": 1,
-          "keywords": [
-            "Webcam",
-            "Technikprobleme",
-            "Videokonferenzen"
-          ]
-        },
-        {
-          "topic": "Programmierung mit Elixir",
-          "count": 1,
-          "keywords": [
-            "Elixir",
-            "Programmierung",
-            "Softwareentwicklung"
-          ]
-        },
-        {
-          "topic": "Tailscale für Netzwerkverbindungen",
-          "count": 1,
-          "keywords": [
-            "Tailscale",
-            "Netzwerk",
-            "VPN"
-          ]
-        },
-        {
-          "topic": "Kleben statt Bohren",
-          "count": 1,
-          "keywords": [
-            "Befestigung",
-            "DIY",
-            "Handwerk"
-          ]
-        },
-        {
-          "topic": "Eye Tracking",
-          "count": 1,
-          "keywords": [
-            "Eye Tracking",
-            "Technologie",
-            "Benutzererfahrung"
-          ]
-        },
-        {
-          "topic": "In-Ear Monitoring für die digitale Band",
-          "count": 1,
-          "keywords": [
-            "In-Ear Monitoring",
-            "Musik",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Digital-Rack v1 der digitalen Band",
-          "count": 1,
-          "keywords": [
-            "Digital-Rack",
-            "Musik",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Digital-Rack v2 der digitalen Band",
-          "count": 1,
-          "keywords": [
-            "Digital-Rack",
-            "Musik",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Auracast-Technologie",
-          "count": 1,
-          "keywords": [
-            "Auracast",
-            "Audio-Technologie"
-          ]
-        },
-        {
-          "topic": "Diskussion über Toilettenpapier",
-          "count": 1,
-          "keywords": [
-            "Toilettenpapier",
-            "Scheißthema",
-            "Hygiene"
-          ]
-        },
-        {
-          "topic": "Blender MCP Server",
-          "count": 1,
-          "keywords": [
-            "Blender",
-            "MCP Server",
-            "3D-Modellierung"
-          ]
-        },
-        {
-          "topic": "Highlights der ElixirConf",
-          "count": 1,
-          "keywords": [
-            "ElixirConf",
-            "Highlights",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Stromausfall auf der iberischen Halbinsel",
-          "count": 1,
-          "keywords": [
-            "Stromausfall",
-            "Iberische Halbinsel",
-            "Energie"
-          ]
-        },
-        {
-          "topic": "Glasfaseranschlüsse",
-          "count": 1,
-          "keywords": [
-            "Glasfaser",
-            "Internet",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Nerves Framework und seine Nutzung",
-          "count": 1,
-          "keywords": [
-            "Nerves",
-            "Entwicklung",
-            "IoT"
-          ]
-        },
-        {
-          "topic": "Yak Shaving und FM Transmitter",
-          "count": 1,
-          "keywords": [
-            "Yak Shaving",
-            "FM Transmitter",
-            "Technologie"
           ]
         }
       ]
@@ -24374,8 +24374,8 @@
       ]
     },
     {
-      "id": "weihnachts-podcasts",
-      "name": "Weihnachts-Podcasts",
+      "id": "weihnachts-podcast",
+      "name": "Weihnachts-Podcast",
       "topicCount": 78,
       "topics": [
         {
@@ -26633,6 +26633,670 @@
       ]
     },
     {
+      "id": "wwdc-insights",
+      "name": "WWDC Insights",
+      "topicCount": 74,
+      "topics": [
+        {
+          "topic": "Ankündigungen der WWDC 2023",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Ankündigungen",
+            "Entwicklerkonferenz"
+          ]
+        },
+        {
+          "topic": "Rückblick auf vergangene WWDCs",
+          "count": 1,
+          "keywords": [
+            "Rückblick",
+            "Vergangenheit",
+            "WWDC"
+          ]
+        },
+        {
+          "topic": "Einfluss von WWDC auf die Softwareentwicklung",
+          "count": 1,
+          "keywords": [
+            "Einfluss",
+            "Softwareentwicklung",
+            "WWDC"
+          ]
+        },
+        {
+          "topic": "Nachlese zur WWDC Keynote",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Keynote",
+            "Apple",
+            "Neuigkeiten"
+          ]
+        },
+        {
+          "topic": "Nachrichtenlage rund um die letzte Keynote",
+          "count": 1,
+          "keywords": [
+            "Nachrichten",
+            "Keynote",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Nachlese der WWDC 2023",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Nachlese",
+            "Entwicklerkonferenz"
+          ]
+        },
+        {
+          "topic": "Diskussion über Carrier IQ",
+          "count": 1,
+          "keywords": [
+            "Carrier IQ",
+            "Datenschutz"
+          ]
+        },
+        {
+          "topic": "Benachrichtigungszentrum (Notification Center)",
+          "count": 1,
+          "keywords": [
+            "Notification Center",
+            "Benachrichtigungen"
+          ]
+        },
+        {
+          "topic": "Instacast Apple Review",
+          "count": 1,
+          "keywords": [
+            "Instacast",
+            "Apple",
+            "Podcast"
+          ]
+        },
+        {
+          "topic": "Ablehnung von Instacast wegen Flattr-Integration",
+          "count": 1,
+          "keywords": [
+            "Instacast",
+            "Flattr",
+            "Ablehnung",
+            "Apps"
+          ]
+        },
+        {
+          "topic": "Weltweite Entwicklerkonferenz",
+          "count": 1,
+          "keywords": [
+            "World Wide Developer Conference",
+            "Entwickler",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Wichtige Ankündigungen der Keynote",
+          "count": 1,
+          "keywords": [
+            "Keynote",
+            "Ankündigungen",
+            "Innovation"
+          ]
+        },
+        {
+          "topic": "Sicherheitsaspekte von iCloud",
+          "count": 1,
+          "keywords": [
+            "iCloud",
+            "Sicherheit",
+            "Datenschutz"
+          ]
+        },
+        {
+          "topic": "Diskussion über den UDID-Hack",
+          "count": 1,
+          "keywords": [
+            "UDID",
+            "Hacking",
+            "Sicherheit"
+          ]
+        },
+        {
+          "topic": "Wichtige Ankündigungen während der Keynote",
+          "count": 1,
+          "keywords": [
+            "Keynote",
+            "Ankündigungen",
+            "Apple"
+          ]
+        },
+        {
+          "topic": "Einblicke in Mac OS Server",
+          "count": 1,
+          "keywords": [
+            "Mac OS Server",
+            "Apple",
+            "Server"
+          ]
+        },
+        {
+          "topic": "Neuigkeiten zu iOS 6",
+          "count": 1,
+          "keywords": [
+            "iOS 6",
+            "Apple",
+            "Betriebssystem"
+          ]
+        },
+        {
+          "topic": "iOS 6.1 Update und dessen Neuerungen",
+          "count": 1,
+          "keywords": [
+            "iOS",
+            "Update",
+            "Neuerungen"
+          ]
+        },
+        {
+          "topic": "WWDC 2013",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Apple",
+            "Entwicklerkonferenz"
+          ]
+        },
+        {
+          "topic": "WWDC Keynote und ihre Highlights",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Keynote",
+            "Highlights"
+          ]
+        },
+        {
+          "topic": "Neuerungen in OS X Mavericks",
+          "count": 1,
+          "keywords": [
+            "OS X Mavericks",
+            "Sea Lion",
+            "Neuerungen"
+          ]
+        },
+        {
+          "topic": "Neuigkeiten zu iOS 7",
+          "count": 2,
+          "keywords": [
+            "iOS 7",
+            "Apple",
+            "Software",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Neuerungen in iOS 7",
+          "count": 1,
+          "keywords": [
+            "iOS 7",
+            "Apple",
+            "Mobile Betriebssystem"
+          ]
+        },
+        {
+          "topic": "Neuigkeiten zu iOS 7.1",
+          "count": 1,
+          "keywords": [
+            "iOS 7.1",
+            "Apple",
+            "Software"
+          ]
+        },
+        {
+          "topic": "WWDC-Lotterie und Gerüchte über Baseband",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Apple",
+            "Gerüchte"
+          ]
+        },
+        {
+          "topic": "Zusammenarbeit zwischen Apple und Beats",
+          "count": 1,
+          "keywords": [
+            "Apple",
+            "Beats"
+          ]
+        },
+        {
+          "topic": "WWDC (Apple Worldwide Developers Conference)",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Apple",
+            "Entwickler"
+          ]
+        },
+        {
+          "topic": "Bericht über WWDC",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Apple",
+            "Entwicklerkonferenz"
+          ]
+        },
+        {
+          "topic": "Freigabe von iOS 7",
+          "count": 1,
+          "keywords": [
+            "iOS 7",
+            "Freigabe",
+            "Apple"
+          ]
+        },
+        {
+          "topic": "Apples Ansatz zur Privatsphäre",
+          "count": 1,
+          "keywords": [
+            "Apple",
+            "Privatsphäre",
+            "Datenschutz"
+          ]
+        },
+        {
+          "topic": "Wichtige Informationen zur Apple Keynote",
+          "count": 1,
+          "keywords": [
+            "Apple Keynote",
+            "Neuheiten",
+            "Produkte"
+          ]
+        },
+        {
+          "topic": "Neuigkeiten von der WWDC: OSX Käpt'n",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "OSX Käpt'n"
+          ]
+        },
+        {
+          "topic": "Entwickler-Features von WWDC",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Developer Features"
+          ]
+        },
+        {
+          "topic": "IPv6 und TLS Enforcement bei WWDC",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "IPv6",
+            "TLS Enforcement"
+          ]
+        },
+        {
+          "topic": "System Integrity Protection in OSX",
+          "count": 1,
+          "keywords": [
+            "OSX",
+            "System Integrity Protection",
+            "Sicherheit"
+          ]
+        },
+        {
+          "topic": "Secure Messaging Scorecard",
+          "count": 1,
+          "keywords": [
+            "Sichere Nachrichten",
+            "Bewertung",
+            "Datenschutz"
+          ]
+        },
+        {
+          "topic": "WWDC 2016 und seine Ankündigungen",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Entwicklerkonferenz"
+          ]
+        },
+        {
+          "topic": "Neue Funktionen in watchOS 3",
+          "count": 1,
+          "keywords": [
+            "watchOS 3",
+            "Smartwatch",
+            "Funktionen"
+          ]
+        },
+        {
+          "topic": "hukl reacts to WWDC",
+          "count": 1,
+          "keywords": [
+            "Apple",
+            "WWDC",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Neuigkeiten von der WWDC",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Apple",
+            "Entwickler"
+          ]
+        },
+        {
+          "topic": "WWDC Wünsche und Erwartungen",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Wünsche",
+            "Erwartungen"
+          ]
+        },
+        {
+          "topic": "Berichterstattung über die WWDC",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Entwicklerkonferenz"
+          ]
+        },
+        {
+          "topic": "Integration von CarPlay und Maps",
+          "count": 1,
+          "keywords": [
+            "CarPlay",
+            "Maps",
+            "Navigation"
+          ]
+        },
+        {
+          "topic": "WWDC 2018: Keynote Zusammenfassung",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Keynote"
+          ]
+        },
+        {
+          "topic": "watchOS 5: Neue Features und Updates",
+          "count": 1,
+          "keywords": [
+            "watchOS 5",
+            "Apple Watch"
+          ]
+        },
+        {
+          "topic": "Podcasts auf der Apple Watch",
+          "count": 1,
+          "keywords": [
+            "Podcasts",
+            "Apple Watch"
+          ]
+        },
+        {
+          "topic": "WWDC: Abschließende Gedanken und Ausblick",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Abschluss"
+          ]
+        },
+        {
+          "topic": "Halten eines Talks bei der WWDC",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Talk halten"
+          ]
+        },
+        {
+          "topic": "Neuigkeiten zu iOS 12",
+          "count": 1,
+          "keywords": [
+            "iOS 12",
+            "Neuigkeiten"
+          ]
+        },
+        {
+          "topic": "Computermuseen und Science Center",
+          "count": 1,
+          "keywords": [
+            "Computermuseen",
+            "Science Center",
+            "Bildung"
+          ]
+        },
+        {
+          "topic": "Europawahl",
+          "count": 1,
+          "keywords": [
+            "Wahlen",
+            "Europa",
+            "Politik"
+          ]
+        },
+        {
+          "topic": "Neuigkeiten von der BUILD",
+          "count": 1,
+          "keywords": [
+            "BUILD",
+            "Konferenz",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "WWDC Keynote",
+          "count": 4,
+          "keywords": [
+            "WWDC",
+            "Keynote",
+            "Apple",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Loudness Warning",
+          "count": 1,
+          "keywords": [
+            "Loudness",
+            "Warnung",
+            "Audio"
+          ]
+        },
+        {
+          "topic": "Einführung in Command Line Tools",
+          "count": 1,
+          "keywords": [
+            "Command Line",
+            "Tools",
+            "Befehlszeile"
+          ]
+        },
+        {
+          "topic": "WWDC Online: Neuigkeiten und Entwicklungen",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Apple",
+            "Entwicklungen"
+          ]
+        },
+        {
+          "topic": "Konferenzformate",
+          "count": 1,
+          "keywords": [
+            "Konferenzen",
+            "Formate",
+            "WWDC"
+          ]
+        },
+        {
+          "topic": "WWDC: Keynote",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Apple",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "WWDC: Live Text",
+          "count": 1,
+          "keywords": [
+            "iOS",
+            "Texterkennung",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "WWDC: Notes",
+          "count": 1,
+          "keywords": [
+            "Notizen",
+            "iOS",
+            "Produktivität"
+          ]
+        },
+        {
+          "topic": "WWDC: iCloud+",
+          "count": 1,
+          "keywords": [
+            "iCloud",
+            "Speicher",
+            "Datenschutz"
+          ]
+        },
+        {
+          "topic": "WWDC: Digital Legacy",
+          "count": 1,
+          "keywords": [
+            "Digital Legacy",
+            "Daten",
+            "Erbe"
+          ]
+        },
+        {
+          "topic": "WWDC: Health",
+          "count": 1,
+          "keywords": [
+            "Gesundheit",
+            "iOS",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "WWDC: watchOS",
+          "count": 1,
+          "keywords": [
+            "watchOS",
+            "Apple Watch",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "WWDC: Shortcuts",
+          "count": 1,
+          "keywords": [
+            "Shortcuts",
+            "Automatisierung",
+            "iOS"
+          ]
+        },
+        {
+          "topic": "WWDC: Roundup",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Zusammenfassung",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Das Notch-Design des MacBook Pro",
+          "count": 1,
+          "keywords": [
+            "Notch",
+            "MacBook Pro",
+            "Design"
+          ]
+        },
+        {
+          "topic": "Solarupdate von Roddi",
+          "count": 1,
+          "keywords": [
+            "Solarupdate",
+            "Energie",
+            "Roddi"
+          ]
+        },
+        {
+          "topic": "Nachbesprechung der WWDC und AI-Themen",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "AI",
+            "Nachklapp"
+          ]
+        },
+        {
+          "topic": "US-Wahlen und deren Einfluss auf Silicon Valley",
+          "count": 1,
+          "keywords": [
+            "US Elections",
+            "Silicon Valley",
+            "Politik"
+          ]
+        },
+        {
+          "topic": "Migration von iPhone und eSIM",
+          "count": 1,
+          "keywords": [
+            "iPhone",
+            "eSIM",
+            "Migration"
+          ]
+        },
+        {
+          "topic": "Siri und Apple Watch Integration",
+          "count": 1,
+          "keywords": [
+            "Siri",
+            "Apple Watch",
+            "Integration"
+          ]
+        },
+        {
+          "topic": "WWDC Keynote: Neuigkeiten von Apple",
+          "count": 1,
+          "keywords": [
+            "WWDC",
+            "Apple",
+            "Keynote"
+          ]
+        },
+        {
+          "topic": "Computational Music",
+          "count": 1,
+          "keywords": [
+            "Computational Music",
+            "Algorithmus",
+            "Musik"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ssd-technologie",
       "name": "SSD-Technologie",
       "topicCount": 75,
@@ -27302,672 +27966,8 @@
       ]
     },
     {
-      "id": "wwdc-insights",
-      "name": "WWDC Insights",
-      "topicCount": 74,
-      "topics": [
-        {
-          "topic": "Ankündigungen der WWDC 2023",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Ankündigungen",
-            "Entwicklerkonferenz"
-          ]
-        },
-        {
-          "topic": "Rückblick auf vergangene WWDCs",
-          "count": 1,
-          "keywords": [
-            "Rückblick",
-            "Vergangenheit",
-            "WWDC"
-          ]
-        },
-        {
-          "topic": "Einfluss von WWDC auf die Softwareentwicklung",
-          "count": 1,
-          "keywords": [
-            "Einfluss",
-            "Softwareentwicklung",
-            "WWDC"
-          ]
-        },
-        {
-          "topic": "Nachlese zur WWDC Keynote",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Keynote",
-            "Apple",
-            "Neuigkeiten"
-          ]
-        },
-        {
-          "topic": "Nachrichtenlage rund um die letzte Keynote",
-          "count": 1,
-          "keywords": [
-            "Nachrichten",
-            "Keynote",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Nachlese der WWDC 2023",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Nachlese",
-            "Entwicklerkonferenz"
-          ]
-        },
-        {
-          "topic": "Diskussion über Carrier IQ",
-          "count": 1,
-          "keywords": [
-            "Carrier IQ",
-            "Datenschutz"
-          ]
-        },
-        {
-          "topic": "Benachrichtigungszentrum (Notification Center)",
-          "count": 1,
-          "keywords": [
-            "Notification Center",
-            "Benachrichtigungen"
-          ]
-        },
-        {
-          "topic": "Instacast Apple Review",
-          "count": 1,
-          "keywords": [
-            "Instacast",
-            "Apple",
-            "Podcast"
-          ]
-        },
-        {
-          "topic": "Ablehnung von Instacast wegen Flattr-Integration",
-          "count": 1,
-          "keywords": [
-            "Instacast",
-            "Flattr",
-            "Ablehnung",
-            "Apps"
-          ]
-        },
-        {
-          "topic": "Weltweite Entwicklerkonferenz",
-          "count": 1,
-          "keywords": [
-            "World Wide Developer Conference",
-            "Entwickler",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Wichtige Ankündigungen der Keynote",
-          "count": 1,
-          "keywords": [
-            "Keynote",
-            "Ankündigungen",
-            "Innovation"
-          ]
-        },
-        {
-          "topic": "Sicherheitsaspekte von iCloud",
-          "count": 1,
-          "keywords": [
-            "iCloud",
-            "Sicherheit",
-            "Datenschutz"
-          ]
-        },
-        {
-          "topic": "Diskussion über den UDID-Hack",
-          "count": 1,
-          "keywords": [
-            "UDID",
-            "Hacking",
-            "Sicherheit"
-          ]
-        },
-        {
-          "topic": "Wichtige Ankündigungen während der Keynote",
-          "count": 1,
-          "keywords": [
-            "Keynote",
-            "Ankündigungen",
-            "Apple"
-          ]
-        },
-        {
-          "topic": "Einblicke in Mac OS Server",
-          "count": 1,
-          "keywords": [
-            "Mac OS Server",
-            "Apple",
-            "Server"
-          ]
-        },
-        {
-          "topic": "Neuigkeiten zu iOS 6",
-          "count": 1,
-          "keywords": [
-            "iOS 6",
-            "Apple",
-            "Betriebssystem"
-          ]
-        },
-        {
-          "topic": "iOS 6.1 Update und dessen Neuerungen",
-          "count": 1,
-          "keywords": [
-            "iOS",
-            "Update",
-            "Neuerungen"
-          ]
-        },
-        {
-          "topic": "WWDC 2013",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Apple",
-            "Entwicklerkonferenz"
-          ]
-        },
-        {
-          "topic": "WWDC Keynote und ihre Highlights",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Keynote",
-            "Highlights"
-          ]
-        },
-        {
-          "topic": "Neuerungen in OS X Mavericks",
-          "count": 1,
-          "keywords": [
-            "OS X Mavericks",
-            "Sea Lion",
-            "Neuerungen"
-          ]
-        },
-        {
-          "topic": "Neuigkeiten zu iOS 7",
-          "count": 2,
-          "keywords": [
-            "iOS 7",
-            "Apple",
-            "Software",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Neuerungen in iOS 7",
-          "count": 1,
-          "keywords": [
-            "iOS 7",
-            "Apple",
-            "Mobile Betriebssystem"
-          ]
-        },
-        {
-          "topic": "Neuigkeiten zu iOS 7.1",
-          "count": 1,
-          "keywords": [
-            "iOS 7.1",
-            "Apple",
-            "Software"
-          ]
-        },
-        {
-          "topic": "WWDC-Lotterie und Gerüchte über Baseband",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Apple",
-            "Gerüchte"
-          ]
-        },
-        {
-          "topic": "Zusammenarbeit zwischen Apple und Beats",
-          "count": 1,
-          "keywords": [
-            "Apple",
-            "Beats"
-          ]
-        },
-        {
-          "topic": "WWDC (Apple Worldwide Developers Conference)",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Apple",
-            "Entwickler"
-          ]
-        },
-        {
-          "topic": "Bericht über WWDC",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Apple",
-            "Entwicklerkonferenz"
-          ]
-        },
-        {
-          "topic": "Freigabe von iOS 7",
-          "count": 1,
-          "keywords": [
-            "iOS 7",
-            "Freigabe",
-            "Apple"
-          ]
-        },
-        {
-          "topic": "Apples Ansatz zur Privatsphäre",
-          "count": 1,
-          "keywords": [
-            "Apple",
-            "Privatsphäre",
-            "Datenschutz"
-          ]
-        },
-        {
-          "topic": "Wichtige Informationen zur Apple Keynote",
-          "count": 1,
-          "keywords": [
-            "Apple Keynote",
-            "Neuheiten",
-            "Produkte"
-          ]
-        },
-        {
-          "topic": "Neuigkeiten von der WWDC: OSX Käpt'n",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "OSX Käpt'n"
-          ]
-        },
-        {
-          "topic": "Entwickler-Features von WWDC",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Developer Features"
-          ]
-        },
-        {
-          "topic": "IPv6 und TLS Enforcement bei WWDC",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "IPv6",
-            "TLS Enforcement"
-          ]
-        },
-        {
-          "topic": "System Integrity Protection in OSX",
-          "count": 1,
-          "keywords": [
-            "OSX",
-            "System Integrity Protection",
-            "Sicherheit"
-          ]
-        },
-        {
-          "topic": "Secure Messaging Scorecard",
-          "count": 1,
-          "keywords": [
-            "Sichere Nachrichten",
-            "Bewertung",
-            "Datenschutz"
-          ]
-        },
-        {
-          "topic": "WWDC 2016 und seine Ankündigungen",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Entwicklerkonferenz"
-          ]
-        },
-        {
-          "topic": "Neue Funktionen in watchOS 3",
-          "count": 1,
-          "keywords": [
-            "watchOS 3",
-            "Smartwatch",
-            "Funktionen"
-          ]
-        },
-        {
-          "topic": "hukl reacts to WWDC",
-          "count": 1,
-          "keywords": [
-            "Apple",
-            "WWDC",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Neuigkeiten von der WWDC",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Apple",
-            "Entwickler"
-          ]
-        },
-        {
-          "topic": "WWDC Wünsche und Erwartungen",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Wünsche",
-            "Erwartungen"
-          ]
-        },
-        {
-          "topic": "Berichterstattung über die WWDC",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Entwicklerkonferenz"
-          ]
-        },
-        {
-          "topic": "Integration von CarPlay und Maps",
-          "count": 1,
-          "keywords": [
-            "CarPlay",
-            "Maps",
-            "Navigation"
-          ]
-        },
-        {
-          "topic": "WWDC 2018: Keynote Zusammenfassung",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Keynote"
-          ]
-        },
-        {
-          "topic": "watchOS 5: Neue Features und Updates",
-          "count": 1,
-          "keywords": [
-            "watchOS 5",
-            "Apple Watch"
-          ]
-        },
-        {
-          "topic": "Podcasts auf der Apple Watch",
-          "count": 1,
-          "keywords": [
-            "Podcasts",
-            "Apple Watch"
-          ]
-        },
-        {
-          "topic": "WWDC: Abschließende Gedanken und Ausblick",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Abschluss"
-          ]
-        },
-        {
-          "topic": "Halten eines Talks bei der WWDC",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Talk halten"
-          ]
-        },
-        {
-          "topic": "Neuigkeiten zu iOS 12",
-          "count": 1,
-          "keywords": [
-            "iOS 12",
-            "Neuigkeiten"
-          ]
-        },
-        {
-          "topic": "Computermuseen und Science Center",
-          "count": 1,
-          "keywords": [
-            "Computermuseen",
-            "Science Center",
-            "Bildung"
-          ]
-        },
-        {
-          "topic": "Europawahl",
-          "count": 1,
-          "keywords": [
-            "Wahlen",
-            "Europa",
-            "Politik"
-          ]
-        },
-        {
-          "topic": "Neuigkeiten von der BUILD",
-          "count": 1,
-          "keywords": [
-            "BUILD",
-            "Konferenz",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "WWDC Keynote",
-          "count": 4,
-          "keywords": [
-            "WWDC",
-            "Keynote",
-            "Apple",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Loudness Warning",
-          "count": 1,
-          "keywords": [
-            "Loudness",
-            "Warnung",
-            "Audio"
-          ]
-        },
-        {
-          "topic": "Einführung in Command Line Tools",
-          "count": 1,
-          "keywords": [
-            "Command Line",
-            "Tools",
-            "Befehlszeile"
-          ]
-        },
-        {
-          "topic": "WWDC Online: Neuigkeiten und Entwicklungen",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Apple",
-            "Entwicklungen"
-          ]
-        },
-        {
-          "topic": "Konferenzformate",
-          "count": 1,
-          "keywords": [
-            "Konferenzen",
-            "Formate",
-            "WWDC"
-          ]
-        },
-        {
-          "topic": "WWDC: Keynote",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Apple",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "WWDC: Live Text",
-          "count": 1,
-          "keywords": [
-            "iOS",
-            "Texterkennung",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "WWDC: Notes",
-          "count": 1,
-          "keywords": [
-            "Notizen",
-            "iOS",
-            "Produktivität"
-          ]
-        },
-        {
-          "topic": "WWDC: iCloud+",
-          "count": 1,
-          "keywords": [
-            "iCloud",
-            "Speicher",
-            "Datenschutz"
-          ]
-        },
-        {
-          "topic": "WWDC: Digital Legacy",
-          "count": 1,
-          "keywords": [
-            "Digital Legacy",
-            "Daten",
-            "Erbe"
-          ]
-        },
-        {
-          "topic": "WWDC: Health",
-          "count": 1,
-          "keywords": [
-            "Gesundheit",
-            "iOS",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "WWDC: watchOS",
-          "count": 1,
-          "keywords": [
-            "watchOS",
-            "Apple Watch",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "WWDC: Shortcuts",
-          "count": 1,
-          "keywords": [
-            "Shortcuts",
-            "Automatisierung",
-            "iOS"
-          ]
-        },
-        {
-          "topic": "WWDC: Roundup",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Zusammenfassung",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Das Notch-Design des MacBook Pro",
-          "count": 1,
-          "keywords": [
-            "Notch",
-            "MacBook Pro",
-            "Design"
-          ]
-        },
-        {
-          "topic": "Solarupdate von Roddi",
-          "count": 1,
-          "keywords": [
-            "Solarupdate",
-            "Energie",
-            "Roddi"
-          ]
-        },
-        {
-          "topic": "Nachbesprechung der WWDC und AI-Themen",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "AI",
-            "Nachklapp"
-          ]
-        },
-        {
-          "topic": "US-Wahlen und deren Einfluss auf Silicon Valley",
-          "count": 1,
-          "keywords": [
-            "US Elections",
-            "Silicon Valley",
-            "Politik"
-          ]
-        },
-        {
-          "topic": "Migration von iPhone und eSIM",
-          "count": 1,
-          "keywords": [
-            "iPhone",
-            "eSIM",
-            "Migration"
-          ]
-        },
-        {
-          "topic": "Siri und Apple Watch Integration",
-          "count": 1,
-          "keywords": [
-            "Siri",
-            "Apple Watch",
-            "Integration"
-          ]
-        },
-        {
-          "topic": "WWDC Keynote: Neuigkeiten von Apple",
-          "count": 1,
-          "keywords": [
-            "WWDC",
-            "Apple",
-            "Keynote"
-          ]
-        },
-        {
-          "topic": "Computational Music",
-          "count": 1,
-          "keywords": [
-            "Computational Music",
-            "Algorithmus",
-            "Musik"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "app-entwicklung-und-twitter",
-      "name": "App-Entwicklung und Twitter",
+      "id": "twitter-und-apps",
+      "name": "Twitter und Apps",
       "topicCount": 62,
       "topics": [
         {
@@ -30236,8 +30236,8 @@
       ]
     },
     {
-      "id": "webtechnologien-und-sicherheit",
-      "name": "Webtechnologien und Sicherheit",
+      "id": "web-technologien",
+      "name": "Web-Technologien",
       "topicCount": 47,
       "topics": [
         {
@@ -30655,462 +30655,6 @@
             "ePaper",
             "Displays",
             "Technologie"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "zfs-management",
-      "name": "ZFS-Management",
-      "topicCount": 50,
-      "topics": [
-        {
-          "topic": "Einführung in ZFS und dessen Vorteile",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Dateisystem",
-            "Speicher"
-          ]
-        },
-        {
-          "topic": "Feedback zu ZFS und Drobo",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Drobo",
-            "Feedback",
-            "Datenspeicherung"
-          ]
-        },
-        {
-          "topic": "Diskussion über den Status von ZFS",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Dateisystem",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "TimeMachine Nutzung über Netatalk auf FreeBSD mit ZFS",
-          "count": 1,
-          "keywords": [
-            "TimeMachine",
-            "Netatalk",
-            "FreeBSD",
-            "ZFS"
-          ]
-        },
-        {
-          "topic": "Diskussion über ZFS und dessen Zukunft",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Diskussion",
-            "Zukunft"
-          ]
-        },
-        {
-          "topic": "Frustration über fehlendes ZFS im Mac",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Mac",
-            "Frustration"
-          ]
-        },
-        {
-          "topic": "Datensicherung mit CrashPlan",
-          "count": 1,
-          "keywords": [
-            "CrashPlan",
-            "Datensicherung"
-          ]
-        },
-        {
-          "topic": "Zustimmung zu Safari 5",
-          "count": 1,
-          "keywords": [
-            "Safari 5",
-            "Webbrowser",
-            "Zustimmung"
-          ]
-        },
-        {
-          "topic": "Vergleich zwischen verschiedenen Darstellungen von Honey Rider",
-          "count": 1,
-          "keywords": [
-            "Vergleich",
-            "Darstellung",
-            "Filmgeschichte"
-          ]
-        },
-        {
-          "topic": "ZFS for Ten wird zu Zevo",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Zevo",
-            "Speicherlösungen"
-          ]
-        },
-        {
-          "topic": "Zevo: ZFS für den Mac",
-          "count": 1,
-          "keywords": [
-            "Zevo",
-            "ZFS",
-            "Mac"
-          ]
-        },
-        {
-          "topic": "ZFS",
-          "count": 1,
-          "keywords": [
-            "Dateisystem",
-            "Datenintegrität",
-            "Speicherverwaltung"
-          ]
-        },
-        {
-          "topic": "Chrome für Android",
-          "count": 1,
-          "keywords": [
-            "Chrome",
-            "Android",
-            "Browser"
-          ]
-        },
-        {
-          "topic": "Zukunft von FreeBSD",
-          "count": 1,
-          "keywords": [
-            "Zukunft",
-            "Entwicklung",
-            "Roadmap"
-          ]
-        },
-        {
-          "topic": "ZFS und verwandte Technologien",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Dateisysteme",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "ZFS und seine Anwendungen",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Apple",
-            "Oracle",
-            "Sun"
-          ]
-        },
-        {
-          "topic": "ZFS-Dateisystem und seine Vorteile",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Dateisystem",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "OpenZFS und dessen Vorteile",
-          "count": 1,
-          "keywords": [
-            "OpenZFS",
-            "Speicher",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "ZFS Dateisystem",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Dateisystem",
-            "Datenmanagement"
-          ]
-        },
-        {
-          "topic": "Rechnerbau und ZFS-Dateisystem",
-          "count": 1,
-          "keywords": [
-            "Rechnerbau",
-            "ZFS",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Wikidata und Selbstpromotion",
-          "count": 1,
-          "keywords": [
-            "Wikidata",
-            "Selbstpromotion",
-            "Datenbanken"
-          ]
-        },
-        {
-          "topic": "FreeBSD: Einblick in das Betriebssystem",
-          "count": 1,
-          "keywords": [
-            "FreeBSD",
-            "Betriebssystem",
-            "Open Source"
-          ]
-        },
-        {
-          "topic": "FreeBSD und ZFS als Dateisystem",
-          "count": 1,
-          "keywords": [
-            "FreeBSD",
-            "ZFS",
-            "Betriebssystem"
-          ]
-        },
-        {
-          "topic": "Zsh als Shell-Alternative",
-          "count": 1,
-          "keywords": [
-            "zsh",
-            "Shell",
-            "Befehlszeile"
-          ]
-        },
-        {
-          "topic": "Datenbanktechnologie: CouchDB",
-          "count": 1,
-          "keywords": [
-            "CouchDB",
-            "Datenbank",
-            "NoSQL"
-          ]
-        },
-        {
-          "topic": "ZFS und Hardware-Technologien",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Hardware",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "ZFS-Dateisystem",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Dateisystem",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Rootless",
-          "count": 1,
-          "keywords": [
-            "Rootless",
-            "Sicherheit",
-            "Betriebssystem"
-          ]
-        },
-        {
-          "topic": "ZFS für Mac Systeme",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Mac",
-            "Dateisystem"
-          ]
-        },
-        {
-          "topic": "Erinnerungen an alte UNIX Zeiten",
-          "count": 1,
-          "keywords": [
-            "UNIX",
-            "Geschichte"
-          ]
-        },
-        {
-          "topic": "That One Privacy Guy's VPN Comparison Chart",
-          "count": 1,
-          "keywords": [
-            "VPN",
-            "Datenschutz",
-            "Vergleich"
-          ]
-        },
-        {
-          "topic": "FreeBSD 10.3 und seine Funktionen",
-          "count": 1,
-          "keywords": [
-            "FreeBSD",
-            "Betriebssystem",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "ZFS to the rescue",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Dateisystem",
-            "Datenrettung"
-          ]
-        },
-        {
-          "topic": "Zukünftiges File System",
-          "count": 1,
-          "keywords": [
-            "Dateisystem",
-            "Zukunft",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Datensicherung und Verschlüsselung",
-          "count": 1,
-          "keywords": [
-            "TimeCapsule Backups",
-            "ZFS Encryption"
-          ]
-        },
-        {
-          "topic": "ZFS kann jetzt booten",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Boot",
-            "Dateisystem"
-          ]
-        },
-        {
-          "topic": "Native Verschlüsselung mit ZFS",
-          "count": 1,
-          "keywords": [
-            "Verschlüsselung",
-            "ZFS",
-            "Datensicherheit"
-          ]
-        },
-        {
-          "topic": "ZFS Update und neue Features",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Technologie",
-            "Updates"
-          ]
-        },
-        {
-          "topic": "Die Rolle der FreeBSD Foundation",
-          "count": 1,
-          "keywords": [
-            "FreeBSD Foundation",
-            "Organisation"
-          ]
-        },
-        {
-          "topic": "Solarstrom-Flatrate und erneuerbare Energien",
-          "count": 1,
-          "keywords": [
-            "Solarstrom",
-            "Flatrate",
-            "Erneuerbare Energien"
-          ]
-        },
-        {
-          "topic": "ZFS und SSDs in der Datenspeicherung",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "SSDs",
-            "Datenspeicherung"
-          ]
-        },
-        {
-          "topic": "ZFS: Root on Linux und Crypto für Mac",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "Linux",
-            "Kryptografie",
-            "Mac"
-          ]
-        },
-        {
-          "topic": "Technologische Aspekte von ZFS und APFS auf dem Mac",
-          "count": 1,
-          "keywords": [
-            "ZFS",
-            "APFS",
-            "Mac"
-          ]
-        },
-        {
-          "topic": "All Creatures Welcome",
-          "count": 1,
-          "keywords": [
-            "All Creatures Welcome",
-            "Inklusion"
-          ]
-        },
-        {
-          "topic": "Shower Wonderland",
-          "count": 1,
-          "keywords": [
-            "Dusche",
-            "Erlebnis",
-            "Wasser"
-          ]
-        },
-        {
-          "topic": "Unterschiedliche Shells im Einsatz",
-          "count": 1,
-          "keywords": [
-            "Shells",
-            "Betriebssysteme",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "OpenZFS 2.0: Neuerungen und Vorteile",
-          "count": 1,
-          "keywords": [
-            "OpenZFS",
-            "Datenmanagement",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "WWDC: Safari",
-          "count": 1,
-          "keywords": [
-            "Safari",
-            "Browser",
-            "Technologie"
-          ]
-        },
-        {
-          "topic": "Hostinganforderungen für LLMs",
-          "count": 1,
-          "keywords": [
-            "Hosting",
-            "LLM",
-            "Technische Anforderungen"
-          ]
-        },
-        {
-          "topic": "Safari Summary & Highlights",
-          "count": 1,
-          "keywords": [
-            "Safari",
-            "Webbrowser",
-            "Funktionen"
           ]
         }
       ]
@@ -32040,6 +31584,462 @@
       ]
     },
     {
+      "id": "zfs-und-datensicherung",
+      "name": "ZFS und Datensicherung",
+      "topicCount": 50,
+      "topics": [
+        {
+          "topic": "Einführung in ZFS und dessen Vorteile",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Dateisystem",
+            "Speicher"
+          ]
+        },
+        {
+          "topic": "Feedback zu ZFS und Drobo",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Drobo",
+            "Feedback",
+            "Datenspeicherung"
+          ]
+        },
+        {
+          "topic": "Diskussion über den Status von ZFS",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Dateisystem",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "TimeMachine Nutzung über Netatalk auf FreeBSD mit ZFS",
+          "count": 1,
+          "keywords": [
+            "TimeMachine",
+            "Netatalk",
+            "FreeBSD",
+            "ZFS"
+          ]
+        },
+        {
+          "topic": "Diskussion über ZFS und dessen Zukunft",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Diskussion",
+            "Zukunft"
+          ]
+        },
+        {
+          "topic": "Frustration über fehlendes ZFS im Mac",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Mac",
+            "Frustration"
+          ]
+        },
+        {
+          "topic": "Datensicherung mit CrashPlan",
+          "count": 1,
+          "keywords": [
+            "CrashPlan",
+            "Datensicherung"
+          ]
+        },
+        {
+          "topic": "Zustimmung zu Safari 5",
+          "count": 1,
+          "keywords": [
+            "Safari 5",
+            "Webbrowser",
+            "Zustimmung"
+          ]
+        },
+        {
+          "topic": "Vergleich zwischen verschiedenen Darstellungen von Honey Rider",
+          "count": 1,
+          "keywords": [
+            "Vergleich",
+            "Darstellung",
+            "Filmgeschichte"
+          ]
+        },
+        {
+          "topic": "ZFS for Ten wird zu Zevo",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Zevo",
+            "Speicherlösungen"
+          ]
+        },
+        {
+          "topic": "Zevo: ZFS für den Mac",
+          "count": 1,
+          "keywords": [
+            "Zevo",
+            "ZFS",
+            "Mac"
+          ]
+        },
+        {
+          "topic": "ZFS",
+          "count": 1,
+          "keywords": [
+            "Dateisystem",
+            "Datenintegrität",
+            "Speicherverwaltung"
+          ]
+        },
+        {
+          "topic": "Chrome für Android",
+          "count": 1,
+          "keywords": [
+            "Chrome",
+            "Android",
+            "Browser"
+          ]
+        },
+        {
+          "topic": "Zukunft von FreeBSD",
+          "count": 1,
+          "keywords": [
+            "Zukunft",
+            "Entwicklung",
+            "Roadmap"
+          ]
+        },
+        {
+          "topic": "ZFS und verwandte Technologien",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Dateisysteme",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "ZFS und seine Anwendungen",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Apple",
+            "Oracle",
+            "Sun"
+          ]
+        },
+        {
+          "topic": "ZFS-Dateisystem und seine Vorteile",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Dateisystem",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "OpenZFS und dessen Vorteile",
+          "count": 1,
+          "keywords": [
+            "OpenZFS",
+            "Speicher",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "ZFS Dateisystem",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Dateisystem",
+            "Datenmanagement"
+          ]
+        },
+        {
+          "topic": "Rechnerbau und ZFS-Dateisystem",
+          "count": 1,
+          "keywords": [
+            "Rechnerbau",
+            "ZFS",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Wikidata und Selbstpromotion",
+          "count": 1,
+          "keywords": [
+            "Wikidata",
+            "Selbstpromotion",
+            "Datenbanken"
+          ]
+        },
+        {
+          "topic": "FreeBSD: Einblick in das Betriebssystem",
+          "count": 1,
+          "keywords": [
+            "FreeBSD",
+            "Betriebssystem",
+            "Open Source"
+          ]
+        },
+        {
+          "topic": "FreeBSD und ZFS als Dateisystem",
+          "count": 1,
+          "keywords": [
+            "FreeBSD",
+            "ZFS",
+            "Betriebssystem"
+          ]
+        },
+        {
+          "topic": "Zsh als Shell-Alternative",
+          "count": 1,
+          "keywords": [
+            "zsh",
+            "Shell",
+            "Befehlszeile"
+          ]
+        },
+        {
+          "topic": "Datenbanktechnologie: CouchDB",
+          "count": 1,
+          "keywords": [
+            "CouchDB",
+            "Datenbank",
+            "NoSQL"
+          ]
+        },
+        {
+          "topic": "ZFS und Hardware-Technologien",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Hardware",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "ZFS-Dateisystem",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Dateisystem",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Rootless",
+          "count": 1,
+          "keywords": [
+            "Rootless",
+            "Sicherheit",
+            "Betriebssystem"
+          ]
+        },
+        {
+          "topic": "ZFS für Mac Systeme",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Mac",
+            "Dateisystem"
+          ]
+        },
+        {
+          "topic": "Erinnerungen an alte UNIX Zeiten",
+          "count": 1,
+          "keywords": [
+            "UNIX",
+            "Geschichte"
+          ]
+        },
+        {
+          "topic": "That One Privacy Guy's VPN Comparison Chart",
+          "count": 1,
+          "keywords": [
+            "VPN",
+            "Datenschutz",
+            "Vergleich"
+          ]
+        },
+        {
+          "topic": "FreeBSD 10.3 und seine Funktionen",
+          "count": 1,
+          "keywords": [
+            "FreeBSD",
+            "Betriebssystem",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "ZFS to the rescue",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Dateisystem",
+            "Datenrettung"
+          ]
+        },
+        {
+          "topic": "Zukünftiges File System",
+          "count": 1,
+          "keywords": [
+            "Dateisystem",
+            "Zukunft",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Datensicherung und Verschlüsselung",
+          "count": 1,
+          "keywords": [
+            "TimeCapsule Backups",
+            "ZFS Encryption"
+          ]
+        },
+        {
+          "topic": "ZFS kann jetzt booten",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Boot",
+            "Dateisystem"
+          ]
+        },
+        {
+          "topic": "Native Verschlüsselung mit ZFS",
+          "count": 1,
+          "keywords": [
+            "Verschlüsselung",
+            "ZFS",
+            "Datensicherheit"
+          ]
+        },
+        {
+          "topic": "ZFS Update und neue Features",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Technologie",
+            "Updates"
+          ]
+        },
+        {
+          "topic": "Die Rolle der FreeBSD Foundation",
+          "count": 1,
+          "keywords": [
+            "FreeBSD Foundation",
+            "Organisation"
+          ]
+        },
+        {
+          "topic": "Solarstrom-Flatrate und erneuerbare Energien",
+          "count": 1,
+          "keywords": [
+            "Solarstrom",
+            "Flatrate",
+            "Erneuerbare Energien"
+          ]
+        },
+        {
+          "topic": "ZFS und SSDs in der Datenspeicherung",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "SSDs",
+            "Datenspeicherung"
+          ]
+        },
+        {
+          "topic": "ZFS: Root on Linux und Crypto für Mac",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "Linux",
+            "Kryptografie",
+            "Mac"
+          ]
+        },
+        {
+          "topic": "Technologische Aspekte von ZFS und APFS auf dem Mac",
+          "count": 1,
+          "keywords": [
+            "ZFS",
+            "APFS",
+            "Mac"
+          ]
+        },
+        {
+          "topic": "All Creatures Welcome",
+          "count": 1,
+          "keywords": [
+            "All Creatures Welcome",
+            "Inklusion"
+          ]
+        },
+        {
+          "topic": "Shower Wonderland",
+          "count": 1,
+          "keywords": [
+            "Dusche",
+            "Erlebnis",
+            "Wasser"
+          ]
+        },
+        {
+          "topic": "Unterschiedliche Shells im Einsatz",
+          "count": 1,
+          "keywords": [
+            "Shells",
+            "Betriebssysteme",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "OpenZFS 2.0: Neuerungen und Vorteile",
+          "count": 1,
+          "keywords": [
+            "OpenZFS",
+            "Datenmanagement",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "WWDC: Safari",
+          "count": 1,
+          "keywords": [
+            "Safari",
+            "Browser",
+            "Technologie"
+          ]
+        },
+        {
+          "topic": "Hostinganforderungen für LLMs",
+          "count": 1,
+          "keywords": [
+            "Hosting",
+            "LLM",
+            "Technische Anforderungen"
+          ]
+        },
+        {
+          "topic": "Safari Summary & Highlights",
+          "count": 1,
+          "keywords": [
+            "Safari",
+            "Webbrowser",
+            "Funktionen"
+          ]
+        }
+      ]
+    },
+    {
       "id": "apple-freebsd",
       "name": "Apple & FreeBSD",
       "topicCount": 56,
@@ -32550,8 +32550,8 @@
       ]
     },
     {
-      "id": "mac-pro-imac",
-      "name": "Mac Pro & iMac",
+      "id": "mac-pro-insights",
+      "name": "Mac Pro Insights",
       "topicCount": 51,
       "topics": [
         {
@@ -33010,8 +33010,8 @@
       ]
     },
     {
-      "id": "mac-optimierung",
-      "name": "Mac-Optimierung",
+      "id": "mac-entwicklung",
+      "name": "Mac-Entwicklung",
       "topicCount": 44,
       "topics": [
         {
@@ -34671,8 +34671,8 @@
       ]
     },
     {
-      "id": "apple-hardware-insights",
-      "name": "Apple Hardware Insights",
+      "id": "apple-hardware",
+      "name": "Apple Hardware",
       "topicCount": 38,
       "topics": [
         {
@@ -35138,8 +35138,8 @@
       ]
     },
     {
-      "id": "podcast-events",
-      "name": "Podcast-Events",
+      "id": "podcast-aktivitäten",
+      "name": "Podcast Aktivitäten",
       "topicCount": 32,
       "topics": [
         {

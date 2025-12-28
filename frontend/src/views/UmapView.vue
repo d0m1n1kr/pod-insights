@@ -282,10 +282,6 @@ async function loadData() {
   
   try {
     umapData.value = await loadVariantData<UmapData>('topic-umap-data.json');
-    
-    // Wait for DOM to be ready
-    await nextTick();
-    createScatterplot();
   } catch (e) {
     const errorMessage = e instanceof Error ? e.message : 'Unbekannter Fehler';
     // Check if error is due to missing variants
@@ -296,6 +292,12 @@ async function loadData() {
     }
   } finally {
     loading.value = false;
+  }
+  
+  // Wait for DOM to be ready after loading state changes, then create chart
+  if (umapData.value) {
+    await nextTick();
+    createScatterplot();
   }
 }
 

@@ -67,24 +67,62 @@
     </div>
 
     <!-- Expanded Details -->
-    <div v-if="showDetails && taxonomyData" class="mt-4 pt-4 border-t border-blue-200 dark:border-blue-900">
+    <div v-if="showDetails" class="mt-4 pt-4 border-t border-blue-200 dark:border-blue-900">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Algorithm Settings from variants.json -->
         <div>
           <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-2">
             {{ $t('variantInfo.algorithm') }}
           </h4>
           <div class="text-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 rounded p-3 border border-gray-200 dark:border-gray-700">
-            <div class="flex justify-between mb-1">
-              <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.method') }}:</span>
-              <span class="font-mono">{{ taxonomyData.method }}</span>
+            <!-- V1 Settings -->
+            <template v-if="variantInfo.version === 'v1'">
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.method') }}:</span>
+                <span class="font-mono">HAC</span>
+              </div>
+              <div v-if="variantInfo.settings?.clusters" class="flex justify-between mb-1">
+                <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.targetClusters') }}:</span>
+                <span class="font-mono">{{ variantInfo.settings.clusters }}</span>
+              </div>
+              <div v-if="variantInfo.settings?.linkageMethod" class="flex justify-between mb-1">
+                <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.linkage') }}:</span>
+                <span class="font-mono text-xs">{{ variantInfo.settings.linkageMethod }}</span>
+              </div>
+            </template>
+            
+            <!-- V2 Settings -->
+            <template v-else-if="variantInfo.version === 'v2'">
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.method') }}:</span>
+                <span class="font-mono">HDBSCAN</span>
+              </div>
+              <div v-if="variantInfo.settings?.minClusterSize" class="flex justify-between mb-1">
+                <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.minClusterSize') }}:</span>
+                <span class="font-mono">{{ variantInfo.settings.minClusterSize }}</span>
+              </div>
+              <div v-if="variantInfo.settings?.minSamples" class="flex justify-between mb-1">
+                <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.minSamples') }}:</span>
+                <span class="font-mono">{{ variantInfo.settings.minSamples }}</span>
+              </div>
+              <div v-if="variantInfo.settings?.reducedDimensions" class="flex justify-between mb-1">
+                <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.reducedDims') }}:</span>
+                <span class="font-mono">{{ variantInfo.settings.reducedDimensions }}</span>
+              </div>
+            </template>
+            
+            <!-- Common Settings -->
+            <div v-if="variantInfo.settings?.outlierThreshold" class="flex justify-between mb-1">
+              <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.outlierThreshold') }}:</span>
+              <span class="font-mono">{{ variantInfo.settings.outlierThreshold }}</span>
             </div>
-            <div class="flex justify-between mb-1">
-              <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.linkage') }}:</span>
-              <span class="font-mono text-xs">{{ taxonomyData.settings.linkageMethod }}</span>
-            </div>
-            <div class="flex justify-between">
+            <div v-if="variantInfo.settings?.useRelevanceWeighting !== undefined" class="flex justify-between mb-1">
               <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.weighting') }}:</span>
-              <span>{{ taxonomyData.settings.useRelevanceWeighting ? '✓' : '✗' }}</span>
+              <span>{{ variantInfo.settings.useRelevanceWeighting ? '✓' : '✗' }}</span>
+            </div>
+            <div v-if="variantInfo.settings?.useLLMNaming !== undefined" class="flex justify-between">
+              <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.llmNaming') }}:</span>
+              <span>{{ variantInfo.settings.useLLMNaming ? '✓' : '✗' }}</span>
             </div>
           </div>
         </div>
@@ -94,17 +132,21 @@
             {{ $t('variantInfo.metadata') }}
           </h4>
           <div class="text-sm text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 rounded p-3 border border-gray-200 dark:border-gray-700">
-            <div class="flex justify-between mb-1">
+            <div v-if="taxonomyData?.createdAt" class="flex justify-between mb-1">
               <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.created') }}:</span>
               <span class="text-xs">{{ formatDate(taxonomyData.createdAt) }}</span>
             </div>
-            <div class="flex justify-between mb-1">
+            <div v-if="taxonomyData?.embeddingModel" class="flex justify-between mb-1">
               <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.embeddingModel') }}:</span>
               <span class="text-xs font-mono">{{ taxonomyData.embeddingModel }}</span>
             </div>
-            <div v-if="variantInfo.lastBuilt" class="flex justify-between">
+            <div v-if="variantInfo.lastBuilt" class="flex justify-between mb-1">
               <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.lastBuilt') }}:</span>
               <span class="text-xs">{{ formatDate(variantInfo.lastBuilt) }}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600 dark:text-gray-400">{{ $t('variantInfo.variantId') }}:</span>
+              <span class="text-xs font-mono">{{ variantInfo.variantId }}</span>
             </div>
           </div>
         </div>
@@ -135,9 +177,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 import { useSettingsStore } from '@/stores/settings';
-import { loadVariantsManifest, loadVariantData } from '@/composables/useVariants';
+import { loadVariantsManifest, loadVariantData, type VariantInfo, type VariantSettings } from '@/composables/useVariants';
 
 const settings = useSettingsStore();
 const showDetails = ref(false);
@@ -148,11 +190,14 @@ interface TaxonomyData {
   embeddingModel: string;
   uniqueTopics: number;
   settings: {
-    linkageMethod: string;
-    useRelevanceWeighting: boolean;
+    linkageMethod?: string;
+    useRelevanceWeighting?: boolean;
+    clusters?: number;
+    outlierThreshold?: number;
   };
   statistics: {
     outlierPercentage: string;
+    clusterCount?: number;
   };
   clusters: Array<{
     id: string;
@@ -161,14 +206,12 @@ interface TaxonomyData {
   }>;
 }
 
-interface VariantInfo {
-  name: string;
-  version: string;
-  lastBuilt?: string;
-  description?: string;
+interface ExtendedVariantInfo extends VariantInfo {
+  variantId: string;
+  settings?: VariantSettings;
 }
 
-const variantInfo = ref<VariantInfo | null>(null);
+const variantInfo = ref<ExtendedVariantInfo | null>(null);
 const taxonomyData = ref<TaxonomyData | null>(null);
 
 const toggleDetails = () => {
@@ -196,9 +239,12 @@ const loadVariantInfo = async () => {
     const currentVariant = settings.clusteringVariant || manifest.defaultVariant;
     
     if (manifest.variants[currentVariant]) {
+      const manifestVariant = manifest.variants[currentVariant];
       variantInfo.value = {
-        ...manifest.variants[currentVariant],
-        description: getVariantDescription(currentVariant)
+        ...manifestVariant,
+        variantId: currentVariant,
+        // Use description from manifest if available, otherwise generate one
+        description: manifestVariant.description || getDefaultDescription(currentVariant, manifestVariant)
       };
     }
 
@@ -211,17 +257,16 @@ const loadVariantInfo = async () => {
   }
 };
 
-const getVariantDescription = (variantId: string): string => {
-  const descriptions: Record<string, string> = {
-    'default-v1': 'Hierarchical clustering with 256 fixed clusters',
-    'fine-v1': 'Fine-grained hierarchical clustering with 512 clusters',
-    'coarse-v1': 'Coarse-grained hierarchical clustering with 128 clusters',
-    'auto-v2': 'HDBSCAN with automatic cluster detection',
-    'fine-v2': 'HDBSCAN configured for many small clusters',
-    'coarse-v2': 'HDBSCAN configured for fewer large clusters',
-    'fast-v2': 'HDBSCAN without LLM naming (heuristic only)'
-  };
-  return descriptions[variantId] || 'Custom clustering configuration';
+const getDefaultDescription = (variantId: string, variant: VariantInfo): string => {
+  // Generate description from settings if not provided
+  if (variant.settings) {
+    if (variant.version === 'v1') {
+      return `Hierarchical clustering with ${variant.settings.clusters || 256} clusters`;
+    } else {
+      return `HDBSCAN with min cluster size ${variant.settings.minClusterSize || 5}`;
+    }
+  }
+  return 'Custom clustering configuration';
 };
 
 onMounted(loadVariantInfo);

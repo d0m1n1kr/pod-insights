@@ -32,14 +32,14 @@ const settings = useSettingsStore();
 
 const manifest = ref<VariantManifest | null>(null);
 const isLoading = ref(false);
-const selectedVariant = ref(settings.clusteringVariant || 'default-v1');
+const selectedVariant = ref(settings.clusteringVariant || 'auto-v2');
 
 const availableVariants = computed(() => {
   if (!manifest.value) {
     return {
-      'default-v1': {
-        name: 'Standard (V1)',
-        version: 'v1',
+      'auto-v2': {
+        name: 'Automatisch (V2)',
+        version: 'v2',
         lastBuilt: ''
       }
     };
