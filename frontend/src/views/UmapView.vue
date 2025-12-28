@@ -42,7 +42,6 @@ const loading = ref(true);
 const error = ref<string | null>(null);
 const selectedPoint = ref<UmapPoint | null>(null);
 const hoveredPoint = ref<UmapPoint | null>(null);
-const showLabels = ref(false);
 const highlightCluster = ref<string | null>(null);
 const searchQuery = ref('');
 
@@ -82,12 +81,12 @@ const clusters = computed(() => {
   // Group points by cluster and count
   const clusterMap = new Map<string, { name: string; count: number; color: string }>();
   
-  umapData.value.points.forEach((point, idx) => {
+  umapData.value.points.forEach((point) => {
     if (!clusterMap.has(point.clusterId)) {
       clusterMap.set(point.clusterId, {
         name: point.clusterName,
         count: 0,
-        color: getClusterColor(point.clusterId, idx)
+        color: getClusterColor(point.clusterId)
       });
     }
     const cluster = clusterMap.get(point.clusterId)!;
@@ -99,13 +98,12 @@ const clusters = computed(() => {
     .sort((a, b) => b.count - a.count);
 });
 
-function getClusterColor(clusterId: string, idx: number): string {
+function getClusterColor(clusterId: string): string {
   if (clusterId === 'unclustered') {
     return '#9ca3af'; // gray
   }
   
-  // Use D3's color schemes
-  const colorScheme = d3.schemeTableau10;
+  // Use D3's extended color schemes
   const extendedScheme = [
     ...d3.schemeTableau10,
     ...d3.schemePaired,
@@ -117,7 +115,7 @@ function getClusterColor(clusterId: string, idx: number): string {
     return char.charCodeAt(0) + ((acc << 5) - acc);
   }, 0);
   
-  return extendedScheme[Math.abs(hash) % extendedScheme.length];
+  return extendedScheme[Math.abs(hash) % extendedScheme.length]!;
 }
 
 function createScatterplot() {
@@ -250,13 +248,13 @@ function createScatterplot() {
       d3.select(this)
         .transition()
         .duration(150)
-        .attr('r', d => {
+        .attr('r', (d: any) => {
           if (highlightCluster.value && d.clusterId !== highlightCluster.value) {
             return 2;
           }
           return 4;
         })
-        .attr('opacity', d => {
+        .attr('opacity', (d: any) => {
           if (highlightCluster.value && d.clusterId !== highlightCluster.value) {
             return 0.1;
           }
@@ -265,7 +263,7 @@ function createScatterplot() {
       
       tooltip.style('display', 'none');
     })
-    .on('click', function(event, d) {
+    .on('click', function(_event, d: any) {
       selectedPoint.value = d;
     });
 }
