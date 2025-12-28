@@ -7,7 +7,7 @@ const route = useRoute();
 const settingsStore = useSettingsStore();
 
 const activeView = computed(() => {
-  return route.name as 'topics' | 'categories' | 'speakers' | 'heatmap' | 'cluster-heatmap' | 'speaker-speaker-heatmap' | 'cluster-cluster-heatmap' | 'duration-heatmap' | 'about';
+  return route.name as 'topics' | 'categories' | 'speakers' | 'heatmap' | 'cluster-heatmap' | 'speaker-speaker-heatmap' | 'cluster-cluster-heatmap' | 'duration-heatmap' | 'umap' | 'about';
 });
 
 const themeIcon = computed(() => {
@@ -138,6 +138,19 @@ const themeLabel = computed(() => {
           >
             Duration
           </router-link>
+          <!-- UMAP tab temporarily hidden - uncomment to reactivate
+          <router-link
+            to="/umap"
+            :class="[
+              'px-6 py-3 font-semibold border-b-2 transition-colors',
+              activeView === 'umap' 
+                ? 'border-purple-500 text-purple-600 dark:text-purple-400' 
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
+            ]"
+          >
+            UMAP
+          </router-link>
+          -->
           <router-link
             to="/about"
             :class="[

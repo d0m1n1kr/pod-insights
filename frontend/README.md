@@ -33,6 +33,7 @@ npm run build
 ## Features
 
 - **Interaktives Topic River Diagramm**: Zeigt die Entwicklung von Topics über die Jahre als Stream-Graph
+- **UMAP Scatterplot**: 2D-Visualisierung der Topic-Embeddings gefärbt nach Clustern
 - **Hover-Effekte**: Hebt einzelne Topics beim Hovern hervor
 - **Auswählbare Topics**: Klicke auf Topics für detaillierte Informationen
 - **Anpassbare Anzahl**: Passe die Anzahl der angezeigten Topics mit einem Slider an
@@ -42,3 +43,5 @@ npm run build
 ## Datenstruktur
 
 Das Diagramm liest die `topic-river-data.json` aus dem public-Ordner, die Topic-Daten nach Jahren aggregiert enthält.
+
+Die UMAP-Visualisierung liest `topic-umap-data.json`, welche 2D-Koordinaten für alle Topics enthält, die aus hochdimensionalen Embeddings berechnet wurden.
