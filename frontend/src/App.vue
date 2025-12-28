@@ -41,7 +41,7 @@ const themeLabel = computed(() => {
             </p>
           </div>
           
-          <div class="flex items-center gap-2 sm:gap-3">
+          <div class="flex flex-wrap items-center gap-2 sm:gap-3">
             <!-- Variant Selector -->
             <VariantSelector />
             
@@ -129,6 +129,7 @@ const themeLabel = computed(() => {
             >
               {{ t('nav.duration') }}
             </router-link>
+            <!-- Temporarily hidden UMAP tab
             <router-link
               to="/umap"
               :class="[
@@ -140,6 +141,7 @@ const themeLabel = computed(() => {
             >
               {{ t('nav.umap') }}
             </router-link>
+            -->
             <router-link
               to="/about"
               :class="[

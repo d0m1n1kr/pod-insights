@@ -2,7 +2,7 @@
 import { ref, onMounted, watch } from 'vue';
 import TopicRiver from '../components/TopicRiver.vue';
 import NoVariantsMessage from '../components/NoVariantsMessage.vue';
-import VariantInfoPanel from '../components/VariantInfoPanel.vue';
+// import VariantInfoPanel from '../components/VariantInfoPanel.vue';
 import type { TopicRiverData } from '../types';
 import { loadVariantData } from '@/composables/useVariants';
 import { useSettingsStore } from '@/stores/settings';
@@ -58,7 +58,9 @@ watch(() => settings.clusteringVariant, () => {
   </div>
 
   <div v-else-if="topicData">
+    <!-- Temporarily hidden
     <VariantInfoPanel class="mb-6" />
+    -->
     
     <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
     <div class="p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20">

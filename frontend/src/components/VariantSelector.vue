@@ -77,7 +77,7 @@ async function onVariantChange() {
 .variant-selector {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .label {
@@ -85,6 +85,13 @@ async function onVariantChange() {
   font-weight: 500;
   color: #374151;
   white-space: nowrap;
+}
+
+/* Hide label on mobile */
+@media (max-width: 640px) {
+  .label {
+    display: none;
+  }
 }
 
 .dark .label {
@@ -100,7 +107,14 @@ async function onVariantChange() {
   font-size: 0.875rem;
   cursor: pointer;
   transition: all 0.2s;
-  min-width: 200px;
+  min-width: 140px;
+}
+
+/* More space on larger screens */
+@media (min-width: 640px) {
+  .select {
+    min-width: 200px;
+  }
 }
 
 .select:hover {

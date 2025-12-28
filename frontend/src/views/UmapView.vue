@@ -4,7 +4,7 @@ import * as d3 from 'd3';
 import { loadVariantData } from '@/composables/useVariants';
 import { useSettingsStore } from '@/stores/settings';
 import NoVariantsMessage from '../components/NoVariantsMessage.vue';
-import VariantInfoPanel from '../components/VariantInfoPanel.vue';
+// import VariantInfoPanel from '../components/VariantInfoPanel.vue';
 
 const settings = useSettingsStore();
 
@@ -333,8 +333,9 @@ watch([searchQuery, highlightCluster], () => {
   </div>
 
   <div v-else-if="umapData" class="space-y-6">
-    <!-- Variant Info Panel -->
+    <!-- Variant Info Panel - Temporarily hidden
     <VariantInfoPanel />
+    -->
     
     <!-- Statistics Header -->
     <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-6">
