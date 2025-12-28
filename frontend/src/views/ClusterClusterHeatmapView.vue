@@ -53,39 +53,55 @@
 
           <!-- Selected Cell Details -->
           <div v-if="selectedCell" class="mb-6 p-4 bg-cyan-50 dark:bg-cyan-900/20 border border-cyan-200 dark:border-cyan-700 rounded-lg">
-            <div class="flex items-start justify-between">
-              <div class="flex-1">
-                <h3 class="font-semibold text-lg text-cyan-900 dark:text-cyan-100">
-                  {{ selectedCell.cluster1Name }} → {{ selectedCell.cluster2Name }}
-                </h3>
-                <p class="text-sm text-cyan-600 dark:text-cyan-400 mt-2">
-                  <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
-                </p>
-                
-                <div class="mt-3">
-                  <button
-                    @click="showEpisodeList = !showEpisodeList"
-                    class="text-sm text-cyan-600 hover:text-cyan-800 dark:text-cyan-400 dark:hover:text-cyan-300 font-semibold underline"
-                  >
-                    {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
-                  </button>
+            <div class="relative">
+              <button
+                @click="clearSelection"
+                class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 p-1"
+                aria-label="Schließen"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+
+              <div class="min-w-0">
+                <div class="pr-10">
+                  <h3 class="font-semibold text-lg text-cyan-900 dark:text-cyan-100">
+                    {{ selectedCell.cluster1Name }} → {{ selectedCell.cluster2Name }}
+                  </h3>
+                  <p class="text-sm text-cyan-600 dark:text-cyan-400 mt-2">
+                    <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
+                  </p>
+                  
+                  <div class="mt-3">
+                    <button
+                      @click="showEpisodeList = !showEpisodeList"
+                      class="text-sm text-cyan-600 hover:text-cyan-800 dark:text-cyan-400 dark:hover:text-cyan-300 font-semibold underline"
+                    >
+                      {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
+                    </button>
+                  </div>
                 </div>
 
                 <!-- Episode List -->
-                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-cyan-300 dark:border-cyan-700 overflow-hidden">
+                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-cyan-300 dark:border-cyan-700">
                   <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                     Lade Episoden-Details...
                   </div>
-                  <div v-else class="max-h-96 overflow-y-auto">
-                    <table class="w-full text-sm">
+                  <div v-else class="max-h-96 overflow-auto">
+                    <table class="min-w-full w-max text-sm table-auto">
                       <thead class="bg-cyan-100 dark:bg-cyan-900 sticky top-0">
                         <tr>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">#</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Datum</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100 whitespace-nowrap">#</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100 whitespace-nowrap">Datum</th>
                           <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Titel</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Dauer</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Sprecher</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100">Link</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100 whitespace-nowrap">Dauer</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100 whitespace-nowrap">Sprecher</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-cyan-900 dark:text-cyan-100 whitespace-nowrap">Link</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -95,7 +111,7 @@
                           class="border-t border-cyan-100 dark:border-cyan-800 hover:bg-cyan-50 dark:hover:bg-cyan-900/20"
                         >
                           <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
-                            <td class="px-3 py-2 text-cyan-700 dark:text-cyan-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-cyan-700 dark:text-cyan-300 font-mono text-xs whitespace-nowrap">{{ episodeNum }}</td>
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                               {{ formatDate(episodeDetails.get(episodeNum)?.date) }}
                             </td>
@@ -105,7 +121,7 @@
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                               {{ formatDuration(episodeDetails.get(episodeNum)?.duration) }}
                             </td>
-                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs">
+                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
                               <span v-for="(speaker, idx) in episodeDetails.get(episodeNum)?.speakers" :key="speaker">
                                 <span class="inline-block text-gray-600 dark:text-gray-400">{{ speaker }}</span><span v-if="idx < ((episodeDetails.get(episodeNum)?.speakers?.length || 0) - 1)" class="text-gray-600 dark:text-gray-400">, </span>
                               </span>
@@ -138,20 +154,6 @@
                     </table>
                   </div>
                 </div>
-              </div>
-              
-              <button
-                @click="clearSelection"
-                class="ml-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
-              >
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
             </div>
           </div>
 
@@ -354,8 +356,17 @@ function drawHeatmap() {
 
   // Dimensions
   const containerWidth = heatmapContainer.value.clientWidth - 48; // padding
+  
+  // Responsive margins based on viewport
+  const isMobile = containerWidth < 640;
+  const isTablet = containerWidth >= 640 && containerWidth < 1024;
+  
   const cellSize = Math.min(30, Math.max(10, containerWidth / (clusters2.length + 10)));
-  const margin = { top: 180, right: 20, bottom: 20, left: 200 };
+  const margin = isMobile
+    ? { top: 80, right: 10, bottom: 20, left: 60 }
+    : isTablet
+    ? { top: 120, right: 15, bottom: 20, left: 100 }
+    : { top: 180, right: 20, bottom: 20, left: 200 };
   const width = clusters2.length * cellSize;
   const height = matrix.length * cellSize;
 
@@ -480,34 +491,58 @@ function drawHeatmap() {
   });
 
   // X axis labels (clusters on x-axis)
+  const labelFontSize = isMobile ? '8px' : isTablet ? '9px' : '11px';
+  
   g.append('g')
     .selectAll('text')
     .data(clusters2)
     .enter()
     .append('text')
     .attr('x', d => (xScale(d.id) || 0) + xScale.bandwidth() / 2)
-    .attr('y', -15)
+    .attr('y', -10)
     .attr('text-anchor', 'start')
     .attr('transform', d => {
       const x = (xScale(d.id) || 0) + xScale.bandwidth() / 2;
-      return `rotate(-65 ${x} -15)`;
+      return `rotate(-65 ${x} -10)`;
     })
-    .attr('font-size', '11px')
+    .attr('font-size', labelFontSize)
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
+    .text(d => {
+      const name = d.name;
+      if (isMobile && name.length > 12) {
+        return name.substring(0, 11) + '…';
+      } else if (isTablet && name.length > 18) {
+        return name.substring(0, 17) + '…';
+      }
+      return name;
+    })
+    .append('title')
     .text(d => d.name);
 
   // Y axis labels (clusters on y-axis)
+  const yLabelFontSize = isMobile ? '8px' : isTablet ? '9px' : '10px';
+  
   g.append('g')
     .selectAll('text')
     .data(matrix)
     .enter()
     .append('text')
-    .attr('x', -10)
+    .attr('x', -5)
     .attr('y', d => (yScale(d.clusterId || '') || 0) + yScale.bandwidth() / 2)
     .attr('text-anchor', 'end')
     .attr('dominant-baseline', 'middle')
-    .attr('font-size', '10px')
+    .attr('font-size', yLabelFontSize)
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
+    .text(d => {
+      const name = d.cluster1Name || d.clusterName || '';
+      if (isMobile && name.length > 12) {
+        return name.substring(0, 11) + '…';
+      } else if (isTablet && name.length > 18) {
+        return name.substring(0, 17) + '…';
+      }
+      return name;
+    })
+    .append('title')
     .text(d => d.cluster1Name || d.clusterName || '');
 
   // Legend

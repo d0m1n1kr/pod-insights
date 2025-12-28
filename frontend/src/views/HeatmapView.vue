@@ -94,8 +94,17 @@ const drawHeatmap = () => {
   const width = container.clientWidth;
   const { speakers, categories } = filteredData.value;
   
-  const margin = { top: 200, right: 40, bottom: 60, left: 200 };
-  const cellSize = 40;
+  // Responsive margins and cell size
+  const isMobile = width < 640;
+  const isTablet = width >= 640 && width < 1024;
+  
+  const margin = isMobile 
+    ? { top: 80, right: 10, bottom: 30, left: 60 }
+    : isTablet
+    ? { top: 120, right: 20, bottom: 40, left: 100 }
+    : { top: 200, right: 40, bottom: 60, left: 200 };
+  
+  const cellSize = isMobile ? 25 : isTablet ? 32 : 40;
   const innerHeight = speakers.length * cellSize;
   const height = innerHeight + margin.top + margin.bottom;
   
@@ -210,13 +219,16 @@ const drawHeatmap = () => {
         // Use dark text for light cells, white text for dark cells
         const textColor = luminance > 0.5 ? '#1f2937' : 'white';
         
+        // Responsive font size for cell text
+        const cellFontSize = isMobile ? '8px' : isTablet ? '9px' : '11px';
+        
         g.append('text')
           .attr('x', j * cellSize + cellSize / 2)
           .attr('y', i * cellSize + cellSize / 2)
           .attr('text-anchor', 'middle')
           .attr('dominant-baseline', 'middle')
           .attr('fill', textColor)
-          .attr('font-size', '11px')
+          .attr('font-size', cellFontSize)
           .attr('font-weight', '600')
           .attr('pointer-events', 'none')
           .text(value);
@@ -225,42 +237,70 @@ const drawHeatmap = () => {
   });
   
   // Y-axis labels (speakers)
+  const labelFontSize = isMobile ? '9px' : isTablet ? '10px' : '12px';
+  
   speakers.forEach((speaker, i) => {
-    g.append('text')
-      .attr('x', -10)
+    // Truncate long names on mobile
+    let displayName = speaker.name;
+    if (isMobile && displayName.length > 10) {
+      displayName = displayName.substring(0, 9) + '…';
+    } else if (isTablet && displayName.length > 15) {
+      displayName = displayName.substring(0, 14) + '…';
+    }
+    
+    const label = g.append('text')
+      .attr('x', -5)
       .attr('y', i * cellSize + cellSize / 2)
       .attr('text-anchor', 'end')
       .attr('dominant-baseline', 'middle')
       .attr('fill', selectedSpeaker.value === speaker.id ? '#2563eb' : '#333')
-      .attr('font-size', '12px')
+      .attr('font-size', labelFontSize)
       .attr('font-weight', selectedSpeaker.value === speaker.id ? '700' : '400')
       .style('cursor', 'pointer')
-      .text(speaker.name)
+      .text(displayName)
       .on('click', () => {
         selectedSpeaker.value = selectedSpeaker.value === speaker.id ? null : speaker.id;
         selectedCategory.value = null;
         drawHeatmap();
       });
+    
+    // Add tooltip with full name
+    if (displayName !== speaker.name) {
+      label.append('title').text(speaker.name);
+    }
   });
   
   // X-axis labels (categories)
   categories.forEach((category, j) => {
-    g.append('text')
+    // Truncate long names on mobile
+    let displayName = category.name;
+    if (isMobile && displayName.length > 8) {
+      displayName = displayName.substring(0, 7) + '…';
+    } else if (isTablet && displayName.length > 12) {
+      displayName = displayName.substring(0, 11) + '…';
+    }
+    
+    const label = g.append('text')
       .attr('x', j * cellSize + cellSize / 2)
-      .attr('y', -10)
+      .attr('y', -5)
       .attr('text-anchor', 'start')
       .attr('dominant-baseline', 'middle')
       .attr('fill', selectedCategory.value === category.id ? '#2563eb' : '#333')
-      .attr('font-size', '12px')
+      .attr('font-size', labelFontSize)
       .attr('font-weight', selectedCategory.value === category.id ? '700' : '400')
-      .attr('transform', `rotate(-45, ${j * cellSize + cellSize / 2}, -10)`)
+      .attr('transform', `rotate(-45, ${j * cellSize + cellSize / 2}, -5)`)
       .style('cursor', 'pointer')
-      .text(category.name)
+      .text(displayName)
       .on('click', () => {
         selectedCategory.value = selectedCategory.value === category.id ? null : category.id;
         selectedSpeaker.value = null;
         drawHeatmap();
       });
+    
+    // Add tooltip with full name
+    if (displayName !== category.name) {
+      label.append('title').text(category.name);
+    }
   });
   
   // Legend
@@ -373,89 +413,103 @@ const formatDuration = (duration: [number, number, number]) => {
   </div>
 
   <div v-else-if="heatmapData" class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
-    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-pink-50 to-pink-100 dark:from-pink-900/20 dark:to-pink-900/30">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-pink-50 to-pink-100 dark:from-pink-900/20 dark:to-pink-900/30">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
         <div class="text-center">
-          <div class="text-3xl font-bold text-pink-600">{{ heatmapData.statistics.totalSpeakers }}</div>
-          <div class="text-sm text-gray-600 mt-1">Sprecher gesamt</div>
+          <div class="text-2xl sm:text-3xl font-bold text-pink-600">{{ heatmapData.statistics.totalSpeakers }}</div>
+          <div class="text-xs sm:text-sm text-gray-600 mt-1">Sprecher gesamt</div>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-pink-600">{{ heatmapData.statistics.totalCategories }}</div>
-          <div class="text-sm text-gray-600 mt-1">Kategorien gesamt</div>
+          <div class="text-2xl sm:text-3xl font-bold text-pink-600">{{ heatmapData.statistics.totalCategories }}</div>
+          <div class="text-xs sm:text-sm text-gray-600 mt-1">Kategorien gesamt</div>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-pink-600">{{ heatmapData.statistics.totalCombinations }}</div>
-          <div class="text-sm text-gray-600 mt-1">Kombinationen</div>
+          <div class="text-2xl sm:text-3xl font-bold text-pink-600">{{ heatmapData.statistics.totalCombinations }}</div>
+          <div class="text-xs sm:text-sm text-gray-600 mt-1">Kombinationen</div>
         </div>
       </div>
     </div>
 
-    <div class="p-6">
+    <div class="p-3 sm:p-4 md:p-6">
       <!-- Controls -->
-      <div class="mb-6 flex gap-6 flex-wrap items-center">
-        <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-          Anzahl Sprecher:
-          <input
-            v-model.number="settingsStore.topNSpeakersHeatmap"
-            type="range"
-            min="5"
-            max="30"
-            step="1"
-            class="ml-2 w-48 slider-pink"
-          />
-          <span class="ml-2 text-pink-600 dark:text-pink-400 font-semibold">{{ settingsStore.topNSpeakersHeatmap }}</span>
+      <div class="mb-4 sm:mb-6 flex flex-col sm:flex-row gap-3 sm:gap-6 items-stretch sm:items-center">
+        <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
+          <span class="whitespace-nowrap">Anzahl Sprecher:</span>
+          <div class="flex items-center gap-2">
+            <input
+              v-model.number="settingsStore.topNSpeakersHeatmap"
+              type="range"
+              min="5"
+              max="30"
+              step="1"
+              class="flex-1 sm:w-32 md:w-48 slider-pink"
+            />
+            <span class="text-pink-600 dark:text-pink-400 font-semibold min-w-[2rem] text-right">{{ settingsStore.topNSpeakersHeatmap }}</span>
+          </div>
         </label>
         
-        <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-          Anzahl Kategorien:
-          <input
-            v-model.number="settingsStore.topNCategoriesHeatmap"
-            type="range"
-            min="5"
-            max="12"
-            step="1"
-            class="ml-2 w-48 slider-pink"
-          />
-          <span class="ml-2 text-pink-600 dark:text-pink-400 font-semibold">{{ settingsStore.topNCategoriesHeatmap }}</span>
+        <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
+          <span class="whitespace-nowrap">Anzahl Kategorien:</span>
+          <div class="flex items-center gap-2">
+            <input
+              v-model.number="settingsStore.topNCategoriesHeatmap"
+              type="range"
+              min="5"
+              max="12"
+              step="1"
+              class="flex-1 sm:w-32 md:w-48 slider-pink"
+            />
+            <span class="text-pink-600 dark:text-pink-400 font-semibold min-w-[2rem] text-right">{{ settingsStore.topNCategoriesHeatmap }}</span>
+          </div>
         </label>
       </div>
 
       <!-- Selected Cell Details -->
       <div v-if="selectedCellData && selectedCellData.count > 0" class="mb-6 p-4 bg-pink-50 dark:bg-pink-900/20 border border-pink-200 dark:border-pink-700 rounded-lg">
-        <div class="flex items-start justify-between">
-          <div class="flex-1">
-            <h3 class="font-semibold text-lg text-pink-900 dark:text-pink-100">
-              {{ selectedCellData.speakerName }} → {{ selectedCellData.categoryName }}
-            </h3>
-            <p class="text-sm text-pink-700 dark:text-pink-300 mt-1">{{ selectedCellData.categoryDescription }}</p>
-            <p class="text-sm text-pink-600 dark:text-pink-400 mt-2">
-              <strong>{{ selectedCellData.count }}</strong> Episoden in dieser Kombination
-            </p>
-            
-            <div class="mt-3 flex gap-4">
-              <button
-                @click="showEpisodeList = !showEpisodeList; if (showEpisodeList) showTopicList = false;"
-                class="text-sm text-pink-600 hover:text-pink-800 dark:text-pink-400 dark:hover:text-pink-300 font-semibold underline"
-              >
-                {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCellData.episodes.length} Episoden anzeigen` }}
-              </button>
+        <div class="relative">
+          <button
+            @click="selectedSpeaker = null; selectedCategory = null; showEpisodeList = false;"
+            class="absolute top-2 right-2 text-pink-600 hover:text-pink-800 dark:text-pink-400 dark:hover:text-pink-300 font-semibold p-1"
+            aria-label="Schließen"
+          >
+            ✕
+          </button>
+
+          <div class="min-w-0">
+            <div class="pr-10">
+              <h3 class="font-semibold text-lg text-pink-900 dark:text-pink-100">
+                {{ selectedCellData.speakerName }} → {{ selectedCellData.categoryName }}
+              </h3>
+              <p class="text-sm text-pink-700 dark:text-pink-300 mt-1">{{ selectedCellData.categoryDescription }}</p>
+              <p class="text-sm text-pink-600 dark:text-pink-400 mt-2">
+                <strong>{{ selectedCellData.count }}</strong> Episoden in dieser Kombination
+              </p>
+              
+              <div class="mt-3 flex gap-4">
+                <button
+                  @click="showEpisodeList = !showEpisodeList; if (showEpisodeList) showTopicList = false;"
+                  class="text-sm text-pink-600 hover:text-pink-800 dark:text-pink-400 dark:hover:text-pink-300 font-semibold underline"
+                >
+                  {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCellData.episodes.length} Episoden anzeigen` }}
+                </button>
+              </div>
             </div>
 
             <!-- Episode List -->
-            <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-pink-300 dark:border-pink-700 overflow-hidden">
+            <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-pink-300 dark:border-pink-700">
               <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                 Lade Episoden-Details...
               </div>
-              <div v-else class="max-h-96 overflow-y-auto">
-                <table class="w-full text-sm">
+              <div v-else class="max-h-96 overflow-auto">
+                <table class="min-w-full w-max text-sm table-auto">
                   <thead class="bg-pink-100 dark:bg-pink-900 sticky top-0">
                     <tr>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">#</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Datum</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100 whitespace-nowrap">#</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100 whitespace-nowrap">Datum</th>
                       <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Titel</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Dauer</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Sprecher</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100">Link</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100 whitespace-nowrap">Dauer</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100 whitespace-nowrap">Sprecher</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-pink-900 dark:text-pink-100 whitespace-nowrap">Link</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -465,15 +519,15 @@ const formatDuration = (duration: [number, number, number]) => {
                       class="border-t border-pink-100 dark:border-pink-800 hover:bg-pink-50 dark:hover:bg-pink-900/20"
                     >
                       <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum)">
-                        <td class="px-3 py-2 text-pink-700 dark:text-pink-300 font-mono text-xs">{{ episodeNum }}</td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap">
+                        <td class="px-3 py-2 text-pink-700 dark:text-pink-300 font-mono text-xs whitespace-nowrap">{{ episodeNum }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                           {{ new Date(episodeDetails.get(episodeNum).date).toLocaleDateString('de-DE') }}
                         </td>
-                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100">{{ episodeDetails.get(episodeNum).title }}</td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs">
+                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">{{ episodeDetails.get(episodeNum).title }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
                           {{ formatDuration(episodeDetails.get(episodeNum).duration) }}
                         </td>
-                        <td class="px-3 py-2 text-xs">
+                        <td class="px-3 py-2 text-xs whitespace-nowrap">
                           <template v-for="(speaker, idx) in episodeDetails.get(episodeNum).speakers" :key="`${episodeNum}-${idx}`">
                             <span
                               :class="[
@@ -508,12 +562,6 @@ const formatDuration = (duration: [number, number, number]) => {
               </div>
             </div>
           </div>
-          <button
-            @click="selectedSpeaker = null; selectedCategory = null; showEpisodeList = false;"
-            class="text-pink-600 hover:text-pink-800 dark:text-pink-400 dark:hover:text-pink-300 font-semibold ml-4"
-          >
-            ✕
-          </button>
         </div>
       </div>
 

@@ -53,39 +53,55 @@
 
           <!-- Selected Cell Details -->
           <div v-if="selectedCell" class="mb-6 p-4 bg-teal-50 dark:bg-teal-900/20 border border-teal-200 dark:border-teal-700 rounded-lg">
-            <div class="flex items-start justify-between">
-              <div class="flex-1">
-                <h3 class="font-semibold text-lg text-teal-900 dark:text-teal-100">
-                  {{ selectedCell.speaker1Name }} → {{ selectedCell.speaker2Name }}
-                </h3>
-                <p class="text-sm text-teal-600 dark:text-teal-400 mt-2">
-                  <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
-                </p>
-                
-                <div class="mt-3">
-                  <button
-                    @click="showEpisodeList = !showEpisodeList"
-                    class="text-sm text-teal-600 hover:text-teal-800 dark:text-teal-400 dark:hover:text-teal-300 font-semibold underline"
-                  >
-                    {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
-                  </button>
+            <div class="relative">
+              <button
+                @click="clearSelection"
+                class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 p-1"
+                aria-label="Schließen"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+
+              <div class="min-w-0">
+                <div class="pr-10">
+                  <h3 class="font-semibold text-lg text-teal-900 dark:text-teal-100">
+                    {{ selectedCell.speaker1Name }} → {{ selectedCell.speaker2Name }}
+                  </h3>
+                  <p class="text-sm text-teal-600 dark:text-teal-400 mt-2">
+                    <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
+                  </p>
+                  
+                  <div class="mt-3">
+                    <button
+                      @click="showEpisodeList = !showEpisodeList"
+                      class="text-sm text-teal-600 hover:text-teal-800 dark:text-teal-400 dark:hover:text-teal-300 font-semibold underline"
+                    >
+                      {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
+                    </button>
+                  </div>
                 </div>
 
                 <!-- Episode List -->
-                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-teal-300 dark:border-teal-700 overflow-hidden">
+                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-teal-300 dark:border-teal-700">
                   <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                     Lade Episoden-Details...
                   </div>
-                  <div v-else class="max-h-96 overflow-y-auto">
-                    <table class="w-full text-sm">
+                  <div v-else class="max-h-96 overflow-auto">
+                    <table class="min-w-full w-max text-sm table-auto">
                       <thead class="bg-teal-100 dark:bg-teal-900 sticky top-0">
                         <tr>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">#</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Datum</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">#</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Datum</th>
                           <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Titel</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Dauer</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Sprecher</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Link</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Dauer</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Sprecher</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Link</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -95,17 +111,17 @@
                           class="border-t border-teal-100 dark:border-teal-800 hover:bg-teal-50 dark:hover:bg-teal-900/50"
                         >
                           <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
-                            <td class="px-3 py-2 text-teal-700 dark:text-teal-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-teal-700 dark:text-teal-300 font-mono text-xs whitespace-nowrap">{{ episodeNum }}</td>
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                               {{ formatDate(episodeDetails.get(episodeNum)?.date) }}
                             </td>
                             <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
                               {{ episodeDetails.get(episodeNum)?.title }}
                             </td>
-                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs">
+                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
                               {{ episodeDetails.get(episodeNum)?.duration ? formatDuration(episodeDetails.get(episodeNum)?.duration) : 'N/A' }}
                             </td>
-                            <td class="px-3 py-2 text-xs">
+                            <td class="px-3 py-2 text-xs whitespace-nowrap">
                               <template v-for="(speaker, idx) in episodeDetails.get(episodeNum)?.speakers || []" :key="`${episodeNum}-${idx}`">
                                 <span
                                   :class="[
@@ -146,20 +162,6 @@
                     </table>
                   </div>
                 </div>
-              </div>
-              
-              <button
-                @click="clearSelection"
-                class="ml-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
-              >
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
             </div>
           </div>
 
@@ -338,8 +340,17 @@ function drawHeatmap() {
 
   // Dimensions
   const containerWidth = heatmapContainer.value.clientWidth - 48; // padding
+  
+  // Responsive margins based on viewport
+  const isMobile = containerWidth < 640;
+  const isTablet = containerWidth >= 640 && containerWidth < 1024;
+  
   const cellSize = Math.min(30, Math.max(10, containerWidth / (speakers2.length + 10)));
-  const margin = { top: 180, right: 20, bottom: 20, left: 200 };
+  const margin = isMobile
+    ? { top: 80, right: 10, bottom: 20, left: 60 }
+    : isTablet
+    ? { top: 120, right: 15, bottom: 20, left: 100 }
+    : { top: 180, right: 20, bottom: 20, left: 200 };
   const width = speakers2.length * cellSize;
   const height = matrix.length * cellSize;
 
@@ -467,34 +478,58 @@ function drawHeatmap() {
   });
 
   // X axis labels (speakers on x-axis)
+  const labelFontSize = isMobile ? '8px' : isTablet ? '9px' : '11px';
+  
   g.append('g')
     .selectAll('text')
     .data(speakers2)
     .enter()
     .append('text')
     .attr('x', d => (xScale(d.id) || 0) + xScale.bandwidth() / 2)
-    .attr('y', -15)
+    .attr('y', -10)
     .attr('text-anchor', 'start')
     .attr('transform', d => {
       const x = (xScale(d.id) || 0) + xScale.bandwidth() / 2;
-      return `rotate(-65 ${x} -15)`;
+      return `rotate(-65 ${x} -10)`;
     })
-    .attr('font-size', '11px')
+    .attr('font-size', labelFontSize)
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
+    .text(d => {
+      const name = d.name;
+      if (isMobile && name.length > 10) {
+        return name.substring(0, 9) + '…';
+      } else if (isTablet && name.length > 15) {
+        return name.substring(0, 14) + '…';
+      }
+      return name;
+    })
+    .append('title')
     .text(d => d.name);
 
   // Y axis labels (speakers on y-axis)
+  const yLabelFontSize = isMobile ? '8px' : isTablet ? '9px' : '10px';
+  
   g.append('g')
     .selectAll('text')
     .data(matrix)
     .enter()
     .append('text')
-    .attr('x', -10)
+    .attr('x', -5)
     .attr('y', d => (yScale(d.speakerId || '') || 0) + yScale.bandwidth() / 2)
     .attr('text-anchor', 'end')
     .attr('dominant-baseline', 'middle')
-    .attr('font-size', '10px')
+    .attr('font-size', yLabelFontSize)
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
+    .text(d => {
+      const name = d.speaker1Name || d.speakerName || '';
+      if (isMobile && name.length > 10) {
+        return name.substring(0, 9) + '…';
+      } else if (isTablet && name.length > 15) {
+        return name.substring(0, 14) + '…';
+      }
+      return name;
+    })
+    .append('title')
     .text(d => d.speaker1Name || d.speakerName || '');
 
   // Legend

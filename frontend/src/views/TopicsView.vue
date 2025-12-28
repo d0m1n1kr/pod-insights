@@ -37,24 +37,24 @@ onMounted(async () => {
   </div>
 
   <div v-else-if="topicData" class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
-    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
         <div class="text-center">
-          <div class="text-3xl font-bold text-blue-600 dark:text-blue-400">{{ topicData.statistics.totalTopics || 0 }}</div>
-          <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">Themen insgesamt</div>
+          <div class="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">{{ topicData.statistics.totalTopics || 0 }}</div>
+          <div class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Themen insgesamt</div>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-blue-600 dark:text-blue-400">
+          <div class="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
             {{ topicData.statistics.yearRange.start }} - {{ topicData.statistics.yearRange.end }}
           </div>
-          <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">Zeitspanne</div>
+          <div class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Zeitspanne</div>
         </div>
       </div>
     </div>
 
     <TopicRiver :data="topicData" color="blue" />
     
-    <footer class="p-4 text-center text-gray-500 dark:text-gray-400 text-sm border-t border-gray-200 dark:border-gray-700">
+    <footer class="p-3 sm:p-4 text-center text-gray-500 dark:text-gray-400 text-xs sm:text-sm border-t border-gray-200 dark:border-gray-700">
       <p>Generiert am: {{ new Date(topicData.generatedAt).toLocaleString('de-DE') }}</p>
     </footer>
   </div>

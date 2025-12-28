@@ -106,7 +106,16 @@ const drawRiver = () => {
   const height = dimensions.value.height;
   dimensions.value.width = width;
   
-  const margin = { top: 20, right: 280, bottom: 60, left: 60 };
+  // Responsive margins
+  const isMobile = width < 640;
+  const isTablet = width >= 640 && width < 1024;
+  
+  const margin = isMobile
+    ? { top: 20, right: 10, bottom: 60, left: 40 }
+    : isTablet
+    ? { top: 20, right: 150, bottom: 60, left: 50 }
+    : { top: 20, right: 280, bottom: 60, left: 60 };
+  
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
   
@@ -280,58 +289,60 @@ const drawRiver = () => {
     .attr('y', innerHeight + 45)
     .attr('fill', '#333')
     .attr('text-anchor', 'middle')
-    .style('font-size', '14px')
+    .style('font-size', isMobile ? '12px' : '14px')
     .style('font-weight', '600')
     .text('Jahr');
   
-  // Legende
-  const legend = g.append('g')
-    .attr('class', 'legend')
-    .attr('transform', `translate(${innerWidth + 20}, 0)`);
-  
-  speakers.forEach((speaker, i) => {
-    const legendRow = legend.append('g')
-      .attr('class', 'legend-item')
-      .attr('data-speaker-id', speaker.id)
-      .attr('transform', `translate(0, ${i * 24})`)
-      .style('cursor', 'pointer')
-      .on('mouseover', function() {
-        hoveredSpeaker.value = speaker.id;
-      })
-      .on('mouseout', function() {
-        // Only clear if we're leaving the current hovered item
-        if (hoveredSpeaker.value === speaker.id) {
-          hoveredSpeaker.value = null;
-        }
-      })
-      .on('click', function() {
-        selectedSpeaker.value = selectedSpeaker.value === speaker.id ? null : speaker.id;
-      });
+  // Legende - only show on desktop, hide on mobile
+  if (!isMobile) {
+    const legend = g.append('g')
+      .attr('class', 'legend')
+      .attr('transform', `translate(${innerWidth + 20}, 0)`);
     
-    legendRow.append('rect')
-      .attr('width', 16)
-      .attr('height', 16)
-      .attr('fill', speaker.color)
-      .attr('opacity', () => {
-        if (!hoveredSpeaker.value && !selectedSpeaker.value) return 0.8;
-        if (hoveredSpeaker.value === speaker.id || selectedSpeaker.value === speaker.id) return 1;
-        return 0.2;
-      });
-    
-    const text = legendRow.append('text')
-      .attr('x', 22)
-      .attr('y', 12)
-      .attr('fill', '#333')
-      .style('font-size', '11px')
-      .style('font-weight', () => {
-        if (hoveredSpeaker.value === speaker.id || selectedSpeaker.value === speaker.id) return '600';
-        return '400';
-      })
-      .text(`${speaker.name} (${speaker.totalAppearances} Episoden)`);
-    
-    // Tooltip für lange Namen
-    text.append('title').text(`${speaker.name} (${speaker.totalAppearances} Episoden)`);
-  });
+    speakers.forEach((speaker, i) => {
+      const legendRow = legend.append('g')
+        .attr('class', 'legend-item')
+        .attr('data-speaker-id', speaker.id)
+        .attr('transform', `translate(0, ${i * 24})`)
+        .style('cursor', 'pointer')
+        .on('mouseover', function() {
+          hoveredSpeaker.value = speaker.id;
+        })
+        .on('mouseout', function() {
+          // Only clear if we're leaving the current hovered item
+          if (hoveredSpeaker.value === speaker.id) {
+            hoveredSpeaker.value = null;
+          }
+        })
+        .on('click', function() {
+          selectedSpeaker.value = selectedSpeaker.value === speaker.id ? null : speaker.id;
+        });
+      
+      legendRow.append('rect')
+        .attr('width', 16)
+        .attr('height', 16)
+        .attr('fill', speaker.color)
+        .attr('opacity', () => {
+          if (!hoveredSpeaker.value && !selectedSpeaker.value) return 0.8;
+          if (hoveredSpeaker.value === speaker.id || selectedSpeaker.value === speaker.id) return 1;
+          return 0.2;
+        });
+      
+      const text = legendRow.append('text')
+        .attr('x', 22)
+        .attr('y', 12)
+        .attr('fill', '#333')
+        .style('font-size', isTablet ? '10px' : '11px')
+        .style('font-weight', () => {
+          if (hoveredSpeaker.value === speaker.id || selectedSpeaker.value === speaker.id) return '600';
+          return '400';
+        })
+        .text(`${speaker.name} (${speaker.totalAppearances} Episoden)`);
+      
+      // Tooltip für lange Namen
+      text.append('title').text(`${speaker.name} (${speaker.totalAppearances} Episoden)`);
+    });
+  }
   
   return streams; // Return streams for updating
 };
@@ -523,22 +534,24 @@ watch(selectedYear, () => {
       style="display: none; position: absolute; background: rgba(0, 0, 0, 0.9); color: white; padding: 8px 12px; border-radius: 6px; pointer-events: none; z-index: 1000; font-size: 13px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);"
     ></div>
     
-    <div class="controls mb-6">
-      <div class="flex items-center gap-4 flex-wrap">
-        <label class="m-2 text-sm font-medium text-gray-700 dark:text-gray-300">
-          Anzahl Sprecher:
-          <input
-            v-model.number="settingsStore.speakerFilter"
-            type="range"
-            min="5"
-            max="30"
-            step="1"
-            class="ml-2 w-48 slider-green"
-          />
-          <span class="ml-2 text-green-600 dark:text-green-400 font-semibold">{{ settingsStore.speakerFilter }}</span>
+    <div class="controls mb-4 sm:mb-6">
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
+        <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
+          <span class="whitespace-nowrap">Anzahl Sprecher:</span>
+          <div class="flex items-center gap-2">
+            <input
+              v-model.number="settingsStore.speakerFilter"
+              type="range"
+              min="5"
+              max="30"
+              step="1"
+              class="flex-1 sm:w-32 md:w-48 slider-green"
+            />
+            <span class="text-green-600 dark:text-green-400 font-semibold min-w-[2rem] text-right">{{ settingsStore.speakerFilter }}</span>
+          </div>
         </label>
         
-        <label class="flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-gray-300 cursor-pointer">
+        <label class="flex items-center gap-2 text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 cursor-pointer">
           <input
             v-model="settingsStore.normalizedView"
             type="checkbox"
@@ -549,8 +562,9 @@ watch(selectedYear, () => {
       </div>
       
       <div v-if="selectedSpeakerInfo" class="mt-4 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700 rounded-lg">
-        <div class="flex items-start justify-between">
-          <div class="flex-1">
+        <div class="relative">
+          <div class="min-w-0">
+            <div class="pr-10">
             <h3 class="font-semibold text-lg text-green-900 dark:text-green-100">{{ selectedSpeakerInfo.name }}</h3>
             <p class="text-sm text-green-700 dark:text-green-300 mt-1">
               {{ selectedSpeakerInfo.totalAppearances }} Episoden
@@ -579,22 +593,23 @@ watch(selectedYear, () => {
                 {{ showEpisodeList ? 'Episoden ausblenden' : (selectedYear ? `${selectedSpeakerInfo.filteredCount} von ${selectedSpeakerInfo.totalEpisodes} Episoden anzeigen` : `${selectedSpeakerInfo.episodeNumbers.length} Episoden anzeigen`) }}
               </button>
             </div>
+            </div>
             
             <!-- Episode List -->
-            <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-green-300 dark:border-green-700 overflow-hidden">
+            <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-green-300 dark:border-green-700">
               <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                 Lade Episoden-Details...
               </div>
-              <div v-else class="max-h-96 overflow-y-auto">
-                <table class="w-full text-sm">
+              <div v-else class="max-h-96 overflow-auto">
+                <table class="min-w-full w-max text-sm table-auto">
                   <thead class="bg-green-100 dark:bg-green-900 sticky top-0">
                     <tr>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">#</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Datum</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100 whitespace-nowrap">#</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100 whitespace-nowrap">Datum</th>
                       <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Titel</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Dauer</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Sprecher</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Link</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100 whitespace-nowrap">Dauer</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100 whitespace-nowrap">Sprecher</th>
+                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100 whitespace-nowrap">Link</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -604,15 +619,15 @@ watch(selectedYear, () => {
                       class="border-t border-green-100 dark:border-green-800 hover:bg-green-50 dark:hover:bg-green-900/20"
                     >
                       <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum)">
-                        <td class="px-3 py-2 text-green-700 dark:text-green-300 font-mono text-xs">{{ episodeNum }}</td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap">
+                        <td class="px-3 py-2 text-green-700 dark:text-green-300 font-mono text-xs whitespace-nowrap">{{ episodeNum }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                           {{ new Date(episodeDetails.get(episodeNum).date).toLocaleDateString('de-DE') }}
                         </td>
-                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100">{{ episodeDetails.get(episodeNum).title }}</td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs">
+                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">{{ episodeDetails.get(episodeNum).title }}</td>
+                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
                           {{ formatDuration(episodeDetails.get(episodeNum).duration) }}
                         </td>
-                        <td class="px-3 py-2 text-xs">
+                        <td class="px-3 py-2 text-xs whitespace-nowrap">
                           <template v-for="(speaker, idx) in episodeDetails.get(episodeNum).speakers" :key="`${episodeNum}-${idx}`">
                             <span
                               :class="[
@@ -649,7 +664,8 @@ watch(selectedYear, () => {
           </div>
           <button
             @click="selectedSpeaker = null; selectedYear = null; showEpisodeList = false;"
-            class="text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 font-semibold ml-4"
+            class="absolute top-2 right-2 text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300 font-semibold p-1"
+            aria-label="Schließen"
           >
             ✕
           </button>
@@ -657,13 +673,13 @@ watch(selectedYear, () => {
       </div>
     </div>
     
-    <div ref="containerRef" class="w-full overflow-x-auto">
+    <div ref="containerRef" class="w-full overflow-x-auto -mx-2 sm:mx-0">
       <svg ref="svgRef" class="speaker-river-svg"></svg>
     </div>
     
-    <div class="mt-6 text-sm text-gray-600 dark:text-gray-400">
+    <div class="mt-4 sm:mt-6 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
       <p>
-        <strong>Interaktion:</strong> Bewege die Maus über einen Stream oder die Legende, um den Sprecher hervorzuheben. 
+        <strong>Interaktion:</strong> Bewege die Maus über einen Stream<span class="hidden sm:inline"> oder die Legende</span>, um den Sprecher hervorzuheben. 
         Klicke, um Details anzuzeigen.
       </p>
     </div>

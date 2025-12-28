@@ -1,18 +1,18 @@
 <template>
   <div class="flex flex-col h-full">
     <!-- Header -->
-    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-violet-50 to-violet-100 dark:from-violet-900/20 dark:to-violet-900/30">
-      <div class="flex items-center justify-between mb-4">
-        <h2 class="text-2xl font-bold text-violet-900 dark:text-violet-100">Duration Heatmaps</h2>
+    <div class="p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-violet-50 to-violet-100 dark:from-violet-900/20 dark:to-violet-900/30">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0 mb-4">
+        <h2 class="text-xl sm:text-2xl font-bold text-violet-900 dark:text-violet-100">Duration Heatmaps</h2>
         
         <!-- Tab Switch -->
-        <div class="flex gap-2 bg-white dark:bg-gray-800 rounded-lg p-1 shadow-md">
+        <div class="flex gap-1 sm:gap-2 bg-white dark:bg-gray-800 rounded-lg p-1 shadow-md w-full sm:w-auto overflow-x-auto">
           <button
             v-for="tab in tabs"
             :key="tab.id"
             @click="activeTab = tab.id"
             :class="[
-              'px-4 py-2 rounded-md transition-colors text-sm font-medium',
+              'px-3 sm:px-4 py-2 rounded-md transition-colors text-xs sm:text-sm font-medium whitespace-nowrap flex-shrink-0',
               activeTab === tab.id
                 ? 'bg-violet-500 text-white'
                 : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
@@ -24,18 +24,18 @@
       </div>
       
       <!-- Statistics for active tab -->
-      <div v-if="currentData" class="grid grid-cols-3 gap-4">
+      <div v-if="currentData" class="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
         <div class="text-center">
-          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ currentData.statistics.totalEpisodes }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Episoden insgesamt</p>
+          <div class="text-2xl sm:text-3xl font-bold text-violet-600 dark:text-violet-400">{{ currentData.statistics.totalEpisodes }}</div>
+          <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Episoden insgesamt</p>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ currentData.statistics[mostCommonLabel] }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">{{ mostCommonDesc }}</p>
+          <div class="text-2xl sm:text-3xl font-bold text-violet-600 dark:text-violet-400">{{ currentData.statistics[mostCommonLabel] }}</div>
+          <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">{{ mostCommonDesc }}</p>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-violet-600 dark:text-violet-400">{{ currentData.statistics.mostCommonDurationLabel }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Häufigste Dauer</p>
+          <div class="text-2xl sm:text-3xl font-bold text-violet-600 dark:text-violet-400">{{ currentData.statistics.mostCommonDurationLabel }}</div>
+          <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Häufigste Dauer</p>
         </div>
       </div>
     </div>
@@ -50,39 +50,55 @@
         <div v-else>
           <!-- Selected Cell Details -->
           <div v-if="selectedCell" class="mb-6 p-4 bg-violet-50 dark:bg-violet-900/20 border border-violet-200 dark:border-violet-700 rounded-lg">
-            <div class="flex items-start justify-between">
-              <div class="flex-1">
-                <h3 class="font-semibold text-lg text-violet-900 dark:text-violet-100">
-                  {{ selectedCell.label }} – {{ selectedCell.durationLabel }}
-                </h3>
-                <p class="text-sm text-violet-600 dark:text-violet-400 mt-2">
-                  <strong>{{ selectedCell.episodes.length }}</strong> Episoden
-                </p>
-                
-                <div class="mt-3">
-                  <button
-                    @click="showEpisodeList = !showEpisodeList"
-                    class="text-sm text-violet-600 hover:text-violet-800 dark:text-violet-400 dark:hover:text-violet-300 font-semibold underline"
-                  >
-                    {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
-                  </button>
+            <div class="relative">
+              <button
+                @click="clearSelection"
+                class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 p-1"
+                aria-label="Schließen"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+
+              <div class="min-w-0">
+                <div class="pr-10">
+                  <h3 class="font-semibold text-lg text-violet-900 dark:text-violet-100">
+                    {{ selectedCell.label }} – {{ selectedCell.durationLabel }}
+                  </h3>
+                  <p class="text-sm text-violet-600 dark:text-violet-400 mt-2">
+                    <strong>{{ selectedCell.episodes.length }}</strong> Episoden
+                  </p>
+                  
+                  <div class="mt-3">
+                    <button
+                      @click="showEpisodeList = !showEpisodeList"
+                      class="text-sm text-violet-600 hover:text-violet-800 dark:text-violet-400 dark:hover:text-violet-300 font-semibold underline"
+                    >
+                      {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
+                    </button>
+                  </div>
                 </div>
 
                 <!-- Episode List -->
-                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-violet-300 dark:border-violet-700 overflow-hidden">
+                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-violet-300 dark:border-violet-700">
                   <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                     Lade Episoden-Details...
                   </div>
-                  <div v-else class="max-h-96 overflow-y-auto">
-                    <table class="w-full text-sm">
+                  <div v-else class="max-h-96 overflow-auto">
+                    <table class="min-w-full w-max text-sm table-auto">
                       <thead class="bg-violet-100 dark:bg-violet-900 sticky top-0">
                         <tr>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">#</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Datum</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100 whitespace-nowrap">#</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100 whitespace-nowrap">Datum</th>
                           <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Titel</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Dauer</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Sprecher</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100">Link</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100 whitespace-nowrap">Dauer</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100 whitespace-nowrap">Sprecher</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-violet-900 dark:text-violet-100 whitespace-nowrap">Link</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -92,7 +108,7 @@
                           class="border-t border-violet-100 dark:border-violet-800 hover:bg-violet-50 dark:hover:bg-violet-900/20"
                         >
                           <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
-                            <td class="px-3 py-2 text-violet-700 dark:text-violet-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-violet-700 dark:text-violet-300 font-mono text-xs whitespace-nowrap">{{ episodeNum }}</td>
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                               {{ formatDate(episodeDetails.get(episodeNum)?.date) }}
                             </td>
@@ -102,7 +118,7 @@
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                               {{ formatDuration(episodeDetails.get(episodeNum)?.duration) }}
                             </td>
-                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs">
+                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
                               <span v-for="(speaker, idx) in episodeDetails.get(episodeNum)?.speakers" :key="speaker">
                                 <span class="inline-block text-gray-600 dark:text-gray-400">{{ speaker }}</span><span v-if="idx < ((episodeDetails.get(episodeNum)?.speakers?.length || 0) - 1)" class="text-gray-600 dark:text-gray-400">, </span>
                               </span>
@@ -135,20 +151,6 @@
                     </table>
                   </div>
                 </div>
-              </div>
-              
-              <button
-                @click="clearSelection"
-                class="ml-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
-              >
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
             </div>
           </div>
 
@@ -366,9 +368,23 @@ function drawHeatmap() {
 
   // Dimensions
   const containerWidth = heatmapContainer.value.clientWidth - 48;
+  
+  // Responsive margins based on viewport
+  const isMobile = containerWidth < 640;
+  const isTablet = containerWidth >= 640 && containerWidth < 1024;
+  
   const cellSize = Math.min(80, Math.max(40, containerWidth / (durations.length + 3)));
-  const labelWidth = activeTab.value === 'speaker' ? 180 : 150;
-  const margin = { top: 100, right: 20, bottom: 60, left: labelWidth };
+  const labelWidth = isMobile 
+    ? 60
+    : isTablet 
+    ? (activeTab.value === 'speaker' ? 100 : 80) 
+    : (activeTab.value === 'speaker' ? 180 : 150);
+  
+  const margin = isMobile
+    ? { top: 60, right: 10, bottom: 40, left: labelWidth }
+    : isTablet
+    ? { top: 80, right: 15, bottom: 50, left: labelWidth }
+    : { top: 100, right: 20, bottom: 60, left: labelWidth };
   const width = durations.length * cellSize;
   const height = matrix.length * cellSize;
 
@@ -501,17 +517,30 @@ function drawHeatmap() {
     .text(d => d.label);
 
   // Y axis labels
+  const labelFontSize = isMobile ? '8px' : isTablet ? '9px' : '11px';
+  
   g.append('g')
     .selectAll('text')
     .data(matrix)
     .enter()
     .append('text')
-    .attr('x', -10)
+    .attr('x', -5)
     .attr('y', d => (yScale(getRowLabel(d)) || 0) + yScale.bandwidth() / 2)
     .attr('text-anchor', 'end')
     .attr('dominant-baseline', 'middle')
-    .attr('font-size', '11px')
+    .attr('font-size', labelFontSize)
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
+    .text(d => {
+      const label = getRowLabel(d);
+      // Truncate long labels on mobile
+      if (isMobile && label.length > 10) {
+        return label.substring(0, 9) + '…';
+      } else if (isTablet && label.length > 15) {
+        return label.substring(0, 14) + '…';
+      }
+      return label;
+    })
+    .append('title')
     .text(d => getRowLabel(d));
 
   // Legend

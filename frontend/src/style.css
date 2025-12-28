@@ -12,6 +12,74 @@
     color-scheme: dark;
   }
   
+  /* Mobile viewport optimization */
+  @media (max-width: 639px) {
+    body {
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    /* Improve touch targets on mobile - but not for actual range inputs */
+    button:not([type="range"]), 
+    a:not(.inline-link),
+    label {
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+    }
+    
+    /* Ensure checkbox and radio buttons have proper touch targets */
+    input[type="checkbox"],
+    input[type="radio"] {
+      width: 20px;
+      height: 20px;
+    }
+    
+    /* Allow horizontal scrolling for tables (mobile) */
+    table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Ensure table scroll containers work properly */
+    .overflow-x-auto {
+      -webkit-overflow-scrolling: touch;
+      width: 100%;
+    }
+    
+    /* Better range slider sizing on mobile */
+    input[type="range"] {
+      height: 8px;
+      cursor: pointer;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    
+    input[type="range"]::-webkit-slider-thumb {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    
+    input[type="range"]::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    
+    /* Reduce padding/spacing on smaller devices */
+    .max-h-96 {
+      max-height: 50vh;
+    }
+    
+    /* Make SVG scrollable on mobile */
+    svg {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
   /* D3 Axis and Legend Labels in Dark Mode - but NOT heatmap cell text */
   .dark svg text:not([pointer-events="none"]) {
     fill: #d1d5db; /* gray-300 */

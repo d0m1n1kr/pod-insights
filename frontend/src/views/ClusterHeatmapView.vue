@@ -1,15 +1,15 @@
 <template>
   <div class="flex flex-col h-full">
     <!-- Header -->
-    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/20 dark:to-orange-900/30">
-      <div v-if="heatmapData" class="grid grid-cols-2 gap-4">
+    <div class="p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/20 dark:to-orange-900/30">
+      <div v-if="heatmapData" class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
         <div class="text-center">
-          <div class="text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalSpeakers }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Sprecher insgesamt</p>
+          <div class="text-2xl sm:text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalSpeakers }}</div>
+          <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Sprecher insgesamt</p>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalClusters }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Cluster insgesamt</p>
+          <div class="text-2xl sm:text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalClusters }}</div>
+          <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Cluster insgesamt</p>
         </div>
       </div>
     </div>
@@ -23,69 +23,89 @@
         </div>
         <div v-else>
           <!-- Controls -->
-          <div class="mb-6 flex gap-6 flex-wrap items-center">
-            <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-              Anzahl Sprecher:
-              <input
-                v-model.number="settingsStore.topNSpeakersClusterHeatmap"
-                type="range"
-                min="5"
-                max="30"
-                step="1"
-                class="ml-2 w-48 slider-orange"
-              />
-              <span class="ml-2 text-orange-600 dark:text-orange-400 font-semibold">{{ settingsStore.topNSpeakersClusterHeatmap }}</span>
+          <div class="mb-4 sm:mb-6 flex flex-col sm:flex-row gap-3 sm:gap-6 items-stretch sm:items-center">
+            <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
+              <span class="whitespace-nowrap">Anzahl Sprecher:</span>
+              <div class="flex items-center gap-2">
+                <input
+                  v-model.number="settingsStore.topNSpeakersClusterHeatmap"
+                  type="range"
+                  min="5"
+                  max="30"
+                  step="1"
+                  class="flex-1 sm:w-32 md:w-48 slider-orange"
+                />
+                <span class="text-orange-600 dark:text-orange-400 font-semibold min-w-[2rem] text-right">{{ settingsStore.topNSpeakersClusterHeatmap }}</span>
+              </div>
             </label>
             
-            <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-              Anzahl Cluster:
-              <input
-                v-model.number="settingsStore.topNClustersHeatmap"
-                type="range"
-                min="10"
-                max="50"
-                step="1"
-                class="ml-2 w-48 slider-orange"
-              />
-              <span class="ml-2 text-orange-600 dark:text-orange-400 font-semibold">{{ settingsStore.topNClustersHeatmap }}</span>
+            <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
+              <span class="whitespace-nowrap">Anzahl Cluster:</span>
+              <div class="flex items-center gap-2">
+                <input
+                  v-model.number="settingsStore.topNClustersHeatmap"
+                  type="range"
+                  min="10"
+                  max="50"
+                  step="1"
+                  class="flex-1 sm:w-32 md:w-48 slider-orange"
+                />
+                <span class="text-orange-600 dark:text-orange-400 font-semibold min-w-[2rem] text-right">{{ settingsStore.topNClustersHeatmap }}</span>
+              </div>
             </label>
           </div>
 
           <!-- Selected Cell Details -->
           <div v-if="selectedCell" class="mb-6 p-4 bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-700 rounded-lg">
-            <div class="flex items-start justify-between">
-              <div class="flex-1">
-                <h3 class="font-semibold text-lg text-orange-900 dark:text-orange-100">
-                  {{ selectedCell.speakerName }} → {{ selectedCell.clusterName }}
-                </h3>
-                <p class="text-sm text-orange-600 dark:text-orange-400 mt-2">
-                  <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
-                </p>
-                
-                <div class="mt-3">
-                  <button
-                    @click="showEpisodeList = !showEpisodeList"
-                    class="text-sm text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-300 font-semibold underline"
-                  >
-                    {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
-                  </button>
+            <div class="relative">
+              <button
+                @click="clearSelection"
+                class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 p-1"
+                aria-label="Schließen"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+
+              <div class="min-w-0">
+                <div class="pr-10">
+                  <h3 class="font-semibold text-lg text-orange-900 dark:text-orange-100">
+                    {{ selectedCell.speakerName }} → {{ selectedCell.clusterName }}
+                  </h3>
+                  <p class="text-sm text-orange-600 dark:text-orange-400 mt-2">
+                    <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
+                  </p>
+                  
+                  <div class="mt-3">
+                    <button
+                      @click="showEpisodeList = !showEpisodeList"
+                      class="text-sm text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-300 font-semibold underline"
+                    >
+                      {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
+                    </button>
+                  </div>
                 </div>
 
                 <!-- Episode List -->
-                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-orange-300 dark:border-orange-700 overflow-hidden">
+                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-orange-300 dark:border-orange-700">
                   <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
                     Lade Episoden-Details...
                   </div>
-                  <div v-else class="max-h-96 overflow-y-auto">
-                    <table class="w-full text-sm">
+                  <div v-else class="max-h-96 overflow-auto">
+                    <table class="min-w-full w-max text-sm table-auto">
                       <thead class="bg-orange-100 dark:bg-orange-900 sticky top-0">
                         <tr>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">#</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Datum</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">#</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Datum</th>
                           <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Titel</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Dauer</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Sprecher</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Link</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Dauer</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Sprecher</th>
+                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Link</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -95,17 +115,17 @@
                           class="border-t border-orange-100 dark:border-orange-800 hover:bg-orange-50 dark:hover:bg-orange-900/50"
                         >
                           <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
-                            <td class="px-3 py-2 text-orange-700 dark:text-orange-300 font-mono text-xs">{{ episodeNum }}</td>
+                            <td class="px-3 py-2 text-orange-700 dark:text-orange-300 font-mono text-xs whitespace-nowrap">{{ episodeNum }}</td>
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
                               {{ formatDate(episodeDetails.get(episodeNum)?.date) }}
                             </td>
                             <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
                               {{ episodeDetails.get(episodeNum)?.title }}
                             </td>
-                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs">
+                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
                               {{ episodeDetails.get(episodeNum)?.duration ? formatDuration(episodeDetails.get(episodeNum)?.duration) : 'N/A' }}
                             </td>
-                            <td class="px-3 py-2 text-xs">
+                            <td class="px-3 py-2 text-xs whitespace-nowrap">
                               <template v-for="(speaker, idx) in episodeDetails.get(episodeNum)?.speakers || []" :key="`${episodeNum}-${idx}`">
                                 <span
                                   :class="[
@@ -147,19 +167,6 @@
                   </div>
                 </div>
               </div>
-              
-              <button
-                @click="clearSelection"
-                class="ml-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
-              >
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
             </div>
           </div>
 
@@ -338,8 +345,17 @@ function drawHeatmap() {
 
   // Dimensions
   const containerWidth = heatmapContainer.value.clientWidth - 48; // padding
+  
+  // Responsive margins based on viewport
+  const isMobile = containerWidth < 640;
+  const isTablet = containerWidth >= 640 && containerWidth < 1024;
+  
   const cellSize = Math.min(30, Math.max(10, containerWidth / (clusters.length + 10)));
-  const margin = { top: 180, right: 20, bottom: 20, left: 200 };
+  const margin = isMobile
+    ? { top: 80, right: 10, bottom: 20, left: 60 }
+    : isTablet
+    ? { top: 120, right: 15, bottom: 20, left: 100 }
+    : { top: 180, right: 20, bottom: 20, left: 200 };
   const width = clusters.length * cellSize;
   const height = matrix.length * cellSize;
 
@@ -467,35 +483,61 @@ function drawHeatmap() {
   });
 
   // X axis labels (clusters)
+  const clusterLabelFontSize = isMobile ? '8px' : isTablet ? '9px' : '11px';
+  
   g.append('g')
     .selectAll('text')
     .data(clusters)
     .enter()
     .append('text')
     .attr('x', d => (xScale(d.id) || 0) + xScale.bandwidth() / 2)
-    .attr('y', -15)
+    .attr('y', -10)
     .attr('text-anchor', 'start')
     .attr('transform', d => {
       const x = (xScale(d.id) || 0) + xScale.bandwidth() / 2;
-      return `rotate(-65 ${x} -15)`;
+      return `rotate(-65 ${x} -10)`;
     })
-    .attr('font-size', '11px')
+    .attr('font-size', clusterLabelFontSize)
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
-    .text(d => d.name);
+    .text(d => {
+      const name = d.name;
+      // Truncate long cluster names on mobile
+      if (isMobile && name.length > 12) {
+        return name.substring(0, 11) + '…';
+      } else if (isTablet && name.length > 18) {
+        return name.substring(0, 17) + '…';
+      }
+      return name;
+    })
+    .append('title')
+    .text(d => d.name); // Full name in tooltip
 
   // Y axis labels (speakers)
+  const labelFontSize = isMobile ? '8px' : isTablet ? '9px' : '10px';
+  
   g.append('g')
     .selectAll('text')
     .data(matrix)
     .enter()
     .append('text')
-    .attr('x', -10)
+    .attr('x', -5)
     .attr('y', d => (yScale(d.speakerId || '') || 0) + yScale.bandwidth() / 2)
     .attr('text-anchor', 'end')
     .attr('dominant-baseline', 'middle')
-    .attr('font-size', '10px')
+    .attr('font-size', labelFontSize)
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
-    .text(d => d.speakerName || '');
+    .text(d => {
+      const name = d.speakerName || '';
+      // Truncate long names on mobile
+      if (isMobile && name.length > 10) {
+        return name.substring(0, 9) + '…';
+      } else if (isTablet && name.length > 15) {
+        return name.substring(0, 14) + '…';
+      }
+      return name;
+    })
+    .append('title')
+    .text(d => d.speakerName || ''); // Full name in tooltip
 
   // Legend
   const legendWidth = 200;
