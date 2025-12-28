@@ -14,18 +14,29 @@ A comprehensive tool suite for scraping, analyzing, and visualizing the [Freak S
 ### AI-Powered Analysis
 - ✅ LLM-based topic extraction from transcripts
 - ✅ Semantic embedding generation for topics
-- ✅ Hierarchical clustering (256 topic clusters → 12 categories)
+- ✅ Multiple clustering algorithms:
+  - **V1**: Hierarchical Agglomerative Clustering (HAC) with fixed clusters
+  - **V2**: HDBSCAN with automatic cluster detection
+- ✅ Dimensionality reduction (Random Projection for V2)
 - ✅ High-performance Rust implementation (10x faster than JavaScript)
-- ✅ Multiple clustering algorithms (weighted, ward, average, complete, single)
+- ✅ Variant system for comparing different clustering approaches
+- ✅ Multiple linkage methods (weighted, ward, average, complete, single)
+- ✅ LLM-based cluster naming with heuristic fallback
 
 ### Interactive Visualizations
-- ✅ **Topic River Chart**: Evolution of 256 topics over time
-- ✅ **Category River Chart**: High-level overview with 12 categories
+- ✅ **Variant Selector**: Switch between different clustering variants
+- ✅ **Topic River Chart**: Evolution of topics over time
+- ✅ **Category River Chart**: High-level overview (legacy)
 - ✅ **Speaker River Chart**: Speaker participation over time
 - ✅ **UMAP Scatter Plot**: 2D visualization of topic embeddings
-- ✅ **Heatmaps**: Speaker-topic, speaker-speaker, cluster relationships
+- ✅ **Heatmaps**: 
+  - Speaker × Cluster relationships
+  - Cluster × Cluster co-occurrence
+  - Speaker × Speaker co-occurrence (legacy)
 - ✅ **Duration Analysis**: Episode length patterns by year/day of week
+- ✅ **Variant Info Panel**: Displays details about the active clustering configuration
 - ✅ Multilingual interface (German, English, French)
+- ✅ Dark mode support with persistent settings
 
 ## Quick Start
 
@@ -155,33 +166,101 @@ npm run create-embeddings
 
 **Cost:** ~$2-3 (OpenAI text-embedding-3-large)
 
-#### 7. Cluster Topics (Choose one)
+#### 7. Cluster Topics with Variants
 
-**Option A: Rust (Recommended - 10x faster)**
-```bash
-./build-and-run.sh
+The project now supports multiple clustering variants with different algorithms and parameters. This allows you to experiment with different clustering approaches and compare results.
+
+**Available Clustering Methods:**
+
+- **V1 (Hierarchical Agglomerative Clustering)**: Traditional HAC with fixed number of clusters
+- **V2 (HDBSCAN)**: Density-based clustering with automatic cluster detection and dimensionality reduction
+
+**Configure Variants:**
+
+Edit `variants.json` to define different clustering configurations:
+
+```json
+{
+  "variants": {
+    "default-v1": {
+      "name": "Standard (V1, 256 Cluster)",
+      "version": "v1",
+      "settings": {
+        "clusters": 256,
+        "linkageMethod": "weighted"
+      }
+    },
+    "auto-v2": {
+      "name": "Automatisch (V2, HDBSCAN)",
+      "version": "v2",
+      "settings": {
+        "minClusterSize": 5,
+        "minSamples": 3,
+        "reducedDimensions": 50
+      }
+    }
+  }
+}
 ```
 
-**Option B: JavaScript**
+**Build a Variant:**
+
 ```bash
-npm run cluster-topics
+# Build with V1 (HAC) - 256 fixed clusters
+./build-variant.sh v1 default-v1
+
+# Build with V2 (HDBSCAN) - automatic cluster detection
+./build-variant.sh v2 auto-v2
+
+# Build with custom settings
+./build-variant.sh v1 coarse-v1   # 128 clusters
+./build-variant.sh v1 fine-v1     # 512 clusters
 ```
-
-**Output:** `topic-taxonomy.json` (256 clusters with names)
-
-**Time:** 
-- Rust: ~20-30 seconds + LLM naming (~2 minutes)
-- JavaScript: ~3-5 minutes + LLM naming (~2 minutes)
-
-**Cost:** ~$0.50 for LLM-based cluster naming
 
 **What it does:**
-1. Computes distance matrix from embeddings
-2. Performs hierarchical clustering to group similar topics
-3. Names clusters using LLM or heuristics
-4. Detects outliers
+1. Reads configuration from `variants.json`
+2. Creates temporary `settings.json` with variant-specific parameters
+3. Runs the appropriate clustering binary (V1 or V2)
+4. Generates all visualization data files
+5. Moves output to `frontend/public/topics/<variant-name>/`
+6. Updates `frontend/public/topics/manifest.json`
 
-#### 8. Create Category Groups
+**Output Structure:**
+```
+frontend/public/topics/
+├── manifest.json              # Available variants
+├── default-v1/               # V1 variant with 256 clusters
+│   ├── topic-taxonomy.json
+│   ├── topic-river-data.json
+│   ├── topic-umap-data.json
+│   ├── cluster-cluster-heatmap.json
+│   └── speaker-cluster-heatmap.json
+└── auto-v2/                  # V2 variant with auto-detected clusters
+    ├── topic-taxonomy.json
+    ├── topic-river-data.json
+    └── ...
+```
+
+**Comparing Variants:**
+
+The frontend allows you to switch between variants using a dropdown selector. All visualizations will automatically reload with the selected variant's data.
+
+**Time:** 
+- V1: ~20-30 seconds + LLM naming (~2 minutes)
+- V2: ~60-90 seconds (includes dimensionality reduction) + LLM naming (~2 minutes)
+
+**Cost:** ~$0.50 per variant for LLM-based cluster naming
+
+**Rebuild all variants:**
+```bash
+# Build all variants defined in variants.json
+for variant in default-v1 coarse-v1 fine-v1 auto-v2; do
+  version=$(jq -r ".variants.\"$variant\".version" variants.json)
+  ./build-variant.sh "$version" "$variant"
+done
+```
+
+#### 8. Create Category Groups (Legacy)
 Group 256 clusters into high-level categories:
 
 ```bash
@@ -279,35 +358,48 @@ npm run build
 
 ```
 freakshow/
-├── episodes/              # Scraped episode data (959 files)
-│   ├── 1.json            # Episode metadata
-│   ├── 1-ts.json         # Transcript
-│   ├── 1-sn.json         # Shownotes
-│   └── 1-text.html       # Description
+├── episodes/                 # Scraped episode data (959 files)
+│   ├── 1.json               # Episode metadata
+│   ├── 1-ts.json            # Transcript
+│   ├── 1-sn.json            # Shownotes
+│   └── 1-text.html          # Description
 │
-├── scrape.js             # Episode list scraper
-├── scrape-details.js     # Transcript/shownotes scraper
-├── scrape-osf.js         # Legacy shownotes scraper
+├── scrape.js                # Episode list scraper
+├── scrape-details.js        # Transcript/shownotes scraper
+├── scrape-osf.js            # Legacy shownotes scraper
 │
-├── extract-topics.js     # LLM topic extraction
-├── normalize-topics.js   # Topic cleanup
-├── create-embeddings.js  # Generate embeddings
+├── extract-topics.js        # LLM topic extraction
+├── normalize-topics.js      # Topic cleanup
+├── create-embeddings.js     # Generate embeddings
 │
-├── cluster-topics.js     # JavaScript clustering
-├── src/cluster_topics.rs # Rust clustering (10x faster)
-├── cluster-categories.js # Category grouping
+├── cluster-topics.js        # JavaScript clustering (legacy)
+├── src/
+│   ├── cluster_topics.rs    # V1 Rust clustering (HAC)
+│   └── cluster_topics_v2.rs # V2 Rust clustering (HDBSCAN)
+├── Cargo.toml               # Rust dependencies
 │
-├── generate-*.js         # Visualization data generators
+├── variants.json            # Variant configurations
+├── build-variant.sh         # Variant build script
 │
-├── frontend/             # Vue.js visualization app
+├── generate-*.js            # Visualization data generators
+│
+├── frontend/                # Vue.js visualization app
 │   ├── src/
-│   │   ├── views/        # Main view components
-│   │   ├── components/   # Reusable components
-│   │   └── i18n/         # Translations (de, en, fr)
-│   └── public/           # Static data files
+│   │   ├── views/           # Main view components
+│   │   ├── components/      # Reusable components
+│   │   ├── composables/     # Vue composables (variant handling)
+│   │   ├── stores/          # Pinia state management
+│   │   └── i18n/            # Translations (de, en, fr)
+│   └── public/
+│       ├── episodes/        # Episode data (copied)
+│       └── topics/          # Variant-specific data
+│           ├── manifest.json    # Available variants
+│           ├── default-v1/      # V1 variant data
+│           └── auto-v2/         # V2 variant data
 │
-├── settings.json         # Configuration (API keys, etc.)
-└── README.md            # This file
+├── settings.json            # Configuration (API keys, etc.)
+├── settings.example.json    # Example configuration
+└── README.md               # This file
 ```
 
 ## Configuration
@@ -364,14 +456,52 @@ Edit `settings.json` to configure your preferred LLM:
 
 ### Clustering Options
 
+**V1 (Hierarchical Agglomerative Clustering):**
 ```json
 {
-  "clustering": {
-    "numClusters": 256,           // Number of topic clusters
-    "linkageMethod": "weighted",   // weighted, ward, average, complete, single
-    "outlierThreshold": 0.15,      // Distance threshold for outlier detection
-    "useRelevanceWeighting": true  // Weight by episode frequency
-  },
+  "topicClustering": {
+    "embeddingModel": "text-embedding-3-large",
+    "embeddingBatchSize": 100,
+    "clusters": 256,
+    "outlierThreshold": 0.7,
+    "linkageMethod": "weighted",
+    "useRelevanceWeighting": true,
+    "useLLMNaming": true,
+    "model": "gpt-4o-mini"
+  }
+}
+```
+
+**V2 (HDBSCAN with Dimensionality Reduction):**
+```json
+{
+  "topicClustering": {
+    "embeddingModel": "text-embedding-3-large",
+    "embeddingBatchSize": 100,
+    "minClusterSize": 5,
+    "minSamples": 3,
+    "reducedDimensions": 50,
+    "outlierThreshold": 0.7,
+    "useRelevanceWeighting": true,
+    "useLLMNaming": true,
+    "model": "gpt-4o-mini"
+  }
+}
+```
+
+**Parameters:**
+- `clusters` (V1 only): Fixed number of clusters to create
+- `linkageMethod` (V1 only): Linkage method (weighted, ward, average, complete, single)
+- `minClusterSize` (V2 only): Minimum points to form a cluster
+- `minSamples` (V2 only): Core point threshold
+- `reducedDimensions` (V2 only): Target dimensions for Random Projection (50-100 recommended)
+- `outlierThreshold`: Distance threshold for outlier detection
+- `useRelevanceWeighting`: Weight topics by episode frequency
+- `useLLMNaming`: Use LLM for cluster naming (vs. heuristic)
+
+**Legacy Category Grouping:**
+```json
+{
   "categoryGrouping": {
     "categories": 12               // Number of high-level categories
   }
@@ -390,19 +520,24 @@ Edit `settings.json` to configure your preferred LLM:
 
 ### Analysis Results
 - `topic-embeddings.json` - Semantic embeddings for all topics (~500MB)
-- `topic-taxonomy.json` - 256 topic clusters with metadata
-- `topic-taxonomy-detailed.json` - Extended cluster information
-- `topic-categories.json` - 12 high-level categories
+- `topic-taxonomy.json` - Generated by variant builds (in variant folders)
+- `topic-taxonomy-detailed.json` - Extended cluster information (in variant folders)
+- `topic-categories.json` - 12 high-level categories (legacy)
 
-### Visualization Data
+### Visualization Data (per Variant)
+Located in `frontend/public/topics/<variant-name>/`:
+- `topic-taxonomy.json` - Cluster hierarchy for this variant
+- `topic-taxonomy-detailed.json` - Detailed topic-to-cluster mapping
 - `topic-river-data.json` - Topic evolution over time
+- `topic-umap-data.json` - 2D UMAP projection
+- `speaker-cluster-heatmap.json` - Speaker-cluster matrix
+- `cluster-cluster-heatmap.json` - Cluster co-occurrence matrix
+
+### Legacy Visualization Data
 - `category-river-data.json` - Category overview
 - `speaker-river-data.json` - Speaker participation
-- `topic-umap-data.json` - 2D UMAP projection
-- `speaker-category-heatmap.json` - Speaker-topic matrix
-- `speaker-cluster-heatmap.json` - Speaker-cluster matrix
-- `speaker-speaker-heatmap.json` - Speaker co-occurrence
-- `cluster-cluster-heatmap.json` - Cluster relationships
+- `speaker-category-heatmap.json` - Speaker-category matrix (obsolete)
+- `speaker-speaker-heatmap.json` - Speaker co-occurrence (obsolete)
 - `year-duration-heatmap.json` - Duration patterns by year
 - `dayofweek-duration-heatmap.json` - Duration patterns by weekday
 
@@ -420,20 +555,45 @@ Edit `settings.json` to configure your preferred LLM:
 
 ## Performance
 
+### Clustering Performance Comparison
+
+**V1 (Hierarchical Agglomerative Clustering):**
+
 | Operation | JavaScript | Rust | Speedup |
 |-----------|-----------|------|---------|
 | Distance Matrix (4500 topics) | ~20s | ~2s | 10x |
 | Clustering (→256 clusters) | ~180s | ~15s | 12x |
 | Total (excl. LLM) | ~3-5 min | ~20-30s | ~10x |
 
+**V2 (HDBSCAN with Dimensionality Reduction):**
+
+| Operation | Rust Only | Time |
+|-----------|-----------|------|
+| Random Projection (3072→50 dims) | ~5s | - |
+| Distance Matrix (4500 topics, 50 dims) | ~3s | - |
+| HDBSCAN Clustering | ~30s | - |
+| Merge Small Clusters | ~5s | - |
+| Total (excl. LLM) | ~60-90s | - |
+
+**Note:** V2 automatically detects the optimal number of clusters (typically 30-50) vs. V1's fixed 256 clusters.
+
 ## Documentation
 
-- `RUST-CLUSTERING.md` - Detailed Rust implementation guide
+### Clustering & Analysis
+- `RUST-CLUSTERING.md` - V1 Rust implementation guide (HAC)
+- `CLUSTERING-V2.md` - V2 HDBSCAN implementation guide
+- `VARIANTS-SYSTEM.md` - Variant system architecture
+- `VARIANTS-QUICKSTART.md` - Quick start guide for variants
+- `VARIANTS-COMPLETE.md` - Complete variant feature summary
+
+### Visualizations
 - `CATEGORY-RIVER-GUIDE.md` - Category grouping explanation
 - `RIVER-CHARTS-OVERVIEW.md` - Comparison of all chart types
 - `VISUAL-EXPLANATION.md` - Visual guide to the hierarchy
 - `DURATION-HEATMAPS.md` - Duration analysis documentation
 - `UMAP-FEATURE.md` - UMAP visualization guide
+
+### Frontend
 - `frontend/README.md` - Frontend-specific documentation
 
 ## Troubleshooting
@@ -494,8 +654,10 @@ npm run format
 This is a personal analysis project, but improvements are welcome! Focus areas:
 - Additional visualization types
 - Performance optimizations
+- New clustering algorithms (V3?)
 - Support for other podcast formats
-- Better clustering algorithms
+- Improved cluster quality metrics
+- Better dimensionality reduction techniques
 
 ## License
 
