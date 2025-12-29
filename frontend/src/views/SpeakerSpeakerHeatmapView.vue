@@ -194,6 +194,9 @@ const heatmapData = ref<HeatmapData | null>(null);
 const svgElement = ref<SVGSVGElement | null>(null);
 const heatmapContainer = ref<HTMLDivElement | null>(null);
 
+type HeatmapFocus = { type: 'row'; id: string } | { type: 'col'; id: string } | null;
+const activeHeatmapFocus = ref<HeatmapFocus>(null);
+
 const selectedCell = ref<{
   speaker1Name: string;
   speaker2Name: string;
@@ -361,10 +364,50 @@ function drawHeatmap() {
   const g = svg.append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
 
-  // Color scale
-  const maxCount = d3.max(matrix.flatMap(row => row.values.map(v => v.count))) || 0;
-  const colorScale = d3.scaleSequential(d3.interpolateBuGn)
-    .domain([0, maxCount]);
+  // Color scale + row/col hover normalization (in-place update, no redraw)
+  const allCounts = matrix.flatMap(row => row.values.map(v => v.count)).filter(c => c > 0);
+  const globalMin = d3.min(allCounts) ?? 0;
+  const globalMax = d3.max(allCounts) ?? 0;
+
+  function normalizeDomain(min: number, max: number): [number, number] {
+    if (!Number.isFinite(max) || max <= 0) return [0, 1];
+    if (!Number.isFinite(min) || min < 0) min = 0;
+    if (min === max) min = 0;
+    return [min, max];
+  }
+
+  const globalDomain = normalizeDomain(globalMin, globalMax);
+  let currentDomain: [number, number] = globalDomain;
+  let colorScale = d3.scaleSequential(d3.interpolateBuGn).domain(currentDomain);
+
+  function getEmptyCellColor() {
+    const isDark = document.documentElement.classList.contains('dark');
+    return isDark ? '#1f2937' : '#f0f0f0';
+  }
+
+  function getTextColorForCount(count: number): string {
+    const color = d3.rgb(colorScale(count));
+    const luminance = (0.299 * color.r + 0.587 * color.g + 0.114 * color.b) / 255;
+    return luminance > 0.5 ? '#1f2937' : 'white';
+  }
+
+  function getRowDomain(rowId: string): [number, number] {
+    const row = matrix.find(r => (r.speakerId || '') === rowId);
+    if (!row) return globalDomain;
+    const counts = row.values.map(v => v.count).filter(c => c > 0);
+    if (counts.length === 0) return globalDomain;
+    return normalizeDomain(d3.min(counts) ?? 0, d3.max(counts) ?? 0);
+  }
+
+  function getColDomain(colId: string): [number, number] {
+    const counts = matrix
+      .flatMap(r => r.values)
+      .filter(v => (v.speakerId || '') === colId)
+      .map(v => v.count)
+      .filter(c => c > 0);
+    if (counts.length === 0) return globalDomain;
+    return normalizeDomain(d3.min(counts) ?? 0, d3.max(counts) ?? 0);
+  }
 
   // X axis (speakers on x-axis)
   const xScale = d3.scaleBand()
@@ -393,16 +436,19 @@ function drawHeatmap() {
         .attr('class', 'cell-group')
         .style('cursor', value.count > 0 ? 'pointer' : 'default');
 
-      // Get empty cell color based on dark mode
-      const isDark = document.documentElement.classList.contains('dark');
-      const emptyCellColor = isDark ? '#1f2937' : '#f0f0f0'; // dark:bg-gray-800 or light gray
+      const rowId = row.speakerId || '';
+      const colId = value.speakerId || '';
 
       cellGroup.append('rect')
+        .attr('class', 'heatmap-cell')
+        .attr('data-row-id', rowId)
+        .attr('data-col-id', colId)
+        .attr('data-count', String(value.count))
         .attr('x', x)
         .attr('y', y)
         .attr('width', xScale.bandwidth())
         .attr('height', yScale.bandwidth())
-        .attr('fill', value.count > 0 ? colorScale(value.count) : emptyCellColor)
+        .attr('fill', value.count > 0 ? colorScale(value.count) : getEmptyCellColor())
         .attr('stroke', 'none')
         .attr('stroke-width', 0)
         .on('mouseover', function(event) {
@@ -436,8 +482,8 @@ function drawHeatmap() {
         })
         .on('mouseout', function() {
           d3.select(this)
-            .attr('stroke', '#fff')
-            .attr('stroke-width', 1);
+            .attr('stroke', 'none')
+            .attr('stroke-width', 0);
 
           // Remove tooltip
           d3.selectAll('.heatmap-tooltip').remove();
@@ -458,14 +504,13 @@ function drawHeatmap() {
 
       // Add text for non-zero values
       if (value.count > 0 && cellSize > 15) {
-        // Calculate luminance of the cell color to determine text color
-        const color = d3.rgb(colorScale(value.count));
-        const luminance = (0.299 * color.r + 0.587 * color.g + 0.114 * color.b) / 255;
-        
-        // Use dark text for light cells, white text for dark cells
-        const textColor = luminance > 0.5 ? '#1f2937' : 'white';
+        const textColor = getTextColorForCount(value.count);
         
         cellGroup.append('text')
+          .attr('class', 'heatmap-cell-text')
+          .attr('data-row-id', rowId)
+          .attr('data-col-id', colId)
+          .attr('data-count', String(value.count))
           .attr('x', x + xScale.bandwidth() / 2)
           .attr('y', y + yScale.bandwidth() / 2)
           .attr('text-anchor', 'middle')
@@ -481,7 +526,7 @@ function drawHeatmap() {
   // X axis labels (speakers on x-axis)
   const labelFontSize = isMobile ? '8px' : isTablet ? '9px' : '11px';
   
-  g.append('g')
+  const xLabels = g.append('g')
     .selectAll('text')
     .data(speakers2)
     .enter()
@@ -495,6 +540,7 @@ function drawHeatmap() {
     })
     .attr('font-size', labelFontSize)
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
+    .style('cursor', 'pointer')
     .text(d => {
       const name = d.name;
       if (isMobile && name.length > 10) {
@@ -503,14 +549,14 @@ function drawHeatmap() {
         return name.substring(0, 14) + '…';
       }
       return name;
-    })
-    .append('title')
-    .text(d => d.name);
+    });
+
+  xLabels.append('title').text(d => d.name);
 
   // Y axis labels (speakers on y-axis)
   const yLabelFontSize = isMobile ? '8px' : isTablet ? '9px' : '10px';
   
-  g.append('g')
+  const yLabels = g.append('g')
     .selectAll('text')
     .data(matrix)
     .enter()
@@ -521,6 +567,7 @@ function drawHeatmap() {
     .attr('dominant-baseline', 'middle')
     .attr('font-size', yLabelFontSize)
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
+    .style('cursor', 'pointer')
     .text(d => {
       const name = d.speaker1Name || d.speakerName || '';
       if (isMobile && name.length > 10) {
@@ -529,9 +576,9 @@ function drawHeatmap() {
         return name.substring(0, 14) + '…';
       }
       return name;
-    })
-    .append('title')
-    .text(d => d.speaker1Name || d.speakerName || '');
+    });
+
+  yLabels.append('title').text(d => d.speaker1Name || d.speakerName || '');
 
   // Legend
   const legendWidth = 200;
@@ -540,7 +587,7 @@ function drawHeatmap() {
     .attr('transform', `translate(${margin.left},${margin.top + height + 40})`);
 
   const legendScale = d3.scaleLinear()
-    .domain([0, maxCount])
+    .domain(currentDomain)
     .range([0, legendWidth]);
 
   const legendAxis = d3.axisBottom(legendScale)
@@ -549,22 +596,23 @@ function drawHeatmap() {
 
   // Create gradient
   const defs = svg.append('defs');
+  const gradientId = 'legend-gradient-speaker-speaker';
   const gradient = defs.append('linearGradient')
-    .attr('id', 'legend-gradient');
+    .attr('id', gradientId);
 
   gradient.selectAll('stop')
-    .data(d3.range(0, 1.1, 0.1))
+    .data(d3.range(0, 1.01, 0.1))
     .enter()
     .append('stop')
     .attr('offset', d => `${d * 100}%`)
-    .attr('stop-color', d => colorScale(d * maxCount));
+    .attr('stop-color', d => colorScale(currentDomain[0] + d * (currentDomain[1] - currentDomain[0])));
 
   legend.append('rect')
     .attr('width', legendWidth)
     .attr('height', legendHeight)
-    .style('fill', 'url(#legend-gradient)');
+    .style('fill', `url(#${gradientId})`);
 
-  legend.append('g')
+  const legendAxisG = legend.append('g')
     .attr('transform', `translate(0,${legendHeight})`)
     .call(legendAxis);
 
@@ -575,6 +623,94 @@ function drawHeatmap() {
     .attr('font-size', '12px')
     .attr('class', 'fill-gray-700 dark:fill-gray-300')
     .text('Anzahl Episoden');
+
+  function getDimmedCellColor() {
+    const isDark = document.documentElement.classList.contains('dark');
+    return isDark ? '#374151' : '#e5e7eb';
+  }
+
+  function applyDomain(domain: [number, number], focus: HeatmapFocus = null) {
+    currentDomain = normalizeDomain(domain[0], domain[1]);
+    colorScale = d3.scaleSequential(d3.interpolateBuGn).domain(currentDomain);
+
+    g.selectAll<SVGRectElement, unknown>('rect.heatmap-cell')
+      .attr('fill', function() {
+        const el = this as SVGRectElement;
+        const count = Number(el.getAttribute('data-count') || '0');
+        if (count <= 0) return getEmptyCellColor();
+        if (!focus) return colorScale(count);
+        const rowId = el.getAttribute('data-row-id') || '';
+        const colId = el.getAttribute('data-col-id') || '';
+        const isFocused = focus.type === 'row' ? rowId === focus.id : colId === focus.id;
+        return isFocused ? colorScale(count) : getDimmedCellColor();
+      });
+
+    g.selectAll<SVGTextElement, unknown>('text.heatmap-cell-text')
+      .attr('fill', function() {
+        const el = this as SVGTextElement;
+        const count = Number(el.getAttribute('data-count') || '0');
+        if (count <= 0) return getTextColorForCount(0);
+        if (!focus) return getTextColorForCount(count);
+        const rowId = el.getAttribute('data-row-id') || '';
+        const colId = el.getAttribute('data-col-id') || '';
+        const isFocused = focus.type === 'row' ? rowId === focus.id : colId === focus.id;
+        return isFocused ? getTextColorForCount(count) : '#6b7280';
+      })
+      .attr('opacity', function() {
+        const el = this as SVGTextElement;
+        const count = Number(el.getAttribute('data-count') || '0');
+        if (count <= 0) return 1;
+        if (!focus) return 1;
+        const rowId = el.getAttribute('data-row-id') || '';
+        const colId = el.getAttribute('data-col-id') || '';
+        const isFocused = focus.type === 'row' ? rowId === focus.id : colId === focus.id;
+        return isFocused ? 1 : 0.2;
+      });
+
+    if (focus?.type === 'row') {
+      yLabels.attr('opacity', d => ((d.speakerId || '') === focus.id ? 1 : 0.25));
+      xLabels.attr('opacity', 1);
+    } else if (focus?.type === 'col') {
+      xLabels.attr('opacity', d => (d.id === focus.id ? 1 : 0.25));
+      yLabels.attr('opacity', 1);
+    } else {
+      xLabels.attr('opacity', 1);
+      yLabels.attr('opacity', 1);
+    }
+
+    xLabels
+      .style('font-weight', d => (focus?.type === 'col' && d.id === focus.id ? '700' : '400'))
+      .style('text-decoration', d => (focus?.type === 'col' && d.id === focus.id ? 'underline' : null));
+    yLabels
+      .style('font-weight', d => (focus?.type === 'row' && (d.speakerId || '') === focus.id ? '700' : '400'))
+      .style('text-decoration', d => (focus?.type === 'row' && (d.speakerId || '') === focus.id ? 'underline' : null));
+
+    legendScale.domain(currentDomain);
+    legendAxisG.call(legendAxis);
+    gradient.selectAll('stop')
+      .attr('stop-color', d => colorScale(currentDomain[0] + (d as number) * (currentDomain[1] - currentDomain[0])));
+  }
+
+  // Click labels to select/deselect focus; focus persists across redraws
+  xLabels.on('click', (_event, d) => {
+    const current = activeHeatmapFocus.value;
+    const next: HeatmapFocus = current?.type === 'col' && current.id === d.id ? null : { type: 'col', id: d.id };
+    activeHeatmapFocus.value = next;
+    applyDomain(next ? getColDomain(next.id) : globalDomain, next);
+  });
+
+  yLabels.on('click', (_event, d) => {
+    const rowId = d.speakerId || '';
+    const current = activeHeatmapFocus.value;
+    const next: HeatmapFocus = current?.type === 'row' && current.id === rowId ? null : { type: 'row', id: rowId };
+    activeHeatmapFocus.value = next;
+    applyDomain(next ? getRowDomain(next.id) : globalDomain, next);
+  });
+
+  // Re-apply persisted focus (if any)
+  const persisted = activeHeatmapFocus.value;
+  if (persisted?.type === 'col') applyDomain(getColDomain(persisted.id), persisted);
+  else if (persisted?.type === 'row') applyDomain(getRowDomain(persisted.id), persisted);
 }
 
 // Load data on mount
