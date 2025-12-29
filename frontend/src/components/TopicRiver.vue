@@ -155,6 +155,60 @@ const formatTimespanSec = (sec: unknown) => {
   return `${seconds}s`;
 };
 
+let pulsingTopicKey: string | null = null;
+const stopPulse = () => {
+  pulsingTopicKey = null;
+  if (!svgRef.value) return;
+  // Stop any in-flight pulse transitions and remove the pulse stroke.
+  d3.select(svgRef.value)
+    .selectAll<SVGPathElement, any>('.stream')
+    .interrupt()
+    .attr('stroke', 'none');
+};
+
+const pulseOnce = (key: string) => {
+  if (!svgRef.value) return;
+  if (pulsingTopicKey !== key) return;
+  if (hoveredTopic.value !== key) return;
+
+  const stroke = settingsStore.isDarkMode ? 'rgba(255,255,255,0.75)' : 'rgba(0,0,0,0.45)';
+  const sel = d3
+    .select(svgRef.value)
+    .selectAll<SVGPathElement, any>('.stream')
+    .filter((d: any) => d?.key === key);
+
+  // Continuous pulse (loop) while legend hover stays active.
+  sel.interrupt();
+  sel.attr('stroke', stroke)
+    .attr('stroke-linejoin', 'round')
+    .attr('stroke-linecap', 'round')
+    .attr('stroke-width', 0)
+    .attr('stroke-opacity', 0)
+    .transition()
+    .duration(650)
+    .ease(d3.easeSinInOut)
+    .attr('stroke-width', 2.5)
+    .attr('stroke-opacity', 0.9)
+    .transition()
+    .delay(120)
+    .duration(850)
+    .ease(d3.easeSinInOut)
+    .attr('stroke-width', 0)
+    .attr('stroke-opacity', 0)
+    .on('end', () => {
+      if (pulsingTopicKey === key && hoveredTopic.value === key) pulseOnce(key);
+      else {
+        // Ensure cleanup if hover ended mid-loop.
+        d3.select(svgRef.value as any).selectAll('.stream').attr('stroke', 'none');
+      }
+    });
+};
+
+const startPulse = (key: string) => {
+  pulsingTopicKey = key;
+  pulseOnce(key);
+};
+
 // Erstelle das Stream Graph (Topic River)
 const drawRiver = () => {
   if (!svgRef.value || !containerRef.value) return;
@@ -178,6 +232,7 @@ const drawRiver = () => {
   const innerHeight = height - margin.top - margin.bottom;
   
   // Lösche vorherigen Inhalt
+  stopPulse();
   d3.select(svgRef.value).selectAll('*').remove();
   
   // No need to extend SVG width for legend anymore
@@ -230,6 +285,59 @@ const drawRiver = () => {
     // Important: curveBasis is an approximating spline and can visually distort values at exact years.
     // Use an interpolating curve so the thickness at each year matches the underlying data much better.
     .curve(d3.curveCatmullRom.alpha(0.5));
+
+  // Hover highlight band for the nearest year (behind the streams)
+  const year0 = Number.isFinite(years?.[0] as number) ? (years[0] as number) : 0;
+  const year1 =
+    years.length >= 2 && Number.isFinite(years?.[1] as number) ? (years[1] as number) : year0 + 1;
+  const yearStep = Math.max(1, xScale(year1) - xScale(year0));
+  const isDark = settingsStore.isDarkMode;
+  const borderColor =
+    themeColor === 'purple'
+      ? (isDark ? '#c4b5fd' : '#6d28d9') // violet-300 / violet-700
+      : (isDark ? '#93c5fd' : '#1d4ed8'); // blue-300 / blue-700
+  const yearHighlight = g.append('rect')
+    .attr('class', 'year-highlight')
+    .attr('y', 0)
+    .attr('height', innerHeight)
+    .attr('fill', themeColor === 'purple' ? '#7c3aed' : '#2563eb')
+    .attr('opacity', 0.08)
+    .style('pointer-events', 'none')
+    .style('display', 'none');
+  const yearHighlightLeft = g.append('rect')
+    .attr('class', 'year-highlight-border-left')
+    .attr('y', 0)
+    .attr('height', innerHeight)
+    .attr('width', 1)
+    .attr('fill', borderColor)
+    .attr('opacity', isDark ? 0.35 : 0.45)
+    .style('pointer-events', 'none')
+    .style('display', 'none');
+  const yearHighlightRight = g.append('rect')
+    .attr('class', 'year-highlight-border-right')
+    .attr('y', 0)
+    .attr('height', innerHeight)
+    .attr('width', 1)
+    .attr('fill', borderColor)
+    .attr('opacity', isDark ? 0.35 : 0.45)
+    .style('pointer-events', 'none')
+    .style('display', 'none');
+
+  const nearestYear = (targetYear: number): number => {
+    if (!Array.isArray(years) || years.length === 0) return targetYear;
+    let best: number = Number.isFinite(years?.[0] as number) ? (years[0] as number) : targetYear;
+    let bestDist = Math.abs(best - targetYear);
+    for (const yy of years as Array<number | undefined>) {
+      if (!Number.isFinite(yy as number)) continue;
+      const y = yy as number;
+      const d = Math.abs(y - targetYear);
+      if (d < bestDist) {
+        best = y;
+        bestDist = d;
+      }
+    }
+    return best;
+  };
   
   // Zeichne die Streams
   const streams = g.selectAll('.stream')
@@ -256,8 +364,22 @@ const drawRiver = () => {
       
       // Finde das nächste Jahr zum Mauszeiger
       const [mx] = d3.pointer(event);
-      const year = Math.round(xScale.invert(mx));
+      const yearRaw = Math.round(xScale.invert(mx));
+      const year = nearestYear(yearRaw);
       hoveredYear.value = year;
+
+      // Show year band highlight (even if there's no data for this topic/year)
+      const x0 = Math.max(0, Math.min(innerWidth - yearStep, xScale(year) - yearStep / 2));
+      yearHighlight
+        .attr('x', x0)
+        .attr('width', yearStep)
+        .style('display', null);
+      yearHighlightLeft
+        .attr('x', x0)
+        .style('display', null);
+      yearHighlightRight
+        .attr('x', x0 + Math.max(0, yearStep - 1))
+        .style('display', null);
       const topic = topics.find(t => t.id === d.key);
       
       if (topic) {
@@ -307,6 +429,9 @@ const drawRiver = () => {
         hoveredTopic.value = null;
       }
       hoveredYear.value = null;
+      yearHighlight.style('display', 'none');
+      yearHighlightLeft.style('display', 'none');
+      yearHighlightRight.style('display', 'none');
       if (tooltipRef.value) {
         tooltipRef.value.style.display = 'none';
       }
@@ -1031,8 +1156,8 @@ const closePlayer = () => {
             <div 
               v-for="topic in filteredLegendTopics" 
               :key="topic.id"
-              @mouseenter="hoveredTopic = topic.id"
-              @mouseleave="hoveredTopic = null"
+              @mouseenter="hoveredTopic = topic.id; startPulse(topic.id)"
+              @mouseleave="hoveredTopic = null; stopPulse()"
               @click="selectedTopic = selectedTopic === topic.id ? null : topic.id"
               class="flex items-start gap-2 p-2 rounded cursor-pointer transition-all hover:bg-gray-50 dark:hover:bg-gray-700"
               :class="{
