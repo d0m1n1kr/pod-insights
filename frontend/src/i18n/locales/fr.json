@@ -96,6 +96,17 @@
           "threshold": "Détermination dynamique du seuil",
           "naming": "Nommage automatique des clusters"
         }
+      },
+      "rag": {
+        "title": "Backend de recherche RAG",
+        "badge": "Recherche IA",
+        "description": "Recherche sémantique dans les transcriptions avec sources citées et lecture à l’horodatage.",
+        "features": {
+          "retrieval": "Recherche vectorielle sur des segments de transcription",
+          "citations": "Réponses avec sources (épisode + fenêtre temporelle + extrait)",
+          "playback": "Lecture audio en un clic depuis les horodatages cités",
+          "auth": "Jeton d’authentification optionnel pour backends protégés"
+        }
       }
     },
     "tools": {
@@ -107,8 +118,15 @@
         "features": {
           "sonnet": "Claude Sonnet 4.5 - Génération de code rapide et refactoring",
           "opus": "Claude Opus 4.5 - Résolution de problèmes complexes et décisions d'architecture",
+          "gpt52": "GPT-5.2 - Génération de code avancée et raisonnement",
           "pair": "Programmation en binôme avec IA pour développement efficace"
         }
+      }
+    },
+    "developers": {
+      "title": "Développeurs",
+      "items": {
+        "dominik": "Dominik Rössler — Prompter"
       }
     },
     "pipeline": {
@@ -165,6 +183,30 @@
       "storage": {
         "title": "LocalStorage",
         "description": "Les paramètres persistent entre les sessions"
+      },
+      "variants": {
+        "title": "Sélecteur de variantes",
+        "description": "Basculer entre variantes de clustering et comparer les résultats"
+      },
+      "search": {
+        "title": "Recherche IA",
+        "description": "Poser des questions et obtenir des réponses avec sources de transcription citées"
+      },
+      "umap": {
+        "title": "Vue UMAP",
+        "description": "Projection 2D des embeddings de sujets pour l’exploration"
+      },
+      "heatmaps": {
+        "title": "Cartes thermiques",
+        "description": "Explorer des relations comme Intervenant×Cluster et Cluster×Cluster"
+      },
+      "darkMode": {
+        "title": "Mode sombre",
+        "description": "Choix du thème avec réglages automatiques et persistants"
+      },
+      "multilingual": {
+        "title": "Interface multilingue",
+        "description": "Interface en allemand, anglais et français"
       }
     },
     "footer": {

@@ -96,6 +96,17 @@
           "threshold": "Dynamic threshold determination",
           "naming": "Automatic cluster naming"
         }
+      },
+      "rag": {
+        "title": "RAG Search Backend",
+        "badge": "AI Search",
+        "description": "Semantic search across transcripts with cited sources and jump-to-time playback.",
+        "features": {
+          "retrieval": "Vector retrieval over transcript chunks",
+          "citations": "Answers include sources (episode + time window + excerpt)",
+          "playback": "One-click audio playback from cited timestamps",
+          "auth": "Optional auth token for protected backends"
+        }
       }
     },
     "tools": {
@@ -107,8 +118,15 @@
         "features": {
           "sonnet": "Claude Sonnet 4.5 - Fast code generation and refactoring",
           "opus": "Claude Opus 4.5 - Complex problem solving and architecture decisions",
+          "gpt52": "GPT-5.2 - Advanced code generation and reasoning",
           "pair": "AI-Pair-Programming for efficient development"
         }
+      }
+    },
+    "developers": {
+      "title": "Developers",
+      "items": {
+        "dominik": "Dominik Rössler — Prompter"
       }
     },
     "pipeline": {
@@ -165,6 +183,30 @@
       "storage": {
         "title": "LocalStorage",
         "description": "Settings persist across sessions"
+      },
+      "variants": {
+        "title": "Variant Selector",
+        "description": "Switch between different clustering variants and compare results"
+      },
+      "search": {
+        "title": "AI Search",
+        "description": "Ask questions and get answers with cited transcript sources"
+      },
+      "umap": {
+        "title": "UMAP View",
+        "description": "2D projection of topic embeddings for exploration"
+      },
+      "heatmaps": {
+        "title": "Heatmaps",
+        "description": "Explore relationships like Speaker×Cluster and Cluster×Cluster"
+      },
+      "darkMode": {
+        "title": "Dark Mode",
+        "description": "Theme toggle with automatic and persistent settings"
+      },
+      "multilingual": {
+        "title": "Multilingual UI",
+        "description": "German, English, and French interface"
       }
     },
     "footer": {

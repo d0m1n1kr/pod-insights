@@ -96,6 +96,17 @@
           "threshold": "Dynamische Schwellwert-Bestimmung",
           "naming": "Automatische Cluster-Benennung"
         }
+      },
+      "rag": {
+        "title": "RAG-Such-Backend",
+        "badge": "KI-Suche",
+        "description": "Semantische Suche über Transkripte mit Quellenangaben und Wiedergabe ab Zeitstempel.",
+        "features": {
+          "retrieval": "Vektor-Retrieval über Transkript-Abschnitte",
+          "citations": "Antworten inkl. Quellen (Episode + Zeitfenster + Auszug)",
+          "playback": "Audio-Wiedergabe per Klick ab zitierten Zeitmarken",
+          "auth": "Optionaler Auth-Token für geschützte Backends"
+        }
       }
     },
     "tools": {
@@ -107,8 +118,15 @@
         "features": {
           "sonnet": "Claude Sonnet 4.5 - Schnelle Code-Generierung und Refactoring",
           "opus": "Claude Opus 4.5 - Komplexe Problemlösung und Architektur-Entscheidungen",
+          "gpt52": "GPT-5.2 - Fortschrittliche Code-Generierung und Reasoning",
           "pair": "AI-Pair-Programming für effiziente Entwicklung"
         }
+      }
+    },
+    "developers": {
+      "title": "Entwickler",
+      "items": {
+        "dominik": "Dominik Rössler — Prompter"
       }
     },
     "pipeline": {
@@ -165,6 +183,30 @@
       "storage": {
         "title": "LocalStorage",
         "description": "Einstellungen bleiben über Sitzungen erhalten"
+      },
+      "variants": {
+        "title": "Varianten-Auswahl",
+        "description": "Zwischen Clustering-Varianten wechseln und Ergebnisse vergleichen"
+      },
+      "search": {
+        "title": "KI-Suche",
+        "description": "Fragen stellen und Antworten mit zitierten Transkript-Quellen erhalten"
+      },
+      "umap": {
+        "title": "UMAP-Ansicht",
+        "description": "2D-Projektion der Topic-Embeddings zum Erkunden"
+      },
+      "heatmaps": {
+        "title": "Heatmaps",
+        "description": "Beziehungen wie Sprecher×Cluster und Cluster×Cluster erkunden"
+      },
+      "darkMode": {
+        "title": "Dark Mode",
+        "description": "Theme-Umschaltung mit automatischen und persistenten Einstellungen"
+      },
+      "multilingual": {
+        "title": "Mehrsprachige UI",
+        "description": "Oberfläche auf Deutsch, Englisch und Französisch"
       }
     },
     "footer": {

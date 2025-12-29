@@ -134,6 +134,22 @@ const { t } = useI18n();
               <li>{{ t('about.ai.clustering.features.naming') }}</li>
             </ul>
           </div>
+
+          <div class="p-5 bg-gradient-to-r from-teal-50 to-cyan-50 dark:from-teal-900/20 dark:to-cyan-900/20 rounded-lg border border-teal-200 dark:border-teal-700">
+            <h4 class="font-semibold text-teal-900 dark:text-teal-100 mb-2 flex items-center gap-2">
+              <span>{{ t('about.ai.rag.title') }}</span>
+              <span class="text-xs bg-teal-200 dark:bg-teal-800 text-teal-800 dark:text-teal-200 px-2 py-0.5 rounded-full">{{ t('about.ai.rag.badge') }}</span>
+            </h4>
+            <p class="text-sm text-gray-700 dark:text-gray-300 mb-2">
+              {{ t('about.ai.rag.description') }}
+            </p>
+            <ul class="text-xs text-gray-600 dark:text-gray-400 list-disc list-inside space-y-1">
+              <li>{{ t('about.ai.rag.features.retrieval') }}</li>
+              <li>{{ t('about.ai.rag.features.citations') }}</li>
+              <li>{{ t('about.ai.rag.features.playback') }}</li>
+              <li>{{ t('about.ai.rag.features.auth') }}</li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -152,6 +168,7 @@ const { t } = useI18n();
             <ul class="text-xs text-gray-600 dark:text-gray-400 list-disc list-inside space-y-1">
               <li>{{ t('about.tools.cursor.features.sonnet') }}</li>
               <li>{{ t('about.tools.cursor.features.opus') }}</li>
+              <li>{{ t('about.tools.cursor.features.gpt52') }}</li>
               <li>{{ t('about.tools.cursor.features.pair') }}</li>
             </ul>
           </div>
@@ -255,7 +272,57 @@ const { t } = useI18n();
               <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.storage.description') }}</p>
             </div>
           </div>
+          <div class="flex items-start gap-3 p-3 bg-gray-50 dark:bg-gray-900/50 rounded-lg">
+            <span class="text-2xl">🧩</span>
+            <div>
+              <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm">{{ t('about.features.variants.title') }}</h5>
+              <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.variants.description') }}</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-3 bg-gray-50 dark:bg-gray-900/50 rounded-lg">
+            <span class="text-2xl">🧠</span>
+            <div>
+              <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm">{{ t('about.features.search.title') }}</h5>
+              <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.search.description') }}</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-3 bg-gray-50 dark:bg-gray-900/50 rounded-lg">
+            <span class="text-2xl">🗺️</span>
+            <div>
+              <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm">{{ t('about.features.umap.title') }}</h5>
+              <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.umap.description') }}</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-3 bg-gray-50 dark:bg-gray-900/50 rounded-lg">
+            <span class="text-2xl">🔥</span>
+            <div>
+              <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm">{{ t('about.features.heatmaps.title') }}</h5>
+              <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.heatmaps.description') }}</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-3 bg-gray-50 dark:bg-gray-900/50 rounded-lg">
+            <span class="text-2xl">🌙</span>
+            <div>
+              <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm">{{ t('about.features.darkMode.title') }}</h5>
+              <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.darkMode.description') }}</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-3 bg-gray-50 dark:bg-gray-900/50 rounded-lg">
+            <span class="text-2xl">🌍</span>
+            <div>
+              <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm">{{ t('about.features.multilingual.title') }}</h5>
+              <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.multilingual.description') }}</p>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <!-- Developers -->
+      <section>
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">👨‍💻 {{ t('about.developers.title') }}</h3>
+        <ul class="text-sm text-gray-700 dark:text-gray-300 list-disc list-inside space-y-1">
+          <li>{{ t('about.developers.items.dominik') }}</li>
+        </ul>
       </section>
 
       <!-- Open Source -->
