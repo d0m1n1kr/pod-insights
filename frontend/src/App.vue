@@ -78,9 +78,14 @@ const submitSearch = async () => {
               />
             </a>
             <div>
-              <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
-                {{ t('app.title') }}
-              </h1>
+              <div class="flex items-center gap-2 flex-wrap">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+                  {{ t('app.title') }}
+                </h1>
+                <span class="text-sm sm:text-base px-2 py-1 rounded-md bg-gradient-to-r from-purple-500 to-blue-500 text-white font-bold uppercase tracking-wider shadow-md">
+                  {{ t('app.titleBadge') }}
+                </span>
+              </div>
               <p class="text-sm sm:text-base text-gray-600 dark:text-gray-400 mt-1 md:mt-2">
                 {{ t('app.subtitle') }}
               </p>
@@ -195,13 +200,16 @@ const submitSearch = async () => {
             <router-link
               to="/search"
               :class="[
-                'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap',
+                'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap inline-flex items-center gap-1.5',
                 activeView === 'search' 
                   ? 'border-blue-500 text-blue-600 dark:text-blue-400' 
                   : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
               ]"
             >
               {{ t('nav.search') }}
+              <span class="text-[10px] px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold uppercase tracking-wider">
+                beta
+              </span>
             </router-link>
             <!-- Temporarily hidden UMAP tab
             <router-link

@@ -148,6 +148,9 @@ const { t } = useI18n();
               <li>{{ t('about.ai.rag.features.citations') }}</li>
               <li>{{ t('about.ai.rag.features.playback') }}</li>
               <li>{{ t('about.ai.rag.features.auth') }}</li>
+              <li>{{ t('about.ai.rag.features.personas') }}</li>
+              <li>{{ t('about.ai.rag.features.discussion') }}</li>
+              <li>{{ t('about.ai.rag.features.markdown') }}</li>
             </ul>
           </div>
         </div>
@@ -284,6 +287,36 @@ const { t } = useI18n();
             <div>
               <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm">{{ t('about.features.search.title') }}</h5>
               <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.search.description') }}</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-3 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/30 dark:to-pink-900/30 rounded-lg border border-purple-200 dark:border-purple-700">
+            <span class="text-2xl">🎭</span>
+            <div>
+              <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm flex items-center gap-1.5">
+                {{ t('about.features.personas.title') }}
+                <span class="text-[10px] px-1.5 py-0.5 rounded bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 font-bold uppercase">new</span>
+              </h5>
+              <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.personas.description') }}</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-3 bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/30 dark:to-cyan-900/30 rounded-lg border border-blue-200 dark:border-blue-700">
+            <span class="text-2xl">💬</span>
+            <div>
+              <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm flex items-center gap-1.5">
+                {{ t('about.features.discussion.title') }}
+                <span class="text-[10px] px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold uppercase">new</span>
+              </h5>
+              <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.discussion.description') }}</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-3 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/30 dark:to-emerald-900/30 rounded-lg border border-green-200 dark:border-green-700">
+            <span class="text-2xl">📝</span>
+            <div>
+              <h5 class="font-semibold text-gray-900 dark:text-gray-100 text-sm flex items-center gap-1.5">
+                {{ t('about.features.markdown.title') }}
+                <span class="text-[10px] px-1.5 py-0.5 rounded bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 font-bold uppercase">new</span>
+              </h5>
+              <p class="text-xs text-gray-600 dark:text-gray-400">{{ t('about.features.markdown.description') }}</p>
             </div>
           </div>
           <div class="flex items-start gap-3 p-3 bg-gray-50 dark:bg-gray-900/50 rounded-lg">

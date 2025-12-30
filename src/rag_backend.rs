@@ -366,6 +366,8 @@ struct ChatRequest {
     top_k: Option<usize>,
     #[serde(default)]
     speaker_slug: Option<String>,
+    #[serde(default)]
+    speaker_slug2: Option<String>,
 }
 
 #[derive(Debug, Serialize)]
@@ -431,9 +433,23 @@ async fn chat_impl(st: &AppState, req: ChatRequest) -> Result<ChatResponse> {
     } else {
         None
     };
+    
+    // Get second speaker name from slug if requested (discussion mode)
+    let speaker2_name = if let Some(slug) = req.speaker_slug2.as_ref() {
+        get_speaker_name_from_slug(&st.cfg.speakers_dir, slug).ok()
+    } else {
+        None
+    };
 
     // Load speaker profile if requested
     let speaker_profile = if let Some(slug) = req.speaker_slug.as_ref() {
+        load_speaker_profile(&st.cfg.speakers_dir, slug).ok()
+    } else {
+        None
+    };
+    
+    // Load second speaker profile if requested (discussion mode)
+    let speaker2_profile = if let Some(slug) = req.speaker_slug2.as_ref() {
         load_speaker_profile(&st.cfg.speakers_dir, slug).ok()
     } else {
         None
@@ -515,7 +531,15 @@ async fn chat_impl(st: &AppState, req: ChatRequest) -> Result<ChatResponse> {
     }
 
     // 3) Ask LLM
-    let answer = llm_answer(st, query, &context, speaker_profile.as_deref()).await?;
+    let answer = llm_answer(
+        st, 
+        query, 
+        &context, 
+        speaker_profile.as_deref(),
+        speaker2_profile.as_deref(),
+        speaker_name.as_deref(),
+        speaker2_name.as_deref(),
+    ).await?;
 
     Ok(ChatResponse { answer, sources })
 }
@@ -888,7 +912,15 @@ async fn embed_query(st: &AppState, query: &str) -> Result<Vec<f32>> {
     Ok(v)
 }
 
-async fn llm_answer(st: &AppState, query: &str, context: &str, speaker_profile: Option<&str>) -> Result<String> {
+async fn llm_answer(
+    st: &AppState, 
+    query: &str, 
+    context: &str, 
+    speaker_profile: Option<&str>,
+    speaker2_profile: Option<&str>,
+    speaker_name: Option<&str>,
+    speaker2_name: Option<&str>,
+) -> Result<String> {
     #[derive(Serialize)]
     struct ChatReq<'a> {
         model: &'a str,
@@ -914,8 +946,39 @@ async fn llm_answer(st: &AppState, query: &str, context: &str, speaker_profile: 
         content: String,
     }
 
-    let (system, user_prompt) = if let Some(profile) = speaker_profile {
-        // Speaker persona mode
+    let (system, user_prompt) = if let (Some(profile1), Some(profile2), Some(name1), Some(name2)) = 
+        (speaker_profile, speaker2_profile, speaker_name, speaker2_name) {
+        // Discussion/debate mode with two speakers
+        let system = format!(
+            "You are orchestrating a DISCUSSION/DEBATE between two people with the following profiles. \
+            Answer the user's question by creating a natural dialogue between these two speakers, \
+            where they discuss, debate, or even argue about the topic based ONLY on the provided SOURCES.\n\n\
+            SPEAKER 1 ({}):\n{}\n\n\
+            SPEAKER 2 ({}):\n{}\n\n\
+            IMPORTANT:\n\
+            - Create a natural back-and-forth discussion or debate between the two speakers\n\
+            - Each speaker should stay in character with their unique personality, vocabulary, and style\n\
+            - They should present different perspectives, challenge each other, or build on each other's points\n\
+            - Format the response as a dialogue with clear speaker labels (e.g., '{}: <text>' and '{}: <text>')\n\
+            - Use only information from the SOURCES provided\n\
+            - Include citations inline like: (Episode 281, 12:38-17:19)\n\
+            - If sources don't contain enough information, have the speakers acknowledge this in character\n\
+            - Make it feel like a real conversation with interruptions, agreements, disagreements, humor, etc.\n\
+            - Answer in German unless the user asks otherwise",
+            name1, profile1, name2, profile2, name1, name2
+        );
+        
+        let user_prompt = format!(
+            "QUESTION:\n{}\n\nSOURCES:\n{}\n\n\
+            Remember: Create a discussion/debate between {} and {} about this question. \
+            Make them each bring their unique perspective and personality to the conversation. \
+            Use only information from the sources.",
+            query, context, name1, name2
+        );
+        
+        (system, user_prompt)
+    } else if let Some(profile) = speaker_profile {
+        // Single speaker persona mode
         let system = format!(
             "You are roleplaying as a fictional person described in the following speaker profile. \
             Answer the user's question using ONLY the provided SOURCES (transcript excerpts), \

@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Visualisation Freak Show",
+    "title": "Freak Show",
+    "titleBadge": "AI",
     "subtitle": "Visualisation de l'évolution des sujets et des intervenants au fil des années"
   },
   "theme": {
@@ -19,14 +20,15 @@
     "speakerSpeaker": "Intervenants × Intervenants",
     "duration": "Durée",
     "umap": "UMAP",
-    "search": "Recherche",
+    "search": "DlFS",
+    "searchBeta": "DlFS (beta)",
     "about": "À propos"
   },
   "search": {
-    "title": "Recherche",
+    "title": "Demande le Freak Show",
     "queryLabel": "Requête :",
     "placeholder": "Entrer une question...",
-    "button": "Rechercher",
+    "button": "Go",
     "buttonSearching": "Recherche...",
     "empty": "Saisissez une requête de recherche.",
     "loading": "Recherche…",
@@ -45,6 +47,12 @@
     "profileLimited": "Profil limité - les réponses peuvent être moins personnalisées. Exécuter :",
     "profileGenerate": "node generate-speaker-profiles.js --speaker \"{speaker}\"",
     "speakerLoadError": "Échec du chargement des profils d'intervenants : {error}",
+    "discussionMode": {
+      "none": "Pas de mode discussion (une seule personne)",
+      "selectSecond": "Deuxième partenaire de discussion",
+      "active": "💬 Mode discussion actif : {speaker1} vs {speaker2}",
+      "discussion": "Discussion"
+    },
     "authToken": {
       "prompt": "Saisissez le jeton d'authentification pour la recherche (stocké localement) :",
       "required": "La recherche nécessite un jeton d'authentification."
@@ -56,7 +64,7 @@
     }
   },
   "about": {
-    "title": "À propos de cette visualisation",
+    "title": "À propos du projet",
     "subtitle": "Technologies et outils derrière la visualisation River de Freak Show",
     "freakshow": {
       "title": "Freak Show",
@@ -64,7 +72,7 @@
     },
     "projectDescription": {
       "title": "Description du projet",
-      "content": "Cette visualisation interactive analyse et visualise les sujets et intervenants du podcast Freak Show au fil des années. Grâce à l'analyse de texte assistée par IA et aux algorithmes de clustering, les sujets sont regroupés et leur évolution temporelle est affichée dans des diagrammes en rivière."
+      "content": "Cette application IA interactive analyse et visualise les sujets et intervenants du podcast Freak Show au fil des années. Grâce à l'analyse de texte assistée par IA, la recherche sémantique et aux algorithmes de clustering, les sujets sont regroupés et leur évolution temporelle est affichée dans des diagrammes en rivière. Avec les personas d'intervenants et le mode discussion, les questions peuvent être répondues dans le style des animateurs du podcast. Le projet a été développé au 39C3."
     },
     "frontend": {
       "title": "Technologies Frontend",
@@ -86,7 +94,7 @@
     "ai": {
       "title": "IA & Machine Learning",
       "embedding": {
-        "title": "OpenAI text-embedding-3-small",
+        "title": "OpenAI text-embedding-3-large",
         "badge": "Modèle d'embedding",
         "description": "Génération d'embeddings sémantiques pour tous les sujets du podcast. Permet un clustering basé sur le sens plutôt que sur les mots-clés uniquement.",
         "features": {
@@ -108,12 +116,15 @@
       "rag": {
         "title": "Backend de recherche RAG",
         "badge": "Recherche IA",
-        "description": "Recherche sémantique dans les transcriptions avec sources citées et lecture à l’horodatage.",
+        "description": "Recherche sémantique dans les transcriptions avec sources citées et lecture à l'horodatage. Utilise OpenAI GPT-4o-mini pour la génération de réponses.",
         "features": {
           "retrieval": "Recherche vectorielle sur des segments de transcription",
           "citations": "Réponses avec sources (épisode + fenêtre temporelle + extrait)",
           "playback": "Lecture audio en un clic depuis les horodatages cités",
-          "auth": "Jeton d’authentification optionnel pour backends protégés"
+          "auth": "Jeton d'authentification optionnel pour backends protégés",
+          "personas": "Personas d'intervenants pour réponses personnalisées",
+          "discussion": "Mode discussion avec deux intervenants",
+          "markdown": "Rendu Markdown pour un meilleur formatage"
         }
       }
     },
@@ -199,6 +210,18 @@
       "search": {
         "title": "Recherche IA",
         "description": "Poser des questions et obtenir des réponses avec sources de transcription citées"
+      },
+      "personas": {
+        "title": "Personas d'intervenants",
+        "description": "Réponses dans le style de différents intervenants avec personnalités individuelles"
+      },
+      "discussion": {
+        "title": "Mode discussion",
+        "description": "Deux intervenants discutent et débattent d'un sujet basé sur des sources"
+      },
+      "markdown": {
+        "title": "Rendu Markdown",
+        "description": "Réponses formatées avec titres, listes, code et emphases"
       },
       "umap": {
         "title": "Vue UMAP",

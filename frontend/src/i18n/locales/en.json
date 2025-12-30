@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Freak Show Visualization",
+    "title": "Freak Show",
+    "titleBadge": "AI",
     "subtitle": "Visualization of topic and speaker development over the years"
   },
   "theme": {
@@ -19,14 +20,15 @@
     "speakerSpeaker": "Speakers × Speakers",
     "duration": "Duration",
     "umap": "UMAP",
-    "search": "Search",
+    "search": "AtFS",
+    "searchBeta": "AtFS (beta)",
     "about": "About"
   },
   "search": {
-    "title": "Search",
+    "title": "Ask the Freak Show",
     "queryLabel": "Query:",
     "placeholder": "Enter question...",
-    "button": "Search",
+    "button": "Go",
     "buttonSearching": "Searching...",
     "empty": "Enter a search query.",
     "loading": "Searching…",
@@ -45,6 +47,12 @@
     "profileLimited": "Limited profile - answers may be less personalized. Run:",
     "profileGenerate": "node generate-speaker-profiles.js --speaker \"{speaker}\"",
     "speakerLoadError": "Failed to load speaker profiles: {error}",
+    "discussionMode": {
+      "none": "No discussion mode (single person)",
+      "selectSecond": "Second discussion partner",
+      "active": "💬 Discussion mode active: {speaker1} vs {speaker2}",
+      "discussion": "Discussion"
+    },
     "authToken": {
       "prompt": "Enter auth token for search (will be stored locally):",
       "required": "Search requires an auth token."
@@ -56,7 +64,7 @@
     }
   },
   "about": {
-    "title": "About this Visualization",
+    "title": "About this Project",
     "subtitle": "Technologies and tools behind the Freak Show River Visualization",
     "freakshow": {
       "title": "Freak Show",
@@ -64,7 +72,7 @@
     },
     "projectDescription": {
       "title": "Project Description",
-      "content": "This interactive visualization analyzes and visualizes the topics and speakers of the Freak Show Podcast over the years. Using AI-powered text analysis and clustering algorithms, topics are grouped and their temporal development is displayed in river diagrams."
+      "content": "This interactive AI application analyzes and visualizes the topics and speakers of the Freak Show Podcast over the years. Using AI-powered text analysis, semantic search, and clustering algorithms, topics are grouped and their temporal development is displayed in river diagrams. With speaker personas and discussion mode, questions can be answered in the style of the podcast hosts. The project was developed at 39C3."
     },
     "frontend": {
       "title": "Frontend Technologies",
@@ -86,7 +94,7 @@
     "ai": {
       "title": "AI & Machine Learning",
       "embedding": {
-        "title": "OpenAI text-embedding-3-small",
+        "title": "OpenAI text-embedding-3-large",
         "badge": "Embedding Model",
         "description": "Generation of semantic embeddings for all podcast topics. Enables meaning-based clustering instead of just keyword matching.",
         "features": {
@@ -108,12 +116,15 @@
       "rag": {
         "title": "RAG Search Backend",
         "badge": "AI Search",
-        "description": "Semantic search across transcripts with cited sources and jump-to-time playback.",
+        "description": "Semantic search across transcripts with cited sources and jump-to-time playback. Uses OpenAI GPT-4o-mini for answer generation.",
         "features": {
           "retrieval": "Vector retrieval over transcript chunks",
           "citations": "Answers include sources (episode + time window + excerpt)",
           "playback": "One-click audio playback from cited timestamps",
-          "auth": "Optional auth token for protected backends"
+          "auth": "Optional auth token for protected backends",
+          "personas": "Speaker personas for personalized answers",
+          "discussion": "Discussion mode with two speakers",
+          "markdown": "Markdown rendering for better formatting"
         }
       }
     },
@@ -199,6 +210,18 @@
       "search": {
         "title": "AI Search",
         "description": "Ask questions and get answers with cited transcript sources"
+      },
+      "personas": {
+        "title": "Speaker Personas",
+        "description": "Answers in the style of different speakers with individual personalities"
+      },
+      "discussion": {
+        "title": "Discussion Mode",
+        "description": "Two speakers discuss and debate a topic based on sources"
+      },
+      "markdown": {
+        "title": "Markdown Rendering",
+        "description": "Formatted answers with headings, lists, code, and emphasis"
       },
       "umap": {
         "title": "UMAP View",

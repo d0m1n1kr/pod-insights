@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Freak Show Visualisierung",
+    "title": "Freak Show",
+    "titleBadge": "AI",
     "subtitle": "Visualisierung der Themen- und Sprecher-Entwicklung über die Jahre"
   },
   "theme": {
@@ -19,14 +20,15 @@
     "speakerSpeaker": "Sprecher × Sprecher",
     "duration": "Duration",
     "umap": "UMAP",
-    "search": "Suche",
+    "search": "FdFS",
+    "searchBeta": "FdFS (beta)",
     "about": "Über"
   },
   "search": {
-    "title": "Suche",
+    "title": "Frag die Freak Show",
     "queryLabel": "Query:",
     "placeholder": "Frage eingeben...",
-    "button": "Suchen",
+    "button": "Los",
     "buttonSearching": "Suche...",
     "empty": "Gib eine Suchanfrage ein.",
     "loading": "Suche…",
@@ -45,6 +47,12 @@
     "profileLimited": "Eingeschränktes Profil - Antworten sind möglicherweise weniger personalisiert. Führe aus:",
     "profileGenerate": "node generate-speaker-profiles.js --speaker \"{speaker}\"",
     "speakerLoadError": "Fehler beim Laden der Sprecher-Profile: {error}",
+    "discussionMode": {
+      "none": "Kein Diskussionsmodus (Einzelperson)",
+      "selectSecond": "Zweiter Diskussionspartner",
+      "active": "💬 Diskussionsmodus aktiv: {speaker1} vs {speaker2}",
+      "discussion": "Diskussion"
+    },
     "authToken": {
       "prompt": "Auth-Token für die Suche eingeben (wird lokal gespeichert):",
       "required": "Für die Suche wird ein Auth-Token benötigt."
@@ -56,7 +64,7 @@
     }
   },
   "about": {
-    "title": "Über diese Visualisierung",
+    "title": "Über das Projekt",
     "subtitle": "Technologien und Werkzeuge hinter der Freak Show River Visualisierung",
     "freakshow": {
       "title": "Freak Show",
@@ -64,7 +72,7 @@
     },
     "projectDescription": {
       "title": "Projekt-Beschreibung",
-      "content": "Diese interaktive Visualisierung analysiert und visualisiert die Themen und Sprecher des Freak Show Podcasts über die Jahre. Durch KI-gestützte Textanalyse und Clustering-Algorithmen werden Themen gruppiert und deren zeitliche Entwicklung in River-Diagrammen dargestellt."
+      "content": "Diese interaktive AI-Anwendung analysiert und visualisiert die Themen und Sprecher des Freak Show Podcasts über die Jahre. Durch KI-gestützte Textanalyse, semantische Suche und Clustering-Algorithmen werden Themen gruppiert und deren zeitliche Entwicklung in River-Diagrammen dargestellt. Mit Speaker-Personas und Diskussionsmodus können Fragen im Stil der Podcast-Hosts beantwortet werden. Das Projekt wurde auf dem 39C3 entwickelt."
     },
     "frontend": {
       "title": "Frontend-Technologien",
@@ -86,7 +94,7 @@
     "ai": {
       "title": "KI & Machine Learning",
       "embedding": {
-        "title": "OpenAI text-embedding-3-small",
+        "title": "OpenAI text-embedding-3-large",
         "badge": "Embedding-Modell",
         "description": "Generierung von semantischen Embeddings für alle Podcast-Themen. Ermöglicht bedeutungsbasiertes Clustering statt nur Keyword-Matching.",
         "features": {
@@ -108,12 +116,15 @@
       "rag": {
         "title": "RAG-Such-Backend",
         "badge": "KI-Suche",
-        "description": "Semantische Suche über Transkripte mit Quellenangaben und Wiedergabe ab Zeitstempel.",
+        "description": "Semantische Suche über Transkripte mit Quellenangaben und Wiedergabe ab Zeitstempel. Verwendet OpenAI GPT-4o-mini für Antwortgenerierung.",
         "features": {
           "retrieval": "Vektor-Retrieval über Transkript-Abschnitte",
           "citations": "Antworten inkl. Quellen (Episode + Zeitfenster + Auszug)",
           "playback": "Audio-Wiedergabe per Klick ab zitierten Zeitmarken",
-          "auth": "Optionaler Auth-Token für geschützte Backends"
+          "auth": "Optionaler Auth-Token für geschützte Backends",
+          "personas": "Speaker-Personas für personalisierte Antworten",
+          "discussion": "Diskussionsmodus mit zwei Sprechern",
+          "markdown": "Markdown-Rendering für bessere Formatierung"
         }
       }
     },
@@ -199,6 +210,18 @@
       "search": {
         "title": "KI-Suche",
         "description": "Fragen stellen und Antworten mit zitierten Transkript-Quellen erhalten"
+      },
+      "personas": {
+        "title": "Speaker-Personas",
+        "description": "Antworten im Stil verschiedener Sprecher mit individuellen Persönlichkeiten"
+      },
+      "discussion": {
+        "title": "Diskussionsmodus",
+        "description": "Zwei Sprecher diskutieren und debattieren ein Thema basierend auf Quellen"
+      },
+      "markdown": {
+        "title": "Markdown-Rendering",
+        "description": "Formatierte Antworten mit Überschriften, Listen, Code und Hervorhebungen"
       },
       "umap": {
         "title": "UMAP-Ansicht",

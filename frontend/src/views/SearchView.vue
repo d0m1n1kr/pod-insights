@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import MiniAudioPlayer from '@/components/MiniAudioPlayer.vue';
 import { useSettingsStore } from '@/stores/settings';
+import { marked } from 'marked';
 
 type ChatSource = {
   episodeNumber: number;
@@ -328,11 +329,17 @@ const hmsToSeconds = (hms: string): number | null => {
   return null;
 };
 
-const linkifyAnswer = (text: string): string => {
-  // Match patterns like: (Episode 297, 1:53:19-1:54:13) or (Episode 297, 12:38)
+const renderMarkdownWithLinks = (text: string): string => {
+  // First, render markdown
+  let html = marked.parse(text, { 
+    breaks: true, 
+    gfm: true 
+  }) as string;
+  
+  // Then, linkify episode references in the rendered HTML
   const episodePattern = /\(Episode\s+(\d+),\s+([\d:]+)(?:-[\d:]+)?\)/gi;
   
-  return text.replace(episodePattern, (match, episodeNum, startTime) => {
+  html = html.replace(episodePattern, (match, episodeNum, startTime) => {
     const episodeNumber = parseInt(episodeNum, 10);
     const seconds = hmsToSeconds(startTime);
     if (!Number.isFinite(episodeNumber) || seconds === null) return match;
@@ -340,6 +347,8 @@ const linkifyAnswer = (text: string): string => {
     // Create a data attribute that we'll use to handle clicks
     return `<a href="#" class="episode-link text-blue-600 dark:text-blue-400 hover:underline font-medium" data-episode="${episodeNumber}" data-time="${seconds}">${match}</a>`;
   });
+  
+  return html;
 };
 
 const handleAnswerClick = (event: MouseEvent) => {
@@ -367,7 +376,12 @@ const handleAnswerClick = (event: MouseEvent) => {
     <div class="p-4 sm:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20">
       <div class="flex items-start justify-between gap-3">
         <div class="flex-1">
-          <h2 class="text-lg sm:text-xl font-bold text-gray-900 dark:text-white">{{ t('search.title') }}</h2>
+          <div class="flex items-center gap-2 flex-wrap">
+            <h2 class="text-lg sm:text-xl font-bold text-gray-900 dark:text-white">{{ t('search.title') }}</h2>
+            <span class="text-xs px-2 py-1 rounded-md bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold uppercase tracking-wider">
+              beta
+            </span>
+          </div>
           
           <!-- Search Input -->
           <div class="mt-3">
@@ -390,23 +404,56 @@ const handleAnswerClick = (event: MouseEvent) => {
           </div>
           
           <!-- Speaker Selection Dropdown -->
-          <div class="mt-3">
+          <div class="mt-3 space-y-2">
             <label class="block text-xs font-semibold text-gray-700 dark:text-gray-300 mb-1">
               {{ t('search.answerStyle') }}
             </label>
-            <select
-              v-model="selectedSpeaker"
-              class="w-full sm:w-auto px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-sm text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              :disabled="speakersLoading || loading"
-            >
-              <option :value="null">{{ t('search.neutral') }}</option>
-              <optgroup v-if="availableSpeakers.length > 0" :label="t('search.speakerPersonas')">
-                <option v-for="speaker in availableSpeakers" :key="speaker.slug" :value="speaker.slug">
-                  {{ speaker.hasProfile ? '✓' : '⚠️' }} {{ speaker.speaker }} ({{ speaker.episodesCount }} episodes, {{ Math.round(speaker.totalWords / 1000) }}k words)
-                </option>
-              </optgroup>
-            </select>
-            <p v-if="selectedSpeaker" class="mt-1 text-xs text-gray-500 dark:text-gray-400">
+            
+            <div class="flex flex-col sm:flex-row gap-2">
+              <div class="flex-1">
+                <select
+                  v-model="selectedSpeaker"
+                  class="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-sm text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  :disabled="speakersLoading || loading"
+                >
+                  <option :value="null">{{ t('search.neutral') }}</option>
+                  <optgroup v-if="availableSpeakers.length > 0" :label="t('search.speakerPersonas')">
+                    <option v-for="speaker in availableSpeakers" :key="speaker.slug" :value="speaker.slug">
+                      {{ speaker.hasProfile ? '✓' : '⚠️' }} {{ speaker.speaker }} ({{ speaker.episodesCount }} episodes, {{ Math.round(speaker.totalWords / 1000) }}k words)
+                    </option>
+                  </optgroup>
+                </select>
+              </div>
+              
+              <div v-if="selectedSpeaker" class="flex-1">
+                <select
+                  v-model="selectedSpeaker2"
+                  class="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-sm text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                  :disabled="speakersLoading || loading"
+                >
+                  <option :value="null">{{ t('search.discussionMode.none') }}</option>
+                  <optgroup v-if="availableSpeakers.length > 0" :label="t('search.discussionMode.selectSecond')">
+                    <option 
+                      v-for="speaker in availableSpeakers" 
+                      :key="speaker.slug" 
+                      :value="speaker.slug"
+                      :disabled="speaker.slug === selectedSpeaker"
+                    >
+                      {{ speaker.hasProfile ? '✓' : '⚠️' }} {{ speaker.speaker }} ({{ speaker.episodesCount }} episodes, {{ Math.round(speaker.totalWords / 1000) }}k words)
+                    </option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+            
+            <p v-if="selectedSpeaker && selectedSpeaker2" class="text-xs text-purple-600 dark:text-purple-400 font-semibold">
+              💬 {{ t('search.discussionMode.active', { 
+                speaker1: availableSpeakers.find(s => s.slug === selectedSpeaker)?.speaker,
+                speaker2: availableSpeakers.find(s => s.slug === selectedSpeaker2)?.speaker 
+              }) }}
+            </p>
+            
+            <p v-if="selectedSpeaker && !selectedSpeaker2" class="mt-1 text-xs text-gray-500 dark:text-gray-400">
               <span v-if="availableSpeakers.find(s => s.slug === selectedSpeaker)?.hasProfile">
                 ✓ {{ t('search.profileAvailable', { speaker: availableSpeakers.find(s => s.slug === selectedSpeaker)?.speaker }) }}
               </span>
@@ -414,6 +461,7 @@ const handleAnswerClick = (event: MouseEvent) => {
                 ⚠️ {{ t('search.profileLimited') }} <code class="bg-gray-100 dark:bg-gray-800 px-1 rounded">{{ t('search.profileGenerate', { speaker: availableSpeakers.find(s => s.slug === selectedSpeaker)?.speaker }) }}</code>
               </span>
             </p>
+            
             <p v-if="speakersError" class="mt-1 text-xs text-red-600 dark:text-red-400">
               ⚠️ {{ t('search.speakerLoadError', { error: speakersError }) }}
             </p>
@@ -440,8 +488,29 @@ const handleAnswerClick = (event: MouseEvent) => {
       <div v-else-if="result" class="space-y-6">
         <div class="rounded-lg border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900/30 p-4">
           <div class="flex items-start gap-3">
+            <div v-if="selectedSpeaker2Info" class="flex items-center gap-2 flex-shrink-0">
+              <img
+                v-if="selectedSpeakerInfo?.image"
+                :src="selectedSpeakerInfo.image"
+                :alt="selectedSpeakerInfo.speaker"
+                class="w-10 h-10 rounded-full border-2 border-blue-500 dark:border-blue-400"
+              />
+              <div v-else class="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">
+                {{ selectedSpeakerInfo?.speaker?.charAt(0) || '?' }}
+              </div>
+              <span class="text-lg">💬</span>
+              <img
+                v-if="selectedSpeaker2Info?.image"
+                :src="selectedSpeaker2Info.image"
+                :alt="selectedSpeaker2Info.speaker"
+                class="w-10 h-10 rounded-full border-2 border-purple-500 dark:border-purple-400"
+              />
+              <div v-else class="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white font-bold text-sm">
+                {{ selectedSpeaker2Info?.speaker?.charAt(0) || '?' }}
+              </div>
+            </div>
             <img
-              v-if="selectedSpeakerInfo?.image"
+              v-else-if="selectedSpeakerInfo?.image"
               :src="selectedSpeakerInfo.image"
               :alt="selectedSpeakerInfo.speaker"
               class="w-12 h-12 rounded-full flex-shrink-0 border-2 border-gray-300 dark:border-gray-600"
@@ -449,13 +518,16 @@ const handleAnswerClick = (event: MouseEvent) => {
             <div class="flex-1 min-w-0">
               <div class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400 font-semibold">
                 {{ t('search.answerTitle') }}
-                <span v-if="selectedSpeakerInfo" class="ml-1 font-normal normal-case">
+                <span v-if="selectedSpeaker2Info" class="ml-1 font-normal normal-case">
+                  ({{ t('search.discussionMode.discussion') }}: {{ selectedSpeakerInfo?.speaker }} & {{ selectedSpeaker2Info.speaker }})
+                </span>
+                <span v-else-if="selectedSpeakerInfo" class="ml-1 font-normal normal-case">
                   ({{ selectedSpeakerInfo.speaker }})
                 </span>
               </div>
               <div 
-                class="mt-2 whitespace-pre-wrap text-gray-900 dark:text-gray-100 leading-relaxed"
-                v-html="linkifyAnswer(result.answer)"
+                class="mt-2 prose prose-sm dark:prose-invert max-w-none text-gray-900 dark:text-gray-100 leading-relaxed prose-p:my-2 prose-headings:mt-4 prose-headings:mb-2"
+                v-html="renderMarkdownWithLinks(result.answer)"
                 @click="handleAnswerClick"
               >
               </div>

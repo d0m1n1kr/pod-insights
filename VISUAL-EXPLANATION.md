@@ -230,7 +230,7 @@ Looking at: Business & Economy (includes many things)
 
 ```
 ┌────────────────────────────────────────────────┐
-│  Freak Show Visualisierung               │
+│  Freak Show AI               │
 ├────────────────────────────────────────────────┤
 │ [Topics (Detail)] [Kategorien] [Speaker] ← Tabs│
 ├────────────────────────────────────────────────┤
