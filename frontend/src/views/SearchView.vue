@@ -201,6 +201,26 @@ const handleSearch = () => {
   }
 };
 
+// Run example with automatic speaker selection
+const runExample = (query: string, speaker1Slug: string | null = null, speaker2Slug: string | null = null) => {
+  // Set the speakers first
+  if (speaker1Slug) {
+    settings.setSelectedSpeaker(speaker1Slug);
+  } else {
+    settings.setSelectedSpeaker(null);
+  }
+  
+  if (speaker2Slug) {
+    settings.setSelectedSpeaker2(speaker2Slug);
+  } else {
+    settings.setSelectedSpeaker2(null);
+  }
+  
+  // Set the query and search
+  searchQuery.value = query;
+  handleSearch();
+};
+
 // ---- Inline MP3 player (copied from TopicRiver.vue pattern) ----
 
 const mp3IndexLoaded = ref(false);
@@ -482,7 +502,7 @@ const handleAnswerClick = (event: MouseEvent) => {
           <div class="space-y-3">
             <!-- Discussion Mode Example -->
             <button
-              @click="searchQuery = t('search.examples.discussion'); handleSearch()"
+              @click="runExample('Was ist besser, die Quest 3 oder Apple Vision Pro?', 'tim-pritlove', 'ralf-stockmann')"
               class="w-full text-left px-4 py-3 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg transition-colors group"
             >
               <div class="flex items-start gap-3">
@@ -500,7 +520,7 @@ const handleAnswerClick = (event: MouseEvent) => {
             
             <!-- Persona Example 1 -->
             <button
-              @click="searchQuery = t('search.examples.persona1'); handleSearch()"
+              @click="runExample('Wie stehst du zu Bitcoin?', 'tim-pritlove', null)"
               class="w-full text-left px-4 py-3 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg transition-colors group"
             >
               <div class="flex items-start gap-3">
@@ -518,7 +538,7 @@ const handleAnswerClick = (event: MouseEvent) => {
             
             <!-- Persona Example 2 -->
             <button
-              @click="searchQuery = t('search.examples.persona2'); handleSearch()"
+              @click="runExample('Kannst du mir Tipps zur Hausautomatisierung geben?', 'roddi', null)"
               class="w-full text-left px-4 py-3 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg transition-colors group"
             >
               <div class="flex items-start gap-3">
@@ -536,7 +556,7 @@ const handleAnswerClick = (event: MouseEvent) => {
             
             <!-- Neutral Example -->
             <button
-              @click="searchQuery = t('search.examples.neutral'); handleSearch()"
+              @click="runExample('Apple Quo Vadis?', null, null)"
               class="w-full text-left px-4 py-3 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg transition-colors group"
             >
               <div class="flex items-start gap-3">
