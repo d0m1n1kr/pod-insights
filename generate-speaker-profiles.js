@@ -39,8 +39,8 @@ function parseArgs(argv) {
     outDir: path.join(__dirname, 'speakers'),
     cacheDir: path.join(__dirname, 'speakers', '.cache'),
     minWordsForLLM: 800,
-    maxChunkChars: 12000,
-    maxChunks: null,
+    maxChunkChars: 16000,
+    maxChunks: 8,
     requestDelayMs: null,
     personaMode: 'speaker', // 'speaker' | 'fictional'
     characterName: null,
@@ -87,8 +87,8 @@ Options:
   --out-dir <dir>            Output directory (default: ./speakers)
   --cache-dir <dir>          Cache directory (default: ./speakers/.cache)
   --min-words <n>            Minimum words per speaker to call LLM (default: 800)
-  --chunk-chars <n>          Chunk size in characters for LLM map step (default: 12000)
-  --max-chunks <n>           Maximum number of chunks per speaker (evenly sampled). Default: unlimited
+  --chunk-chars <n>          Chunk size in characters for LLM map step (default: 16000)
+  --max-chunks <n>           Maximum number of chunks per speaker (evenly sampled). Default: 8
   --persona-mode <mode>      'speaker' (default) or 'fictional' (distinct character inspired by style features)
   --character-name <name>    Required for persona-mode 'fictional' (name of the fictional chatbot character)
   --delay-ms <n>             Delay between LLM requests (overrides settings.topicExtraction.requestDelayMs)
@@ -242,9 +242,20 @@ function chunkAnalysisMessages({ speakerName, chunkText, languageHint }) {
     {
       role: 'system',
       content:
-        'Du bist ein Linguist + Dialogautor. Du analysierst gesprochene Sprache in Podcast-Transkripten. ' +
-        'Du darfst NICHT den Inhalt der Themen zusammenfassen, sondern sollst ausschließlich den Sprechstil, Wortwahl, Haltung und wiederkehrende Muster extrahieren. ' +
-        'Wichtig: Zitiere Beispielphrasen exakt aus dem Text (nur kurze Ausschnitte). Erfinde nichts. ' +
+        'Du bist ein Linguist, der gesprochene Sprache in Podcast-Transkripten analysiert. ' +
+        'Deine Aufgabe: Extrahiere präzise, wie diese Person SPRICHT - nicht was sie sagt. ' +
+        'Fokus auf:\n' +
+        '- KONKRETE Wörter und Phrasen, die der Speaker tatsächlich verwendet (mit Beispielen!)\n' +
+        '- Satzstruktur und Rhythmus (kurze Sätze? verschachtelt? abgebrochen?)\n' +
+        '- Füllwörter, Diskursmarker und Tics (welche genau und wie oft?)\n' +
+        '- Humor-Stil mit konkreten Beispielen (Ironie? Wortspiele? Übertreibung? trocken?)\n' +
+        '- Haltung und Persönlichkeit wie sie sich im Sprechen zeigt\n' +
+        '- Charakteristische Ausdrücke und wiederkehrende Formulierungen\n\n' +
+        'WICHTIG:\n' +
+        '- Zitiere VIELE konkrete Beispielphrasen wortwörtlich aus dem Text\n' +
+        '- Sei spezifisch: nicht "oft Füllwörter" sondern "häufig \'äh\', \'also\', \'so\' (ca. jeder 10. Satz)"\n' +
+        '- Erfinde nichts - nur was im Text nachweisbar ist\n' +
+        '- Ignoriere Themeninhalte komplett\n\n' +
         'Antworte ausschließlich mit einem JSON-Objekt mit genau diesen Schlüsseln: ' +
         '{"language": string, "register": string, "tone": string, "pace": string, "syntax": string, "discourse_markers": string[], "favorite_words": string[], "fillers": string[], "humor_style": string, "attitude": string, "interaction_style": string, "tics": string[], "swearing": string, "code_switching": string, "examples": string[], "notes": string}.',
     },
@@ -263,9 +274,22 @@ function finalProfileMessages({ speakerName, stats, chunkAnalyses }) {
     {
       role: 'system',
       content:
-        'Du erstellst ein "Speaker Voice Profile" (für ein anderes LLM), das den Sprechstil dieser Person so präzise beschreibt, ' +
-        'dass ein LLM sie in Vokabular, Rhythmus, Haltung, Humor und Gesprächsführung nachahmen kann. ' +
-        'Wichtig: Keine Biografie-Raten. Nur Muster, die aus den Analysen ableitbar sind. ' +
+        'Du erstellst ein detailliertes "Speaker Voice Profile", das präzise beschreibt, WIE diese Person spricht. ' +
+        'Das Profil muss so konkret sein, dass ein anderes LLM die Person authentisch nachahmen kann.\n\n' +
+        'FOKUS:\n' +
+        '1. KONKRETE Wörter und Phrasen, die der Speaker tatsächlich benutzt\n' +
+        '2. SPEZIFISCHE Satzstrukturen und Rhythmen (mit Beispielen!)\n' +
+        '3. CHARAKTERISTISCHE Humor-Muster und rhetorische Mittel\n' +
+        '4. ERKENNBARE Persönlichkeit und Haltung im Sprechen\n' +
+        '5. TYPISCHE Interaktionsmuster und Gesprächsführung\n\n' +
+        'ANFORDERUNGEN:\n' +
+        '- Sei SEHR spezifisch: Nicht "verwendet Füllwörter" sondern "beginnt Sätze oft mit \'also\', \'ja nee\', \'ich mein\'"\n' +
+        '- Sammle die häufigsten und charakteristischsten Wörter/Phrasen aus allen Chunk-Analysen\n' +
+        '- Beschreibe Humor-Stil mit konkreten Beispielen und Mustern\n' +
+        '- Identifiziere Persönlichkeits-Traits, die sich im Sprechen zeigen\n' +
+        '- Liste typische Satzstrukturen und -muster auf\n' +
+        '- Wähle 10-15 besonders charakteristische Beispiel-Zitate\n\n' +
+        'WICHTIG: Keine Biografie, keine Themen-Zusammenfassung - nur wie die Person SPRICHT!\n\n' +
         'Antworte ausschließlich mit einem JSON-Objekt mit genau diesen Schlüsseln: ' +
         '{"speaker": string, "confidence": string, "one_line_essence": string, "language": string, "register": string, "style_fingerprint": string[], "vocabulary": {"high_freq": string[], "idiosyncratic": string[], "taboo_or_avoids": string[]}, "syntax_and_rhythm": string[], "discourse_markers": string[], "humor_and_devices": string[], "attitude_and_values": string[], "interaction_playbook": {"does": string[], "does_not": string[]}, "tics": string[], "swearing": string, "code_switching": string, "example_lines": string[], "mimic_system_prompt": string, "mimic_user_instructions": string}.',
     },
@@ -475,7 +499,7 @@ async function main() {
         apiKey: settings.llm?.apiKey,
         baseURL: settings.llm?.baseURL,
         temperature: settings.llm?.temperature ?? 0.3,
-        maxTokens: settings.llm?.maxTokens ?? 1200,
+        maxTokens: settings.llm?.maxTokens ?? 2500,
       }
     : null;
 

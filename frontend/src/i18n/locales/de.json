@@ -25,9 +25,10 @@
   "search": {
     "title": "Suche",
     "queryLabel": "Query:",
-    "placeholder": "Frage stellen…",
+    "placeholder": "Frage eingeben...",
     "button": "Suchen",
-    "empty": "Gib oben eine Suchanfrage ein.",
+    "buttonSearching": "Suche...",
+    "empty": "Gib eine Suchanfrage ein.",
     "loading": "Suche…",
     "errorTitle": "Fehler",
     "answerTitle": "Antwort",
@@ -37,6 +38,13 @@
     "play": "Abspielen",
     "playTitle": "Ab dieser Stelle abspielen",
     "noResults": "Keine Ergebnisse.",
+    "answerStyle": "Antwort-Stil",
+    "neutral": "Neutral (Standard)",
+    "speakerPersonas": "Sprecher-Personas",
+    "profileAvailable": "Vollständiges Profil verfügbar - Antworten werden im Stil von {speaker} gegeben",
+    "profileLimited": "Eingeschränktes Profil - Antworten sind möglicherweise weniger personalisiert. Führe aus:",
+    "profileGenerate": "node generate-speaker-profiles.js --speaker \"{speaker}\"",
+    "speakerLoadError": "Fehler beim Laden der Sprecher-Profile: {error}",
     "authToken": {
       "prompt": "Auth-Token für die Suche eingeben (wird lokal gespeichert):",
       "required": "Für die Suche wird ein Auth-Token benötigt."

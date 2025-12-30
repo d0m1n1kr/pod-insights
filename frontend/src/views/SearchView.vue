@@ -24,16 +24,31 @@ type ChatResponse = {
   sources: ChatSource[];
 };
 
+type SpeakerInfo = {
+  speaker: string;
+  slug: string;
+  episodesCount: number;
+  utterancesCount: number;
+  totalWords: number;
+  hasProfile: boolean;
+};
+
 const route = useRoute();
 const { t } = useI18n();
 const settings = useSettingsStore();
 
+const searchQuery = ref('');
 const q = computed(() => (typeof route.query?.q === 'string' ? route.query.q.trim() : ''));
 
 const loading = ref(false);
 const error = ref<string | null>(null);
 const result = ref<ChatResponse | null>(null);
 const expandedSources = ref<Record<number, boolean>>({});
+
+const availableSpeakers = ref<SpeakerInfo[]>([]);
+const selectedSpeaker = ref<string | null>(null);
+const speakersLoading = ref(false);
+const speakersError = ref<string | null>(null);
 
 let abortController: AbortController | null = null;
 
@@ -63,6 +78,25 @@ const isPermissionDenied = (status: number, bodyText: string) => {
   return txt.includes('permission denied') || txt.includes('forbidden') || txt.includes('unauthorized');
 };
 
+const fetchSpeakers = async () => {
+  speakersLoading.value = true;
+  speakersError.value = null;
+  try {
+    const url = backendBase.value ? `${backendBase.value}/api/speakers` : '/api/speakers';
+    const res = await fetch(url, { cache: 'no-cache' });
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}`);
+    }
+    const data = await res.json();
+    availableSpeakers.value = data.speakers || [];
+  } catch (e) {
+    speakersError.value = e instanceof Error ? e.message : String(e);
+    console.error('Failed to fetch speakers:', e);
+  } finally {
+    speakersLoading.value = false;
+  }
+};
+
 const doSearch = async (query: string) => {
   const qq = query.trim();
   result.value = null;
@@ -83,10 +117,14 @@ const doSearch = async (query: string) => {
 
     const run = async (token: string) => {
       const url = backendBase.value ? `${backendBase.value}/api/chat` : '/api/chat';
+      const body: any = { query: qq };
+      if (selectedSpeaker.value) {
+        body.speakerSlug = selectedSpeaker.value;
+      }
       const res = await fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'x-auth-token': token },
-        body: JSON.stringify({ query: qq }),
+        body: JSON.stringify(body),
         signal: abortController?.signal,
       });
       return res;
@@ -126,15 +164,28 @@ const doSearch = async (query: string) => {
 };
 
 onMounted(() => {
-  if (q.value) doSearch(q.value);
+  fetchSpeakers();
+  if (q.value) {
+    searchQuery.value = q.value;
+    doSearch(q.value);
+  }
 });
 
 watch(
   () => q.value,
   (next) => {
-    if (next) doSearch(next);
+    if (next && next !== searchQuery.value) {
+      searchQuery.value = next;
+      doSearch(next);
+    }
   }
 );
+
+const handleSearch = () => {
+  if (searchQuery.value.trim()) {
+    doSearch(searchQuery.value);
+  }
+};
 
 // ---- Inline MP3 player (copied from TopicRiver.vue pattern) ----
 
@@ -248,22 +299,68 @@ const formatHmsFromSeconds = (sec: unknown) => {
   <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
     <div class="p-4 sm:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20">
       <div class="flex items-start justify-between gap-3">
-        <div>
+        <div class="flex-1">
           <h2 class="text-lg sm:text-xl font-bold text-gray-900 dark:text-white">{{ t('search.title') }}</h2>
-          <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
-            <span class="font-semibold">{{ t('search.queryLabel') }}</span>
-            <span class="font-mono">{{ q || '—' }}</span>
-          </p>
+          
+          <!-- Search Input -->
+          <div class="mt-3">
+            <form @submit.prevent="handleSearch" class="flex gap-2">
+              <input
+                v-model="searchQuery"
+                type="text"
+                :placeholder="t('search.placeholder')"
+                class="flex-1 px-4 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-sm text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                :disabled="loading"
+              />
+              <button
+                type="submit"
+                class="px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white rounded-lg text-sm font-semibold transition-colors"
+                :disabled="loading || !searchQuery.trim()"
+              >
+                {{ loading ? t('search.buttonSearching') : t('search.button') }}
+              </button>
+            </form>
+          </div>
+          
+          <!-- Speaker Selection Dropdown -->
+          <div class="mt-3">
+            <label class="block text-xs font-semibold text-gray-700 dark:text-gray-300 mb-1">
+              {{ t('search.answerStyle') }}
+            </label>
+            <select
+              v-model="selectedSpeaker"
+              class="w-full sm:w-auto px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-lg text-sm text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              :disabled="speakersLoading || loading"
+            >
+              <option :value="null">{{ t('search.neutral') }}</option>
+              <optgroup v-if="availableSpeakers.length > 0" :label="t('search.speakerPersonas')">
+                <option v-for="speaker in availableSpeakers" :key="speaker.slug" :value="speaker.slug">
+                  {{ speaker.hasProfile ? '✓' : '⚠️' }} {{ speaker.speaker }} ({{ speaker.episodesCount }} episodes, {{ Math.round(speaker.totalWords / 1000) }}k words)
+                </option>
+              </optgroup>
+            </select>
+            <p v-if="selectedSpeaker" class="mt-1 text-xs text-gray-500 dark:text-gray-400">
+              <span v-if="availableSpeakers.find(s => s.slug === selectedSpeaker)?.hasProfile">
+                ✓ {{ t('search.profileAvailable', { speaker: availableSpeakers.find(s => s.slug === selectedSpeaker)?.speaker }) }}
+              </span>
+              <span v-else class="text-amber-600 dark:text-amber-400">
+                ⚠️ {{ t('search.profileLimited') }} <code class="bg-gray-100 dark:bg-gray-800 px-1 rounded">{{ t('search.profileGenerate', { speaker: availableSpeakers.find(s => s.slug === selectedSpeaker)?.speaker }) }}</code>
+              </span>
+            </p>
+            <p v-if="speakersError" class="mt-1 text-xs text-red-600 dark:text-red-400">
+              ⚠️ {{ t('search.speakerLoadError', { error: speakersError }) }}
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="p-4 sm:p-6">
-      <div v-if="!q" class="text-gray-600 dark:text-gray-400">
+      <div v-if="!searchQuery && !result" class="text-gray-600 dark:text-gray-400">
         {{ t('search.empty') }}
       </div>
 
-      <div v-else-if="loading" class="flex items-center gap-3">
+      <div v-if="loading" class="flex items-center gap-3">
         <div class="inline-block animate-spin rounded-full h-6 w-6 border-4 border-blue-500 border-t-transparent"></div>
         <div class="text-gray-700 dark:text-gray-300">{{ t('search.loading') }}</div>
       </div>
@@ -360,8 +457,6 @@ const formatHmsFromSeconds = (sec: unknown) => {
           </div>
         </div>
       </div>
-
-      <div v-else class="text-gray-600 dark:text-gray-400">{{ t('search.noResults') }}</div>
     </div>
   </div>
 </template>

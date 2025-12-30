@@ -25,9 +25,10 @@
   "search": {
     "title": "Recherche",
     "queryLabel": "Requête :",
-    "placeholder": "Poser une question…",
+    "placeholder": "Entrer une question...",
     "button": "Rechercher",
-    "empty": "Saisissez une requête de recherche ci-dessus.",
+    "buttonSearching": "Recherche...",
+    "empty": "Saisissez une requête de recherche.",
     "loading": "Recherche…",
     "errorTitle": "Erreur",
     "answerTitle": "Réponse",
@@ -37,9 +38,16 @@
     "play": "Lire",
     "playTitle": "Lire à partir de cette position",
     "noResults": "Aucun résultat.",
+    "answerStyle": "Style de réponse",
+    "neutral": "Neutre (Standard)",
+    "speakerPersonas": "Personas des intervenants",
+    "profileAvailable": "Profil complet disponible - les réponses utiliseront le style de {speaker}",
+    "profileLimited": "Profil limité - les réponses peuvent être moins personnalisées. Exécuter :",
+    "profileGenerate": "node generate-speaker-profiles.js --speaker \"{speaker}\"",
+    "speakerLoadError": "Échec du chargement des profils d'intervenants : {error}",
     "authToken": {
-      "prompt": "Saisissez le jeton d’authentification pour la recherche (stocké localement) :",
-      "required": "La recherche nécessite un jeton d’authentification."
+      "prompt": "Saisissez le jeton d'authentification pour la recherche (stocké localement) :",
+      "required": "La recherche nécessite un jeton d'authentification."
     },
     "errors": {
       "invalidResponse": "Réponse invalide du backend",

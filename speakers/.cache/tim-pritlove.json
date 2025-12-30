@@ -1,5 +1,5 @@
 {
-  "rawTextHash": "adc65ca8603d5da7cfe6cf50e58c4fad722f72bb",
+  "rawTextHash": "39d7eb9f24dc6aedc840789d2e8e68bc8ee50a5c",
   "chunks": [
     {
       "chunkHash": "f2f64390fb3a1272c4fef8217ad45c62fdef931f",
@@ -2302,21 +2302,2089 @@
         ],
         "notes": "Der Sprecher verwendet häufig persönliche Anredeformen und bezieht sich direkt auf andere Gesprächsteilnehmer."
       }
+    },
+    {
+      "chunkHash": "5df7db1d8db3cdaec04695f54c8904ee4e7685be",
+      "analysis": {
+        "language": "de",
+        "register": "informell, technisch",
+        "tone": "analytisch, enthusiastisch, gelegentlich humorvoll",
+        "pace": "mittel bis schnell, mit gelegentlichen Pausen",
+        "syntax": "überwiegend komplexe Sätze mit Einschüben, gelegentlich abgebrochene Gedanken",
+        "discourse_markers": [
+          "also",
+          "und",
+          "aber",
+          "so",
+          "das heißt",
+          "zum Beispiel",
+          "irgendwie",
+          "jetzt",
+          "hier",
+          "ja"
+        ],
+        "favorite_words": [
+          "Modell",
+          "DeepSeq",
+          "Reinforcement Learning",
+          "Kosten",
+          "Qualität",
+          "Daten",
+          "Chips"
+        ],
+        "fillers": [
+          "äh",
+          "so",
+          "also",
+          "irgendwie"
+        ],
+        "humor_style": "trocken, ironisch; z.B. \"das Ding quasi nur mit sich selbst gelernt hat\" und \"das ist schon ziemlich krass\"",
+        "attitude": "neugierig, kritisch, optimistisch; zeigt Begeisterung für technische Entwicklungen",
+        "interaction_style": "direkt, oft rhetorische Fragen, interaktive Elemente mit Zuhörern",
+        "tics": [
+          "äh",
+          "so",
+          "also"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine erkennbaren Wechsel zwischen Sprachen",
+        "examples": [
+          "das sind sicherlich nicht alle Kosten gewesen",
+          "das Ding quasi nur mit sich selbst gelernt hat",
+          "das ist total irre",
+          "das hat eine gewisse soziale Intelligenz, die bemerkenswert ist",
+          "das ist jetzt in dem Sinne keine neue Methode, die es noch nicht gab oder so"
+        ],
+        "notes": "Der Sprecher verwendet oft technische Begriffe und erklärt komplexe Konzepte auf eine zugängliche Weise. Er zeigt eine gewisse Begeisterung für die Themen, die er behandelt, und nutzt Humor, um die Zuhörer zu fesseln."
+      }
+    },
+    {
+      "chunkHash": "8e0e6d750a224a4bdd97f089cf15f2526c8e8f5a",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "entspannt, humorvoll, direkt",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "gemischte Satzstrukturen, oft kurze Sätze, gelegentlich verschachtelt",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "naja",
+          "genau",
+          "aber",
+          "ach so",
+          "sozusagen"
+        ],
+        "favorite_words": [
+          "Thema",
+          "Leute",
+          "Sache",
+          "Kultur",
+          "Kosten"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "naja",
+          "so",
+          "und so weiter"
+        ],
+        "humor_style": "trocken, ironisch, gelegentlich übertrieben, z.B. \"Das Ding ist, bis 2030 ist das Thema durch.\"",
+        "attitude": "skeptisch, nachdenklich, teils frustriert über gesellschaftliche Themen",
+        "interaction_style": "dialogisch, oft in Reaktion auf andere, nutzt Fragen und Anmerkungen",
+        "tics": [
+          "ach",
+          "ja",
+          "genau",
+          "sozusagen"
+        ],
+        "swearing": "gelegentlich, z.B. \"Scheiß-Hosterei\"",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Das ist ja auch etwas, was in unserer Gesellschaft keinen großen Stellenwert hat.",
+          "Das Thema ist durch.",
+          "Ich meine, sie sind heute schon de facto billiger.",
+          "Das Elend hat Persistenz.",
+          "Ich wollte gerade mal sagen, also von den sieben anwesenden Personen sind hier nur drei elektrisch unterwegs."
+        ],
+        "notes": "Der Sprecher verwendet häufig umgangssprachliche Ausdrücke und hat einen direkten, oft humorvollen Stil. Er neigt dazu, Gedanken in kurzen, prägnanten Sätzen auszudrücken, oft mit einem ironischen Unterton."
+      }
+    },
+    {
+      "chunkHash": "0ff6590067240453af9689201d7c1ffd5db6bb94",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "entspannt und humorvoll",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "überwiegend kurze bis mittellange Sätze, gelegentlich abgebrochen oder unvollständig",
+        "discourse_markers": [
+          "ja",
+          "naja",
+          "genau",
+          "also",
+          "achso",
+          "tja",
+          "nee",
+          "gut",
+          "sozusagen"
+        ],
+        "favorite_words": [
+          "genau",
+          "also",
+          "naja",
+          "ja",
+          "gut"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "naja",
+          "ja"
+        ],
+        "humor_style": "trocken mit Ironie und Übertreibung, z.B. 'Das muss be the most expensive adapter I've ever seen.'",
+        "attitude": "offen, humorvoll, manchmal sarkastisch",
+        "interaction_style": "direkt, oft mit einem spielerischen Ton, interagiert aktiv mit anderen",
+        "tics": [
+          "ja",
+          "naja",
+          "genau"
+        ],
+        "swearing": "gelegentlich, z.B. 'scheiß Spracherkennung'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Ja, ja, la, na, na, na, na, na, na, na, na, na, na, na, ich mach die Welt, wie es mir gefällt.",
+          "Achso, goldene Regel heute übrigens, keine Gespräche jenseits des On-Air-Feelings.",
+          "Das Mikro ist wie...",
+          "Das muss be the most expensive adapter I've ever seen.",
+          "Ich finde schon dieses Anlocken irgendwie fragwürdig.",
+          "Das war jetzt auch ein kostenloser Service. Also das war jetzt inklusive. Kam mit der Pizza.",
+          "Ja, das ist schon mal geil, oder?",
+          "Das ist einfach geil.",
+          "Tja, weiß ich nicht.",
+          "Wollen wir noch ein bisschen auf Android einschlagen? Oder später erst?"
+        ],
+        "notes": "Der Sprecher zeigt eine lockere, humorvolle Art, oft mit Ironie und einem spielerischen Umgangston. Er verwendet häufig Füllwörter und Diskursmarker, um seine Gedanken zu strukturieren und den Gesprächsfluss aufrechtzuerhalten."
+      }
+    },
+    {
+      "chunkHash": "d43108a7716fc946a3f96dffdc25f1899b46bcd3",
+      "analysis": {
+        "language": "de",
+        "register": "umgangssprachlich",
+        "tone": "informell, humorvoll",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "häufig kurze, abgebrochene Sätze; gelegentlich verschachtelte Strukturen",
+        "discourse_markers": [
+          "also",
+          "genau",
+          "ja",
+          "ne",
+          "so",
+          "aber",
+          "na ja",
+          "irgendwie"
+        ],
+        "favorite_words": [
+          "schnelles Netz",
+          "Glas",
+          "WLAN",
+          "Kabel",
+          "Traum",
+          "Ariane-5"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ne",
+          "genau"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch; Wortspiele wie 'geh dahin wo der Pfeffer wächst'",
+        "attitude": "entspannt, neugierig, leicht sarkastisch",
+        "interaction_style": "dialogisch, oft an andere gerichtet, Fragen an Gesprächspartner",
+        "tics": [
+          "also",
+          "genau",
+          "ne",
+          "ja"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "das macht mir allein schon auch noch kein schnelles Netz",
+          "das sollte nicht so das Problem sein",
+          "ich will das gleich mal ein bisschen relativieren",
+          "also jetzt musst du das natürlich plastisch beschreiben",
+          "ich fliege dahin wo der Pfeffer wächst",
+          "das ist ja alles höhere Mathe",
+          "das ist auch nicht das erstbeste Angebot genommen"
+        ],
+        "notes": "Der Sprecher verwendet häufig umgangssprachliche Ausdrücke und hat einen lockeren, humorvollen Stil. Er neigt dazu, Sätze zu unterbrechen und Gedanken spontan zu formulieren, was zu einem dynamischen Gesprächsfluss führt."
+      }
+    },
+    {
+      "chunkHash": "70c09b61a2b3e393ff4b9065a608c960d170a25d",
+      "analysis": {
+        "language": "de",
+        "register": "informell, technisch",
+        "tone": "analytisch, frustriert, humorvoll",
+        "pace": "variabel, oft schnell mit längeren Passagen",
+        "syntax": "häufig komplexe, verschachtelte Sätze; gelegentlich abgebrochene Gedanken",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "gut",
+          "ne",
+          "so",
+          "und",
+          "oder",
+          "das heißt",
+          "quasi"
+        ],
+        "favorite_words": [
+          "Streaming",
+          "Latenz",
+          "Protokoll",
+          "HTTP",
+          "Playlist"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ne",
+          "ja",
+          "gut"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch; z.B. \"das nervt mich weil es nicht gut kann kein guter Service der Metaebene\"",
+        "attitude": "technisch versiert, frustriert über bestehende Probleme, pragmatisch",
+        "interaction_style": "direkt, oft rhetorische Fragen; z.B. \"Was meinst du mit Latenz?\"",
+        "tics": [
+          "äh",
+          "ja",
+          "ne",
+          "so"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Streaming Infrastruktur ist auf jeden Fall noch ein ungelöstes Problem aus meiner Perspektive",
+          "Das ist jetzt kein kein realtime Streaming bist ja auch nicht unbedingt erforderlich",
+          "Ich hätte es vor allem auch gern nicht nur für das live streaming.",
+          "Das nervt mich weil es nicht gut kann kein guter Service der Metaebene.",
+          "Ja klar natürlich also das ist jetzt kein kein realtime Streaming."
+        ],
+        "notes": "Der Sprecher verwendet viele technische Begriffe und zeigt eine tiefe Kenntnis des Themas. Er neigt dazu, komplexe Gedanken in langen Sätzen auszudrücken, was manchmal zu Verwirrung führen kann. Humor wird subtil eingesetzt, oft in Form von Ironie oder trockenen Bemerkungen."
+      }
+    },
+    {
+      "chunkHash": "882d0d5b9f108f7039dc0bdebc349230ab4a48c5",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "umgangssprachlich, teils humorvoll",
+        "pace": "variabel, oft schnell mit kurzen Pausen",
+        "syntax": "häufig kurze, abgebrochene Sätze; gelegentlich verschachtelte Strukturen",
+        "discourse_markers": [
+          "ja",
+          "also",
+          "nee",
+          "aber",
+          "irgendwie",
+          "das",
+          "so"
+        ],
+        "favorite_words": [
+          "Drohne",
+          "Angst",
+          "App",
+          "Weg",
+          "Essen"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "irgendwie"
+        ],
+        "humor_style": "trocken mit gelegentlicher Ironie; z.B. 'Überleitung aus der Hölle.'",
+        "attitude": "skeptisch, manchmal frustriert, aber auch humorvoll",
+        "interaction_style": "direkt, oft in Dialogform, manchmal mit Selbstironie",
+        "tics": [
+          "ja",
+          "also",
+          "nee",
+          "irgendwie"
+        ],
+        "swearing": "keine expliziten Schimpfwörter, aber umgangssprachliche Ausdrücke wie 'kacke'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Das hat mir ehrlich gesagt echt Angst gemacht.",
+          "Ja sauber, also das fühlte sich mehr nach Alexa als nach Siri an.",
+          "Jetzt reichts.",
+          "Das könnte nützlicher wäre.",
+          "Ich habe ihn lange nicht mehr gesprochen, ich kann gern mal nachfragen, wenn Du möchtest.",
+          "Das macht das Ganze noch ein bisschen komplizierter, aber auch ganz schick."
+        ],
+        "notes": "Der Sprecher verwendet häufig umgangssprachliche Ausdrücke und zeigt eine lockere, humorvolle Haltung. Er neigt dazu, Gedanken unvollständig zu formulieren und nutzt oft Füllwörter, um seine Aussagen zu strukturieren."
+      }
+    },
+    {
+      "chunkHash": "77f4e793635ee358414b2fb22cdaf766c0d22163",
+      "analysis": {
+        "language": "de",
+        "register": "umgangssprachlich",
+        "tone": "informell, nachdenklich",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "hauptsächlich kurze bis mittellange Sätze, gelegentlich verschachtelt, häufig abgebrochen",
+        "discourse_markers": [
+          "ja",
+          "aber",
+          "also",
+          "so",
+          "genau",
+          "naja",
+          "irgendwie"
+        ],
+        "favorite_words": [
+          "Problem",
+          "Community",
+          "Instanz",
+          "Twitter",
+          "Mastodon"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "na ja",
+          "irgendwie"
+        ],
+        "humor_style": "trockener Humor, gelegentlich ironisch, z.B. \"von führenden Psychopathen empfohlen\"",
+        "attitude": "skeptisch, kritisch, nachdenklich",
+        "interaction_style": "dialogisch, oft mit rhetorischen Fragen und direkten Ansprachen",
+        "tics": [
+          "hahaha",
+          "achso",
+          "genau"
+        ],
+        "swearing": "gelegentlich, z.B. \"Scheiße\"",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Ja aber es war bei Jabba auch so ein Problem",
+          "das woran alles scheitern muss",
+          "ich bin auch überhaupt nicht Null zufrieden",
+          "das ist aber auch so eine Unsitte des Internets",
+          "ich will halt in jedem Netzwerk nativ unterwegs sein",
+          "das hat mehr was damit zu tun was du willst und nicht so sehr was du kaufst"
+        ],
+        "notes": "Der Sprecher verwendet häufig umgangssprachliche Ausdrücke und zeigt eine kritische Haltung gegenüber sozialen Medien und deren Dynamik. Er neigt dazu, Gedanken spontan zu formulieren, was zu abgebrochenen Sätzen führt."
+      }
+    },
+    {
+      "chunkHash": "588674fd8eb7840a6109dadf65e1bf0da4832b51",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "entspannt, humorvoll",
+        "pace": "mittel-schnell, gelegentlich abgehackt",
+        "syntax": "überwiegend kurze bis mittellange Sätze, gelegentlich verschachtelt, viele Einschübe",
+        "discourse_markers": [
+          "naja",
+          "also",
+          "ja",
+          "aber",
+          "so",
+          "irgendwie",
+          "genau",
+          "das heißt",
+          "also das",
+          "wie gesagt"
+        ],
+        "favorite_words": [
+          "Sinn",
+          "irgendwie",
+          "krass",
+          "merkwürdig",
+          "schön",
+          "ganz",
+          "alles"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "naja",
+          "so",
+          "irgendwie"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch, Wortspiele (z.B. 'affenscheiße')",
+        "attitude": "entspannt, manchmal skeptisch, humorvoll",
+        "interaction_style": "direkt, oft rhetorische Fragen, gelegentlich Selbstironie",
+        "tics": [
+          "also",
+          "naja",
+          "irgendwie"
+        ],
+        "swearing": "gelegentlich, z.B. 'Scheiß Name', 'affenscheiße'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Naja 2 € will ich mit 10 € ausgeben für schon mehr wie das Terabyte holen alles.",
+          "Das fand ich ja schon jetzt mal da war ich halt.",
+          "Das ist mir das also bleib habe ich irgendwas nicht mitbekommen.",
+          "Das macht schon Sinn.",
+          "Das ist aber merkwürdig.",
+          "Das ist ja kein Esel ist also eine VM die da drin ist.",
+          "Das war aber nicht der Tricorder der geheilter das war noch mal zip."
+        ],
+        "notes": "Der Sprecher verwendet häufig informelle Sprache und hat einen lockeren, humorvollen Stil. Es gibt viele Wiederholungen und Variationen von Phrasen, die seine Gedankenstruktur widerspiegeln."
+      }
+    },
+    {
+      "chunkHash": "5031d7b0cd54e5deca3967587cc2f20d882612cd",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "humorvoll, entspannt",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "häufig kurze, abgebrochene Sätze; gelegentlich verschachtelte Strukturen",
+        "discourse_markers": [
+          "also",
+          "na ja",
+          "so",
+          "irgendwie",
+          "halt",
+          "ja",
+          "genau"
+        ],
+        "favorite_words": [
+          "Humor",
+          "Bild",
+          "Thema",
+          "Sachen",
+          "Kram"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ne",
+          "halt"
+        ],
+        "humor_style": "trocken, ironisch, gelegentlich übertrieben; Beispiele: 'Ich hoffe, es wird etwas morbid', 'You got the brain I've got the dogs.'",
+        "attitude": "offen, selbstironisch, reflektierend; zeigt eine entspannte Haltung gegenüber dem Sprechen und der Kommunikation",
+        "interaction_style": "dialogisch, oft mit Fragen an die Zuhörer, Bezugnahme auf Chat-Kommentare",
+        "tics": [
+          "halt",
+          "irgendwie",
+          "ja"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine erkennbaren Wechsel zwischen Sprachen",
+        "examples": [
+          "Ich habe die letzten Vorträge immer wenn ich einen neuen Vortrag mache dann, komme ich immer so am Anfang hänge ich immer so ein bisschen fest.",
+          "Das Schlimmste ist ja machst 9 Lite 10 Thesen irgendwie alle fangen an sich alles von vorne bis unten durchzulesen.",
+          "Ich sag nur, Kommunikation ist möglich man kann auch zufriedenstellend kommunizieren vortragen.",
+          "Ich meine du bist mir nicht erzählen dass du keinen Humor hast Haller.",
+          "Ich habe da nicht viel drauf und habe auch irgendwann aufgehört da irgendwas drauf zu schieben."
+        ],
+        "notes": "Der Sprecher verwendet häufig umgangssprachliche Ausdrücke und hat einen lockeren, persönlichen Stil. Er neigt dazu, Gedanken spontan zu formulieren, was zu einer dynamischen, manchmal chaotischen Erzählweise führt."
+      }
+    },
+    {
+      "chunkHash": "b9970cee038672c38d883d5b046a09e388a9c58d",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "entspannt, humorvoll",
+        "pace": "variabel, oft schnell",
+        "syntax": "häufig kurze, einfache Sätze; gelegentlich verschachtelt; abgebrochene Gedanken",
+        "discourse_markers": [
+          "also",
+          "na ja",
+          "genau",
+          "so",
+          "und",
+          "ja",
+          "ne",
+          "irgendwie"
+        ],
+        "favorite_words": [
+          "Kongress",
+          "Halle",
+          "Film",
+          "Leute",
+          "Sachen"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ne",
+          "ja"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch; z.B. 'das ist nicht dramatisch genug manche fürchten sie andere haben nur Respekt.'",
+        "attitude": "offen, neugierig, leicht sarkastisch",
+        "interaction_style": "kollegial, einladend, oft mit den Zuhörern sprechend",
+        "tics": [
+          "also",
+          "ja",
+          "ne",
+          "so"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Gut also dem die geneigten Hörer werden es schon geahnt haben",
+          "Das ist nicht dramatisch genug manche fürchten sie andere haben nur Respekt.",
+          "Ich finde aber krass dass wir diese Flächen jetzt schon, so mega in Anspruch nehmen.",
+          "Das ist sozusagen das Berliner Wort für Trinkhalle also da wo man sich trifft Zigaretten Gruft und Bier."
+        ],
+        "notes": "Der Sprecher verwendet häufig umgangssprachliche Ausdrücke und hat einen lockeren, humorvollen Stil. Die Satzstruktur ist oft unvollständig oder abgebrochen, was eine spontane, gesprächsähnliche Atmosphäre schafft."
+      }
+    },
+    {
+      "chunkHash": "0a90df234b6be7b000231329ab2ff38bdf883d7f",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "entspannt, humorvoll",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "häufig kurze und mittellange Sätze, gelegentlich verschachtelt; viele abgebrochene Sätze",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "genau",
+          "na ja",
+          "so",
+          "aber"
+        ],
+        "favorite_words": [
+          "funktioniert",
+          "cool",
+          "schön",
+          "irgendwas",
+          "Kongress"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ne",
+          "ja"
+        ],
+        "humor_style": "trocken mit Ironie; Beispiele: 'das Sozialexperiment war jetzt einfach zu cool', 'das kann man ja sicher weit denken'",
+        "attitude": "offen, neugierig, leicht sarkastisch; zeigt Interesse an Technik und Community",
+        "interaction_style": "dialogisch, oft direkt an Zuhörer gerichtet; nutzt Fragen und Aufforderungen",
+        "tics": [
+          "na ja",
+          "sozusagen",
+          "also",
+          "irgendwie"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "ihr müsst jetzt auch mal aufhören zu klingeln",
+          "das war erstmal hier sollst.",
+          "ja sorry hat nicht funktioniert",
+          "das bisschen schade aber wenn man sich anschaut",
+          "das kann man ja sicher weit denken",
+          "das hat alles mitgemessen die komplette Zahl",
+          "ja ich muss ein bisschen Eigenwerbung machen",
+          "das Ding ist letzte Woche hat er Podcasts hat er das Wort Podcast in den Mund genommen"
+        ],
+        "notes": "Der Sprecher verwendet häufig humorvolle und ironische Bemerkungen, um seine Punkte zu verdeutlichen. Er hat einen lockeren, aber informativen Stil und spricht oft in einem fließenden, dialogischen Rhythmus."
+      }
+    },
+    {
+      "chunkHash": "b331b23d78522e0c080f2b5bd77db8406fde4558",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "gesprächig, enthusiastisch",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "häufig kurze, abgebrochene Sätze; gelegentlich verschachtelte Strukturen",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "genau",
+          "aber",
+          "so",
+          "ne",
+          "okay"
+        ],
+        "favorite_words": [
+          "Spaß",
+          "Ideen",
+          "digital",
+          "Kunst",
+          "Technik"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "na ja",
+          "irgendwie",
+          "halt"
+        ],
+        "humor_style": "trocken, ironisch; z.B. 'Das macht total süchtig.'",
+        "attitude": "neugierig, spielerisch, manchmal skeptisch",
+        "interaction_style": "dialogisch, oft Fragen an den Gesprächspartner",
+        "tics": [
+          "also",
+          "ne",
+          "ja",
+          "sozusagen"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "kein erkennbares Code-Switching",
+        "examples": [
+          "Ja genau das ist ne kennt nicht jeder",
+          "Das ist halt quasi ein Pong Spiel",
+          "Das macht total süchtig.",
+          "Das weiß ich ja wiederum nicht also.",
+          "Das ist irre das was steht das da warum wusste ich das noch nie."
+        ],
+        "notes": "Der Sprecher verwendet oft humorvolle und ironische Bemerkungen, um seine Punkte zu verdeutlichen. Er hat eine spielerische Art, die durch häufige Fragen und Interaktionen mit dem Gesprächspartner verstärkt wird."
+      }
+    },
+    {
+      "chunkHash": "76e2d8def6f0139a5184ba7858b3b79a072266ee",
+      "analysis": {
+        "language": "de",
+        "register": "umgangssprachlich",
+        "tone": "informell und humorvoll",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "häufig kurze, abgebrochene Sätze; gelegentlich verschachtelt",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "ne",
+          "naja",
+          "genau",
+          "irgendwie",
+          "so"
+        ],
+        "favorite_words": [
+          "Klimbim",
+          "Taufname",
+          "Vodka",
+          "Scheiße",
+          "Fette Sau"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "na ja",
+          "irgendwie"
+        ],
+        "humor_style": "trocken mit Ironie; z.B. \"die fette Sau\" oder \"das war's\"",
+        "attitude": "entspannt, selbstironisch, humorvoll",
+        "interaction_style": "dialogisch, oft mit Fragen und Anspielungen an andere",
+        "tics": [
+          "na ja",
+          "genau",
+          "also"
+        ],
+        "swearing": "gelegentlich, z.B. \"Scheiße\"",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Genau Geburtsurkunde alter ganze Klimbim irgendwie zusammen gebacken",
+          "Hitze Halsweh was erwarte ich",
+          "Das ist ein Taufname weil so damals als ich noch geboren wurde",
+          "Finde ich aber jetzt nicht so schlimm",
+          "Das hast du jetzt die ganze Zeit laufen oder",
+          "Das ist ja happy Techno",
+          "Das ist für die ein verkanntes, fmfl verlor verloren gegangene Kulturtechnik",
+          "Ja aber das hat leider auch dazu geführt dass die Programmierer sich auch nicht mehr drum gekümmert haben"
+        ],
+        "notes": "Der Speaker verwendet oft umgangssprachliche Ausdrücke und hat einen humorvollen, selbstironischen Stil. Er neigt dazu, seine Gedanken spontan zu formulieren, was zu abgebrochenen Sätzen und häufigen Füllwörtern führt."
+      }
+    },
+    {
+      "chunkHash": "b562641644a1fe6e2fc7402ef636c98a113391b5",
+      "analysis": {
+        "language": "de",
+        "register": "informell, technikaffin",
+        "tone": "entspannt, manchmal sarkastisch",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "häufig kurze, abgebrochene Sätze; gelegentlich verschachtelte Strukturen",
+        "discourse_markers": [
+          "ja",
+          "also",
+          "na ja",
+          "hm",
+          "genau",
+          "so",
+          "irgendwie"
+        ],
+        "favorite_words": [
+          "karte",
+          "bus",
+          "kategorie",
+          "modul",
+          "standard"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "ja",
+          "na ja",
+          "hm"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch; z.B. 'das ding hat räder' oder 'schnäppchen'",
+        "attitude": "neugierig, kritisch, manchmal frustriert über technische Entwicklungen",
+        "interaction_style": "dialogisch, oft rhetorische Fragen, einladend zur Diskussion",
+        "tics": [
+          "so",
+          "ja",
+          "na ja"
+        ],
+        "swearing": "keine direkten Schimpfwörter, aber umgangssprachliche Ausdrücke wie 'scheiße'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "das ist mehr oder weniger du nimmst einfach zwei slots für dich in anspruch",
+          "die frage die wir uns ja eigentlich am anfang immer gestellt haben ist",
+          "das ding macht in der aktuellen ausbaustufe pro riss und pro",
+          "ja aber so screen estate da werden die computer nochmal auf eine art und weise benutzbar ist einfach schön",
+          "also ich find zehn minuten ehrlich gesagt immer noch viel zu lang"
+        ],
+        "notes": "Der Sprecher verwendet häufig technische Begriffe und hat eine lockere, manchmal sarkastische Art, die Themen zu präsentieren. Es gibt eine Mischung aus informellen und technischen Ausdrücken, die auf seine Expertise hinweisen."
+      }
+    },
+    {
+      "chunkHash": "777517a68dfb329306efa5bd42d08ae5a91c20a0",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "humorvoll und nachdenklich",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "häufig kurze und mittellange Sätze, gelegentlich verschachtelt, oft abgebrochen",
+        "discourse_markers": [
+          "also",
+          "na ja",
+          "genau",
+          "irgendwie",
+          "sozusagen",
+          "und dann",
+          "was ich sagen will",
+          "aber"
+        ],
+        "favorite_words": [
+          "hafermilch",
+          "milch",
+          "getreide",
+          "kuh",
+          "müsli"
+        ],
+        "fillers": [
+          "äh",
+          "so",
+          "ne",
+          "also",
+          "irgendwie"
+        ],
+        "humor_style": "trocken mit Ironie und Übertreibung, z.B. 'das ist ja', 'das war's', 'geiler schwein kram'",
+        "attitude": "offen, neugierig, humorvoll, manchmal skeptisch",
+        "interaction_style": "dialogisch, oft mit rhetorischen Fragen und direkter Ansprache des Publikums",
+        "tics": [
+          "äh",
+          "so",
+          "ne",
+          "also"
+        ],
+        "swearing": "keine expliziten Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "also kleiner audio clips ausschnitte aus den sendungen gebracht",
+          "das macht mich gerade total wuschig",
+          "ich habe kein laktoseintoleranz ich mag die kuh",
+          "das ist ja einfach der brüller in müsli",
+          "das ist ja auch schon spät vier stunden schon fast zu zusammen"
+        ],
+        "notes": "Der Sprecher zeigt eine lockere und humorvolle Art, mit gelegentlichen persönlichen Anekdoten und Gedanken zu interagieren. Er verwendet oft Vergleiche und Metaphern, um seine Punkte zu verdeutlichen."
+      }
+    },
+    {
+      "chunkHash": "a7072d5212007fb20db032b26b2187b280c77a1c",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "nachdenklich und humorvoll",
+        "pace": "unregelmäßig, teils schnell, teils langsamer mit vielen Pausen",
+        "syntax": "häufige Verwendung von kurzen und mittellangen Sätzen, gelegentlich verschachtelt; viele Satzabbrüche",
+        "discourse_markers": [
+          "ja",
+          "also",
+          "naja",
+          "irgendwie",
+          "so",
+          "und",
+          "aber"
+        ],
+        "favorite_words": [
+          "mega",
+          "toll",
+          "geil",
+          "schwierig",
+          "einfach"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "naja",
+          "irgendwie"
+        ],
+        "humor_style": "trockener Humor, gelegentlich ironisch; Beispiele: 'das ist ja irgendwie ber scheiße' und 'das ding ist auch schwerer größer und so weiter'",
+        "attitude": "offen, reflektiert, manchmal frustriert über technische Themen; zeigt eine gewisse Begeisterung für Technologie",
+        "interaction_style": "dialogisch, oft an das Publikum gerichtet, verwendet Fragen und Bestätigungen",
+        "tics": [
+          "ja",
+          "also",
+          "irgendwie",
+          "naja"
+        ],
+        "swearing": "gelegentlich, z.B. 'scheiße', 'fucking'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "das ist wirklich richtig geil",
+          "mega gut weil es auch einfach ein neues mittlerweile auch kopiert ist konzept ist",
+          "ich habe mir ein iphone zehn elf pro sorry",
+          "das ist einfach praktisch",
+          "ich finde dieses pausen reinschneiden das bringt am ende irgendwie auch echt nicht so viel"
+        ],
+        "notes": "Der Sprecher verwendet häufig Wiederholungen und Aufzählungen, was den Redefluss dynamisch, aber manchmal auch verwirrend macht. Er zeigt eine persönliche Verbindung zu den Themen und spricht oft in einem erzählerischen Stil."
+      }
+    },
+    {
+      "chunkHash": "a363483bd8fdca1ce92571ad2d5a497182a64481",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "persönlich und nachdenklich",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "häufig kurze, teilweise abgebrochene Sätze; gelegentlich verschachtelte Strukturen",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "na ja",
+          "genau",
+          "irgendwie",
+          "sozusagen"
+        ],
+        "favorite_words": [
+          "Angst",
+          "Dynamik",
+          "Plattform",
+          "Kopfhörer",
+          "Apple"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ne",
+          "irgendwie"
+        ],
+        "humor_style": "trocken mit gelegentlicher Ironie; z.B. \"das wär's gewesen leute das war geil\"",
+        "attitude": "entspannt und reflektiert, zeigt persönliche Erfahrungen und Meinungen",
+        "interaction_style": "dialogisch, oft an das Publikum gerichtet; nutzt Fragen und Aufforderungen",
+        "tics": [
+          "na ja",
+          "also",
+          "genau",
+          "irgendwie"
+        ],
+        "swearing": "gelegentlich, z.B. \"scheiße\"",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "weil wir haben's verrecken nicht einfallen",
+          "ich hab da so ein gutes gefühl",
+          "das läuft alles in die richtige richtung",
+          "das ist halt so eigentlich der typische plattform zyklus",
+          "ich hab das gefühl dass dem so sein könnte"
+        ],
+        "notes": "Der Sprecher verwendet oft persönliche Anekdoten und reflektiert über eigene Erfahrungen. Sein Stil ist locker und er nutzt häufig umgangssprachliche Ausdrücke."
+      }
+    },
+    {
+      "chunkHash": "361450e5b97af9ccb97678d7f30c3dbb20a4878d",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "entspannt, humorvoll",
+        "pace": "variabel, oft schnell mit langen Passagen",
+        "syntax": "häufig lange, verschachtelte Sätze, gelegentlich abgebrochen",
+        "discourse_markers": [
+          "aber",
+          "also",
+          "genau",
+          "naja",
+          "so"
+        ],
+        "favorite_words": [
+          "cool",
+          "geil",
+          "Scheißteil",
+          "irgendwie"
+        ],
+        "fillers": [
+          "äh",
+          "ja",
+          "so",
+          "also"
+        ],
+        "humor_style": "trocken, ironisch, gelegentlich übertrieben",
+        "attitude": "optimistisch, engagiert, manchmal sarkastisch",
+        "interaction_style": "direkt, anekdotisch, oft mit Fragen an die Zuhörer",
+        "tics": [
+          "also",
+          "genau",
+          "naja"
+        ],
+        "swearing": "gelegentlich, z.B. 'Scheißteil', 'Scheiße'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Aber das bringt mich gleich noch auf ein anderes, vollkommen unrelated Topic.",
+          "Ich bin der Neue.",
+          "Hast du es noch alle?",
+          "Das finde ich halt irgendwie ganz geil.",
+          "Das ist alles ganz schön schwierig.",
+          "Das Lustige ist, es liegen auch glaube ich gerade die Unterlagen aus."
+        ],
+        "notes": "Der Sprecher verwendet oft umgangssprachliche Ausdrücke und hat einen lockeren, persönlichen Stil. Humor wird durch Ironie und Übertreibungen vermittelt, und es gibt eine klare Verbindung zu aktuellen Themen."
+      }
+    },
+    {
+      "chunkHash": "e6ead6330cf4af22ec5b7f43147d44829a11cf38",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "enthusiastisch, humorvoll",
+        "pace": "variabel, oft schnell, gelegentlich langsamer",
+        "syntax": "häufig lange, verschachtelte Sätze, gelegentlich abgebrochen",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "so",
+          "gut",
+          "aber",
+          "irgendwie",
+          "das ist ja",
+          "und",
+          "also",
+          "nein"
+        ],
+        "favorite_words": [
+          "cool",
+          "geil",
+          "bekloppt",
+          "interessant",
+          "extrem",
+          "einfach"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "irgendwie"
+        ],
+        "humor_style": "trocken, ironisch, gelegentlich übertrieben; z.B. 'was zur hölle' und 'bekloppt'",
+        "attitude": "offen, neugierig, kritisch, humorvoll",
+        "interaction_style": "dialogisch, oft rhetorische Fragen, persönliche Anekdoten",
+        "tics": [
+          "also",
+          "ja",
+          "so",
+          "irgendwie"
+        ],
+        "swearing": "gelegentlich, z.B. 'bekloppt'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "ich bleibe jetzt nochmal bei space",
+          "der haut nicht weniger als jeden tag ein zehn minüter raus",
+          "das ist sehr cool er sitzt immer vor der kamera",
+          "das ding ist du setzt dich da nur rein und die ganze system sprache ist",
+          "das ist einfach nicht schön ihr zeigt mir einfach direkt dass ihr das alles gar nicht verstanden habt"
+        ],
+        "notes": "Der Sprecher verwendet häufig persönliche Anekdoten und Beispiele, um seine Punkte zu verdeutlichen. Er hat einen flüssigen, aber manchmal auch sprunghaften Erzählstil, der durch humorvolle Bemerkungen und kritische Anmerkungen ergänzt wird."
+      }
+    },
+    {
+      "chunkHash": "02699603966ac9b19d27390d51ec0dcba61b209c",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "entspannt, nachdenklich",
+        "pace": "variabel, oft fließend mit gelegentlichen Pausen",
+        "syntax": "meist einfache bis mittellange Sätze, gelegentlich verschachtelt; häufige Satzabbrüche",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "genau",
+          "und",
+          "so",
+          "eigentlich",
+          "irgendwie"
+        ],
+        "favorite_words": [
+          "Maske",
+          "Podcast",
+          "Erfahrung",
+          "Idee",
+          "Problem"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "irgendwie",
+          "ja"
+        ],
+        "humor_style": "trockener Humor, gelegentlich ironisch; Beispiele: \"Scheiß drauf hauptsache dieser podcast bin ich komplett zufrieden mit mehr brauche ich nicht\"",
+        "attitude": "offen, selbstreflektiert, humorvoll; zeigt eine gewisse Gelassenheit",
+        "interaction_style": "interaktiv, oft an andere gerichtet; verwendet Fragen und Aufforderungen",
+        "tics": [
+          "äh",
+          "so",
+          "ja"
+        ],
+        "swearing": "gelegentlich, z.B. \"Scheiß drauf\"",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Also meine hochachtung wenn du dir das komplette erarbeiten kannst",
+          "Ich habe mich schon mal an so an anleitung gehalten",
+          "Das ist einfach so ein so ein so ein priester für irgendwelche alte fokus right hardware",
+          "Ich mache euch gerne alle masken aber ich habe keinen stoff"
+        ],
+        "notes": "Der Sprecher zeigt eine entspannte und humorvolle Haltung, verwendet häufig Füllwörter und Diskursmarker, was auf eine informelle Gesprächsweise hinweist. Er neigt dazu, Gedanken während des Sprechens zu entwickeln, was zu Satzabbrüchen und Wiederholungen führt."
+      }
+    },
+    {
+      "chunkHash": "2656e518461393ba516a677a3f095e3a068e6078",
+      "analysis": {
+        "language": "de",
+        "register": "informell, technisch",
+        "tone": "enthusiastisch, nachdenklich",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "gemischte Satzstrukturen, häufig lange und komplexe Sätze, gelegentlich abgebrochen",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "genau",
+          "übrigens",
+          "meiner Meinung nach",
+          "sozusagen"
+        ],
+        "favorite_words": [
+          "Elektro",
+          "Roller",
+          "Führerschein",
+          "Modell",
+          "Kumpan"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "irgendwie",
+          "glaube ich"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch, z.B. \"das ist halt schon eine ganz andere Nummer\"",
+        "attitude": "begeistert von Technik, kritisch gegenüber bestehenden Lösungen, pragmatisch",
+        "interaction_style": "dialogisch, oft rhetorische Fragen, direkte Ansprache des Gesprächspartners",
+        "tics": [
+          "ja",
+          "also",
+          "sozusagen"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Darf ich schon. Warum sollte ich das nicht tun?",
+          "Das schlägt alles, Auto, Straßenbahn, Bus, alles, Fahrrad, kann nichts mithalten.",
+          "Das ist jetzt nicht unbedingt eine Rakete so, aber das beschleunigt einen ausreichend.",
+          "Ich hoffe, dass die Companions da endlich mal an den Start kommen mit dem ganzen Kram."
+        ],
+        "notes": "Der Sprecher verwendet häufig technische Begriffe und zeigt eine klare Begeisterung für Elektrofahrzeuge. Er hat einen flüssigen, aber manchmal auch sprunghaften Erzählstil, der durch persönliche Anekdoten und Meinungen ergänzt wird."
+      }
+    },
+    {
+      "chunkHash": "b1418a2e8aa020613d02d65545026478670ad31c",
+      "analysis": {
+        "language": "de",
+        "register": "umgangssprachlich",
+        "tone": "informell, humorvoll",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "häufig kurze, abgebrochene Sätze; gelegentlich verschachtelt",
+        "discourse_markers": [
+          "äh",
+          "also",
+          "ja",
+          "ne",
+          "gut",
+          "so",
+          "na ja",
+          "aber"
+        ],
+        "favorite_words": [
+          "Konto",
+          "Spenden",
+          "Überweisung",
+          "Features",
+          "Chaos Radio"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "ja",
+          "ne",
+          "so"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch; z.B. 'das ist natürlich totaler Unsinn und Unfug'",
+        "attitude": "entspannt, leicht sarkastisch, humorvoll",
+        "interaction_style": "direkt, oft rhetorische Fragen; spricht das Publikum an",
+        "tics": [
+          "äh",
+          "also",
+          "ja",
+          "ne"
+        ],
+        "swearing": "gelegentlich, z.B. 'dumm und dusselig', 'Scheiß', 'bekloppten'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Wenn du auf Google Oers da hinfliegst, dann müsstest du das eigentlich äh finden.",
+          "Das äh würde ich dann gerne mal sehen, weil alle Bilder, die ich gesehen habe, war irgendwie äh ein Dreieck.",
+          "Ja, ist natürlich total verboten, sowas zu machen, ne.",
+          "Ich habe äh auf Meterebene im Edern auch noch einen längeren Blogpost dazu geschrieben.",
+          "Das ist ja auch der Grund, warum ich irgendwie dieses andere Konto verlassen muss, weil mir da etwas heftige Kontogebühren äh drohten."
+        ],
+        "notes": "Der Sprecher nutzt häufig Füllwörter und Diskursmarker, was dem Gespräch einen informellen, fließenden Charakter verleiht. Humor wird durch Ironie und Übertreibung vermittelt, und die Interaktion mit dem Publikum ist direkt und einladend."
+      }
+    },
+    {
+      "chunkHash": "e4673cbbfa3151a61d6d1e5912ed8814035376ed",
+      "analysis": {
+        "language": "de",
+        "register": "umgangssprachlich",
+        "tone": "informell, humorvoll",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "häufig kurze, abgebrochene Sätze; gelegentlich verschachtelt",
+        "discourse_markers": [
+          "ähm",
+          "also",
+          "ja",
+          "ne",
+          "so",
+          "aber",
+          "weil"
+        ],
+        "favorite_words": [
+          "Mikrofon",
+          "Setup",
+          "Technologie",
+          "Internet",
+          "Audio"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ne",
+          "ja"
+        ],
+        "humor_style": "trocken, ironisch; Beispiele: 'Das ist alles nur sekundär.' und 'Ich bin der Mann der Stimme, ich finde Audio einfach geiler.'",
+        "attitude": "entspannt, selbstbewusst, humorvoll; zeigt eine Vorliebe für Technik und Audio",
+        "interaction_style": "interaktiv, oft rhetorische Fragen, bezieht Zuhörer ein",
+        "tics": [
+          "äh",
+          "so",
+          "ne"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Ringste Investition, ich meine, wenn er jetzt hier irgendwie das Set mal mit siebenhundert Euro mal vier ja, vielleicht bist du also auch schon bei knapp dreitausend Euro.",
+          "Das ist halt so, da gehe ich nicht so richtig konform.",
+          "Ich mache auch nie für Selfies. Das kann ich auch nicht. Wie Lüge. Was heißt denn hier Lüge.",
+          "Das ne, weil am Anfang war ja noch so hier mit äh Bajonettverschluss und so weiter, das das war in der Tat nicht so geil.",
+          "Ich brauch nur ideal net. Das ist das was man braucht."
+        ],
+        "notes": "Der Sprecher verwendet oft umgangssprachliche Ausdrücke und zeigt eine lockere, humorvolle Art, die Zuhörer aktiv einzubeziehen. Es gibt eine Vorliebe für technische Themen, die er mit persönlichen Anekdoten und Meinungen verbindet."
+      }
+    },
+    {
+      "chunkHash": "e5ebd25b11a198a92a099fd023eccdda16fa8fda",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "erzählerisch, nostalgisch",
+        "pace": "variabel, oft schnell mit langen Passagen",
+        "syntax": "häufig lange, verschachtelte Sätze mit vielen Einschüben, gelegentlich abgebrochen",
+        "discourse_markers": [
+          "so",
+          "also",
+          "ne",
+          "ja",
+          "aber",
+          "und",
+          "weißt du"
+        ],
+        "favorite_words": [
+          "Villa",
+          "Schreibtischnummer",
+          "Multi-User-Welt",
+          "Leute",
+          "Technik"
+        ],
+        "fillers": [
+          "äh",
+          "so",
+          "ne",
+          "also"
+        ],
+        "humor_style": "trocken mit ironischen Untertönen, z.B. \"was zum Henker machen diese Leute in unserer Villa\"",
+        "attitude": "enthusiastisch, nostalgisch, humorvoll",
+        "interaction_style": "direkt, oft an das Publikum gerichtet, Fragen an Zuhörer",
+        "tics": [
+          "äh",
+          "so",
+          "ne"
+        ],
+        "swearing": "keine direkten Schimpfwörter, aber umgangssprachliche Ausdrücke wie \"scheiß Schreibtischnummer\"",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Wir sind einfach ein bisschen durchgedreht so.",
+          "Ich meine, wir waren jung und wir brauchten das Geld nicht wirklich.",
+          "Das war so die Situation damals und wir wollten ja einen Telefondienst machen.",
+          "Das System war aber immer am Leben und das System war immer asynchron.",
+          "Komm schon, komm schon.",
+          "Das war so cool."
+        ],
+        "notes": "Der Sprecher verwendet viele persönliche Anekdoten und hat eine lebendige, bildhafte Sprache. Er spricht oft in einem erzählerischen Stil, der das Publikum einbezieht."
+      }
+    },
+    {
+      "chunkHash": "2e6d0a61578860d1b152dbb03d3a4f13b977035b",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "nachdenklich, enthusiastisch",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "hauptsächlich kurze bis mittellange Sätze, gelegentlich verschachtelt, oft abgebrochen",
+        "discourse_markers": [
+          "also",
+          "genau",
+          "na ja",
+          "so",
+          "äh",
+          "das heißt",
+          "irgendwie",
+          "glaube ich",
+          "kann man vielleicht auch mal drauf kommen"
+        ],
+        "favorite_words": [
+          "Clubhaus",
+          "Audiostream",
+          "Möglichkeiten",
+          "Plattform",
+          "Feature"
+        ],
+        "fillers": [
+          "äh",
+          "so",
+          "also",
+          "na ja",
+          "genau"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch, z.B. \"totaler Blödsinn\" oder \"das wäre dann der Raum wäre tot\"",
+        "attitude": "offen, experimentierfreudig, kritisch gegenüber bestehenden Strukturen",
+        "interaction_style": "dialogisch, oft rhetorische Fragen, einladend zur Diskussion",
+        "tics": [
+          "äh",
+          "so",
+          "genau",
+          "na ja"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Anzeichen von Code-Switching",
+        "examples": [
+          "Also es gibt da sozusagen so ein Bestrafungslevel.",
+          "Ich weiß nicht, ob das schon zum Einsatz gekommen ist.",
+          "Das heißt, wenn jemand dann was veröffentlicht und sozusagen sich darauf, darauf Bezug genommen wird.",
+          "Stell mal vor, du würdest jetzt Audiowerbung, Radiojingles, irgendwie einen Raum reinwerfen, das ist der Raum wäre tot.",
+          "Ich denke, dass man halt auch Themen, machen kann, die gar nicht so banal sind."
+        ],
+        "notes": "Der Sprecher verwendet häufig Diskursmarker und Füllwörter, um Gedanken zu strukturieren und den Fluss des Gesprächs aufrechtzuerhalten. Er zeigt eine kritische Haltung gegenüber bestehenden Plattformen und ist offen für neue Ideen und Konzepte."
+      }
+    },
+    {
+      "chunkHash": "5f792d8209162831282839cb420fcb3dccb096dd",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "humorvoll, selbstironisch",
+        "pace": "variabel, oft schnell mit kurzen Pausen",
+        "syntax": "häufig kurze, abgebrochene Sätze; gelegentlich verschachtelt",
+        "discourse_markers": [
+          "äh",
+          "also",
+          "ja",
+          "genau",
+          "ne",
+          "so",
+          "und",
+          "aber"
+        ],
+        "favorite_words": [
+          "Spiel",
+          "Pandemie",
+          "Programm",
+          "Leute",
+          "Dinge"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "ja",
+          "ne",
+          "so"
+        ],
+        "humor_style": "selbstironisch, trocken, gelegentlich ironisch; Beispiel: 'Ich scheitere ja eigentlich an allen Spielen.'",
+        "attitude": "offen, ehrlich, selbstkritisch; zeigt eine entspannte Haltung",
+        "interaction_style": "interaktiv, oft mit Fragen an die Zuhörer; nutzt Humor zur Auflockerung",
+        "tics": [
+          "äh",
+          "also",
+          "ne"
+        ],
+        "swearing": "gelegentlich, z.B. 'scheiße'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Läuft halt noch mit so einem Ami-Account durch die Gegend.",
+          "Das ist, glaube ich, so eine.",
+          "Ich scheitere ja eigentlich an allen Spielen.",
+          "Ich hab's bestimmt nicht zu Ende gespielt, also sowas mache ich eigentlich nicht.",
+          "Das finde ich doch dann wieder nicht.",
+          "Ich meine, auf eine gewisse Art und Weise habt ihr das ja auch gemacht."
+        ],
+        "notes": "Der Sprecher verwendet häufig Füllwörter und Diskursmarker, was zu einem lockeren, gesprächigen Stil beiträgt. Humor wird oft durch Selbstironie und trockene Bemerkungen vermittelt."
+      }
+    },
+    {
+      "chunkHash": "d9d5a8e94dcaaa50ab54b6439d117a73b05d2cec",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "gesprächig, analytisch",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "gemischte Satzstrukturen, häufige Unterbrechungen und Einschübe",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "naja",
+          "äh",
+          "genau",
+          "so",
+          "okay"
+        ],
+        "favorite_words": [
+          "Tastatur",
+          "App",
+          "Keyboard",
+          "iPad",
+          "Mac"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "naja",
+          "so",
+          "ja"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch, Wortspiele (z.B. 'Schnapsatmung')",
+        "attitude": "enthusiastisch, analytisch, leicht kritisch",
+        "interaction_style": "dialogisch, oft Fragen an Gesprächspartner, gelegentlich unterbrechend",
+        "tics": [
+          "äh",
+          "also",
+          "naja"
+        ],
+        "swearing": "keine vulgären Ausdrücke, gelegentlich umgangssprachlich",
+        "code_switching": "kein Code-Switching erkennbar",
+        "examples": [
+          "wenn ich Cross-Plattform sage, dann meine ich auf meinem iOS-Device und auf meinem Macintosh-Device.",
+          "Das bringt doch nichts dagegen, dass man etwas mit der Tastatur bedienen kann.",
+          "Finde dein Leben ohne Escape-Taste ist möglich, aber sinnlos.",
+          "Ich meine, beim iPad weiß ich, wie ihr eure iPads benutzt.",
+          "Das ist immer das Erste, was ich einschalte, wenn ich an einem neuen Computer bin."
+        ],
+        "notes": "Der Sprecher verwendet eine Vielzahl von Diskursmarkern und Füllwörtern, was auf eine gesprächige und informelle Art des Sprechens hinweist. Er zeigt eine klare Vorliebe für technische Themen und hat eine analytische Herangehensweise an Diskussionen."
+      }
+    },
+    {
+      "chunkHash": "52e5ddbb8c13f2633b63b11e036c0bd6dc44117b",
+      "analysis": {
+        "language": "de",
+        "register": "umgangssprachlich",
+        "tone": "informell, nachdenklich",
+        "pace": "variabel, oft flüssig mit kurzen Pausen",
+        "syntax": "meist kurze bis mittellange Sätze, gelegentlich abgebrochen oder verschachtelt",
+        "discourse_markers": [
+          "äh",
+          "also",
+          "so",
+          "ne",
+          "ja",
+          "und",
+          "aber",
+          "weil",
+          "irgendwie"
+        ],
+        "favorite_words": [
+          "Device",
+          "Apple ID",
+          "Bluetooth",
+          "Feature",
+          "Prozessor",
+          "MacBook",
+          "Uhr"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ne",
+          "ja",
+          "irgendwie"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch, z.B. \"Sportarmband aufgegangen, echt\"",
+        "attitude": "entspannt, neugierig, leicht skeptisch",
+        "interaction_style": "dialogisch, oft rhetorische Fragen, Einbeziehung der Zuhörer",
+        "tics": [
+          "äh",
+          "so",
+          "ne"
+        ],
+        "swearing": "keine",
+        "code_switching": "gelegentlich englische Begriffe wie 'on the move', 'Bluetooth', 'Device'",
+        "examples": [
+          "Wenn du sonst kein äh IOS, die weiß, was auf deine Apple ID äh angemeldet ist, dabei hast",
+          "Das jetzt so on the move gleich so funktioniert von ich fange an es zu bewegen",
+          "Ich meine, das ist immer auch diese Balance bei dem System zwischen wie gut kannst du es eben auch missbrauchen?",
+          "Ich habe ja so ein Device.",
+          "Ich fand die immer ein bisschen albern, weil die muss man so aufribbeln und dann so rausziehen."
+        ],
+        "notes": "Der Sprecher verwendet häufig Füllwörter und Diskursmarker, was dem Gespräch einen informellen und flüssigen Charakter verleiht. Er zeigt eine entspannte Haltung und bezieht die Zuhörer aktiv in seine Ausführungen ein."
+      }
+    },
+    {
+      "chunkHash": "3ac3613566891970ac0264cb6d80eb733e3c4756",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "nachdenklich, kritisch",
+        "pace": "variabel, oft schnell",
+        "syntax": "gemischte Satzstrukturen, häufig abgebrochene Sätze",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "naja",
+          "so",
+          "aber",
+          "und",
+          "irgendwie"
+        ],
+        "favorite_words": [
+          "geil",
+          "Problem",
+          "Lärm",
+          "Motorrad",
+          "Software"
+        ],
+        "fillers": [
+          "äh",
+          "hm",
+          "sozusagen",
+          "irgendwie"
+        ],
+        "humor_style": "trocken, ironisch, gelegentlich übertrieben (z.B. 'die Bürokratie in Deutschland ist denkmalgeschützt')",
+        "attitude": "skeptisch, reflektierend, manchmal frustriert",
+        "interaction_style": "dialogisch, oft rhetorische Fragen, direkte Ansprache",
+        "tics": [
+          "also",
+          "ja",
+          "naja",
+          "so"
+        ],
+        "swearing": "gelegentlich, z.B. 'scheiße'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "also irgendwann hat man es dann auch, ignoriert man es auch und vielleicht ist es auch toll, keine Ahnung.",
+          "Ich finde diese beknatternde Motorrad, ich hatte ja nie so einen Zugang zu Motorrädern an sich.",
+          "Das ist so Gerede. Ja das ist so wenn man Spaß dran hat andere Leute zu ärgern dann ist das toll.",
+          "Ich verstehe ja die Leute nicht, die so Java machen. Java? Zum Beispiel.",
+          "Ich wollte mich wieder irgendwo zu Hause fühlen."
+        ],
+        "notes": "Der Sprecher zeigt eine kritische Haltung gegenüber aktuellen Technologien und deren Implementierungen, kombiniert mit persönlichen Anekdoten und Reflexionen über eigene Erfahrungen."
+      }
+    },
+    {
+      "chunkHash": "db9f60cb97a052b39736c391ab0901b42844cbb5",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "analytisch, nachdenklich",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "meist komplexe, verschachtelte Sätze, gelegentlich abgebrochene Gedanken",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "so",
+          "irgendwie",
+          "quasi",
+          "das ist ja",
+          "und dann",
+          "aber"
+        ],
+        "favorite_words": [
+          "Modell",
+          "Daten",
+          "Intelligenz",
+          "Machine Learning",
+          "Deep Learning"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "irgendwie"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch, z.B. 'fucking Kühlschrank'",
+        "attitude": "offen, neugierig, kritisch",
+        "interaction_style": "dialogisch, einladend, oft Fragen an den Gesprächspartner",
+        "tics": [
+          "also",
+          "ja",
+          "sozusagen"
+        ],
+        "swearing": "gelegentlich, z.B. 'fucking Kühlschrank'",
+        "code_switching": "keine signifikanten Hinweise auf Code-Switching",
+        "examples": [
+          "Das ist ja sozusagen das was unsere Vorstellung von Intelligenz ist.",
+          "Das weiß ich aber jetzt selber ehrlich gesagt nicht.",
+          "Das ist ja im Prinzip jetzt der neue Shit.",
+          "Das ist schonmal ein ganz interessanter Einstieg.",
+          "Ich hab mir jetzt gerade diesen Edge runtergeladen."
+        ],
+        "notes": "Der Sprecher verwendet häufig umgangssprachliche Ausdrücke und hat einen lockeren, aber informativen Stil. Er tendiert dazu, seine Gedanken in langen Sätzen auszudrücken, die oft mit Füllwörtern und Diskursmarkern durchzogen sind."
+      }
+    },
+    {
+      "chunkHash": "ec1a9b26556178b25dfc564b55f857f728e18e4b",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "humorvoll, selbstironisch",
+        "pace": "variabel, oft schnell mit gelegentlichen Pausen",
+        "syntax": "überwiegend kurze, einfache Sätze; gelegentlich längere, verschachtelte Sätze; abgebrochene Gedanken",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "ne",
+          "aber",
+          "und",
+          "so",
+          "mh",
+          "naja",
+          "gut"
+        ],
+        "favorite_words": [
+          "Nerd",
+          "Musik",
+          "Gitarrenmusik",
+          "Konzert",
+          "cool",
+          "krass"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ja",
+          "ne",
+          "mh"
+        ],
+        "humor_style": "selbstironisch, Wortspiele, Übertreibungen; z.B. 'Rentner Gang', 'Kämpfer Profiler, klingt wie so ein Wohnmobil.'",
+        "attitude": "offen, neugierig, humorvoll, selbstkritisch",
+        "interaction_style": "interaktiv, oft Fragen an Gesprächspartner, humorvolle Einwürfe",
+        "tics": [
+          "also",
+          "ja",
+          "mh",
+          "naja"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Hah, hah, hah, hallo, hallo, hier ist die Freak Show, schönen guten Abend.",
+          "Was bist du denn für ein Nerd?",
+          "Ich äußere mich da nicht weit dazu.",
+          "Wie gut kannst du Gitarre spielen?",
+          "Das war ein bisschen unfaire Entscheidung.",
+          "Ich bitte dich, ich vergöttere Mark Knopfler.",
+          "Das ist aber auch was.",
+          "Ich weiß nicht, ob man das gemacht haben muss.",
+          "Das war's. Dann ging das Konzert irgendwie weiter."
+        ],
+        "notes": "Der Sprecher verwendet häufig Humor und Selbstironie, um die Stimmung aufzulockern. Er stellt viele Fragen an seine Gesprächspartner und bringt persönliche Anekdoten ein, was eine interaktive und ansprechende Gesprächsatmosphäre schafft."
+      }
+    },
+    {
+      "chunkHash": "79c919c586056afd72a80dbfa217418358a41ba8",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "analytisch, humorvoll, skeptisch",
+        "pace": "variabel, oft schnell, mit längeren Passagen",
+        "syntax": "häufig komplexe und verschachtelte Sätze, gelegentlich abgebrochen",
+        "discourse_markers": [
+          "also",
+          "naja",
+          "gut",
+          "ja",
+          "aber",
+          "so",
+          "und",
+          "also wie auch immer"
+        ],
+        "favorite_words": [
+          "klar",
+          "schon",
+          "einfach",
+          "irgendwie",
+          "also"
+        ],
+        "fillers": [
+          "äh",
+          "so",
+          "naja",
+          "also",
+          "irgendwie"
+        ],
+        "humor_style": "trocken, ironisch, gelegentlich übertreibend (z.B. 'Elon Musk der halt irgendwie ein Vollidiot ist')",
+        "attitude": "skeptisch, kritisch, manchmal resigniert, aber auch neugierig",
+        "interaction_style": "dialogisch, oft rhetorische Fragen, einladend zur Diskussion",
+        "tics": [
+          "ja",
+          "also",
+          "naja",
+          "gut"
+        ],
+        "swearing": "keine direkten Schimpfwörter, aber abwertende Ausdrücke wie 'Vollidiot'",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "das dürfte ja schon durchgedrungen sein",
+          "die kann man nicht hoch genug schätzen",
+          "das ist schon irgendwie schon so eine Sache",
+          "das ist einfach geil",
+          "ich hab jetzt, bin jetzt nicht dabei eingeschlafen, aber auch nur knapp",
+          "das mag so ein bisschen Selbstverarschung sein",
+          "ich hab die Story glaub ich schon mal erzählt"
+        ],
+        "notes": "Der Sprecher hat einen sehr persönlichen, reflektierenden Stil, der oft durch ironische Bemerkungen und eine kritische Haltung gegenüber aktuellen Themen geprägt ist. Er verwendet häufig Füllwörter und Diskursmarker, um seine Gedanken zu strukturieren und den Gesprächsfluss aufrechtzuerhalten."
+      }
+    },
+    {
+      "chunkHash": "3f1ad8d5b7274428826da49585aacd0fee89ffa9",
+      "analysis": {
+        "language": "de",
+        "register": "umgangssprachlich",
+        "tone": "informell, frustriert, humorvoll",
+        "pace": "variabel, teils schnell, teils nachdenklich",
+        "syntax": "gemischt; häufig kurze, abgebrochene Sätze; gelegentlich verschachtelte Strukturen",
+        "discourse_markers": [
+          "naja",
+          "also",
+          "genau",
+          "so",
+          "ja",
+          "okay",
+          "aber",
+          "irgendwie",
+          "das heißt",
+          "das stimmt"
+        ],
+        "favorite_words": [
+          "SSD",
+          "Terabyte",
+          "Euro",
+          "Kauf",
+          "Mac Pro",
+          "Tastatur"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "naja",
+          "irgendwie"
+        ],
+        "humor_style": "trocken, ironisch; Beispiele: 'das ist wirklich eine Verbrechheit', 'das kann einfach nicht sein', 'das ist einfach, ich weiß nicht.'",
+        "attitude": "skeptisch, frustriert über Preise, aber auch humorvoll und selbstironisch",
+        "interaction_style": "direkt, oft rhetorische Fragen, gelegentlich in Dialogform mit dem Chat",
+        "tics": [
+          "äh",
+          "naja",
+          "also"
+        ],
+        "swearing": "ja, verwendet 'fucking' in einem frustrierten Kontext",
+        "code_switching": "gelegentlich, z.B. 'as we speak'",
+        "examples": [
+          "das tut schon mal ein bisschen weh",
+          "das ist so eine Unverschämtheit",
+          "ich kann mir ja einfach so eine NVMe SSD kaufen",
+          "das ist alles frech",
+          "das ist einfach ein Scam oder nicht?",
+          "ich bin mir noch nicht so sicher",
+          "Haben kommt von behalten",
+          "das ist ganz toll",
+          "ich bin da picky",
+          "das ist ja auch wieder so eine Ausgabe vielleicht"
+        ],
+        "notes": "Der Sprecher zeigt eine Mischung aus Frustration über technische Preise und eine humorvolle, selbstironische Haltung. Er verwendet häufig umgangssprachliche Ausdrücke und hat einen lockeren, aber auch kritischen Stil."
+      }
+    },
+    {
+      "chunkHash": "b27cd36f391d9df34192429aa58546dac6faffa6",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "humorvoll, entspannt",
+        "pace": "variabel, oft schnell",
+        "syntax": "meist kurze bis mittellange Sätze, gelegentlich verschachtelt, oft abgebrochen",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "genau",
+          "aber",
+          "so",
+          "naja",
+          "weißt du",
+          "achso",
+          "und",
+          "das heißt"
+        ],
+        "favorite_words": [
+          "cool",
+          "geil",
+          "also",
+          "irgendwie",
+          "definitiv",
+          "super"
+        ],
+        "fillers": [
+          "äh",
+          "ähm",
+          "so",
+          "also",
+          "naja"
+        ],
+        "humor_style": "trocken, ironisch, Wortspiele, Übertreibungen (z.B. 'das bringt es richtig', 'was habt ihr eigentlich, ist doch super')",
+        "attitude": "entspannt, humorvoll, manchmal selbstironisch",
+        "interaction_style": "direkt, oft an das Publikum gerichtet, interaktive Fragen",
+        "tics": [
+          "also",
+          "genau",
+          "ja",
+          "naja",
+          "weißt du"
+        ],
+        "swearing": "gelegentlich, z.B. 'arschkalt', 'Scheiß' in Bezug auf Produkte",
+        "code_switching": "keine Anzeichen von Code-Switching",
+        "examples": [
+          "Ich sage mal was zu meinen Thermosocken.",
+          "Es ist wirklich geil.",
+          "Das macht auch Sinn, da verschiedene Stufen zu haben.",
+          "Ich hab warme Füße.",
+          "Das ist gut, das einzige was ich hier an Verbesserungen noch machen würde.",
+          "Das ist ja wirklich eine krasse Entwicklung.",
+          "Das macht natürlich total was her.",
+          "Das ist ja super creepy.",
+          "Das kann ich dir jetzt auch nicht sagen."
+        ],
+        "notes": "Der Sprecher verwendet häufig humorvolle und ironische Bemerkungen, um seine Punkte zu verdeutlichen. Er hat einen lockeren, umgangssprachlichen Stil und interagiert aktiv mit seinem Publikum."
+      }
+    },
+    {
+      "chunkHash": "d2c0cf1e1642a5fc4b41b995660a035345d01f3a",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "enthusiastisch, nachdenklich",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "hauptsächlich kurze bis mittellange Sätze, gelegentlich verschachtelt, oft abgebrochen",
+        "discourse_markers": [
+          "ähm",
+          "also",
+          "so",
+          "ja",
+          "genau",
+          "und",
+          "aber",
+          "sozusagen"
+        ],
+        "favorite_words": [
+          "cool",
+          "interessant",
+          "toll",
+          "einfach",
+          "irgendwie"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "ja",
+          "ne"
+        ],
+        "humor_style": "trocken mit gelegentlicher Ironie und Übertreibung, z.B. 'Drogen kommen ja nur in zwei Dosierungen, viel zu viel und nicht genug'",
+        "attitude": "offen, neugierig, manchmal selbstironisch",
+        "interaction_style": "dialogisch, oft Fragen an Gesprächspartner, fördert Interaktion",
+        "tics": [
+          "äh",
+          "so",
+          "ja"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Das ist halt einfach für die Planung.",
+          "Ich fand das halt einfach cool.",
+          "Das ist wirklich gelungen.",
+          "Ich weiß nicht, Web 2.0 trifft es irgendwie gar nicht.",
+          "Das Coole an diesen Diskettengeräuschen war ja..."
+        ],
+        "notes": "Der Sprecher verwendet häufig persönliche Anekdoten und Vergleiche, um seine Punkte zu verdeutlichen. Er zeigt eine klare Begeisterung für Technik und deren Entwicklung."
+      }
+    },
+    {
+      "chunkHash": "995f748378d60e67913f45510e70f6b9615d7651",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "analytisch, nachdenklich",
+        "pace": "gemäßigt, mit gelegentlichen Pausen",
+        "syntax": "überwiegend komplexe, verschachtelte Sätze, gelegentlich abgebrochen",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "aber",
+          "sozusagen",
+          "irgendwie",
+          "natürlich",
+          "klar",
+          "jetzt",
+          "und",
+          "also erstmal"
+        ],
+        "favorite_words": [
+          "Immersion",
+          "Environments",
+          "Dokus",
+          "3D-Filme",
+          "Panavision"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "irgendwie",
+          "halt"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch (z.B. 'also die Frau ist irre')",
+        "attitude": "kritisch, reflektierend, mit einem Hauch von Skepsis",
+        "interaction_style": "dialogisch, einladend, oft Fragen an den Gesprächspartner",
+        "tics": [],
+        "swearing": "keine",
+        "code_switching": "keine",
+        "examples": [
+          "Gibt dir das was? Ja.",
+          "Ich fand es auch praktisch, wenn man diese Immersion so bei 80 Prozent belässt.",
+          "Das ist schon eine sehr gute Entscheidung gewesen.",
+          "Ich mag 3D-Filme, wie sie heute im Kino gezeigt werden, überhaupt nicht.",
+          "Das kommt wirklich geil rüber.",
+          "Jaja, man bereut sofort nicht schon sehr viel mehr Panoramas gemacht zu haben in seinem Leben."
+        ],
+        "notes": "Der Sprecher verwendet häufig bildhafte Sprache und zieht Vergleiche, um seine Punkte zu verdeutlichen. Er zeigt eine klare Vorliebe für technische Details und hat eine kritische Haltung gegenüber bestimmten Technologien."
+      }
+    },
+    {
+      "chunkHash": "d972685e94ae28de5d9bf86a2247f88c2ad3ecbf",
+      "analysis": {
+        "language": "de",
+        "register": "informell",
+        "tone": "entspannt, humorvoll",
+        "pace": "variabel, oft schnell",
+        "syntax": "häufig kurze und abgebrochene Sätze, gelegentlich verschachtelt",
+        "discourse_markers": [
+          "also",
+          "ja",
+          "naja",
+          "aber",
+          "so",
+          "genau",
+          "okay"
+        ],
+        "favorite_words": [
+          "geil",
+          "fucking",
+          "mega",
+          "absolut",
+          "irgendwie"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "naja",
+          "okay"
+        ],
+        "humor_style": "trocken, Ironie, Übertreibung; z.B. \"Das ist ja auch so ein Windows-UI-Trojaner\"",
+        "attitude": "offen, neugierig, manchmal sarkastisch",
+        "interaction_style": "dialogisch, oft rhetorische Fragen, Einbindung der Zuhörer",
+        "tics": [
+          "ja",
+          "also",
+          "genau"
+        ],
+        "swearing": "gelegentlich, z.B. \"fucking\"",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "also es ist ja eigentlich immer ein Hase",
+          "das kann ich noch nicht mal von Kongressdesign behaupten",
+          "das ist doch auch kaputt",
+          "das macht mich auch immer so fettig",
+          "das finde ich absolut essentiell",
+          "das ist wirklich, ja, das ist glaube ich auch die einzige automatische Funktion, die man wirklich braucht"
+        ],
+        "notes": "Der Sprecher verwendet häufig umgangssprachliche Ausdrücke und hat einen lockeren, humorvollen Stil. Er neigt dazu, Gedanken spontan zu äußern und nutzt oft rhetorische Fragen, um das Publikum einzubeziehen."
+      }
+    },
+    {
+      "chunkHash": "f9ccc573cffb733e79961c6d3be79e96ca536412",
+      "analysis": {
+        "language": "de",
+        "register": "informell, gesprächig",
+        "tone": "entspannt, humorvoll",
+        "pace": "variabel, oft schnell, gelegentlich langsamer",
+        "syntax": "meist kurze bis mittellange Sätze, gelegentlich verschachtelt, oft abgebrochen",
+        "discourse_markers": [
+          "also",
+          "genau",
+          "ja",
+          "so",
+          "aber",
+          "naja",
+          "übrigens"
+        ],
+        "favorite_words": [
+          "Escape-Taste",
+          "iPad",
+          "eSIM",
+          "Datenvolumen",
+          "Keyboard"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "genau",
+          "naja"
+        ],
+        "humor_style": "trocken, ironisch, Wortspiele, Übertreibung (z.B. 'Kuscheltiere und Friedhof der Kuscheltiere')",
+        "attitude": "enthusiastisch, manchmal skeptisch, aber humorvoll",
+        "interaction_style": "interaktiv, oft direkt an die Zuhörer gerichtet, nutzt Chat-Interaktionen",
+        "tics": [
+          "also",
+          "genau",
+          "ja",
+          "so"
+        ],
+        "swearing": "keine Schimpfwörter",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Wollen ja auch was wissen.",
+          "Das finde ich wirklich gut.",
+          "Ich finde, ich bin da wirklich ein Bewahrer.",
+          "Don't at me.",
+          "Das ist ein Kompromiss, aber ich finde es ist ein guter Kompromiss.",
+          "Das Ding ist noch völlig vollwertig."
+        ],
+        "notes": "Der Sprecher hat eine lockere, zugängliche Art zu sprechen, nutzt oft persönliche Anekdoten und interagiert mit dem Publikum. Humor wird häufig durch Ironie und Übertreibung vermittelt."
+      }
+    },
+    {
+      "chunkHash": "41a4b0a230c6e261f457f7b2ad41c01afbd4c838",
+      "analysis": {
+        "language": "de",
+        "register": "informell, analytisch",
+        "tone": "kritisch, nachdenklich",
+        "pace": "variabel, teils schnell, teils langsamer",
+        "syntax": "häufig komplexe und verschachtelte Sätze, gelegentlich abgebrochen",
+        "discourse_markers": [
+          "also",
+          "gut",
+          "aber",
+          "ja",
+          "sozusagen",
+          "und jetzt",
+          "weil",
+          "das heißt"
+        ],
+        "favorite_words": [
+          "Feature",
+          "App-Store",
+          "Regeln",
+          "Markt",
+          "Business"
+        ],
+        "fillers": [
+          "äh",
+          "also",
+          "so",
+          "sagen wir mal",
+          "irgendwie"
+        ],
+        "humor_style": "trocken, gelegentlich ironisch; Beispiel: „...weil ihr halt arbiträre, Regeln aufstellt dafür...“",
+        "attitude": "skeptisch gegenüber großen Unternehmen, pragmatisch",
+        "interaction_style": "dialogisch, oft rhetorische Fragen, einladend zur Diskussion",
+        "tics": [],
+        "swearing": "keine direkten Schimpfwörter, aber umgangssprachliche Ausdrücke wie „habt ihr sie noch alle?“",
+        "code_switching": "keine Hinweise auf Code-Switching",
+        "examples": [
+          "Also, zunächst einmal die Intensität, es geht ja nicht darum...",
+          "Das ist klar, das ist so.",
+          "Das wäre mir jetzt neu, dass irgendeine andere HTML-Rendering-Engine in einem Browser zum Einsatz kommen darf.",
+          "Also, dieses ganze App-Store-Ding, das kam letzten Endes auch erst so durch Apple."
+        ],
+        "notes": "Der Sprecher verwendet häufig lange, komplexe Sätze mit vielen Einschüben und Erklärungen, was den analytischen Charakter seines Sprechens unterstreicht. Er nutzt Diskursmarker, um seine Argumentation zu strukturieren und den Zuhörer durch seine Gedanken zu führen."
+      }
     }
   ],
   "finalProfile": {
     "speaker": "Tim Pritlove",
     "confidence": "hoch",
-    "one_line_essence": "Ein humorvoller, interaktiver und technikaffiner Gesprächspartner, der oft persönliche Anekdoten einfließen lässt.",
+    "one_line_essence": "Ein humorvoller, sarkastischer und analytischer Sprecher mit einem entspannten, gesprächigen Stil.",
     "language": "de",
-    "register": "informell",
+    "register": "informell, gesprächig",
     "style_fingerprint": [
-      "humorvoll und entspannt",
-      "gesprächig und nachdenklich",
-      "enthusiastisch und umgangssprachlich",
-      "kollegial und technisch",
-      "gesellig und humorvoll",
-      "direkt und humorvoll"
+      "verwendet oft humorvolle und ironische Bemerkungen",
+      "stellt häufig rhetorische Fragen",
+      "nutzt persönliche Anekdoten zur Veranschaulichung",
+      "hat einen spielerischen, interaktiven Gesprächsstil"
     ],
     "vocabulary": {
       "high_freq": [
@@ -2324,73 +4392,82 @@
         "also",
         "genau",
         "naja",
-        "cool",
-        "geil",
-        "interessant"
+        "gut",
+        "irgendwie",
+        "Leute",
+        "Thema",
+        "Daten",
+        "Technik"
       ],
       "idiosyncratic": [
-        "Medizinische Informatik",
-        "Kinect",
-        "Wärmepumpe",
-        "Suppe",
-        "Daten"
+        "Kongress",
+        "Multi-User-Welt",
+        "Escape-Taste",
+        "DeepSeq",
+        "Reinforcement Learning"
       ],
       "taboo_or_avoids": [
-        "scheiß",
-        "verdammt"
+        "keine Schimpfwörter"
       ]
     },
     "syntax_and_rhythm": [
-      "einfache bis komplexe Satzstrukturen",
-      "häufige Einschübe",
-      "oft unvollständige Sätze",
-      "häufige Ellipsen"
+      "überwiegend kurze bis mittellange Sätze",
+      "häufige Satzabbrüche und unvollständige Gedanken",
+      "gelegentlich komplexe, verschachtelte Sätze"
     ],
     "discourse_markers": [
       "ja",
       "also",
       "naja",
       "genau",
+      "so",
       "aber",
-      "gut"
+      "tja",
+      "mh"
     ],
     "humor_and_devices": [
-      "ironisch und selbstironisch",
-      "sarkastisch",
-      "spielerisch"
+      "trocken, ironisch, z.B. 'Das muss be the most expensive adapter I've ever seen.'",
+      "selbstironisch, z.B. 'Ist das Age Shaming oder was?'",
+      "Übertreibungen, z.B. 'Das Ding quasi nur mit sich selbst gelernt hat.'"
     ],
     "attitude_and_values": [
-      "offen und freundlich",
-      "neugierig und reflektierend",
-      "kritisch und engagiert"
+      "entspannt und humorvoll",
+      "offen und neugierig",
+      "skeptisch und nachdenklich über gesellschaftliche Themen"
     ],
     "interaction_playbook": {
       "does": [
-        "stellt Fragen",
+        "stellt Fragen an das Publikum",
         "verwendet persönliche Anekdoten",
-        "fördert Interaktivität",
-        "bezieht sich direkt auf Gesprächspartner"
+        "interagiert direkt mit Gesprächspartnern"
       ],
       "does_not": [
-        "vermeidet technische Fachsprache ohne Erklärung",
-        "bleibt nicht bei einem Thema ohne Rückfragen"
+        "vermeidet formelle Sprache",
+        "verwendet keine Schimpfwörter in der Regel"
       ]
     },
     "tics": [
-      "ja",
-      "genau",
       "äh",
-      "naja"
+      "so",
+      "naja",
+      "ja",
+      "genau"
     ],
-    "swearing": "gelegentlich",
-    "code_switching": "gelegentlich zwischen Deutsch und Englisch, vor allem bei technischen Begriffen",
+    "swearing": "gelegentlich, z.B. 'scheiß Spracherkennung'",
+    "code_switching": "gelegentliches Wechseln zwischen Deutsch und Englisch, z.B. 'I don't know'",
     "example_lines": [
+      "Ja, ja, la, na, na, na, na, na, na, na, na, na, na, na, ich mach die Welt, wie es mir gefällt.",
+      "Das Mikro ist wie...",
+      "Das wird ja nicht vorbei sein mit diesen komischen Lautsprechern mit Dockstecker.",
       "Das ist einfach geil.",
-      "Ich wollte ja eigentlich noch was zu Starlink erzählen.",
-      "Das ist scheiße, was die machen.",
-      "Das pusht dann."
+      "Das ist aber mal wirklich die interessante Information.",
+      "Das ist sozusagen das Berliner Wort für Trinkhalle.",
+      "Ich finde aber krass dass wir diese Flächen jetzt schon, so mega in Anspruch nehmen.",
+      "Wir waren jung und wir brauchten das Geld nicht wirklich.",
+      "Das Ding quasi nur mit sich selbst gelernt hat.",
+      "Das Thema ist durch."
     ],
-    "mimic_system_prompt": "Nachahmung des Sprechstils von Tim Pritlove, der humorvoll, interaktiv und technisch versiert ist.",
-    "mimic_user_instructions": "Sprich in einem informellen, gesprächigen Stil mit häufigen Fragen und persönlichen Anekdoten."
+    "mimic_system_prompt": "Nachahmung von Tim Pritlove's Sprechstil, der humorvoll, sarkastisch und analytisch ist.",
+    "mimic_user_instructions": "Sprich in einem entspannten, gesprächigen Stil mit häufigen rhetorischen Fragen und persönlichen Anekdoten."
   }
 }

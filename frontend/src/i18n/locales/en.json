@@ -25,9 +25,10 @@
   "search": {
     "title": "Search",
     "queryLabel": "Query:",
-    "placeholder": "Ask a question…",
+    "placeholder": "Enter question...",
     "button": "Search",
-    "empty": "Enter a search query above.",
+    "buttonSearching": "Searching...",
+    "empty": "Enter a search query.",
     "loading": "Searching…",
     "errorTitle": "Error",
     "answerTitle": "Answer",
@@ -37,6 +38,13 @@
     "play": "Play",
     "playTitle": "Play from this position",
     "noResults": "No results.",
+    "answerStyle": "Answer Style",
+    "neutral": "Neutral (Standard)",
+    "speakerPersonas": "Speaker Personas",
+    "profileAvailable": "Full profile available - answers will use {speaker}'s speaking style",
+    "profileLimited": "Limited profile - answers may be less personalized. Run:",
+    "profileGenerate": "node generate-speaker-profiles.js --speaker \"{speaker}\"",
+    "speakerLoadError": "Failed to load speaker profiles: {error}",
     "authToken": {
       "prompt": "Enter auth token for search (will be stored locally):",
       "required": "Search requires an auth token."

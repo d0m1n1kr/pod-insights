@@ -3,7 +3,7 @@ use std::{
     collections::HashMap,
     io,
     net::SocketAddr,
-    path::PathBuf,
+    path::{Path, PathBuf},
     sync::Arc,
 };
 
@@ -82,6 +82,7 @@ struct AppConfig {
     bind_addr: SocketAddr,
     rag_db_path: PathBuf,
     episodes_dir: PathBuf,
+    speakers_dir: PathBuf,
     llm_base_url: String,
     llm_api_key: String,
     llm_model: String,
@@ -100,6 +101,8 @@ impl AppConfig {
         );
         let episodes_dir =
             PathBuf::from(std::env::var("EPISODES_DIR").unwrap_or_else(|_| "episodes".to_string()));
+        let speakers_dir =
+            PathBuf::from(std::env::var("SPEAKERS_DIR").unwrap_or_else(|_| "speakers".to_string()));
 
         // Resolve from settings first, then allow env override.
         let settings_llm = settings.as_ref().and_then(|s| s.llm.as_ref());
@@ -162,6 +165,7 @@ impl AppConfig {
             bind_addr,
             rag_db_path,
             episodes_dir,
+            speakers_dir,
             llm_base_url: llm_base_url.trim_end_matches('/').to_string(),
             llm_api_key,
             llm_model,
@@ -214,6 +218,7 @@ async fn main() -> Result<()> {
 
     let app = Router::new()
         .route("/api/chat", post(chat))
+        .route("/api/speakers", axum::routing::get(speakers_list))
         .route("/api/health", axum::routing::get(health))
         .layer(cors)
         .layer(TraceLayer::new_for_http())
@@ -227,6 +232,79 @@ async fn main() -> Result<()> {
 
 async fn health() -> impl IntoResponse {
     (StatusCode::OK, "ok")
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+struct SpeakerInfo {
+    speaker: String,
+    slug: String,
+    episodes_count: u32,
+    utterances_count: u32,
+    total_words: u32,
+    #[serde(skip_deserializing, default)]
+    has_profile: bool,
+}
+
+#[derive(Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+struct SpeakersListResponse {
+    speakers: Vec<SpeakerInfo>,
+}
+
+async fn speakers_list(State(st): State<AppState>) -> impl IntoResponse {
+    match load_speakers_index(&st.cfg.speakers_dir) {
+        Ok(speakers) => (StatusCode::OK, Json(SpeakersListResponse { speakers })).into_response(),
+        Err(e) => {
+            error!("Failed to load speakers: {:?}", e);
+            (
+                StatusCode::INTERNAL_SERVER_ERROR,
+                Json(serde_json::json!({ "error": format!("Failed to load speakers: {}", e) })),
+            )
+                .into_response()
+        }
+    }
+}
+
+fn load_speakers_index(speakers_dir: &Path) -> Result<Vec<SpeakerInfo>> {
+    let index_path = speakers_dir.join("index.json");
+    if !index_path.exists() {
+        return Ok(Vec::new());
+    }
+    let bytes = std::fs::read(&index_path)
+        .with_context(|| format!("Failed to read {}", index_path.display()))?;
+    let mut speakers: Vec<SpeakerInfo> = serde_json::from_slice(&bytes)
+        .with_context(|| format!("Failed to parse {}", index_path.display()))?;
+    
+    // Check which speakers have profile markdown files
+    for speaker in &mut speakers {
+        let profile_path = speakers_dir.join(format!("{}.md", speaker.slug));
+        speaker.has_profile = profile_path.exists();
+        info!("Speaker '{}' (slug: {}): profile at {} exists = {}", 
+              speaker.speaker, speaker.slug, profile_path.display(), speaker.has_profile);
+    }
+    
+    Ok(speakers)
+}
+
+fn load_speaker_profile(speakers_dir: &Path, slug: &str) -> Result<String> {
+    let profile_path = speakers_dir.join(format!("{}.md", slug));
+    if !profile_path.exists() {
+        return Err(anyhow!("Speaker profile not found: {}", slug));
+    }
+    let content = std::fs::read_to_string(&profile_path)
+        .with_context(|| format!("Failed to read profile {}", profile_path.display()))?;
+    Ok(content)
+}
+
+fn get_speaker_name_from_slug(speakers_dir: &Path, slug: &str) -> Result<String> {
+    let index = load_speakers_index(speakers_dir)?;
+    for speaker in index {
+        if speaker.slug == slug {
+            return Ok(speaker.speaker);
+        }
+    }
+    Err(anyhow!("Speaker not found: {}", slug))
 }
 
 fn extract_auth_token(headers: &HeaderMap) -> Option<String> {
@@ -268,6 +346,8 @@ struct ChatRequest {
     query: String,
     #[serde(default)]
     top_k: Option<usize>,
+    #[serde(default)]
+    speaker_slug: Option<String>,
 }
 
 #[derive(Debug, Serialize)]
@@ -327,8 +407,23 @@ async fn chat_impl(st: &AppState, req: ChatRequest) -> Result<ChatResponse> {
 
     let top_k = req.top_k.unwrap_or(st.cfg.top_k).clamp(1, 20);
 
-    // 1) Retrieve
-    let hits = retrieve(st, query, top_k).await?;
+    // Get speaker name from slug if requested
+    let speaker_name = if let Some(slug) = req.speaker_slug.as_ref() {
+        get_speaker_name_from_slug(&st.cfg.speakers_dir, slug).ok()
+    } else {
+        None
+    };
+
+    // Load speaker profile if requested
+    let speaker_profile = if let Some(slug) = req.speaker_slug.as_ref() {
+        load_speaker_profile(&st.cfg.speakers_dir, slug).ok()
+    } else {
+        None
+    };
+
+    // 1) Retrieve - get more results if we need to filter by speaker
+    let search_k = if speaker_name.is_some() { top_k * 3 } else { top_k };
+    let hits = retrieve(st, query, search_k).await?;
 
     // 2) Build context from transcripts
     let mut sources: Vec<ChatSource> = Vec::with_capacity(hits.len());
@@ -336,7 +431,18 @@ async fn chat_impl(st: &AppState, req: ChatRequest) -> Result<ChatResponse> {
 
     for h in hits {
         let transcript = load_transcript_entries(st, h.item.episode_number).await?;
-        let excerpt = excerpt_for_window(&transcript, h.item.start_sec, h.item.end_sec, 4000);
+        let excerpt = excerpt_for_window(
+            &transcript,
+            h.item.start_sec,
+            h.item.end_sec,
+            4000,
+            speaker_name.as_deref(),
+        );
+
+        // Skip empty excerpts when filtering by speaker
+        if speaker_name.is_some() && excerpt.contains("[no transcript entries found") {
+            continue;
+        }
 
         let ep = h.item.episode_number;
         let start = h
@@ -376,6 +482,11 @@ async fn chat_impl(st: &AppState, req: ChatRequest) -> Result<ChatResponse> {
             subject_fine: h.item.subject.as_ref().and_then(|s| s.fine.clone()),
             excerpt,
         });
+
+        // Stop when we have enough sources
+        if sources.len() >= top_k {
+            break;
+        }
     }
 
     // Keep prompt bounded.
@@ -386,7 +497,7 @@ async fn chat_impl(st: &AppState, req: ChatRequest) -> Result<ChatResponse> {
     }
 
     // 3) Ask LLM
-    let answer = llm_answer(st, query, &context).await?;
+    let answer = llm_answer(st, query, &context, speaker_profile.as_deref()).await?;
 
     Ok(ChatResponse { answer, sources })
 }
@@ -621,6 +732,7 @@ fn excerpt_for_window(
     start_sec: f64,
     end_sec: f64,
     max_chars: usize,
+    speaker_filter: Option<&str>,
 ) -> String {
     let mut out = String::new();
     let mut first = true;
@@ -634,6 +746,14 @@ fn excerpt_for_window(
         }
         if t - 0.001 > end_sec {
             break;
+        }
+
+        // Filter by speaker if requested
+        if let Some(filter_speaker) = speaker_filter {
+            let entry_speaker = e.speaker.as_deref().unwrap_or("").trim();
+            if !entry_speaker.eq_ignore_ascii_case(filter_speaker) {
+                continue;
+            }
         }
 
         if !first {
@@ -657,10 +777,14 @@ fn excerpt_for_window(
 
     if out.trim().is_empty() {
         // Still provide something so the LLM has a stable format.
+        let speaker_note = speaker_filter
+            .map(|s| format!(" (filtered by speaker: {})", s))
+            .unwrap_or_default();
         format!(
-            "[no transcript entries found in window {} - {}]",
+            "[no transcript entries found in window {} - {}{}]",
             seconds_to_hms(start_sec),
-            seconds_to_hms(end_sec)
+            seconds_to_hms(end_sec),
+            speaker_note
         )
     } else {
         out
@@ -746,7 +870,7 @@ async fn embed_query(st: &AppState, query: &str) -> Result<Vec<f32>> {
     Ok(v)
 }
 
-async fn llm_answer(st: &AppState, query: &str, context: &str) -> Result<String> {
+async fn llm_answer(st: &AppState, query: &str, context: &str, speaker_profile: Option<&str>) -> Result<String> {
     #[derive(Serialize)]
     struct ChatReq<'a> {
         model: &'a str,
@@ -772,11 +896,41 @@ async fn llm_answer(st: &AppState, query: &str, context: &str) -> Result<String>
         content: String,
     }
 
-    let system = "You are a helpful RAG assistant. Answer the user's question using ONLY the provided SOURCES (transcript excerpts). If the sources do not contain enough information, say so explicitly. When you make a factual claim, cite it inline like: (Episode 281, 12:38-17:19). Keep the answer concise and in German unless the user asks otherwise.";
-
-    let user_prompt = format!(
-        "QUESTION:\n{query}\n\nSOURCES:\n{context}\n\nINSTRUCTIONS:\n- Use the sources only.\n- Prefer quoting short phrases when helpful.\n- Include citations with episode number and time window.\n"
-    );
+    let (system, user_prompt) = if let Some(profile) = speaker_profile {
+        // Speaker persona mode
+        let system = format!(
+            "You are roleplaying as a fictional person described in the following speaker profile. \
+            Answer the user's question using ONLY the provided SOURCES (transcript excerpts), \
+            but deliver the answer in the voice, style, and personality described in the profile below.\n\n\
+            SPEAKER PROFILE:\n{}\n\n\
+            IMPORTANT:\n\
+            - Stay in character throughout your response\n\
+            - Use the vocabulary, phrases, and speech patterns from the profile\n\
+            - Match the humor style and attitude described\n\
+            - If the sources don't contain enough information, say so in character\n\
+            - Include citations inline like: (Episode 281, 12:38-17:19)\n\
+            - Answer in German unless the user asks otherwise",
+            profile
+        );
+        
+        let user_prompt = format!(
+            "QUESTION:\n{}\n\nSOURCES:\n{}\n\n\
+            Remember: Answer this question as the person from the speaker profile, \
+            using their typical vocabulary, style, and humor. Use only information from the sources.",
+            query, context
+        );
+        
+        (system, user_prompt)
+    } else {
+        // Neutral mode (original behavior)
+        let system = "You are a helpful RAG assistant. Answer the user's question using ONLY the provided SOURCES (transcript excerpts). If the sources do not contain enough information, say so explicitly. When you make a factual claim, cite it inline like: (Episode 281, 12:38-17:19). Keep the answer concise and in German unless the user asks otherwise.".to_string();
+        
+        let user_prompt = format!(
+            "QUESTION:\n{query}\n\nSOURCES:\n{context}\n\nINSTRUCTIONS:\n- Use the sources only.\n- Prefer quoting short phrases when helpful.\n- Include citations with episode number and time window.\n"
+        );
+        
+        (system, user_prompt)
+    };
 
     let url = format!("{}/chat/completions", st.cfg.llm_base_url);
     let resp = st
@@ -788,7 +942,7 @@ async fn llm_answer(st: &AppState, query: &str, context: &str) -> Result<String>
             messages: vec![
                 ChatMsg {
                     role: "system",
-                    content: system,
+                    content: &system,
                 },
                 ChatMsg {
                     role: "user",
