@@ -6,14 +6,6 @@ node_modules/
 settings.json
 .puppeteer-home
 
-# Generated data files
-topic-embeddings.json
-topic-taxonomy.json
-topic-categories.json
-topic-river-data.json
-category-river-data.json
-speaker-river-data.json
-
 # Rust build artifacts
 /target/
 Cargo.lock
