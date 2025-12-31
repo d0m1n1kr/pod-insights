@@ -293,3 +293,4 @@ Total:    ~1s     (excellent)
 **Run tests:** `npm test` from project root  
 **Documentation:** See `docs/TESTING.md` for complete guide
 
+

@@ -18,3 +18,4 @@ const i18n = createI18n<[MessageSchema], 'de' | 'en' | 'fr'>({
 
 export default i18n;
 
+
