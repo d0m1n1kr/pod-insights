@@ -354,9 +354,18 @@ const { t } = useI18n();
       <section>
         <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">👨‍💻 {{ t('about.developers.title') }}</h3>
         <div class="p-5 bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 rounded-lg border border-indigo-200 dark:border-indigo-700">
-          <p class="text-sm text-gray-700 dark:text-gray-300 mb-3">
-            {{ t('about.developers.items.dominik') }}
-          </p>
+          <div class="flex items-start gap-4 mb-3">
+            <img 
+              src="/dominik-profile.png" 
+              alt="Dominik Rössler" 
+              class="w-20 h-20 rounded-full object-cover border-2 border-indigo-300 dark:border-indigo-600"
+            />
+            <div class="flex-1">
+              <p class="text-sm text-gray-700 dark:text-gray-300 mb-3">
+                {{ t('about.developers.items.dominik') }}
+              </p>
+            </div>
+          </div>
           <div class="flex gap-3">
             <a
               href="https://mastodon.social/@d0m1n1k"
