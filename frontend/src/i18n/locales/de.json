@@ -153,7 +153,14 @@
       "title": "Entwickler",
       "items": {
         "dominik": "Dominik Rössler — Prompter"
-      }
+      },
+      "mastodon": "Mastodon",
+      "github": "GitHub"
+    },
+    "openSource": {
+      "title": "Open Source",
+      "description": "Dieses Projekt ist Open Source und auf GitHub verfügbar. Du kannst den Code erkunden, beitragen oder ihn für deine eigenen Podcast-Analyse-Projekte verwenden.",
+      "viewOnGithub": "Auf GitHub ansehen"
     },
     "pipeline": {
       "title": "Datenverarbeitungs-Pipeline",
