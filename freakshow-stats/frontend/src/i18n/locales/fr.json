@@ -1,0 +1,235 @@
+{
+  "app": {
+    "title": "Visualisation Freak Show",
+    "subtitle": "Visualisation de l'évolution des sujets et des intervenants au fil des années"
+  },
+  "theme": {
+    "auto": "Auto",
+    "light": "Clair",
+    "dark": "Sombre",
+    "current": "Actuel : {mode}"
+  },
+  "nav": {
+    "categories": "Catégories",
+    "topics": "Sujets",
+    "speakers": "Intervenants",
+    "speakerCategories": "Intervenants × Catégories",
+    "speakerClusters": "Intervenants × Clusters",
+    "clusterCluster": "Clusters × Clusters",
+    "speakerSpeaker": "Intervenants × Intervenants",
+    "duration": "Durée",
+    "umap": "UMAP",
+    "search": "Recherche",
+    "about": "À propos"
+  },
+  "search": {
+    "title": "Recherche",
+    "queryLabel": "Requête :",
+    "placeholder": "Poser une question…",
+    "button": "Rechercher",
+    "empty": "Saisissez une requête de recherche ci-dessus.",
+    "loading": "Recherche…",
+    "errorTitle": "Erreur",
+    "answerTitle": "Réponse",
+    "sourcesTitle": "Sources ({count})",
+    "expandSource": "Afficher plus",
+    "collapseSource": "Afficher moins",
+    "play": "Lire",
+    "playTitle": "Lire à partir de cette position",
+    "noResults": "Aucun résultat.",
+    "authToken": {
+      "prompt": "Saisissez le jeton d’authentification pour la recherche (stocké localement) :",
+      "required": "La recherche nécessite un jeton d’authentification."
+    },
+    "errors": {
+      "invalidResponse": "Réponse invalide du backend",
+      "mp3IndexUnavailable": "Index MP3 indisponible ({error})",
+      "noMp3Url": "Aucune URL MP3 trouvée pour cet épisode (episodes.json)"
+    }
+  },
+  "about": {
+    "title": "À propos du projet",
+    "subtitle": "Technologies et outils derrière le Freak Show AI",
+    "freakshow": {
+      "title": "Freak Show",
+      "description": "Ce projet est basé sur le podcast Freak Show. En savoir plus sur "
+    },
+    "projectDescription": {
+      "title": "Description du projet",
+      "content": "Cette application IA interactive analyse et visualise les sujets et intervenants du podcast Freak Show au fil des années. Grâce à l'analyse de texte assistée par IA, la recherche sémantique et aux algorithmes de clustering, les sujets sont regroupés et leur évolution temporelle est affichée dans des diagrammes en rivière. Avec les personas d'intervenants et le mode discussion, les questions peuvent être répondues dans le style des animateurs du podcast. Le projet a été développé au 39C3."
+    },
+    "frontend": {
+      "title": "Technologies Frontend",
+      "vue": "Framework JavaScript progressif pour interface utilisateur réactive",
+      "typescript": "Programmation typée pour un code plus robuste",
+      "d3": "Bibliothèque de visualisation de données pour diagrammes en rivière interactifs",
+      "tailwind": "Framework CSS Utility-First pour design moderne",
+      "pinia": "Gestion d'état avec persistance LocalStorage",
+      "router": "Routage Single-Page-Application",
+      "vite": "Outil de build rapide et serveur de développement"
+    },
+    "backend": {
+      "title": "Backend & Traitement des données",
+      "rust": "Algorithmes de clustering haute performance pour analyse de sujets",
+      "node": "Agrégation de données et génération JSON",
+      "rayon": "Traitement parallèle en Rust pour clustering plus rapide",
+      "serde": "Sérialisation et désérialisation des données d'épisodes"
+    },
+    "ai": {
+      "title": "IA & Machine Learning",
+      "embedding": {
+        "title": "OpenAI text-embedding-3-large",
+        "badge": "Modèle d'embedding",
+        "description": "Génération d'embeddings sémantiques pour tous les sujets du podcast. Permet un clustering basé sur le sens plutôt que sur les mots-clés uniquement.",
+        "features": {
+          "dimensions": "Vecteurs à 1536 dimensions",
+          "similarity": "Calcul de similarité sémantique",
+          "multilingual": "Compréhension multilingue"
+        }
+      },
+      "clustering": {
+        "title": "Clustering hiérarchique",
+        "badge": "Algorithme",
+        "description": "Regroupement automatique de sujets similaires basé sur la similarité cosinus des embeddings.",
+        "features": {
+          "agglomerative": "Clustering agglomératif avec liaison moyenne",
+          "threshold": "Détermination dynamique du seuil",
+          "naming": "Nommage automatique des clusters"
+        }
+      }
+    },
+    "tools": {
+      "title": "Outils de développement",
+      "cursor": {
+        "title": "Cursor",
+        "badge": "IDE assisté par IA",
+        "description": "Environnement de développement assisté par IA pour une génération de code plus rapide et intelligente.",
+        "features": {
+          "sonnet": "Claude Sonnet 4.5 - Génération de code rapide et refactoring",
+          "opus": "Claude Opus 4.5 - Résolution de problèmes complexes et décisions d'architecture",
+          "pair": "Programmation en binôme avec IA pour développement efficace"
+        }
+      }
+    },
+    "pipeline": {
+      "title": "Pipeline de traitement des données",
+      "steps": {
+        "extraction": {
+          "title": "Extraction des données d'épisodes",
+          "description": "Chargement des métadonnées d'épisodes et sujets depuis fichiers JSON"
+        },
+        "embedding": {
+          "title": "Génération d'embeddings",
+          "description": "L'API OpenAI crée des vecteurs sémantiques pour chaque sujet"
+        },
+        "clustering": {
+          "title": "Analyse de clustering",
+          "description": "Clustering hiérarchique basé sur Rust regroupe les sujets similaires"
+        },
+        "categorization": {
+          "title": "Catégorisation",
+          "description": "Les catégories de niveau supérieur regroupent les clusters associés"
+        },
+        "aggregation": {
+          "title": "Agrégation de séries temporelles",
+          "description": "Node.js agrège les données par années pour visualisation en rivière"
+        },
+        "visualization": {
+          "title": "Visualisation interactive",
+          "description": "D3.js rend les données sous forme de graphiques de flux interactifs"
+        }
+      }
+    },
+    "features": {
+      "title": "Fonctionnalités",
+      "tooltips": {
+        "title": "Info-bulles interactives",
+        "description": "Informations spécifiques à l'année au survol"
+      },
+      "filter": {
+        "title": "Filtre par année",
+        "description": "Filtrage par clic selon les années"
+      },
+      "normalized": {
+        "title": "Vue normalisée",
+        "description": "Paramètre persistant pour affichage en pourcentage"
+      },
+      "deeplink": {
+        "title": "Liens profonds",
+        "description": "URLs directes pour chaque vue"
+      },
+      "responsive": {
+        "title": "Design responsive",
+        "description": "Optimisé pour ordinateur de bureau et tablette"
+      },
+      "storage": {
+        "title": "LocalStorage",
+        "description": "Les paramètres persistent entre les sessions"
+      }
+    },
+    "footer": {
+      "madeWith": "Créé avec ❤️ pour le",
+      "podcast": "Podcast Freak Show",
+      "copyright": "© 2025 • Toutes les données basées sur des informations de podcast publiquement disponibles"
+    }
+  },
+  "common": {
+    "year": "Année",
+    "count": "Nombre",
+    "percentage": "Pourcentage",
+    "episodes": "Épisodes",
+    "episode": "Épisode"
+  },
+  "variantSelector": {
+    "label": "Variante de clustering:",
+    "loading": "Chargement..."
+  },
+  "variantInfo": {
+    "version": "Version",
+    "clusters": "Clusters",
+    "topics": "Sujets",
+    "outliers": "Outliers",
+    "showDetails": "Afficher les détails",
+    "hideDetails": "Masquer les détails",
+    "algorithm": "Paramètres de l'algorithme",
+    "method": "Méthode",
+    "linkage": "Liaison",
+    "weighting": "Pondération de pertinence",
+    "metadata": "Métadonnées",
+    "created": "Créé",
+    "embeddingModel": "Modèle d'embedding",
+    "lastBuilt": "Dernière construction",
+    "topClusters": "Meilleurs clusters",
+    "episodes": "épisodes",
+    "targetClusters": "Clusters cibles",
+    "minClusterSize": "Taille min. cluster",
+    "minSamples": "Échantillons min.",
+    "reducedDims": "Dimensions réduites",
+    "outlierThreshold": "Seuil outlier",
+    "llmNaming": "Nommage LLM",
+    "variantId": "ID de variante"
+  },
+  "noVariants": {
+    "title": "Aucune variante de clustering disponible",
+    "subtitle": "Pour utiliser cette vue, vous devez d'abord créer une variante de clustering.",
+    "quickStart": "Démarrage rapide",
+    "step1": {
+      "title": "Créer une variante V1 (256 clusters)",
+      "description": "Clustering hiérarchique avec un nombre fixe de clusters (~20 secondes)"
+    },
+    "step2": {
+      "title": "Ou une variante V2 (automatique)",
+      "description": "HDBSCAN avec détection automatique de clusters (~2 minutes)"
+    },
+    "step3": {
+      "title": "Recharger la page",
+      "description": "Après génération réussie, rechargez la page et sélectionnez la variante dans le menu déroulant."
+    },
+    "note": {
+      "title": "Prérequis",
+      "description": "Les embeddings de topics doivent être créés d'abord (node create-embeddings.js)."
+    },
+    "documentation": "📖 Documentation complète"
+  }
+}
+

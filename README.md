@@ -50,6 +50,19 @@ A comprehensive tool suite for scraping, analyzing, and visualizing the [Freak S
 # Node.js 18+ for scraping and data processing
 node --version
 
+# Git LFS (required for embedding databases)
+# macOS
+brew install git-lfs
+
+# Ubuntu/Debian
+sudo apt-get install git-lfs
+
+# Windows
+# Download installer from https://git-lfs.github.com
+
+# Initialize Git LFS (one-time setup)
+git lfs install
+
 # Rust (optional, for 10x faster clustering)
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
@@ -57,9 +70,12 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ### Installation
 
 ```bash
-# Clone repository
+# Clone repository (Git LFS will automatically download embedding databases)
 git clone <repository-url>
 cd freakshow
+
+# If you already cloned without Git LFS, fetch the LFS files:
+# git lfs pull
 
 # Install dependencies
 npm install
