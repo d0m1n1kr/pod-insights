@@ -38,7 +38,7 @@ UMAP is a dimensionality reduction technique that projects high-dimensional data
 npm run generate-umap
 
 # Or directly
-node generate-topic-umap.js
+node scripts/generate-topic-umap.js
 ```
 
 This script:

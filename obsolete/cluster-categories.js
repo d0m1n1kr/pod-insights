@@ -371,13 +371,13 @@ async function main() {
   
   if (!embeddingsDb) {
     console.log('\n❌ Keine Embeddings-Datenbank gefunden!');
-    console.log('   Erstelle zuerst mit: node create-embeddings.js\n');
+    console.log('   Erstelle zuerst mit: node scripts/create-embeddings.js\n');
     process.exit(1);
   }
   
   if (!taxonomy) {
     console.log('\n❌ Keine Topic-Taxonomie gefunden!');
-    console.log('   Erstelle zuerst mit: node cluster-topics.js\n');
+    console.log('   Erstelle zuerst mit: node scripts/cluster-topics.js\n');
     process.exit(1);
   }
   
@@ -464,7 +464,7 @@ async function main() {
   console.log('\n✨ Statistik:');
   console.log(`   ${result.length} Kategorien erstellt`);
   console.log(`   Ø ${output.statistics.avgClustersPerCategory} Cluster pro Kategorie`);
-  console.log('\n💡 Nächster Schritt: node generate-category-river.js');
+  console.log('\n💡 Nächster Schritt: node scripts/generate-category-river.js');
 }
 
 // Starte das Skript

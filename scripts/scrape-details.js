@@ -340,7 +340,7 @@ async function processEpisodesInBatches(browser, episodeFiles, concurrentRequest
 async function scrapeEpisodeDetails() {
   if (ARGS.help) {
     console.log(`Usage:
-  node scrape-details.js [--force] [--start <n>] [--end <n>] [--timeout-ms <ms>] [--retries <n>]
+  node scripts/scrape-details.js [--force] [--start <n>] [--end <n>] [--timeout-ms <ms>] [--retries <n>]
 
 Options:
   --force, -f   Overwrite existing output files (do not skip episodes)

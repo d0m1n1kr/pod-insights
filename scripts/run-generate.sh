@@ -1,6 +1,6 @@
 #!/bin/bash
 # Wrapper script to run generate scripts with variant-specific paths
-# Usage: ./run-generate.sh <script-name> <input-taxonomy> <output-file>
+# Usage: ./scripts/run-generate.sh <script-name> <input-taxonomy> <output-file>
 
 SCRIPT=$1
 INPUT=$2

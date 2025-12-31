@@ -45,9 +45,9 @@ function parseArgs(argv) {
 function usage() {
   return (
     'Usage:\n' +
-    '  node create-rag-db.js --episode <n> [--out <file>] [--no-embeddings]\n' +
-    '  node create-rag-db.js --from <n> --to <n> [--out <file>] [--batch-size <n>]\n' +
-    '  node create-rag-db.js --in-dir <dir> [--out <file>] [--force] [--no-resume]\n' +
+    '  node scripts/create-rag-db.js --episode <n> [--out <file>] [--no-embeddings]\n' +
+    '  node scripts/create-rag-db.js --from <n> --to <n> [--out <file>] [--batch-size <n>]\n' +
+    '  node scripts/create-rag-db.js --in-dir <dir> [--out <file>] [--force] [--no-resume]\n' +
     '\n' +
     'Options:\n' +
     '  --in-dir <dir>           Directory with *-extended-topics.json (default: ./episodes)\n' +

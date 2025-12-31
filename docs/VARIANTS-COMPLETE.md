@@ -36,7 +36,7 @@ Varianten-Unterstützung für:
 
 ### Erste Variante erstellen:
 ```bash
-./build-variant.sh v1 default-v1
+./scripts/build-variant.sh v1 default-v1
 ```
 
 ### Frontend starten:

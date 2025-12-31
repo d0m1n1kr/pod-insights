@@ -36,7 +36,7 @@
 
 ### 1. Variante builden
 ```bash
-./build-variant.sh v2 auto-v2
+./scripts/build-variant.sh v2 auto-v2
 ```
 
 Das Skript wird:
@@ -61,13 +61,13 @@ npm run dev
 
 ```bash
 # 1. Standard-Variante erstellen (256 Cluster)
-./build-variant.sh v1 default-v1
+./scripts/build-variant.sh v1 default-v1
 
 # 2. HDBSCAN mit automatischer Cluster-Erkennung
-./build-variant.sh v2 auto-v2
+./scripts/build-variant.sh v2 auto-v2
 
 # 3. Fein-granulare V2-Variante (viele kleine Cluster)
-./build-variant.sh v2 fine-v2
+./scripts/build-variant.sh v2 fine-v2
 
 # 4. Frontend starten und vergleichen
 cd frontend && npm run dev
@@ -100,7 +100,7 @@ Die Varianten-Auswahl ist bereits vollständig integriert:
 
 2. Builden:
 ```bash
-./build-variant.sh v2 my-variant
+./scripts/build-variant.sh v2 my-variant
 ```
 
 3. Im Frontend auswählen!

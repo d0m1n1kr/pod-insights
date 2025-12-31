@@ -408,12 +408,12 @@ async function main() {
   
   if (args[0] === '--help' || args[0] === '-h') {
     console.log('Verwendung:');
-    console.log('  node normalize-topics.js --create-taxonomy    Erstelle/Aktualisiere Taxonomie');
-    console.log('  node normalize-topics.js --normalize-all      Normalisiere alle Episoden');
-    console.log('  node normalize-topics.js <episode>            Normalisiere eine Episode');
-    console.log('  node normalize-topics.js 1 2 3                Normalisiere mehrere Episoden');
-    console.log('  node normalize-topics.js --range 1 10         Normalisiere Bereich');
-    console.log('  node normalize-topics.js --full               Taxonomie + alle Episoden\n');
+    console.log('  node scripts/normalize-topics.js --create-taxonomy    Erstelle/Aktualisiere Taxonomie');
+    console.log('  node scripts/normalize-topics.js --normalize-all      Normalisiere alle Episoden');
+    console.log('  node scripts/normalize-topics.js <episode>            Normalisiere eine Episode');
+    console.log('  node scripts/normalize-topics.js 1 2 3                Normalisiere mehrere Episoden');
+    console.log('  node scripts/normalize-topics.js --range 1 10         Normalisiere Bereich');
+    console.log('  node scripts/normalize-topics.js --full               Taxonomie + alle Episoden\n');
     return;
   }
   
@@ -432,7 +432,7 @@ async function main() {
   
   if (!taxonomy) {
     console.log('❌ Keine Taxonomie gefunden. Erstelle zuerst eine mit:');
-    console.log('   node normalize-topics.js --create-taxonomy\n');
+    console.log('   node scripts/normalize-topics.js --create-taxonomy\n');
     return;
   }
   
@@ -459,12 +459,12 @@ async function main() {
   } else {
     // Keine Argumente - zeige Hilfe
     console.log('Keine Episode angegeben. Verwendung:\n');
-    console.log('  node normalize-topics.js --create-taxonomy    Erstelle/Aktualisiere Taxonomie');
-    console.log('  node normalize-topics.js --normalize-all      Normalisiere alle Episoden');
-    console.log('  node normalize-topics.js <episode>            Normalisiere eine Episode');
-    console.log('  node normalize-topics.js 1 2 3                Normalisiere mehrere Episoden');
-    console.log('  node normalize-topics.js --range 1 10         Normalisiere Bereich');
-    console.log('  node normalize-topics.js --full               Taxonomie + alle Episoden\n');
+    console.log('  node scripts/normalize-topics.js --create-taxonomy    Erstelle/Aktualisiere Taxonomie');
+    console.log('  node scripts/normalize-topics.js --normalize-all      Normalisiere alle Episoden');
+    console.log('  node scripts/normalize-topics.js <episode>            Normalisiere eine Episode');
+    console.log('  node scripts/normalize-topics.js 1 2 3                Normalisiere mehrere Episoden');
+    console.log('  node scripts/normalize-topics.js --range 1 10         Normalisiere Bereich');
+    console.log('  node scripts/normalize-topics.js --full               Taxonomie + alle Episoden\n');
     return;
   }
   

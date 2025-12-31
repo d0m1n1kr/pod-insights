@@ -6,7 +6,7 @@ echo ""
 
 if [ ! -f "db/topic-embeddings.json" ]; then
     echo "❌ db/topic-embeddings.json not found!"
-    echo "   Please create embeddings first with: node create-embeddings.js"
+    echo "   Please create embeddings first with: node scripts/create-embeddings.js"
     exit 1
 fi
 
@@ -44,7 +44,7 @@ fi
 echo ""
 echo "🟨 Running JavaScript version..."
 echo "----------------------------"
-time node cluster-topics.js > /dev/null 2>&1
+time node scripts/cluster-topics.js > /dev/null 2>&1
 JS_EXIT=$?
 
 if [ $JS_EXIT -eq 0 ]; then

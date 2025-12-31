@@ -44,7 +44,7 @@ The search feature now supports **speaker personas** - answers can be delivered 
 For better speaker personas, regenerate profiles with improved prompts:
 
 ```bash
-node generate-speaker-profiles.js --force
+node scripts/generate-speaker-profiles.js --force
 ```
 
 This will create detailed profiles capturing each speaker's:

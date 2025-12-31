@@ -16,7 +16,7 @@ The profile generation system now creates much more detailed and accurate profil
 
 ```bash
 cd /Users/dominik/Projects/freakshow
-node generate-speaker-profiles.js --force
+node scripts/generate-speaker-profiles.js --force
 ```
 
 This will:
@@ -29,13 +29,13 @@ This will:
 
 ```bash
 # Test with one speaker first
-node generate-speaker-profiles.js --speaker "Tim Pritlove" --force
+node scripts/generate-speaker-profiles.js --speaker "Tim Pritlove" --force
 ```
 
 ### Check what would be generated (dry run)
 
 ```bash
-node generate-speaker-profiles.js --dry-run
+node scripts/generate-speaker-profiles.js --dry-run
 ```
 
 ## What Changed?
@@ -94,14 +94,14 @@ node generate-speaker-profiles.js --dry-run
 
 1. **Test first**: Regenerate one profile to see improvement
    ```bash
-   node generate-speaker-profiles.js --speaker "Tim Pritlove" --force
+   node scripts/generate-speaker-profiles.js --speaker "Tim Pritlove" --force
    ```
 
 2. **Review**: Check `speakers/tim-pritlove.md` - is it more specific?
 
 3. **Regenerate all**: If satisfied, regenerate everything
    ```bash
-   node generate-speaker-profiles.js --force
+   node scripts/generate-speaker-profiles.js --force
    ```
 
 4. **Wait**: This will take a while (API calls for each chunk + final synthesis)
@@ -112,7 +112,7 @@ node generate-speaker-profiles.js --dry-run
 
 ### More detail (larger chunks, more chunks):
 ```bash
-node generate-speaker-profiles.js \
+node scripts/generate-speaker-profiles.js \
   --chunk-chars 20000 \
   --max-chunks 12 \
   --force
@@ -120,7 +120,7 @@ node generate-speaker-profiles.js \
 
 ### Faster (but less detailed):
 ```bash
-node generate-speaker-profiles.js \
+node scripts/generate-speaker-profiles.js \
   --chunk-chars 12000 \
   --max-chunks 4 \
   --delay-ms 1000 \
@@ -129,7 +129,7 @@ node generate-speaker-profiles.js \
 
 ### Only main speakers:
 ```bash
-node generate-speaker-profiles.js \
+node scripts/generate-speaker-profiles.js \
   --limit-speakers 5 \
   --force
 ```

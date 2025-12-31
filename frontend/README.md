@@ -104,14 +104,14 @@ From the project root directory:
 # 1. Generate all visualization data
 npm run topic-river
 npm run category-river
-node generate-speaker-river.js
-node generate-topic-umap.js
-node generate-speaker-category-heatmap.js
-node generate-speaker-cluster-heatmap.js
-node generate-speaker-speaker-heatmap.js
-node generate-cluster-cluster-heatmap.js
-node generate-year-duration-heatmap.js
-node generate-dayofweek-duration-heatmap.js
+node scripts/generate-speaker-river.js
+node scripts/generate-topic-umap.js
+node scripts/generate-speaker-category-heatmap.js
+node scripts/generate-speaker-cluster-heatmap.js
+node scripts/generate-speaker-speaker-heatmap.js
+node scripts/generate-cluster-cluster-heatmap.js
+node scripts/generate-year-duration-heatmap.js
+node scripts/generate-dayofweek-duration-heatmap.js
 
 # 2. Copy to frontend public folder
 cp topic-river-data.json frontend/public/
@@ -129,7 +129,7 @@ cp dayofweek-duration-heatmap.json frontend/public/
 cp -r episodes frontend/public/
 
 # Or use sync script if available
-./sync.sh
+./scripts/sync.sh
 ```
 
 ## Technology Stack
@@ -244,7 +244,7 @@ npm run format
 1. **Create data generator** (in project root)
    ```bash
    # Create generate-my-viz.js
-   node generate-my-viz.js
+   node scripts/generate-my-viz.js
    ```
 
 2. **Copy data to public/**

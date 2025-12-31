@@ -13,9 +13,9 @@ Think of it as:
 ## Prerequisites
 
 You must have already:
-1. ✅ Extracted topics from episodes (`node extract-topics.js`)
+1. ✅ Extracted topics from episodes (`node scripts/extract-topics.js`)
 2. ✅ Created embeddings (`node create-embeddings.js`)
-3. ✅ Clustered topics (`./build-and-run.sh` or `node cluster-topics.js`)
+3. ✅ Clustered topics (`./scripts/build-and-run.sh` or `node scripts/cluster-topics.js`)
 
 This should give you:
 - `db/topic-embeddings.json` (embeddings for all topics)
@@ -208,7 +208,7 @@ The script uses your configured LLM from `settings.json`:
 - **Solution:** Run `npm run create-embeddings` first
 
 **Problem:** "Keine Topic-Taxonomie gefunden"
-- **Solution:** Run `./build-and-run.sh` or `npm run cluster-topics` first
+- **Solution:** Run `./scripts/build-and-run.sh` or `npm run cluster-topics` first
 
 **Problem:** Categories don't make sense
 - **Solution:** Try different numbers (8-25 range)
@@ -230,7 +230,7 @@ npm run extract-topics -- --all
 npm run create-embeddings
 
 # 3. Cluster into 256 topics (fast with Rust)
-./build-and-run.sh
+./scripts/build-and-run.sh
 
 # 4. Group into categories (very fast)
 npm run cluster-categories

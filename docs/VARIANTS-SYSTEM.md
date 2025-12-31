@@ -32,13 +32,13 @@ freakshow/
 
 ```bash
 # V1 Variante (fixe Cluster-Anzahl)
-./build-variant.sh v1 default-v1
+./scripts/build-variant.sh v1 default-v1
 
 # V2 Variante (automatische Cluster-Erkennung)
-./build-variant.sh v2 auto-v2
+./scripts/build-variant.sh v2 auto-v2
 
 # Mit vollständigem Rebuild
-./build-variant.sh v2 fine-v2 --rebuild-all
+./scripts/build-variant.sh v2 fine-v2 --rebuild-all
 ```
 
 ### 2. Frontend starten
@@ -175,7 +175,7 @@ settings.setClusteringVariant('fine-v2');
 
 2. **Variante builden**:
    ```bash
-   ./build-variant.sh v2 my-experiment
+   ./scripts/build-variant.sh v2 my-experiment
    ```
 
 3. **Im Frontend testen**:

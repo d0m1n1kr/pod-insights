@@ -80,7 +80,7 @@ function printHelp() {
 Generate speaker profiles (Markdown) from episode transcripts (*-ts.json).
 
 Usage:
-  node generate-speaker-profiles.js [options]
+  node scripts/generate-speaker-profiles.js [options]
 
 Options:
   --episodes-dir <dir>       Episodes directory (default: ./episodes)

@@ -45,7 +45,7 @@
     "speakerPersonas": "Speaker Personas",
     "profileAvailable": "Full profile available - answers will use {speaker}'s speaking style",
     "profileLimited": "Limited profile - answers may be less personalized. Run:",
-    "profileGenerate": "node generate-speaker-profiles.js --speaker \"{speaker}\"",
+    "profileGenerate": "node scripts/generate-speaker-profiles.js --speaker \"{speaker}\"",
     "speakerLoadError": "Failed to load speaker profiles: {error}",
     "examples": {
       "title": "Example queries:",
@@ -314,7 +314,7 @@
     },
     "note": {
       "title": "Prerequisite",
-      "description": "Topic embeddings must be created first (node create-embeddings.js)."
+      "description": "Topic embeddings must be created first (node scripts/create-embeddings.js)."
     },
     "documentation": "📖 Full Documentation"
   }

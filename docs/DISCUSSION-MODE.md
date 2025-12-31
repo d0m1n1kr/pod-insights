@@ -126,7 +126,7 @@ Neue Translation-Keys in `de.json`, `en.json`, `fr.json`:
 
 1. **RAG Backend**: Muss laufen (`cargo run --release --bin rag-backend`)
 2. **Speaker-Profile**: Beide Sprecher sollten Profile haben
-   - Profile generieren: `node generate-speaker-profiles.js --speaker "Tim Pritlove"`
+   - Profile generieren: `node scripts/generate-speaker-profiles.js --speaker "Tim Pritlove"`
    - Profile-Dateien: `speakers/<slug>.md` und `speakers/<slug>-meta.json`
 
 ## Best Practices

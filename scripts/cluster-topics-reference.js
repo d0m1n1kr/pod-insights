@@ -386,7 +386,7 @@ async function main() {
   if (!db) {
     console.log('\n❌ Keine Embeddings-Datenbank gefunden!');
     console.log('   Erstelle zuerst die Datenbank mit:');
-    console.log('   node create-embeddings.js\n');
+    console.log('   node scripts/create-embeddings.js\n');
     process.exit(1);
   }
   
@@ -509,23 +509,9 @@ async function main() {
       episodes: c.episodes
     }))
   };
-  
+
   fs.writeFileSync(taxonomyFile, JSON.stringify(result, null, 2), 'utf-8');
   console.log(`✅ Taxonomie gespeichert: ${taxonomyFile}`);
-  
-  // Save detailed topic mapping for frontend (with all topics per cluster)
-  const detailedMappingFile = path.join(__dirname, 'topic-taxonomy-detailed.json');
-  const detailedMapping = {
-    createdAt: new Date().toISOString(),
-    clusters: namedClusters.map(c => ({
-      id: c.id,
-      name: c.name,
-      topicCount: c.topicCount,
-      topics: c.topics  // Include ALL topics, not just samples
-    }))
-  };
-  fs.writeFileSync(detailedMappingFile, JSON.stringify(detailedMapping, null, 2), 'utf-8');
-  console.log(`✅ Detailed Topic-Mapping gespeichert: ${detailedMappingFile}`);
   
   // Zeige Top-Cluster
   console.log('\n📋 Top 15 Cluster:');

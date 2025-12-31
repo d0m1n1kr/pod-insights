@@ -118,7 +118,7 @@ fi
 
 # Topic UMAP
 # echo -e "  ${YELLOW}→${NC} Generating topic-umap-data.json..."
-#node generate-topic-umap.js || {
+#node scripts/generate-topic-umap.js || {
 #    echo -e "     ${RED}✗ Failed to generate topic-umap-data.json${NC}"
 # }
 # if [ -f topic-umap-data.json ]; then
@@ -137,7 +137,7 @@ if [ -f "$OUTPUT_DIR/topic-taxonomy-detailed.json" ]; then
     TOPIC_RIVER_ARGS+=(--taxonomy-detailed "$OUTPUT_DIR/topic-taxonomy-detailed.json")
 fi
 
-node generate-topic-river.js "${TOPIC_RIVER_ARGS[@]}" || {
+node scripts/generate-topic-river.js "${TOPIC_RIVER_ARGS[@]}" || {
     echo -e "     ${RED}✗ Failed to generate topic-river-data.json${NC}"
 }
 if [ -f topic-river-data.json ]; then
@@ -148,7 +148,7 @@ fi
 
 # Cluster-Cluster Heatmap
 echo -e "  ${YELLOW}→${NC} Generating cluster-cluster-heatmap.json..."
-node generate-cluster-cluster-heatmap.js || {
+node scripts/generate-cluster-cluster-heatmap.js || {
     echo -e "     ${RED}✗ Failed to generate cluster-cluster-heatmap.json${NC}"
 }
 if [ -f cluster-cluster-heatmap.json ]; then
@@ -159,7 +159,7 @@ fi
 
 # Speaker-Cluster Heatmap
 echo -e "  ${YELLOW}→${NC} Generating speaker-cluster-heatmap.json..."
-node generate-speaker-cluster-heatmap.js || {
+node scripts/generate-speaker-cluster-heatmap.js || {
     echo -e "     ${RED}✗ Failed to generate speaker-cluster-heatmap.json${NC}"
 }
 if [ -f speaker-cluster-heatmap.json ]; then

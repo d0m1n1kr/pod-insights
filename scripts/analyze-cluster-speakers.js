@@ -29,7 +29,7 @@ const __dirname = path.dirname(__filename);
  *   This gives a different perspective: coverage measures presence, market share measures
  *   relative contribution compared to all speakers combined.
  * 
- * Usage: node analyze-cluster-speakers.js
+ * Usage: node scripts/analyze-cluster-speakers.js
  * Output: cluster-speakers.json
  */
 

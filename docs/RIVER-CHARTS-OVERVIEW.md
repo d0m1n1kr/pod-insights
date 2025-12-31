@@ -30,7 +30,7 @@ The project supports **three types of river charts**, each offering different in
 
 ### Generation:
 ```bash
-npm run cluster-topics    # or ./build-and-run.sh
+npm run cluster-topics    # or ./scripts/build-and-run.sh
 npm run topic-river
 ```
 
@@ -180,7 +180,7 @@ npm run extract-topics -- --all  # ~$5-10 in API costs
 npm run create-embeddings  # ~$2-3 in API costs
 
 # 4. Cluster topics
-./build-and-run.sh  # Fast with Rust
+./scripts/build-and-run.sh  # Fast with Rust
 
 # 5. Create categories
 npm run cluster-categories  # ~$0.10 in API costs
@@ -208,7 +208,7 @@ cp category-river-data.json frontend/public/
 
 **Change number of topic clusters:**
 ```bash
-./build-and-run.sh  # or npm run cluster-topics
+./scripts/build-and-run.sh  # or npm run cluster-topics
 npm run topic-river
 npm run cluster-categories  # Categories depend on topics
 npm run category-river

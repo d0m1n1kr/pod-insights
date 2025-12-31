@@ -415,11 +415,11 @@ async function main() {
     episodesToProcess = [episodeNumbers[0]];
     console.log(`Keine Argumente angegeben, verarbeite nur Episode ${episodesToProcess[0]} als Test.\n`);
     console.log(`Verwendung:`);
-    console.log(`  node extract-topics.js <episode-nummer>          # Einzelne Episode`);
-    console.log(`  node extract-topics.js 1 2 3                     # Mehrere Episoden`);
-    console.log(`  node extract-topics.js --range 1 10              # Bereich von Episoden`);
-    console.log(`  node extract-topics.js --all                     # Alle Episoden`);
-    console.log(`  node extract-topics.js --force <episode>         # Überschreibe bestehende Topics\n`);
+    console.log(`  node scripts/extract-topics.js <episode-nummer>          # Einzelne Episode`);
+    console.log(`  node scripts/extract-topics.js 1 2 3                     # Mehrere Episoden`);
+    console.log(`  node scripts/extract-topics.js --range 1 10              # Bereich von Episoden`);
+    console.log(`  node scripts/extract-topics.js --all                     # Alle Episoden`);
+    console.log(`  node scripts/extract-topics.js --force <episode>         # Überschreibe bestehende Topics\n`);
   }
 
   // Verarbeite Episoden

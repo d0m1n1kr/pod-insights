@@ -45,7 +45,7 @@
     "speakerPersonas": "Sprecher-Personas",
     "profileAvailable": "Vollständiges Profil verfügbar - Antworten werden im Stil von {speaker} gegeben",
     "profileLimited": "Eingeschränktes Profil - Antworten sind möglicherweise weniger personalisiert. Führe aus:",
-    "profileGenerate": "node generate-speaker-profiles.js --speaker \"{speaker}\"",
+    "profileGenerate": "node scripts/generate-speaker-profiles.js --speaker \"{speaker}\"",
     "speakerLoadError": "Fehler beim Laden der Sprecher-Profile: {error}",
     "examples": {
       "title": "Beispielabfragen:",
@@ -314,7 +314,7 @@
     },
     "note": {
       "title": "Voraussetzung",
-      "description": "Topic-Embeddings müssen bereits erstellt sein (node create-embeddings.js)."
+      "description": "Topic-Embeddings müssen bereits erstellt sein (node scripts/create-embeddings.js)."
     },
     "documentation": "📖 Vollständige Dokumentation"
   }

@@ -8,16 +8,16 @@ The `scrape-speakers.js` script scrapes speaker metadata from [freakshow.fm/team
 
 ```bash
 # Scrape all speakers
-node scrape-speakers.js
+node scripts/scrape-speakers.js
 
 # or via npm script
 npm run scrape-speakers
 
 # Force re-scrape (overwrite existing files)
-node scrape-speakers.js --force
+node scripts/scrape-speakers.js --force
 
 # Custom timeout
-node scrape-speakers.js --timeout-ms 120000
+node scripts/scrape-speakers.js --timeout-ms 120000
 ```
 
 ## Options
@@ -107,7 +107,7 @@ The scraper:
 ### Current Team Member
 
 ```bash
-node scrape-speakers.js
+node scripts/scrape-speakers.js
 # Creates: speakers/tim-pritlove-meta.json
 ```
 
@@ -121,7 +121,7 @@ node scrape-speakers.js
 ### Former Team Member
 
 ```bash
-node scrape-speakers.js
+node scripts/scrape-speakers.js
 # Creates: speakers/john-paul-hukl-bader-meta.json
 ```
 
@@ -191,10 +191,10 @@ Run periodically to keep data fresh:
 
 ```bash
 # Weekly update
-node scrape-speakers.js --force
+node scripts/scrape-speakers.js --force
 
 # Add to cron/GitHub Actions
-0 0 * * 0 cd /path/to/project && node scrape-speakers.js --force
+0 0 * * 0 cd /path/to/project && node scripts/scrape-speakers.js --force
 ```
 
 ## Integration with Other Tools
@@ -237,7 +237,7 @@ const profile = require('./speakers/tim-pritlove.md');
 ### Timeout Issues
 ```bash
 # Increase timeout for slow connections
-node scrape-speakers.js --timeout-ms 120000
+node scripts/scrape-speakers.js --timeout-ms 120000
 ```
 
 ### Missing Speakers

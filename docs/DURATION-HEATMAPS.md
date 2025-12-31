@@ -16,13 +16,13 @@ Drei Skripte generieren die benötigten JSON-Daten:
 
 ```bash
 # Wochentag × Dauer (bereits vorhanden)
-node generate-dayofweek-duration-heatmap.js
+node scripts/generate-dayofweek-duration-heatmap.js
 
 # Jahr × Dauer (neu)
-node generate-year-duration-heatmap.js
+node scripts/generate-year-duration-heatmap.js
 
 # Sprecher × Dauer (neu)
-node generate-speaker-duration-heatmap.js
+node scripts/generate-speaker-duration-heatmap.js
 ```
 
 ### Generierte Dateien
@@ -75,8 +75,8 @@ node generate-speaker-duration-heatmap.js
 
 1. **Daten generieren:**
    ```bash
-   node generate-year-duration-heatmap.js
-   node generate-speaker-duration-heatmap.js
+   node scripts/generate-year-duration-heatmap.js
+   node scripts/generate-speaker-duration-heatmap.js
    ```
 
 2. **Frontend bauen:**

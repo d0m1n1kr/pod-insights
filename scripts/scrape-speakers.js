@@ -29,7 +29,7 @@ function printHelp() {
 Scrape speaker metadata from freakshow.fm/team
 
 Usage:
-  node scrape-speakers.js [options]
+  node scripts/scrape-speakers.js [options]
 
 Options:
   --force, -f            Force re-download even if file exists

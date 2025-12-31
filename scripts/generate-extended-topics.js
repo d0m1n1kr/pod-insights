@@ -43,8 +43,8 @@ function parseArgs(argv) {
 function usage() {
   return (
     'Usage:\n' +
-    '  node generate-extended-topics.js --episode <n> [--overwrite] [--dry-run]\n' +
-    '  node generate-extended-topics.js --all [--from <n>] [--to <n>] [--concurrency <n>]\n' +
+    '  node scripts/generate-extended-topics.js --episode <n> [--overwrite] [--dry-run]\n' +
+    '  node scripts/generate-extended-topics.js --all [--from <n>] [--to <n>] [--concurrency <n>]\n' +
     '\n' +
     'Options:\n' +
     '  --max-excerpt-chars <n>   Max transcript excerpt size sent to LLM (default: 12000)\n' +

@@ -137,10 +137,10 @@ async function main() {
   const args = parseArgs(process.argv);
   if (args.help) {
     console.log(`Usage:
-  node generate-ts-live.js --in-dir <dir> --out-dir <dir> [--all | --episode <n>] [--pretty]
+  node scripts/generate-ts-live.js --in-dir <dir> --out-dir <dir> [--all | --episode <n>] [--pretty]
 
 Example:
-  node generate-ts-live.js --in-dir frontend/public/episodes --out-dir frontend/public/episodes --all
+  node scripts/generate-ts-live.js --in-dir frontend/public/episodes --out-dir frontend/public/episodes --all
 `);
     process.exit(0);
   }

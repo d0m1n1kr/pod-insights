@@ -65,13 +65,13 @@ The profile generation now focuses on:
 Generate profiles for all speakers:
 
 ```bash
-node generate-speaker-profiles.js
+node scripts/generate-speaker-profiles.js
 ```
 
 ### Generate Profile for Specific Speaker
 
 ```bash
-node generate-speaker-profiles.js --speaker "Tim Pritlove"
+node scripts/generate-speaker-profiles.js --speaker "Tim Pritlove"
 ```
 
 ### Force Regeneration
@@ -79,13 +79,13 @@ node generate-speaker-profiles.js --speaker "Tim Pritlove"
 Clear cache and regenerate all profiles:
 
 ```bash
-node generate-speaker-profiles.js --force
+node scripts/generate-speaker-profiles.js --force
 ```
 
 ### Custom Parameters
 
 ```bash
-node generate-speaker-profiles.js \
+node scripts/generate-speaker-profiles.js \
   --chunk-chars 20000 \
   --max-chunks 10 \
   --speaker "Tim Pritlove" \
@@ -96,10 +96,10 @@ node generate-speaker-profiles.js \
 
 ```bash
 # Top 3 speakers by word count
-node generate-speaker-profiles.js --limit-speakers 3
+node scripts/generate-speaker-profiles.js --limit-speakers 3
 
 # All speakers matching pattern
-node generate-speaker-profiles.js --speaker-regex "tim|roddi"
+node scripts/generate-speaker-profiles.js --speaker-regex "tim|roddi"
 ```
 
 ## Profile Structure

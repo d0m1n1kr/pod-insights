@@ -15,7 +15,7 @@ function parseArgs(argv) {
     if ((a === '--feed' || a === '-f') && argv[i + 1]) args.feed = argv[++i];
     else if ((a === '--output' || a === '-o') && argv[i + 1]) args.output = argv[++i];
     else if (a === '--help' || a === '-h') {
-      console.log('Usage: node generate-episodes-mp3.js [--feed URL] [--output PATH]');
+      console.log('Usage: node scripts/generate-episodes-mp3.js [--feed URL] [--output PATH]');
       console.log('');
       console.log(`Default feed:   ${DEFAULT_FEED_URL}`);
       console.log(`Default output: ${DEFAULT_OUTPUT}`);

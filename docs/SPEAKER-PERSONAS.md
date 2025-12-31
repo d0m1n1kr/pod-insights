@@ -148,10 +148,10 @@ To ensure high-quality personas:
 
 ```bash
 # Regenerate all profiles with improved prompts
-node generate-speaker-profiles.js --force
+node scripts/generate-speaker-profiles.js --force
 
 # Or regenerate specific speaker
-node generate-speaker-profiles.js --speaker "Tim Pritlove" --force
+node scripts/generate-speaker-profiles.js --speaker "Tim Pritlove" --force
 ```
 
 See `SPEAKER-PROFILES.md` and `REGENERATE-PROFILES.md` for details.

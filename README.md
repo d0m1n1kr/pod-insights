@@ -207,14 +207,14 @@ Edit `variants.json` to define different clustering configurations:
 
 ```bash
 # Build with V1 (HAC) - 256 fixed clusters
-./build-variant.sh v1 default-v1
+./scripts/build-variant.sh v1 default-v1
 
 # Build with V2 (HDBSCAN) - automatic cluster detection
-./build-variant.sh v2 auto-v2
+./scripts/build-variant.sh v2 auto-v2
 
 # Build with custom settings
-./build-variant.sh v1 coarse-v1   # 128 clusters
-./build-variant.sh v1 fine-v1     # 512 clusters
+./scripts/build-variant.sh v1 coarse-v1   # 128 clusters
+./scripts/build-variant.sh v1 fine-v1     # 512 clusters
 ```
 
 **What it does:**
@@ -256,7 +256,7 @@ The frontend allows you to switch between variants using a dropdown selector. Al
 # Build all variants defined in variants.json
 for variant in default-v1 coarse-v1 fine-v1 auto-v2; do
   version=$(jq -r ".variants.\"$variant\".version" variants.json)
-  ./build-variant.sh "$version" "$variant"
+  ./scripts/build-variant.sh "$version" "$variant"
 done
 ```
 
@@ -289,14 +289,14 @@ npm run generate-speaker-river  # Speaker participation
 npm run generate-umap        # 2D topic visualization
 
 # Heatmaps
-node generate-speaker-category-heatmap.js   # Speaker-topic relationships
-node generate-speaker-cluster-heatmap.js     # Speaker-cluster relationships
-node generate-speaker-speaker-heatmap.js     # Speaker co-occurrence
-node generate-cluster-cluster-heatmap.js     # Cluster relationships
+node scripts/generate-speaker-category-heatmap.js   # Speaker-topic relationships
+node scripts/generate-speaker-cluster-heatmap.js     # Speaker-cluster relationships
+node scripts/generate-speaker-speaker-heatmap.js     # Speaker co-occurrence
+node scripts/generate-cluster-cluster-heatmap.js     # Cluster relationships
 
 # Duration analysis
-node generate-year-duration-heatmap.js       # Duration by year
-node generate-dayofweek-duration-heatmap.js  # Duration by day of week
+node scripts/generate-year-duration-heatmap.js       # Duration by year
+node scripts/generate-dayofweek-duration-heatmap.js  # Duration by day of week
 ```
 
 **Output:** Multiple JSON files in project root
@@ -326,7 +326,7 @@ cp -r episodes frontend/public/
 
 Or use the sync script if available:
 ```bash
-./sync.sh
+./scripts/sync.sh
 ```
 
 ### Phase 4: Run Frontend
@@ -356,7 +356,7 @@ npm run build
 
 ## RAG AI Search Backend (Rust)
 
-This repo includes a small Rust HTTP backend (`rag-backend`) that does RAG over `db/rag-embeddings.json` (created by `node create-rag-db.js`). It retrieves the referenced transcript window from `episodes/<N>-ts.json`, asks the LLM, and returns the answer **plus sources** (episode + time window + excerpt).
+This repo includes a small Rust HTTP backend (`rag-backend`) that does RAG over `db/rag-embeddings.json` (created by `node scripts/create-rag-db.js`). It retrieves the referenced transcript window from `episodes/<N>-ts.json`, asks the LLM, and returns the answer **plus sources** (episode + time window + excerpt).
 
 ### Build the RAG DB
 

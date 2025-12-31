@@ -51,7 +51,7 @@ cargo build --release
 
 ```bash
 # Build and run in one command
-./build-and-run.sh
+./scripts/build-and-run.sh
 ```
 
 ### Manual Execution
@@ -293,7 +293,7 @@ Both versions can coexist. Test them side-by-side:
 
 ```bash
 # Compare performance
-./compare-performance.sh
+./scripts/compare-performance.sh
 
 # Verify identical output (should match with same settings)
 diff topic-taxonomy-js.json topic-taxonomy-rust.json

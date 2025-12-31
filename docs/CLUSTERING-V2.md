@@ -38,7 +38,7 @@ cargo build --release --bin cluster-topics-v2
 ./target/release/cluster-topics-v2
 
 # Or use the script
-./build-and-run-v2.sh
+./scripts/build-and-run-v2.sh
 ```
 
 ### Configuration

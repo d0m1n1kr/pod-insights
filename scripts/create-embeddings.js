@@ -313,7 +313,7 @@ async function main() {
 
   console.log('\n✅ Embeddings-Datenbank erstellt!');
   console.log('\nNächste Schritte:');
-  console.log('   node cluster-topics.js    # Clustering durchführen');
+  console.log('   node scripts/cluster-topics.js    # Clustering durchführen');
 }
 
 // Starte das Skript

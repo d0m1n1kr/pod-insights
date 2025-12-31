@@ -1580,7 +1580,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     if !db_path.exists() {
         eprintln!("\n❌ Keine Embeddings-Datenbank gefunden!");
         eprintln!("   Erstelle zuerst die Datenbank mit:");
-        eprintln!("   node create-embeddings.js\n");
+        eprintln!("   node scripts/create-embeddings.js\n");
         std::process::exit(1);
     }
 
