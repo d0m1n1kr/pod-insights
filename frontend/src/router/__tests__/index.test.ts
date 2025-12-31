@@ -19,22 +19,22 @@ describe('Router Configuration', () => {
     expect(routes.length).toBeGreaterThan(0);
   });
 
-  it('should have root redirect to clusters', () => {
+  it('should have root redirect to clusters-river', () => {
     const rootRoute = routes.find(r => r.path === '/');
     expect(rootRoute).toBeDefined();
-    expect(rootRoute?.redirect).toBe('/clusters');
+    expect(rootRoute?.redirect).toBe('/clusters-river');
   });
 
-  it('should have clusters route', () => {
-    const clustersRoute = routes.find(r => r.path === '/clusters');
+  it('should have clusters-river route', () => {
+    const clustersRoute = routes.find(r => r.path === '/clusters-river');
     expect(clustersRoute).toBeDefined();
-    expect(clustersRoute?.name).toBe('clusters');
+    expect(clustersRoute?.name).toBe('clusters-river');
   });
 
-  it('should have speakers route', () => {
-    const speakersRoute = routes.find(r => r.path === '/speakers');
+  it('should have speakers-river route', () => {
+    const speakersRoute = routes.find(r => r.path === '/speakers-river');
     expect(speakersRoute).toBeDefined();
-    expect(speakersRoute?.name).toBe('speakers');
+    expect(speakersRoute?.name).toBe('speakers-river');
   });
 
   it('should have search route', () => {
@@ -80,27 +80,27 @@ describe('Router Configuration', () => {
   });
 
   describe('Route Navigation', () => {
-    it('should navigate to clusters', async () => {
+    it('should navigate to clusters-river', async () => {
       const router = createTestRouter();
-      await router.push('/clusters');
+      await router.push('/clusters-river');
       
-      expect(router.currentRoute.value.path).toBe('/clusters');
-      expect(router.currentRoute.value.name).toBe('clusters');
+      expect(router.currentRoute.value.path).toBe('/clusters-river');
+      expect(router.currentRoute.value.name).toBe('clusters-river');
     });
 
-    it('should navigate to speakers', async () => {
+    it('should navigate to speakers-river', async () => {
       const router = createTestRouter();
-      await router.push('/speakers');
+      await router.push('/speakers-river');
       
-      expect(router.currentRoute.value.path).toBe('/speakers');
-      expect(router.currentRoute.value.name).toBe('speakers');
+      expect(router.currentRoute.value.path).toBe('/speakers-river');
+      expect(router.currentRoute.value.name).toBe('speakers-river');
     });
 
-    it('should redirect from root to clusters', async () => {
+    it('should redirect from root to clusters-river', async () => {
       const router = createTestRouter();
       await router.push('/');
       
-      expect(router.currentRoute.value.path).toBe('/clusters');
+      expect(router.currentRoute.value.path).toBe('/clusters-river');
     });
 
     it('should handle search with query parameters', async () => {
@@ -114,7 +114,7 @@ describe('Router Configuration', () => {
 
   describe('Route Components', () => {
     it('should have components defined', () => {
-      const clustersRoute = routes.find(r => r.path === '/clusters');
+      const clustersRoute = routes.find(r => r.path === '/clusters-river');
       expect(clustersRoute?.component).toBeDefined();
       // Components are imported directly, not lazy-loaded
       expect(typeof clustersRoute?.component).toBe('object');

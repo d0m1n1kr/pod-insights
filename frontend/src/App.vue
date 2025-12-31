@@ -15,8 +15,8 @@ const FREAKSHOW_ICON_URL = 'https://freakshow.fm/files/2013/07/cropped-freakshow
 
 const activeView = computed(() => {
   return route.name as
-    | 'clusters'
-    | 'speakers'
+    | 'clusters-river'
+    | 'speakers-river'
     | 'cluster-heatmap'
     | 'speaker-speaker-heatmap'
     | 'cluster-cluster-heatmap'
@@ -132,10 +132,10 @@ const submitSearch = async () => {
         <div class="mt-4 md:mt-6 -mx-4 px-4 overflow-x-auto border-b border-gray-200 dark:border-gray-700">
           <div class="flex gap-1 sm:gap-2 min-w-max">
             <router-link
-              to="/clusters"
+              to="/clusters-river"
               :class="[
                 'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap',
-                activeView === 'clusters' 
+                activeView === 'clusters-river' 
                   ? 'border-blue-500 text-blue-600 dark:text-blue-400' 
                   : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
               ]"
@@ -143,10 +143,10 @@ const submitSearch = async () => {
               {{ t('nav.topics') }}
             </router-link>
             <router-link
-              to="/speakers"
+              to="/speakers-river"
               :class="[
                 'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap',
-                activeView === 'speakers' 
+                activeView === 'speakers-river' 
                   ? 'border-green-500 text-green-600 dark:text-green-400' 
                   : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
               ]"

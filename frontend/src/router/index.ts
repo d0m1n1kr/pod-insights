@@ -14,16 +14,16 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: '/clusters'
+      redirect: '/clusters-river'
     },
     {
-      path: '/clusters',
-      name: 'clusters',
+      path: '/clusters-river',
+      name: 'clusters-river',
       component: TopicsView
     },
     {
-      path: '/speakers',
-      name: 'speakers',
+      path: '/speakers-river',
+      name: 'speakers-river',
       component: SpeakersView
     },
     {
