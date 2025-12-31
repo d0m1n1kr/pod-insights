@@ -36,7 +36,7 @@ describe('LanguageSelector', () => {
     });
 
     // Mock localStorage
-    global.localStorage = {
+    globalThis.localStorage = {
       getItem: vi.fn(),
       setItem: vi.fn(),
       removeItem: vi.fn(),

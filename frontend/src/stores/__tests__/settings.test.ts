@@ -14,7 +14,7 @@ describe('Settings Store', () => {
       removeItem: vi.fn(),
       clear: vi.fn(),
     };
-    global.localStorage = localStorageMock as any;
+    globalThis.localStorage = localStorageMock as any;
     
     // Mock matchMedia for theme detection
     Object.defineProperty(window, 'matchMedia', {

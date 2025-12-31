@@ -50,7 +50,7 @@ describe('Type Definitions', () => {
       };
 
       expect(data.generatedAt).toBe('2024-01-01T00:00:00Z');
-      expect(data.topics['topic-1'].name).toBe('Test Topic');
+      expect(data.topics['topic-1']!.name).toBe('Test Topic');
     });
   });
 
@@ -98,7 +98,7 @@ describe('Type Definitions', () => {
       };
 
       expect(data.speakers).toHaveLength(1);
-      expect(data.speakers[0].name).toBe('Test Speaker');
+      expect(data.speakers[0]!.name).toBe('Test Speaker');
     });
   });
 

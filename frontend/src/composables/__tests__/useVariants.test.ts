@@ -15,7 +15,7 @@ describe('useVariants Composable', () => {
     setActivePinia(createPinia());
     
     // Reset fetch mock before each test
-    global.fetch = vi.fn();
+    globalThis.fetch = vi.fn();
   });
 
   describe('useVariantPath', () => {
@@ -53,7 +53,7 @@ describe('useVariants Composable', () => {
     it('should load data successfully', async () => {
       const mockData = { test: 'data', value: 123 };
       
-      global.fetch = vi.fn().mockResolvedValue({
+      globalThis.fetch = vi.fn().mockResolvedValue({
         ok: true,
         json: async () => mockData
       } as Response);
@@ -61,32 +61,32 @@ describe('useVariants Composable', () => {
       const result = await loadVariantData('test-file.json');
       
       expect(result).toEqual(mockData);
-      expect(global.fetch).toHaveBeenCalledWith('/topics/auto-v2.1/test-file.json');
+      expect(globalThis.fetch).toHaveBeenCalledWith('/topics/auto-v2.1/test-file.json');
     });
 
     it('should throw error when fetch fails', async () => {
-      global.fetch = vi.fn().mockResolvedValue({
+      globalThis.fetch = vi.fn().mockResolvedValue({
         ok: false,
         statusText: 'Not Found'
       } as Response);
       
       await expect(loadVariantData('missing.json')).rejects.toThrow();
-      expect(global.fetch).toHaveBeenCalled();
+      expect(globalThis.fetch).toHaveBeenCalled();
     });
 
     it('should throw error on network failure', async () => {
-      global.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
+      globalThis.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
       
       await expect(loadVariantData('file.json')).rejects.toThrow();
     });
 
     it('should handle JSON parse errors', async () => {
-      global.fetch = vi.fn().mockResolvedValue({
+      globalThis.fetch = vi.fn().mockResolvedValue({
         ok: true,
         json: async () => {
           throw new Error('Invalid JSON');
         }
-      } as Response);
+      } as unknown as Response);
       
       await expect(loadVariantData('invalid.json')).rejects.toThrow();
     });
@@ -111,7 +111,7 @@ describe('useVariants Composable', () => {
         lastUpdated: '2024-01-02T00:00:00Z'
       };
       
-      global.fetch = vi.fn().mockResolvedValue({
+      globalThis.fetch = vi.fn().mockResolvedValue({
         ok: true,
         json: async () => mockManifest
       } as Response);
@@ -121,11 +121,11 @@ describe('useVariants Composable', () => {
       expect(result).toEqual(mockManifest);
       expect(result.variants).toHaveProperty('default-v1');
       expect(result.variants).toHaveProperty('auto-v2');
-      expect(global.fetch).toHaveBeenCalledWith('/topics/manifest.json');
+      expect(globalThis.fetch).toHaveBeenCalledWith('/topics/manifest.json');
     });
 
     it('should return default manifest when fetch fails', async () => {
-      global.fetch = vi.fn().mockResolvedValue({
+      globalThis.fetch = vi.fn().mockResolvedValue({
         ok: false,
         statusText: 'Not Found'
       } as Response);
@@ -137,7 +137,7 @@ describe('useVariants Composable', () => {
     });
 
     it('should return default manifest on network error', async () => {
-      global.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
+      globalThis.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
       
       const result = await loadVariantsManifest();
       
@@ -146,7 +146,7 @@ describe('useVariants Composable', () => {
     });
 
     it('should have correct structure in default manifest', async () => {
-      global.fetch = vi.fn().mockRejectedValue(new Error('Not found'));
+      globalThis.fetch = vi.fn().mockRejectedValue(new Error('Not found'));
       
       const result = await loadVariantsManifest();
       
@@ -171,7 +171,7 @@ describe('useVariants Composable', () => {
         lastUpdated: '2024-01-01T00:00:00Z'
       };
       
-      global.fetch = vi.fn().mockResolvedValue({
+      globalThis.fetch = vi.fn().mockResolvedValue({
         ok: true,
         json: async () => mockManifest
       } as Response);
@@ -182,7 +182,7 @@ describe('useVariants Composable', () => {
     });
 
     it('should return false when manifest loading fails', async () => {
-      global.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
+      globalThis.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
       
       const result = await hasVariants();
       
@@ -191,7 +191,7 @@ describe('useVariants Composable', () => {
     });
 
     it('should return true when default fallback is used', async () => {
-      global.fetch = vi.fn().mockResolvedValue({
+      globalThis.fetch = vi.fn().mockResolvedValue({
         ok: false
       } as Response);
       
@@ -249,7 +249,7 @@ describe('useVariants Composable', () => {
     it('should handle complete data loading flow', async () => {
       const mockData = { clusters: [{ id: 1, name: 'Test' }] };
       
-      global.fetch = vi.fn().mockResolvedValue({
+      globalThis.fetch = vi.fn().mockResolvedValue({
         ok: true,
         json: async () => mockData
       } as Response);
@@ -257,7 +257,7 @@ describe('useVariants Composable', () => {
       const data = await loadVariantData('taxonomy.json');
       
       expect(data).toEqual(mockData);
-      expect(global.fetch).toHaveBeenCalledWith('/topics/auto-v2.1/taxonomy.json');
+      expect(globalThis.fetch).toHaveBeenCalledWith('/topics/auto-v2.1/taxonomy.json');
     });
   });
 });

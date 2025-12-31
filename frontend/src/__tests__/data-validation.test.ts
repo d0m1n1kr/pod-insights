@@ -39,8 +39,8 @@ describe('Data Validation and Edge Cases', () => {
         }
       };
       
-      expect(data.topics['topic-1'].totalEpisodes).toBe(5);
-      expect(data.topics['topic-1'].totalDurationMinutes).toBeUndefined();
+      expect(data.topics['topic-1']!.totalEpisodes).toBe(5);
+      expect(data.topics['topic-1']!.totalDurationMinutes).toBeUndefined();
     });
 
     it('should handle year data with occurrences', () => {
@@ -76,7 +76,7 @@ describe('Data Validation and Edge Cases', () => {
         }
       };
       
-      const occurrence = data.topics['topic-1'].yearData[0].episodes[0].occurrences?.[0];
+      const occurrence = data.topics['topic-1']!.yearData[0]!.episodes[0]!.occurrences?.[0];
       expect(occurrence?.positionSec).toBe(120);
       expect(occurrence?.durationSec).toBe(300);
     });
@@ -105,7 +105,7 @@ describe('Data Validation and Edge Cases', () => {
       };
       
       expect(Object.keys(data.topics)).toHaveLength(1000);
-      expect(data.topics['topic-500'].totalEpisodes).toBe(500);
+      expect(data.topics['topic-500']!.totalEpisodes).toBe(500);
     });
   });
 
@@ -134,8 +134,8 @@ describe('Data Validation and Edge Cases', () => {
         }]
       };
       
-      expect(data.speakers[0].timeline).toHaveLength(0);
-      expect(data.speakers[0].totalEpisodes).toBe(0);
+      expect(data.speakers[0]!.timeline).toHaveLength(0);
+      expect(data.speakers[0]!.totalEpisodes).toBe(0);
     });
 
     it('should handle speaker with multiple years', () => {
@@ -168,9 +168,9 @@ describe('Data Validation and Edge Cases', () => {
         }]
       };
       
-      expect(data.speakers[0].timeline).toHaveLength(5);
-      expect(data.speakers[0].totalEpisodes).toBe(10);
-      expect(data.speakers[0].totalDurationHours).toBe(20);
+      expect(data.speakers[0]!.timeline).toHaveLength(5);
+      expect(data.speakers[0]!.totalEpisodes).toBe(10);
+      expect(data.speakers[0]!.totalDurationHours).toBe(20);
     });
   });
 
@@ -226,8 +226,8 @@ describe('Data Validation and Edge Cases', () => {
         }]
       };
       
-      expect(data.speakers[0].clusters).toHaveLength(2);
-      expect(data.matrix[0].values).toHaveLength(2);
+      expect(data.speakers[0]!.clusters).toHaveLength(2);
+      expect(data.matrix[0]!.values).toHaveLength(2);
       expect(data.clusters).toHaveLength(2);
     });
 
@@ -251,8 +251,8 @@ describe('Data Validation and Edge Cases', () => {
         }]
       };
       
-      expect(data.matrix[0].speakerName).toBe('Legacy Speaker');
-      expect(data.matrix[0].values[0].categoryName).toBe('Legacy Category');
+      expect(data.matrix[0]!.speakerName).toBe('Legacy Speaker');
+      expect(data.matrix[0]!.values[0]!.categoryName).toBe('Legacy Category');
     });
   });
 
@@ -313,8 +313,8 @@ describe('Data Validation and Edge Cases', () => {
         }
       };
       
-      expect(data.topics['topic-1'].name).toContain('"quotes"');
-      expect(data.topics['topic-1'].name).toContain('<tags>');
+      expect(data.topics['topic-1']!.name).toContain('"quotes"');
+      expect(data.topics['topic-1']!.name).toContain('<tags>');
     });
 
     it('should handle unicode characters', () => {
@@ -341,8 +341,8 @@ describe('Data Validation and Edge Cases', () => {
         }]
       };
       
-      expect(data.speakers[0].name).toContain('日本語');
-      expect(data.speakers[0].name).toContain('العربية');
+      expect(data.speakers[0]!.name).toContain('日本語');
+      expect(data.speakers[0]!.name).toContain('العربية');
     });
   });
 });
