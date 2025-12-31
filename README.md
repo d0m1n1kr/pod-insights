@@ -2,6 +2,10 @@
 
 A comprehensive tool suite for scraping, analyzing, and visualizing the [Freak Show podcast](https://freakshow.fm) archive. This project extracts episode metadata, transcripts, and shownotes, then uses AI-powered topic extraction and clustering to create interactive visualizations showing the evolution of topics, speakers, and themes across 300+ episodes.
 
+**🌐 Live Demo:** [https://freakshow.freshx.de](https://freakshow.freshx.de)
+
+**📦 GitHub Repository:** [https://github.com/d0m1n1kr/freakshow-ai](https://github.com/d0m1n1kr/freakshow-ai)
+
 ## Features
 
 ### Data Collection
