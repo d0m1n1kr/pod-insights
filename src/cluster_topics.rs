@@ -835,7 +835,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         )
     };
     println!("📂 Lade Embeddings-Datenbank...");
-    let db_path = PathBuf::from("topic-embeddings.json");
+    let db_path = PathBuf::from("db/topic-embeddings.json");
     if !db_path.exists() {
         eprintln!("\n❌ Keine Embeddings-Datenbank gefunden!");
         eprintln!("   Erstelle zuerst die Datenbank mit:");

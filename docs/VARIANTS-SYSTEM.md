@@ -197,7 +197,7 @@ cp settings.example.json settings.json
 # API-Key eintragen!
 ```
 
-### "topic-embeddings.json not found"
+### "db/topic-embeddings.json not found"
 
 → Embeddings müssen zuerst erstellt werden:
 ```bash

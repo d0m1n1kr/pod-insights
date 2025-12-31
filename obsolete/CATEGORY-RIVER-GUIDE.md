@@ -18,7 +18,7 @@ You must have already:
 3. ✅ Clustered topics (`./build-and-run.sh` or `node cluster-topics.js`)
 
 This should give you:
-- `topic-embeddings.json` (embeddings for all topics)
+- `db/topic-embeddings.json` (embeddings for all topics)
 - `topic-taxonomy.json` (256 topic clusters)
 
 ## Step-by-Step

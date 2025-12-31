@@ -19,7 +19,7 @@ function sleep(ms) {
  * Lade Embeddings-Datenbank
  */
 function loadEmbeddingsDatabase() {
-  const dbFile = path.join(__dirname, 'topic-embeddings.json');
+  const dbFile = path.join(__dirname, 'db', 'topic-embeddings.json');
   
   if (!fs.existsSync(dbFile)) {
     return null;

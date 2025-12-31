@@ -291,7 +291,7 @@ interface RiverData {
 
 ### Storage Requirements
 
-- `topic-embeddings.json`: ~500MB (large, 4000+ vectors)
+- `db/topic-embeddings.json`: ~500MB (large, 4000+ vectors)
 - `topic-taxonomy.json`: ~1MB (256 clusters)
 - `topic-categories.json`: ~50KB (12 categories)
 - `topic-river-data.json`: ~5MB (yearly aggregations)

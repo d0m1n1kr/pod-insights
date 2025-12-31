@@ -216,7 +216,7 @@ async function main() {
   
   const embeddingModel = settings.topicClustering?.embeddingModel || 'text-embedding-3-small';
   const batchSize = settings.topicClustering?.embeddingBatchSize || 100;
-  const dbFile = path.join(__dirname, 'topic-embeddings.json');
+  const dbFile = path.join(__dirname, 'db', 'topic-embeddings.json');
   const schemaVersion = 2;
   
   console.log(`Embedding-Modell: ${embeddingModel}`);

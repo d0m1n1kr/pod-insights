@@ -4,10 +4,10 @@ import { UMAP } from 'umap-js';
 
 /**
  * Generates UMAP 2D coordinates for topics colored by their clusters
- * Reads topic-embeddings.json and topic-taxonomy.json
+ * Reads db/topic-embeddings.json and topic-taxonomy.json
  */
 
-const EMBEDDINGS_FILE = 'topic-embeddings.json';
+const EMBEDDINGS_FILE = 'db/topic-embeddings.json';
 const TAXONOMY_FILE = 'topic-taxonomy.json';
 const OUTPUT_FILE = 'topic-umap-data.json';
 const FRONTEND_OUTPUT = path.join('frontend', 'public', 'topic-umap-data.json');
@@ -16,7 +16,7 @@ const FRONTEND_OUTPUT = path.join('frontend', 'public', 'topic-umap-data.json');
  * Load embeddings database
  */
 function loadEmbeddings() {
-  console.log('📂 Loading topic-embeddings.json...');
+  console.log('📂 Loading db/topic-embeddings.json...');
   if (!fs.existsSync(EMBEDDINGS_FILE)) {
     console.error(`❌ ${EMBEDDINGS_FILE} not found!`);
     process.exit(1);

@@ -96,7 +96,7 @@ All features from the JavaScript version are implemented:
 
 ### Input/Output
 - ✅ **Settings from JSON** - Full `settings.json` compatibility
-- ✅ **Embeddings database** - Reads `topic-embeddings.json`
+- ✅ **Embeddings database** - Reads `db/topic-embeddings.json`
 - ✅ **Compatible output** - Identical `topic-taxonomy.json` format
 - ✅ **Cross-platform** - Works on macOS, Linux, Windows
 
@@ -230,7 +230,7 @@ struct NamedCluster {
 
 ### Algorithm Flow
 
-1. **Load embeddings** from `topic-embeddings.json`
+1. **Load embeddings** from `db/topic-embeddings.json`
 2. **Compute distance matrix** (parallel with Rayon)
    - Cosine distance: `1 - cosine_similarity(a, b)`
    - Symmetric matrix, only compute upper triangle
@@ -332,7 +332,7 @@ cp settings.example.json settings.json
 # Edit settings.json with your API key
 ```
 
-**"topic-embeddings.json not found"**
+**"db/topic-embeddings.json not found"**
 ```bash
 npm run create-embeddings
 ```

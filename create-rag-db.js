@@ -12,7 +12,7 @@ function sleep(ms) {
 function parseArgs(argv) {
   const args = {
     inDir: path.join(__dirname, 'episodes'),
-    outFile: path.join(__dirname, 'rag-embeddings.json'),
+    outFile: path.join(__dirname, 'db', 'rag-embeddings.json'),
     episode: null,
     from: null,
     to: null,
@@ -51,7 +51,7 @@ function usage() {
     '\n' +
     'Options:\n' +
     '  --in-dir <dir>           Directory with *-extended-topics.json (default: ./episodes)\n' +
-    '  --out <file>             Output JSON file (default: ./rag-embeddings.json)\n' +
+    '  --out <file>             Output JSON file (default: ./db/rag-embeddings.json)\n' +
     '  --episode <n>            Only index one episode\n' +
     '  --from <n> --to <n>      Index a range of episodes\n' +
     '  --batch-size <n>         Embedding API batch size (default: 100)\n' +

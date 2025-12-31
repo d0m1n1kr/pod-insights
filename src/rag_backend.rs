@@ -97,7 +97,7 @@ impl AppConfig {
         let (settings, settings_source) = load_settings()?;
 
         let rag_db_path = PathBuf::from(
-            std::env::var("RAG_DB_PATH").unwrap_or_else(|_| "rag-embeddings.json".to_string()),
+            std::env::var("RAG_DB_PATH").unwrap_or_else(|_| "db/rag-embeddings.json".to_string()),
         );
         let episodes_dir =
             PathBuf::from(std::env::var("EPISODES_DIR").unwrap_or_else(|_| "episodes".to_string()));

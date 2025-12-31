@@ -4,8 +4,8 @@ echo "🏁 Performance Comparison: Rust vs JavaScript"
 echo "=============================================="
 echo ""
 
-if [ ! -f "topic-embeddings.json" ]; then
-    echo "❌ topic-embeddings.json not found!"
+if [ ! -f "db/topic-embeddings.json" ]; then
+    echo "❌ db/topic-embeddings.json not found!"
     echo "   Please create embeddings first with: node create-embeddings.js"
     exit 1
 fi
@@ -17,7 +17,7 @@ if [ ! -f "settings.json" ]; then
 fi
 
 echo "⚙️  Test Configuration:"
-TOPIC_COUNT=$(grep -o '"topics":\[' topic-embeddings.json -A 1 | wc -l)
+TOPIC_COUNT=$(grep -o '"topics":\[' db/topic-embeddings.json -A 1 | wc -l)
 echo "   Topics to cluster: ~4500+"
 echo "   Target clusters: 256"
 echo ""
