@@ -2,7 +2,13 @@
   "podcasts": [
     {
       "id": "freakshow",
-      "name": "Freak Show"
+      "name": "Freak Show",
+      "tabName": "FdFS",
+      "logoUrl": "https://freakshow.fm/files/2013/07/cropped-freakshow-logo-600x600-180x180.jpg",
+      "homeUrl": "https://freakshow.fm/",
+      "feedUrl": "https://feeds.metaebene.me/freakshow/mp3",
+      "archiveUrl": "https://freakshow.fm/archiv",
+      "teamUrl": "https://freakshow.fm/team"
     }
   ]
 }

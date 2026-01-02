@@ -11,8 +11,22 @@ const router = useRouter();
 const settingsStore = useSettingsStore();
 const { t } = useI18n();
 
-const FREAKSHOW_HOME_URL = 'https://freakshow.fm/';
-const FREAKSHOW_ICON_URL = 'https://freakshow.fm/files/2013/07/cropped-freakshow-logo-600x600-180x180.jpg';
+// Get current podcast info
+const currentPodcast = computed(() => {
+  return settingsStore.availablePodcasts.find(p => p.id === settingsStore.selectedPodcast) || settingsStore.availablePodcasts[0];
+});
+
+const podcastLogoUrl = computed(() => {
+  return currentPodcast.value?.logoUrl || 'https://freakshow.fm/files/2013/07/cropped-freakshow-logo-600x600-180x180.jpg';
+});
+
+const podcastHomeUrl = computed(() => {
+  return currentPodcast.value?.homeUrl || 'https://freakshow.fm/';
+});
+
+const searchTabName = computed(() => {
+  return currentPodcast.value?.tabName || t('nav.search');
+});
 
 const activeView = computed(() => {
   return route.name as
@@ -63,16 +77,17 @@ const submitSearch = async () => {
         <div class="flex items-start justify-between flex-col lg:flex-row gap-4">
           <div class="flex-1 min-w-0 flex items-start gap-3">
             <a
-              :href="FREAKSHOW_HOME_URL"
+              v-if="currentPodcast"
+              :href="podcastHomeUrl"
               target="_blank"
               rel="noopener noreferrer"
               class="mt-1 flex-shrink-0"
-              aria-label="Freak Show"
-              title="Freak Show"
+              :aria-label="currentPodcast.name"
+              :title="currentPodcast.name"
             >
               <img
-                :src="FREAKSHOW_ICON_URL"
-                alt="Freak Show"
+                :src="podcastLogoUrl"
+                :alt="currentPodcast.name"
                 class="w-10 h-10 sm:w-12 sm:h-12 rounded-lg shadow-sm ring-1 ring-gray-200 dark:ring-gray-700"
                 loading="lazy"
                 referrerpolicy="no-referrer"
@@ -210,7 +225,7 @@ const submitSearch = async () => {
                   : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
               ]"
             >
-              {{ t('nav.search') }}
+              {{ searchTabName }}
               <span class="text-[10px] px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-bold uppercase tracking-wider">
                 beta
               </span>

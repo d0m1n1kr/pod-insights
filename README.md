@@ -8,6 +8,13 @@ A comprehensive tool suite for scraping, analyzing, and visualizing the [Freak S
 
 ## Features
 
+### Multi-Podcast Support
+- ✅ **Podcast-Auswahl**: Dropdown zur Auswahl zwischen mehreren Podcasts
+- ✅ **Podcast-spezifische Daten**: Alle Daten werden pro Podcast organisiert
+- ✅ **Dynamische Pfade**: Automatische Pfad-Generierung basierend auf ausgewähltem Podcast
+- ✅ **Konfigurierbare Podcasts**: Einfache Erweiterung um weitere Podcasts über `podcasts.json`
+- ✅ **Podcast-Metadaten**: Logo, Tab-Namen und URLs pro Podcast konfigurierbar
+
 ### Data Collection
 - ✅ Scrapes 300+ episodes from the Freak Show archive
 - ✅ Extracts metadata (title, date, duration, speakers, chapters)
@@ -418,11 +425,93 @@ Response shape:
 - **`answer`**: LLM answer (with citations like `(Episode 281, 12:38-17:19)`)
 - **`sources[]`**: list of sources with `episodeNumber`, `startSec/endSec`, and an `excerpt`
 
+## Multi-Podcast Setup
+
+Die Anwendung unterstützt jetzt mehrere Podcasts. Jeder Podcast hat seine eigenen Daten und Konfiguration.
+
+### Podcast-Konfiguration
+
+Bearbeite `frontend/public/podcasts.json` um Podcasts hinzuzufügen:
+
+```json
+{
+  "podcasts": [
+    {
+      "id": "freakshow",
+      "name": "Freak Show",
+      "tabName": "FdFS",
+      "logoUrl": "https://freakshow.fm/files/2013/07/cropped-freakshow-logo-600x600-180x180.jpg",
+      "homeUrl": "https://freakshow.fm/",
+      "feedUrl": "https://feeds.metaebene.me/freakshow/mp3",
+      "archiveUrl": "https://freakshow.fm/archiv",
+      "teamUrl": "https://freakshow.fm/team"
+    }
+  ]
+}
+```
+
+### Verzeichnisstruktur
+
+Jeder Podcast hat seine eigenen Verzeichnisse:
+
+```
+podcasts/
+└── <podcast-id>/
+    ├── episodes/            # Episode-Daten
+    └── speakers/           # Speaker-Daten
+
+frontend/public/podcasts/
+└── <podcast-id>/
+    ├── episodes.json       # Episode-Index
+    ├── speaker-river-data.json
+    ├── topic-river-data.json
+    ├── topics/             # Clustering-Varianten
+    │   ├── manifest.json
+    │   └── <variant>/
+    └── speakers/           # Speaker-Metadaten
+```
+
+### Skripte mit Podcast-Parameter
+
+Alle Skripte unterstützen den `--podcast` Parameter:
+
+```bash
+# Scraping für einen bestimmten Podcast
+node scripts/scrape.js --podcast freakshow
+node scripts/scrape-details.js --podcast freakshow
+
+# Topic-Extraktion
+node scripts/extract-topics.js --podcast freakshow --all
+
+# Clustering
+./scripts/build-variant.sh v2 auto-v2.1 --podcast freakshow
+
+# Visualisierungen generieren
+node scripts/generate-topic-river.js --podcast freakshow
+node scripts/generate-speaker-river.js --podcast freakshow
+```
+
+### RAG-Backend
+
+Das RAG-Backend unterstützt Podcast-spezifische Pfade über Umgebungsvariablen:
+
+```bash
+export PODCAST_ID="freakshow"
+export EPISODES_DIR="podcasts/freakshow/episodes"
+export SPEAKERS_DIR="podcasts/freakshow/speakers"
+
+cargo run --bin rag-backend
+```
+
 ## Project Structure
 
 ```
 freakshow/
-├── episodes/                 # Scraped episode data (959 files)
+├── podcasts/               # Multi-Podcast Datenstruktur
+│   └── <podcast-id>/
+│       ├── episodes/       # Scraped episode data (per podcast)
+│       └── speakers/       # Speaker data (per podcast)
+├── episodes/                 # Legacy: Scraped episode data (959 files)
 │   ├── 1.json               # Episode metadata
 │   ├── 1-ts.json            # Transcript
 │   ├── 1-sn.json            # Shownotes
@@ -450,16 +539,22 @@ freakshow/
 ├── frontend/                # Vue.js visualization app
 │   ├── src/
 │   │   ├── views/           # Main view components
-│   │   ├── components/      # Reusable components
-│   │   ├── composables/     # Vue composables (variant handling)
-│   │   ├── stores/          # Pinia state management
+│   │   ├── components/      # Reusable components (inkl. PodcastSelector)
+│   │   ├── composables/     # Vue composables (variant & podcast handling)
+│   │   ├── stores/          # Pinia state management (mit Podcast-Auswahl)
 │   │   └── i18n/            # Translations (de, en, fr)
 │   └── public/
-│       ├── episodes/        # Episode data (copied)
-│       └── topics/          # Variant-specific data
-│           ├── manifest.json    # Available variants
-│           ├── default-v1/      # V1 variant data
-│           └── auto-v2/         # V2 variant data
+│       ├── podcasts.json    # Podcast-Konfiguration
+│       ├── podcasts/        # Podcast-spezifische Daten
+│       │   └── <podcast-id>/
+│       │       ├── episodes.json
+│       │       ├── episodes/     # Symlink zu podcasts/<id>/episodes
+│       │       ├── speakers/
+│       │       └── topics/       # Variant-specific data
+│       │           ├── manifest.json
+│       │           ├── default-v1/
+│       │           └── auto-v2/
+│       └── episodes/        # Legacy: Episode data (Symlink)
 │
 ├── settings.json            # Configuration (API keys, etc.)
 ├── settings.example.json    # Example configuration

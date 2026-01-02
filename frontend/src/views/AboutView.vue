@@ -34,6 +34,26 @@ const { t } = useI18n();
         </p>
       </section>
 
+      <!-- Multi-Podcast Support -->
+      <section>
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-3">🎙️ {{ t('about.multiPodcast.title') }}</h3>
+        <div class="p-5 bg-gradient-to-r from-emerald-50 to-teal-50 dark:from-emerald-900/20 dark:to-teal-900/20 rounded-lg border border-emerald-200 dark:border-emerald-700">
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+            {{ t('about.multiPodcast.description') }}
+          </p>
+          <ul class="text-sm text-gray-700 dark:text-gray-300 list-disc list-inside space-y-2 mb-4">
+            <li>{{ t('about.multiPodcast.features.selection') }}</li>
+            <li>{{ t('about.multiPodcast.features.organization') }}</li>
+            <li>{{ t('about.multiPodcast.features.configuration') }}</li>
+            <li>{{ t('about.multiPodcast.features.metadata') }}</li>
+          </ul>
+          <div class="mt-4 p-3 bg-emerald-100 dark:bg-emerald-900/30 rounded border border-emerald-200 dark:border-emerald-700">
+            <p class="text-xs text-emerald-900 dark:text-emerald-100 font-semibold mb-1">{{ t('about.multiPodcast.note.title') }}</p>
+            <p class="text-xs text-emerald-800 dark:text-emerald-200">{{ t('about.multiPodcast.note.content') }}</p>
+          </div>
+        </div>
+      </section>
+
       <!-- Frontend Technologies -->
       <section>
         <h3 class="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4">🎨 {{ t('about.frontend.title') }}</h3>

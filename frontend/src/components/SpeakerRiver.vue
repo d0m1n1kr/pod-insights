@@ -3,7 +3,7 @@ import { ref, onMounted, computed, watch } from 'vue';
 import * as d3 from 'd3';
 import type { SpeakerRiverData, ProcessedSpeakerData } from '../types';
 import { useSettingsStore } from '../stores/settings';
-import { getPodcastFileUrl, getSpeakerMetaUrl, getEpisodeUrl } from '@/composables/usePodcast';
+import { getSpeakerMetaUrl, getEpisodeUrl } from '@/composables/usePodcast';
 
 const props = defineProps<{
   data: SpeakerRiverData;

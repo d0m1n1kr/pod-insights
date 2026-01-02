@@ -1,13 +1,9 @@
 // Composable for podcast-specific paths and data
 import { computed } from 'vue';
-import { useSettingsStore } from '@/stores/settings';
+import { useSettingsStore, type Podcast } from '@/stores/settings';
 
-export interface Podcast {
-  id: string;
-  name: string;
-  archiveUrl?: string;
-  episodeUrl?: string;
-}
+// Re-export Podcast type for convenience
+export type { Podcast };
 
 /**
  * Get the base path for a podcast's data files

@@ -1,15 +1,10 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import { useSettingsStore } from '@/stores/settings';
+import { useSettingsStore, type Podcast } from '@/stores/settings';
 import { useI18n } from 'vue-i18n';
 
 const settings = useSettingsStore();
 const { t } = useI18n();
-
-interface Podcast {
-  id: string;
-  name: string;
-}
 
 const podcasts = ref<Podcast[]>([]);
 const loading = ref(true);

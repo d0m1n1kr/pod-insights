@@ -84,6 +84,20 @@
       "title": "Description du projet",
       "content": "Cette application IA interactive analyse et visualise les sujets et intervenants du podcast Freak Show au fil des années. Grâce à l'analyse de texte assistée par IA, la recherche sémantique et aux algorithmes de clustering, les sujets sont regroupés et leur évolution temporelle est affichée dans des diagrammes en rivière. Avec les personas d'intervenants et le mode discussion, les questions peuvent être répondues dans le style des animateurs du podcast. Le projet a été développé au 39C3."
     },
+    "multiPodcast": {
+      "title": "Support Multi-Podcast",
+      "description": "L'application prend désormais en charge plusieurs podcasts simultanément. Chaque podcast a ses propres données, visualisations et configurations.",
+      "features": {
+        "selection": "Sélection de podcast via le menu déroulant dans l'en-tête",
+        "organization": "Organisation des données spécifique au podcast dans des répertoires séparés",
+        "configuration": "Extension facile avec des podcasts supplémentaires via podcasts.json",
+        "metadata": "Métadonnées configurables par podcast (logo, nom d'onglet, URLs)"
+      },
+      "note": {
+        "title": "Note",
+        "content": "Tous les scripts prennent en charge le paramètre --podcast pour le traitement spécifique au podcast. La structure de données est entièrement compatible multi-podcast."
+      }
+    },
     "frontend": {
       "title": "Technologies Frontend",
       "vue": "Framework JavaScript progressif pour interface utilisateur réactive",

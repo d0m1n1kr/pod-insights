@@ -6,6 +6,9 @@ const LOCKED_CLUSTERING_VARIANT = 'auto-v2.1' as const;
 export interface Podcast {
   id: string;
   name: string;
+  tabName?: string;
+  logoUrl?: string;
+  homeUrl?: string;
   feedUrl?: string;
   archiveUrl?: string;
   teamUrl?: string;

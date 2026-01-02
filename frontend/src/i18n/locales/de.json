@@ -84,6 +84,20 @@
       "title": "Projekt-Beschreibung",
       "content": "Diese interaktive AI-Anwendung analysiert und visualisiert die Themen und Sprecher des Freak Show Podcasts über die Jahre. Durch KI-gestützte Textanalyse, semantische Suche und Clustering-Algorithmen werden Themen gruppiert und deren zeitliche Entwicklung in River-Diagrammen dargestellt. Mit Speaker-Personas und Diskussionsmodus können Fragen im Stil der Podcast-Hosts beantwortet werden. Das Projekt wurde auf dem 39C3 entwickelt."
     },
+    "multiPodcast": {
+      "title": "Multi-Podcast-Unterstützung",
+      "description": "Die Anwendung unterstützt jetzt mehrere Podcasts gleichzeitig. Jeder Podcast hat seine eigenen Daten, Visualisierungen und Konfigurationen.",
+      "features": {
+        "selection": "Podcast-Auswahl über Dropdown im Header",
+        "organization": "Podcast-spezifische Datenorganisation in separaten Verzeichnissen",
+        "configuration": "Einfache Erweiterung um weitere Podcasts über podcasts.json",
+        "metadata": "Konfigurierbare Metadaten pro Podcast (Logo, Tab-Namen, URLs)"
+      },
+      "note": {
+        "title": "Hinweis",
+        "content": "Alle Skripte unterstützen den --podcast Parameter für podcast-spezifische Verarbeitung. Die Datenstruktur ist vollständig multi-podcast-fähig."
+      }
+    },
     "frontend": {
       "title": "Frontend-Technologien",
       "vue": "Progressive JavaScript Framework für die reaktive Benutzeroberfläche",
