@@ -7,8 +7,15 @@ const __dirname = path.dirname(__filename);
 
 // Navigate from scripts/ to project root
 const PROJECT_ROOT = path.join(__dirname, '..');
-const EPISODES_DIR = path.join(PROJECT_ROOT, 'episodes');
-const OUTPUT_FILE = path.join(PROJECT_ROOT, 'frontend', 'public', 'speaker-river-data.json');
+
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const EPISODES_DIR = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
+const OUTPUT_DIR = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID);
+const OUTPUT_FILE = path.join(OUTPUT_DIR, 'speaker-river-data.json');
 
 /**
  * Liest alle Episode-JSON-Dateien ein und extrahiert die Speaker-Informationen
@@ -223,7 +230,8 @@ function createRiverData(aggregated, episodes) {
  * Main-Funktion
  */
 async function main() {
-  console.log('🎙️  Lade Episode-Daten...');
+  console.log(`🎙️  Lade Episode-Daten für Podcast: ${PODCAST_ID}...`);
+  console.log(`   Episoden-Verzeichnis: ${EPISODES_DIR}`);
   const episodes = await loadEpisodes();
   console.log(`✅ ${episodes.length} Episoden geladen`);
   
@@ -248,6 +256,8 @@ async function main() {
   });
   
   console.log(`\n💾 Speichere Daten nach ${OUTPUT_FILE}...`);
+  // Ensure output directory exists
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   fs.writeFileSync(
     OUTPUT_FILE,
     JSON.stringify(riverData, null, 2),

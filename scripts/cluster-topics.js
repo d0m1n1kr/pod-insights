@@ -5,8 +5,14 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+const PROJECT_ROOT = path.join(__dirname, '..');
+
 // Settings laden
-const settings = JSON.parse(fs.readFileSync(path.join(__dirname, 'settings.json'), 'utf-8'));
+const settings = JSON.parse(fs.readFileSync(path.join(PROJECT_ROOT, 'settings.json'), 'utf-8'));
 
 /**
  * Wartet für eine bestimmte Zeit
@@ -19,7 +25,7 @@ function sleep(ms) {
  * Lade Embeddings-Datenbank
  */
 function loadEmbeddingsDatabase() {
-  const dbFile = path.join(__dirname, 'db', 'topic-embeddings.json');
+  const dbFile = path.join(PROJECT_ROOT, 'db', 'topic-embeddings.json');
   
   if (!fs.existsSync(dbFile)) {
     return null;
@@ -477,7 +483,9 @@ async function main() {
   namedClusters.sort((a, b) => b.episodeCount - a.episodeCount);
 
   // 6. Speichere Ergebnis
-  const taxonomyFile = path.join(__dirname, 'topic-taxonomy.json');
+  const outputDir = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID);
+  fs.mkdirSync(outputDir, { recursive: true });
+  const taxonomyFile = path.join(outputDir, 'topic-taxonomy.json');
   const outliers = namedClusters.filter(c => c.isOutlier);
   
   const result = {
@@ -514,7 +522,7 @@ async function main() {
   console.log(`✅ Taxonomie gespeichert: ${taxonomyFile}`);
   
   // Save detailed topic mapping for frontend (with all topics per cluster)
-  const detailedMappingFile = path.join(__dirname, 'topic-taxonomy-detailed.json');
+  const detailedMappingFile = path.join(outputDir, 'topic-taxonomy-detailed.json');
   const detailedMapping = {
     createdAt: new Date().toISOString(),
     clusters: namedClusters.map(c => ({

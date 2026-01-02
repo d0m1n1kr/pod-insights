@@ -5,6 +5,12 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Parse command line arguments for podcast
+const argsForPodcast = process.argv.slice(2);
+const podcastIndex = argsForPodcast.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && argsForPodcast[podcastIndex + 1] ? argsForPodcast[podcastIndex + 1] : 'freakshow';
+const PROJECT_ROOT = path.join(__dirname, '..');
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -128,7 +134,7 @@ function loadSettings({ allowMissing } = { allowMissing: false }) {
 }
 
 function findTopicsFiles() {
-  const episodesDir = path.join(__dirname, 'episodes');
+  const episodesDir = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
   const files = fs.readdirSync(episodesDir);
   return files
     .filter(f => /^\d+-topics\.json$/.test(f))
@@ -439,14 +445,14 @@ async function main() {
   const limiter = createLimiter(args.concurrency);
 
   for (const ep of selected) {
-    const outPath = path.join(__dirname, 'episodes', `${ep.episodeNumber}-extended-topics.json`);
+    const outPath = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes', `${ep.episodeNumber}-extended-topics.json`);
     if (!args.overwrite && fs.existsSync(outPath)) {
       console.log(`⏭️  ${ep.episodeNumber}: output exists, skipping (use --overwrite)`);
       continue;
     }
 
     const topicsData = JSON.parse(fs.readFileSync(ep.path, 'utf-8'));
-    const transcriptPath = path.join(__dirname, 'episodes', `${ep.episodeNumber}-ts.json`);
+    const transcriptPath = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes', `${ep.episodeNumber}-ts.json`);
     const transcriptFound = fs.existsSync(transcriptPath);
 
     let transcript = null;

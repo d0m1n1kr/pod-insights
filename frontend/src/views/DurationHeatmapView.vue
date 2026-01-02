@@ -176,6 +176,7 @@
 import { ref, onMounted, watch, computed } from 'vue';
 import * as d3 from 'd3';
 import { useSettingsStore } from '../stores/settings';
+import { getEpisodeUrl, getPodcastFileUrl } from '@/composables/usePodcast';
 
 const settingsStore = useSettingsStore();
 
@@ -290,7 +291,7 @@ async function loadEpisodeDetails() {
   for (const episodeNum of selectedCell.value.episodes) {
     if (!episodeDetails.value.has(episodeNum)) {
       try {
-        const response = await fetch(`/episodes/${episodeNum}.json`);
+        const response = await fetch(getEpisodeUrl(episodeNum));
         if (response.ok) {
           const data = await response.json();
           
@@ -744,7 +745,7 @@ async function loadData(tabId: string) {
     const tab = tabs.find(t => t.id === tabId);
     if (!tab) return;
     
-    const response = await fetch(`/${tab.file}`);
+    const response = await fetch(getPodcastFileUrl(tab.file));
     heatmapDataCache.value[tabId] = await response.json();
   } catch (error) {
     console.error(`Failed to load ${tabId} data:`, error);

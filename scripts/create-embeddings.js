@@ -5,8 +5,14 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+const PROJECT_ROOT = path.join(__dirname, '..');
+
 // Settings laden
-const settings = JSON.parse(fs.readFileSync(path.join(__dirname, 'settings.json'), 'utf-8'));
+const settings = JSON.parse(fs.readFileSync(path.join(PROJECT_ROOT, 'settings.json'), 'utf-8'));
 
 /**
  * Wartet für eine bestimmte Zeit
@@ -69,7 +75,7 @@ async function createEmbeddings(texts, retryCount = 0) {
  * Finde alle Topics-Dateien
  */
 function findTopicsFiles() {
-  const episodesDir = path.join(__dirname, 'episodes');
+  const episodesDir = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
   const files = fs.readdirSync(episodesDir);
   
   return files
@@ -216,7 +222,7 @@ async function main() {
   
   const embeddingModel = settings.topicClustering?.embeddingModel || 'text-embedding-3-small';
   const batchSize = settings.topicClustering?.embeddingBatchSize || 100;
-  const dbFile = path.join(__dirname, 'db', 'topic-embeddings.json');
+  const dbFile = path.join(PROJECT_ROOT, 'db', 'topic-embeddings.json');
   const schemaVersion = 2;
   
   console.log(`Embedding-Modell: ${embeddingModel}`);

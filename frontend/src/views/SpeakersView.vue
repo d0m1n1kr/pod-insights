@@ -1,26 +1,35 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 import SpeakerRiver from '../components/SpeakerRiver.vue';
 import type { SpeakerRiverData } from '../types';
+import { loadPodcastData } from '@/composables/usePodcast';
+import { useSettingsStore } from '@/stores/settings';
 
+const settings = useSettingsStore();
 const speakerData = ref<SpeakerRiverData | null>(null);
 const loading = ref(true);
 const error = ref<string | null>(null);
 
-onMounted(async () => {
+async function loadData() {
+  loading.value = true;
+  error.value = null;
+  
   try {
-    const response = await fetch('/speaker-river-data.json');
-    
-    if (!response.ok) {
-      throw new Error('Fehler beim Laden der Speaker-Daten');
-    }
-    
-    speakerData.value = await response.json();
+    speakerData.value = await loadPodcastData<SpeakerRiverData>('speaker-river-data.json');
   } catch (e) {
     error.value = e instanceof Error ? e.message : 'Unbekannter Fehler';
   } finally {
     loading.value = false;
   }
+}
+
+onMounted(() => {
+  loadData();
+});
+
+// Reload data when podcast changes
+watch(() => settings.selectedPodcast, () => {
+  loadData();
 });
 </script>
 

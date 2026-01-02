@@ -14,6 +14,10 @@ describe('useVariants Composable', () => {
   beforeEach(() => {
     setActivePinia(createPinia());
     
+    // Set default podcast for tests
+    const store = useSettingsStore();
+    store.setSelectedPodcast('freakshow');
+    
     // Reset fetch mock before each test
     globalThis.fetch = vi.fn();
   });
@@ -22,7 +26,7 @@ describe('useVariants Composable', () => {
     it('should return correct variant path', () => {
       const { variantPath, variantName } = useVariantPath();
       
-      expect(variantPath.value).toBe('/topics/auto-v2.1');
+      expect(variantPath.value).toBe('/podcasts/freakshow/topics/auto-v2.1');
       expect(variantName.value).toBe('auto-v2.1');
     });
 
@@ -31,13 +35,13 @@ describe('useVariants Composable', () => {
       const { variantPath, variantName } = useVariantPath();
       
       // Initial value
-      expect(variantPath.value).toBe('/topics/auto-v2.1');
+      expect(variantPath.value).toBe('/podcasts/freakshow/topics/auto-v2.1');
       
       // Try to change variant (will be locked to auto-v2.1)
       store.setClusteringVariant('default-v1');
       
       // Should remain auto-v2.1 due to lock
-      expect(variantPath.value).toBe('/topics/auto-v2.1');
+      expect(variantPath.value).toBe('/podcasts/freakshow/topics/auto-v2.1');
       expect(variantName.value).toBe('auto-v2.1');
     });
 
@@ -61,7 +65,7 @@ describe('useVariants Composable', () => {
       const result = await loadVariantData('test-file.json');
       
       expect(result).toEqual(mockData);
-      expect(globalThis.fetch).toHaveBeenCalledWith('/topics/auto-v2.1/test-file.json');
+      expect(globalThis.fetch).toHaveBeenCalledWith('/podcasts/freakshow/topics/auto-v2.1/test-file.json');
     });
 
     it('should throw error when fetch fails', async () => {
@@ -121,7 +125,7 @@ describe('useVariants Composable', () => {
       expect(result).toEqual(mockManifest);
       expect(result.variants).toHaveProperty('default-v1');
       expect(result.variants).toHaveProperty('auto-v2');
-      expect(globalThis.fetch).toHaveBeenCalledWith('/topics/manifest.json');
+      expect(globalThis.fetch).toHaveBeenCalledWith('/podcasts/freakshow/topics/manifest.json');
     });
 
     it('should return default manifest when fetch fails', async () => {
@@ -206,13 +210,13 @@ describe('useVariants Composable', () => {
     it('should generate correct URL with default variant', () => {
       const url = getVariantFileUrl('data.json');
       
-      expect(url).toBe('/topics/auto-v2.1/data.json');
+      expect(url).toBe('/podcasts/freakshow/topics/auto-v2.1/data.json');
     });
 
     it('should generate correct URL with specific variant', () => {
       const url = getVariantFileUrl('data.json', 'custom-v1');
       
-      expect(url).toBe('/topics/custom-v1/data.json');
+      expect(url).toBe('/podcasts/freakshow/topics/custom-v1/data.json');
     });
 
     it('should use store variant when no variant specified', () => {
@@ -224,17 +228,17 @@ describe('useVariants Composable', () => {
     });
 
     it('should handle different file types', () => {
-      expect(getVariantFileUrl('taxonomy.json')).toBe('/topics/auto-v2.1/taxonomy.json');
-      expect(getVariantFileUrl('river.json')).toBe('/topics/auto-v2.1/river.json');
-      expect(getVariantFileUrl('heatmap.json')).toBe('/topics/auto-v2.1/heatmap.json');
+      expect(getVariantFileUrl('taxonomy.json')).toBe('/podcasts/freakshow/topics/auto-v2.1/taxonomy.json');
+      expect(getVariantFileUrl('river.json')).toBe('/podcasts/freakshow/topics/auto-v2.1/river.json');
+      expect(getVariantFileUrl('heatmap.json')).toBe('/podcasts/freakshow/topics/auto-v2.1/heatmap.json');
     });
 
     it('should override store variant with explicit parameter', () => {
       const url1 = getVariantFileUrl('file.json');
       const url2 = getVariantFileUrl('file.json', 'other-variant');
       
-      expect(url1).toBe('/topics/auto-v2.1/file.json');
-      expect(url2).toBe('/topics/other-variant/file.json');
+      expect(url1).toBe('/podcasts/freakshow/topics/auto-v2.1/file.json');
+      expect(url2).toBe('/podcasts/freakshow/topics/other-variant/file.json');
     });
   });
 
@@ -257,7 +261,7 @@ describe('useVariants Composable', () => {
       const data = await loadVariantData('taxonomy.json');
       
       expect(data).toEqual(mockData);
-      expect(globalThis.fetch).toHaveBeenCalledWith('/topics/auto-v2.1/taxonomy.json');
+      expect(globalThis.fetch).toHaveBeenCalledWith('/podcasts/freakshow/topics/auto-v2.1/taxonomy.json');
     });
   });
 });

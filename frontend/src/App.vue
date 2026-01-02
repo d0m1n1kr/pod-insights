@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from './stores/settings';
 import LanguageSelector from './components/LanguageSelector.vue';
+import PodcastSelector from './components/PodcastSelector.vue';
 
 const route = useRoute();
 const router = useRouter();
@@ -113,6 +114,9 @@ const submitSearch = async () => {
               </button>
             </form>
 
+            <!-- Podcast Selector -->
+            <PodcastSelector />
+            
             <!-- Language Selector -->
             <LanguageSelector />
             

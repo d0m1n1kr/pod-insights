@@ -1,4 +1,12 @@
 {
+  "podcasts": [
+    {
+      "id": "freakshow",
+      "name": "Freak Show",
+      "archiveUrl": "https://freakshow.fm/archiv",
+      "episodeUrl": "https://freakshow.fm"
+    }
+  ],
   "llm": {
     "provider": "openai",
     "model": "gpt-4o-mini",

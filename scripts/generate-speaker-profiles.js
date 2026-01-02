@@ -34,10 +34,16 @@ function slugify(name) {
 }
 
 function parseArgs(argv) {
+  // Parse podcast argument
+  const podcastIndex = argv.indexOf('--podcast');
+  const PODCAST_ID = podcastIndex !== -1 && argv[podcastIndex + 1] ? argv[podcastIndex + 1] : 'freakshow';
+  const PROJECT_ROOT = path.join(__dirname, '..');
+  
   const args = {
-    episodesDir: path.join(__dirname, 'episodes'),
-    outDir: path.join(__dirname, 'speakers'),
-    cacheDir: path.join(__dirname, 'speakers', '.cache'),
+    episodesDir: path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes'),
+    outDir: path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'speakers'),
+    cacheDir: path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'speakers', '.cache'),
+    podcastId: PODCAST_ID,
     minWordsForLLM: 800,
     maxChunkChars: 16000,
     maxChunks: 8,

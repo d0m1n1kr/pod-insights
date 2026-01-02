@@ -99,10 +99,16 @@ impl AppConfig {
         let rag_db_path = PathBuf::from(
             std::env::var("RAG_DB_PATH").unwrap_or_else(|_| "db/rag-embeddings.json".to_string()),
         );
-        let episodes_dir =
-            PathBuf::from(std::env::var("EPISODES_DIR").unwrap_or_else(|_| "episodes".to_string()));
-        let speakers_dir =
-            PathBuf::from(std::env::var("SPEAKERS_DIR").unwrap_or_else(|_| "speakers".to_string()));
+        // Default podcast ID, can be overridden via PODCAST_ID env var
+        let podcast_id = std::env::var("PODCAST_ID").unwrap_or_else(|_| "freakshow".to_string());
+        let episodes_dir = PathBuf::from(
+            std::env::var("EPISODES_DIR")
+                .unwrap_or_else(|_| format!("podcasts/{}/episodes", podcast_id)),
+        );
+        let speakers_dir = PathBuf::from(
+            std::env::var("SPEAKERS_DIR")
+                .unwrap_or_else(|_| format!("podcasts/{}/speakers", podcast_id)),
+        );
 
         // Resolve from settings first, then allow env override.
         let settings_llm = settings.as_ref().and_then(|s| s.llm.as_ref());

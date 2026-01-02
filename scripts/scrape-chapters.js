@@ -1,8 +1,18 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs/promises';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-const EPISODES_DIR = './episodes';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
+const EPISODES_DIR = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
 
 const CONCURRENT_REQUESTS = 3;
 const BROWSER_RESTART_AFTER = 30;

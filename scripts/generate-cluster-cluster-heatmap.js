@@ -5,11 +5,19 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
+
 async function generateClusterClusterHeatmap() {
+  console.log(`Processing podcast: ${PODCAST_ID}`);
   console.log('Loading topic taxonomy...');
   
-  // Load topic taxonomy from root directory (where Rust binary outputs it)
-  const taxonomyPath = path.join(__dirname, 'topic-taxonomy.json');
+  // Load topic taxonomy from podcast directory
+  const taxonomyPath = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID, 'topic-taxonomy.json');
   const taxonomyData = JSON.parse(await fs.readFile(taxonomyPath, 'utf-8'));
   
   const clusters = taxonomyData.clusters;
@@ -84,8 +92,10 @@ async function generateClusterClusterHeatmap() {
     matrix
   };
   
-  // Write output to root directory (will be moved by build-variant.sh)
-  const outputPath = path.join(__dirname, 'cluster-cluster-heatmap.json');
+  // Write output to podcast directory
+  const outputDir = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID);
+  await fs.mkdir(outputDir, { recursive: true });
+  const outputPath = path.join(outputDir, 'cluster-cluster-heatmap.json');
   await fs.writeFile(outputPath, JSON.stringify(heatmapData, null, 2));
   
   console.log(`\n✓ Generated cluster-cluster-heatmap.json`);

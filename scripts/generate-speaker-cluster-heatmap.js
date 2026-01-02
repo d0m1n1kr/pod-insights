@@ -1,14 +1,25 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
  * Generiert Heatmap-Daten für Speaker x Topic-Clusters
  * Zeigt, wie oft jeder Speaker über jedes Topic-Cluster gesprochen hat
  */
 
-const TAXONOMY_FILE = 'topic-taxonomy.json';
-const EPISODES_DIR = 'episodes';
-const OUTPUT_FILE = 'speaker-cluster-heatmap.json';
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
+const TAXONOMY_FILE = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID, 'topic-taxonomy.json');
+const EPISODES_DIR = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
+const OUTPUT_DIR = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID);
+const OUTPUT_FILE = path.join(OUTPUT_DIR, 'speaker-cluster-heatmap.json');
 
 /**
  * Lädt die Topic-Taxonomy-Daten
@@ -55,7 +66,8 @@ function normalizeSpeakerName(name) {
  * Hauptfunktion
  */
 function main() {
-  console.log('=== Speaker x Topic-Cluster Heatmap Generator ===\n');
+  console.log(`=== Speaker x Topic-Cluster Heatmap Generator ===`);
+  console.log(`Processing podcast: ${PODCAST_ID}\n`);
   
   try {
     // 1. Lade Clusters
@@ -192,6 +204,7 @@ function main() {
     };
     
     // 8. Speichere JSON
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), 'utf-8');
     
     console.log(`\n✓ Daten erfolgreich gespeichert in: ${OUTPUT_FILE}`);

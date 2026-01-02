@@ -1,9 +1,19 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs/promises';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-const ARCHIVE_URL = 'https://freakshow.fm/archiv';
-const EPISODES_DIR = './episodes';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
+const ARCHIVE_URL = 'https://freakshow.fm/archiv'; // TODO: Load from settings.json
+const EPISODES_DIR = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
 
 // Parse duration string like "3 Stunden 53 Minuten" into [hh, mm, ss]
 function parseDuration(durationText) {
@@ -38,6 +48,7 @@ function extractEpisodeNumber(title) {
 }
 
 async function scrapeEpisodes() {
+  console.log(`Processing podcast: ${PODCAST_ID}`);
   console.log('Launching browser...');
   const browser = await puppeteer.launch({
     headless: 'new'

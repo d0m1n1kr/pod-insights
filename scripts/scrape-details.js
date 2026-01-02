@@ -1,6 +1,7 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs/promises';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
 function parseArgs(argv) {
   const args = {
@@ -29,7 +30,12 @@ const ARGS = parseArgs(process.argv);
 const START_EPISODE = ARGS.start !== null ? parseInt(String(ARGS.start), 10) : null;
 const END_EPISODE = ARGS.end !== null ? parseInt(String(ARGS.end), 10) : null;
 
-const EPISODES_DIR = './episodes';
+// Parse podcast argument
+const podcastIndex = process.argv.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && process.argv[podcastIndex + 1] ? process.argv[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
+const EPISODES_DIR = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
 const CONCURRENT_REQUESTS = 3; // Reduced for stability
 const BROWSER_RESTART_AFTER = 30; // Restart browser after N episodes
 

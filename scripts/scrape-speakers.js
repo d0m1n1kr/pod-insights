@@ -6,8 +6,14 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const TEAM_URL = 'https://freakshow.fm/team';
-const SPEAKERS_DIR = path.join(__dirname, 'speakers');
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
+const TEAM_URL = 'https://freakshow.fm/team'; // TODO: Load from settings.json
+const SPEAKERS_DIR = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'speakers');
 
 function parseArgs(argv) {
   const args = {
@@ -419,7 +425,7 @@ async function scrapeSpeakers() {
 
   await browser.close();
   
-  console.log('\n✅ Done! Speaker metadata saved to speakers/*-meta.json');
+    console.log(`\n✅ Done! Speaker metadata saved to podcasts/${PODCAST_ID}/speakers/*-meta.json`);
 }
 
 // Run the scraper

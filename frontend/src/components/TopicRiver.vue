@@ -4,6 +4,7 @@ import * as d3 from 'd3';
 import type { TopicRiverData, ProcessedTopicData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import MiniAudioPlayer from './MiniAudioPlayer.vue';
+import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl } from '@/composables/usePodcast';
 
 const props = defineProps<{
   data: TopicRiverData;
@@ -616,7 +617,7 @@ const loadEpisodeDetails = async () => {
   
   for (const episodeNum of toLoad) {
     try {
-      const response = await fetch(`/episodes/${episodeNum}.json`);
+      const response = await fetch(getEpisodeUrl(episodeNum));
       if (response.ok) {
         const data = await response.json();
         newDetails.set(episodeNum, data);
@@ -646,7 +647,7 @@ const loadAllTopics = async () => {
   // Versuche zuerst die detailed mapping zu laden
   if (!taxonomyData.value) {
     try {
-      const response = await fetch('/topic-taxonomy-detailed.json');
+      const response = await fetch(getPodcastFileUrl('topic-taxonomy-detailed.json'));
       if (response.ok) {
         taxonomyData.value = await response.json();
         loadingTopics.value = false;
@@ -665,7 +666,7 @@ const loadAllTopics = async () => {
   
   for (const episodeNum of toLoad) {
     try {
-      const response = await fetch(`/episodes/${episodeNum}-topics.json`);
+      const response = await fetch(getPodcastFileUrl(`episodes/${episodeNum}-topics.json`));
       if (response.ok) {
         const data = await response.json();
         newTopics.set(episodeNum, data);
@@ -828,7 +829,7 @@ const openEpisodeAt = (episodeNumber: number, seconds: number) => {
 const ensureMp3Index = async () => {
   if (mp3IndexLoaded.value || mp3IndexError.value) return;
   try {
-    const res = await fetch('/episodes.json', { cache: 'force-cache' });
+    const res = await fetch(getPodcastFileUrl('episodes.json'), { cache: 'force-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
@@ -871,7 +872,7 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
   currentMp3Url.value = mp3;
   playerInfo.value = { episodeNumber, positionSec: Math.max(0, Math.floor(seconds)), label };
   // Live transcript data (generated via `yarn ts-live`)
-  currentTranscriptUrl.value = withBase(`episodes/${episodeNumber}-ts-live.json`);
+  currentTranscriptUrl.value = withBase(getPodcastFileUrl(`episodes/${episodeNumber}-ts-live.json`));
   playerToken.value++;
 };
 
@@ -929,7 +930,7 @@ const closePlayer = () => {
           :autoplay="true"
           :play-token="playerToken"
           :transcript-src="currentTranscriptUrl || undefined"
-          :speakers-meta-url="'/speakers'"
+          :speakers-meta-url="getSpeakersBaseUrl()"
           @close="closePlayer"
           @error="(msg) => { playerError = msg }"
         />

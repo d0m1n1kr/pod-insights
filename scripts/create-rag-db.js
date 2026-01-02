@@ -10,9 +10,15 @@ function sleep(ms) {
 }
 
 function parseArgs(argv) {
+  // Parse podcast argument
+  const podcastIndex = argv.indexOf('--podcast');
+  const PODCAST_ID = podcastIndex !== -1 && argv[podcastIndex + 1] ? argv[podcastIndex + 1] : 'freakshow';
+  const PROJECT_ROOT = path.join(__dirname, '..');
+  
   const args = {
-    inDir: path.join(__dirname, 'episodes'),
-    outFile: path.join(__dirname, 'db', 'rag-embeddings.json'),
+    inDir: path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes'),
+    outFile: path.join(PROJECT_ROOT, 'db', 'rag-embeddings.json'),
+    podcastId: PODCAST_ID,
     episode: null,
     from: null,
     to: null,
@@ -45,9 +51,9 @@ function parseArgs(argv) {
 function usage() {
   return (
     'Usage:\n' +
-    '  node scripts/create-rag-db.js --episode <n> [--out <file>] [--no-embeddings]\n' +
-    '  node scripts/create-rag-db.js --from <n> --to <n> [--out <file>] [--batch-size <n>]\n' +
-    '  node scripts/create-rag-db.js --in-dir <dir> [--out <file>] [--force] [--no-resume]\n' +
+    '  node scripts/create-rag-db.js [--podcast <id>] --episode <n> [--out <file>] [--no-embeddings]\n' +
+    '  node scripts/create-rag-db.js [--podcast <id>] --from <n> --to <n> [--out <file>] [--batch-size <n>]\n' +
+    '  node scripts/create-rag-db.js [--podcast <id>] --in-dir <dir> [--out <file>] [--force] [--no-resume]\n' +
     '\n' +
     'Options:\n' +
     '  --in-dir <dir>           Directory with *-extended-topics.json (default: ./episodes)\n' +

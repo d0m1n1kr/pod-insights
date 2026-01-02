@@ -179,6 +179,7 @@
 import { ref, onMounted, computed, watch } from 'vue';
 import * as d3 from 'd3';
 import { loadVariantData } from '@/composables/useVariants';
+import { getEpisodeUrl } from '@/composables/usePodcast';
 import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 
@@ -289,7 +290,7 @@ async function loadEpisodeDetails() {
   for (const episodeNum of selectedCell.value.episodes) {
     if (!episodeDetails.value.has(episodeNum)) {
       try {
-        const response = await fetch(`/episodes/${episodeNum}.json`);
+        const response = await fetch(getEpisodeUrl(episodeNum));
         if (response.ok) {
           const data = await response.json();
           

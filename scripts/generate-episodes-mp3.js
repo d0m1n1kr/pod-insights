@@ -2,25 +2,33 @@ import fs from 'fs';
 import path from 'path';
 
 const DEFAULT_FEED_URL = 'https://feeds.metaebene.me/freakshow/mp3';
-const DEFAULT_OUTPUT = path.join('frontend', 'public', 'episodes.json');
+const DEFAULT_PODCAST = 'freakshow';
 
 function parseArgs(argv) {
+  let podcast = DEFAULT_PODCAST;
   const args = {
     feed: DEFAULT_FEED_URL,
-    output: DEFAULT_OUTPUT,
+    output: null, // Will be set based on podcast if not provided
   };
 
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if ((a === '--feed' || a === '-f') && argv[i + 1]) args.feed = argv[++i];
     else if ((a === '--output' || a === '-o') && argv[i + 1]) args.output = argv[++i];
+    else if (a === '--podcast' && argv[i + 1]) podcast = argv[++i];
     else if (a === '--help' || a === '-h') {
-      console.log('Usage: node scripts/generate-episodes-mp3.js [--feed URL] [--output PATH]');
+      console.log('Usage: node scripts/generate-episodes-mp3.js [--feed URL] [--podcast ID] [--output PATH]');
       console.log('');
       console.log(`Default feed:   ${DEFAULT_FEED_URL}`);
-      console.log(`Default output: ${DEFAULT_OUTPUT}`);
+      console.log(`Default podcast: ${DEFAULT_PODCAST}`);
+      console.log(`Default output: frontend/public/podcasts/{podcast}/episodes.json`);
       process.exit(0);
     }
+  }
+
+  // Set default output based on podcast if not provided
+  if (!args.output) {
+    args.output = path.join('frontend', 'public', 'podcasts', podcast, 'episodes.json');
   }
 
   return args;

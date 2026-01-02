@@ -10,6 +10,11 @@ const __dirname = path.dirname(__filename);
 // Navigate from scripts/ to project root
 const PROJECT_ROOT = path.join(__dirname, '..');
 
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
 /**
  * Analyze cluster speakers from topic-taxonomy.json
  * 
@@ -42,7 +47,7 @@ async function loadJSON(filePath) {
 }
 
 async function loadEpisode(episodeNumber) {
-  const filePath = path.join(PROJECT_ROOT, 'episodes', `${episodeNumber}.json`);
+  const filePath = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes', `${episodeNumber}.json`);
   try {
     return await loadJSON(filePath);
   } catch (err) {
@@ -86,8 +91,10 @@ function calculateSpeakerRelevance(speakerCounts, totalEpisodes) {
 }
 
 async function analyzeClusterSpeakers() {
+  console.log(`Processing podcast: ${PODCAST_ID}`);
   console.log('Loading topic taxonomy...');
-  const taxonomy = await loadJSON(path.join(PROJECT_ROOT, 'topic-taxonomy.json'));
+  const taxonomyPath = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID, 'topic-taxonomy.json');
+  const taxonomy = await loadJSON(taxonomyPath);
   
   if (!taxonomy.clusters || !Array.isArray(taxonomy.clusters)) {
     throw new Error('Invalid topic-taxonomy.json format: missing clusters array');
@@ -168,7 +175,9 @@ async function main() {
     
     const result = await analyzeClusterSpeakers();
     
-    const outputFile = path.join(PROJECT_ROOT, 'frontend', 'public', 'cluster-speakers.json');
+    const outputDir = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID);
+    await fs.mkdir(outputDir, { recursive: true });
+    const outputFile = path.join(outputDir, 'cluster-speakers.json');
     await fs.writeFile(outputFile, JSON.stringify(result, null, 2), 'utf-8');
     
     console.log(`\n✓ Analysis complete!`);

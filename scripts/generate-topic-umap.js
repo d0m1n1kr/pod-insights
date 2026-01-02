@@ -1,16 +1,27 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { UMAP } from 'umap-js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
  * Generates UMAP 2D coordinates for topics colored by their clusters
  * Reads db/topic-embeddings.json and topic-taxonomy.json
  */
 
-const EMBEDDINGS_FILE = 'db/topic-embeddings.json';
-const TAXONOMY_FILE = 'topic-taxonomy.json';
-const OUTPUT_FILE = 'topic-umap-data.json';
-const FRONTEND_OUTPUT = path.join('frontend', 'public', 'topic-umap-data.json');
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
+const EMBEDDINGS_FILE = path.join(PROJECT_ROOT, 'db', 'topic-embeddings.json');
+const TAXONOMY_FILE = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID, 'topic-taxonomy.json');
+const OUTPUT_DIR = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID);
+const OUTPUT_FILE = path.join(OUTPUT_DIR, 'topic-umap-data.json');
+const FRONTEND_OUTPUT = OUTPUT_FILE;
 
 /**
  * Load embeddings database
@@ -102,7 +113,7 @@ function runUMAP(embeddings, options = {}) {
  * Main function
  */
 async function main() {
-  console.log('🗺️  Generating UMAP visualization data for topics\n');
+  console.log(`🗺️  Generating UMAP visualization data for podcast: ${PODCAST_ID}\n`);
   
   // Load data
   const embeddingsDb = loadEmbeddings();
@@ -185,15 +196,12 @@ async function main() {
   // Save output
   console.log('\n💾 Saving output files...');
   
-  // Root directory
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(outputData, null, 2));
-  console.log(`   ✓ Saved: ${OUTPUT_FILE}`);
+  // Ensure output directory exists
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   
   // Frontend public directory
-  if (fs.existsSync(path.dirname(FRONTEND_OUTPUT))) {
-    fs.writeFileSync(FRONTEND_OUTPUT, JSON.stringify(outputData, null, 2));
-    console.log(`   ✓ Saved: ${FRONTEND_OUTPUT}`);
-  }
+  fs.writeFileSync(FRONTEND_OUTPUT, JSON.stringify(outputData, null, 2));
+  console.log(`   ✓ Saved: ${FRONTEND_OUTPUT}`);
   
   const fileSize = (fs.statSync(OUTPUT_FILE).size / 1024).toFixed(2);
   console.log(`   File size: ${fileSize} KB`);

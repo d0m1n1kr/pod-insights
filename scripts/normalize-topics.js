@@ -5,8 +5,14 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+const PROJECT_ROOT = path.join(__dirname, '..');
+
 // Settings laden
-const settings = JSON.parse(fs.readFileSync(path.join(__dirname, 'settings.json'), 'utf-8'));
+const settings = JSON.parse(fs.readFileSync(path.join(PROJECT_ROOT, 'settings.json'), 'utf-8'));
 
 /**
  * Wartet für eine bestimmte Zeit
@@ -149,7 +155,7 @@ function extractJSON(response) {
  * Finde alle Topics-Dateien
  */
 function findTopicsFiles() {
-  const episodesDir = path.join(__dirname, 'episodes');
+  const episodesDir = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
   const files = fs.readdirSync(episodesDir);
   
   return files
@@ -298,7 +304,7 @@ function loadTaxonomy() {
  * Normalisiere Topics für eine einzelne Episode
  */
 async function normalizeEpisodeTopics(episodeNumber, taxonomy) {
-  const episodesDir = path.join(__dirname, 'episodes');
+  const episodesDir = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
   const topicsFile = path.join(episodesDir, `${episodeNumber}-topics.json`);
   const normalizedFile = path.join(episodesDir, `${episodeNumber}-normalized-topics.json`);
   

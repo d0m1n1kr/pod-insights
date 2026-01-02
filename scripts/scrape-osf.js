@@ -1,10 +1,20 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs/promises';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-const EPISODES_DIR = './episodes';
-const START_EPISODE = 89;
-const END_EPISODE = 190;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
+const EPISODES_DIR = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
+const START_EPISODE = 89; // TODO: Make configurable
+const END_EPISODE = 190; // TODO: Make configurable
 const CONCURRENT_REQUESTS = 3;
 const BROWSER_RESTART_AFTER = 30;
 
@@ -234,6 +244,7 @@ async function processEpisodesInBatches(browser, episodeFiles, concurrentRequest
 async function scrapeOSFShownotes() {
   console.log('Reading episode files...');
   const episodeFiles = await getEpisodeFiles();
+  console.log(`Processing podcast: ${PODCAST_ID}`);
   console.log(`Processing episodes ${START_EPISODE} to ${END_EPISODE}`);
   console.log(`Found ${episodeFiles.length} episodes to process\n`);
   

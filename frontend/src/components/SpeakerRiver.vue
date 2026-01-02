@@ -3,6 +3,7 @@ import { ref, onMounted, computed, watch } from 'vue';
 import * as d3 from 'd3';
 import type { SpeakerRiverData, ProcessedSpeakerData } from '../types';
 import { useSettingsStore } from '../stores/settings';
+import { getPodcastFileUrl, getSpeakerMetaUrl, getEpisodeUrl } from '@/composables/usePodcast';
 
 const props = defineProps<{
   data: SpeakerRiverData;
@@ -507,7 +508,7 @@ const loadSpeakerMeta = async (speakerId: string) => {
   if (speakersMeta.value.has(speakerId)) return;
   
   try {
-    const url = `/speakers/${speakerId}-meta.json`;
+    const url = getSpeakerMetaUrl(speakerId);
     const res = await fetch(url, { cache: 'force-cache' });
     if (!res.ok) return; // Silent fail if meta doesn't exist
     
@@ -604,7 +605,7 @@ const loadEpisodeDetails = async () => {
   
   for (const episodeNum of toLoad) {
     try {
-      const response = await fetch(`/episodes/${episodeNum}.json`);
+      const response = await fetch(getEpisodeUrl(episodeNum));
       if (response.ok) {
         const data = await response.json();
         newDetails.set(episodeNum, data);

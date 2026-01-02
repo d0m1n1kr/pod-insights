@@ -193,6 +193,7 @@ import * as d3 from 'd3';
 import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { loadVariantData } from '@/composables/useVariants';
+import { getSpeakerMetaUrl, getEpisodeUrl } from '@/composables/usePodcast';
 
 const settingsStore = useSettingsStore();
 
@@ -229,7 +230,7 @@ const loadSpeakerMeta = async (speakerName: string) => {
   
   try {
     const slug = speakerNameToSlug(speakerName);
-    const url = `/speakers/${slug}-meta.json`;
+    const url = getSpeakerMetaUrl(slug);
     const res = await fetch(url, { cache: 'force-cache' });
     if (!res.ok) return; // Silent fail if meta doesn't exist
     
@@ -332,7 +333,7 @@ async function loadEpisodeDetails(episodeNumbers: number[]) {
     if (episodeDetails.value.has(num)) continue;
 
     try {
-      const response = await fetch(`/episodes/${num}.json`);
+      const response = await fetch(getEpisodeUrl(num));
       if (!response.ok) {
         episodeDetails.value.set(num, null);
         continue;

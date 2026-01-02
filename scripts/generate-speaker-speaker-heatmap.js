@@ -7,8 +7,14 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
 // Read all episode files
-const episodesDir = path.join(__dirname, 'episodes');
+const episodesDir = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
 const episodeFiles = fs.readdirSync(episodesDir)
   .filter(f => f.endsWith('.json'))
   .sort((a, b) => {
@@ -17,6 +23,7 @@ const episodeFiles = fs.readdirSync(episodesDir)
     return numA - numB;
   });
 
+console.log(`Processing podcast: ${PODCAST_ID}`);
 console.log(`Found ${episodeFiles.length} episode files`);
 
 // Build speaker co-occurrence matrix
@@ -107,7 +114,9 @@ const output = {
 };
 
 // Write output
-const outputPath = path.join(__dirname, 'frontend/public/speaker-speaker-heatmap.json');
+const outputDir = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID);
+fs.mkdirSync(outputDir, { recursive: true });
+const outputPath = path.join(outputDir, 'speaker-speaker-heatmap.json');
 fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
 
 console.log(`✅ Generated speaker-speaker heatmap data`);

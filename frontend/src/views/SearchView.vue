@@ -5,6 +5,7 @@ import { useI18n } from 'vue-i18n';
 import MiniAudioPlayer from '@/components/MiniAudioPlayer.vue';
 import { useSettingsStore } from '@/stores/settings';
 import { marked } from 'marked';
+import { getPodcastFileUrl, getEpisodeUrl } from '@/composables/usePodcast';
 
 type ChatSource = {
   episodeNumber: number;
@@ -242,7 +243,7 @@ const withBase = (p: string) => {
 const ensureMp3Index = async () => {
   if (mp3IndexLoaded.value || mp3IndexError.value) return;
   try {
-    const res = await fetch('/episodes.json', { cache: 'force-cache' });
+    const res = await fetch(getPodcastFileUrl('episodes.json'), { cache: 'force-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
@@ -282,7 +283,7 @@ const buildEpisodeDeepLink = (episodeUrl: string, seconds: number) => {
 
 const openEpisodeAt = async (episodeNumber: number, seconds: number) => {
   try {
-    const res = await fetch(`/episodes/${episodeNumber}.json`, { cache: 'force-cache' });
+    const res = await fetch(getEpisodeUrl(episodeNumber), { cache: 'force-cache' });
     if (!res.ok) return;
     const details = await res.json();
     const url = typeof details?.url === 'string' ? details.url : null;
@@ -308,7 +309,7 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
 
   currentMp3Url.value = mp3;
   playerInfo.value = { episodeNumber, positionSec: Math.max(0, Math.floor(seconds)), label };
-  currentTranscriptUrl.value = withBase(`episodes/${episodeNumber}-ts-live.json`);
+  currentTranscriptUrl.value = withBase(getPodcastFileUrl(`episodes/${episodeNumber}-ts-live.json`));
   playerToken.value++;
 };
 

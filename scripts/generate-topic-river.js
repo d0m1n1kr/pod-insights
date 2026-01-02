@@ -1,5 +1,9 @@
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
  * Generiert eine JSON-Datei für Topic River Visualisierung
@@ -10,10 +14,17 @@ import path from 'path';
  * in `topic-river-data.json` angereichert.
  */
 
-const TAXONOMY_FILE = 'topic-taxonomy.json';
-const DETAILED_TAXONOMY_FILE = 'topic-taxonomy-detailed.json';
-const EPISODES_DIR = 'episodes';
-const OUTPUT_FILE = 'topic-river-data.json';
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
+const TAXONOMY_FILE = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID, 'topic-taxonomy.json');
+const DETAILED_TAXONOMY_FILE = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID, 'topic-taxonomy-detailed.json');
+const EPISODES_DIR = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
+const OUTPUT_DIR = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID);
+const OUTPUT_FILE = path.join(OUTPUT_DIR, 'topic-river-data.json');
 
 function parseArg(name) {
   const idx = process.argv.indexOf(name);
@@ -343,6 +354,7 @@ function main() {
     };
     
     // 5. Speichere JSON
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), 'utf-8');
     
     console.log(`\n✓ Daten erfolgreich gespeichert in: ${OUTPUT_FILE}`);

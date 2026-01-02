@@ -1,6 +1,7 @@
 // Composable for loading variant-specific data
 import { computed } from 'vue';
 import { useSettingsStore } from '@/stores/settings';
+import { usePodcastPath } from './usePodcast';
 
 export interface VariantSettings {
   // V1 settings
@@ -36,10 +37,11 @@ export interface VariantManifest {
  */
 export function useVariantPath() {
   const settings = useSettingsStore();
+  const { podcastPath } = usePodcastPath();
   
   const variantPath = computed(() => {
     const variant = settings.clusteringVariant || 'auto-v2.1';
-    return `/topics/${variant}`;
+    return `${podcastPath.value}/topics/${variant}`;
   });
   
   const variantName = computed(() => settings.clusteringVariant || 'auto-v2.1');
@@ -85,8 +87,9 @@ export async function hasVariants(): Promise<boolean> {
  * Load available variants from manifest
  */
 export async function loadVariantsManifest(): Promise<VariantManifest> {
+  const { podcastPath } = usePodcastPath();
   try {
-    const response = await fetch('/topics/manifest.json');
+    const response = await fetch(`${podcastPath.value}/topics/manifest.json`);
     if (!response.ok) {
       console.warn('No variants manifest found, using default');
       return {
@@ -123,7 +126,8 @@ export async function loadVariantsManifest(): Promise<VariantManifest> {
  */
 export function getVariantFileUrl(filename: string, variant?: string): string {
   const settings = useSettingsStore();
+  const { podcastPath } = usePodcastPath();
   const v = variant || settings.clusteringVariant || 'auto-v2.1';
-  return `/topics/${v}/${filename}`;
+  return `${podcastPath.value}/topics/${v}/${filename}`;
 }
 

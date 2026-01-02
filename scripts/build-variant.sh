@@ -20,9 +20,19 @@ NC='\033[0m' # No Color
 VERSION=$1
 VARIANT_NAME=$2
 REBUILD_ALL=${3:-""}
+PODCAST_ID="freakshow"
+
+# Check for --podcast argument
+for arg in "$@"; do
+    if [[ "$arg" == "--podcast" ]]; then
+        PODCAST_INDEX=$(echo "$@" | tr ' ' '\n' | grep -n "^--podcast$" | cut -d: -f1)
+        PODCAST_ID=$(echo "$@" | tr ' ' '\n' | sed -n "$((PODCAST_INDEX + 1))p")
+        break
+    fi
+done
 
 if [ -z "$VERSION" ] || [ -z "$VARIANT_NAME" ]; then
-    echo -e "${RED}❌ Usage: $0 <v1|v2> <variant-name> [--rebuild-all]${NC}"
+    echo -e "${RED}❌ Usage: $0 <v1|v2> <variant-name> [--rebuild-all] [--podcast <id>]${NC}"
     echo ""
     echo "Available variants in variants.json:"
     if command -v jq &> /dev/null; then
@@ -61,11 +71,12 @@ else
 fi
 
 # Create output directory
-OUTPUT_DIR="frontend/public/topics/$VARIANT_NAME"
+OUTPUT_DIR="frontend/public/podcasts/$PODCAST_ID/topics/$VARIANT_NAME"
 mkdir -p "$OUTPUT_DIR"
 
 echo -e "${GREEN}🎯 Building variant: $VARIANT_DISPLAY_NAME${NC}"
 echo -e "${GREEN}   Version: $VERSION${NC}"
+echo -e "${GREEN}   Podcast: $PODCAST_ID${NC}"
 echo -e "${GREEN}   Output: $OUTPUT_DIR${NC}"
 echo ""
 
@@ -137,7 +148,7 @@ if [ -f "$OUTPUT_DIR/topic-taxonomy-detailed.json" ]; then
     TOPIC_RIVER_ARGS+=(--taxonomy-detailed "$OUTPUT_DIR/topic-taxonomy-detailed.json")
 fi
 
-node scripts/generate-topic-river.js "${TOPIC_RIVER_ARGS[@]}" || {
+node scripts/generate-topic-river.js --podcast "$PODCAST_ID" "${TOPIC_RIVER_ARGS[@]}" || {
     echo -e "     ${RED}✗ Failed to generate topic-river-data.json${NC}"
 }
 if [ -f topic-river-data.json ]; then
@@ -148,7 +159,7 @@ fi
 
 # Cluster-Cluster Heatmap
 echo -e "  ${YELLOW}→${NC} Generating cluster-cluster-heatmap.json..."
-node scripts/generate-cluster-cluster-heatmap.js || {
+node scripts/generate-cluster-cluster-heatmap.js --podcast "$PODCAST_ID" || {
     echo -e "     ${RED}✗ Failed to generate cluster-cluster-heatmap.json${NC}"
 }
 if [ -f cluster-cluster-heatmap.json ]; then
@@ -159,7 +170,7 @@ fi
 
 # Speaker-Cluster Heatmap
 echo -e "  ${YELLOW}→${NC} Generating speaker-cluster-heatmap.json..."
-node scripts/generate-speaker-cluster-heatmap.js || {
+node scripts/generate-speaker-cluster-heatmap.js --podcast "$PODCAST_ID" || {
     echo -e "     ${RED}✗ Failed to generate speaker-cluster-heatmap.json${NC}"
 }
 if [ -f speaker-cluster-heatmap.json ]; then
@@ -177,7 +188,7 @@ rm -f topic-taxonomy.json topic-taxonomy-detailed.json
 echo ""
 echo -e "${BLUE}📝 Updating manifest...${NC}"
 
-MANIFEST_FILE="frontend/public/topics/manifest.json"
+MANIFEST_FILE="frontend/public/podcasts/$PODCAST_ID/topics/manifest.json"
 
 # Create or update manifest
 if command -v jq &> /dev/null; then

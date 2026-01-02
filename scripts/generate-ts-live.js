@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 /**
  * Converts <episode>-ts.json (verbose objects) into <episode>-ts-live.json
@@ -140,12 +141,15 @@ async function main() {
   node scripts/generate-ts-live.js --in-dir <dir> --out-dir <dir> [--all | --episode <n>] [--pretty]
 
 Example:
-  node scripts/generate-ts-live.js --in-dir frontend/public/episodes --out-dir frontend/public/episodes --all
+  node scripts/generate-ts-live.js [--podcast <id>] --in-dir <dir> --out-dir <dir> --all
+  node scripts/generate-ts-live.js --podcast freakshow --all
 `);
     process.exit(0);
   }
 
-  const inDir = args.inDir ?? 'frontend/public/episodes';
+  // Default to podcast episodes directory if not provided
+  const defaultEpisodesDir = path.join(args.projectRoot, 'podcasts', args.podcastId, 'episodes');
+  const inDir = args.inDir ?? defaultEpisodesDir;
   const outDir = args.outDir ?? inDir;
 
   const entries = await fs.readdir(inDir, { withFileTypes: true });

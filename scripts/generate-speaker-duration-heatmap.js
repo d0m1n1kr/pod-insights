@@ -5,10 +5,18 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Parse command line arguments
+const args = process.argv.slice(2);
+const podcastIndex = args.indexOf('--podcast');
+const PODCAST_ID = podcastIndex !== -1 && args[podcastIndex + 1] ? args[podcastIndex + 1] : 'freakshow';
+
+const PROJECT_ROOT = path.join(__dirname, '..');
+
 async function generateSpeakerDurationHeatmap() {
+  console.log(`Processing podcast: ${PODCAST_ID}`);
   console.log('Loading episode files...');
   
-  const dataDir = path.join(__dirname, 'episodes');
+  const dataDir = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
   const files = await fs.readdir(dataDir);
   const episodeFiles = files.filter(f => /^\d+\.json$/.test(f));
   
@@ -163,7 +171,9 @@ async function generateSpeakerDurationHeatmap() {
   };
   
   // Write output
-  const outputPath = path.join(__dirname, 'frontend/public/speaker-duration-heatmap.json');
+  const outputDir = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', PODCAST_ID);
+  await fs.mkdir(outputDir, { recursive: true });
+  const outputPath = path.join(outputDir, 'speaker-duration-heatmap.json');
   await fs.writeFile(outputPath, JSON.stringify(heatmapData, null, 2));
   
   console.log(`\n✓ Generated speaker-duration-heatmap.json`);

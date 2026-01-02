@@ -3,9 +3,20 @@ import { ref, computed, watch } from 'vue';
 
 const LOCKED_CLUSTERING_VARIANT = 'auto-v2.1' as const;
 
+export interface Podcast {
+  id: string;
+  name: string;
+  feedUrl?: string;
+  archiveUrl?: string;
+  teamUrl?: string;
+}
+
 export const useSettingsStore = defineStore('settings', () => {
   // State
   const normalizedView = ref(false);
+  
+  // Available podcasts (loaded from podcasts.json)
+  const availablePodcasts = ref<Podcast[]>([]);
   const topicFilter = ref(15);
   const speakerFilter = ref(15);
   const topNSpeakersHeatmap = ref(15);
@@ -33,6 +44,9 @@ export const useSettingsStore = defineStore('settings', () => {
   
   // Search: Discussion mode (second speaker) - persisted
   const selectedSpeaker2 = ref<string | null>(null);
+  
+  // Podcast selection - persisted, defaults to 'freakshow'
+  const selectedPodcast = ref<string>('freakshow');
   
   // Computed: actual dark mode state
   const isDarkMode = computed(() => {
@@ -100,6 +114,33 @@ export const useSettingsStore = defineStore('settings', () => {
     selectedSpeaker2.value = speaker;
   }
   
+  function setSelectedPodcast(podcastId: string) {
+    selectedPodcast.value = podcastId;
+  }
+  
+  // Load available podcasts from podcasts.json
+  async function loadPodcasts() {
+    try {
+      const response = await fetch('/podcasts.json');
+      if (response.ok) {
+        const data = await response.json();
+        availablePodcasts.value = data.podcasts || [];
+        // Set default podcast if none selected
+        if (!selectedPodcast.value && availablePodcasts.value.length > 0) {
+          const firstPodcast = availablePodcasts.value[0];
+          if (firstPodcast) {
+            selectedPodcast.value = firstPodcast.id;
+          }
+        }
+      }
+    } catch (e) {
+      console.error('Error loading podcasts.json:', e);
+    }
+  }
+  
+  // Load podcasts on store initialization
+  loadPodcasts();
+  
   // Ensure persisted state (localStorage) can't override the locked variant.
   watch(clusteringVariant, (v) => {
     if (v !== LOCKED_CLUSTERING_VARIANT) {
@@ -132,6 +173,8 @@ export const useSettingsStore = defineStore('settings', () => {
     ragAuthToken,
     selectedSpeaker,
     selectedSpeaker2,
+    selectedPodcast,
+    availablePodcasts,
     toggleNormalizedView,
     setNormalizedView,
     setClusteringVariant,
@@ -142,6 +185,8 @@ export const useSettingsStore = defineStore('settings', () => {
     clearRagAuthToken,
     setSelectedSpeaker,
     setSelectedSpeaker2,
+    setSelectedPodcast,
+    loadPodcasts,
   };
 }, {
   persist: {
