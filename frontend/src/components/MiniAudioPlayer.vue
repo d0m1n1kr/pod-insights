@@ -30,14 +30,14 @@ const playerSize = computed(() => {
 const episodeNumber = computed(() => {
   if (props.transcriptSrc) {
     const match = props.transcriptSrc.match(/\/(\d+)-ts-live\.json/);
-    if (match) {
+    if (match && match[1]) {
       return parseInt(match[1], 10);
     }
   }
   // Fallback: try to extract from title (e.g., "Episode 123" -> 123)
   if (props.title) {
     const match = props.title.match(/Episode\s+(\d+)/i);
-    if (match) {
+    if (match && match[1]) {
       return parseInt(match[1], 10);
     }
   }

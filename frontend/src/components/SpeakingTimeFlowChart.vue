@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref, onMounted, watch, onUnmounted, computed } from 'vue';
+import { ref, onMounted, watch, onUnmounted } from 'vue';
 import * as d3 from 'd3';
-import { useSettingsStore } from '@/stores/settings';
+// import { useSettingsStore } from '@/stores/settings'; // Unused for now
 import { getPodcastFileUrl, getSpeakerMetaUrl } from '@/composables/usePodcast';
 
 type SpeakerStats = {
@@ -48,7 +48,7 @@ const emit = defineEmits<{
   (e: 'play-at-time', timeSec: number): void;
 }>();
 
-const settingsStore = useSettingsStore();
+// const settingsStore = useSettingsStore(); // Unused for now
 const chartRef = ref<HTMLElement | null>(null);
 const tooltipRef = ref<HTMLDivElement | null>(null);
 let svg: d3.Selection<SVGSVGElement, unknown, null, undefined> | null = null;
@@ -112,7 +112,7 @@ const findNextSegmentStart = (speaker: string, afterTimeSec: number): number | n
     const time = transcriptData.value.t[i];
     const speakerIdx = transcriptData.value.s[i];
     
-    if (speakerIdx === speakerIndex && time >= minTime && time <= maxTime) {
+    if (speakerIdx === speakerIndex && time !== undefined && time >= minTime && time <= maxTime) {
       segments.push({ time, index: i });
     }
   }
@@ -357,22 +357,8 @@ const drawChart = () => {
     .domain(speakers)
     .range(colors);
 
-  // Area generator
-  const area = d3
-    .area<{ x: number; [key: string]: number | string }>()
-    .x((d) => xScale(d.x as number))
-    .y0((d, i) => {
-      const prevSpeaker = i > 0 ? speakers[i - 1] : null;
-      if (prevSpeaker) {
-        return yScale((d[prevSpeaker] as number) + (d[speakers[i]] as number));
-      }
-      return yScale(d[speakers[i]] as number);
-    })
-    .y1((d) => {
-      const speaker = speakers[stackedData.indexOf(d)];
-      return yScale((d[speaker] as number) || 0);
-    })
-    .curve(d3.curveMonotoneX);
+  // Area generator (unused - areas are created inline below)
+  // const area = d3.area()... // Removed unused variable
 
   // Helper function to format time
   function formatTime(sec: number): string {
@@ -411,7 +397,7 @@ const drawChart = () => {
   }
 
   // Create invisible overlay for tooltip interaction (must be added AFTER paths so it's on top)
-  const overlay = g.append('rect')
+  g.append('rect')
     .attr('width', innerWidth)
     .attr('height', innerHeight)
     .attr('fill', 'transparent')
@@ -430,7 +416,7 @@ const drawChart = () => {
       let intervalIdx = -1;
       for (let i = 0; i < filledIntervals.length; i++) {
         const interval = filledIntervals[i];
-        if (clickedTimeSec >= interval.start && clickedTimeSec < interval.end) {
+        if (interval && clickedTimeSec >= interval.start && clickedTimeSec < interval.end) {
           intervalIdx = i;
           break;
         }
@@ -438,6 +424,7 @@ const drawChart = () => {
       
       if (intervalIdx >= 0 && intervalIdx < filledIntervals.length) {
         const interval = filledIntervals[intervalIdx];
+        if (!interval) return;
         
         // Find which speaker's area was clicked
         let cumulative = 0;
@@ -478,7 +465,7 @@ const drawChart = () => {
       let intervalIdx = -1;
       for (let i = 0; i < filledIntervals.length; i++) {
         const interval = filledIntervals[i];
-        if (timeSec >= interval.start && timeSec < interval.end) {
+        if (interval && timeSec >= interval.start && timeSec < interval.end) {
           intervalIdx = i;
           break;
         }
@@ -486,6 +473,7 @@ const drawChart = () => {
       
       if (intervalIdx >= 0 && intervalIdx < filledIntervals.length) {
         const interval = filledIntervals[intervalIdx];
+        if (!interval) return;
         
         // Find which speaker's area we're hovering over
         let cumulative = 0;
@@ -506,7 +494,7 @@ const drawChart = () => {
           cumulative = top;
         }
         
-        if (hoveredSpeaker && tooltipRef.value) {
+        if (hoveredSpeaker && tooltipRef.value && interval) {
           const speakerMeta = speakersMeta.value.get(hoveredSpeaker);
           const topics = getTopicsForInterval(interval.start, interval.end);
           
@@ -529,7 +517,7 @@ const drawChart = () => {
             : '';
           
           // Get correct mouse position - use the actual event coordinates
-          const rect = chartRef.value.getBoundingClientRect();
+          // const rect = chartRef.value.getBoundingClientRect(); // Unused
           const mouseX = event.clientX || (event as any).pageX || 0;
           const mouseY = event.clientY || (event as any).pageY || 0;
           
@@ -548,7 +536,7 @@ const drawChart = () => {
               <div style="font-weight: 600; font-size: 14px; color: ${isDarkMode ? '#f3f4f6' : '#111827'};">${hoveredSpeaker}</div>
             </div>
             <div style="font-size: 12px; color: ${isDarkMode ? '#9ca3af' : '#4b5563'};">
-              <div><strong>Time:</strong> ${formatTime(interval.start)} - ${formatTime(interval.end)}</div>
+              <div><strong>Time:</strong> ${interval ? `${formatTime(interval.start)} - ${formatTime(interval.end)}` : ''}</div>
               <div><strong>Share:</strong> ${(speakerShare * 100).toFixed(1)}%</div>
             </div>
             ${topicsHtml}

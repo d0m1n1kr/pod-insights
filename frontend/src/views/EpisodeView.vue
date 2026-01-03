@@ -320,10 +320,20 @@ const loadEpisodeData = async (episodeNumber: number) => {
 
     // Load speaker stats
     const statsUrl = getPodcastFileUrl(`episodes/${episodeNumber}-speaker-stats.json`, podcastId);
-    const statsResponse = await fetch(statsUrl);
-    if (statsResponse.ok) {
-      speakerStats.value = await statsResponse.json();
-    } else {
+    try {
+      const statsResponse = await fetch(statsUrl);
+      if (statsResponse.ok) {
+        const contentType = statsResponse.headers.get('content-type');
+        if (contentType && contentType.includes('application/json')) {
+          speakerStats.value = await statsResponse.json();
+        } else {
+          speakerStats.value = null;
+        }
+      } else {
+        speakerStats.value = null;
+      }
+    } catch (e) {
+      // If speaker stats don't exist (e.g., for forschergeist), just set to null
       speakerStats.value = null;
     }
 
@@ -345,8 +355,8 @@ const loadEpisodeData = async (episodeNumber: number) => {
 const formatDuration = (duration?: number[]) => {
   if (!duration || duration.length < 3) return '';
   const [h, m, s] = duration;
-  if (h > 0) return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
-  return `${m}:${String(s).padStart(2, '0')}`;
+  if (h !== undefined && h > 0) return `${h}:${String(m ?? 0).padStart(2, '0')}:${String(s ?? 0).padStart(2, '0')}`;
+  return `${m ?? 0}:${String(s ?? 0).padStart(2, '0')}`;
 };
 
 const formatDurationSec = (sec?: number) => {
@@ -396,6 +406,37 @@ watch(
   { immediate: true }
 );
 
+const withBase = (p: string) => {
+  const base = (import.meta as any)?.env?.BASE_URL || '/';
+  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
+  const rel = String(p).replace(/^\/+/, '');
+  return `${b}${rel}`;
+};
+
+const playEpisode = async () => {
+  if (!selectedEpisode.value?.number) return;
+  
+  const episodeNumber = selectedEpisode.value.number;
+  
+  // Use global player store instead of inline player
+  await inlinePlayer.ensureMp3Index();
+  const mp3 = inlinePlayer.mp3UrlByEpisode.get(episodeNumber) || null;
+  if (!mp3) {
+    await inlinePlayer.openEpisodeAt(episodeNumber, 0);
+    return;
+  }
+
+  audioPlayerStore.play({
+    src: mp3,
+    title: selectedEpisode.value.title || `Episode ${episodeNumber}`,
+    subtitle: selectedEpisode.value.title || `Episode ${episodeNumber}`,
+    seekToSec: 0,
+    autoplay: true,
+    transcriptSrc: withBase(getPodcastFileUrl(`episodes/${episodeNumber}-ts-live.json`)),
+    speakersMetaUrl: getSpeakersBaseUrl(),
+  });
+};
+
 const handlePlayAtTime = async (timeSec: number) => {
   if (!selectedEpisode.value?.number) return;
   
@@ -409,13 +450,6 @@ const handlePlayAtTime = async (timeSec: number) => {
     await inlinePlayer.openEpisodeAt(episodeNumber, timeSec);
     return;
   }
-
-  const withBase = (p: string) => {
-    const base = (import.meta as any)?.env?.BASE_URL || '/';
-    const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-    const rel = String(p).replace(/^\/+/, '');
-    return `${b}${rel}`;
-  };
 
   audioPlayerStore.play({
     src: mp3,
@@ -553,9 +587,21 @@ const formatTime = (sec: number): string => {
             class="w-24 h-24 sm:w-32 sm:h-32 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-700"
           />
           <div class="flex-1 min-w-0">
-            <h3 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
-              {{ selectedEpisode.title }}
-            </h3>
+            <div class="flex items-start justify-between gap-4">
+              <h3 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
+                {{ selectedEpisode.title }}
+              </h3>
+              <button
+                @click="playEpisode"
+                class="flex-shrink-0 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                :title="t('episodes.play')"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                </svg>
+                {{ t('episodes.play') }}
+              </button>
+            </div>
           </div>
         </div>
         

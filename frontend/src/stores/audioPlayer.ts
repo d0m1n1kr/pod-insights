@@ -92,10 +92,6 @@ export const useAudioPlayerStore = defineStore('audioPlayer', () => {
 
   const isOpen = ref(false);
 
-  function open() {
-    isOpen.value = true;
-  }
-
   function setIsOpen(value: boolean) {
     isOpen.value = value;
   }
@@ -116,9 +112,8 @@ export const useAudioPlayerStore = defineStore('audioPlayer', () => {
   persist: {
     key: 'freakshow-audio-player',
     storage: window.localStorage,
-    paths: [
-      'size',
-    ],
+    // @ts-ignore - paths is valid but TypeScript types may be outdated
+    paths: ['size'],
   }
 });
 

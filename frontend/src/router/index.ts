@@ -72,7 +72,7 @@ const router = createRouter({
 });
 
 // Router guard to ensure podcast parameter is always in URL
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _from, next) => {
   const settingsStore = useSettingsStore();
   const currentPodcast = to.query.podcast as string | undefined;
   
