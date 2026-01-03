@@ -74,6 +74,33 @@ const transcriptLoading = ref(false);
 const speakersMeta = ref<Map<string, SpeakerMeta>>(new Map());
 const isDarkMode = ref(false);
 
+// Computed property for safe access to speaker meta in template
+const getSpeakerImage = (speaker: string): string | undefined => {
+  return speakersMeta.value?.get(speaker)?.image;
+};
+
+const colors = [
+  '#3b82f6', // blue
+  '#10b981', // green
+  '#f59e0b', // orange
+  '#ef4444', // red
+  '#8b5cf6', // purple
+  '#ec4899', // pink
+  '#06b6d4', // cyan
+  '#84cc16', // lime
+];
+
+// Helper to convert speaker name to slug
+function speakerNameToSlug(name: string): string {
+  return name.toLowerCase()
+    .replace(/ä/g, 'ae')
+    .replace(/ö/g, 'oe')
+    .replace(/ü/g, 'ue')
+    .replace(/ß/g, 'ss')
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+}
+
 // Load transcript data
 const loadTranscript = async () => {
   if (!props.episodeNumber || transcriptData.value || transcriptLoading.value) return;
@@ -104,17 +131,18 @@ const loadSpeakerMeta = async (speakerName: string) => {
   if (speakersMeta.value.has(speakerName)) return;
 
   try {
-    const speakerMetaUrl = getSpeakerMetaUrl(speakerName);
-    const response = await fetch(speakerMetaUrl, { cache: 'force-cache' });
-    if (response.ok) {
-      const data = await response.json();
-      if (data && typeof data.name === 'string') {
-        speakersMeta.value.set(speakerName, {
-          name: data.name,
-          slug: data.slug || speakerName.toLowerCase().replace(/\s+/g, '-'),
-          image: data.image || undefined,
-        });
-      }
+    const slug = speakerNameToSlug(speakerName);
+    const url = getSpeakerMetaUrl(slug);
+    const res = await fetch(url, { cache: 'force-cache' });
+    if (!res.ok) return; // Silent fail if meta doesn't exist
+    
+    const data = await res.json();
+    if (data && typeof data.name === 'string') {
+      speakersMeta.value.set(speakerName, {
+        name: data.name,
+        slug: data.slug || slug,
+        image: data.image || undefined,
+      });
     }
   } catch {
     // Silent fail
@@ -213,14 +241,13 @@ const drawChart = () => {
 
   // Set up dimensions
   const container = chartRef.value;
-  const containerRect = container.getBoundingClientRect();
-  const width = Math.max(600, containerRect.width); // Use full container width
+  const width = container.clientWidth || Math.max(600, container.getBoundingClientRect().width);
   const height = Math.max(400, Math.min(800, width * 0.65)); // Better aspect ratio for wide plots
 
-  // Responsive margin: optimize space for plot and labels
+  // Responsive margin: no extra space for legend (using HTML legend instead)
   const margin = {
     top: 60,
-    right: width > 1200 ? 182 : width > 800 ? 208 : 234, // +30% more space for wider legend
+    right: 20, // Reduced since we use HTML legend
     bottom: 60,
     left: 80
   };
@@ -238,8 +265,8 @@ const drawChart = () => {
     .append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
 
-  // Color scale for speakers
-  const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+  // Color scale for speakers - use our custom colors
+  const colorScale = d3.scaleOrdinal(colors);
 
   // Scales
   const xScale = d3
@@ -380,11 +407,12 @@ const drawChart = () => {
     .style('font-weight', '500')
     .text('Speech Duration');
 
-  // Legend
+  // Legend (hidden, use HTML legend instead)
   const legendOffset = width > 1200 ? 20 : width > 800 ? 25 : 30; // +30% adjusted for much wider legend space
   const legend = g
     .append('g')
-    .attr('transform', `translate(${innerWidth + legendOffset}, 20)`);
+    .attr('transform', `translate(${innerWidth + legendOffset}, 20)`)
+    .style('display', 'none'); // Hide SVG legend, use HTML legend instead
 
   const uniqueSpeakers = Array.from(new Set(segments.map(d => d.speaker)));
 
@@ -507,7 +535,49 @@ onUnmounted(() => {
 
 <template>
   <div class="relative w-full">
-    <div ref="chartRef" class="w-full"></div>
+    <div class="flex flex-col lg:flex-row gap-4">
+      <!-- Chart -->
+      <div ref="chartRef" class="flex-1 w-full overflow-x-auto"></div>
+      
+      <!-- HTML Legend (Desktop only) -->
+      <div class="hidden lg:block w-64 flex-shrink-0">
+        <div class="sticky top-4 max-h-[600px] overflow-y-auto border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 p-4 mt-7">
+          <h3 class="text-sm font-semibold mb-3 text-gray-900 dark:text-white">Sprecher</h3>
+          <div class="space-y-2">
+            <div 
+              v-for="speaker in props.data.speakers" 
+              :key="speaker"
+              class="flex items-center gap-2 p-2 rounded transition-all"
+            >
+              <!-- Speaker Image -->
+              <img
+                v-if="getSpeakerImage(speaker)"
+                :src="getSpeakerImage(speaker)"
+                :alt="speaker"
+                @error="($event.target as HTMLImageElement).style.display = 'none'"
+                class="w-8 h-8 rounded-full flex-shrink-0 border border-gray-300 dark:border-gray-600 object-cover"
+              />
+              <div class="flex-1 min-w-0 flex items-center gap-2">
+                <div 
+                  class="text-xs leading-tight text-gray-900 dark:text-white"
+                >
+                  {{ speaker }}
+                </div>
+                <!-- Color marker -->
+                <div 
+                  class="w-4 h-4 rounded-full flex-shrink-0" 
+                  :style="{ 
+                    backgroundColor: colors[props.data.speakers.indexOf(speaker) % colors.length],
+                    opacity: 0.7
+                  }"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div
       ref="tooltipRef"
       style="display: none; position: fixed; z-index: 1000; background: white; border: 1px solid #e5e7eb; border-radius: 0.5rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); padding: 0.75rem; max-width: 20rem; pointer-events: none;"

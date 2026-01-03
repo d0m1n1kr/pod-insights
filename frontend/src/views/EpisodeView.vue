@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, watch, reactive } from 'vue';
+import { ref, computed, watch, reactive, onMounted, onBeforeUnmount } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from '@/stores/settings';
@@ -97,6 +97,123 @@ const speakerStats = ref<SpeakerStats | null>(null);
 const episodeTopics = ref<EpisodeTopics | null>(null);
 const activeStat = ref<'flow' | 'boxplot' | 'scatter'>('flow');
 const statsLoading = ref(false);
+
+// Track current speaker from audio player
+const currentSpeaker = ref<string | null>(null);
+
+// Check if currently playing episode matches selected episode
+const isCurrentEpisode = computed(() => {
+  if (!selectedEpisode.value?.number || !audioPlayerStore.state.transcriptSrc) return false;
+  const match = audioPlayerStore.state.transcriptSrc.match(/\/(\d+)-ts-live\.json/);
+  if (!match || !match[1]) return false;
+  return parseInt(match[1], 10) === selectedEpisode.value.number;
+});
+
+// Helper function to find the last index <= value in a sorted array
+const findLastIndexLE = (arr: number[], value: number) => {
+  let lo = 0;
+  let hi = arr.length - 1;
+  let ans = -1;
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1;
+    const v = arr[mid] ?? Number.NaN;
+    if (Number.isFinite(v) && v <= value) {
+      ans = mid;
+      lo = mid + 1;
+    } else {
+      hi = mid - 1;
+    }
+  }
+  return ans;
+};
+
+// Transcript data for finding current speaker
+type TranscriptData = {
+  v: number;
+  speakers: string[];
+  t: number[]; // timestamps in seconds
+  s: number[]; // speaker indices
+  x: string[]; // text
+};
+
+const transcriptData = ref<TranscriptData | null>(null);
+
+// Load transcript data for current speaker detection
+const loadTranscriptForCurrentSpeaker = async () => {
+  if (!selectedEpisode.value?.number || transcriptData.value) return;
+  
+  try {
+    const withBase = (p: string) => {
+      const base = (import.meta as any)?.env?.BASE_URL || '/';
+      const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
+      const rel = String(p).replace(/^\/+/, '');
+      return `${b}${rel}`;
+    };
+    
+    const transcriptUrl = withBase(getPodcastFileUrl(`episodes/${selectedEpisode.value.number}-ts-live.json`));
+    const response = await fetch(transcriptUrl, { cache: 'force-cache' });
+    if (response.ok) {
+      transcriptData.value = await response.json();
+    }
+  } catch (e) {
+    // Silent fail - transcript might not exist
+  }
+};
+
+// Get current speaker at a given time
+const getCurrentSpeakerAtTime = (timeSec: number): string | null => {
+  if (!transcriptData.value || !Number.isFinite(timeSec) || timeSec < 0) return null;
+  
+  const idx = findLastIndexLE(transcriptData.value.t, timeSec);
+  if (idx < 0) return null;
+  
+  const speakerIdxRaw = transcriptData.value.s[idx];
+  const speaker =
+    (typeof speakerIdxRaw === 'number' &&
+      Number.isInteger(speakerIdxRaw) &&
+      speakerIdxRaw >= 0 &&
+      speakerIdxRaw < transcriptData.value.speakers.length)
+      ? (transcriptData.value.speakers[speakerIdxRaw] ?? null)
+      : null;
+  
+  return speaker;
+};
+
+// Update current speaker from audio element
+const updateCurrentSpeaker = () => {
+  if (!isCurrentEpisode.value || !audioPlayerStore.state.src) {
+    currentSpeaker.value = null;
+    return;
+  }
+  
+  // Try to get current time from audio element
+  const audioElements = document.querySelectorAll('audio');
+  let time: number | null = null;
+  
+  for (const audio of audioElements) {
+    if (audio.src && audio.src === audioPlayerStore.state.src) {
+      const audioTime = audio.currentTime || 0;
+      if (Number.isFinite(audioTime) && audioTime >= 0) {
+        time = audioTime;
+        break;
+      }
+    }
+  }
+  
+  // Fallback: use seekToSec if available
+  if (time === null && audioPlayerStore.state.seekToSec !== undefined && Number.isFinite(audioPlayerStore.state.seekToSec)) {
+    time = audioPlayerStore.state.seekToSec;
+  }
+  
+  if (time !== null && transcriptData.value) {
+    currentSpeaker.value = getCurrentSpeakerAtTime(time);
+  } else {
+    currentSpeaker.value = null;
+  }
+};
+
+// Set up interval to update current speaker
+let speakerUpdateInterval: number | null = null;
 
 // Audio player
 const inlinePlayer = reactive(useInlineEpisodePlayer());
@@ -409,6 +526,39 @@ watch(
   { immediate: true }
 );
 
+// Watch for selected episode changes to load transcript
+watch(() => selectedEpisode.value?.number, async (episodeNumber) => {
+  if (episodeNumber) {
+    await loadTranscriptForCurrentSpeaker();
+  } else {
+    transcriptData.value = null;
+    currentSpeaker.value = null;
+  }
+});
+
+// Watch for audio player state changes
+watch(() => audioPlayerStore.state.src, () => {
+  updateCurrentSpeaker();
+});
+
+watch(() => audioPlayerStore.state.transcriptSrc, () => {
+  updateCurrentSpeaker();
+});
+
+// Set up interval to update current speaker
+onMounted(() => {
+  speakerUpdateInterval = window.setInterval(() => {
+    updateCurrentSpeaker();
+  }, 100); // Update every 100ms
+});
+
+onBeforeUnmount(() => {
+  if (speakerUpdateInterval !== null) {
+    clearInterval(speakerUpdateInterval);
+    speakerUpdateInterval = null;
+  }
+});
+
 // Watch for podcast changes and reset search
 watch(
   () => settings.selectedPodcast,
@@ -425,6 +575,8 @@ watch(
       selectedEpisode.value = null;
       speakerStats.value = null;
       episodeTopics.value = null;
+      transcriptData.value = null;
+      currentSpeaker.value = null;
 
       // Load latest episodes for the new podcast
       await loadLatestEpisodes(false);
@@ -687,7 +839,16 @@ const formatTime = (sec: number): string => {
           <div class="sm:col-span-2">
             <span class="text-gray-600 dark:text-gray-400">{{ t('episodes.speakers') }}:</span>
             <span class="ml-2 font-medium text-gray-900 dark:text-white">
-              {{ selectedEpisode.speakers.join(', ') || '-' }}
+              <template v-for="(speaker, idx) in selectedEpisode.speakers" :key="speaker">
+                <span
+                  :class="[
+                    isCurrentEpisode && currentSpeaker === speaker
+                      ? 'font-bold text-blue-600 dark:text-blue-400'
+                      : ''
+                  ]"
+                >{{ speaker }}</span><span v-if="idx < selectedEpisode.speakers.length - 1">, </span>
+              </template>
+              <span v-if="selectedEpisode.speakers.length === 0">-</span>
             </span>
           </div>
         </div>

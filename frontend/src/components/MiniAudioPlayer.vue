@@ -601,7 +601,7 @@ watch(() => currentSpoken.value?.speaker, async (speakerName) => {
             class="w-8 h-8 rounded-full flex-shrink-0 border border-gray-300 dark:border-gray-600"
           />
           <div class="flex-1 min-w-0">
-            <div class="text-[11px] font-semibold text-gray-600 dark:text-gray-300 truncate">
+            <div class="text-[11px] font-bold text-gray-600 dark:text-gray-300 truncate">
               {{ currentSpoken.speaker || '—' }}
               <span class="ml-2 font-mono font-normal text-gray-500 dark:text-gray-400">
                 @ {{ formatHms(currentSpoken.startSec) }}

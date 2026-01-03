@@ -62,9 +62,15 @@ const emit = defineEmits<{
 const audioPlayerStore = useAudioPlayerStore();
 const chartRef = ref<HTMLElement | null>(null);
 const tooltipRef = ref<HTMLDivElement | null>(null);
+const legendRef = ref<HTMLDivElement | null>(null);
 let svg: d3.Selection<SVGSVGElement, unknown, null, undefined> | null = null;
 let resizeObserver: ResizeObserver | null = null;
 let positionMarker: d3.Selection<SVGLineElement, unknown, null, undefined> | null = null;
+let markerCircle: d3.Selection<SVGCircleElement, unknown, null, undefined> | null = null;
+
+// Type for speaker path data
+type SpeakerPathData = { x: number; y0: number; y1: number };
+let speakerPaths: Map<string, d3.Selection<SVGPathElement, SpeakerPathData[], null, undefined>> | null = null;
 
 // Get current playback position from audio element if episode matches
 const currentPosition = ref<number | null>(null);
@@ -171,6 +177,11 @@ const chaptersData = ref<EpisodeChapters | null>(null);
 const chaptersLoading = ref(false);
 
 const speakersMeta = ref<Map<string, SpeakerMeta>>(new Map());
+
+// Computed property for safe access to speaker meta in template
+const getSpeakerImage = (speaker: string): string | undefined => {
+  return speakersMeta.value?.get(speaker)?.image;
+};
 
 // Load transcript data
 const loadTranscript = async () => {
@@ -504,8 +515,7 @@ const drawChart = () => {
   // We'll add it after creating all paths
 
   // Store speaker paths for highlighting
-  type SpeakerPathData = { x: number; y0: number; y1: number };
-  const speakerPaths = new Map<string, d3.Selection<SVGPathElement, SpeakerPathData[], null, undefined>>();
+  speakerPaths = new Map<string, d3.Selection<SVGPathElement, SpeakerPathData[], null, undefined>>();
   
   // Create areas for each speaker
   for (const speaker of speakers) {
@@ -537,6 +547,7 @@ const drawChart = () => {
   
   // Function to update speaker highlighting
   const updateSpeakerHighlight = () => {
+    if (!speakerPaths) return;
     const activeSpeaker = isCurrentEpisode.value ? currentSpeaker.value : null;
     
     speakerPaths.forEach((path, speaker) => {
@@ -1036,34 +1047,7 @@ const drawChart = () => {
       });
   });
 
-  // Legend
-  const legend = g
-    .append('g')
-    .attr('transform', `translate(${innerWidth - 150}, 20)`);
-
-  speakers.forEach((speaker, i) => {
-    const legendRow = legend
-      .append('g')
-      .attr('transform', `translate(0, ${i * 25})`);
-
-    legendRow
-      .append('rect')
-      .attr('width', 15)
-      .attr('height', 15)
-      .attr('fill', colorScale(speaker))
-      .attr('fill-opacity', 0.7)
-      .attr('stroke', colorScale(speaker));
-
-    const legendTextColor = isDarkMode ? '#e5e7eb' : '#374151'; // gray-200 for dark, gray-700 for light
-    
-    legendRow
-      .append('text')
-      .attr('x', 20)
-      .attr('y', 12)
-      .style('fill', legendTextColor)
-      .style('font-size', '12px')
-      .text(speaker.length > 20 ? speaker.substring(0, 17) + '...' : speaker);
-  });
+  // Legend is now HTML-based, so we don't create SVG legend anymore
 
   // Create position marker (initially hidden)
   const markerColor = isDarkMode ? '#ef4444' : '#dc2626'; // red-500
@@ -1080,7 +1064,7 @@ const drawChart = () => {
     .style('display', 'none');
   
   // Add a small circle at the top of the marker for better visibility
-  const markerCircle = g
+  markerCircle = g
     .append('circle')
     .attr('cx', 0)
     .attr('cy', 0)
@@ -1247,12 +1231,63 @@ onUnmounted(() => {
     svg = null;
   }
   positionMarker = null;
+  markerCircle = null;
+  speakerPaths = null;
 });
 </script>
 
 <template>
   <div class="relative w-full">
-    <div ref="chartRef" class="w-full"></div>
+    <div class="flex flex-col lg:flex-row gap-4">
+      <!-- Chart -->
+      <div ref="chartRef" class="flex-1 w-full overflow-x-auto -mx-2 sm:mx-0"></div>
+      
+      <!-- HTML Legend (Desktop only) -->
+      <div class="hidden lg:block w-64 flex-shrink-0">
+        <div class="sticky top-4 max-h-[600px] overflow-y-auto border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 p-4 mt-5">
+          <h3 class="text-sm font-semibold mb-3 text-gray-900 dark:text-white">Sprecher</h3>
+          <div class="space-y-2">
+            <div 
+              v-for="speaker in props.data.speakers" 
+              :key="speaker"
+              class="flex items-center gap-2 p-2 rounded transition-all"
+              :class="{
+                'bg-gray-100 dark:bg-gray-700': isCurrentEpisode && currentSpeaker === speaker
+              }"
+            >
+              <!-- Speaker Image -->
+              <img
+                v-if="getSpeakerImage(speaker)"
+                :src="getSpeakerImage(speaker)"
+                :alt="speaker"
+                @error="($event.target as HTMLImageElement).style.display = 'none'"
+                class="w-8 h-8 rounded-full flex-shrink-0 border border-gray-300 dark:border-gray-600 object-cover"
+              />
+              <div class="flex-1 min-w-0 flex items-center gap-2">
+                <div 
+                  class="text-xs leading-tight text-gray-900 dark:text-white"
+                  :class="{
+                    'font-bold text-blue-600 dark:text-blue-400': isCurrentEpisode && currentSpeaker === speaker,
+                    'font-normal': !(isCurrentEpisode && currentSpeaker === speaker)
+                  }"
+                >
+                  {{ speaker }}
+                </div>
+                <!-- Color marker -->
+                <div 
+                  class="w-4 h-4 rounded flex-shrink-0" 
+                  :style="{ 
+                    backgroundColor: colors[props.data.speakers.indexOf(speaker) % colors.length],
+                    opacity: 0.7
+                  }"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div
       ref="tooltipRef"
       style="display: none; position: fixed; z-index: 1000; background: white; border: 1px solid #e5e7eb; border-radius: 0.5rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); padding: 0.75rem; max-width: 20rem; pointer-events: none;"
