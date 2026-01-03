@@ -135,7 +135,7 @@ Looking at: Business & Economy (includes many things)
 ┌─────────────────────────────────────────────────┐
 │  STEP 2: Create Embeddings (API)                │
 │  Input:  4000+ topics                           │
-│  Output: db/topic-embeddings.json (500MB)          │
+│  Output: db/{podcast-id}/topic-embeddings.json (500MB) │
 │  Cost:   ~$2-3                                  │
 └─────────────────────────────────────────────────┘
                     ↓

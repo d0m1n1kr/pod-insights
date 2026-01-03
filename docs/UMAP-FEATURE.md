@@ -42,7 +42,7 @@ node scripts/generate-topic-umap.js
 ```
 
 This script:
-1. Loads topic embeddings from `db/topic-embeddings.json` (3072 dimensions)
+1. Loads topic embeddings from `db/{podcast-id}/topic-embeddings.json` (3072 dimensions)
 2. Loads cluster assignments from `topic-taxonomy.json`
 3. Runs UMAP dimensionality reduction to 2D
 4. Saves output to `topic-umap-data.json` and `frontend/public/topic-umap-data.json`
@@ -67,7 +67,7 @@ The script uses the following default parameters (adjustable in `generate-topic-
 ### Data Flow
 
 ```
-db/topic-embeddings.json (3072D)
+db/{podcast-id}/topic-embeddings.json (3072D)
          ↓
   UMAP reduction
          ↓

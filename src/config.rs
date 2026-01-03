@@ -6,7 +6,6 @@ use serde::Deserialize;
 use tokio::sync::RwLock;
 
 use crate::cache::{CachedEpisodeList, CachedEpisodeMetadata, CachedEpisodeTopicsMap, CachedRagIndex, CachedSpeakerMeta, CachedSpeakerProfile, CachedSpeakersIndex};
-use crate::rag::RagIndex;
 
 #[derive(Debug, Deserialize, Clone)]
 pub struct SettingsFile {
@@ -67,7 +66,6 @@ fn load_settings() -> Result<(Option<SettingsFile>, String)> {
 #[derive(Clone, Debug)]
 pub struct AppConfig {
     pub bind_addr: SocketAddr,
-    pub rag_db_path: PathBuf,
     pub episodes_dir: PathBuf,
     pub speakers_dir: PathBuf,
     pub llm_base_url: String,
@@ -83,9 +81,6 @@ impl AppConfig {
     pub fn from_env_and_settings() -> Result<(Self, String)> {
         let (settings, settings_source) = load_settings()?;
 
-        let rag_db_path = PathBuf::from(
-            std::env::var("RAG_DB_PATH").unwrap_or_else(|_| "db/rag-embeddings.json".to_string()),
-        );
         // Default podcast ID, can be overridden via PODCAST_ID env var
         let podcast_id = std::env::var("PODCAST_ID").unwrap_or_else(|_| "freakshow".to_string());
         let episodes_dir = PathBuf::from(
@@ -156,7 +151,6 @@ impl AppConfig {
         Ok((
             Self {
                 bind_addr,
-                rag_db_path,
                 episodes_dir,
                 speakers_dir,
                 llm_base_url: llm_base_url.trim_end_matches('/').to_string(),
@@ -176,7 +170,6 @@ impl AppConfig {
 pub struct AppState {
     pub cfg: AppConfig,
     pub http: Client,
-    pub rag: Arc<RagIndex>,
     pub transcript_cache: Arc<RwLock<HashMap<(String, u32), Arc<Vec<crate::transcript::TranscriptEntry>>>>>,
     pub rag_cache: Arc<RwLock<HashMap<String, CachedRagIndex>>>,
     pub episode_metadata_cache: Arc<RwLock<HashMap<(String, u32), CachedEpisodeMetadata>>>,

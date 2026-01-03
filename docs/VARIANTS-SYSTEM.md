@@ -197,11 +197,11 @@ cp settings.example.json settings.json
 # API-Key eintragen!
 ```
 
-### "db/topic-embeddings.json not found"
+### "db/{podcast-id}/topic-embeddings.json not found"
 
 → Embeddings müssen zuerst erstellt werden:
 ```bash
-node create-embeddings.js
+node scripts/create-embeddings.js --podcast <podcast-id>
 ```
 
 ### Variante erscheint nicht im Dropdown

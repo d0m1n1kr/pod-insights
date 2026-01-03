@@ -24,7 +24,6 @@ use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
 
 use config::{AppConfig, AppState};
 use handlers::{chat, episodes_latest, episodes_search, speakers_list};
-use rag::RagIndex;
 
 async fn health() -> impl IntoResponse {
     (StatusCode::OK, "ok")
@@ -39,9 +38,7 @@ async fn main() -> Result<()> {
 
     let (cfg, settings_source) = AppConfig::from_env_and_settings()?;
     info!("Settings source: {}", settings_source);
-    info!("Loading RAG DB: {}", cfg.rag_db_path.display());
-    let rag = RagIndex::load(&cfg.rag_db_path)?;
-    info!("RAG items: {}", rag.items.len());
+    info!("RAG databases will be loaded on-demand per podcast");
 
     let cors = CorsLayer::new()
         .allow_origin(HeaderValue::from_static("*"))
@@ -62,7 +59,6 @@ async fn main() -> Result<()> {
     let app_state = AppState {
         cfg: cfg.clone(),
         http,
-        rag: Arc::new(rag),
         transcript_cache: Arc::new(RwLock::new(HashMap::new())),
         rag_cache: Arc::new(RwLock::new(HashMap::new())),
         episode_metadata_cache: Arc::new(RwLock::new(HashMap::new())),
