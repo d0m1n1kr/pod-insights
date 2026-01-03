@@ -5,6 +5,7 @@ use std::{
     net::SocketAddr,
     path::{Path, PathBuf},
     sync::Arc,
+    time::SystemTime,
 };
 
 use anyhow::{anyhow, Context, Result};
@@ -18,6 +19,8 @@ use axum::{
 use reqwest::Client;
 use serde::{Deserialize, Serialize};
 use tokio::sync::RwLock;
+use futures::future;
+use rayon::prelude::*;
 use tower_http::{cors::CorsLayer, trace::TraceLayer};
 use tracing::{error, info, warn};
 use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
@@ -185,6 +188,51 @@ impl AppConfig {
     }
 }
 
+// Cache entry with timestamp for invalidation
+#[derive(Clone)]
+struct CachedRagIndex {
+    rag: Arc<RagIndex>,
+    loaded_at: SystemTime,
+    file_path: PathBuf,
+}
+
+#[derive(Clone)]
+struct CachedEpisodeMetadata {
+    metadata: EpisodeMetadata,
+    loaded_at: SystemTime,
+}
+
+#[derive(Clone)]
+struct CachedEpisodeList {
+    episode_numbers: Vec<u32>,
+    loaded_at: SystemTime,
+}
+
+#[derive(Clone)]
+struct CachedSpeakerProfile {
+    content: String,
+    loaded_at: SystemTime,
+}
+
+#[derive(Clone)]
+struct CachedSpeakersIndex {
+    speakers: Vec<SpeakerInfo>,
+    loaded_at: SystemTime,
+}
+
+#[derive(Clone)]
+struct CachedSpeakerMeta {
+    meta: SpeakerMeta,
+    loaded_at: SystemTime,
+}
+
+#[derive(Clone)]
+struct CachedEpisodeTopicsMap {
+    topics_map: std::collections::HashMap<u32, std::collections::HashSet<String>>,
+    loaded_at: SystemTime,
+    rag_db_path: PathBuf,
+}
+
 #[derive(Clone)]
 struct AppState {
     cfg: AppConfig,
@@ -192,6 +240,20 @@ struct AppState {
     rag: Arc<RagIndex>,
     // Cache transcript entries per (podcast_id, episode_number). Needed for multi-podcast support.
     transcript_cache: Arc<RwLock<HashMap<(String, u32), Arc<Vec<TranscriptEntry>>>>>,
+    // Cache RAG databases per podcast_id
+    rag_cache: Arc<RwLock<HashMap<String, CachedRagIndex>>>,
+    // Cache episode metadata per (podcast_id, episode_number)
+    episode_metadata_cache: Arc<RwLock<HashMap<(String, u32), CachedEpisodeMetadata>>>,
+    // Cache episode lists per podcast_id
+    episode_list_cache: Arc<RwLock<HashMap<String, CachedEpisodeList>>>,
+    // Cache speaker profiles per (podcast_id, slug)
+    speaker_profile_cache: Arc<RwLock<HashMap<(String, String), CachedSpeakerProfile>>>,
+    // Cache speakers index per podcast_id
+    speakers_index_cache: Arc<RwLock<HashMap<String, CachedSpeakersIndex>>>,
+    // Cache speaker meta data per (podcast_id, slug)
+    speaker_meta_cache: Arc<RwLock<HashMap<(String, String), CachedSpeakerMeta>>>,
+    // Cache episode topics map per podcast_id
+    episode_topics_map_cache: Arc<RwLock<HashMap<String, CachedEpisodeTopicsMap>>>,
 }
 
 #[tokio::main]
@@ -216,11 +278,25 @@ async fn main() -> Result<()> {
             HeaderName::from_static("x-auth-token"),
         ]);
 
+    // Configure HTTP client with connection pooling
+    let http = Client::builder()
+        .timeout(std::time::Duration::from_secs(30))
+        .pool_max_idle_per_host(10)
+        .build()
+        .context("Failed to create HTTP client")?;
+
     let app_state = AppState {
         cfg: cfg.clone(),
-        http: Client::new(),
+        http,
         rag: Arc::new(rag),
         transcript_cache: Arc::new(RwLock::new(HashMap::new())),
+        rag_cache: Arc::new(RwLock::new(HashMap::new())),
+        episode_metadata_cache: Arc::new(RwLock::new(HashMap::new())),
+        episode_list_cache: Arc::new(RwLock::new(HashMap::new())),
+        speaker_profile_cache: Arc::new(RwLock::new(HashMap::new())),
+        speakers_index_cache: Arc::new(RwLock::new(HashMap::new())),
+        speaker_meta_cache: Arc::new(RwLock::new(HashMap::new())),
+        episode_topics_map_cache: Arc::new(RwLock::new(HashMap::new())),
     };
 
     let app = Router::new()
@@ -245,6 +321,7 @@ async fn health() -> impl IntoResponse {
 
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
+#[derive(Clone)]
 struct SpeakerInfo {
     speaker: String,
     slug: String,
@@ -257,7 +334,7 @@ struct SpeakerInfo {
     image: Option<String>,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Clone)]
 struct SpeakerMeta {
     image: Option<String>,
 }
@@ -274,9 +351,8 @@ async fn speakers_list(
 ) -> impl IntoResponse {
     // Get podcast_id from query parameter or use default
     let podcast_id = params.get("podcast_id").map(|s| s.as_str()).unwrap_or("freakshow");
-    let speakers_dir = PathBuf::from(format!("podcasts/{}/speakers", podcast_id));
     
-    match load_speakers_index(&speakers_dir) {
+    match load_speakers_index_cached(&st, podcast_id).await {
         Ok(speakers) => (StatusCode::OK, Json(SpeakersListResponse { speakers })).into_response(),
         Err(e) => {
             error!("Failed to load speakers: {:?}", e);
@@ -287,6 +363,349 @@ async fn speakers_list(
                 .into_response()
         }
     }
+}
+
+// Helper function to get file modification time
+fn get_file_mtime(path: &Path) -> Option<SystemTime> {
+    std::fs::metadata(path)
+        .ok()?
+        .modified()
+        .ok()
+}
+
+// Helper function to check if cache entry is still valid (file hasn't changed)
+fn is_cache_valid(cached_time: SystemTime, file_path: &Path) -> bool {
+    if let Some(file_mtime) = get_file_mtime(file_path) {
+        file_mtime <= cached_time
+    } else {
+        // If we can't get file mtime, assume cache is invalid
+        false
+    }
+}
+
+// Load RAG index with caching
+async fn load_rag_index_cached(
+    st: &AppState,
+    podcast_id: &str,
+) -> Result<Arc<RagIndex>> {
+    // Determine RAG database path
+    let rag_db_path = PathBuf::from(format!("db/{}/rag-embeddings.json", podcast_id));
+    let rag_db_path = if rag_db_path.exists() {
+        rag_db_path
+    } else {
+        let fallback = PathBuf::from("db/rag-embeddings.json");
+        if fallback.exists() {
+            fallback
+        } else {
+            return Err(anyhow!("RAG database not found for podcast '{}'", podcast_id));
+        }
+    };
+
+    // Check cache
+    {
+        let cache = st.rag_cache.read().await;
+        if let Some(cached) = cache.get(podcast_id) {
+            if cached.file_path == rag_db_path && is_cache_valid(cached.loaded_at, &rag_db_path) {
+                return Ok(cached.rag.clone());
+            }
+        }
+    }
+
+    // Load and cache
+    let rag = Arc::new(RagIndex::load(&rag_db_path)
+        .with_context(|| format!("Failed to load RAG database: {}", rag_db_path.display()))?);
+    
+    let mut cache = st.rag_cache.write().await;
+    cache.insert(podcast_id.to_string(), CachedRagIndex {
+        rag: rag.clone(),
+        loaded_at: SystemTime::now(),
+        file_path: rag_db_path,
+    });
+    
+    Ok(rag)
+}
+
+// Load episode metadata batch with caching (parallel)
+async fn load_episode_metadata_batch_cached(
+    st: &AppState,
+    podcast_id: &str,
+    episode_numbers: &[u32],
+) -> Result<HashMap<u32, EpisodeMetadata>> {
+    let mut results = HashMap::new();
+    
+    // Create futures for all episodes
+    let futures: Vec<_> = episode_numbers.iter()
+        .map(|&ep_num| load_episode_metadata_cached(st, podcast_id, ep_num))
+        .collect();
+    
+    // Execute all in parallel
+    let metadata_results = future::join_all(futures).await;
+    
+    // Collect results
+    for (ep_num, result) in episode_numbers.iter().zip(metadata_results) {
+        if let Ok(Some(meta)) = result {
+            results.insert(*ep_num, meta);
+        }
+    }
+    
+    Ok(results)
+}
+
+// Load episode metadata with caching
+async fn load_episode_metadata_cached(
+    st: &AppState,
+    podcast_id: &str,
+    episode_number: u32,
+) -> Result<Option<EpisodeMetadata>> {
+    let cache_key = (podcast_id.to_string(), episode_number);
+    let ep_file = PathBuf::from(format!("podcasts/{}/episodes/{}.json", podcast_id, episode_number));
+    
+    // Check cache
+    {
+        let cache = st.episode_metadata_cache.read().await;
+        if let Some(cached) = cache.get(&cache_key) {
+            if is_cache_valid(cached.loaded_at, &ep_file) {
+                return Ok(Some(cached.metadata.clone()));
+            }
+        }
+    }
+
+    // Load and cache
+    if !ep_file.exists() {
+        return Ok(None);
+    }
+
+    let bytes = std::fs::read(&ep_file)
+        .with_context(|| format!("Failed to read {}", ep_file.display()))?;
+    let metadata: EpisodeMetadata = serde_json::from_slice(&bytes)
+        .with_context(|| format!("Failed to parse {}", ep_file.display()))?;
+
+    let mut cache = st.episode_metadata_cache.write().await;
+    cache.insert(cache_key, CachedEpisodeMetadata {
+        metadata: metadata.clone(),
+        loaded_at: SystemTime::now(),
+    });
+
+    Ok(Some(metadata))
+}
+
+// Load episode list with caching
+async fn load_episode_list_cached(
+    st: &AppState,
+    podcast_id: &str,
+) -> Result<Vec<u32>> {
+    let episodes_dir = PathBuf::from(format!("podcasts/{}/episodes", podcast_id));
+    
+    // Check cache (use directory mtime for invalidation)
+    {
+        let cache = st.episode_list_cache.read().await;
+        if let Some(cached) = cache.get(podcast_id) {
+            // Check if directory was modified (approximate check)
+            if let Some(dir_mtime) = get_file_mtime(&episodes_dir) {
+                if dir_mtime <= cached.loaded_at {
+                    return Ok(cached.episode_numbers.clone());
+                }
+            }
+        }
+    }
+
+    // Scan directory
+    let mut episode_numbers = Vec::new();
+    if let Ok(entries) = std::fs::read_dir(&episodes_dir) {
+        for entry in entries {
+            if let Ok(entry) = entry {
+                let path = entry.path();
+                if path.is_file() {
+                    if let Some(file_name) = path.file_name().and_then(|n| n.to_str()) {
+                        if let Some(ep_num_str) = file_name.strip_suffix(".json") {
+                            if ep_num_str.chars().all(|c| c.is_ascii_digit()) {
+                                if let Ok(ep_num) = ep_num_str.parse::<u32>() {
+                                    episode_numbers.push(ep_num);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    episode_numbers.sort_by(|a, b| b.cmp(a));
+
+    // Cache result
+    let mut cache = st.episode_list_cache.write().await;
+    cache.insert(podcast_id.to_string(), CachedEpisodeList {
+        episode_numbers: episode_numbers.clone(),
+        loaded_at: SystemTime::now(),
+    });
+
+    Ok(episode_numbers)
+}
+
+// Load speaker profile with caching
+async fn load_speaker_profile_cached(
+    st: &AppState,
+    podcast_id: &str,
+    slug: &str,
+) -> Result<String> {
+    let cache_key = (podcast_id.to_string(), slug.to_string());
+    let profile_path = PathBuf::from(format!("podcasts/{}/speakers/{}.md", podcast_id, slug));
+    
+    if !profile_path.exists() {
+        return Err(anyhow!("Speaker profile not found: {}", slug));
+    }
+
+    // Check cache
+    {
+        let cache = st.speaker_profile_cache.read().await;
+        if let Some(cached) = cache.get(&cache_key) {
+            if is_cache_valid(cached.loaded_at, &profile_path) {
+                return Ok(cached.content.clone());
+            }
+        }
+    }
+
+    // Load and cache
+    let content = std::fs::read_to_string(&profile_path)
+        .with_context(|| format!("Failed to read profile {}", profile_path.display()))?;
+
+    let mut cache = st.speaker_profile_cache.write().await;
+    cache.insert(cache_key, CachedSpeakerProfile {
+        content: content.clone(),
+        loaded_at: SystemTime::now(),
+    });
+
+    Ok(content)
+}
+
+// Load speakers index with caching
+async fn load_speakers_index_cached(
+    st: &AppState,
+    podcast_id: &str,
+) -> Result<Vec<SpeakerInfo>> {
+    let speakers_dir = PathBuf::from(format!("podcasts/{}/speakers", podcast_id));
+    let index_path = speakers_dir.join("index.json");
+    
+    if !index_path.exists() {
+        return Ok(Vec::new());
+    }
+
+    // Check cache
+    {
+        let cache = st.speakers_index_cache.read().await;
+        if let Some(cached) = cache.get(podcast_id) {
+            if is_cache_valid(cached.loaded_at, &index_path) {
+                return Ok(cached.speakers.clone());
+            }
+        }
+    }
+
+    // Load and cache
+    let mut speakers = load_speakers_index(&speakers_dir)?;
+    
+    // Load speaker meta data for each speaker (with caching)
+    for speaker in &mut speakers {
+        if let Ok(Some(meta)) = load_speaker_meta_cached(st, podcast_id, &speaker.slug).await {
+            speaker.image = meta.image;
+        }
+    }
+
+    let mut cache = st.speakers_index_cache.write().await;
+    cache.insert(podcast_id.to_string(), CachedSpeakersIndex {
+        speakers: speakers.clone(),
+        loaded_at: SystemTime::now(),
+    });
+
+    Ok(speakers)
+}
+
+// Load speaker meta data with caching
+async fn load_speaker_meta_cached(
+    st: &AppState,
+    podcast_id: &str,
+    slug: &str,
+) -> Result<Option<SpeakerMeta>> {
+    let cache_key = (podcast_id.to_string(), slug.to_string());
+    let meta_path = PathBuf::from(format!("podcasts/{}/speakers/{}-meta.json", podcast_id, slug));
+    
+    if !meta_path.exists() {
+        return Ok(None);
+    }
+
+    // Check cache
+    {
+        let cache = st.speaker_meta_cache.read().await;
+        if let Some(cached) = cache.get(&cache_key) {
+            if is_cache_valid(cached.loaded_at, &meta_path) {
+                return Ok(Some(cached.meta.clone()));
+            }
+        }
+    }
+
+    // Load and cache
+    let bytes = std::fs::read(&meta_path)
+        .with_context(|| format!("Failed to read {}", meta_path.display()))?;
+    let meta: SpeakerMeta = serde_json::from_slice(&bytes)
+        .with_context(|| format!("Failed to parse {}", meta_path.display()))?;
+
+    let mut cache = st.speaker_meta_cache.write().await;
+    cache.insert(cache_key, CachedSpeakerMeta {
+        meta: meta.clone(),
+        loaded_at: SystemTime::now(),
+    });
+
+    Ok(Some(meta))
+}
+
+// Load episode topics map with caching
+async fn load_episode_topics_map_cached(
+    st: &AppState,
+    podcast_id: &str,
+) -> Result<std::collections::HashMap<u32, std::collections::HashSet<String>>> {
+    // Determine RAG database path
+    let rag_db_path = PathBuf::from(format!("db/{}/rag-embeddings.json", podcast_id));
+    let rag_db_path = if rag_db_path.exists() {
+        rag_db_path
+    } else {
+        PathBuf::from("db/rag-embeddings.json")
+    };
+
+    if !rag_db_path.exists() {
+        return Ok(std::collections::HashMap::new());
+    }
+
+    // Check cache
+    {
+        let cache = st.episode_topics_map_cache.read().await;
+        if let Some(cached) = cache.get(podcast_id) {
+            if cached.rag_db_path == rag_db_path && is_cache_valid(cached.loaded_at, &rag_db_path) {
+                return Ok(cached.topics_map.clone());
+            }
+        }
+    }
+
+    // Load RAG database and build topics map
+    let rag = load_rag_index_cached(st, podcast_id).await?;
+    let mut topics_map: std::collections::HashMap<u32, std::collections::HashSet<String>> = std::collections::HashMap::new();
+    
+    for item in &rag.items {
+        if let Some(topic) = &item.topic {
+            topics_map
+                .entry(item.episode_number)
+                .or_insert_with(std::collections::HashSet::new)
+                .insert(topic.clone());
+        }
+    }
+
+    // Cache result
+    let mut cache = st.episode_topics_map_cache.write().await;
+    cache.insert(podcast_id.to_string(), CachedEpisodeTopicsMap {
+        topics_map: topics_map.clone(),
+        loaded_at: SystemTime::now(),
+        rag_db_path: rag_db_path.clone(),
+    });
+
+    Ok(topics_map)
 }
 
 fn load_speakers_index(speakers_dir: &Path) -> Result<Vec<SpeakerInfo>> {
@@ -446,52 +865,40 @@ async fn chat_impl(st: &AppState, req: ChatRequest) -> Result<ChatResponse> {
     // Determine podcast ID from request or use default
     let podcast_id = req.podcast_id.as_deref().unwrap_or("freakshow");
     
-    // Load RAG database for this podcast
-    // Try podcast-specific path first, then fallback to root db/rag-embeddings.json
-    let rag_db_path = PathBuf::from(format!("db/{}/rag-embeddings.json", podcast_id));
-    let rag_db_path = if rag_db_path.exists() {
-        rag_db_path
-    } else {
-        let fallback = PathBuf::from("db/rag-embeddings.json");
-        if fallback.exists() {
-            fallback
-        } else {
-            return Err(anyhow!("RAG database not found for podcast '{}': {} or {}", podcast_id, PathBuf::from(format!("db/{}/rag-embeddings.json", podcast_id)).display(), PathBuf::from("db/rag-embeddings.json").display()));
-        }
-    };
-    let rag = RagIndex::load(&rag_db_path)
-        .with_context(|| format!("Failed to load RAG database: {}", rag_db_path.display()))?;
+    // Load RAG database for this podcast (with caching)
+    let rag = load_rag_index_cached(st, podcast_id).await?;
     
-    // Use podcast-specific episodes and speakers directories
+    // Use podcast-specific episodes directory
     let episodes_dir = PathBuf::from(format!("podcasts/{}/episodes", podcast_id));
-    let speakers_dir = PathBuf::from(format!("podcasts/{}/speakers", podcast_id));
 
     let top_k = req.top_k.unwrap_or(st.cfg.top_k).clamp(1, 20);
 
-    // Get speaker name from slug if requested
+    // Get speaker name from slug if requested (using cached speakers index)
     let speaker_name = if let Some(slug) = req.speaker_slug.as_ref() {
-        get_speaker_name_from_slug(&speakers_dir, slug).ok()
+        load_speakers_index_cached(st, podcast_id).await.ok()
+            .and_then(|speakers| speakers.iter().find(|s| s.slug == *slug).map(|s| s.speaker.clone()))
     } else {
         None
     };
     
     // Get second speaker name from slug if requested (discussion mode)
     let speaker2_name = if let Some(slug) = req.speaker_slug2.as_ref() {
-        get_speaker_name_from_slug(&speakers_dir, slug).ok()
+        load_speakers_index_cached(st, podcast_id).await.ok()
+            .and_then(|speakers| speakers.iter().find(|s| s.slug == *slug).map(|s| s.speaker.clone()))
     } else {
         None
     };
 
-    // Load speaker profile if requested
+    // Load speaker profile if requested (with caching)
     let speaker_profile = if let Some(slug) = req.speaker_slug.as_ref() {
-        load_speaker_profile(&speakers_dir, slug).ok()
+        load_speaker_profile_cached(st, podcast_id, slug).await.ok()
     } else {
         None
     };
     
-    // Load second speaker profile if requested (discussion mode)
+    // Load second speaker profile if requested (discussion mode, with caching)
     let speaker2_profile = if let Some(slug) = req.speaker_slug2.as_ref() {
-        load_speaker_profile(&speakers_dir, slug).ok()
+        load_speaker_profile_cached(st, podcast_id, slug).await.ok()
     } else {
         None
     };
@@ -602,7 +1009,12 @@ async fn chat_impl(st: &AppState, req: ChatRequest) -> Result<ChatResponse> {
     // Keep prompt bounded.
     let mut context = context_parts.join("\n");
     if context.len() > st.cfg.max_context_chars {
-        context.truncate(st.cfg.max_context_chars);
+        // Truncate at a valid UTF-8 char boundary
+        let mut truncate_pos = st.cfg.max_context_chars;
+        while truncate_pos > 0 && !context.is_char_boundary(truncate_pos) {
+            truncate_pos -= 1;
+        }
+        context.truncate(truncate_pos);
         context.push_str("\n\n[context truncated]\n");
     }
 
@@ -668,7 +1080,7 @@ struct EpisodeSearchResult {
     topics: Vec<String>,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Clone)]
 struct EpisodeMetadata {
     title: Option<String>,
     number: Option<u32>,
@@ -706,23 +1118,8 @@ async fn episodes_search_impl(st: &AppState, req: EpisodesSearchRequest) -> Resu
     let page_size = req.limit.unwrap_or(req.top_k.unwrap_or(10)).clamp(1, 50);
     let offset = req.offset.unwrap_or(0);
     
-    // Load RAG database for this podcast
-    // Try podcast-specific path first, then fallback to root db/rag-embeddings.json
-    let rag_db_path = PathBuf::from(format!("db/{}/rag-embeddings.json", podcast_id));
-    let rag_db_path = if rag_db_path.exists() {
-        rag_db_path
-    } else {
-        let fallback = PathBuf::from("db/rag-embeddings.json");
-        if fallback.exists() {
-            fallback
-        } else {
-            return Err(anyhow!("RAG database not found for podcast '{}': {} or {}", podcast_id, PathBuf::from(format!("db/{}/rag-embeddings.json", podcast_id)).display(), PathBuf::from("db/rag-embeddings.json").display()));
-        }
-    };
-    let rag = RagIndex::load(&rag_db_path)
-        .with_context(|| format!("Failed to load RAG database: {}", rag_db_path.display()))?;
-    
-    let episodes_dir = PathBuf::from(format!("podcasts/{}/episodes", podcast_id));
+    // Load RAG database for this podcast (with caching)
+    let rag = load_rag_index_cached(st, podcast_id).await?;
     
     // Get embedding for query
     let q = embed_query(st, query).await?;
@@ -731,26 +1128,48 @@ async fn episodes_search_impl(st: &AppState, req: EpisodesSearchRequest) -> Resu
         return Err(anyhow!("Query embedding norm is 0"));
     }
 
-    // Score all items
-    let mut scored: Vec<(usize, f32)> = Vec::with_capacity(rag.items.len());
-    for (i, it) in rag.items.iter().enumerate() {
-        let Some(v) = &it.embedding else { continue };
-        let dn = rag.norms[i];
-        if dn <= 0.0 {
-            continue;
-        }
-        let s = dot(&q, v) / (qn * dn);
-        if s.is_finite() {
-            scored.push((i, s));
-        }
+    // Score all items with parallel computation and early termination optimization
+    // We need more than page_size to account for grouping by episode
+    let keep_count = (offset + page_size) * 5;
+    
+    // Parallel computation of all scores
+    let scored: Vec<(usize, f32)> = rag.items
+        .par_iter()
+        .enumerate()
+        .filter_map(|(i, it)| {
+            let v = it.embedding.as_ref()?;
+            let dn = rag.norms[i];
+            if dn <= 0.0 {
+                return None;
+            }
+            let s = dot(&q, v) / (qn * dn);
+            if s.is_finite() {
+                Some((i, s))
+            } else {
+                None
+            }
+        })
+        .collect();
+    
+    // Use partial sort to get top-K without sorting everything
+    // This is faster than full sort when we only need top-K
+    let mut scored = scored;
+    if scored.len() > keep_count {
+        // Use partial sort: sort only the top keep_count elements
+        let (top_part, _, _) = scored.select_nth_unstable_by(keep_count - 1, |a, b| {
+            b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal)
+        });
+        top_part.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
+        scored = top_part.to_vec();
+    } else {
+        scored.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
     }
-
-    // Sort by score descending
-    scored.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
+    
+    // Load episode topics map (with caching)
+    let episode_topics_map = load_episode_topics_map_cached(st, podcast_id).await?;
     
     // Group by episode_number and get best score per episode
     let mut episode_scores: std::collections::HashMap<u32, f32> = std::collections::HashMap::new();
-    let mut episode_topics: std::collections::HashMap<u32, std::collections::HashSet<String>> = std::collections::HashMap::new();
     
     // Take more items than page_size to ensure we have enough episodes after grouping
     // (since multiple items can belong to the same episode)
@@ -762,11 +1181,6 @@ async fn episodes_search_impl(st: &AppState, req: EpisodesSearchRequest) -> Resu
         let best_score = episode_scores.entry(ep_num).or_insert(*score);
         if *score > *best_score {
             *best_score = *score;
-        }
-        
-        // Collect topics
-        if let Some(topic) = &item.topic {
-            episode_topics.entry(ep_num).or_insert_with(std::collections::HashSet::new).insert(topic.clone());
         }
     }
     
@@ -784,37 +1198,36 @@ async fn episodes_search_impl(st: &AppState, req: EpisodesSearchRequest) -> Resu
         .take(page_size)
         .collect();
     
-    // Load episode metadata
+    // Load episode metadata in parallel (batch loading with caching)
+    let episode_numbers: Vec<u32> = paginated_results.iter().map(|(ep_num, _)| *ep_num).collect();
+    let metadata_map = load_episode_metadata_batch_cached(st, podcast_id, &episode_numbers).await?;
+    
+    // Build results
     let mut results = Vec::new();
     for (ep_num, score) in paginated_results {
-        let ep_file = episodes_dir.join(format!("{}.json", ep_num));
         let mut title = format!("Episode {}", ep_num);
         let mut date = None;
         let mut duration_sec = None;
         let mut description = None;
         let mut speakers = Vec::new();
         
-        if ep_file.exists() {
-            if let Ok(bytes) = std::fs::read(&ep_file) {
-                if let Ok(meta) = serde_json::from_slice::<EpisodeMetadata>(&bytes) {
-                    if let Some(t) = meta.title {
-                        title = t;
-                    }
-                    date = meta.date;
-                    if let Some(dur) = meta.duration {
-                        if dur.len() >= 3 {
-                            duration_sec = Some(dur[0] * 3600 + dur[1] * 60 + dur[2]);
-                        }
-                    }
-                    description = meta.description;
-                    if let Some(s) = meta.speakers {
-                        speakers = s;
-                    }
+        if let Some(meta) = metadata_map.get(&ep_num) {
+            if let Some(t) = &meta.title {
+                title = t.clone();
+            }
+            date = meta.date.clone();
+            if let Some(dur) = &meta.duration {
+                if dur.len() >= 3 {
+                    duration_sec = Some(dur[0] * 3600 + dur[1] * 60 + dur[2]);
                 }
+            }
+            description = meta.description.clone();
+            if let Some(s) = &meta.speakers {
+                speakers = s.clone();
             }
         }
         
-        let topics: Vec<String> = episode_topics
+        let topics: Vec<String> = episode_topics_map
             .get(&ep_num)
             .map(|s| s.iter().cloned().collect())
             .unwrap_or_default();
@@ -861,32 +1274,8 @@ async fn episodes_latest_impl(st: &AppState, req: EpisodesLatestRequest) -> Resu
     let page_size = req.limit.unwrap_or(10).clamp(1, 50);
     let offset = req.offset.unwrap_or(0);
     
-    let episodes_dir = PathBuf::from(format!("podcasts/{}/episodes", podcast_id));
-    
-    // Scan episodes directory to find all episode JSON files
-    let mut episode_numbers = Vec::new();
-    if let Ok(entries) = std::fs::read_dir(&episodes_dir) {
-        for entry in entries {
-            if let Ok(entry) = entry {
-                let path = entry.path();
-                if path.is_file() {
-                    if let Some(file_name) = path.file_name().and_then(|n| n.to_str()) {
-                        // Match files like "123.json" (episode number only)
-                        if let Some(ep_num_str) = file_name.strip_suffix(".json") {
-                            if ep_num_str.chars().all(|c| c.is_ascii_digit()) {
-                                if let Ok(ep_num) = ep_num_str.parse::<u32>() {
-                                    episode_numbers.push(ep_num);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    
-    // Sort by episode number descending (latest first)
-    episode_numbers.sort_by(|a, b| b.cmp(a));
+    // Load episode list (with caching)
+    let episode_numbers = load_episode_list_cached(st, podcast_id).await?;
     
     let total = episode_numbers.len();
     let has_more = (offset + page_size) < total;
@@ -898,54 +1287,44 @@ async fn episodes_latest_impl(st: &AppState, req: EpisodesLatestRequest) -> Resu
         .take(page_size)
         .collect();
     
-    // Load RAG database once to get topics for all episodes
+    // Load RAG database once to get topics for all episodes (with caching)
     let mut episode_topics_map: std::collections::HashMap<u32, std::collections::HashSet<String>> = std::collections::HashMap::new();
-    let rag_db_path = PathBuf::from(format!("db/{}/rag-embeddings.json", podcast_id));
-    let rag_db_path = if rag_db_path.exists() {
-        rag_db_path
-    } else {
-        PathBuf::from("db/rag-embeddings.json")
-    };
-    if rag_db_path.exists() {
-        if let Ok(rag) = RagIndex::load(&rag_db_path) {
-            for item in &rag.items {
-                if let Some(topic) = &item.topic {
-                    episode_topics_map
-                        .entry(item.episode_number)
-                        .or_insert_with(std::collections::HashSet::new)
-                        .insert(topic.clone());
-                }
+    if let Ok(rag) = load_rag_index_cached(st, podcast_id).await {
+        for item in &rag.items {
+            if let Some(topic) = &item.topic {
+                episode_topics_map
+                    .entry(item.episode_number)
+                    .or_insert_with(std::collections::HashSet::new)
+                    .insert(topic.clone());
             }
         }
     }
     
-    // Load episode metadata
+    // Load episode metadata in parallel (batch loading with caching)
+    let metadata_map = load_episode_metadata_batch_cached(st, podcast_id, &paginated_episodes).await?;
+    
+    // Build results
     let mut results = Vec::new();
     for ep_num in paginated_episodes {
-        let ep_file = episodes_dir.join(format!("{}.json", ep_num));
         let mut title = format!("Episode {}", ep_num);
         let mut date = None;
         let mut duration_sec = None;
         let mut description = None;
         let mut speakers = Vec::new();
         
-        if ep_file.exists() {
-            if let Ok(bytes) = std::fs::read(&ep_file) {
-                if let Ok(meta) = serde_json::from_slice::<EpisodeMetadata>(&bytes) {
-                    if let Some(t) = meta.title {
-                        title = t;
-                    }
-                    date = meta.date;
-                    if let Some(dur) = meta.duration {
-                        if dur.len() >= 3 {
-                            duration_sec = Some(dur[0] * 3600 + dur[1] * 60 + dur[2]);
-                        }
-                    }
-                    description = meta.description;
-                    if let Some(s) = meta.speakers {
-                        speakers = s;
-                    }
+        if let Some(meta) = metadata_map.get(&ep_num) {
+            if let Some(t) = &meta.title {
+                title = t.clone();
+            }
+            date = meta.date.clone();
+            if let Some(dur) = &meta.duration {
+                if dur.len() >= 3 {
+                    duration_sec = Some(dur[0] * 3600 + dur[1] * 60 + dur[2]);
                 }
+            }
+            description = meta.description.clone();
+            if let Some(s) = &meta.speakers {
+                speakers = s.clone();
             }
         }
         
@@ -1059,21 +1438,35 @@ async fn retrieve(st: &AppState, rag: &RagIndex, query: &str, top_k: usize) -> R
             return Err(anyhow!("Query embedding norm is 0"));
         }
 
-        let mut scored: Vec<(usize, f32)> = Vec::with_capacity(rag.items.len());
-        for (i, it) in rag.items.iter().enumerate() {
-            let Some(v) = &it.embedding else { continue };
-            let dn = rag.norms[i];
-            if dn <= 0.0 {
-                continue;
-            }
-            let s = dot(&q, v) / (qn * dn);
-            if s.is_finite() {
-                scored.push((i, s));
-            }
-        }
+        // Parallel computation of scores
+        let mut scored: Vec<(usize, f32)> = rag.items
+            .par_iter()
+            .enumerate()
+            .filter_map(|(i, it)| {
+                let v = it.embedding.as_ref()?;
+                let dn = rag.norms[i];
+                if dn <= 0.0 {
+                    return None;
+                }
+                let s = dot(&q, v) / (qn * dn);
+                if s.is_finite() {
+                    Some((i, s))
+                } else {
+                    None
+                }
+            })
+            .collect();
 
-        scored.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
-        scored.truncate(top_k);
+        // Use partial sort for better performance when we only need top-K
+        if scored.len() > top_k {
+            let (top_part, _, _) = scored.select_nth_unstable_by(top_k - 1, |a, b| {
+                b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal)
+            });
+            top_part.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
+            scored = top_part.to_vec();
+        } else {
+            scored.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
+        }
         Ok(scored
             .into_iter()
             .map(|(i, score)| Hit {
@@ -1132,12 +1525,28 @@ fn normalize_for_match(s: &str) -> String {
         .join(" ")
 }
 
+#[inline]
 fn dot(a: &[f32], b: &[f32]) -> f32 {
     let n = a.len().min(b.len());
+    // Use chunked iteration for better cache locality and potential SIMD optimization
+    // by the compiler
     let mut sum = 0.0f32;
-    for i in 0..n {
+    let chunks = n / 4;
+    
+    // Process 4 elements at a time (helps compiler auto-vectorize)
+    for i in 0..chunks {
+        let idx = i * 4;
+        sum += a[idx] * b[idx]
+            + a[idx + 1] * b[idx + 1]
+            + a[idx + 2] * b[idx + 2]
+            + a[idx + 3] * b[idx + 3];
+    }
+    
+    // Handle remainder
+    for i in (chunks * 4)..n {
         sum += a[i] * b[i];
     }
+    
     sum
 }
 
@@ -1244,7 +1653,13 @@ fn excerpt_for_window(
         out.push_str(&format!("[{}] {}: {}", e.time, who, e.text.trim()));
 
         if out.len() >= max_chars {
-            out.truncate(max_chars);
+            // Truncate at a valid UTF-8 char boundary
+            // Find the last valid char boundary before max_chars
+            let mut truncate_pos = max_chars;
+            while truncate_pos > 0 && !out.is_char_boundary(truncate_pos) {
+                truncate_pos -= 1;
+            }
+            out.truncate(truncate_pos);
             out.push_str("\n…");
             break;
         }
