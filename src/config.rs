@@ -1,9 +1,9 @@
-use std::{collections::HashMap, net::SocketAddr, path::PathBuf, sync::Arc};
+use std::{net::SocketAddr, path::PathBuf, sync::Arc};
 
 use anyhow::{anyhow, Context, Result};
+use moka::future::Cache;
 use reqwest::Client;
 use serde::Deserialize;
-use tokio::sync::RwLock;
 
 use crate::cache::{CachedEpisodeList, CachedEpisodeMetadata, CachedEpisodeTopicsMap, CachedRagIndex, CachedSpeakerMeta, CachedSpeakerProfile, CachedSpeakersIndex};
 
@@ -170,13 +170,14 @@ impl AppConfig {
 pub struct AppState {
     pub cfg: AppConfig,
     pub http: Client,
-    pub transcript_cache: Arc<RwLock<HashMap<(String, u32), Arc<Vec<crate::transcript::TranscriptEntry>>>>>,
-    pub rag_cache: Arc<RwLock<HashMap<String, CachedRagIndex>>>,
-    pub episode_metadata_cache: Arc<RwLock<HashMap<(String, u32), CachedEpisodeMetadata>>>,
-    pub episode_list_cache: Arc<RwLock<HashMap<String, CachedEpisodeList>>>,
-    pub speaker_profile_cache: Arc<RwLock<HashMap<(String, String), CachedSpeakerProfile>>>,
-    pub speakers_index_cache: Arc<RwLock<HashMap<String, CachedSpeakersIndex>>>,
-    pub speaker_meta_cache: Arc<RwLock<HashMap<(String, String), CachedSpeakerMeta>>>,
-    pub episode_topics_map_cache: Arc<RwLock<HashMap<String, CachedEpisodeTopicsMap>>>,
+    // LRU Cache with size limits and TTL
+    pub transcript_cache: Cache<(String, u32), Arc<Vec<crate::transcript::TranscriptEntry>>>,
+    pub rag_cache: Cache<String, CachedRagIndex>,
+    pub episode_metadata_cache: Cache<(String, u32), CachedEpisodeMetadata>,
+    pub episode_list_cache: Cache<String, CachedEpisodeList>,
+    pub speaker_profile_cache: Cache<(String, String), CachedSpeakerProfile>,
+    pub speakers_index_cache: Cache<String, CachedSpeakersIndex>,
+    pub speaker_meta_cache: Cache<(String, String), CachedSpeakerMeta>,
+    pub episode_topics_map_cache: Cache<String, CachedEpisodeTopicsMap>,
 }
 

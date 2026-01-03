@@ -111,6 +111,7 @@
                         <tr 
                           v-for="episodeNum in selectedCell.episodes" 
                           :key="episodeNum"
+                          :data-episode-row="episodeNum"
                           class="border-t border-cyan-100 dark:border-cyan-800 hover:bg-cyan-50 dark:hover:bg-cyan-900/20"
                         >
                           <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
@@ -220,15 +221,15 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed, watch, reactive } from 'vue';
+import { ref, onMounted, computed, watch, reactive, nextTick, onUnmounted } from 'vue';
 import * as d3 from 'd3';
 import { loadVariantData } from '@/composables/useVariants';
-import { getEpisodeUrl } from '@/composables/usePodcast';
 import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
 import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
+import { useLazyEpisodeDetails, type EpisodeDetail as EpisodeDetailType, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 
 const settingsStore = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
@@ -261,13 +262,7 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
   });
 };
 
-interface EpisodeDetail {
-  title: string;
-  date: string;
-  duration?: string | number;
-  speakers?: string[];
-  url?: string;
-}
+// EpisodeDetail type is imported from useEpisodeDetails composable
 
 const heatmapData = ref<HeatmapData | null>(null);
 const svgElement = ref<SVGSVGElement | null>(null);
@@ -286,7 +281,12 @@ const selectedCell = ref<{
 const showEpisodeList = ref(false);
 const loadingEpisodes = ref(false);
 
-const episodeDetails = ref<Map<number, EpisodeDetail | null>>(new Map());
+// Use lazy loading composable
+const { setupLazyLoad, preloadVisible } = useLazyEpisodeDetails();
+
+// Local map to track which episodes are loaded (synced with global cache)
+const episodeDetails = ref<Map<number, EpisodeDetailType | null>>(new Map());
+const observerCleanups = ref<Map<number, () => void>>(new Map());
 
 async function loadData() {
   try {
@@ -358,46 +358,63 @@ function formatDuration(duration?: string | number): string {
   return `${minutes}m`;
 }
 
+// Setup lazy loading for episode rows
+async function setupLazyLoadingForEpisodes(episodeNumbers: number[]) {
+  // Clean up existing observers
+  observerCleanups.value.forEach(cleanup => cleanup());
+  observerCleanups.value.clear();
+
+  // Preload first few visible episodes immediately
+  const visibleCount = Math.min(5, episodeNumbers.length);
+  if (visibleCount > 0) {
+    await preloadVisible(episodeNumbers.slice(0, visibleCount));
+    // Sync with local map
+    episodeNumbers.slice(0, visibleCount).forEach(num => {
+      const cached = getCachedEpisodeDetail(num);
+      if (cached !== undefined) {
+        episodeDetails.value.set(num, cached);
+      }
+    });
+  }
+
+  // Setup lazy loading for remaining episodes
+  await nextTick();
+  episodeNumbers.forEach(episodeNum => {
+    // Check if already cached
+    const cached = getCachedEpisodeDetail(episodeNum);
+    if (cached !== undefined) {
+      episodeDetails.value.set(episodeNum, cached);
+      return;
+    }
+
+    // Find the row element and setup observer
+    const rowElement = document.querySelector(`[data-episode-row="${episodeNum}"]`) as HTMLElement;
+    if (rowElement) {
+      const cleanup = setupLazyLoad(
+        rowElement,
+        episodeNum,
+        (detail) => {
+          episodeDetails.value.set(episodeNum, detail);
+        }
+      );
+      observerCleanups.value.set(episodeNum, cleanup);
+    } else {
+      // Element not found, load immediately
+      loadEpisodeDetail(episodeNum).then(detail => {
+        episodeDetails.value.set(episodeNum, detail);
+      });
+    }
+  });
+  
+  loadingEpisodes.value = false;
+}
+
+// Legacy function for compatibility (now uses lazy loading)
 async function loadEpisodeDetails() {
   if (!selectedCell.value) return;
   
   loadingEpisodes.value = true;
-  
-  for (const episodeNum of selectedCell.value.episodes) {
-    if (!episodeDetails.value.has(episodeNum)) {
-      try {
-        const response = await fetch(getEpisodeUrl(episodeNum));
-        if (response.ok) {
-          const data = await response.json();
-          
-          // Convert duration from [h, m, s] to total seconds
-          let durationInSeconds: number | undefined;
-          if (Array.isArray(data.duration) && data.duration.length === 3) {
-            const [h, m, s] = data.duration;
-            durationInSeconds = h * 3600 + m * 60 + s;
-          }
-          
-          // Create a clean EpisodeDetail object
-          const episodeDetail: EpisodeDetail = {
-            title: data.title || '',
-            date: data.date || '',
-            duration: durationInSeconds,
-            speakers: data.speakers || [],
-            url: data.url || ''
-          };
-          
-          episodeDetails.value.set(episodeNum, episodeDetail);
-        } else {
-          episodeDetails.value.set(episodeNum, null);
-        }
-      } catch (error) {
-        console.error(`Failed to load episode ${episodeNum}:`, error);
-        episodeDetails.value.set(episodeNum, null);
-      }
-    }
-  }
-  
-  loadingEpisodes.value = false;
+  await setupLazyLoadingForEpisodes(selectedCell.value.episodes);
 }
 
 // Helper function to determine text color based on background luminance
@@ -849,10 +866,16 @@ watch([() => settingsStore.topNClustersCluster1Heatmap, () => settingsStore.topN
 });
 
 // Watch for selected cell changes
-watch(selectedCell, () => {
-  if (selectedCell.value) {
-    loadEpisodeDetails();
+watch(selectedCell, async () => {
+  if (selectedCell.value && selectedCell.value.episodes.length > 0) {
+    await loadEpisodeDetails();
   }
+});
+
+// Cleanup observers on unmount
+onUnmounted(() => {
+  observerCleanups.value.forEach(cleanup => cleanup());
+  observerCleanups.value.clear();
 });
 
 // Watch for window resize

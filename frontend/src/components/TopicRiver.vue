@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref, onMounted, computed, watch } from 'vue';
+import { ref, onMounted, computed, watch, nextTick, onUnmounted } from 'vue';
 import * as d3 from 'd3';
 import type { TopicRiverData, ProcessedTopicData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
-import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
+import { useLazyEpisodeDetails, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 
 const props = defineProps<{
   data: TopicRiverData;
@@ -585,6 +586,10 @@ const taxonomyData = ref<any>(null);
 const loadingEpisodes = ref(false);
 const loadingTopics = ref(false);
 
+// Use lazy loading composable
+const { setupLazyLoad, preloadVisible } = useLazyEpisodeDetails();
+const observerCleanups = ref<Map<number, () => void>>(new Map());
+
 // MP3 playback (uses /episodes.json generated from MP3 RSS feed)
 const mp3IndexLoaded = ref(false);
 const mp3IndexError = ref<string | null>(null);
@@ -635,70 +640,130 @@ const secondsToHmsTuple = (sec: unknown): [number, number, number] => {
   return [h, m, s];
 };
 
-// Lade Episode-Details für Topics (für Speaker-Informationen)
+// Setup lazy loading for episode rows with fallback to MP3 metadata
+async function setupLazyLoadingForEpisodes(episodeNumbers: number[]) {
+  // Clean up existing observers
+  observerCleanups.value.forEach(cleanup => cleanup());
+  observerCleanups.value.clear();
+
+  // Ensure MP3 index is available for fallback
+  await ensureMp3Index();
+
+  // Preload first few visible episodes immediately
+  const visibleCount = Math.min(5, episodeNumbers.length);
+  if (visibleCount > 0) {
+    const visibleEpisodes = episodeNumbers.slice(0, visibleCount);
+    await Promise.all(visibleEpisodes.map(async (episodeNum) => {
+      // Check cache first
+      const cached = getCachedEpisodeDetail(episodeNum);
+      if (cached !== undefined) {
+        episodeDetails.value.set(episodeNum, cached);
+        return;
+      }
+
+      // Try to load from cache or API
+      try {
+        const detail = await loadEpisodeDetail(episodeNum);
+        if (detail) {
+          episodeDetails.value.set(episodeNum, detail);
+        } else {
+          // Fallback to MP3 metadata
+          const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
+          if (meta?.url || Number.isFinite(meta?.durationSec as number)) {
+            const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+            episodeDetails.value.set(episodeNum, {
+              title: episodeInfo?.title || '',
+              date: episodeInfo?.date || '',
+              url: meta?.url || null,
+              duration: secondsToHmsTuple(meta?.durationSec),
+              speakers: [],
+              chapters: [],
+              _fallback: 'episodes.json',
+            });
+          } else {
+            episodeDetails.value.set(episodeNum, null);
+          }
+        }
+      } catch (e) {
+        console.error(`Failed to load episode ${episodeNum}:`, e);
+        episodeDetails.value.set(episodeNum, null);
+      }
+    }));
+  }
+
+  // Setup lazy loading for remaining episodes
+  await nextTick();
+  episodeNumbers.forEach(episodeNum => {
+    // Skip if already loaded
+    if (episodeDetails.value.has(episodeNum)) return;
+
+    // Find the row element and setup observer
+    const rowElement = document.querySelector(`[data-episode-row="${episodeNum}"]`) as HTMLElement;
+    if (rowElement) {
+      const cleanup = setupLazyLoad(
+        rowElement,
+        episodeNum,
+        async (detail) => {
+          if (detail) {
+            episodeDetails.value.set(episodeNum, detail);
+          } else {
+            // Fallback to MP3 metadata if detail loading failed
+            const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
+            if (meta?.url || Number.isFinite(meta?.durationSec as number)) {
+              const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+              episodeDetails.value.set(episodeNum, {
+                title: episodeInfo?.title || '',
+                date: episodeInfo?.date || '',
+                url: meta?.url || null,
+                duration: secondsToHmsTuple(meta?.durationSec),
+                speakers: [],
+                chapters: [],
+                _fallback: 'episodes.json',
+              });
+            } else {
+              episodeDetails.value.set(episodeNum, null);
+            }
+          }
+        }
+      );
+      observerCleanups.value.set(episodeNum, cleanup);
+    } else {
+      // Element not found, load immediately
+      loadEpisodeDetail(episodeNum).then(detail => {
+        if (detail) {
+          episodeDetails.value.set(episodeNum, detail);
+        } else {
+          // Fallback to MP3 metadata
+          const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
+          if (meta?.url || Number.isFinite(meta?.durationSec as number)) {
+            const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+            episodeDetails.value.set(episodeNum, {
+              title: episodeInfo?.title || '',
+              date: episodeInfo?.date || '',
+              url: meta?.url || null,
+              duration: secondsToHmsTuple(meta?.durationSec),
+              speakers: [],
+              chapters: [],
+              _fallback: 'episodes.json',
+            });
+          } else {
+            episodeDetails.value.set(episodeNum, null);
+          }
+        }
+      });
+    }
+  });
+  
+  loadingEpisodes.value = false;
+}
+
+// Lade Episode-Details für Topics (für Speaker-Informationen) mit lazy loading
 const loadEpisodeDetails = async () => {
   if (!selectedTopicInfo.value || loadingEpisodes.value) return;
   
   loadingEpisodes.value = true;
-  const newDetails = new Map<number, any>();
-  
-  // Lade nur Episoden, die noch nicht geladen sind
-  const toLoad = selectedTopicInfo.value.episodes
-    .map(ep => ep.number)
-    .filter(num => !episodeDetails.value.has(num));
-  
-  // Ensure MP3 index is available so we can fall back to `episodes.json` metadata when
-  // per-episode detail files don't exist (e.g. some podcasts only have episodes.json).
-  await ensureMp3Index();
-
-  for (const episodeNum of toLoad) {
-    try {
-      const response = await fetch(getEpisodeUrl(episodeNum));
-      if (response.ok) {
-        const data = await response.json();
-        newDetails.set(episodeNum, data);
-      } else {
-        console.warn(`Episode ${episodeNum} not found (HTTP ${response.status})`);
-        // Fallback: use MP3 feed index metadata if available
-        const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
-        if (meta?.url || Number.isFinite(meta?.durationSec as number)) {
-          newDetails.set(episodeNum, {
-            title: selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum)?.title || '',
-            date: selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum)?.date || '',
-            url: meta?.url || null,
-            duration: secondsToHmsTuple(meta?.durationSec),
-            speakers: [],
-            chapters: [],
-            _fallback: 'episodes.json',
-          });
-        } else {
-          // Mark as attempted but failed, so we don't try again
-          newDetails.set(episodeNum, null);
-        }
-      }
-    } catch (e) {
-      console.error(`Failed to load episode ${episodeNum}:`, e);
-      const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
-      if (meta?.url || Number.isFinite(meta?.durationSec as number)) {
-        newDetails.set(episodeNum, {
-          title: selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum)?.title || '',
-          date: selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum)?.date || '',
-          url: meta?.url || null,
-          duration: secondsToHmsTuple(meta?.durationSec),
-          speakers: [],
-          chapters: [],
-          _fallback: 'episodes.json',
-        });
-      } else {
-        // Mark as attempted but failed
-        newDetails.set(episodeNum, null);
-      }
-    }
-  }
-  
-  // Merge mit existierenden Details
-  episodeDetails.value = new Map([...episodeDetails.value, ...newDetails]);
-  loadingEpisodes.value = false;
+  const episodeNumbers = selectedTopicInfo.value.episodes.map(ep => ep.number);
+  await setupLazyLoadingForEpisodes(episodeNumbers);
 };
 
 // Lade alle einzelnen Topics aus den Episode-Topics
@@ -800,6 +865,22 @@ watch(showEpisodeList, (newValue) => {
     loadEpisodeDetails();
   }
 });
+
+// Cleanup observers on unmount
+onUnmounted(() => {
+  observerCleanups.value.forEach(cleanup => cleanup());
+  observerCleanups.value.clear();
+});
+
+// When switching podcasts, clear observers
+watch(
+  () => settingsStore.selectedPodcast,
+  () => {
+    observerCleanups.value.forEach(cleanup => cleanup());
+    observerCleanups.value.clear();
+    episodeDetails.value = new Map();
+  }
+);
 
 // Watch für selectedYear - lade zusätzliche Episoden wenn Filter entfernt wird
 watch(selectedYear, () => {
@@ -1052,6 +1133,7 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
                     <tr 
                       v-for="episode in selectedTopicInfo.episodes" 
                       :key="episode.number"
+                      :data-episode-row="episode.number"
                       :class="['border-t', themeColor === 'blue' ? 'border-blue-100 dark:border-blue-800 hover:bg-blue-50 dark:hover:bg-blue-900/20' : 'border-purple-100 dark:border-purple-800 hover:bg-purple-50 dark:hover:bg-purple-900/20']"
                     >
                       <template v-if="episodeDetails.has(episode.number) && episodeDetails.get(episode.number)">

@@ -6,9 +6,6 @@ mod rag;
 mod transcript;
 mod utils;
 
-use std::collections::HashMap;
-use std::sync::Arc;
-
 use anyhow::{Context, Result};
 use axum::{
     http::{header, HeaderName, HeaderValue, Method, StatusCode},
@@ -16,8 +13,9 @@ use axum::{
     routing::post,
     Router,
 };
+use moka::future::Cache;
 use reqwest::Client;
-use tokio::sync::RwLock;
+use std::time::Duration;
 use tower_http::{cors::CorsLayer, trace::TraceLayer};
 use tracing::info;
 use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
@@ -56,17 +54,74 @@ async fn main() -> Result<()> {
         .build()
         .context("Failed to create HTTP client")?;
 
+    // Initialize LRU caches with size limits and TTL
+    // Transcript cache: up to 1000 episodes, 1 hour TTL
+    let transcript_cache = Cache::builder()
+        .max_capacity(1000)
+        .time_to_live(Duration::from_secs(3600))
+        .time_to_idle(Duration::from_secs(1800))
+        .build();
+    
+    // RAG cache: up to 20 podcasts, 1 hour TTL
+    let rag_cache = Cache::builder()
+        .max_capacity(20)
+        .time_to_live(Duration::from_secs(3600))
+        .time_to_idle(Duration::from_secs(1800))
+        .build();
+    
+    // Episode metadata cache: up to 5000 episodes, 1 hour TTL
+    let episode_metadata_cache = Cache::builder()
+        .max_capacity(5000)
+        .time_to_live(Duration::from_secs(3600))
+        .time_to_idle(Duration::from_secs(1800))
+        .build();
+    
+    // Episode list cache: up to 20 podcasts, 30 minutes TTL
+    let episode_list_cache = Cache::builder()
+        .max_capacity(20)
+        .time_to_live(Duration::from_secs(1800))
+        .time_to_idle(Duration::from_secs(900))
+        .build();
+    
+    // Speaker profile cache: up to 500 profiles, 1 hour TTL
+    let speaker_profile_cache = Cache::builder()
+        .max_capacity(500)
+        .time_to_live(Duration::from_secs(3600))
+        .time_to_idle(Duration::from_secs(1800))
+        .build();
+    
+    // Speakers index cache: up to 20 podcasts, 30 minutes TTL
+    let speakers_index_cache = Cache::builder()
+        .max_capacity(20)
+        .time_to_live(Duration::from_secs(1800))
+        .time_to_idle(Duration::from_secs(900))
+        .build();
+    
+    // Speaker meta cache: up to 500 entries, 1 hour TTL
+    let speaker_meta_cache = Cache::builder()
+        .max_capacity(500)
+        .time_to_live(Duration::from_secs(3600))
+        .time_to_idle(Duration::from_secs(1800))
+        .build();
+    
+    // Episode topics map cache: up to 20 podcasts, 1 hour TTL
+    let episode_topics_map_cache = Cache::builder()
+        .max_capacity(20)
+        .time_to_live(Duration::from_secs(3600))
+        .time_to_idle(Duration::from_secs(1800))
+        .build();
+
     let app_state = AppState {
         cfg: cfg.clone(),
         http,
-        transcript_cache: Arc::new(RwLock::new(HashMap::new())),
-        rag_cache: Arc::new(RwLock::new(HashMap::new())),
-        episode_metadata_cache: Arc::new(RwLock::new(HashMap::new())),
-        episode_list_cache: Arc::new(RwLock::new(HashMap::new())),
-        speaker_profile_cache: Arc::new(RwLock::new(HashMap::new())),
-        speakers_index_cache: Arc::new(RwLock::new(HashMap::new())),
-        speaker_meta_cache: Arc::new(RwLock::new(HashMap::new())),
-        episode_topics_map_cache: Arc::new(RwLock::new(HashMap::new())),
+        transcript_cache,
+        rag_cache,
+        episode_metadata_cache,
+        episode_list_cache,
+        speaker_profile_cache,
+        speakers_index_cache,
+        speaker_meta_cache,
+        episode_topics_map_cache,
     };
 
     let app = Router::new()

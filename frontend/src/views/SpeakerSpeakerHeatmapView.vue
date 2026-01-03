@@ -111,6 +111,7 @@
                         <tr 
                           v-for="episodeNum in selectedCell.episodes" 
                           :key="episodeNum"
+                          :data-episode-row="episodeNum"
                           class="border-t border-teal-100 dark:border-teal-800 hover:bg-teal-50 dark:hover:bg-teal-900/50"
                         >
                           <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
@@ -228,13 +229,14 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, computed, watch, reactive } from 'vue';
+import { ref, onMounted, computed, watch, reactive, nextTick, onUnmounted } from 'vue';
 import * as d3 from 'd3';
 import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
-import { getPodcastFileUrl, getSpeakerMetaUrl, getEpisodeUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakerMetaUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
+import { useLazyEpisodeDetails, type EpisodeDetail as EpisodeDetailType, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 
 const settingsStore = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
@@ -267,13 +269,7 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
   });
 };
 
-interface EpisodeDetail {
-  title: string;
-  date: string;
-  duration?: string | number;
-  speakers?: string[];
-  url?: string;
-}
+// EpisodeDetail type is imported from useEpisodeDetails composable
 
 // Speaker metadata with images
 type SpeakerMeta = {
@@ -343,7 +339,12 @@ const selectedCell = ref<{
 const showEpisodeList = ref(false);
 const loadingEpisodes = ref(false);
 
-const episodeDetails = ref<Map<number, EpisodeDetail | null>>(new Map());
+// Use lazy loading composable
+const { setupLazyLoad, preloadVisible } = useLazyEpisodeDetails();
+
+// Local map to track which episodes are loaded (synced with global cache)
+const episodeDetails = ref<Map<number, EpisodeDetailType | null>>(new Map());
+const observerCleanups = ref<Map<number, () => void>>(new Map());
 
 // Filtered data based on slider values
 const filteredData = computed(() => {
@@ -386,41 +387,61 @@ function clearSelection() {
   showEpisodeList.value = false;
 }
 
-async function loadEpisodeDetails(episodeNumbers: number[]) {
-  loadingEpisodes.value = true;
-  
-  for (const num of episodeNumbers) {
-    if (episodeDetails.value.has(num)) continue;
+// Setup lazy loading for episode rows
+async function setupLazyLoadingForEpisodes(episodeNumbers: number[]) {
+  // Clean up existing observers
+  observerCleanups.value.forEach(cleanup => cleanup());
+  observerCleanups.value.clear();
 
-    try {
-      const response = await fetch(getEpisodeUrl(num));
-      if (!response.ok) {
-        episodeDetails.value.set(num, null);
-        continue;
+  // Preload first few visible episodes immediately
+  const visibleCount = Math.min(5, episodeNumbers.length);
+  if (visibleCount > 0) {
+    await preloadVisible(episodeNumbers.slice(0, visibleCount));
+    // Sync with local map
+    episodeNumbers.slice(0, visibleCount).forEach(num => {
+      const cached = getCachedEpisodeDetail(num);
+      if (cached !== undefined) {
+        episodeDetails.value.set(num, cached);
       }
-      const data = await response.json();
-      
-      // Convert duration array [hours, minutes, seconds] to total seconds
-      let durationInSeconds: number | undefined;
-      if (Array.isArray(data.duration) && data.duration.length === 3) {
-        const [hours, minutes, seconds] = data.duration;
-        durationInSeconds = hours * 3600 + minutes * 60 + seconds;
-      }
-      
-      episodeDetails.value.set(num, {
-        title: data.title,
-        date: data.date,
-        url: data.url,
-        speakers: data.speakers,
-        duration: durationInSeconds
-      });
-    } catch (error) {
-      console.error(`Failed to load episode ${num}:`, error);
-      episodeDetails.value.set(num, null);
-    }
+    });
   }
+
+  // Setup lazy loading for remaining episodes
+  await nextTick();
+  episodeNumbers.forEach(episodeNum => {
+    // Check if already cached
+    const cached = getCachedEpisodeDetail(episodeNum);
+    if (cached !== undefined) {
+      episodeDetails.value.set(episodeNum, cached);
+      return;
+    }
+
+    // Find the row element and setup observer
+    const rowElement = document.querySelector(`[data-episode-row="${episodeNum}"]`) as HTMLElement;
+    if (rowElement) {
+      const cleanup = setupLazyLoad(
+        rowElement,
+        episodeNum,
+        (detail) => {
+          episodeDetails.value.set(episodeNum, detail);
+        }
+      );
+      observerCleanups.value.set(episodeNum, cleanup);
+    } else {
+      // Element not found, load immediately
+      loadEpisodeDetail(episodeNum).then(detail => {
+        episodeDetails.value.set(episodeNum, detail);
+      });
+    }
+  });
   
   loadingEpisodes.value = false;
+}
+
+// Legacy function for compatibility (now uses lazy loading)
+async function loadEpisodeDetails(episodeNumbers: number[]) {
+  loadingEpisodes.value = true;
+  await setupLazyLoadingForEpisodes(episodeNumbers);
 }
 
 function formatDate(dateString: string | undefined): string {
@@ -433,15 +454,26 @@ function formatDate(dateString: string | undefined): string {
   });
 }
 
-function formatDuration(duration: string | number | undefined): string {
+function formatDuration(duration: string | number | number[] | undefined): string {
   if (!duration) return 'N/A';
   
   // If it's already a string (formatted), return it
   if (typeof duration === 'string') return duration;
   
-  // If it's a number (seconds), format it
-  const hours = Math.floor(duration / 3600);
-  const minutes = Math.floor((duration % 3600) / 60);
+  // If it's an array [hours, minutes, seconds], convert to seconds first
+  let durationInSeconds: number;
+  if (Array.isArray(duration) && duration.length === 3) {
+    const [h, m, s] = duration;
+    durationInSeconds = (h ?? 0) * 3600 + (m ?? 0) * 60 + (s ?? 0);
+  } else if (typeof duration === 'number') {
+    durationInSeconds = duration;
+  } else {
+    return 'N/A';
+  }
+  
+  // Format as seconds
+  const hours = Math.floor(durationInSeconds / 3600);
+  const minutes = Math.floor((durationInSeconds % 3600) / 60);
   
   if (hours > 0) {
     return `${hours}h ${minutes}m`;
@@ -450,10 +482,16 @@ function formatDuration(duration: string | number | undefined): string {
 }
 
 // Watch for selection changes to load episode details
-watch(selectedCell, (newCell) => {
+watch(selectedCell, async (newCell) => {
   if (newCell && newCell.episodes.length > 0) {
-    loadEpisodeDetails(newCell.episodes);
+    await loadEpisodeDetails(newCell.episodes);
   }
+});
+
+// Cleanup observers on unmount
+onUnmounted(() => {
+  observerCleanups.value.forEach(cleanup => cleanup());
+  observerCleanups.value.clear();
 });
 
 function drawHeatmap() {

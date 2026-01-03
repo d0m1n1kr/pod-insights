@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { ref, onMounted, computed, watch } from 'vue';
+import { ref, onMounted, computed, watch, nextTick, onUnmounted } from 'vue';
 import * as d3 from 'd3';
 import type { SpeakerRiverData, ProcessedSpeakerData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
-import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl, getSpeakerMetaUrl } from '@/composables/usePodcast';
+import { useLazyEpisodeDetails, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 
 const props = defineProps<{
   data: SpeakerRiverData;
@@ -17,11 +18,63 @@ const hoveredSpeaker = ref<string | null>(null);
 const speakerFilter = ref<number>(15);
 const normalizedView = ref<boolean>(false);
 const dimensions = ref({ width: 1200, height: 600 });
-// const tooltipRef = ref<HTMLDivElement | null>(null); // For future tooltip functionality
+const tooltipRef = ref<HTMLDivElement | null>(null);
+const selectedYear = ref<number | null>(null);
+const tooltipData = ref<{ speakerName: string; speakerImage?: string; year: number; x: number; y: number } | null>(null);
 
 // Audio player setup
 const settings = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
+
+// Speaker metadata with images
+type SpeakerMeta = {
+  name: string;
+  slug: string;
+  image?: string;
+};
+const speakersMeta = ref<Map<string, SpeakerMeta>>(new Map());
+
+// Helper to convert speaker name to slug
+function speakerNameToSlug(name: string): string {
+  return name.toLowerCase()
+    .replace(/ä/g, 'ae')
+    .replace(/ö/g, 'oe')
+    .replace(/ü/g, 'ue')
+    .replace(/ß/g, 'ss')
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+}
+
+// Load speaker metadata (for images)
+const loadSpeakerMeta = async (speakerName: string) => {
+  if (speakersMeta.value.has(speakerName)) return;
+  
+  try {
+    const slug = speakerNameToSlug(speakerName);
+    const url = getSpeakerMetaUrl(slug);
+    const res = await fetch(url, { cache: 'force-cache' });
+    if (!res.ok) return; // Silent fail if meta doesn't exist
+    
+    const data = await res.json();
+    if (data && typeof data.name === 'string') {
+      speakersMeta.value.set(speakerName, {
+        name: data.name,
+        slug: data.slug || slug,
+        image: data.image || undefined,
+      });
+    }
+  } catch {
+    // Silent fail
+  }
+};
+
+// Load all speaker metadata
+const loadAllSpeakerMeta = async () => {
+  if (!props.data) return;
+  for (const speaker of props.data.speakers) {
+    await loadSpeakerMeta(speaker.name);
+  }
+};
 
 // MP3 index loading
 const mp3IndexLoaded = ref(false);
@@ -187,17 +240,60 @@ const drawRiver = () => {
       return 0.2;
     })
     .style('cursor', 'pointer')
-    .on('mouseover', function(_event: any, d: any) {
+    .on('mouseover', function(event: any, d: any) {
       hoveredSpeaker.value = d.key;
+      
+      // Get year from mouse position
+      const [mouseX] = d3.pointer(event, g.node());
+      const year = Math.round(xScale.invert(mouseX));
+      
+      // Find speaker name
+      const speaker = speakers.find(s => s.id === d.key);
+      if (speaker) {
+        const meta = speakersMeta.value.get(speaker.name);
+        tooltipData.value = {
+          speakerName: speaker.name,
+          speakerImage: meta?.image,
+          year: year,
+          x: event.clientX,
+          y: event.clientY
+        };
+      }
+    })
+    .on('mousemove', function(event: any, _d: any) {
+      // Update tooltip position
+      if (tooltipData.value) {
+        const [mouseX] = d3.pointer(event, g.node());
+        const year = Math.round(xScale.invert(mouseX));
+        tooltipData.value = {
+          ...tooltipData.value,
+          year: year,
+          x: event.clientX,
+          y: event.clientY
+        };
+      }
     })
     .on('mouseout', function(_event: any, d: any) {
       // Only clear if we're leaving the current hovered item
       if (hoveredSpeaker.value === d.key) {
         hoveredSpeaker.value = null;
+        tooltipData.value = null;
       }
     })
-    .on('click', function(_event: any, d: any) {
+    .on('click', function(event: any, d: any) {
+      // Get year from click position
+      const [mouseX] = d3.pointer(event, g.node());
+      const year = Math.round(xScale.invert(mouseX));
+      
+      // Set selected speaker and year
       selectedSpeaker.value = selectedSpeaker.value === d.key ? null : d.key;
+      if (selectedSpeaker.value) {
+        selectedYear.value = year;
+        showEpisodeList.value = true;
+      } else {
+        selectedYear.value = null;
+        showEpisodeList.value = false;
+      }
     });
   
   // X-Achse
@@ -337,7 +433,9 @@ const formatDuration = (duration: [number, number, number]) => {
 };
 
 // Initial draw und resize listener
-onMounted(() => {
+onMounted(async () => {
+  // Load speaker metadata first
+  await loadAllSpeakerMeta();
   drawRiver();
   
   const resizeObserver = new ResizeObserver(() => {
@@ -361,30 +459,47 @@ const selectedSpeakerInfo = computed(() => {
       ...speaker,
       firstAppearance: null,
       lastAppearance: null,
-      episodeNumbers: []
+      episodeNumbers: [],
+      episodesByYear: [],
+      totalEpisodes: 0,
+      filteredCount: 0
     };
   }
   
-  // Sammle alle Episode-Nummern
-  const episodeNumbers: number[] = [];
+  // Sammle alle Episoden mit Jahr-Informationen
+  const episodesByYear: Array<{ number: number; year: number }> = [];
   fullSpeaker.timeline.forEach(tl => {
-    episodeNumbers.push(...tl.episodes);
+    tl.episodes.forEach(epNum => {
+      episodesByYear.push({ number: epNum, year: tl.year });
+    });
   });
   
   // Sortiere nach Nummer (neueste zuerst)
-  episodeNumbers.sort((a, b) => b - a);
+  episodesByYear.sort((a, b) => b.number - a.number);
+  
+  // Filtere nach ausgewähltem Jahr, falls vorhanden
+  const filteredEpisodes = selectedYear.value 
+    ? episodesByYear.filter(ep => ep.year === selectedYear.value)
+    : episodesByYear;
   
   return {
     ...speaker,
     firstAppearance: fullSpeaker.firstAppearance,
     lastAppearance: fullSpeaker.lastAppearance,
-    episodeNumbers
+    episodeNumbers: filteredEpisodes.map(ep => ep.number),
+    episodesByYear,
+    totalEpisodes: episodesByYear.length,
+    filteredCount: filteredEpisodes.length
   };
 });
 
 const showEpisodeList = ref(false);
 const episodeDetails = ref<Map<number, any>>(new Map());
 const loadingEpisodes = ref(false);
+
+// Use lazy loading composable
+const { setupLazyLoad, preloadVisible } = useLazyEpisodeDetails();
+const observerCleanups = ref<Map<number, () => void>>(new Map());
 
 // Helper function for base URL
 const withBase = (p: string) => {
@@ -442,37 +557,93 @@ const openEpisodeAt = async (episodeNumber: number, seconds: number) => {
   }
 };
 
-// Lade Episode-Details
+// Setup lazy loading for episode rows
+async function setupLazyLoadingForEpisodes(episodeNumbers: number[]) {
+  // Clean up existing observers for episodes that are no longer in the list
+  const currentEpisodeSet = new Set(episodeNumbers);
+  observerCleanups.value.forEach((cleanup, episodeNum) => {
+    if (!currentEpisodeSet.has(episodeNum)) {
+      cleanup();
+      observerCleanups.value.delete(episodeNum);
+    }
+  });
+
+  // Remove episode details that are no longer in the list
+  episodeDetails.value.forEach((_, episodeNum) => {
+    if (!currentEpisodeSet.has(episodeNum)) {
+      episodeDetails.value.delete(episodeNum);
+    }
+  });
+
+  // Preload first few visible episodes immediately
+  const visibleCount = Math.min(5, episodeNumbers.length);
+  if (visibleCount > 0) {
+    const toPreload = episodeNumbers.slice(0, visibleCount).filter(num => !episodeDetails.value.has(num));
+    if (toPreload.length > 0) {
+      await preloadVisible(toPreload);
+      // Sync with local map
+      toPreload.forEach(num => {
+        const cached = getCachedEpisodeDetail(num);
+        if (cached !== undefined) {
+          episodeDetails.value.set(num, cached);
+        }
+      });
+    }
+  }
+
+  // Setup lazy loading for remaining episodes
+  // Wait for DOM to update - use double nextTick to ensure Vue has rendered the list
+  await nextTick();
+  await nextTick();
+  // Also wait for next animation frame to ensure DOM is fully ready
+  await new Promise(resolve => requestAnimationFrame(resolve));
+  
+  episodeNumbers.forEach(episodeNum => {
+    // Skip if already has an observer
+    if (observerCleanups.value.has(episodeNum)) {
+      return;
+    }
+
+    // Check if already loaded in local map
+    if (episodeDetails.value.has(episodeNum)) {
+      return;
+    }
+
+    // Check if already cached in global cache
+    const cached = getCachedEpisodeDetail(episodeNum);
+    if (cached !== undefined) {
+      episodeDetails.value.set(episodeNum, cached);
+      return;
+    }
+
+    // Find the row element and setup observer
+    const rowElement = document.querySelector(`[data-episode-row="${episodeNum}"]`) as HTMLElement;
+    if (rowElement) {
+      const cleanup = setupLazyLoad(
+        rowElement,
+        episodeNum,
+        (detail) => {
+          episodeDetails.value.set(episodeNum, detail);
+        }
+      );
+      observerCleanups.value.set(episodeNum, cleanup);
+    } else {
+      // Element not found, load immediately
+      loadEpisodeDetail(episodeNum).then(detail => {
+        episodeDetails.value.set(episodeNum, detail);
+      });
+    }
+  });
+  
+  loadingEpisodes.value = false;
+}
+
+// Lade Episode-Details mit lazy loading
 const loadEpisodeDetails = async () => {
   if (!selectedSpeakerInfo.value || loadingEpisodes.value) return;
   
   loadingEpisodes.value = true;
-  const newDetails = new Map<number, any>();
-  
-  // Lade nur Episoden, die noch nicht geladen sind
-  const toLoad = selectedSpeakerInfo.value.episodeNumbers.filter(num => !episodeDetails.value.has(num));
-  
-  for (const episodeNum of toLoad) {
-    try {
-      const response = await fetch(getEpisodeUrl(episodeNum));
-      if (response.ok) {
-        const data = await response.json();
-        newDetails.set(episodeNum, data);
-      } else {
-        console.warn(`Episode ${episodeNum} not found (HTTP ${response.status})`);
-        // Markiere als nicht verfügbar mit null
-        newDetails.set(episodeNum, null);
-      }
-    } catch (e) {
-      console.error(`Failed to load episode ${episodeNum}:`, e);
-      // Markiere als nicht verfügbar mit null
-      newDetails.set(episodeNum, null);
-    }
-  }
-  
-  // Merge mit existierenden Details
-  episodeDetails.value = new Map([...episodeDetails.value, ...newDetails]);
-  loadingEpisodes.value = false;
+  await setupLazyLoadingForEpisodes(selectedSpeakerInfo.value.episodeNumbers);
 };
 
 // Watch für showEpisodeList
@@ -480,6 +651,19 @@ watch(showEpisodeList, (newValue) => {
   if (newValue && selectedSpeakerInfo.value) {
     loadEpisodeDetails();
   }
+});
+
+// Watch für selectedYear - lade zusätzliche Episoden wenn Filter entfernt wird
+watch(selectedYear, () => {
+  if (showEpisodeList.value && selectedSpeakerInfo.value) {
+    loadEpisodeDetails();
+  }
+});
+
+// Cleanup observers on unmount
+onUnmounted(() => {
+  observerCleanups.value.forEach(cleanup => cleanup());
+  observerCleanups.value.clear();
 });
 
 // When switching podcasts, clear cached MP3 index and episode details
@@ -491,6 +675,8 @@ watch(
     mp3UrlByEpisode.value = new Map();
     episodeDetails.value = new Map();
     showEpisodeList.value = false;
+    observerCleanups.value.forEach(cleanup => cleanup());
+    observerCleanups.value.clear();
   }
 );
 
@@ -559,12 +745,25 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
                 ({{ selectedSpeakerInfo.firstAppearance }} - {{ selectedSpeakerInfo.lastAppearance }})
               </span>
             </p>
+            
+            <!-- Year Filter Badge -->
+            <div v-if="selectedYear" class="mt-2 inline-flex items-center gap-2 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+              <span>📅 Jahr: {{ selectedYear }}</span>
+              <button 
+                @click="selectedYear = null"
+                class="hover:bg-green-700 rounded-full w-5 h-5 flex items-center justify-center transition-colors"
+                title="Jahr-Filter entfernen"
+              >
+                ✕
+              </button>
+            </div>
+            
             <div class="mt-2">
               <button
                 @click="showEpisodeList = !showEpisodeList"
                 class="text-sm text-green-600 hover:text-green-800 font-semibold underline"
               >
-                {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedSpeakerInfo.episodeNumbers.length} Episoden anzeigen` }}
+                {{ showEpisodeList ? 'Episoden ausblenden' : (selectedYear ? `${selectedSpeakerInfo.filteredCount} von ${selectedSpeakerInfo.totalEpisodes} Episoden anzeigen` : `${selectedSpeakerInfo.episodeNumbers.length} Episoden anzeigen`) }}
               </button>
             </div>
             
@@ -590,6 +789,7 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
                     <tr 
                       v-for="episodeNum in selectedSpeakerInfo.episodeNumbers" 
                       :key="episodeNum"
+                      :data-episode-row="episodeNum"
                       class="border-t border-green-100 hover:bg-green-50"
                     >
                       <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum)">
@@ -661,10 +861,39 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
       <svg ref="svgRef" class="speaker-river-svg"></svg>
     </div>
     
+    <!-- Tooltip -->
+    <div
+      v-if="tooltipData"
+      ref="tooltipRef"
+      class="fixed z-50 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg p-3 pointer-events-none"
+      :style="{
+        left: `${tooltipData.x + 10}px`,
+        top: `${tooltipData.y - 10}px`,
+        transform: 'translateY(-100%)'
+      }"
+    >
+      <div class="flex items-center gap-3">
+        <img
+          v-if="tooltipData.speakerImage"
+          :src="tooltipData.speakerImage"
+          :alt="tooltipData.speakerName"
+          class="w-12 h-12 rounded-full border-2 border-green-500 object-cover"
+        />
+        <div v-else class="w-12 h-12 rounded-full border-2 border-green-500 bg-gray-200 dark:bg-gray-700 flex items-center justify-center text-green-600 dark:text-green-400 font-semibold text-lg">
+          {{ tooltipData.speakerName.charAt(0).toUpperCase() }}
+        </div>
+        <div>
+          <div class="font-semibold text-gray-900 dark:text-gray-100">{{ tooltipData.speakerName }}</div>
+          <div class="text-sm text-gray-600 dark:text-gray-400">Jahr: {{ tooltipData.year }}</div>
+        </div>
+      </div>
+      <div class="mt-2 text-xs text-gray-500 dark:text-gray-400 italic">Klicken zum Filtern</div>
+    </div>
+    
     <div class="mt-6 text-sm text-gray-600">
       <p>
         <strong>Interaktion:</strong> Bewege die Maus über einen Stream oder die Legende, um den Speaker hervorzuheben. 
-        Klicke, um Details anzuzeigen.
+        Klicke, um Details anzuzeigen. Klicke auf einen Stream, um Episoden nach Jahr zu filtern.
       </p>
     </div>
   </div>

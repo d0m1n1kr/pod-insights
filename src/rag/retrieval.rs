@@ -56,9 +56,61 @@ impl RagIndex {
     pub fn load(path: &PathBuf) -> Result<Self> {
         let bytes =
             std::fs::read(path).with_context(|| format!("Failed to read {}", path.display()))?;
-        let db: RagDb = serde_json::from_slice(&bytes)
+        Self::load_from_bytes(&bytes)
+            .with_context(|| format!("Failed to parse JSON {}", path.display()))
+    }
+
+    pub fn load_from_bytes(bytes: &[u8]) -> Result<Self> {
+        use serde_json::Deserializer;
+        use std::io::{BufReader, Cursor};
+
+        // Use streaming deserializer with a reader for better memory efficiency
+        // This allows the deserializer to read incrementally instead of loading everything
+        let reader = BufReader::new(Cursor::new(bytes));
+        let mut deserializer = Deserializer::from_reader(reader);
+        
+        // Deserialize the outer structure
+        // The Deserializer will read incrementally from the reader
+        let db: RagDb = serde::Deserialize::deserialize(&mut deserializer)
+            .with_context(|| "Failed to parse JSON")?;
+
+        // Calculate norms while processing (reduces memory pressure)
+        let mut norms = Vec::with_capacity(db.items.len());
+        let mut has_embeddings = true;
+        for it in &db.items {
+            if let Some(v) = &it.embedding {
+                norms.push(l2_norm(v));
+            } else {
+                norms.push(0.0);
+                has_embeddings = false;
+            }
+        }
+
+        Ok(Self {
+            items: db.items,
+            norms,
+            has_embeddings,
+        })
+    }
+    
+    /// Load from a file path using streaming deserialization
+    /// This is more memory-efficient for large files as it reads incrementally
+    pub fn load_from_path(path: &PathBuf) -> Result<Self> {
+        use serde_json::Deserializer;
+        use std::fs::File;
+        use std::io::BufReader;
+
+        // Open file and create a buffered reader for streaming
+        let file = File::open(path)
+            .with_context(|| format!("Failed to open {}", path.display()))?;
+        let reader = BufReader::new(file);
+        let mut deserializer = Deserializer::from_reader(reader);
+        
+        // Deserialize incrementally - the reader will fetch data as needed
+        let db: RagDb = serde::Deserialize::deserialize(&mut deserializer)
             .with_context(|| format!("Failed to parse JSON {}", path.display()))?;
 
+        // Calculate norms while processing
         let mut norms = Vec::with_capacity(db.items.len());
         let mut has_embeddings = true;
         for it in &db.items {

@@ -1,4 +1,4 @@
-use std::{io, path::PathBuf, sync::Arc};
+use std::{path::PathBuf, sync::Arc};
 
 use anyhow::{Context, Result};
 use serde::Deserialize;
@@ -25,35 +25,46 @@ pub async fn load_transcript_entries(
     episode_number: u32,
 ) -> Result<Arc<Vec<TranscriptEntry>>> {
     let cache_key = (podcast_id.to_string(), episode_number);
-    // Fast path from cache
-    {
-        let cache = st.transcript_cache.read().await;
-        if let Some(v) = cache.get(&cache_key) {
-            return Ok(v.clone());
-        }
+    // Fast path from cache (moka handles TTL and LRU automatically)
+    if let Some(v) = st.transcript_cache.get(&cache_key).await {
+        return Ok(v);
     }
 
     let fname = format!("{episode_number}-ts.json");
     let path = episodes_dir.join(fname);
-    let bytes = match std::fs::read(&path) {
-        Ok(b) => b,
-        Err(e) if e.kind() == io::ErrorKind::NotFound => {
-            tracing::warn!("Transcript not found: {}", path.display());
-            let arc = Arc::new(Vec::new());
-            let mut cache = st.transcript_cache.write().await;
-            cache.insert(cache_key, arc.clone());
-            return Ok(arc);
-        }
+    
+    // Use streaming deserialization - open file directly in blocking task
+    let path_clone = path.clone();
+    let tf: TranscriptFile = match tokio::task::spawn_blocking(move || {
+        use serde_json::Deserializer;
+        use std::fs::File;
+        use std::io::BufReader;
+        
+        let file = File::open(&path_clone)
+            .with_context(|| format!("Failed to open {}", path_clone.display()))?;
+        let reader = BufReader::new(file);
+        let mut deserializer = Deserializer::from_reader(reader);
+        serde::Deserialize::deserialize(&mut deserializer)
+            .with_context(|| format!("Failed to parse {}", path_clone.display()))
+    }).await
+        .with_context(|| "Failed to spawn blocking task")?
+    {
+        Ok(tf) => tf,
         Err(e) => {
-            return Err(anyhow::anyhow!(e).context(format!("Failed to read transcript {}", path.display())));
+            // Check if it's a "file not found" error
+            let error_msg = format!("{}", e);
+            if error_msg.contains("No such file") || error_msg.contains("not found") {
+                tracing::warn!("Transcript not found: {}", path.display());
+                let arc = Arc::new(Vec::new());
+                st.transcript_cache.insert(cache_key, arc.clone()).await;
+                return Ok(arc);
+            }
+            return Err(e.context(format!("Failed to parse transcript {}", path.display())));
         }
     };
-    let tf: TranscriptFile = serde_json::from_slice(&bytes)
-        .with_context(|| format!("Failed to parse {}", path.display()))?;
 
     let arc = Arc::new(tf.transcript);
-    let mut cache = st.transcript_cache.write().await;
-    cache.insert(cache_key, arc.clone());
+    st.transcript_cache.insert(cache_key, arc.clone()).await;
     Ok(arc)
 }
 
