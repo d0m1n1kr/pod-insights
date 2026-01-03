@@ -6,6 +6,7 @@ import { useSettingsStore } from '@/stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
 import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
 import SpeakingTimeFlowChart from '@/components/SpeakingTimeFlowChart.vue';
+import SpeakerBoxPlot from '@/components/SpeakerBoxPlot.vue';
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
 
 const route = useRoute();
@@ -693,21 +694,8 @@ const formatTime = (sec: number): string => {
                 ? 'border-blue-500 text-blue-600 dark:text-blue-400'
                 : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
             ]"
-            disabled
           >
-            {{ t('episodes.stats.boxplot') }} ({{ t('episodes.comingSoon') }})
-          </button>
-          <button
-            @click="activeStat = 'monologue'"
-            :class="[
-              'px-4 py-3 text-sm font-semibold border-b-2 transition-colors whitespace-nowrap',
-              activeStat === 'monologue'
-                ? 'border-blue-500 text-blue-600 dark:text-blue-400'
-                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
-            ]"
-            disabled
-          >
-            {{ t('episodes.stats.monologue') }} ({{ t('episodes.comingSoon') }})
+            {{ t('episodes.stats.boxplot') }}
           </button>
         </div>
       </div>
@@ -720,7 +708,15 @@ const formatTime = (sec: number): string => {
           :episode-number="selectedEpisode?.number"
           @play-at-time="handlePlayAtTime"
         />
-        
+      </div>
+
+      <div v-else-if="speakerStats && activeStat === 'boxplot'" class="p-4 md:p-6">
+        <SpeakerBoxPlot 
+          :data="speakerStats"
+          :episode-topics="episodeTopics"
+          :episode-number="selectedEpisode?.number"
+          @play-at-time="handlePlayAtTime"
+        />
       </div>
 
       <div v-else-if="statsLoading" class="p-8 text-center">
