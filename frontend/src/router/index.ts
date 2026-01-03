@@ -24,8 +24,8 @@ const router = createRouter({
       component: TopicsView
     },
     {
-      path: '/episodes',
-      name: 'episodes',
+      path: '/episode-search',
+      name: 'episodeSearch',
       component: EpisodeView
     },
     {

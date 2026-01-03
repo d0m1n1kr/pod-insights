@@ -73,7 +73,7 @@ const activeView = computed(() => {
     | 'cluster-cluster-heatmap'
     | 'duration-heatmap'
     | 'search'
-    | 'episodes'
+    | 'episodeSearch'
     | 'umap'
     | 'about';
 });
@@ -119,7 +119,7 @@ const submitEpisodeSearch = async () => {
   const q = searchText.value.trim();
   if (!q) return;
   await router.push({ 
-    name: 'episodes', 
+    name: 'episodeSearch', 
     query: { 
       ...route.query,
       q 
@@ -277,10 +277,10 @@ const submitAIChat = async () => {
         <div class="mt-4 md:mt-6 -mx-4 px-4 overflow-x-auto border-b border-gray-200 dark:border-gray-700">
           <div class="flex gap-1 sm:gap-2 min-w-max">
             <router-link
-              to="/episodes"
+              to="/episode-search"
               :class="[
                 'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap',
-                activeView === 'episodes' 
+                activeView === 'episodeSearch' 
                   ? 'border-purple-500 text-purple-600 dark:text-purple-400' 
                   : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
               ]"

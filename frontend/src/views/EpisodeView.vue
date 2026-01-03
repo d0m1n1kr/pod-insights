@@ -276,7 +276,7 @@ const handleScroll = (event: Event) => {
 const selectEpisode = async (episode: EpisodeSearchResult) => {
   // Update URL with episode number and preserve podcast parameter
   await router.push({ 
-    name: 'episodes', 
+    name: 'episodeSearch', 
     query: { 
       ...route.query,
       podcast: settings.selectedPodcast || 'freakshow',
