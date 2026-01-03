@@ -288,6 +288,18 @@
       "multilingual": {
         "title": "Multilingual UI",
         "description": "German, English, and French interface"
+      },
+      "episodeSearch": {
+        "title": "Episode Search",
+        "description": "Semantic search for episodes with direct playback links to relevant positions"
+      },
+      "speakerStats": {
+        "title": "Speaker Statistics",
+        "description": "Detailed analysis of speaking time, monologues, and time distribution per episode"
+      },
+      "globalPlayer": {
+        "title": "Global Seamless Player",
+        "description": "Persistent audio player across all pages with small and large states"
       }
     },
     "footer": {

@@ -288,6 +288,18 @@
       "multilingual": {
         "title": "Mehrsprachige UI",
         "description": "Oberfläche auf Deutsch, Englisch und Französisch"
+      },
+      "episodeSearch": {
+        "title": "Episode-Suche",
+        "description": "Semantische Suche nach Episoden mit direkten Playback-Links zu relevanten Stellen"
+      },
+      "speakerStats": {
+        "title": "Sprecher-Statistiken",
+        "description": "Detaillierte Analyse der Sprechanteile, Monologe und Zeitverteilung pro Episode"
+      },
+      "globalPlayer": {
+        "title": "Globaler nahtloser Player",
+        "description": "Persistenter Audio-Player über alle Seiten hinweg mit kleinem und großem Zustand"
       }
     },
     "footer": {

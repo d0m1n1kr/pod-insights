@@ -288,6 +288,18 @@
       "multilingual": {
         "title": "Interface multilingue",
         "description": "Interface en allemand, anglais et français"
+      },
+      "episodeSearch": {
+        "title": "Recherche d'épisodes",
+        "description": "Recherche sémantique d'épisodes avec liens de lecture directs vers les positions pertinentes"
+      },
+      "speakerStats": {
+        "title": "Statistiques des intervenants",
+        "description": "Analyse détaillée du temps de parole, des monologues et de la distribution temporelle par épisode"
+      },
+      "globalPlayer": {
+        "title": "Lecteur global transparent",
+        "description": "Lecteur audio persistant sur toutes les pages avec états petit et grand"
       }
     },
     "footer": {

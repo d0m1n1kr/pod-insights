@@ -8,6 +8,29 @@ A comprehensive tool suite for scraping, analyzing, and visualizing podcast arch
 
 ## Features
 
+### Episode Search & Discovery
+- ✅ **Semantic Episode Search**: AI-powered search to find episodes by content, not just keywords
+- ✅ **Direct Playback Links**: Multiple play buttons per search result linking to relevant positions in episodes
+- ✅ **Latest Episodes**: Automatically shows the 10 most recent episodes when no search query is provided
+- ✅ **Infinite Scroll**: Paginated results with seamless loading of more episodes
+- ✅ **Episode Details**: Comprehensive episode information including speakers, topics, and descriptions
+- ✅ **Episode Images**: Visual episode covers displayed throughout the interface
+
+### Speaker Statistics & Analysis
+- ✅ **Speaking Time Analysis**: Detailed breakdown of speaking time per speaker per episode
+- ✅ **Flow Charts**: Visual representation of speaking time distribution over episode duration
+- ✅ **Monologue Analysis**: Longest and shortest speaking segments per speaker
+- ✅ **Box Plot Visualizations**: Statistical distribution of speaking patterns
+- ✅ **Speaker Profiles**: Rich speaker metadata with images and descriptions
+
+### Global Audio Player
+- ✅ **Persistent Player**: Audio playback continues seamlessly across all pages and views
+- ✅ **Dual States**: Compact small state and expanded large state with transcript display
+- ✅ **Live Transcript**: Real-time transcript display synchronized with audio playback
+- ✅ **Speaker Identification**: Current speaker highlighted with profile images
+- ✅ **Episode Links**: Clickable episode titles linking to episode detail pages
+- ✅ **State Persistence**: Player size preference saved across sessions
+
 ### Multi-Podcast Support
 - ✅ **Podcast-Auswahl**: Dropdown zur Auswahl zwischen mehreren Podcasts
 - ✅ **Podcast-spezifische Daten**: Alle Daten werden pro Podcast organisiert
@@ -46,6 +69,9 @@ A comprehensive tool suite for scraping, analyzing, and visualizing podcast arch
   - Speaker × Speaker co-occurrence (legacy)
 - ✅ **Duration Analysis**: Episode length patterns by year/day of week
 - ✅ **Variant Info Panel**: Displays details about the active clustering configuration
+- ✅ **Episode Search**: Semantic search for episodes with direct playback links to relevant positions
+- ✅ **Speaker Statistics**: Detailed analysis of speaking time, monologues, and time distribution per episode
+- ✅ **Global Seamless Player**: Persistent audio player across all pages with small and large states
 - ✅ Multilingual interface (German, English, French)
 - ✅ Dark mode support with persistent settings
 
