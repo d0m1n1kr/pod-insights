@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ref, watch, onMounted, onBeforeUnmount, computed, nextTick } from 'vue';
+import { useSettingsStore } from '@/stores/settings';
 import { getEpisodeImageUrl } from '@/composables/usePodcast';
+
+const settings = useSettingsStore();
 
 const props = defineProps<{
   src: string;
@@ -47,6 +50,19 @@ const episodeNumber = computed(() => {
 const episodeImageUrl = computed(() => {
   if (episodeNumber.value) {
     return getEpisodeImageUrl(episodeNumber.value);
+  }
+  return null;
+});
+
+const episodeLink = computed(() => {
+  if (episodeNumber.value) {
+    return {
+      name: 'episodeSearch',
+      query: {
+        episode: episodeNumber.value.toString(),
+        podcast: settings.selectedPodcast || 'freakshow'
+      }
+    };
   }
   return null;
 });
@@ -453,7 +469,14 @@ watch(() => currentSpoken.value?.speaker, async (speakerName) => {
         
         <div class="min-w-0 flex-1">
           <div class="text-xs font-semibold text-gray-900 dark:text-white truncate">
-            {{ title || 'Audio' }}
+            <router-link
+              v-if="episodeLink"
+              :to="episodeLink"
+              class="hover:underline"
+            >
+              {{ title || 'Audio' }}
+            </router-link>
+            <span v-else>{{ title || 'Audio' }}</span>
           </div>
           <div class="text-[10px] text-gray-500 dark:text-gray-400 flex items-center gap-2">
             <span class="font-mono">{{ timeLabel }}</span>
@@ -507,7 +530,14 @@ watch(() => currentSpoken.value?.speaker, async (speakerName) => {
       />
       <div class="min-w-0 flex-1">
         <div class="text-sm font-semibold text-gray-900 dark:text-white truncate">
-          {{ title || 'Audio' }}
+          <router-link
+            v-if="episodeLink"
+            :to="episodeLink"
+            class="hover:underline"
+          >
+            {{ title || 'Audio' }}
+          </router-link>
+          <span v-else>{{ title || 'Audio' }}</span>
           <span v-if="subtitle" class="font-normal text-gray-600 dark:text-gray-300">— {{ subtitle }}</span>
         </div>
         <div class="text-xs text-gray-500 dark:text-gray-400 flex items-center gap-2">
@@ -559,7 +589,7 @@ watch(() => currentSpoken.value?.speaker, async (speakerName) => {
                 @ {{ formatHms(currentSpoken.startSec) }}
               </span>
             </div>
-            <div class="mt-0.5 text-sm leading-snug text-gray-900 dark:text-gray-100 max-h-24 overflow-auto whitespace-pre-wrap">
+            <div class="mt-0.5 text-sm text-gray-900 dark:text-gray-100 overflow-y-auto overflow-x-hidden whitespace-pre-wrap" style="max-height: 3.375rem; min-height: 1.125rem; line-height: 1.125rem;">
               {{ currentSpoken.text }}
             </div>
           </div>
