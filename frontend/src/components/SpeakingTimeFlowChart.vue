@@ -504,7 +504,8 @@ const drawChart = () => {
   // We'll add it after creating all paths
 
   // Store speaker paths for highlighting
-  const speakerPaths = new Map<string, d3.Selection<SVGPathElement, unknown, null, undefined>>();
+  type SpeakerPathData = { x: number; y0: number; y1: number };
+  const speakerPaths = new Map<string, d3.Selection<SVGPathElement, SpeakerPathData[], null, undefined>>();
   
   // Create areas for each speaker
   for (const speaker of speakers) {
@@ -523,7 +524,7 @@ const drawChart = () => {
       .attr('class', `speaker-path speaker-${speaker.replace(/\s+/g, '-').toLowerCase()}`)
       .attr('data-speaker', speaker)
       .attr('d', d3
-        .area<{ x: number; y0: number; y1: number }>()
+        .area<SpeakerPathData>()
         .x((d) => xScale(d.x))
         .y0((d) => yScale(d.y0))
         .y1((d) => yScale(d.y1))
