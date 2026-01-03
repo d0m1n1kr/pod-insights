@@ -49,18 +49,36 @@ const episodeNumber = computed(() => {
 
 const episodeImageUrl = computed(() => {
   if (episodeNumber.value) {
-    return getEpisodeImageUrl(episodeNumber.value);
+    // Extract podcast name from transcriptSrc URL (e.g., "/podcasts/freakshow/episodes/123-ts-live.json" -> "freakshow")
+    let podcastName: string | undefined;
+    if (props.transcriptSrc) {
+      const match = props.transcriptSrc.match(/\/podcasts\/([^\/]+)\//);
+      if (match && match[1]) {
+        podcastName = match[1];
+      }
+    }
+
+    return getEpisodeImageUrl(episodeNumber.value, podcastName);
   }
   return null;
 });
 
 const episodeLink = computed(() => {
   if (episodeNumber.value) {
+    // Extract podcast name from transcriptSrc URL (e.g., "/podcasts/freakshow/episodes/123-ts-live.json" -> "freakshow")
+    let podcastName = settings.selectedPodcast || 'freakshow';
+    if (props.transcriptSrc) {
+      const match = props.transcriptSrc.match(/\/podcasts\/([^\/]+)\//);
+      if (match && match[1]) {
+        podcastName = match[1];
+      }
+    }
+
     return {
       name: 'episodeSearch',
       query: {
         episode: episodeNumber.value.toString(),
-        podcast: settings.selectedPodcast || 'freakshow'
+        podcast: podcastName
       }
     };
   }

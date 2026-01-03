@@ -7,6 +7,7 @@ import { useAudioPlayerStore } from '@/stores/audioPlayer';
 import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
 import SpeakingTimeFlowChart from '@/components/SpeakingTimeFlowChart.vue';
 import SpeakerBoxPlot from '@/components/SpeakerBoxPlot.vue';
+import SpeakerScatterPlot from '@/components/SpeakerScatterPlot.vue';
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
 
 const route = useRoute();
@@ -94,7 +95,7 @@ const currentOffset = ref(0);
 const currentQuery = ref('');
 const speakerStats = ref<SpeakerStats | null>(null);
 const episodeTopics = ref<EpisodeTopics | null>(null);
-const activeStat = ref<'flow' | 'boxplot' | 'monologue'>('flow');
+const activeStat = ref<'flow' | 'boxplot' | 'scatter'>('flow');
 const statsLoading = ref(false);
 
 // Audio player
@@ -408,6 +409,30 @@ watch(
   { immediate: true }
 );
 
+// Watch for podcast changes and reset search
+watch(
+  () => settings.selectedPodcast,
+  async (newPodcast, oldPodcast) => {
+    if (newPodcast && newPodcast !== oldPodcast) {
+      // Clear search query and results
+      searchQuery.value = '';
+      searchResults.value = [];
+      currentQuery.value = '';
+      currentOffset.value = 0;
+      hasMore.value = false;
+
+      // Clear selected episode and related data
+      selectedEpisode.value = null;
+      speakerStats.value = null;
+      episodeTopics.value = null;
+
+      // Load latest episodes for the new podcast
+      await loadLatestEpisodes(false);
+    }
+  },
+  { immediate: false } // Don't run on initial mount to avoid double loading
+);
+
 const withBase = (p: string) => {
   const base = (import.meta as any)?.env?.BASE_URL || '/';
   const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
@@ -697,6 +722,17 @@ const formatTime = (sec: number): string => {
           >
             {{ t('episodes.stats.boxplot') }}
           </button>
+          <button
+            @click="activeStat = 'scatter'"
+            :class="[
+              'px-4 py-3 text-sm font-semibold border-b-2 transition-colors whitespace-nowrap',
+              activeStat === 'scatter'
+                ? 'border-blue-500 text-blue-600 dark:text-blue-400'
+                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
+            ]"
+          >
+            {{ t('episodes.stats.scatter') }}
+          </button>
         </div>
       </div>
 
@@ -711,7 +747,16 @@ const formatTime = (sec: number): string => {
       </div>
 
       <div v-else-if="speakerStats && activeStat === 'boxplot'" class="p-4 md:p-6">
-        <SpeakerBoxPlot 
+        <SpeakerBoxPlot
+          :data="speakerStats"
+          :episode-topics="episodeTopics"
+          :episode-number="selectedEpisode?.number"
+          @play-at-time="handlePlayAtTime"
+        />
+      </div>
+
+      <div v-else-if="speakerStats && activeStat === 'scatter'" class="p-4 md:p-6">
+        <SpeakerScatterPlot
           :data="speakerStats"
           :episode-topics="episodeTopics"
           :episode-number="selectedEpisode?.number"
