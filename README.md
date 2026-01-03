@@ -156,7 +156,7 @@ For a complete automated processing of a podcast, you can use the `process-podca
 
 ## Step-by-Step Guide
 
-If you prefer to run individual steps manually or need more control over the process:
+If you prefer to run individual steps manually or need more control over the process, you can follow these 6 phases. Each script accepts a `--podcast <id>` parameter for multi-podcast support.
 
 ### Phase 1: Data Collection
 
@@ -164,10 +164,10 @@ If you prefer to run individual steps manually or need more control over the pro
 Extract basic metadata for all episodes:
 
 ```bash
-npm run scrape
+node scripts/scrape.js --podcast freakshow
 ```
 
-**Output:** `episodes/1.json`, `episodes/2.json`, ... (300 files)
+**Output:** `podcasts/freakshow/episodes/1.json`, `podcasts/freakshow/episodes/2.json`, ... (300+ files)
 
 **Time:** ~5 minutes
 
@@ -175,43 +175,65 @@ npm run scrape
 Extract transcripts, shownotes, and descriptions:
 
 ```bash
-npm run scrape-details
+node scripts/scrape-details.js --podcast freakshow --all
 ```
 
-**Output:** 
-- Transcripts: `episodes/1-ts.json`, `episodes/2-ts.json`, ...
-- Shownotes: `episodes/1-sn.json`, `episodes/2-sn.json`, ...
-- Descriptions: `episodes/1-text.html`, `episodes/2-text.html`, ...
+**Output:**
+- Transcripts: `podcasts/freakshow/episodes/1-ts.json`, `podcasts/freakshow/episodes/2-ts.json`, ...
+- Shownotes: `podcasts/freakshow/episodes/1-sn.json`, `podcasts/freakshow/episodes/2-sn.json`, ...
+- Descriptions: `podcasts/freakshow/episodes/1-text.html`, `podcasts/freakshow/episodes/2-text.html`, ...
 
 **Time:** ~30-60 minutes (concurrent processing, 3 episodes at a time)
 
-#### 3. Scrape Legacy Shownotes (Episodes 89-190)
-Extract OSF-format shownotes for older episodes:
+#### 3. Scrape Speakers
+Extract speaker information and profiles:
 
 ```bash
-npm run scrape-osf
+node scripts/scrape-speakers.js --podcast freakshow
 ```
 
-**Output:** `episodes/89-osf.json`, ..., `episodes/190-osf.json`
+**Output:** Speaker data in `podcasts/freakshow/speakers/`
+
+**Time:** ~2 minutes
+
+#### 4. Scrape Chapters
+Extract episode chapters:
+
+```bash
+node scripts/scrape-chapters.js --podcast freakshow --all
+```
+
+**Output:** `podcasts/freakshow/episodes/1-chapters.json`, ...
+
+**Time:** ~5 minutes
+
+#### 5. Scrape Legacy Shownotes (Optional)
+Extract OSF-format shownotes for older episodes (if applicable):
+
+```bash
+node scripts/scrape-osf.js --podcast freakshow
+```
+
+**Output:** `podcasts/freakshow/episodes/89-osf.json`, ...
 
 **Time:** ~15 minutes
 
-**Total Data:** 959 files (~100MB)
+**Total Data:** 1000+ files organized by podcast
 
 ### Phase 2: Topic Extraction & Analysis
 
-#### 4. Extract Topics with LLM
+#### 6. Extract Topics with LLM
 Identify main topics from episode transcripts:
 
 ```bash
 # Test with a single episode first
-npm run extract-topics 296
+node scripts/extract-topics.js --podcast freakshow 296
 
 # Process all episodes
-npm run extract-topics -- --all
+node scripts/extract-topics.js --podcast freakshow --all
 ```
 
-**Output:** `episodes/1-topics.json`, `episodes/2-topics.json`, ...
+**Output:** `podcasts/freakshow/episodes/1-topics.json`, `podcasts/freakshow/episodes/2-topics.json`, ...
 
 **Time:** ~2-4 hours for all episodes
 
@@ -233,199 +255,188 @@ npm run extract-topics -- --all
 }
 ```
 
-#### 5. Normalize Topics
+#### 7. Normalize Topics
 Clean up and standardize extracted topics:
 
 ```bash
-npm run normalize-topics
+node scripts/normalize-topics.js --podcast freakshow
 ```
 
 **Output:** Updates topic files in place
 
 **Time:** ~30 seconds
 
-#### 6. Create Embeddings
+#### 8. Generate Extended Topics (for RAG)
+Create additional topic data for better AI search:
+
+```bash
+node scripts/generate-extended-topics.js --podcast freakshow --all
+```
+
+**Output:** Extended topic data for RAG database
+
+**Time:** ~10 minutes
+
+#### 9. Create Embeddings
 Generate semantic embeddings for all topics:
 
 ```bash
-npm run create-embeddings
+node scripts/create-embeddings.js --podcast freakshow
 ```
 
-**Output:** `db/topic-embeddings.json` (~500MB)
+**Output:** `db/freakshow/topic-embeddings.json` (~500MB per podcast)
 
 **Time:** ~10-15 minutes
 
 **Cost:** ~$2-3 (OpenAI text-embedding-3-large)
 
-#### 7. Cluster Topics with Variants
+### Phase 3: Clustering
 
-The project now supports multiple clustering variants with different algorithms and parameters. This allows you to experiment with different clustering approaches and compare results.
-
-**Available Clustering Methods:**
-
-- **V1 (Hierarchical Agglomerative Clustering)**: Traditional HAC with fixed number of clusters
-- **V2 (HDBSCAN)**: Density-based clustering with automatic cluster detection and dimensionality reduction
-
-**Configure Variants:**
-
-Edit `variants.json` to define different clustering configurations:
-
-```json
-{
-  "variants": {
-    "default-v1": {
-      "name": "Standard (V1, 256 Cluster)",
-      "version": "v1",
-      "settings": {
-        "clusters": 256,
-        "linkageMethod": "weighted"
-      }
-    },
-    "auto-v2": {
-      "name": "Automatisch (V2, HDBSCAN)",
-      "version": "v2",
-      "settings": {
-        "minClusterSize": 5,
-        "minSamples": 3,
-        "reducedDimensions": 50
-      }
-    }
-  }
-}
-```
-
-**Build a Variant:**
+#### 10. Build Clustering Variant
+Create topic clusters using V2 HDBSCAN (recommended):
 
 ```bash
-# Build with V1 (HAC) - 256 fixed clusters
-./scripts/build-variant.sh v1 default-v1
+# Build the standard auto-v2.1 variant
+./scripts/build-variant.sh v2 auto-v2.1 --podcast freakshow
 
-# Build with V2 (HDBSCAN) - automatic cluster detection
-./scripts/build-variant.sh v2 auto-v2
-
-# Build with custom settings
-./scripts/build-variant.sh v1 coarse-v1   # 128 clusters
-./scripts/build-variant.sh v1 fine-v1     # 512 clusters
+# Alternative: V1 with fixed clusters
+./scripts/build-variant.sh v1 default-v1 --podcast freakshow
 ```
+
+**Available Variants:**
+- **auto-v2.1**: HDBSCAN with automatic cluster detection (recommended)
+- **default-v1**: HAC with 256 fixed clusters
+- **coarse-v1/fine-v1**: Different cluster granularities
 
 **What it does:**
 1. Reads configuration from `variants.json`
-2. Creates temporary `settings.json` with variant-specific parameters
-3. Runs the appropriate clustering binary (V1 or V2)
-4. Generates all visualization data files
-5. Moves output to `frontend/public/topics/<variant-name>/`
-6. Updates `frontend/public/topics/manifest.json`
+2. Runs appropriate clustering algorithm (Rust)
+3. Generates taxonomy, river charts, UMAP, and heatmaps
+4. Moves output to `frontend/public/podcasts/freakshow/topics/auto-v2.1/`
 
-**Output Structure:**
-```
-frontend/public/topics/
-├── manifest.json              # Available variants
-├── default-v1/               # V1 variant with 256 clusters
-│   ├── topic-taxonomy.json
-│   ├── topic-river-data.json
-│   ├── topic-umap-data.json
-│   ├── cluster-cluster-heatmap.json
-│   └── speaker-cluster-heatmap.json
-└── auto-v2/                  # V2 variant with auto-detected clusters
-    ├── topic-taxonomy.json
-    ├── topic-river-data.json
-    └── ...
-```
-
-**Comparing Variants:**
-
-The frontend allows you to switch between variants using a dropdown selector. All visualizations will automatically reload with the selected variant's data.
-
-**Time:** 
+**Time:**
+- V2: ~60-90 seconds + LLM naming (~2 minutes)
 - V1: ~20-30 seconds + LLM naming (~2 minutes)
-- V2: ~60-90 seconds (includes dimensionality reduction) + LLM naming (~2 minutes)
 
 **Cost:** ~$0.50 per variant for LLM-based cluster naming
 
-**Rebuild all variants:**
+### Phase 4: Generate Visualizations
+
+#### 11. Generate Speaker River Data
+Create speaker participation timeline:
+
 ```bash
-# Build all variants defined in variants.json
-for variant in default-v1 coarse-v1 fine-v1 auto-v2; do
-  version=$(jq -r ".variants.\"$variant\".version" variants.json)
-  ./scripts/build-variant.sh "$version" "$variant"
-done
+node scripts/generate-speaker-river.js --podcast freakshow
 ```
 
-#### 8. Create Category Groups (Legacy)
-Group 256 clusters into high-level categories:
+**Output:** `speaker-river-data.json`
+
+**Time:** ~30 seconds
+
+#### 12. Generate Speaker-Speaker Heatmap
+Analyze speaker co-occurrence patterns:
 
 ```bash
-npm run cluster-categories
+node scripts/generate-speaker-speaker-heatmap.js --podcast freakshow
 ```
 
-**Output:** `topic-categories.json` (12 categories)
+**Output:** `speaker-speaker-heatmap.json`
 
-**Time:** ~40 seconds
+**Time:** ~10 seconds
 
-**Cost:** ~$0.10
-
-### Phase 3: Generate Visualizations
-
-#### 9. Generate All Data Files
-
-Run all generation scripts to create visualization data:
+#### 13. Generate Duration Heatmaps
+Analyze episode length patterns:
 
 ```bash
-# River charts
-npm run topic-river          # Topic evolution over time
-npm run category-river       # Category overview
-npm run generate-speaker-river  # Speaker participation
-
-# UMAP scatter plot
-npm run generate-umap        # 2D topic visualization
-
-# Heatmaps
-node scripts/generate-speaker-category-heatmap.js   # Speaker-topic relationships
-node scripts/generate-speaker-cluster-heatmap.js     # Speaker-cluster relationships
-node scripts/generate-speaker-speaker-heatmap.js     # Speaker co-occurrence
-node scripts/generate-cluster-cluster-heatmap.js     # Cluster relationships
-
-# Duration analysis
-node scripts/generate-year-duration-heatmap.js       # Duration by year
-node scripts/generate-dayofweek-duration-heatmap.js  # Duration by day of week
+node scripts/generate-year-duration-heatmap.js --podcast freakshow
+node scripts/generate-dayofweek-duration-heatmap.js --podcast freakshow
+node scripts/generate-speaker-duration-heatmap.js --podcast freakshow
 ```
 
-**Output:** Multiple JSON files in project root
+**Output:** `year-duration-heatmap.json`, `dayofweek-duration-heatmap.json`, `speaker-duration-heatmap.json`
 
-**Time:** ~2-3 minutes total
+**Time:** ~20 seconds total
 
-#### 10. Copy Data to Frontend
+### Phase 5: Optional Processing
 
-**Wenn du die Schritte manuell ausführst:**
+#### 14. Generate MP3 Index (Optional)
+Create index for MP3 files:
 
 ```bash
-# Erstelle Podcast-Verzeichnis
-mkdir -p frontend/public/podcasts/freakshow/topics/auto-v2.1
-
-# Kopiere generierte Daten (anpassen für deinen Podcast)
-PODCAST_DIR="frontend/public/podcasts/freakshow"
-cp topic-river-data.json "$PODCAST_DIR/"
-cp speaker-river-data.json "$PODCAST_DIR/"
-cp topic-umap-data.json "$PODCAST_DIR/topics/auto-v2.1/"
-cp topic-taxonomy.json "$PODCAST_DIR/topics/auto-v2.1/"
-cp topic-taxonomy-detailed.json "$PODCAST_DIR/topics/auto-v2.1/"
-cp speaker-cluster-heatmap.json "$PODCAST_DIR/topics/auto-v2.1/"
-cp cluster-cluster-heatmap.json "$PODCAST_DIR/topics/auto-v2.1/"
-
-# Kopiere Episode- und Speaker-Daten
-cp episodes.json "$PODCAST_DIR/"
-cp -r podcasts/freakshow/episodes "$PODCAST_DIR/"
-cp -r podcasts/freakshow/speakers "$PODCAST_DIR/"
+node scripts/generate-episodes-mp3.js --podcast freakshow
 ```
 
-**Hinweis:** Verwende besser `process-podcast.sh` für die automatische Verarbeitung:
+**Output:** MP3 metadata index
+
+#### 15. Generate TS-Live Files
+Create live transcript files for the player:
 
 ```bash
-# Verarbeitet einen kompletten Podcast automatisch
+node scripts/generate-ts-live.js --podcast freakshow --all
+```
+
+**Output:** `podcasts/freakshow/episodes/1-ts-live.json`, ...
+
+**Time:** ~5 minutes
+
+#### 16. Create RAG Database
+Build AI search database:
+
+```bash
+node scripts/create-rag-db.js --podcast freakshow
+```
+
+**Output:** `db/freakshow/rag-embeddings.json`
+
+**Time:** ~5 minutes
+
+**Cost:** ~$1-2
+
+### Phase 6: Organize Frontend Files
+
+**Diese Phase wird automatisch von `process-podcast.sh` ausgeführt**
+
+**Output Structure per Podcast:**
+```
+podcasts/freakshow/
+├── episodes/              # Raw episode data
+├── speakers/              # Speaker profiles
+└── ...
+
+frontend/public/podcasts/freakshow/
+├── episodes.json          # Episode index
+├── speaker-river-data.json
+├── *-heatmap.json         # All heatmap data
+├── episodes/              # Symlink to raw episodes
+├── speakers/              # Speaker data
+└── topics/
+    └── auto-v2.1/         # Clustering variant data
+        ├── topic-taxonomy.json
+        ├── topic-river-data.json
+        ├── topic-umap-data.json
+        ├── speaker-cluster-heatmap.json
+        └── cluster-cluster-heatmap.json
+```
+
+## Empfohlener Workflow
+
+**Verwende das automatische Script für die komplette Verarbeitung:**
+
+```bash
+# Komplette Verarbeitung eines Podcasts
 ./scripts/process-podcast.sh freakshow
+
+# Von bestimmter Phase starten (z.B. nur Clustering)
+./scripts/process-podcast.sh freakshow --from-step 3
+
+# Scraping überspringen wenn Daten vorhanden
+./scripts/process-podcast.sh freakshow --skip-scraping
+
+# RAG-Datenbank überspringen
+./scripts/process-podcast.sh freakshow --skip-rag
 ```
 
-Das Script kopiert alle Daten in die korrekte Struktur unter `frontend/public/podcasts/<podcast-id>/` und erstellt die notwendigen Symlinks.
+**Alle Scripts unterstützen den `--podcast <id>` Parameter für Multi-Podcast-Support**
 
 ### Phase 4: Run Frontend
 
