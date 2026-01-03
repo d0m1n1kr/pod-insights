@@ -165,11 +165,20 @@ const extractSpeechSegments = (): SpeechSegment[] => {
   for (let i = 0; i < timestamps.length - 1; i++) {
     const currentTime = timestamps[i];
     const nextTime = timestamps[i + 1];
+    const speakerIndex = speakerIndices[i];
+
+    // Ensure we have valid data
+    if (currentTime === undefined || nextTime === undefined ||
+        speakerIndex === undefined || speakerIndex >= speakers.length) {
+      continue;
+    }
+
     const duration = nextTime - currentTime;
-    const speaker = speakers[speakerIndices[i]];
+    const speaker = speakers[speakerIndex];
 
     // Only include segments with measurable duration (>0.1s to filter noise)
-    if (duration > 0.1) {
+    // and ensure speaker is valid
+    if (duration > 0.1 && speaker) {
       segments.push({
         speaker: speaker,
         startTime: currentTime,
@@ -320,7 +329,7 @@ const drawChart = () => {
         tooltipRef.value.style.display = 'none';
       }
     })
-    .on('click', function(event, d) {
+    .on('click', function(_event, d) {
       // Play from the start of this segment
       emit('play-at-time', d.startTime);
     });
