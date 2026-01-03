@@ -120,6 +120,7 @@ const loadLatestEpisodes = async (append = false) => {
   } else {
     loading.value = true;
     currentOffset.value = 0;
+    currentQuery.value = ''; // Clear query to indicate we're showing latest episodes
   }
   error.value = null;
 
@@ -521,7 +522,7 @@ const formatTime = (sec: number): string => {
                 </span>
               </div>
             </div>
-            <div class="text-sm text-gray-500 dark:text-gray-500">
+            <div v-if="currentQuery" class="text-sm text-gray-500 dark:text-gray-500">
               {{ (episode.score * 100).toFixed(0) }}%
             </div>
           </div>
