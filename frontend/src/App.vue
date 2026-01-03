@@ -399,8 +399,7 @@ const submitAIChat = async () => {
     <main 
       class="container mx-auto px-2 sm:px-4 py-4 sm:py-6 md:py-8" 
       :class="{ 
-        'pb-24': audioPlayerStore.state.src && audioPlayerStore.size === 'small',
-        'pb-96': audioPlayerStore.state.src && audioPlayerStore.size === 'big'
+        'mb-14': audioPlayerStore.state.src && audioPlayerStore.size === 'small',
       }"
     >
       <router-view />
