@@ -64,7 +64,7 @@ interface Props {
 const props = withDefaults(defineProps<Props>(), {
   logoUrl: '/logo.svg',
   projectName: 'PodInsights',
-  version: '1.0.0',
+  version: '-',
   autoHideDelay: 500, // 500ms
 });
 
