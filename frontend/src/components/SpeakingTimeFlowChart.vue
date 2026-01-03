@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted, watch, onUnmounted } from 'vue';
+import { ref, onMounted, watch, onUnmounted, computed } from 'vue';
 import * as d3 from 'd3';
 // import { useSettingsStore } from '@/stores/settings'; // Unused for now
 import { getPodcastFileUrl, getSpeakerMetaUrl } from '@/composables/usePodcast';
+import { useAudioPlayerStore } from '@/stores/audioPlayer';
 
 type SpeakerStats = {
   v: number;
@@ -58,10 +59,102 @@ const emit = defineEmits<{
 }>();
 
 // const settingsStore = useSettingsStore(); // Unused for now
+const audioPlayerStore = useAudioPlayerStore();
 const chartRef = ref<HTMLElement | null>(null);
 const tooltipRef = ref<HTMLDivElement | null>(null);
 let svg: d3.Selection<SVGSVGElement, unknown, null, undefined> | null = null;
 let resizeObserver: ResizeObserver | null = null;
+let positionMarker: d3.Selection<SVGLineElement, unknown, null, undefined> | null = null;
+
+// Get current playback position from audio element if episode matches
+const currentPosition = ref<number | null>(null);
+const currentSpeaker = ref<string | null>(null);
+
+// Helper function to find the last index <= value in a sorted array
+const findLastIndexLE = (arr: number[], value: number) => {
+  let lo = 0;
+  let hi = arr.length - 1;
+  let ans = -1;
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1;
+    const v = arr[mid] ?? Number.NaN;
+    if (Number.isFinite(v) && v <= value) {
+      ans = mid;
+      lo = mid + 1;
+    } else {
+      hi = mid - 1;
+    }
+  }
+  return ans;
+};
+
+// Get current speaker at a given time
+const getCurrentSpeakerAtTime = (timeSec: number): string | null => {
+  if (!transcriptData.value || !Number.isFinite(timeSec) || timeSec < 0) return null;
+  
+  const idx = findLastIndexLE(transcriptData.value.t, timeSec);
+  if (idx < 0) return null;
+  
+  const speakerIdxRaw = transcriptData.value.s[idx];
+  const speaker =
+    (typeof speakerIdxRaw === 'number' &&
+      Number.isInteger(speakerIdxRaw) &&
+      speakerIdxRaw >= 0 &&
+      speakerIdxRaw < transcriptData.value.speakers.length)
+      ? (transcriptData.value.speakers[speakerIdxRaw] ?? null)
+      : null;
+  
+  return speaker;
+};
+
+// Check if the currently playing episode matches this chart's episode
+const isCurrentEpisode = computed(() => {
+  if (!props.episodeNumber || !audioPlayerStore.state.transcriptSrc) return false;
+  const match = audioPlayerStore.state.transcriptSrc.match(/\/(\d+)-ts-live\.json/);
+  if (!match || !match[1]) return false;
+  return parseInt(match[1], 10) === props.episodeNumber;
+});
+
+// Watch for audio element time updates
+const updateCurrentPosition = () => {
+  if (!isCurrentEpisode.value || !audioPlayerStore.state.src) {
+    currentPosition.value = null;
+    currentSpeaker.value = null;
+    return;
+  }
+  
+  // Try to get current time from audio element
+  const audioElements = document.querySelectorAll('audio');
+  let time: number | null = null;
+  
+  for (const audio of audioElements) {
+    // Check if this audio element matches the current player source
+    if (audio.src && audio.src === audioPlayerStore.state.src) {
+      const audioTime = audio.currentTime || 0;
+      if (Number.isFinite(audioTime) && audioTime >= 0) {
+        time = audioTime;
+        break;
+      }
+    }
+  }
+  
+  // Fallback: use seekToSec if available (but only if it's recent)
+  if (time === null && audioPlayerStore.state.seekToSec !== undefined && Number.isFinite(audioPlayerStore.state.seekToSec)) {
+    time = audioPlayerStore.state.seekToSec;
+  }
+  
+  if (time !== null) {
+    currentPosition.value = time;
+    // Update current speaker
+    currentSpeaker.value = getCurrentSpeakerAtTime(time);
+  } else {
+    currentPosition.value = null;
+    currentSpeaker.value = null;
+  }
+};
+
+// Set up interval to update position marker
+let positionUpdateInterval: number | null = null;
 
 // Transcript data for finding speaker segments
 type TranscriptData = {
@@ -410,6 +503,9 @@ const drawChart = () => {
   // Create invisible overlay for tooltip interaction (must be added AFTER paths so it's on top)
   // We'll add it after creating all paths
 
+  // Store speaker paths for highlighting
+  const speakerPaths = new Map<string, d3.Selection<SVGPathElement, unknown, null, undefined>>();
+  
   // Create areas for each speaker
   for (const speaker of speakers) {
     const speakerData = stackedData.map((d) => ({
@@ -418,12 +514,14 @@ const drawChart = () => {
       y1: d[`${speaker}_top`] as number,
     }));
 
-    g.append('path')
+    const path = g.append('path')
       .datum(speakerData)
       .attr('fill', colorScale(speaker))
       .attr('fill-opacity', 0.7)
       .attr('stroke', colorScale(speaker))
       .attr('stroke-width', 1)
+      .attr('class', `speaker-path speaker-${speaker.replace(/\s+/g, '-').toLowerCase()}`)
+      .attr('data-speaker', speaker)
       .attr('d', d3
         .area<{ x: number; y0: number; y1: number }>()
         .x((d) => xScale(d.x))
@@ -432,7 +530,45 @@ const drawChart = () => {
         .curve(d3.curveMonotoneX)
       )
       .style('pointer-events', 'none'); // Disable pointer events on paths, use overlay instead
+    
+    speakerPaths.set(speaker, path);
   }
+  
+  // Function to update speaker highlighting
+  const updateSpeakerHighlight = () => {
+    const activeSpeaker = isCurrentEpisode.value ? currentSpeaker.value : null;
+    
+    speakerPaths.forEach((path, speaker) => {
+      if (activeSpeaker === speaker) {
+        // Highlight current speaker: brighter, thicker stroke
+        path
+          .attr('fill-opacity', 0.9)
+          .attr('stroke-width', 2.5)
+          .attr('stroke-opacity', 1)
+          .style('filter', 'drop-shadow(0 0 3px rgba(0,0,0,0.3))');
+      } else if (activeSpeaker !== null) {
+        // Dim other speakers when someone is speaking
+        path
+          .attr('fill-opacity', 0.3)
+          .attr('stroke-width', 1)
+          .attr('stroke-opacity', 0.5)
+          .style('filter', null);
+      } else {
+        // Reset to normal when no one is speaking
+        path
+          .attr('fill-opacity', 0.7)
+          .attr('stroke-width', 1)
+          .attr('stroke-opacity', 1)
+          .style('filter', null);
+      }
+    });
+  };
+  
+  // Initial highlight update
+  updateSpeakerHighlight();
+  
+  // Store update function for later use
+  (g.node() as any).__updateSpeakerHighlight = updateSpeakerHighlight;
 
   // Create invisible overlay for tooltip interaction (must be added AFTER paths so it's on top)
   g.append('rect')
@@ -927,6 +1063,61 @@ const drawChart = () => {
       .style('font-size', '12px')
       .text(speaker.length > 20 ? speaker.substring(0, 17) + '...' : speaker);
   });
+
+  // Create position marker (initially hidden)
+  const markerColor = isDarkMode ? '#ef4444' : '#dc2626'; // red-500
+  positionMarker = g
+    .append('line')
+    .attr('x1', 0)
+    .attr('x2', 0)
+    .attr('y1', 0)
+    .attr('y2', innerHeight)
+    .attr('stroke', markerColor)
+    .attr('stroke-width', 2)
+    .attr('stroke-opacity', 0.8)
+    .attr('pointer-events', 'none')
+    .style('display', 'none');
+  
+  // Add a small circle at the top of the marker for better visibility
+  const markerCircle = g
+    .append('circle')
+    .attr('cx', 0)
+    .attr('cy', 0)
+    .attr('r', 4)
+    .attr('fill', markerColor)
+    .attr('stroke', isDarkMode ? '#1f2937' : '#ffffff')
+    .attr('stroke-width', 1.5)
+    .attr('pointer-events', 'none')
+    .style('display', 'none');
+  
+  // Update marker position
+  const updateMarker = () => {
+    if (!positionMarker || !markerCircle) return;
+    
+    // Check if this is the current episode and position is valid
+    const pos = isCurrentEpisode.value ? currentPosition.value : null;
+    
+    if (pos !== null && pos >= 0 && pos <= props.data.episodeDurationSec) {
+      const x = xScale(pos);
+      positionMarker
+        .attr('x1', x)
+        .attr('x2', x)
+        .style('display', null);
+      markerCircle
+        .attr('cx', x)
+        .style('display', null);
+    } else {
+      positionMarker.style('display', 'none');
+      markerCircle.style('display', 'none');
+    }
+  };
+  
+  // Initial update
+  updateMarker();
+  
+  // Store update functions for later use
+  (g.node() as any).__updateMarker = updateMarker;
+  (g.node() as any).__updateSpeakerHighlight = updateSpeakerHighlight;
 };
 
 onMounted(() => {
@@ -936,6 +1127,33 @@ onMounted(() => {
     loadChapters();
   }
   
+  // Set up position update interval
+  positionUpdateInterval = window.setInterval(() => {
+    const oldPosition = currentPosition.value;
+    const oldSpeaker = currentSpeaker.value;
+    updateCurrentPosition();
+    // Update marker and highlight if chart is drawn and position/speaker changed
+    if (svg && chartRef.value && (oldPosition !== currentPosition.value || oldSpeaker !== currentSpeaker.value)) {
+      const g = d3.select(chartRef.value).select('g');
+      const updateMarkerFn = (g.node() as any)?.__updateMarker;
+      const updateHighlightFn = (g.node() as any)?.__updateSpeakerHighlight;
+      if (updateMarkerFn) updateMarkerFn();
+      if (updateHighlightFn) updateHighlightFn();
+    }
+  }, 100); // Update every 100ms
+  
+  // Watch for audio player state changes
+  watch(() => audioPlayerStore.state.src, () => {
+    updateCurrentPosition();
+  });
+  
+  watch(() => audioPlayerStore.state.transcriptSrc, () => {
+    updateCurrentPosition();
+  });
+  
+  // Initial position update
+  updateCurrentPosition();
+  
   // Wait for next tick to ensure tooltipRef is available
   setTimeout(() => {
     loadAllSpeakerMeta().then(() => {
@@ -943,6 +1161,17 @@ onMounted(() => {
     });
   }, 0);
 
+  // Watch for current position and speaker changes to update marker and highlight
+  watch([currentPosition, currentSpeaker], () => {
+    if (svg && chartRef.value) {
+      const g = d3.select(chartRef.value).select('g');
+      const updateMarkerFn = (g.node() as any)?.__updateMarker;
+      const updateHighlightFn = (g.node() as any)?.__updateSpeakerHighlight;
+      if (updateMarkerFn) updateMarkerFn();
+      if (updateHighlightFn) updateHighlightFn();
+    }
+  });
+  
   // Watch for data changes
   watch(() => props.data, () => {
     if (tooltipRef.value) {
@@ -1004,6 +1233,10 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
+  if (positionUpdateInterval !== null) {
+    clearInterval(positionUpdateInterval);
+    positionUpdateInterval = null;
+  }
   if (resizeObserver) {
     resizeObserver.disconnect();
     resizeObserver = null;
@@ -1012,6 +1245,7 @@ onUnmounted(() => {
     svg.remove();
     svg = null;
   }
+  positionMarker = null;
 });
 </script>
 
