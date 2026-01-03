@@ -276,15 +276,28 @@ const drawRiver = () => {
   
   const flatValues = series.flat(2).filter((d): d is number => d !== undefined);
   const yExtent = d3.extent(flatValues) as [number, number];
+  // In normierter Ansicht: Domain immer auf [0, 1] begrenzen, da stackOffsetExpand normalisiert
+  // Die Kurveninterpolation kann temporär Werte > 1.0 erzeugen, daher clampen wir die Domain
+  const yDomain = settingsStore.normalizedView 
+    ? [0, 1] as [number, number]
+    : yExtent;
   const yScale = d3.scaleLinear()
-    .domain(yExtent)
+    .domain(yDomain)
     .range([innerHeight, 0]);
   
   // Area generator
   const area = d3.area<any>()
     .x((d: any) => xScale(d.data.year))
-    .y0((d: any) => yScale(d[0]))
-    .y1((d: any) => yScale(d[1]))
+    .y0((d: any) => {
+      // In normierter Ansicht: Werte auf [0, 1] clampen, da Kurveninterpolation Werte außerhalb erzeugen kann
+      const val = settingsStore.normalizedView ? Math.max(0, Math.min(1, d[0])) : d[0];
+      return yScale(val);
+    })
+    .y1((d: any) => {
+      // In normierter Ansicht: Werte auf [0, 1] clampen, da Kurveninterpolation Werte außerhalb erzeugen kann
+      const val = settingsStore.normalizedView ? Math.max(0, Math.min(1, d[1])) : d[1];
+      return yScale(val);
+    })
     // Important: curveBasis is an approximating spline and can visually distort values at exact years.
     // Use an interpolating curve so the thickness at each year matches the underlying data much better.
     .curve(d3.curveCatmullRom.alpha(0.5));
