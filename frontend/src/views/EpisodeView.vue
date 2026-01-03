@@ -23,6 +23,7 @@ type EpisodeSearchResult = {
   description?: string;
   score: number;
   topics: string[];
+  positionsSec: number[];
 };
 
 type EpisodeData = {
@@ -462,6 +463,31 @@ const handlePlayAtTime = async (timeSec: number) => {
   });
 };
 
+const playEpisodeAtPosition = async (episode: EpisodeSearchResult, positionSec: number, e: Event) => {
+  e.stopPropagation(); // Prevent selecting the episode when clicking play button
+  
+  const episodeNumber = episode.episodeNumber;
+  const label = `${formatTime(positionSec)} - ${episode.title}`;
+  
+  // Use global player store instead of inline player
+  await inlinePlayer.ensureMp3Index();
+  const mp3 = inlinePlayer.mp3UrlByEpisode.get(episodeNumber) || null;
+  if (!mp3) {
+    await inlinePlayer.openEpisodeAt(episodeNumber, positionSec);
+    return;
+  }
+
+  audioPlayerStore.play({
+    src: mp3,
+    title: episode.title || `Episode ${episodeNumber}`,
+    subtitle: label,
+    seekToSec: Math.max(0, Math.floor(positionSec)),
+    autoplay: true,
+    transcriptSrc: withBase(getPodcastFileUrl(`episodes/${episodeNumber}-ts-live.json`)),
+    speakersMetaUrl: getSpeakersBaseUrl(),
+  });
+};
+
 const formatTime = (sec: number): string => {
   const h = Math.floor(sec / 3600);
   const m = Math.floor((sec % 3600) / 60);
@@ -556,8 +582,24 @@ const formatTime = (sec: number): string => {
                 </span>
               </div>
             </div>
-            <div v-if="currentQuery" class="text-sm text-gray-500 dark:text-gray-500">
-              {{ (episode.score * 100).toFixed(0) }}%
+            <div class="flex items-center gap-3 flex-wrap">
+              <template v-if="episode.positionsSec && episode.positionsSec.length > 0">
+                <button
+                  v-for="(positionSec, idx) in episode.positionsSec"
+                  :key="idx"
+                  @click="playEpisodeAtPosition(episode, positionSec, $event)"
+                  class="flex-shrink-0 px-3 py-1.5 bg-green-600 hover:bg-green-700 text-white rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5"
+                  :title="t('episodes.playAtPosition', { time: formatTime(positionSec) })"
+                >
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                  </svg>
+                  {{ formatTime(positionSec) }}
+                </button>
+              </template>
+              <div v-if="currentQuery" class="text-sm text-gray-500 dark:text-gray-500">
+                {{ (episode.score * 100).toFixed(0) }}%
+              </div>
             </div>
           </div>
         </button>

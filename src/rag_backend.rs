@@ -1078,6 +1078,8 @@ struct EpisodeSearchResult {
     description: Option<String>,
     score: f32,
     topics: Vec<String>,
+    #[serde(skip_serializing_if = "Vec::is_empty")]
+    positions_sec: Vec<f64>,
 }
 
 #[derive(Debug, Deserialize, Clone)]
@@ -1169,7 +1171,8 @@ async fn episodes_search_impl(st: &AppState, req: EpisodesSearchRequest) -> Resu
     let episode_topics_map = load_episode_topics_map_cached(st, podcast_id).await?;
     
     // Group by episode_number and get best score per episode
-    let mut episode_scores: std::collections::HashMap<u32, f32> = std::collections::HashMap::new();
+    // Also track multiple positions (start_sec) of matching items (top 3 per episode)
+    let mut episode_data: std::collections::HashMap<u32, (f32, Vec<(f64, f32)>)> = std::collections::HashMap::new();
     
     // Take more items than page_size to ensure we have enough episodes after grouping
     // (since multiple items can belong to the same episode)
@@ -1177,34 +1180,61 @@ async fn episodes_search_impl(st: &AppState, req: EpisodesSearchRequest) -> Resu
         let item = &rag.items[*idx];
         let ep_num = item.episode_number;
         
-        // Track best score per episode
-        let best_score = episode_scores.entry(ep_num).or_insert(*score);
-        if *score > *best_score {
-            *best_score = *score;
+        // Track best score per episode and collect positions with their scores
+        let entry = episode_data.entry(ep_num).or_insert_with(|| (*score, Vec::new()));
+        if *score > entry.0 {
+            entry.0 = *score;
         }
+        
+        // Collect positions with their scores
+        entry.1.push((item.start_sec, *score));
+    }
+    
+    // Sort positions by score and keep top 3 per episode, then extract just positions
+    let mut episode_positions: std::collections::HashMap<u32, Vec<f64>> = std::collections::HashMap::new();
+    for (ep_num, (_, positions_with_scores)) in &episode_data {
+        let mut sorted_positions: Vec<(f64, f32)> = positions_with_scores.clone();
+        // Sort by score descending
+        sorted_positions.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
+        // Take top 3, remove duplicates, and extract just positions
+        let mut unique_positions = Vec::new();
+        for (pos, _) in sorted_positions {
+            if !unique_positions.contains(&pos) {
+                unique_positions.push(pos);
+                if unique_positions.len() >= 3 {
+                    break;
+                }
+            }
+        }
+        episode_positions.insert(*ep_num, unique_positions);
     }
     
     // Convert to vector and sort by score
-    let mut episode_results: Vec<(u32, f32)> = episode_scores.into_iter().collect();
+    let mut episode_results: Vec<(u32, f32, Vec<f64>)> = episode_data.into_iter()
+        .map(|(ep_num, (score, _))| {
+            let positions = episode_positions.get(&ep_num).cloned().unwrap_or_default();
+            (ep_num, score, positions)
+        })
+        .collect();
     episode_results.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
     
     let total = episode_results.len();
     let has_more = (offset + page_size) < total;
     
     // Apply pagination
-    let paginated_results: Vec<(u32, f32)> = episode_results
+    let paginated_results: Vec<(u32, f32, Vec<f64>)> = episode_results
         .into_iter()
         .skip(offset)
         .take(page_size)
         .collect();
     
     // Load episode metadata in parallel (batch loading with caching)
-    let episode_numbers: Vec<u32> = paginated_results.iter().map(|(ep_num, _)| *ep_num).collect();
+    let episode_numbers: Vec<u32> = paginated_results.iter().map(|(ep_num, _, _)| *ep_num).collect();
     let metadata_map = load_episode_metadata_batch_cached(st, podcast_id, &episode_numbers).await?;
     
     // Build results
     let mut results = Vec::new();
-    for (ep_num, score) in paginated_results {
+    for (ep_num, score, positions_sec) in paginated_results {
         let mut title = format!("Episode {}", ep_num);
         let mut date = None;
         let mut duration_sec = None;
@@ -1241,6 +1271,7 @@ async fn episodes_search_impl(st: &AppState, req: EpisodesSearchRequest) -> Resu
             description,
             score,
             topics,
+            positions_sec,
         });
     }
     
@@ -1343,6 +1374,7 @@ async fn episodes_latest_impl(st: &AppState, req: EpisodesLatestRequest) -> Resu
             description,
             score: 1.0, // No relevance score for latest episodes
             topics,
+            positions_sec: Vec::new(), // No positions for latest episodes
         });
     }
     
