@@ -396,29 +396,36 @@ node scripts/generate-dayofweek-duration-heatmap.js  # Duration by day of week
 
 #### 10. Copy Data to Frontend
 
-```bash
-# Copy all generated data files to frontend
-cp topic-river-data.json frontend/public/
-cp category-river-data.json frontend/public/
-cp speaker-river-data.json frontend/public/
-cp topic-umap-data.json frontend/public/
-cp topic-taxonomy.json frontend/public/
-cp topic-taxonomy-detailed.json frontend/public/
-cp speaker-category-heatmap.json frontend/public/
-cp speaker-cluster-heatmap.json frontend/public/
-cp speaker-speaker-heatmap.json frontend/public/
-cp cluster-cluster-heatmap.json frontend/public/
-cp year-duration-heatmap.json frontend/public/
-cp dayofweek-duration-heatmap.json frontend/public/
+**Wenn du die Schritte manuell ausführst:**
 
-# Copy episodes directory (for episode detail links)
-cp -r episodes frontend/public/
+```bash
+# Erstelle Podcast-Verzeichnis
+mkdir -p frontend/public/podcasts/freakshow/topics/auto-v2.1
+
+# Kopiere generierte Daten (anpassen für deinen Podcast)
+PODCAST_DIR="frontend/public/podcasts/freakshow"
+cp topic-river-data.json "$PODCAST_DIR/"
+cp speaker-river-data.json "$PODCAST_DIR/"
+cp topic-umap-data.json "$PODCAST_DIR/topics/auto-v2.1/"
+cp topic-taxonomy.json "$PODCAST_DIR/topics/auto-v2.1/"
+cp topic-taxonomy-detailed.json "$PODCAST_DIR/topics/auto-v2.1/"
+cp speaker-cluster-heatmap.json "$PODCAST_DIR/topics/auto-v2.1/"
+cp cluster-cluster-heatmap.json "$PODCAST_DIR/topics/auto-v2.1/"
+
+# Kopiere Episode- und Speaker-Daten
+cp episodes.json "$PODCAST_DIR/"
+cp -r podcasts/freakshow/episodes "$PODCAST_DIR/"
+cp -r podcasts/freakshow/speakers "$PODCAST_DIR/"
 ```
 
-Or use the sync script if available:
+**Hinweis:** Verwende besser `process-podcast.sh` für die automatische Verarbeitung:
+
 ```bash
-./scripts/sync.sh
+# Verarbeitet einen kompletten Podcast automatisch
+./scripts/process-podcast.sh freakshow
 ```
+
+Das Script kopiert alle Daten in die korrekte Struktur unter `frontend/public/podcasts/<podcast-id>/` und erstellt die notwendigen Symlinks.
 
 ### Phase 4: Run Frontend
 
