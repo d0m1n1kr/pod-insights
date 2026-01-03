@@ -737,16 +737,16 @@ const formatTime = (sec: number): string => {
       </div>
 
       <!-- Statistics Content -->
-      <div v-if="speakerStats && activeStat === 'flow'" class="p-4 md:p-6">
-        <SpeakingTimeFlowChart 
-          :data="speakerStats" 
+      <div v-if="speakerStats && activeStat === 'flow'" class="bg-white dark:bg-gray-800 rounded-b-xl shadow-lg border border-gray-200 dark:border-gray-700 p-4 md:p-6">
+        <SpeakingTimeFlowChart
+          :data="speakerStats"
           :episode-topics="episodeTopics"
           :episode-number="selectedEpisode?.number"
           @play-at-time="handlePlayAtTime"
         />
       </div>
 
-      <div v-else-if="speakerStats && activeStat === 'boxplot'" class="p-4 md:p-6">
+      <div v-else-if="speakerStats && activeStat === 'boxplot'" class="bg-white dark:bg-gray-800 rounded-b-xl shadow-lg border border-gray-200 dark:border-gray-700 p-4 md:p-6">
         <SpeakerBoxPlot
           :data="speakerStats"
           :episode-topics="episodeTopics"
@@ -755,7 +755,7 @@ const formatTime = (sec: number): string => {
         />
       </div>
 
-      <div v-else-if="speakerStats && activeStat === 'scatter'" class="p-4 md:p-6">
+      <div v-else-if="speakerStats && activeStat === 'scatter'" class="bg-white dark:bg-gray-800 rounded-b-xl shadow-lg border border-gray-200 dark:border-gray-700 p-4 md:p-6">
         <SpeakerScatterPlot
           :data="speakerStats"
           :episode-topics="episodeTopics"

@@ -405,15 +405,6 @@ const drawChart = () => {
     .text(speaker.length > 32 ? speaker.substring(0, 29) + '...' : speaker);
   });
 
-  // Title
-  g.append('text')
-    .attr('x', innerWidth / 2)
-    .attr('y', -20)
-    .attr('text-anchor', 'middle')
-    .style('fill', labelColor)
-    .style('font-size', '18px')
-    .style('font-weight', '600')
-    .text('Speech Segments Scatter Plot');
 };
 
 const formatTime = (seconds: number): string => {
