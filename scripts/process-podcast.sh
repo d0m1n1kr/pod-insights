@@ -3,7 +3,7 @@
 # Usage: ./scripts/process-podcast.sh <podcast-id> [--skip-scraping] [--skip-rag] [--from-step <step>]
 #
 # Steps:
-#   1: Data Collection (scraping)
+#   1: Data Collection (scraping + speaker stats)
 #   2: Topic Extraction & Analysis
 #   3: Clustering
 #   4: Generate Visualizations
@@ -53,13 +53,13 @@ for arg in "$@"; do
             echo "  --skip-rag         Skip RAG database creation"
             echo "  --from-step <n>    Start from step n (1-6)"
             echo ""
-            echo "Steps:"
-            echo "  1: Data Collection (scraping)"
-            echo "  2: Topic Extraction & Analysis"
-            echo "  3: Clustering"
-            echo "  4: Generate Visualizations"
-            echo "  5: Optional Processing"
-            echo "  6: Organize Frontend Files"
+    echo "Steps:"
+    echo "  1: Data Collection (scraping + speaker stats)"
+    echo "  2: Topic Extraction & Analysis"
+    echo "  3: Clustering"
+    echo "  4: Generate Visualizations"
+    echo "  5: Optional Processing"
+    echo "  6: Organize Frontend Files"
             exit 0
             ;;
         *)
@@ -137,7 +137,10 @@ if should_run_step 1 && [ "$SKIP_SCRAPING" = false ]; then
     
     echo -e "${YELLOW}→${NC} Scraping speakers..."
     run_script "scripts/scrape-speakers.js"
-    
+
+    echo -e "${YELLOW}→${NC} Generating speaker stats..."
+    run_script "scripts/generate-speaker-stats.js"
+
     echo -e "${YELLOW}→${NC} Scraping chapters..."
     run_script "scripts/scrape-chapters.js" --all
     

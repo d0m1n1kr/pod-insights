@@ -196,7 +196,18 @@ node scripts/scrape-speakers.js --podcast freakshow
 
 **Time:** ~2 minutes
 
-#### 4. Scrape Chapters
+#### 4. Generate Speaker Stats
+Create detailed speaker statistics for each episode:
+
+```bash
+node scripts/generate-speaker-stats.js --podcast freakshow --all
+```
+
+**Output:** `podcasts/freakshow/episodes/1-speaker-stats.json`, ...
+
+**Time:** ~1 minute
+
+#### 6. Scrape Chapters
 Extract episode chapters:
 
 ```bash
@@ -207,7 +218,7 @@ node scripts/scrape-chapters.js --podcast freakshow --all
 
 **Time:** ~5 minutes
 
-#### 5. Scrape Legacy Shownotes (Optional)
+#### 8. Scrape Legacy Shownotes (Optional)
 Extract OSF-format shownotes for older episodes (if applicable):
 
 ```bash
@@ -222,7 +233,7 @@ node scripts/scrape-osf.js --podcast freakshow
 
 ### Phase 2: Topic Extraction & Analysis
 
-#### 6. Extract Topics with LLM
+#### 10. Extract Topics with LLM
 Identify main topics from episode transcripts:
 
 ```bash
@@ -255,7 +266,7 @@ node scripts/extract-topics.js --podcast freakshow --all
 }
 ```
 
-#### 7. Normalize Topics
+#### 12. Normalize Topics
 Clean up and standardize extracted topics:
 
 ```bash
@@ -266,7 +277,7 @@ node scripts/normalize-topics.js --podcast freakshow
 
 **Time:** ~30 seconds
 
-#### 8. Generate Extended Topics (for RAG)
+#### 13. Generate Extended Topics (for RAG)
 Create additional topic data for better AI search:
 
 ```bash
@@ -277,7 +288,7 @@ node scripts/generate-extended-topics.js --podcast freakshow --all
 
 **Time:** ~10 minutes
 
-#### 9. Create Embeddings
+#### 14. Create Embeddings
 Generate semantic embeddings for all topics:
 
 ```bash
@@ -292,7 +303,7 @@ node scripts/create-embeddings.js --podcast freakshow
 
 ### Phase 3: Clustering
 
-#### 10. Build Clustering Variant
+#### 15. Build Clustering Variant
 Create topic clusters using V2 HDBSCAN (recommended):
 
 ```bash
@@ -322,7 +333,7 @@ Create topic clusters using V2 HDBSCAN (recommended):
 
 ### Phase 4: Generate Visualizations
 
-#### 11. Generate Speaker River Data
+#### 17. Generate Speaker River Data
 Create speaker participation timeline:
 
 ```bash
@@ -333,7 +344,7 @@ node scripts/generate-speaker-river.js --podcast freakshow
 
 **Time:** ~30 seconds
 
-#### 12. Generate Speaker-Speaker Heatmap
+#### 18. Generate Speaker-Speaker Heatmap
 Analyze speaker co-occurrence patterns:
 
 ```bash
@@ -344,7 +355,7 @@ node scripts/generate-speaker-speaker-heatmap.js --podcast freakshow
 
 **Time:** ~10 seconds
 
-#### 13. Generate Duration Heatmaps
+#### 19. Generate Duration Heatmaps
 Analyze episode length patterns:
 
 ```bash
@@ -359,7 +370,7 @@ node scripts/generate-speaker-duration-heatmap.js --podcast freakshow
 
 ### Phase 5: Optional Processing
 
-#### 14. Generate MP3 Index (Optional)
+#### 20. Generate MP3 Index (Optional)
 Create index for MP3 files:
 
 ```bash
@@ -368,7 +379,7 @@ node scripts/generate-episodes-mp3.js --podcast freakshow
 
 **Output:** MP3 metadata index
 
-#### 15. Generate TS-Live Files
+#### 21. Generate TS-Live Files
 Create live transcript files for the player:
 
 ```bash
@@ -379,7 +390,7 @@ node scripts/generate-ts-live.js --podcast freakshow --all
 
 **Time:** ~5 minutes
 
-#### 16. Create RAG Database
+#### 23. Create RAG Database
 Build AI search database:
 
 ```bash
