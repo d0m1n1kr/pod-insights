@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use std::sync::Arc;
 
 use anyhow::{anyhow, Result};
 use axum::{
@@ -24,6 +25,8 @@ pub struct EpisodesSearchRequest {
     pub query: String,
     #[serde(default)]
     pub podcast_id: Option<String>,
+    #[serde(default)]
+    pub cross_podcast: Option<bool>,
     #[serde(default)]
     pub top_k: Option<usize>,
     #[serde(default)]
@@ -55,6 +58,7 @@ pub struct EpisodesSearchResponse {
 #[serde(rename_all = "camelCase")]
 pub struct EpisodeSearchResult {
     pub episode_number: u32,
+    pub podcast_id: String,
     pub title: String,
     pub date: Option<String>,
     pub duration_sec: Option<u32>,
@@ -64,6 +68,8 @@ pub struct EpisodeSearchResult {
     pub topics: Vec<String>,
     #[serde(skip_serializing_if = "Vec::is_empty")]
     pub positions_sec: Vec<f64>,
+    #[serde(skip_serializing_if = "Vec::is_empty")]
+    pub position_scores: Vec<f32>,
 }
 
 pub async fn episodes_search(
@@ -84,6 +90,32 @@ pub async fn episodes_search(
     }
 }
 
+// Helper function to get all available podcast IDs from db directory
+async fn get_all_podcast_ids() -> Result<Vec<String>> {
+    use std::path::PathBuf;
+    let db_dir = PathBuf::from("db");
+    
+    let mut entries = match tokio::fs::read_dir(&db_dir).await {
+        Ok(entries) => entries,
+        Err(_) => return Ok(Vec::new()),
+    };
+    
+    let mut podcast_ids = Vec::new();
+    while let Ok(Some(entry)) = entries.next_entry().await {
+        let path = entry.path();
+        if path.is_dir() {
+            if let Some(podcast_id) = path.file_name().and_then(|n| n.to_str()) {
+                let rag_path = path.join("rag-embeddings.json");
+                if tokio::fs::metadata(&rag_path).await.is_ok() {
+                    podcast_ids.push(podcast_id.to_string());
+                }
+            }
+        }
+    }
+    
+    Ok(podcast_ids)
+}
+
 async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> Result<EpisodesSearchResponse> {
     use std::cmp::Ordering;
     
@@ -92,12 +124,38 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
         return Err(anyhow!("query must not be empty"));
     }
 
-    let podcast_id = req.podcast_id.as_deref().unwrap_or("freakshow");
+    let cross_podcast = req.cross_podcast.unwrap_or(false);
     let page_size = req.limit.unwrap_or(req.top_k.unwrap_or(10)).clamp(1, 50);
     let offset = req.offset.unwrap_or(0);
     
-    // Load RAG database for this podcast (with caching)
-    let rag = load_rag_index_cached(st, podcast_id).await?;
+    // Determine which podcasts to search
+    let podcast_ids: Vec<String> = if cross_podcast {
+        get_all_podcast_ids().await?
+    } else {
+        vec![req.podcast_id.as_deref().unwrap_or("freakshow").to_string()]
+    };
+    
+    if podcast_ids.is_empty() {
+        return Err(anyhow!("No podcasts found to search"));
+    }
+    
+    // Load RAG databases for all podcasts (with caching)
+    let mut rag_indices: Vec<(String, Arc<crate::rag::RagIndex>)> = Vec::new();
+    
+    for podcast_id in &podcast_ids {
+        match load_rag_index_cached(st, podcast_id).await {
+            Ok(rag) => {
+                rag_indices.push((podcast_id.clone(), rag));
+            }
+            Err(e) => {
+                tracing::warn!("Failed to load RAG index for {}: {}", podcast_id, e);
+            }
+        }
+    }
+    
+    if rag_indices.is_empty() {
+        return Err(anyhow!("No RAG indices could be loaded"));
+    }
     
     // Get embedding for query
     let q = embed_query(st, query).await?;
@@ -106,58 +164,61 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
         return Err(anyhow!("Query embedding norm is 0"));
     }
 
-    // Score all items with parallel computation and early termination optimization
-    // We need more than page_size to account for grouping by episode
+    // Score all items across all podcasts with parallel computation
     let keep_count = (offset + page_size) * 5;
     
-    // Parallel computation of all scores
-    let scored: Vec<(usize, f32)> = rag.items
-        .par_iter()
-        .enumerate()
-        .filter_map(|(i, it)| {
-            let v = it.embedding.as_ref()?;
-            let dn = rag.norms[i];
-            if dn <= 0.0 {
-                return None;
-            }
-            let s = dot(&q, v) / (qn * dn);
-            if s.is_finite() {
-                Some((i, s))
-            } else {
-                None
-            }
-        })
-        .collect();
-    
-    // Use partial sort to get top-K without sorting everything
-    // This is faster than full sort when we only need top-K
-    let mut scored = scored;
-    if scored.len() > keep_count {
-        // Use partial sort: sort only the top keep_count elements
-        let (top_part, _, _) = scored.select_nth_unstable_by(keep_count - 1, |a, b| {
-            b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal)
-        });
-        top_part.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
-        scored = top_part.to_vec();
-    } else {
-        scored.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
+    // Parallel computation of all scores across all podcasts
+    let mut scored: Vec<(String, usize, f32)> = Vec::new();
+    for (podcast_id, rag) in &rag_indices {
+        let podcast_id_clone = podcast_id.clone();
+        let podcast_scores: Vec<(String, usize, f32)> = rag.items
+            .par_iter()
+            .enumerate()
+            .filter_map(|(i, it)| {
+                let v = it.embedding.as_ref()?;
+                let dn = rag.norms[i];
+                if dn <= 0.0 {
+                    return None;
+                }
+                let s = dot(&q, v) / (qn * dn);
+                if s.is_finite() {
+                    Some((podcast_id_clone.clone(), i, s))
+                } else {
+                    None
+                }
+            })
+            .collect();
+        scored.extend(podcast_scores);
     }
     
-    // Load episode topics map (with caching)
-    let episode_topics_map = load_episode_topics_map_cached(st, podcast_id).await?;
+    // Use partial sort to get top-K without sorting everything
+    let mut scored = scored;
+    if scored.len() > keep_count {
+        let (top_part, _, _) = scored.select_nth_unstable_by(keep_count - 1, |a, b| {
+            b.2.partial_cmp(&a.2).unwrap_or(Ordering::Equal)
+        });
+        top_part.sort_by(|a, b| b.2.partial_cmp(&a.2).unwrap_or(Ordering::Equal));
+        scored = top_part.to_vec();
+    } else {
+        scored.sort_by(|a, b| b.2.partial_cmp(&a.2).unwrap_or(Ordering::Equal));
+    }
     
-    // Group by episode_number and get best score per episode
+    // Group by (podcast_id, episode_number) and get best score per episode
     // Also track multiple positions (start_sec) of matching items (top 3 per episode)
-    let mut episode_data: HashMap<u32, (f32, Vec<(f64, f32)>)> = HashMap::new();
+    let mut episode_data: HashMap<(String, u32), (f32, Vec<(f64, f32)>)> = HashMap::new();
     
     // Take more items than page_size to ensure we have enough episodes after grouping
-    // (since multiple items can belong to the same episode)
-    for (idx, score) in scored.iter().take((offset + page_size) * 5) {
+    for (podcast_id, idx, score) in scored.iter().take((offset + page_size) * 5) {
+        let rag = rag_indices.iter()
+            .find(|(pid, _)| pid == podcast_id)
+            .map(|(_, rag_arc)| rag_arc.as_ref())
+            .ok_or_else(|| anyhow!("RAG index not found for podcast {}", podcast_id))?;
         let item = &rag.items[*idx];
         let ep_num = item.episode_number;
+        let key = (podcast_id.clone(), ep_num);
         
         // Track best score per episode and collect positions with their scores
-        let entry = episode_data.entry(ep_num).or_insert_with(|| (*score, Vec::new()));
+        let entry = episode_data.entry(key).or_insert_with(|| (*score, Vec::new()));
         if *score > entry.0 {
             entry.0 = *score;
         }
@@ -166,30 +227,29 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
         entry.1.push((item.start_sec, *score));
     }
     
-    // Sort positions by score and keep top 3 per episode, then extract just positions
-    let mut episode_positions: HashMap<u32, Vec<f64>> = HashMap::new();
-    for (ep_num, (_, positions_with_scores)) in &episode_data {
+    // Sort positions by score and keep top 3 per episode, preserving both positions and scores
+    let mut episode_positions: HashMap<(String, u32), Vec<(f64, f32)>> = HashMap::new();
+    for ((podcast_id, ep_num), (_, positions_with_scores)) in &episode_data {
         let mut sorted_positions: Vec<(f64, f32)> = positions_with_scores.clone();
-        // Sort by score descending
         sorted_positions.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
-        // Take top 3, remove duplicates, and extract just positions
-        let mut unique_positions = Vec::new();
-        for (pos, _) in sorted_positions {
-            if !unique_positions.contains(&pos) {
-                unique_positions.push(pos);
+        let mut unique_positions: Vec<(f64, f32)> = Vec::new();
+        for (pos, score) in sorted_positions {
+            // Check if position is already in list (within 1 second tolerance)
+            if !unique_positions.iter().any(|(p, _)| (p - pos).abs() < 1.0) {
+                unique_positions.push((pos, score));
                 if unique_positions.len() >= 3 {
                     break;
                 }
             }
         }
-        episode_positions.insert(*ep_num, unique_positions);
+        episode_positions.insert((podcast_id.clone(), *ep_num), unique_positions);
     }
     
     // Convert to vector and sort by score
-    let mut episode_results: Vec<(u32, f32, Vec<f64>)> = episode_data.into_iter()
-        .map(|(ep_num, (score, _))| {
-            let positions = episode_positions.get(&ep_num).cloned().unwrap_or_default();
-            (ep_num, score, positions)
+    let mut episode_results: Vec<((String, u32), f32, Vec<(f64, f32)>)> = episode_data.into_iter()
+        .map(|(key, (score, _))| {
+            let positions = episode_positions.get(&key).cloned().unwrap_or_default();
+            (key, score, positions)
         })
         .collect();
     episode_results.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(Ordering::Equal));
@@ -198,26 +258,58 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
     let has_more = (offset + page_size) < total;
     
     // Apply pagination
-    let paginated_results: Vec<(u32, f32, Vec<f64>)> = episode_results
+    let paginated_results: Vec<((String, u32), f32, Vec<(f64, f32)>)> = episode_results
         .into_iter()
         .skip(offset)
         .take(page_size)
         .collect();
     
-    // Load episode metadata in parallel (batch loading with caching)
-    let episode_numbers: Vec<u32> = paginated_results.iter().map(|(ep_num, _, _)| *ep_num).collect();
-    let metadata_map = load_episode_metadata_batch_cached(st, podcast_id, &episode_numbers).await?;
+    // Load episode metadata in parallel (batch loading with caching per podcast)
+    // Group by podcast_id to batch load efficiently
+    let mut metadata_requests: Vec<(String, Vec<u32>)> = Vec::new();
+    for ((podcast_id, ep_num), _, _) in &paginated_results {
+        if let Some(existing) = metadata_requests.iter_mut().find(|(pid, _)| pid == podcast_id) {
+            if !existing.1.contains(ep_num) {
+                existing.1.push(*ep_num);
+            }
+        } else {
+            metadata_requests.push((podcast_id.clone(), vec![*ep_num]));
+        }
+    }
+    
+    // Load metadata for all podcasts in parallel
+    let mut all_metadata: HashMap<(String, u32), crate::cache::EpisodeMetadata> = HashMap::new();
+    for (podcast_id, episode_numbers) in metadata_requests {
+        match load_episode_metadata_batch_cached(st, &podcast_id, &episode_numbers).await {
+            Ok(metadata_map) => {
+                for (ep_num, meta) in metadata_map {
+                    all_metadata.insert((podcast_id.clone(), ep_num), meta);
+                }
+            }
+            Err(e) => {
+                tracing::warn!("Failed to load metadata for {}: {}", podcast_id, e);
+            }
+        }
+    }
+    
+    // Load episode topics maps for all podcasts
+    let mut all_topics_maps: HashMap<String, HashMap<u32, std::collections::HashSet<String>>> = HashMap::new();
+    for podcast_id in &podcast_ids {
+        if let Ok(topics_map) = load_episode_topics_map_cached(st, podcast_id).await {
+            all_topics_maps.insert(podcast_id.clone(), topics_map);
+        }
+    }
     
     // Build results
     let mut results = Vec::new();
-    for (ep_num, score, positions_sec) in paginated_results {
+    for ((podcast_id, ep_num), score, positions_with_scores) in paginated_results {
         let mut title = format!("Episode {}", ep_num);
         let mut date = None;
         let mut duration_sec = None;
         let mut description = None;
         let mut speakers = Vec::new();
         
-        if let Some(meta) = metadata_map.get(&ep_num) {
+        if let Some(meta) = all_metadata.get(&(podcast_id.clone(), ep_num)) {
             if let Some(t) = &meta.title {
                 title = t.clone();
             }
@@ -233,13 +325,19 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
             }
         }
         
-        let topics: Vec<String> = episode_topics_map
-            .get(&ep_num)
+        let topics: Vec<String> = all_topics_maps
+            .get(&podcast_id)
+            .and_then(|map| map.get(&ep_num))
             .map(|s| s.iter().cloned().collect())
             .unwrap_or_default();
         
+        // Extract positions and scores separately
+        let positions_sec: Vec<f64> = positions_with_scores.iter().map(|(pos, _)| *pos).collect();
+        let position_scores: Vec<f32> = positions_with_scores.iter().map(|(_, scr)| *scr).collect();
+        
         results.push(EpisodeSearchResult {
             episode_number: ep_num,
+            podcast_id: podcast_id.clone(),
             title,
             date,
             duration_sec,
@@ -248,6 +346,7 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
             score,
             topics,
             positions_sec,
+            position_scores,
         });
     }
     
@@ -278,6 +377,7 @@ pub async fn episodes_latest(
 
 async fn episodes_latest_impl(st: &AppStateType, req: EpisodesLatestRequest) -> Result<EpisodesSearchResponse> {
     let podcast_id = req.podcast_id.as_deref().unwrap_or("freakshow");
+    let podcast_id_string = podcast_id.to_string();
     let page_size = req.limit.unwrap_or(10).clamp(1, 50);
     let offset = req.offset.unwrap_or(0);
     
@@ -343,6 +443,7 @@ async fn episodes_latest_impl(st: &AppStateType, req: EpisodesLatestRequest) -> 
         
         results.push(EpisodeSearchResult {
             episode_number: ep_num,
+            podcast_id: podcast_id_string.clone(),
             title,
             date,
             duration_sec,
@@ -351,6 +452,7 @@ async fn episodes_latest_impl(st: &AppStateType, req: EpisodesLatestRequest) -> 
             score: 1.0, // No relevance score for latest episodes
             topics,
             positions_sec: Vec::new(), // No positions for latest episodes
+            position_scores: Vec::new(), // No position scores for latest episodes
         });
     }
     

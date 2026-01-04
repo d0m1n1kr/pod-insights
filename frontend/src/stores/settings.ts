@@ -48,6 +48,9 @@ export const useSettingsStore = defineStore('settings', () => {
   // Search: Discussion mode (second speaker) - persisted
   const selectedSpeaker2 = ref<string | null>(null);
   
+  // Episode search: Cross-podcast search - persisted
+  const crossPodcastSearch = ref<boolean>(false);
+  
   // Podcast selection - persisted, defaults to 'freakshow'
   const selectedPodcast = ref<string>('freakshow');
   
@@ -121,6 +124,10 @@ export const useSettingsStore = defineStore('settings', () => {
     selectedPodcast.value = podcastId;
   }
   
+  function setCrossPodcastSearch(value: boolean) {
+    crossPodcastSearch.value = value;
+  }
+  
   // Load available podcasts from podcasts.json
   async function loadPodcasts() {
     try {
@@ -178,6 +185,7 @@ export const useSettingsStore = defineStore('settings', () => {
     ragAuthToken,
     selectedSpeaker,
     selectedSpeaker2,
+    crossPodcastSearch,
     selectedPodcast,
     availablePodcasts,
     toggleNormalizedView,
@@ -190,6 +198,7 @@ export const useSettingsStore = defineStore('settings', () => {
     clearRagAuthToken,
     setSelectedSpeaker,
     setSelectedSpeaker2,
+    setCrossPodcastSearch,
     setSelectedPodcast,
     loadPodcasts,
   };
@@ -217,6 +226,7 @@ export const useSettingsStore = defineStore('settings', () => {
       'ragAuthToken',
       'selectedSpeaker',
       'selectedSpeaker2',
+      'crossPodcastSearch',
       // Note: selectedPodcast is NOT persisted - it comes from URL
     ],
   }

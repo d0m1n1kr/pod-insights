@@ -18,6 +18,7 @@ const audioPlayerStore = useAudioPlayerStore();
 
 type EpisodeSearchResult = {
   episodeNumber: number;
+  podcastId: string;
   title: string;
   date?: string;
   durationSec?: number;
@@ -26,6 +27,7 @@ type EpisodeSearchResult = {
   score: number;
   topics: string[];
   positionsSec: number[];
+  positionScores?: number[];
 };
 
 type EpisodeData = {
@@ -329,6 +331,7 @@ const searchEpisodes = async (append = false) => {
       body: JSON.stringify({
         query,
         podcastId: settings.selectedPodcast || 'freakshow',
+        crossPodcast: settings.crossPodcastSearch,
         limit: 10,
         offset: append ? currentOffset.value : 0,
       }),
@@ -388,25 +391,31 @@ const handleScroll = (event: Event) => {
 };
 
 const selectEpisode = async (episode: EpisodeSearchResult) => {
-  // Update URL with episode number and preserve podcast parameter
+  // If episode is from a different podcast, switch to that podcast first
+  const episodePodcastId = episode.podcastId || settings.selectedPodcast || 'freakshow';
+  if (episodePodcastId !== settings.selectedPodcast) {
+    settings.setSelectedPodcast(episodePodcastId);
+  }
+  
+  // Update URL with episode number and podcast parameter
   await router.push({ 
     name: 'episodeSearch', 
     query: { 
       ...route.query,
-      podcast: settings.selectedPodcast || 'freakshow',
+      podcast: episodePodcastId,
       episode: episode.episodeNumber.toString() 
     } 
   });
   
-  await loadEpisodeData(episode.episodeNumber);
+  await loadEpisodeData(episode.episodeNumber, episodePodcastId);
 };
 
-const loadEpisodeData = async (episodeNumber: number) => {
+const loadEpisodeData = async (episodeNumber: number, podcastIdOverride?: string) => {
   statsLoading.value = true;
   error.value = null;
 
   try {
-    const podcastId = settings.selectedPodcast || 'freakshow';
+    const podcastId = podcastIdOverride || settings.selectedPodcast || 'freakshow';
     
     // Load episode metadata
     const epUrl = getPodcastFileUrl(`episodes/${episodeNumber}.json`, podcastId);
@@ -499,12 +508,14 @@ watch(
 
 // Watch route query for episode selection
 watch(
-  () => route.query?.episode,
-  async (episodeNum) => {
+  () => [route.query?.episode, route.query?.podcast],
+  async ([episodeNum, podcastId]) => {
     if (episodeNum) {
       const num = parseInt(String(episodeNum), 10);
       if (Number.isFinite(num) && num > 0) {
-        await loadEpisodeData(num);
+        // Use podcast from URL if available, otherwise use current selection
+        const podcastIdFromUrl = typeof podcastId === 'string' ? podcastId : undefined;
+        await loadEpisodeData(num, podcastIdFromUrl);
       }
     } else {
       // Clear selection if episode param is removed
@@ -633,7 +644,26 @@ const playEpisodeAtPosition = async (episode: EpisodeSearchResult, positionSec: 
   e.stopPropagation(); // Prevent selecting the episode when clicking play button
   
   const episodeNumber = episode.episodeNumber;
+  const episodePodcastId = episode.podcastId || settings.selectedPodcast || 'freakshow';
   const label = `${formatTime(positionSec)} - ${episode.title}`;
+  
+  // If episode is from a different podcast, switch to that podcast first
+  if (episodePodcastId !== settings.selectedPodcast) {
+    settings.setSelectedPodcast(episodePodcastId);
+  }
+  
+  // Update URL to open the episode detail page
+  await router.push({ 
+    name: 'episodeSearch', 
+    query: { 
+      ...route.query,
+      podcast: episodePodcastId,
+      episode: episodeNumber.toString() 
+    } 
+  });
+  
+  // Load episode data
+  await loadEpisodeData(episodeNumber, episodePodcastId);
   
   // Use global player store instead of inline player
   await inlinePlayer.ensureMp3Index();
@@ -649,8 +679,8 @@ const playEpisodeAtPosition = async (episode: EpisodeSearchResult, positionSec: 
     subtitle: label,
     seekToSec: Math.max(0, Math.floor(positionSec)),
     autoplay: true,
-    transcriptSrc: withBase(getPodcastFileUrl(`episodes/${episodeNumber}-ts-live.json`)),
-    speakersMetaUrl: getSpeakersBaseUrl(),
+    transcriptSrc: withBase(getPodcastFileUrl(`episodes/${episodeNumber}-ts-live.json`, episodePodcastId)),
+    speakersMetaUrl: getSpeakersBaseUrl(episodePodcastId),
   });
 };
 
@@ -660,6 +690,10 @@ const formatTime = (sec: number): string => {
   const s = Math.floor(sec % 60);
   if (h > 0) return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
   return `${m}:${String(s).padStart(2, '0')}`;
+};
+
+const getPodcastInfo = (podcastId: string) => {
+  return settings.availablePodcasts.find(p => p.id === podcastId) || null;
 };
 </script>
 
@@ -671,22 +705,33 @@ const formatTime = (sec: number): string => {
         {{ t('episodes.searchTitle') }}
       </h2>
       
-      <form @submit.prevent="() => searchEpisodes(false)" class="flex flex-col sm:flex-row gap-3">
-        <input
-          v-model="searchQuery"
-          type="search"
-          :placeholder="t('episodes.searchPlaceholder')"
-          :disabled="loading"
-          class="flex-1 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 disabled:opacity-50 disabled:cursor-not-allowed"
-        />
-        <button
-          type="submit"
-          :disabled="loading"
-          class="px-6 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white font-semibold transition-colors flex items-center justify-center gap-2"
-        >
-          <span v-if="loading" class="inline-block animate-spin rounded-full h-4 w-4 border-2 border-white border-t-transparent"></span>
-          {{ loading ? t('search.buttonSearching') : t('search.button') }}
-        </button>
+      <form @submit.prevent="() => searchEpisodes(false)" class="flex flex-col gap-3">
+        <div class="flex flex-col sm:flex-row gap-3">
+          <input
+            v-model="searchQuery"
+            type="search"
+            :placeholder="t('episodes.searchPlaceholder')"
+            :disabled="loading"
+            class="flex-1 px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 disabled:opacity-50 disabled:cursor-not-allowed"
+          />
+          <button
+            type="submit"
+            :disabled="loading"
+            class="px-6 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white font-semibold transition-colors flex items-center justify-center gap-2"
+          >
+            <span v-if="loading" class="inline-block animate-spin rounded-full h-4 w-4 border-2 border-white border-t-transparent"></span>
+            {{ loading ? t('search.buttonSearching') : t('search.button') }}
+          </button>
+        </div>
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input
+            :checked="settings.crossPodcastSearch"
+            @change="settings.setCrossPodcastSearch(($event.target as HTMLInputElement).checked)"
+            type="checkbox"
+            class="w-4 h-4 rounded border-gray-300 dark:border-gray-600 text-purple-600 dark:text-purple-400 focus:ring-purple-500"
+          />
+          <span class="text-sm text-gray-700 dark:text-gray-300">{{ t('episodes.crossPodcastSearch') }}</span>
+        </label>
       </form>
 
       <div v-if="error" class="mt-4 p-3 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg">
@@ -721,15 +766,21 @@ const formatTime = (sec: number): string => {
         >
           <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
             <img
-              :src="getEpisodeImageUrl(episode.episodeNumber)"
+              :src="getEpisodeImageUrl(episode.episodeNumber, episode.podcastId)"
               :alt="episode.title"
               @error="($event.target as HTMLImageElement).style.display = 'none'"
               class="w-16 h-16 sm:w-20 sm:h-20 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-700"
             />
             <div class="flex-1 min-w-0">
-              <h4 class="text-base md:text-lg font-semibold text-gray-900 dark:text-white mb-1">
-                {{ episode.title }}
-              </h4>
+              <div class="flex items-center gap-2 mb-1">
+                <h4 class="text-base md:text-lg font-semibold text-gray-900 dark:text-white">
+                  {{ episode.title }}
+                </h4>
+                <span v-if="settings.crossPodcastSearch && episode.podcastId && episode.podcastId !== settings.selectedPodcast" 
+                      class="px-2 py-0.5 text-xs font-medium bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded">
+                  {{ getPodcastInfo(episode.podcastId)?.name || episode.podcastId }}
+                </span>
+              </div>
               <div class="flex flex-wrap items-center gap-3 text-sm text-gray-600 dark:text-gray-400">
                 <span v-if="episode.date">{{ episode.date }}</span>
                 <span v-if="episode.durationSec">{{ formatDurationSec(episode.durationSec) }}</span>
@@ -761,6 +812,10 @@ const formatTime = (sec: number): string => {
                     <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
                   </svg>
                   {{ formatTime(positionSec) }}
+                  <span v-if="episode.positionScores && episode.positionScores[idx] !== undefined" 
+                        class="text-xs opacity-90 ml-0.5">
+                    ({{ (episode.positionScores[idx] * 100).toFixed(0) }}%)
+                  </span>
                 </button>
               </template>
               <div v-if="currentQuery" class="text-sm text-gray-500 dark:text-gray-500">
