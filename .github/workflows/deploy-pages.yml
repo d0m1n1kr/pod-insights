@@ -30,10 +30,23 @@ jobs:
       - name: Copy public files
         run: |
           mkdir -p _site
-          cp -r frontend/public/* _site/
+          # Use cp with -L to follow symlinks and copy actual files/directories
+          # This resolves the episodes symlinks to actual directories
+          cp -rL frontend/public/* _site/
+          # Verify episodes directories are now actual directories, not symlinks
+          echo "Checking episodes directories:"
+          for dir in _site/podcasts/*/episodes; do
+            if [ -e "$dir" ]; then
+              if [ -L "$dir" ]; then
+                echo "WARNING: $dir is still a symlink"
+              else
+                echo "✓ $dir is a directory ($(find "$dir" -type f | wc -l) files)"
+              fi
+            fi
+          done
           # List files for debugging
-          ls -la _site/ | head -20
           echo "Total files: $(find _site -type f | wc -l)"
+          echo "Total directories: $(find _site -type d | wc -l)"
              
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
