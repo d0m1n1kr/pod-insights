@@ -139,13 +139,25 @@ watch(
 const submitEpisodeSearch = async () => {
   const q = searchText.value.trim();
   if (!q) return;
-  await router.push({ 
-    name: 'episodeSearch', 
-    query: { 
-      ...route.query,
-      q 
-    } 
-  });
+  // Remove episode parameter when starting a new search
+  const query = { ...route.query };
+  query.q = q;
+  delete query.episode; // Remove episode parameter to clear detail view
+  
+  // Use replace instead of push if already on episodeSearch with same query to force update
+  const currentQuery = route.query?.q;
+  if (route.name === 'episodeSearch' && currentQuery === q) {
+    // Force update by replacing with same route but different object reference
+    await router.replace({ 
+      name: 'episodeSearch', 
+      query 
+    });
+  } else {
+    await router.push({ 
+      name: 'episodeSearch', 
+      query 
+    });
+  }
 };
 
 const submitAIChat = async () => {

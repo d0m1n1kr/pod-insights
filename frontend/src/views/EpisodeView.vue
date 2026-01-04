@@ -495,8 +495,15 @@ const formatDurationSec = (sec?: number) => {
 watch(
   () => route.query?.q,
   (q) => {
-    if (typeof q === 'string' && q.trim()) {
-      searchQuery.value = q.trim();
+    const queryStr = typeof q === 'string' ? q.trim() : '';
+    
+    // Update searchQuery if it differs from route query
+    if (searchQuery.value !== queryStr) {
+      searchQuery.value = queryStr;
+    }
+    
+    if (queryStr) {
+      // Trigger search if we have a query
       searchEpisodes(false); // Explicitly pass false to ensure results are cleared
     } else if (!selectedEpisode.value) {
       // If no search query and no episode selected, load latest episodes
