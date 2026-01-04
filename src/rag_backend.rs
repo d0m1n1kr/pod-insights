@@ -22,6 +22,8 @@ use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
 
 use config::{AppConfig, AppState};
 use handlers::{chat, episodes_latest, episodes_search, speakers_list};
+use cache::load_rag_index_cached;
+use std::path::PathBuf;
 
 async fn health() -> impl IntoResponse {
     (StatusCode::OK, "ok")
@@ -36,8 +38,7 @@ async fn main() -> Result<()> {
 
     let (cfg, settings_source) = AppConfig::from_env_and_settings()?;
     info!("Settings source: {}", settings_source);
-    info!("RAG databases will be loaded on-demand per podcast");
-
+    
     let cors = CorsLayer::new()
         .allow_origin(HeaderValue::from_static("*"))
         .allow_methods([Method::POST, Method::GET, Method::OPTIONS])
@@ -53,7 +54,7 @@ async fn main() -> Result<()> {
         .pool_max_idle_per_host(10)
         .build()
         .context("Failed to create HTTP client")?;
-
+    
     // Initialize LRU caches with size limits and TTL
     // Transcript cache: up to 1000 episodes, 1 hour TTL
     let transcript_cache = Cache::builder()
@@ -62,11 +63,9 @@ async fn main() -> Result<()> {
         .time_to_idle(Duration::from_secs(1800))
         .build();
     
-    // RAG cache: up to 20 podcasts, 1 hour TTL
+    // RAG cache: up to 20 podcasts, no TTL (never expires)
     let rag_cache = Cache::builder()
         .max_capacity(20)
-        .time_to_live(Duration::from_secs(3600))
-        .time_to_idle(Duration::from_secs(1800))
         .build();
     
     // Episode metadata cache: up to 5000 episodes, 1 hour TTL
@@ -104,11 +103,9 @@ async fn main() -> Result<()> {
         .time_to_idle(Duration::from_secs(1800))
         .build();
     
-    // Episode topics map cache: up to 20 podcasts, 1 hour TTL
+    // Episode topics map cache: up to 20 podcasts, no TTL (never expires)
     let episode_topics_map_cache = Cache::builder()
         .max_capacity(20)
-        .time_to_live(Duration::from_secs(3600))
-        .time_to_idle(Duration::from_secs(1800))
         .build();
 
     let app_state = AppState {
@@ -124,6 +121,12 @@ async fn main() -> Result<()> {
         episode_topics_map_cache,
     };
 
+    // Pre-cache all embedding databases
+    info!("Pre-loading all embedding databases...");
+    preload_embedding_databases(&app_state).await;
+    info!("Finished pre-loading embedding databases");
+
+
     let app = Router::new()
         .route("/api/chat", post(chat))
         .route("/api/episodes/search", post(episodes_search))
@@ -138,4 +141,61 @@ async fn main() -> Result<()> {
     let listener = tokio::net::TcpListener::bind(cfg.bind_addr).await?;
     axum::serve(listener, app).await?;
     Ok(())
+}
+
+/// Pre-load all embedding databases found in the db/ directory
+async fn preload_embedding_databases(app_state: &AppState) {
+    let db_dir = PathBuf::from("db");
+    
+    // Read db directory to find all podcast subdirectories
+    let mut entries = match tokio::fs::read_dir(&db_dir).await {
+        Ok(entries) => entries,
+        Err(e) => {
+            tracing::warn!("Failed to read db directory: {}", e);
+            return;
+        }
+    };
+    
+    let mut podcast_ids = Vec::new();
+    while let Ok(Some(entry)) = entries.next_entry().await {
+        let path = entry.path();
+        if path.is_dir() {
+            if let Some(podcast_id) = path.file_name().and_then(|n| n.to_str()) {
+                // Check if rag-embeddings.json exists
+                let rag_path = path.join("rag-embeddings.json");
+                if tokio::fs::metadata(&rag_path).await.is_ok() {
+                    podcast_ids.push(podcast_id.to_string());
+                }
+            }
+        }
+    }
+    
+    if podcast_ids.is_empty() {
+        tracing::info!("No embedding databases found in db/ directory");
+        return;
+    }
+    
+    tracing::info!("Found {} embedding databases to pre-load: {:?}", podcast_ids.len(), podcast_ids);
+    
+    // Load all databases in parallel
+    let mut load_tasks = Vec::new();
+    for podcast_id in podcast_ids {
+        let app_state_clone = app_state.clone();
+        let podcast_id_clone = podcast_id.clone();
+        load_tasks.push(tokio::spawn(async move {
+            match load_rag_index_cached(&app_state_clone, &podcast_id_clone).await {
+                Ok(_) => {
+                    tracing::info!("✓ Pre-loaded embeddings for podcast: {}", podcast_id_clone);
+                }
+                Err(e) => {
+                    tracing::warn!("Failed to pre-load embeddings for {}: {}", podcast_id_clone, e);
+                }
+            }
+        }));
+    }
+    
+    // Wait for all loads to complete
+    for task in load_tasks {
+        let _ = task.await;
+    }
 }

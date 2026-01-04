@@ -95,13 +95,10 @@ async fn get_file_mtime(path: &Path) -> Option<SystemTime> {
         .ok()
 }
 
-async fn is_cache_valid(cached_time: SystemTime, file_path: &Path) -> bool {
-    if let Some(file_mtime) = get_file_mtime(file_path).await {
-        file_mtime <= cached_time
-    } else {
-        // If we can't get file mtime, assume cache is invalid
-        false
-    }
+async fn is_cache_valid(_cached_time: SystemTime, _file_path: &Path) -> bool {
+    // Always return true - never invalidate embeddings cache
+    // This ensures embeddings stay in memory once loaded
+    true
 }
 
 // Cache loading functions
@@ -123,8 +120,9 @@ pub async fn load_rag_index_cached(
     };
 
     // Check cache (moka handles TTL and LRU automatically)
+    // Note: Cache validation is disabled - embeddings never expire once loaded
     if let Some(cached) = st.rag_cache.get(podcast_id).await {
-        if cached.file_path == rag_db_path && is_cache_valid(cached.loaded_at, &rag_db_path).await {
+        if cached.file_path == rag_db_path {
             return Ok(cached.rag.clone());
         }
     }
@@ -415,8 +413,9 @@ pub async fn load_episode_topics_map_cached(
     }
 
     // Check cache (moka handles TTL and LRU automatically)
+    // Note: Cache validation is disabled - embeddings never expire once loaded
     if let Some(cached) = st.episode_topics_map_cache.get(podcast_id).await {
-        if cached.rag_db_path == rag_db_path && is_cache_valid(cached.loaded_at, &rag_db_path).await {
+        if cached.rag_db_path == rag_db_path {
             return Ok(cached.topics_map.clone());
         }
     }
