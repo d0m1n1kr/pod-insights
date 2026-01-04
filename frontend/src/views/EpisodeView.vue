@@ -4,7 +4,7 @@ import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from '@/stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
-import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
 import SpeakingTimeFlowChart from '@/components/SpeakingTimeFlowChart.vue';
 import SpeakerBoxPlot from '@/components/SpeakerBoxPlot.vue';
 import SpeakerScatterPlot from '@/components/SpeakerScatterPlot.vue';
@@ -143,12 +143,6 @@ const loadTranscriptForCurrentSpeaker = async () => {
   if (!selectedEpisode.value?.number || transcriptData.value) return;
   
   try {
-    const withBase = (p: string) => {
-      const base = (import.meta as any)?.env?.BASE_URL || '/';
-      const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-      const rel = String(p).replace(/^\/+/, '');
-      return `${b}${rel}`;
-    };
     
     const transcriptUrl = withBase(getPodcastFileUrl(`episodes/${selectedEpisode.value.number}-ts-live.json`));
     const response = await fetch(transcriptUrl, { cache: 'force-cache' });
@@ -585,12 +579,6 @@ watch(
   { immediate: false } // Don't run on initial mount to avoid double loading
 );
 
-const withBase = (p: string) => {
-  const base = (import.meta as any)?.env?.BASE_URL || '/';
-  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-  const rel = String(p).replace(/^\/+/, '');
-  return `${b}${rel}`;
-};
 
 const playEpisode = async () => {
   if (!selectedEpisode.value?.number) return;

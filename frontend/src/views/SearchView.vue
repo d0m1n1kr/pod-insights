@@ -5,7 +5,7 @@ import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from '@/stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
 import { marked } from 'marked';
-import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
 
 type ChatSource = {
   episodeNumber: number;
@@ -355,12 +355,6 @@ watch(
   }
 );
 
-const withBase = (p: string) => {
-  const base = (import.meta as any)?.env?.BASE_URL || '/';
-  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-  const rel = String(p).replace(/^\/+/, '');
-  return `${b}${rel}`;
-};
 
 const ensureMp3Index = async () => {
   if (mp3IndexLoaded.value || mp3IndexError.value) return;

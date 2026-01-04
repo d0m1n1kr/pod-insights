@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-01-04T13:12:34.195Z",
+  "podcastId": "lnp",
+  "count": 4,
+  "speakers": [
+    {
+      "slug": "andre-meister",
+      "name": "Andre Meister",
+      "hasImage": true,
+      "imageFile": "andre-meister.jpg",
+      "hasMeta": true
+    },
+    {
+      "slug": "linus-neumann",
+      "name": "Linus Neumann",
+      "hasImage": true,
+      "imageFile": "linus-neumann.jpg",
+      "hasMeta": true
+    },
+    {
+      "slug": "thomas-lohninger",
+      "name": "Thomas Lohninger",
+      "hasImage": true,
+      "imageFile": "thomas-lohninger.jpg",
+      "hasMeta": true
+    },
+    {
+      "slug": "tim-pritlove",
+      "name": "Tim Pritlove",
+      "hasImage": true,
+      "imageFile": "tim-pritlove.jpg",
+      "hasMeta": true
+    }
+  ]
+}

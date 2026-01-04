@@ -6,6 +6,22 @@ import { useSettingsStore, type Podcast } from '@/stores/settings';
 export type { Podcast };
 
 /**
+ * Helper function to prepend base URL to relative paths
+ * If the path is already an absolute URL (http:// or https://), return it as-is
+ */
+export function withBase(path: string): string {
+  // If path is already an absolute URL, return as-is
+  if (path.startsWith('http://') || path.startsWith('https://')) {
+    return path;
+  }
+  
+  const base = (import.meta as any)?.env?.BASE_URL || '/';
+  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
+  const rel = String(path).replace(/^\/+/, '');
+  return `${b}${rel}`;
+}
+
+/**
  * Get the CDN base URL from environment variable
  * If VITE_CDN_BASE_URL is set, use it; otherwise use local paths
  */
@@ -91,6 +107,60 @@ export function getEpisodeUrl(episodeNumber: number, podcastId?: string): string
  */
 export function getSpeakerMetaUrl(slug: string, podcastId?: string): string {
   return getPodcastFileUrl(`speakers/${slug}-meta.json`, podcastId);
+}
+
+/**
+ * Get URL for speaker image file
+ * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
+ */
+export function getSpeakerImageUrl(slug: string, imageFileName: string, podcastId?: string): string {
+  const settings = useSettingsStore();
+  const pid = podcastId || settings.selectedPodcast || 'freakshow';
+  const cdnBase = getCdnBaseUrl();
+  
+  if (cdnBase) {
+    return `${cdnBase}/podcasts/${pid}/speakers/${imageFileName}`;
+  }
+  return `/podcasts/${pid}/speakers/${imageFileName}`;
+}
+
+/**
+ * Load speaker index-meta.json to check which speaker meta files exist
+ * This reduces 404 requests for non-existent speakers
+ * Note: This is separate from index.json which contains speaker statistics (used by backend)
+ */
+export async function loadSpeakerIndex(podcastId?: string): Promise<Map<string, { slug: string; name: string; hasImage: boolean; imageFile?: string }> | null> {
+  const settings = useSettingsStore();
+  const pid = podcastId || settings.selectedPodcast || 'freakshow';
+  const indexUrl = getPodcastFileUrl('speakers/index-meta.json', pid);
+  
+  try {
+    const response = await fetch(indexUrl, { cache: 'force-cache' });
+    if (!response.ok) {
+      return null; // Index doesn't exist, fall back to individual requests
+    }
+    
+    const data = await response.json();
+    const indexMap = new Map<string, { slug: string; name: string; hasImage: boolean; imageFile?: string }>();
+    
+    if (Array.isArray(data.speakers)) {
+      for (const speaker of data.speakers) {
+        if (speaker.slug) {
+          indexMap.set(speaker.slug, {
+            slug: speaker.slug,
+            name: speaker.name || speaker.slug,
+            hasImage: speaker.hasImage || false,
+            imageFile: speaker.imageFile
+          });
+        }
+      }
+    }
+    
+    return indexMap;
+  } catch (error) {
+    console.warn('Failed to load speaker index-meta:', error);
+    return null; // Fall back to individual requests
+  }
 }
 
 /**

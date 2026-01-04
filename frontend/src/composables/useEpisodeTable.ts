@@ -3,14 +3,7 @@
 import { ref, nextTick, watch, onUnmounted, type Ref } from 'vue';
 import { useInlineEpisodePlayer } from './useInlineEpisodePlayer';
 import { loadEpisodeDetail, getCachedEpisodeDetail, type EpisodeDetail } from './useEpisodeDetails';
-import { getEpisodeUrl } from './usePodcast';
-
-const withBase = (p: string) => {
-  const base = (import.meta as any)?.env?.BASE_URL || '/';
-  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-  const rel = String(p).replace(/^\/+/, '');
-  return `${b}${rel}`;
-};
+import { getEpisodeUrl, withBase } from './usePodcast';
 
 function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));

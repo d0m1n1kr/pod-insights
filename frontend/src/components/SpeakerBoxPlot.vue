@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, onUnmounted } from 'vue';
 import * as d3 from 'd3';
-import { getPodcastFileUrl, getSpeakerMetaUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakerMetaUrl, withBase } from '@/composables/usePodcast';
 
 type SpeakerStats = {
   v: number;
@@ -151,12 +151,6 @@ const loadTranscript = async () => {
   
   transcriptLoading.value = true;
   try {
-    const withBase = (p: string) => {
-      const base = (import.meta as any)?.env?.BASE_URL || '/';
-      const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-      const rel = String(p).replace(/^\/+/, '');
-      return `${b}${rel}`;
-    };
     
     const transcriptUrl = withBase(getPodcastFileUrl(`episodes/${props.episodeNumber}-ts-live.json`));
     const response = await fetch(transcriptUrl, { cache: 'force-cache' });

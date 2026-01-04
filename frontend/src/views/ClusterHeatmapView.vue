@@ -253,7 +253,7 @@ import { loadVariantData } from '@/composables/useVariants';
 import { getSpeakerMetaUrl } from '@/composables/usePodcast';
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
-import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
 import { useLazyEpisodeDetails, type EpisodeDetail as EpisodeDetailType, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 
 const settingsStore = useSettingsStore();
@@ -269,12 +269,6 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
     return;
   }
 
-  const withBase = (p: string) => {
-    const base = (import.meta as any)?.env?.BASE_URL || '/';
-    const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-    const rel = String(p).replace(/^\/+/, '');
-    return `${b}${rel}`;
-  };
 
   audioPlayerStore.play({
     src: mp3,

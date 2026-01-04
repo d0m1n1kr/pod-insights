@@ -4,7 +4,7 @@ import * as d3 from 'd3';
 import type { TopicRiverData, ProcessedTopicData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
-import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
 import { useLazyEpisodeDetails, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 
 const props = defineProps<{
@@ -626,14 +626,7 @@ watch(
   }
 );
 
-const withBase = (p: string) => {
-  // Ensure static assets work when deployed under a sub-path (Vite base).
-  // Example: BASE_URL = "/freakshow/" -> "/freakshow/episodes/285-ts-live.json"
-  const base = (import.meta as any)?.env?.BASE_URL || '/';
-  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-  const rel = String(p).replace(/^\/+/, '');
-  return `${b}${rel}`;
-};
+// Note: withBase is now imported from usePodcast and handles absolute URLs correctly
 
 const parseHmsToSeconds = (hms: unknown): number | null => {
   const s = typeof hms === 'string' ? hms.trim() : '';

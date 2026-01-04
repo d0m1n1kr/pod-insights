@@ -1,14 +1,7 @@
 // Composable for lazy loading and caching episode details
 import { ref, type Ref } from 'vue';
 import { useSettingsStore } from '@/stores/settings';
-import { getEpisodeUrl } from './usePodcast';
-
-const withBase = (p: string) => {
-  const base = (import.meta as any)?.env?.BASE_URL || '/';
-  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-  const rel = String(p).replace(/^\/+/, '');
-  return `${b}${rel}`;
-};
+import { getEpisodeUrl, withBase } from './usePodcast';
 
 export type EpisodeDetail = {
   title: string;

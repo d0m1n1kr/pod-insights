@@ -1,15 +1,8 @@
 import { computed, ref, watch } from 'vue';
 import { useSettingsStore } from '@/stores/settings';
-import { getEpisodeUrl, getPodcastFileUrl, getSpeakersBaseUrl } from '@/composables/usePodcast';
+import { getEpisodeUrl, getPodcastFileUrl, getSpeakersBaseUrl, withBase } from '@/composables/usePodcast';
 
 type PlayerInfo = { episodeNumber: number; positionSec: number; label: string };
-
-const withBase = (p: string) => {
-  const base = (import.meta as any)?.env?.BASE_URL || '/';
-  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-  const rel = String(p).replace(/^\/+/, '');
-  return `${b}${rel}`;
-};
 
 const buildEpisodeDeepLink = (episodeUrl: string, seconds: number) => {
   try {

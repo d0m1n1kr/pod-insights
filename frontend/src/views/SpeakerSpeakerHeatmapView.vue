@@ -246,7 +246,7 @@ import * as d3 from 'd3';
 import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
-import { getPodcastFileUrl, getSpeakerMetaUrl, getSpeakersBaseUrl, getEpisodeImageUrl, getEpisodeUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakerMetaUrl, getSpeakersBaseUrl, getEpisodeImageUrl, getEpisodeUrl, withBase } from '@/composables/usePodcast';
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
 import { useLazyEpisodeDetails, type EpisodeDetail as EpisodeDetailType, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 
@@ -254,12 +254,6 @@ const settingsStore = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
 const inlinePlayer = reactive(useInlineEpisodePlayer());
 
-const withBase = (p: string) => {
-  const base = (import.meta as any)?.env?.BASE_URL || '/';
-  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-  const rel = String(p).replace(/^\/+/, '');
-  return `${b}${rel}`;
-};
 
 // Helper function to play episode using global store
 const playEpisodeAt = async (episodeNumber: number, seconds: number, label: string) => {
@@ -270,12 +264,6 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
     return;
   }
 
-  const withBase = (p: string) => {
-    const base = (import.meta as any)?.env?.BASE_URL || '/';
-    const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-    const rel = String(p).replace(/^\/+/, '');
-    return `${b}${rel}`;
-  };
 
   audioPlayerStore.play({
     src: mp3,

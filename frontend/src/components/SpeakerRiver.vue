@@ -4,7 +4,7 @@ import * as d3 from 'd3';
 import type { SpeakerRiverData, ProcessedSpeakerData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
-import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl, getSpeakerMetaUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl, getSpeakerMetaUrl, withBase } from '@/composables/usePodcast';
 import { loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 
 const props = defineProps<{
@@ -552,13 +552,6 @@ const observerCleanups = ref<Map<number, () => void>>(new Map());
 // Each call to load the episode table increments this id; stale runs must not mutate state.
 let episodeDetailsRequestId = 0;
 
-// Helper function for base URL
-const withBase = (p: string) => {
-  const base = (import.meta as any)?.env?.BASE_URL || '/';
-  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
-  const rel = String(p).replace(/^\/+/, '');
-  return `${b}${rel}`;
-};
 
 // MP3 index loading function
 const ensureMp3Index = async () => {
