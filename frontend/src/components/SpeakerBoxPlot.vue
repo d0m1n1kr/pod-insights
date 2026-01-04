@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, onUnmounted } from 'vue';
-import * as d3 from 'd3';
+import {
+  select,
+  scaleLinear,
+  scaleLog,
+  scaleOrdinal,
+  axisBottom,
+  axisLeft,
+  min,
+  max,
+  type Selection
+} from '@/utils/d3-imports';
 import { getPodcastFileUrl, withBase } from '@/composables/usePodcast';
 import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
 
@@ -56,7 +66,7 @@ const selectedSpeakers = ref<Set<string>>(new Set());
 // Use speaker meta composable (uses index-meta.json to reduce 404 requests)
 const { loadSpeakers, getSpeakerImage } = useSpeakerMeta();
 
-let svg: d3.Selection<SVGSVGElement, unknown, null, undefined> | null = null;
+let svg: Selection<SVGSVGElement, unknown, null, undefined> | null = null;
 let resizeObserver: ResizeObserver | null = null;
 
 // Transcript data for finding speaker segments
@@ -234,7 +244,7 @@ const drawChart = () => {
   if (!chartRef.value || !props.data || !tooltipRef.value) return;
 
   // Clear previous chart
-  d3.select(chartRef.value).selectAll('*').remove();
+  select(chartRef.value).selectAll('*').remove();
 
   // Ensure tooltip is hidden initially
   if (tooltipRef.value) {
@@ -253,8 +263,7 @@ const drawChart = () => {
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
 
-  svg = d3
-    .select(container)
+  svg = select(container)
     .append('svg')
     .attr('width', width)
     .attr('height', height);
@@ -278,8 +287,7 @@ const drawChart = () => {
   }
 
   // Scales
-  const xScale = d3
-    .scaleLinear()
+  const xScale = scaleLinear()
     .domain([0, props.data.episodeDurationSec])
     .range([0, innerWidth]);
 
@@ -296,23 +304,21 @@ const drawChart = () => {
     }
   });
   
-  const minDuration = allMins.length > 0 ? d3.min(allMins)! : 0.1;
-  const maxDuration = allMaxs.length > 0 ? d3.max(allMaxs)! : 1;
+  const minDuration = allMins.length > 0 ? min(allMins)! : 0.1;
+  const maxDuration = allMaxs.length > 0 ? max(allMaxs)! : 1;
   
   // Use log scale with actual min/max values (no padding, no nice rounding)
   // Ensure minimum is at least 0.1 to avoid log(0) issues
   const yMin = Math.max(0.1, minDuration);
   const yMax = Math.max(yMin * 1.01, maxDuration); // Ensure max is slightly larger than min
   
-  const yScale = d3
-    .scaleLog()
+  const yScale = scaleLog()
     .domain([yMin, yMax])
     .range([innerHeight, 0]);
   // Don't use .nice() as it modifies the domain and doesn't respect actual min/max values
 
   // Color scale
-  const colorScale = d3
-    .scaleOrdinal<string>()
+  const colorScale = scaleOrdinal<string>()
     .domain(props.data.speakers)
     .range(colors);
 
@@ -363,7 +369,7 @@ const drawChart = () => {
     const hasSelectedSpeakers = selectedSpeakers.value.size > 0;
     
     allBoxElements.each(function() {
-      const element = d3.select(this);
+      const element = select(this);
       const elementSpeaker = element.attr('data-speaker');
       const node = element.node();
       const isSelected = selectedSpeakers.value.has(elementSpeaker);
@@ -399,7 +405,7 @@ const drawChart = () => {
     // Update legend visual state
     const legendItems = g.selectAll('.legend-item');
     legendItems.each(function() {
-      const legendItem = d3.select(this);
+      const legendItem = select(this);
       const legendSpeaker = legendItem.attr('data-speaker');
       const isSelected = selectedSpeakers.value.has(legendSpeaker);
       
@@ -452,14 +458,49 @@ const drawChart = () => {
     const bp = d.boxplot;
     const color = colorScale(d.speaker);
 
+    // Validate boxplot data - skip if invalid
+    if (!bp || 
+        typeof bp.min !== 'number' || isNaN(bp.min) ||
+        typeof bp.max !== 'number' || isNaN(bp.max) ||
+        typeof bp.q1 !== 'number' || isNaN(bp.q1) ||
+        typeof bp.q3 !== 'number' || isNaN(bp.q3) ||
+        typeof bp.median !== 'number' || isNaN(bp.median)) {
+      console.warn('Invalid boxplot data for speaker:', d.speaker, bp);
+      return;
+    }
+
+    // Ensure values are within valid range for log scale (must be > 0)
+    // Clamp values to domain range to avoid NaN from log scale
+    const safeMin = Math.max(yMin, Math.min(yMax, bp.min));
+    const safeMax = Math.max(yMin, Math.min(yMax, bp.max));
+    const safeQ1 = Math.max(yMin, Math.min(yMax, bp.q1));
+    const safeQ3 = Math.max(yMin, Math.min(yMax, bp.q3));
+    const safeMedian = Math.max(yMin, Math.min(yMax, bp.median));
+
+    // Validate yScale results - skip if any is NaN
+    const yMinPos = yScale(safeMin);
+    const yMaxPos = yScale(safeMax);
+    const yQ1Pos = yScale(safeQ1);
+    const yQ3Pos = yScale(safeQ3);
+    const yMedianPos = yScale(safeMedian);
+
+    if (isNaN(yMinPos) || isNaN(yMaxPos) || isNaN(yQ1Pos) || isNaN(yQ3Pos) || isNaN(yMedianPos)) {
+      console.warn('NaN from yScale for speaker:', d.speaker, {
+        min: bp.min, max: bp.max, q1: bp.q1, q3: bp.q3, median: bp.median,
+        yMin, yMax,
+        yMinPos, yMaxPos, yQ1Pos, yQ3Pos, yMedianPos
+      });
+      return;
+    }
+
     // Draw whiskers (min to Q1 and Q3 to max) - add data attribute for highlighting
     const strokeWidth = 2;
     // Lower whisker
     g.append('line')
       .attr('x1', x)
       .attr('x2', x)
-      .attr('y1', yScale(bp.min))
-      .attr('y2', yScale(bp.q1))
+      .attr('y1', yMinPos)
+      .attr('y2', yQ1Pos)
       .attr('stroke', color)
       .attr('stroke-width', strokeWidth)
       .attr('data-speaker', d.speaker)
@@ -470,8 +511,8 @@ const drawChart = () => {
     g.append('line')
       .attr('x1', x)
       .attr('x2', x)
-      .attr('y1', yScale(bp.q3))
-      .attr('y2', yScale(bp.max))
+      .attr('y1', yQ3Pos)
+      .attr('y2', yMaxPos)
       .attr('stroke', color)
       .attr('stroke-width', strokeWidth)
       .attr('data-speaker', d.speaker)
@@ -481,9 +522,9 @@ const drawChart = () => {
     // Draw box (Q1 to Q3) - make it more visible
     g.append('rect')
       .attr('x', x - boxWidth / 2)
-      .attr('y', yScale(bp.q3))
+      .attr('y', yQ3Pos)
       .attr('width', boxWidth)
-      .attr('height', yScale(bp.q1) - yScale(bp.q3))
+      .attr('height', yQ1Pos - yQ3Pos)
       .attr('fill', color)
       .attr('fill-opacity', 0.7)
       .attr('stroke', color)
@@ -495,8 +536,8 @@ const drawChart = () => {
     g.append('line')
       .attr('x1', x - boxWidth / 2)
       .attr('x2', x + boxWidth / 2)
-      .attr('y1', yScale(bp.median))
-      .attr('y2', yScale(bp.median))
+      .attr('y1', yMedianPos)
+      .attr('y2', yMedianPos)
       .attr('stroke', isDarkMode ? '#f3f4f6' : '#111827')
       .attr('stroke-width', strokeWidth)
       .attr('data-speaker', d.speaker)
@@ -506,7 +547,7 @@ const drawChart = () => {
     // Draw min and max markers - make them slightly larger
     g.append('circle')
       .attr('cx', x)
-      .attr('cy', yScale(bp.min))
+      .attr('cy', yMinPos)
       .attr('r', 4)
       .attr('fill', color)
       .attr('stroke', color)
@@ -517,7 +558,7 @@ const drawChart = () => {
 
     g.append('circle')
       .attr('cx', x)
-      .attr('cy', yScale(bp.max))
+      .attr('cy', yMaxPos)
       .attr('r', 4)
       .attr('fill', color)
       .attr('stroke', color)
@@ -529,9 +570,9 @@ const drawChart = () => {
     // Add invisible overlay for tooltip and click selection
     g.append('rect')
       .attr('x', x - boxWidth / 2 - 5)
-      .attr('y', yScale(bp.max) - 5)
+      .attr('y', yMaxPos - 5)
       .attr('width', boxWidth + 10)
-      .attr('height', yScale(bp.min) - yScale(bp.max) + 10)
+      .attr('height', yMinPos - yMaxPos + 10)
       .attr('fill', 'transparent')
       .style('cursor', 'pointer')
       .on('click', function(event: MouseEvent) {
@@ -613,7 +654,7 @@ const drawChart = () => {
   });
 
   // X axis
-  const xAxis = d3.axisBottom(xScale).tickFormat((d) => {
+  const xAxis = axisBottom(xScale).tickFormat((d) => {
     const sec = Number(d);
     const h = Math.floor(sec / 3600);
     const m = Math.floor((sec % 3600) / 60);
@@ -640,7 +681,7 @@ const drawChart = () => {
     .text('Position in Episode');
 
   // Y axis (log scale)
-  const yAxis = d3.axisLeft(yScale).tickFormat((d) => {
+  const yAxis = axisLeft(yScale).tickFormat((d) => {
     const sec = Number(d);
     if (sec >= 60) {
       const m = Math.floor(sec / 60);

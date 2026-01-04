@@ -1,6 +1,15 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, computed, nextTick } from 'vue';
-import * as d3 from 'd3';
+import {
+  select,
+  scaleLinear,
+  axisBottom,
+  axisLeft,
+  extent,
+  schemeTableau10,
+  schemePaired,
+  schemeSet3
+} from '@/utils/d3-imports';
 import { loadVariantData } from '@/composables/useVariants';
 import { useSettingsStore } from '@/stores/settings';
 import NoVariantsMessage from '../components/NoVariantsMessage.vue';
@@ -112,9 +121,9 @@ function getClusterColor(clusterId: string): string {
   
   // Use D3's extended color schemes
   const extendedScheme = [
-    ...d3.schemeTableau10,
-    ...d3.schemePaired,
-    ...d3.schemeSet3
+    ...schemeTableau10,
+    ...schemePaired,
+    ...schemeSet3
   ];
   
   // Hash the cluster ID to get consistent colors
@@ -138,13 +147,13 @@ function createScatterplot() {
   }
   
   // Clear existing SVG
-  d3.select('#umap-chart').selectAll('*').remove();
+  select('#umap-chart').selectAll('*').remove();
   
   const points = filteredPoints.value;
   console.log('Creating scatterplot with', points.length, 'points');
   
   // Create SVG
-  const svg = d3.select('#umap-chart')
+  const svg = select('#umap-chart')
     .append('svg')
     .attr('width', width)
     .attr('height', height)
@@ -152,22 +161,22 @@ function createScatterplot() {
     .attr('style', 'max-width: 100%; height: auto;');
   
   // Create scales
-  const xExtent = d3.extent(points, d => d.x) as [number, number];
-  const yExtent = d3.extent(points, d => d.y) as [number, number];
-  
-  const xScale = d3.scaleLinear()
+  const xExtent = extent(points, d => d.x) as [number, number];
+  const yExtent = extent(points, d => d.y) as [number, number];
+
+  const xScale = scaleLinear()
     .domain(xExtent)
     .range([margin.left, width - margin.right])
     .nice();
-  
-  const yScale = d3.scaleLinear()
+
+  const yScale = scaleLinear()
     .domain(yExtent)
     .range([height - margin.bottom, margin.top])
     .nice();
-  
+
   // Create axes
-  const xAxis = d3.axisBottom(xScale).ticks(10);
-  const yAxis = d3.axisLeft(yScale).ticks(10);
+  const xAxis = axisBottom(xScale).ticks(10);
+  const yAxis = axisLeft(yScale).ticks(10);
   
   svg.append('g')
     .attr('transform', `translate(0,${height - margin.bottom})`)
@@ -196,7 +205,7 @@ function createScatterplot() {
     .text('UMAP 2');
   
   // Create tooltip
-  const tooltip = d3.select('#umap-tooltip');
+  const tooltip = select('#umap-tooltip');
   
   // Add points
   const pointsGroup = svg.append('g');
@@ -225,7 +234,7 @@ function createScatterplot() {
     .on('mouseover', function(event, d) {
       hoveredPoint.value = d;
       
-      d3.select(this)
+      select(this)
         .transition()
         .duration(150)
         .attr('r', 8)
@@ -252,7 +261,7 @@ function createScatterplot() {
     .on('mouseout', function() {
       hoveredPoint.value = null;
       
-      d3.select(this)
+      select(this)
         .transition()
         .duration(150)
         .attr('r', (d: any) => {

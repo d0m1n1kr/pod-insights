@@ -242,7 +242,19 @@
 
 <script setup lang="ts">
 import { ref, onMounted, computed, watch, reactive, nextTick, onUnmounted } from 'vue';
-import * as d3 from 'd3';
+import {
+  select,
+  selectAll,
+  scaleBand,
+  scaleLinear,
+  scaleSequential,
+  axisBottom,
+  min,
+  max,
+  range,
+  rgb,
+  interpolateBuGn
+} from '@/utils/d3-imports';
 import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
@@ -726,9 +738,9 @@ function drawHeatmap() {
   if (!svgElement.value || !heatmapData.value || !heatmapContainer.value) return;
 
   // Remove all existing tooltips first
-  d3.selectAll('.heatmap-tooltip').remove();
+  selectAll('.heatmap-tooltip').remove();
 
-  const svg = d3.select(svgElement.value);
+  const svg = select(svgElement.value);
   svg.selectAll('*').remove();
 
   const matrix = filteredMatrix.value;
@@ -768,8 +780,8 @@ function drawHeatmap() {
 
   // Color scale + row/col hover normalization (in-place update, no redraw)
   const allCounts = matrix.flatMap(row => row.values.map(v => v.count)).filter(c => c > 0);
-  const globalMin = d3.min(allCounts) ?? 0;
-  const globalMax = d3.max(allCounts) ?? 0;
+  const globalMin = min(allCounts) ?? 0;
+  const globalMax = max(allCounts) ?? 0;
 
   function normalizeDomain(min: number, max: number): [number, number] {
     if (!Number.isFinite(max) || max <= 0) return [0, 1];
@@ -780,7 +792,7 @@ function drawHeatmap() {
 
   const globalDomain = normalizeDomain(globalMin, globalMax);
   let currentDomain: [number, number] = globalDomain;
-  let colorScale = d3.scaleSequential(d3.interpolateBuGn).domain(currentDomain);
+  let colorScale = scaleSequential(interpolateBuGn).domain(currentDomain);
 
   function getEmptyCellColor() {
     const isDark = document.documentElement.classList.contains('dark');
@@ -788,7 +800,7 @@ function drawHeatmap() {
   }
 
   function getTextColorForCount(count: number): string {
-    const color = d3.rgb(colorScale(count));
+    const color = rgb(colorScale(count));
     const luminance = (0.299 * color.r + 0.587 * color.g + 0.114 * color.b) / 255;
     return luminance > 0.5 ? '#1f2937' : 'white';
   }
@@ -798,7 +810,7 @@ function drawHeatmap() {
     if (!row) return globalDomain;
     const counts = row.values.map(v => v.count).filter(c => c > 0);
     if (counts.length === 0) return globalDomain;
-    return normalizeDomain(d3.min(counts) ?? 0, d3.max(counts) ?? 0);
+    return normalizeDomain(min(counts) ?? 0, max(counts) ?? 0);
   }
 
   function getColDomain(colId: string): [number, number] {
@@ -808,17 +820,17 @@ function drawHeatmap() {
       .map(v => v.count)
       .filter(c => c > 0);
     if (counts.length === 0) return globalDomain;
-    return normalizeDomain(d3.min(counts) ?? 0, d3.max(counts) ?? 0);
+    return normalizeDomain(min(counts) ?? 0, max(counts) ?? 0);
   }
 
   // X axis (speakers on x-axis)
-  const xScale = d3.scaleBand()
+  const xScale = scaleBand()
     .domain(speakers2.map(s => s.id))
     .range([0, width])
     .padding(0.05);
 
   // Y axis (speakers on y-axis)
-  const yScale = d3.scaleBand()
+  const yScale = scaleBand()
     .domain(matrix.map(row => row.speakerId || '').filter(id => id))
     .range([0, height])
     .padding(0.05);
@@ -856,12 +868,12 @@ function drawHeatmap() {
         .on('mouseover', function(event) {
           if (value.count === 0) return;
           
-          d3.select(this)
+          select(this)
             .attr('stroke', '#000')
             .attr('stroke-width', 2);
 
           // Remove any existing tooltips first
-          d3.selectAll('.heatmap-tooltip').remove();
+          selectAll('.heatmap-tooltip').remove();
 
           // Get speaker images
           const speaker1Image = getSpeakerImage(row.speaker1Name || row.speakerName || '');
@@ -875,7 +887,7 @@ function drawHeatmap() {
             : '';
 
           // Create tooltip
-          d3.select('body').append('div')
+          select('body').append('div')
             .attr('class', 'heatmap-tooltip')
             .style('position', 'absolute')
             .style('background', 'rgba(0, 0, 0, 0.8)')
@@ -894,18 +906,18 @@ function drawHeatmap() {
             .style('top', (event.pageY - 28) + 'px');
         })
         .on('mouseout', function() {
-          d3.select(this)
+          select(this)
             .attr('stroke', 'none')
             .attr('stroke-width', 0);
 
           // Remove tooltip
-          d3.selectAll('.heatmap-tooltip').remove();
+          selectAll('.heatmap-tooltip').remove();
         })
         .on('click', function() {
           if (value.count === 0) return;
           
           // Remove tooltip on click
-          d3.selectAll('.heatmap-tooltip').remove();
+          selectAll('.heatmap-tooltip').remove();
           
           selectedCell.value = {
             speaker1Name: row.speaker1Name || row.speakerName || '',
@@ -999,11 +1011,11 @@ function drawHeatmap() {
   const legend = svg.append('g')
     .attr('transform', `translate(${margin.left},${margin.top + height + 40})`);
 
-  const legendScale = d3.scaleLinear()
+  const legendScale = scaleLinear()
     .domain(currentDomain)
     .range([0, legendWidth]);
 
-  const legendAxis = d3.axisBottom(legendScale)
+  const legendAxis = axisBottom(legendScale)
     .ticks(5)
     .tickFormat(d => d.toString());
 
@@ -1014,7 +1026,7 @@ function drawHeatmap() {
     .attr('id', gradientId);
 
   gradient.selectAll('stop')
-    .data(d3.range(0, 1.01, 0.1))
+    .data(range(0, 1.01, 0.1))
     .enter()
     .append('stop')
     .attr('offset', d => `${d * 100}%`)
@@ -1044,7 +1056,7 @@ function drawHeatmap() {
 
   function applyDomain(domain: [number, number], focus: HeatmapFocus = null) {
     currentDomain = normalizeDomain(domain[0], domain[1]);
-    colorScale = d3.scaleSequential(d3.interpolateBuGn).domain(currentDomain);
+    colorScale = scaleSequential(interpolateBuGn).domain(currentDomain);
 
     g.selectAll<SVGRectElement, unknown>('rect.heatmap-cell')
       .attr('fill', function() {

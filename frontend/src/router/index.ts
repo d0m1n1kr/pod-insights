@@ -1,15 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import { useSettingsStore } from '../stores/settings';
-import TopicsView from '../views/TopicsView.vue';
-import SpeakersView from '../views/SpeakersView.vue';
-import ClusterHeatmapView from '../views/ClusterHeatmapView.vue';
-import SpeakerSpeakerHeatmapView from '../views/SpeakerSpeakerHeatmapView.vue';
-import ClusterClusterHeatmapView from '../views/ClusterClusterHeatmapView.vue';
-import DurationHeatmapView from '../views/DurationHeatmapView.vue';
-import UmapView from '../views/UmapView.vue';
-import AboutView from '../views/AboutView.vue';
-import SearchView from '../views/SearchView.vue';
-import EpisodeView from '../views/EpisodeView.vue';
+
+// Lazy load views for code splitting
+const TopicsView = () => import('../views/TopicsView.vue');
+const SpeakersView = () => import('../views/SpeakersView.vue');
+const ClusterHeatmapView = () => import('../views/ClusterHeatmapView.vue');
+const SpeakerSpeakerHeatmapView = () => import('../views/SpeakerSpeakerHeatmapView.vue');
+const ClusterClusterHeatmapView = () => import('../views/ClusterClusterHeatmapView.vue');
+const DurationHeatmapView = () => import('../views/DurationHeatmapView.vue');
+const UmapView = () => import('../views/UmapView.vue');
+const AboutView = () => import('../views/AboutView.vue');
+const SearchView = () => import('../views/SearchView.vue');
+const EpisodeView = () => import('../views/EpisodeView.vue');
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

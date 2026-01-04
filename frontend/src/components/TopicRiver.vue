@@ -1,6 +1,25 @@
 <script setup lang="ts">
 import { ref, onMounted, computed, watch, nextTick, onUnmounted } from 'vue';
-import * as d3 from 'd3';
+import {
+  select,
+  selectAll,
+  scaleLinear,
+  axisBottom,
+  format,
+  extent,
+  area,
+  curveCatmullRom,
+  stack,
+  stackOffsetExpand,
+  stackOffsetWiggle,
+  stackOrderInsideOut,
+  pointer,
+  schemeCategory10,
+  schemePaired,
+  schemeSet3,
+  transition,
+  easeSinInOut
+} from '@/utils/d3-imports';
 import type { TopicRiverData, ProcessedTopicData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
@@ -91,14 +110,14 @@ const processedData = computed(() => {
   // Erweiterte Farbpalette für mehr Topics
   const generateColors = (count: number): string[] => {
     if (count <= 10) {
-      return d3.schemeCategory10.slice(0, count);
+      return schemeCategory10.slice(0, count);
     }
     
     // Kombiniere mehrere D3 Farbschemata für bessere Unterscheidbarkeit
     const colors = [
-      ...d3.schemeCategory10,
-      ...d3.schemePaired,
-      ...d3.schemeSet3
+      ...schemeCategory10,
+      ...schemePaired,
+      ...schemeSet3
     ];
     
     // Falls immer noch nicht genug, generiere zusätzliche Farben mit HSL
@@ -163,7 +182,7 @@ const stopPulse = () => {
   pulsingTopicKey = null;
   if (!svgRef.value) return;
   // Stop any in-flight pulse transitions and remove the pulse stroke.
-  d3.select(svgRef.value)
+  select(svgRef.value)
     .selectAll<SVGPathElement, any>('.stream')
     .interrupt()
     .attr('stroke', 'none');
@@ -189,20 +208,20 @@ const pulseOnce = (key: string) => {
     .attr('stroke-opacity', 0)
     .transition()
     .duration(650)
-    .ease(d3.easeSinInOut)
+    .ease(easeSinInOut)
     .attr('stroke-width', 2.5)
     .attr('stroke-opacity', 0.9)
     .transition()
     .delay(120)
     .duration(850)
-    .ease(d3.easeSinInOut)
+    .ease(easeSinInOut)
     .attr('stroke-width', 0)
     .attr('stroke-opacity', 0)
     .on('end', () => {
       if (pulsingTopicKey === key && hoveredTopic.value === key) pulseOnce(key);
       else {
         // Ensure cleanup if hover ended mid-loop.
-        d3.select(svgRef.value as any).selectAll('.stream').attr('stroke', 'none');
+        select(svgRef.value as any).selectAll('.stream').attr('stroke', 'none');
       }
     });
 };
@@ -236,10 +255,10 @@ const drawRiver = () => {
   
   // Lösche vorherigen Inhalt
   stopPulse();
-  d3.select(svgRef.value).selectAll('*').remove();
+  select(svgRef.value).selectAll('*').remove();
   
   // No need to extend SVG width for legend anymore
-  const svg = d3.select(svgRef.value)
+  const svg = select(svgRef.value)
     .attr('width', width)
     .attr('height', height);
   
@@ -260,33 +279,33 @@ const drawRiver = () => {
   });
   
   const keys = topics.map(t => t.id);
-  const stack = d3.stack()
+  const stackFn = stack()
     .keys(keys)
     // In normierter Ansicht: stackOffsetExpand sorgt für gleich hohe Jahre (0-1)
     // In normaler Ansicht: stackOffsetWiggle für schöne Stream-Optik
-    .offset(settingsStore.normalizedView ? d3.stackOffsetExpand : d3.stackOffsetWiggle)
-    .order(d3.stackOrderInsideOut);
+    .offset(settingsStore.normalizedView ? stackOffsetExpand : stackOffsetWiggle)
+    .order(stackOrderInsideOut);
   
-  const series = stack(stackData);
+  const series = stackFn(stackData);
   
   // Scales
-  const xScale = d3.scaleLinear()
+  const xScale = scaleLinear()
     .domain([years[0] || 0, years[years.length - 1] || 0])
     .range([0, innerWidth]);
   
   const flatValues = series.flat(2).filter((d): d is number => d !== undefined);
-  const yExtent = d3.extent(flatValues) as [number, number];
+  const yExtent = extent(flatValues) as [number, number];
   // In normierter Ansicht: Domain immer auf [0, 1] begrenzen, da stackOffsetExpand normalisiert
   // Die Kurveninterpolation kann temporär Werte > 1.0 erzeugen, daher clampen wir die Domain
   const yDomain = settingsStore.normalizedView 
     ? [0, 1] as [number, number]
     : yExtent;
-  const yScale = d3.scaleLinear()
+  const yScale = scaleLinear()
     .domain(yDomain)
     .range([innerHeight, 0]);
   
   // Area generator
-  const area = d3.area<any>()
+  const areaFn = area<any>()
     .x((d: any) => xScale(d.data.year))
     .y0((d: any) => {
       // In normierter Ansicht: Werte auf [0, 1] clampen, da Kurveninterpolation Werte außerhalb erzeugen kann
@@ -300,7 +319,7 @@ const drawRiver = () => {
     })
     // Important: curveBasis is an approximating spline and can visually distort values at exact years.
     // Use an interpolating curve so the thickness at each year matches the underlying data much better.
-    .curve(d3.curveCatmullRom.alpha(0.5));
+    .curve(curveCatmullRom.alpha(0.5));
 
   // Hover highlight band for the nearest year (behind the streams)
   const year0 = Number.isFinite(years?.[0] as number) ? (years[0] as number) : 0;
@@ -360,7 +379,7 @@ const drawRiver = () => {
     .data(series)
     .join('path')
     .attr('class', 'stream')
-    .attr('d', area)
+    .attr('d', areaFn)
     .attr('fill', (d: any) => {
       const topic = topics.find(t => t.id === d.key);
       return topic?.color || '#ccc';
@@ -379,7 +398,7 @@ const drawRiver = () => {
       if (!tooltipRef.value) return;
       
       // Finde das nächste Jahr zum Mauszeiger
-      const [mx] = d3.pointer(event);
+      const [mx] = pointer(event);
       const yearRaw = Math.round(xScale.invert(mx));
       const year = nearestYear(yearRaw);
       hoveredYear.value = year;
@@ -420,7 +439,7 @@ const drawRiver = () => {
           
           // Highlight the year on X-axis
           if (svgRef.value) {
-            d3.select(svgRef.value)
+            select(svgRef.value)
               .selectAll('.x-axis text')
               .attr('fill', (tickYear: any) => tickYear === year ? '#2563eb' : '#666')
               .attr('font-weight', (tickYear: any) => tickYear === year ? '700' : '400')
@@ -430,7 +449,7 @@ const drawRiver = () => {
           tooltipRef.value.style.display = 'none';
           // Reset X-axis highlighting
           if (svgRef.value) {
-            d3.select(svgRef.value)
+            select(svgRef.value)
               .selectAll('.x-axis text')
               .attr('fill', '#666')
               .attr('font-weight', '400')
@@ -453,7 +472,7 @@ const drawRiver = () => {
       }
       // Reset X-axis highlighting (unless a year is selected)
       if (svgRef.value && !selectedYear.value) {
-        d3.select(svgRef.value)
+        select(svgRef.value)
           .selectAll('.x-axis text')
           .attr('fill', '#666')
           .attr('font-weight', '400')
@@ -472,8 +491,8 @@ const drawRiver = () => {
     });
   
   // X-Achse
-  const xAxis = d3.axisBottom(xScale)
-    .tickFormat(d3.format('d'))
+  const xAxis = axisBottom(xScale)
+    .tickFormat(format('d'))
     .ticks(years.length);
   
   const xAxisGroup = g.append('g')
@@ -505,7 +524,7 @@ const drawRiver = () => {
 const updateOpacity = () => {
   if (!svgRef.value) return;
   
-  const svg = d3.select(svgRef.value);
+  const svg = select(svgRef.value);
   
   // Update stream opacity
   svg.selectAll('.stream')

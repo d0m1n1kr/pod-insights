@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, onUnmounted } from 'vue';
-import * as d3 from 'd3';
+import {
+  select,
+  scaleLinear,
+  scaleOrdinal,
+  axisBottom,
+  axisLeft,
+  max
+} from '@/utils/d3-imports';
 import { getPodcastFileUrl, withBase } from '@/composables/usePodcast';
 import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
 
@@ -89,9 +96,25 @@ const loadTranscript = async () => {
   transcriptLoading.value = true;
   try {
     const transcriptUrl = withBase(getPodcastFileUrl(`episodes/${props.episodeNumber}-ts-live.json`));
+    console.debug('Loading transcript from:', transcriptUrl);
     const response = await fetch(transcriptUrl, { cache: 'force-cache' });
     if (response.ok) {
-      transcriptData.value = await response.json();
+      const data = await response.json();
+      console.debug('Transcript data loaded:', {
+        hasTimestamps: !!data.t,
+        timestampCount: data.t?.length || 0,
+        hasSpeakerIndices: !!data.s,
+        speakerIndexCount: data.s?.length || 0,
+        hasSpeakers: !!data.speakers,
+        speakerCount: data.speakers?.length || 0
+      });
+      transcriptData.value = data;
+      // Redraw chart after transcript is loaded
+      if (chartRef.value && props.data && tooltipRef.value) {
+        drawChart();
+      }
+    } else {
+      console.warn('Failed to load transcript:', response.status, response.statusText);
     }
   } catch (e) {
     console.error('Failed to load transcript:', e);
@@ -127,10 +150,27 @@ const getTopicsForInterval = (startSec: number, endSec: number): string[] => {
 
 // Extract speech segments from transcript data
 const extractSpeechSegments = (): SpeechSegment[] => {
-  if (!transcriptData.value) return [];
+  if (!transcriptData.value) {
+    console.debug('No transcript data available');
+    return [];
+  }
 
   const segments: SpeechSegment[] = [];
   const { t: timestamps, s: speakerIndices, speakers } = transcriptData.value;
+
+  // Validate data structure
+  if (!timestamps || !Array.isArray(timestamps) || timestamps.length === 0) {
+    console.warn('Invalid timestamps array in transcript data');
+    return [];
+  }
+  if (!speakerIndices || !Array.isArray(speakerIndices) || speakerIndices.length === 0) {
+    console.warn('Invalid speakerIndices array in transcript data');
+    return [];
+  }
+  if (!speakers || !Array.isArray(speakers) || speakers.length === 0) {
+    console.warn('Invalid speakers array in transcript data');
+    return [];
+  }
 
   // Each timestamp represents a speech segment with duration to next timestamp
   for (let i = 0; i < timestamps.length - 1; i++) {
@@ -159,6 +199,7 @@ const extractSpeechSegments = (): SpeechSegment[] => {
     }
   }
 
+  console.debug(`Extracted ${segments.length} speech segments from ${timestamps.length} timestamps`);
   return segments;
 };
 
@@ -166,7 +207,7 @@ const drawChart = () => {
   if (!chartRef.value || !props.data || !tooltipRef.value) return;
 
   // Clear previous chart
-  d3.select(chartRef.value).selectAll('*').remove();
+  select(chartRef.value).selectAll('*').remove();
 
   // Detect dark mode
   isDarkMode.value = document.documentElement.classList.contains('dark');
@@ -175,7 +216,7 @@ const drawChart = () => {
   const segments = extractSpeechSegments();
 
   if (segments.length === 0) {
-    d3.select(chartRef.value)
+    select(chartRef.value)
       .append('div')
       .attr('class', 'text-center text-gray-500 dark:text-gray-400 p-8')
       .text('No speech segments found');
@@ -198,8 +239,7 @@ const drawChart = () => {
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
 
-  const svg = d3
-    .select(container)
+  const svg = select(container)
     .append('svg')
     .attr('width', width)
     .attr('height', height);
@@ -209,17 +249,15 @@ const drawChart = () => {
     .attr('transform', `translate(${margin.left},${margin.top})`);
 
   // Color scale for speakers - use our custom colors
-  const colorScale = d3.scaleOrdinal(colors);
+  const colorScale = scaleOrdinal(colors);
 
   // Scales
-  const xScale = d3
-    .scaleLinear()
+  const xScale = scaleLinear()
     .domain([0, props.data.episodeDurationSec])
     .range([0, innerWidth]);
 
-  const yScale = d3
-    .scaleLinear()
-    .domain([0, d3.max(segments, d => d.duration) || 10])
+  const yScale = scaleLinear()
+    .domain([0, max(segments, d => d.duration) || 10])
     .range([innerHeight, 0])
     .nice();
 
@@ -240,7 +278,7 @@ const drawChart = () => {
       if (!tooltipRef.value) return;
 
       // Highlight this point
-      d3.select(this)
+      select(this)
         .attr('r', 6)
         .attr('fill-opacity', 1);
 
@@ -291,7 +329,7 @@ const drawChart = () => {
     })
     .on('mouseout', function() {
       // Reset point size
-      d3.select(this)
+      select(this)
         .attr('r', 4)
         .attr('fill-opacity', 0.7);
 
@@ -305,7 +343,7 @@ const drawChart = () => {
     });
 
   // X axis
-  const xAxis = d3.axisBottom(xScale).tickFormat((d) => {
+  const xAxis = axisBottom(xScale).tickFormat((d) => {
     const sec = Number(d);
     const h = Math.floor(sec / 3600);
     const m = Math.floor((sec % 3600) / 60);
@@ -332,7 +370,7 @@ const drawChart = () => {
     .text('Time');
 
   // Y axis
-  const yAxis = d3.axisLeft(yScale).tickFormat(d => `${d}s`);
+  const yAxis = axisLeft(yScale).tickFormat(d => `${d}s`);
 
   g.append('g')
     .call(yAxis)
@@ -400,24 +438,21 @@ const formatTime = (seconds: number): string => {
 
 let resizeObserver: ResizeObserver | null = null;
 
-onMounted(() => {
-  // Load transcript data if episode number is available
+onMounted(async () => {
+  // Load transcript data first if episode number is available
   if (props.episodeNumber) {
-    loadTranscript();
+    await loadTranscript();
   }
 
   // Load speaker metadata
   if (props.data?.speakers) {
-    loadSpeakers(props.data.speakers).then(() => {
-      setTimeout(() => {
-        drawChart();
-      }, 0);
-    });
-  } else {
-    setTimeout(() => {
-      drawChart();
-    }, 0);
+    await loadSpeakers(props.data.speakers);
   }
+
+  // Draw chart after everything is loaded
+  setTimeout(() => {
+    drawChart();
+  }, 0);
 
   // Watch for data changes
   watch(() => props.data, () => {
@@ -433,9 +468,10 @@ onMounted(() => {
   }, { deep: true });
 
   // Watch for episode number changes to load transcript
-  watch(() => props.episodeNumber, () => {
+  watch(() => props.episodeNumber, async () => {
     if (props.episodeNumber) {
-      loadTranscript();
+      await loadTranscript();
+      // drawChart() is called inside loadTranscript() after data is loaded
     }
   }, { immediate: true });
 
@@ -481,7 +517,7 @@ onUnmounted(() => {
     resizeObserver = null;
   }
   if (chartRef.value) {
-    d3.select(chartRef.value).selectAll('*').remove();
+    select(chartRef.value).selectAll('*').remove();
   }
 });
 </script>

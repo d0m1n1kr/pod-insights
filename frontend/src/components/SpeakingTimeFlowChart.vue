@@ -1,6 +1,18 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, onUnmounted, computed } from 'vue';
-import * as d3 from 'd3';
+import {
+  select,
+  scaleLinear,
+  scaleOrdinal,
+  axisBottom,
+  axisLeft,
+  format,
+  pointer,
+  line,
+  area,
+  curveMonotoneX,
+  type Selection
+} from '@/utils/d3-imports';
 // import { useSettingsStore } from '@/stores/settings'; // Unused for now
 import { getPodcastFileUrl, withBase } from '@/composables/usePodcast';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
@@ -57,14 +69,14 @@ const emit = defineEmits<{
 const audioPlayerStore = useAudioPlayerStore();
 const chartRef = ref<HTMLElement | null>(null);
 const tooltipRef = ref<HTMLDivElement | null>(null);
-let svg: d3.Selection<SVGSVGElement, unknown, null, undefined> | null = null;
+let svg: Selection<SVGSVGElement, unknown, null, undefined> | null = null;
 let resizeObserver: ResizeObserver | null = null;
-let positionMarker: d3.Selection<SVGLineElement, unknown, null, undefined> | null = null;
-let markerCircle: d3.Selection<SVGCircleElement, unknown, null, undefined> | null = null;
+let positionMarker: Selection<SVGLineElement, unknown, null, undefined> | null = null;
+let markerCircle: Selection<SVGCircleElement, unknown, null, undefined> | null = null;
 
 // Type for speaker path data
 type SpeakerPathData = { x: number; y0: number; y1: number };
-let speakerPaths: Map<string, d3.Selection<SVGPathElement, SpeakerPathData[], null, undefined>> | null = null;
+let speakerPaths: Map<string, Selection<SVGPathElement, SpeakerPathData[], null, undefined>> | null = null;
 
 // Get current playback position from audio element if episode matches
 const currentPosition = ref<number | null>(null);
@@ -306,7 +318,7 @@ const drawChart = () => {
   if (!chartRef.value || !props.data || !tooltipRef.value) return;
 
   // Clear previous chart
-  d3.select(chartRef.value).selectAll('*').remove();
+  select(chartRef.value).selectAll('*').remove();
   
   // Ensure tooltip is hidden initially
   if (tooltipRef.value) {
@@ -318,7 +330,7 @@ const drawChart = () => {
     startX: number;
     endX: number;
     positionSec: number;
-    rect: d3.Selection<SVGRectElement, unknown, null, undefined>;
+    rect: Selection<SVGRectElement, unknown, null, undefined>;
   }> = [];
   
   // Detect dark mode dynamically
@@ -332,8 +344,7 @@ const drawChart = () => {
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
 
-  svg = d3
-    .select(container)
+  svg = select(container)
     .append('svg')
     .attr('width', width)
     .attr('height', height);
@@ -426,24 +437,21 @@ const drawChart = () => {
   }
 
   // Scales
-  const xScale = d3
-    .scaleLinear()
+  const xScale = scaleLinear()
     .domain([0, props.data.episodeDurationSec])
     .range([0, innerWidth]);
 
-  const yScale = d3
-    .scaleLinear()
+  const yScale = scaleLinear()
     .domain([0, 1])
     .range([innerHeight, 0]);
 
   // Color scale
-  const colorScale = d3
-    .scaleOrdinal<string>()
+  const colorScale = scaleOrdinal<string>()
     .domain(speakers)
     .range(colors);
 
   // Area generator (unused - areas are created inline below)
-  // const area = d3.area()... // Removed unused variable
+  // const areaFn = area()... // Removed unused variable
 
   // Helper function to format time
   function formatTime(sec: number): string {
@@ -458,7 +466,7 @@ const drawChart = () => {
   // We'll add it after creating all paths
 
   // Store speaker paths for highlighting
-  speakerPaths = new Map<string, d3.Selection<SVGPathElement, SpeakerPathData[], null, undefined>>();
+  speakerPaths = new Map<string, Selection<SVGPathElement, SpeakerPathData[], null, undefined>>();
   
   // Create areas for each speaker
   for (const speaker of speakers) {
@@ -476,12 +484,11 @@ const drawChart = () => {
       .attr('stroke-width', 1)
       .attr('class', `speaker-path speaker-${speaker.replace(/\s+/g, '-').toLowerCase()}`)
       .attr('data-speaker', speaker)
-      .attr('d', d3
-        .area<SpeakerPathData>()
+      .attr('d', area<SpeakerPathData>()
         .x((d) => xScale(d.x))
         .y0((d) => yScale(d.y0))
         .y1((d) => yScale(d.y1))
-        .curve(d3.curveMonotoneX)
+        .curve(curveMonotoneX)
       )
       .style('pointer-events', 'none'); // Disable pointer events on paths, use overlay instead
     
@@ -534,7 +541,7 @@ const drawChart = () => {
     .on('click', function(event: MouseEvent) {
       if (!props.episodeNumber) return;
       
-      const [mx, my] = d3.pointer(event, g.node() as any);
+      const [mx, my] = pointer(event, g.node() as any);
       const clickedTimeSec = Math.max(0, Math.min(props.data.episodeDurationSec, xScale.invert(mx)));
       const shareValue = Math.max(0, Math.min(1, yScale.invert(my)));
       
@@ -586,7 +593,7 @@ const drawChart = () => {
     .on('mousemove', function(event: MouseEvent) {
       if (!tooltipRef.value || !chartRef.value) return;
       
-      const [mx, my] = d3.pointer(event, g.node() as any);
+      const [mx, my] = pointer(event, g.node() as any);
       const timeSec = Math.max(0, Math.min(props.data.episodeDurationSec, xScale.invert(mx)));
       const shareValue = Math.max(0, Math.min(1, yScale.invert(my)));
       
@@ -691,7 +698,7 @@ const drawChart = () => {
     });
 
   // X axis
-  const xAxis = d3.axisBottom(xScale).tickFormat((d) => {
+  const xAxis = axisBottom(xScale).tickFormat((d) => {
     const sec = Number(d);
     const h = Math.floor(sec / 3600);
     const m = Math.floor((sec % 3600) / 60);
@@ -719,7 +726,7 @@ const drawChart = () => {
     .text('Time');
 
   // Y axis
-  const yAxis = d3.axisLeft(yScale).tickFormat(d3.format('.0%'));
+  const yAxis = axisLeft(yScale).tickFormat(format('.0%'));
 
   g.append('g')
     .call(yAxis)
@@ -843,7 +850,7 @@ const drawChart = () => {
         // Forward mousemove to show tooltips - reuse the tooltip logic from main overlay
         if (!tooltipRef.value || !chartRef.value) return;
         
-        const [mx, my] = d3.pointer(event, g.node() as any);
+        const [mx, my] = pointer(event, g.node() as any);
         const timeSec = Math.max(0, Math.min(props.data.episodeDurationSec, xScale.invert(mx)));
         const shareValue = Math.max(0, Math.min(1, yScale.invert(my)));
         
@@ -939,7 +946,7 @@ const drawChart = () => {
         // Forward click to trigger play functionality - reuse the click logic from main overlay
         if (!props.episodeNumber) return;
 
-        const [mx, my] = d3.pointer(event, g.node() as any);
+        const [mx, my] = pointer(event, g.node() as any);
         const clickedTimeSec = Math.max(0, Math.min(props.data.episodeDurationSec, xScale.invert(mx)));
         const shareValue = Math.max(0, Math.min(1, yScale.invert(my)));
 
@@ -1062,7 +1069,7 @@ onMounted(() => {
     updateCurrentPosition();
     // Update marker and highlight if chart is drawn and position/speaker changed
     if (svg && chartRef.value && (oldPosition !== currentPosition.value || oldSpeaker !== currentSpeaker.value)) {
-      const g = d3.select(chartRef.value).select('g');
+      const g = select(chartRef.value).select('g');
       const updateMarkerFn = (g.node() as any)?.__updateMarker;
       const updateHighlightFn = (g.node() as any)?.__updateSpeakerHighlight;
       if (updateMarkerFn) updateMarkerFn();
@@ -1096,7 +1103,7 @@ onMounted(() => {
   // Watch for current position and speaker changes to update marker and highlight
   watch([currentPosition, currentSpeaker], () => {
     if (svg && chartRef.value) {
-      const g = d3.select(chartRef.value).select('g');
+      const g = select(chartRef.value).select('g');
       const updateMarkerFn = (g.node() as any)?.__updateMarker;
       const updateHighlightFn = (g.node() as any)?.__updateSpeakerHighlight;
       if (updateMarkerFn) updateMarkerFn();

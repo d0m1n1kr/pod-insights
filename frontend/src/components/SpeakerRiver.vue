@@ -1,6 +1,22 @@
 <script setup lang="ts">
 import { ref, onMounted, computed, watch, nextTick, onUnmounted } from 'vue';
-import * as d3 from 'd3';
+import {
+  select,
+  scaleLinear,
+  axisBottom,
+  format,
+  extent,
+  area,
+  curveBasis,
+  stack,
+  stackOffsetExpand,
+  stackOffsetWiggle,
+  stackOrderInsideOut,
+  pointer,
+  schemeCategory10,
+  schemePaired,
+  schemeSet3
+} from '@/utils/d3-imports';
 import type { SpeakerRiverData, ProcessedSpeakerData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
@@ -80,14 +96,14 @@ const processedData = computed(() => {
   // Erweiterte Farbpalette für mehr Speaker
   const generateColors = (count: number): string[] => {
     if (count <= 10) {
-      return d3.schemeCategory10.slice(0, count);
+      return schemeCategory10.slice(0, count);
     }
     
     // Kombiniere mehrere D3 Farbschemata für bessere Unterscheidbarkeit
     const colors = [
-      ...d3.schemeCategory10,
-      ...d3.schemePaired,
-      ...d3.schemeSet3
+      ...schemeCategory10,
+      ...schemePaired,
+      ...schemeSet3
     ];
     
     // Falls immer noch nicht genug, generiere zusätzliche Farben mit HSL
@@ -147,9 +163,9 @@ const drawRiver = () => {
   const innerHeight = height - margin.top - margin.bottom;
   
   // Lösche vorherigen Inhalt
-  d3.select(svgRef.value).selectAll('*').remove();
+  select(svgRef.value).selectAll('*').remove();
   
-  const svg = d3.select(svgRef.value)
+  const svg = select(svgRef.value)
     .attr('width', width)
     .attr('height', height);
   
@@ -170,33 +186,33 @@ const drawRiver = () => {
   });
   
   const keys = speakers.map(s => s.id);
-  const stack = d3.stack()
+  const stackFn = stack()
     .keys(keys)
     // In normierter Ansicht: stackOffsetExpand sorgt für gleich hohe Jahre (0-1)
     // In normaler Ansicht: stackOffsetWiggle für schöne Stream-Optik
-    .offset(normalizedView.value ? d3.stackOffsetExpand : d3.stackOffsetWiggle)
-    .order(d3.stackOrderInsideOut);
+    .offset(normalizedView.value ? stackOffsetExpand : stackOffsetWiggle)
+    .order(stackOrderInsideOut);
   
-  const series = stack(stackData);
+  const series = stackFn(stackData);
   
   // Scales
-  const xScale = d3.scaleLinear()
+  const xScale = scaleLinear()
     .domain([years[0] || 0, years[years.length - 1] || 0])
     .range([0, innerWidth]);
   
   const flatValues = series.flat(2).filter((d): d is number => d !== undefined);
-  const yExtent = d3.extent(flatValues) as [number, number];
+  const yExtent = extent(flatValues) as [number, number];
   // In normierter Ansicht: Domain immer auf [0, 1] begrenzen, da stackOffsetExpand normalisiert
   // Die Kurveninterpolation kann temporär Werte > 1.0 erzeugen, daher clampen wir die Domain
   const yDomain = normalizedView.value 
     ? [0, 1] as [number, number]
     : yExtent;
-  const yScale = d3.scaleLinear()
+  const yScale = scaleLinear()
     .domain(yDomain)
     .range([innerHeight, 0]);
   
   // Area generator
-  const area = d3.area<any>()
+  const areaFn = area<any>()
     .x((d: any) => xScale(d.data.year))
     .y0((d: any) => {
       // In normierter Ansicht: Werte auf [0, 1] clampen, da Kurveninterpolation Werte außerhalb erzeugen kann
@@ -208,14 +224,14 @@ const drawRiver = () => {
       const val = normalizedView.value ? Math.max(0, Math.min(1, d[1])) : d[1];
       return yScale(val);
     })
-    .curve(d3.curveBasis);
+    .curve(curveBasis);
   
   // Zeichne die Streams
   const streams = g.selectAll('.stream')
     .data(series)
     .join('path')
     .attr('class', 'stream')
-    .attr('d', area)
+    .attr('d', areaFn)
     .attr('fill', (d: any) => {
       const speaker = speakers.find(s => s.id === d.key);
       return speaker?.color || '#ccc';
@@ -231,7 +247,7 @@ const drawRiver = () => {
       hoveredSpeaker.value = d.key;
       
       // Get year from mouse position
-      const [mouseX] = d3.pointer(event, g.node());
+      const [mouseX] = pointer(event, g.node() as any);
       const year = Math.round(xScale.invert(mouseX));
       
       // Find speaker name
@@ -250,7 +266,7 @@ const drawRiver = () => {
     .on('mousemove', function(event: any, _d: any) {
       // Update tooltip position
       if (tooltipData.value) {
-        const [mouseX] = d3.pointer(event, g.node());
+        const [mouseX] = pointer(event, g.node() as any);
         const year = Math.round(xScale.invert(mouseX));
         tooltipData.value = {
           ...tooltipData.value,
@@ -269,7 +285,7 @@ const drawRiver = () => {
     })
     .on('click', function(event: any, d: any) {
       // Get year from click position
-      const [mouseX] = d3.pointer(event, g.node());
+      const [mouseX] = pointer(event, g.node() as any);
       const year = Math.round(xScale.invert(mouseX));
       
       // Set selected speaker and year
@@ -284,8 +300,8 @@ const drawRiver = () => {
     });
   
   // X-Achse
-  const xAxis = d3.axisBottom(xScale)
-    .tickFormat(d3.format('d'))
+  const xAxis = axisBottom(xScale)
+    .tickFormat(format('d'))
     .ticks(years.length);
   
   g.append('g')
@@ -361,7 +377,7 @@ const drawRiver = () => {
 const updateOpacity = () => {
   if (!svgRef.value) return;
   
-  const svg = d3.select(svgRef.value);
+  const svg = select(svgRef.value);
   
   // Update stream opacity
   svg.selectAll('.stream')
@@ -374,7 +390,7 @@ const updateOpacity = () => {
   
   // Update legend opacity and font weight
   svg.selectAll('.legend-item').each(function() {
-    const item = d3.select(this);
+    const item = select(this);
     const speakerId = item.attr('data-speaker-id');
     
     item.select('rect')
