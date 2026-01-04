@@ -2,6 +2,7 @@
 import { ref, watch, onMounted, onBeforeUnmount, computed, nextTick } from 'vue';
 import { useSettingsStore } from '@/stores/settings';
 import { getEpisodeImageUrl } from '@/composables/usePodcast';
+import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
 
 const settings = useSettingsStore();
 
@@ -102,17 +103,12 @@ type LiveTranscriptV1 = {
   x: string[]; // text
 };
 
-type SpeakerMeta = {
-  name: string;
-  slug: string;
-  image?: string;
-};
-
 const liveTranscript = ref<LiveTranscriptV1 | null>(null);
 const liveTranscriptError = ref<string | null>(null);
 const liveTranscriptLoading = ref(false);
 
-const speakersMeta = ref<Map<string, SpeakerMeta>>(new Map());
+// Use speaker meta composable (uses index-meta.json to reduce 404 requests)
+const { loadSpeakers, getSpeakerImage } = useSpeakerMeta();
 
 const findLastIndexLE = (arr: number[], value: number) => {
   let lo = 0;
@@ -160,33 +156,8 @@ const currentSpoken = computed(() => {
 const currentSpeakerImage = computed(() => {
   const speaker = currentSpoken.value?.speaker;
   if (!speaker) return null;
-  const meta = speakersMeta.value.get(speaker);
-  return meta?.image || null;
+  return getSpeakerImage(speaker) || null;
 });
-
-const loadSpeakerMeta = async (speakerName: string) => {
-  if (!props.speakersMetaUrl || speakersMeta.value.has(speakerName)) return;
-  
-  try {
-    // Convert speaker name to slug (lowercase, replace spaces with dashes)
-    const slug = speakerName.toLowerCase().replace(/\s+/g, '-');
-    const url = `${props.speakersMetaUrl}/${slug}-meta.json`;
-    
-    const res = await fetch(url, { cache: 'force-cache' });
-    if (!res.ok) return; // Silent fail if meta doesn't exist
-    
-    const data = await res.json();
-    if (data && typeof data.name === 'string') {
-      speakersMeta.value.set(speakerName, {
-        name: data.name,
-        slug: data.slug || slug,
-        image: data.image || undefined,
-      });
-    }
-  } catch {
-    // Silent fail
-  }
-};
 
 const loadLiveTranscript = async () => {
   const url = typeof props.transcriptSrc === 'string' ? props.transcriptSrc.trim() : '';
@@ -460,7 +431,7 @@ watch(() => props.playToken, async () => {
 // Load speaker meta when current speaker changes
 watch(() => currentSpoken.value?.speaker, async (speakerName) => {
   if (speakerName) {
-    await loadSpeakerMeta(speakerName);
+    await loadSpeakers([speakerName]);
   }
 }, { immediate: true });
 </script>

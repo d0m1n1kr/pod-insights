@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, onUnmounted } from 'vue';
 import * as d3 from 'd3';
-import { getPodcastFileUrl, getSpeakerMetaUrl, withBase } from '@/composables/usePodcast';
+import { getPodcastFileUrl, withBase } from '@/composables/usePodcast';
+import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
 
 type SpeakerStats = {
   v: number;
@@ -90,24 +91,12 @@ const colors = [
   '#84cc16', // lime
 ];
 
-// Helper to convert speaker name to slug
-function speakerNameToSlug(name: string): string {
-  return name.toLowerCase()
-    .replace(/ä/g, 'ae')
-    .replace(/ö/g, 'oe')
-    .replace(/ü/g, 'ue')
-    .replace(/ß/g, 'ss')
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-]/g, '');
-}
-
 // Load transcript data
 const loadTranscript = async () => {
   if (!props.episodeNumber || transcriptData.value || transcriptLoading.value) return;
 
   transcriptLoading.value = true;
   try {
-
     const transcriptUrl = withBase(getPodcastFileUrl(`episodes/${props.episodeNumber}-ts-live.json`));
     const response = await fetch(transcriptUrl, { cache: 'force-cache' });
     if (response.ok) {
@@ -117,37 +106,6 @@ const loadTranscript = async () => {
     console.error('Failed to load transcript:', e);
   } finally {
     transcriptLoading.value = false;
-  }
-};
-
-// Load speaker metadata
-const loadSpeakerMeta = async (speakerName: string) => {
-  if (speakersMeta.value.has(speakerName)) return;
-
-  try {
-    const slug = speakerNameToSlug(speakerName);
-    const url = getSpeakerMetaUrl(slug);
-    const res = await fetch(url, { cache: 'force-cache' });
-    if (!res.ok) return; // Silent fail if meta doesn't exist
-    
-    const data = await res.json();
-    if (data && typeof data.name === 'string') {
-      speakersMeta.value.set(speakerName, {
-        name: data.name,
-        slug: data.slug || slug,
-        image: data.image || undefined,
-      });
-    }
-  } catch {
-    // Silent fail
-  }
-};
-
-// Load all speaker metadata
-const loadAllSpeakerMeta = async () => {
-  if (!props.data) return;
-  for (const speaker of props.data.speakers) {
-    await loadSpeakerMeta(speaker);
   }
 };
 
@@ -467,9 +425,13 @@ onMounted(() => {
   // Watch for data changes
   watch(() => props.data, () => {
     if (tooltipRef.value) {
-      loadAllSpeakerMeta().then(() => {
-        drawChart();
-      });
+  if (props.data?.speakers) {
+    loadSpeakers(props.data.speakers).then(() => {
+      drawChart();
+    });
+  } else {
+    drawChart();
+  }
     }
   }, { deep: true });
 

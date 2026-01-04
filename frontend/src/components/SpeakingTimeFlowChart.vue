@@ -2,8 +2,9 @@
 import { ref, onMounted, watch, onUnmounted, computed } from 'vue';
 import * as d3 from 'd3';
 // import { useSettingsStore } from '@/stores/settings'; // Unused for now
-import { getPodcastFileUrl, getSpeakerMetaUrl, withBase } from '@/composables/usePodcast';
+import { getPodcastFileUrl, withBase } from '@/composables/usePodcast';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
+import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
 
 type SpeakerStats = {
   v: number;
@@ -40,12 +41,6 @@ type EpisodeChapters = {
     durationSec: number;
     positionSec: number;
   }>;
-};
-
-type SpeakerMeta = {
-  name: string;
-  slug: string;
-  image?: string;
 };
 
 const props = defineProps<{
@@ -175,12 +170,8 @@ const transcriptLoading = ref(false);
 const chaptersData = ref<EpisodeChapters | null>(null);
 const chaptersLoading = ref(false);
 
-const speakersMeta = ref<Map<string, SpeakerMeta>>(new Map());
-
-// Computed property for safe access to speaker meta in template
-const getSpeakerImage = (speaker: string): string | undefined => {
-  return speakersMeta.value?.get(speaker)?.image;
-};
+// Use speaker meta composable (uses index-meta.json to reduce 404 requests)
+const { loadSpeakers, getSpeakerImage } = useSpeakerMeta();
 
 // Load transcript data
 const loadTranscript = async () => {
@@ -274,47 +265,6 @@ const findNextSegmentStart = (speaker: string, afterTimeSec: number): number | n
   return bestSegment ? bestSegment.time : null;
 };
 
-// Helper to convert speaker name to slug
-function speakerNameToSlug(name: string): string {
-  return name.toLowerCase()
-    .replace(/ä/g, 'ae')
-    .replace(/ö/g, 'oe')
-    .replace(/ü/g, 'ue')
-    .replace(/ß/g, 'ss')
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-]/g, '');
-}
-
-// Load speaker metadata (for images)
-const loadSpeakerMeta = async (speakerName: string) => {
-  if (speakersMeta.value.has(speakerName)) return;
-  
-  try {
-    const slug = speakerNameToSlug(speakerName);
-    const url = getSpeakerMetaUrl(slug);
-    const res = await fetch(url, { cache: 'force-cache' });
-    if (!res.ok) return; // Silent fail if meta doesn't exist
-    
-    const data = await res.json();
-    if (data && typeof data.name === 'string') {
-      speakersMeta.value.set(speakerName, {
-        name: data.name,
-        slug: data.slug || slug,
-        image: data.image || undefined,
-      });
-    }
-  } catch {
-    // Silent fail
-  }
-};
-
-// Load all speaker metadata
-const loadAllSpeakerMeta = async () => {
-  if (!props.data) return;
-  for (const speaker of props.data.speakers) {
-    await loadSpeakerMeta(speaker);
-  }
-};
 
 // Get topics for a time interval
 const getTopicsForInterval = (startSec: number, endSec: number): string[] => {
@@ -1134,9 +1084,13 @@ onMounted(() => {
   
   // Wait for next tick to ensure tooltipRef is available
   setTimeout(() => {
-    loadAllSpeakerMeta().then(() => {
+  if (props.data?.speakers) {
+    loadSpeakers(props.data.speakers).then(() => {
       drawChart();
     });
+  } else {
+    drawChart();
+  }
   }, 0);
 
   // Watch for current position and speaker changes to update marker and highlight
@@ -1153,9 +1107,13 @@ onMounted(() => {
   // Watch for data changes
   watch(() => props.data, () => {
     if (tooltipRef.value) {
-      loadAllSpeakerMeta().then(() => {
-        drawChart();
-      });
+  if (props.data?.speakers) {
+    loadSpeakers(props.data.speakers).then(() => {
+      drawChart();
+    });
+  } else {
+    drawChart();
+  }
     }
   }, { deep: true });
   

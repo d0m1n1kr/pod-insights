@@ -124,43 +124,75 @@ export function getSpeakerImageUrl(slug: string, imageFileName: string, podcastI
   return `/podcasts/${pid}/speakers/${imageFileName}`;
 }
 
+// Cache for speaker index per podcast ID
+const speakerIndexCache = new Map<string, Map<string, { slug: string; name: string; hasImage: boolean; imageFile?: string }> | null>();
+const speakerIndexLoading = new Map<string, Promise<Map<string, { slug: string; name: string; hasImage: boolean; imageFile?: string }> | null>>();
+
 /**
  * Load speaker index-meta.json to check which speaker meta files exist
  * This reduces 404 requests for non-existent speakers
  * Note: This is separate from index.json which contains speaker statistics (used by backend)
+ * 
+ * Uses in-memory cache per podcast ID to avoid repeated requests
  */
 export async function loadSpeakerIndex(podcastId?: string): Promise<Map<string, { slug: string; name: string; hasImage: boolean; imageFile?: string }> | null> {
   const settings = useSettingsStore();
   const pid = podcastId || settings.selectedPodcast || 'freakshow';
-  const indexUrl = getPodcastFileUrl('speakers/index-meta.json', pid);
   
-  try {
-    const response = await fetch(indexUrl, { cache: 'force-cache' });
-    if (!response.ok) {
-      return null; // Index doesn't exist, fall back to individual requests
-    }
+  // Check in-memory cache first
+  if (speakerIndexCache.has(pid)) {
+    return speakerIndexCache.get(pid) || null;
+  }
+  
+  // Check if already loading (avoid duplicate requests)
+  if (speakerIndexLoading.has(pid)) {
+    return await speakerIndexLoading.get(pid)!;
+  }
+  
+  // Start loading
+  const loadPromise = (async () => {
+    const indexUrl = getPodcastFileUrl('speakers/index-meta.json', pid);
     
-    const data = await response.json();
-    const indexMap = new Map<string, { slug: string; name: string; hasImage: boolean; imageFile?: string }>();
-    
-    if (Array.isArray(data.speakers)) {
-      for (const speaker of data.speakers) {
-        if (speaker.slug) {
-          indexMap.set(speaker.slug, {
-            slug: speaker.slug,
-            name: speaker.name || speaker.slug,
-            hasImage: speaker.hasImage || false,
-            imageFile: speaker.imageFile
-          });
+    try {
+      const response = await fetch(indexUrl, { cache: 'force-cache' });
+      if (!response.ok) {
+        speakerIndexCache.set(pid, null);
+        return null; // Index doesn't exist, fall back to individual requests
+      }
+      
+      const data = await response.json();
+      const indexMap = new Map<string, { slug: string; name: string; hasImage: boolean; imageFile?: string }>();
+      
+      if (Array.isArray(data.speakers)) {
+        for (const speaker of data.speakers) {
+          if (speaker.slug) {
+            indexMap.set(speaker.slug, {
+              slug: speaker.slug,
+              name: speaker.name || speaker.slug,
+              hasImage: speaker.hasImage || false,
+              imageFile: speaker.imageFile
+            });
+          }
         }
       }
+      
+      // Cache the result
+      speakerIndexCache.set(pid, indexMap);
+      return indexMap;
+    } catch (error) {
+      console.warn('Failed to load speaker index-meta:', error);
+      speakerIndexCache.set(pid, null);
+      return null; // Fall back to individual requests
+    } finally {
+      // Remove from loading map
+      speakerIndexLoading.delete(pid);
     }
-    
-    return indexMap;
-  } catch (error) {
-    console.warn('Failed to load speaker index-meta:', error);
-    return null; // Fall back to individual requests
-  }
+  })();
+  
+  // Store loading promise to prevent duplicate requests
+  speakerIndexLoading.set(pid, loadPromise);
+  
+  return await loadPromise;
 }
 
 /**

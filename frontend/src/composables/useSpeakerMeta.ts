@@ -12,8 +12,6 @@ export type SpeakerMeta = {
 
 // Global cache for speaker metadata (shared across components)
 const speakersMetaCache = new Map<string, SpeakerMeta>();
-const speakerIndexCache = ref<Map<string, { slug: string; name: string; hasImage: boolean; imageFile?: string }> | null>(null);
-const indexLoaded = ref(false);
 
 /**
  * Helper to convert speaker name to slug
@@ -30,28 +28,25 @@ export function speakerNameToSlug(name: string): string {
 
 /**
  * Load speaker index if not already loaded
+ * Uses cached version from usePodcast.ts (per podcast ID)
  */
-async function ensureSpeakerIndex(podcastId?: string): Promise<void> {
-  if (indexLoaded.value && speakerIndexCache.value !== null) return;
-  
-  const index = await loadSpeakerIndex(podcastId);
-  speakerIndexCache.value = index;
-  indexLoaded.value = true;
+async function ensureSpeakerIndex(podcastId?: string): Promise<Map<string, { slug: string; name: string; hasImage: boolean; imageFile?: string }> | null> {
+  return await loadSpeakerIndex(podcastId);
 }
 
 /**
  * Check if a speaker exists using the index
  */
 export async function speakerExists(speakerName: string, podcastId?: string): Promise<boolean> {
-  await ensureSpeakerIndex(podcastId);
+  const index = await ensureSpeakerIndex(podcastId);
   
-  if (!speakerIndexCache.value) {
+  if (!index) {
     // Index doesn't exist, assume speaker might exist (fallback behavior)
     return true;
   }
   
   const slug = speakerNameToSlug(speakerName);
-  return speakerIndexCache.value.has(slug);
+  return index.has(slug);
 }
 
 /**
@@ -85,12 +80,12 @@ export async function loadSpeakerMeta(
   }
   
   // Load index to check if speaker exists
-  await ensureSpeakerIndex(podcastId);
+  const index = await ensureSpeakerIndex(podcastId);
   
   const slug = speakerNameToSlug(speakerName);
   
   // Check index first
-  if (speakerIndexCache.value && !speakerIndexCache.value.has(slug)) {
+  if (index && !index.has(slug)) {
     // Speaker doesn't exist according to index, don't make request
     return null;
   }

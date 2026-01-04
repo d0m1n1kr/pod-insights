@@ -4,8 +4,9 @@ import * as d3 from 'd3';
 import type { SpeakerRiverData, ProcessedSpeakerData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
-import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl, getSpeakerMetaUrl, withBase } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl, withBase } from '@/composables/usePodcast';
 import { loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
+import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
 
 const props = defineProps<{
   data: SpeakerRiverData;
@@ -36,55 +37,8 @@ const tooltipRef = ref<HTMLDivElement | null>(null);
 const settings = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
 
-// Speaker metadata with images
-type SpeakerMeta = {
-  name: string;
-  slug: string;
-  image?: string;
-};
-const speakersMeta = ref<Map<string, SpeakerMeta>>(new Map());
-
-// Helper to convert speaker name to slug
-function speakerNameToSlug(name: string): string {
-  return name.toLowerCase()
-    .replace(/ä/g, 'ae')
-    .replace(/ö/g, 'oe')
-    .replace(/ü/g, 'ue')
-    .replace(/ß/g, 'ss')
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-]/g, '');
-}
-
-// Load speaker metadata (for images)
-const loadSpeakerMeta = async (speakerName: string) => {
-  if (speakersMeta.value.has(speakerName)) return;
-  
-  try {
-    const slug = speakerNameToSlug(speakerName);
-    const url = getSpeakerMetaUrl(slug);
-    const res = await fetch(url, { cache: 'force-cache' });
-    if (!res.ok) return; // Silent fail if meta doesn't exist
-    
-    const data = await res.json();
-    if (data && typeof data.name === 'string') {
-      speakersMeta.value.set(speakerName, {
-        name: data.name,
-        slug: data.slug || slug,
-        image: data.image || undefined,
-      });
-    }
-  } catch {
-    // Silent fail
-  }
-};
-
-// Load all speaker metadata
-const loadAllSpeakerMeta = async () => {
-  if (!props.data) return;
-  for (const speaker of props.data.speakers) {
-    await loadSpeakerMeta(speaker.name);
-  }
-};
+// Use speaker meta composable (uses index-meta.json to reduce 404 requests)
+const { loadSpeakers, getSpeakerImage } = useSpeakerMeta();
 
 // MP3 index loading
 const mp3IndexLoaded = ref(false);
@@ -283,10 +237,10 @@ const drawRiver = () => {
       // Find speaker name
       const speaker = speakers.find(s => s.id === d.key);
       if (speaker) {
-        const meta = speakersMeta.value.get(speaker.name);
+        const speakerImage = getSpeakerImage(speaker.name);
         tooltipData.value = {
           speakerName: speaker.name,
-          speakerImage: meta?.image,
+          speakerImage: speakerImage,
           year: year,
           x: event.clientX,
           y: event.clientY
@@ -473,8 +427,11 @@ const formatDuration = (duration: [number, number, number]) => {
 
 // Initial draw und resize listener
 onMounted(async () => {
-  // Load speaker metadata first
-  await loadAllSpeakerMeta();
+  // Load speaker metadata first (uses index-meta.json to avoid 404s)
+  if (props.data?.speakers) {
+    const speakerNames = props.data.speakers.map(s => s.name);
+    await loadSpeakers(speakerNames);
+  }
   drawRiver();
   
   const resizeObserver = new ResizeObserver(() => {

@@ -250,11 +250,11 @@ import * as d3 from 'd3';
 import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { loadVariantData } from '@/composables/useVariants';
-import { getSpeakerMetaUrl } from '@/composables/usePodcast';
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
 import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
 import { useLazyEpisodeDetails, type EpisodeDetail as EpisodeDetailType, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
+import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
 
 const settingsStore = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
@@ -283,56 +283,8 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
 
 // EpisodeDetail type is imported from useEpisodeDetails composable
 
-// Speaker metadata with images
-type SpeakerMeta = {
-  name: string;
-  slug: string;
-  image?: string;
-};
-const speakersMeta = ref<Map<string, SpeakerMeta>>(new Map());
-
-// Helper to convert speaker name to slug
-function speakerNameToSlug(name: string): string {
-  return name.toLowerCase()
-    .replace(/ä/g, 'ae')
-    .replace(/ö/g, 'oe')
-    .replace(/ü/g, 'ue')
-    .replace(/ß/g, 'ss')
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-]/g, '');
-}
-
-// Load speaker metadata (for images)
-const loadSpeakerMeta = async (speakerName: string) => {
-  if (speakersMeta.value.has(speakerName)) return;
-  
-  try {
-    const slug = speakerNameToSlug(speakerName);
-    const url = getSpeakerMetaUrl(slug);
-    const res = await fetch(url, { cache: 'force-cache' });
-    if (!res.ok) return; // Silent fail if meta doesn't exist
-    
-    const data = await res.json();
-    if (data && typeof data.name === 'string') {
-      speakersMeta.value.set(speakerName, {
-        name: data.name,
-        slug: data.slug || slug,
-        image: data.image || undefined,
-      });
-    }
-  } catch {
-    // Silent fail
-  }
-};
-
-// Load all speaker metadata
-const loadAllSpeakerMeta = async () => {
-  if (!heatmapData.value) return;
-  const speakerNames = new Set<string>();
-  heatmapData.value.speakers.forEach(s => speakerNames.add(s.name));
-  const promises = Array.from(speakerNames).map(name => loadSpeakerMeta(name));
-  await Promise.all(promises);
-};
+// Use speaker meta composable (uses index-meta.json to reduce 404 requests)
+const { loadSpeakers, getSpeakerImage } = useSpeakerMeta();
 
 const heatmapData = ref<HeatmapData | null>(null);
 const svgElement = ref<SVGSVGElement | null>(null);
@@ -354,7 +306,10 @@ async function loadData() {
   try {
     heatmapData.value = await loadVariantData('speaker-cluster-heatmap.json');
     // Load speaker metadata for images
-    await loadAllSpeakerMeta();
+    if (heatmapData.value) {
+      const speakerNames = heatmapData.value.speakers.map(s => s.name);
+      await loadSpeakers(speakerNames);
+    }
   } catch (error) {
     console.error('Failed to load heatmap data:', error);
   }
@@ -763,9 +718,9 @@ function drawHeatmap() {
           d3.selectAll('.heatmap-tooltip').remove();
 
           // Get speaker image
-          const speakerMeta = speakersMeta.value.get(row.speakerName || '');
-          const speakerImageHtml = speakerMeta?.image
-            ? `<img src="${speakerMeta.image}" alt="${row.speakerName}" class="w-8 h-8 rounded-full border-2 border-white inline-block mr-2" />`
+          const speakerImage = getSpeakerImage(row.speakerName || '');
+          const speakerImageHtml = speakerImage
+            ? `<img src="${speakerImage}" alt="${row.speakerName}" class="w-8 h-8 rounded-full border-2 border-white inline-block mr-2" />`
             : '';
 
           // Create tooltip
