@@ -41,7 +41,13 @@
     "titleByPodcast": {
       "freakshow": "Demande le Freak Show",
       "lnp": "Demande Logbuch:Netzpolitik",
-      "ukw": "Demande UKW"
+      "ukw": "Demande UKW",
+      "das-universum": "Demande l'Univers",
+      "cre": "Demande CRE",
+      "raumzeit": "Demande l'Espace-Temps",
+      "forschergeist": "Demande l'Esprit du Chercheur",
+      "minkorrekt": "Demande Méthodiquement Incorrect",
+      "wrint-wissenschaft": "Demande la Science"
     },
     "queryLabel": "Requête :",
     "placeholder": "Entrer une question...",
@@ -73,11 +79,41 @@
     },
     "examplesByPodcast": {
       "lnp": {
-        "discussion1": "Linus Neumann VS Tim Pritlove : Que pensez-vous de la réaction d’Apple au Digital Markets Act ?",
+        "discussion1": "Linus Neumann VS Tim Pritlove : Que pensez-vous de la réaction d'Apple au Digital Markets Act ?",
         "persona1": "Linus Neumann : Que penses-tu du dossier médical numérique ?"
       },
       "ukw": {
         "neutral1": "UKW : Quelle est la situation en Ukraine ?"
+      },
+      "das-universum": {
+        "neutral1": "Neutre : Que sont les exoplanètes et comment les trouve-t-on ?",
+        "persona1": "Florian : Que sont les points de Lagrange ?",
+        "discussion1": "Ruth VS Florian : Devrions-nous chercher la vie extraterrestre ?"
+      },
+      "cre": {
+        "neutral1": "Neutre : Quel est l'état actuel du développement de l'IA ?",
+        "persona1": "Tim Pritlove : Comment vois-tu l'avenir du podcasting ?",
+        "discussion1": "Tim Pritlove VS Invité : Qu'est-ce qui est mieux, l'open source ou les logiciels propriétaires ?"
+      },
+      "raumzeit": {
+        "neutral1": "Neutre : Quelles sont les dernières découvertes sur Mars ?",
+        "persona1": "Tim Pritlove : Comment fonctionne la technologie spatiale ?",
+        "discussion1": "Tim Pritlove VS Invité : Devrions-nous voler vers Mars ?"
+      },
+      "forschergeist": {
+        "neutral1": "Neutre : Comment fonctionne le travail scientifique aujourd'hui ?",
+        "persona1": "Tim Pritlove : Quels sont les plus grands défis de la science ?",
+        "discussion1": "Tim Pritlove VS Invité : Comment la science devrait-elle être communiquée ?"
+      },
+      "minkorrekt": {
+        "neutral1": "Neutre : Qu'y a-t-il de nouveau et d'excitant dans la science ?",
+        "persona1": "Nikolas : Quels sont tes favoris des Ig Nobel ?",
+        "discussion1": "Nikolas VS Rainer : Que pensez-vous de l'homéopathie ?"
+      },
+      "wrint-wissenschaft": {
+        "neutral1": "Neutre : Quelles sont les dernières découvertes en recherche climatique ?",
+        "persona1": "Holger Klein : Comment expliques-tu la science complexe de manière compréhensible ?",
+        "discussion1": "Holger Klein VS Invité : Comment devrait fonctionner la communication scientifique ?"
       }
     },
     "discussionMode": {

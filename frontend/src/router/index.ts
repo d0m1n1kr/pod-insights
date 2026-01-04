@@ -113,7 +113,7 @@ router.beforeEach((to, _from, next) => {
   
   // Check if speaker routes are disabled for current podcast
   const speakerRoutes = ['speakers-river', 'cluster-heatmap', 'cluster-cluster-heatmap', 'speaker-speaker-heatmap'];
-  if (to.name && speakerRoutes.includes(to.name) && podcast?.disableSpeakers) {
+  if (to.name && typeof to.name === 'string' && speakerRoutes.includes(to.name) && podcast?.disableSpeakers) {
     // Redirect to episode search if speaker tabs are disabled
     next({
       name: 'episodeSearch',
