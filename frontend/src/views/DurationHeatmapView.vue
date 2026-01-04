@@ -127,7 +127,12 @@
                               {{ formatDate(episodeDetails.get(episodeNum)?.date) }}
                             </td>
                             <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                              {{ episodeDetails.get(episodeNum)?.title }}
+                              <router-link
+                                :to="{ name: 'episodeSearch', query: { episode: episodeNum.toString(), podcast: settingsStore.selectedPodcast || 'freakshow' } }"
+                                class="truncate text-violet-600 dark:text-violet-400 hover:text-violet-800 dark:hover:text-violet-300 hover:underline"
+                              >
+                                {{ episodeDetails.get(episodeNum)?.title }}
+                              </router-link>
                             </td>
                             <td class="px-3 py-2">
                               <button
@@ -141,12 +146,18 @@
                               </button>
                             </td>
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
-                              {{ formatDuration(episodeDetails.get(episodeNum)?.duration) }}
+                              <template v-if="episodeDetails.get(episodeNum)?.duration">
+                                {{ formatDuration(episodeDetails.get(episodeNum)?.duration) }}
+                              </template>
+                              <template v-else>—</template>
                             </td>
                             <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
-                              <span v-for="(speaker, idx) in episodeDetails.get(episodeNum)?.speakers" :key="speaker">
-                                <span class="inline-block text-gray-600 dark:text-gray-400">{{ speaker }}</span><span v-if="idx < ((episodeDetails.get(episodeNum)?.speakers?.length || 0) - 1)" class="text-gray-600 dark:text-gray-400">, </span>
-                              </span>
+                              <template v-if="(episodeDetails.get(episodeNum)?.speakers?.length || 0) > 0">
+                                <span v-for="(speaker, idx) in episodeDetails.get(episodeNum)?.speakers" :key="speaker">
+                                  <span class="inline-block text-gray-600 dark:text-gray-400">{{ speaker }}</span><span v-if="idx < ((episodeDetails.get(episodeNum)?.speakers?.length || 0) - 1)" class="text-gray-600 dark:text-gray-400">, </span>
+                                </span>
+                              </template>
+                              <template v-else>—</template>
                             </td>
                             <td class="px-3 py-2 text-xs">
                               <a 
@@ -157,6 +168,7 @@
                               >
                                 →
                               </a>
+                              <span v-else class="text-gray-400 dark:text-gray-500">—</span>
                             </td>
                           </template>
                           <template v-else-if="episodeDetails.get(episodeNum) === null">
@@ -218,17 +230,20 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, watch, computed, reactive, nextTick, onUnmounted } from 'vue';
+import { ref, onMounted, watch, computed, reactive } from 'vue';
 import * as d3 from 'd3';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
 import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
-import { useLazyEpisodeDetails, type EpisodeDetail as EpisodeDetailType, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
+import { useEpisodeTable } from '@/composables/useEpisodeTable';
 
 const settingsStore = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
 const inlinePlayer = reactive(useInlineEpisodePlayer());
+
+// Use unified episode table composable
+const { episodeDetails, loadingEpisodes, setupEpisodeTable } = useEpisodeTable();
 
 // Helper function to play episode using global store
 const playEpisodeAt = async (episodeNumber: number, seconds: number, label: string) => {
@@ -305,14 +320,6 @@ const selectedCell = ref<{
 } | null>(null);
 
 const showEpisodeList = ref(false);
-const loadingEpisodes = ref(false);
-
-// Use lazy loading composable
-const { setupLazyLoad, preloadVisible } = useLazyEpisodeDetails();
-
-// Local map to track which episodes are loaded (synced with global cache)
-const episodeDetails = ref<Map<number, EpisodeDetailType | null>>(new Map());
-const observerCleanups = ref<Map<number, () => void>>(new Map());
 
 const currentData = computed(() => {
   return heatmapDataCache.value[activeTab.value] || null;
@@ -369,63 +376,10 @@ function formatDuration(duration?: string | number | number[]): string {
   return `${minutes}m`;
 }
 
-// Setup lazy loading for episode rows
-async function setupLazyLoadingForEpisodes(episodeNumbers: number[]) {
-  // Clean up existing observers
-  observerCleanups.value.forEach(cleanup => cleanup());
-  observerCleanups.value.clear();
-
-  // Preload first few visible episodes immediately
-  const visibleCount = Math.min(5, episodeNumbers.length);
-  if (visibleCount > 0) {
-    await preloadVisible(episodeNumbers.slice(0, visibleCount));
-    // Sync with local map
-    episodeNumbers.slice(0, visibleCount).forEach(num => {
-      const cached = getCachedEpisodeDetail(num);
-      if (cached !== undefined) {
-        episodeDetails.value.set(num, cached);
-      }
-    });
-  }
-
-  // Setup lazy loading for remaining episodes
-  await nextTick();
-  episodeNumbers.forEach(episodeNum => {
-    // Check if already cached
-    const cached = getCachedEpisodeDetail(episodeNum);
-    if (cached !== undefined) {
-      episodeDetails.value.set(episodeNum, cached);
-      return;
-    }
-
-    // Find the row element and setup observer
-    const rowElement = document.querySelector(`[data-episode-row="${episodeNum}"]`) as HTMLElement;
-    if (rowElement) {
-      const cleanup = setupLazyLoad(
-        rowElement,
-        episodeNum,
-        (detail) => {
-          episodeDetails.value.set(episodeNum, detail);
-        }
-      );
-      observerCleanups.value.set(episodeNum, cleanup);
-    } else {
-      // Element not found, load immediately
-      loadEpisodeDetail(episodeNum).then(detail => {
-        episodeDetails.value.set(episodeNum, detail);
-      });
-    }
-  });
-  
-  loadingEpisodes.value = false;
-}
-
-// Legacy function for compatibility (now uses lazy loading)
+// Load episode details using unified composable
 async function loadEpisodeDetails() {
   if (!selectedCell.value) return;
-  
-  loadingEpisodes.value = true;
-  await setupLazyLoadingForEpisodes(selectedCell.value.episodes);
+  await setupEpisodeTable(selectedCell.value.episodes);
 }
 
 function getTextColor(color: string): string {
@@ -887,17 +841,18 @@ watch([currentData, () => settingsStore.isDarkMode], () => {
   }
 });
 
-// Watch for selected cell changes
+// Watch for selected cell changes - reload episodes when filter changes
 watch(selectedCell, async () => {
   if (selectedCell.value && selectedCell.value.episodes.length > 0) {
     await loadEpisodeDetails();
   }
 });
 
-// Cleanup observers on unmount
-onUnmounted(() => {
-  observerCleanups.value.forEach(cleanup => cleanup());
-  observerCleanups.value.clear();
+// Watch for showEpisodeList - reload when list is opened
+watch(showEpisodeList, async (newValue) => {
+  if (newValue && selectedCell.value && selectedCell.value.episodes.length > 0) {
+    await loadEpisodeDetails();
+  }
 });
 
 // Watch for window resize

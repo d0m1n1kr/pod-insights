@@ -3,6 +3,13 @@ import { ref, type Ref } from 'vue';
 import { useSettingsStore } from '@/stores/settings';
 import { getEpisodeUrl } from './usePodcast';
 
+const withBase = (p: string) => {
+  const base = (import.meta as any)?.env?.BASE_URL || '/';
+  const b = String(base).endsWith('/') ? String(base) : `${String(base)}/`;
+  const rel = String(p).replace(/^\/+/, '');
+  return `${b}${rel}`;
+};
+
 export type EpisodeDetail = {
   title: string;
   date?: string;
@@ -49,16 +56,60 @@ export async function loadEpisodeDetail(
   // Start loading
   const promise = (async () => {
     try {
-      const response = await fetch(getEpisodeUrl(episodeNumber, pid), {
-        cache: 'force-cache', // Use browser cache when available
+      // In dev mode, always reload to get latest data; in production, use cache
+      const response = await fetch(withBase(getEpisodeUrl(episodeNumber, pid)), {
+        cache: import.meta.env.DEV ? 'no-cache' : 'force-cache',
       });
 
       if (!response.ok) {
-        episodeCache.set(cacheKey, null);
+        // Only cache permanent "not found" errors. Transient failures should be retryable.
+        if (response.status === 404) {
+          episodeCache.set(cacheKey, null);
+        }
         return null;
       }
 
-      const data = await response.json();
+      // Some hosts return index.html (200) for missing JSON files; detect and treat as missing.
+      const contentType = response.headers.get('content-type') || '';
+      const looksJson = contentType.includes('application/json') || contentType.includes('+json');
+      if (!looksJson) {
+        const text = await response.text().catch(() => '');
+        // If it looks like HTML, treat it as missing and cache null to avoid noisy retries.
+        if (text.trim().startsWith('<')) {
+          episodeCache.set(cacheKey, null);
+          return null;
+        }
+        // Otherwise, fall through and try parsing as JSON below via JSON.parse.
+        try {
+          const data = JSON.parse(text);
+          const episodeDetail: EpisodeDetail = {
+            title: (data as any)?.title || '',
+            date: (data as any)?.date,
+            duration: (data as any)?.duration,
+            speakers: (data as any)?.speakers || [],
+            description: (data as any)?.description,
+            url: (data as any)?.url,
+            number: (data as any)?.number ?? episodeNumber,
+            ...(data as any),
+          };
+          episodeCache.set(cacheKey, episodeDetail);
+          return episodeDetail;
+        } catch (e) {
+          console.error(`Failed to parse episode ${episodeNumber} (non-JSON content-type):`, e);
+          episodeCache.set(cacheKey, null);
+          return null;
+        }
+      }
+
+      let data: any;
+      try {
+        data = await response.json();
+      } catch (e) {
+        // Protect against HTML-in-JSON endpoint.
+        console.error(`Failed to parse episode ${episodeNumber} as JSON:`, e);
+        episodeCache.set(cacheKey, null);
+        return null;
+      }
       
       // Normalize duration to total seconds if it's an array
       let durationInSeconds: number | undefined;
@@ -84,7 +135,7 @@ export async function loadEpisodeDetail(
       return episodeDetail;
     } catch (error) {
       console.error(`Failed to load episode ${episodeNumber}:`, error);
-      episodeCache.set(cacheKey, null);
+      // Do NOT cache null on network / transient errors; allow retry.
       return null;
     } finally {
       loadingPromises.delete(cacheKey);

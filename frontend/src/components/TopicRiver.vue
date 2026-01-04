@@ -607,7 +607,12 @@ const observerCleanups = ref<Map<number, () => void>>(new Map());
 const mp3IndexLoaded = ref(false);
 const mp3IndexError = ref<string | null>(null);
 const mp3UrlByEpisode = ref<Map<number, string>>(new Map());
-const mp3MetaByEpisode = ref<Map<number, { url: string | null; durationSec: number | null }>>(new Map());
+const mp3MetaByEpisode = ref<
+  Map<
+    number,
+    { url: string | null; durationSec: number | null; title?: string; date?: string; speakers?: string[] }
+  >
+>(new Map());
 
 // When switching podcasts, clear the cached MP3 index so we don't reuse URLs
 // from a previously selected podcast (e.g. LNP playing Freakshow).
@@ -662,44 +667,131 @@ async function setupLazyLoadingForEpisodes(episodeNumbers: number[]) {
   // Ensure MP3 index is available for fallback
   await ensureMp3Index();
 
+  // Prime ALL rows immediately with episodes.json metadata so table cells don't stay blank
+  for (const episodeNum of episodeNumbers) {
+    const existing = episodeDetails.value.get(episodeNum);
+    const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
+    const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+    
+    // If episode already exists, ALWAYS update speakers from episodes.json
+    if (existing) {
+      // ALWAYS update speakers from episodes.json if available
+      if (meta && Array.isArray(meta.speakers) && meta.speakers.length > 0) {
+        episodeDetails.value.set(episodeNum, {
+          ...existing,
+          speakers: meta.speakers,
+        });
+        // Continue to ensure episodes.json data is set even if we have full details
+      }
+      
+      // If we have full details (no fallback), skip priming (but speakers were already updated above)
+      if (!(existing as any)?._fallback) {
+        continue;
+      }
+    }
+    
+    // Prime with episodes.json metadata
+    if (meta?.url || Number.isFinite(meta?.durationSec as number) || (Array.isArray(meta?.speakers) && meta.speakers.length > 0)) {
+      episodeDetails.value.set(episodeNum, {
+        title: episodeInfo?.title || meta?.title || `Episode ${episodeNum}`,
+        date: episodeInfo?.date || meta?.date || '',
+        url: meta?.url || null,
+        duration: secondsToHmsTuple(meta?.durationSec),
+        speakers: meta?.speakers || [],
+        chapters: [],
+        _fallback: 'episodes.json',
+      });
+    } else {
+      episodeDetails.value.set(episodeNum, {
+        title: episodeInfo?.title || meta?.title || `Episode ${episodeNum}`,
+        date: episodeInfo?.date || meta?.date || '',
+        url: null,
+        duration: [0, 0, 0],
+        speakers: meta?.speakers || [],
+        chapters: [],
+        _fallback: 'minimal',
+      });
+    }
+  }
+
   // Preload first few visible episodes immediately
+  // Always use episodes.json as primary source, only load individual files for additional details (chapters)
   const visibleCount = Math.min(5, episodeNumbers.length);
   if (visibleCount > 0) {
     const visibleEpisodes = episodeNumbers.slice(0, visibleCount);
     await Promise.all(visibleEpisodes.map(async (episodeNum) => {
-      // Check cache first
-      const cached = getCachedEpisodeDetail(episodeNum);
-      if (cached !== undefined) {
-        episodeDetails.value.set(episodeNum, cached);
-        return;
+      const currentDetail = episodeDetails.value.get(episodeNum);
+      const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
+      const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+      
+      // Always ensure we have episodes.json data first
+      if (!currentDetail || (currentDetail as any)?._fallback) {
+        if (meta && (meta.url || Number.isFinite(meta.durationSec as number) || Array.isArray(meta.speakers))) {
+          episodeDetails.value.set(episodeNum, {
+            title: episodeInfo?.title || meta.title || `Episode ${episodeNum}`,
+            date: episodeInfo?.date || meta.date || '',
+            url: meta.url || null,
+            duration: secondsToHmsTuple(meta.durationSec),
+            speakers: Array.isArray(meta.speakers) ? meta.speakers : [],
+            chapters: [],
+            _fallback: 'episodes.json',
+          });
+        }
       }
-
-      // Try to load from cache or API
+      
+      // Try to load individual episode file for additional details (chapters, etc.)
+      // But merge with episodes.json data (keep speakers from episodes.json if episode file doesn't have them)
       try {
+        const cached = getCachedEpisodeDetail(episodeNum);
+        if (cached !== undefined && cached !== null) {
+          // ALWAYS merge cached data with episodes.json data - prefer episodes.json for speakers
+          const merged = {
+            ...cached,
+            // ALWAYS prefer speakers from episodes.json if available
+            speakers: (meta && Array.isArray(meta.speakers) && meta.speakers.length > 0)
+              ? meta.speakers
+              : (Array.isArray(cached.speakers) && cached.speakers.length > 0 ? cached.speakers : []),
+            // Keep title/date from episodes.json if they're better
+            title: cached.title || (episodeInfo?.title || meta?.title || `Episode ${episodeNum}`),
+            date: cached.date || (episodeInfo?.date || meta?.date || ''),
+          };
+          episodeDetails.value.set(episodeNum, merged);
+          return;
+        }
+        
         const detail = await loadEpisodeDetail(episodeNum);
         if (detail) {
-          episodeDetails.value.set(episodeNum, detail);
+          // Merge with episodes.json data - ALWAYS prefer episodes.json for speakers
+          const merged = {
+            ...detail,
+            // ALWAYS prefer speakers from episodes.json if available
+            speakers: (meta && Array.isArray(meta.speakers) && meta.speakers.length > 0)
+              ? meta.speakers
+              : (Array.isArray(detail.speakers) && detail.speakers.length > 0 ? detail.speakers : []),
+            // Keep title/date from episodes.json if they're better
+            title: detail.title || (episodeInfo?.title || meta?.title || `Episode ${episodeNum}`),
+            date: detail.date || (episodeInfo?.date || meta?.date || ''),
+          };
+          episodeDetails.value.set(episodeNum, merged);
         } else {
-          // Fallback to MP3 metadata
-          const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
-          if (meta?.url || Number.isFinite(meta?.durationSec as number)) {
-            const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
-            episodeDetails.value.set(episodeNum, {
-              title: episodeInfo?.title || '',
-              date: episodeInfo?.date || '',
-              url: meta?.url || null,
-              duration: secondsToHmsTuple(meta?.durationSec),
-              speakers: [],
-              chapters: [],
-              _fallback: 'episodes.json',
-            });
-          } else {
-            episodeDetails.value.set(episodeNum, null);
+          // If loading failed, ensure we have episodes.json data
+          if (!currentDetail || (currentDetail as any)?._fallback) {
+            if (meta && (meta.url || Number.isFinite(meta.durationSec as number) || Array.isArray(meta.speakers))) {
+              episodeDetails.value.set(episodeNum, {
+                title: episodeInfo?.title || meta.title || `Episode ${episodeNum}`,
+                date: episodeInfo?.date || meta.date || '',
+                url: meta.url || null,
+                duration: secondsToHmsTuple(meta.durationSec),
+                speakers: Array.isArray(meta.speakers) ? meta.speakers : [],
+                chapters: [],
+                _fallback: 'episodes.json',
+              });
+            }
           }
         }
       } catch (e) {
         console.error(`Failed to load episode ${episodeNum}:`, e);
-        episodeDetails.value.set(episodeNum, null);
+        // Keep episodes.json data on errors
       }
     }));
   }
@@ -707,8 +799,10 @@ async function setupLazyLoadingForEpisodes(episodeNumbers: number[]) {
   // Setup lazy loading for remaining episodes
   await nextTick();
   episodeNumbers.forEach(episodeNum => {
-    // Skip if already loaded
-    if (episodeDetails.value.has(episodeNum)) return;
+    // Skip if we already have full details or a hard "missing" marker.
+    const existing = episodeDetails.value.get(episodeNum);
+    if (existing === null) return;
+    if (existing && typeof existing === 'object' && !existing._fallback) return;
 
     // Find the row element and setup observer
     const rowElement = document.querySelector(`[data-episode-row="${episodeNum}"]`) as HTMLElement;
@@ -717,24 +811,38 @@ async function setupLazyLoadingForEpisodes(episodeNumbers: number[]) {
         rowElement,
         episodeNum,
         async (detail) => {
+          const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
+          const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+          
           if (detail) {
-            episodeDetails.value.set(episodeNum, detail);
+            // Merge with episodes.json data - ALWAYS prefer episodes.json for speakers
+            const merged = {
+              ...detail,
+              // ALWAYS prefer speakers from episodes.json if available
+              speakers: (meta && Array.isArray(meta.speakers) && meta.speakers.length > 0)
+                ? meta.speakers
+                : (Array.isArray(detail.speakers) && detail.speakers.length > 0 ? detail.speakers : []),
+              // Keep title/date from episodes.json if they're better
+              title: detail.title || (episodeInfo?.title || meta?.title || `Episode ${episodeNum}`),
+              date: detail.date || (episodeInfo?.date || meta?.date || ''),
+            };
+            episodeDetails.value.set(episodeNum, merged);
           } else {
-            // Fallback to MP3 metadata if detail loading failed
-            const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
-            if (meta?.url || Number.isFinite(meta?.durationSec as number)) {
-              const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+            // Always use episodes.json data as fallback
+            if (meta && (meta.url || Number.isFinite(meta.durationSec as number) || Array.isArray(meta.speakers))) {
               episodeDetails.value.set(episodeNum, {
-                title: episodeInfo?.title || '',
-                date: episodeInfo?.date || '',
-                url: meta?.url || null,
-                duration: secondsToHmsTuple(meta?.durationSec),
-                speakers: [],
+                title: episodeInfo?.title || meta.title || `Episode ${episodeNum}`,
+                date: episodeInfo?.date || meta.date || '',
+                url: meta.url || null,
+                duration: secondsToHmsTuple(meta.durationSec),
+                speakers: Array.isArray(meta.speakers) ? meta.speakers : [],
                 chapters: [],
                 _fallback: 'episodes.json',
               });
             } else {
-              episodeDetails.value.set(episodeNum, null);
+              // Keep fallback/minimal data if we have it; otherwise mark missing
+              const cur = episodeDetails.value.get(episodeNum);
+              if (!cur || cur === null) episodeDetails.value.set(episodeNum, null);
             }
           }
         }
@@ -743,29 +851,101 @@ async function setupLazyLoadingForEpisodes(episodeNumbers: number[]) {
     } else {
       // Element not found, load immediately
       loadEpisodeDetail(episodeNum).then(detail => {
+        const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
+        const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+        
         if (detail) {
-          episodeDetails.value.set(episodeNum, detail);
+          // Merge with episodes.json data - ALWAYS prefer episodes.json for speakers
+          const merged = {
+            ...detail,
+            // ALWAYS prefer speakers from episodes.json if available
+            speakers: (meta && Array.isArray(meta.speakers) && meta.speakers.length > 0)
+              ? meta.speakers
+              : (Array.isArray(detail.speakers) && detail.speakers.length > 0 ? detail.speakers : []),
+            // Keep title/date from episodes.json if they're better
+            title: detail.title || (episodeInfo?.title || meta?.title || `Episode ${episodeNum}`),
+            date: detail.date || (episodeInfo?.date || meta?.date || ''),
+          };
+          episodeDetails.value.set(episodeNum, merged);
         } else {
-          // Fallback to MP3 metadata
-          const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
-          if (meta?.url || Number.isFinite(meta?.durationSec as number)) {
-            const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+          // Always use episodes.json data as fallback
+          if (meta && (meta.url || Number.isFinite(meta.durationSec as number) || Array.isArray(meta.speakers))) {
             episodeDetails.value.set(episodeNum, {
-              title: episodeInfo?.title || '',
-              date: episodeInfo?.date || '',
-              url: meta?.url || null,
-              duration: secondsToHmsTuple(meta?.durationSec),
-              speakers: [],
+              title: episodeInfo?.title || meta.title || `Episode ${episodeNum}`,
+              date: episodeInfo?.date || meta.date || '',
+              url: meta.url || null,
+              duration: secondsToHmsTuple(meta.durationSec),
+              speakers: Array.isArray(meta.speakers) ? meta.speakers : [],
               chapters: [],
               _fallback: 'episodes.json',
             });
           } else {
-            episodeDetails.value.set(episodeNum, null);
+            const cur = episodeDetails.value.get(episodeNum);
+            if (!cur || cur === null) episodeDetails.value.set(episodeNum, null);
           }
         }
       });
     }
   });
+
+  // SpeakerRiver-style: batch-load ALL remaining episodes in the background (no scrolling required)
+  await nextTick();
+  await nextTick();
+  await new Promise(resolve => requestAnimationFrame(resolve));
+  const toLoad = episodeNumbers.filter(episodeNum => {
+    const cached = getCachedEpisodeDetail(episodeNum);
+    if (cached !== undefined) return false;
+    const cur: any = episodeDetails.value.get(episodeNum);
+    return !cur || cur === null || Boolean(cur._fallback);
+  });
+
+  if (toLoad.length > 0) {
+    const batchSize = 10;
+    for (let i = 0; i < toLoad.length; i += batchSize) {
+      const batch = toLoad.slice(i, i + batchSize);
+      await Promise.all(batch.map(async (episodeNum) => {
+        const cached = getCachedEpisodeDetail(episodeNum);
+        if (cached !== undefined) {
+          // ALWAYS merge cached data with episodes.json - prefer episodes.json for speakers
+          const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
+          const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+          if (cached !== null) {
+            const merged = {
+              ...cached,
+              // ALWAYS prefer speakers from episodes.json if available
+              speakers: (meta && Array.isArray(meta.speakers) && meta.speakers.length > 0)
+                ? meta.speakers
+                : (Array.isArray(cached.speakers) && cached.speakers.length > 0 ? cached.speakers : []),
+              // Keep title/date from episodes.json if they're better
+              title: cached.title || (episodeInfo?.title || meta?.title || `Episode ${episodeNum}`),
+              date: cached.date || (episodeInfo?.date || meta?.date || ''),
+            };
+            episodeDetails.value.set(episodeNum, merged);
+          } else {
+            episodeDetails.value.set(episodeNum, cached);
+          }
+          return;
+        }
+        const detail = await loadEpisodeDetail(episodeNum);
+        if (detail) {
+          // ALWAYS merge detail with episodes.json - prefer episodes.json for speakers
+          const meta = mp3MetaByEpisode.value.get(episodeNum) || null;
+          const episodeInfo = selectedTopicInfo.value?.episodes?.find((e: any) => e?.number === episodeNum);
+          const merged = {
+            ...detail,
+            // ALWAYS prefer speakers from episodes.json if available
+            speakers: (meta && Array.isArray(meta.speakers) && meta.speakers.length > 0)
+              ? meta.speakers
+              : (Array.isArray(detail.speakers) && detail.speakers.length > 0 ? detail.speakers : []),
+            // Keep title/date from episodes.json if they're better
+            title: detail.title || (episodeInfo?.title || meta?.title || `Episode ${episodeNum}`),
+            date: detail.date || (episodeInfo?.date || meta?.date || ''),
+          };
+          episodeDetails.value.set(episodeNum, merged);
+        }
+      }));
+    }
+  }
   
   loadingEpisodes.value = false;
 }
@@ -986,12 +1166,15 @@ const openEpisodeAt = (episodeNumber: number, seconds: number) => {
 const ensureMp3Index = async () => {
   if (mp3IndexLoaded.value || mp3IndexError.value) return;
   try {
-    const res = await fetch(getPodcastFileUrl('episodes.json'), { cache: 'force-cache' });
+    // In dev mode, always reload to get latest data; in production, use cache
+    const res = await fetch(getPodcastFileUrl('episodes.json'), { 
+      cache: import.meta.env.DEV ? 'no-cache' : 'force-cache' 
+    });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
     const map = new Map<number, string>();
-    const metaMap = new Map<number, { url: string | null; durationSec: number | null }>();
+    const metaMap = new Map<number, { url: string | null; durationSec: number | null; title?: string; date?: string; speakers?: string[] }>();
     if (data?.byNumber && typeof data.byNumber === 'object') {
       for (const [k, v] of Object.entries<any>(data.byNumber)) {
         const n = parseInt(k, 10);
@@ -1000,7 +1183,16 @@ const ensureMp3Index = async () => {
         if (Number.isFinite(n)) {
           const pageUrl = typeof v?.pageUrl === 'string' ? v.pageUrl : null;
           const durSec = Number.isFinite(v?.durationSec) ? v.durationSec : parseHmsToSeconds(v?.duration);
-          metaMap.set(n, { url: pageUrl, durationSec: Number.isFinite(durSec as number) ? (durSec as number) : null });
+          const title = typeof v?.title === 'string' ? v.title : undefined;
+          const date = typeof v?.date === 'string' ? v.date : (typeof v?.pubDate === 'string' ? v.pubDate : undefined);
+          const speakers = Array.isArray(v?.speakers) ? v.speakers.filter((s: any) => typeof s === 'string') : undefined;
+          metaMap.set(n, {
+            url: pageUrl,
+            durationSec: Number.isFinite(durSec as number) ? (durSec as number) : null,
+            title,
+            date,
+            speakers,
+          });
         }
       }
     } else if (Array.isArray(data?.episodes)) {
@@ -1011,7 +1203,16 @@ const ensureMp3Index = async () => {
         if (Number.isFinite(n)) {
           const pageUrl = typeof ep?.pageUrl === 'string' ? ep.pageUrl : null;
           const durSec = Number.isFinite(ep?.durationSec) ? ep.durationSec : parseHmsToSeconds(ep?.duration);
-          metaMap.set(n as number, { url: pageUrl, durationSec: Number.isFinite(durSec as number) ? (durSec as number) : null });
+          const title = typeof ep?.title === 'string' ? ep.title : undefined;
+          const date = typeof ep?.date === 'string' ? ep.date : (typeof ep?.pubDate === 'string' ? ep.pubDate : undefined);
+          const speakers = Array.isArray(ep?.speakers) ? ep.speakers.filter((s: any) => typeof s === 'string') : undefined;
+          metaMap.set(n as number, {
+            url: pageUrl,
+            durationSec: Number.isFinite(durSec as number) ? (durSec as number) : null,
+            title,
+            date,
+            speakers,
+          });
         }
       }
     }
@@ -1163,7 +1364,12 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
                           {{ new Date(episode.date).toLocaleDateString('de-DE') }}
                         </td>
                         <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                          <span class="truncate">{{ episode.title }}</span>
+                          <router-link
+                            :to="{ name: 'episodeSearch', query: { episode: episode.number.toString(), podcast: settingsStore.selectedPodcast || 'freakshow' } }"
+                            :class="['truncate hover:underline', themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300' : 'text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300']"
+                          >
+                            {{ episode.title }}
+                          </router-link>
                         </td>
                         <td class="px-3 py-2">
                           <button
@@ -1197,20 +1403,31 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
                           <span v-else>—</span>
                         </td>
                         <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
-                          {{ formatDuration(episodeDetails.get(episode.number).duration) }}
+                          <template v-if="episodeDetails.get(episode.number)._fallback !== 'minimal' && episodeDetails.get(episode.number).duration">
+                            {{ formatDuration(episodeDetails.get(episode.number).duration) }}
+                          </template>
+                          <template v-else>—</template>
                         </td>
                         <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
-                          {{ episodeDetails.get(episode.number).speakers.join(', ') }}
+                          <template v-if="episodeDetails.get(episode.number).speakers && episodeDetails.get(episode.number).speakers.length > 0">
+                            {{ episodeDetails.get(episode.number).speakers.join(', ') }}
+                          </template>
+                          <template v-else>—</template>
                         </td>
                         <td class="px-3 py-2">
-                          <a 
-                            :href="episodeDetails.get(episode.number).url"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            :class="['underline text-xs', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
-                          >
-                            🔗
-                          </a>
+                          <template v-if="episodeDetails.get(episode.number).url">
+                            <a 
+                              :href="episodeDetails.get(episode.number).url"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              :class="['underline text-xs', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
+                            >
+                              🔗
+                            </a>
+                          </template>
+                          <template v-else>
+                            <span class="text-gray-400 dark:text-gray-500 text-xs">—</span>
+                          </template>
                         </td>
                       </template>
                       <template v-else-if="episodeDetails.has(episode.number) && episodeDetails.get(episode.number) === null">
@@ -1227,7 +1444,12 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
                           {{ new Date(episode.date).toLocaleDateString('de-DE') }}
                         </td>
                         <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                          <span class="truncate">{{ episode.title }}</span>
+                          <router-link
+                            :to="{ name: 'episodeSearch', query: { episode: episode.number.toString(), podcast: settingsStore.selectedPodcast || 'freakshow' } }"
+                            :class="['truncate hover:underline', themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300' : 'text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300']"
+                          >
+                            {{ episode.title }}
+                          </router-link>
                         </td>
                         <td class="px-3 py-2">
                           <button
@@ -1262,7 +1484,12 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
                           {{ new Date(episode.date).toLocaleDateString('de-DE') }}
                         </td>
                         <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                          <span class="truncate">{{ episode.title }}</span>
+                          <router-link
+                            :to="{ name: 'episodeSearch', query: { episode: episode.number.toString(), podcast: settingsStore.selectedPodcast || 'freakshow' } }"
+                            :class="['truncate hover:underline', themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300' : 'text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300']"
+                          >
+                            {{ episode.title }}
+                          </router-link>
                         </td>
                         <td class="px-3 py-2">
                           <button

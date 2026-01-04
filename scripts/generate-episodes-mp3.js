@@ -37,19 +37,26 @@ function parseArgs(argv) {
   const args = {
     feed: null, // default resolved after parsing (from settings.json podcasts[].feedUrl)
     output: null, // Will be set based on podcast if not provided
+    podcast: DEFAULT_PODCAST,
   };
 
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if ((a === '--feed' || a === '-f') && argv[i + 1]) args.feed = argv[++i];
     else if ((a === '--output' || a === '-o') && argv[i + 1]) args.output = argv[++i];
-    else if (a === '--podcast' && argv[i + 1]) podcast = argv[++i];
+    else if (a === '--podcast' && argv[i + 1]) {
+      podcast = argv[++i];
+      args.podcast = podcast;
+    }
     else if (a === '--help' || a === '-h') {
       console.log('Usage: node scripts/generate-episodes-mp3.js [--feed URL] [--podcast ID] [--output PATH]');
       console.log('');
       console.log('Default feed:   from settings.json podcasts[].feedUrl (fallback: DEFAULT_FEED_URL)');
       console.log(`Default podcast: ${DEFAULT_PODCAST}`);
       console.log(`Default output: frontend/public/podcasts/{podcast}/episodes.json`);
+      console.log('');
+      console.log('This script now also includes speakers, date, and other metadata from episode files');
+      console.log('when available, reducing the need to load individual episode JSON files.');
       process.exit(0);
     }
   }
@@ -109,7 +116,16 @@ function parseEpisodeDurationToSeconds(raw) {
   return null;
 }
 
-function parseRssEpisodes(xml) {
+function loadEpisodeData(episodeNumber, podcastId) {
+  const episodePath = path.join(PROJECT_ROOT, 'podcasts', podcastId, 'episodes', `${episodeNumber}.json`);
+  const result = tryReadJson(episodePath);
+  if (result.ok && result.value) {
+    return result.value;
+  }
+  return null;
+}
+
+function parseRssEpisodes(xml, podcastId) {
   // Very small purpose-built parser: split into <item> blocks and extract key fields.
   const items = xml.split(/<item\b[^>]*>/i).slice(1).map(chunk => chunk.split(/<\/item>/i)[0]);
 
@@ -127,7 +143,10 @@ function parseRssEpisodes(xml) {
     if (!Number.isFinite(episodeNumber)) continue;
     if (!enclosureUrl) continue;
 
-    episodes.push({
+    // Try to load additional data from episode file (speakers, formatted date, etc.)
+    const episodeData = loadEpisodeData(episodeNumber, podcastId);
+    
+    const episode = {
       number: episodeNumber,
       title: title ? title.trim() : null,
       pageUrl: pageUrl ? pageUrl.trim() : null,
@@ -135,7 +154,32 @@ function parseRssEpisodes(xml) {
       duration: durationRaw ? durationRaw.trim() : null,
       durationSec: parseEpisodeDurationToSeconds(durationRaw),
       mp3Url: enclosureUrl.trim(),
-    });
+    };
+
+    // Enhance with data from episode file if available
+    if (episodeData) {
+      // Add formatted date (prefer episode file date over pubDate)
+      if (episodeData.date) {
+        episode.date = episodeData.date;
+      }
+      
+      // Add speakers if available
+      if (Array.isArray(episodeData.speakers) && episodeData.speakers.length > 0) {
+        episode.speakers = episodeData.speakers;
+      }
+      
+      // Add URL if available (might be more accurate than pageUrl from RSS)
+      if (episodeData.url) {
+        episode.url = episodeData.url;
+      }
+      
+      // Add description if available
+      if (episodeData.description) {
+        episode.description = episodeData.description;
+      }
+    }
+
+    episodes.push(episode);
   }
 
   episodes.sort((a, b) => a.number - b.number);
@@ -152,16 +196,17 @@ async function main() {
 
   console.log('=== Episodes MP3 URL Generator ===');
   console.log(`Feed:   ${args.feed}`);
+  console.log(`Podcast: ${args.podcast}`);
   console.log(`Output: ${args.output}`);
   console.log('');
 
   const xml = await loadInputText(args.feed);
-  const episodes = parseRssEpisodes(xml);
+  const episodes = parseRssEpisodes(xml, args.podcast);
 
-  // Also build a direct lookup map
+  // Also build a direct lookup map with all available fields
   const byNumber = {};
   for (const ep of episodes) {
-    byNumber[String(ep.number)] = {
+    const entry = {
       mp3Url: ep.mp3Url,
       pageUrl: ep.pageUrl,
       title: ep.title,
@@ -169,6 +214,14 @@ async function main() {
       duration: ep.duration,
       durationSec: ep.durationSec,
     };
+    
+    // Add enhanced fields if available
+    if (ep.date) entry.date = ep.date;
+    if (ep.speakers) entry.speakers = ep.speakers;
+    if (ep.url) entry.url = ep.url;
+    if (ep.description) entry.description = ep.description;
+    
+    byNumber[String(ep.number)] = entry;
   }
 
   const out = {
@@ -182,7 +235,9 @@ async function main() {
   ensureDirForFile(args.output);
   fs.writeFileSync(args.output, JSON.stringify(out, null, 2), 'utf-8');
 
+  const episodesWithSpeakers = episodes.filter(ep => ep.speakers && ep.speakers.length > 0).length;
   console.log(`✓ Wrote ${episodes.length} episodes to ${args.output}`);
+  console.log(`  ${episodesWithSpeakers} episodes include speaker data`);
 }
 
 main().catch(err => {

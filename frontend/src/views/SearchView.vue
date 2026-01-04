@@ -365,7 +365,10 @@ const withBase = (p: string) => {
 const ensureMp3Index = async () => {
   if (mp3IndexLoaded.value || mp3IndexError.value) return;
   try {
-    const res = await fetch(getPodcastFileUrl('episodes.json'), { cache: 'force-cache' });
+    // In dev mode, always reload to get latest data; in production, use cache
+    const res = await fetch(getPodcastFileUrl('episodes.json'), { 
+      cache: import.meta.env.DEV ? 'no-cache' : 'force-cache' 
+    });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
@@ -405,7 +408,10 @@ const buildEpisodeDeepLink = (episodeUrl: string, seconds: number) => {
 
 const openEpisodeAt = async (episodeNumber: number, seconds: number) => {
   try {
-    const res = await fetch(getEpisodeUrl(episodeNumber), { cache: 'force-cache' });
+    // In dev mode, always reload to get latest data; in production, use cache
+    const res = await fetch(withBase(getEpisodeUrl(episodeNumber)), { 
+      cache: import.meta.env.DEV ? 'no-cache' : 'force-cache' 
+    });
     if (!res.ok) return;
     const details = await res.json();
     const url = typeof details?.url === 'string' ? details.url : null;
