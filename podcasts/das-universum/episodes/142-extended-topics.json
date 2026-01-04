@@ -1,0 +1,150 @@
+{
+  "episodeNumber": 142,
+  "title": "DU142 - Das dunkle Monster im fernen Universum",
+  "extractedAt": "2026-01-04T19:29:49.405Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Der junge Stern und Beteigeuze",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sterne"
+      },
+      "summary": "In dieser Episode wird über den roten Überriesen Beteigeuze (Peter Geuze) im Orion gesprochen, der für seine Helligkeitsschwankungen bekannt ist. Ruth erklärt, dass Beteigeuze eine Pulsationsperiode von etwa 400 Tagen hat und dass es neue Erkenntnisse über einen Begleitstern gibt, der als 'Babystern' identifiziert wurde. Dieser junge Stern, der sich noch in der Entstehungsphase befindet, hat eine schwache Röntgenemission und ist in einer Staubwolke eingehüllt. Die Diskussion umfasst auch die Herausforderungen bei der Beobachtung von Beteigeuze und die Bedeutung der Schwingungen für das Verständnis der inneren Struktur von Sternen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "142-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 146,
+        "startSec": 676,
+        "endSec": 1241,
+        "llmDetectedStartSec": 696,
+        "llmDetectedEndSec": 1221,
+        "generatedAt": "2026-01-04T22:02:50.343Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Dunkles Massenmonster",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Dunkle Materie"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "142-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 365,
+        "startSec": 1201,
+        "endSec": 2679,
+        "llmDetectedStartSec": 1221,
+        "llmDetectedEndSec": 2659,
+        "generatedAt": "2026-01-04T22:02:46.698Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kampf von Halloween gegen die Wissenschaft",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Halloween"
+      },
+      "summary": "In dieser Episode diskutieren Ruth und Florian das Konzept der dunklen Materie und deren Halos, die Galaxien umgeben. Ruth erklärt, dass die Beobachtungen zeigen, dass Galaxien sich schneller drehen, als es ohne dunkle Materie zu erwarten wäre, und dass es viele kleine dunkle Materie-Halos geben sollte, die jedoch schwer zu beobachten sind. Sie sprechen auch über das Missing Satellite Problem, bei dem weniger Zwerggalaxien als erwartet um die Milchstraße gefunden wurden. Ruth betont, dass die dunkle Materie nicht sichtbar ist und dass die aktuellen kosmologischen Modelle, wie das Lambda-CDM-Modell, diese Phänomene gut erklären können.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "142-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 334,
+        "startSec": 2639,
+        "endSec": 3904,
+        "llmDetectedStartSec": 2659,
+        "llmDetectedEndSec": 3884,
+        "generatedAt": "2026-01-04T22:02:50.961Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Hypothesen zum Ende des Universums",
+      "subject": {
+        "coarse": "Kosmologie",
+        "fine": "Universum"
+      },
+      "summary": "In dieser Episode wird über Hypothesen zum Ende des Universums diskutiert. Ruth und Florian sprechen über den Kältetod und die maximale Entropie, die das Universum anstrebt, jedoch durch Quantenfluktuationen daran gehindert wird. Diese Fluktuationen könnten potenziell neue Universen entstehen lassen. Das Thema wird auch in einem Kapitel des neuen ScienceBusters Buches behandelt. Zudem wird auf die Ungewissheit bezüglich der dunklen Materie eingegangen, deren Zusammensetzung noch unbekannt ist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "142-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 52,
+        "startSec": 3864,
+        "endSec": 4056,
+        "llmDetectedStartSec": 3884,
+        "llmDetectedEndSec": 4036,
+        "generatedAt": "2026-01-04T22:02:54.047Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Wissenschaft und Betrug",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Ethik"
+      },
+      "summary": "In dieser Episode wird das Thema Wissenschaftsbetrug behandelt, insbesondere die Fälschung von Daten und Publikationen in der Wissenschaft. Ruth und Florian diskutieren, dass es gut organisierte Betrugsnetzwerke gibt und dass der Druck im Wissenschaftssystem, ständig zu publizieren, zu solchen Betrügereien führen kann. Ein Beispiel ist Jan Hendrik Schön, dessen gefälschte Forschungsergebnisse große Auswirkungen auf die wissenschaftliche Gemeinschaft hatten. Zudem wird auf das Problem von Fake-Journalen eingegangen, die gegen Bezahlung Artikel veröffentlichen, ohne eine angemessene Begutachtung durchzuführen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "142-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 100,
+        "startSec": 4016,
+        "endSec": 4337,
+        "llmDetectedStartSec": 4036,
+        "llmDetectedEndSec": 4317,
+        "generatedAt": "2026-01-04T22:02:55.058Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Empfehlung von Filmen",
+      "subject": {
+        "coarse": "Unterhaltung",
+        "fine": "Filme"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "142-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 4297,
+        "endSec": 20,
+        "llmDetectedStartSec": 4317,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:02:55.058Z",
+  "transcriptFound": true,
+  "transcriptFile": "142-ts.json"
+}

@@ -1,0 +1,197 @@
+{
+  "episodeNumber": 122,
+  "title": "DU122 - Die Sternenhimmel der Menschheit",
+  "extractedAt": "2026-01-04T19:27:46.056Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Sternenhimmel der Menschheit",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Mythologie"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "122-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 27,
+        "startSec": 0,
+        "endSec": 104,
+        "llmDetectedStartSec": 10,
+        "llmDetectedEndSec": 84,
+        "generatedAt": "2026-01-04T21:57:33.307Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Wert der Sternbilder",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sternbilder"
+      },
+      "summary": "Die Raumsonde Gaia, die am 19. Dezember 2013 gestartet wurde, hat über zehn Jahre lang Daten gesammelt, bevor sie am 15. Januar 2024 ihre letzte Aufnahme machte. Gaia hat 55 Kilogramm Stickstoff für ihre Positionierung verbraucht und wird am 27. März 2025 abgeschaltet. Während ihrer Mission hat sie drei Billionen Beobachtungen gemacht, zwei Milliarden Sterne kartografiert und 142 Terabyte an Daten zur Erde gesendet, was zu 13.000 wissenschaftlichen Publikationen führte. Die ESA bezeichnete Gaia als die Entdeckungsmaschine des Jahrzehnts.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "122-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 27,
+        "startSec": 64,
+        "endSec": 168,
+        "llmDetectedStartSec": 84,
+        "llmDetectedEndSec": 148,
+        "generatedAt": "2026-01-04T21:57:35.237Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Vergleich westlicher und anderer Sternenhimmel",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sternenkunde"
+      },
+      "summary": "In dieser Episode wird das Thema der Astronomie und der Sternenkunde behandelt, insbesondere die Rolle des Gaia-Satelliten der ESA. Gaia hat zwei Milliarden Sterne und andere Himmelsobjekte kartografiert und 142 Terabyte an Daten zur Erde gesendet, aus denen bereits 13.000 wissenschaftliche Publikationen entstanden sind. Der nächste Datenrelease, Data Release 4, wird 550 Terabyte an aufbereiteten Daten enthalten, was jedoch nur die Hälfte der gesammelten Daten darstellt. Die Diskussion umfasst auch die Lebensdauer von Gaia im Vergleich zu anderen Missionen wie dem James-Webb-Teleskop.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "122-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 32,
+        "startSec": 128,
+        "endSec": 248,
+        "llmDetectedStartSec": 148,
+        "llmDetectedEndSec": 228,
+        "generatedAt": "2026-01-04T21:57:36.591Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Volkssternbilder",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Volkskunde"
+      },
+      "summary": "In dieser Episode wird das Hauptthema der Beobachtung von Sternen durch Menschen behandelt, anstatt durch technische Instrumente wie Satelliten oder Teleskope. Der Gast Raul Schrott, ein Tiroler, bringt eine interessante Perspektive ein. Es wird auch auf die umfangreiche Arbeit mit den Gaia-Daten hingewiesen, die viele Sterne beobachtet haben. Die Diskussion umfasst kulturelle Aspekte der Sternenbeobachtung und die Bedeutung von Volkssternbildern.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "122-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 27,
+        "startSec": 208,
+        "endSec": 312,
+        "llmDetectedStartSec": 228,
+        "llmDetectedEndSec": 292,
+        "generatedAt": "2026-01-04T21:57:38.407Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Raumsonde Gaia",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Missionen"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "122-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": null,
+        "endSec": null,
+        "llmDetectionFailed": true,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Daten von Gaia",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Datenanalyse"
+      },
+      "summary": "In dieser Episode wird über die Gaia-Daten gesprochen, die eine umfassende Beobachtung von Sternen ermöglichen. Florian betont, dass Gaia mehr Sterne beobachtet hat als jedes andere Instrument zuvor und dass die Arbeit mit diesen Daten noch Jahrzehnte andauern wird. Der Gast Raul Schrott wird eingeführt, um über das Beobachten von Sternen durch Menschen zu diskutieren. Es wird auch humorvoll auf Rauls Tiroler Akzent eingegangen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "122-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 25,
+        "startSec": 214,
+        "endSec": 308,
+        "llmDetectedStartSec": 234,
+        "llmDetectedEndSec": 288,
+        "generatedAt": "2026-01-04T21:57:39.369Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Sternengeschichten und ihre Ursprünge",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Geschichten"
+      },
+      "summary": "In dieser Episode spricht Raoul über seine literarische Arbeit, insbesondere sein Buch \"Erste Erde Epos\", das die Geschichte des Universums vom Urknall bis zur Entstehung des Menschen und der Schrift behandelt. Er betont, dass er naturwissenschaftliches Wissen in Geschichten umformen möchte, um es anschaulich und verständlich zu machen. Raoul, ein ausgebildeter Germanist, hat auch zahlreiche andere Werke verfasst, die die Grenzen zwischen Literatur und Naturwissenschaft überschreiten.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "122-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 49,
+        "startSec": 268,
+        "endSec": 452,
+        "llmDetectedStartSec": 288,
+        "llmDetectedEndSec": 432,
+        "generatedAt": "2026-01-04T21:57:41.581Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Buch von Raoul Schrott",
+      "subject": {
+        "coarse": "Literatur",
+        "fine": "Sachbuch"
+      },
+      "summary": "Raoul Schrott beschreibt in seinem Buch, das als modernes Epos konzipiert ist, die Entwicklung des Universums vom Urknall bis zur Entstehung des Menschen und der Schrift. Er möchte naturwissenschaftliches Wissen in anschauliche Geschichten umformen, wobei Poesie durch Vergleiche und Metaphern Sinnlichkeit vermittelt. Das Werk wird auch als Heimatroman betrachtet, da es die geologischen Besonderheiten der Region, wie die Berge im Prägenzer Wald, erklärt. Florian hebt die Größe des Buches sowohl inhaltlich als auch physisch hervor.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "122-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 16,
+        "startSec": 412,
+        "endSec": 476,
+        "llmDetectedStartSec": 432,
+        "llmDetectedEndSec": 456,
+        "generatedAt": "2026-01-04T21:57:42.265Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:57:42.265Z",
+  "transcriptFound": true,
+  "transcriptFile": "122-ts.json"
+}

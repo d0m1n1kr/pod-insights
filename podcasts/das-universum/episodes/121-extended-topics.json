@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 121,
+  "title": "DU121 - Küssen und Kosmologie im Zeitraffer",
+  "extractedAt": "2026-01-04T19:27:39.030Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Kuss zwischen Pluto und Charon",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Himmelskörper"
+      },
+      "summary": "In dieser Episode wird das Thema des \"Kusses\" zwischen den Himmelskörpern Pluto und Charon behandelt. Pluto, der nicht mehr als Planet klassifiziert wird, und sein Mond Charon bilden ein nahezu gleichgewichtetes Doppel-Himmelskörper-System mit einem Massenverhältnis von 0,1. Die Diskussion dreht sich um die Entstehung dieser beiden Objekte, die durch Kollisionen entstanden sein könnten. Ein neues Modell namens \"Kiss and Capture\" beschreibt, wie Pluto und Charon durch eine kurze Kollision zusammenkamen und anschließend gravitativ gebunden blieben. Die Simulationen zeigen, dass die Materialstärke der Objekte und die Temperatur eine entscheidende Rolle in diesem Prozess spielen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "121-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 192,
+        "startSec": 349,
+        "endSec": 1031,
+        "llmDetectedStartSec": 369,
+        "llmDetectedEndSec": 1011,
+        "generatedAt": "2026-01-04T21:57:23.642Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Timescape-Kosmologie",
+      "subject": {
+        "coarse": "Kosmologie",
+        "fine": "Dunkle Energie"
+      },
+      "summary": "In dieser Episode wird das Thema der Timescape-Kosmologie diskutiert, insbesondere im Zusammenhang mit Supernova-Explosionen und der dunklen Energie. Florian erklärt, dass das klassische Lambda-CDM-Modell die dunkle Energie als treibende Kraft hinter der beschleunigten Expansion des Universums betrachtet. Im Gegensatz dazu argumentieren Wissenschaftler wie David Wiltshire, dass lokale Inhomogenitäten, die Backreaction, die Expansion beeinflussen und zu einer unterschiedlichen Zeitwahrnehmung in verschiedenen Regionen des Universums führen können. Diese Unterschiede könnten die Beobachtungen von Supernovae und deren scheinbare Entfernungen erklären.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "121-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 481,
+        "startSec": 991,
+        "endSec": 2817,
+        "llmDetectedStartSec": 1011,
+        "llmDetectedEndSec": 2797,
+        "generatedAt": "2026-01-04T21:57:22.358Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Einfluss lokaler Strukturen auf die Expansion des Universums",
+      "subject": {
+        "coarse": "Kosmologie",
+        "fine": "Expansion"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "121-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 2777,
+        "endSec": 20,
+        "llmDetectedStartSec": 2797,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Debatte um Dunkle Energie",
+      "subject": {
+        "coarse": "Kosmologie",
+        "fine": "Dunkle Energie"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "121-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 4,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:57:23.996Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science-Fiction-Filme 2025",
+      "subject": {
+        "coarse": "Unterhaltung",
+        "fine": "Film"
+      },
+      "summary": "Im Podcast \"Das Universum\" diskutieren Ruth und Florian über das Jahr 2025 und kündigen Live-Events in Düsseldorf, Siegen und Bonn an. Sie sprechen über die mathematische Besonderheit des Jahres 2025, insbesondere die Summe der aufeinanderfolgenden Kubikzahlen. Ein weiteres Thema ist Pluto und sein Mond Charon, die als fast gleich große Himmelskörper betrachtet werden. Das Massenverhältnis von Pluto zu Charon wird als nahezu doppelt so hoch beschrieben wie das von Erde und Mond. Diese Konstellation wird im Kontext des äußeren Sonnensystems und der Entstehung solcher Objekte thematisiert.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "121-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 1132,
+        "startSec": 0,
+        "endSec": 4091,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 4071,
+        "generatedAt": "2026-01-04T21:57:27.007Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:57:27.007Z",
+  "transcriptFound": true,
+  "transcriptFile": "121-ts.json"
+}

@@ -1,0 +1,53 @@
+{
+  "episodeNumber": 290,
+  "title": "Mi290  – \"Reini im Krankenhaus\"",
+  "extractedAt": "2026-01-04T19:15:29.789Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Reini im Krankenhaus",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Hospital"
+      },
+      "durationSec": 3265,
+      "positionSec": 100,
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": false,
+        "transcriptFile": "290-ts.json"
+      }
+    },
+    {
+      "topic": "Kommentar Simon zu jugend forscht",
+      "subject": {
+        "coarse": "Education",
+        "fine": "Science Competition"
+      },
+      "durationSec": 268,
+      "positionSec": 3365,
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": false,
+        "transcriptFile": "290-ts.json"
+      }
+    },
+    {
+      "topic": "Interview zu \"Schwurbler verklagen\"",
+      "subject": {
+        "coarse": "Law",
+        "fine": "Litigation"
+      },
+      "durationSec": 2902,
+      "positionSec": 3633,
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": false,
+        "transcriptFile": "290-ts.json"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:25:59.226Z",
+  "transcriptFound": false,
+  "transcriptFile": "290-ts.json"
+}

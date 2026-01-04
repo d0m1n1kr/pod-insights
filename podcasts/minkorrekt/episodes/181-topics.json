@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 181,
+  "title": "Mi181 - \"Haare 18\"",
+  "extractedAt": "2026-01-04T19:01:21.533Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "schlechte Infrastruktur",
+      "subject": {
+        "coarse": "Infrastruktur",
+        "fine": "Öffentliche Dienste"
+      }
+    },
+    {
+      "topic": "Massenaussterben",
+      "subject": {
+        "coarse": "Umwelt",
+        "fine": "Biodiversität"
+      }
+    },
+    {
+      "topic": "Zweifel",
+      "subject": {
+        "coarse": "Psychologie",
+        "fine": "Emotionen"
+      }
+    },
+    {
+      "topic": "Weihnachten",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Feiertage"
+      }
+    },
+    {
+      "topic": "Experiment der Woche: Kerzenbläser",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Experimente"
+      }
+    }
+  ]
+}

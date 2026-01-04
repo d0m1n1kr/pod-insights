@@ -12,6 +12,8 @@ export interface Podcast {
   feedUrl?: string;
   archiveUrl?: string;
   teamUrl?: string;
+  disableSearch?: boolean;
+  disableSpeakers?: boolean;
 }
 
 export const useSettingsStore = defineStore('settings', () => {

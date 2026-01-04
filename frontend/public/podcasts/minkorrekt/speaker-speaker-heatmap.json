@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-01-04T19:35:35.541Z",
+  "description": "Speaker-Speaker Co-occurrence Heatmap Data",
+  "statistics": {
+    "totalSpeakers": 2,
+    "totalCombinations": 4,
+    "topSpeakersByEpisodes": [
+      {
+        "id": "nikolas",
+        "name": "Nikolas",
+        "totalEpisodes": 1
+      },
+      {
+        "id": "rainer",
+        "name": "Rainer",
+        "totalEpisodes": 1
+      }
+    ]
+  },
+  "speakers": [
+    {
+      "id": "nikolas",
+      "name": "Nikolas",
+      "totalEpisodes": 1
+    },
+    {
+      "id": "rainer",
+      "name": "Rainer",
+      "totalEpisodes": 1
+    }
+  ],
+  "matrix": [
+    {
+      "speakerId": "nikolas",
+      "speaker1Name": "Nikolas",
+      "values": [
+        {
+          "speakerId": "nikolas",
+          "speaker2Name": "Nikolas",
+          "count": 1,
+          "episodes": [
+            374
+          ]
+        },
+        {
+          "speakerId": "rainer",
+          "speaker2Name": "Rainer",
+          "count": 1,
+          "episodes": [
+            374
+          ]
+        }
+      ]
+    },
+    {
+      "speakerId": "rainer",
+      "speaker1Name": "Rainer",
+      "values": [
+        {
+          "speakerId": "nikolas",
+          "speaker2Name": "Nikolas",
+          "count": 1,
+          "episodes": [
+            374
+          ]
+        },
+        {
+          "speakerId": "rainer",
+          "speaker2Name": "Rainer",
+          "count": 1,
+          "episodes": [
+            374
+          ]
+        }
+      ]
+    }
+  ]
+}

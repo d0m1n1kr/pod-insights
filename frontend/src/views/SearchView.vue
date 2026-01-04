@@ -298,6 +298,198 @@ const searchExamples = computed<SearchExample[]>(() => {
     ];
   }
 
+  if (pid === 'das-universum') {
+    return [
+      {
+        id: 'du-discussion-1',
+        icon: '💬',
+        label: t('search.examplesByPodcast.das-universum.discussion1'),
+        query: 'Sollten wir nach außerirdischem Leben suchen?',
+        speaker1Slug: 'ruth',
+        speaker2Slug: 'florian',
+        sublabel: t('search.discussionMode.discussion'),
+      },
+      {
+        id: 'du-persona-1',
+        icon: '🌌',
+        label: t('search.examplesByPodcast.das-universum.persona1'),
+        query: 'Was sind eigentlich die Lagrange-Punkte?',
+        speaker1Slug: 'florian',
+        speaker2Slug: null,
+        sublabel: 'Speaker Persona',
+      },
+      {
+        id: 'du-neutral-1',
+        icon: '🪐',
+        label: t('search.examplesByPodcast.das-universum.neutral1'),
+        query: 'Was sind Exoplaneten und wie findet man sie?',
+        speaker1Slug: null,
+        speaker2Slug: null,
+        sublabel: t('search.neutral'),
+      },
+    ];
+  }
+
+  if (pid === 'cre') {
+    return [
+      {
+        id: 'cre-discussion-1',
+        icon: '💬',
+        label: t('search.examplesByPodcast.cre.discussion1'),
+        query: 'Was ist besser, Open Source oder proprietäre Software?',
+        speaker1Slug: 'tim-pritlove',
+        speaker2Slug: null, // Will be selected by user
+        sublabel: t('search.discussionMode.discussion'),
+      },
+      {
+        id: 'cre-persona-1',
+        icon: '🎙️',
+        label: t('search.examplesByPodcast.cre.persona1'),
+        query: 'Wie siehst du die Zukunft des Podcastings?',
+        speaker1Slug: 'tim-pritlove',
+        speaker2Slug: null,
+        sublabel: 'Speaker Persona',
+      },
+      {
+        id: 'cre-neutral-1',
+        icon: '🤖',
+        label: t('search.examplesByPodcast.cre.neutral1'),
+        query: 'Was ist der aktuelle Stand der KI-Entwicklung?',
+        speaker1Slug: null,
+        speaker2Slug: null,
+        sublabel: t('search.neutral'),
+      },
+    ];
+  }
+
+  if (pid === 'raumzeit') {
+    return [
+      {
+        id: 'rz-discussion-1',
+        icon: '💬',
+        label: t('search.examplesByPodcast.raumzeit.discussion1'),
+        query: 'Sollten wir zum Mars fliegen?',
+        speaker1Slug: 'tim-pritlove',
+        speaker2Slug: null, // Will be selected by user
+        sublabel: t('search.discussionMode.discussion'),
+      },
+      {
+        id: 'rz-persona-1',
+        icon: '🚀',
+        label: t('search.examplesByPodcast.raumzeit.persona1'),
+        query: 'Wie funktioniert die Raumfahrt-Technologie?',
+        speaker1Slug: 'tim-pritlove',
+        speaker2Slug: null,
+        sublabel: 'Speaker Persona',
+      },
+      {
+        id: 'rz-neutral-1',
+        icon: '🔴',
+        label: t('search.examplesByPodcast.raumzeit.neutral1'),
+        query: 'Was sind die neuesten Erkenntnisse über den Mars?',
+        speaker1Slug: null,
+        speaker2Slug: null,
+        sublabel: t('search.neutral'),
+      },
+    ];
+  }
+
+  if (pid === 'forschergeist') {
+    return [
+      {
+        id: 'fg-discussion-1',
+        icon: '💬',
+        label: t('search.examplesByPodcast.forschergeist.discussion1'),
+        query: 'Wie sollte Wissenschaft kommuniziert werden?',
+        speaker1Slug: 'tim-pritlove',
+        speaker2Slug: null, // Will be selected by user
+        sublabel: t('search.discussionMode.discussion'),
+      },
+      {
+        id: 'fg-persona-1',
+        icon: '🔬',
+        label: t('search.examplesByPodcast.forschergeist.persona1'),
+        query: 'Was sind die größten Herausforderungen in der Wissenschaft?',
+        speaker1Slug: 'tim-pritlove',
+        speaker2Slug: null,
+        sublabel: 'Speaker Persona',
+      },
+      {
+        id: 'fg-neutral-1',
+        icon: '📚',
+        label: t('search.examplesByPodcast.forschergeist.neutral1'),
+        query: 'Wie funktioniert wissenschaftliches Arbeiten heute?',
+        speaker1Slug: null,
+        speaker2Slug: null,
+        sublabel: t('search.neutral'),
+      },
+    ];
+  }
+
+  if (pid === 'minkorrekt') {
+    return [
+      {
+        id: 'mi-persona-1',
+        icon: '🏆',
+        label: t('search.examplesByPodcast.minkorrekt.persona1'),
+        query: 'Was sind deine Ig-Nobelpreis Favoriten?',
+        speaker1Slug: 'nikolas',
+        speaker2Slug: null,
+        sublabel: 'Speaker Persona',
+      },
+      {
+        id: 'mi-discussion-1',
+        icon: '💬',
+        label: t('search.examplesByPodcast.minkorrekt.discussion1'),
+        query: 'Was haltet Ihr von Homöopathie?',
+        speaker1Slug: 'nikolas',
+        speaker2Slug: 'rainer',
+        sublabel: t('search.discussionMode.discussion'),
+      },
+      {
+        id: 'mi-neutral-1',
+        icon: '🔬',
+        label: t('search.examplesByPodcast.minkorrekt.neutral1'),
+        query: 'Was gibt es neues und spannendes in der Wissenschaft?',
+        speaker1Slug: null,
+        speaker2Slug: null,
+        sublabel: t('search.neutral'),
+      },
+    ];
+  }
+
+  if (pid === 'wrint-wissenschaft') {
+    return [
+      {
+        id: 'ww-discussion-1',
+        icon: '💬',
+        label: t('search.examplesByPodcast.wrint-wissenschaft.discussion1'),
+        query: 'Wie sollte Wissenschaftskommunikation funktionieren?',
+        speaker1Slug: null, // Will be selected by user
+        speaker2Slug: null,
+        sublabel: t('search.discussionMode.discussion'),
+      },
+      {
+        id: 'ww-persona-1',
+        icon: '🎙️',
+        label: t('search.examplesByPodcast.wrint-wissenschaft.persona1'),
+        query: 'Wie erklärst du komplexe Wissenschaft verständlich?',
+        speaker1Slug: null, // Will be selected by user
+        speaker2Slug: null,
+        sublabel: 'Speaker Persona',
+      },
+      {
+        id: 'ww-neutral-1',
+        icon: '🌡️',
+        label: t('search.examplesByPodcast.wrint-wissenschaft.neutral1'),
+        query: 'Was sind die neuesten Erkenntnisse in der Klimaforschung?',
+        speaker1Slug: null,
+        speaker2Slug: null,
+        sublabel: t('search.neutral'),
+      },
+    ];
+  }
+
   // default: freakshow examples
   return [
     {

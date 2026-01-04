@@ -1,0 +1,50 @@
+{
+  "episodeNumber": 100,
+  "title": "DU100 - Das Universum ist gescheitert",
+  "extractedAt": "2026-01-04T19:25:14.807Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Scheitern im Studium",
+      "subject": {
+        "coarse": "Education",
+        "fine": "Astronomy"
+      }
+    },
+    {
+      "topic": "Erfahrungen von Astronomie-Studierenden",
+      "subject": {
+        "coarse": "Education",
+        "fine": "Student Life"
+      }
+    },
+    {
+      "topic": "Karrierewege nach dem Studium",
+      "subject": {
+        "coarse": "Career",
+        "fine": "Teaching"
+      }
+    },
+    {
+      "topic": "Asteroseismologie",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Astrophysics"
+      }
+    },
+    {
+      "topic": "Satellitenbau",
+      "subject": {
+        "coarse": "Engineering",
+        "fine": "Space Technology"
+      }
+    },
+    {
+      "topic": "Filmvorstellung: October Sky",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Film Analysis"
+      }
+    }
+  ]
+}

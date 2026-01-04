@@ -1,0 +1,150 @@
+{
+  "episodeNumber": 127,
+  "title": "DU127 - Der Glücksstern und die Mutter von Hubble",
+  "extractedAt": "2026-01-04T19:28:16.347Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Nancy Grace Roman und AG Draconis",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sternsysteme"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "127-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 15,
+        "startSec": 28,
+        "endSec": 76,
+        "llmDetectedStartSec": 48,
+        "llmDetectedEndSec": 56,
+        "generatedAt": "2026-01-04T21:58:49.193Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Hubble-Weltraumteleskop",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Weltraumteleskope"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "127-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 13,
+        "startSec": 36,
+        "endSec": 79,
+        "llmDetectedStartSec": 56,
+        "llmDetectedEndSec": 59,
+        "generatedAt": "2026-01-04T21:58:48.787Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Expansion des Weltalls",
+      "subject": {
+        "coarse": "Kosmologie",
+        "fine": "Universum"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "127-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 9,
+        "startSec": 39,
+        "endSec": 66,
+        "llmDetectedStartSec": 59,
+        "llmDetectedEndSec": 46,
+        "generatedAt": "2026-01-04T21:58:50.359Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Astronautinnen und ihre Missionen",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Astronauten"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "127-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 26,
+        "endSec": 20,
+        "llmDetectedStartSec": 46,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Gaia-Weltraumteleskop",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Weltraumteleskope"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "127-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 4,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:58:50.673Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "AG Draconis und seine Aktivitätsphasen",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sternsysteme"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "127-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 4,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:58:51.809Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:58:51.809Z",
+  "transcriptFound": true,
+  "transcriptFile": "127-ts.json"
+}

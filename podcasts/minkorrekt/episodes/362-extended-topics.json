@@ -1,0 +1,275 @@
+{
+  "episodeNumber": 362,
+  "title": "Mi362 – \"Wehwehchen der Woche\"",
+  "extractedAt": "2026-01-04T19:24:24.024Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Krankheit",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Illness"
+      },
+      "durationSec": 957,
+      "positionSec": 350,
+      "summary": "In dieser Episode wird über gesundheitliche Probleme gesprochen, insbesondere über die Auswirkungen einer Erkältung und eines gutartigen Lagerungsschwindels. Der Sprecher berichtet von Symptomen wie Schnupfen, Kopfschmerzen und Husten, die ihn daran hinderten, an Auftritten in Bielefeld und Freiburg teilzunehmen. Der Lagerungsschwindel wird als häufige Erkrankung beschrieben, die durch kleine Kristalle im Innenohr verursacht wird. Diese Kristalle können sich lösen und Schwindelgefühle hervorrufen, die durch spezielle Kopfbewegungen behandelt werden können. Es wird betont, dass solche gesundheitlichen Probleme ernst genommen werden sollten.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 359,
+        "startSec": 330,
+        "endSec": 1327,
+        "generatedAt": "2026-01-04T19:26:43.085Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "PTB Braunschweig",
+      "subject": {
+        "coarse": "Location",
+        "fine": "Braunschweig"
+      },
+      "durationSec": 1429,
+      "positionSec": 1307,
+      "summary": "In Episode 362 wird der Tag der offenen Tür der Physikalisch-Technischen Bundesanstalt (PTB) in Braunschweig thematisiert. Der Erzähler und seine Frau besuchten die Veranstaltung, die seit acht Jahren nicht mehr stattfand und auf großes Interesse stieß, was sich in der hohen Besucherzahl und der gut organisierten Veranstaltung widerspiegelte. Sie erhielten Einblicke in verschiedene Labore, darunter eine Führung durch einen Reinraum, und lernten über die Funktionsweise von Atomuhren, insbesondere von Cesiumuhren. Die PTB bot eine informative und spannende Erfahrung für die Besucher.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 348,
+        "startSec": 1287,
+        "endSec": 2756,
+        "generatedAt": "2026-01-04T19:26:42.971Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Lauscherlounge",
+      "subject": {
+        "coarse": "Entertainment",
+        "fine": "Podcast"
+      },
+      "durationSec": 104,
+      "positionSec": 2736,
+      "summary": "In dieser Episode berichtet der Gastgeber von seinem Besuch bei einem Mitmachhörspiel von Oliver Rohrbeck, das auf \"Die drei ???\" basiert. Bei diesen Veranstaltungen werden Laien als Sprecher gecastet, um die Charaktere im Hörspiel zu verkörpern. Ein persönliches Highlight war ein Easter Egg, bei dem Oliver Rohrbeck den Titel des Podcasts \"methodisch inkorrekt\" in das Live-Hörspiel einbaute. Zudem wird erwähnt, dass an einem Brettspiel gearbeitet wird, wobei die Beteiligung von Montu Games hervorgehoben wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 32,
+        "startSec": 2716,
+        "endSec": 2860,
+        "generatedAt": "2026-01-04T19:26:46.745Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Minkorrekt Brettspiel",
+      "subject": {
+        "coarse": "Games",
+        "fine": "Board Games"
+      },
+      "durationSec": 250,
+      "positionSec": 2840,
+      "summary": "In der Episode 362 wird über die Entwicklung eines neuen Brettspiels gesprochen, an dem die Moderatoren zusammen mit Montu Games arbeiten. Die Spielmechanik wird von den Experten bei Montu Games entwickelt, während die Moderatoren ihre Ideen und Präferenzen einbringen. Es sind bereits Testrunden geplant, und Interessierte können sich über einen Link in den Show Notes anmelden, um daran teilzunehmen. Das Spiel wird über den Tabletop Simulator getestet, der auf Steam verfügbar ist. Die Moderatoren ermutigen die Zuhörer, sich an Umfragen und Designentscheidungen zu beteiligen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 86,
+        "startSec": 2820,
+        "endSec": 3110,
+        "generatedAt": "2026-01-04T19:26:46.747Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kommentare der Woche",
+      "subject": {
+        "coarse": "Feedback",
+        "fine": "Comments"
+      },
+      "durationSec": 216,
+      "positionSec": 3090,
+      "summary": "In dieser Episode werden verschiedene Kommentare und Feedbacks besprochen, insbesondere zu einem PSA-Test, der in der medizinischen Diskussion kritisch betrachtet wird. Es wird erwähnt, dass der Test potenziell viele falsche Positiv-Ergebnisse liefern kann, was zu unnötigen Therapien führen könnte. Der Moderator betont, dass medizinische Ratschläge von ihnen nicht gegeben werden sollten, und empfiehlt Vorsorgeuntersuchungen, insbesondere bei familiärer Vorgeschichte von Krankheiten. Zudem werden zwei Audiokommentare erwähnt, die sich mit Themen wie 'Händchen halten' und 'Chachibiti' sowie Friedhöfen befassen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 78,
+        "startSec": 3070,
+        "endSec": 3326,
+        "generatedAt": "2026-01-04T19:26:50.831Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 1",
+      "subject": {
+        "coarse": "General",
+        "fine": "Topic Discussion"
+      },
+      "durationSec": 1454,
+      "positionSec": 3306,
+      "summary": "In der Episode 362 wird über die Entdeckung potenziellen Lebens auf dem Mars diskutiert. Der Moderator äußert seinen Wunsch, dass während seiner Lebenszeit außerirdisches Leben gefunden wird. Es wird auf die Rolle der NASA-Rover, insbesondere Perseverance, eingegangen, der im Jazeiro-Krater nach Hinweisen auf vergangenes Leben sucht. Neueste Analysen zeigen, dass die gefundenen 'Leopardenflecken' organische Moleküle und eisenhaltige Mineralien enthalten, was als vielversprechender Schritt in der Suche nach Leben auf dem Mars angesehen wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 528,
+        "startSec": 3286,
+        "endSec": 4780,
+        "generatedAt": "2026-01-04T19:26:50.942Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Snack",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Snack"
+      },
+      "durationSec": 270,
+      "positionSec": 4760,
+      "summary": "In diesem kurzen Science-Snack wird das Thema Unsterblichkeit behandelt, insbesondere durch die Betrachtung der Qualenart Turritopsis dorni, die in der Lage ist, sich genetisch zu verjüngen und somit einen unendlichen Lebenszyklus zu führen. Diese Quale kann ihre Zellen in pluripotente Stammzellen umwandeln, wodurch sie in einen embryonalen Zustand zurückkehrt und als Polyp am Meeresgrund neu beginnt. Die Diskussion berührt auch philosophische Fragen zur Bedeutung des Lebens, wenn die Lebenszeit unbegrenzt wäre.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 129,
+        "startSec": 4740,
+        "endSec": 5050,
+        "generatedAt": "2026-01-04T19:26:54.408Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 2",
+      "subject": {
+        "coarse": "General",
+        "fine": "Topic Discussion"
+      },
+      "durationSec": 1175,
+      "positionSec": 5030,
+      "summary": "In der Episode wird das Thema der Sprache von CEOs während sogenannter Earning Calls diskutiert. Diese Telefonkonferenzen dienen dazu, die Finanzergebnisse eines Unternehmens zu präsentieren und Prognosen abzugeben. Eine Studie aus Kanada analysierte die Sprachmuster von CEOs in über 40.000 Earning Calls zwischen 2010 und 2018, um herauszufinden, ob sich der Sprachstil vor einem unfreiwilligen Abgang des CEOs verändert. Die Forscher untersuchten, ob bestimmte sprachliche Merkmale Hinweise auf bevorstehende Veränderungen in der Unternehmensführung geben können.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 250,
+        "startSec": 5010,
+        "endSec": 6225,
+        "generatedAt": "2026-01-04T19:26:55.498Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwurbel der Woche",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Conspiracy"
+      },
+      "durationSec": 422,
+      "positionSec": 6205,
+      "summary": "In dieser Episode wird das Produkt 'Ichi Frequenz Ship' aus Österreich kritisch beleuchtet, das mit der Behauptung wirbt, durch spezielle Frequenzen die Regeneration und Energie der Zellen zu unterstützen. Die Diskussion hebt hervor, dass es sich im Wesentlichen um einen einfachen Aufkleber handelt, der in verschiedenen Varianten für unterschiedliche Beschwerden verkauft wird, jedoch ohne wissenschaftlich fundierte Nachweise für seine Wirksamkeit. Die angeblichen Studien werden als unzureichend und unseriös eingestuft, da sie keine Kontrollgruppen beinhalten und die Ergebnisse fragwürdig sind. Der gesamte Ansatz wird als typisches Beispiel für pseudowissenschaftlichen 'Schwurbel' dargestellt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 192,
+        "startSec": 6185,
+        "endSec": 6647,
+        "generatedAt": "2026-01-04T19:26:58.410Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Audiokommentar von Ole",
+      "subject": {
+        "coarse": "Feedback",
+        "fine": "Audio Comment"
+      },
+      "durationSec": 206,
+      "positionSec": 6895,
+      "summary": "Ole gibt in seinem Audiokommentar eine Erklärung zum Thema Händchenhalten in heterosexuellen Beziehungen. Er erläutert, dass Männer aufgrund ihrer häufig größeren Körpergröße ihre Hand von vorne in die Hand der Frau legen, was biomechanische Vorteile bietet. Dies ermöglicht ein freies Schwingen der Arme und erleichtert das Zeigen auf höhere Objekte. Ole diskutiert auch, dass dieser Effekt bei Eltern-Kind-Beziehungen ähnlich ist, da Eltern oft größer sind als ihre Kinder. Er erwähnt, dass Gewohnheiten und der Höhenunterschied der Schultern eine Rolle spielen können.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "time-window",
+        "pickedCount": 32,
+        "startSec": 6875,
+        "endSec": 7121,
+        "generatedAt": "2026-01-04T19:26:58.838Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Audiokommentar von Maximilian",
+      "subject": {
+        "coarse": "Feedback",
+        "fine": "Audio Comment"
+      },
+      "durationSec": 0,
+      "positionSec": 7101,
+      "summary": "In Episode 362 von Methodisch-Incorrect werden zwei Audiokommentare besprochen, einer von Ohle zum Thema Händchen halten und der andere von Maximilian zu Chachibiti und Friedhöfen. Maximilian berichtet von merkwürdigen Antworten, die er zu Friedhöfen in Göttingen erhalten hat, und erwähnt, dass die Qualität der Antworten stark vom Prompt abhängt. Es wird darauf hingewiesen, dass andere Teilnehmer bessere Ergebnisse erzielt haben. Die Episode schließt mit einem Dank an die Zuhörer für ihre Beteiligung.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "362-ts.json",
+        "method": "keyword-window",
+        "pickedCount": 55,
+        "startSec": 3200,
+        "endSec": 6803,
+        "generatedAt": "2026-01-04T19:27:01.836Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:27:01.836Z",
+  "transcriptFound": true,
+  "transcriptFile": "362-ts.json"
+}

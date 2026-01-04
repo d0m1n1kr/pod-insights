@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-01-04T19:35:35.704Z",
+  "description": "Speaker × Episode Duration Heatmap Data",
+  "statistics": {
+    "totalEpisodes": 1,
+    "totalSpeakers": 2,
+    "totalDurationBuckets": 1,
+    "totalCombinations": 2,
+    "mostCommonSpeaker": "Nikolas",
+    "mostCommonSpeakerCount": 1,
+    "mostCommonDuration": 150,
+    "mostCommonDurationLabel": "2h 30min",
+    "mostCommonDurationCount": 2
+  },
+  "speakers": [
+    {
+      "name": "Nikolas",
+      "totalEpisodes": 1
+    },
+    {
+      "name": "Rainer",
+      "totalEpisodes": 1
+    }
+  ],
+  "durations": [
+    {
+      "minutes": 150,
+      "label": "2h 30min",
+      "totalEpisodes": 2
+    }
+  ],
+  "matrix": [
+    {
+      "speaker": "Nikolas",
+      "totalEpisodes": 1,
+      "values": [
+        {
+          "duration": 150,
+          "durationLabel": "2h 30min",
+          "count": 1,
+          "episodes": [
+            374
+          ]
+        }
+      ]
+    },
+    {
+      "speaker": "Rainer",
+      "totalEpisodes": 1,
+      "values": [
+        {
+          "duration": 150,
+          "durationLabel": "2h 30min",
+          "count": 1,
+          "episodes": [
+            374
+          ]
+        }
+      ]
+    }
+  ]
+}

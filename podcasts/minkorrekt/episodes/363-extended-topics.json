@@ -1,0 +1,155 @@
+{
+  "episodeNumber": 363,
+  "title": "Mi363 – \"Pommes Punkte\"",
+  "extractedAt": "2026-01-04T19:24:29.818Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Wunderland Kalkar",
+      "subject": {
+        "coarse": "Location",
+        "fine": "Wunderland Kalkar"
+      },
+      "durationSec": 1609,
+      "positionSec": 682,
+      "summary": "Das Wunderland Kalkar, ehemals Kernwasser Wunderland, ist ein Freizeitpark, der in einem nie in Betrieb genommenen Atomkraftwerk untergebracht ist. Er richtet sich hauptsächlich an Familien mit kleinen Kindern und bietet eine Vielzahl von Attraktionen. Die Besucher können im angrenzenden Hotel übernachten, welches eine zentrale Rezeption und mehrere Gebäude umfasst. Der Eintrittspreis beinhaltet kostenlose Snacks und Getränke, was es zu einem attraktiven Ziel für Familien macht. Die Kulisse des ehemaligen Kraftwerks verleiht dem Park eine besondere Atmosphäre.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "363-ts.json",
+        "method": "time-window",
+        "pickedCount": 389,
+        "startSec": 662,
+        "endSec": 2311,
+        "generatedAt": "2026-01-04T19:27:05.393Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kommentar von Rene zu gekrümmter Raumzeit",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Raumzeit"
+      },
+      "durationSec": 131,
+      "positionSec": 2291,
+      "summary": "René aus Leipzig kommentiert die gekrümmte Raumzeit und den Energiebedarf bei der Verschmelzung von schwarzen Löchern. Er erklärt, dass bei der Fusion von zwei schwarzen Löchern mit Massen von 36,6 und 36,3 Sonnenmassen ein Endprodukt von 36 Sonnenmassen entsteht, was eine Masse von 2,9 Sonnenmassen in Energie umwandelt. Diese Energie, etwa 5 mal 10 hoch 47 Joule, fließt in die Gravitationswellen. René hebt hervor, dass die Bewegung der Raumzeit sehr viel Energie benötigt und vergleicht dies mit der Energieumwandlung unserer Sonne während ihrer Lebenszeit.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "363-ts.json",
+        "method": "time-window",
+        "pickedCount": 190,
+        "startSec": 2271,
+        "endSec": 2442,
+        "generatedAt": "2026-01-04T19:27:06.200Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 1: \"Deep Lying\"",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Deep Lying"
+      },
+      "durationSec": 2161,
+      "positionSec": 2422,
+      "summary": "In der Episode wird das Thema 'Deep Lying' behandelt, das sich auf die zunehmende Präsenz von Künstlicher Intelligenz (KI) im Alltag bezieht. Die Diskussion dreht sich um die Verwendung von Large Language Models und deren Auswirkungen auf die Qualität von Inhalten im Internet. Kritisiert wird, dass viele KI-Features, wie die von Apple Intelligence auf Macs, als unnötig und nicht hilfreich empfunden werden. Zudem wird die App Strava mit ihrer 'Athlete Intelligence' erwähnt, die Trainingseinheiten analysiert, aber oft nur oberflächliche Rückmeldungen gibt. Es wird auch auf die Herausforderungen mit Chatbots im Kundenservice eingegangen, die oft nicht den gewünschten menschlichen Kontakt bieten.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "363-ts.json",
+        "method": "time-window",
+        "pickedCount": 490,
+        "startSec": 2402,
+        "endSec": 4603,
+        "generatedAt": "2026-01-04T19:27:10.501Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Snack",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Snacks"
+      },
+      "durationSec": 320,
+      "positionSec": 4583,
+      "summary": "In dieser Episode wird ein interessanter Science Snack vorgestellt, der sich mit der von Menschen geschaffenen Masse beschäftigt. Laut einem Paper haben die Forschenden herausgefunden, dass die Masse aller von Menschen hergestellten Objekte, wie Bauwerke und Materialien, die gesamte lebende Biomasse der Erde übersteigt. Die Schätzung ergibt, dass die menschgemachte Masse etwa 1,1 Teraton beträgt, während die trockene Biomasse der Erde auf etwa 1.000 Gigaton geschätzt wird. Besonders Beton macht den größten Anteil der menschlichen Masse aus, gefolgt von Ziegeln und Asphalt. Diese Erkenntnisse verdeutlichen den enormen Einfluss der Menschheit auf den Planeten.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "363-ts.json",
+        "method": "time-window",
+        "pickedCount": 91,
+        "startSec": 4563,
+        "endSec": 4923,
+        "generatedAt": "2026-01-04T19:27:10.888Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 2: \"Pentagon auf Eis\"",
+      "subject": {
+        "coarse": "Politics",
+        "fine": "Pentagon"
+      },
+      "durationSec": 1337,
+      "positionSec": 4903,
+      "summary": "Das Thema \"Pentagon auf Eis\" befasst sich mit Klimamodellen und deren Bedeutung für das Verständnis des Klimawandels. Es wird erklärt, dass Klimamodelle nicht einfach nur Vermutungen sind, sondern auf fundierten wissenschaftlichen Erkenntnissen basieren, die durch komplexe Berechnungen unterstützt werden. Ein spezieller Fokus liegt auf den Mechanismen des Schmelzens von Eisbergen und deren Einfluss auf das Klima. Forscher haben ein Paper veröffentlicht, das sich mit der Formveränderung und den Dynamiken beim Schmelzen von Eis beschäftigt, um besser zu verstehen, wie diese Prozesse die globale Erwärmung beeinflussen können.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "363-ts.json",
+        "method": "time-window",
+        "pickedCount": 300,
+        "startSec": 4883,
+        "endSec": 6260,
+        "generatedAt": "2026-01-04T19:27:15.225Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwurbel der Woche",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Schwurbel"
+      },
+      "durationSec": 472,
+      "positionSec": 6240,
+      "summary": "In dieser Episode wird eine Quantenpsychologin und Business Mentorin, Stephanie Brutz, vorgestellt, die die Business Flow Academy gegründet hat. Sie propagiert, dass der Erfolg von Coaches und Experten nicht nur von Marketingstrategien abhängt, sondern von der 'Energie' der Experten selbst. Es wird kritisiert, dass ihre Ansätze, die auf Konzepten wie der Akasha-Chronik basieren, als 'Schwurbelmarketing' bezeichnet werden. Brutz bietet verschiedene Workshops und Produkte an, die oft hohe Preise haben und auf finanzielle Freiheit abzielen. Die Diskussion enthält auch Hinweise auf mögliche steuerliche Vorteile durch die Gründung einer LLC in den USA.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "363-ts.json",
+        "method": "time-window",
+        "pickedCount": 141,
+        "startSec": 6220,
+        "endSec": 6732,
+        "generatedAt": "2026-01-04T19:27:15.339Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:27:15.339Z",
+  "transcriptFound": true,
+  "transcriptFile": "363-ts.json"
+}

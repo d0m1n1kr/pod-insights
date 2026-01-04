@@ -1,0 +1,251 @@
+{
+  "episodeNumber": 369,
+  "title": "Mi369 – \"QVC Live Rollenspiel\"",
+  "extractedAt": "2026-01-04T19:25:18.089Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Auftritte",
+      "subject": {
+        "coarse": "Events",
+        "fine": "Performances"
+      },
+      "durationSec": 189,
+      "positionSec": 149,
+      "summary": "In Köln fanden zwei erfolgreiche Auftritte statt, bei denen die Teilnehmer nette Menschen trafen und Geschenke erhielten, darunter Süßigkeiten. Die Moderatoren betonen, dass sie keine Süßigkeiten zu ihren Shows mitgebracht bekommen möchten, um gesund zu bleiben. Aktuell befinden sie sich in einem intensiven Auftrittsblock von drei Wochen, in dem sie jedes Wochenende zwei Auftritte haben. Die nächsten Auftritte führen sie nach Fürth und Freiburg.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "time-window",
+        "pickedCount": 87,
+        "startSec": 129,
+        "endSec": 358,
+        "generatedAt": "2026-01-04T19:28:50.367Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Supermond",
+      "subject": {
+        "coarse": "Astronomy",
+        "fine": "Celestial Events"
+      },
+      "durationSec": 629,
+      "positionSec": 338,
+      "summary": "Im Transkript wird über den Supermond gesprochen, der kürzlich beobachtet wurde. Der Supermond tritt auf, wenn der Mond sich in seiner elliptischen Umlaufbahn in der Nähe der Erde (Perigeum) befindet, was ihn größer und heller erscheinen lässt. Der Unterschied zwischen dem Perigeum (ca. 356.500 km) und dem Apogeum (ca. 406.000 km) beträgt etwa 50.000 km, was zu einer scheinbaren Größenänderung von etwa 7% führt. Der Begriff 'Supermond' wurde erstmals 1970 von dem Astrologen Richard Nolle geprägt. Es wird auch erwähnt, dass die Helligkeit des Mondes bei einem Supermond um bis zu 15% zunehmen kann.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "time-window",
+        "pickedCount": 142,
+        "startSec": 318,
+        "endSec": 987,
+        "generatedAt": "2026-01-04T19:28:51.104Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Messen",
+      "subject": {
+        "coarse": "Events",
+        "fine": "Exhibitions"
+      },
+      "durationSec": 572,
+      "positionSec": 967,
+      "summary": "Der Gesprächspartner berichtet von seinem Besuch auf der Modaheim- und Handwerk-Messe, die er als Schatten ihrer selbst wahrnimmt. Er erinnert sich an die Messe aus seiner Kindheit, die er als groß und lebhaft empfand, während sie nun ein Sammelsurium aus verschiedenen Ständen bietet, darunter Käsespezialitäten und Küchengadgets. Besonders beeindruckt war er von den Ausstellungsstücken junger Tischler aus NRW, die innovative Möbel ohne Metallverbindungen präsentierten. Der Besuch bot ihm eine interessante Perspektive auf die Entwicklungen im Handwerk und die Qualität der gezeigten Arbeiten.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "time-window",
+        "pickedCount": 182,
+        "startSec": 947,
+        "endSec": 1559,
+        "generatedAt": "2026-01-04T19:28:54.466Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Lego vs. Bluebrixx",
+      "subject": {
+        "coarse": "Toys",
+        "fine": "Building Sets"
+      },
+      "durationSec": 347,
+      "positionSec": 1539,
+      "summary": "Im Gespräch wird die Qualität von Lego und Bluebrixx verglichen. Der Sprecher hat sowohl einen Bluebrixx-Bausatz als auch einen Lego-Bausatz (Gameboy) gebaut und stellt fest, dass Lego in Bezug auf Detailtreue und Anleitung überlegen ist. Er erkennt, dass es eine heftige Debatte zwischen Lego-Gegnern und -Befürwortern gibt, die auch wirtschaftliche Aspekte umfasst. Während der Bluebrixx-Bausatz als 'vollkommen okay' beschrieben wird, hebt der Sprecher die hohe Qualität und die lehrreichen Aspekte der Lego-Bausätze hervor, insbesondere bei Modellen wie der Saturn V.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "time-window",
+        "pickedCount": 76,
+        "startSec": 1519,
+        "endSec": 1906,
+        "generatedAt": "2026-01-04T19:28:55.124Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kommentar zu Kaffeeklage von Regina",
+      "subject": {
+        "coarse": "Legal",
+        "fine": "Comments"
+      },
+      "durationSec": 591,
+      "positionSec": 1886,
+      "summary": "In dieser Episode wird die Kaffeeklage von Stella Liebeck gegen McDonald's thematisiert, die oft missverstanden wird. Liebeck erlitt schwere Verbrennungen, nachdem sie heißen Kaffee verschüttete, und klagte, nachdem McDonald's ihr eine unzureichende Entschädigung angeboten hatte. Der Fall zeigt, dass McDonald's den Kaffee absichtlich bei unüblich hohen Temperaturen von 85 Grad verkaufte, was zu zahlreichen ähnlichen Klagen führte. Der Prozess endete mit einem Schadensersatz von 160.000 US-Dollar und 480.000 US-Dollar Strafschadensersatz, wobei die Jury die Einnahmen von McDonald's an zwei Tagen als Grundlage nahm. Der Fall wird häufig verkürzt dargestellt, was zu einem verzerrten Bild von Liebeck als gieriger Klägerin führt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "time-window",
+        "pickedCount": 110,
+        "startSec": 1866,
+        "endSec": 2497,
+        "generatedAt": "2026-01-04T19:29:00.764Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 1: “Game of Drones”",
+      "subject": {
+        "coarse": "Gaming",
+        "fine": "Role-playing Games"
+      },
+      "durationSec": 1123,
+      "positionSec": 2477,
+      "summary": "In der Episode wird das Thema \"Game of Drones\" behandelt, das sich auf die Honigbiene und insbesondere auf die Rolle der Bienenkönigin konzentriert. Die Königin legt täglich zwischen 850 und 3200 Eier, was mehr als ihr Körpergewicht ausmacht. Ihre Fähigkeit, Eier zu legen, ist entscheidend für das Überleben des Bienenvolkes, da die Arbeiterbienen in der Regel unfruchtbar sind. Ein Team der University of British Columbia hat untersucht, wie Virusinfektionen bei Königinnen deren Eierproduktion beeinträchtigen und wie dies die Arbeiterbienen dazu bringt, eine Nachfolgerin aufzubauen, wenn die Königin schwächelt. Der chemische Botenstoff Methyl-Oliath spielt dabei eine zentrale Rolle, da sein Rückgang den Arbeiterinnen signalisiert, dass die Königin nicht mehr leistungsfähig ist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "time-window",
+        "pickedCount": 223,
+        "startSec": 2457,
+        "endSec": 3620,
+        "generatedAt": "2026-01-04T19:29:02.074Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Snack",
+      "subject": {
+        "coarse": "Food",
+        "fine": "Snacks"
+      },
+      "durationSec": 604,
+      "positionSec": 3600,
+      "summary": "In dieser Episode wird ein Science-Snack präsentiert, der sich mit dem Energieverbrauch beim Bewegen von Lebewesen beschäftigt. Es wird erklärt, dass der Energieverbrauch von der Schwerkraft und der Fortbewegung abhängt. Eine Grafik aus der Zeitschrift Scientific American zeigt, dass Menschen beim Radfahren sehr effizient sind, sogar effizienter als viele Tiere und Fahrzeuge. Besonders auffällig ist, dass der Mensch auf einem Fahrrad in der Lage ist, sich ähnlich effizient wie Fische im Wasser zu bewegen, da das Fahrrad die Schwerkraft unterstützt und das Gleiten ermöglicht.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "time-window",
+        "pickedCount": 138,
+        "startSec": 3580,
+        "endSec": 4224,
+        "generatedAt": "2026-01-04T19:29:05.086Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 2: \"Kann Spuren von Nüssen enthalten\"",
+      "subject": {
+        "coarse": "Food",
+        "fine": "Allergen Information"
+      },
+      "durationSec": 1329,
+      "positionSec": 4204,
+      "summary": "Das Thema des Transkripts befasst sich mit der allergenen Gefahr von Nüssen, insbesondere in Bezug auf einen neuartigen Laser, der aus Erdnüssen hergestellt wurde. Es wird ein biomaterialbasierter Zufallslaser beschrieben, der durch einen Erdnusskern und Carbon Dots aus Birkenblättern realisiert wurde. Dieser Laser könnte für Menschen mit Erdnussallergien gefährlich sein, da er Spuren von Nüssen enthalten kann. Der Zufallslaser benötigt keinen Resonator und funktioniert durch Streuung, was ihn von herkömmlichen Lasern unterscheidet.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "time-window",
+        "pickedCount": 270,
+        "startSec": 4184,
+        "endSec": 5553,
+        "generatedAt": "2026-01-04T19:29:06.691Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwurbel",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Misinformation"
+      },
+      "durationSec": 868,
+      "positionSec": 5533,
+      "summary": "In dieser Episode wird der Andexer Natur Demeter Bio Mondschein Käse thematisiert, ein Produkt, das mit esoterischen Begriffen wie \"Mondschein\" und \"Lichtblüten-Tagen\" beworben wird. Die Diskussion dreht sich um die Absurdität dieser Begriffe und deren Verbindung zur anthroposophischen Lehre von Rudolf Steiner, die Himmelskörpern besondere Bedeutungen zuschreibt. Es wird hinterfragt, welchen tatsächlichen Einfluss solche esoterischen Konzepte auf die Käseproduktion haben können und ob Verbraucher durch solche Marketingstrategien gezielt angesprochen werden. Der Käse wird als Beispiel für die Vermischung von Bio-Produkten mit esoterischen Ideen betrachtet.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "time-window",
+        "pickedCount": 241,
+        "startSec": 5513,
+        "endSec": 6421,
+        "generatedAt": "2026-01-04T19:29:09.489Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Audiokommentar Thorsten",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Comments"
+      },
+      "durationSec": 0,
+      "positionSec": 6415,
+      "summary": "Thorsten hat einen Audiokommentar zu den Themen Displaygrößen, Auflösungen und Betrachterabstände geschickt, die in der vorherigen Folge besprochen wurden. Er verweist auf seine Dissertation, die sich mit foviated rendering beschäftigt, einer Technik, die in der Bildberechnung für Headmounted Displays (HMDs) verwendet wird. Thorsten bietet an, weitere Informationen zu diesen Themen bereitzustellen und hofft, dass sein Kommentar in die nächste Folge aufgenommen wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "369-ts.json",
+        "method": "keyword-window",
+        "pickedCount": 38,
+        "startSec": 6206,
+        "endSec": 6503,
+        "generatedAt": "2026-01-04T19:29:11.207Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:29:11.207Z",
+  "transcriptFound": true,
+  "transcriptFile": "369-ts.json"
+}

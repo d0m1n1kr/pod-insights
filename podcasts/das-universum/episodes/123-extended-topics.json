@@ -1,0 +1,222 @@
+{
+  "episodeNumber": 123,
+  "title": "DU123 - Unsere extragalaktische Herkunft und der lange Weg des Kohlenstoff",
+  "extractedAt": "2026-01-04T19:27:52.853Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Asteroiden und Raumsonden",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Asteroiden"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "123-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 3,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:57:49.331Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kohlenstoff und seine Herkunft",
+      "subject": {
+        "coarse": "Chemie",
+        "fine": "Kohlenstoff"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "123-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 3,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:57:49.332Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Zeitreisen in Filmen und Quantenmechanik",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Quantenmechanik"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "123-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 1135,
+        "startSec": 0,
+        "endSec": 4494,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 4474,
+        "generatedAt": "2026-01-04T21:57:50.930Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Planetenparade 2025",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Planeten"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "123-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 4454,
+        "endSec": 20,
+        "llmDetectedStartSec": 4474,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Quasisatellit Cardea",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Satelliten"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "123-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 3,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:57:50.928Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Gefahren für die ESO in Chile",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sternwarten"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "123-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 365,
+        "startSec": 0,
+        "endSec": 1315,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 1295,
+        "generatedAt": "2026-01-04T21:57:52.621Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Raumsonde GAIA und Andromeda",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Raumsonden"
+      },
+      "summary": "In dieser Episode wird über die Raumsonde Gaia gesprochen, die kürzlich Abschiedsbilder der Milchstraße veröffentlicht hat. Diese Bilder sind künstlerische Darstellungen basierend auf Gaia-Daten und gelten als die bisher genauesten Visualisierungen der Milchstraße. Außerdem wird ein Update zu Hubble gegeben, das eine neue Aufnahme der Andromeda-Galaxie (M31) gemacht hat. Trotz ausreichender Daten von Andromeda bleibt Hubble aktiv in der Beobachtung dieser Nachbargalaxie.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "123-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 24,
+        "startSec": 1275,
+        "endSec": 1370,
+        "llmDetectedStartSec": 1295,
+        "llmDetectedEndSec": 1350,
+        "generatedAt": "2026-01-04T21:57:54.106Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kohlenstoffförderband",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Galaxien"
+      },
+      "summary": "Hubble hat ein intergalaktisches Kohlenstoffförderband entdeckt, das sich auf den Materiekreislauf zwischen Galaxien bezieht. Es handelt sich um das zirkungalaktische Medium, das eine Galaxie umgibt und Material enthält, das regelmäßig zwischen der Galaxie und ihrem Umfeld zirkuliert. Diese Gashülle ist eine Art Atmosphäre, die jede Galaxie umgibt. Hubble hat dabei andere Galaxien untersucht, da es schwierig ist, den Gas-Halo unserer eigenen Milchstraße zu analysieren.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "123-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 503,
+        "startSec": 1330,
+        "endSec": 3484,
+        "llmDetectedStartSec": 1350,
+        "llmDetectedEndSec": 3464,
+        "generatedAt": "2026-01-04T21:57:55.841Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Fragen aus der Hörerschaft",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Hörerfragen"
+      },
+      "summary": "In dieser Episode wird über die Herkunft der Elemente und deren Verbindung zu unserem Sonnensystem diskutiert. Florian und Ruth erklären, dass Material aus Vorgängerplanetensystemen, wie präsolare Diamanten und Minerale, tatsächlich in unserem Sonnensystem vorhanden ist und im Naturhistorischen Museum in Wien ausgestellt ist. Außerdem wird die Frage von Hörer Jochen behandelt, ob es Sonnenschwestern gibt, die aus dem gleichen Gasnebel wie die Sonne entstanden sind. Es wird erwähnt, dass es einige Kandidaten gibt, wie HD 162826, aber die genaue Identifikation bleibt schwierig.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "123-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 250,
+        "startSec": 3444,
+        "endSec": 4411,
+        "llmDetectedStartSec": 3464,
+        "llmDetectedEndSec": 4391,
+        "generatedAt": "2026-01-04T21:57:57.245Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:57:57.245Z",
+  "transcriptFound": true,
+  "transcriptFile": "123-ts.json"
+}

@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 143,
+  "title": "DU143 - Auf der Suche nach den Planeten anderer Galaxien",
+  "extractedAt": "2026-01-04T19:29:56.453Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Suche nach extragalaktischen Planeten",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Exoplaneten"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "143-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 13,
+        "startSec": 0,
+        "endSec": 54,
+        "llmDetectedStartSec": 8,
+        "llmDetectedEndSec": 34,
+        "generatedAt": "2026-01-04T22:03:05.297Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Beobachtung von Galaxien",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Galaxien"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "143-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 25,
+        "startSec": 14,
+        "endSec": 92,
+        "llmDetectedStartSec": 34,
+        "llmDetectedEndSec": 72,
+        "generatedAt": "2026-01-04T22:03:05.296Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "VOYAGERS Survey",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Forschung"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "143-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 18,
+        "startSec": 52,
+        "endSec": 108,
+        "llmDetectedStartSec": 72,
+        "llmDetectedEndSec": 88,
+        "generatedAt": "2026-01-04T22:03:06.871Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Chemische Bedingungen in Zwerggalaxien",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Galaxien"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "143-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 21,
+        "startSec": 68,
+        "endSec": 140,
+        "llmDetectedStartSec": 88,
+        "llmDetectedEndSec": 120,
+        "generatedAt": "2026-01-04T22:03:06.844Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Gaia Enceladus Sausage",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Galaxien"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "143-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 19,
+        "startSec": 100,
+        "endSec": 168,
+        "llmDetectedStartSec": 120,
+        "llmDetectedEndSec": 148,
+        "generatedAt": "2026-01-04T22:03:08.676Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Eichhörnchen füttern",
+      "subject": {
+        "coarse": "Natur",
+        "fine": "Tierschutz"
+      },
+      "summary": "In dieser Episode diskutieren Ruth und Florian über das Füttern von Eichhörnchen. Florian erwähnt, dass sie normalerweise Walnüsse und Sonnenblumenkerne füttern, während Ruth anmerkt, dass eine ausgewogene Ernährung für Eichhörnchen wichtig sein könnte. Sie sprechen über das Eichhörnchenfutter, das von Tobias gespendet wurde, und Florian berichtet, dass er es bereits ausgelegt hat, jedoch noch nicht gesehen hat, wie das Eichhörnchen es frisst. Es wird humorvoll angemerkt, dass auch andere Tiere, wie Vögel und Ratten, sich am Futter bedienen könnten.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "143-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 33,
+        "startSec": 128,
+        "endSec": 242,
+        "llmDetectedStartSec": 148,
+        "llmDetectedEndSec": 222,
+        "generatedAt": "2026-01-04T22:03:11.035Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Mickey 17",
+      "subject": {
+        "coarse": "Unterhaltung",
+        "fine": "Film"
+      },
+      "summary": "In dieser Episode wird über ein T-Shirt-Design zur DART-Weltraummission gesprochen, das von einem Fan namens René entworfen wurde. Die DART-Mission zielt darauf ab, einen Asteroiden abzulenken, was als interessante Astronomie-Thematik hervorgehoben wird. Das T-Shirt zeigt die Raumsonde und den Spruch \"This one's for the dinosaurs\". Hörer können das T-Shirt mit einem Rabatt von 42% erwerben, indem sie den Code \"Das Universum\" verwenden. René plant, die Einnahmen aus dem Verkauf bis Januar zu spenden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "143-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 52,
+        "startSec": 202,
+        "endSec": 402,
+        "llmDetectedStartSec": 222,
+        "llmDetectedEndSec": 382,
+        "generatedAt": "2026-01-04T22:03:13.596Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "DART-Mission",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Missionen"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "143-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 362,
+        "endSec": 20,
+        "llmDetectedStartSec": 382,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:03:13.596Z",
+  "transcriptFound": true,
+  "transcriptFile": "143-ts.json"
+}

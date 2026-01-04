@@ -1,0 +1,762 @@
+{
+  "generatedAt": "2026-01-04T19:33:22.557Z",
+  "description": "Speaker x Topic-Cluster Heatmap für Freak Show Podcast",
+  "statistics": {
+    "totalSpeakers": 0,
+    "totalClusters": 116,
+    "totalCombinations": 0,
+    "topSpeakersByEpisodes": [],
+    "topClustersByEpisodes": [
+      {
+        "id": "schlafmangel",
+        "name": "Schlafmangel",
+        "count": 12
+      },
+      {
+        "id": "dunkle-materie-energie",
+        "name": "Dunkle Materie & Energie",
+        "count": 11
+      },
+      {
+        "id": "supernova-und-planeten",
+        "name": "Supernova und Planeten",
+        "count": 10
+      },
+      {
+        "id": "schwarze-löcher",
+        "name": "Schwarze Löcher",
+        "count": 8
+      },
+      {
+        "id": "gravitationseffekte",
+        "name": "Gravitationseffekte",
+        "count": 8
+      },
+      {
+        "id": "umweltverschmutzung",
+        "name": "Umweltverschmutzung",
+        "count": 8
+      },
+      {
+        "id": "corona-wissenschaft",
+        "name": "Corona-Wissenschaft",
+        "count": 8
+      },
+      {
+        "id": "galaxienforschung",
+        "name": "Galaxienforschung",
+        "count": 7
+      },
+      {
+        "id": "jupiter",
+        "name": "Jupiter",
+        "count": 7
+      },
+      {
+        "id": "neutrino-forschung",
+        "name": "Neutrino-Forschung",
+        "count": 7
+      }
+    ]
+  },
+  "speakers": [],
+  "clusters": [
+    {
+      "id": "schlafmangel",
+      "name": "Schlafmangel",
+      "totalEpisodes": 12,
+      "topicCount": 11
+    },
+    {
+      "id": "dunkle-materie-energie",
+      "name": "Dunkle Materie & Energie",
+      "totalEpisodes": 11,
+      "topicCount": 5
+    },
+    {
+      "id": "supernova-und-planeten",
+      "name": "Supernova und Planeten",
+      "totalEpisodes": 10,
+      "topicCount": 9
+    },
+    {
+      "id": "schwarze-löcher",
+      "name": "Schwarze Löcher",
+      "totalEpisodes": 8,
+      "topicCount": 7
+    },
+    {
+      "id": "gravitationseffekte",
+      "name": "Gravitationseffekte",
+      "totalEpisodes": 8,
+      "topicCount": 4
+    },
+    {
+      "id": "umweltverschmutzung",
+      "name": "Umweltverschmutzung",
+      "totalEpisodes": 8,
+      "topicCount": 6
+    },
+    {
+      "id": "corona-wissenschaft",
+      "name": "Corona-Wissenschaft",
+      "totalEpisodes": 8,
+      "topicCount": 5
+    },
+    {
+      "id": "galaxienforschung",
+      "name": "Galaxienforschung",
+      "totalEpisodes": 7,
+      "topicCount": 12
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "totalEpisodes": 7,
+      "topicCount": 4
+    },
+    {
+      "id": "neutrino-forschung",
+      "name": "Neutrino-Forschung",
+      "totalEpisodes": 7,
+      "topicCount": 4
+    },
+    {
+      "id": "rosetta-mission",
+      "name": "Rosetta-Mission",
+      "totalEpisodes": 7,
+      "topicCount": 4
+    },
+    {
+      "id": "neutronensterne",
+      "name": "Neutronensterne",
+      "totalEpisodes": 7,
+      "topicCount": 3
+    },
+    {
+      "id": "kaffee-schokolade",
+      "name": "Kaffee & Schokolade",
+      "totalEpisodes": 7,
+      "topicCount": 7
+    },
+    {
+      "id": "sternenphänomene",
+      "name": "Sternenphänomene",
+      "totalEpisodes": 6,
+      "topicCount": 7
+    },
+    {
+      "id": "mars-entdeckungen",
+      "name": "Mars-Entdeckungen",
+      "totalEpisodes": 6,
+      "topicCount": 6
+    },
+    {
+      "id": "milchstraße",
+      "name": "Milchstraße",
+      "totalEpisodes": 6,
+      "topicCount": 4
+    },
+    {
+      "id": "kraterkunde",
+      "name": "Kraterkunde",
+      "totalEpisodes": 6,
+      "topicCount": 6
+    },
+    {
+      "id": "osiris-rex",
+      "name": "OSIRIS-REx",
+      "totalEpisodes": 6,
+      "topicCount": 5
+    },
+    {
+      "id": "mäuse-und-bienen",
+      "name": "Mäuse und Bienen",
+      "totalEpisodes": 6,
+      "topicCount": 6
+    },
+    {
+      "id": "weihnachtsvorbereitungen",
+      "name": "Weihnachtsvorbereitungen",
+      "totalEpisodes": 5,
+      "topicCount": 8
+    },
+    {
+      "id": "sonnenphänomene",
+      "name": "Sonnenphänomene",
+      "totalEpisodes": 5,
+      "topicCount": 4
+    },
+    {
+      "id": "steuermoral",
+      "name": "Steuermoral",
+      "totalEpisodes": 5,
+      "topicCount": 4
+    },
+    {
+      "id": "finsternisse",
+      "name": "Finsternisse",
+      "totalEpisodes": 5,
+      "topicCount": 4
+    },
+    {
+      "id": "radiowellen-astronomie",
+      "name": "Radiowellen-Astronomie",
+      "totalEpisodes": 5,
+      "topicCount": 5
+    },
+    {
+      "id": "beteigeuze",
+      "name": "Beteigeuze",
+      "totalEpisodes": 5,
+      "topicCount": 3
+    },
+    {
+      "id": "natur-des-jahres",
+      "name": "Natur des Jahres",
+      "totalEpisodes": 5,
+      "topicCount": 4
+    },
+    {
+      "id": "nobelpreise",
+      "name": "Nobelpreise",
+      "totalEpisodes": 5,
+      "topicCount": 3
+    },
+    {
+      "id": "klimakrise",
+      "name": "Klimakrise",
+      "totalEpisodes": 5,
+      "topicCount": 5
+    },
+    {
+      "id": "psychopathologie",
+      "name": "Psychopathologie",
+      "totalEpisodes": 4,
+      "topicCount": 5
+    },
+    {
+      "id": "lhc-physik",
+      "name": "LHC-Physik",
+      "totalEpisodes": 4,
+      "topicCount": 5
+    },
+    {
+      "id": "nobelpreise-physik",
+      "name": "Nobelpreise Physik",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "gletscherforschung",
+      "name": "Gletscherforschung",
+      "totalEpisodes": 4,
+      "topicCount": 6
+    },
+    {
+      "id": "gravitationstheorie",
+      "name": "Gravitationstheorie",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "verkehrsverhalten",
+      "name": "Verkehrsverhalten",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "wespen-und-mücken",
+      "name": "Wespen und Mücken",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "ackerbau",
+      "name": "Ackerbau",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "kometenforschung",
+      "name": "Kometenforschung",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "antriebstechnologie",
+      "name": "Antriebstechnologie",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "ötzi-und-seine-zeit",
+      "name": "Ötzi und seine Zeit",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "artemis-programm",
+      "name": "Artemis Programm",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "soziale-probleme",
+      "name": "Soziale Probleme",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "zeitmessungstechnologien",
+      "name": "Zeitmessungstechnologien",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "mikrobiom-forschung",
+      "name": "Mikrobiom Forschung",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "übergewicht-und-fettleibigkeit",
+      "name": "Übergewicht und Fettleibigkeit",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "büroviren",
+      "name": "Büroviren",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "verschwörungstheorien",
+      "name": "Verschwörungstheorien",
+      "totalEpisodes": 4,
+      "topicCount": 2
+    },
+    {
+      "id": "pilze",
+      "name": "Pilze",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "bierstile",
+      "name": "Bierstile",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "interstellar-forschung",
+      "name": "Interstellar-Forschung",
+      "totalEpisodes": 3,
+      "topicCount": 5
+    },
+    {
+      "id": "mathematik",
+      "name": "Mathematik",
+      "totalEpisodes": 3,
+      "topicCount": 4
+    },
+    {
+      "id": "meteoritenkunde",
+      "name": "Meteoritenkunde",
+      "totalEpisodes": 3,
+      "topicCount": 4
+    },
+    {
+      "id": "nebelastronomie",
+      "name": "Nebelastronomie",
+      "totalEpisodes": 3,
+      "topicCount": 4
+    },
+    {
+      "id": "weltraummüllproblematik",
+      "name": "Weltraummüllproblematik",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "mondphasen",
+      "name": "Mondphasen",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "altruismus",
+      "name": "Altruismus",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "gesellschaftliche-ethik",
+      "name": "Gesellschaftliche Ethik",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "schallwellen-technologie",
+      "name": "Schallwellen-Technologie",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "exoplaneten-forschung",
+      "name": "Exoplaneten-Forschung",
+      "totalEpisodes": 3,
+      "topicCount": 2
+    },
+    {
+      "id": "cannabis-risiken",
+      "name": "Cannabis Risiken",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "batterietechnologien",
+      "name": "Batterietechnologien",
+      "totalEpisodes": 3,
+      "topicCount": 4
+    },
+    {
+      "id": "rot-und-textilien",
+      "name": "Rot und Textilien",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "dating-tipps",
+      "name": "Dating-Tipps",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "wissenschaftsbücher",
+      "name": "Wissenschaftsbücher",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "ceres-flecken",
+      "name": "Ceres-Flecken",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "placebo-forschung",
+      "name": "Placebo-Forschung",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "geruch-und-gesundheit",
+      "name": "Geruch und Gesundheit",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "graphen-technologie",
+      "name": "Graphen-Technologie",
+      "totalEpisodes": 3,
+      "topicCount": 2
+    },
+    {
+      "id": "raumfahrt-nachrichten",
+      "name": "Raumfahrt Nachrichten",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "sciencebusters-events",
+      "name": "Sciencebusters Events",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "antibiotika-management",
+      "name": "Antibiotika-Management",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "spacex-und-weltraumtechnologie",
+      "name": "SpaceX und Weltraumtechnologie",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "himmelskörperbenennung",
+      "name": "Himmelskörperbenennung",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "unsichtbare-phänomene",
+      "name": "Unsichtbare Phänomene",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "lügenanalyse",
+      "name": "Lügenanalyse",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "winterwunderland",
+      "name": "Winterwunderland",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "gender-bias-im-museum",
+      "name": "Gender Bias im Museum",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "musikverständnis",
+      "name": "Musikverständnis",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "patientenkommunikation",
+      "name": "Patientenkommunikation",
+      "totalEpisodes": 3,
+      "topicCount": 2
+    },
+    {
+      "id": "katzenhumor",
+      "name": "Katzenhumor",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "außerirdisches-leben",
+      "name": "Außerirdisches Leben",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "sprachpsychologie",
+      "name": "Sprachpsychologie",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "fusionsforschung",
+      "name": "Fusionsforschung",
+      "totalEpisodes": 3,
+      "topicCount": 2
+    },
+    {
+      "id": "mikrobielle-abbauprozesse",
+      "name": "Mikrobielle Abbauprozesse",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "fettleibigkeit-bei-kindern",
+      "name": "Fettleibigkeit bei Kindern",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "alzheimer-forschung",
+      "name": "Alzheimer-Forschung",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "wohlbefinden",
+      "name": "Wohlbefinden",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "schwangerschaftsthemen",
+      "name": "Schwangerschaftsthemen",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "himmelsscheibe-nebra",
+      "name": "Himmelsscheibe Nebra",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "hitzewellen",
+      "name": "Hitzewellen",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "ernährungsstrategien",
+      "name": "Ernährungsstrategien",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "leben-auf-der-venus",
+      "name": "Leben auf der Venus",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "kosmologie",
+      "name": "Kosmologie",
+      "totalEpisodes": 2,
+      "topicCount": 3
+    },
+    {
+      "id": "getreideproduktion",
+      "name": "Getreideproduktion",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "wissenschaftliche-bibliotheken",
+      "name": "Wissenschaftliche Bibliotheken",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "extragalaktische-himmelskörper",
+      "name": "Extragalaktische Himmelskörper",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "quanten-satelliten",
+      "name": "Quanten-Satelliten",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "frühkindliche-entwicklung",
+      "name": "Frühkindliche Entwicklung",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "bierwissenschaft",
+      "name": "Bierwissenschaft",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "männlichkeit-und-testosteron",
+      "name": "Männlichkeit und Testosteron",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "weltuntergang",
+      "name": "Weltuntergang",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "infrarotmesstechnik",
+      "name": "Infrarotmesstechnik",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "asteroidenforschung",
+      "name": "Asteroidenforschung",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "teleskope",
+      "name": "Teleskope",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "frauen-in-der-mathematik",
+      "name": "Frauen in der Mathematik",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "interstellar-objekte",
+      "name": "Interstellar Objekte",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "selbstkontrolle-und-stress",
+      "name": "Selbstkontrolle und Stress",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "grippeprävention",
+      "name": "Grippeprävention",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "energiequellen",
+      "name": "Energiequellen",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "moralische-dualität",
+      "name": "Moralische Dualität",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "märchenwettbewerb",
+      "name": "Märchenwettbewerb",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "nahrungsmittelunverträglichkeiten",
+      "name": "Nahrungsmittelunverträglichkeiten",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "versunkene-kontinente",
+      "name": "Versunkene Kontinente",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "gedächtnisstützen",
+      "name": "Gedächtnisstützen",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "erneuerbare-energiequellen",
+      "name": "Erneuerbare Energiequellen",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "strahlungsarten",
+      "name": "Strahlungsarten",
+      "totalEpisodes": 1,
+      "topicCount": 3
+    },
+    {
+      "id": "zahnhygiene-innovationen",
+      "name": "Zahnhygiene-Innovationen",
+      "totalEpisodes": 1,
+      "topicCount": 2
+    }
+  ],
+  "matrix": []
+}

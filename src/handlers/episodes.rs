@@ -12,7 +12,7 @@ use rayon::prelude::*;
 use serde::{Deserialize, Serialize};
 
 use crate::cache::{
-    load_episode_list_cached, load_episode_metadata_batch_cached, load_episode_topics_map_cached,
+    check_episode_files_batch_cached, load_episode_list_cached, load_episode_metadata_batch_cached, load_episode_topics_map_cached,
 };
 use crate::config::AppState as AppStateType;
 use crate::cache::load_rag_index_cached;
@@ -70,6 +70,8 @@ pub struct EpisodeSearchResult {
     pub positions_sec: Vec<f64>,
     #[serde(skip_serializing_if = "Vec::is_empty")]
     pub position_scores: Vec<f32>,
+    pub has_image: bool,
+    pub has_transcript: bool,
 }
 
 pub async fn episodes_search(
@@ -218,7 +220,7 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
         let key = (podcast_id.clone(), ep_num);
         
         // Track best score per episode and collect positions with their scores
-        let entry = episode_data.entry(key).or_insert_with(|| (*score, Vec::new()));
+        let entry = episode_data.entry(key).or_insert((*score, Vec::new()));
         if *score > entry.0 {
             entry.0 = *score;
         }
@@ -300,6 +302,22 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
         }
     }
     
+    // Load episode file existence (image and transcript) for all podcasts
+    let mut all_files: HashMap<(String, u32), (bool, bool)> = HashMap::new();
+    for podcast_id in &podcast_ids {
+        let episode_numbers: Vec<u32> = paginated_results.iter()
+            .filter(|((pid, _), _, _)| pid == podcast_id)
+            .map(|((_, ep_num), _, _)| *ep_num)
+            .collect();
+        if !episode_numbers.is_empty() {
+            if let Ok(files_map) = check_episode_files_batch_cached(st, podcast_id, &episode_numbers).await {
+                for (ep_num, (has_image, has_transcript)) in files_map {
+                    all_files.insert((podcast_id.clone(), ep_num), (has_image, has_transcript));
+                }
+            }
+        }
+    }
+    
     // Build results
     let mut results = Vec::new();
     for ((podcast_id, ep_num), score, positions_with_scores) in paginated_results {
@@ -335,6 +353,11 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
         let positions_sec: Vec<f64> = positions_with_scores.iter().map(|(pos, _)| *pos).collect();
         let position_scores: Vec<f32> = positions_with_scores.iter().map(|(_, scr)| *scr).collect();
         
+        // Get file existence info
+        let (has_image, has_transcript) = all_files.get(&(podcast_id.clone(), ep_num))
+            .copied()
+            .unwrap_or((false, false));
+        
         results.push(EpisodeSearchResult {
             episode_number: ep_num,
             podcast_id: podcast_id.clone(),
@@ -347,6 +370,8 @@ async fn episodes_search_impl(st: &AppStateType, req: EpisodesSearchRequest) -> 
             topics,
             positions_sec,
             position_scores,
+            has_image,
+            has_transcript,
         });
     }
     
@@ -401,7 +426,7 @@ async fn episodes_latest_impl(st: &AppStateType, req: EpisodesLatestRequest) -> 
             if let Some(topic) = &item.topic {
                 episode_topics_map
                     .entry(item.episode_number)
-                    .or_insert_with(std::collections::HashSet::new)
+                    .or_default()
                     .insert(topic.clone());
             }
         }
@@ -409,6 +434,9 @@ async fn episodes_latest_impl(st: &AppStateType, req: EpisodesLatestRequest) -> 
     
     // Load episode metadata in parallel (batch loading with caching)
     let metadata_map = load_episode_metadata_batch_cached(st, podcast_id, &paginated_episodes).await?;
+    
+    // Load episode file existence (image and transcript)
+    let files_map = check_episode_files_batch_cached(st, podcast_id, &paginated_episodes).await.unwrap_or_default();
     
     // Build results
     let mut results = Vec::new();
@@ -441,6 +469,11 @@ async fn episodes_latest_impl(st: &AppStateType, req: EpisodesLatestRequest) -> 
             .map(|s| s.iter().cloned().collect())
             .unwrap_or_default();
         
+        // Get file existence info
+        let (has_image, has_transcript) = files_map.get(&ep_num)
+            .copied()
+            .unwrap_or((false, false));
+        
         results.push(EpisodeSearchResult {
             episode_number: ep_num,
             podcast_id: podcast_id_string.clone(),
@@ -453,6 +486,8 @@ async fn episodes_latest_impl(st: &AppStateType, req: EpisodesLatestRequest) -> 
             topics,
             positions_sec: Vec::new(), // No positions for latest episodes
             position_scores: Vec::new(), // No position scores for latest episodes
+            has_image,
+            has_transcript,
         });
     }
     

@@ -1,0 +1,217 @@
+{
+  "episodeNumber": 117,
+  "title": "DU117 - Der Fressflash des schwarzen Lochs",
+  "extractedAt": "2026-01-04T19:27:10.507Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Hawking-Strahlung",
+      "subject": {
+        "coarse": "Astrophysik",
+        "fine": "Schwarze Löcher"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "117-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 11,
+        "startSec": 0,
+        "endSec": 44,
+        "llmDetectedStartSec": 12,
+        "llmDetectedEndSec": 24,
+        "generatedAt": "2026-01-04T21:56:13.913Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Falsche Bilder von schwarzen Löchern",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Bildgebung"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "117-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 407,
+        "startSec": 4,
+        "endSec": 1483,
+        "llmDetectedStartSec": 24,
+        "llmDetectedEndSec": 1463,
+        "generatedAt": "2026-01-04T21:56:13.972Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwarzes Loch im jungen Universum",
+      "subject": {
+        "coarse": "Astrophysik",
+        "fine": "Galaxien"
+      },
+      "summary": "In dieser Episode wird ein spezielles schwarzes Loch im frühen Universum besprochen, das als super Eddington schwarzes Loch bezeichnet wird. Ruth erklärt das Eddington Limit, ein Konzept von Sir Arthur Eddington, das beschreibt, wie hell ein Stern maximal sein kann, bevor er durch seine eigene Gravitation zerreißt. Dieses Limit kann auch umgekehrt angewendet werden, um die Helligkeit eines Objekts zu bestimmen, wenn Materie in ein schwarzes Loch fällt. Der Strahlungsdruck der Photonen spielt eine entscheidende Rolle im Gleichgewicht zwischen Gravitation und Strahlung.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "117-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 349,
+        "startSec": 1443,
+        "endSec": 2840,
+        "llmDetectedStartSec": 1463,
+        "llmDetectedEndSec": 2820,
+        "generatedAt": "2026-01-04T21:56:17.947Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Eddington-Limit",
+      "subject": {
+        "coarse": "Astrophysik",
+        "fine": "Schwarze Löcher"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "117-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 2800,
+        "endSec": 2131,
+        "llmDetectedStartSec": 2820,
+        "llmDetectedEndSec": 2111,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Entstehung von Planeten in der Nähe von schwarzen Löchern",
+      "subject": {
+        "coarse": "Astrophysik",
+        "fine": "Planetenkunde"
+      },
+      "summary": "Im Transkript wird die Entstehung supermassereicher schwarzer Löcher im frühen Universum diskutiert. Ruth erklärt, dass diese schwarzen Löcher möglicherweise durch das Verschmelzen kleinerer schwarzer Löcher entstanden sind, die aus großen Sternen hervorgegangen sind. Ein Beispiel ist eine Galaxie, die 1,5 Milliarden Jahre nach dem Urknall beobachtet wurde und ein schwarzes Loch mit 200 Millionen Sonnenmassen beherbergt, das 40-mal mehr Material verschluckt, als theoretisch erlaubt wäre. Diese Beobachtungen wurden mit dem James-Webb-Teleskop gemacht, das die Röntgenstrahlung der Galaxie erfasste und die Bewegung des umgebenden Gases analysierte.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "117-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 260,
+        "startSec": 2091,
+        "endSec": 3122,
+        "llmDetectedStartSec": 2111,
+        "llmDetectedEndSec": 3102,
+        "generatedAt": "2026-01-04T21:56:19.793Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Dunkle Materie und schwarze Löcher",
+      "subject": {
+        "coarse": "Astrophysik",
+        "fine": "Dunkle Materie"
+      },
+      "summary": "In der Episode wird das Konzept der Zeitdilatation in der Nähe von schwarzen Löchern diskutiert. Es wird erklärt, dass für einen Beobachter von außen der Eindruck entsteht, dass Objekte, die in ein schwarzes Loch fallen, langsamer werden und schließlich 'eingefroren' erscheinen, während der Fall für das Objekt selbst normal verläuft. Zudem wird die Theorie erörtert, dass kleine schwarze Löcher als mögliche Erklärung für dunkle Materie in Betracht gezogen werden, jedoch aufgrund ihrer hypothetischen Natur und der Notwendigkeit, die Parameter des Urknallmodells anzupassen, als weniger wahrscheinlich gelten. Es wird auch auf die Beobachtungsmöglichkeiten hingewiesen, die zeigen, dass primordialen schwarzen Löcher nicht die Hauptquelle der dunklen Materie sein können.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "117-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 155,
+        "startSec": 3082,
+        "endSec": 3632,
+        "llmDetectedStartSec": 3102,
+        "llmDetectedEndSec": 3612,
+        "generatedAt": "2026-01-04T21:56:21.940Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwarze Monolithen in der Science Fiction",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Science Fiction"
+      },
+      "summary": "In dieser Episode wird die Verbindung zwischen schwarzen Löchern und Science Fiction thematisiert. Florian und Ruth diskutieren, wie schwarze Löcher sowohl in der Wissenschaft als auch in der Science Fiction präsent sind. Evi bringt das Thema der mysteriösen schwarzen Monolithen auf, die in einem Film vorkommen, der nicht \"2001: Odyssee im Weltraum\" ist, sondern \"2010: Das Jahr, in dem wir Kontakt aufnehmen\". Die Diskussion beleuchtet die Faszination und die unterschiedlichen Darstellungen von schwarzen Objekten in der Popkultur.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "117-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 41,
+        "startSec": 3592,
+        "endSec": 3709,
+        "llmDetectedStartSec": 3612,
+        "llmDetectedEndSec": 3689,
+        "generatedAt": "2026-01-04T21:56:23.043Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Film '2010 - Das Jahr, in dem wir Kontakt aufnehmen'",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Film"
+      },
+      "summary": "In der Episode wird der Film '2010 - Das Jahr, in dem wir Kontakt aufnehmen' besprochen, der 1984 veröffentlicht wurde und auf einer Romanvorlage von Arthur C. Clarke basiert. Der Film spielt neun Jahre nach '2001: Odyssee im Weltraum' und behandelt eine Mission zum Jupiter, um das Raumschiff Discovery und den Astronauten Bowman zu untersuchen. Die Handlung zeigt die politischen Spannungen zwischen den USA und der UdSSR während des Kalten Krieges und die Zusammenarbeit beider Nationen in der Raumfahrt. Wichtige Charaktere sind Roy Scheider und Helen Mirren, während das Design von Sid Mead stammt. Der Film endet mit der Entstehung eines neuen Sterns, Lucifer, und einer Botschaft des Bowman an die Menschheit.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "117-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 181,
+        "startSec": 3669,
+        "endSec": 4254,
+        "llmDetectedStartSec": 3689,
+        "llmDetectedEndSec": 4234,
+        "generatedAt": "2026-01-04T21:56:26.034Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Supermassereiche schwarze Löcher",
+      "subject": {
+        "coarse": "Astrophysik",
+        "fine": "Schwarze Löcher"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "117-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 4214,
+        "endSec": 20,
+        "llmDetectedStartSec": 4234,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:56:26.034Z",
+  "transcriptFound": true,
+  "transcriptFile": "117-ts.json"
+}

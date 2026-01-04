@@ -15,6 +15,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import https from 'https';
 import http from 'http';
+import sharp from 'sharp';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -83,7 +84,7 @@ function downloadFile(url, outputPath) {
 }
 
 /**
- * Get image extension from URL or Content-Type
+ * Get image extension from URL or Content-Type (for temporary download)
  */
 function getImageExtension(url, contentType) {
   // Try to get extension from URL
@@ -107,7 +108,7 @@ function getImageExtension(url, contentType) {
 }
 
 /**
- * Download logo for a single podcast
+ * Download logo for a single podcast and convert to JPG
  */
 async function downloadPodcastLogo(podcast) {
   if (!podcast.logoUrl) {
@@ -116,14 +117,14 @@ async function downloadPodcastLogo(podcast) {
   }
   
   const podcastDir = path.join(PROJECT_ROOT, 'frontend', 'public', 'podcasts', podcast.id);
-  const logoPath = path.join(podcastDir, 'logo');
+  const logoPath = path.join(podcastDir, 'logo.jpg');
   
   // Ensure directory exists
   await fsPromises.mkdir(podcastDir, { recursive: true });
   
-  // Try to determine extension from URL first
+  // Try to determine extension from URL for temporary download
   const tempExt = getImageExtension(podcast.logoUrl, null);
-  const tempPath = `${logoPath}.${tempExt}`;
+  const tempPath = `${logoPath}.tmp.${tempExt}`;
   
   try {
     console.log(`   ⬇️  ${podcast.id}: Downloading from ${podcast.logoUrl}`);
@@ -137,12 +138,51 @@ async function downloadPodcastLogo(podcast) {
       throw new Error('Downloaded file is empty');
     }
     
-    console.log(`   ✓ ${podcast.id}: Logo downloaded (${tempExt}, ${stats.size} bytes)`);
+    console.log(`   🔄 ${podcast.id}: Converting to JPG...`);
+    
+    // Convert to JPG using sharp
+    // Handle SVG files specially (they need to be rasterized)
+    const isSvg = tempExt === 'svg' || tempExt === 'svg+xml';
+    
+    if (isSvg) {
+      // For SVG, rasterize and convert to JPG (with size limit)
+      await sharp(tempPath)
+        .resize(1024, 1024, { fit: 'inside', withoutEnlargement: true })
+        .jpeg({ quality: 90 })
+        .toFile(logoPath);
+    } else {
+      // For other formats (PNG, GIF, WebP, etc.), convert directly to JPG
+      // sharp will handle transparency by converting to white background for JPG
+      await sharp(tempPath)
+        .jpeg({ quality: 90 })
+        .toFile(logoPath);
+    }
+    
+    // Check if conversion was successful
+    const jpgStats = await fsPromises.stat(logoPath);
+    if (jpgStats.size === 0) {
+      throw new Error('Converted JPG file is empty');
+    }
+    
+    console.log(`   ✓ ${podcast.id}: Logo converted to JPG (${jpgStats.size} bytes)`);
+    
+    // Clean up temp file
+    try {
+      await fsPromises.unlink(tempPath);
+    } catch {
+      // Ignore cleanup errors
+    }
   } catch (error) {
-    console.error(`   ✗ ${podcast.id}: Failed to download logo: ${error.message}`);
+    console.error(`   ✗ ${podcast.id}: Failed to download/convert logo: ${error.message}`);
     // Clean up temp file if it exists
     try {
       await fsPromises.unlink(tempPath);
+    } catch {
+      // Ignore cleanup errors
+    }
+    // Clean up JPG file if it exists but is invalid
+    try {
+      await fsPromises.unlink(logoPath);
     } catch {
       // Ignore cleanup errors
     }

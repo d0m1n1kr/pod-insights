@@ -163,7 +163,7 @@ echo -e "${YELLOW}→${NC} Normalizing topics..."
 run_script "scripts/normalize-topics.js"
 
 echo -e "${YELLOW}→${NC} Generating extended topics (for RAG)..."
-run_script_optional "scripts/generate-extended-topics.js" --all
+run_script_optional "scripts/generate-extended-topics.js" --all --use-llm-timestamps
 
     echo -e "${YELLOW}→${NC} Creating embeddings..."
     run_script "scripts/create-embeddings.js"

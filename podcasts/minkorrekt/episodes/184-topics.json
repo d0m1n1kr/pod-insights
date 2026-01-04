@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 184,
+  "title": "Mi184 - \"Kopfgyros\"",
+  "extractedAt": "2026-01-04T19:01:33.474Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Russischer Impfstoff",
+      "subject": {
+        "coarse": "Gesundheit",
+        "fine": "Impfstoffe"
+      }
+    },
+    {
+      "topic": "Meinungen zu Impfstoffen",
+      "subject": {
+        "coarse": "Gesundheit",
+        "fine": "Impfdebatte"
+      }
+    },
+    {
+      "topic": "Kühleffekt",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Thermodynamik"
+      }
+    },
+    {
+      "topic": "Muster",
+      "subject": {
+        "coarse": "Mathematik",
+        "fine": "Mustererkennung"
+      }
+    },
+    {
+      "topic": "Experiment der Woche: The Budget-Force",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Experimente"
+      }
+    }
+  ]
+}

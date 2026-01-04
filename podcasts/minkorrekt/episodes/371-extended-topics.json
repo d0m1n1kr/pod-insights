@@ -1,0 +1,131 @@
+{
+  "episodeNumber": 371,
+  "title": "Mi371 – \"Organisierte Konflikte\"",
+  "extractedAt": "2026-01-04T19:25:30.786Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Mondwasser",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Water"
+      },
+      "durationSec": 585,
+      "positionSec": 440,
+      "summary": "Im Transkript wird über Mundwasser gesprochen, das angeblich nur bei Vollmond abgefüllt wird. Ein Kollege aus der Wasserbranche bestätigt, dass dies tatsächlich der Fall ist, insbesondere bei einem Produkt von Red Bull namens Lunak, das zu hohen Preisen verkauft wird. Die Diskussion thematisiert auch die Ausnutzung von Menschen, die auf der Suche nach Sinn sind, und zieht Parallelen zu esoterischen Produkten und religiösen Praktiken, wie dem Verkauf von Heilwasser aus Lourdes. Es wird die Frage aufgeworfen, ob solche Produkte verwerflich sind, wenn sie nicht als wissenschaftlich belegt beworben werden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "371-ts.json",
+        "method": "time-window",
+        "pickedCount": 161,
+        "startSec": 420,
+        "endSec": 1045,
+        "generatedAt": "2026-01-04T19:29:37.659Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 1: “Krieg auf dem Planet der echten Affen”",
+      "subject": {
+        "coarse": "Conflict",
+        "fine": "War"
+      },
+      "durationSec": 1276,
+      "positionSec": 1268,
+      "summary": "In der Episode wird das Thema \"Krieg auf dem Planet der echten Affen\" behandelt, wobei der Fokus auf organisierten Konflikten im Tierreich liegt. Es wird diskutiert, ob Krieg eine rein menschliche Eigenschaft ist oder auch in der Natur vorkommt. Beispiele für kriegerisches Verhalten in der Tierwelt werden angeführt, wie Kämpfe zwischen Ameisenkolonien und strategische Angriffe von Delfinen. Besonders erwähnt wird die Forschung von Jane Goodall, die beobachtete, dass Schimpansen in Gruppen gewaltsame Überfälle auf Nachbargruppen durchführen, auch ohne menschlichen Einfluss. Diese Erkenntnisse stellen die Annahme in Frage, dass solche Verhaltensweisen nur menschlich sind.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "371-ts.json",
+        "method": "time-window",
+        "pickedCount": 267,
+        "startSec": 1248,
+        "endSec": 2564,
+        "generatedAt": "2026-01-04T19:29:37.699Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 2: \"Das wird kurz nicht weh tun\"",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Pain"
+      },
+      "durationSec": 1378,
+      "positionSec": 2930,
+      "summary": "Das Thema \"Das wird kurz nicht wehtun\" behandelt die Angst vor Spritzen, insbesondere bei Kindern, und die psychologischen Aspekte, die damit verbunden sind. Der Gesprächspartner reflektiert über seine eigene Einstellung zu Spritzen, die sich nach häufigem Gebrauch, wie nach einer Operation, verändert hat. Es wird diskutiert, warum Spritzen notwendig sind, da nicht alle Medikamente in Tablettenform verabreicht werden können, und die Herausforderungen bei der transdermalen Verabreichung von Insulin werden erläutert. Insulin muss gespritzt werden, weil es zu groß und instabil ist, um durch die Haut aufgenommen zu werden. Es wird auf die Forschung zu neuen Methoden der Insulinverabreichung hingewiesen, einschließlich eines neuen Papers über ein Polymer für die nicht-invasive transdermale Insulinabgabe.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "371-ts.json",
+        "method": "time-window",
+        "pickedCount": 327,
+        "startSec": 2910,
+        "endSec": 4328,
+        "generatedAt": "2026-01-04T19:29:42.148Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwurbel",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Misinformation"
+      },
+      "durationSec": 372,
+      "positionSec": 4308,
+      "summary": "In dieser Episode wird die Ameliene ITK Box vorgestellt, ein Produkt für Geisterjäger, das für 300 Euro verkauft wird. Die Box soll in der Lage sein, mit der geistigen Welt zu kommunizieren und bietet verschiedene Rückmeldungen per Ton und Text. Es wird diskutiert, ob das Angebot ernst gemeint ist oder eher für Cosplay gedacht ist. Die Webseite Ghost Flix bietet auch Workshops an, bei denen Teilnehmer lernen können, mit Verstorbenen in Kontakt zu treten. Der Geschäftsführer der Ghost Flix UG, die in Andernach ansässig ist, wird erwähnt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "371-ts.json",
+        "method": "time-window",
+        "pickedCount": 130,
+        "startSec": 4288,
+        "endSec": 4700,
+        "generatedAt": "2026-01-04T19:29:41.132Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "KI-Song von Patrick",
+      "subject": {
+        "coarse": "Art",
+        "fine": "Music"
+      },
+      "durationSec": 0,
+      "positionSec": 5173,
+      "summary": "In dieser Episode wird ein KI-Song von Patrick erwähnt, der für die Show geschrieben wurde. Es wird diskutiert, dass KI-generierte Songs oft als weniger kreativ wahrgenommen werden und sich ähnlich anhören. Rainie äußert seine Abneigung gegen KI-Songs, die ihm als monoton und wenig originell erscheinen. Es wird auch auf die Herausforderungen für Künstler hingewiesen, die durch die Verbreitung von KI-generierten Inhalten entstehen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "371-ts.json",
+        "method": "keyword-window",
+        "pickedCount": 32,
+        "startSec": 4914,
+        "endSec": 5075,
+        "generatedAt": "2026-01-04T19:29:44.263Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:29:44.263Z",
+  "transcriptFound": true,
+  "transcriptFile": "371-ts.json"
+}

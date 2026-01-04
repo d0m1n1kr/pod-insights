@@ -1,0 +1,57 @@
+{
+  "episodeNumber": 1165,
+  "title": "WR1165 Der Dezemberhimmel",
+  "extractedAt": "2026-01-04T19:17:10.537Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Sichtbare Himmelskörper",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Planeten"
+      }
+    },
+    {
+      "topic": "Geminiden",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Meteorströme"
+      }
+    },
+    {
+      "topic": "Neumond",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Mondphasen"
+      }
+    },
+    {
+      "topic": "Sonnenfinsternis",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Finsternisse"
+      }
+    },
+    {
+      "topic": "Doppelstern im Großen Wagen",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sternsysteme"
+      }
+    },
+    {
+      "topic": "Astrochronologie",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Zeitmessung"
+      }
+    },
+    {
+      "topic": "Zodiakallicht",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Himmelsphänomene"
+      }
+    }
+  ]
+}

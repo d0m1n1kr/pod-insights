@@ -1,0 +1,62 @@
+{
+  "episodeNumber": 330,
+  "title": "Mi330 – \"Drill, baby, drill!\"",
+  "extractedAt": "2026-01-04T19:20:30.668Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Krankenhaus",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Hospital"
+      },
+      "durationSec": 365,
+      "positionSec": 663
+    },
+    {
+      "topic": "Experimente basteln",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Experiments"
+      },
+      "durationSec": 742,
+      "positionSec": 1028
+    },
+    {
+      "topic": "Thema 1: \"Vulkan im Vorgarten\"",
+      "subject": {
+        "coarse": "Geology",
+        "fine": "Volcano"
+      },
+      "durationSec": 1820,
+      "positionSec": 1770
+    },
+    {
+      "topic": "Snackable Science",
+      "subject": {
+        "coarse": "Education",
+        "fine": "Science Communication"
+      },
+      "durationSec": 579,
+      "positionSec": 3590
+    },
+    {
+      "topic": "Thema 2: \"Der Pate läuft und läuft und läuft ...\"",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Film"
+      },
+      "durationSec": 1147,
+      "positionSec": 4169
+    },
+    {
+      "topic": "Schwurbel der Woche",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Misinformation"
+      },
+      "durationSec": 739,
+      "positionSec": 5316
+    }
+  ]
+}

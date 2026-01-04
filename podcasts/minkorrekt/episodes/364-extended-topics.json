@@ -1,0 +1,203 @@
+{
+  "episodeNumber": 364,
+  "title": "Mi364 – \"Forschungspflichtdienst\"",
+  "extractedAt": "2026-01-04T19:24:36.720Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Lübeck",
+      "subject": {
+        "coarse": "Location",
+        "fine": "Lübeck"
+      },
+      "durationSec": 70,
+      "positionSec": 670,
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "364-ts.json",
+        "method": "time-window",
+        "pickedCount": 21,
+        "startSec": 650,
+        "endSec": 760,
+        "generatedAt": "2026-01-04T19:27:17.054Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Quantenkonzert",
+      "subject": {
+        "coarse": "Event",
+        "fine": "Quantenkonzert"
+      },
+      "durationSec": 913,
+      "positionSec": 740,
+      "summary": "In der Episode wird das Quantenkonzert thematisiert, das nach einem erfolgreichen Auftritt in Lübeck stattfand. Ein Blasorchester und die Gastgeber haben sich zusammengetan, um ein Konzert zu gestalten, das Musik mit wissenschaftlichen Erklärungen zur Quantenmechanik verbindet. Die Veranstaltung zielte darauf ab, grundlegende Konzepte der Quantenmechanik auf verständliche Weise zu vermitteln, während Musikstücke zwischen den Erklärungen gespielt wurden. Das Publikum war vielfältig, und die Interaktion mit den Zuschauern wurde als positiv empfunden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "364-ts.json",
+        "method": "time-window",
+        "pickedCount": 196,
+        "startSec": 720,
+        "endSec": 1673,
+        "generatedAt": "2026-01-04T19:27:19.879Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Slam Duisburg",
+      "subject": {
+        "coarse": "Event",
+        "fine": "Science Slam Duisburg"
+      },
+      "durationSec": 348,
+      "positionSec": 1653,
+      "summary": "In der Episode wird ein Science Slam in Duisburg am 30. Oktober erwähnt, der an der Universität Duisburg-Essen stattfindet. Die Veranstaltung findet im Bora am Dellplatz statt und bietet Platz für 250 Personen, von denen bereits einige Tickets verkauft sind. Die Moderation übernimmt einer der Hosts, der auch seine eigenen Erfahrungen mit dem Science Slam teilt. Es wird betont, dass das Format des Science Slams eine unterhaltsame Möglichkeit bietet, Wissenschaft zu kommunizieren und dass die Veranstaltung für Interessierte im Ruhrgebiet geeignet ist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "364-ts.json",
+        "method": "time-window",
+        "pickedCount": 97,
+        "startSec": 1633,
+        "endSec": 2021,
+        "generatedAt": "2026-01-04T19:27:20.587Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kommentar zu menschengemachter Masse von Mark",
+      "subject": {
+        "coarse": "Commentary",
+        "fine": "Menschengemachte Masse"
+      },
+      "durationSec": 233,
+      "positionSec": 2001,
+      "summary": "In diesem Abschnitt wird auf ein Paper eingegangen, das die menschgemachte Masse, wie Straßen und Bauwerke, mit biologischer Masse, wie Tieren und Pflanzen, vergleicht. Es wird erwähnt, dass die Autorinnen der Studie festgestellt haben, dass die Menge an menschgemachter Trockenmasse erheblich ist. Mark hat darauf hingewiesen, dass die Situation noch gravierender ist, als im Paper dargestellt. Der Kommentar thematisiert die Auswirkungen der menschlichen Aktivitäten auf die Umwelt und die Masse, die durch den Menschen geschaffen wurde.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "364-ts.json",
+        "method": "time-window",
+        "pickedCount": 83,
+        "startSec": 1981,
+        "endSec": 2254,
+        "generatedAt": "2026-01-04T19:27:23.813Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 1: \"Bubble Trouble\"",
+      "subject": {
+        "coarse": "Topic",
+        "fine": "Bubble Trouble"
+      },
+      "durationSec": 1425,
+      "positionSec": 2234,
+      "summary": "In der Episode wird das Thema 'Bubble Trouble' behandelt, das sich mit der anthropogenen Masse auf unserem Planeten beschäftigt. Es wird diskutiert, dass die Autoren eines Papers die Menge an menschlich geschaffener Masse nur teilweise erfasst haben, da nicht alle inaktiven Materialien, wie Plastik, berücksichtigt wurden. Dies führt zu der Erkenntnis, dass die tatsächliche Belastung durch menschliche Abfälle viel gravierender ist, als ursprünglich angenommen. Zudem wird auf die Faszination für natürliche Lichtphänomene, wie Glühwürmchen und Ehrlichter, eingegangen, die in der Natur auftreten und historisch mit übernatürlichen Erklärungen verbunden sind.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "364-ts.json",
+        "method": "time-window",
+        "pickedCount": 266,
+        "startSec": 2214,
+        "endSec": 3679,
+        "generatedAt": "2026-01-04T19:27:25.350Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Snack",
+      "subject": {
+        "coarse": "Snack",
+        "fine": "Science Snack"
+      },
+      "durationSec": 1237,
+      "positionSec": 3659,
+      "summary": "In dieser Episode wird das Phänomen der Methanentzündung durch Blitze erläutert, das zu einem bläulich-violetten Licht führt. Forscher aus China haben experimentell nachgewiesen, dass Methan in der Verbrennung für dieses Licht verantwortlich ist, was einen Ursprung für das Phänomen der \"Ehrlichter\" erklärt. Zudem wird das Konzept der Statoliten bei Tieren, insbesondere bei Krebsen, diskutiert, die Kieselsplitter aufnehmen, um ihre Körperlage zu bestimmen. Interessanterweise können diese Tiere auch Eisenpartikel verwenden, was zu einer faszinierenden Möglichkeit führt, ihre Bewegungen mit Magneten zu steuern.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "364-ts.json",
+        "method": "time-window",
+        "pickedCount": 291,
+        "startSec": 3639,
+        "endSec": 4916,
+        "generatedAt": "2026-01-04T19:27:27.944Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 2: \"Andere Umstände\"",
+      "subject": {
+        "coarse": "Topic",
+        "fine": "Andere Umstände"
+      },
+      "durationSec": 1850,
+      "positionSec": 4896,
+      "summary": "In dieser Episode werden verschiedene Freizeitparks in Deutschland und den Niederlanden besprochen, darunter Europa Park, Phantasialand und Toverland. Toverland bietet eine Halloween-Aktion, bei der Kinder mit Taschenlampen Geister vertreiben können. Disneyland Paris wird als enttäuschend beschrieben, da es sich seit Jahren nicht verändert hat. Zudem wird die Pandemie thematisiert, die als außergewöhnliche Situation betrachtet wird, die einen Boost in der Impfstoffforschung und der Nutzung von Online-Meetings bewirkte. Die Diskussion beleuchtet die Vor- und Nachteile von Online-Meetings und die Bedeutung von persönlichen Interaktionen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "364-ts.json",
+        "method": "time-window",
+        "pickedCount": 368,
+        "startSec": 4876,
+        "endSec": 6766,
+        "generatedAt": "2026-01-04T19:27:29.495Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwurbel der Woche",
+      "subject": {
+        "coarse": "Commentary",
+        "fine": "Schwurbel der Woche"
+      },
+      "durationSec": 208,
+      "positionSec": 6746,
+      "summary": "In diesem Abschnitt wird über die gesellschaftliche Verantwortung im Umgang mit Erkältungen und Krankheiten diskutiert. Der Sprecher äußert Unmut über Menschen, die trotz offensichtlicher Erkältung in öffentlichen Verkehrsmitteln reisen, ohne eine Maske zu tragen. Er vergleicht die Situation mit asiatischen Ländern, wo das Tragen von Masken bei Erkältungen als normal gilt. Zudem wird die gesellschaftliche Wahrnehmung von Masken im Kontext der Pandemie und der Querdenker-Bewegung angesprochen. Abschließend wird ein Hinweis auf eine merkwürdige Empfehlungsfunktion in der Netflix iOS App gegeben, die Filme nach Sternzeichen sortiert.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "364-ts.json",
+        "method": "time-window",
+        "pickedCount": 34,
+        "startSec": 6726,
+        "endSec": 6974,
+        "generatedAt": "2026-01-04T19:27:31.494Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:27:31.494Z",
+  "transcriptFound": true,
+  "transcriptFile": "364-ts.json"
+}

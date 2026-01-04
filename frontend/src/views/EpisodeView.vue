@@ -4,7 +4,7 @@ import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from '@/stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
-import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, getPodcastLogoUrl, withBase } from '@/composables/usePodcast';
 import SpeakingTimeFlowChart from '@/components/SpeakingTimeFlowChart.vue';
 import SpeakerBoxPlot from '@/components/SpeakerBoxPlot.vue';
 import SpeakerScatterPlot from '@/components/SpeakerScatterPlot.vue';
@@ -28,6 +28,8 @@ type EpisodeSearchResult = {
   topics: string[];
   positionsSec: number[];
   positionScores?: number[];
+  hasImage: boolean;
+  hasTranscript: boolean;
 };
 
 type EpisodeData = {
@@ -773,9 +775,16 @@ const getPodcastInfo = (podcastId: string) => {
         >
           <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
             <img
+              v-if="episode.hasImage"
               :src="getEpisodeImageUrl(episode.episodeNumber, episode.podcastId)"
               :alt="episode.title"
               @error="($event.target as HTMLImageElement).style.display = 'none'"
+              class="w-16 h-16 sm:w-20 sm:h-20 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-700"
+            />
+            <img
+              v-else
+              :src="getPodcastLogoUrl(episode.podcastId)"
+              :alt="episode.title"
               class="w-16 h-16 sm:w-20 sm:h-20 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-700"
             />
             <div class="flex-1 min-w-0">

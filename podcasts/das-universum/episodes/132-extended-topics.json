@@ -1,0 +1,193 @@
+{
+  "episodeNumber": 132,
+  "title": "DU132 - 5 Jahre “Das Universum” und ein Blick in die Vergangenheit mit Mars und Venus",
+  "extractedAt": "2026-01-04T19:28:48.761Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Rückblick auf 2020",
+      "subject": {
+        "coarse": "History",
+        "fine": "Events"
+      },
+      "summary": "In der Episode 132 von \"Das Universum\" feiern Ruth, Florian und Evi den fünften Geburtstag des Podcasts und reflektieren über das Jahr 2020. Sie erwähnen bedeutende Ereignisse wie den 100. Geburtstag von Isaac Asimov, die NASA-Mission Osiris-Rex, die Probenentnahme vom Asteroiden Bennu und den Zusammenbruch des Arecibo-Teleskops. Besonders hervorgehoben wird die Entdeckung von Phosphin in der Atmosphäre der Venus, die auf mögliche biologische Prozesse hinweisen könnte, da Phosphin normalerweise nur von Bakterien produziert wird. Diese Entdeckung wurde mit dem ALMA-Teleskop gemacht und wirft Fragen über die Lebensbedingungen in der Venusatmosphäre auf.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "132-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 355,
+        "startSec": 0,
+        "endSec": 1161,
+        "llmDetectedStartSec": 2,
+        "llmDetectedEndSec": 1141,
+        "generatedAt": "2026-01-04T22:00:04.186Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Leben auf der Venus",
+      "subject": {
+        "coarse": "Astrobiology",
+        "fine": "Venus"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "132-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 1121,
+        "endSec": 1110,
+        "llmDetectedStartSec": 1141,
+        "llmDetectedEndSec": 1090,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Mars-Aktion 2020",
+      "subject": {
+        "coarse": "Space Exploration",
+        "fine": "Mars"
+      },
+      "summary": "Im Jahr 2020 fanden bedeutende Marsmissionen statt, da Mars in Opposition zur Erde stand und ein ideales Startfenster für Raumfahrzeuge bot. Drei Missionen wurden im Juli 2020 gestartet, darunter der Orbiter \"Hope\" der Vereinigten Arabischen Emirate, der atmosphärische Untersuchungen durchführte und neue Erkenntnisse über den Marsmond Deimos lieferte. Die Analyse der hochauflösenden Bilder zeigte, dass Deimos wahrscheinlich nicht ein eingefangener Asteroid ist, sondern ein Bruchstück eines größeren Objekts mit einer basaltartigen Oberfläche. Diese Entdeckung könnte die bisherige Theorie über die Entstehungsgeschichte von Deimos in Frage stellen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "132-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 283,
+        "startSec": 1070,
+        "endSec": 2052,
+        "llmDetectedStartSec": 1090,
+        "llmDetectedEndSec": 2032,
+        "generatedAt": "2026-01-04T22:00:07.632Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Roboter und Roboterleben",
+      "subject": {
+        "coarse": "Technology",
+        "fine": "Robotics"
+      },
+      "summary": "In der Episode wird der Film \"Nummer 5 lebt\" aus den 80er Jahren besprochen, der einen Militärroboter zeigt, der durch einen Blitzschlag ein eigenes Bewusstsein entwickelt. Der Roboter, Nummer 5, flieht und lernt von einer Frau namens Stephanie, was zu seiner moralischen Entwicklung führt. Evi hebt hervor, dass der Film eine positive Darstellung von Robotern bietet, im Gegensatz zu anderen Filmen wie \"Terminator\". Zudem wird die Verbindung zur modernen KI diskutiert, da Nummer 5 durch Input lernt, ähnlich wie heutige neuronale Netzwerke. Der Designer Sid Mead wird als bedeutende Figur im Science-Fiction-Design erwähnt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "132-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 178,
+        "startSec": 2012,
+        "endSec": 2568,
+        "llmDetectedStartSec": 2032,
+        "llmDetectedEndSec": 2548,
+        "generatedAt": "2026-01-04T22:00:08.640Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Podcast-Statistik",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Podcasting"
+      },
+      "summary": "In der Episode 132 des Podcasts wird eine Statistik über die Downloads und Hörerzahlen präsentiert. Bis zum 6. Juni 2025 verzeichnet der Podcast über vier Millionen Downloads und rund 43.000 Hörer. Die beliebtesten Folgen sind weitgehend unverändert, wobei die Folge 74 mit dem Titel 'Der Lurch auf dem Asteroid' die Spitzenposition erreicht hat. Diese Folge behandelt Themen wie Vulkanismus auf der Venus und die Raummission DART. Weitere erwähnte Themen sind Maschinenethik und Robotergesetze.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "132-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 64,
+        "startSec": 2528,
+        "endSec": 2739,
+        "llmDetectedStartSec": 2548,
+        "llmDetectedEndSec": 2719,
+        "generatedAt": "2026-01-04T22:00:11.012Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Live Shows und Veranstaltungen",
+      "subject": {
+        "coarse": "Events",
+        "fine": "Live Shows"
+      },
+      "summary": "In dieser Episode wird das fünfjährige Bestehen des Podcasts \"Das Universum\" gefeiert. Es werden verschiedene Live-Events angekündigt, darunter eine Aufführung in Wien am 25. Juni im Rahmen des Living Earth Symposiums und eine Veranstaltung zum Asteroid Day am 30. Juni im Cinema Paradiso in Baden. Zudem wird auf die letzte Vorstellung der Science Busters mit der Show \"Planet B\" am 5. Juli 2025 hingewiesen. Die Hosts bedanken sich bei ihren Unterstützern und erwähnen Geschenke, die sie von Zuhörern erhalten haben.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "132-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 143,
+        "startSec": 2699,
+        "endSec": 3218,
+        "llmDetectedStartSec": 2719,
+        "llmDetectedEndSec": 3198,
+        "generatedAt": "2026-01-04T22:00:12.462Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Neue Bücher und Hörbücher",
+      "subject": {
+        "coarse": "Literature",
+        "fine": "Books"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "132-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 3178,
+        "endSec": 20,
+        "llmDetectedStartSec": 3198,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Science Busters Buch",
+      "subject": {
+        "coarse": "Literature",
+        "fine": "Non-fiction"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "132-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 3,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T22:00:12.560Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:00:12.560Z",
+  "transcriptFound": true,
+  "transcriptFile": "132-ts.json"
+}

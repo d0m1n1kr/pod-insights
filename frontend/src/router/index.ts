@@ -96,6 +96,33 @@ router.beforeEach((to, _from, next) => {
     return;
   }
   
+  // Get podcast config for the current podcast (use currentPodcast from URL, not store)
+  const effectivePodcastId = currentPodcast || settingsStore.selectedPodcast || 'freakshow';
+  const podcast = settingsStore.availablePodcasts.find(p => p.id === effectivePodcastId);
+  
+  // Check if search is disabled for current podcast
+  if (to.name === 'search' && podcast?.disableSearch) {
+    // Redirect to episodes tab if search is disabled
+    next({
+      name: 'episodeSearch',
+      query: to.query,
+      replace: true, // Replace history entry so back button doesn't go to search
+    });
+    return;
+  }
+  
+  // Check if speaker routes are disabled for current podcast
+  const speakerRoutes = ['speakers-river', 'cluster-heatmap', 'cluster-cluster-heatmap', 'speaker-speaker-heatmap'];
+  if (to.name && speakerRoutes.includes(to.name) && podcast?.disableSpeakers) {
+    // Redirect to episode search if speaker tabs are disabled
+    next({
+      name: 'episodeSearch',
+      query: to.query,
+      replace: true,
+    });
+    return;
+  }
+  
   next();
 });
 

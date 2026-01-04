@@ -1,0 +1,155 @@
+{
+  "episodeNumber": 124,
+  "title": "DU124 - Wie verhindert man einen Asteroideneinschlag?",
+  "extractedAt": "2026-01-04T19:27:58.227Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Asteroideneinschlag und planetare Verteidigung",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Asteroiden"
+      },
+      "summary": "In dieser Episode wird das Thema Asteroideneinschläge behandelt, insbesondere der Asteroid Bennu, der eine Einschlagswahrscheinlichkeit von 0,04 Prozent mit der Erde hat. Es wird diskutiert, dass ein Einschlag eines 500 Meter großen Asteroiden wie Bennu erhebliche klimatische und ökologische Folgen haben könnte, darunter einen Rückgang der globalen Temperatur um vier Grad und eine Reduzierung der Produktivität von Ökosystemen. Interessanterweise könnte die durch den Einschlag freigesetzte Eisen-Düngung das Phytoplankton im Meer fördern und somit die Nahrungsmittelknappheit mildern. Zudem wird auf den Asteroid Apophis hingewiesen, der 2029 der Erde nahe kommen wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "124-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 97,
+        "startSec": 236,
+        "endSec": 587,
+        "llmDetectedStartSec": 256,
+        "llmDetectedEndSec": 567,
+        "generatedAt": "2026-01-04T21:58:06.263Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Folgen eines großen Asteroideneinschlags",
+      "subject": {
+        "coarse": "Umwelt",
+        "fine": "Klimawandel"
+      },
+      "summary": "Ein großer Asteroideneinschlag könnte gravierende Folgen haben, wie Nahrungsmittelknappheit und das Ausbleiben von Niederschlägen, was beispielsweise das Skifahren unmöglich machen würde. Der Asteroid Apophis, der am 13. April 2029 der Erde sehr nahe kommen wird, ist ein zentrales Thema in der Diskussion über Asteroidenabwehr. Die Notwendigkeit, sich mit der Abwehr von Asteroiden zu beschäftigen, wird betont, um solche negativen Auswirkungen zu verhindern.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "124-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 12,
+        "startSec": 547,
+        "endSec": 587,
+        "llmDetectedStartSec": 567,
+        "llmDetectedEndSec": 567,
+        "generatedAt": "2026-01-04T21:58:05.819Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Asteroidenabwehr und internationale Zusammenarbeit",
+      "subject": {
+        "coarse": "Politik",
+        "fine": "Internationale Organisationen"
+      },
+      "summary": "Im Podcast wird über die Asteroidenabwehr und die internationale Zusammenarbeit gesprochen, insbesondere im Hinblick auf den Asteroiden Apophis, der 2029 in der Nähe der Erde vorbeifliegt. Die Europäische Raumfahrtagentur ESA hat vorgeschlagen, das Jahr 2029 als International Year of Asteroid Awareness and Planetary Defense zu deklarieren, um das Bewusstsein für Asteroiden und planetare Verteidigung zu fördern. Zudem wird ein neuer Asteroid, 2024 YR4, erwähnt, der im Dezember 2024 entdeckt wurde.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "124-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 51,
+        "startSec": 547,
+        "endSec": 729,
+        "llmDetectedStartSec": 567,
+        "llmDetectedEndSec": 709,
+        "generatedAt": "2026-01-04T21:58:09.357Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Wissenschaftliche Erkenntnisse über Asteroiden",
+      "subject": {
+        "coarse": "Forschung",
+        "fine": "Astrophysik"
+      },
+      "summary": "In der Episode wird der Asteroid 2024 YR4 besprochen, der im Dezember 2024 entdeckt wurde und 2032 sehr nahe an der Erde vorbeifliegen wird. Die initiale Kollisionswahrscheinlichkeit lag bei etwa zwei Prozent, was höher ist als üblich. Der Asteroid hat eine geschätzte Größe von 70 Metern und könnte bei einem Einschlag lokale Katastrophen verursachen, jedoch ist die Wahrscheinlichkeit eines Einschlags gering. Zudem wird Professor Siegfried Egel erwähnt, der sich mit Asteroiden-Abwehrmaßnahmen beschäftigt und an der Universität von Illinois forscht.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "124-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 94,
+        "startSec": 689,
+        "endSec": 1008,
+        "llmDetectedStartSec": 709,
+        "llmDetectedEndSec": 988,
+        "generatedAt": "2026-01-04T21:58:10.429Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Fiction und Asteroideneinschläge",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Film"
+      },
+      "summary": "In der Episode 124 diskutieren Florian und Ruth über Asteroiden-Abwehrmaßnahmen und die Wahrscheinlichkeit von Kollisionen mit der Erde. Sie sprechen darüber, wie und wann festgestellt werden kann, ob ein Asteroid tatsächlich auf Kollisionskurs ist und wo ein möglicher Einschlag stattfinden könnte. Das Thema wird durch ein Interview ergänzt, das bereits in der vorherigen Woche geführt wurde.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "124-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 13,
+        "startSec": 968,
+        "endSec": 1008,
+        "llmDetectedStartSec": 988,
+        "llmDetectedEndSec": 988,
+        "generatedAt": "2026-01-04T21:58:12.123Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Zukünftige Ereignisse in der Asteroidenforschung",
+      "subject": {
+        "coarse": "Technologie",
+        "fine": "Raumfahrt"
+      },
+      "summary": "In der Episode wird über Asteroidenabwehrmaßnahmen und die Kollisionswahrscheinlichkeiten von Asteroiden diskutiert. Florian und Ruth führen ein Interview mit Siegfried Eggel von der Universität Illinois, der sich intensiv mit der Asteroidenforschung und den politischen sowie wissenschaftlichen Aspekten von Asteroideneinschlägen beschäftigt. Eggel erklärt, dass es mittlerweile offizielle Pläne gibt, um auf potenzielle Asteroideneinschläge zu reagieren, die durch nationale und internationale Organisationen, einschließlich der Vereinten Nationen, koordiniert werden. Das internationale Asteroid Warning Network (IAWN) spielt dabei eine zentrale Rolle in der Überwachung und Warnung bei Bedrohungen durch Asteroiden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "124-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 694,
+        "startSec": 968,
+        "endSec": 3320,
+        "llmDetectedStartSec": 988,
+        "llmDetectedEndSec": 3300,
+        "generatedAt": "2026-01-04T21:58:15.869Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:58:15.869Z",
+  "transcriptFound": true,
+  "transcriptFile": "124-ts.json"
+}

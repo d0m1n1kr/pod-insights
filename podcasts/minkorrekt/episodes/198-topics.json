@@ -1,0 +1,50 @@
+{
+  "episodeNumber": 198,
+  "title": "Mi198 - \"Wahl Spezial 2021\"",
+  "extractedAt": "2026-01-04T19:02:33.093Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Forschung und Wissenschaftsförderung",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Research Funding"
+      }
+    },
+    {
+      "topic": "IT-Zukunftstechnologien",
+      "subject": {
+        "coarse": "Technology",
+        "fine": "Future IT Technologies"
+      }
+    },
+    {
+      "topic": "Energie und Verkehrswende",
+      "subject": {
+        "coarse": "Energy",
+        "fine": "Transportation Transition"
+      }
+    },
+    {
+      "topic": "Digitalisierung",
+      "subject": {
+        "coarse": "Technology",
+        "fine": "Digitalization"
+      }
+    },
+    {
+      "topic": "Schule und Bildung",
+      "subject": {
+        "coarse": "Education",
+        "fine": "School System"
+      }
+    },
+    {
+      "topic": "Experiment der Woche: Satz von Brouwer",
+      "subject": {
+        "coarse": "Mathematics",
+        "fine": "Topology"
+      }
+    }
+  ]
+}

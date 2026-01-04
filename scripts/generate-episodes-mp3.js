@@ -99,6 +99,35 @@ function firstMatch(text, re) {
   return m?.[1] ?? null;
 }
 
+// Extract episode number from title like "Mi374" or "Mi374 – "Ig-Nobelpreis-Sonderfolge 2025""
+// or "Minkorrekt Folge 26 „In Ear Löffelglocke"" or "WR324 Realität als Einschränkung"
+// Format is always: <letters><number> (e.g., "WR324", "Mi374")
+function extractEpisodeNumber(title) {
+  if (!title) return null;
+  
+  // Match pattern: one or more letters followed by digits (e.g., "Mi374", "WR324", "LNP540")
+  // This must be at the start of the title or after whitespace
+  const match = title.match(/(?:^|\s)([A-Za-z]+)(\d+)(?:\s|$|–|-|„|"|\))/);
+  if (match) {
+    const num = parseInt(match[2], 10);
+    // Only return if it's a reasonable episode number (not a year like 2025)
+    if (num > 0 && num < 10000) {
+      return num;
+    }
+  }
+  
+  // Fallback: Match "Minkorrekt Folge" or "Folge" followed by digits (e.g., "Minkorrekt Folge 26")
+  const folgeMatch = title.match(/(?:Minkorrekt\s+)?Folge\s+(\d+)/i);
+  if (folgeMatch) {
+    const num = parseInt(folgeMatch[1], 10);
+    if (num > 0 && num < 10000) {
+      return num;
+    }
+  }
+  
+  return null;
+}
+
 function parseEpisodeDurationToSeconds(raw) {
   if (!raw) return null;
   const s = String(raw).trim();
@@ -139,7 +168,14 @@ function parseRssEpisodes(xml, podcastId) {
     const durationRaw = firstMatch(item, /<itunes:duration>([\s\S]*?)<\/itunes:duration>/i);
     const enclosureUrl = firstMatch(item, /<enclosure\b[^>]*\burl="([^"]+)"/i);
 
-    const episodeNumber = episodeStr ? parseInt(episodeStr, 10) : null;
+    // Extract episode number from title first (same pattern as generate-from-feed.js)
+    let episodeNumber = extractEpisodeNumber(title);
+    
+    // Fallback to itunes:episode tag if title extraction failed
+    if (!Number.isFinite(episodeNumber) && episodeStr) {
+      episodeNumber = parseInt(episodeStr, 10);
+    }
+    
     if (!Number.isFinite(episodeNumber)) continue;
     if (!enclosureUrl) continue;
 

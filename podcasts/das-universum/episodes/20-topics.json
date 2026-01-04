@@ -1,0 +1,50 @@
+{
+  "episodeNumber": 20,
+  "title": "DU020 - Das dunkle Herz der Galaxie",
+  "extractedAt": "2026-01-04T19:16:53.057Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Politische Skandale und Korruption in der österreichischen Politik",
+      "subject": {
+        "coarse": "Politics",
+        "fine": "Corruption"
+      }
+    },
+    {
+      "topic": "Quantengravitation und Korruption",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Quantum Gravity"
+      }
+    },
+    {
+      "topic": "Entstehung schwarzer Löcher in Galaxien",
+      "subject": {
+        "coarse": "Astrophysics",
+        "fine": "Black Holes"
+      }
+    },
+    {
+      "topic": "Dunkle Materie und ihre Rolle",
+      "subject": {
+        "coarse": "Astrophysics",
+        "fine": "Dark Matter"
+      }
+    },
+    {
+      "topic": "Sterile Neutrinos und dunkle Materie",
+      "subject": {
+        "coarse": "Physics",
+        "fine": "Neutrinos"
+      }
+    },
+    {
+      "topic": "Fragen zur dunklen Materie und Antimaterie",
+      "subject": {
+        "coarse": "Physics",
+        "fine": "Antimatter"
+      }
+    }
+  ]
+}

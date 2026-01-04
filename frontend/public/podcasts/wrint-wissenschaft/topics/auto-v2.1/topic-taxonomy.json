@@ -1,0 +1,2355 @@
+{
+  "createdAt": "2026-01-04T19:33:22.378388+00:00",
+  "method": "hdbscan-v2",
+  "embeddingModel": "text-embedding-3-large",
+  "embeddingsCreatedAt": "2026-01-04T19:29:06.540Z",
+  "totalTopics": 2556,
+  "uniqueTopics": 2357,
+  "settings": {
+    "clusters": 116,
+    "outlierThreshold": 0.9,
+    "linkageMethod": "hdbscan(min_cluster_size=2, min_samples=2)",
+    "useRelevanceWeighting": true
+  },
+  "statistics": {
+    "clusterCount": 116,
+    "outlierCount": 0,
+    "outlierPercentage": "0.0%"
+  },
+  "clusters": [
+    {
+      "id": "galaxienforschung",
+      "name": "Galaxienforschung",
+      "description": "12 Topics in 7 Episoden",
+      "isOutlier": false,
+      "topicCount": 12,
+      "episodeCount": 7,
+      "relevanceSec": 3600,
+      "sampleTopics": [
+        "Zwerg-Galaxien",
+        "Viele Galaxien",
+        "Galaxien",
+        "Messier 101",
+        "Messier 64"
+      ],
+      "episodes": [
+        472,
+        611,
+        1151,
+        1225,
+        1249,
+        1283,
+        1553
+      ]
+    },
+    {
+      "id": "supernova-und-planeten",
+      "name": "Supernova und Planeten",
+      "description": "9 Topics in 10 Episoden",
+      "isOutlier": false,
+      "topicCount": 9,
+      "episodeCount": 10,
+      "relevanceSec": 3600,
+      "sampleTopics": [
+        "Astronomie unter dem Meer",
+        "Supernova",
+        "Arrokoth",
+        "Pluto Ozean",
+        "Supernovamassensterben"
+      ],
+      "episodes": [
+        706,
+        817,
+        1016,
+        1102,
+        1127,
+        1138,
+        1186,
+        1337,
+        1433,
+        1533
+      ]
+    },
+    {
+      "id": "schlafmangel",
+      "name": "Schlafmangel",
+      "description": "11 Topics in 12 Episoden",
+      "isOutlier": false,
+      "topicCount": 11,
+      "episodeCount": 12,
+      "relevanceSec": 3300,
+      "sampleTopics": [
+        "Schlafmangel und falsche Geständnisse",
+        "Schlafmangel ist wie Kiffen",
+        "Unruhiger Schlaf in fremden Betten",
+        "Kaffee gegen Schlafentzug",
+        "Dicke Kinder durch wenig Schlaf"
+      ],
+      "episodes": [
+        518,
+        524,
+        537,
+        559,
+        573,
+        700,
+        846,
+        945,
+        1007,
+        1292,
+        1362,
+        1398
+      ]
+    },
+    {
+      "id": "dunkle-materie-energie",
+      "name": "Dunkle Materie & Energie",
+      "description": "5 Topics in 11 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 11,
+      "relevanceSec": 3300,
+      "sampleTopics": [
+        "Dunkle Materie",
+        "helle dunkle Materie",
+        "Unterschied zwischen dunkler Materie und dunkler Energie",
+        "Dunkle Materie und dunkle Energie",
+        "Dunkle Energie"
+      ],
+      "episodes": [
+        355,
+        398,
+        424,
+        494,
+        518,
+        768,
+        831,
+        914,
+        975,
+        1408,
+        1543
+      ]
+    },
+    {
+      "id": "schwarze-löcher",
+      "name": "Schwarze Löcher",
+      "description": "7 Topics in 8 Episoden",
+      "isOutlier": false,
+      "topicCount": 7,
+      "episodeCount": 8,
+      "relevanceSec": 2400,
+      "sampleTopics": [
+        "schwarze Löcher",
+        "Schwarze Löcher in der Milchstraße",
+        "Das schwarze Loch",
+        "Schwarzes Loch",
+        "Mittelgroßes schwarzes Loch"
+      ],
+      "episodes": [
+        249,
+        350,
+        808,
+        933,
+        1174,
+        1222,
+        1273,
+        1449
+      ]
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "description": "4 Topics in 7 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 7,
+      "relevanceSec": 2400,
+      "sampleTopics": [
+        "Jupiters fester Kern",
+        "Jupiters Kern",
+        "Jupitergeräusche",
+        "Jupiter"
+      ],
+      "episodes": [
+        503,
+        566,
+        1133,
+        1138,
+        1213,
+        1249,
+        1259
+      ]
+    },
+    {
+      "id": "neutrino-forschung",
+      "name": "Neutrino-Forschung",
+      "description": "4 Topics in 7 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 7,
+      "relevanceSec": 2400,
+      "sampleTopics": [
+        "Neutrinoastronomie",
+        "Neutrinos",
+        "Neutrinorätsel",
+        "Neutrinodetektoren"
+      ],
+      "episodes": [
+        480,
+        518,
+        730,
+        828,
+        1337,
+        1509,
+        1584
+      ]
+    },
+    {
+      "id": "rosetta-mission",
+      "name": "Rosetta-Mission",
+      "description": "4 Topics in 7 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 7,
+      "relevanceSec": 2100,
+      "sampleTopics": [
+        "Rosetta",
+        "Rosetta und ihr Landeplatz",
+        "Landung und Schlaf von Philae",
+        "Rosetta-Landung"
+      ],
+      "episodes": [
+        243,
+        249,
+        313,
+        324,
+        361,
+        365,
+        566
+      ]
+    },
+    {
+      "id": "neutronensterne",
+      "name": "Neutronensterne",
+      "description": "3 Topics in 7 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 7,
+      "relevanceSec": 2100,
+      "sampleTopics": [
+        "Gammablitze",
+        "Neutronenstern",
+        "Neutronensterne"
+      ],
+      "episodes": [
+        706,
+        740,
+        1174,
+        1186,
+        1337,
+        1484,
+        1533
+      ]
+    },
+    {
+      "id": "kaffee-schokolade",
+      "name": "Kaffee & Schokolade",
+      "description": "7 Topics in 7 Episoden",
+      "isOutlier": false,
+      "topicCount": 7,
+      "episodeCount": 7,
+      "relevanceSec": 2100,
+      "sampleTopics": [
+        "Kaffee",
+        "gefälschte Schokostudie",
+        "Wissenswertes zu Schokolade",
+        "zweifelhafte psychologische Studien",
+        "Schokomilch"
+      ],
+      "episodes": [
+        290,
+        444,
+        472,
+        508,
+        527,
+        768,
+        1378
+      ]
+    },
+    {
+      "id": "gravitationseffekte",
+      "name": "Gravitationseffekte",
+      "description": "4 Topics in 8 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 8,
+      "relevanceSec": 2100,
+      "sampleTopics": [
+        "Gravitationswellen",
+        "Gravitationslinsen",
+        "Gravitationslinse",
+        "Gravitationslinseneffekt"
+      ],
+      "episodes": [
+        511,
+        706,
+        1091,
+        1273,
+        1357,
+        1509,
+        1543,
+        1567
+      ]
+    },
+    {
+      "id": "sternenphänomene",
+      "name": "Sternenphänomene",
+      "description": "7 Topics in 6 Episoden",
+      "isOutlier": false,
+      "topicCount": 7,
+      "episodeCount": 6,
+      "relevanceSec": 2100,
+      "sampleTopics": [
+        "Sternhelligkeiten",
+        "Stern von Bethlehem",
+        "Licht am Himmel",
+        "Klarster Himmelsblick",
+        "Sternbilder"
+      ],
+      "episodes": [
+        298,
+        376,
+        706,
+        1127,
+        1151,
+        1165
+      ]
+    },
+    {
+      "id": "mars-entdeckungen",
+      "name": "Mars-Entdeckungen",
+      "description": "6 Topics in 6 Episoden",
+      "isOutlier": false,
+      "topicCount": 6,
+      "episodeCount": 6,
+      "relevanceSec": 2100,
+      "sampleTopics": [
+        "Mars",
+        "Mars entdeckt",
+        "Der Mars (Opposition)",
+        "Der Mars",
+        "Marstür"
+      ],
+      "episodes": [
+        249,
+        804,
+        1138,
+        1186,
+        1197,
+        1433
+      ]
+    },
+    {
+      "id": "milchstraße",
+      "name": "Milchstraße",
+      "description": "4 Topics in 6 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 6,
+      "relevanceSec": 1800,
+      "sampleTopics": [
+        "Krumme Milchstraße",
+        "Milchstraße",
+        "Verbeulte Milchstrasse",
+        "Masse der Milchstraße"
+      ],
+      "episodes": [
+        975,
+        1133,
+        1249,
+        1422,
+        1527,
+        1543
+      ]
+    },
+    {
+      "id": "kraterkunde",
+      "name": "Kraterkunde",
+      "description": "6 Topics in 6 Episoden",
+      "isOutlier": false,
+      "topicCount": 6,
+      "episodeCount": 6,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Krater",
+        "Falklandkrater",
+        "Krater bei Helgoland",
+        "Alter Krater",
+        "Chicxulub-Krater"
+      ],
+      "episodes": [
+        290,
+        700,
+        719,
+        846,
+        1254,
+        1287
+      ]
+    },
+    {
+      "id": "weihnachtsvorbereitungen",
+      "name": "Weihnachtsvorbereitungen",
+      "description": "8 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 8,
+      "episodeCount": 5,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Weihnachtskarten",
+        "Weihnachtsbäume",
+        "Weihnachtliche Stoffe",
+        "Weihnachtsbücher",
+        "Buchtipps"
+      ],
+      "episodes": [
+        376,
+        499,
+        768,
+        1028,
+        1171
+      ]
+    },
+    {
+      "id": "sonnenphänomene",
+      "name": "Sonnenphänomene",
+      "description": "4 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 5,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Sonnenaktivität",
+        "Sonnenwetter",
+        "Sonnenwind",
+        "Die Sonne"
+      ],
+      "episodes": [
+        376,
+        1123,
+        1151,
+        1444,
+        1584
+      ]
+    },
+    {
+      "id": "umweltverschmutzung",
+      "name": "Umweltverschmutzung",
+      "description": "6 Topics in 8 Episoden",
+      "isOutlier": false,
+      "topicCount": 6,
+      "episodeCount": 8,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Umweltverschmutzung",
+        "Umweltgifte",
+        "Luftverschmutzung",
+        "Umweltpolitik",
+        "Feinstaub und Viren"
+      ],
+      "episodes": [
+        249,
+        260,
+        355,
+        391,
+        660,
+        1162,
+        1211,
+        1292
+      ]
+    },
+    {
+      "id": "interstellar-forschung",
+      "name": "Interstellar-Forschung",
+      "description": "5 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 3,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Enceladus-Sonde",
+        "Voyager im interstellaren Raum",
+        "Voyager Sonden",
+        "Interstellarer Raum",
+        "Mariner"
+      ],
+      "episodes": [
+        875,
+        1016,
+        1379
+      ]
+    },
+    {
+      "id": "steuermoral",
+      "name": "Steuermoral",
+      "description": "4 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 5,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Bund der Steuerzahler",
+        "Steuerehrlichkeit",
+        "Steuern & Fett",
+        "Steuermoral"
+      ],
+      "episodes": [
+        417,
+        447,
+        667,
+        700,
+        985
+      ]
+    },
+    {
+      "id": "finsternisse",
+      "name": "Finsternisse",
+      "description": "4 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 5,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Sonnenfinsternisse",
+        "Sonnenfinsternis",
+        "Finsternisse",
+        "Mondfinsternis am 16. Mai"
+      ],
+      "episodes": [
+        410,
+        1165,
+        1237,
+        1317,
+        1357
+      ]
+    },
+    {
+      "id": "corona-wissenschaft",
+      "name": "Corona-Wissenschaft",
+      "description": "5 Topics in 8 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 8,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Corona",
+        "Corona und die Wissenschaft",
+        "Corona-Maßnahmen",
+        "Coronaforschung",
+        "Neuer Corona-Antikörper"
+      ],
+      "episodes": [
+        1050,
+        1068,
+        1102,
+        1331,
+        1362,
+        1398,
+        1415,
+        1541
+      ]
+    },
+    {
+      "id": "psychopathologie",
+      "name": "Psychopathologie",
+      "description": "5 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 4,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Psychopathen",
+        "Narzissten",
+        "psychopatische Psychopathen",
+        "gähnende Psychopathen",
+        "Psychopathenreue"
+      ],
+      "episodes": [
+        324,
+        336,
+        472,
+        636
+      ]
+    },
+    {
+      "id": "lhc-physik",
+      "name": "LHC-Physik",
+      "description": "5 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 4,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "LHC-Neustart",
+        "Neue Physik am LHC",
+        "Higgs-Teilchen Entdeckung",
+        "Neues Teilchen am LHC",
+        "Higgs-Boson"
+      ],
+      "episodes": [
+        410,
+        477,
+        527,
+        1413
+      ]
+    },
+    {
+      "id": "nobelpreise-physik",
+      "name": "Nobelpreise Physik",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Nobelpreise für Chemie und Physik",
+        "Nobelpreiserklärungen: Physik, Medizin",
+        "Physik-Nobelpreis",
+        "Physik-Nobelpreis 2011"
+      ],
+      "episodes": [
+        355,
+        611,
+        1148,
+        1408
+      ]
+    },
+    {
+      "id": "mathematik",
+      "name": "Mathematik",
+      "description": "4 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 3,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Mathematische Formeln",
+        "Mathematik",
+        "Statistik",
+        "Terrormathematik"
+      ],
+      "episodes": [
+        260,
+        290,
+        537
+      ]
+    },
+    {
+      "id": "gletscherforschung",
+      "name": "Gletscherforschung",
+      "description": "6 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 6,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Grönland-Gletscher",
+        "Himalaya-Gletscher",
+        "Gletscherschmelze",
+        "Grönlandeis",
+        "Antarktisches Eis"
+      ],
+      "episodes": [
+        914,
+        1347,
+        1398,
+        1541
+      ]
+    },
+    {
+      "id": "gravitationstheorie",
+      "name": "Gravitationstheorie",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Gravitation und deren Messung",
+        "Gravitationsmessung",
+        "Gravitationskonstantenänderung",
+        "Gravitationskonstante"
+      ],
+      "episodes": [
+        265,
+        285,
+        1331,
+        1438
+      ]
+    },
+    {
+      "id": "osiris-rex",
+      "name": "OSIRIS-REx",
+      "description": "5 Topics in 6 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 6,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "OSIRIS-REx",
+        "OSIRIS REx",
+        "Parker Solar Probe & OSIRIS-REx",
+        "Asteroid Bennu",
+        "Osiris-REx/APEX"
+      ],
+      "episodes": [
+        503,
+        601,
+        774,
+        804,
+        1155,
+        1527
+      ]
+    },
+    {
+      "id": "verkehrsverhalten",
+      "name": "Verkehrsverhalten",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Motorräder",
+        "Überschätzende Autofahrer",
+        "Öffis und Fußgänger",
+        "Parkende Autos"
+      ],
+      "episodes": [
+        324,
+        398,
+        1007,
+        1398
+      ]
+    },
+    {
+      "id": "radiowellen-astronomie",
+      "name": "Radiowellen-Astronomie",
+      "description": "5 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 5,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Das größte Radioteleskop der Welt",
+        "Radioblitz",
+        "Hawkingstrahlung",
+        "Radioblitz und Hawkingstrahlung",
+        "Radiowellen und ihre Bedeutung"
+      ],
+      "episodes": [
+        494,
+        518,
+        804,
+        1082,
+        1367
+      ]
+    },
+    {
+      "id": "wespen-und-mücken",
+      "name": "Wespen und Mücken",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Mythos Wespenplage",
+        "Mutantenwespen",
+        "Mückenzucht",
+        "Genmücken"
+      ],
+      "episodes": [
+        467,
+        700,
+        1127,
+        1347
+      ]
+    },
+    {
+      "id": "ackerbau",
+      "name": "Ackerbau",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Äckern",
+        "Ackerland",
+        "alter Ackerbau",
+        "Bio-Anbau"
+      ],
+      "episodes": [
+        308,
+        455,
+        461,
+        905
+      ]
+    },
+    {
+      "id": "kometenforschung",
+      "name": "Kometenforschung",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Halleyscher Komet",
+        "Gezeitenschweif",
+        "Neuer Komet"
+      ],
+      "episodes": [
+        573,
+        1138,
+        1283,
+        1449
+      ]
+    },
+    {
+      "id": "beteigeuze",
+      "name": "Beteigeuze",
+      "description": "3 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 5,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Beteigeuze",
+        "Beteigeuze ohne Staub",
+        "Beteigeuze staubt"
+      ],
+      "episodes": [
+        1042,
+        1127,
+        1133,
+        1254,
+        1398
+      ]
+    },
+    {
+      "id": "antriebstechnologie",
+      "name": "Antriebstechnologie",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "unmöglicher Antrieb",
+        "Gefahrabschätzung im Auto",
+        "Neuer Dieselmotor",
+        "Weicher Motor"
+      ],
+      "episodes": [
+        324,
+        336,
+        875,
+        1102
+      ]
+    },
+    {
+      "id": "natur-des-jahres",
+      "name": "Natur des Jahres",
+      "description": "4 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 5,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Natur des Jahres",
+        "Noch mehr Natur des Jahres",
+        "Natur des Jahres Deutschland",
+        "Natur des Jahres Österreich"
+      ],
+      "episodes": [
+        774,
+        905,
+        1180,
+        1323,
+        1449
+      ]
+    },
+    {
+      "id": "mäuse-und-bienen",
+      "name": "Mäuse und Bienen",
+      "description": "6 Topics in 6 Episoden",
+      "isOutlier": false,
+      "topicCount": 6,
+      "episodeCount": 6,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "asoziale Mäuse",
+        "Saufende Wühlmäuse",
+        "Filzfurchenbienen",
+        "Rechnende Bienen",
+        "Bienen"
+      ],
+      "episodes": [
+        444,
+        755,
+        886,
+        914,
+        1072,
+        1254
+      ]
+    },
+    {
+      "id": "meteoritenkunde",
+      "name": "Meteoritenkunde",
+      "description": "4 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 3,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Meteoriten",
+        "grün leuchtender Meteor",
+        "Meteorit von Treysa",
+        "grüner Meteor"
+      ],
+      "episodes": [
+        385,
+        410,
+        465
+      ]
+    },
+    {
+      "id": "nebelastronomie",
+      "name": "Nebelastronomie",
+      "description": "4 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 3,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Planetarische Nebel",
+        "Krebsnebel",
+        "Ameisennebel",
+        "Schmetterlingsnebel"
+      ],
+      "episodes": [
+        1259,
+        1337,
+        1496
+      ]
+    },
+    {
+      "id": "weltraummüllproblematik",
+      "name": "Weltraummüllproblematik",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Meta-Weltraumschrott",
+        "Kessler-Syndrom",
+        "Weltraummüll"
+      ],
+      "episodes": [
+        686,
+        861,
+        1054
+      ]
+    },
+    {
+      "id": "ötzi-und-seine-zeit",
+      "name": "Ötzi und seine Zeit",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "älteste Europäer",
+        "Halbwaise Ötzi",
+        "Ötzi"
+      ],
+      "episodes": [
+        350,
+        508,
+        601,
+        1428
+      ]
+    },
+    {
+      "id": "mondphasen",
+      "name": "Mondphasen",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Der Mond (Bluemoon)",
+        "Neumond",
+        "Der Mond"
+      ],
+      "episodes": [
+        1138,
+        1165,
+        1186
+      ]
+    },
+    {
+      "id": "artemis-programm",
+      "name": "Artemis Programm",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Artemis",
+        "Artemis-Programm",
+        "Artemis 1"
+      ],
+      "episodes": [
+        1378,
+        1397,
+        1398,
+        1428
+      ]
+    },
+    {
+      "id": "altruismus",
+      "name": "Altruismus",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Altruismus",
+        "Selbstlosigkeit",
+        "Altruismustraining"
+      ],
+      "episodes": [
+        308,
+        355,
+        897
+      ]
+    },
+    {
+      "id": "gesellschaftliche-ethik",
+      "name": "Gesellschaftliche Ethik",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "ansteckende Moral",
+        "Wissenschaft und Gesellschaft",
+        "Zivilisation und Gewalt"
+      ],
+      "episodes": [
+        340,
+        391,
+        755
+      ]
+    },
+    {
+      "id": "soziale-probleme",
+      "name": "Soziale Probleme",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Geld macht asozial",
+        "Sozialleistungen und Faulheit",
+        "Radikalisierung",
+        "Extremismus"
+      ],
+      "episodes": [
+        537,
+        550,
+        1148,
+        1201
+      ]
+    },
+    {
+      "id": "kosmologie",
+      "name": "Kosmologie",
+      "description": "3 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 2,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "kosmische Hintergrundstrahlung",
+        "Das Universum in der Schwarzkaue",
+        "Das Universum im Universum"
+      ],
+      "episodes": [
+        897,
+        1428
+      ]
+    },
+    {
+      "id": "nobelpreise",
+      "name": "Nobelpreise",
+      "description": "3 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 5,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Nobelpreisträger",
+        "Nobelpreise",
+        "Austronobelpreis"
+      ],
+      "episodes": [
+        285,
+        480,
+        905,
+        1378,
+        1415
+      ]
+    },
+    {
+      "id": "schallwellen-technologie",
+      "name": "Schallwellen-Technologie",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Infraschall",
+        "Schallwellen-Levitation",
+        "Schallwellentarnkappe"
+      ],
+      "episodes": [
+        461,
+        784,
+        831
+      ]
+    },
+    {
+      "id": "exoplaneten-forschung",
+      "name": "Exoplaneten-Forschung",
+      "description": "2 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Kepler-Planeten",
+        "Exoplaneten"
+      ],
+      "episodes": [
+        537,
+        1484,
+        1523
+      ]
+    },
+    {
+      "id": "cannabis-risiken",
+      "name": "Cannabis Risiken",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Cannabisnachweis",
+        "Hasch macht Lasch",
+        "Tödliches Cannabis"
+      ],
+      "episodes": [
+        480,
+        611,
+        831
+      ]
+    },
+    {
+      "id": "batterietechnologien",
+      "name": "Batterietechnologien",
+      "description": "4 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Redox-Flow-Batterie",
+        "Wärmebatterie",
+        "Carnot-Batterien",
+        "Essbatterien"
+      ],
+      "episodes": [
+        1362,
+        1428,
+        1489
+      ]
+    },
+    {
+      "id": "rot-und-textilien",
+      "name": "Rot und Textilien",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Farbe Rot",
+        "Die Farbe Rot",
+        "Textile Mathematik"
+      ],
+      "episodes": [
+        435,
+        601,
+        646
+      ]
+    },
+    {
+      "id": "dating-tipps",
+      "name": "Dating-Tipps",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "glückliche Singles",
+        "Die richtige Haltung beim Dating",
+        "Sexualpartnersuche"
+      ],
+      "episodes": [
+        472,
+        527,
+        740
+      ]
+    },
+    {
+      "id": "wissenschaftsbücher",
+      "name": "Wissenschaftsbücher",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "bestes Wissenschaftsbuch",
+        "Wissenschaftsbücher",
+        "Buch über Wissenschaft"
+      ],
+      "episodes": [
+        285,
+        404,
+        1413
+      ]
+    },
+    {
+      "id": "strahlungsarten",
+      "name": "Strahlungsarten",
+      "description": "3 Topics in 1 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 1,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Gammastrahlung",
+        "Alphastrahlung",
+        "Betastrahlung"
+      ],
+      "episodes": [
+        1533
+      ]
+    },
+    {
+      "id": "ceres-flecken",
+      "name": "Ceres-Flecken",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "weiße Flecken auf Ceres",
+        "Flecken auf Ceres",
+        "Ceres’ Flecken"
+      ],
+      "episodes": [
+        410,
+        447,
+        527
+      ]
+    },
+    {
+      "id": "zeitmessungstechnologien",
+      "name": "Zeitmessungstechnologien",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Schaltsekunde",
+        "Schaltsekunden",
+        "Atomuhr und Laserkühlung"
+      ],
+      "episodes": [
+        385,
+        447,
+        1180,
+        1222
+      ]
+    },
+    {
+      "id": "mikrobiom-forschung",
+      "name": "Mikrobiom Forschung",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Mikrobiom",
+        "Mikrobiomarchiv",
+        "Mikrobiom des Darms"
+      ],
+      "episodes": [
+        905,
+        1016,
+        1042,
+        1254
+      ]
+    },
+    {
+      "id": "übergewicht-und-fettleibigkeit",
+      "name": "Übergewicht und Fettleibigkeit",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Übergewicht",
+        "Essen und Übergewicht",
+        "Fettleibigkeit"
+      ],
+      "episodes": [
+        285,
+        308,
+        376,
+        1301
+      ]
+    },
+    {
+      "id": "placebo-forschung",
+      "name": "Placebo-Forschung",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Placebos wirken sowieso",
+        "Kaffeeduftplacebo",
+        "Placebo-Effekt"
+      ],
+      "episodes": [
+        611,
+        846,
+        1148
+      ]
+    },
+    {
+      "id": "geruch-und-gesundheit",
+      "name": "Geruch und Gesundheit",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Schweizer Schokogeruch",
+        "Geruchssinn und Gewicht",
+        "Dauersitzen"
+      ],
+      "episodes": [
+        611,
+        719,
+        1127
+      ]
+    },
+    {
+      "id": "graphen-technologie",
+      "name": "Graphen-Technologie",
+      "description": "2 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Graphen",
+        "Selbstfaltendes Papier dank Graphen"
+      ],
+      "episodes": [
+        298,
+        410,
+        494
+      ]
+    },
+    {
+      "id": "raumfahrt-nachrichten",
+      "name": "Raumfahrt Nachrichten",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "bemannte Raumfahrt",
+        "neue Raumsonde",
+        "ESA-AstronautInnen"
+      ],
+      "episodes": [
+        278,
+        285,
+        1254
+      ]
+    },
+    {
+      "id": "büroviren",
+      "name": "Büroviren",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Viren im Büro",
+        "500 Viren",
+        "Virenbenennung",
+        "Alte Viren"
+      ],
+      "episodes": [
+        340,
+        1148,
+        1278,
+        1438
+      ]
+    },
+    {
+      "id": "klimakrise",
+      "name": "Klimakrise",
+      "description": "5 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 5,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Klimawandel und Artensterben",
+        "Klimafolgen",
+        "Klimawandel",
+        "Klimadilemma",
+        "Artensterben"
+      ],
+      "episodes": [
+        265,
+        933,
+        1141,
+        1449,
+        1541
+      ]
+    },
+    {
+      "id": "sciencebusters-events",
+      "name": "Sciencebusters Events",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Herbstprogramm der Sciencebusters",
+        "Sciencebusters-Termine",
+        "Die Sciencebusters im Fernsehen"
+      ],
+      "episodes": [
+        601,
+        700,
+        897
+      ]
+    },
+    {
+      "id": "antibiotika-management",
+      "name": "Antibiotika-Management",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Antibiotikaverschreibungen",
+        "altes Antibiotikum",
+        "Antibiotika-Resistenz"
+      ],
+      "episodes": [
+        249,
+        424,
+        755
+      ]
+    },
+    {
+      "id": "spacex-und-weltraumtechnologie",
+      "name": "SpaceX und Weltraumtechnologie",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Weltraumaufzug",
+        "SpaceX Marsrakete",
+        "Space X"
+      ],
+      "episodes": [
+        559,
+        611,
+        1123
+      ]
+    },
+    {
+      "id": "himmelskörperbenennung",
+      "name": "Himmelskörperbenennung",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Planetenbenennung",
+        "Himmelskörperbenennung",
+        "Asteroidenbenennung"
+      ],
+      "episodes": [
+        313,
+        461,
+        544
+      ]
+    },
+    {
+      "id": "unsichtbare-phänomene",
+      "name": "Unsichtbare Phänomene",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Unsichtbarkeit",
+        "Unsichtbare Himmelsphänomene",
+        "Was es am Himmel nicht zu sehen gibt"
+      ],
+      "episodes": [
+        1273,
+        1283,
+        1367
+      ]
+    },
+    {
+      "id": "verschwörungstheorien",
+      "name": "Verschwörungstheorien",
+      "description": "2 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 4,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Verschwörungstheorien",
+        "Verschwörungserzählungen"
+      ],
+      "episodes": [
+        265,
+        274,
+        511,
+        1393
+      ]
+    },
+    {
+      "id": "getreideproduktion",
+      "name": "Getreideproduktion",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Saatgut",
+        "Weizen"
+      ],
+      "episodes": [
+        290,
+        1127
+      ]
+    },
+    {
+      "id": "lügenanalyse",
+      "name": "Lügenanalyse",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Lügner erkennen",
+        "Lügende Männer",
+        "Lügen"
+      ],
+      "episodes": [
+        285,
+        398,
+        1042
+      ]
+    },
+    {
+      "id": "winterwunderland",
+      "name": "Winterwunderland",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Schneeflocken",
+        "Schnee",
+        "Weisse Weihnacht"
+      ],
+      "episodes": [
+        376,
+        905,
+        1028
+      ]
+    },
+    {
+      "id": "wissenschaftliche-bibliotheken",
+      "name": "Wissenschaftliche Bibliotheken",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Weltbibliothek der Wissenschaft",
+        "Zukunftsbibliothek"
+      ],
+      "episodes": [
+        365,
+        385
+      ]
+    },
+    {
+      "id": "extragalaktische-himmelskörper",
+      "name": "Extragalaktische Himmelskörper",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Extragalaktischer Planet",
+        "Extragalaktischer Stern"
+      ],
+      "episodes": [
+        1484,
+        1553
+      ]
+    },
+    {
+      "id": "quanten-satelliten",
+      "name": "Quanten-Satelliten",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Quantensatellit",
+        "Quasisatelliten"
+      ],
+      "episodes": [
+        583,
+        611
+      ]
+    },
+    {
+      "id": "gender-bias-im-museum",
+      "name": "Gender Bias im Museum",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Sex bias im Museum",
+        "Gendergap in Publikationen",
+        "Gender Bias"
+      ],
+      "episodes": [
+        1007,
+        1091,
+        1102
+      ]
+    },
+    {
+      "id": "frühkindliche-entwicklung",
+      "name": "Frühkindliche Entwicklung",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "lernende Kleinkinder",
+        "Spielzeug und Spracherwerb"
+      ],
+      "episodes": [
+        417,
+        508
+      ]
+    },
+    {
+      "id": "zahnhygiene-innovationen",
+      "name": "Zahnhygiene-Innovationen",
+      "description": "2 Topics in 1 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 1,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Elektroschocks für Zähne",
+        "Zähneputzen mit Kaugummi"
+      ],
+      "episodes": [
+        303
+      ]
+    },
+    {
+      "id": "musikverständnis",
+      "name": "Musikverständnis",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Popmusik",
+        "Musik ist keine universale Sprache",
+        "Musikgeschmack"
+      ],
+      "episodes": [
+        274,
+        573,
+        808
+      ]
+    },
+    {
+      "id": "patientenkommunikation",
+      "name": "Patientenkommunikation",
+      "description": "2 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Nörgelnde Patienten",
+        "Wundheilung"
+      ],
+      "episodes": [
+        531,
+        875,
+        1091
+      ]
+    },
+    {
+      "id": "bierwissenschaft",
+      "name": "Bierwissenschaft",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "The Science of Beer",
+        "Sehr altes Bier"
+      ],
+      "episodes": [
+        404,
+        544
+      ]
+    },
+    {
+      "id": "männlichkeit-und-testosteron",
+      "name": "Männlichkeit und Testosteron",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Fleischkonsum und Männlichkeit",
+        "Testosteron und Konsum"
+      ],
+      "episodes": [
+        410,
+        831
+      ]
+    },
+    {
+      "id": "katzenhumor",
+      "name": "Katzenhumor",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "umfallende Katzen",
+        "Doofe Katzen",
+        "Böse Katzen"
+      ],
+      "episodes": [
+        435,
+        768,
+        1042
+      ]
+    },
+    {
+      "id": "weltuntergang",
+      "name": "Weltuntergang",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Weltuntergang",
+        "Weltuntergangshammer"
+      ],
+      "episodes": [
+        385,
+        804
+      ]
+    },
+    {
+      "id": "infrarotmesstechnik",
+      "name": "Infrarotmesstechnik",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Infrarotsehen",
+        "Pyrheliometer-Vergleich"
+      ],
+      "episodes": [
+        385,
+        480
+      ]
+    },
+    {
+      "id": "außerirdisches-leben",
+      "name": "Außerirdisches Leben",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Außerirdische",
+        "Außerirdische Mikroben",
+        "Ausserirdisches Leben"
+      ],
+      "episodes": [
+        465,
+        1127,
+        1527
+      ]
+    },
+    {
+      "id": "sprachpsychologie",
+      "name": "Sprachpsychologie",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Sprache und Kommunikation",
+        "Sprache und Einsamkeit",
+        "Grammatik"
+      ],
+      "episodes": [
+        391,
+        774,
+        1155
+      ]
+    },
+    {
+      "id": "fusionsforschung",
+      "name": "Fusionsforschung",
+      "description": "2 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "ITER",
+        "Fusionsenergie"
+      ],
+      "episodes": [
+        1201,
+        1413,
+        1449
+      ]
+    },
+    {
+      "id": "mikrobielle-abbauprozesse",
+      "name": "Mikrobielle Abbauprozesse",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Methanfresser",
+        "Plastikfressende Mikroben",
+        "Methanobrevibacter"
+      ],
+      "episodes": [
+        355,
+        524,
+        1265
+      ]
+    },
+    {
+      "id": "fettleibigkeit-bei-kindern",
+      "name": "Fettleibigkeit bei Kindern",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Dicke Kinder",
+        "Dicke Eltern machen dicke Kinder",
+        "Dicke Kinder (Paper)"
+      ],
+      "episodes": [
+        274,
+        524,
+        897
+      ]
+    },
+    {
+      "id": "asteroidenforschung",
+      "name": "Asteroidenforschung",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Asteroiden",
+        "Asteroidenlandung"
+      ],
+      "episodes": [
+        298,
+        861
+      ]
+    },
+    {
+      "id": "teleskope",
+      "name": "Teleskope",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Teleskope",
+        "Hubble-Teleskop"
+      ],
+      "episodes": [
+        290,
+        1388
+      ]
+    },
+    {
+      "id": "pilze",
+      "name": "Pilze",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Neue Pilze",
+        "Strahlende Pilze",
+        "Pilze"
+      ],
+      "episodes": [
+        355,
+        875,
+        1072,
+        1301
+      ]
+    },
+    {
+      "id": "bierstile",
+      "name": "Bierstile",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Altes Bier",
+        "Kölsch und Alt",
+        "Alt-Bier"
+      ],
+      "episodes": [
+        365,
+        601,
+        1082,
+        1278
+      ]
+    },
+    {
+      "id": "alzheimer-forschung",
+      "name": "Alzheimer-Forschung",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Alzheimer-Voraussage",
+        "Alzheimer-Spiel",
+        "Alzheimer-Impfung"
+      ],
+      "episodes": [
+        886,
+        945,
+        1254
+      ]
+    },
+    {
+      "id": "wohlbefinden",
+      "name": "Wohlbefinden",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Lebenszufriedenheit",
+        "Zufriedenheit",
+        "Glücklichsein"
+      ],
+      "episodes": [
+        336,
+        355,
+        1515
+      ]
+    },
+    {
+      "id": "frauen-in-der-mathematik",
+      "name": "Frauen in der Mathematik",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Frauen und Mathematik",
+        "Mathematikerfamilien"
+      ],
+      "episodes": [
+        417,
+        601
+      ]
+    },
+    {
+      "id": "schwangerschaftsthemen",
+      "name": "Schwangerschaftsthemen",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Kaffee und Fehlgeburten",
+        "Kiffen und Schwangerschaft",
+        "Schwangeschaft"
+      ],
+      "episodes": [
+        527,
+        1007,
+        1050
+      ]
+    },
+    {
+      "id": "interstellar-objekte",
+      "name": "Interstellar Objekte",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Spionageasteroid",
+        "ʻOumuamua"
+      ],
+      "episodes": [
+        1016,
+        1133
+      ]
+    },
+    {
+      "id": "selbstkontrolle-und-stress",
+      "name": "Selbstkontrolle und Stress",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Selbstkontrolle",
+        "Stress und Selbstkontrolle"
+      ],
+      "episodes": [
+        340,
+        465
+      ]
+    },
+    {
+      "id": "grippeprävention",
+      "name": "Grippeprävention",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Grippesaison",
+        "Grippeimpfung"
+      ],
+      "episodes": [
+        808,
+        1438
+      ]
+    },
+    {
+      "id": "energiequellen",
+      "name": "Energiequellen",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Windenergie",
+        "Eisenenergie"
+      ],
+      "episodes": [
+        914,
+        1190
+      ]
+    },
+    {
+      "id": "himmelsscheibe-nebra",
+      "name": "Himmelsscheibe Nebra",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Gold der Himmelsscheibe",
+        "Himmelsscheibe von Nebra",
+        "Himmelsscheibe"
+      ],
+      "episodes": [
+        361,
+        467,
+        1162
+      ]
+    },
+    {
+      "id": "moralische-dualität",
+      "name": "Moralische Dualität",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "das Böse",
+        "Gut & Böse"
+      ],
+      "episodes": [
+        308,
+        583
+      ]
+    },
+    {
+      "id": "hitzewellen",
+      "name": "Hitzewellen",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 300,
+      "sampleTopics": [
+        "Hitze",
+        "Hitzewellen",
+        "Hitzeperioden"
+      ],
+      "episodes": [
+        290,
+        1287,
+        1515
+      ]
+    },
+    {
+      "id": "märchenwettbewerb",
+      "name": "Märchenwettbewerb",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 300,
+      "sampleTopics": [
+        "Schreibwettbewerb",
+        "Märchen"
+      ],
+      "episodes": [
+        573,
+        1072
+      ]
+    },
+    {
+      "id": "nahrungsmittelunverträglichkeiten",
+      "name": "Nahrungsmittelunverträglichkeiten",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 300,
+      "sampleTopics": [
+        "Glutenempfindlichkeit",
+        "Impfallergien"
+      ],
+      "episodes": [
+        324,
+        886
+      ]
+    },
+    {
+      "id": "versunkene-kontinente",
+      "name": "Versunkene Kontinente",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 300,
+      "sampleTopics": [
+        "Japan vermisst Insel",
+        "Versunkener Kontinent"
+      ],
+      "episodes": [
+        886,
+        1068
+      ]
+    },
+    {
+      "id": "gedächtnisstützen",
+      "name": "Gedächtnisstützen",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 300,
+      "sampleTopics": [
+        "Erinnerungshilfen",
+        "Vergessen vergessen"
+      ],
+      "episodes": [
+        544,
+        1353
+      ]
+    },
+    {
+      "id": "ernährungsstrategien",
+      "name": "Ernährungsstrategien",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 300,
+      "sampleTopics": [
+        "Diäten",
+        "Mäusefasten",
+        "Ernährungsumstellung"
+      ],
+      "episodes": [
+        1072,
+        1239,
+        1340
+      ]
+    },
+    {
+      "id": "erneuerbare-energiequellen",
+      "name": "Erneuerbare Energiequellen",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 0,
+      "sampleTopics": [
+        "Strom aus Mondlicht",
+        "Strom aus Luft"
+      ],
+      "episodes": [
+        274,
+        1050
+      ]
+    },
+    {
+      "id": "leben-auf-der-venus",
+      "name": "Leben auf der Venus",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 0,
+      "sampleTopics": [
+        "Leben auf der Venus",
+        "Doch kein Leben auf der Venus",
+        "Kein Leben auf der Venus"
+      ],
+      "episodes": [
+        1141,
+        1155,
+        1201
+      ]
+    }
+  ]
+}

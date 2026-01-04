@@ -1,0 +1,131 @@
+{
+  "episodeNumber": 137,
+  "title": "DU137 - 3I/ATLAS: Interstellarer Komet oder feindliches Raumschiff?",
+  "extractedAt": "2026-01-04T19:29:15.631Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Reisen und Urlaub der Hörer",
+      "subject": {
+        "coarse": "Travel",
+        "fine": "Hörerreisen"
+      },
+      "summary": "In dieser Episode besprechen Florian und Ruth die Reisen ihrer Hörer und die Ansichtskarten, die sie erhalten haben. Sie erwähnen Karten aus verschiedenen Orten, darunter die Cook Islands, Charleston in South Carolina und den Nördlinger Meteoritenkrater in Deutschland. Ronald, ein Hörer, hat eine Postkarte von den Cook Islands geschickt, während Matthias Grüße aus Charleston sendet. Alessa und Dirk berichten von ihrem Besuch im Nördlinger Meteoritenkrater und bedanken sich für die Inspiration. Die Diskussion dreht sich um die Erlebnisse der Hörer und die Schönheit der Reiseziele.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "137-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 286,
+        "startSec": 34,
+        "endSec": 980,
+        "llmDetectedStartSec": 54,
+        "llmDetectedEndSec": 960,
+        "generatedAt": "2026-01-04T22:01:16.136Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "3I/ATLAS - interstellarer Komet",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Interstellare Objekte"
+      },
+      "summary": "Der interstellare Komet 3I/ATLAS wurde am 1. Juli 2025 entdeckt und ist das dritte interstellare Objekt, das im Sonnensystem identifiziert wurde, nach Oumuamua und Borisov. Er hat eine hyperbolische Bahn, die ihn aus dem Sternbild Schütze kommend zwischen den Sternbildern Zwillinge und Orion führt. 3I/ATLAS zeigt Kometenaktivität und wird am 29. Oktober 2025 seinen sonnennächsten Punkt erreichen, wobei er 200 Millionen Kilometer von der Sonne entfernt sein wird. Das Objekt könnte zwischen drei und elf Milliarden Jahre alt sein und stammt aus der sogenannten „SICK-DISK“ der Milchstraße, was auf älteres Material hinweist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "137-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 322,
+        "startSec": 940,
+        "endSec": 2030,
+        "llmDetectedStartSec": 960,
+        "llmDetectedEndSec": 2010,
+        "generatedAt": "2026-01-04T22:01:16.958Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Bahnbestimmungen und Bewegungsparameter von 3I/ATLAS",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Orbitalmechanik"
+      },
+      "summary": "In der Episode wird das interstellare Objekt 3I/ATLAS diskutiert, dessen Bahnbestimmungen und Bewegungsparameter von Interesse sind. Ruth und Florian erwähnen, dass 3I/ATLAS voraussichtlich Ende des Jahres näher ins Sonnensystem kommt, was zu weiteren Daten führen könnte. Ruth spricht auch über die Nähe des Objekts zum Mars, das am 3. Oktober 30 Millionen Kilometer entfernt sein wird. Die Diskussion hebt die wissenschaftliche Relevanz solcher Objekte hervor, unabhängig von Spekulationen über mögliche extraterrestrische Ursprünge.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "137-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 89,
+        "startSec": 1990,
+        "endSec": 2312,
+        "llmDetectedStartSec": 2010,
+        "llmDetectedEndSec": 2292,
+        "generatedAt": "2026-01-04T22:01:19.621Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Beobachtungsmöglichkeiten durch Raumsonden",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Raumsonden"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "137-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 94,
+        "startSec": 2272,
+        "endSec": 2614,
+        "llmDetectedStartSec": 2292,
+        "llmDetectedEndSec": 2594,
+        "generatedAt": "2026-01-04T22:01:18.803Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Vergleich mit früheren interstellaren Besuchern",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Vergleichende Analysen"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "137-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 199,
+        "startSec": 2574,
+        "endSec": 3248,
+        "llmDetectedStartSec": 2594,
+        "llmDetectedEndSec": 3228,
+        "generatedAt": "2026-01-04T22:01:20.664Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:01:20.664Z",
+  "transcriptFound": true,
+  "transcriptFile": "137-ts.json"
+}

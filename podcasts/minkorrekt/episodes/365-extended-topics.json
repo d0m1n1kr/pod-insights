@@ -1,0 +1,227 @@
+{
+  "episodeNumber": 365,
+  "title": "Mi365 – \"N'Eis\"",
+  "extractedAt": "2026-01-04T19:24:45.320Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Duisburg und Dortmund abgesagt",
+      "subject": {
+        "coarse": "Events",
+        "fine": "Cancellations"
+      },
+      "durationSec": 145,
+      "positionSec": 240,
+      "summary": "Die Live-Tour endet mit dem Nachholtermin in Bielefeld im Januar nächsten Jahres. Die Termine in Dortmund und Duisburg am 26. müssen leider abgesagt werden, ohne Ersatztermine. Die Gründe sind organisatorisch-rechtlicher Natur. Es wird keine weiteren Termine in diesem Jahr geben, und die Planungen für eine neue Tour beginnen erst 2027. Die Hosts bedauern die Absagen, insbesondere da sie im Ruhrgebiet und anderen Städten, wo sie viele Fans haben, nicht auftreten können.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "365-ts.json",
+        "method": "time-window",
+        "pickedCount": 45,
+        "startSec": 220,
+        "endSec": 405,
+        "generatedAt": "2026-01-04T19:27:34.734Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "GAG",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "GAG"
+      },
+      "durationSec": 185,
+      "positionSec": 385,
+      "summary": "In dieser Episode reflektieren die Hosts über ihre Erfahrungen mit Live-Podcasts und die Bedeutung von Bühnenauftritten für die Wissenschaftskommunikation. Sie berichten von einer Live-Veranstaltung bei 'Geschichten aus der Geschichte' in der Lichtburg in Essen, wo sie die Möglichkeit hatten, mit dem Publikum zu interagieren. Die Hosts betonen, dass das Konzept, Podcasts live auf der Bühne zu präsentieren, eine großartige Idee ist, um die Verbindung zu den Zuhörern zu stärken und die Inhalte auf eine neue Art und Weise zu vermitteln. Sie erwähnen auch ihre eigenen Wurzeln in der Wissenschaftskommunikation und die Vorteile, die das Live-Format bietet.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "365-ts.json",
+        "method": "time-window",
+        "pickedCount": 53,
+        "startSec": 365,
+        "endSec": 590,
+        "generatedAt": "2026-01-04T19:27:35.622Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Essen im Ohr Podcast",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Podcast"
+      },
+      "durationSec": 790,
+      "positionSec": 570,
+      "summary": "In der Episode 365 des Podcasts \"Essen im Ohr\" wird über die lokale Podcast-Szene in Essen gesprochen. Der Gast, Michael Holtschulte, der als Künstler bekannt ist, erzählt von seiner Einladung in den Podcast, der von Radio Essen produziert wird. Der Podcast bietet Interviews mit verschiedenen Persönlichkeiten aus Essen, darunter auch Menschen mit bewegenden Lebensgeschichten, wie einer Frau, die von ihrem Leben auf der Straße berichtet. Die Diskussion umfasst auch Themen wie Wissenschaftskommunikation und persönliche Lebenswege, wobei die Gäste ermutigt werden, ihre Erfahrungen zu teilen und anderen Mut zu machen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "365-ts.json",
+        "method": "time-window",
+        "pickedCount": 202,
+        "startSec": 550,
+        "endSec": 1380,
+        "generatedAt": "2026-01-04T19:27:39.137Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Drohne",
+      "subject": {
+        "coarse": "Technology",
+        "fine": "Drones"
+      },
+      "durationSec": 215,
+      "positionSec": 1360,
+      "summary": "Im Transkript wird über den Einsatz einer DJI Mini 5 Pro Drohne gesprochen, die der Protagonist für die Universität gekauft hat. Er wurde von der Uni angefragt, Luftbilder über den Campus zu machen, da die vorherigen Aufnahmen veraltet waren. Der Protagonist erwähnt die Herausforderungen beim Fliegen, wie die maximale Höhe von 120 Metern für Hobby-Piloten. Zudem wird die technische Entwicklung von Drohnen hervorgehoben, insbesondere die verbesserten Sensoren und Rückholautomatik. Es wird betont, dass der Einsatz der Drohne Spaß macht, auch wenn es sich nicht um eine berufliche Notwendigkeit handelt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "365-ts.json",
+        "method": "time-window",
+        "pickedCount": 78,
+        "startSec": 1340,
+        "endSec": 1595,
+        "generatedAt": "2026-01-04T19:27:39.738Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Bomebentschärfung",
+      "subject": {
+        "coarse": "Safety",
+        "fine": "Bomb Disposal"
+      },
+      "durationSec": 449,
+      "positionSec": 1575,
+      "summary": "Im Ruhrgebiet ist es nicht ungewöhnlich, dass Bewohner aufgrund von Bombenentschärfungen evakuiert werden, insbesondere wenn Weltkriegsbomben gefunden werden. Ein Gesprächsteilnehmer berichtet von einer Evakuierung, die seine Frau erlebte, als eine Bombe entdeckt wurde. Die Evakuierung betrifft in der Regel einen Radius von einem halben Kilometer, und die Entschärfung erfolgt meist innerhalb weniger Stunden. Es wird betont, dass solche Funde häufig sind und die Bomben oft nicht tief im Boden liegen, was die Gefahr für die Anwohner verdeutlicht.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "365-ts.json",
+        "method": "time-window",
+        "pickedCount": 124,
+        "startSec": 1555,
+        "endSec": 2044,
+        "generatedAt": "2026-01-04T19:27:43.121Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 1: \"Tanzende Giganten\"",
+      "subject": {
+        "coarse": "Art",
+        "fine": "Performance"
+      },
+      "durationSec": 1245,
+      "positionSec": 2024,
+      "summary": "Das Thema \"Tanzende Giganten\" behandelt die berühmten Moai-Statuen auf den Osterinseln, die von der indigenen Bevölkerung Rapanui geschaffen wurden. Diese riesigen Figuren, die oft als Ahnen oder bedeutende Persönlichkeiten dargestellt werden, stehen auf Plattformen und symbolisieren Macht und Status. Die Diskussion umfasst auch die Herausforderungen, die mit dem Transport dieser tonnenschweren Statuen verbunden sind, sowie die problematischen Annahmen über die technischen Fähigkeiten der Rapanui, die oft mit Rassismus und der Vorstellung von außerirdischer Hilfe in Verbindung gebracht werden. Ein aktuelles Forschungspapier untersucht alternative Methoden, wie die Statuen bewegt worden sein könnten, und trägt zur Entmystifizierung dieser historischen Leistungen bei.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "365-ts.json",
+        "method": "time-window",
+        "pickedCount": 291,
+        "startSec": 2004,
+        "endSec": 3289,
+        "generatedAt": "2026-01-04T19:27:44.525Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Snack",
+      "subject": {
+        "coarse": "Food",
+        "fine": "Science"
+      },
+      "durationSec": 798,
+      "positionSec": 3269,
+      "summary": "In dieser Episode wird das Konzept des exponentiellen Wachstums anhand von QR-Codes auf Briefmarken erläutert. Michael inspiriert die Diskussion über die Nutzung von QR-Codes, die seit 2020 von der Deutschen Post eingeführt wurden, um Briefe nachverfolgen zu können. Es wird diskutiert, wie viele unterschiedliche QR-Codes in einem kleinen Raster erzeugt werden können und welche Informationen hinterlegt werden können, wie z.B. der Zeitpunkt der Nutzung. Die Faszination für Briefmarken und deren Sammeln wird ebenfalls angesprochen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "365-ts.json",
+        "method": "time-window",
+        "pickedCount": 196,
+        "startSec": 3249,
+        "endSec": 4087,
+        "generatedAt": "2026-01-04T19:27:46.804Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 2: \"Schweflige Konserven\"",
+      "subject": {
+        "coarse": "Food",
+        "fine": "Preservation"
+      },
+      "durationSec": 1099,
+      "positionSec": 4067,
+      "summary": "In der Episode wird das Thema \"schweflige Konserven\" behandelt, das sich auf Mondgesteinproben von der Apollo-17-Mission konzentriert. Diese Proben wurden in den 1970er Jahren gesammelt und nun mit modernen Methoden erneut untersucht. Die NASA hatte einige Proben luftdicht versiegelt, um zukünftigen Generationen die Möglichkeit zu geben, sie mit neuen Technologien zu analysieren. Bei der Untersuchung wurde ein Paper veröffentlicht, das sich mit der Isotopenverteilung von Schwefel in den Proben beschäftigt und ungewöhnliche Ergebnisse zeigt. Die Proben stammen aus einem geologisch interessanten Gebiet, das möglicherweise vulkanische Aktivität aufweist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "365-ts.json",
+        "method": "time-window",
+        "pickedCount": 255,
+        "startSec": 4047,
+        "endSec": 5186,
+        "generatedAt": "2026-01-04T19:27:48.898Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwurbel der Woche",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Trends"
+      },
+      "durationSec": 335,
+      "positionSec": 5166,
+      "summary": "In dieser Episode wird über Udemy gesprochen, eine Plattform für Online-Kurse, die eine Vielzahl von Themen abdeckt, darunter Programmierung, Fotografie und Sprachen. Die Hosts diskutieren die Qualität der Kurse, die von Experten erstellt werden, und erwähnen, dass es auch fragwürdige Inhalte gibt, wie Kurse zu 'Spiritual Healing' und 'Drachenheilen'. Diese Diskussion führt zu einer kritischen Betrachtung von Lobbyismus und kulturellen Themen, die in der Gesellschaft diskutiert werden, während ernsthafte Probleme ignoriert werden. Die Hosts kündigen zudem ihre bevorstehenden Live-Shows in verschiedenen Städten an.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "365-ts.json",
+        "method": "time-window",
+        "pickedCount": 90,
+        "startSec": 5146,
+        "endSec": 5521,
+        "generatedAt": "2026-01-04T19:27:51.514Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:27:51.514Z",
+  "transcriptFound": true,
+  "transcriptFile": "365-ts.json"
+}

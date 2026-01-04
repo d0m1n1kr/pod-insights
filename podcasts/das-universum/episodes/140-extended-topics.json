@@ -1,0 +1,169 @@
+{
+  "episodeNumber": 140,
+  "title": "DU140 - Ist ja irre… auf dem Mars gibt’s Leoparden",
+  "extractedAt": "2026-01-04T19:29:37.311Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Marsrover Perseverance und seine Entdeckungen",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Mars"
+      },
+      "summary": "Der Marsrover Perseverance hat auf dem Mars eine besondere Musterung entdeckt, die als 'Leopard-Spots' bezeichnet wird. Diese auffälligen Punkte wurden zum ersten Mal auf einem Felsen fotografiert und erforderten eine detaillierte Untersuchung. Die Instrumente Watson und Sherlock wurden eingesetzt, um hochauflösende Bilder zu machen und die chemische Zusammensetzung der Flecken zu analysieren. Sherlock nutzt Raman-Spektroskopie, um die molekulare Struktur der Substanz zu bestimmen. Die Bilder sind besonders scharf und vermitteln ein vertrautes Gefühl, obwohl sie von einem anderen Planeten stammen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "140-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 51,
+        "startSec": 1606,
+        "endSec": 1808,
+        "llmDetectedStartSec": 1626,
+        "llmDetectedEndSec": 1788,
+        "generatedAt": "2026-01-04T22:02:08.567Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Astronomische Lyrik und Gedichte",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Lyrik"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "140-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 1768,
+        "endSec": 20,
+        "llmDetectedStartSec": 1788,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Erntemond und seine Bedeutung",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Mondphasen"
+      },
+      "summary": "In dieser Episode des Podcasts \"Das Universum\" diskutieren Ruth und Florian über verschiedene Formen der lyrischen Auseinandersetzung mit Astronomie, insbesondere mit dem Thema Kernfusion. Ruth präsentiert einen eigenen Kernfusions-Haiku, während Florian einen Limerick von Klaus vorliest. Zudem wird das Dada-Gedicht von Silvio erwähnt, das die Absurdität des Dadaismus nutzt, um das Thema Kernfusion zu reflektieren. Abschließend wird ein Ausschnitt aus einem Gedicht von Abraham Gotthelf Kästner vorgelesen, das sich mit Kometen beschäftigt und als Beispiel für kreative Wissenschaftsvermittlung dient.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "140-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 386,
+        "startSec": 0,
+        "endSec": 1484,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 1464,
+        "generatedAt": "2026-01-04T22:02:08.870Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Leopardenflecke auf Marsgestein",
+      "subject": {
+        "coarse": "Geologie",
+        "fine": "Mineralogie"
+      },
+      "summary": "Auf dem Mars wurden von dem Rover Perseverance besondere Musterungen auf einem Felsen entdeckt, die als \"Leoparden-Flecken\" bezeichnet werden. Diese Flecken sind zum ersten Mal auf dem Mars dokumentiert worden und wurden mit den Instrumenten Watson und Sherlock des Rovers untersucht. Watson machte detaillierte Bilder, während Sherlock mithilfe von Raman-Spektroskopie die chemische Zusammensetzung der Flecken analysierte. Die Bilder zeigen scharfe Details und vermitteln ein vertrautes Gefühl, obwohl sie von einem anderen Planeten stammen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "140-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 94,
+        "startSec": 1444,
+        "endSec": 1808,
+        "llmDetectedStartSec": 1464,
+        "llmDetectedEndSec": 1788,
+        "generatedAt": "2026-01-04T22:02:12.588Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Fragen aus der Hörerschaft zu astronomischen Themen",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Allgemeine Fragen"
+      },
+      "summary": "In dieser Episode wird über die Untersuchung von Gesteinen auf dem Mars gesprochen, insbesondere über einen Stein im ehemaligen Flussdelta, wo der Rover Perseverance gelandet ist. Ruth erklärt die Raman-Spektroskopie, die es ermöglicht, die chemische Zusammensetzung von Gesteinen durch Lichtstreuung zu analysieren. Es wurden organische Materialien und die Mineralien Vivianid und Greigit gefunden, die auf der Erde typischerweise in Sedimentgesteinen vorkommen, wo Leben existiert hat. Diese Entdeckungen könnten Hinweise auf vergangenes Leben auf dem Mars liefern, da die Bedingungen für die Bildung dieser Mineralien nicht rein anorganisch sind.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "140-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 467,
+        "startSec": 1768,
+        "endSec": 3664,
+        "llmDetectedStartSec": 1788,
+        "llmDetectedEndSec": 3644,
+        "generatedAt": "2026-01-04T22:02:13.261Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Carry On-Filmreihe und deren wissenschaftliche Aspekte",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Film"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "140-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 3624,
+        "endSec": 20,
+        "llmDetectedStartSec": 3644,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Workshop für Nationalpark-Ranger_innen",
+      "subject": {
+        "coarse": "Bildung",
+        "fine": "Workshops"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "140-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 2,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T22:02:14.097Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:02:14.097Z",
+  "transcriptFound": true,
+  "transcriptFile": "140-ts.json"
+}

@@ -1,0 +1,227 @@
+{
+  "episodeNumber": 367,
+  "title": "Mi367 – \"in silico\"",
+  "extractedAt": "2026-01-04T19:25:00.169Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Fiat 500 und andere Autos",
+      "subject": {
+        "coarse": "Automotive",
+        "fine": "Fiat 500"
+      },
+      "durationSec": 767,
+      "positionSec": 204,
+      "summary": "In dieser Episode wird der Fiat 500 als unzuverlässiges Auto beschrieben, das mit schlecht programmierter Software und Designfehlern kämpft. Der Sprecher berichtet von Problemen wie einem langsamen Hochfahren des Displays und unpraktischen Bedienelementen, die den Nutzungskomfort beeinträchtigen. Zudem wird ein Ölleck nach nur 15.000 Kilometern erwähnt, das trotz mehrfacher Werkstattbesuche nicht behoben wurde. Der Frust über den Umgang der Werkstatt mit dem Problem und die Notwendigkeit, einen Mietwagen zu buchen, verstärken die negative Erfahrung mit dem Fiat 500.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "367-ts.json",
+        "method": "time-window",
+        "pickedCount": 206,
+        "startSec": 184,
+        "endSec": 991,
+        "generatedAt": "2026-01-04T19:28:12.347Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Spielemesse",
+      "subject": {
+        "coarse": "Events",
+        "fine": "Gaming Convention"
+      },
+      "durationSec": 477,
+      "positionSec": 971,
+      "summary": "Der Transkript-Ausschnitt beschreibt die Erfahrungen eines Teilnehmers auf der Spielemesse in Essen. Der Sprecher berichtet von der großen Menschenmenge und der Schwierigkeit, Spiele auszuprobieren, erwähnt jedoch, dass er trotzdem Spaß hatte und einige Hörerinnen sowie den Autor Jens Völl traf. Die Messe wird als zunehmend internationaler wahrgenommen, mit vielen Ausstellern aus verschiedenen Ländern. Der Sprecher hebt die positive Atmosphäre der Spiele-Community hervor und erwähnt, dass die Messe in Deutschland eine bedeutende Veranstaltung für Spieleliebhaber ist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "367-ts.json",
+        "method": "time-window",
+        "pickedCount": 113,
+        "startSec": 951,
+        "endSec": 1468,
+        "generatedAt": "2026-01-04T19:28:13.261Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Pakete gepackt",
+      "subject": {
+        "coarse": "Logistics",
+        "fine": "Packaging"
+      },
+      "durationSec": 267,
+      "positionSec": 1448,
+      "summary": "In dieser Episode wird über das Verpacken von Paketen gesprochen, das den Beteiligten Freude bereitet. Die Mühe, die in die Verpackung gesteckt wird, wird von den Empfängern geschätzt, was zu positiven Rückmeldungen führt. Es wird erwähnt, dass kreative Ideen für das Paketband entwickelt wurden und dass es eine persönliche Note beim Verpacken gibt. Zudem wird auf den Stirling-Motor eingegangen, der aufgrund von Nachfrage ausverkauft ist und für den Ersatzteile nachbestellt werden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "367-ts.json",
+        "method": "time-window",
+        "pickedCount": 83,
+        "startSec": 1428,
+        "endSec": 1735,
+        "generatedAt": "2026-01-04T19:28:15.691Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 1 \"Can't Get You Out of My Head\"",
+      "subject": {
+        "coarse": "Music",
+        "fine": "Song Analysis"
+      },
+      "durationSec": 2306,
+      "positionSec": 1715,
+      "summary": "In dieser Episode wird das Thema 'I can't get you out of my head' behandelt, wobei die Bedeutung von Musik für persönliche Erinnerungen und Identität im Fokus steht. Die Hosts reflektieren über ihre Kindheit und Jugend in den 80er Jahren, die stark von der Musik dieser Zeit geprägt war, einschließlich der neuen deutschen Welle und internationaler Hits. Es wird diskutiert, wie Musik Erinnerungen weckt und Phasen des Lebens begleitet, wobei auch spezifische Lieder und Alben erwähnt werden, die mit bestimmten Lebensereignissen verknüpft sind. Die Hosts teilen persönliche Anekdoten und die Rolle von Musik in ihren Familien.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "367-ts.json",
+        "method": "time-window",
+        "pickedCount": 506,
+        "startSec": 1695,
+        "endSec": 4041,
+        "generatedAt": "2026-01-04T19:28:18.115Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Snack",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Educational Content"
+      },
+      "durationSec": 651,
+      "positionSec": 4021,
+      "summary": "In dieser Episode wird ein faszinierender Science Snack präsentiert, der die Zeit, die Computer für verschiedene Prozesse benötigen, auf menschliche Zeiträume überträgt. Der Beitrag basiert auf einem Video von 'Computer File' mit 'Got Bolt', das die Zeitspanne für Operationen wie Addition, Division und den Zugriff auf Speicher erklärt. Ein Computer kann Addition in etwa 0,5 Nanosekunden durchführen, während ein Mensch dafür etwa fünf Sekunden benötigt. Der Vergleich wird weitergeführt mit Datenzugriffen von SSDs, die für Computer in Mikrosekunden, für Menschen jedoch mehrere Tage in Anspruch nehmen würden. Diese anschaulichen Vergleiche verdeutlichen, wie schnell Computer im Vergleich zu menschlichen Maßstäben sind.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "367-ts.json",
+        "method": "time-window",
+        "pickedCount": 164,
+        "startSec": 4001,
+        "endSec": 4692,
+        "generatedAt": "2026-01-04T19:28:19.977Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 2 \"Sorry Dave, I can let you do that\"",
+      "subject": {
+        "coarse": "Technology",
+        "fine": "AI Interaction"
+      },
+      "durationSec": 1398,
+      "positionSec": 4672,
+      "summary": "In der Episode wird das Thema der Gefahren von Künstlicher Intelligenz (KI) behandelt, insbesondere im Hinblick auf die Erzeugung von synthetischen Stimmen, Bildern und potenziell gefährlichen Biowaffen. Es wird diskutiert, wie KI-Modelle, wie LLMs, missbraucht werden können, um gefährliche Informationen zu generieren. Ein Beispiel ist AlphaFold, das zur Proteinstrukturvorhersage verwendet wird, was sowohl für die Medikamentenentwicklung als auch für die Erzeugung von Biowaffen genutzt werden könnte. Die Episode thematisiert auch die Herausforderungen bei der Erkennung neuartiger, von KI generierter DNA-Sequenzen durch Bio-Sicherheitssoftware.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "367-ts.json",
+        "method": "time-window",
+        "pickedCount": 236,
+        "startSec": 4652,
+        "endSec": 6090,
+        "generatedAt": "2026-01-04T19:28:22.766Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwurbel der Woche",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Conspiracy Theories"
+      },
+      "durationSec": 468,
+      "positionSec": 6070,
+      "summary": "In der Episode wird das Thema Kamelurin behandelt, das auf der Webseite kamelfarm.de angeboten wird. Der Urin wird frisch von Dromedaren gesammelt und ist nicht als Lebensmittel zugelassen. Es wird auf Studien hingewiesen, die die schützende Wirkung von Kamelurin und Kamelmilch gegen alkoholbedingte Leberschäden bei Ratten untersuchen, jedoch gibt es keine klinischen Studien am Menschen. Die Diskussion thematisiert auch die Skepsis gegenüber pharmazeutischen Produkten im Vergleich zur Begeisterung für alternative Heilmittel wie Kamelurin.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "367-ts.json",
+        "method": "time-window",
+        "pickedCount": 111,
+        "startSec": 6050,
+        "endSec": 6558,
+        "generatedAt": "2026-01-04T19:28:24.145Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Audiokommentar Maira",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Commentary"
+      },
+      "durationSec": 170,
+      "positionSec": 6833,
+      "summary": "Meira diskutiert in ihrem Audiokommentar über KI-generierte Stimmen und hebt verschiedene technische Varianten hervor, die in der vorherigen Folge nicht behandelt wurden. Sie erklärt den Voice Changer, bei dem menschliche Stimmen aufgenommen und dann transformiert werden, um die menschliche Ausdruckskraft zu bewahren. Zudem erwähnt sie eine neue Technologie von Eleven Labs, die es ermöglicht, KI mit emotionalen Regieanweisungen zu steuern. Meira selbst ist ein KI-generiertes Sprachmodell, das aus den Aufnahmen ihres Podcast-Partners Thorsten entstanden ist, und sie experimentieren mit verschiedenen Stimmvarianten.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "367-ts.json",
+        "method": "time-window",
+        "pickedCount": 34,
+        "startSec": 6813,
+        "endSec": 7023,
+        "generatedAt": "2026-01-04T19:28:26.389Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Audiokommentar Sebastian",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Commentary"
+      },
+      "durationSec": 0,
+      "positionSec": 7003,
+      "summary": "In Episode 367 wird auf logistische Probleme bei Ticketmaster hingewiesen, die die Herstellung von Supporter Tickets betreffen. Zudem werden zwei Audiokommentare empfohlen: einer von Mayra bzw. Thorsten zu den KK Stimmen und ein weiterer von Sebastian, der sich mit dem Thema Dualseelen und Platon beschäftigt. Sebastian bietet eine andere Perspektive als die Naturwissenschaftler im Podcast. Abschließend wird auf das Intro von Folge 96 von Herr der Ringe verwiesen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "367-ts.json",
+        "method": "keyword-window",
+        "pickedCount": 23,
+        "startSec": 6558,
+        "endSec": 6684,
+        "generatedAt": "2026-01-04T19:28:27.695Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:28:27.695Z",
+  "transcriptFound": true,
+  "transcriptFile": "367-ts.json"
+}

@@ -1,0 +1,131 @@
+{
+  "episodeNumber": 125,
+  "title": "DU125 - Stellares Engineering mit dem Sonnenbagger",
+  "extractedAt": "2026-01-04T19:28:02.993Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Finsternisse",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Finsternisse"
+      },
+      "summary": "In der Episode 125 des Podcasts \"Das Universum\" wird auf bevorstehende astronomische Ereignisse hingewiesen. Am 14. März findet eine Mondfinsternis statt, die in Mitteleuropa jedoch nur schwer zu beobachten sein wird, da der Mond um 6:15 Uhr untergeht und zu diesem Zeitpunkt erst zu 9% verfinstert ist. Zudem wird am 29. März eine partielle Sonnenfinsternis erwartet, die mit geeigneter Ausrüstung, wie Finsternisbrillen oder Filtern für Teleskope, beobachtet werden kann.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "125-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 78,
+        "startSec": 0,
+        "endSec": 315,
+        "llmDetectedStartSec": 4,
+        "llmDetectedEndSec": 295,
+        "generatedAt": "2026-01-04T21:58:23.012Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Oort-Spirale",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Oortsche Wolke"
+      },
+      "summary": "Die Oortsche Wolke ist der äußerste Bereich unseres Sonnensystems, der sich bis zu einem Lichtjahr von der Sonne erstreckt und zahlreiche Asteroiden und Kometen enthält. Diese Region ist so weit entfernt, dass direkte Beobachtungen nicht möglich sind, jedoch kommen Kometen aus dieser Wolke ins innere Sonnensystem, was ihre Existenz belegt. Neuere Computersimulationen zeigen, dass die Objekte in der inneren Oortschen Wolke nicht in einer flachen Ebene, sondern spiralförmig angeordnet sind, was durch galaktische Gezeiten verursacht wird. Diese Erkenntnisse erweitern unser Verständnis der Struktur der Oortschen Wolke.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "125-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 125,
+        "startSec": 275,
+        "endSec": 738,
+        "llmDetectedStartSec": 295,
+        "llmDetectedEndSec": 718,
+        "generatedAt": "2026-01-04T21:58:24.214Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Film 'Sunshine'",
+      "subject": {
+        "coarse": "Medien",
+        "fine": "Film"
+      },
+      "summary": "In der Episode wird der Science-Fiction-Film 'Sunshine' von 2007 besprochen, der unter der Regie von Danny Boyle entstand. Die Handlung dreht sich um ein internationales Team von Astronauten, das mit dem Raumschiff Icarus II auf eine Mission geschickt wird, um die sterbende Sonne mit einer Bombe zu retten. Der Film thematisiert psychologische Spannungen und Konflikte, die im Weltall entstehen können, als das Team ein mysteriöses Signal von dem Vorgängerschiff Icarus I empfängt. Trotz eines vielversprechenden Casts, darunter Cillian Murphy und Chris Evans, wird der Film von Evi als enttäuschend empfunden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "125-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 402,
+        "startSec": 698,
+        "endSec": 2002,
+        "llmDetectedStartSec": 718,
+        "llmDetectedEndSec": 1982,
+        "generatedAt": "2026-01-04T21:58:26.767Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kernfusion der Sonne",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sternenphysik"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "125-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 100,
+        "startSec": 1962,
+        "endSec": 2348,
+        "llmDetectedStartSec": 1982,
+        "llmDetectedEndSec": 2328,
+        "generatedAt": "2026-01-04T21:58:26.052Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Welt retten und Wahnsinn",
+      "subject": {
+        "coarse": "Philosophie",
+        "fine": "Ethik"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "125-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 7,
+        "startSec": 2308,
+        "endSec": 2357,
+        "llmDetectedStartSec": 2328,
+        "llmDetectedEndSec": 2337,
+        "generatedAt": "2026-01-04T21:58:27.648Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:58:27.648Z",
+  "transcriptFound": true,
+  "transcriptFile": "125-ts.json"
+}

@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 146,
+  "title": "DU146 - Das Universum schaut in die Zukunft",
+  "extractedAt": "2026-01-04T19:30:15.623Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Nancy Grace Roman Space Telescope",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Teleskope"
+      },
+      "summary": "Das Nancy Grace Roman Space Telescope ist ein neues Weltraumteleskop, das derzeit fertiggestellt ist und im September 2026 gestartet werden soll. Es wurde aus einem ehemaligen Spionagesatelliten umgebaut und ist als Wide-Field-Teleskop konzipiert, um große Teile des Himmels gleichzeitig zu beobachten. Nancy Grace Roman, die erste Chefin der NASA-Astronomie, wird als 'Mother of Hubble' bezeichnet, da sie maßgeblich an der Entwicklung des Hubble-Teleskops beteiligt war. Die NASA erhielt das Teleskop von der National Reconnaissance Office (NRO), was entscheidend für die Realisierung des Projekts war.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "146-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 96,
+        "startSec": 957,
+        "endSec": 1308,
+        "llmDetectedStartSec": 977,
+        "llmDetectedEndSec": 1288,
+        "generatedAt": "2026-01-04T22:03:57.905Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Tianwen 2 und der Quasisatellit",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Raumsonden"
+      },
+      "summary": "Im Transkript wird über das neue Weltraumteleskop, das Nancy Grace Roman Teleskop, gesprochen, welches ein Bildfeld hat, das hundertmal größer ist als das von Hubble. Es wird erwähnt, dass das Teleskop primordiale schwarze Löcher entdecken könnte, die kurz nach dem Urknall entstanden sind. Diese schwarzen Löcher hätten eine Masse vergleichbar mit Asteroiden und könnten durch Mikrolensing nachgewiesen werden. Das Teleskop könnte auch zur Beobachtung des äußeren Sonnensystems und von Asteroiden eingesetzt werden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "146-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 242,
+        "startSec": 1268,
+        "endSec": 2059,
+        "llmDetectedStartSec": 1288,
+        "llmDetectedEndSec": 2039,
+        "generatedAt": "2026-01-04T22:03:59.671Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "BepiColombo und der Merkur",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Merkurforschung"
+      },
+      "summary": "Die Raumsonde BepiColombo, benannt nach dem Astronomen Giuseppe Colombo, ist die zweite Mission zur Erforschung des Planeten Merkur und wurde am 20. Oktober 2018 gestartet. Sie wird im November 2026 in eine Umlaufbahn um den Merkur einschwenken und soll neue Erkenntnisse über den sonnennächsten Planeten liefern. Vorherige Missionen, wie Messenger in den 2000er Jahren, haben nur begrenzte Daten geliefert, da sie den Merkur nur passiert haben. BepiColombo hat mehrere Flybys an der Erde, Venus und Merkur durchgeführt, um die Geschwindigkeit zu reduzieren und die Umlaufbahn zu erreichen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "146-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 65,
+        "startSec": 2019,
+        "endSec": 2237,
+        "llmDetectedStartSec": 2039,
+        "llmDetectedEndSec": 2217,
+        "generatedAt": "2026-01-04T22:04:02.249Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Hera und der Asteroid",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Asteroidenforschung"
+      },
+      "summary": "Die ESA-Raumsonde Hera wird im Dezember 2026 beim Doppelasteroiden Didymos und Dimorphos ankommen, nachdem die NASA-Raumsonde DART im September 2022 mit Dimorphos kollidierte, um die Umlaufbahn zu verändern. Hera wird als Nachfolgemission fungieren, um die Auswirkungen der DART-Mission zu untersuchen und detaillierte Daten über die Asteroidenoberfläche und -struktur zu sammeln. Ursprünglich war eine Kooperation zwischen NASA und ESA unter dem Namen AIDA geplant, bei der die ESA eine Beobachtungsmission namens AIM bereitstellen sollte, die jedoch nicht realisiert wurde. Hera wird somit die erste Mission sein, die einen Doppel-Asteroiden in Erdnähe genauer analysiert.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "146-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 143,
+        "startSec": 2197,
+        "endSec": 2676,
+        "llmDetectedStartSec": 2217,
+        "llmDetectedEndSec": 2656,
+        "generatedAt": "2026-01-04T22:04:04.067Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Sylvia Earle und das Meer",
+      "subject": {
+        "coarse": "Umwelt",
+        "fine": "Meeresforschung"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "146-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 384,
+        "startSec": 2636,
+        "endSec": 3903,
+        "llmDetectedStartSec": 2656,
+        "llmDetectedEndSec": 3883,
+        "generatedAt": "2026-01-04T22:04:03.869Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Filme über Wissenschaft",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Film"
+      },
+      "summary": "Im Transkript wird über Sylvia Earle gesprochen, eine Forscherin, die in den 50er bis 70er Jahren auf Forschungsschiffen tätig war. Sie war oft die einzige Frau an Bord und generierte Schlagzeilen, die ihre außergewöhnliche Rolle in einer von Männern dominierten Umgebung hervorhoben. Ihre inspirierende Persönlichkeit und ihre No-Bullshit-Art werden ebenfalls erwähnt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "146-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 10,
+        "startSec": 3863,
+        "endSec": 3903,
+        "llmDetectedStartSec": 3883,
+        "llmDetectedEndSec": 3883,
+        "generatedAt": "2026-01-04T22:04:06.886Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Project Hail Mary",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Film"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "146-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 3863,
+        "endSec": 20,
+        "llmDetectedStartSec": 3883,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "LIVE Podcastaufnahme",
+      "subject": {
+        "coarse": "Veranstaltungen",
+        "fine": "Podcasts"
+      },
+      "summary": "In der Episode 146 des Podcasts 'Das Universum' begrüßen Florian und Ruth die Zuhörer. Die Aufnahme findet live statt, was auf eine besondere Veranstaltung hinweist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "146-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 2,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T22:04:06.328Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:04:06.886Z",
+  "transcriptFound": true,
+  "transcriptFile": "146-ts.json"
+}

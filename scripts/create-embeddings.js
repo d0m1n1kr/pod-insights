@@ -103,14 +103,44 @@ function findTopicsFiles() {
 }
 
 /**
- * Lade alle Topics
+ * Lade alle Topics mit Fallback zu extended-topics für Timestamps
  */
 function loadAllTopics() {
   const topicsFiles = findTopicsFiles();
   const allTopics = [];
+  const episodesDir = path.join(PROJECT_ROOT, 'podcasts', PODCAST_ID, 'episodes');
+  
+  // Lade Extended Topics für alle Episoden (für Fallback-Timestamps)
+  const extendedTopicsByEpisode = new Map();
+  for (const { episodeNumber } of topicsFiles) {
+    const extendedTopicsFile = path.join(episodesDir, `${episodeNumber}-extended-topics.json`);
+    if (fs.existsSync(extendedTopicsFile)) {
+      try {
+        const extendedData = JSON.parse(fs.readFileSync(extendedTopicsFile, 'utf-8'));
+        const extendedTopics = Array.isArray(extendedData.topics) ? extendedData.topics : [];
+        // Erstelle Map: topic name -> { startSec, endSec }
+        const topicMap = new Map();
+        for (const et of extendedTopics) {
+          const topicName = typeof et?.topic === 'string' ? et.topic.trim() : '';
+          if (topicName) {
+            const startSec = Number.isFinite(et?.summaryMeta?.startSec) ? Math.floor(et.summaryMeta.startSec) : null;
+            const endSec = Number.isFinite(et?.summaryMeta?.endSec) ? Math.floor(et.summaryMeta.endSec) : null;
+            if (startSec !== null) {
+              topicMap.set(topicName.toLowerCase(), { startSec, endSec });
+            }
+          }
+        }
+        extendedTopicsByEpisode.set(episodeNumber, topicMap);
+      } catch (e) {
+        // Ignore errors loading extended topics
+      }
+    }
+  }
   
   for (const { path: filePath, episodeNumber } of topicsFiles) {
     const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const extendedTopicMap = extendedTopicsByEpisode.get(episodeNumber) || new Map();
+    
     for (const topic of data.topics) {
       const subjectCoarse =
         (topic?.subject && typeof topic.subject.coarse === 'string' && topic.subject.coarse.trim()) ||
@@ -121,10 +151,35 @@ function loadAllTopics() {
         (typeof topic?.subjectFine === 'string' && topic.subjectFine.trim()) ||
         null;
 
-      const durationSec =
-        Number.isFinite(topic?.durationSec) ? topic.durationSec : (topic?.durationSec != null ? parseInt(topic.durationSec, 10) : null);
-      const positionSec =
+      // Versuche positionSec aus topics.json
+      let positionSec =
         Number.isFinite(topic?.positionSec) ? topic.positionSec : (topic?.positionSec != null ? parseInt(topic.positionSec, 10) : null);
+      
+      // Fallback: verwende startSec aus extended-topics.json
+      if (positionSec === null) {
+        const topicName = typeof topic?.topic === 'string' ? topic.topic.trim() : '';
+        if (topicName) {
+          const extendedTopic = extendedTopicMap.get(topicName.toLowerCase());
+          if (extendedTopic && extendedTopic.startSec !== null) {
+            positionSec = extendedTopic.startSec;
+          }
+        }
+      }
+
+      // Versuche durationSec aus topics.json
+      let durationSec =
+        Number.isFinite(topic?.durationSec) ? topic.durationSec : (topic?.durationSec != null ? parseInt(topic.durationSec, 10) : null);
+      
+      // Fallback: berechne durationSec aus extended-topics (endSec - startSec)
+      if (durationSec === null) {
+        const topicName = typeof topic?.topic === 'string' ? topic.topic.trim() : '';
+        if (topicName) {
+          const extendedTopic = extendedTopicMap.get(topicName.toLowerCase());
+          if (extendedTopic && extendedTopic.startSec !== null && extendedTopic.endSec !== null) {
+            durationSec = Math.max(0, extendedTopic.endSec - extendedTopic.startSec);
+          }
+        }
+      }
 
       allTopics.push({
         episodeNumber,

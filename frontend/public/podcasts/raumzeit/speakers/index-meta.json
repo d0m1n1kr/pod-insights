@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-01-04T13:12:34.198Z",
+  "generatedAt": "2026-01-04T21:16:59.836Z",
   "podcastId": "raumzeit",
-  "count": 1,
+  "count": 2,
   "speakers": [
+    {
+      "slug": "index",
+      "name": "index",
+      "hasImage": false,
+      "hasMeta": true
+    },
     {
       "slug": "tim-pritlove",
       "name": "Tim Pritlove",

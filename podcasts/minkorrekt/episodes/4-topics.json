@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 4,
+  "title": "Minkorrekt Folge 4 „Es druckt!“",
+  "extractedAt": "2026-01-04T18:43:51.624Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Kontinentaldrift",
+      "subject": {
+        "coarse": "Geologie",
+        "fine": "Tektonik"
+      }
+    },
+    {
+      "topic": "Speicherplatzprobleme",
+      "subject": {
+        "coarse": "Technologie",
+        "fine": "Datenmanagement"
+      }
+    },
+    {
+      "topic": "Evolution",
+      "subject": {
+        "coarse": "Biologie",
+        "fine": "Evolutionstheorie"
+      }
+    },
+    {
+      "topic": "druckbare Batterien",
+      "subject": {
+        "coarse": "Technologie",
+        "fine": "Energiespeicherung"
+      }
+    },
+    {
+      "topic": "Laser-Sehtest",
+      "subject": {
+        "coarse": "Medizin",
+        "fine": "Sehtests"
+      }
+    }
+  ]
+}

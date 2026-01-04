@@ -52,6 +52,13 @@ pub struct CachedEpisodeTopicsMap {
     pub rag_db_path: PathBuf,
 }
 
+#[derive(Clone)]
+pub struct CachedEpisodeFiles {
+    pub has_image: bool,
+    pub has_transcript: bool,
+    pub loaded_at: SystemTime,
+}
+
 // Types used in cache
 #[derive(Debug, Deserialize, Clone)]
 pub struct EpisodeMetadata {
@@ -428,7 +435,7 @@ pub async fn load_episode_topics_map_cached(
         if let Some(topic) = &item.topic {
             topics_map
                 .entry(item.episode_number)
-                .or_insert_with(std::collections::HashSet::new)
+                .or_insert_with(|| std::collections::HashSet::new())
                 .insert(topic.clone());
         }
     }
@@ -444,6 +451,73 @@ pub async fn load_episode_topics_map_cached(
     ).await;
 
     Ok(topics_map)
+}
+
+pub async fn check_episode_files_cached(
+    st: &AppState,
+    podcast_id: &str,
+    episode_number: u32,
+) -> Result<(bool, bool)> {
+    let cache_key = (podcast_id.to_string(), episode_number);
+    
+    // Check cache
+    if let Some(cached) = st.episode_files_cache.get(&cache_key).await {
+        return Ok((cached.has_image, cached.has_transcript));
+    }
+    
+    // Check files
+    let episodes_dir = PathBuf::from(format!("podcasts/{}/episodes", podcast_id));
+    
+    // Check for image (try common extensions)
+    let mut has_image = false;
+    for ext in &["jpg", "jpeg", "png", "webp"] {
+        let image_path = episodes_dir.join(format!("{}.{}", episode_number, ext));
+        if tokio::fs::metadata(&image_path).await.is_ok() {
+            has_image = true;
+            break;
+        }
+    }
+    
+    // Check for transcript
+    let transcript_path = episodes_dir.join(format!("{}-ts.json", episode_number));
+    let has_transcript = tokio::fs::metadata(&transcript_path).await.is_ok();
+    
+    // Cache result
+    st.episode_files_cache.insert(
+        cache_key,
+        CachedEpisodeFiles {
+            has_image,
+            has_transcript,
+            loaded_at: SystemTime::now(),
+        }
+    ).await;
+    
+    Ok((has_image, has_transcript))
+}
+
+pub async fn check_episode_files_batch_cached(
+    st: &AppState,
+    podcast_id: &str,
+    episode_numbers: &[u32],
+) -> Result<HashMap<u32, (bool, bool)>> {
+    let mut results = HashMap::new();
+    
+    // Create futures for all episodes
+    let futures: Vec<_> = episode_numbers.iter()
+        .map(|&ep_num| check_episode_files_cached(st, podcast_id, ep_num))
+        .collect();
+    
+    // Execute all in parallel
+    let file_results = future::join_all(futures).await;
+    
+    // Collect results
+    for (ep_num, result) in episode_numbers.iter().zip(file_results) {
+        if let Ok((has_image, has_transcript)) = result {
+            results.insert(*ep_num, (has_image, has_transcript));
+        }
+    }
+    
+    Ok(results)
 }
 
 pub async fn load_speakers_index(speakers_dir: &Path) -> Result<Vec<SpeakerInfo>> {

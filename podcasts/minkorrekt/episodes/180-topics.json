@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 180,
+  "title": "Mi180 - \"Sapsche!\"",
+  "extractedAt": "2026-01-04T19:01:16.962Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Profil",
+      "subject": {
+        "coarse": "Social",
+        "fine": "Personal Identity"
+      }
+    },
+    {
+      "topic": "Turmbewohner",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Community"
+      }
+    },
+    {
+      "topic": "Nachrichten",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Current Events"
+      }
+    },
+    {
+      "topic": "Delphine",
+      "subject": {
+        "coarse": "Nature",
+        "fine": "Marine Life"
+      }
+    },
+    {
+      "topic": "Experiment der Woche: Eisenflakes",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Chemistry"
+      }
+    }
+  ]
+}

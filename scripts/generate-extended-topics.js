@@ -27,6 +27,7 @@ function parseArgs(argv) {
     overwrite: false,
     backfillTimes: false,
     dryRun: false,
+    useLLMTimestamps: false, // Deprecated: LLM is now the default when no timestamps in topics.json
   };
 
   // Remove `--podcast <id>` from argv so order doesn't matter (caller always passes it).
@@ -45,6 +46,7 @@ function parseArgs(argv) {
     else if (a === '--overwrite') args.overwrite = true;
     else if (a === '--backfill-times') args.backfillTimes = true;
     else if (a === '--dry-run') args.dryRun = true;
+    else if (a === '--use-llm-timestamps') args.useLLMTimestamps = true;
     else if (a === '--episode') args.episode = parseInt(rest.shift(), 10);
     else if (a === '--from') args.from = parseInt(rest.shift(), 10);
     else if (a === '--to') args.to = parseInt(rest.shift(), 10);
@@ -68,6 +70,7 @@ function usage() {
     '  --time-margin-sec <n>     Padding around time-window topics (default: 20)\n' +
     '  --overwrite              Re-generate even if output exists\n' +
     '  --backfill-times         Only fill missing summaryMeta.startSec/endSec in existing *-extended-topics.json (no LLM calls)\n' +
+    '  --use-llm-timestamps     (Deprecated: LLM is now default when no timestamps in topics.json)\n' +
     '  --dry-run                Don\'t call the LLM; write empty summaries (useful to test IO)\n'
   );
 }
@@ -312,11 +315,205 @@ function excerptByKeywordWindow(transcript, topic, maxChars) {
   };
 }
 
+/**
+ * Uses LLM to find precise start and end timestamps for all topics in the transcript
+ * Topics must be ordered and non-overlapping
+ */
+function batchTimestampDetectionMessages({ episodeNumber, episodeTitle, topics, transcriptSample, languageHint }) {
+  const topicsList = topics.map((t, idx) => {
+    const subjectLine = t.subject && (t.subject.coarse || t.subject.fine)
+      ? ` (${t.subject.coarse || ''}${t.subject.coarse && t.subject.fine ? ' / ' : ''}${t.subject.fine || ''})`
+      : '';
+    return `${idx + 1}. ${t.topic}${subjectLine}`;
+  }).join('\n');
+
+  return [
+    {
+      role: 'system',
+      content:
+        'Du analysierst ein Podcast-Transkript und findest die genauen Zeitstempel (in Sekunden) ' +
+        'für alle gegebenen Themen.\n' +
+        '\n' +
+        'KRITISCH WICHTIG:\n' +
+        '- Die Themen müssen in der richtigen chronologischen Reihenfolge sein (wie sie im Podcast besprochen werden).\n' +
+        '- Die Themen dürfen sich NICHT überlappen.\n' +
+        '- Das Ende eines Themas ist der Start des nächsten Themas (endSec von Thema N = startSec von Thema N+1).\n' +
+        '- Analysiere das gesamte Transkript, um die korrekte Reihenfolge zu bestimmen.\n' +
+        '- Finde für jedes Thema den genauen Startpunkt (wann beginnt die Diskussion) und Endpunkt (wann endet die Diskussion).\n' +
+        '- Wenn ein Thema nicht im Transkript vorkommt, setze startSec und endSec auf null.\n' +
+        '- Die Zeitstempel müssen aus dem Transkript extrahiert werden (siehe [MM:SS] Format und Sekunden in Klammern).\n' +
+        '- Verwende die Sekundenwerte aus den Klammern im Transkript für maximale Genauigkeit.\n' +
+        '- Antworte AUSSCHLIESSLICH mit einem JSON-Array, KEIN zusätzlicher Text davor oder danach.\n' +
+        '- Format: [{"topic": string, "startSec": number|null, "endSec": number|null}, ...]\n' +
+        '- startSec und endSec müssen in Sekunden angegeben werden (z.B. 120 für 2 Minuten).\n' +
+        '- Das Array muss die gleiche Reihenfolge wie die gegebenen Themen haben.\n' +
+        '- KEINE Erklärungen, KEINE Markdown-Code-Blöcke, NUR das JSON-Array.',
+    },
+    {
+      role: 'user',
+      content:
+        `Episode: ${episodeNumber} - ${episodeTitle || ''}\n\n` +
+        `THEMEN (in gegebener Reihenfolge):\n${topicsList}\n\n` +
+        `VOLLSTÄNDIGES TRANSKRIPT (mit Zeitstempeln):\n${transcriptSample}`,
+    },
+  ];
+}
+
+/**
+ * Formats the full transcript for LLM analysis
+ */
+function formatFullTranscript(transcript, maxChars = 100000) {
+  if (!transcript || transcript.length === 0) {
+    return '';
+  }
+
+  let transcriptSample = '';
+  let charCount = 0;
+  
+  for (const e of transcript) {
+    const time = e?.time || '';
+    const speaker = e?.speaker || '';
+    const text = e?.text || '';
+    const sec = e?._sec;
+    
+    // Format: [MM:SS] (XXXs) Speaker: text
+    const timeDisplay = Number.isFinite(sec) 
+      ? `[${Math.floor(sec / 60)}:${String(Math.floor(sec % 60)).padStart(2, '0')}] (${Math.floor(sec)}s)`
+      : `[${time}]`;
+    
+    const line = `${timeDisplay} ${speaker}: ${text}\n`;
+    
+    if (charCount + line.length > maxChars) {
+      break;
+    }
+    
+    transcriptSample += line;
+    charCount += line.length;
+  }
+
+  return transcriptSample;
+}
+
+/**
+ * Uses LLM to detect precise timestamps for all topics at once
+ * Ensures topics are ordered and non-overlapping
+ */
+async function detectBatchTimestampsWithLLM(llmCfg, retryCfg, { episodeNumber, episodeTitle, topics, transcript, languageHint }) {
+  if (!transcript || transcript.length === 0 || !topics || topics.length === 0) {
+    return topics.map(() => ({ startSec: null, endSec: null }));
+  }
+
+  // Format full transcript (use larger limit for batch processing)
+  const transcriptSample = formatFullTranscript(transcript, 100000);
+
+  if (!transcriptSample.trim()) {
+    return topics.map(() => ({ startSec: null, endSec: null }));
+  }
+
+  const messages = batchTimestampDetectionMessages({
+    episodeNumber,
+    episodeTitle,
+    topics,
+    transcriptSample,
+    languageHint,
+  });
+
+  try {
+    const raw = await callChatCompletionsOpenAICompatible(llmCfg, messages, retryCfg);
+    
+    // Clean up the response - remove markdown code blocks if present
+    let cleaned = String(raw || '').trim();
+    cleaned = cleaned.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/i, '');
+    cleaned = cleaned.trim();
+    
+    let parsed;
+    try {
+      parsed = extractFirstJsonObject(cleaned);
+    } catch (parseError) {
+      console.error(`  ⚠️  JSON parsing failed. Raw response (first 500 chars): ${cleaned.substring(0, 500)}`);
+      throw parseError;
+    }
+    
+    // Handle both array and object responses
+    let results = Array.isArray(parsed) ? parsed : (parsed.topics || parsed.results || parsed.timestamps || []);
+    
+    // Ensure we have the right number of results
+    if (results.length !== topics.length) {
+      console.error(`  ⚠️  LLM returned ${results.length} timestamps but expected ${topics.length}`);
+      console.error(`  Response: ${JSON.stringify(parsed, null, 2).substring(0, 500)}`);
+      return topics.map(() => ({ startSec: null, endSec: null }));
+    }
+
+    // Extract and validate timestamps
+    const timestamps = results.map((r, idx) => {
+      // Handle both object format {topic, startSec, endSec} and {startSec, endSec}
+      const topicData = r.topic ? r : (topics[idx] ? { topic: topics[idx].topic, ...r } : r);
+      const startSec = Number.isFinite(topicData?.startSec) ? Math.max(0, Math.floor(topicData.startSec)) : null;
+      const endSec = Number.isFinite(topicData?.endSec) ? Math.max(0, Math.floor(topicData.endSec)) : null;
+      
+      // Validate: endSec should be >= startSec
+      if (Number.isFinite(startSec) && Number.isFinite(endSec) && endSec >= startSec) {
+        return { startSec, endSec };
+      }
+      
+      return { startSec: null, endSec: null };
+    });
+
+    // Ensure non-overlapping and ordered: endSec of topic N = startSec of topic N+1
+    for (let i = 0; i < timestamps.length - 1; i++) {
+      const current = timestamps[i];
+      const next = timestamps[i + 1];
+      
+      if (Number.isFinite(current.endSec) && Number.isFinite(next.startSec)) {
+        // Adjust next start to match current end if they don't match
+        if (next.startSec !== current.endSec) {
+          next.startSec = current.endSec;
+        }
+      } else if (Number.isFinite(current.endSec) && !Number.isFinite(next.startSec)) {
+        // If next has no start, set it to current end
+        next.startSec = current.endSec;
+      }
+    }
+
+    return timestamps;
+  } catch (error) {
+    console.error(`  ⚠️  LLM batch timestamp detection failed: ${error.message}`);
+    if (error.stack) {
+      console.error(`  Stack: ${error.stack}`);
+    }
+    return topics.map(() => ({ startSec: null, endSec: null }));
+  }
+}
+
 function extractFirstJsonObject(text) {
   const s = String(text || '').trim();
-  const match = s.match(/\{[\s\S]*\}/);
-  const jsonText = match ? match[0] : s;
-  return JSON.parse(jsonText);
+  
+  // Try to find JSON array first (for batch timestamp detection)
+  const arrayMatch = s.match(/\[[\s\S]*\]/);
+  if (arrayMatch) {
+    try {
+      return JSON.parse(arrayMatch[0]);
+    } catch (e) {
+      // Fall through to object parsing
+    }
+  }
+  
+  // Try to find JSON object
+  const objectMatch = s.match(/\{[\s\S]*\}/);
+  if (objectMatch) {
+    try {
+      return JSON.parse(objectMatch[0]);
+    } catch (e) {
+      // Fall through to full text parsing
+    }
+  }
+  
+  // Last resort: try parsing the entire string
+  try {
+    return JSON.parse(s);
+  } catch (e) {
+    throw new Error(`Failed to parse JSON: ${e.message}. Text: ${s.substring(0, 200)}...`);
+  }
 }
 
 async function callChatCompletionsOpenAICompatible(llmCfg, messages, retryCfg) {
@@ -532,27 +729,9 @@ async function main() {
           };
         }
 
-        const r = excerptByKeywordWindow(transcript, t?.topic, args.maxExcerptChars);
-        const kwStart = Number.isFinite(r?.startSec) ? r.startSec : null;
-        const kwEnd = Number.isFinite(r?.endSec) ? r.endSec : null;
-        const startSec = Number.isFinite(kwStart) ? Math.max(0, kwStart - args.timeMarginSec) : null;
-        const endSec = Number.isFinite(kwEnd) ? (kwEnd + args.timeMarginSec) : null;
-        if (Number.isFinite(startSec) && Number.isFinite(endSec) && endSec >= startSec) {
-          changed++;
-          return {
-            ...t,
-            summaryMeta: {
-              ...(sm || {}),
-              transcriptFound: true,
-              transcriptFile: path.basename(transcriptPath),
-              method: r.method || (sm?.method || 'keyword-window'),
-              pickedCount: typeof r?.pickedCount === 'number' ? r.pickedCount : (sm?.pickedCount ?? 0),
-              startSec,
-              endSec,
-              backfilledAt: new Date().toISOString(),
-            }
-          };
-        }
+        // In backfill mode, if no timestamps exist, we can't use LLM (would require --overwrite)
+        // So we skip topics without timestamps in backfill mode
+        // (They would need to be regenerated with LLM detection)
 
         return t;
       });
@@ -580,6 +759,40 @@ async function main() {
 
     console.log(`▶️  ${ep.episodeNumber}: ${topicsData?.title || ''} (${topicsData?.topics?.length || 0} topics)`);
 
+    // Check if any topics need LLM timestamp detection
+    const topicsNeedingLLM = (topicsData.topics || []).filter(t => {
+      const positionSec = Number.isFinite(t?.positionSec) ? t.positionSec : null;
+      const durationSec = Number.isFinite(t?.durationSec) ? t.durationSec : null;
+      return !(Number.isFinite(positionSec) && Number.isFinite(durationSec) && durationSec > 0);
+    });
+
+    // Batch detect timestamps for all topics that need it
+    let batchTimestamps = null;
+    if (topicsNeedingLLM.length > 0 && !args.dryRun && transcriptFound) {
+      try {
+        console.log(`  🔍 Detecting timestamps for ${topicsNeedingLLM.length} topics using LLM...`);
+        batchTimestamps = await detectBatchTimestampsWithLLM(llmCfg, retryCfg, {
+          episodeNumber: ep.episodeNumber,
+          episodeTitle: topicsData?.title || '',
+          topics: topicsNeedingLLM,
+          transcript,
+          languageHint: settings.topicExtraction?.language || 'de',
+        });
+        console.log(`  ✅ Timestamp detection complete`);
+      } catch (error) {
+        console.error(`  ⚠️  Batch timestamp detection failed: ${error.message}`);
+        batchTimestamps = topicsNeedingLLM.map(() => ({ startSec: null, endSec: null }));
+      }
+    }
+
+    // Create a map of topic -> timestamp for quick lookup
+    const timestampMap = new Map();
+    if (batchTimestamps) {
+      topicsNeedingLLM.forEach((topic, idx) => {
+        timestampMap.set(topic.topic, batchTimestamps[idx]);
+      });
+    }
+
     const extendedTopics = await Promise.all(
       (topicsData.topics || []).map((t, idx) =>
         limiter(async () => {
@@ -604,19 +817,44 @@ async function main() {
           let excerptMeta = { method: 'none', pickedCount: 0, startSec: null, endSec: null };
 
           if (Number.isFinite(positionSec) && Number.isFinite(durationSec) && durationSec > 0) {
+            // Method 1: Use existing timestamps from topics file (highest priority)
             const startSec = Math.max(0, positionSec - args.timeMarginSec);
             const endSec = positionSec + durationSec + args.timeMarginSec;
             const r = excerptByTimeWindow(transcript, startSec, endSec, args.maxExcerptChars);
             excerpt = r.text;
             excerptMeta = { method: 'time-window', pickedCount: r.pickedCount, startSec, endSec };
+          } else if (!args.dryRun && timestampMap.has(base.topic)) {
+            // Method 2: Use LLM batch-detected timestamps
+            const llmTimestamps = timestampMap.get(base.topic);
+            
+            if (Number.isFinite(llmTimestamps.startSec) && Number.isFinite(llmTimestamps.endSec)) {
+              const startSec = Math.max(0, llmTimestamps.startSec - args.timeMarginSec);
+              const endSec = llmTimestamps.endSec + args.timeMarginSec;
+              const r = excerptByTimeWindow(transcript, startSec, endSec, args.maxExcerptChars);
+              excerpt = r.text;
+              excerptMeta = {
+                method: 'llm-batch-timestamp-detection',
+                pickedCount: r.pickedCount,
+                startSec,
+                endSec,
+                llmDetectedStartSec: llmTimestamps.startSec,
+                llmDetectedEndSec: llmTimestamps.endSec,
+              };
+            } else {
+              // LLM didn't find timestamps - return empty excerpt
+              excerpt = '';
+              excerptMeta = {
+                method: 'llm-batch-timestamp-detection',
+                pickedCount: 0,
+                startSec: null,
+                endSec: null,
+                llmDetectionFailed: true,
+              };
+            }
           } else {
-            const r = excerptByKeywordWindow(transcript, base.topic, args.maxExcerptChars);
-            excerpt = r.text;
-            const kwStart = Number.isFinite(r?.startSec) ? r.startSec : null;
-            const kwEnd = Number.isFinite(r?.endSec) ? r.endSec : null;
-            const startSec = Number.isFinite(kwStart) ? Math.max(0, kwStart - args.timeMarginSec) : null;
-            const endSec = Number.isFinite(kwEnd) ? (kwEnd + args.timeMarginSec) : null;
-            excerptMeta = { method: r.method, pickedCount: r.pickedCount, startSec, endSec };
+            // Dry run mode or no LLM timestamps available
+            excerpt = '';
+            excerptMeta = { method: args.dryRun ? 'dry-run' : 'no-timestamps', pickedCount: 0, startSec: null, endSec: null };
           }
 
           if (!excerpt.trim()) {

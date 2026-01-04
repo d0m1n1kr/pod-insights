@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 1123,
+  "title": "WR1123 Was es am Himmel zu sehen gibt",
+  "extractedAt": "2026-01-04T19:15:51.813Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Sonnenwetter",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sonnenaktivität"
+      }
+    },
+    {
+      "topic": "Riesenkrater auf Ganymed",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Monde"
+      }
+    },
+    {
+      "topic": "Mysteriöse Marswolke",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Mars"
+      }
+    },
+    {
+      "topic": "Space X",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Private Raumfahrtunternehmen"
+      }
+    },
+    {
+      "topic": "Milchstraßenzwilling",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Galaxien"
+      }
+    }
+  ]
+}

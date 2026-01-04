@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 4,
+  "title": "DU004 - Die Herrin der Ringe",
+  "extractedAt": "2026-01-04T19:15:18.362Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Kronoseismologie",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Saturn"
+      }
+    },
+    {
+      "topic": "Innere Struktur von Saturn",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Gasriesen"
+      }
+    },
+    {
+      "topic": "Frage nach dem Himmel",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Atmosphäre"
+      }
+    },
+    {
+      "topic": "Cassini-Mission",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Saturn"
+      }
+    },
+    {
+      "topic": "JUNO-Mission",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Gasriesen"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 170,
+  "title": "Mi170 - \"Sehnsuchtsort\"",
+  "extractedAt": "2026-01-04T18:56:42.879Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "vollständige Genome",
+      "subject": {
+        "coarse": "Biologie",
+        "fine": "Genetik"
+      }
+    },
+    {
+      "topic": "Tiere",
+      "subject": {
+        "coarse": "Biologie",
+        "fine": "Tierwelt"
+      }
+    },
+    {
+      "topic": "Klimaargumente",
+      "subject": {
+        "coarse": "Umwelt",
+        "fine": "Klimawandel"
+      }
+    },
+    {
+      "topic": "Grusel",
+      "subject": {
+        "coarse": "Unterhaltung",
+        "fine": "Horror"
+      }
+    },
+    {
+      "topic": "Experiment der Woche: Wandernde Socke",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Experimente"
+      }
+    }
+  ]
+}

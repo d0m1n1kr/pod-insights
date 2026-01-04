@@ -1,0 +1,145 @@
+{
+  "episodeNumber": 144,
+  "title": "DU144 - Die Stürme auf Neptun",
+  "extractedAt": "2026-01-04T19:30:01.583Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Stürme auf Neptun und Uranus",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Planetologie"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "144-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 435,
+        "startSec": 100,
+        "endSec": 1820,
+        "llmDetectedStartSec": 120,
+        "llmDetectedEndSec": 1800,
+        "generatedAt": "2026-01-04T22:03:20.270Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Expansion des Universums",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Kosmologie"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "144-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 1780,
+        "endSec": 20,
+        "llmDetectedStartSec": 1800,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Forschung zu Gasplaneten",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Planetologie"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "144-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 540,
+        "startSec": 0,
+        "endSec": 2180,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 2160,
+        "generatedAt": "2026-01-04T22:03:20.437Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Asteroideneinschläge auf Jupiter",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Astrophysik"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "144-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 2140,
+        "endSec": 20,
+        "llmDetectedStartSec": 2160,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Einfälle in Science Fiction",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Science Fiction"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "144-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 3,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T22:03:21.857Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "The Abyss",
+      "subject": {
+        "coarse": "Film",
+        "fine": "Drehbuch"
+      },
+      "summary": "In dieser Episode des Podcasts \"Das Universum\" diskutieren Ruth und Florian über eine neue Studie, die behauptet, dass das Universum nicht mehr beschleunigt expandiert. Diese Behauptung steht im Widerspruch zu bisherigen Erkenntnissen über die dunkle Energie und könnte revolutionäre Auswirkungen auf unser Verständnis des Kosmos haben. Ruth erklärt, wie Supernovae als Standardkerzen zur Entfernungsbestimmung verwendet werden und dass die Studie möglicherweise Fehler in der Kalibrierung dieser Helligkeiten aufzeigt. Die Diskussion thematisiert auch die Medienberichterstattung über die Studie und die Reaktionen der wissenschaftlichen Gemeinschaft.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "144-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 1138,
+        "startSec": 0,
+        "endSec": 4217,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 4197,
+        "generatedAt": "2026-01-04T22:03:25.471Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:03:25.471Z",
+  "transcriptFound": true,
+  "transcriptFile": "144-ts.json"
+}

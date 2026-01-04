@@ -1,0 +1,203 @@
+{
+  "episodeNumber": 361,
+  "title": "Mi361 – \"von der Scheiße in den Weltraum\"",
+  "extractedAt": "2026-01-04T19:24:14.804Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Vorsorgeuntersuchung",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Preventive Care"
+      },
+      "durationSec": 235,
+      "positionSec": 493,
+      "summary": "Im Podcast wird das Thema Krebsvorsorgeuntersuchung, insbesondere die Prostatakrebs-Vorsorge, angesprochen. Der Sprecher berichtet von seiner eigenen Erfahrung, da seine Eltern an Krebs verstorben sind und er sich frühzeitig untersuchen lassen wollte. Er erklärt, dass die Krankenkasse die Prostatakrebs-Vorsorge ab 40 Jahren bezahlt, jedoch auch eine frühere Untersuchung möglich ist, insbesondere bei familiärer Vorbelastung. Der Fokus hat sich von der klassischen Prostata-Abtastung hin zur Bestimmung des PSA-Werts verschoben, der frühzeitig auf mögliche Probleme hinweisen kann. Der Sprecher empfiehlt, sich regelmäßig untersuchen zu lassen, da Prostatakrebs gut behandelbar ist, wenn er früh erkannt wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "361-ts.json",
+        "method": "time-window",
+        "pickedCount": 58,
+        "startSec": 473,
+        "endSec": 748,
+        "generatedAt": "2026-01-04T19:26:24.831Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Göttingen und Quantenjahr",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Quantum Physics"
+      },
+      "durationSec": 1341,
+      "positionSec": 728,
+      "summary": "In dieser Episode wird Göttingen als bedeutender Ort für Naturwissenschaftler, insbesondere in der Quantenmechanik, hervorgehoben. Die zweite DPG Herbsttagung fand unter dem Motto \"hundert Jahre Quantenmechanik\" statt, was die historische Relevanz der Stadt unterstreicht. Der Sprecher berichtet von der Anwesenheit mehrerer Nobelpreisträger und seinem eigenen Symposium zur Wissenschaftskommunikation mit Harald Lesch. Zudem wird der Nobelpreisträger Friedhof in Göttingen erwähnt, auf dem bedeutende Wissenschaftler wie Max Born, Otto Hahn und Max Planck begraben sind.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "361-ts.json",
+        "method": "time-window",
+        "pickedCount": 338,
+        "startSec": 708,
+        "endSec": 2089,
+        "generatedAt": "2026-01-04T19:26:24.212Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Outer Wilds",
+      "subject": {
+        "coarse": "Gaming",
+        "fine": "Outer Wilds"
+      },
+      "durationSec": 226,
+      "positionSec": 2069,
+      "summary": "In der Episode 361 wird das Spiel 'Outer Wilds' ausführlich besprochen, das von den Sprechern als sehr positiv bewertet wird. Sie haben das Spiel durchgespielt und beschreiben das Ende als emotional und metaphysisch ansprechend. Es wird erwähnt, dass sie für das Durchspielen etwa 45 Stunden benötigt haben, was deutlich länger ist als die mediane Zeit von 17 Stunden, die auf einer Webseite angegeben ist. Das Spiel bietet viele Entdeckungen und fördert das gemeinsame Spielen in der Familie, was als bereichernd empfunden wird. Zudem wird auf ein Add-on zum Spiel hingewiesen, das sie bereits begonnen haben.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "361-ts.json",
+        "method": "time-window",
+        "pickedCount": 77,
+        "startSec": 2049,
+        "endSec": 2315,
+        "generatedAt": "2026-01-04T19:26:28.674Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Händchen halten",
+      "subject": {
+        "coarse": "Relationships",
+        "fine": "Affection"
+      },
+      "durationSec": 151,
+      "positionSec": 2295,
+      "summary": "Im Transkript-Ausschnitt wird das Thema \"Händchen halten\" in Beziehungen angesprochen. Es wird diskutiert, wie die Größe der Partner das Halten der Hände beeinflusst, wobei festgestellt wird, dass oft der größere Partner die Hand vorne hat. Der Sprecher und seine Frau haben verschiedene Kombinationen ausprobiert und festgestellt, dass die Handhaltung je nach Größe der Partner variieren kann. Es wird erwähnt, dass viele Männer die Hand vorne halten, was möglicherweise mit der allgemeinen Körpergröße der Partner zusammenhängt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "361-ts.json",
+        "method": "time-window",
+        "pickedCount": 54,
+        "startSec": 2275,
+        "endSec": 2466,
+        "generatedAt": "2026-01-04T19:26:28.427Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 1: \"Hymnologie im Glück\"",
+      "subject": {
+        "coarse": "Music",
+        "fine": "Hymnology"
+      },
+      "durationSec": 1572,
+      "positionSec": 2446,
+      "summary": "Im Podcast wird das Thema Hymnologie, die Wissenschaft der Hymnen, diskutiert. Der Begriff wird als wenig gebräuchlich beschrieben, jedoch wird die Bedeutung von Hymnen für das Gemeinschaftsgefühl hervorgehoben. Es wird auf verschiedene Kontexte eingegangen, in denen Hymnen eine Rolle spielen, wie Nationalhymnen, Firmenhymnen und Schullieder. Die Unterschiede zwischen den Hymnen verschiedener Länder werden thematisiert, wobei die italienische Hymne als fröhlich und die deutsche als eher steif wahrgenommen wird. Zudem wird die kulturelle Bedeutung von Hymnen und deren Einfluss auf das Selbstbild eines Landes angesprochen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "361-ts.json",
+        "method": "time-window",
+        "pickedCount": 332,
+        "startSec": 2426,
+        "endSec": 4038,
+        "generatedAt": "2026-01-04T19:26:32.469Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Snack",
+      "subject": {
+        "coarse": "Food",
+        "fine": "Snacks"
+      },
+      "durationSec": 200,
+      "positionSec": 4018,
+      "summary": "Der Transkript-Ausschnitt behandelt die einzigartige Fähigkeit von Wombats, würfelförmigen Kot zu produzieren. Diese anatomische Besonderheit ermöglicht es den Tieren, ihr Revier zu markieren, ohne dass der Kot wegrollt, was in ihrem natürlichen Lebensraum vorteilhaft ist. Die Würfelform wird durch unterschiedliche Abschnitte im Darm der Wombats erzeugt. Zudem wird angemerkt, dass diese Fähigkeit möglicherweise eine evolutionäre Anpassung darstellt, um die Verteidigung ihres Territoriums zu optimieren. Das Thema wechselt dann zu \"Spacebelts\", was auf eine humorvolle Verbindung zwischen den beiden Themen hinweist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "361-ts.json",
+        "method": "time-window",
+        "pickedCount": 56,
+        "startSec": 3998,
+        "endSec": 4238,
+        "generatedAt": "2026-01-04T19:26:33.014Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 2: \"Space Bells\"",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Space Bells"
+      },
+      "durationSec": 1546,
+      "positionSec": 4218,
+      "summary": "In der Episode wird das Thema \"Spacebelts\" angesprochen, das nicht um Glocken im Weltraum geht, sondern um die Wahrnehmung von Schall und anderen Wellen im All. Es wird erklärt, dass Schall im Weltraum nicht hörbar ist, da es dort keine Luft gibt. Zudem wird auf das Experiment mit einer Klingel unter einer Käseglocke verwiesen, das die Schallübertragung ohne Luft demonstriert. Der Fokus liegt auch auf Gravitationswellen, die als Verzerrungen der Raumzeit beschrieben werden und seit 2015 gemessen werden können. Es wird erwähnt, dass es mittlerweile über 220 Ereignisse von Gravitationswellen gibt, darunter Kollisionen von schwarzen Löchern und Neutronensternen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "361-ts.json",
+        "method": "time-window",
+        "pickedCount": 304,
+        "startSec": 4198,
+        "endSec": 5784,
+        "generatedAt": "2026-01-04T19:26:38.806Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwurbel der Woche",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Conspiracy"
+      },
+      "durationSec": 491,
+      "positionSec": 5764,
+      "summary": "In der Rubrik \"Schwurbel der Woche\" wird die Webseite Gluckerei vorgestellt, die Partnerrückführungen anbietet. Die Moderatoren kritisieren die Praktiken dieser Anbieter, die emotionale Notlagen ausnutzen, um Menschen mit gebrochenen Herzen zu helfen. Es wird auf die Methoden und Erfolgschancen hingewiesen, die jedoch als unseriös eingestuft werden. Ein Beispiel aus Düsseldorf zeigt, dass ein Hellseher für seine Dienstleistungen bis zu 20.000 Euro verlangte und letztlich vor Gericht verurteilt wurde, da das Gericht die Ausnutzung emotionaler Verletzlichkeit als sittenwidrig einstufte.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "361-ts.json",
+        "method": "time-window",
+        "pickedCount": 115,
+        "startSec": 5744,
+        "endSec": 6275,
+        "generatedAt": "2026-01-04T19:26:36.811Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:26:38.806Z",
+  "transcriptFound": true,
+  "transcriptFile": "361-ts.json"
+}

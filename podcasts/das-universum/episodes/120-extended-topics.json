@@ -1,0 +1,169 @@
+{
+  "episodeNumber": 120,
+  "title": "DU120 - Silvester mit Carl Sagan und dem Universum",
+  "extractedAt": "2026-01-04T19:27:33.292Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Weltraumteleskope und Nobelpreise",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Weltraumteleskope"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "120-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 2,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:57:06.077Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Raumfahrtmissionen zur Venus",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Venus"
+      },
+      "summary": "In der Episode wird die Raumsonde Juice (Jupiter Icy Moons Explorer) erwähnt, die am 31. August 2025 einen Swing-By bei der Venus durchführen wird. Juice hat bereits einen Swing-By bei der Erde-Mond-Kombination gemacht und wird in den kommenden Jahren weitere Swing-Bys bei der Erde durchführen, bevor sie 2031 den Jupiter erreicht. Die Diskussion umfasst auch die Raumsonde Lucy, die zu den Jupiter-Trojanern fliegt und am 20. April 2025 einen Flyby am Asteroid Donald Johansson haben wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "120-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 131,
+        "startSec": 0,
+        "endSec": 461,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 441,
+        "generatedAt": "2026-01-04T21:57:07.815Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Carl Sagan und Wissenschaftskommunikation",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Wissenschaftskommunikation"
+      },
+      "summary": "In dieser Episode wird Carl Sagan und seine Rolle in der Wissenschaftskommunikation thematisiert. Sagan war maßgeblich an der ersten wissenschaftlichen Analyse der Venus beteiligt, insbesondere durch die sowjetische Sonde Venera 1, die 1961 gestartet wurde. Sein Artikel \"The Planet Venus\" in der Zeitschrift Science gilt als wegweisend. Die Diskussion dreht sich auch um die aktuelle Forschung zur Venus, einschließlich der geplanten Mission \"Venus Life Finder\" von Rocket Lab, die 2025 starten soll, um nach möglichen Lebenszeichen in der Venusatmosphäre zu suchen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "120-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 495,
+        "startSec": 421,
+        "endSec": 2064,
+        "llmDetectedStartSec": 441,
+        "llmDetectedEndSec": 2044,
+        "generatedAt": "2026-01-04T21:57:09.557Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Leben auf der Venus",
+      "subject": {
+        "coarse": "Astrobiologie",
+        "fine": "Leben im All"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "120-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 2024,
+        "endSec": 1853,
+        "llmDetectedStartSec": 2044,
+        "llmDetectedEndSec": 1833,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Carl Sagans Einfluss auf die Wissenschaft",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Einfluss von Wissenschaftlern"
+      },
+      "summary": "Carl Sagan war ein Pionier in der Planetenwissenschaft und erkannte frühzeitig die extremen Bedingungen auf der Venus, die ein Leben dort unwahrscheinlich machen. In seinen Arbeiten, insbesondere einem Artikel über die Venus, stellte er fest, dass die Oberfläche zu heiß für Leben ist, während in den Wolken theoretisch kühlere Bedingungen herrschen könnten. Sagan sprach auch über die Möglichkeit des Terraformings der Venus, was damals als optimistisch galt. Zudem prägte er den sogenannten 'Sagan-Effekt', der die Skepsis gegenüber Wissenschaftlern beschreibt, die sich in der Wissenschaftskommunikation engagieren. Trotz seiner bedeutenden wissenschaftlichen Beiträge wurde er oft mehr als Promi-Wissenschaftler wahrgenommen, was ihm in der Fachwelt Kritik einbrachte.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "120-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 130,
+        "startSec": 1813,
+        "endSec": 2249,
+        "llmDetectedStartSec": 1833,
+        "llmDetectedEndSec": 2229,
+        "generatedAt": "2026-01-04T21:57:12.149Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Sagan Effekt",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Wissenschaftskommunikation"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "120-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 2209,
+        "endSec": 2179,
+        "llmDetectedStartSec": 2229,
+        "llmDetectedEndSec": 2159,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "SPHEREx Mission",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Weltraumteleskope"
+      },
+      "summary": "In dieser Episode wird die Bedeutung von Carl Sagan als Wissenschaftskommunikator hervorgehoben. Sagan wird als Pionier beschrieben, der Wissenschaft mit einer einzigartigen Intensität und Gravitas vermittelt hat. Es wird diskutiert, wie seine Art der Kommunikation, insbesondere in der Kosmos-Serie, Emotionen und Ehrfurcht für das Universum weckt. Die Gesprächsteilnehmer vergleichen Sagan mit modernen Wissenschaftskommunikatoren wie Neil deGrasse Tyson und Brian Cox, wobei sie betonen, dass Sagan eine besondere Fähigkeit hatte, komplexe Konzepte verständlich und berührend zu erklären. Zudem wird das berühmte Bild des 'Pale Blue Dot' erwähnt, das Sagan zu verdanken ist und dessen Bedeutung für die Wissenschaftskommunikation unterstrichen wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "120-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 510,
+        "startSec": 2139,
+        "endSec": 4106,
+        "llmDetectedStartSec": 2159,
+        "llmDetectedEndSec": 4086,
+        "generatedAt": "2026-01-04T21:57:15.087Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:57:15.087Z",
+  "transcriptFound": true,
+  "transcriptFile": "120-ts.json"
+}

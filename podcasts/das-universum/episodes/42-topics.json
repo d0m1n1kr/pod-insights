@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 42,
+  "title": "DU042 - Vagabundierende Planeten durchstreifen den Kosmos",
+  "extractedAt": "2026-01-04T19:19:02.791Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Vagabundierende Planeten",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Planeten"
+      }
+    },
+    {
+      "topic": "James Webb Weltraumteleskop",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Teleskope"
+      }
+    },
+    {
+      "topic": "Besiedelung des Mars",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Mars"
+      }
+    },
+    {
+      "topic": "Wissenschaftskommunikation",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Kommunikation"
+      }
+    },
+    {
+      "topic": "Entstehung von Planeten",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Planetensysteme"
+      }
+    }
+  ]
+}

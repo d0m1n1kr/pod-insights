@@ -36,7 +36,8 @@
       "logoUrl": "https://cre.fm/podlove/image/68747470733a2f2f6d656469612e6d6574616562656e652e6d652f6d656469612f6372652f6372652d6c6f676f2d3330303078333030302e6a7067/400/0/0/cre-technik-kultur-gesellschaft",
       "homeUrl": "https://cre.fm/",
       "feedUrl": "https://cre.fm/feed/mp3",
-      "archiveUrl": "https://cre.fm/archiv"
+      "archiveUrl": "https://cre.fm/archiv",
+      "disableSearch": true
     },
     {
       "id": "raumzeit",
@@ -45,7 +46,8 @@
       "logoUrl": "https://raumzeit-podcast.de/podlove/image/68747470733a2f2f6d656469612e6d6574616562656e652e6d652f6d656469612f7261756d7a6569742f7261756d7a6569742d69636f6e2d3134303078313430302e6a7067/400/0/0/raumzeit",
       "homeUrl": "https://raumzeit-podcast.de/",
       "feedUrl": "https://raumzeit-podcast.de/feed/mp3",
-      "archiveUrl": "https://raumzeit-podcast.de/archiv"
+      "archiveUrl": "https://raumzeit-podcast.de/archiv",
+      "disableSearch": true
     },
     {
       "id": "forschergeist",
@@ -54,8 +56,27 @@
       "logoUrl": "https://forschergeist.de/podlove/image/68747470733a2f2f6d656469612e6d6574616562656e652e6d652f6d656469612f666f72736368657267656973742f63692f666f72736368657267656973742d6c6f676f2d322e302d3330303078333030302e6a7067/400/0/0/forschergeist",
       "homeUrl": "https://forschergeist.de/",
       "feedUrl": "https://forschergeist.de/feed/m4a",
-      "archiveUrl": "https://forschergeist.de/archiv"
-    }   
+      "archiveUrl": "https://forschergeist.de/archiv",
+      "disableSearch": true
+    },
+    {
+      "id": "minkorrekt",
+      "name": "Methodisch inkorrekt",
+      "tabName": "FMI",
+      "logoUrl": "https://images.podigee-cdn.net/400x,sAe278zB72wclV_qBRelQo3LhtQRAkk1anBxT6pXIRiU=/https://main.podigee-cdn.net/uploads/u2487/3b770887-f0fd-4624-a4ca-4bae86246264.jpg",
+      "homeUrl": "https://minkorrekt.de/",
+      "feedUrl": "https://minkorrekt.podigee.io/feed/mp3",
+      "disableSpeakers": true,
+      "disableSearch": true
+    },
+    {
+      "id": "das-universum",
+      "name": "Das Universum",
+      "tabName": "FdU",
+      "logoUrl": "https://images.podigee-cdn.net/400x,sJwxa_81LegsW2afx1qf-MG_EZhkyPKyvDZ1QtYtDgwY=/https://main.podigee-cdn.net/uploads/u4340/8b0651ab-3c4d-46e0-b68d-eb4248677332.png",
+      "homeUrl": "https://dasuniversum.podigee.io/",
+      "feedUrl": "https://dasuniversum.podigee.io/feed/mp3"
+    }           
   ]
 }
 

@@ -1,0 +1,1030 @@
+{
+  "createdAt": "2026-01-04T22:45:54.604851+00:00",
+  "method": "hdbscan-v2",
+  "embeddingModel": "text-embedding-3-large",
+  "embeddingsCreatedAt": "2026-01-04T22:26:46.873Z",
+  "totalTopics": 1012,
+  "uniqueTopics": 909,
+  "settings": {
+    "clusters": 48,
+    "outlierThreshold": 0.9,
+    "linkageMethod": "hdbscan(min_cluster_size=2, min_samples=2)",
+    "useRelevanceWeighting": true
+  },
+  "statistics": {
+    "clusterCount": 48,
+    "outlierCount": 0,
+    "outlierPercentage": "0.0%"
+  },
+  "clusters": [
+    {
+      "id": "dunkle-materie-und-schwarze-löcher",
+      "name": "Dunkle Materie und schwarze Löcher",
+      "description": "20 Topics in 29 Episoden",
+      "isOutlier": false,
+      "topicCount": 20,
+      "episodeCount": 29,
+      "relevanceSec": 11514,
+      "sampleTopics": [
+        "Schwarze Löcher",
+        "Dunkle Materie",
+        "Schwarze Löcher und dunkle Materie",
+        "Dunkle Materie und ihre Rolle",
+        "Dunkle Materie und schwarze Löcher"
+      ],
+      "episodes": [
+        7,
+        9,
+        17,
+        20,
+        22,
+        24,
+        34,
+        36,
+        45,
+        51,
+        60,
+        64,
+        65,
+        67,
+        69,
+        72,
+        73,
+        75,
+        78,
+        80,
+        83,
+        86,
+        88,
+        91,
+        105,
+        115,
+        116,
+        117,
+        119
+      ]
+    },
+    {
+      "id": "science-fiction-filme",
+      "name": "Science-Fiction-Filme",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 4691,
+      "sampleTopics": [
+        "Evis Sommer Science-Fiction-Film-Tipp",
+        "Science-Fiction-Film-Tipp",
+        "Science-Fiction-Filme 2025"
+      ],
+      "episodes": [
+        81,
+        83,
+        121
+      ]
+    },
+    {
+      "id": "wissenschaftsfilme",
+      "name": "Wissenschaftsfilme",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 3599,
+      "sampleTopics": [
+        "Film 'Interstellar'",
+        "Einstein und Eddington Film"
+      ],
+      "episodes": [
+        78,
+        145
+      ]
+    },
+    {
+      "id": "science-busters",
+      "name": "Science Busters",
+      "description": "4 Topics in 13 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 13,
+      "relevanceSec": 3320,
+      "sampleTopics": [
+        "Science Busters Buch",
+        "Buch der Science Busters",
+        "Science Busters TV Aufzeichnungen",
+        "Neues Buch der Science Busters"
+      ],
+      "episodes": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        101,
+        108,
+        109,
+        110,
+        111,
+        112,
+        132,
+        138
+      ]
+    },
+    {
+      "id": "galaxienforschung",
+      "name": "Galaxienforschung",
+      "description": "7 Topics in 7 Episoden",
+      "isOutlier": false,
+      "topicCount": 7,
+      "episodeCount": 7,
+      "relevanceSec": 3255,
+      "sampleTopics": [
+        "Zwerggalaxien",
+        "Verschwinden eines Riesensterns",
+        "Leben in Zwerggalaxien",
+        "Unmögliche Galaxien",
+        "Tod einer Galaxie"
+      ],
+      "episodes": [
+        1,
+        5,
+        39,
+        73,
+        86,
+        131,
+        143
+      ]
+    },
+    {
+      "id": "james-webb-teleskop",
+      "name": "James-Webb-Teleskop",
+      "description": "6 Topics in 11 Episoden",
+      "isOutlier": false,
+      "topicCount": 6,
+      "episodeCount": 11,
+      "relevanceSec": 3102,
+      "sampleTopics": [
+        "James Webb Space Telescope",
+        "James-Webb-Weltraumteleskop",
+        "James Webb Weltraumteleskop",
+        "James-Webb-Teleskop",
+        "James-Webb-Weltraumteleskop Entdeckungen"
+      ],
+      "episodes": [
+        16,
+        34,
+        40,
+        42,
+        43,
+        44,
+        49,
+        64,
+        93,
+        108,
+        129
+      ]
+    },
+    {
+      "id": "kosmologie",
+      "name": "Kosmologie",
+      "description": "8 Topics in 8 Episoden",
+      "isOutlier": false,
+      "topicCount": 8,
+      "episodeCount": 8,
+      "relevanceSec": 2672,
+      "sampleTopics": [
+        "Zentrum des Universums",
+        "Der Urknall und was davor war",
+        "Energieerhaltung im Universum",
+        "Ursprung von schwarzen Löchern",
+        "Urknall"
+      ],
+      "episodes": [
+        11,
+        14,
+        19,
+        22,
+        23,
+        87,
+        141,
+        142
+      ]
+    },
+    {
+      "id": "außerirdische-intelligenz",
+      "name": "Außerirdische Intelligenz",
+      "description": "8 Topics in 7 Episoden",
+      "isOutlier": false,
+      "topicCount": 8,
+      "episodeCount": 7,
+      "relevanceSec": 2400,
+      "sampleTopics": [
+        "Suche nach intelligenten außerirdischen Wesen",
+        "SETI und die Suche nach Aliens",
+        "außerirdisches Leben",
+        "Technosignaturen und außerirdisches Leben",
+        "Forschung zu Aliens"
+      ],
+      "episodes": [
+        6,
+        17,
+        21,
+        57,
+        65,
+        71,
+        90
+      ]
+    },
+    {
+      "id": "milchstraße",
+      "name": "Milchstraße",
+      "description": "6 Topics in 6 Episoden",
+      "isOutlier": false,
+      "topicCount": 6,
+      "episodeCount": 6,
+      "relevanceSec": 2153,
+      "sampleTopics": [
+        "Aussehen der Milchstraße",
+        "Struktur der Milchstraße",
+        "Anblick der Milchstraße",
+        "Milchstraße",
+        "Fäden in der Milchstraße"
+      ],
+      "episodes": [
+        7,
+        12,
+        23,
+        49,
+        80,
+        134
+      ]
+    },
+    {
+      "id": "universumsexpansion",
+      "name": "Universumsexpansion",
+      "description": "3 Topics in 9 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 9,
+      "relevanceSec": 2127,
+      "sampleTopics": [
+        "Expansion des Universums",
+        "Expansion des Weltalls",
+        "Expansion des Alls"
+      ],
+      "episodes": [
+        14,
+        26,
+        38,
+        51,
+        65,
+        73,
+        74,
+        127,
+        144
+      ]
+    },
+    {
+      "id": "astronomiestudium",
+      "name": "Astronomiestudium",
+      "description": "4 Topics in 6 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 6,
+      "relevanceSec": 1800,
+      "sampleTopics": [
+        "Arbeit und Studium in der Astronomie",
+        "Astronomiestudium",
+        "Mathematik im Astronomiestudium",
+        "Erfahrungen von Astronomie-Studierenden"
+      ],
+      "episodes": [
+        5,
+        23,
+        25,
+        28,
+        38,
+        100
+      ]
+    },
+    {
+      "id": "beteigeuze-phänomene",
+      "name": "Beteigeuze-Phänomene",
+      "description": "5 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 5,
+      "relevanceSec": 1765,
+      "sampleTopics": [
+        "Die Dunkelheit von Beteigeuze",
+        "Beteigeuze und seine unerklärlichen Veränderungen",
+        "Beteigeuze und seine Verdunkelung",
+        "Beteigeuze und seine mögliche Begleiter",
+        "Der junge Stern und Beteigeuze"
+      ],
+      "episodes": [
+        3,
+        5,
+        30,
+        114,
+        142
+      ]
+    },
+    {
+      "id": "gravitationstheorie",
+      "name": "Gravitationstheorie",
+      "description": "6 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 6,
+      "episodeCount": 5,
+      "relevanceSec": 1553,
+      "sampleTopics": [
+        "Gravitation und ihre Auswirkungen",
+        "Geschwindigkeit der Gravitation",
+        "Gravitation und Lichtgeschwindigkeit",
+        "Neue Studie zu Gravitationsgesetzen",
+        "modifizierte Newtonsche Dynamik"
+      ],
+      "episodes": [
+        3,
+        23,
+        88,
+        93,
+        118
+      ]
+    },
+    {
+      "id": "neutrinoastronomie",
+      "name": "Neutrinoastronomie",
+      "description": "5 Topics in 5 Episoden",
+      "isOutlier": false,
+      "topicCount": 5,
+      "episodeCount": 5,
+      "relevanceSec": 1500,
+      "sampleTopics": [
+        "Neutrinoastronomie",
+        "Sterile Neutrinos und dunkle Materie",
+        "Neutrinos und ihre Eigenschaften",
+        "Neutrinobild der Milchstraße",
+        "Fragen zur Milchstraße und Neutrinos"
+      ],
+      "episodes": [
+        15,
+        20,
+        53,
+        86,
+        115
+      ]
+    },
+    {
+      "id": "robotik-ethische-fragen",
+      "name": "Robotik-Ethische Fragen",
+      "description": "4 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 3,
+      "relevanceSec": 1456,
+      "sampleTopics": [
+        "Menschlichkeit von Robotern",
+        "Robotergesetze von Isaac Asimov",
+        "Ethik in der Robotik",
+        "Roboter und Roboterleben"
+      ],
+      "episodes": [
+        73,
+        74,
+        132
+      ]
+    },
+    {
+      "id": "astrobiologie",
+      "name": "Astrobiologie",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 1401,
+      "sampleTopics": [
+        "Wissenschaftliche Fragen zu Leben auf der Erde",
+        "Panspermie und die Wahrscheinlichkeit des Lebens aus dem All",
+        "Leben aus dem All",
+        "Herausforderungen beim Nachweis von Leben"
+      ],
+      "episodes": [
+        90,
+        95,
+        103,
+        129
+      ]
+    },
+    {
+      "id": "oort-wolke",
+      "name": "Oort-Wolke",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 1387,
+      "sampleTopics": [
+        "Oortsche Wolke",
+        "Oort-Spirale",
+        "Oortschen Wolke"
+      ],
+      "episodes": [
+        12,
+        125,
+        138
+      ]
+    },
+    {
+      "id": "trojaner-asteroiden",
+      "name": "Trojaner-Asteroiden",
+      "description": "4 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 3,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "NASA-Sonde Lucy und Trojaner-Asteroiden",
+        "Trojaner-Asymmetrie und Umlaufbahnen",
+        "Trojaner-Asteroiden",
+        "Trojaner-Asymmetrie"
+      ],
+      "episodes": [
+        37,
+        39,
+        70
+      ]
+    },
+    {
+      "id": "gamma-blitze",
+      "name": "Gamma-Blitze",
+      "description": "4 Topics in 1 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 1,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Weihnachtsblitz",
+        "Gammablitze",
+        "Gammaastronomie",
+        "Vorhersage von Gammablitzen"
+      ],
+      "episodes": [
+        67
+      ]
+    },
+    {
+      "id": "osiris-rex-mission",
+      "name": "OSIRIS-REx Mission",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Weltraummission OSIRIS-REx",
+        "OSIRIS-REx und Asteroid Bennu",
+        "OSIRIS-REx Mission"
+      ],
+      "episodes": [
+        9,
+        88,
+        90,
+        96
+      ]
+    },
+    {
+      "id": "himmelskörperbewegung",
+      "name": "Himmelskörperbewegung",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Bewegung der Himmelskörper",
+        "Sternbewegung",
+        "Bewegung von Sternen",
+        "Bewegung der Sterne"
+      ],
+      "episodes": [
+        11,
+        17,
+        26,
+        110
+      ]
+    },
+    {
+      "id": "himmelsereignisse",
+      "name": "Himmelsereignisse",
+      "description": "4 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 3,
+      "relevanceSec": 1200,
+      "sampleTopics": [
+        "Sonneneruption",
+        "Marsfinsternis",
+        "Sonnenfinsternis auf der Erde",
+        "Sonnenfinsternis auf dem Mars"
+      ],
+      "episodes": [
+        46,
+        54,
+        102
+      ]
+    },
+    {
+      "id": "mythologie-und-astronomie",
+      "name": "Mythologie und Astronomie",
+      "description": "3 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 4,
+      "relevanceSec": 1004,
+      "sampleTopics": [
+        "Mythen der Plejaden",
+        "Griechische Mythologie in der Astronomie",
+        "Sternenhimmel der Menschheit"
+      ],
+      "episodes": [
+        17,
+        28,
+        33,
+        122
+      ]
+    },
+    {
+      "id": "asteroideneinschläge",
+      "name": "Asteroideneinschläge",
+      "description": "4 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 3,
+      "relevanceSec": 940,
+      "sampleTopics": [
+        "Fragen zu Asteroideneinschlägen",
+        "Einfluss von Asteroideneinschlägen auf die Erde",
+        "Kollision mit der Erde",
+        "Folgen eines großen Asteroideneinschlags"
+      ],
+      "episodes": [
+        10,
+        109,
+        124
+      ]
+    },
+    {
+      "id": "science-fiction-astronomie",
+      "name": "Science-Fiction & Astronomie",
+      "description": "4 Topics in 4 Episoden",
+      "isOutlier": false,
+      "topicCount": 4,
+      "episodeCount": 4,
+      "relevanceSec": 920,
+      "sampleTopics": [
+        "Einfluss der Science-Fiction auf das Astronomiestudium",
+        "Einfluss von Science Fiction auf die Wissenschaft",
+        "Science Fiction in der Astronomie",
+        "Einfälle in Science Fiction"
+      ],
+      "episodes": [
+        33,
+        41,
+        69,
+        144
+      ]
+    },
+    {
+      "id": "plejaden",
+      "name": "Plejaden",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 908,
+      "sampleTopics": [
+        "Sternenpopulationen",
+        "Plejaden",
+        "Plejaden Sternhaufen"
+      ],
+      "episodes": [
+        15,
+        17,
+        145
+      ]
+    },
+    {
+      "id": "per-lastenrad-durch-die-galaxis",
+      "name": "Per Lastenrad durch die Galaxis",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Ruths Buch 'Per Lastenrad durch die Galaxis'",
+        "Ruths Buch: Per Lastenrad durch die Galaxis",
+        "Ruth's Buch über die Galaxis"
+      ],
+      "episodes": [
+        36,
+        84,
+        85
+      ]
+    },
+    {
+      "id": "exoplaneten-wasp",
+      "name": "Exoplaneten WASP",
+      "description": "3 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 2,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Flauschiger Planet WASP-107b",
+        "WASP 107b und Wolken aus Sand",
+        "WASP 43b und flüssiges Gestein"
+      ],
+      "episodes": [
+        92,
+        108
+      ]
+    },
+    {
+      "id": "gravitationswellen",
+      "name": "Gravitationswellen",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Gravitationswellen und schwarze Löcher",
+        "Gravitationswellen",
+        "Gravitationswellenhintergrund"
+      ],
+      "episodes": [
+        1,
+        34,
+        83
+      ]
+    },
+    {
+      "id": "chang-e-6-mission",
+      "name": "Chang’e-6 Mission",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Chang’e-6",
+        "Chang’e 6 Mondmission",
+        "Chang’e 6 Mission"
+      ],
+      "episodes": [
+        103,
+        106,
+        107
+      ]
+    },
+    {
+      "id": "artemis-missionen",
+      "name": "Artemis-Missionen",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Artemis I",
+        "Artemis II Crew",
+        "Artemis II Mission"
+      ],
+      "episodes": [
+        65,
+        75,
+        94
+      ]
+    },
+    {
+      "id": "polarlichter-und-sterne",
+      "name": "Polarlichter und Sterne",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Polarsterne auf anderen Himmelskörpern",
+        "Beobachtung der Polarlichter",
+        "Polarlichter und Kometen"
+      ],
+      "episodes": [
+        28,
+        104,
+        115
+      ]
+    },
+    {
+      "id": "mikroorganismen-bücher",
+      "name": "Mikroorganismen Bücher",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Florians Buch: Eine Geschichte der Welt in 100 Mikroorganismen",
+        "Florian's Buch über Mikroorganismen",
+        "Florians neues Buch über Mikroorganismen"
+      ],
+      "episodes": [
+        84,
+        85,
+        112
+      ]
+    },
+    {
+      "id": "österreichische-meteoriten",
+      "name": "Österreichische Meteoriten",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Meteor über Österreich",
+        "Meteorit in Österreich",
+        "Meteorit aus Ischgl"
+      ],
+      "episodes": [
+        12,
+        34,
+        105
+      ]
+    },
+    {
+      "id": "klimakrise",
+      "name": "Klimakrise",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Klimakrise und ihre Auswirkungen",
+        "Klimakrise und CO2",
+        "Klimakrise und Energiewende"
+      ],
+      "episodes": [
+        36,
+        46,
+        61
+      ]
+    },
+    {
+      "id": "schleimpilze",
+      "name": "Schleimpilze",
+      "description": "3 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 2,
+      "relevanceSec": 900,
+      "sampleTopics": [
+        "Schleimpilze",
+        "Kosmologie der Schleimpilze",
+        "Intelligenz von Schleimpilzen"
+      ],
+      "episodes": [
+        31,
+        113
+      ]
+    },
+    {
+      "id": "marsrover-perseverance",
+      "name": "Marsrover Perseverance",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 802,
+      "sampleTopics": [
+        "Marsrover Perseverance und Bohrproben",
+        "Marsrover Perseverance",
+        "Marsrover Perseverance und seine Entdeckungen"
+      ],
+      "episodes": [
+        33,
+        54,
+        140
+      ]
+    },
+    {
+      "id": "venus-exploration",
+      "name": "Venus-Exploration",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 799,
+      "sampleTopics": [
+        "Vulkanismus auf der Venus",
+        "Raumfahrtmissionen zur Venus",
+        "Zukünftige Raumsonden zur Venus"
+      ],
+      "episodes": [
+        74,
+        120,
+        133
+      ]
+    },
+    {
+      "id": "galaxienbeobachtung",
+      "name": "Galaxienbeobachtung",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 678,
+      "sampleTopics": [
+        "Beobachtung ferner Galaxien",
+        "Beobachtungsmethoden in der Astronomie",
+        "Beobachtung von Galaxien"
+      ],
+      "episodes": [
+        53,
+        72,
+        143
+      ]
+    },
+    {
+      "id": "exoplaneten-forschung",
+      "name": "Exoplaneten-Forschung",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 654,
+      "sampleTopics": [
+        "Entdeckung extragalaktischer Planeten",
+        "Exoplaneten Entdeckung",
+        "Suche nach extragalaktischen Planeten"
+      ],
+      "episodes": [
+        8,
+        48,
+        143
+      ]
+    },
+    {
+      "id": "asteroid-city-und-aliens",
+      "name": "Asteroid City und Aliens",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 640,
+      "sampleTopics": [
+        "Film 'Asteroid City' und Aliens",
+        "Science Fiction und Asteroideneinschläge",
+        "Science Fiction und außerirdische Yetis"
+      ],
+      "episodes": [
+        86,
+        124,
+        129
+      ]
+    },
+    {
+      "id": "asteroidenforschung",
+      "name": "Asteroidenforschung",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 620,
+      "sampleTopics": [
+        "Interstellare Asteroiden",
+        "Asteroiden",
+        "Asteroiden und Raumsonden"
+      ],
+      "episodes": [
+        12,
+        44,
+        123
+      ]
+    },
+    {
+      "id": "mondmissionen",
+      "name": "Mondmissionen",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Mondlandung",
+        "Umfallende Sonden auf dem Mond",
+        "Raumsonden auf dem Mond"
+      ],
+      "episodes": [
+        96,
+        99,
+        126
+      ]
+    },
+    {
+      "id": "astronauten-karriere",
+      "name": "Astronauten Karriere",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "ESA Bewerbung und Astronauten",
+        "Astronautinnen Update",
+        "NASA und Hobby-Astronauten"
+      ],
+      "episodes": [
+        26,
+        32,
+        119
+      ]
+    },
+    {
+      "id": "himmelsscheibe-planetarium",
+      "name": "Himmelsscheibe & Planetarium",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 600,
+      "sampleTopics": [
+        "Kulturelle Bedeutung der Himmelsscheibe",
+        "Kulturelle Bedeutung des Planetariums"
+      ],
+      "episodes": [
+        29,
+        89
+      ]
+    },
+    {
+      "id": "johannes-kepler",
+      "name": "Johannes Kepler",
+      "description": "3 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 2,
+      "relevanceSec": 340,
+      "sampleTopics": [
+        "Johannes Kepler und seine Entdeckungen",
+        "Kepler und seine Gesetze",
+        "Geschichte von Johannes Kepler"
+      ],
+      "episodes": [
+        107,
+        130
+      ]
+    },
+    {
+      "id": "jupiter-und-saturn-monde",
+      "name": "Jupiter und Saturn Monde",
+      "description": "3 Topics in 3 Episoden",
+      "isOutlier": false,
+      "topicCount": 3,
+      "episodeCount": 3,
+      "relevanceSec": 300,
+      "sampleTopics": [
+        "Neue Jupitermonde",
+        "Neue Saturnmonde",
+        "Asteroideneinschläge auf Jupiter"
+      ],
+      "episodes": [
+        71,
+        126,
+        144
+      ]
+    },
+    {
+      "id": "wissenschaftsfilme",
+      "name": "Wissenschaftsfilme",
+      "description": "2 Topics in 2 Episoden",
+      "isOutlier": false,
+      "topicCount": 2,
+      "episodeCount": 2,
+      "relevanceSec": 40,
+      "sampleTopics": [
+        "Film 'Agora' und Astronomie",
+        "Filme über Wissenschaft"
+      ],
+      "episodes": [
+        131,
+        146
+      ]
+    }
+  ]
+}

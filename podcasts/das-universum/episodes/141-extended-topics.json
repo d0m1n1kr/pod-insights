@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 141,
+  "title": "DU141 - Die Supernova lichtet den Staubschleier der Überriesen",
+  "extractedAt": "2026-01-04T19:29:44.063Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Rote Überriesen",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sterne"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "141-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 14,
+        "startSec": 7,
+        "endSec": 49,
+        "llmDetectedStartSec": 27,
+        "llmDetectedEndSec": 29,
+        "generatedAt": "2026-01-04T22:02:23.801Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Supernova-Vorläuferstern",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Supernova"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "141-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 14,
+        "startSec": 9,
+        "endSec": 47,
+        "llmDetectedStartSec": 29,
+        "llmDetectedEndSec": 27,
+        "generatedAt": "2026-01-04T22:02:24.158Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Interstellarer Komet 3I/ATLAS",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Kometen"
+      },
+      "summary": "In der Episode 141 des Podcasts \"Das Universum\" wird der interstellare Komet 3I/ATLAS besprochen, der aus einem anderen Sternsystem stammt und aktuell unser Sonnensystem passiert. Der Komet wurde von der ESA ExoMars und Mars Express beobachtet, jedoch war die Beobachtung aufgrund der großen Entfernung von 30 Millionen Kilometern und der Dunkelheit des Kometen herausfordernd. Während die ExoMars-Sonde einige Bilder aufnehmen konnte, waren diese nicht besonders aussagekräftig. Interessante Daten wurden jedoch vom Neil Garrels Swift Observatory gesammelt, das ursprünglich für die Beobachtung von Gamma-Blitzen konzipiert wurde.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "141-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 253,
+        "startSec": 7,
+        "endSec": 854,
+        "llmDetectedStartSec": 27,
+        "llmDetectedEndSec": 834,
+        "generatedAt": "2026-01-04T22:02:27.921Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Asteroidenabwehr",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Asteroiden"
+      },
+      "summary": "In der Episode wird das Thema Asteroidenabwehr behandelt, insbesondere im Hinblick auf den Asteroiden 2024 YR4, der eine Kollision mit dem Mond haben könnte. Es wird diskutiert, dass eine Kollision mit der Erde zwar ausgeschlossen ist, aber die Möglichkeit besteht, dass der Asteroid mit dem Mond kollidiert, was wissenschaftlich interessant wäre. Um eine solche Kollision zu verhindern, werden verschiedene Methoden erörtert, darunter kinetische Impakt-Techniken und die Möglichkeit, den Asteroiden durch Explosionen abzulenken. Es wird betont, dass eine frühzeitige Entdeckung und die Bestimmung der Masse des Asteroiden entscheidend sind, um geeignete Maßnahmen zu ergreifen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "141-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 135,
+        "startSec": 814,
+        "endSec": 1258,
+        "llmDetectedStartSec": 834,
+        "llmDetectedEndSec": 1238,
+        "generatedAt": "2026-01-04T22:02:29.873Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Staub in Galaxien",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Galaxien"
+      },
+      "summary": "In der Episode wird die Supernova in der Galaxie NGC 1637 behandelt, die am 29. Juni 2025 beobachtet wurde. Diese Supernova könnte Antworten auf das Problem der roten Überriesen liefern. Supernova-Explosionen sind sehr hell und können über große Entfernungen, wie 30 Millionen Lichtjahre, gesehen werden. Der Prozess, der zu einer Supernova führt, ist oft unbekannt, aber durch die Analyse historischer Daten könnten Astronomen den Vorläuferstern identifizieren, was in der Vergangenheit bereits mehrfach gelungen ist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "141-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 376,
+        "startSec": 1218,
+        "endSec": 2523,
+        "llmDetectedStartSec": 1238,
+        "llmDetectedEndSec": 2503,
+        "generatedAt": "2026-01-04T22:02:32.627Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Energieerhaltung im expandierenden Universum",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Kosmologie"
+      },
+      "summary": "In dieser Episode wird die Energieerhaltung im Kontext des expandierenden Universums diskutiert. Ruth erklärt, dass die Energieerhaltung ein Konzept ist, das für abgeschlossene Systeme gilt, während das Universum selbst kein solches System ist. Sie betont, dass die Rotverschiebung und die scheinbare Überlichtgeschwindigkeit von Objekten im Universum Missverständnisse hervorrufen können, da nichts tatsächlich mit Überlichtgeschwindigkeit reist. Zudem wird auf die Rolle von roten Überriesen und Supernovae in der Elementproduktion eingegangen, wobei festgestellt wird, dass schwere Elemente wie Gold nicht in roten Riesen, sondern in heftigeren Ereignissen wie Neutronenstern-Kollisionen entstehen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "141-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 182,
+        "startSec": 2483,
+        "endSec": 3163,
+        "llmDetectedStartSec": 2503,
+        "llmDetectedEndSec": 3143,
+        "generatedAt": "2026-01-04T22:02:36.853Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Farbe des Himmels",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Atmosphäre"
+      },
+      "summary": "In dieser Episode wird die Frage von Teresa, einer zehnjährigen Astronomie-Interessierten, behandelt, ob ein Planet tagsüber einen rosaroten Himmel haben kann. Florian erklärt, dass dies möglich ist, und verweist auf den Mars, dessen Staub in der Atmosphäre das Licht anders streut und somit einen rötlichen Himmel erzeugt. Auch der Titan, der größte Mond des Saturn, hat eine orangene Atmosphäre. Die Farbe des Himmels hängt von der Zusammensetzung der Atmosphäre und der Streuung des Lichts ab, wobei fast jede Farbe möglich ist, außer grün.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "141-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 62,
+        "startSec": 3123,
+        "endSec": 3332,
+        "llmDetectedStartSec": 3143,
+        "llmDetectedEndSec": 3312,
+        "generatedAt": "2026-01-04T22:02:38.883Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Goldproduktion durch Sterne",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Elemente"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "141-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 3292,
+        "endSec": 2839,
+        "llmDetectedStartSec": 3312,
+        "llmDetectedEndSec": 2819,
+        "note": "no-excerpt"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:02:38.883Z",
+  "transcriptFound": true,
+  "transcriptFile": "141-ts.json"
+}

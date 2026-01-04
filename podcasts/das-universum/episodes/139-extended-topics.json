@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 139,
+  "title": "DU139 - Bier und die wässrige Aktivität der Asteroiden",
+  "extractedAt": "2026-01-04T19:29:29.603Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Wasser auf der Erde durch Asteroiden",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Asteroiden"
+      },
+      "summary": "In der Episode wird diskutiert, wie Wasser auf die Erde gelangte, insbesondere durch Einschläge von Asteroiden und Kometen in der Frühzeit des Sonnensystems. Es wird erklärt, dass die Erde bei ihrer Entstehung zu heiß war, um flüssiges Wasser an der Oberfläche zu halten, und dass der Großteil des heutigen Oberflächenwassers aus dem Weltall stammt, hauptsächlich von Asteroiden. Der Asteroid Ryugu, auch als Drachenpalast bekannt, wurde von der Raumsonde Hayabusa 2 besucht, die Bodenproben sammelte. Diese Proben werden analysiert, um das Alter des Gesteins zu bestimmen und die wässrige Aktivität der Asteroiden zu untersuchen, wobei radioaktive Zerfallsprozesse eine Rolle spielen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "139-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 204,
+        "startSec": 1383,
+        "endSec": 2057,
+        "llmDetectedStartSec": 1403,
+        "llmDetectedEndSec": 2037,
+        "generatedAt": "2026-01-04T22:01:54.230Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Asteroid Ryugu und seine Wasserhaltigkeit",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Asteroiden"
+      },
+      "summary": "Der Asteroid Ryugu kann Wasser länger halten als bisher angenommen, was bedeutet, dass er möglicherweise mehr Wasser zur Erde gebracht hat, als zuvor geschätzt – um den Faktor zwei bis drei. Es gibt jedoch viele offene Fragen zu den genauen Wasserquellen und der Häufigkeit von Einschlägen. Auch der Asteroid Bennu, der 2020 von der NASA-Sonde Osiris Rex besucht wurde, hat an Bedeutung gewonnen. Die Proben von Bennu, die 2023 auf die Erde kamen, könnten weitere Erkenntnisse über die Wasserhaltigkeit und die Entstehung von Planeten liefern.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "139-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 77,
+        "startSec": 2017,
+        "endSec": 2282,
+        "llmDetectedStartSec": 2037,
+        "llmDetectedEndSec": 2262,
+        "generatedAt": "2026-01-04T22:01:53.514Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Asteroid Bennu und seine Entstehungsgeschichte",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Asteroiden"
+      },
+      "summary": "Der Asteroid Bennu, der 2020 von der NASA-Sonde Osiris Rex besucht wurde, hat 2023 Proben zur Erde gebracht. Diese Proben enthalten komplexe Moleküle, die Bestandteile von DNA und RNA sind. Neue Studien haben die Kollisionsgeschichte von Bennu rekonstruiert, was zeigt, dass er aus Fragmenten besteht, die nach mehreren Kollisionen wieder zusammengefunden haben. Die Analyse der Proben ermöglicht es, unterschiedliche Gesteinsarten und deren Ursprünge zu klassifizieren, was Rückschlüsse auf die Entstehung des Asteroiden und seine Herkunft in Bezug auf die Sonne zulässt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "139-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 58,
+        "startSec": 2242,
+        "endSec": 2421,
+        "llmDetectedStartSec": 2262,
+        "llmDetectedEndSec": 2401,
+        "generatedAt": "2026-01-04T22:01:57.405Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Film 'Die Astronautin' und der Konflikt zwischen Beruf und Karriere",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Film"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "139-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 412,
+        "startSec": 2381,
+        "endSec": 3745,
+        "llmDetectedStartSec": 2401,
+        "llmDetectedEndSec": 3725,
+        "generatedAt": "2026-01-04T22:01:55.790Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Ruths Auszeichnung mit dem Hanno und Ruth Roelin-Preis",
+      "subject": {
+        "coarse": "Gesellschaft",
+        "fine": "Auszeichnungen"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "139-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 3705,
+        "endSec": 20,
+        "llmDetectedStartSec": 3725,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:01:57.405Z",
+  "transcriptFound": true,
+  "transcriptFile": "139-ts.json"
+}

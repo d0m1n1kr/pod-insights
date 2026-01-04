@@ -107,6 +107,13 @@ async fn main() -> Result<()> {
     let episode_topics_map_cache = Cache::builder()
         .max_capacity(20)
         .build();
+    
+    // Episode files cache: up to 5000 episodes, 1 hour TTL
+    let episode_files_cache = Cache::builder()
+        .max_capacity(5000)
+        .time_to_live(Duration::from_secs(3600))
+        .time_to_idle(Duration::from_secs(1800))
+        .build();
 
     let app_state = AppState {
         cfg: cfg.clone(),
@@ -119,6 +126,7 @@ async fn main() -> Result<()> {
         speakers_index_cache,
         speaker_meta_cache,
         episode_topics_map_cache,
+        episode_files_cache,
     };
 
     // Pre-cache all embedding databases

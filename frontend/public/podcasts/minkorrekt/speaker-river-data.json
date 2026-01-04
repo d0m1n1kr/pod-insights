@@ -1,0 +1,289 @@
+{
+  "generatedAt": "2026-01-04T21:09:09.539Z",
+  "description": "Speaker River Daten für Freak Show Podcast - Speaker aggregiert nach Jahren",
+  "statistics": {
+    "totalSpeakers": 11,
+    "totalEpisodes": 15,
+    "totalAppearances": 31,
+    "totalDurationHours": 29.17,
+    "yearRange": {
+      "start": 2025,
+      "end": 2025
+    },
+    "years": [
+      2025
+    ],
+    "topSpeakersByEpisodeCount": [
+      {
+        "id": "nikolas",
+        "name": "Nikolas",
+        "count": 12
+      },
+      {
+        "id": "rainer",
+        "name": "Rainer",
+        "count": 4
+      },
+      {
+        "id": "reinhard",
+        "name": "Reinhard",
+        "count": 3
+      },
+      {
+        "id": "echter",
+        "name": "Echter",
+        "count": 3
+      },
+      {
+        "id": "speaker-1",
+        "name": "Speaker 1",
+        "count": 2
+      },
+      {
+        "id": "reiner",
+        "name": "Reiner",
+        "count": 2
+      },
+      {
+        "id": "bastian",
+        "name": "Bastian",
+        "count": 1
+      },
+      {
+        "id": "ole",
+        "name": "Ole",
+        "count": 1
+      },
+      {
+        "id": "nicolas",
+        "name": "Nicolas",
+        "count": 1
+      },
+      {
+        "id": "reini",
+        "name": "Reini",
+        "count": 1
+      }
+    ]
+  },
+  "speakers": [
+    {
+      "id": "nikolas",
+      "name": "Nikolas",
+      "totalEpisodes": 12,
+      "totalDurationHours": 23.51,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 12,
+          "durationHours": 23.51,
+          "episodes": [
+            360,
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            368,
+            370,
+            371,
+            373,
+            374
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rainer",
+      "name": "Rainer",
+      "totalEpisodes": 4,
+      "totalDurationHours": 8.17,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 4,
+          "durationHours": 8.17,
+          "episodes": [
+            362,
+            363,
+            365,
+            374
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reinhard",
+      "name": "Reinhard",
+      "totalEpisodes": 3,
+      "totalDurationHours": 5.51,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 3,
+          "durationHours": 5.51,
+          "episodes": [
+            361,
+            369,
+            370
+          ]
+        }
+      ]
+    },
+    {
+      "id": "echter",
+      "name": "Echter",
+      "totalEpisodes": 3,
+      "totalDurationHours": 5.37,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 3,
+          "durationHours": 5.37,
+          "episodes": [
+            367,
+            369,
+            371
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speaker-1",
+      "name": "Speaker 1",
+      "totalEpisodes": 2,
+      "totalDurationHours": 3.66,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 2,
+          "durationHours": 3.66,
+          "episodes": [
+            366,
+            372
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reiner",
+      "name": "Reiner",
+      "totalEpisodes": 2,
+      "totalDurationHours": 4.38,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 2,
+          "durationHours": 4.38,
+          "episodes": [
+            368,
+            373
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bastian",
+      "name": "Bastian",
+      "totalEpisodes": 1,
+      "totalDurationHours": 1.93,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 1.93,
+          "episodes": [
+            360
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ole",
+      "name": "Ole",
+      "totalEpisodes": 1,
+      "totalDurationHours": 2.06,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 2.06,
+          "episodes": [
+            362
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nicolas",
+      "name": "Nicolas",
+      "totalEpisodes": 1,
+      "totalDurationHours": 2.03,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 2.03,
+          "episodes": [
+            364
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reini",
+      "name": "Reini",
+      "totalEpisodes": 1,
+      "totalDurationHours": 1.98,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 1.98,
+          "episodes": [
+            367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speaker-0",
+      "name": "Speaker 0",
+      "totalEpisodes": 1,
+      "totalDurationHours": 1.77,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 1.77,
+          "episodes": [
+            372
+          ]
+        }
+      ]
+    }
+  ]
+}

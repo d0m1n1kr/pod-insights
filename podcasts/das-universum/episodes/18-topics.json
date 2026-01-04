@@ -1,0 +1,57 @@
+{
+  "episodeNumber": 18,
+  "title": "DU018 - Aufbruch zum Mars",
+  "extractedAt": "2026-01-04T19:16:40.370Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Mars Exploration",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Mars"
+      }
+    },
+    {
+      "topic": "Mars Rovers and Helicopter",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Rovers"
+      }
+    },
+    {
+      "topic": "Atmospheric Studies on Mars",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Atmosphere"
+      }
+    },
+    {
+      "topic": "Terraforming Mars",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Terraforming"
+      }
+    },
+    {
+      "topic": "Discovery of New Gas on Mars",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Atmospheric Chemistry"
+      }
+    },
+    {
+      "topic": "Planetary Migration",
+      "subject": {
+        "coarse": "Astronomy",
+        "fine": "Planetary Science"
+      }
+    },
+    {
+      "topic": "Ice Giants: Uranus and Neptune",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Ice Giants"
+      }
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 118,
+  "title": "DU118 - Wo ist die Tür zum Sonnensystem?",
+  "extractedAt": "2026-01-04T19:27:18.006Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Eingang ins Sonnensystem",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sonnensystem"
+      },
+      "summary": "In dieser Episode wird der Eingang ins Sonnensystem diskutiert, insbesondere die Lagrange-Punkte L1 und L2, die sich 3,81 Lichtjahre von der Sonne entfernt befinden. Diese Punkte sind entscheidend, um in die Hill-Sphäre des Sonnensystems zu gelangen, da sie die Bedingungen schaffen, die es ermöglichen, in das Sonnensystem einzutreten. Florian erklärt, dass man sich auf einer Linie mit dem Zentrum der Milchstraße befinden muss, um die erforderlichen Kraftbedingungen zu erfüllen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "118-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 26,
+        "startSec": 2316,
+        "endSec": 2414,
+        "llmDetectedStartSec": 2336,
+        "llmDetectedEndSec": 2394,
+        "generatedAt": "2026-01-04T21:56:35.228Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Interstellare Tunnel",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Raumzeit"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "118-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 2374,
+        "endSec": 1073,
+        "llmDetectedStartSec": 2394,
+        "llmDetectedEndSec": 1053,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Dauerhafter Einfang interstellarer Objekte",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Gravitation"
+      },
+      "summary": "In der Episode wird die Frage erörtert, wie interstellare Objekte dauerhaft in das Sonnensystem eingefangen werden können. Florian und Ruth diskutieren über die Herausforderungen, die mit der Einfangung von Himmelskörpern wie Kometen oder Asteroiden verbunden sind, und betonen, dass die Geschwindigkeit und der richtige Zeitpunkt entscheidend sind. Sie erwähnen das interstellare Objekt Oumuamua als Beispiel für einen temporären Einfang und stellen die wissenschaftliche Arbeit \"Permanent Capture into the Solar System\" vor, die sich mit den Bedingungen für einen dauerhaften Einfang beschäftigt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "118-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 154,
+        "startSec": 1033,
+        "endSec": 1586,
+        "llmDetectedStartSec": 1053,
+        "llmDetectedEndSec": 1566,
+        "generatedAt": "2026-01-04T21:56:35.605Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Computersimulationen in der Astronomie",
+      "subject": {
+        "coarse": "Technologie",
+        "fine": "Simulation"
+      },
+      "summary": "In der Episode wird das Konzept des Permanent Capture into the Solar System behandelt, das sich mit der dauerhaften Einfangmechanik von Himmelskörpern im Sonnensystem beschäftigt. Florian erklärt, dass die Wissenschaft, insbesondere die Himmelsmechanik, sich mit Computersimulationen auseinandersetzt, um die Dynamik dieser Einfangprozesse zu verstehen. Dabei werden oft numerische Berechnungen mit Zeitlimits verwendet, um zu bestimmen, ob ein Himmelskörper, wie ein vagabundierender Planet, dauerhaft von der Sonne eingefangen werden kann. Es wird betont, dass nicht nur die Sonne, sondern auch die Wechselwirkungen zwischen den Himmelskörpern entscheidend sind.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "118-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 23,
+        "startSec": 1546,
+        "endSec": 1626,
+        "llmDetectedStartSec": 1566,
+        "llmDetectedEndSec": 1606,
+        "generatedAt": "2026-01-04T21:56:39.248Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Gravitationswechselwirkungen",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Gravitation"
+      },
+      "summary": "In diesem Transkript-Ausschnitt wird das Thema der Gravitationswechselwirkungen zwischen der Sonne und einem vagabundierenden Planeten behandelt. Florian erklärt, dass ein solcher Planet, der frei durch die Milchstraße fliegt und nicht in einer gebundenen Konfiguration zur Sonne steht, nicht eingefangen werden kann. Es wird betont, dass die beiden Himmelskörper, die Sonne und der Planet, zu Beginn nicht in einer stabilen Umlaufbahn zueinander sind, was bedeutet, dass der Planet niemals von selbst beginnen wird, die Sonne zu umkreisen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "118-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 16,
+        "startSec": 1586,
+        "endSec": 1639,
+        "llmDetectedStartSec": 1606,
+        "llmDetectedEndSec": 1619,
+        "generatedAt": "2026-01-04T21:56:39.657Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kepler-Energie",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Energie"
+      },
+      "summary": "In dieser Episode wird das Konzept der Kepler-Energie diskutiert, insbesondere im Zusammenhang mit der Möglichkeit, vagabundierende Planeten in das Sonnensystem einzufangen. Florian erklärt, dass ein solcher Planet, der mit hoher Geschwindigkeit durch die Milchstraße fliegt, nicht von selbst in eine gebundene Umlaufbahn um die Sonne gelangen kann. Um eingefangen zu werden, muss der Planet Energie verlieren, was durch gravitative Wechselwirkungen mit anderen Objekten, wie zum Beispiel Jupiter oder der gesamten Milchstraße, geschehen kann. Der schwache Einfang bezieht sich auf den Wechsel der Kepler-Energie eines Objekts von positiv zu negativ, was bedeutet, dass es an die Sonne gebunden wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "118-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 98,
+        "startSec": 1599,
+        "endSec": 1939,
+        "llmDetectedStartSec": 1619,
+        "llmDetectedEndSec": 1919,
+        "generatedAt": "2026-01-04T21:56:43.159Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Hill-Sphäre",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Gravitation"
+      },
+      "summary": "In diesem Transkript-Ausschnitt wird die Hill-Sphäre erklärt, die den Bereich beschreibt, in dem die Gravitation eines Himmelskörpers, wie der Erde, stärker ist als die eines anderen Körpers, wie der Sonne. Florian erläutert, dass die Hill-Sphäre eine gedachte Kugel um ein Objekt ist, innerhalb derer dieses Objekt, wie die Erde, das dominierende gravitative Objekt ist. Der Hillradius der Erde beträgt etwa 1,5 Millionen Kilometer, was bedeutet, dass der Mond, der 400.000 Kilometer entfernt ist, innerhalb der Hillsphäre der Erde bleibt und sie umkreist. Wenn der Mond weiter entfernt wäre, könnte er die Sonne eigenständig umkreisen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "118-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 50,
+        "startSec": 1899,
+        "endSec": 2064,
+        "llmDetectedStartSec": 1919,
+        "llmDetectedEndSec": 2044,
+        "generatedAt": "2026-01-04T21:56:43.648Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Jacobi-Konstante",
+      "subject": {
+        "coarse": "Mathematik",
+        "fine": "Dynamik"
+      },
+      "summary": "Die Jacobi-Konstante ist eine Erhaltungsgröße im eingeschränkten Dreikörperproblem, ähnlich wie Energie- und Massenerhaltung. Sie spielt eine wichtige Rolle bei der Bestimmung der Bewegungsfreiheit eines Objekts in einem rotierenden Bezugssystem und ist entscheidend für die Lage der Lagrange-Punkte. Diese Punkte sind die Orte, an denen die Kräfte von zwei Himmelskörpern auf einen dritten Körper im Gleichgewicht sind und markieren das Ende der Hill-Sphäre. Der Hillradius der Erde beträgt beispielsweise 1,5 Millionen Kilometer, während der Hill-Radius der Internationalen Raumstation (ISS) nur 1,20 Meter beträgt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "118-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 51,
+        "startSec": 2024,
+        "endSec": 2208,
+        "llmDetectedStartSec": 2044,
+        "llmDetectedEndSec": 2188,
+        "generatedAt": "2026-01-04T21:56:46.426Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:56:46.427Z",
+  "transcriptFound": true,
+  "transcriptFile": "118-ts.json"
+}

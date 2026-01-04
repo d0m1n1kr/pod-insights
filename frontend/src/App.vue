@@ -46,15 +46,39 @@ const searchTabName = computed(() => {
   return currentPodcast.value?.tabName || t('nav.search');
 });
 
+const showSearchTab = computed(() => {
+  return !currentPodcast.value?.disableSearch;
+});
+
+const showSpeakerTabs = computed(() => {
+  return !currentPodcast.value?.disableSpeakers;
+});
+
 const selectPodcast = async (podcastId: string) => {
+  // Check if search is disabled for the new podcast and user is on search tab
+  const newPodcast = settingsStore.availablePodcasts.find(p => p.id === podcastId);
+  const isOnSearchTab = route.name === 'search';
+  
   // Update URL with podcast parameter
-  await router.push({ 
-    ...route, 
-    query: { 
-      ...route.query, 
-      podcast: podcastId 
-    } 
-  });
+  const newQuery = { 
+    ...route.query, 
+    podcast: podcastId 
+  };
+  
+  // If switching to a podcast without search and currently on search tab, redirect to episodes
+  if (newPodcast?.disableSearch && isOnSearchTab) {
+    await router.push({ 
+      name: 'episodeSearch',
+      query: newQuery,
+      replace: true
+    });
+  } else {
+    // Update URL with podcast parameter (keep current route name)
+    await router.push({ 
+      name: route.name || 'episodeSearch',
+      query: newQuery
+    });
+  }
   showPodcastDropdown.value = false;
 };
 
@@ -284,15 +308,17 @@ const submitAIChat = async () => {
               <div class="flex">
                 <button
                   type="submit"
-                  class="px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition-colors border-y border-r border-blue-600"
+                  class="px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition-colors border-y border-l border-blue-600"
+                  :class="showSearchTab ? 'border-r-0 rounded-l-lg' : 'border-r rounded-r-lg'"
                   :title="t('app.searchEpisodes')"
                 >
                   {{ t('app.searchEpisodes') }}
                 </button>
                 <button
+                  v-if="showSearchTab"
                   type="button"
                   @click="submitAIChat"
-                  class="px-3 py-2 bg-purple-600 hover:bg-purple-700 text-white text-sm font-semibold transition-colors rounded-r-lg border border-purple-600"
+                  class="px-3 py-2 bg-purple-600 hover:bg-purple-700 text-white text-sm font-semibold transition-colors rounded-r-lg border-y border-r border-purple-600 border-l-0"
                   :title="t('app.askAI')"
                 >
                   {{ t('app.askAI') }}
@@ -341,6 +367,7 @@ const submitAIChat = async () => {
               {{ t('nav.topics') }}
             </router-link>
             <router-link
+              v-if="showSpeakerTabs"
               to="/speakers-river"
               :class="[
                 'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap',
@@ -352,6 +379,7 @@ const submitAIChat = async () => {
               {{ t('nav.speakers') }}
             </router-link>
             <router-link
+              v-if="showSpeakerTabs"
               to="/cluster-heatmap"
               :class="[
                 'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap',
@@ -363,6 +391,7 @@ const submitAIChat = async () => {
               {{ t('nav.speakerClusters') }}
             </router-link>
             <router-link
+              v-if="showSpeakerTabs"
               to="/cluster-cluster-heatmap"
               :class="[
                 'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap',
@@ -374,6 +403,7 @@ const submitAIChat = async () => {
               {{ t('nav.clusterCluster') }}
             </router-link>
             <router-link
+              v-if="showSpeakerTabs"
               to="/speaker-speaker-heatmap"
               :class="[
                 'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap',
@@ -396,10 +426,11 @@ const submitAIChat = async () => {
               {{ t('nav.duration') }}
             </router-link>
             <router-link
+              v-if="showSearchTab"
               to="/search"
               :class="[
                 'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap inline-flex items-center gap-1.5',
-                activeView === 'search' 
+                activeView === 'search'
                   ? 'border-blue-500 text-blue-600 dark:text-blue-400' 
                   : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
               ]"

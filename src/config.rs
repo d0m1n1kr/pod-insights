@@ -5,7 +5,7 @@ use moka::future::Cache;
 use reqwest::Client;
 use serde::Deserialize;
 
-use crate::cache::{CachedEpisodeList, CachedEpisodeMetadata, CachedEpisodeTopicsMap, CachedRagIndex, CachedSpeakerMeta, CachedSpeakerProfile, CachedSpeakersIndex};
+use crate::cache::{CachedEpisodeFiles, CachedEpisodeList, CachedEpisodeMetadata, CachedEpisodeTopicsMap, CachedRagIndex, CachedSpeakerMeta, CachedSpeakerProfile, CachedSpeakersIndex};
 
 #[derive(Debug, Deserialize, Clone)]
 pub struct SettingsFile {
@@ -179,5 +179,6 @@ pub struct AppState {
     pub speakers_index_cache: Cache<String, CachedSpeakersIndex>,
     pub speaker_meta_cache: Cache<(String, String), CachedSpeakerMeta>,
     pub episode_topics_map_cache: Cache<String, CachedEpisodeTopicsMap>,
+    pub episode_files_cache: Cache<(String, u32), CachedEpisodeFiles>,
 }
 

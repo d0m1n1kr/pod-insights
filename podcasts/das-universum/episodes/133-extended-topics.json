@@ -1,0 +1,102 @@
+{
+  "episodeNumber": 133,
+  "title": "DU133 - 5 Jahre “Das Universum” und ein Blick auf die Raumsonden und Teleskope der Zukunft",
+  "extractedAt": "2026-01-04T19:28:53.785Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Zukünftige Raumsonden zur Venus",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Venus Missions"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "133-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 10,
+        "startSec": 0,
+        "endSec": 38,
+        "llmDetectedStartSec": 7,
+        "llmDetectedEndSec": 18,
+        "generatedAt": "2026-01-04T22:00:17.972Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Neue Teleskope und deren Entwicklungen",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Telescopes"
+      },
+      "summary": "Im Podcast wird über zukünftige Entwicklungen in der Raumfahrt und neue Teleskope gesprochen. Besonders im Fokus steht die Raumsonde Europaclipper, die im April 2030 den Jupitermond Europa erreichen soll. Zudem wird die Möglichkeit von Venusmissionen thematisiert, da die Venus in den 2030er Jahren verstärkt erforscht werden könnte. Es wird auch auf die Raumsonde Juice hingewiesen, die im August 2023 auf dem Weg zum Jupiter einen Vorbeiflug an der Venus machen wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "133-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 353,
+        "startSec": 0,
+        "endSec": 1151,
+        "llmDetectedStartSec": 18,
+        "llmDetectedEndSec": 1131,
+        "generatedAt": "2026-01-04T22:00:20.060Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Film: Das fünfte Element",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Film Analysis"
+      },
+      "summary": "In der Episode wird über zukünftige Teleskope und Raumsonden diskutiert, insbesondere über das Extremely Large Telescope, das 250-mal mehr Licht als das Hubble-Weltraumteleskop sammeln kann und dessen erste wissenschaftliche Beobachtungen für Dezember 2030 geplant sind. Weitere erwähnte Teleskope sind das Nancy Grace Roman-Teleskop, das 2027 gestartet werden soll, und Euclid, das bereits im Weltraum ist und bis 2030 eineinhalb Milliarden Galaxien beobachten wird. Auch das Vera Rubin Observatory wird erwähnt, dessen erste Bilder am 23. Juni 2023 enthüllt wurden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "133-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 575,
+        "startSec": 1111,
+        "endSec": 3143,
+        "llmDetectedStartSec": 1131,
+        "llmDetectedEndSec": 3123,
+        "generatedAt": "2026-01-04T22:00:21.800Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Jubiläumsfeierlichkeiten und Veranstaltungen",
+      "subject": {
+        "coarse": "Events",
+        "fine": "Podcast Celebrations"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "133-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 3103,
+        "endSec": 20,
+        "llmDetectedStartSec": 3123,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:00:21.800Z",
+  "transcriptFound": true,
+  "transcriptFile": "133-ts.json"
+}

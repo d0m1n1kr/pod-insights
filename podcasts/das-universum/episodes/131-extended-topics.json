@@ -1,0 +1,211 @@
+{
+  "episodeNumber": 131,
+  "title": "DU131 - Zeitreisen im rotierenden Universum",
+  "extractedAt": "2026-01-04T19:28:42.222Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Zeitreisen im rotierenden Universum",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Zeitreisen"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "131-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": null,
+        "endSec": null,
+        "llmDetectionFailed": true,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Sparpläne der NASA",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "NASA"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "131-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 3,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:59:47.663Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Das Ende des Universums",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Kosmologie"
+      },
+      "summary": "Im Podcast wird über die aktuellen Herausforderungen der NASA und deren Budgetkürzungen diskutiert, die sich negativ auf zukünftige Missionen auswirken könnten. Besonders betroffen sind die Artemis-Missionen und die Mars Sample Return Mission, die möglicherweise gestrichen werden. Die NASA plant, vor China wieder Menschen auf den Mond zu bringen, was die Prioritäten der Raumfahrt beeinflusst. Die Diskussion beleuchtet die Spannungen zwischen menschlicher Erkundung und wissenschaftlicher Forschung im Weltraum.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "131-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 438,
+        "startSec": 0,
+        "endSec": 1683,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 1663,
+        "generatedAt": "2026-01-04T21:59:49.199Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Hypatia und antike Astronomie",
+      "subject": {
+        "coarse": "Geschichte",
+        "fine": "Astronomie"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "131-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 1643,
+        "endSec": 20,
+        "llmDetectedStartSec": 1663,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Hawking-Strahlung",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Schwarze Löcher"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "131-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 326,
+        "startSec": 0,
+        "endSec": 1270,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 1250,
+        "generatedAt": "2026-01-04T21:59:49.425Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Hörerfragen zur Oortschen Wolke",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Oortsche Wolke"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "131-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 728,
+        "startSec": 1230,
+        "endSec": 4019,
+        "llmDetectedStartSec": 1250,
+        "llmDetectedEndSec": 3999,
+        "generatedAt": "2026-01-04T21:59:51.043Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Lagrange-Punkte",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Gravitationsfelder"
+      },
+      "summary": "Lagrange-Punkte sind mathematische Punkte in einem System, in denen sich Objekte stabil halten können. Sie sind nicht nur Punkte, sondern Regionen, in denen sich Raumsonden und andere Objekte in Umlaufbahnen bewegen. Beispielsweise befinden sich trojanische Asteroiden des Jupiters in der Nähe der Lagrange-Punkte L4 und L5. Der Lagrange-Punkt L2 ist für die Astronomie besonders attraktiv, da er sich im Erdschatten befindet und dort mehrere Raumfahrzeuge wie das James-Webb-Space-Teleskop und Gaia stationiert sind. Diese Raumfahrzeuge befinden sich in Umlaufbahnen um den L2-Punkt, was zeigt, dass mehrere Objekte in der Nähe eines Lagrange-Punkts untergebracht werden können.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "131-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 82,
+        "startSec": 3979,
+        "endSec": 4281,
+        "llmDetectedStartSec": 3999,
+        "llmDetectedEndSec": 4261,
+        "generatedAt": "2026-01-04T21:59:53.186Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Lunarstationäre Umlaufbahn",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Umlaufbahnen"
+      },
+      "summary": "Im Transkript wird das Konzept der luna stationären Umlaufbahn diskutiert, die sich aufgrund der langsamen Rotation des Mondes von der geostationären Umlaufbahn der Erde unterscheidet. Ruth erklärt, dass ein Raumfahrzeug in einer solchen Umlaufbahn über dem Mond immer denselben Punkt auf der Mondoberfläche beobachten würde, was jedoch bedeutet, dass dieser Punkt weit entfernt sein müsste, da die Erde im Weg ist. Sie beschreibt, dass man vom Mond aus die Erde nicht auf- oder untergehen sehen kann, da sie immer an derselben Stelle am Himmel bleibt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "131-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 36,
+        "startSec": 4241,
+        "endSec": 4379,
+        "llmDetectedStartSec": 4261,
+        "llmDetectedEndSec": 4359,
+        "generatedAt": "2026-01-04T21:59:54.420Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Film 'Agora' und Astronomie",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Film"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "131-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 4339,
+        "endSec": 20,
+        "llmDetectedStartSec": 4359,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:59:54.420Z",
+  "transcriptFound": true,
+  "transcriptFile": "131-ts.json"
+}

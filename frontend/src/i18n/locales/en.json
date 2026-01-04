@@ -41,7 +41,13 @@
     "titleByPodcast": {
       "freakshow": "Ask the Freak Show",
       "lnp": "Ask Logbuch:Netzpolitik",
-      "ukw": "Ask UKW"
+      "ukw": "Ask UKW",
+      "das-universum": "Ask the Universe",
+      "cre": "Ask CRE",
+      "raumzeit": "Ask Raumzeit",
+      "forschergeist": "Ask Forschergeist",
+      "minkorrekt": "Ask Methodisch inkorrekt",
+      "wrint-wissenschaft": "Ask Science"
     },
     "queryLabel": "Query:",
     "placeholder": "Enter question...",
@@ -78,6 +84,36 @@
       },
       "ukw": {
         "neutral1": "UKW: What's the situation in Ukraine?"
+      },
+      "das-universum": {
+        "neutral1": "Neutral: What are exoplanets and how do you find them?",
+        "persona1": "Florian: What are Lagrange points actually?",
+        "discussion1": "Ruth VS Florian: Should we search for extraterrestrial life?"
+      },
+      "cre": {
+        "neutral1": "Neutral: What's the current state of AI development?",
+        "persona1": "Tim Pritlove: How do you see the future of podcasting?",
+        "discussion1": "Tim Pritlove VS Guest: What's better, open source or proprietary software?"
+      },
+      "raumzeit": {
+        "neutral1": "Neutral: What are the latest findings about Mars?",
+        "persona1": "Tim Pritlove: How does spaceflight technology work?",
+        "discussion1": "Tim Pritlove VS Guest: Should we fly to Mars?"
+      },
+      "forschergeist": {
+        "neutral1": "Neutral: How does scientific work function today?",
+        "persona1": "Tim Pritlove: What are the biggest challenges in science?",
+        "discussion1": "Tim Pritlove VS Guest: How should science be communicated?"
+      },
+      "minkorrekt": {
+        "neutral1": "Neutral: What's new and exciting in science?",
+        "persona1": "Nikolas: What are your Ig Nobel Prize favorites?",
+        "discussion1": "Nikolas VS Rainer: What do you think of homeopathy?"
+      },
+      "wrint-wissenschaft": {
+        "neutral1": "Neutral: What are the latest findings in climate research?",
+        "persona1": "Holger Klein: How do you explain complex science understandably?",
+        "discussion1": "Holger Klein VS Guest: How should science communication work?"
       }
     },
     "discussionMode": {

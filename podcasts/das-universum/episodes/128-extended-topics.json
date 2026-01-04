@@ -1,0 +1,150 @@
+{
+  "episodeNumber": 128,
+  "title": "DU128 - Das schwarze Loch frisst seinen kleinen Freund",
+  "extractedAt": "2026-01-04T19:28:20.816Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Hubble Tension",
+      "subject": {
+        "coarse": "Astrophysics",
+        "fine": "Cosmology"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "128-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 73,
+        "startSec": 22,
+        "endSec": 256,
+        "llmDetectedStartSec": 42,
+        "llmDetectedEndSec": 236,
+        "generatedAt": "2026-01-04T21:58:58.055Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwarzes Loch im Zentrum der Milchstraße",
+      "subject": {
+        "coarse": "Astrophysics",
+        "fine": "Black Holes"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "128-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 549,
+        "startSec": 216,
+        "endSec": 2385,
+        "llmDetectedStartSec": 236,
+        "llmDetectedEndSec": 2365,
+        "generatedAt": "2026-01-04T21:58:57.897Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Hyperschnelle Sterne",
+      "subject": {
+        "coarse": "Astrophysics",
+        "fine": "Stellar Dynamics"
+      },
+      "summary": "Im Transkript-Ausschnitt wird über Hyper-Velocity-Sterne gesprochen, die in den letzten Millionen Jahren aus ihrer Umgebung geschleudert wurden. Ruth erwähnt, dass es möglicherweise noch zusätzliche Hyper-Velocity-Sterne gibt, die sich versteckt haben. Zudem wird die Frage nach der Herkunft eines Intermediate-Mass-Blackholes aufgeworfen, das als nicht ganz supermassiv beschrieben wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "128-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 10,
+        "startSec": 2345,
+        "endSec": 2382,
+        "llmDetectedStartSec": 2365,
+        "llmDetectedEndSec": 2362,
+        "generatedAt": "2026-01-04T21:59:00.962Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Sci-Fi-Film 'Sie leben'",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Film Analysis"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "128-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 545,
+        "startSec": 2342,
+        "endSec": 4332,
+        "llmDetectedStartSec": 2362,
+        "llmDetectedEndSec": 4312,
+        "generatedAt": "2026-01-04T21:58:59.638Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Kosmologische Konstante",
+      "subject": {
+        "coarse": "Astrophysics",
+        "fine": "Cosmology"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "128-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 4292,
+        "endSec": 20,
+        "llmDetectedStartSec": 4312,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Fragen aus der Hörerschaft",
+      "subject": {
+        "coarse": "Science Communication",
+        "fine": "Public Engagement"
+      },
+      "summary": "In dieser Episode des Podcasts \"Das Universum\" diskutieren Ruth und Florian verschiedene Themen aus der Astronomie und Wissenschaftskommunikation. Sie stellen die Webseite \"Space Telescope Live\" vor, die Informationen über die Beobachtungen der Weltraumteleskope Hubble und James Webb bereitstellt. Ruth erwähnt die Beobachtungen von GNZ11, einer der ersten Galaxien im Universum, und die Herausforderungen bei der Datenverarbeitung von Infrarotlicht. Zudem wird die Hubble-Tension thematisiert, die sich aus unterschiedlichen Messungen der Expansionsrate des Universums ergibt, und die neuesten Erkenntnisse von Supernova-Messungen werden diskutiert.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "128-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 1148,
+        "startSec": 0,
+        "endSec": 4332,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 4312,
+        "generatedAt": "2026-01-04T21:59:04.861Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:59:04.861Z",
+  "transcriptFound": true,
+  "transcriptFile": "128-ts.json"
+}

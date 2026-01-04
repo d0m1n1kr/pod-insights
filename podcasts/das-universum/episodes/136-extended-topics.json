@@ -1,0 +1,107 @@
+{
+  "episodeNumber": 136,
+  "title": "DU136 - Polarlichter auf dem Mars",
+  "extractedAt": "2026-01-04T19:29:09.906Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Polarlichter auf dem Mars",
+      "subject": {
+        "coarse": "Astronomy",
+        "fine": "Planetary Science"
+      },
+      "summary": "Im Transkript wird diskutiert, dass der Mars, obwohl er kein globales Magnetfeld hat, Polarlichter aufweisen kann. Diese entstehen durch Protonen, die von der Sonne kommen und mit der Ionosphäre des Mars interagieren. Anders als auf der Erde, wo Elektronen die Hauptursache für Polarlichter sind, sind die Mars-Polarlichter Protonenauroren, die auch tagsüber sichtbar sein können. Der Rover Perseverance hat tatsächlich Polarlichter auf dem Mars fotografiert, insbesondere die grünen Sauerstoffpolarlichter, die nach einem Sonnenausbruch im Jahr 2024 beobachtet wurden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "136-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 140,
+        "startSec": 90,
+        "endSec": 642,
+        "llmDetectedStartSec": 110,
+        "llmDetectedEndSec": 622,
+        "generatedAt": "2026-01-04T22:01:02.009Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Miyake-Ereignisse",
+      "subject": {
+        "coarse": "Astronomy",
+        "fine": "Solar Activity"
+      },
+      "summary": "Das Miyake-Ereignis bezieht sich auf einen prähistorischen Mega-Sonnensturm, der um 12.350 v. Chr. stattfand und durch eine Anhäufung von C14 in Baumringen nachgewiesen werden kann. Ruth und Florian diskutieren, wie dieser Ausbruch durch kosmische Strahlung verursacht wurde und welche Auswirkungen er auf die Erde hatte. Sie erwähnen, dass das Ereignis 500 Mal stärker war als das stärkste moderne Ereignis von 2005. Xenia Golubenko von der Oulu-Universität hat ein chemisches Klimamodell entwickelt, um die Einflüsse solcher Sonnenstürme auf das Klima in der Eiszeit zu rekonstruieren.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "136-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 125,
+        "startSec": 602,
+        "endSec": 1112,
+        "llmDetectedStartSec": 622,
+        "llmDetectedEndSec": 1092,
+        "generatedAt": "2026-01-04T22:01:02.519Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Krötenexplosion in Hamburg",
+      "subject": {
+        "coarse": "Biology",
+        "fine": "Animal Behavior"
+      },
+      "summary": "Im Jahr 2005 kam es in Hamburg-Altona zu einem ungewöhnlichen Phänomen, das als \"Kröten-Explosionen\" bezeichnet wurde. Innerhalb weniger Tage starben etwa 1000 Erdkröten, die sich aus unbekannten Gründen mit Luft aufpumpten und dann explodierten. Eine Theorie besagt, dass die Kröten während der Paarungszeit durch ihre Umgebung abgelenkt waren, was es Krähen ermöglichte, ihre Leber zu fressen. Aufgrund des fehlenden Zwerchfells und der damit verbundenen Druckveränderungen in ihrem Körper kam es zu diesen Explosionen. Die genauen Ursachen bleiben jedoch unklar.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "136-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 66,
+        "startSec": 1072,
+        "endSec": 1326,
+        "llmDetectedStartSec": 1092,
+        "llmDetectedEndSec": 1306,
+        "generatedAt": "2026-01-04T22:01:06.988Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Sci-Fi-Sommerrätsel",
+      "subject": {
+        "coarse": "Entertainment",
+        "fine": "Science Fiction"
+      },
+      "summary": "In dieser Episode wird über die Möglichkeit einer Gegenerde diskutiert, die sich auf der gegenüberliegenden Seite der Sonne befinden könnte. Ruth und Florian erklären, dass aufgrund der elliptischen Erdbahn eine solche Erde nicht stabil sein könnte und dass ihre Gravitationskraft bereits entdeckt worden wäre. Zudem wird das Programm 'Universe Sandbox' erwähnt, mit dem man Simulationen von Himmelskörpern und deren Interaktionen durchführen kann. Das Thema Sonnenstürme und deren Auswirkungen auf die Infrastruktur, insbesondere Nordatlantik-Unterseekabel, wird ebenfalls angesprochen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "136-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 209,
+        "startSec": 1286,
+        "endSec": 2013,
+        "llmDetectedStartSec": 1306,
+        "llmDetectedEndSec": 1993,
+        "generatedAt": "2026-01-04T22:01:06.002Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:01:06.988Z",
+  "transcriptFound": true,
+  "transcriptFile": "136-ts.json"
+}

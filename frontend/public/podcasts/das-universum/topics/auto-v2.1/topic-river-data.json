@@ -1,0 +1,4504 @@
+{
+  "generatedAt": "2026-01-04T22:45:54.667Z",
+  "description": "Topic River Daten für Freak Show Podcast - Main Topics aggregiert nach Jahren",
+  "statistics": {
+    "totalTopics": 47,
+    "yearRange": {
+      "start": 2020,
+      "end": 2025
+    },
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "topicsByEpisodeCount": [
+      {
+        "id": "dunkle-materie-und-schwarze-löcher",
+        "name": "Dunkle Materie und schwarze Löcher",
+        "count": 29
+      },
+      {
+        "id": "science-busters",
+        "name": "Science Busters",
+        "count": 13
+      },
+      {
+        "id": "james-webb-teleskop",
+        "name": "James-Webb-Teleskop",
+        "count": 11
+      },
+      {
+        "id": "universumsexpansion",
+        "name": "Universumsexpansion",
+        "count": 9
+      },
+      {
+        "id": "kosmologie",
+        "name": "Kosmologie",
+        "count": 8
+      },
+      {
+        "id": "galaxienforschung",
+        "name": "Galaxienforschung",
+        "count": 7
+      },
+      {
+        "id": "außerirdische-intelligenz",
+        "name": "Außerirdische Intelligenz",
+        "count": 7
+      },
+      {
+        "id": "milchstraße",
+        "name": "Milchstraße",
+        "count": 6
+      },
+      {
+        "id": "astronomiestudium",
+        "name": "Astronomiestudium",
+        "count": 6
+      },
+      {
+        "id": "beteigeuze-phänomene",
+        "name": "Beteigeuze-Phänomene",
+        "count": 5
+      }
+    ]
+  },
+  "topics": {
+    "dunkle-materie-und-schwarze-löcher": {
+      "id": "dunkle-materie-und-schwarze-löcher",
+      "name": "Dunkle Materie und schwarze Löcher",
+      "description": "20 Topics in 29 Episoden",
+      "totalEpisodes": 29,
+      "totalTopics": 20,
+      "totalRelevanceSec": 11514,
+      "totalOccurrences": 36,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 2,
+          "totalRelevanceSec": 900,
+          "totalOccurrences": 3,
+          "episodes": [
+            {
+              "number": 7,
+              "date": "2020-09-29",
+              "title": "DU007 - Extragalaktische Lokalnachrichten und Neues von Milkomeda",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 9,
+              "date": "2020-10-27",
+              "title": "DU009 - Das Geheimnis der dunklen Galaxie",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Schwarze Löcher und dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 6,
+          "totalRelevanceSec": 1800,
+          "totalOccurrences": 6,
+          "episodes": [
+            {
+              "number": 17,
+              "date": "2021-02-02",
+              "title": "DU017 - Tanzende Planeten und die älteste Geschichte der Welt",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 20,
+              "date": "2021-03-16",
+              "title": "DU020 - Das dunkle Herz der Galaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie und ihre Rolle",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 22,
+              "date": "2021-04-13",
+              "title": "DU022 - Die mittelmäßige Dunkelheit schwarzer Löcher",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie und schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 24,
+              "date": "2021-05-11",
+              "title": "DU024 - Auf der Suche nach den Antisternen",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie und Antimaterie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 34,
+              "date": "2021-09-28",
+              "title": "DU034 -  Galaktische Panspermie in der klumpigen Milchstraße",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 36,
+              "date": "2021-10-12",
+              "title": "DU036 -  Per Lastenrad durch die Galaxis",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Astronomie und dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 6,
+          "totalRelevanceSec": 2400,
+          "totalOccurrences": 8,
+          "episodes": [
+            {
+              "number": 45,
+              "date": "2022-02-15",
+              "title": "DU045 - Potenzielle Megakollisionen",
+              "relevanceSec": 900,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie und schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Zusammenhang zwischen schwarzen Löchern und Galaxien",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Antimaterie und schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 51,
+              "date": "2022-05-10",
+              "title": "DU051 -  Nice Planetenentstehung",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 60,
+              "date": "2022-09-13",
+              "title": "DU060 - Vulkanoide in der Star-Wars-Galaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Energie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 64,
+              "date": "2022-11-07",
+              "title": "DU064 - Das Monster im Tarantelnebel",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 65,
+              "date": "2022-11-22",
+              "title": "DU065 - Meteorit oder Alien-Raumschiff?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 67,
+              "date": "2022-12-20",
+              "title": "DU067 - Weltuntergang im Gammakosmos",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Energie und dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 10,
+          "totalRelevanceSec": 3600,
+          "totalOccurrences": 12,
+          "episodes": [
+            {
+              "number": 69,
+              "date": "2023-01-17",
+              "title": "DU069 - Der Zufall und das Galaxienproblem",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 72,
+              "date": "2023-02-28",
+              "title": "DU072 - Wir sind was Besonderes!",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Energie in schwarzen Löchern",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 73,
+              "date": "2023-03-14",
+              "title": "DU073 -  Dunkle Energie in schwarzen Löchern?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Energie in schwarzen Löchern",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 75,
+              "date": "2023-04-11",
+              "title": "DU075 - Aprilscherze und Immigration in die Nachbargalaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Antimaterie und schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 78,
+              "date": "2023-05-23",
+              "title": "DU078 - Ein schwarzes Loch voller Powidl und ein Plasma-Croissant",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "Schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Antimaterie und schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 80,
+              "date": "2023-06-20",
+              "title": "DU080 - Fette Galaxien",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Physik der schwarzen Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 83,
+              "date": "2023-08-01",
+              "title": "DU083 - Dunkle Exoplaneten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 86,
+              "date": "2023-09-12",
+              "title": "DU086 - Dunkle Sterne vom Anfang des Universums",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Sterne",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 88,
+              "date": "2023-10-10",
+              "title": "DU088 - Der Zusammenbruch der Gravitation",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 91,
+              "date": "2023-11-21",
+              "title": "DU091 - Der Urknall war kein Fehler",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "Geistergalaxie und flauschige Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Fragen zur dunklen Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 5,
+          "totalRelevanceSec": 2814,
+          "totalOccurrences": 7,
+          "episodes": [
+            {
+              "number": 105,
+              "date": "2024-06-04",
+              "title": "DU105 - Dunkle-Materie-Detektoren die vom Himmel leuchten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie und ihre Detektoren",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 115,
+              "date": "2024-10-22",
+              "title": "DU115 - Das Missing Link der Schwarzen Löcher",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Missing Link der schwarzen Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 116,
+              "date": "2024-11-05",
+              "title": "DU116 - Wo sind die Veganer (auf der Wega)?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 117,
+              "date": "2024-11-19",
+              "title": "DU117 - Der Fressflash des schwarzen Lochs",
+              "relevanceSec": 550,
+              "occurrences": [
+                {
+                  "topic": "Dunkle Materie und schwarze Löcher",
+                  "positionSec": 3082,
+                  "durationSec": 550
+                }
+              ]
+            },
+            {
+              "number": 119,
+              "date": "2024-12-17",
+              "title": "DU119 - Weihnachten in der dunkelsten Galaxie",
+              "relevanceSec": 1364,
+              "occurrences": [
+                {
+                  "topic": "Fragen zur dunklen Materie",
+                  "positionSec": 0,
+                  "durationSec": 20
+                },
+                {
+                  "topic": "Dunkelste Galaxie und dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 1324
+                },
+                {
+                  "topic": "Dunkle Materie und ihre Eigenschaften",
+                  "positionSec": 0,
+                  "durationSec": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "science-fiction-filme": {
+      "id": "science-fiction-filme",
+      "name": "Science-Fiction-Filme",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 4691,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2023,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 81,
+              "date": "2023-07-04",
+              "title": "DU081 - Indien auf dem Weg zum Mond",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Evis Sommer Science-Fiction-Film-Tipp",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 83,
+              "date": "2023-08-01",
+              "title": "DU083 - Dunkle Exoplaneten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science-Fiction-Film-Tipp",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 4091,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 121,
+              "date": "2025-01-14",
+              "title": "DU121 - Küssen und Kosmologie im Zeitraffer",
+              "relevanceSec": 4091,
+              "occurrences": [
+                {
+                  "topic": "Science-Fiction-Filme 2025",
+                  "positionSec": 0,
+                  "durationSec": 4091
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "wissenschaftsfilme": {
+      "id": "wissenschaftsfilme",
+      "name": "Wissenschaftsfilme",
+      "description": "2 Topics in 2 Episoden",
+      "totalEpisodes": 2,
+      "totalTopics": 2,
+      "totalRelevanceSec": 40,
+      "totalOccurrences": 2,
+      "yearData": [
+        {
+          "year": 2025,
+          "count": 2,
+          "totalRelevanceSec": 40,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 131,
+              "date": "2025-06-03",
+              "title": "DU131 - Zeitreisen im rotierenden Universum",
+              "relevanceSec": 0,
+              "occurrences": [
+                {
+                  "topic": "Film 'Agora' und Astronomie",
+                  "positionSec": 4339,
+                  "durationSec": 0
+                }
+              ]
+            },
+            {
+              "number": 146,
+              "date": "2025-12-30",
+              "title": "DU146 - Das Universum schaut in die Zukunft",
+              "relevanceSec": 40,
+              "occurrences": [
+                {
+                  "topic": "Filme über Wissenschaft",
+                  "positionSec": 3863,
+                  "durationSec": 40
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "science-busters": {
+      "id": "science-busters",
+      "name": "Science Busters",
+      "description": "4 Topics in 13 Episoden",
+      "totalEpisodes": 13,
+      "totalTopics": 4,
+      "totalRelevanceSec": 3320,
+      "totalOccurrences": 13,
+      "yearData": [
+        {
+          "year": 2023,
+          "count": 5,
+          "totalRelevanceSec": 1500,
+          "totalOccurrences": 5,
+          "episodes": [
+            {
+              "number": 81,
+              "date": "2023-07-04",
+              "title": "DU081 - Indien auf dem Weg zum Mond",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Busters Buch",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 82,
+              "date": "2023-07-18",
+              "title": "DU082 - Partymusik im Katzenaugennebel",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Buch der Science Busters",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 83,
+              "date": "2023-08-01",
+              "title": "DU083 - Dunkle Exoplaneten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Busters Buch",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 84,
+              "date": "2023-08-15",
+              "title": "DU084 - Wilde Begegnungen zwischen galaktischen Quallen",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Busters Buch",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 85,
+              "date": "2023-08-29",
+              "title": "DU085 - Die Mondtäuschung und der fehlende Himmel",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Buch der Science Busters",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 6,
+          "totalRelevanceSec": 1800,
+          "totalOccurrences": 6,
+          "episodes": [
+            {
+              "number": 101,
+              "date": "2024-04-09",
+              "title": "DU101 - Multi Messenger Astrologie: Neutrinos im fünften Haus",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Busters Buch",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 108,
+              "date": "2024-07-16",
+              "title": "DU108 - Das beste Urlaubswetter auf den Planeten anderer Sterne",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Busters Buch",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 109,
+              "date": "2024-07-30",
+              "title": "DU109 - Der Asteroidengott des Chaos",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Busters Buch",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 110,
+              "date": "2024-08-13",
+              "title": "DU110 - Galaktisches Wellenreiten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Busters Buch",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 111,
+              "date": "2024-08-27",
+              "title": "DU111 - Kosmischer Diaabend mit dem James-Webb-Teleskop",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Busters TV Aufzeichnungen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 112,
+              "date": "2024-09-10",
+              "title": "DU112 - Die Sternschnuppen des Todes!",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Neues Buch der Science Busters",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 2,
+          "totalRelevanceSec": 20,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 132,
+              "date": "2025-06-17",
+              "title": "DU132 - 5 Jahre “Das Universum” und ein Blick in die Vergangenheit mit Mars und Venus",
+              "relevanceSec": 20,
+              "occurrences": [
+                {
+                  "topic": "Science Busters Buch",
+                  "positionSec": 0,
+                  "durationSec": 20
+                }
+              ]
+            },
+            {
+              "number": 138,
+              "date": "2025-09-09",
+              "title": "DU138 - Epic Öpik: Astronomischer Visionär aus Estland",
+              "relevanceSec": 0,
+              "occurrences": [
+                {
+                  "topic": "Science Busters Buch",
+                  "positionSec": 4403,
+                  "durationSec": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "galaxienforschung": {
+      "id": "galaxienforschung",
+      "name": "Galaxienforschung",
+      "description": "7 Topics in 7 Episoden",
+      "totalEpisodes": 7,
+      "totalTopics": 7,
+      "totalRelevanceSec": 3255,
+      "totalOccurrences": 7,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "date": "2020-07-07",
+              "title": "DU001 - Das dunkle Geheimnis der Zwerggalaxien",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Zwerggalaxien",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "date": "2020-09-01",
+              "title": "DU005 - Das Universum braucht eine Inventur",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Verschwinden eines Riesensterns",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 39,
+              "date": "2021-11-23",
+              "title": "DU039 -  Monde sind Planeten. Und Pluto auch?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Leben in Zwerggalaxien",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 73,
+              "date": "2023-03-14",
+              "title": "DU073 -  Dunkle Energie in schwarzen Löchern?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Unmögliche Galaxien",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 86,
+              "date": "2023-09-12",
+              "title": "DU086 - Dunkle Sterne vom Anfang des Universums",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Tod einer Galaxie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 2,
+          "totalRelevanceSec": 1755,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 131,
+              "date": "2025-06-03",
+              "title": "DU131 - Zeitreisen im rotierenden Universum",
+              "relevanceSec": 1683,
+              "occurrences": [
+                {
+                  "topic": "Das Ende des Universums",
+                  "positionSec": 0,
+                  "durationSec": 1683
+                }
+              ]
+            },
+            {
+              "number": 143,
+              "date": "2025-11-18",
+              "title": "DU143 - Auf der Suche nach den Planeten anderer Galaxien",
+              "relevanceSec": 72,
+              "occurrences": [
+                {
+                  "topic": "Chemische Bedingungen in Zwerggalaxien",
+                  "positionSec": 68,
+                  "durationSec": 72
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "james-webb-teleskop": {
+      "id": "james-webb-teleskop",
+      "name": "James-Webb-Teleskop",
+      "description": "6 Topics in 11 Episoden",
+      "totalEpisodes": 11,
+      "totalTopics": 6,
+      "totalRelevanceSec": 3102,
+      "totalOccurrences": 11,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 3,
+          "totalRelevanceSec": 900,
+          "totalOccurrences": 3,
+          "episodes": [
+            {
+              "number": 16,
+              "date": "2021-01-19",
+              "title": "DU016 - Die Galaxie am Anfang des Universums",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James Webb Space Telescope",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 34,
+              "date": "2021-09-28",
+              "title": "DU034 -  Galaktische Panspermie in der klumpigen Milchstraße",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James Webb Space Telescope",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 40,
+              "date": "2021-12-07",
+              "title": "DU040 -  James Webb vs Space Pirates",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James-Webb-Weltraumteleskop",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 5,
+          "totalRelevanceSec": 1500,
+          "totalOccurrences": 5,
+          "episodes": [
+            {
+              "number": 42,
+              "date": "2022-01-04",
+              "title": "DU042 - Vagabundierende Planeten durchstreifen den Kosmos",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James Webb Weltraumteleskop",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 43,
+              "date": "2022-01-18",
+              "title": "DU043 - Supernova-Livestream und U-Boot-Rettungs-U-Boote",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James-Webb-Weltraumteleskop",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 44,
+              "date": "2022-02-01",
+              "title": "DU044 - Relativistische Astrologie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James Webb Weltraumteleskop",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 49,
+              "date": "2022-04-12",
+              "title": "DU049 - Der Übergang zum Unterriesen",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James-Webb-Teleskop",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 64,
+              "date": "2022-11-07",
+              "title": "DU064 - Das Monster im Tarantelnebel",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James-Webb-Weltraumteleskop",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 93,
+              "date": "2023-12-19",
+              "title": "DU093 - Hubble-Tension reloaded: Das Universum braucht Urlaub",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James-Webb-Weltraumteleskop",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 108,
+              "date": "2024-07-16",
+              "title": "DU108 - Das beste Urlaubswetter auf den Planeten anderer Sterne",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "James-Webb-Weltraumteleskop Entdeckungen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 102,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 129,
+              "date": "2025-05-06",
+              "title": "DU129 - Aliens finden für Fortgeschrittene",
+              "relevanceSec": 102,
+              "occurrences": [
+                {
+                  "topic": "James Webb Space Telescope Daten",
+                  "positionSec": 1684,
+                  "durationSec": 102
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "kosmologie": {
+      "id": "kosmologie",
+      "name": "Kosmologie",
+      "description": "8 Topics in 8 Episoden",
+      "totalEpisodes": 8,
+      "totalTopics": 8,
+      "totalRelevanceSec": 2672,
+      "totalOccurrences": 8,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 11,
+              "date": "2020-11-24",
+              "title": "DU011 - Die Kilonova und die Geburt des Magnetar",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Zentrum des Universums",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 14,
+              "date": "2020-12-29",
+              "title": "DU014 - Fragen an das Universum (Spezialfolge Kosmologie)",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Der Urknall und was davor war",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 3,
+          "totalRelevanceSec": 900,
+          "totalOccurrences": 3,
+          "episodes": [
+            {
+              "number": 19,
+              "date": "2021-03-02",
+              "title": "DU019 - Was Sterne und ihre Planeten verbindet",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Energieerhaltung im Universum",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 22,
+              "date": "2021-04-13",
+              "title": "DU022 - Die mittelmäßige Dunkelheit schwarzer Löcher",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Ursprung von schwarzen Löchern",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 23,
+              "date": "2021-04-27",
+              "title": "DU023 - Das ereignisreiche Leben von Galaxien und denen, die sie studieren",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Urknall",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 87,
+              "date": "2023-09-26",
+              "title": "DU087 - Die Superblase in der Nachbarschaft",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Was war vor dem Urknall?",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 2,
+          "totalRelevanceSec": 872,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 141,
+              "date": "2025-10-21",
+              "title": "DU141 - Die Supernova lichtet den Staubschleier der Überriesen",
+              "relevanceSec": 680,
+              "occurrences": [
+                {
+                  "topic": "Energieerhaltung im expandierenden Universum",
+                  "positionSec": 2483,
+                  "durationSec": 680
+                }
+              ]
+            },
+            {
+              "number": 142,
+              "date": "2025-11-04",
+              "title": "DU142 - Das dunkle Monster im fernen Universum",
+              "relevanceSec": 192,
+              "occurrences": [
+                {
+                  "topic": "Hypothesen zum Ende des Universums",
+                  "positionSec": 3864,
+                  "durationSec": 192
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "außerirdische-intelligenz": {
+      "id": "außerirdische-intelligenz",
+      "name": "Außerirdische Intelligenz",
+      "description": "8 Topics in 7 Episoden",
+      "totalEpisodes": 7,
+      "totalTopics": 8,
+      "totalRelevanceSec": 2400,
+      "totalOccurrences": 8,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 6,
+              "date": "2020-09-15",
+              "title": "DU006 - Aliens im 8-dimensionalen kosmischen Heuhafen",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "Suche nach intelligenten außerirdischen Wesen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "SETI und die Suche nach Aliens",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 17,
+              "date": "2021-02-02",
+              "title": "DU017 - Tanzende Planeten und die älteste Geschichte der Welt",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "außerirdisches Leben",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 21,
+              "date": "2021-03-30",
+              "title": "DU021 - Die Technosignatur der Aliens",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Technosignaturen und außerirdisches Leben",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 57,
+              "date": "2022-08-02",
+              "title": "DU057 - Wo stecken die fiesen Aliens?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Forschung zu Aliens",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 65,
+              "date": "2022-11-22",
+              "title": "DU065 - Meteorit oder Alien-Raumschiff?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Alien-Raumschiff Hypothese",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 71,
+              "date": "2023-02-14",
+              "title": "DU071 - Wasserstoff am Anfang der Zeit",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Aliens und KI",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 90,
+              "date": "2023-11-07",
+              "title": "DU090 - Sind uns die Aliens auf der Spur?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Entdeckung von außerirdischen Zivilisationen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "milchstraße": {
+      "id": "milchstraße",
+      "name": "Milchstraße",
+      "description": "6 Topics in 6 Episoden",
+      "totalEpisodes": 6,
+      "totalTopics": 6,
+      "totalRelevanceSec": 2153,
+      "totalOccurrences": 6,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 7,
+              "date": "2020-09-29",
+              "title": "DU007 - Extragalaktische Lokalnachrichten und Neues von Milkomeda",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Aussehen der Milchstraße",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 12,
+              "date": "2020-12-08",
+              "title": "DU012 - Stellare Steinschleudern marodieren durch die Galaxis",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Struktur der Milchstraße",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 23,
+              "date": "2021-04-27",
+              "title": "DU023 - Das ereignisreiche Leben von Galaxien und denen, die sie studieren",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Anblick der Milchstraße",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 49,
+              "date": "2022-04-12",
+              "title": "DU049 - Der Übergang zum Unterriesen",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Milchstraße",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 80,
+              "date": "2023-06-20",
+              "title": "DU080 - Fette Galaxien",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Fäden in der Milchstraße",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 653,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 134,
+              "date": "2025-07-15",
+              "title": "DU134 - Die Himmelsgöttin und die galaktische Kollision",
+              "relevanceSec": 653,
+              "occurrences": [
+                {
+                  "topic": "Darstellung der Milchstraße",
+                  "positionSec": 0,
+                  "durationSec": 653
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "universumsexpansion": {
+      "id": "universumsexpansion",
+      "name": "Universumsexpansion",
+      "description": "3 Topics in 9 Episoden",
+      "totalEpisodes": 9,
+      "totalTopics": 3,
+      "totalRelevanceSec": 2127,
+      "totalOccurrences": 9,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 14,
+              "date": "2020-12-29",
+              "title": "DU014 - Fragen an das Universum (Spezialfolge Kosmologie)",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Expansion des Universums",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 26,
+              "date": "2021-06-08",
+              "title": "DU026 - Die verwirrende jüngste, älteste, entfernteste Galaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Expansion des Weltalls",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 38,
+              "date": "2021-11-09",
+              "title": "DU038 -  Auf der Suche nach dem Galaxienkiller",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Expansion des Universums",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 51,
+              "date": "2022-05-10",
+              "title": "DU051 -  Nice Planetenentstehung",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Expansion des Universums",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 65,
+              "date": "2022-11-22",
+              "title": "DU065 - Meteorit oder Alien-Raumschiff?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Expansion des Alls",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 73,
+              "date": "2023-03-14",
+              "title": "DU073 -  Dunkle Energie in schwarzen Löchern?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Expansion des Universums",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 74,
+              "date": "2023-03-28",
+              "title": "DU074 - Der Lurch auf dem Asteroid",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Expansion des Universums",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 2,
+          "totalRelevanceSec": 27,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 127,
+              "date": "2025-04-08",
+              "title": "DU127 - Der Glücksstern und die Mutter von Hubble",
+              "relevanceSec": 27,
+              "occurrences": [
+                {
+                  "topic": "Expansion des Weltalls",
+                  "positionSec": 39,
+                  "durationSec": 27
+                }
+              ]
+            },
+            {
+              "number": 144,
+              "date": "2025-12-02",
+              "title": "DU144 - Die Stürme auf Neptun",
+              "relevanceSec": 0,
+              "occurrences": [
+                {
+                  "topic": "Expansion des Universums",
+                  "positionSec": 1780,
+                  "durationSec": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "astronomiestudium": {
+      "id": "astronomiestudium",
+      "name": "Astronomiestudium",
+      "description": "4 Topics in 6 Episoden",
+      "totalEpisodes": 6,
+      "totalTopics": 4,
+      "totalRelevanceSec": 1800,
+      "totalOccurrences": 6,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 5,
+              "date": "2020-09-01",
+              "title": "DU005 - Das Universum braucht eine Inventur",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Arbeit und Studium in der Astronomie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 4,
+          "totalRelevanceSec": 1200,
+          "totalOccurrences": 4,
+          "episodes": [
+            {
+              "number": 23,
+              "date": "2021-04-27",
+              "title": "DU023 - Das ereignisreiche Leben von Galaxien und denen, die sie studieren",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Astronomiestudium",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 25,
+              "date": "2021-05-25",
+              "title": "DU025 - Die Sonne im Kern der Erde",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Mathematik im Astronomiestudium",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 28,
+              "date": "2021-07-06",
+              "title": "DU028 - Außerirdische Orientierung",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Astronomiestudium",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 38,
+              "date": "2021-11-09",
+              "title": "DU038 -  Auf der Suche nach dem Galaxienkiller",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Astronomiestudium",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 100,
+              "date": "2024-03-26",
+              "title": "DU100 - Das Universum ist gescheitert",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Erfahrungen von Astronomie-Studierenden",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "beteigeuze-phänomene": {
+      "id": "beteigeuze-phänomene",
+      "name": "Beteigeuze-Phänomene",
+      "description": "5 Topics in 5 Episoden",
+      "totalEpisodes": 5,
+      "totalTopics": 5,
+      "totalRelevanceSec": 1765,
+      "totalOccurrences": 5,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 3,
+              "date": "2020-08-04",
+              "title": "DU003 - Die Dunkelheit von Beteigeuze",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Die Dunkelheit von Beteigeuze",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "date": "2020-09-01",
+              "title": "DU005 - Das Universum braucht eine Inventur",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Beteigeuze und seine unerklärlichen Veränderungen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 30,
+              "date": "2021-08-03",
+              "title": "DU030 - Die Entdeckung der undunklen Galaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Beteigeuze und seine Verdunkelung",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 114,
+              "date": "2024-10-08",
+              "title": "DU114 - Ein Buddy für Beteigeuze",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Beteigeuze und seine mögliche Begleiter",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 565,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 142,
+              "date": "2025-11-04",
+              "title": "DU142 - Das dunkle Monster im fernen Universum",
+              "relevanceSec": 565,
+              "occurrences": [
+                {
+                  "topic": "Der junge Stern und Beteigeuze",
+                  "positionSec": 676,
+                  "durationSec": 565
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "gravitationstheorie": {
+      "id": "gravitationstheorie",
+      "name": "Gravitationstheorie",
+      "description": "6 Topics in 5 Episoden",
+      "totalEpisodes": 5,
+      "totalTopics": 6,
+      "totalRelevanceSec": 1553,
+      "totalOccurrences": 6,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 3,
+              "date": "2020-08-04",
+              "title": "DU003 - Die Dunkelheit von Beteigeuze",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Gravitation und ihre Auswirkungen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 23,
+              "date": "2021-04-27",
+              "title": "DU023 - Das ereignisreiche Leben von Galaxien und denen, die sie studieren",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "Geschwindigkeit der Gravitation",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Gravitation und Lichtgeschwindigkeit",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 88,
+              "date": "2023-10-10",
+              "title": "DU088 - Der Zusammenbruch der Gravitation",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Neue Studie zu Gravitationsgesetzen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 93,
+              "date": "2023-12-19",
+              "title": "DU093 - Hubble-Tension reloaded: Das Universum braucht Urlaub",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "modifizierte Newtonsche Dynamik",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 53,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 118,
+              "date": "2024-12-03",
+              "title": "DU118 - Wo ist die Tür zum Sonnensystem?",
+              "relevanceSec": 53,
+              "occurrences": [
+                {
+                  "topic": "Gravitationswechselwirkungen",
+                  "positionSec": 1586,
+                  "durationSec": 53
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "neutrinoastronomie": {
+      "id": "neutrinoastronomie",
+      "name": "Neutrinoastronomie",
+      "description": "5 Topics in 5 Episoden",
+      "totalEpisodes": 5,
+      "totalTopics": 5,
+      "totalRelevanceSec": 1500,
+      "totalOccurrences": 5,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 15,
+              "date": "2021-01-05",
+              "title": "DU015 - Geisterteilchen und Antisterne",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Neutrinoastronomie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 20,
+              "date": "2021-03-16",
+              "title": "DU020 - Das dunkle Herz der Galaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Sterile Neutrinos und dunkle Materie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 53,
+              "date": "2022-06-07",
+              "title": "DU053 - Wenn schwarze Löcher mit Sternen kollidieren…",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Neutrinos und ihre Eigenschaften",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 86,
+              "date": "2023-09-12",
+              "title": "DU086 - Dunkle Sterne vom Anfang des Universums",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Neutrinobild der Milchstraße",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 115,
+              "date": "2024-10-22",
+              "title": "DU115 - Das Missing Link der Schwarzen Löcher",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Fragen zur Milchstraße und Neutrinos",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "robotik-ethische-fragen": {
+      "id": "robotik-ethische-fragen",
+      "name": "Robotik-Ethische Fragen",
+      "description": "4 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 4,
+      "totalRelevanceSec": 1456,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2023,
+          "count": 2,
+          "totalRelevanceSec": 900,
+          "totalOccurrences": 3,
+          "episodes": [
+            {
+              "number": 73,
+              "date": "2023-03-14",
+              "title": "DU073 -  Dunkle Energie in schwarzen Löchern?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Menschlichkeit von Robotern",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 74,
+              "date": "2023-03-28",
+              "title": "DU074 - Der Lurch auf dem Asteroid",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "Robotergesetze von Isaac Asimov",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Ethik in der Robotik",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 556,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 132,
+              "date": "2025-06-17",
+              "title": "DU132 - 5 Jahre “Das Universum” und ein Blick in die Vergangenheit mit Mars und Venus",
+              "relevanceSec": 556,
+              "occurrences": [
+                {
+                  "topic": "Roboter und Roboterleben",
+                  "positionSec": 2012,
+                  "durationSec": 556
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "astrobiologie": {
+      "id": "astrobiologie",
+      "name": "Astrobiologie",
+      "description": "4 Topics in 4 Episoden",
+      "totalEpisodes": 4,
+      "totalTopics": 4,
+      "totalRelevanceSec": 1401,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 90,
+              "date": "2023-11-07",
+              "title": "DU090 - Sind uns die Aliens auf der Spur?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Wissenschaftliche Fragen zu Leben auf der Erde",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 95,
+              "date": "2024-01-16",
+              "title": "DU095 - Panspermie und die Wirklichkeit im Forellenkleid",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Panspermie und die Wahrscheinlichkeit des Lebens aus dem All",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 103,
+              "date": "2024-05-07",
+              "title": "DU103 - Auf der Suche nach dem Ursprung des Lebens",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Leben aus dem All",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 501,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 129,
+              "date": "2025-05-06",
+              "title": "DU129 - Aliens finden für Fortgeschrittene",
+              "relevanceSec": 501,
+              "occurrences": [
+                {
+                  "topic": "Herausforderungen beim Nachweis von Leben",
+                  "positionSec": 1223,
+                  "durationSec": 501
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "oort-wolke": {
+      "id": "oort-wolke",
+      "name": "Oort-Wolke",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 1387,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 12,
+              "date": "2020-12-08",
+              "title": "DU012 - Stellare Steinschleudern marodieren durch die Galaxis",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Oortsche Wolke",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 2,
+          "totalRelevanceSec": 1087,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 125,
+              "date": "2025-03-11",
+              "title": "DU125 - Stellares Engineering mit dem Sonnenbagger",
+              "relevanceSec": 463,
+              "occurrences": [
+                {
+                  "topic": "Oort-Spirale",
+                  "positionSec": 275,
+                  "durationSec": 463
+                }
+              ]
+            },
+            {
+              "number": 138,
+              "date": "2025-09-09",
+              "title": "DU138 - Epic Öpik: Astronomischer Visionär aus Estland",
+              "relevanceSec": 624,
+              "occurrences": [
+                {
+                  "topic": "Oortschen Wolke",
+                  "positionSec": 1100,
+                  "durationSec": 624
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "trojaner-asteroiden": {
+      "id": "trojaner-asteroiden",
+      "name": "Trojaner-Asteroiden",
+      "description": "4 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 4,
+      "totalRelevanceSec": 1200,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 2,
+          "totalRelevanceSec": 900,
+          "totalOccurrences": 3,
+          "episodes": [
+            {
+              "number": 37,
+              "date": "2021-10-26",
+              "title": "DU037 -  Roboter-Aliens und Trojaner",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "NASA-Sonde Lucy und Trojaner-Asteroiden",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Trojaner-Asymmetrie und Umlaufbahnen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 39,
+              "date": "2021-11-23",
+              "title": "DU039 -  Monde sind Planeten. Und Pluto auch?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Trojaner-Asteroiden",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 70,
+              "date": "2023-01-31",
+              "title": "DU070 - Asymmetrische Asteroiden",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Trojaner-Asymmetrie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "gamma-blitze": {
+      "id": "gamma-blitze",
+      "name": "Gamma-Blitze",
+      "description": "4 Topics in 1 Episoden",
+      "totalEpisodes": 1,
+      "totalTopics": 4,
+      "totalRelevanceSec": 1200,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2022,
+          "count": 1,
+          "totalRelevanceSec": 1200,
+          "totalOccurrences": 4,
+          "episodes": [
+            {
+              "number": 67,
+              "date": "2022-12-20",
+              "title": "DU067 - Weltuntergang im Gammakosmos",
+              "relevanceSec": 1200,
+              "occurrences": [
+                {
+                  "topic": "Weihnachtsblitz",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Gammablitze",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Gammaastronomie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Vorhersage von Gammablitzen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "osiris-rex-mission": {
+      "id": "osiris-rex-mission",
+      "name": "OSIRIS-REx Mission",
+      "description": "3 Topics in 4 Episoden",
+      "totalEpisodes": 4,
+      "totalTopics": 3,
+      "totalRelevanceSec": 1200,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 9,
+              "date": "2020-10-27",
+              "title": "DU009 - Das Geheimnis der dunklen Galaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Weltraummission OSIRIS-REx",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 88,
+              "date": "2023-10-10",
+              "title": "DU088 - Der Zusammenbruch der Gravitation",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "OSIRIS-REx und Asteroid Bennu",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 90,
+              "date": "2023-11-07",
+              "title": "DU090 - Sind uns die Aliens auf der Spur?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "OSIRIS-REx Mission",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 96,
+              "date": "2024-01-30",
+              "title": "DU096 - Der unerwartete galaktische Riesenring",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "OSIRIS-REx Mission",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "himmelskörperbewegung": {
+      "id": "himmelskörperbewegung",
+      "name": "Himmelskörperbewegung",
+      "description": "4 Topics in 4 Episoden",
+      "totalEpisodes": 4,
+      "totalTopics": 4,
+      "totalRelevanceSec": 1200,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 11,
+              "date": "2020-11-24",
+              "title": "DU011 - Die Kilonova und die Geburt des Magnetar",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Bewegung der Himmelskörper",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 17,
+              "date": "2021-02-02",
+              "title": "DU017 - Tanzende Planeten und die älteste Geschichte der Welt",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Sternbewegung",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 26,
+              "date": "2021-06-08",
+              "title": "DU026 - Die verwirrende jüngste, älteste, entfernteste Galaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Bewegung von Sternen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 110,
+              "date": "2024-08-13",
+              "title": "DU110 - Galaktisches Wellenreiten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Bewegung der Sterne",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "himmelsereignisse": {
+      "id": "himmelsereignisse",
+      "name": "Himmelsereignisse",
+      "description": "4 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 4,
+      "totalRelevanceSec": 1200,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2022,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 46,
+              "date": "2022-03-01",
+              "title": "DU046 - Aliens sind auch nicht besser als wir",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Sonneneruption",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 54,
+              "date": "2022-06-21",
+              "title": "DU054 - Party mit Percy",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Marsfinsternis",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 102,
+              "date": "2024-04-23",
+              "title": "DU102 - Die Quintessenz der dunklen Energie",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "Sonnenfinsternis auf der Erde",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Sonnenfinsternis auf dem Mars",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mythologie-und-astronomie": {
+      "id": "mythologie-und-astronomie",
+      "name": "Mythologie und Astronomie",
+      "description": "3 Topics in 4 Episoden",
+      "totalEpisodes": 4,
+      "totalTopics": 3,
+      "totalRelevanceSec": 1004,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 3,
+          "totalRelevanceSec": 900,
+          "totalOccurrences": 3,
+          "episodes": [
+            {
+              "number": 17,
+              "date": "2021-02-02",
+              "title": "DU017 - Tanzende Planeten und die älteste Geschichte der Welt",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Mythen der Plejaden",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 28,
+              "date": "2021-07-06",
+              "title": "DU028 - Außerirdische Orientierung",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Griechische Mythologie in der Astronomie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 33,
+              "date": "2021-09-14",
+              "title": "DU033 -  Wir analysieren sekundenschnell komplexe Daten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Sternenhimmel der Menschheit",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 104,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 122,
+              "date": "2025-01-28",
+              "title": "DU122 - Die Sternenhimmel der Menschheit",
+              "relevanceSec": 104,
+              "occurrences": [
+                {
+                  "topic": "Sternenhimmel der Menschheit",
+                  "positionSec": 0,
+                  "durationSec": 104
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "asteroideneinschläge": {
+      "id": "asteroideneinschläge",
+      "name": "Asteroideneinschläge",
+      "description": "4 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 4,
+      "totalRelevanceSec": 940,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 10,
+              "date": "2020-11-10",
+              "title": "DU010 - Auf der Spur des “Killerasteroiden",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "Fragen zu Asteroideneinschlägen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Einfluss von Asteroideneinschlägen auf die Erde",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 109,
+              "date": "2024-07-30",
+              "title": "DU109 - Der Asteroidengott des Chaos",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Kollision mit der Erde",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 40,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 124,
+              "date": "2025-02-25",
+              "title": "DU124 - Wie verhindert man einen Asteroideneinschlag?",
+              "relevanceSec": 40,
+              "occurrences": [
+                {
+                  "topic": "Folgen eines großen Asteroideneinschlags",
+                  "positionSec": 547,
+                  "durationSec": 40
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "science-fiction-astronomie": {
+      "id": "science-fiction-astronomie",
+      "name": "Science-Fiction & Astronomie",
+      "description": "4 Topics in 4 Episoden",
+      "totalEpisodes": 4,
+      "totalTopics": 4,
+      "totalRelevanceSec": 920,
+      "totalOccurrences": 4,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 33,
+              "date": "2021-09-14",
+              "title": "DU033 -  Wir analysieren sekundenschnell komplexe Daten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Einfluss der Science-Fiction auf das Astronomiestudium",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 41,
+              "date": "2021-12-21",
+              "title": "DU041 -  Science-Fiction-Special",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Einfluss von Science Fiction auf die Wissenschaft",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 69,
+              "date": "2023-01-17",
+              "title": "DU069 - Der Zufall und das Galaxienproblem",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Fiction in der Astronomie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 20,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 144,
+              "date": "2025-12-02",
+              "title": "DU144 - Die Stürme auf Neptun",
+              "relevanceSec": 20,
+              "occurrences": [
+                {
+                  "topic": "Einfälle in Science Fiction",
+                  "positionSec": 0,
+                  "durationSec": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "plejaden": {
+      "id": "plejaden",
+      "name": "Plejaden",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 908,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 15,
+              "date": "2021-01-05",
+              "title": "DU015 - Geisterteilchen und Antisterne",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Sternenpopulationen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 17,
+              "date": "2021-02-02",
+              "title": "DU017 - Tanzende Planeten und die älteste Geschichte der Welt",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Plejaden",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 308,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 145,
+              "date": "2025-12-16",
+              "title": "DU145 - Wo sind die ganzen Plejaden hin?",
+              "relevanceSec": 308,
+              "occurrences": [
+                {
+                  "topic": "Plejaden Sternhaufen",
+                  "positionSec": 823,
+                  "durationSec": 308
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "per-lastenrad-durch-die-galaxis": {
+      "id": "per-lastenrad-durch-die-galaxis",
+      "name": "Per Lastenrad durch die Galaxis",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 36,
+              "date": "2021-10-12",
+              "title": "DU036 -  Per Lastenrad durch die Galaxis",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Ruths Buch 'Per Lastenrad durch die Galaxis'",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 84,
+              "date": "2023-08-15",
+              "title": "DU084 - Wilde Begegnungen zwischen galaktischen Quallen",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Ruths Buch: Per Lastenrad durch die Galaxis",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 85,
+              "date": "2023-08-29",
+              "title": "DU085 - Die Mondtäuschung und der fehlende Himmel",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Ruth's Buch über die Galaxis",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "exoplaneten-wasp": {
+      "id": "exoplaneten-wasp",
+      "name": "Exoplaneten WASP",
+      "description": "3 Topics in 2 Episoden",
+      "totalEpisodes": 2,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 92,
+              "date": "2023-12-05",
+              "title": "DU092 - Ein Flauschplanet und ein Weltuntergang",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Flauschiger Planet WASP-107b",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 108,
+              "date": "2024-07-16",
+              "title": "DU108 - Das beste Urlaubswetter auf den Planeten anderer Sterne",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "WASP 107b und Wolken aus Sand",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "WASP 43b und flüssiges Gestein",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "gravitationswellen": {
+      "id": "gravitationswellen",
+      "name": "Gravitationswellen",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "date": "2020-07-07",
+              "title": "DU001 - Das dunkle Geheimnis der Zwerggalaxien",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Gravitationswellen und schwarze Löcher",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 34,
+              "date": "2021-09-28",
+              "title": "DU034 -  Galaktische Panspermie in der klumpigen Milchstraße",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Gravitationswellen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 83,
+              "date": "2023-08-01",
+              "title": "DU083 - Dunkle Exoplaneten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Gravitationswellenhintergrund",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "chang-e-6-mission": {
+      "id": "chang-e-6-mission",
+      "name": "Chang’e-6 Mission",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2024,
+          "count": 3,
+          "totalRelevanceSec": 900,
+          "totalOccurrences": 3,
+          "episodes": [
+            {
+              "number": 103,
+              "date": "2024-05-07",
+              "title": "DU103 - Auf der Suche nach dem Ursprung des Lebens",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Chang’e-6",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 106,
+              "date": "2024-06-18",
+              "title": "DU106 - Wasserrutschen auf dem Mars und zu viel Kohlenstoff zu früh nach dem Urknall",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Chang’e 6 Mondmission",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 107,
+              "date": "2024-07-02",
+              "title": "DU107 - Im Herbst erscheint ein neuer Stern am Himmel!",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Chang’e 6 Mission",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "artemis-missionen": {
+      "id": "artemis-missionen",
+      "name": "Artemis-Missionen",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2022,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 65,
+              "date": "2022-11-22",
+              "title": "DU065 - Meteorit oder Alien-Raumschiff?",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Artemis I",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 75,
+              "date": "2023-04-11",
+              "title": "DU075 - Aprilscherze und Immigration in die Nachbargalaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Artemis II Crew",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 94,
+              "date": "2024-01-02",
+              "title": "DU094 - Mit Weltuntergang ins neue Jahr, zum Mond und zu Europa",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Artemis II Mission",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "polarlichter-und-sterne": {
+      "id": "polarlichter-und-sterne",
+      "name": "Polarlichter und Sterne",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 28,
+              "date": "2021-07-06",
+              "title": "DU028 - Außerirdische Orientierung",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Polarsterne auf anderen Himmelskörpern",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 104,
+              "date": "2024-05-21",
+              "title": "DU104 - Das Licht der allerersten Sterne",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Beobachtung der Polarlichter",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 115,
+              "date": "2024-10-22",
+              "title": "DU115 - Das Missing Link der Schwarzen Löcher",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Polarlichter und Kometen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mikroorganismen-bücher": {
+      "id": "mikroorganismen-bücher",
+      "name": "Mikroorganismen Bücher",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2023,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 84,
+              "date": "2023-08-15",
+              "title": "DU084 - Wilde Begegnungen zwischen galaktischen Quallen",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Florians Buch: Eine Geschichte der Welt in 100 Mikroorganismen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 85,
+              "date": "2023-08-29",
+              "title": "DU085 - Die Mondtäuschung und der fehlende Himmel",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Florian's Buch über Mikroorganismen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 112,
+              "date": "2024-09-10",
+              "title": "DU112 - Die Sternschnuppen des Todes!",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Florians neues Buch über Mikroorganismen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "österreichische-meteoriten": {
+      "id": "österreichische-meteoriten",
+      "name": "Österreichische Meteoriten",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 12,
+              "date": "2020-12-08",
+              "title": "DU012 - Stellare Steinschleudern marodieren durch die Galaxis",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Meteor über Österreich",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 34,
+              "date": "2021-09-28",
+              "title": "DU034 -  Galaktische Panspermie in der klumpigen Milchstraße",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Meteorit in Österreich",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 105,
+              "date": "2024-06-04",
+              "title": "DU105 - Dunkle-Materie-Detektoren die vom Himmel leuchten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Meteorit aus Ischgl",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "klimakrise": {
+      "id": "klimakrise",
+      "name": "Klimakrise",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 36,
+              "date": "2021-10-12",
+              "title": "DU036 -  Per Lastenrad durch die Galaxis",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Klimakrise und ihre Auswirkungen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 46,
+              "date": "2022-03-01",
+              "title": "DU046 - Aliens sind auch nicht besser als wir",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Klimakrise und CO2",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 61,
+              "date": "2022-09-27",
+              "title": "DU061 - Der Weltuntergang fällt aus",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Klimakrise und Energiewende",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "schleimpilze": {
+      "id": "schleimpilze",
+      "name": "Schleimpilze",
+      "description": "3 Topics in 2 Episoden",
+      "totalEpisodes": 2,
+      "totalTopics": 3,
+      "totalRelevanceSec": 900,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 31,
+              "date": "2021-08-17",
+              "title": "DU031 -  Das Universum dreht sich",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Schleimpilze",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 113,
+              "date": "2024-09-24",
+              "title": "DU113 - Die Kosmologie der Schleimpilze",
+              "relevanceSec": 600,
+              "occurrences": [
+                {
+                  "topic": "Kosmologie der Schleimpilze",
+                  "positionSec": 0,
+                  "durationSec": 300
+                },
+                {
+                  "topic": "Intelligenz von Schleimpilzen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "marsrover-perseverance": {
+      "id": "marsrover-perseverance",
+      "name": "Marsrover Perseverance",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 802,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 33,
+              "date": "2021-09-14",
+              "title": "DU033 -  Wir analysieren sekundenschnell komplexe Daten",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Marsrover Perseverance und Bohrproben",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 54,
+              "date": "2022-06-21",
+              "title": "DU054 - Party mit Percy",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Marsrover Perseverance",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 202,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 140,
+              "date": "2025-10-07",
+              "title": "DU140 - Ist ja irre… auf dem Mars gibt’s Leoparden",
+              "relevanceSec": 202,
+              "occurrences": [
+                {
+                  "topic": "Marsrover Perseverance und seine Entdeckungen",
+                  "positionSec": 1606,
+                  "durationSec": 202
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "venus-exploration": {
+      "id": "venus-exploration",
+      "name": "Venus-Exploration",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 799,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 74,
+              "date": "2023-03-28",
+              "title": "DU074 - Der Lurch auf dem Asteroid",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Vulkanismus auf der Venus",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 461,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 120,
+              "date": "2024-12-31",
+              "title": "DU120 - Silvester mit Carl Sagan und dem Universum",
+              "relevanceSec": 461,
+              "occurrences": [
+                {
+                  "topic": "Raumfahrtmissionen zur Venus",
+                  "positionSec": 0,
+                  "durationSec": 461
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 38,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 133,
+              "date": "2025-07-01",
+              "title": "DU133 - 5 Jahre “Das Universum” und ein Blick auf die Raumsonden und Teleskope der Zukunft",
+              "relevanceSec": 38,
+              "occurrences": [
+                {
+                  "topic": "Zukünftige Raumsonden zur Venus",
+                  "positionSec": 0,
+                  "durationSec": 38
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "galaxienbeobachtung": {
+      "id": "galaxienbeobachtung",
+      "name": "Galaxienbeobachtung",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 678,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2022,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 53,
+              "date": "2022-06-07",
+              "title": "DU053 - Wenn schwarze Löcher mit Sternen kollidieren…",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Beobachtung ferner Galaxien",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 72,
+              "date": "2023-02-28",
+              "title": "DU072 - Wir sind was Besonderes!",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Beobachtungsmethoden in der Astronomie",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 78,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 143,
+              "date": "2025-11-18",
+              "title": "DU143 - Auf der Suche nach den Planeten anderer Galaxien",
+              "relevanceSec": 78,
+              "occurrences": [
+                {
+                  "topic": "Beobachtung von Galaxien",
+                  "positionSec": 14,
+                  "durationSec": 78
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "exoplaneten-forschung": {
+      "id": "exoplaneten-forschung",
+      "name": "Exoplaneten-Forschung",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 654,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 8,
+              "date": "2020-10-13",
+              "title": "DU008 - Ein Nobelpreis für das Universum und ein einzigartiger Planet",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Entdeckung extragalaktischer Planeten",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 48,
+              "date": "2022-03-29",
+              "title": "DU048 - Die Lebensleistung der Riesenmolekülwolke",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Exoplaneten Entdeckung",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 54,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 143,
+              "date": "2025-11-18",
+              "title": "DU143 - Auf der Suche nach den Planeten anderer Galaxien",
+              "relevanceSec": 54,
+              "occurrences": [
+                {
+                  "topic": "Suche nach extragalaktischen Planeten",
+                  "positionSec": 0,
+                  "durationSec": 54
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "asteroid-city-und-aliens": {
+      "id": "asteroid-city-und-aliens",
+      "name": "Asteroid City und Aliens",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 640,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 86,
+              "date": "2023-09-12",
+              "title": "DU086 - Dunkle Sterne vom Anfang des Universums",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Film 'Asteroid City' und Aliens",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 2,
+          "totalRelevanceSec": 340,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 124,
+              "date": "2025-02-25",
+              "title": "DU124 - Wie verhindert man einen Asteroideneinschlag?",
+              "relevanceSec": 40,
+              "occurrences": [
+                {
+                  "topic": "Science Fiction und Asteroideneinschläge",
+                  "positionSec": 968,
+                  "durationSec": 40
+                }
+              ]
+            },
+            {
+              "number": 129,
+              "date": "2025-05-06",
+              "title": "DU129 - Aliens finden für Fortgeschrittene",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Science Fiction und außerirdische Yetis",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "asteroidenforschung": {
+      "id": "asteroidenforschung",
+      "name": "Asteroidenforschung",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 620,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2020,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 12,
+              "date": "2020-12-08",
+              "title": "DU012 - Stellare Steinschleudern marodieren durch die Galaxis",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Interstellare Asteroiden",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 44,
+              "date": "2022-02-01",
+              "title": "DU044 - Relativistische Astrologie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Asteroiden",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 20,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 123,
+              "date": "2025-02-11",
+              "title": "DU123 - Unsere extragalaktische Herkunft und der lange Weg des Kohlenstoff",
+              "relevanceSec": 20,
+              "occurrences": [
+                {
+                  "topic": "Asteroiden und Raumsonden",
+                  "positionSec": 0,
+                  "durationSec": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "mondmissionen": {
+      "id": "mondmissionen",
+      "name": "Mondmissionen",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 600,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2024,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 96,
+              "date": "2024-01-30",
+              "title": "DU096 - Der unerwartete galaktische Riesenring",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Mondlandung",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 99,
+              "date": "2024-03-12",
+              "title": "DU099 - Der lange, staubige Flug der New Horizons",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Umfallende Sonden auf dem Mond",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 126,
+              "date": "2025-03-25",
+              "title": "DU126 - Wackelndes Wasser am Anfang des Universums",
+              "relevanceSec": 0,
+              "occurrences": [
+                {
+                  "topic": "Raumsonden auf dem Mond",
+                  "positionSec": 1634,
+                  "durationSec": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "astronauten-karriere": {
+      "id": "astronauten-karriere",
+      "name": "Astronauten Karriere",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 600,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 2,
+          "totalRelevanceSec": 600,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 26,
+              "date": "2021-06-08",
+              "title": "DU026 - Die verwirrende jüngste, älteste, entfernteste Galaxie",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "ESA Bewerbung und Astronauten",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            },
+            {
+              "number": 32,
+              "date": "2021-08-31",
+              "title": "DU032 -  Exomond und Mini-Venus",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Astronautinnen Update",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 119,
+              "date": "2024-12-17",
+              "title": "DU119 - Weihnachten in der dunkelsten Galaxie",
+              "relevanceSec": 0,
+              "occurrences": [
+                {
+                  "topic": "NASA und Hobby-Astronauten",
+                  "positionSec": 3723,
+                  "durationSec": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "himmelsscheibe-planetarium": {
+      "id": "himmelsscheibe-planetarium",
+      "name": "Himmelsscheibe & Planetarium",
+      "description": "2 Topics in 2 Episoden",
+      "totalEpisodes": 2,
+      "totalTopics": 2,
+      "totalRelevanceSec": 600,
+      "totalOccurrences": 2,
+      "yearData": [
+        {
+          "year": 2021,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 29,
+              "date": "2021-07-20",
+              "title": "DU029 - Die Himmelsscheibe von Nebra",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Kulturelle Bedeutung der Himmelsscheibe",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 89,
+              "date": "2023-10-24",
+              "title": "DU089 - Schatzerl, komm mit mir ins Planetarium",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Kulturelle Bedeutung des Planetariums",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "johannes-kepler": {
+      "id": "johannes-kepler",
+      "name": "Johannes Kepler",
+      "description": "3 Topics in 2 Episoden",
+      "totalEpisodes": 2,
+      "totalTopics": 3,
+      "totalRelevanceSec": 340,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2024,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 107,
+              "date": "2024-07-02",
+              "title": "DU107 - Im Herbst erscheint ein neuer Stern am Himmel!",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Johannes Kepler und seine Entdeckungen",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 1,
+          "totalRelevanceSec": 40,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 130,
+              "date": "2025-05-20",
+              "title": "DU130 - Alien-Kepler mit zwei Sonnen",
+              "relevanceSec": 40,
+              "occurrences": [
+                {
+                  "topic": "Kepler und seine Gesetze",
+                  "positionSec": 0,
+                  "durationSec": 40
+                },
+                {
+                  "topic": "Geschichte von Johannes Kepler",
+                  "positionSec": 2739,
+                  "durationSec": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "jupiter-und-saturn-monde": {
+      "id": "jupiter-und-saturn-monde",
+      "name": "Jupiter und Saturn Monde",
+      "description": "3 Topics in 3 Episoden",
+      "totalEpisodes": 3,
+      "totalTopics": 3,
+      "totalRelevanceSec": 300,
+      "totalOccurrences": 3,
+      "yearData": [
+        {
+          "year": 2023,
+          "count": 1,
+          "totalRelevanceSec": 300,
+          "totalOccurrences": 1,
+          "episodes": [
+            {
+              "number": 71,
+              "date": "2023-02-14",
+              "title": "DU071 - Wasserstoff am Anfang der Zeit",
+              "relevanceSec": 300,
+              "occurrences": [
+                {
+                  "topic": "Neue Jupitermonde",
+                  "positionSec": 0,
+                  "durationSec": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "year": 2025,
+          "count": 2,
+          "totalOccurrences": 2,
+          "episodes": [
+            {
+              "number": 126,
+              "date": "2025-03-25",
+              "title": "DU126 - Wackelndes Wasser am Anfang des Universums",
+              "relevanceSec": 0,
+              "occurrences": [
+                {
+                  "topic": "Neue Saturnmonde",
+                  "positionSec": 4456,
+                  "durationSec": 0
+                }
+              ]
+            },
+            {
+              "number": 144,
+              "date": "2025-12-02",
+              "title": "DU144 - Die Stürme auf Neptun",
+              "relevanceSec": 0,
+              "occurrences": [
+                {
+                  "topic": "Asteroideneinschläge auf Jupiter",
+                  "positionSec": 2140,
+                  "durationSec": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "episodeNumber": 373,
+  "title": "Mi373 – \"Nobelpreissonderfolge 2025\"",
+  "extractedAt": "2026-01-04T19:25:46.149Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "EDC Tasche",
+      "subject": {
+        "coarse": "Lifestyle",
+        "fine": "Accessories"
+      },
+      "durationSec": 870,
+      "positionSec": 341,
+      "summary": "In dieser Episode wird das Konzept der EDC-Tasche (Everyday Carry) vorgestellt, die als praktische Lösung dient, um alltägliche Gegenstände griffbereit zu haben. Die EDC-Tasche ist nicht nur eine kleinere Alternative zu großen Rucksäcken, sondern enthält essentielle Dinge wie Notizbuch, Stifte, Ladegeräte, Medikamente und Hygieneartikel. Der Host beschreibt seine persönliche Reise in die EDC-Szene, die von der Notwendigkeit, Dinge organisiert und zugänglich zu haben, geprägt ist. Es wird auch auf die Verbindung zur Tactical-Bag-Kultur eingegangen, die militärische Designs und Multifunktionalität betont.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 249,
+        "startSec": 321,
+        "endSec": 1231,
+        "generatedAt": "2026-01-04T19:30:03.646Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Ampelschaltung",
+      "subject": {
+        "coarse": "Technology",
+        "fine": "Traffic Systems"
+      },
+      "durationSec": 348,
+      "positionSec": 1211,
+      "summary": "Im Transkript wird über eine gefährliche Fußgängerampel in Essen gesprochen, die Teil eines Digitalisierungsprojekts ist. Es wurde festgestellt, dass Fußgänger bei grüner Ampel auf die Straße gehen, während Autofahrer eine rote Ampel sehen, was zu gefährlichen Situationen führt. Der Sprecher hat den Mängelmelder der Stadt Essen kontaktiert, um auf das Problem aufmerksam zu machen, erhielt jedoch unzureichende Rückmeldungen. Es wird diskutiert, wie die Sicht für Autofahrer verbessert werden könnte, um Unfälle zu vermeiden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 89,
+        "startSec": 1191,
+        "endSec": 1579,
+        "generatedAt": "2026-01-04T19:30:03.135Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Reini und Banken",
+      "subject": {
+        "coarse": "Finance",
+        "fine": "Banking"
+      },
+      "durationSec": 610,
+      "positionSec": 1559,
+      "summary": "In dieser Episode schildert Reini seine frustrierende Erfahrung mit einer Bank bezüglich der Ummeldung eines Firmenwagens. Er beschreibt, wie er zahlreiche E-Mails an verschiedene Abteilungen der Bank gesendet hat, jedoch keine Antworten erhielt. Schließlich musste er sich durch mehrere Hotlines kämpfen, um zu erfahren, dass ein Handelsregisterauszug fehlte, was ihm nie zuvor mitgeteilt wurde. Trotz seiner Bemühungen, die notwendigen Papiere zu erhalten, stieß er auf bürokratische Hürden und unzureichende Kommunikation seitens der Bank, was zu seinem Ärger und der Erkenntnis führte, dass er sich nicht über Dinge aufregen sollte, die er nicht beeinflussen kann.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 163,
+        "startSec": 1539,
+        "endSec": 2189,
+        "generatedAt": "2026-01-04T19:30:07.303Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Vlog Nicolas",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Vlogging"
+      },
+      "durationSec": 43,
+      "positionSec": 2169,
+      "summary": "In diesem Vlog berichtet Nicolas über seine Aktivitäten im Labor und verweist auf seine Instagram- und YouTube-Beiträge, in denen er erklärt, was im Labor gemacht wird. Er erwähnt, dass er in Zukunft weitere Vlogs planen möchte. Zudem wird auf die neue Folge von Philipp hingewiesen, die online ist. Der Nobelpreis für Physik wird in diesem Jahr an John Clark, Michelle de Vauré und John Martinis verliehen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 25,
+        "startSec": 2149,
+        "endSec": 2232,
+        "generatedAt": "2026-01-04T19:30:07.983Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Nobelpreis für Physik",
+      "subject": {
+        "coarse": "Awards",
+        "fine": "Nobel Prize in Physics"
+      },
+      "durationSec": 1516,
+      "positionSec": 2212,
+      "summary": "Der Nobelpreis für Physik 2025 wurde an John Clark, Michelle de Vauré und John Martinis verliehen für ihre Entdeckung des makroskopischen quantenmechanischen Tunnels und der Energiequantisierung in elektrischen Stromkreisen. Diese Auszeichnung verbindet Grundlagenforschung mit praktischen Anwendungen und zeigt das Potenzial quantenmechanischer Effekte in der Technik. Der Tunnel-Effekt, bei dem Teilchen durch Energiebarrieren hindurch 'tunneln', ist ein zentrales Konzept, das auch den radioaktiven Zerfall erklärt. Die Diskussion thematisiert die Grenzen zwischen klassischer und quantenmechanischer Physik und die Bedeutung dieser Entdeckungen für zukünftige Technologien.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 273,
+        "startSec": 2192,
+        "endSec": 3748,
+        "generatedAt": "2026-01-04T19:30:12.306Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Nobelpreis für Chemie",
+      "subject": {
+        "coarse": "Awards",
+        "fine": "Nobel Prize in Chemistry"
+      },
+      "durationSec": 1578,
+      "positionSec": 3728,
+      "summary": "Der Nobelpreis für Chemie 2025 wurde an Susumu Kitagawa, Richard Robson und Omar M Yagi verliehen für ihre grundlegenden Arbeiten zur Entwicklung von Metallorganischen Frameworks (MOFs). Richard Robson lieferte die erste Idee für diese Struktur, die große Molekül-Kristalle mit Hohlräumen beschreibt. Er verwendete Kupferionen und ein spezifisches Molekül, um eine tetraedrische Struktur zu schaffen, die an die Diamantstruktur erinnert. Diese Entdeckung ermöglichte es, poröse Gerüste zu synthetisieren, die in der Chemie und Materialwissenschaft von Bedeutung sind.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 234,
+        "startSec": 3708,
+        "endSec": 5326,
+        "generatedAt": "2026-01-04T19:30:12.185Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Medizin Nobelpreis",
+      "subject": {
+        "coarse": "Awards",
+        "fine": "Nobel Prize in Medicine"
+      },
+      "durationSec": 867,
+      "positionSec": 5306,
+      "summary": "Der Medizin-Nobelpreis 2025 wurde an Mary Bronco, Fred Remstel und Simon Sakaguchi verliehen für ihre Entdeckungen zur perifären Immuntoleranz. Sie identifizierten regulatorische T-Zellen, die das Immunsystem daran hindern, den eigenen Körper anzugreifen, was entscheidend für die Verhinderung von Autoimmunerkrankungen ist. Sakaguchi entdeckte in den 1990er Jahren diese speziellen T-Zellen, während Bronco und Remstel das Gen Fox-P-III identifizierten, das für die Entwicklung dieser Zellen verantwortlich ist. Diese Erkenntnisse könnten neue Ansätze zur Behandlung von Autoimmunerkrankungen und zur Modulation des Immunsystems in der Krebstherapie eröffnen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 146,
+        "startSec": 5286,
+        "endSec": 6193,
+        "generatedAt": "2026-01-04T19:30:19.736Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Literatur Nobelpreis",
+      "subject": {
+        "coarse": "Awards",
+        "fine": "Nobel Prize in Literature"
+      },
+      "durationSec": 307,
+      "positionSec": 6173,
+      "summary": "Der Literatur-Nobelpreis 2025 wurde an den ungarischen Schriftsteller Laszlo Graznarokai verliehen. Er ist bekannt für seine Werke, die oft apokalyptische Themen und groteske Szenen des Zusammenbruchs von Ordnung behandeln. Zu seinen bedeutendsten Büchern zählen 'Satan Tango' und 'War and War'. Graznarokai hat auch mit Regisseuren zusammengearbeitet, was zur Verfilmung seiner Werke führte, darunter 'Satan Tango' und 'The Turin Horse'. Seine Erzählweise zeichnet sich durch endlos fließende Satzströme aus.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 118,
+        "startSec": 6153,
+        "endSec": 6500,
+        "generatedAt": "2026-01-04T19:30:16.464Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Friedensnobelpreis",
+      "subject": {
+        "coarse": "Awards",
+        "fine": "Nobel Peace Prize"
+      },
+      "durationSec": 489,
+      "positionSec": 6480,
+      "summary": "Der Friedensnobelpreis 2025 wurde an die venezolanische Oppositionspolitikerin Maria Corina Machado verliehen. Sie wird für ihre unermüdliche Arbeit zur Förderung demokratischer Rechte in Venezuela und ihren Einsatz für einen friedlichen Übergang von Diktatur zu Demokratie ausgezeichnet. Machado ist eine zentrale Figur der Opposition gegen das Regime von Nicolás Maduro und hat sich gegen Wahlfälschungen und Repressionen eingesetzt. Ihre Erwähnung von Donald Trump als entscheidende Unterstützung für die pro-demokratische Bewegung in Venezuela sorgt für Kontroversen, da Trump für seine umstrittene Außenpolitik bekannt ist. Dies wirft Fragen zur politischen Dimension des Friedensnobelpreises auf.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 97,
+        "startSec": 6460,
+        "endSec": 6989,
+        "generatedAt": "2026-01-04T19:30:21.069Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Alfred-Nobel-Gedächtnispreis für Wirtschaftswissenschaften",
+      "subject": {
+        "coarse": "Awards",
+        "fine": "Nobel Memorial Prize in Economic Sciences"
+      },
+      "durationSec": 807,
+      "positionSec": 6969,
+      "summary": "In dieser Episode wird der Alfred-Nobel-Gedächtnispreis für Wirtschaftswissenschaften, offiziell der Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, thematisiert. Der Preis wird in diesem Jahr an Joel Mokir, Philippe Aghion und Peter Howitt vergeben, die für ihre Arbeiten zum innovationsgetriebenen Wirtschaftswachstum ausgezeichnet werden. Mokir untersucht die Rolle der wissenschaftlichen Revolution für den Wohlstand und das Wirtschaftswachstum, während Aghion und Howitt ein mathematisches Modell der kreativen Zerstörung präsentieren, das zeigt, wie Innovationen alte Technologien verdrängen und langfristiges Wachstum fördern. Der Preis wird als umstritten betrachtet, da er nicht zu den klassischen Nobelpreisen gehört und stark von politischen und wirtschaftlichen Faktoren beeinflusst ist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "time-window",
+        "pickedCount": 149,
+        "startSec": 6949,
+        "endSec": 7796,
+        "generatedAt": "2026-01-04T19:30:24.378Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Audiokommentar Georg zu pubmed",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Commentary"
+      },
+      "durationSec": 0,
+      "positionSec": 8115,
+      "summary": "Georg gibt einen Audiokommentar zu PubMed und erklärt, dass PubMed nicht nur eine Datenbank mit Abstracts ist, sondern auch PubMed Central umfasst, ein Fulltext-Archiv. Hier müssen alle durch öffentliche NIH-Gelder finanzierten Arbeiten im Volltext und mit Abbildungen bereitgestellt werden, auch wenn die Artikel nicht Open Access sind. Dies gewährleistet, dass NIH-finanzierte Forschungsergebnisse frei zugänglich sind, ohne hohe Gebühren für die Autoren. Georg wünscht sich eine ähnliche Regelung und Infrastruktur in Europa.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "373-ts.json",
+        "method": "keyword-window",
+        "pickedCount": 33,
+        "startSec": 7957,
+        "endSec": 8189,
+        "generatedAt": "2026-01-04T19:30:24.889Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:30:24.889Z",
+  "transcriptFound": true,
+  "transcriptFile": "373-ts.json"
+}

@@ -1,0 +1,155 @@
+{
+  "episodeNumber": 372,
+  "title": "Mi372 – \"Moosgraffiti\"",
+  "extractedAt": "2026-01-04T19:25:36.940Z",
+  "dataSource": "detailed-chapters",
+  "topics": [
+    {
+      "topic": "Verbrechen von Nebenan (live)",
+      "subject": {
+        "coarse": "Crime",
+        "fine": "Local Crime"
+      },
+      "durationSec": 815,
+      "positionSec": 299,
+      "summary": "In der Episode 372 des Podcasts \"Verbrechen von nebenan\" von Philip Leidner wird über eine Live-Show gesprochen, die in der Krugerhalle stattfand und 5.500 Besucher anzog. Philip präsentiert in seinem Podcast True-Crime-Fälle, wobei er respektvoll mit den Hinterbliebenen umgeht. Bei der Live-Tour wurden zwei Fälle vorgestellt: der erste handelte vom Tod eines jungen Mannes, während der zweite Fall humorvollere Aspekte von Betrug und Erbschaften behandelte. Die Veranstaltung zog ein überwiegend weibliches Publikum an, was die Hosts überrascht hat.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "372-ts.json",
+        "method": "time-window",
+        "pickedCount": 219,
+        "startSec": 279,
+        "endSec": 1134,
+        "generatedAt": "2026-01-04T19:29:47.994Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "PubMed Abhängigkeit",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Addiction"
+      },
+      "durationSec": 941,
+      "positionSec": 1114,
+      "summary": "Der Transkript-Ausschnitt behandelt die Abhängigkeit europäischer Wissenschaftler von der US-Datenbank PubMed, die für biomedizinische Literatur zentral ist. Ein Artikel aus dem deutschen Ärzteblatt thematisiert die Risiken dieser Abhängigkeit, insbesondere durch Mittelkürzungen der US-Regierung, die den Zugang zu PubMed einschränken könnten. Dies könnte die wissenschaftliche Neutralität gefährden und den Zugang zu wichtigen Informationen für europäische Forscher beeinträchtigen. Die deutsche Zentralbibliothek für Medizin arbeitet an einer eigenen Datenbank, der Open Life Science Publication Database (OLS PAP), um die Unabhängigkeit zu fördern, jedoch gibt es Bedenken hinsichtlich der langsamen Umsetzung und unzureichenden Finanzierung.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "372-ts.json",
+        "method": "time-window",
+        "pickedCount": 224,
+        "startSec": 1094,
+        "endSec": 2075,
+        "generatedAt": "2026-01-04T19:29:49.318Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 1: \"Space Moss: Resistance was not futile\"",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Biology"
+      },
+      "durationSec": 1532,
+      "positionSec": 2055,
+      "summary": "In dieser Episode wird das Thema 'Space Moss' behandelt, das sich mit der Widerstandsfähigkeit von Moosen beschäftigt. Moose sind uralte Landpflanzen, die keine echten Wurzeln haben und sich durch Rizoide festhalten. Sie sind extrem anpassungsfähig und können unter extremen Bedingungen überleben, was sie zu einem interessanten Forschungsobjekt für das Überleben im Weltraum macht. Die Diskussion umfasst auch die Panspermie-Theorie, die die Möglichkeit untersucht, dass Leben durch Meteoriten zwischen Planeten transportiert werden könnte. Moose könnten möglicherweise die Bedingungen im Weltraum überstehen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "372-ts.json",
+        "method": "time-window",
+        "pickedCount": 363,
+        "startSec": 2035,
+        "endSec": 3607,
+        "generatedAt": "2026-01-04T19:29:53.714Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Snack",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Quick Facts"
+      },
+      "durationSec": 556,
+      "positionSec": 3587,
+      "summary": "Der Batman-Effekt beschreibt ein Phänomen, bei dem das unerwartete Erscheinen einer Person in einem Batman-Kostüm das altruistische Verhalten von Menschen beeinflusst. Eine Studie in der Mailänder U-Bahn untersuchte, ob Passanten einer scheinbar schwangeren Frau einen Sitzplatz anbieten, wenn ein als Batman verkleideter Mann anwesend ist. Die Ergebnisse zeigten, dass die Bereitschaft, einen Sitzplatz anzubieten, von 37% auf 62% anstieg, wenn Batman präsent war. Die Forscher vermuten, dass das unerwartete Ereignis die Menschen aufmerksamer macht und somit ihre Empathie steigert.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "372-ts.json",
+        "method": "time-window",
+        "pickedCount": 134,
+        "startSec": 3567,
+        "endSec": 4163,
+        "generatedAt": "2026-01-04T19:29:54.426Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Thema 2: \"The big five\"",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Ecology"
+      },
+      "durationSec": 1558,
+      "positionSec": 4143,
+      "summary": "In dieser Episode wird das Konzept der \"Big Five\" diskutiert, das sich auf fünf bedeutende Entwicklungsstufen des menschlichen Gehirns bezieht. Diese Stufen sind nicht linear, sondern beinhalten Sprünge in der Gehirnentwicklung, die im Laufe des Lebens auftreten. Die Diskussion umfasst auch die Lernfähigkeit von Kindern im Vergleich zu Erwachsenen und die Auswirkungen von Entwicklungsstörungen. Eine Studie, die mit Diffusion Imaging durchgeführt wurde, untersucht diese Veränderungen im Gehirn über verschiedene Lebensabschnitte hinweg und analysiert die physiologischen Veränderungen, die mit diesen Entwicklungsstufen verbunden sind.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "372-ts.json",
+        "method": "time-window",
+        "pickedCount": 378,
+        "startSec": 4123,
+        "endSec": 5721,
+        "generatedAt": "2026-01-04T19:29:57.418Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Schwurbel der Woche",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Misinformation"
+      },
+      "durationSec": 446,
+      "positionSec": 5701,
+      "summary": "In dieser Episode wird ein sogenannter Quantenkraftstein vorgestellt, der für 800 Euro verkauft wird und als 'Stein der Harmonie' bezeichnet wird. Er soll Wasser strukturieren und elektromagnetische Störfelder harmonisieren, basierend auf der Forschung von Dr. Wolfgang Fick und dem Enki-Institut unter Professor Dr. Enrico Edinger. Kritiker bemängeln die pseudowissenschaftlichen Ansprüche und die Verwendung falscher Titel durch Edinger. Der Stein wird als verpresste Mischung aus Holz, Zellulose und Mineralien beschrieben, die angeblich hexagonales Wasser erzeugt, was als unwirksam angesehen wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "372-ts.json",
+        "method": "time-window",
+        "pickedCount": 135,
+        "startSec": 5681,
+        "endSec": 6167,
+        "generatedAt": "2026-01-04T19:29:58.774Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T19:29:58.774Z",
+  "transcriptFound": true,
+  "transcriptFile": "372-ts.json"
+}

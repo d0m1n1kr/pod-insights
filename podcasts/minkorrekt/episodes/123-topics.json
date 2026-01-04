@@ -1,0 +1,36 @@
+{
+  "episodeNumber": 123,
+  "title": "Minkorrekt Folge 123 \"Herrschaft der reichen Hörer\"",
+  "extractedAt": "2026-01-04T18:53:23.483Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "neues Produkt für das Wasserimperium",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Wassertechnologie"
+      }
+    },
+    {
+      "topic": "bunte Karten",
+      "subject": {
+        "coarse": "Geographie",
+        "fine": "Kartographie"
+      }
+    },
+    {
+      "topic": "Raumsonden",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Raumfahrt"
+      }
+    },
+    {
+      "topic": "magisches Wasser",
+      "subject": {
+        "coarse": "Chemie",
+        "fine": "Experimente"
+      }
+    }
+  ]
+}

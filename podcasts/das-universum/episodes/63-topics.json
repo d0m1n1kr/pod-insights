@@ -1,0 +1,50 @@
+{
+  "episodeNumber": 63,
+  "title": "DU063 - Diesmal mit Supernova-Vorhersage nach der Werbung",
+  "extractedAt": "2026-01-04T19:21:11.103Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "DART-Mission Ergebnisse",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Asteroids"
+      }
+    },
+    {
+      "topic": "Weltraumwerbung",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Satellites"
+      }
+    },
+    {
+      "topic": "Supernova-Vorhersage",
+      "subject": {
+        "coarse": "Astrophysics",
+        "fine": "Supernovae"
+      }
+    },
+    {
+      "topic": "Podcasts im Sumpf",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Podcasts"
+      }
+    },
+    {
+      "topic": "Fragen aus der Hörerschaft",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Astronomy"
+      }
+    },
+    {
+      "topic": "Lyman Spitzer und Weltraumteleskope",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Telescopes"
+      }
+    }
+  ]
+}

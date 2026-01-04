@@ -1,0 +1,193 @@
+{
+  "episodeNumber": 119,
+  "title": "DU119 - Weihnachten in der dunkelsten Galaxie",
+  "extractedAt": "2026-01-04T19:27:25.364Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Weihnachtsmusik aus dem Weltall",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Music"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "119-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 7,
+        "startSec": 0,
+        "endSec": 30,
+        "llmDetectedStartSec": 8,
+        "llmDetectedEndSec": 10,
+        "generatedAt": "2026-01-04T21:56:52.438Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Dunkelste Galaxie und dunkle Materie",
+      "subject": {
+        "coarse": "Astronomy",
+        "fine": "Galaxies"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "119-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 376,
+        "startSec": 0,
+        "endSec": 1324,
+        "llmDetectedStartSec": 10,
+        "llmDetectedEndSec": 1304,
+        "generatedAt": "2026-01-04T21:56:52.710Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Erste Sterne des Universums",
+      "subject": {
+        "coarse": "Astronomy",
+        "fine": "Stellar Formation"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "119-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 1284,
+        "endSec": 20,
+        "llmDetectedStartSec": 1304,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Weihnachtliche Science Fiction",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Literature"
+      },
+      "summary": "In dieser Episode des Podcasts \"Das Universum\" sprechen Ruth und Florian über Weihnachten und weihnachtliche Themen im Kontext von Science Fiction. Sie diskutieren, dass man sich vor Weihnachten keine frohen Feiertage wünschen sollte und erwähnen weihnachtliche Musik, insbesondere Lieder mit einem Weltraum-Hintergrund. Außerdem reflektieren sie über ihre kürzlichen Betriebsausflüge und die Live-Shows in Darmstadt und Wiener Neustadt, wo sie vor Publikum auftraten.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "119-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 1000,
+        "startSec": 0,
+        "endSec": 3763,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 3743,
+        "generatedAt": "2026-01-04T21:56:56.603Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "NASA und Hobby-Astronauten",
+      "subject": {
+        "coarse": "Space",
+        "fine": "Space Exploration"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "119-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 3723,
+        "endSec": 20,
+        "llmDetectedStartSec": 3743,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Dunkle Materie und ihre Eigenschaften",
+      "subject": {
+        "coarse": "Physics",
+        "fine": "Dark Matter"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "119-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 3,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:56:54.282Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Fragen zur dunklen Materie",
+      "subject": {
+        "coarse": "Physics",
+        "fine": "Cosmology"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "119-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 3,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:56:55.853Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Star Trek und Wissenschaft",
+      "subject": {
+        "coarse": "Media",
+        "fine": "Film"
+      },
+      "summary": "In dieser Episode des Podcasts 'Das Universum' sprechen Ruth und Florian über verschiedene Themen, darunter die Veröffentlichung neuer Folgen, die sich mit dem Dokument Kepler in Regensburg befassen. Sie erwähnen, dass sie zwei neue Folgen produziert haben, die Fragen zur modernen Astronomie behandeln, wie das Sterben von Sternen und den Mittelpunkt des Universums. Zudem berichten sie von ihren jüngsten Live-Shows in Darmstadt und Wiener Neustadt, wo sie vor ausverkauften Häusern auftraten und Geschenke von Fans erhielten, darunter Kekse mit astronomischen Motiven.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "119-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 1152,
+        "startSec": 0,
+        "endSec": 4220,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 4200,
+        "generatedAt": "2026-01-04T21:56:59.010Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:56:59.010Z",
+  "transcriptFound": true,
+  "transcriptFile": "119-ts.json"
+}

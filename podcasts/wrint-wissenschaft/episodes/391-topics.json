@@ -1,0 +1,64 @@
+{
+  "episodeNumber": 391,
+  "title": "WR391 Hitlers Messing",
+  "extractedAt": "2026-01-04T19:01:17.274Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Wissenschaft und Gesellschaft",
+      "subject": {
+        "coarse": "Social",
+        "fine": "Social Stress"
+      }
+    },
+    {
+      "topic": "Bewegungsmangel und Gesundheit",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Obesity"
+      }
+    },
+    {
+      "topic": "Umweltpolitik",
+      "subject": {
+        "coarse": "Politics",
+        "fine": "Environmental Policy"
+      }
+    },
+    {
+      "topic": "Epidemien und Medien",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Media Influence"
+      }
+    },
+    {
+      "topic": "Klimawandel und Stadtentwicklung",
+      "subject": {
+        "coarse": "Environment",
+        "fine": "Urban Heat"
+      }
+    },
+    {
+      "topic": "Sprache und Kommunikation",
+      "subject": {
+        "coarse": "Social",
+        "fine": "Language"
+      }
+    },
+    {
+      "topic": "Körperliche Aktivität",
+      "subject": {
+        "coarse": "Health",
+        "fine": "Exercise"
+      }
+    },
+    {
+      "topic": "Naturphänomene",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Geology"
+      }
+    }
+  ]
+}

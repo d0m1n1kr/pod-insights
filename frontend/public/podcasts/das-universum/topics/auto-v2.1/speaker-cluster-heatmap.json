@@ -1,0 +1,4097 @@
+{
+  "generatedAt": "2026-01-04T22:45:54.751Z",
+  "description": "Speaker x Topic-Cluster Heatmap für Freak Show Podcast",
+  "statistics": {
+    "totalSpeakers": 9,
+    "totalClusters": 48,
+    "totalCombinations": 91,
+    "topSpeakersByEpisodes": [
+      {
+        "id": "florian",
+        "name": "Florian",
+        "count": 39
+      },
+      {
+        "id": "ruth",
+        "name": "Ruth",
+        "count": 38
+      },
+      {
+        "id": "evi",
+        "name": "Evi",
+        "count": 37
+      },
+      {
+        "id": "peter",
+        "name": "Peter",
+        "count": 3
+      },
+      {
+        "id": "sigi",
+        "name": "Sigi",
+        "count": 2
+      },
+      {
+        "id": "raoul",
+        "name": "Raoul",
+        "count": 1
+      },
+      {
+        "id": "soundboard",
+        "name": "Soundboard",
+        "count": 1
+      },
+      {
+        "id": "daniel",
+        "name": "Daniel",
+        "count": 1
+      },
+      {
+        "id": "alle",
+        "name": "Alle",
+        "count": 1
+      }
+    ],
+    "topClustersByEpisodes": [
+      {
+        "id": "dunkle-materie-und-schwarze-löcher",
+        "name": "Dunkle Materie und schwarze Löcher",
+        "count": 29
+      },
+      {
+        "id": "science-busters",
+        "name": "Science Busters",
+        "count": 13
+      },
+      {
+        "id": "james-webb-teleskop",
+        "name": "James-Webb-Teleskop",
+        "count": 11
+      },
+      {
+        "id": "universumsexpansion",
+        "name": "Universumsexpansion",
+        "count": 9
+      },
+      {
+        "id": "kosmologie",
+        "name": "Kosmologie",
+        "count": 8
+      },
+      {
+        "id": "galaxienforschung",
+        "name": "Galaxienforschung",
+        "count": 7
+      },
+      {
+        "id": "außerirdische-intelligenz",
+        "name": "Außerirdische Intelligenz",
+        "count": 7
+      },
+      {
+        "id": "milchstraße",
+        "name": "Milchstraße",
+        "count": 6
+      },
+      {
+        "id": "astronomiestudium",
+        "name": "Astronomiestudium",
+        "count": 6
+      },
+      {
+        "id": "beteigeuze-phänomene",
+        "name": "Beteigeuze-Phänomene",
+        "count": 5
+      }
+    ]
+  },
+  "speakers": [
+    {
+      "id": "florian",
+      "name": "Florian",
+      "totalEpisodes": 39,
+      "clusters": [
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 3,
+          "episodes": [
+            145,
+            131,
+            146
+          ]
+        },
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 2,
+          "episodes": [
+            117,
+            119
+          ]
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 2,
+          "episodes": [
+            132,
+            138
+          ]
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 2,
+          "episodes": [
+            131,
+            143
+          ]
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 2,
+          "episodes": [
+            141,
+            142
+          ]
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 2,
+          "episodes": [
+            127,
+            144
+          ]
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 2,
+          "episodes": [
+            125,
+            138
+          ]
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 2,
+          "episodes": [
+            120,
+            133
+          ]
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 2,
+          "episodes": [
+            124,
+            129
+          ]
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 2,
+          "episodes": [
+            126,
+            144
+          ]
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 1,
+          "episodes": [
+            121
+          ]
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 1,
+          "episodes": [
+            134
+          ]
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 1,
+          "episodes": [
+            142
+          ]
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 1,
+          "episodes": [
+            118
+          ]
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 1,
+          "episodes": [
+            132
+          ]
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 1,
+          "episodes": [
+            122
+          ]
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 1,
+          "episodes": [
+            145
+          ]
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 1,
+          "episodes": [
+            140
+          ]
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 1,
+          "episodes": [
+            123
+          ]
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 1,
+          "episodes": [
+            126
+          ]
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 1,
+          "episodes": [
+            119
+          ]
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruth",
+      "name": "Ruth",
+      "totalEpisodes": 38,
+      "clusters": [
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 3,
+          "episodes": [
+            145,
+            131,
+            146
+          ]
+        },
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 2,
+          "episodes": [
+            117,
+            119
+          ]
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 2,
+          "episodes": [
+            132,
+            138
+          ]
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 2,
+          "episodes": [
+            131,
+            143
+          ]
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 2,
+          "episodes": [
+            141,
+            142
+          ]
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 2,
+          "episodes": [
+            127,
+            144
+          ]
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 2,
+          "episodes": [
+            120,
+            133
+          ]
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 2,
+          "episodes": [
+            124,
+            129
+          ]
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 2,
+          "episodes": [
+            126,
+            144
+          ]
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 1,
+          "episodes": [
+            121
+          ]
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 1,
+          "episodes": [
+            134
+          ]
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 1,
+          "episodes": [
+            142
+          ]
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 1,
+          "episodes": [
+            118
+          ]
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 1,
+          "episodes": [
+            132
+          ]
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 1,
+          "episodes": [
+            138
+          ]
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 1,
+          "episodes": [
+            122
+          ]
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 1,
+          "episodes": [
+            145
+          ]
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 1,
+          "episodes": [
+            140
+          ]
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 1,
+          "episodes": [
+            123
+          ]
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 1,
+          "episodes": [
+            126
+          ]
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 1,
+          "episodes": [
+            119
+          ]
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evi",
+      "name": "Evi",
+      "totalEpisodes": 37,
+      "clusters": [
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 3,
+          "episodes": [
+            145,
+            131,
+            146
+          ]
+        },
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 2,
+          "episodes": [
+            117,
+            119
+          ]
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 2,
+          "episodes": [
+            132,
+            138
+          ]
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 2,
+          "episodes": [
+            131,
+            143
+          ]
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 2,
+          "episodes": [
+            141,
+            142
+          ]
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 2,
+          "episodes": [
+            127,
+            144
+          ]
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 2,
+          "episodes": [
+            125,
+            138
+          ]
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 2,
+          "episodes": [
+            120,
+            133
+          ]
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 2,
+          "episodes": [
+            124,
+            129
+          ]
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 2,
+          "episodes": [
+            126,
+            144
+          ]
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 1,
+          "episodes": [
+            121
+          ]
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 1,
+          "episodes": [
+            134
+          ]
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 1,
+          "episodes": [
+            142
+          ]
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 1,
+          "episodes": [
+            118
+          ]
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 1,
+          "episodes": [
+            132
+          ]
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 1,
+          "episodes": [
+            145
+          ]
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 1,
+          "episodes": [
+            140
+          ]
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 1,
+          "episodes": [
+            123
+          ]
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 1,
+          "episodes": [
+            126
+          ]
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 1,
+          "episodes": [
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peter",
+      "name": "Peter",
+      "totalEpisodes": 3,
+      "clusters": [
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigi",
+      "name": "Sigi",
+      "totalEpisodes": 2,
+      "clusters": [
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raoul",
+      "name": "Raoul",
+      "totalEpisodes": 1,
+      "clusters": [
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 1,
+          "episodes": [
+            122
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soundboard",
+      "name": "Soundboard",
+      "totalEpisodes": 1,
+      "clusters": [
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 1,
+          "episodes": [
+            120
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daniel",
+      "name": "Daniel",
+      "totalEpisodes": 1,
+      "clusters": [
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alle",
+      "name": "Alle",
+      "totalEpisodes": 1,
+      "clusters": [
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        }
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "dunkle-materie-und-schwarze-löcher",
+      "name": "Dunkle Materie und schwarze Löcher",
+      "totalEpisodes": 29,
+      "topicCount": 20
+    },
+    {
+      "id": "science-busters",
+      "name": "Science Busters",
+      "totalEpisodes": 13,
+      "topicCount": 4
+    },
+    {
+      "id": "james-webb-teleskop",
+      "name": "James-Webb-Teleskop",
+      "totalEpisodes": 11,
+      "topicCount": 6
+    },
+    {
+      "id": "universumsexpansion",
+      "name": "Universumsexpansion",
+      "totalEpisodes": 9,
+      "topicCount": 3
+    },
+    {
+      "id": "kosmologie",
+      "name": "Kosmologie",
+      "totalEpisodes": 8,
+      "topicCount": 8
+    },
+    {
+      "id": "galaxienforschung",
+      "name": "Galaxienforschung",
+      "totalEpisodes": 7,
+      "topicCount": 7
+    },
+    {
+      "id": "außerirdische-intelligenz",
+      "name": "Außerirdische Intelligenz",
+      "totalEpisodes": 7,
+      "topicCount": 8
+    },
+    {
+      "id": "milchstraße",
+      "name": "Milchstraße",
+      "totalEpisodes": 6,
+      "topicCount": 6
+    },
+    {
+      "id": "astronomiestudium",
+      "name": "Astronomiestudium",
+      "totalEpisodes": 6,
+      "topicCount": 4
+    },
+    {
+      "id": "beteigeuze-phänomene",
+      "name": "Beteigeuze-Phänomene",
+      "totalEpisodes": 5,
+      "topicCount": 5
+    },
+    {
+      "id": "gravitationstheorie",
+      "name": "Gravitationstheorie",
+      "totalEpisodes": 5,
+      "topicCount": 6
+    },
+    {
+      "id": "neutrinoastronomie",
+      "name": "Neutrinoastronomie",
+      "totalEpisodes": 5,
+      "topicCount": 5
+    },
+    {
+      "id": "astrobiologie",
+      "name": "Astrobiologie",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "osiris-rex-mission",
+      "name": "OSIRIS-REx Mission",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "himmelskörperbewegung",
+      "name": "Himmelskörperbewegung",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "mythologie-und-astronomie",
+      "name": "Mythologie und Astronomie",
+      "totalEpisodes": 4,
+      "topicCount": 3
+    },
+    {
+      "id": "science-fiction-astronomie",
+      "name": "Science-Fiction & Astronomie",
+      "totalEpisodes": 4,
+      "topicCount": 4
+    },
+    {
+      "id": "science-fiction-filme",
+      "name": "Science-Fiction-Filme",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "robotik-ethische-fragen",
+      "name": "Robotik-Ethische Fragen",
+      "totalEpisodes": 3,
+      "topicCount": 4
+    },
+    {
+      "id": "oort-wolke",
+      "name": "Oort-Wolke",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "trojaner-asteroiden",
+      "name": "Trojaner-Asteroiden",
+      "totalEpisodes": 3,
+      "topicCount": 4
+    },
+    {
+      "id": "himmelsereignisse",
+      "name": "Himmelsereignisse",
+      "totalEpisodes": 3,
+      "topicCount": 4
+    },
+    {
+      "id": "asteroideneinschläge",
+      "name": "Asteroideneinschläge",
+      "totalEpisodes": 3,
+      "topicCount": 4
+    },
+    {
+      "id": "plejaden",
+      "name": "Plejaden",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "per-lastenrad-durch-die-galaxis",
+      "name": "Per Lastenrad durch die Galaxis",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "gravitationswellen",
+      "name": "Gravitationswellen",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "chang-e-6-mission",
+      "name": "Chang’e-6 Mission",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "artemis-missionen",
+      "name": "Artemis-Missionen",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "polarlichter-und-sterne",
+      "name": "Polarlichter und Sterne",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "mikroorganismen-bücher",
+      "name": "Mikroorganismen Bücher",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "österreichische-meteoriten",
+      "name": "Österreichische Meteoriten",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "klimakrise",
+      "name": "Klimakrise",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "marsrover-perseverance",
+      "name": "Marsrover Perseverance",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "venus-exploration",
+      "name": "Venus-Exploration",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "galaxienbeobachtung",
+      "name": "Galaxienbeobachtung",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "exoplaneten-forschung",
+      "name": "Exoplaneten-Forschung",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "asteroid-city-und-aliens",
+      "name": "Asteroid City und Aliens",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "asteroidenforschung",
+      "name": "Asteroidenforschung",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "mondmissionen",
+      "name": "Mondmissionen",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "astronauten-karriere",
+      "name": "Astronauten Karriere",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "jupiter-und-saturn-monde",
+      "name": "Jupiter und Saturn Monde",
+      "totalEpisodes": 3,
+      "topicCount": 3
+    },
+    {
+      "id": "wissenschaftsfilme",
+      "name": "Wissenschaftsfilme",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "exoplaneten-wasp",
+      "name": "Exoplaneten WASP",
+      "totalEpisodes": 2,
+      "topicCount": 3
+    },
+    {
+      "id": "schleimpilze",
+      "name": "Schleimpilze",
+      "totalEpisodes": 2,
+      "topicCount": 3
+    },
+    {
+      "id": "himmelsscheibe-planetarium",
+      "name": "Himmelsscheibe & Planetarium",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "johannes-kepler",
+      "name": "Johannes Kepler",
+      "totalEpisodes": 2,
+      "topicCount": 3
+    },
+    {
+      "id": "wissenschaftsfilme",
+      "name": "Wissenschaftsfilme",
+      "totalEpisodes": 2,
+      "topicCount": 2
+    },
+    {
+      "id": "gamma-blitze",
+      "name": "Gamma-Blitze",
+      "totalEpisodes": 1,
+      "topicCount": 4
+    }
+  ],
+  "matrix": [
+    {
+      "speakerId": "florian",
+      "speakerName": "Florian",
+      "values": [
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 2,
+          "episodes": [
+            117,
+            119
+          ]
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 2,
+          "episodes": [
+            132,
+            138
+          ]
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 2,
+          "episodes": [
+            127,
+            144
+          ]
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 2,
+          "episodes": [
+            141,
+            142
+          ]
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 2,
+          "episodes": [
+            131,
+            143
+          ]
+        },
+        {
+          "clusterId": "außerirdische-intelligenz",
+          "clusterName": "Außerirdische Intelligenz",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 1,
+          "episodes": [
+            134
+          ]
+        },
+        {
+          "clusterId": "astronomiestudium",
+          "clusterName": "Astronomiestudium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 1,
+          "episodes": [
+            142
+          ]
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 1,
+          "episodes": [
+            118
+          ]
+        },
+        {
+          "clusterId": "neutrinoastronomie",
+          "clusterName": "Neutrinoastronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "osiris-rex-mission",
+          "clusterName": "OSIRIS-REx Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelskörperbewegung",
+          "clusterName": "Himmelskörperbewegung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 1,
+          "episodes": [
+            122
+          ]
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 1,
+          "episodes": [
+            121
+          ]
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 1,
+          "episodes": [
+            132
+          ]
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 2,
+          "episodes": [
+            125,
+            138
+          ]
+        },
+        {
+          "clusterId": "trojaner-asteroiden",
+          "clusterName": "Trojaner-Asteroiden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsereignisse",
+          "clusterName": "Himmelsereignisse",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 1,
+          "episodes": [
+            145
+          ]
+        },
+        {
+          "clusterId": "per-lastenrad-durch-die-galaxis",
+          "clusterName": "Per Lastenrad durch die Galaxis",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationswellen",
+          "clusterName": "Gravitationswellen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "chang-e-6-mission",
+          "clusterName": "Chang’e-6 Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "artemis-missionen",
+          "clusterName": "Artemis-Missionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "polarlichter-und-sterne",
+          "clusterName": "Polarlichter und Sterne",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mikroorganismen-bücher",
+          "clusterName": "Mikroorganismen Bücher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "österreichische-meteoriten",
+          "clusterName": "Österreichische Meteoriten",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "klimakrise",
+          "clusterName": "Klimakrise",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 1,
+          "episodes": [
+            140
+          ]
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 2,
+          "episodes": [
+            120,
+            133
+          ]
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 2,
+          "episodes": [
+            124,
+            129
+          ]
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 1,
+          "episodes": [
+            123
+          ]
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 1,
+          "episodes": [
+            126
+          ]
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 1,
+          "episodes": [
+            119
+          ]
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 2,
+          "episodes": [
+            126,
+            144
+          ]
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 3,
+          "episodes": [
+            145,
+            131,
+            146
+          ]
+        },
+        {
+          "clusterId": "exoplaneten-wasp",
+          "clusterName": "Exoplaneten WASP",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "schleimpilze",
+          "clusterName": "Schleimpilze",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsscheibe-planetarium",
+          "clusterName": "Himmelsscheibe & Planetarium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 3,
+          "episodes": [
+            145,
+            131,
+            146
+          ]
+        },
+        {
+          "clusterId": "gamma-blitze",
+          "clusterName": "Gamma-Blitze",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speakerId": "ruth",
+      "speakerName": "Ruth",
+      "values": [
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 2,
+          "episodes": [
+            117,
+            119
+          ]
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 2,
+          "episodes": [
+            132,
+            138
+          ]
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 2,
+          "episodes": [
+            127,
+            144
+          ]
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 2,
+          "episodes": [
+            141,
+            142
+          ]
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 2,
+          "episodes": [
+            131,
+            143
+          ]
+        },
+        {
+          "clusterId": "außerirdische-intelligenz",
+          "clusterName": "Außerirdische Intelligenz",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 1,
+          "episodes": [
+            134
+          ]
+        },
+        {
+          "clusterId": "astronomiestudium",
+          "clusterName": "Astronomiestudium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 1,
+          "episodes": [
+            142
+          ]
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 1,
+          "episodes": [
+            118
+          ]
+        },
+        {
+          "clusterId": "neutrinoastronomie",
+          "clusterName": "Neutrinoastronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "osiris-rex-mission",
+          "clusterName": "OSIRIS-REx Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelskörperbewegung",
+          "clusterName": "Himmelskörperbewegung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 1,
+          "episodes": [
+            122
+          ]
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 1,
+          "episodes": [
+            121
+          ]
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 1,
+          "episodes": [
+            132
+          ]
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 1,
+          "episodes": [
+            138
+          ]
+        },
+        {
+          "clusterId": "trojaner-asteroiden",
+          "clusterName": "Trojaner-Asteroiden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsereignisse",
+          "clusterName": "Himmelsereignisse",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 1,
+          "episodes": [
+            145
+          ]
+        },
+        {
+          "clusterId": "per-lastenrad-durch-die-galaxis",
+          "clusterName": "Per Lastenrad durch die Galaxis",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationswellen",
+          "clusterName": "Gravitationswellen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "chang-e-6-mission",
+          "clusterName": "Chang’e-6 Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "artemis-missionen",
+          "clusterName": "Artemis-Missionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "polarlichter-und-sterne",
+          "clusterName": "Polarlichter und Sterne",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mikroorganismen-bücher",
+          "clusterName": "Mikroorganismen Bücher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "österreichische-meteoriten",
+          "clusterName": "Österreichische Meteoriten",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "klimakrise",
+          "clusterName": "Klimakrise",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 1,
+          "episodes": [
+            140
+          ]
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 2,
+          "episodes": [
+            120,
+            133
+          ]
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 2,
+          "episodes": [
+            124,
+            129
+          ]
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 1,
+          "episodes": [
+            123
+          ]
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 1,
+          "episodes": [
+            126
+          ]
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 1,
+          "episodes": [
+            119
+          ]
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 2,
+          "episodes": [
+            126,
+            144
+          ]
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 3,
+          "episodes": [
+            145,
+            131,
+            146
+          ]
+        },
+        {
+          "clusterId": "exoplaneten-wasp",
+          "clusterName": "Exoplaneten WASP",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "schleimpilze",
+          "clusterName": "Schleimpilze",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsscheibe-planetarium",
+          "clusterName": "Himmelsscheibe & Planetarium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 3,
+          "episodes": [
+            145,
+            131,
+            146
+          ]
+        },
+        {
+          "clusterId": "gamma-blitze",
+          "clusterName": "Gamma-Blitze",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speakerId": "evi",
+      "speakerName": "Evi",
+      "values": [
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 2,
+          "episodes": [
+            117,
+            119
+          ]
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 2,
+          "episodes": [
+            132,
+            138
+          ]
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 2,
+          "episodes": [
+            127,
+            144
+          ]
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 2,
+          "episodes": [
+            141,
+            142
+          ]
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 2,
+          "episodes": [
+            131,
+            143
+          ]
+        },
+        {
+          "clusterId": "außerirdische-intelligenz",
+          "clusterName": "Außerirdische Intelligenz",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 1,
+          "episodes": [
+            134
+          ]
+        },
+        {
+          "clusterId": "astronomiestudium",
+          "clusterName": "Astronomiestudium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 1,
+          "episodes": [
+            142
+          ]
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 1,
+          "episodes": [
+            118
+          ]
+        },
+        {
+          "clusterId": "neutrinoastronomie",
+          "clusterName": "Neutrinoastronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 1,
+          "episodes": [
+            129
+          ]
+        },
+        {
+          "clusterId": "osiris-rex-mission",
+          "clusterName": "OSIRIS-REx Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelskörperbewegung",
+          "clusterName": "Himmelskörperbewegung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 1,
+          "episodes": [
+            121
+          ]
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 1,
+          "episodes": [
+            132
+          ]
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 2,
+          "episodes": [
+            125,
+            138
+          ]
+        },
+        {
+          "clusterId": "trojaner-asteroiden",
+          "clusterName": "Trojaner-Asteroiden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsereignisse",
+          "clusterName": "Himmelsereignisse",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 1,
+          "episodes": [
+            145
+          ]
+        },
+        {
+          "clusterId": "per-lastenrad-durch-die-galaxis",
+          "clusterName": "Per Lastenrad durch die Galaxis",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationswellen",
+          "clusterName": "Gravitationswellen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "chang-e-6-mission",
+          "clusterName": "Chang’e-6 Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "artemis-missionen",
+          "clusterName": "Artemis-Missionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "polarlichter-und-sterne",
+          "clusterName": "Polarlichter und Sterne",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mikroorganismen-bücher",
+          "clusterName": "Mikroorganismen Bücher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "österreichische-meteoriten",
+          "clusterName": "Österreichische Meteoriten",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "klimakrise",
+          "clusterName": "Klimakrise",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 1,
+          "episodes": [
+            140
+          ]
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 2,
+          "episodes": [
+            120,
+            133
+          ]
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 1,
+          "episodes": [
+            143
+          ]
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 2,
+          "episodes": [
+            124,
+            129
+          ]
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 1,
+          "episodes": [
+            123
+          ]
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 1,
+          "episodes": [
+            126
+          ]
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 1,
+          "episodes": [
+            119
+          ]
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 2,
+          "episodes": [
+            126,
+            144
+          ]
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 3,
+          "episodes": [
+            145,
+            131,
+            146
+          ]
+        },
+        {
+          "clusterId": "exoplaneten-wasp",
+          "clusterName": "Exoplaneten WASP",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "schleimpilze",
+          "clusterName": "Schleimpilze",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsscheibe-planetarium",
+          "clusterName": "Himmelsscheibe & Planetarium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 3,
+          "episodes": [
+            145,
+            131,
+            146
+          ]
+        },
+        {
+          "clusterId": "gamma-blitze",
+          "clusterName": "Gamma-Blitze",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speakerId": "peter",
+      "speakerName": "Peter",
+      "values": [
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "außerirdische-intelligenz",
+          "clusterName": "Außerirdische Intelligenz",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronomiestudium",
+          "clusterName": "Astronomiestudium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "neutrinoastronomie",
+          "clusterName": "Neutrinoastronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "osiris-rex-mission",
+          "clusterName": "OSIRIS-REx Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelskörperbewegung",
+          "clusterName": "Himmelskörperbewegung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "trojaner-asteroiden",
+          "clusterName": "Trojaner-Asteroiden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsereignisse",
+          "clusterName": "Himmelsereignisse",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "per-lastenrad-durch-die-galaxis",
+          "clusterName": "Per Lastenrad durch die Galaxis",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationswellen",
+          "clusterName": "Gravitationswellen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "chang-e-6-mission",
+          "clusterName": "Chang’e-6 Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "artemis-missionen",
+          "clusterName": "Artemis-Missionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "polarlichter-und-sterne",
+          "clusterName": "Polarlichter und Sterne",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mikroorganismen-bücher",
+          "clusterName": "Mikroorganismen Bücher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "österreichische-meteoriten",
+          "clusterName": "Österreichische Meteoriten",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "klimakrise",
+          "clusterName": "Klimakrise",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-wasp",
+          "clusterName": "Exoplaneten WASP",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "schleimpilze",
+          "clusterName": "Schleimpilze",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsscheibe-planetarium",
+          "clusterName": "Himmelsscheibe & Planetarium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gamma-blitze",
+          "clusterName": "Gamma-Blitze",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speakerId": "sigi",
+      "speakerName": "Sigi",
+      "values": [
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "außerirdische-intelligenz",
+          "clusterName": "Außerirdische Intelligenz",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronomiestudium",
+          "clusterName": "Astronomiestudium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "neutrinoastronomie",
+          "clusterName": "Neutrinoastronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "osiris-rex-mission",
+          "clusterName": "OSIRIS-REx Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelskörperbewegung",
+          "clusterName": "Himmelskörperbewegung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "trojaner-asteroiden",
+          "clusterName": "Trojaner-Asteroiden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsereignisse",
+          "clusterName": "Himmelsereignisse",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "per-lastenrad-durch-die-galaxis",
+          "clusterName": "Per Lastenrad durch die Galaxis",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationswellen",
+          "clusterName": "Gravitationswellen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "chang-e-6-mission",
+          "clusterName": "Chang’e-6 Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "artemis-missionen",
+          "clusterName": "Artemis-Missionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "polarlichter-und-sterne",
+          "clusterName": "Polarlichter und Sterne",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mikroorganismen-bücher",
+          "clusterName": "Mikroorganismen Bücher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "österreichische-meteoriten",
+          "clusterName": "Österreichische Meteoriten",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "klimakrise",
+          "clusterName": "Klimakrise",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-wasp",
+          "clusterName": "Exoplaneten WASP",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "schleimpilze",
+          "clusterName": "Schleimpilze",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsscheibe-planetarium",
+          "clusterName": "Himmelsscheibe & Planetarium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gamma-blitze",
+          "clusterName": "Gamma-Blitze",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speakerId": "raoul",
+      "speakerName": "Raoul",
+      "values": [
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "außerirdische-intelligenz",
+          "clusterName": "Außerirdische Intelligenz",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronomiestudium",
+          "clusterName": "Astronomiestudium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "neutrinoastronomie",
+          "clusterName": "Neutrinoastronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "osiris-rex-mission",
+          "clusterName": "OSIRIS-REx Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelskörperbewegung",
+          "clusterName": "Himmelskörperbewegung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 1,
+          "episodes": [
+            122
+          ]
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "trojaner-asteroiden",
+          "clusterName": "Trojaner-Asteroiden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsereignisse",
+          "clusterName": "Himmelsereignisse",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "per-lastenrad-durch-die-galaxis",
+          "clusterName": "Per Lastenrad durch die Galaxis",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationswellen",
+          "clusterName": "Gravitationswellen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "chang-e-6-mission",
+          "clusterName": "Chang’e-6 Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "artemis-missionen",
+          "clusterName": "Artemis-Missionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "polarlichter-und-sterne",
+          "clusterName": "Polarlichter und Sterne",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mikroorganismen-bücher",
+          "clusterName": "Mikroorganismen Bücher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "österreichische-meteoriten",
+          "clusterName": "Österreichische Meteoriten",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "klimakrise",
+          "clusterName": "Klimakrise",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-wasp",
+          "clusterName": "Exoplaneten WASP",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "schleimpilze",
+          "clusterName": "Schleimpilze",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsscheibe-planetarium",
+          "clusterName": "Himmelsscheibe & Planetarium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gamma-blitze",
+          "clusterName": "Gamma-Blitze",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speakerId": "soundboard",
+      "speakerName": "Soundboard",
+      "values": [
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "außerirdische-intelligenz",
+          "clusterName": "Außerirdische Intelligenz",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronomiestudium",
+          "clusterName": "Astronomiestudium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "neutrinoastronomie",
+          "clusterName": "Neutrinoastronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "osiris-rex-mission",
+          "clusterName": "OSIRIS-REx Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelskörperbewegung",
+          "clusterName": "Himmelskörperbewegung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "trojaner-asteroiden",
+          "clusterName": "Trojaner-Asteroiden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsereignisse",
+          "clusterName": "Himmelsereignisse",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "per-lastenrad-durch-die-galaxis",
+          "clusterName": "Per Lastenrad durch die Galaxis",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationswellen",
+          "clusterName": "Gravitationswellen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "chang-e-6-mission",
+          "clusterName": "Chang’e-6 Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "artemis-missionen",
+          "clusterName": "Artemis-Missionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "polarlichter-und-sterne",
+          "clusterName": "Polarlichter und Sterne",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mikroorganismen-bücher",
+          "clusterName": "Mikroorganismen Bücher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "österreichische-meteoriten",
+          "clusterName": "Österreichische Meteoriten",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "klimakrise",
+          "clusterName": "Klimakrise",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 1,
+          "episodes": [
+            120
+          ]
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-wasp",
+          "clusterName": "Exoplaneten WASP",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "schleimpilze",
+          "clusterName": "Schleimpilze",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsscheibe-planetarium",
+          "clusterName": "Himmelsscheibe & Planetarium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gamma-blitze",
+          "clusterName": "Gamma-Blitze",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speakerId": "daniel",
+      "speakerName": "Daniel",
+      "values": [
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "außerirdische-intelligenz",
+          "clusterName": "Außerirdische Intelligenz",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronomiestudium",
+          "clusterName": "Astronomiestudium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "neutrinoastronomie",
+          "clusterName": "Neutrinoastronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "osiris-rex-mission",
+          "clusterName": "OSIRIS-REx Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelskörperbewegung",
+          "clusterName": "Himmelskörperbewegung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "trojaner-asteroiden",
+          "clusterName": "Trojaner-Asteroiden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsereignisse",
+          "clusterName": "Himmelsereignisse",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "per-lastenrad-durch-die-galaxis",
+          "clusterName": "Per Lastenrad durch die Galaxis",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationswellen",
+          "clusterName": "Gravitationswellen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "chang-e-6-mission",
+          "clusterName": "Chang’e-6 Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "artemis-missionen",
+          "clusterName": "Artemis-Missionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "polarlichter-und-sterne",
+          "clusterName": "Polarlichter und Sterne",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mikroorganismen-bücher",
+          "clusterName": "Mikroorganismen Bücher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "österreichische-meteoriten",
+          "clusterName": "Österreichische Meteoriten",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "klimakrise",
+          "clusterName": "Klimakrise",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-wasp",
+          "clusterName": "Exoplaneten WASP",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "schleimpilze",
+          "clusterName": "Schleimpilze",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsscheibe-planetarium",
+          "clusterName": "Himmelsscheibe & Planetarium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gamma-blitze",
+          "clusterName": "Gamma-Blitze",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speakerId": "alle",
+      "speakerName": "Alle",
+      "values": [
+        {
+          "clusterId": "dunkle-materie-und-schwarze-löcher",
+          "clusterName": "Dunkle Materie und schwarze Löcher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-busters",
+          "clusterName": "Science Busters",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "james-webb-teleskop",
+          "clusterName": "James-Webb-Teleskop",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "universumsexpansion",
+          "clusterName": "Universumsexpansion",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "kosmologie",
+          "clusterName": "Kosmologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienforschung",
+          "clusterName": "Galaxienforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "außerirdische-intelligenz",
+          "clusterName": "Außerirdische Intelligenz",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "milchstraße",
+          "clusterName": "Milchstraße",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronomiestudium",
+          "clusterName": "Astronomiestudium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "beteigeuze-phänomene",
+          "clusterName": "Beteigeuze-Phänomene",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationstheorie",
+          "clusterName": "Gravitationstheorie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "neutrinoastronomie",
+          "clusterName": "Neutrinoastronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astrobiologie",
+          "clusterName": "Astrobiologie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "osiris-rex-mission",
+          "clusterName": "OSIRIS-REx Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelskörperbewegung",
+          "clusterName": "Himmelskörperbewegung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mythologie-und-astronomie",
+          "clusterName": "Mythologie und Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-astronomie",
+          "clusterName": "Science-Fiction & Astronomie",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "science-fiction-filme",
+          "clusterName": "Science-Fiction-Filme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "robotik-ethische-fragen",
+          "clusterName": "Robotik-Ethische Fragen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "oort-wolke",
+          "clusterName": "Oort-Wolke",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "trojaner-asteroiden",
+          "clusterName": "Trojaner-Asteroiden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsereignisse",
+          "clusterName": "Himmelsereignisse",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroideneinschläge",
+          "clusterName": "Asteroideneinschläge",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "plejaden",
+          "clusterName": "Plejaden",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "per-lastenrad-durch-die-galaxis",
+          "clusterName": "Per Lastenrad durch die Galaxis",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gravitationswellen",
+          "clusterName": "Gravitationswellen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "chang-e-6-mission",
+          "clusterName": "Chang’e-6 Mission",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "artemis-missionen",
+          "clusterName": "Artemis-Missionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "polarlichter-und-sterne",
+          "clusterName": "Polarlichter und Sterne",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mikroorganismen-bücher",
+          "clusterName": "Mikroorganismen Bücher",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "österreichische-meteoriten",
+          "clusterName": "Österreichische Meteoriten",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "klimakrise",
+          "clusterName": "Klimakrise",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "marsrover-perseverance",
+          "clusterName": "Marsrover Perseverance",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "venus-exploration",
+          "clusterName": "Venus-Exploration",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "galaxienbeobachtung",
+          "clusterName": "Galaxienbeobachtung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-forschung",
+          "clusterName": "Exoplaneten-Forschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroid-city-und-aliens",
+          "clusterName": "Asteroid City und Aliens",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "asteroidenforschung",
+          "clusterName": "Asteroidenforschung",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "mondmissionen",
+          "clusterName": "Mondmissionen",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "astronauten-karriere",
+          "clusterName": "Astronauten Karriere",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "jupiter-und-saturn-monde",
+          "clusterName": "Jupiter und Saturn Monde",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "exoplaneten-wasp",
+          "clusterName": "Exoplaneten WASP",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "schleimpilze",
+          "clusterName": "Schleimpilze",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "himmelsscheibe-planetarium",
+          "clusterName": "Himmelsscheibe & Planetarium",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "johannes-kepler",
+          "clusterName": "Johannes Kepler",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        },
+        {
+          "clusterId": "wissenschaftsfilme",
+          "clusterName": "Wissenschaftsfilme",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "clusterId": "gamma-blitze",
+          "clusterName": "Gamma-Blitze",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    }
+  ]
+}

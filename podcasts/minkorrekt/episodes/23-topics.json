@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 23,
+  "title": "Minkorrekt Folge 23 „Hier sollte ein Sendungstitel stehen“",
+  "extractedAt": "2026-01-04T18:45:28.834Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Gravitationswellen",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Astrophysik"
+      }
+    },
+    {
+      "topic": "Schall-Tarnkappen",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Akustik"
+      }
+    },
+    {
+      "topic": "Diamanten aus der Unterwelt",
+      "subject": {
+        "coarse": "Geologie",
+        "fine": "Mineralogie"
+      }
+    },
+    {
+      "topic": "Pflanzen",
+      "subject": {
+        "coarse": "Biologie",
+        "fine": "Botanik"
+      }
+    },
+    {
+      "topic": "Shaken Soda Syndrom",
+      "subject": {
+        "coarse": "Chemie",
+        "fine": "Experimente"
+      }
+    }
+  ]
+}

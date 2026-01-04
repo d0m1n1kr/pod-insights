@@ -1,0 +1,458 @@
+{
+  "generatedAt": "2026-01-04T22:45:55.118Z",
+  "description": "Speaker × Episode Duration Heatmap Data",
+  "statistics": {
+    "totalEpisodes": 30,
+    "totalSpeakers": 9,
+    "totalDurationBuckets": 4,
+    "totalCombinations": 18,
+    "mostCommonSpeaker": "Florian",
+    "mostCommonSpeakerCount": 30,
+    "mostCommonDuration": 90,
+    "mostCommonDurationLabel": "1h 30min",
+    "mostCommonDurationCount": 44
+  },
+  "speakers": [
+    {
+      "name": "Florian",
+      "totalEpisodes": 30
+    },
+    {
+      "name": "Ruth",
+      "totalEpisodes": 29
+    },
+    {
+      "name": "Evi",
+      "totalEpisodes": 28
+    },
+    {
+      "name": "Soundboard",
+      "totalEpisodes": 1
+    },
+    {
+      "name": "Raoul",
+      "totalEpisodes": 1
+    },
+    {
+      "name": "Sigi",
+      "totalEpisodes": 1
+    },
+    {
+      "name": "Daniel",
+      "totalEpisodes": 1
+    },
+    {
+      "name": "Alle",
+      "totalEpisodes": 1
+    },
+    {
+      "name": "Peter",
+      "totalEpisodes": 1
+    }
+  ],
+  "durations": [
+    {
+      "minutes": 0,
+      "label": "0min",
+      "totalEpisodes": 3
+    },
+    {
+      "minutes": 30,
+      "label": "30min",
+      "totalEpisodes": 17
+    },
+    {
+      "minutes": 60,
+      "label": "1h",
+      "totalEpisodes": 29
+    },
+    {
+      "minutes": 90,
+      "label": "1h 30min",
+      "totalEpisodes": 44
+    }
+  ],
+  "matrix": [
+    {
+      "speaker": "Florian",
+      "totalEpisodes": 30,
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 1,
+          "episodes": [
+            135
+          ]
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 6,
+          "episodes": [
+            125,
+            132,
+            133,
+            134,
+            136,
+            137
+          ]
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 9,
+          "episodes": [
+            117,
+            118,
+            121,
+            130,
+            140,
+            141,
+            143,
+            144,
+            145
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 14,
+          "episodes": [
+            119,
+            120,
+            122,
+            123,
+            124,
+            126,
+            127,
+            128,
+            129,
+            131,
+            138,
+            139,
+            142,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "speaker": "Ruth",
+      "totalEpisodes": 29,
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 1,
+          "episodes": [
+            135
+          ]
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 5,
+          "episodes": [
+            132,
+            133,
+            134,
+            136,
+            137
+          ]
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 9,
+          "episodes": [
+            117,
+            118,
+            121,
+            130,
+            140,
+            141,
+            143,
+            144,
+            145
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 14,
+          "episodes": [
+            119,
+            120,
+            122,
+            123,
+            124,
+            126,
+            127,
+            128,
+            129,
+            131,
+            138,
+            139,
+            142,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "speaker": "Evi",
+      "totalEpisodes": 28,
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 1,
+          "episodes": [
+            135
+          ]
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 6,
+          "episodes": [
+            125,
+            132,
+            133,
+            134,
+            136,
+            137
+          ]
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 8,
+          "episodes": [
+            117,
+            118,
+            121,
+            140,
+            141,
+            143,
+            144,
+            145
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 13,
+          "episodes": [
+            119,
+            120,
+            123,
+            124,
+            126,
+            127,
+            128,
+            129,
+            131,
+            138,
+            139,
+            142,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "speaker": "Soundboard",
+      "totalEpisodes": 1,
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 1,
+          "episodes": [
+            120
+          ]
+        }
+      ]
+    },
+    {
+      "speaker": "Raoul",
+      "totalEpisodes": 1,
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 1,
+          "episodes": [
+            122
+          ]
+        }
+      ]
+    },
+    {
+      "speaker": "Sigi",
+      "totalEpisodes": 1,
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 1,
+          "episodes": [
+            124
+          ]
+        }
+      ]
+    },
+    {
+      "speaker": "Daniel",
+      "totalEpisodes": 1,
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speaker": "Alle",
+      "totalEpisodes": 1,
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 1,
+          "episodes": [
+            130
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "speaker": "Peter",
+      "totalEpisodes": 1,
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 1,
+          "episodes": [
+            144
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    }
+  ]
+}

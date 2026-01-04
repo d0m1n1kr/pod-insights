@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 179,
+  "title": "Mi179 - \"Regionalverband Querdenken\"",
+  "extractedAt": "2026-01-04T19:01:12.487Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Fließbänder",
+      "subject": {
+        "coarse": "Technologie",
+        "fine": "Produktion"
+      }
+    },
+    {
+      "topic": "Kamele",
+      "subject": {
+        "coarse": "Tiere",
+        "fine": "Wüstentiere"
+      }
+    },
+    {
+      "topic": "Fußbodenheizungen",
+      "subject": {
+        "coarse": "Haustechnik",
+        "fine": "Heizung"
+      }
+    },
+    {
+      "topic": "Stress",
+      "subject": {
+        "coarse": "Psychologie",
+        "fine": "Stressmanagement"
+      }
+    },
+    {
+      "topic": "Siphon-Effekt",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Fluidsysteme"
+      }
+    }
+  ]
+}

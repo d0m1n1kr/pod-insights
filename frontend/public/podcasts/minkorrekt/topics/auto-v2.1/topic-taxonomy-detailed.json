@@ -1,0 +1,7688 @@
+{
+  "createdAt": "2026-01-04T19:35:35.234825+00:00",
+  "clusters": [
+    {
+      "id": "schwurbel-analysen",
+      "name": "Schwurbel-Analysen",
+      "topicCount": 6,
+      "relevanceSec": 86351,
+      "topics": [
+        {
+          "topic": "Verschwörungstheorien",
+          "count": 1,
+          "keywords": [
+            "Society",
+            "Conspiracy Theories"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 43,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Schwurbel",
+          "count": 23,
+          "keywords": [
+            "Miscellaneous",
+            "Unconventional Topics",
+            "Culture",
+            "Conspiracy",
+            "Communication / Misinformation"
+          ],
+          "relevanceSec": 18397,
+          "occurrences": [
+            {
+              "episodeNumber": 206,
+              "durationSec": 1252,
+              "positionSec": 10924
+            },
+            {
+              "episodeNumber": 207,
+              "durationSec": 597,
+              "positionSec": 9411
+            },
+            {
+              "episodeNumber": 210,
+              "durationSec": 982,
+              "positionSec": 10293
+            },
+            {
+              "episodeNumber": 217,
+              "durationSec": 460,
+              "positionSec": 9493
+            },
+            {
+              "episodeNumber": 220,
+              "durationSec": 1062,
+              "positionSec": 10088
+            },
+            {
+              "episodeNumber": 222,
+              "durationSec": 847,
+              "positionSec": 9088
+            },
+            {
+              "episodeNumber": 224,
+              "durationSec": 915,
+              "positionSec": 10835
+            },
+            {
+              "episodeNumber": 228,
+              "durationSec": 1043,
+              "positionSec": 10517
+            },
+            {
+              "episodeNumber": 233,
+              "durationSec": 623,
+              "positionSec": 7918
+            },
+            {
+              "episodeNumber": 238,
+              "durationSec": 1473,
+              "positionSec": 6958
+            },
+            {
+              "episodeNumber": 239,
+              "durationSec": 826,
+              "positionSec": 6500
+            },
+            {
+              "episodeNumber": 240,
+              "durationSec": 460,
+              "positionSec": 6714
+            },
+            {
+              "episodeNumber": 241,
+              "durationSec": 603,
+              "positionSec": 6801
+            },
+            {
+              "episodeNumber": 245,
+              "durationSec": 332,
+              "positionSec": 6018
+            },
+            {
+              "episodeNumber": 246,
+              "durationSec": 1084,
+              "positionSec": 6634
+            },
+            {
+              "episodeNumber": 247,
+              "durationSec": 721,
+              "positionSec": 7178
+            },
+            {
+              "episodeNumber": 250,
+              "durationSec": 560,
+              "positionSec": 6605
+            },
+            {
+              "episodeNumber": 277,
+              "durationSec": 475,
+              "positionSec": 8971
+            },
+            {
+              "episodeNumber": 282,
+              "durationSec": 928,
+              "positionSec": 6282
+            },
+            {
+              "episodeNumber": 283,
+              "durationSec": 1175,
+              "positionSec": 5042
+            },
+            {
+              "episodeNumber": 287,
+              "durationSec": 739,
+              "positionSec": 5710
+            },
+            {
+              "episodeNumber": 369,
+              "durationSec": 868,
+              "positionSec": 5533
+            },
+            {
+              "episodeNumber": 371,
+              "durationSec": 372,
+              "positionSec": 4308
+            }
+          ]
+        },
+        {
+          "topic": "Diskussion Schwurbler",
+          "count": 1,
+          "keywords": [
+            "Society / Conspiracy Theories",
+            "Discussion"
+          ],
+          "relevanceSec": 1091,
+          "occurrences": [
+            {
+              "episodeNumber": 208,
+              "durationSec": 1091,
+              "positionSec": 1424
+            }
+          ]
+        },
+        {
+          "topic": "Schwurbel der Woche",
+          "count": 103,
+          "keywords": [
+            "Society / Conspiracy Theories",
+            "Weekly Highlights",
+            "Miscellaneous / Trends",
+            "Miscellaneous / Nonsense of the Week",
+            "Culture"
+          ],
+          "relevanceSec": 64277,
+          "occurrences": [
+            {
+              "episodeNumber": 208,
+              "durationSec": 526,
+              "positionSec": 11573
+            },
+            {
+              "episodeNumber": 209,
+              "durationSec": 756,
+              "positionSec": 10011
+            },
+            {
+              "episodeNumber": 211,
+              "durationSec": 1474,
+              "positionSec": 9157
+            },
+            {
+              "episodeNumber": 212,
+              "durationSec": 616,
+              "positionSec": 12013
+            },
+            {
+              "episodeNumber": 213,
+              "durationSec": 995,
+              "positionSec": 8967
+            },
+            {
+              "episodeNumber": 214,
+              "durationSec": 695,
+              "positionSec": 8488
+            },
+            {
+              "episodeNumber": 215,
+              "durationSec": 1021,
+              "positionSec": 8069
+            },
+            {
+              "episodeNumber": 216,
+              "durationSec": 562,
+              "positionSec": 8988
+            },
+            {
+              "episodeNumber": 218,
+              "durationSec": 0,
+              "positionSec": 7425
+            },
+            {
+              "episodeNumber": 219,
+              "durationSec": 656,
+              "positionSec": 11604
+            },
+            {
+              "episodeNumber": 221,
+              "durationSec": 618,
+              "positionSec": 11716
+            },
+            {
+              "episodeNumber": 223,
+              "durationSec": 575,
+              "positionSec": 9517
+            },
+            {
+              "episodeNumber": 226,
+              "durationSec": 1045,
+              "positionSec": 10100
+            },
+            {
+              "episodeNumber": 227,
+              "durationSec": 1659,
+              "positionSec": 8060
+            },
+            {
+              "episodeNumber": 229,
+              "durationSec": 1048,
+              "positionSec": 7053
+            },
+            {
+              "episodeNumber": 230,
+              "durationSec": 770,
+              "positionSec": 6309
+            },
+            {
+              "episodeNumber": 232,
+              "durationSec": 705,
+              "positionSec": 6983
+            },
+            {
+              "episodeNumber": 234,
+              "durationSec": 0,
+              "positionSec": 6306
+            },
+            {
+              "episodeNumber": 236,
+              "durationSec": 575,
+              "positionSec": 7057
+            },
+            {
+              "episodeNumber": 237,
+              "durationSec": 0,
+              "positionSec": 5283
+            },
+            {
+              "episodeNumber": 249,
+              "durationSec": 1079,
+              "positionSec": 6787
+            },
+            {
+              "episodeNumber": 251,
+              "durationSec": 1217,
+              "positionSec": 6380
+            },
+            {
+              "episodeNumber": 252,
+              "durationSec": 313,
+              "positionSec": 7583
+            },
+            {
+              "episodeNumber": 253,
+              "durationSec": 307,
+              "positionSec": 6569
+            },
+            {
+              "episodeNumber": 256,
+              "durationSec": 0,
+              "positionSec": 6895
+            },
+            {
+              "episodeNumber": 258,
+              "durationSec": 0,
+              "positionSec": 6309
+            },
+            {
+              "episodeNumber": 259,
+              "durationSec": 0,
+              "positionSec": 8174
+            },
+            {
+              "episodeNumber": 262,
+              "durationSec": 435,
+              "positionSec": 7447
+            },
+            {
+              "episodeNumber": 263,
+              "durationSec": 252,
+              "positionSec": 7835
+            },
+            {
+              "episodeNumber": 266,
+              "durationSec": 989,
+              "positionSec": 5865
+            },
+            {
+              "episodeNumber": 267,
+              "durationSec": 996,
+              "positionSec": 6686
+            },
+            {
+              "episodeNumber": 268,
+              "durationSec": 0,
+              "positionSec": 6139
+            },
+            {
+              "episodeNumber": 269,
+              "durationSec": 796,
+              "positionSec": 6348
+            },
+            {
+              "episodeNumber": 271,
+              "durationSec": 1069,
+              "positionSec": 7100
+            },
+            {
+              "episodeNumber": 273,
+              "durationSec": 734,
+              "positionSec": 7265
+            },
+            {
+              "episodeNumber": 275,
+              "durationSec": 409,
+              "positionSec": 6419
+            },
+            {
+              "episodeNumber": 279,
+              "durationSec": 618,
+              "positionSec": 7824
+            },
+            {
+              "episodeNumber": 288,
+              "durationSec": 837,
+              "positionSec": 5790
+            },
+            {
+              "episodeNumber": 289,
+              "durationSec": 1119,
+              "positionSec": 3997
+            },
+            {
+              "episodeNumber": 291,
+              "durationSec": 737,
+              "positionSec": 5829
+            },
+            {
+              "episodeNumber": 292,
+              "durationSec": 535,
+              "positionSec": 6837
+            },
+            {
+              "episodeNumber": 293,
+              "durationSec": 1059,
+              "positionSec": 6447
+            },
+            {
+              "episodeNumber": 294,
+              "durationSec": 372,
+              "positionSec": 7120
+            },
+            {
+              "episodeNumber": 295,
+              "durationSec": 468,
+              "positionSec": 6835
+            },
+            {
+              "episodeNumber": 296,
+              "durationSec": 351,
+              "positionSec": 6528
+            },
+            {
+              "episodeNumber": 297,
+              "durationSec": 1114,
+              "positionSec": 4435
+            },
+            {
+              "episodeNumber": 298,
+              "durationSec": 1205,
+              "positionSec": 5980
+            },
+            {
+              "episodeNumber": 299,
+              "durationSec": 1006,
+              "positionSec": 5110
+            },
+            {
+              "episodeNumber": 300,
+              "durationSec": 1528,
+              "positionSec": 6679
+            },
+            {
+              "episodeNumber": 301,
+              "durationSec": 406,
+              "positionSec": 5537
+            },
+            {
+              "episodeNumber": 302,
+              "durationSec": 485,
+              "positionSec": 6012
+            },
+            {
+              "episodeNumber": 303,
+              "durationSec": 508,
+              "positionSec": 5427
+            },
+            {
+              "episodeNumber": 304,
+              "durationSec": 514,
+              "positionSec": 5466
+            },
+            {
+              "episodeNumber": 305,
+              "durationSec": 616,
+              "positionSec": 6885
+            },
+            {
+              "episodeNumber": 306,
+              "durationSec": 374,
+              "positionSec": 6188
+            },
+            {
+              "episodeNumber": 307,
+              "durationSec": 756,
+              "positionSec": 7466
+            },
+            {
+              "episodeNumber": 308,
+              "durationSec": 863,
+              "positionSec": 6202
+            },
+            {
+              "episodeNumber": 309,
+              "durationSec": 568,
+              "positionSec": 6605
+            },
+            {
+              "episodeNumber": 310,
+              "durationSec": 559,
+              "positionSec": 7393
+            },
+            {
+              "episodeNumber": 311,
+              "durationSec": 893,
+              "positionSec": 5546
+            },
+            {
+              "episodeNumber": 314,
+              "durationSec": 574,
+              "positionSec": 6520
+            },
+            {
+              "episodeNumber": 315,
+              "durationSec": 424,
+              "positionSec": 6960
+            },
+            {
+              "episodeNumber": 316,
+              "durationSec": 722,
+              "positionSec": 6482
+            },
+            {
+              "episodeNumber": 317,
+              "durationSec": 496,
+              "positionSec": 7297
+            },
+            {
+              "episodeNumber": 319,
+              "durationSec": 190,
+              "positionSec": 6529
+            },
+            {
+              "episodeNumber": 320,
+              "durationSec": 612,
+              "positionSec": 5360
+            },
+            {
+              "episodeNumber": 321,
+              "durationSec": 245,
+              "positionSec": 6182
+            },
+            {
+              "episodeNumber": 323,
+              "durationSec": 800,
+              "positionSec": 4627
+            },
+            {
+              "episodeNumber": 325,
+              "durationSec": 516,
+              "positionSec": 6364
+            },
+            {
+              "episodeNumber": 329,
+              "durationSec": 740,
+              "positionSec": 5016
+            },
+            {
+              "episodeNumber": 330,
+              "durationSec": 739,
+              "positionSec": 5316
+            },
+            {
+              "episodeNumber": 331,
+              "durationSec": 1031,
+              "positionSec": 5566
+            },
+            {
+              "episodeNumber": 332,
+              "durationSec": 343,
+              "positionSec": 6131
+            },
+            {
+              "episodeNumber": 333,
+              "durationSec": 701,
+              "positionSec": 5683
+            },
+            {
+              "episodeNumber": 334,
+              "durationSec": 740,
+              "positionSec": 4830
+            },
+            {
+              "episodeNumber": 335,
+              "durationSec": 585,
+              "positionSec": 5633
+            },
+            {
+              "episodeNumber": 336,
+              "durationSec": 508,
+              "positionSec": 5906
+            },
+            {
+              "episodeNumber": 338,
+              "durationSec": 392,
+              "positionSec": 5273
+            },
+            {
+              "episodeNumber": 339,
+              "durationSec": 480,
+              "positionSec": 5485
+            },
+            {
+              "episodeNumber": 340,
+              "durationSec": 360,
+              "positionSec": 5959
+            },
+            {
+              "episodeNumber": 341,
+              "durationSec": 693,
+              "positionSec": 5497
+            },
+            {
+              "episodeNumber": 342,
+              "durationSec": 933,
+              "positionSec": 5439
+            },
+            {
+              "episodeNumber": 345,
+              "durationSec": 638,
+              "positionSec": 6294
+            },
+            {
+              "episodeNumber": 347,
+              "durationSec": 549,
+              "positionSec": 6069
+            },
+            {
+              "episodeNumber": 348,
+              "durationSec": 293,
+              "positionSec": 6861
+            },
+            {
+              "episodeNumber": 350,
+              "durationSec": 496,
+              "positionSec": 5215
+            },
+            {
+              "episodeNumber": 351,
+              "durationSec": 658,
+              "positionSec": 6161
+            },
+            {
+              "episodeNumber": 352,
+              "durationSec": 1041,
+              "positionSec": 6362
+            },
+            {
+              "episodeNumber": 355,
+              "durationSec": 635,
+              "positionSec": 6072
+            },
+            {
+              "episodeNumber": 357,
+              "durationSec": 483,
+              "positionSec": 6107
+            },
+            {
+              "episodeNumber": 358,
+              "durationSec": 823,
+              "positionSec": 5877
+            },
+            {
+              "episodeNumber": 359,
+              "durationSec": 484,
+              "positionSec": 6280
+            },
+            {
+              "episodeNumber": 360,
+              "durationSec": 981,
+              "positionSec": 5879
+            },
+            {
+              "episodeNumber": 361,
+              "durationSec": 491,
+              "positionSec": 5764
+            },
+            {
+              "episodeNumber": 362,
+              "durationSec": 422,
+              "positionSec": 6205
+            },
+            {
+              "episodeNumber": 363,
+              "durationSec": 472,
+              "positionSec": 6240
+            },
+            {
+              "episodeNumber": 364,
+              "durationSec": 208,
+              "positionSec": 6746
+            },
+            {
+              "episodeNumber": 365,
+              "durationSec": 335,
+              "positionSec": 5166
+            },
+            {
+              "episodeNumber": 366,
+              "durationSec": 396,
+              "positionSec": 6395
+            },
+            {
+              "episodeNumber": 367,
+              "durationSec": 468,
+              "positionSec": 6070
+            },
+            {
+              "episodeNumber": 368,
+              "durationSec": 228,
+              "positionSec": 7020
+            },
+            {
+              "episodeNumber": 370,
+              "durationSec": 523,
+              "positionSec": 5617
+            },
+            {
+              "episodeNumber": 372,
+              "durationSec": 446,
+              "positionSec": 5701
+            }
+          ]
+        },
+        {
+          "topic": "Reini im Schwurbelreich",
+          "count": 1,
+          "keywords": [
+            "Culture / Media",
+            "Conspiracy Theories"
+          ],
+          "relevanceSec": 1499,
+          "occurrences": [
+            {
+              "episodeNumber": 221,
+              "durationSec": 1499,
+              "positionSec": 1620
+            }
+          ]
+        },
+        {
+          "topic": "Schwurbel der",
+          "count": 1,
+          "keywords": [
+            "Science / Pseudoscience",
+            "Science / Nonsense"
+          ],
+          "relevanceSec": 787,
+          "occurrences": [
+            {
+              "episodeNumber": 344,
+              "durationSec": 787,
+              "positionSec": 5702
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snackable-science",
+      "name": "Snackable Science",
+      "topicCount": 3,
+      "relevanceSec": 15847,
+      "topics": [
+        {
+          "topic": "Snackable Science und Experiment",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft / Snackable Science",
+            "Experiment"
+          ],
+          "relevanceSec": 752,
+          "occurrences": [
+            {
+              "episodeNumber": 254,
+              "durationSec": 752,
+              "positionSec": 3811
+            }
+          ]
+        },
+        {
+          "topic": "Snackable Science: \"Alles Banane\"",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Food"
+          ],
+          "relevanceSec": 565,
+          "occurrences": [
+            {
+              "episodeNumber": 278,
+              "durationSec": 565,
+              "positionSec": 4845
+            }
+          ]
+        },
+        {
+          "topic": "Science Snack",
+          "count": 29,
+          "keywords": [
+            "Science",
+            "Snacks",
+            "Food",
+            "Food / Snack",
+            "Science / Education"
+          ],
+          "relevanceSec": 14530,
+          "occurrences": [
+            {
+              "episodeNumber": 335,
+              "durationSec": 687,
+              "positionSec": 3422
+            },
+            {
+              "episodeNumber": 340,
+              "durationSec": 410,
+              "positionSec": 4176
+            },
+            {
+              "episodeNumber": 341,
+              "durationSec": 493,
+              "positionSec": 3318
+            },
+            {
+              "episodeNumber": 342,
+              "durationSec": 578,
+              "positionSec": 3514
+            },
+            {
+              "episodeNumber": 343,
+              "durationSec": 409,
+              "positionSec": 4949
+            },
+            {
+              "episodeNumber": 344,
+              "durationSec": 732,
+              "positionSec": 3402
+            },
+            {
+              "episodeNumber": 345,
+              "durationSec": 843,
+              "positionSec": 4121
+            },
+            {
+              "episodeNumber": 347,
+              "durationSec": 547,
+              "positionSec": 3596
+            },
+            {
+              "episodeNumber": 348,
+              "durationSec": 407,
+              "positionSec": 4204
+            },
+            {
+              "episodeNumber": 349,
+              "durationSec": 507,
+              "positionSec": 4417
+            },
+            {
+              "episodeNumber": 350,
+              "durationSec": 349,
+              "positionSec": 3683
+            },
+            {
+              "episodeNumber": 351,
+              "durationSec": 465,
+              "positionSec": 4603
+            },
+            {
+              "episodeNumber": 352,
+              "durationSec": 547,
+              "positionSec": 4770
+            },
+            {
+              "episodeNumber": 354,
+              "durationSec": 417,
+              "positionSec": 4950
+            },
+            {
+              "episodeNumber": 355,
+              "durationSec": 274,
+              "positionSec": 4209
+            },
+            {
+              "episodeNumber": 356,
+              "durationSec": 262,
+              "positionSec": 3960
+            },
+            {
+              "episodeNumber": 358,
+              "durationSec": 397,
+              "positionSec": 4407
+            },
+            {
+              "episodeNumber": 359,
+              "durationSec": 358,
+              "positionSec": 3947
+            },
+            {
+              "episodeNumber": 360,
+              "durationSec": 440,
+              "positionSec": 4107
+            },
+            {
+              "episodeNumber": 361,
+              "durationSec": 200,
+              "positionSec": 4018
+            },
+            {
+              "episodeNumber": 362,
+              "durationSec": 270,
+              "positionSec": 4760
+            },
+            {
+              "episodeNumber": 363,
+              "durationSec": 320,
+              "positionSec": 4583
+            },
+            {
+              "episodeNumber": 364,
+              "durationSec": 1237,
+              "positionSec": 3659
+            },
+            {
+              "episodeNumber": 365,
+              "durationSec": 798,
+              "positionSec": 3269
+            },
+            {
+              "episodeNumber": 367,
+              "durationSec": 651,
+              "positionSec": 4021
+            },
+            {
+              "episodeNumber": 368,
+              "durationSec": 434,
+              "positionSec": 3659
+            },
+            {
+              "episodeNumber": 369,
+              "durationSec": 604,
+              "positionSec": 3600
+            },
+            {
+              "episodeNumber": 370,
+              "durationSec": 338,
+              "positionSec": 3789
+            },
+            {
+              "episodeNumber": 372,
+              "durationSec": 556,
+              "positionSec": 3587
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nobelpreise-wissenschaft",
+      "name": "Nobelpreise Wissenschaft",
+      "topicCount": 10,
+      "relevanceSec": 14487,
+      "topics": [
+        {
+          "topic": "Preisträger Chemie",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Chemie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 13,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Nobelpreis Physik",
+          "count": 1,
+          "keywords": [
+            "Awards",
+            "Nobel Prize Physics"
+          ],
+          "relevanceSec": 2003,
+          "occurrences": [
+            {
+              "episodeNumber": 277,
+              "durationSec": 2003,
+              "positionSec": 2500
+            }
+          ]
+        },
+        {
+          "topic": "Nobelpreis Chemie",
+          "count": 1,
+          "keywords": [
+            "Awards",
+            "Nobel Prize Chemistry"
+          ],
+          "relevanceSec": 1961,
+          "occurrences": [
+            {
+              "episodeNumber": 277,
+              "durationSec": 1961,
+              "positionSec": 4503
+            }
+          ]
+        },
+        {
+          "topic": "Nobelpreis Medizin",
+          "count": 1,
+          "keywords": [
+            "Awards",
+            "Nobel Prize Medicine"
+          ],
+          "relevanceSec": 1252,
+          "occurrences": [
+            {
+              "episodeNumber": 277,
+              "durationSec": 1252,
+              "positionSec": 6464
+            }
+          ]
+        },
+        {
+          "topic": "Physiknobelpreis",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Physics"
+          ],
+          "relevanceSec": 1995,
+          "occurrences": [
+            {
+              "episodeNumber": 326,
+              "durationSec": 1995,
+              "positionSec": 1756
+            }
+          ]
+        },
+        {
+          "topic": "Chemienobelpreis",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Chemistry"
+          ],
+          "relevanceSec": 1985,
+          "occurrences": [
+            {
+              "episodeNumber": 326,
+              "durationSec": 1985,
+              "positionSec": 3751
+            }
+          ]
+        },
+        {
+          "topic": "Medizinnobelpreis",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Medicine"
+          ],
+          "relevanceSec": 1030,
+          "occurrences": [
+            {
+              "episodeNumber": 326,
+              "durationSec": 1030,
+              "positionSec": 5736
+            }
+          ]
+        },
+        {
+          "topic": "Nobelpreis für Physik",
+          "count": 1,
+          "keywords": [
+            "Awards",
+            "Nobel Prize in Physics"
+          ],
+          "relevanceSec": 1516,
+          "occurrences": [
+            {
+              "episodeNumber": 373,
+              "durationSec": 1516,
+              "positionSec": 2212
+            }
+          ]
+        },
+        {
+          "topic": "Nobelpreis für Chemie",
+          "count": 1,
+          "keywords": [
+            "Awards",
+            "Nobel Prize in Chemistry"
+          ],
+          "relevanceSec": 1578,
+          "occurrences": [
+            {
+              "episodeNumber": 373,
+              "durationSec": 1578,
+              "positionSec": 3728
+            }
+          ]
+        },
+        {
+          "topic": "Medizin Nobelpreis",
+          "count": 1,
+          "keywords": [
+            "Awards",
+            "Nobel Prize in Medicine"
+          ],
+          "relevanceSec": 867,
+          "occurrences": [
+            {
+              "episodeNumber": 373,
+              "durationSec": 867,
+              "positionSec": 5306
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gesunde-ernährung",
+      "name": "Gesunde Ernährung",
+      "topicCount": 5,
+      "relevanceSec": 6832,
+      "topics": [
+        {
+          "topic": "Ernährung",
+          "count": 2,
+          "keywords": [
+            "Health",
+            "Nutrition"
+          ],
+          "relevanceSec": 1176,
+          "occurrences": [
+            {
+              "episodeNumber": 212,
+              "durationSec": 743,
+              "positionSec": 8024
+            },
+            {
+              "episodeNumber": 374,
+              "durationSec": 433,
+              "positionSec": 4389
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Stressesser\"",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Ernährung"
+          ],
+          "relevanceSec": 1485,
+          "occurrences": [
+            {
+              "episodeNumber": 255,
+              "durationSec": 1485,
+              "positionSec": 6660
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: “Hunger Dich gesund!”",
+          "count": 1,
+          "keywords": [
+            "Health / Nutrition",
+            "Diet / Healthy Eating"
+          ],
+          "relevanceSec": 1643,
+          "occurrences": [
+            {
+              "episodeNumber": 286,
+              "durationSec": 1643,
+              "positionSec": 3442
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Die Fleischampel\"",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Nutrition"
+          ],
+          "relevanceSec": 1386,
+          "occurrences": [
+            {
+              "episodeNumber": 292,
+              "durationSec": 1386,
+              "positionSec": 5451
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: \"Iss dich jung\"",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Nutrition"
+          ],
+          "relevanceSec": 1142,
+          "occurrences": [
+            {
+              "episodeNumber": 333,
+              "durationSec": 1142,
+              "positionSec": 2752
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hal-9000-dialoge",
+      "name": "Hal 9000 Dialoge",
+      "topicCount": 3,
+      "relevanceSec": 5398,
+      "topics": [
+        {
+          "topic": "Thema 2: \"I am sorry Dave, you shouldn`t do that\"",
+          "count": 1,
+          "keywords": [
+            "Technology",
+            "AI Ethics"
+          ],
+          "relevanceSec": 1616,
+          "occurrences": [
+            {
+              "episodeNumber": 246,
+              "durationSec": 1616,
+              "positionSec": 5018
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: “Das kann ich nicht tun, Dave”",
+          "count": 1,
+          "keywords": [
+            "Philosophy",
+            "AI Ethics"
+          ],
+          "relevanceSec": 2384,
+          "occurrences": [
+            {
+              "episodeNumber": 298,
+              "durationSec": 2384,
+              "positionSec": 2149
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2 \"Sorry Dave, I can let you do that\"",
+          "count": 1,
+          "keywords": [
+            "Technology",
+            "AI Interaction"
+          ],
+          "relevanceSec": 1398,
+          "occurrences": [
+            {
+              "episodeNumber": 367,
+              "durationSec": 1398,
+              "positionSec": 4672
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astrophysik",
+      "name": "Astrophysik",
+      "topicCount": 3,
+      "relevanceSec": 5298,
+      "topics": [
+        {
+          "topic": "Thema 1: \"Galaktische Goldminen\"",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Astrophysics"
+          ],
+          "relevanceSec": 1532,
+          "occurrences": [
+            {
+              "episodeNumber": 229,
+              "durationSec": 1532,
+              "positionSec": 3335
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: “Zerbröselnde schwarze Löcher”",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Astrophysics"
+          ],
+          "relevanceSec": 2012,
+          "occurrences": [
+            {
+              "episodeNumber": 305,
+              "durationSec": 2012,
+              "positionSec": 1882
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1 \"Die dunkle Seite des Universums\"",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Astrophysics"
+          ],
+          "relevanceSec": 1754,
+          "occurrences": [
+            {
+              "episodeNumber": 366,
+              "durationSec": 1754,
+              "positionSec": 2053
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freestyle-physics",
+      "name": "Freestyle Physics",
+      "topicCount": 5,
+      "relevanceSec": 4816,
+      "topics": [
+        {
+          "topic": "freestyle-physics 2023",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Physics"
+          ],
+          "relevanceSec": 1243,
+          "occurrences": [
+            {
+              "episodeNumber": 255,
+              "durationSec": 1243,
+              "positionSec": 156
+            }
+          ]
+        },
+        {
+          "topic": "freestyle physics 2024",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Physics"
+          ],
+          "relevanceSec": 777,
+          "occurrences": [
+            {
+              "episodeNumber": 289,
+              "durationSec": 777,
+              "positionSec": 2632
+            }
+          ]
+        },
+        {
+          "topic": "freestyle-physics 2024",
+          "count": 1,
+          "keywords": [
+            "Science / Physics",
+            "Event / freestyle-physics 2024"
+          ],
+          "relevanceSec": 949,
+          "occurrences": [
+            {
+              "episodeNumber": 304,
+              "durationSec": 949,
+              "positionSec": 1064
+            }
+          ]
+        },
+        {
+          "topic": "freestyle-physics",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Physics"
+          ],
+          "relevanceSec": 946,
+          "occurrences": [
+            {
+              "episodeNumber": 346,
+              "durationSec": 946,
+              "positionSec": 448
+            }
+          ]
+        },
+        {
+          "topic": "freestyle physics",
+          "count": 2,
+          "keywords": [
+            "Science",
+            "Physics"
+          ],
+          "relevanceSec": 901,
+          "occurrences": [
+            {
+              "episodeNumber": 347,
+              "durationSec": 110,
+              "positionSec": 1847
+            },
+            {
+              "episodeNumber": 352,
+              "durationSec": 791,
+              "positionSec": 232
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "der-herr-der-ringe",
+      "name": "Der Herr der Ringe",
+      "topicCount": 5,
+      "relevanceSec": 4714,
+      "topics": [
+        {
+          "topic": "Thema 3: \"Durch Mark und Bein\"",
+          "count": 1,
+          "keywords": [
+            "Art / Literature",
+            "Creative Works / Narratives"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 55,
+              "durationSec": 0,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: \"Ein Ring, sie ins Dunkel zu treiben und ewig zu binden.\"",
+          "count": 1,
+          "keywords": [
+            "Literature",
+            "Fantasy"
+          ],
+          "relevanceSec": 1222,
+          "occurrences": [
+            {
+              "episodeNumber": 222,
+              "durationSec": 1222,
+              "positionSec": 3782
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Galadriels brüchige Phiole\"",
+          "count": 1,
+          "keywords": [
+            "Literature",
+            "Fantasy"
+          ],
+          "relevanceSec": 1429,
+          "occurrences": [
+            {
+              "episodeNumber": 222,
+              "durationSec": 1429,
+              "positionSec": 5004
+            }
+          ]
+        },
+        {
+          "topic": "Thema 3: “Flieht ihr Narren!”",
+          "count": 1,
+          "keywords": [
+            "Literature",
+            "Fantasy"
+          ],
+          "relevanceSec": 1018,
+          "occurrences": [
+            {
+              "episodeNumber": 222,
+              "durationSec": 1018,
+              "positionSec": 6433
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: Der eine Ring",
+          "count": 1,
+          "keywords": [
+            "Literatur / Fiktion",
+            "Mythologie"
+          ],
+          "relevanceSec": 1045,
+          "occurrences": [
+            {
+              "episodeNumber": 237,
+              "durationSec": 1045,
+              "positionSec": 4238
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quantenphysik",
+      "name": "Quantenphysik",
+      "topicCount": 3,
+      "relevanceSec": 4424,
+      "topics": [
+        {
+          "topic": "Thema 1: “Spiegelwelten”",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Theories"
+          ],
+          "relevanceSec": 1468,
+          "occurrences": [
+            {
+              "episodeNumber": 260,
+              "durationSec": 1468,
+              "positionSec": 3398
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: “Plasmawellenreiter”",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Physics"
+          ],
+          "relevanceSec": 1527,
+          "occurrences": [
+            {
+              "episodeNumber": 264,
+              "durationSec": 1527,
+              "positionSec": 4189
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: \"Symmetriebruch mit Folgen\"",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Physics"
+          ],
+          "relevanceSec": 1429,
+          "occurrences": [
+            {
+              "episodeNumber": 340,
+              "durationSec": 1429,
+              "positionSec": 2747
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "podcast-drama",
+      "name": "Podcast-Drama",
+      "topicCount": 10,
+      "relevanceSec": 4360,
+      "topics": [
+        {
+          "topic": "Nachrichten",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Current Events"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 180,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Gastauftritte in Podcasts",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Podcasts"
+          ],
+          "relevanceSec": 298,
+          "occurrences": [
+            {
+              "episodeNumber": 206,
+              "durationSec": 298,
+              "positionSec": 660
+            }
+          ]
+        },
+        {
+          "topic": "TKKG Retro-Folgen",
+          "count": 1,
+          "keywords": [
+            "Entertainment",
+            "Media"
+          ],
+          "relevanceSec": 507,
+          "occurrences": [
+            {
+              "episodeNumber": 227,
+              "durationSec": 507,
+              "positionSec": 416
+            }
+          ]
+        },
+        {
+          "topic": "Journalistenpodcast",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Podcast"
+          ],
+          "relevanceSec": 115,
+          "occurrences": [
+            {
+              "episodeNumber": 264,
+              "durationSec": 115,
+              "positionSec": 3146
+            }
+          ]
+        },
+        {
+          "topic": "Spezialgelagert Podcast Gastauftritt",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Podcast"
+          ],
+          "relevanceSec": 611,
+          "occurrences": [
+            {
+              "episodeNumber": 274,
+              "durationSec": 611,
+              "positionSec": 557
+            }
+          ]
+        },
+        {
+          "topic": "SFB 1242 Podcast",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Podcast"
+          ],
+          "relevanceSec": 224,
+          "occurrences": [
+            {
+              "episodeNumber": 298,
+              "durationSec": 224,
+              "positionSec": 1648
+            }
+          ]
+        },
+        {
+          "topic": "Botenstoff Podcast",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Podcast"
+          ],
+          "relevanceSec": 277,
+          "occurrences": [
+            {
+              "episodeNumber": 298,
+              "durationSec": 277,
+              "positionSec": 1872
+            }
+          ]
+        },
+        {
+          "topic": "Fernseherdrama",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Television"
+          ],
+          "relevanceSec": 448,
+          "occurrences": [
+            {
+              "episodeNumber": 310,
+              "durationSec": 448,
+              "positionSec": 1857
+            }
+          ]
+        },
+        {
+          "topic": "Fernsehdrama",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Drama"
+          ],
+          "relevanceSec": 790,
+          "occurrences": [
+            {
+              "episodeNumber": 311,
+              "durationSec": 790,
+              "positionSec": 317
+            }
+          ]
+        },
+        {
+          "topic": "Essen im Ohr Podcast",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Podcast"
+          ],
+          "relevanceSec": 790,
+          "occurrences": [
+            {
+              "episodeNumber": 365,
+              "durationSec": 790,
+              "positionSec": 570
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zeitreisen",
+      "name": "Zeitreisen",
+      "topicCount": 3,
+      "relevanceSec": 4107,
+      "topics": [
+        {
+          "topic": "Thema 1: \"Zeitspalt\"",
+          "count": 1,
+          "keywords": [
+            "Time",
+            "Time Travel"
+          ],
+          "relevanceSec": 1045,
+          "occurrences": [
+            {
+              "episodeNumber": 245,
+              "durationSec": 1045,
+              "positionSec": 2959
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Tempus fugit\"",
+          "count": 1,
+          "keywords": [
+            "Philosophy / Time",
+            "Concepts / Tempus fugit"
+          ],
+          "relevanceSec": 1282,
+          "occurrences": [
+            {
+              "episodeNumber": 286,
+              "durationSec": 1282,
+              "positionSec": 5790
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Der illegale Zahn der Zeit\"",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Philosophy"
+          ],
+          "relevanceSec": 1780,
+          "occurrences": [
+            {
+              "episodeNumber": 296,
+              "durationSec": 1780,
+              "positionSec": 4748
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schulbildung",
+      "name": "Schulbildung",
+      "topicCount": 7,
+      "relevanceSec": 4029,
+      "topics": [
+        {
+          "topic": "Pausen und Lernen",
+          "count": 1,
+          "keywords": [
+            "Bildung",
+            "Lernmethoden"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 33,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Pausen",
+          "count": 1,
+          "keywords": [
+            "Psychologie",
+            "Stressmanagement"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 193,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Schule und Bildung",
+          "count": 1,
+          "keywords": [
+            "Education",
+            "School System"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 198,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Grundschule",
+          "count": 1,
+          "keywords": [
+            "Education",
+            "Primary School"
+          ],
+          "relevanceSec": 679,
+          "occurrences": [
+            {
+              "episodeNumber": 212,
+              "durationSec": 679,
+              "positionSec": 1503
+            }
+          ]
+        },
+        {
+          "topic": "Lehrerfortbildung",
+          "count": 1,
+          "keywords": [
+            "Education",
+            "Teacher Training"
+          ],
+          "relevanceSec": 1285,
+          "occurrences": [
+            {
+              "episodeNumber": 226,
+              "durationSec": 1285,
+              "positionSec": 508
+            }
+          ]
+        },
+        {
+          "topic": "Bildungsauftrag Podcast",
+          "count": 1,
+          "keywords": [
+            "Education",
+            "Podcast"
+          ],
+          "relevanceSec": 310,
+          "occurrences": [
+            {
+              "episodeNumber": 249,
+              "durationSec": 310,
+              "positionSec": 220
+            }
+          ]
+        },
+        {
+          "topic": "Schülergruppen",
+          "count": 1,
+          "keywords": [
+            "Education",
+            "Student Groups"
+          ],
+          "relevanceSec": 855,
+          "occurrences": [
+            {
+              "episodeNumber": 279,
+              "durationSec": 855,
+              "positionSec": 1518
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kannibalismus",
+      "name": "Kannibalismus",
+      "topicCount": 3,
+      "relevanceSec": 4024,
+      "topics": [
+        {
+          "topic": "Kannibalen",
+          "count": 2,
+          "keywords": [
+            "Kultur",
+            "Essen",
+            "Culture",
+            "Cannibalism"
+          ],
+          "relevanceSec": 600,
+          "occurrences": [
+            {
+              "episodeNumber": 89,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 101,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Eau de Kannibal\"",
+          "count": 1,
+          "keywords": [
+            "Food",
+            "Cannibalism"
+          ],
+          "relevanceSec": 1253,
+          "occurrences": [
+            {
+              "episodeNumber": 249,
+              "durationSec": 1253,
+              "positionSec": 5534
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: \"Kannibalismus on the rocks\"",
+          "count": 1,
+          "keywords": [
+            "Culture",
+            "Cannibalism"
+          ],
+          "relevanceSec": 2171,
+          "occurrences": [
+            {
+              "episodeNumber": 317,
+              "durationSec": 2171,
+              "positionSec": 2950
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reinis-reisen",
+      "name": "Reinis Reisen",
+      "topicCount": 5,
+      "relevanceSec": 3854,
+      "topics": [
+        {
+          "topic": "Reini auf Tour",
+          "count": 1,
+          "keywords": [
+            "Travel / Tours",
+            "Personal / Reini"
+          ],
+          "relevanceSec": 1392,
+          "occurrences": [
+            {
+              "episodeNumber": 213,
+              "durationSec": 1392,
+              "positionSec": 2099
+            }
+          ]
+        },
+        {
+          "topic": "Bahnreise",
+          "count": 1,
+          "keywords": [
+            "Travel",
+            "Train Travel"
+          ],
+          "relevanceSec": 373,
+          "occurrences": [
+            {
+              "episodeNumber": 216,
+              "durationSec": 373,
+              "positionSec": 3129
+            }
+          ]
+        },
+        {
+          "topic": "Unterwegs auf Tour",
+          "count": 1,
+          "keywords": [
+            "Travel",
+            "Tour"
+          ],
+          "relevanceSec": 126,
+          "occurrences": [
+            {
+              "episodeNumber": 297,
+              "durationSec": 126,
+              "positionSec": 346
+            }
+          ]
+        },
+        {
+          "topic": "Reinis Urlaub",
+          "count": 1,
+          "keywords": [
+            "Personal / Travel",
+            "Vacations"
+          ],
+          "relevanceSec": 592,
+          "occurrences": [
+            {
+              "episodeNumber": 319,
+              "durationSec": 592,
+              "positionSec": 1933
+            }
+          ]
+        },
+        {
+          "topic": "Reinis Europareise",
+          "count": 1,
+          "keywords": [
+            "Travel",
+            "Reinis Europareise"
+          ],
+          "relevanceSec": 1371,
+          "occurrences": [
+            {
+              "episodeNumber": 356,
+              "durationSec": 1371,
+              "positionSec": 729
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "klima-ringvorlesung",
+      "name": "Klima-Ringvorlesung",
+      "topicCount": 5,
+      "relevanceSec": 3769,
+      "topics": [
+        {
+          "topic": "Klima",
+          "count": 3,
+          "keywords": [
+            "Umwelt",
+            "Klimawandel",
+            "Environment",
+            "Climate Change"
+          ],
+          "relevanceSec": 900,
+          "occurrences": [
+            {
+              "episodeNumber": 128,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 148,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 156,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Klimaargumente",
+          "count": 1,
+          "keywords": [
+            "Umwelt",
+            "Klimawandel"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 170,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Ringvorlesung Klima",
+          "count": 1,
+          "keywords": [
+            "Environment",
+            "Climate Change"
+          ],
+          "relevanceSec": 260,
+          "occurrences": [
+            {
+              "episodeNumber": 212,
+              "durationSec": 260,
+              "positionSec": 2182
+            }
+          ]
+        },
+        {
+          "topic": "Klimawandel",
+          "count": 1,
+          "keywords": [
+            "Environment",
+            "Climate Change"
+          ],
+          "relevanceSec": 825,
+          "occurrences": [
+            {
+              "episodeNumber": 216,
+              "durationSec": 825,
+              "positionSec": 2304
+            }
+          ]
+        },
+        {
+          "topic": "Klima-Ringvorlesung",
+          "count": 2,
+          "keywords": [
+            "Education / Lecture",
+            "Climate",
+            "Science"
+          ],
+          "relevanceSec": 1484,
+          "occurrences": [
+            {
+              "episodeNumber": 291,
+              "durationSec": 1164,
+              "positionSec": 1199
+            },
+            {
+              "episodeNumber": 296,
+              "durationSec": 320,
+              "positionSec": 595
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "placebo-effekte",
+      "name": "Placebo-Effekte",
+      "topicCount": 4,
+      "relevanceSec": 3768,
+      "topics": [
+        {
+          "topic": "Placebo",
+          "count": 1,
+          "keywords": [
+            "Psychologie",
+            "Placebo-Effekt"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 176,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Thema 3: “Wirkt nicht über Placebo? No shit Sherlock!”",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Placebo Effect"
+          ],
+          "relevanceSec": 1424,
+          "occurrences": [
+            {
+              "episodeNumber": 212,
+              "durationSec": 1424,
+              "positionSec": 9172
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: \"Placebo ist ein weißer Mann\"",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Placebo"
+          ],
+          "relevanceSec": 1889,
+          "occurrences": [
+            {
+              "episodeNumber": 219,
+              "durationSec": 1889,
+              "positionSec": 4869
+            }
+          ]
+        },
+        {
+          "topic": "Nocebos im klinischen Alltag",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Nocebos"
+          ],
+          "relevanceSec": 155,
+          "occurrences": [
+            {
+              "episodeNumber": 346,
+              "durationSec": 155,
+              "positionSec": 2737
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reha-reini",
+      "name": "Reha Reini",
+      "topicCount": 4,
+      "relevanceSec": 3557,
+      "topics": [
+        {
+          "topic": "Reha",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Rehabilitation"
+          ],
+          "relevanceSec": 106,
+          "occurrences": [
+            {
+              "episodeNumber": 245,
+              "durationSec": 106,
+              "positionSec": 426
+            }
+          ]
+        },
+        {
+          "topic": "Reha Ende",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Rehabilitation"
+          ],
+          "relevanceSec": 693,
+          "occurrences": [
+            {
+              "episodeNumber": 247,
+              "durationSec": 693,
+              "positionSec": 1153
+            }
+          ]
+        },
+        {
+          "topic": "Reha Reini",
+          "count": 2,
+          "keywords": [
+            "Health",
+            "Rehabilitation"
+          ],
+          "relevanceSec": 1372,
+          "occurrences": [
+            {
+              "episodeNumber": 292,
+              "durationSec": 1089,
+              "positionSec": 114
+            },
+            {
+              "episodeNumber": 294,
+              "durationSec": 283,
+              "positionSec": 1859
+            }
+          ]
+        },
+        {
+          "topic": "Ende Reini Reha",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Rehabilitation"
+          ],
+          "relevanceSec": 1386,
+          "occurrences": [
+            {
+              "episodeNumber": 295,
+              "durationSec": 1386,
+              "positionSec": 112
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "universumstheorie",
+      "name": "Universumstheorie",
+      "topicCount": 3,
+      "relevanceSec": 3440,
+      "topics": [
+        {
+          "topic": "Thema 4: “In einem Universum vor unserer Zeit\"",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Cosmology"
+          ],
+          "relevanceSec": 1111,
+          "occurrences": [
+            {
+              "episodeNumber": 220,
+              "durationSec": 1111,
+              "positionSec": 8885
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Die Struktur des Universums\"",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Cosmology"
+          ],
+          "relevanceSec": 2186,
+          "occurrences": [
+            {
+              "episodeNumber": 229,
+              "durationSec": 2186,
+              "positionSec": 4867
+            }
+          ]
+        },
+        {
+          "topic": "Das Universum",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Cosmology"
+          ],
+          "relevanceSec": 143,
+          "occurrences": [
+            {
+              "episodeNumber": 333,
+              "durationSec": 143,
+              "positionSec": 1917
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dpg-tagung",
+      "name": "DPG Tagung",
+      "topicCount": 4,
+      "relevanceSec": 3344,
+      "topics": [
+        {
+          "topic": "DPG Tagung",
+          "count": 4,
+          "keywords": [
+            "Events / Conferences",
+            "Science / DPG Conference",
+            "Health",
+            "Conferences",
+            "Event"
+          ],
+          "relevanceSec": 2438,
+          "occurrences": [
+            {
+              "episodeNumber": 224,
+              "durationSec": 238,
+              "positionSec": 1587
+            },
+            {
+              "episodeNumber": 292,
+              "durationSec": 1498,
+              "positionSec": 1203
+            },
+            {
+              "episodeNumber": 337,
+              "durationSec": 152,
+              "positionSec": 1798
+            },
+            {
+              "episodeNumber": 339,
+              "durationSec": 550,
+              "positionSec": 654
+            }
+          ]
+        },
+        {
+          "topic": "Wisskomm auf der DPG",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Communication"
+          ],
+          "relevanceSec": 382,
+          "occurrences": [
+            {
+              "episodeNumber": 273,
+              "durationSec": 382,
+              "positionSec": 2568
+            }
+          ]
+        },
+        {
+          "topic": "DPG Tagung und WissKomm",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Communication"
+          ],
+          "relevanceSec": 139,
+          "occurrences": [
+            {
+              "episodeNumber": 278,
+              "durationSec": 139,
+              "positionSec": 2974
+            }
+          ]
+        },
+        {
+          "topic": "DPG Tagung Berlin",
+          "count": 1,
+          "keywords": [
+            "Event / Conference",
+            "DPG Tagung"
+          ],
+          "relevanceSec": 385,
+          "occurrences": [
+            {
+              "episodeNumber": 291,
+              "durationSec": 385,
+              "positionSec": 814
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gartenminerale",
+      "name": "Gartenminerale",
+      "topicCount": 2,
+      "relevanceSec": 3337,
+      "topics": [
+        {
+          "topic": "Thema 1: \"Vulkan im Vorgarten\"",
+          "count": 1,
+          "keywords": [
+            "Geology",
+            "Volcano"
+          ],
+          "relevanceSec": 1820,
+          "occurrences": [
+            {
+              "episodeNumber": 330,
+              "durationSec": 1820,
+              "positionSec": 1770
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: \"Sonnensteine\"",
+          "count": 1,
+          "keywords": [
+            "Science / Geology",
+            "Topic / Sonnensteine"
+          ],
+          "relevanceSec": 1517,
+          "occurrences": [
+            {
+              "episodeNumber": 331,
+              "durationSec": 1517,
+              "positionSec": 2627
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plastikmüll",
+      "name": "Plastikmüll",
+      "topicCount": 3,
+      "relevanceSec": 3206,
+      "topics": [
+        {
+          "topic": "Plastik",
+          "count": 2,
+          "keywords": [
+            "Umwelt",
+            "Verschmutzung",
+            "Plastikverschmutzung"
+          ],
+          "relevanceSec": 600,
+          "occurrences": [
+            {
+              "episodeNumber": 189,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 205,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Welt aus Plastik\"",
+          "count": 1,
+          "keywords": [
+            "Environment",
+            "Plastic Pollution"
+          ],
+          "relevanceSec": 2208,
+          "occurrences": [
+            {
+              "episodeNumber": 230,
+              "durationSec": 2208,
+              "positionSec": 4101
+            }
+          ]
+        },
+        {
+          "topic": "Kommentar: Plastikmüll im Meer",
+          "count": 1,
+          "keywords": [
+            "Environment",
+            "Pollution"
+          ],
+          "relevanceSec": 398,
+          "occurrences": [
+            {
+              "episodeNumber": 259,
+              "durationSec": 398,
+              "positionSec": 2824
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audiokommentare",
+      "name": "Audiokommentare",
+      "topicCount": 15,
+      "relevanceSec": 3156,
+      "topics": [
+        {
+          "topic": "Audiokommentar Miguel",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Audio Commentary"
+          ],
+          "relevanceSec": 232,
+          "occurrences": [
+            {
+              "episodeNumber": 235,
+              "durationSec": 232,
+              "positionSec": 1280
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Florian",
+          "count": 2,
+          "keywords": [
+            "Media",
+            "Commentary",
+            "Feedback",
+            "Audio Commentary"
+          ],
+          "relevanceSec": 1166,
+          "occurrences": [
+            {
+              "episodeNumber": 238,
+              "durationSec": 552,
+              "positionSec": 8732
+            },
+            {
+              "episodeNumber": 306,
+              "durationSec": 614,
+              "positionSec": 7025
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Jonas",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Commentary"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 238,
+              "durationSec": 0,
+              "positionSec": 9284
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar von Markus",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Comments"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 252,
+              "durationSec": 0,
+              "positionSec": 8048
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar",
+          "count": 1,
+          "keywords": [
+            "Social",
+            "Feedback"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 260,
+              "durationSec": 0,
+              "positionSec": 7182
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Michi",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Audio Commentary"
+          ],
+          "relevanceSec": 286,
+          "occurrences": [
+            {
+              "episodeNumber": 273,
+              "durationSec": 286,
+              "positionSec": 3754
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Simon",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Comments"
+          ],
+          "relevanceSec": 568,
+          "occurrences": [
+            {
+              "episodeNumber": 293,
+              "durationSec": 568,
+              "positionSec": 7672
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Dominik",
+          "count": 1,
+          "keywords": [
+            "Feedback",
+            "Audio Commentary"
+          ],
+          "relevanceSec": 346,
+          "occurrences": [
+            {
+              "episodeNumber": 306,
+              "durationSec": 346,
+              "positionSec": 6679
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Schatten durch Licht von Florian",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Commentary"
+          ],
+          "relevanceSec": 182,
+          "occurrences": [
+            {
+              "episodeNumber": 326,
+              "durationSec": 182,
+              "positionSec": 1574
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Lukas",
+          "count": 1,
+          "keywords": [
+            "Feedback",
+            "Commentary"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 349,
+              "durationSec": 0,
+              "positionSec": 6848
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar von Ole",
+          "count": 1,
+          "keywords": [
+            "Feedback",
+            "Audio Comment"
+          ],
+          "relevanceSec": 206,
+          "occurrences": [
+            {
+              "episodeNumber": 362,
+              "durationSec": 206,
+              "positionSec": 6895
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar von Maximilian",
+          "count": 1,
+          "keywords": [
+            "Feedback",
+            "Audio Comment"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 362,
+              "durationSec": 0,
+              "positionSec": 7101
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Maira",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Commentary"
+          ],
+          "relevanceSec": 170,
+          "occurrences": [
+            {
+              "episodeNumber": 367,
+              "durationSec": 170,
+              "positionSec": 6833
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Sebastian",
+          "count": 2,
+          "keywords": [
+            "Media",
+            "Commentary",
+            "Audiokommentar"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 367,
+              "durationSec": 0,
+              "positionSec": 7003
+            },
+            {
+              "episodeNumber": 370,
+              "durationSec": 0,
+              "positionSec": 6339
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Thorsten",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Comments"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 369,
+              "durationSec": 0,
+              "positionSec": 6415
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "existenzielle-fragen",
+      "name": "Existenzielle Fragen",
+      "topicCount": 2,
+      "relevanceSec": 3146,
+      "topics": [
+        {
+          "topic": "Thema 1: „Mehr summ als sein“",
+          "count": 1,
+          "keywords": [
+            "Philosophy",
+            "Existentialism"
+          ],
+          "relevanceSec": 972,
+          "occurrences": [
+            {
+              "episodeNumber": 216,
+              "durationSec": 972,
+              "positionSec": 3968
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Ist irgendwer da draußen?\"",
+          "count": 1,
+          "keywords": [
+            "Philosophy",
+            "Existential Questions"
+          ],
+          "relevanceSec": 2174,
+          "occurrences": [
+            {
+              "episodeNumber": 343,
+              "durationSec": 2174,
+              "positionSec": 5358
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "langeweile-bewältigen",
+      "name": "Langeweile bewältigen",
+      "topicCount": 2,
+      "relevanceSec": 2942,
+      "topics": [
+        {
+          "topic": "Thema 2: \"Effizient nichts tun!\"",
+          "count": 1,
+          "keywords": [
+            "Lifestyle",
+            "Leisure"
+          ],
+          "relevanceSec": 1170,
+          "occurrences": [
+            {
+              "episodeNumber": 267,
+              "durationSec": 1170,
+              "positionSec": 5516
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Vorspulen auf Langeweile\"",
+          "count": 1,
+          "keywords": [
+            "Entertainment",
+            "Boredom"
+          ],
+          "relevanceSec": 1772,
+          "occurrences": [
+            {
+              "episodeNumber": 311,
+              "durationSec": 1772,
+              "positionSec": 3632
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raumgeräusche",
+      "name": "Raumgeräusche",
+      "topicCount": 3,
+      "relevanceSec": 2935,
+      "topics": [
+        {
+          "topic": "Geräusche",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Akustik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 149,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: “Hintergrundbrummen”",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Acoustics"
+          ],
+          "relevanceSec": 1671,
+          "occurrences": [
+            {
+              "episodeNumber": 257,
+              "durationSec": 1671,
+              "positionSec": 2771
+            }
+          ]
+        },
+        {
+          "topic": "Raumakustik",
+          "count": 1,
+          "keywords": [
+            "Science / Acoustics",
+            "Engineering / Raumakustik"
+          ],
+          "relevanceSec": 964,
+          "occurrences": [
+            {
+              "episodeNumber": 286,
+              "durationSec": 964,
+              "positionSec": 2095
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "live-auftritte",
+      "name": "Live-Auftritte",
+      "topicCount": 5,
+      "relevanceSec": 2858,
+      "topics": [
+        {
+          "topic": "Auftritte",
+          "count": 2,
+          "keywords": [
+            "Events",
+            "Performances"
+          ],
+          "relevanceSec": 924,
+          "occurrences": [
+            {
+              "episodeNumber": 240,
+              "durationSec": 735,
+              "positionSec": 489
+            },
+            {
+              "episodeNumber": 369,
+              "durationSec": 189,
+              "positionSec": 149
+            }
+          ]
+        },
+        {
+          "topic": "Auftritte Bremen und München",
+          "count": 1,
+          "keywords": [
+            "Events",
+            "Auftritte"
+          ],
+          "relevanceSec": 101,
+          "occurrences": [
+            {
+              "episodeNumber": 274,
+              "durationSec": 101,
+              "positionSec": 456
+            }
+          ]
+        },
+        {
+          "topic": "Auftritt Hamburg",
+          "count": 1,
+          "keywords": [
+            "Event / Auftritt",
+            "Location / Hamburg"
+          ],
+          "relevanceSec": 696,
+          "occurrences": [
+            {
+              "episodeNumber": 304,
+              "durationSec": 696,
+              "positionSec": 368
+            }
+          ]
+        },
+        {
+          "topic": "Auftritt in Ahaus",
+          "count": 1,
+          "keywords": [
+            "Event / Auftritt",
+            "Event / Ahaus"
+          ],
+          "relevanceSec": 397,
+          "occurrences": [
+            {
+              "episodeNumber": 334,
+              "durationSec": 397,
+              "positionSec": 319
+            }
+          ]
+        },
+        {
+          "topic": "Spezialauftritt in Duisburg",
+          "count": 2,
+          "keywords": [
+            "Event / Special Appearance",
+            "Location / Duisburg",
+            "Events",
+            "Local"
+          ],
+          "relevanceSec": 740,
+          "occurrences": [
+            {
+              "episodeNumber": 354,
+              "durationSec": 617,
+              "positionSec": 2325
+            },
+            {
+              "episodeNumber": 355,
+              "durationSec": 123,
+              "positionSec": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ozeanische-phänomene",
+      "name": "Ozeanische Phänomene",
+      "topicCount": 2,
+      "relevanceSec": 2744,
+      "topics": [
+        {
+          "topic": "Thema 1: \"Es kam aus der Tiefe\"",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Deep Sea"
+          ],
+          "relevanceSec": 1635,
+          "occurrences": [
+            {
+              "episodeNumber": 316,
+              "durationSec": 1635,
+              "positionSec": 2922
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: \"Hydrolevitation eines Kontinents\"",
+          "count": 1,
+          "keywords": [
+            "Science / Physics",
+            "Science / Hydrolevitation"
+          ],
+          "relevanceSec": 1109,
+          "occurrences": [
+            {
+              "episodeNumber": 344,
+              "durationSec": 1109,
+              "positionSec": 2293
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "musikgeschichten",
+      "name": "Musikgeschichten",
+      "topicCount": 5,
+      "relevanceSec": 2723,
+      "topics": [
+        {
+          "topic": "Ohrwürmer",
+          "count": 1,
+          "keywords": [
+            "Kultur",
+            "Musik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 85,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "verführerischer Musik",
+          "count": 1,
+          "keywords": [
+            "Kultur",
+            "Musik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 105,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Hintergrundmusik",
+          "count": 1,
+          "keywords": [
+            "Art",
+            "Music"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 139,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Musik",
+          "count": 5,
+          "keywords": [
+            "Culture",
+            "Music",
+            "General Music",
+            "Kultur",
+            "Musik"
+          ],
+          "relevanceSec": 1389,
+          "occurrences": [
+            {
+              "episodeNumber": 161,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 212,
+              "durationSec": 405,
+              "positionSec": 8767
+            },
+            {
+              "episodeNumber": 216,
+              "durationSec": 217,
+              "positionSec": 6574
+            },
+            {
+              "episodeNumber": 281,
+              "durationSec": 117,
+              "positionSec": 6841
+            },
+            {
+              "episodeNumber": 305,
+              "durationSec": 350,
+              "positionSec": 4568
+            }
+          ]
+        },
+        {
+          "topic": "Alltagsgeschichten",
+          "count": 1,
+          "keywords": [
+            "Society",
+            "Everyday Stories"
+          ],
+          "relevanceSec": 434,
+          "occurrences": [
+            {
+              "episodeNumber": 316,
+              "durationSec": 434,
+              "positionSec": 395
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "naturkonflikte",
+      "name": "Naturkonflikte",
+      "topicCount": 2,
+      "relevanceSec": 2698,
+      "topics": [
+        {
+          "topic": "Thema 1: “Ameisen vs. Löwen”",
+          "count": 1,
+          "keywords": [
+            "Nature",
+            "Ameisen vs. Löwen"
+          ],
+          "relevanceSec": 1586,
+          "occurrences": [
+            {
+              "episodeNumber": 285,
+              "durationSec": 1586,
+              "positionSec": 1765
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: \"Das perfekte Ei\"",
+          "count": 1,
+          "keywords": [
+            "Essen / Zubereitung",
+            "Essen / Ei"
+          ],
+          "relevanceSec": 1112,
+          "occurrences": [
+            {
+              "episodeNumber": 334,
+              "durationSec": 1112,
+              "positionSec": 1710
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "themenvielfalt",
+      "name": "Themenvielfalt",
+      "topicCount": 3,
+      "relevanceSec": 2655,
+      "topics": [
+        {
+          "topic": "Themen",
+          "count": 1,
+          "keywords": [
+            "Topics",
+            "General"
+          ],
+          "relevanceSec": 26,
+          "occurrences": [
+            {
+              "episodeNumber": 228,
+              "durationSec": 26,
+              "positionSec": 2453
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1",
+          "count": 1,
+          "keywords": [
+            "General",
+            "Topic Discussion"
+          ],
+          "relevanceSec": 1454,
+          "occurrences": [
+            {
+              "episodeNumber": 362,
+              "durationSec": 1454,
+              "positionSec": 3306
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2",
+          "count": 1,
+          "keywords": [
+            "General",
+            "Topic Discussion"
+          ],
+          "relevanceSec": 1175,
+          "occurrences": [
+            {
+              "episodeNumber": 362,
+              "durationSec": 1175,
+              "positionSec": 5030
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minkorrekt-brettspiel",
+      "name": "Minkorrekt Brettspiel",
+      "topicCount": 3,
+      "relevanceSec": 2606,
+      "topics": [
+        {
+          "topic": "Interview mit Matthias zum \"Minkorrekt Brettspiel\"",
+          "count": 1,
+          "keywords": [
+            "Games",
+            "Board Games"
+          ],
+          "relevanceSec": 1867,
+          "occurrences": [
+            {
+              "episodeNumber": 337,
+              "durationSec": 1867,
+              "positionSec": 3642
+            }
+          ]
+        },
+        {
+          "topic": "Montu-Games",
+          "count": 1,
+          "keywords": [
+            "Games",
+            "Board Games"
+          ],
+          "relevanceSec": 489,
+          "occurrences": [
+            {
+              "episodeNumber": 348,
+              "durationSec": 489,
+              "positionSec": 986
+            }
+          ]
+        },
+        {
+          "topic": "Minkorrekt Brettspiel",
+          "count": 1,
+          "keywords": [
+            "Games",
+            "Board Games"
+          ],
+          "relevanceSec": 250,
+          "occurrences": [
+            {
+              "episodeNumber": 362,
+              "durationSec": 250,
+              "positionSec": 2840
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emotionale-intelligenz",
+      "name": "Emotionale Intelligenz",
+      "topicCount": 4,
+      "relevanceSec": 2468,
+      "topics": [
+        {
+          "topic": "Emotionale Unterstellungen",
+          "count": 1,
+          "keywords": [
+            "Psychologie",
+            "Emotionen"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 64,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Liebe",
+          "count": 1,
+          "keywords": [
+            "Psychologie",
+            "Emotionen"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 140,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Gefühle-Schatzbuch",
+          "count": 1,
+          "keywords": [
+            "Emotions",
+            "Personal Reflections"
+          ],
+          "relevanceSec": 995,
+          "occurrences": [
+            {
+              "episodeNumber": 240,
+              "durationSec": 995,
+              "positionSec": 2463
+            }
+          ]
+        },
+        {
+          "topic": "Gefühle",
+          "count": 1,
+          "keywords": [
+            "Emotions",
+            "Feelings"
+          ],
+          "relevanceSec": 873,
+          "occurrences": [
+            {
+              "episodeNumber": 306,
+              "durationSec": 873,
+              "positionSec": 893
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wissenschaftsexperimente",
+      "name": "Wissenschaftsexperimente",
+      "topicCount": 8,
+      "relevanceSec": 2400,
+      "topics": [
+        {
+          "topic": "Experiment der Woche: Lochlupe",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 50,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Die schwerelose Flamme",
+          "count": 1,
+          "keywords": [
+            "Physik",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 76,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Lasermikroskop",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Mikroskopie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 96,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Leuchteumschlag",
+          "count": 1,
+          "keywords": [
+            "Naturwissenschaften",
+            "Physik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 116,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Kastanienlampe",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experiment"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 128,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Seifenblasen",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Chemie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 144,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Kerzenbläser",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 181,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Seifenblasenloch",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 197,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apokalypse-diskurs",
+      "name": "Apokalypse-Diskurs",
+      "topicCount": 3,
+      "relevanceSec": 2387,
+      "topics": [
+        {
+          "topic": "Weltuntergang",
+          "count": 1,
+          "keywords": [
+            "Kultur",
+            "Apokalypse"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 86,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: “Weltuntergang verschoben\"",
+          "count": 1,
+          "keywords": [
+            "Apocalypse",
+            "Postponement"
+          ],
+          "relevanceSec": 1253,
+          "occurrences": [
+            {
+              "episodeNumber": 217,
+              "durationSec": 1253,
+              "positionSec": 3276
+            }
+          ]
+        },
+        {
+          "topic": "Thema 2: \"Die Apokalypse …\"",
+          "count": 1,
+          "keywords": [
+            "Culture",
+            "Apocalypse"
+          ],
+          "relevanceSec": 834,
+          "occurrences": [
+            {
+              "episodeNumber": 293,
+              "durationSec": 834,
+              "positionSec": 5613
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kopenhagen-museen",
+      "name": "Kopenhagen Museen",
+      "topicCount": 3,
+      "relevanceSec": 2369,
+      "topics": [
+        {
+          "topic": "Kopenhagen1",
+          "count": 1,
+          "keywords": [
+            "Travel",
+            "Kopenhagen"
+          ],
+          "relevanceSec": 516,
+          "occurrences": [
+            {
+              "episodeNumber": 255,
+              "durationSec": 516,
+              "positionSec": 1399
+            }
+          ]
+        },
+        {
+          "topic": "Kopenhagen2",
+          "count": 1,
+          "keywords": [
+            "Travel",
+            "Kopenhagen"
+          ],
+          "relevanceSec": 759,
+          "occurrences": [
+            {
+              "episodeNumber": 255,
+              "durationSec": 759,
+              "positionSec": 2542
+            }
+          ]
+        },
+        {
+          "topic": "Museen in Kopenhagen",
+          "count": 1,
+          "keywords": [
+            "Culture / Museums",
+            "Museen in Kopenhagen"
+          ],
+          "relevanceSec": 1094,
+          "occurrences": [
+            {
+              "episodeNumber": 256,
+              "durationSec": 1094,
+              "positionSec": 2852
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bierkultur",
+      "name": "Bierkultur",
+      "topicCount": 4,
+      "relevanceSec": 2346,
+      "topics": [
+        {
+          "topic": "Privatbrauerei",
+          "count": 1,
+          "keywords": [
+            "Essen & Trinken",
+            "Bierbrauen"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 10,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Bier der Woche",
+          "count": 1,
+          "keywords": [
+            "Food & Drink",
+            "Beverages"
+          ],
+          "relevanceSec": 493,
+          "occurrences": [
+            {
+              "episodeNumber": 41,
+              "durationSec": 493,
+              "positionSec": 1436
+            }
+          ]
+        },
+        {
+          "topic": "\"Bier auf Wein …\"",
+          "count": 1,
+          "keywords": [
+            "Culture",
+            "Drinking"
+          ],
+          "relevanceSec": 207,
+          "occurrences": [
+            {
+              "episodeNumber": 288,
+              "durationSec": 207,
+              "positionSec": 2140
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: “Bier auf Gel, quietschfidel!”",
+          "count": 1,
+          "keywords": [
+            "Culture",
+            "Beer Culture"
+          ],
+          "relevanceSec": 1346,
+          "occurrences": [
+            {
+              "episodeNumber": 299,
+              "durationSec": 1346,
+              "positionSec": 2675
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gesundheitsversorgung",
+      "name": "Gesundheitsversorgung",
+      "topicCount": 3,
+      "relevanceSec": 2280,
+      "topics": [
+        {
+          "topic": "Krank",
+          "count": 2,
+          "keywords": [
+            "Health",
+            "Illness"
+          ],
+          "relevanceSec": 958,
+          "occurrences": [
+            {
+              "episodeNumber": 266,
+              "durationSec": 412,
+              "positionSec": 440
+            },
+            {
+              "episodeNumber": 288,
+              "durationSec": 546,
+              "positionSec": 298
+            }
+          ]
+        },
+        {
+          "topic": "Krankenhaus",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Hospital"
+          ],
+          "relevanceSec": 365,
+          "occurrences": [
+            {
+              "episodeNumber": 330,
+              "durationSec": 365,
+              "positionSec": 663
+            }
+          ]
+        },
+        {
+          "topic": "Krankheit",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Illness"
+          ],
+          "relevanceSec": 957,
+          "occurrences": [
+            {
+              "episodeNumber": 362,
+              "durationSec": 957,
+              "positionSec": 350
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hoden-ki-forschung",
+      "name": "Hoden-KI-Forschung",
+      "topicCount": 2,
+      "relevanceSec": 2251,
+      "topics": [
+        {
+          "topic": "Hodenforschung",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Research"
+          ],
+          "relevanceSec": 1192,
+          "occurrences": [
+            {
+              "episodeNumber": 253,
+              "durationSec": 1192,
+              "positionSec": 1631
+            }
+          ]
+        },
+        {
+          "topic": "KI in der Forschung",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Research"
+          ],
+          "relevanceSec": 1059,
+          "occurrences": [
+            {
+              "episodeNumber": 349,
+              "durationSec": 1059,
+              "positionSec": 659
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hochtemperatursupraleitung",
+      "name": "Hochtemperatursupraleitung",
+      "topicCount": 3,
+      "relevanceSec": 2156,
+      "topics": [
+        {
+          "topic": "Supraleiter",
+          "count": 1,
+          "keywords": [
+            "Physik",
+            "Materialwissenschaft"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 178,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Hochtemperatur Supraleiter?",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft / Physik",
+            "Hochtemperatur Supraleiter"
+          ],
+          "relevanceSec": 1193,
+          "occurrences": [
+            {
+              "episodeNumber": 261,
+              "durationSec": 1193,
+              "positionSec": 2000
+            }
+          ]
+        },
+        {
+          "topic": "Hochtemperatursupraleitung",
+          "count": 1,
+          "keywords": [
+            "Science / Physics",
+            "Superconductivity"
+          ],
+          "relevanceSec": 663,
+          "occurrences": [
+            {
+              "episodeNumber": 263,
+              "durationSec": 663,
+              "positionSec": 1047
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marswasser",
+      "name": "Marswasser",
+      "topicCount": 2,
+      "relevanceSec": 2114,
+      "topics": [
+        {
+          "topic": "Wasser auf dem Mars",
+          "count": 3,
+          "keywords": [
+            "Astronomie",
+            "Planetologie",
+            "Science",
+            "Astrobiology"
+          ],
+          "relevanceSec": 900,
+          "occurrences": [
+            {
+              "episodeNumber": 46,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 60,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 125,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: “This time of the year: Wasser auf dem Mars”",
+          "count": 1,
+          "keywords": [
+            "Space / Mars",
+            "Water Research"
+          ],
+          "relevanceSec": 1214,
+          "occurrences": [
+            {
+              "episodeNumber": 233,
+              "durationSec": 1214,
+              "positionSec": 3512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minkorrekt-jubiläum",
+      "name": "Minkorrekt Jubiläum",
+      "topicCount": 3,
+      "relevanceSec": 1947,
+      "topics": [
+        {
+          "topic": "10 Jahre Minkorrekt auf der Bühne",
+          "count": 1,
+          "keywords": [
+            "Event / Anniversary",
+            "Podcast / Minkorrekt"
+          ],
+          "relevanceSec": 359,
+          "occurrences": [
+            {
+              "episodeNumber": 250,
+              "durationSec": 359,
+              "positionSec": 397
+            }
+          ]
+        },
+        {
+          "topic": "10 Jahre Minkorrekt",
+          "count": 1,
+          "keywords": [
+            "Jubiläum / Minkorrekt",
+            "10 Jahre"
+          ],
+          "relevanceSec": 25,
+          "occurrences": [
+            {
+              "episodeNumber": 254,
+              "durationSec": 25,
+              "positionSec": 2165
+            }
+          ]
+        },
+        {
+          "topic": "10 Jahre Minkorrekt Show",
+          "count": 3,
+          "keywords": [
+            "Media / Show",
+            "Anniversary",
+            "Culture"
+          ],
+          "relevanceSec": 1563,
+          "occurrences": [
+            {
+              "episodeNumber": 263,
+              "durationSec": 185,
+              "positionSec": 73
+            },
+            {
+              "episodeNumber": 271,
+              "durationSec": 789,
+              "positionSec": 342
+            },
+            {
+              "episodeNumber": 272,
+              "durationSec": 589,
+              "positionSec": 141
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-anwendungen",
+      "name": "ChatGPT Anwendungen",
+      "topicCount": 2,
+      "relevanceSec": 1863,
+      "topics": [
+        {
+          "topic": "Chat GPT Plagiate",
+          "count": 1,
+          "keywords": [
+            "Technology",
+            "AI"
+          ],
+          "relevanceSec": 620,
+          "occurrences": [
+            {
+              "episodeNumber": 251,
+              "durationSec": 620,
+              "positionSec": 2350
+            }
+          ]
+        },
+        {
+          "topic": "ChatGPT zum Basteln",
+          "count": 1,
+          "keywords": [
+            "Technology",
+            "AI Applications"
+          ],
+          "relevanceSec": 1243,
+          "occurrences": [
+            {
+              "episodeNumber": 343,
+              "durationSec": 1243,
+              "positionSec": 1347
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nanotechnologie",
+      "name": "Nanotechnologie",
+      "topicCount": 6,
+      "relevanceSec": 1863,
+      "topics": [
+        {
+          "topic": "Graphen-Spinnen",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Materialwissenschaft"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 50,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Nanofachwerk",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Nanotechnology"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 68,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "pupsende Nanopartikel",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Nanotechnologie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 92,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Elektrospinnen",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Materialwissenschaft"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 124,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Nanowände",
+          "count": 1,
+          "keywords": [
+            "Materialwissenschaft",
+            "Nanotechnologie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 155,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Niklas: Graphen",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Materials"
+          ],
+          "relevanceSec": 363,
+          "occurrences": [
+            {
+              "episodeNumber": 212,
+              "durationSec": 363,
+              "positionSec": 13158
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dfg-forschung",
+      "name": "DFG-Forschung",
+      "topicCount": 2,
+      "relevanceSec": 1840,
+      "topics": [
+        {
+          "topic": "Forschung und Wissenschaftsförderung",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Research Funding"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 198,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "DFG-Antrag",
+          "count": 1,
+          "keywords": [
+            "Science / Research",
+            "Funding"
+          ],
+          "relevanceSec": 1540,
+          "occurrences": [
+            {
+              "episodeNumber": 233,
+              "durationSec": 1540,
+              "positionSec": 290
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corona-updates",
+      "name": "Corona-Updates",
+      "topicCount": 3,
+      "relevanceSec": 1824,
+      "topics": [
+        {
+          "topic": "Corona-Maßnahmen",
+          "count": 1,
+          "keywords": [
+            "Gesundheit",
+            "Epidemien"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 167,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Pandemiesituation",
+          "count": 1,
+          "keywords": [
+            "Health / Pandemic",
+            "Current Situation"
+          ],
+          "relevanceSec": 815,
+          "occurrences": [
+            {
+              "episodeNumber": 208,
+              "durationSec": 815,
+              "positionSec": 385
+            }
+          ]
+        },
+        {
+          "topic": "Corona Update",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Pandemics"
+          ],
+          "relevanceSec": 709,
+          "occurrences": [
+            {
+              "episodeNumber": 212,
+              "durationSec": 709,
+              "positionSec": 141
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nobelpreise",
+      "name": "Nobelpreise",
+      "topicCount": 4,
+      "relevanceSec": 1800,
+      "topics": [
+        {
+          "topic": "Nobelpreis 2013",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Nobelpreis"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 13,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Nobelpreise 2015",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Nobelpreise"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 61,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Nobelpreise 2016",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Preise"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 84,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Nobelpreise",
+          "count": 3,
+          "keywords": [
+            "Wissenschaft",
+            "Preise"
+          ],
+          "relevanceSec": 900,
+          "occurrences": [
+            {
+              "episodeNumber": 131,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 153,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 177,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vogelverhalten",
+      "name": "Vogelverhalten",
+      "topicCount": 5,
+      "relevanceSec": 1800,
+      "topics": [
+        {
+          "topic": "Unmoralische Vögel",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Verhalten"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 52,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "intelligente Vögel",
+          "count": 2,
+          "keywords": [
+            "Tiere",
+            "Verhalten",
+            "Biologie",
+            "Tierverhalten"
+          ],
+          "relevanceSec": 600,
+          "occurrences": [
+            {
+              "episodeNumber": 77,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 162,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "navigierende Vögel",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Vogelverhalten"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 104,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Killervögel",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Vögel"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 128,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Navigation von Vögeln",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Tierverhalten"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 195,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wissenschaftsjahre",
+      "name": "Wissenschaftsjahre",
+      "topicCount": 6,
+      "relevanceSec": 1800,
+      "topics": [
+        {
+          "topic": "Rückblick auf wissenschaftliche Entdeckungen 2013",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Discoveries"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 17,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Spannende Forschung im Jahr 2013",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Research"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 17,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Wissenschaftsjahr 2014",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Yearly Review"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 40,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "wissenschaftlicher Jahresrückblick 2018",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Jahresrückblick"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 136,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "wissenschaftlicher Jahresrückblick 2019",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Jahresrückblick"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 158,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Wissenschaft im Jahr 2020",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Yearly Review"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 182,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homöopathie",
+      "name": "Homöopathie",
+      "topicCount": 4,
+      "relevanceSec": 1741,
+      "topics": [
+        {
+          "topic": "Homöopathie",
+          "count": 1,
+          "keywords": [
+            "Health / Alternative Medicine",
+            "Homeopathy"
+          ],
+          "relevanceSec": 487,
+          "occurrences": [
+            {
+              "episodeNumber": 221,
+              "durationSec": 487,
+              "positionSec": 3119
+            }
+          ]
+        },
+        {
+          "topic": "Alternativmedizin",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Alternative Medicine"
+          ],
+          "relevanceSec": 419,
+          "occurrences": [
+            {
+              "episodeNumber": 223,
+              "durationSec": 419,
+              "positionSec": 478
+            }
+          ]
+        },
+        {
+          "topic": "HomöopaTea",
+          "count": 1,
+          "keywords": [
+            "Health / Alternative Medicine",
+            "Health / HomöopaTea"
+          ],
+          "relevanceSec": 580,
+          "occurrences": [
+            {
+              "episodeNumber": 224,
+              "durationSec": 580,
+              "positionSec": 3561
+            }
+          ]
+        },
+        {
+          "topic": "Kommentar zur Phytotherapie",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Phytotherapy"
+          ],
+          "relevanceSec": 255,
+          "occurrences": [
+            {
+              "episodeNumber": 275,
+              "durationSec": 255,
+              "positionSec": 2972
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schwarze-löcher",
+      "name": "Schwarze Löcher",
+      "topicCount": 3,
+      "relevanceSec": 1734,
+      "topics": [
+        {
+          "topic": "Snackable Science: Schwarze Löcher",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Astrophysics"
+          ],
+          "relevanceSec": 564,
+          "occurrences": [
+            {
+              "episodeNumber": 251,
+              "durationSec": 564,
+              "positionSec": 4371
+            }
+          ]
+        },
+        {
+          "topic": "Snackable Science: Lebensdauer Schwarze Löcher",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Astrophysics"
+          ],
+          "relevanceSec": 786,
+          "occurrences": [
+            {
+              "episodeNumber": 255,
+              "durationSec": 786,
+              "positionSec": 5874
+            }
+          ]
+        },
+        {
+          "topic": "Snackable Science: Lichtjahr trinken",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft / Astronomie",
+            "Lichtjahr"
+          ],
+          "relevanceSec": 384,
+          "occurrences": [
+            {
+              "episodeNumber": 261,
+              "durationSec": 384,
+              "positionSec": 7283
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gesundheitsauszeichnungen",
+      "name": "Gesundheitsauszeichnungen",
+      "topicCount": 3,
+      "relevanceSec": 1664,
+      "topics": [
+        {
+          "topic": "PUBLIC HEALTH PRIZE",
+          "count": 1,
+          "keywords": [
+            "Health / Public Health",
+            "Award / Ig-Nobelpreis"
+          ],
+          "relevanceSec": 763,
+          "occurrences": [
+            {
+              "episodeNumber": 280,
+              "durationSec": 763,
+              "positionSec": 4585
+            }
+          ]
+        },
+        {
+          "topic": "MEDICINE PRIZE",
+          "count": 1,
+          "keywords": [
+            "Health / Medicine",
+            "Award / Ig-Nobelpreis"
+          ],
+          "relevanceSec": 373,
+          "occurrences": [
+            {
+              "episodeNumber": 280,
+              "durationSec": 373,
+              "positionSec": 6028
+            }
+          ]
+        },
+        {
+          "topic": "NUTRITION PRIZE",
+          "count": 1,
+          "keywords": [
+            "Health / Nutrition",
+            "Award / Ig-Nobelpreis"
+          ],
+          "relevanceSec": 528,
+          "occurrences": [
+            {
+              "episodeNumber": 280,
+              "durationSec": 528,
+              "positionSec": 6401
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wandern-im-allgäu",
+      "name": "Wandern im Allgäu",
+      "topicCount": 3,
+      "relevanceSec": 1659,
+      "topics": [
+        {
+          "topic": "e-Wandern",
+          "count": 1,
+          "keywords": [
+            "Outdoor Activities",
+            "e-Wandern"
+          ],
+          "relevanceSec": 394,
+          "occurrences": [
+            {
+              "episodeNumber": 346,
+              "durationSec": 394,
+              "positionSec": 2343
+            }
+          ]
+        },
+        {
+          "topic": "Wanderung Allgäu",
+          "count": 1,
+          "keywords": [
+            "Natur / Aktivitäten",
+            "Wandern / Allgäu"
+          ],
+          "relevanceSec": 672,
+          "occurrences": [
+            {
+              "episodeNumber": 358,
+              "durationSec": 672,
+              "positionSec": 954
+            }
+          ]
+        },
+        {
+          "topic": "Kräuterwanderung",
+          "count": 1,
+          "keywords": [
+            "Natur / Aktivitäten",
+            "Wandern / Kräuter"
+          ],
+          "relevanceSec": 593,
+          "occurrences": [
+            {
+              "episodeNumber": 358,
+              "durationSec": 593,
+              "positionSec": 1626
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blutspende-dkms",
+      "name": "Blutspende & DKMS",
+      "topicCount": 4,
+      "relevanceSec": 1645,
+      "topics": [
+        {
+          "topic": "Wie läuft es bei uns?",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Blood Donation"
+          ],
+          "relevanceSec": 296,
+          "occurrences": [
+            {
+              "episodeNumber": 235,
+              "durationSec": 296,
+              "positionSec": 136
+            }
+          ]
+        },
+        {
+          "topic": "DRK Essen Ankunft",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Blood Donation"
+          ],
+          "relevanceSec": 749,
+          "occurrences": [
+            {
+              "episodeNumber": 235,
+              "durationSec": 749,
+              "positionSec": 1512
+            }
+          ]
+        },
+        {
+          "topic": "Blutspenden",
+          "count": 2,
+          "keywords": [
+            "Health",
+            "Blood Donation"
+          ],
+          "relevanceSec": 523,
+          "occurrences": [
+            {
+              "episodeNumber": 258,
+              "durationSec": 185,
+              "positionSec": 1728
+            },
+            {
+              "episodeNumber": 343,
+              "durationSec": 338,
+              "positionSec": 1009
+            }
+          ]
+        },
+        {
+          "topic": "DKMS",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "DKMS"
+          ],
+          "relevanceSec": 77,
+          "occurrences": [
+            {
+              "episodeNumber": 370,
+              "durationSec": 77,
+              "positionSec": 4127
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "städtische-mobilität",
+      "name": "Städtische Mobilität",
+      "topicCount": 3,
+      "relevanceSec": 1639,
+      "topics": [
+        {
+          "topic": "Wegen durch die Stadt",
+          "count": 1,
+          "keywords": [
+            "Urban Studies",
+            "City Navigation"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 192,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Fahrradstraßen",
+          "count": 1,
+          "keywords": [
+            "Transportation",
+            "Urban Planning"
+          ],
+          "relevanceSec": 653,
+          "occurrences": [
+            {
+              "episodeNumber": 212,
+              "durationSec": 653,
+              "positionSec": 850
+            }
+          ]
+        },
+        {
+          "topic": "Mobilität in der Stadt",
+          "count": 1,
+          "keywords": [
+            "Urban Studies",
+            "Mobility"
+          ],
+          "relevanceSec": 686,
+          "occurrences": [
+            {
+              "episodeNumber": 276,
+              "durationSec": 686,
+              "positionSec": 1437
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "woche-im-fokus",
+      "name": "Woche im Fokus",
+      "topicCount": 3,
+      "relevanceSec": 1635,
+      "topics": [
+        {
+          "topic": "Themen der Woche",
+          "count": 21,
+          "keywords": [
+            "Topics / Weekly",
+            "Discussion / Highlights",
+            "Current Events",
+            "Weekly Topics",
+            "Current Events / Weekly Topics"
+          ],
+          "relevanceSec": 1501,
+          "occurrences": [
+            {
+              "episodeNumber": 55,
+              "durationSec": 0,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 206,
+              "durationSec": 65,
+              "positionSec": 4125
+            },
+            {
+              "episodeNumber": 208,
+              "durationSec": 61,
+              "positionSec": 5286
+            },
+            {
+              "episodeNumber": 209,
+              "durationSec": 61,
+              "positionSec": 4156
+            },
+            {
+              "episodeNumber": 211,
+              "durationSec": 58,
+              "positionSec": 3743
+            },
+            {
+              "episodeNumber": 212,
+              "durationSec": 47,
+              "positionSec": 4088
+            },
+            {
+              "episodeNumber": 213,
+              "durationSec": 33,
+              "positionSec": 3822
+            },
+            {
+              "episodeNumber": 214,
+              "durationSec": 117,
+              "positionSec": 2338
+            },
+            {
+              "episodeNumber": 215,
+              "durationSec": 62,
+              "positionSec": 2656
+            },
+            {
+              "episodeNumber": 216,
+              "durationSec": 80,
+              "positionSec": 3839
+            },
+            {
+              "episodeNumber": 217,
+              "durationSec": 74,
+              "positionSec": 3202
+            },
+            {
+              "episodeNumber": 218,
+              "durationSec": 334,
+              "positionSec": 3623
+            },
+            {
+              "episodeNumber": 219,
+              "durationSec": 29,
+              "positionSec": 4840
+            },
+            {
+              "episodeNumber": 220,
+              "durationSec": 86,
+              "positionSec": 3458
+            },
+            {
+              "episodeNumber": 221,
+              "durationSec": 50,
+              "positionSec": 5701
+            },
+            {
+              "episodeNumber": 222,
+              "durationSec": 51,
+              "positionSec": 3731
+            },
+            {
+              "episodeNumber": 226,
+              "durationSec": 86,
+              "positionSec": 3244
+            },
+            {
+              "episodeNumber": 227,
+              "durationSec": 71,
+              "positionSec": 2286
+            },
+            {
+              "episodeNumber": 229,
+              "durationSec": 46,
+              "positionSec": 3289
+            },
+            {
+              "episodeNumber": 232,
+              "durationSec": 55,
+              "positionSec": 4877
+            },
+            {
+              "episodeNumber": 233,
+              "durationSec": 35,
+              "positionSec": 3477
+            }
+          ]
+        },
+        {
+          "topic": "Themem der Woche",
+          "count": 1,
+          "keywords": [
+            "Topic / Weekly",
+            "Discussion / Themes of the Week"
+          ],
+          "relevanceSec": 99,
+          "occurrences": [
+            {
+              "episodeNumber": 210,
+              "durationSec": 99,
+              "positionSec": 4481
+            }
+          ]
+        },
+        {
+          "topic": "Thema der Woche",
+          "count": 1,
+          "keywords": [
+            "Topics / Weekly Themes",
+            "Topics / Theme of the Week"
+          ],
+          "relevanceSec": 35,
+          "occurrences": [
+            {
+              "episodeNumber": 224,
+              "durationSec": 35,
+              "positionSec": 5809
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "katrin-johanna-kommentare",
+      "name": "Katrin & Johanna Kommentare",
+      "topicCount": 3,
+      "relevanceSec": 1597,
+      "topics": [
+        {
+          "topic": "Kommentar",
+          "count": 4,
+          "keywords": [
+            "Commentary",
+            "General",
+            "Discussion",
+            "General Commentary",
+            "Kommentar / Allgemein"
+          ],
+          "relevanceSec": 1009,
+          "occurrences": [
+            {
+              "episodeNumber": 228,
+              "durationSec": 215,
+              "positionSec": 2138
+            },
+            {
+              "episodeNumber": 287,
+              "durationSec": 85,
+              "positionSec": 2739
+            },
+            {
+              "episodeNumber": 299,
+              "durationSec": 233,
+              "positionSec": 2442
+            },
+            {
+              "episodeNumber": 334,
+              "durationSec": 476,
+              "positionSec": 1234
+            }
+          ]
+        },
+        {
+          "topic": "Kommentar Johanna",
+          "count": 1,
+          "keywords": [
+            "Commentary",
+            "Personal Opinion"
+          ],
+          "relevanceSec": 128,
+          "occurrences": [
+            {
+              "episodeNumber": 289,
+              "durationSec": 128,
+              "positionSec": 3409
+            }
+          ]
+        },
+        {
+          "topic": "Kommentar Katrin",
+          "count": 1,
+          "keywords": [
+            "Commentary",
+            "Personal Opinion"
+          ],
+          "relevanceSec": 460,
+          "occurrences": [
+            {
+              "episodeNumber": 289,
+              "durationSec": 460,
+              "positionSec": 3537
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kommentarreihe",
+      "name": "Kommentarreihe",
+      "topicCount": 5,
+      "relevanceSec": 1577,
+      "topics": [
+        {
+          "topic": "Kommentar Florian",
+          "count": 1,
+          "keywords": [
+            "Community / Feedback",
+            "Comment / Florian"
+          ],
+          "relevanceSec": 502,
+          "occurrences": [
+            {
+              "episodeNumber": 250,
+              "durationSec": 502,
+              "positionSec": 2480
+            }
+          ]
+        },
+        {
+          "topic": "Kommentar Stephan",
+          "count": 1,
+          "keywords": [
+            "Community / Feedback",
+            "Comment / Stephan"
+          ],
+          "relevanceSec": 22,
+          "occurrences": [
+            {
+              "episodeNumber": 250,
+              "durationSec": 22,
+              "positionSec": 5530
+            }
+          ]
+        },
+        {
+          "topic": "Kommentar Stefan",
+          "count": 1,
+          "keywords": [
+            "Community / Feedback",
+            "Comment / Stefan"
+          ],
+          "relevanceSec": 139,
+          "occurrences": [
+            {
+              "episodeNumber": 250,
+              "durationSec": 139,
+              "positionSec": 5552
+            }
+          ]
+        },
+        {
+          "topic": "Kommentar Mistafunk",
+          "count": 1,
+          "keywords": [
+            "Community / Feedback",
+            "Comment / Mistafunk"
+          ],
+          "relevanceSec": 460,
+          "occurrences": [
+            {
+              "episodeNumber": 250,
+              "durationSec": 460,
+              "positionSec": 5691
+            }
+          ]
+        },
+        {
+          "topic": "Kommentar Felix",
+          "count": 1,
+          "keywords": [
+            "Community / Feedback",
+            "Comment / Felix"
+          ],
+          "relevanceSec": 454,
+          "occurrences": [
+            {
+              "episodeNumber": 250,
+              "durationSec": 454,
+              "positionSec": 6151
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinagadget",
+      "name": "Chinagadget",
+      "topicCount": 3,
+      "relevanceSec": 1500,
+      "topics": [
+        {
+          "topic": "Chinagadget der Woche",
+          "count": 1,
+          "keywords": [
+            "Technology / Gadgets",
+            "Innovations / Products"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 55,
+              "durationSec": 0,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Chinagadget",
+          "count": 4,
+          "keywords": [
+            "Technologie",
+            "Gadgets",
+            "Technology"
+          ],
+          "relevanceSec": 1200,
+          "occurrences": [
+            {
+              "episodeNumber": 104,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 108,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 110,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 113,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Chinagadget: Sound Machine",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Gadgets"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 119,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evolutionsbiologie",
+      "name": "Evolutionsbiologie",
+      "topicCount": 2,
+      "relevanceSec": 1488,
+      "topics": [
+        {
+          "topic": "Evolution",
+          "count": 2,
+          "keywords": [
+            "Biologie",
+            "Evolutionstheorie"
+          ],
+          "relevanceSec": 600,
+          "occurrences": [
+            {
+              "episodeNumber": 4,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 205,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Biologie",
+          "count": 2,
+          "keywords": [
+            "Science",
+            "Biology"
+          ],
+          "relevanceSec": 888,
+          "occurrences": [
+            {
+              "episodeNumber": 328,
+              "durationSec": 420,
+              "positionSec": 1970
+            },
+            {
+              "episodeNumber": 374,
+              "durationSec": 468,
+              "positionSec": 5153
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rentenplanung",
+      "name": "Rentenplanung",
+      "topicCount": 2,
+      "relevanceSec": 1461,
+      "topics": [
+        {
+          "topic": "Renten",
+          "count": 1,
+          "keywords": [
+            "Gesellschaft",
+            "Wirtschaft"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 73,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Rente",
+          "count": 1,
+          "keywords": [
+            "Finance",
+            "Pension"
+          ],
+          "relevanceSec": 1161,
+          "occurrences": [
+            {
+              "episodeNumber": 301,
+              "durationSec": 1161,
+              "positionSec": 521
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reini-und-banken",
+      "name": "Reini und Banken",
+      "topicCount": 3,
+      "relevanceSec": 1454,
+      "topics": [
+        {
+          "topic": "Bank Reini",
+          "count": 1,
+          "keywords": [
+            "Finance / Banking",
+            "Individual Case"
+          ],
+          "relevanceSec": 701,
+          "occurrences": [
+            {
+              "episodeNumber": 208,
+              "durationSec": 701,
+              "positionSec": 2515
+            }
+          ]
+        },
+        {
+          "topic": "Reini und die Fidorbank",
+          "count": 1,
+          "keywords": [
+            "Finance",
+            "Banking"
+          ],
+          "relevanceSec": 143,
+          "occurrences": [
+            {
+              "episodeNumber": 243,
+              "durationSec": 143,
+              "positionSec": 1272
+            }
+          ]
+        },
+        {
+          "topic": "Reini und Banken",
+          "count": 1,
+          "keywords": [
+            "Finance",
+            "Banking"
+          ],
+          "relevanceSec": 610,
+          "occurrences": [
+            {
+              "episodeNumber": 373,
+              "durationSec": 610,
+              "positionSec": 1559
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psychotherapie-insights",
+      "name": "Psychotherapie Insights",
+      "topicCount": 3,
+      "relevanceSec": 1400,
+      "topics": [
+        {
+          "topic": "Audiokommentar Tobias über Psychotherapie",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Psychotherapy"
+          ],
+          "relevanceSec": 190,
+          "occurrences": [
+            {
+              "episodeNumber": 219,
+              "durationSec": 190,
+              "positionSec": 12260
+            }
+          ]
+        },
+        {
+          "topic": "Audiokommentar Ilka über Depression",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Depression"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 219,
+              "durationSec": 0,
+              "positionSec": 12798
+            }
+          ]
+        },
+        {
+          "topic": "Thema 1: \"Volume Up! durch Psychotherapie\"",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Psychotherapy"
+          ],
+          "relevanceSec": 1210,
+          "occurrences": [
+            {
+              "episodeNumber": 359,
+              "durationSec": 1210,
+              "positionSec": 2737
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ig-nobelpreise",
+      "name": "IG-Nobelpreise",
+      "topicCount": 5,
+      "relevanceSec": 1389,
+      "topics": [
+        {
+          "topic": "IG-Nobelpreis",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Auszeichnungen"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 59,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Ig Nobelpreis 2016",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Awards"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 82,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "IG Nobelpreise 2018",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Awards"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 134,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "IG Nobelpreise",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Awards"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 151,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Ig-Nobelpreise",
+          "count": 1,
+          "keywords": [
+            "Awards",
+            "Ig-Nobelpreise"
+          ],
+          "relevanceSec": 189,
+          "occurrences": [
+            {
+              "episodeNumber": 225,
+              "durationSec": 189,
+              "positionSec": 3220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fussballpsychologie",
+      "name": "Fussballpsychologie",
+      "topicCount": 3,
+      "relevanceSec": 1342,
+      "topics": [
+        {
+          "topic": "Heimvorteil",
+          "count": 1,
+          "keywords": [
+            "Sport",
+            "Fußball"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 28,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Schuld",
+          "count": 1,
+          "keywords": [
+            "Psychology",
+            "Guilt"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 183,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Fussballpsychologie",
+          "count": 1,
+          "keywords": [
+            "Psychology",
+            "Sports Psychology"
+          ],
+          "relevanceSec": 742,
+          "occurrences": [
+            {
+              "episodeNumber": 216,
+              "durationSec": 742,
+              "positionSec": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digitale-transformation",
+      "name": "Digitale Transformation",
+      "topicCount": 2,
+      "relevanceSec": 1261,
+      "topics": [
+        {
+          "topic": "Digitalisierung",
+          "count": 2,
+          "keywords": [
+            "Technology",
+            "Digitalization"
+          ],
+          "relevanceSec": 904,
+          "occurrences": [
+            {
+              "episodeNumber": 198,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 337,
+              "durationSec": 604,
+              "positionSec": 1194
+            }
+          ]
+        },
+        {
+          "topic": "Digitale Ordnung",
+          "count": 1,
+          "keywords": [
+            "Digital / Organization",
+            "Digital Order"
+          ],
+          "relevanceSec": 357,
+          "occurrences": [
+            {
+              "episodeNumber": 244,
+              "durationSec": 357,
+              "positionSec": 1179
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bildmanipulation",
+      "name": "Bildmanipulation",
+      "topicCount": 2,
+      "relevanceSec": 1246,
+      "topics": [
+        {
+          "topic": "Fotos die keine sind",
+          "count": 1,
+          "keywords": [
+            "Kunst",
+            "Fotografie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 142,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Reale Fotos oder Fake?",
+          "count": 1,
+          "keywords": [
+            "Media",
+            "Photography"
+          ],
+          "relevanceSec": 946,
+          "occurrences": [
+            {
+              "episodeNumber": 246,
+              "durationSec": 946,
+              "positionSec": 1598
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lauftraining",
+      "name": "Lauftraining",
+      "topicCount": 2,
+      "relevanceSec": 1237,
+      "topics": [
+        {
+          "topic": "Lauftraining Reini",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Fitness"
+          ],
+          "relevanceSec": 790,
+          "occurrences": [
+            {
+              "episodeNumber": 257,
+              "durationSec": 790,
+              "positionSec": 139
+            }
+          ]
+        },
+        {
+          "topic": "Joggen",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Fitness"
+          ],
+          "relevanceSec": 447,
+          "occurrences": [
+            {
+              "episodeNumber": 342,
+              "durationSec": 447,
+              "positionSec": 1021
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kaffee-kultur",
+      "name": "Kaffee-Kultur",
+      "topicCount": 3,
+      "relevanceSec": 1200,
+      "topics": [
+        {
+          "topic": "Studien über Kaffee",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Ernährung"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 8,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "löblicher Kaffee",
+          "count": 1,
+          "keywords": [
+            "Essen & Trinken",
+            "Kaffee"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 94,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Kaffee",
+          "count": 2,
+          "keywords": [
+            "Essen & Trinken",
+            "Getränke"
+          ],
+          "relevanceSec": 600,
+          "occurrences": [
+            {
+              "episodeNumber": 122,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 159,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "affensprache-und-verhalten",
+      "name": "Affensprache und Verhalten",
+      "topicCount": 4,
+      "relevanceSec": 1200,
+      "topics": [
+        {
+          "topic": "Schimpansen-Sprache",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Tierverhalten"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 44,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Kochende Affen",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Tierverhalten"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 52,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "clevere Affen",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Tierverhalten"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 83,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "spielende Affen",
+          "count": 1,
+          "keywords": [
+            "Natur",
+            "Tiere"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 103,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "virenforschung",
+      "name": "Virenforschung",
+      "topicCount": 3,
+      "relevanceSec": 1200,
+      "topics": [
+        {
+          "topic": "Riesenviren",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Mikrobiologie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 22,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Designer-Viren",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Mikrobiologie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 97,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Viren",
+          "count": 2,
+          "keywords": [
+            "Biologie",
+            "Mikrobiologie"
+          ],
+          "relevanceSec": 600,
+          "occurrences": [
+            {
+              "episodeNumber": 159,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 175,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "augenblick",
+      "name": "Augenblick",
+      "topicCount": 4,
+      "relevanceSec": 1200,
+      "topics": [
+        {
+          "topic": "Blick in die Augen",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Anatomie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 78,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Superaugen",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Optics"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 79,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Blitzlicht-Augen",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Vision"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 115,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Blickdruck",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Optics"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 135,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diamanten",
+      "name": "Diamanten",
+      "topicCount": 3,
+      "relevanceSec": 1200,
+      "topics": [
+        {
+          "topic": "Diamanten",
+          "count": 2,
+          "keywords": [
+            "Materialien",
+            "Edelsteine"
+          ],
+          "relevanceSec": 600,
+          "occurrences": [
+            {
+              "episodeNumber": 64,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 178,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Diamant aus Öl",
+          "count": 1,
+          "keywords": [
+            "Materialien",
+            "Edelsteine"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 80,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Maser-Diamanten",
+          "count": 1,
+          "keywords": [
+            "Materialien",
+            "Edelsteine"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 117,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spermienforschung",
+      "name": "Spermienforschung",
+      "topicCount": 4,
+      "relevanceSec": 1200,
+      "topics": [
+        {
+          "topic": "topfschlagende Spermien",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Reproduktion"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 57,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Sperma",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Fortpflanzung"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 63,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Sperma aus dem Weltraum",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Astrobiologie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 75,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Befruchtungsstrategie",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Fortpflanzung"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 80,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weihnachtszeit",
+      "name": "Weihnachtszeit",
+      "topicCount": 2,
+      "relevanceSec": 1124,
+      "topics": [
+        {
+          "topic": "Weihnachten",
+          "count": 2,
+          "keywords": [
+            "Kultur",
+            "Feiertage"
+          ],
+          "relevanceSec": 600,
+          "occurrences": [
+            {
+              "episodeNumber": 181,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 204,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Weihnachtsmarkt",
+          "count": 1,
+          "keywords": [
+            "Culture",
+            "Events"
+          ],
+          "relevanceSec": 524,
+          "occurrences": [
+            {
+              "episodeNumber": 325,
+              "durationSec": 524,
+              "positionSec": 104
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pilze-und-mistkäfer",
+      "name": "Pilze und Mistkäfer",
+      "topicCount": 4,
+      "relevanceSec": 1086,
+      "topics": [
+        {
+          "topic": "Mistkäfer",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Entomology"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 146,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Pilze",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Fungi"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 160,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Pilzpaten",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Mykologie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 186,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Kommentar Pilze",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Fungi"
+          ],
+          "relevanceSec": 186,
+          "occurrences": [
+            {
+              "episodeNumber": 270,
+              "durationSec": 186,
+              "positionSec": 1413
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "botanik",
+      "name": "Botanik",
+      "topicCount": 3,
+      "relevanceSec": 1080,
+      "topics": [
+        {
+          "topic": "Pflanzen",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Botanik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 23,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Bäume",
+          "count": 1,
+          "keywords": [
+            "Natur",
+            "Botanik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 73,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Botanik",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Botany"
+          ],
+          "relevanceSec": 480,
+          "occurrences": [
+            {
+              "episodeNumber": 328,
+              "durationSec": 480,
+              "positionSec": 2390
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "büro-reini",
+      "name": "Büro Reini",
+      "topicCount": 2,
+      "relevanceSec": 958,
+      "topics": [
+        {
+          "topic": "Büro Reini",
+          "count": 1,
+          "keywords": [
+            "Lifestyle",
+            "Büro"
+          ],
+          "relevanceSec": 597,
+          "occurrences": [
+            {
+              "episodeNumber": 282,
+              "durationSec": 597,
+              "positionSec": 714
+            }
+          ]
+        },
+        {
+          "topic": "Büro",
+          "count": 1,
+          "keywords": [
+            "Work",
+            "Büro"
+          ],
+          "relevanceSec": 361,
+          "occurrences": [
+            {
+              "episodeNumber": 285,
+              "durationSec": 361,
+              "positionSec": 1404
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "literaturnobelpreis",
+      "name": "Literaturnobelpreis",
+      "topicCount": 3,
+      "relevanceSec": 945,
+      "topics": [
+        {
+          "topic": "Nobelpreis Literatur",
+          "count": 1,
+          "keywords": [
+            "Awards",
+            "Nobel Prize Literature"
+          ],
+          "relevanceSec": 421,
+          "occurrences": [
+            {
+              "episodeNumber": 277,
+              "durationSec": 421,
+              "positionSec": 7716
+            }
+          ]
+        },
+        {
+          "topic": "Literaturnobelpreis",
+          "count": 1,
+          "keywords": [
+            "Literature",
+            "Awards"
+          ],
+          "relevanceSec": 217,
+          "occurrences": [
+            {
+              "episodeNumber": 326,
+              "durationSec": 217,
+              "positionSec": 7054
+            }
+          ]
+        },
+        {
+          "topic": "Literatur Nobelpreis",
+          "count": 1,
+          "keywords": [
+            "Awards",
+            "Nobel Prize in Literature"
+          ],
+          "relevanceSec": 307,
+          "occurrences": [
+            {
+              "episodeNumber": 373,
+              "durationSec": 307,
+              "positionSec": 6173
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spinnenforschung",
+      "name": "Spinnenforschung",
+      "topicCount": 3,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Fieser Trick von Spinnen",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Animal Behavior"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 5,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Spinnenkleber",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Adhesives"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 121,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Spinnenbeinen",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Arachnology"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 161,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mini-u-boote",
+      "name": "Mini-U-Boote",
+      "topicCount": 3,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Mini-U-Boote",
+          "count": 1,
+          "keywords": [
+            "Technology",
+            "Submarines"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 16,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "kleinstes U-Boot der Welt",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Unterwassertechnik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 109,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "kleine U-Boote",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Unterwassertechnik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 132,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eis-experimente",
+      "name": "Eis-Experimente",
+      "topicCount": 3,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Experiment der Woche: Der knackende Eiswürfel",
+          "count": 1,
+          "keywords": [
+            "Physik",
+            "Thermodynamik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 53,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Kochen mit Eis",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Chemie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 67,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Eiswasser",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 152,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fischarten",
+      "name": "Fischarten",
+      "topicCount": 3,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Fische",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Tiere"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 76,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Tiere",
+          "count": 1,
+          "keywords": [
+            "Biologie",
+            "Tierwelt"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 170,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Tieren",
+          "count": 1,
+          "keywords": [
+            "Natur",
+            "Haustiere"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 172,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experimentelle-physik",
+      "name": "Experimentelle Physik",
+      "topicCount": 3,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Experiment der Woche: Der zersägte Besenstil",
+          "count": 1,
+          "keywords": [
+            "Experiment",
+            "Kreativität"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 34,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Rührholz",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 75,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: magische Zahnstocher",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 126,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quantenphysik",
+      "name": "Quantenphysik",
+      "topicCount": 3,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Foto aus der Quantenwelt",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Quantenphysik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 46,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Quantenspielchen",
+          "count": 1,
+          "keywords": [
+            "Science",
+            "Quantum Mechanics"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 72,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Quanten",
+          "count": 1,
+          "keywords": [
+            "Physics",
+            "Quantum Mechanics"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 171,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wahrnehmungspsychologie",
+      "name": "Wahrnehmungspsychologie",
+      "topicCount": 2,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Wahrnehmung",
+          "count": 2,
+          "keywords": [
+            "Psychology",
+            "Perception",
+            "Psychologie",
+            "Kognition"
+          ],
+          "relevanceSec": 600,
+          "occurrences": [
+            {
+              "episodeNumber": 150,
+              "durationSec": 300,
+              "positionSec": 0
+            },
+            {
+              "episodeNumber": 186,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Täuschungen",
+          "count": 1,
+          "keywords": [
+            "Psychologie",
+            "Wahrnehmung"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 173,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roboterinnovationen",
+      "name": "Roboterinnovationen",
+      "topicCount": 3,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Roboter Fussball-WM",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Robotik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 24,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Roboterrochen",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Robotik"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 78,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Roboter in Existenzkrise",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Roboter"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 126,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eier-experimente",
+      "name": "Eier-Experimente",
+      "topicCount": 3,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Experiment der Woche: Das schwebende Ei",
+          "count": 1,
+          "keywords": [
+            "Physik",
+            "Experimentelle Wissenschaft"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 44,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Flaschenei",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 120,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Essig-Ei",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 175,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "künstliche-biotechnologie",
+      "name": "Künstliche Biotechnologie",
+      "topicCount": 3,
+      "relevanceSec": 900,
+      "topics": [
+        {
+          "topic": "Künstliche Haut",
+          "count": 1,
+          "keywords": [
+            "Biotechnologie",
+            "Materialwissenschaft"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 6,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "künstliches Fleisch",
+          "count": 1,
+          "keywords": [
+            "Biotechnologie",
+            "Nahrungsmittel"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 7,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "künstliche Muskeln",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Biotechnologie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 30,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paper-entwicklung",
+      "name": "Paper-Entwicklung",
+      "topicCount": 2,
+      "relevanceSec": 896,
+      "topics": [
+        {
+          "topic": "Abgelehntes Paper",
+          "count": 1,
+          "keywords": [
+            "Research / Papers",
+            "Rejected Papers"
+          ],
+          "relevanceSec": 725,
+          "occurrences": [
+            {
+              "episodeNumber": 319,
+              "durationSec": 725,
+              "positionSec": 649
+            }
+          ]
+        },
+        {
+          "topic": "Paper mit Easteregg veröffentlicht",
+          "count": 1,
+          "keywords": [
+            "Publishing",
+            "Research"
+          ],
+          "relevanceSec": 171,
+          "occurrences": [
+            {
+              "episodeNumber": 340,
+              "durationSec": 171,
+              "positionSec": 1305
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solarenergie",
+      "name": "Solarenergie",
+      "topicCount": 2,
+      "relevanceSec": 817,
+      "topics": [
+        {
+          "topic": "Solaranlagen",
+          "count": 1,
+          "keywords": [
+            "Environment",
+            "Renewable Energy"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 190,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "BalkonSolar",
+          "count": 1,
+          "keywords": [
+            "Energy",
+            "Solar"
+          ],
+          "relevanceSec": 517,
+          "occurrences": [
+            {
+              "episodeNumber": 264,
+              "durationSec": 517,
+              "positionSec": 287
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3d-drucktechnik",
+      "name": "3D Drucktechnik",
+      "topicCount": 3,
+      "relevanceSec": 739,
+      "topics": [
+        {
+          "topic": "3d Drucker",
+          "count": 1,
+          "keywords": [
+            "Technology / 3D Printing",
+            "3D Printers"
+          ],
+          "relevanceSec": 331,
+          "occurrences": [
+            {
+              "episodeNumber": 221,
+              "durationSec": 331,
+              "positionSec": 3979
+            }
+          ]
+        },
+        {
+          "topic": "3d Maus",
+          "count": 1,
+          "keywords": [
+            "Technology / Devices",
+            "3D Input Devices"
+          ],
+          "relevanceSec": 150,
+          "occurrences": [
+            {
+              "episodeNumber": 233,
+              "durationSec": 150,
+              "positionSec": 2542
+            }
+          ]
+        },
+        {
+          "topic": "3d Drucker und Skadis",
+          "count": 1,
+          "keywords": [
+            "Technology",
+            "3D Printing"
+          ],
+          "relevanceSec": 258,
+          "occurrences": [
+            {
+              "episodeNumber": 305,
+              "durationSec": 258,
+              "positionSec": 1624
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mobilitätsdienste",
+      "name": "Mobilitätsdienste",
+      "topicCount": 2,
+      "relevanceSec": 625,
+      "topics": [
+        {
+          "topic": "Mietwagen und Leasing Autos",
+          "count": 1,
+          "keywords": [
+            "Mobilität / Fahrzeuge",
+            "Mietwagen"
+          ],
+          "relevanceSec": 283,
+          "occurrences": [
+            {
+              "episodeNumber": 237,
+              "durationSec": 283,
+              "positionSec": 1399
+            }
+          ]
+        },
+        {
+          "topic": "Lieferdienste",
+          "count": 1,
+          "keywords": [
+            "Business / Services",
+            "Food / Delivery"
+          ],
+          "relevanceSec": 342,
+          "occurrences": [
+            {
+              "episodeNumber": 339,
+              "durationSec": 342,
+              "positionSec": 2277
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science-slam",
+      "name": "Science Slam",
+      "topicCount": 2,
+      "relevanceSec": 601,
+      "topics": [
+        {
+          "topic": "Science Slam Buch",
+          "count": 1,
+          "keywords": [
+            "Literature / Science",
+            "Science Slam Book"
+          ],
+          "relevanceSec": 226,
+          "occurrences": [
+            {
+              "episodeNumber": 244,
+              "durationSec": 226,
+              "positionSec": 3230
+            }
+          ]
+        },
+        {
+          "topic": "Science Slam",
+          "count": 2,
+          "keywords": [
+            "Science",
+            "Science Slam",
+            "Public Engagement"
+          ],
+          "relevanceSec": 375,
+          "occurrences": [
+            {
+              "episodeNumber": 356,
+              "durationSec": 49,
+              "positionSec": 2100
+            },
+            {
+              "episodeNumber": 368,
+              "durationSec": 326,
+              "positionSec": 1465
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magnetisches-wasser",
+      "name": "Magnetisches Wasser",
+      "topicCount": 2,
+      "relevanceSec": 600,
+      "topics": [
+        {
+          "topic": "magisches Wasser",
+          "count": 1,
+          "keywords": [
+            "Chemie",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 123,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Experiment der Woche: Magnetisches Wasser",
+          "count": 1,
+          "keywords": [
+            "Wissenschaft",
+            "Experimente"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 205,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "suchtmittel",
+      "name": "Suchtmittel",
+      "topicCount": 2,
+      "relevanceSec": 600,
+      "topics": [
+        {
+          "topic": "Alkohol",
+          "count": 1,
+          "keywords": [
+            "Gesundheit",
+            "Sucht"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 118,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Drogen",
+          "count": 1,
+          "keywords": [
+            "Health",
+            "Substance Use"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 183,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hirnforschung",
+      "name": "Hirnforschung",
+      "topicCount": 2,
+      "relevanceSec": 600,
+      "topics": [
+        {
+          "topic": "kleine Hirne",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Neuroscience"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 107,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Hirn",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Neuroscience"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 150,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wetterphänomene",
+      "name": "Wetterphänomene",
+      "topicCount": 2,
+      "relevanceSec": 600,
+      "topics": [
+        {
+          "topic": "Eiszapfen",
+          "count": 1,
+          "keywords": [
+            "Natur",
+            "Wetterphänomene"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 20,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Gewitter",
+          "count": 1,
+          "keywords": [
+            "Natur",
+            "Meteorologie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 140,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kriminalfälle",
+      "name": "Kriminalfälle",
+      "topicCount": 2,
+      "relevanceSec": 600,
+      "topics": [
+        {
+          "topic": "Verbrechen",
+          "count": 1,
+          "keywords": [
+            "Gesellschaft",
+            "Kriminalität"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 112,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Morden",
+          "count": 1,
+          "keywords": [
+            "Kriminalität",
+            "Mordfälle"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 157,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pflanzenpflege",
+      "name": "Pflanzenpflege",
+      "topicCount": 2,
+      "relevanceSec": 600,
+      "topics": [
+        {
+          "topic": "Rettung der Büropflanzen",
+          "count": 1,
+          "keywords": [
+            "Environment",
+            "Botany"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 1,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "grüne Biologie",
+          "count": 1,
+          "keywords": [
+            "Biology",
+            "Ecology"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 115,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soziale-medien-toxicity",
+      "name": "Soziale Medien Toxicity",
+      "topicCount": 2,
+      "relevanceSec": 600,
+      "topics": [
+        {
+          "topic": "krankhaftes Facebook",
+          "count": 1,
+          "keywords": [
+            "Soziale Medien",
+            "Psychologie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 19,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Hasskommentare",
+          "count": 1,
+          "keywords": [
+            "Gesellschaft",
+            "Online-Kommunikation"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 205,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "familienleben",
+      "name": "Familienleben",
+      "topicCount": 2,
+      "relevanceSec": 600,
+      "topics": [
+        {
+          "topic": "Eltern",
+          "count": 1,
+          "keywords": [
+            "Social",
+            "Family Dynamics"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 154,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Kinder",
+          "count": 1,
+          "keywords": [
+            "Gesellschaft",
+            "Familie"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 197,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinagadget-zubehör",
+      "name": "Chinagadget Zubehör",
+      "topicCount": 2,
+      "relevanceSec": 600,
+      "topics": [
+        {
+          "topic": "Chinagadget: Kettenreiniger",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Gadgets"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 88,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Chinagadget: Schleifenersatz",
+          "count": 1,
+          "keywords": [
+            "Technologie",
+            "Gadgets"
+          ],
+          "relevanceSec": 300,
+          "occurrences": [
+            {
+              "episodeNumber": 103,
+              "durationSec": 300,
+              "positionSec": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sportbekleidung",
+      "name": "Sportbekleidung",
+      "topicCount": 3,
+      "relevanceSec": 319,
+      "topics": [
+        {
+          "topic": "Sportklamotten",
+          "count": 2,
+          "keywords": [
+            "Lifestyle / Clothing",
+            "Sportswear",
+            "Lifestyle",
+            "Fashion"
+          ],
+          "relevanceSec": 143,
+          "occurrences": [
+            {
+              "episodeNumber": 233,
+              "durationSec": 0,
+              "positionSec": 8562
+            },
+            {
+              "episodeNumber": 325,
+              "durationSec": 143,
+              "positionSec": 6890
+            }
+          ]
+        },
+        {
+          "topic": "Sportklamotten Bestellung",
+          "count": 1,
+          "keywords": [
+            "Lifestyle",
+            "Sport"
+          ],
+          "relevanceSec": 74,
+          "occurrences": [
+            {
+              "episodeNumber": 282,
+              "durationSec": 74,
+              "positionSec": 7212
+            }
+          ]
+        },
+        {
+          "topic": "Minkorrekt Sportklamotten",
+          "count": 1,
+          "keywords": [
+            "Fashion",
+            "Sportswear"
+          ],
+          "relevanceSec": 102,
+          "occurrences": [
+            {
+              "episodeNumber": 374,
+              "durationSec": 102,
+              "positionSec": 1575
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hörerinteraktion",
+      "name": "Hörerinteraktion",
+      "topicCount": 3,
+      "relevanceSec": 54,
+      "topics": [
+        {
+          "topic": "Hörerfrage",
+          "count": 1,
+          "keywords": [
+            "Audience / Questions",
+            "Engagement / Feedback"
+          ],
+          "relevanceSec": 0,
+          "occurrences": [
+            {
+              "episodeNumber": 55,
+              "durationSec": 0,
+              "positionSec": 0
+            }
+          ]
+        },
+        {
+          "topic": "Hörerinnenkommentare",
+          "count": 1,
+          "keywords": [
+            "Community / Feedback",
+            "Podcast / Listener Comments"
+          ],
+          "relevanceSec": 42,
+          "occurrences": [
+            {
+              "episodeNumber": 250,
+              "durationSec": 42,
+              "positionSec": 2438
+            }
+          ]
+        },
+        {
+          "topic": "Hörer*innen Feedback",
+          "count": 1,
+          "keywords": [
+            "Audience",
+            "Feedback"
+          ],
+          "relevanceSec": 12,
+          "occurrences": [
+            {
+              "episodeNumber": 273,
+              "durationSec": 12,
+              "positionSec": 2950
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

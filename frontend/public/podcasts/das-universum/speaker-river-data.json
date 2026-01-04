@@ -1,0 +1,370 @@
+{
+  "generatedAt": "2026-01-04T22:45:54.825Z",
+  "description": "Speaker River Daten für Freak Show Podcast - Speaker aggregiert nach Jahren",
+  "statistics": {
+    "totalSpeakers": 9,
+    "totalEpisodes": 30,
+    "totalAppearances": 93,
+    "totalDurationHours": 40.3,
+    "yearRange": {
+      "start": 2024,
+      "end": 2025
+    },
+    "years": [
+      2024,
+      2025
+    ],
+    "topSpeakersByEpisodeCount": [
+      {
+        "id": "florian",
+        "name": "Florian",
+        "count": 30
+      },
+      {
+        "id": "ruth",
+        "name": "Ruth",
+        "count": 29
+      },
+      {
+        "id": "evi",
+        "name": "Evi",
+        "count": 28
+      },
+      {
+        "id": "soundboard",
+        "name": "Soundboard",
+        "count": 1
+      },
+      {
+        "id": "raoul",
+        "name": "Raoul",
+        "count": 1
+      },
+      {
+        "id": "sigi",
+        "name": "Sigi",
+        "count": 1
+      },
+      {
+        "id": "daniel",
+        "name": "Daniel",
+        "count": 1
+      },
+      {
+        "id": "alle",
+        "name": "Alle",
+        "count": 1
+      },
+      {
+        "id": "peter",
+        "name": "Peter",
+        "count": 1
+      }
+    ]
+  },
+  "speakers": [
+    {
+      "id": "florian",
+      "name": "Florian",
+      "totalEpisodes": 30,
+      "totalDurationHours": 40.3,
+      "firstAppearance": 2024,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2024,
+          "episodeCount": 4,
+          "durationHours": 5.99,
+          "episodes": [
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        {
+          "year": 2025,
+          "episodeCount": 26,
+          "durationHours": 34.31,
+          "episodes": [
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruth",
+      "name": "Ruth",
+      "totalEpisodes": 29,
+      "totalDurationHours": 39.64,
+      "firstAppearance": 2024,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2024,
+          "episodeCount": 4,
+          "durationHours": 5.99,
+          "episodes": [
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        {
+          "year": 2025,
+          "episodeCount": 25,
+          "durationHours": 33.65,
+          "episodes": [
+            121,
+            122,
+            123,
+            124,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evi",
+      "name": "Evi",
+      "totalEpisodes": 28,
+      "totalDurationHours": 37.55,
+      "firstAppearance": 2024,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2024,
+          "episodeCount": 4,
+          "durationHours": 5.99,
+          "episodes": [
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        {
+          "year": 2025,
+          "episodeCount": 24,
+          "durationHours": 31.56,
+          "episodes": [
+            121,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soundboard",
+      "name": "Soundboard",
+      "totalEpisodes": 1,
+      "totalDurationHours": 1.63,
+      "firstAppearance": 2024,
+      "lastAppearance": 2024,
+      "timeline": [
+        {
+          "year": 2024,
+          "episodeCount": 1,
+          "durationHours": 1.63,
+          "episodes": [
+            120
+          ]
+        },
+        {
+          "year": 2025,
+          "episodeCount": 0,
+          "durationHours": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "id": "raoul",
+      "name": "Raoul",
+      "totalEpisodes": 1,
+      "totalDurationHours": 1.62,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2024,
+          "episodeCount": 0,
+          "durationHours": 0,
+          "episodes": []
+        },
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 1.62,
+          "episodes": [
+            122
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigi",
+      "name": "Sigi",
+      "totalEpisodes": 1,
+      "totalDurationHours": 1.59,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2024,
+          "episodeCount": 0,
+          "durationHours": 0,
+          "episodes": []
+        },
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 1.59,
+          "episodes": [
+            124
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daniel",
+      "name": "Daniel",
+      "totalEpisodes": 1,
+      "totalDurationHours": 1.12,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2024,
+          "episodeCount": 0,
+          "durationHours": 0,
+          "episodes": []
+        },
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 1.12,
+          "episodes": [
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alle",
+      "name": "Alle",
+      "totalEpisodes": 1,
+      "totalDurationHours": 1.12,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2024,
+          "episodeCount": 0,
+          "durationHours": 0,
+          "episodes": []
+        },
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 1.12,
+          "episodes": [
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peter",
+      "name": "Peter",
+      "totalEpisodes": 1,
+      "totalDurationHours": 1.49,
+      "firstAppearance": 2025,
+      "lastAppearance": 2025,
+      "timeline": [
+        {
+          "year": 2024,
+          "episodeCount": 0,
+          "durationHours": 0,
+          "episodes": []
+        },
+        {
+          "year": 2025,
+          "episodeCount": 1,
+          "durationHours": 1.49,
+          "episodes": [
+            144
+          ]
+        }
+      ]
+    }
+  ]
+}

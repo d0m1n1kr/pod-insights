@@ -1,0 +1,450 @@
+{
+  "generatedAt": "2026-01-04T22:45:55.034Z",
+  "description": "Year × Episode Duration Heatmap Data",
+  "statistics": {
+    "totalEpisodes": 146,
+    "totalYears": 6,
+    "totalDurationBuckets": 5,
+    "totalCombinations": 24,
+    "mostCommonYear": "2021",
+    "mostCommonYearCount": 27,
+    "mostCommonDuration": 90,
+    "mostCommonDurationLabel": "1h 30min",
+    "mostCommonDurationCount": 78
+  },
+  "years": [
+    {
+      "year": "2020",
+      "totalEpisodes": 14
+    },
+    {
+      "year": "2021",
+      "totalEpisodes": 27
+    },
+    {
+      "year": "2022",
+      "totalEpisodes": 26
+    },
+    {
+      "year": "2023",
+      "totalEpisodes": 26
+    },
+    {
+      "year": "2024",
+      "totalEpisodes": 27
+    },
+    {
+      "year": "2025",
+      "totalEpisodes": 26
+    }
+  ],
+  "durations": [
+    {
+      "minutes": 0,
+      "label": "0min",
+      "totalEpisodes": 5
+    },
+    {
+      "minutes": 30,
+      "label": "30min",
+      "totalEpisodes": 22
+    },
+    {
+      "minutes": 60,
+      "label": "1h",
+      "totalEpisodes": 33
+    },
+    {
+      "minutes": 90,
+      "label": "1h 30min",
+      "totalEpisodes": 78
+    },
+    {
+      "minutes": 120,
+      "label": "2h",
+      "totalEpisodes": 8
+    }
+  ],
+  "matrix": [
+    {
+      "year": "2020",
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 3,
+          "episodes": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 9,
+          "episodes": [
+            10,
+            11,
+            12,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 2,
+          "episodes": [
+            13,
+            14
+          ]
+        },
+        {
+          "duration": 120,
+          "durationLabel": "2h",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 2,
+          "episodes": [
+            31,
+            35
+          ]
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 4,
+          "episodes": [
+            20,
+            22,
+            28,
+            30
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 19,
+          "episodes": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            21,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29,
+            32,
+            34,
+            36,
+            37,
+            38,
+            39,
+            41
+          ]
+        },
+        {
+          "duration": 120,
+          "durationLabel": "2h",
+          "count": 2,
+          "episodes": [
+            33,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 2,
+          "episodes": [
+            55,
+            59
+          ]
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 3,
+          "episodes": [
+            56,
+            57,
+            58
+          ]
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 2,
+          "episodes": [
+            66,
+            67
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 15,
+          "episodes": [
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            61,
+            62,
+            63,
+            64,
+            65
+          ]
+        },
+        {
+          "duration": 120,
+          "durationLabel": "2h",
+          "count": 4,
+          "episodes": [
+            42,
+            43,
+            45,
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 5,
+          "episodes": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ]
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 3,
+          "episodes": [
+            77,
+            78,
+            79
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 16,
+          "episodes": [
+            68,
+            69,
+            70,
+            71,
+            73,
+            74,
+            76,
+            80,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ]
+        },
+        {
+          "duration": 120,
+          "durationLabel": "2h",
+          "count": 2,
+          "episodes": [
+            72,
+            75
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 2,
+          "episodes": [
+            109,
+            110
+          ]
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 3,
+          "episodes": [
+            107,
+            108,
+            112
+          ]
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 8,
+          "episodes": [
+            100,
+            106,
+            111,
+            113,
+            116,
+            117,
+            118,
+            94
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 14,
+          "episodes": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            114,
+            115,
+            119,
+            120,
+            95,
+            96,
+            97,
+            98,
+            99
+          ]
+        },
+        {
+          "duration": 120,
+          "durationLabel": "2h",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "values": [
+        {
+          "duration": 0,
+          "durationLabel": "0min",
+          "count": 1,
+          "episodes": [
+            135
+          ]
+        },
+        {
+          "duration": 30,
+          "durationLabel": "30min",
+          "count": 6,
+          "episodes": [
+            125,
+            132,
+            133,
+            134,
+            136,
+            137
+          ]
+        },
+        {
+          "duration": 60,
+          "durationLabel": "1h",
+          "count": 7,
+          "episodes": [
+            121,
+            130,
+            140,
+            141,
+            143,
+            144,
+            145
+          ]
+        },
+        {
+          "duration": 90,
+          "durationLabel": "1h 30min",
+          "count": 12,
+          "episodes": [
+            122,
+            123,
+            124,
+            126,
+            127,
+            128,
+            129,
+            131,
+            138,
+            139,
+            142,
+            146
+          ]
+        },
+        {
+          "duration": 120,
+          "durationLabel": "2h",
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "episodeNumber": 126,
+  "title": "DU126 - Wackelndes Wasser am Anfang des Universums",
+  "extractedAt": "2026-01-04T19:28:09.295Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Ursprung des Wassers",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Wasser im Universum"
+      },
+      "summary": "In der Episode wird die Entdeckung von 128 neuen Monden des Saturn diskutiert, die die Gesamtzahl auf 274 erhöht. Diese Monde gehören zur Mundilfari-Untergruppe, benannt nach Figuren der nordischen Mythologie. Ruth und Florian erläutern, dass viele dieser Monde Bruchstücke eines größeren Mondes sind, der vor etwa 100 Millionen Jahren zerbrach. Die Monde zeichnen sich durch hohe Exzentrizität und Inklination aus, was auf ihre gemeinsame Herkunft hinweist. Die Diskussion umfasst auch die Frage, ob der Zerfall durch Kollisionen oder Gezeitenkräfte verursacht wurde.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "126-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 436,
+        "startSec": 7,
+        "endSec": 1674,
+        "llmDetectedStartSec": 27,
+        "llmDetectedEndSec": 1654,
+        "generatedAt": "2026-01-04T21:58:35.993Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Raumsonden auf dem Mond",
+      "subject": {
+        "coarse": "Raumfahrt",
+        "fine": "Mondmissionen"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "126-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 1634,
+        "endSec": 820,
+        "llmDetectedStartSec": 1654,
+        "llmDetectedEndSec": 800,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Strände auf dem Mars",
+      "subject": {
+        "coarse": "Planetologie",
+        "fine": "Mars"
+      },
+      "summary": "Auf dem Mars gibt es vermutlich Sandstrände, die von einem ehemaligen Ozean stammen. Vor etwa vier Milliarden Jahren gab es große Mengen Wasser in Form von Flüssen und Seen. Die Existenz eines Ozeans auf dem Mars ist jedoch umstritten, da die Beobachtungen nicht vollständig mit der Theorie eines hydrologischen Zyklus übereinstimmen. Es bleibt unklar, wie lange das Wasser auf der Marsoberfläche vorhanden war und wie es sich in größeren Wasserflächen sammeln konnte.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "126-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 225,
+        "startSec": 780,
+        "endSec": 1649,
+        "llmDetectedStartSec": 800,
+        "llmDetectedEndSec": 1629,
+        "generatedAt": "2026-01-04T21:58:35.677Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Chemische Reaktionen im Universum",
+      "subject": {
+        "coarse": "Chemie",
+        "fine": "Astrochemie"
+      },
+      "summary": "Im Transkript wird die Herkunft von Wasser im Universum diskutiert, insbesondere in Bezug auf die ersten Sterne und Galaxien vor etwa 13,5 Milliarden Jahren. Ruth erklärt, dass Wasser durch Asteroideneinschläge auf Planeten wie den Mars gelangt sein könnte, während Florian anmerkt, dass Wasser möglicherweise schon viel früher im Universum existierte. Es wird erwähnt, dass Wasser in großen Mengen im Universum beobachtet wurde, unter anderem in einem Galaxienpaar, das 800 Millionen Jahre nach dem Urknall existierte. Die Beobachtung erfolgte mit dem ALMA-Radioteleskop in der Atacama-Wüste, das es ermöglicht, die spektrale Signatur von Wasser zu detektieren. Die Diskussion schließt mit der Frage, wie Wasser in frühen Galaxien mit der Entstehung von Planetensystemen verbunden ist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "126-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 499,
+        "startSec": 1609,
+        "endSec": 3686,
+        "llmDetectedStartSec": 1629,
+        "llmDetectedEndSec": 3666,
+        "generatedAt": "2026-01-04T21:58:39.669Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Zukunft des Universums",
+      "subject": {
+        "coarse": "Kosmologie",
+        "fine": "Ende des Universums"
+      },
+      "summary": "In der Diskussion über das Ende des Universums wird die Idee angesprochen, dass Zeit möglicherweise endet, wenn der letzte Teilchen zerfallen ist und ein Zustand absoluter Leere erreicht wird. Ruth und Florian erläutern, dass Zeit oft mit der Veränderung von Zuständen definiert wird und dass es derzeit keine eindeutige wissenschaftliche Definition von Zeit gibt. Sie betonen, dass das Schicksal des Universums auf langen zeitlichen Skalen noch unklar ist und dass es verschiedene Möglichkeiten für das Ende des Universums gibt, einschließlich der Option, dass alles in nichts aufgelöst wird.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "126-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 110,
+        "startSec": 3646,
+        "endSec": 4075,
+        "llmDetectedStartSec": 3666,
+        "llmDetectedEndSec": 4055,
+        "generatedAt": "2026-01-04T21:58:39.157Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Film und Wissenschaft",
+      "subject": {
+        "coarse": "Medien",
+        "fine": "Wissenschaftskommunikation"
+      },
+      "summary": "In der Episode wird der Science-Fiction-Film \"The Dead Don't Die\" von Jim Jarmusch besprochen, der als Zombie-Komödie gilt. Evi hebt hervor, dass der Film eine unerwartete wissenschaftliche Dimension hat, da die Zombie-Apokalypse durch eine Destabilisierung der Erdachse verursacht wird, die auf Fracking zurückzuführen ist. Dies führt zu einer Diskussion über die Auswirkungen des Klimawandels und die Verschiebung der Erdachse. Zudem wird ein reales Ereignis in Grönland erwähnt, bei dem die Sonne aufgrund des Abschmelzens eines Gletschers früher aufging, was die Relevanz der Erdachse und der Klimaforschung unterstreicht.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "126-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 142,
+        "startSec": 4035,
+        "endSec": 4496,
+        "llmDetectedStartSec": 4055,
+        "llmDetectedEndSec": 4476,
+        "generatedAt": "2026-01-04T21:58:42.628Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Neue Saturnmonde",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Saturn"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "126-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 4456,
+        "endSec": 20,
+        "llmDetectedStartSec": 4476,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Wissenschaftliche Entdeckungen",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Forschung"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "126-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 3,
+        "startSec": 0,
+        "endSec": 20,
+        "llmDetectedStartSec": 0,
+        "llmDetectedEndSec": 0,
+        "generatedAt": "2026-01-04T21:58:41.309Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:58:42.628Z",
+  "transcriptFound": true,
+  "transcriptFile": "126-ts.json"
+}

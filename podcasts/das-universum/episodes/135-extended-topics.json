@@ -1,0 +1,131 @@
+{
+  "episodeNumber": 135,
+  "title": "DU135 - Die unsichtbare Gefahr von der Venus?",
+  "extractedAt": "2026-01-04T19:29:05.497Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Asteroidensuche in Niederösterreich",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Asteroiden"
+      },
+      "summary": "In Niederösterreich wurde am 12. Juni ein heller Feuerball beobachtet, der möglicherweise einen Meteoritenabgang nahe der Westautobahn zwischen St. Pölten und Melk signalisiert. Experten des Naturhistorischen Museums in Österreich haben den möglichen Fundort zwischen den Ortschaften Inning und Heindorf eingegrenzt. Es wird empfohlen, beim Suchen nach Meteoriten auf Steine mit einer charakteristischen schwarzen Kruste zu achten und bei einem Fund Fotos und GPS-Koordinaten zu dokumentieren, bevor man den Meteoriten aufhebt. Die Meteoriten sind ungefähr so groß wie eine Marille.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "135-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 79,
+        "startSec": 80,
+        "endSec": 344,
+        "llmDetectedStartSec": 100,
+        "llmDetectedEndSec": 324,
+        "generatedAt": "2026-01-04T22:00:45.305Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Unsichtbare Gefahr von der Venus",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Planetenkollision"
+      },
+      "summary": "In der Episode wird die wissenschaftliche Arbeit \"The Invisible Threat\" diskutiert, die sich mit koorbitalen Asteroiden der Venus beschäftigt, die potenziell eine Gefahr für die Erde darstellen. Es wird erklärt, dass diese Asteroiden eine Umlaufbahn mit der Venus teilen und daher schwer zu entdecken sind, da sie sich in der Nähe der Venus befinden. Die Arbeit zeigt, dass einige dieser Asteroiden, trotz ihrer hohen Exzentrizität, in der Lage sind, die Erdbahn zu kreuzen und somit Kollisionen mit der Erde möglich sind. Es wird auch auf die Herausforderungen bei der Beobachtung dieser Asteroiden hingewiesen und die Notwendigkeit neuer Teleskope, wie dem Vera Rubin Observatory, betont.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "135-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 192,
+        "startSec": 304,
+        "endSec": 960,
+        "llmDetectedStartSec": 324,
+        "llmDetectedEndSec": 940,
+        "generatedAt": "2026-01-04T22:00:50.890Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Wissenschaftliche Arbeit über Asteroiden in Resonanz mit der Venus",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Orbitalmechanik"
+      },
+      "summary": "In der Diskussion über die Forschung zu Asteroiden in Resonanz mit der Venus wird festgestellt, dass es möglicherweise ein Reservoir an schwer beobachtbaren Asteroiden gibt, die potenziell gefährlich für die Erde sein könnten. Florian betont, dass die Gefahr durch diese Venus-Asteroiden nicht neu oder größer geworden ist, sondern dass das Wissen über sie lediglich erweitert wurde. Ruth ergänzt, dass es wichtig ist, über unbekannte Gefahren informiert zu sein, um geeignete Maßnahmen ergreifen zu können. Die Erkenntnisse stammen aus einer wissenschaftlichen Arbeit, die sich mit der Beobachtung dieser Asteroiden beschäftigt.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "135-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 37,
+        "startSec": 920,
+        "endSec": 1035,
+        "llmDetectedStartSec": 940,
+        "llmDetectedEndSec": 1015,
+        "generatedAt": "2026-01-04T22:00:49.310Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Beobachtungsmethoden für Asteroiden",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Beobachtungsinstrumente"
+      },
+      "summary": "Im Transkript wird die Bedeutung von Beobachtungsmethoden für Asteroiden thematisiert. Ruth und Florian diskutieren, wie Astronomen neue Asteroiden identifizieren, indem sie bestehende Kataloge nutzen und mithilfe von Algorithmen die Bewegungen von Objekten im Himmel analysieren. Das Vera Rubin Observatory wird als Beispiel für eine Einrichtung genannt, die in kurzer Zeit viele neue Asteroiden entdeckt hat. Die Diskussion hebt hervor, dass durch wiederholte Beobachtungen und den Vergleich mit Katalogdaten neue Himmelskörper erkannt werden können.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "135-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 125,
+        "startSec": 995,
+        "endSec": 1419,
+        "llmDetectedStartSec": 1015,
+        "llmDetectedEndSec": 1399,
+        "generatedAt": "2026-01-04T22:00:53.712Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Sci-Fi-Sommerrätsel",
+      "subject": {
+        "coarse": "Unterhaltung",
+        "fine": "Science-Fiction"
+      },
+      "summary": "In dieser Episode des Sci-Fi-Sommerrätsels diskutieren Florian und Ruth über die Teilnahmebedingungen für das Rätsel, bei dem die Hörer den Ort und den Film, auf den Evi anspielt, erraten sollen. Evi berichtet von ihren Ferien, in denen sie eine Mall besucht hat, um Souvenirs zu kaufen, und dort auf eine Spielhalle mit Space Invaders gestoßen ist. Sie hat viel Zeit dort verbracht und mit einem jungen Burschen ins Gespräch gekommen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "135-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 24,
+        "startSec": 1379,
+        "endSec": 1454,
+        "llmDetectedStartSec": 1399,
+        "llmDetectedEndSec": 1434,
+        "generatedAt": "2026-01-04T22:00:54.269Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:00:54.269Z",
+  "transcriptFound": true,
+  "transcriptFile": "135-ts.json"
+}

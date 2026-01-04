@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 204,
+  "title": "Mi204 - \"Club der Nanotechnologen\"",
+  "extractedAt": "2026-01-04T19:02:53.571Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Weihnachten",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Feiertage"
+      }
+    },
+    {
+      "topic": "Meerestiere",
+      "subject": {
+        "coarse": "Biologie",
+        "fine": "Meereslebewesen"
+      }
+    },
+    {
+      "topic": "Drucker",
+      "subject": {
+        "coarse": "Technologie",
+        "fine": "Drucktechnik"
+      }
+    },
+    {
+      "topic": "Zecken",
+      "subject": {
+        "coarse": "Biologie",
+        "fine": "Parasiten"
+      }
+    },
+    {
+      "topic": "Schwebendes Feuer",
+      "subject": {
+        "coarse": "Physik",
+        "fine": "Experimente"
+      }
+    }
+  ]
+}

@@ -25,6 +25,7 @@
     "speaker-index": "node scripts/generate-speaker-index.js",
     "fix-speaker-index": "node scripts/fix-speaker-index.js",
     "download-logos": "node scripts/download-podcast-logos.js",
+    "generate-from-feed": "node scripts/generate-from-feed.js",
     "ts-live": "node scripts/generate-ts-live.js --in-dir episodes --out-dir episodes --all && node scripts/generate-ts-live.js --in-dir frontend/public/episodes --out-dir frontend/public/episodes --all",
     "generate-favicon": "node scripts/generate-favicon-pngs.js",
     "test": "npm run test:frontend && npm run test:rust",
@@ -33,6 +34,7 @@
     "test:all": "npm run test:frontend && npm run test:rust"
   },
   "dependencies": {
+    "fast-xml-parser": "^4.3.2",
     "puppeteer": "^24.0.0",
     "umap-js": "^1.4.0"
   },

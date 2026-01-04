@@ -1,0 +1,164 @@
+{
+  "episodeNumber": 130,
+  "title": "DU130 - Alien-Kepler mit zwei Sonnen",
+  "extractedAt": "2026-01-04T19:28:35.132Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Kepler und seine Gesetze",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Kepler"
+      },
+      "summary": "Im Podcast 'Das Universum' diskutieren Ruth, Florian und ihr Gast Daniel über das Thema Astronomie. Die Aufnahme findet im Kepler Museum in Regensburg statt, was die Diskussion über Kepler und seine Gesetze besonders relevant macht. Es wird auf die besondere Situation hingewiesen, dass nur zwei Mikrofone zur Verfügung stehen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "130-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 11,
+        "startSec": 0,
+        "endSec": 40,
+        "llmDetectedStartSec": 11,
+        "llmDetectedEndSec": 20,
+        "generatedAt": "2026-01-04T21:59:35.783Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Doppelsternsysteme",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Sternsysteme"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "130-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 368,
+        "startSec": 0,
+        "endSec": 1298,
+        "llmDetectedStartSec": 20,
+        "llmDetectedEndSec": 1278,
+        "generatedAt": "2026-01-04T21:59:35.273Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Besuch im Kepler-Museum",
+      "subject": {
+        "coarse": "Kultur",
+        "fine": "Museen"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "130-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 1258,
+        "endSec": 330,
+        "llmDetectedStartSec": 1278,
+        "llmDetectedEndSec": 310,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Stabile Planetenbahnen",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Planetenbewegung"
+      },
+      "summary": "In der Episode wird Johannes Kepler und seine Bedeutung für die Astronomie diskutiert, insbesondere seine drei Keplerschen Gesetze. Daniel erklärt, dass Kepler feststellte, dass Planeten auf Ellipsenbahnen um die Sonne kreisen, und das zweite Gesetz beschreibt, dass sich Himmelskörper schneller bewegen, wenn sie näher an der Sonne sind. Die Diskussion findet im Kontext des Kepler Museums in Regensburg statt, wo Kepler starb. Es wird auch auf die historische Rolle von Kepler in Regensburg eingegangen, obwohl er dort nicht lange lebte.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "130-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 566,
+        "startSec": 290,
+        "endSec": 2401,
+        "llmDetectedStartSec": 310,
+        "llmDetectedEndSec": 2381,
+        "generatedAt": "2026-01-04T21:59:39.296Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Forschung zu Mehrfachsternsystemen",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Astronomie"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "130-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 2361,
+        "endSec": 1323,
+        "llmDetectedStartSec": 2381,
+        "llmDetectedEndSec": 1303,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Zirkumtrinäre Planeten",
+      "subject": {
+        "coarse": "Astronomie",
+        "fine": "Planeten"
+      },
+      "summary": "In der Diskussion über Zirkumtrinäre Planeten und Mehrfachsternsysteme wird auf die Komplexität der Identifikation von Doppelsternen eingegangen. Ruth und Flo erläutern, dass viele Sterne in der Milchstraße nicht als Doppelsterne erkannt werden, was teilweise auf Beobachtungsprobleme und das sogenannte Malmquist-Bias zurückzuführen ist. Sie betonen, dass die Multiplizität von Sternen stark von ihrer Masse abhängt, wobei große Sterne häufig in Mehrfachsystemen vorkommen, während kleinere Sterne meist allein sind. Diese Erkenntnisse basieren auf einer umfassenderen Analyse der Sternpopulationen und deren Eigenschaften.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "130-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 384,
+        "startSec": 1283,
+        "endSec": 2779,
+        "llmDetectedStartSec": 1303,
+        "llmDetectedEndSec": 2759,
+        "generatedAt": "2026-01-04T21:59:39.778Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Geschichte von Johannes Kepler",
+      "subject": {
+        "coarse": "Geschichte",
+        "fine": "Wissenschaftsgeschichte"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "130-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 2739,
+        "endSec": 330,
+        "llmDetectedStartSec": 2759,
+        "llmDetectedEndSec": 310,
+        "note": "no-excerpt"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T21:59:39.778Z",
+  "transcriptFound": true,
+  "transcriptFile": "130-ts.json"
+}

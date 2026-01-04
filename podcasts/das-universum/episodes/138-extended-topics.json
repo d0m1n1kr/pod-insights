@@ -1,0 +1,241 @@
+{
+  "episodeNumber": 138,
+  "title": "DU138 - Epic Öpik: Astronomischer Visionär aus Estland",
+  "extractedAt": "2026-01-04T19:29:22.911Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Ernst Öpik",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Astronomy"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 507,
+        "startSec": 141,
+        "endSec": 2044,
+        "llmDetectedStartSec": 161,
+        "llmDetectedEndSec": 2024,
+        "generatedAt": "2026-01-04T22:01:29.532Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Galaktische Barriere",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Astrophysics"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 2004,
+        "endSec": 448,
+        "llmDetectedStartSec": 2024,
+        "llmDetectedEndSec": 428,
+        "note": "no-excerpt"
+      }
+    },
+    {
+      "topic": "Neuer Uranusmond",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Astronomy"
+      },
+      "summary": "Es wurde ein neuer Mond um Uranus entdeckt, der den Namen S2025U1 trägt. Dieser Mond ist etwa 10 Kilometer groß und befindet sich nahe an den Ringen des Planeten in einer nahezu kreisförmigen Bahn. Dies ist ungewöhnlich, da neue Monde oft in exzentrischen Umlaufbahnen gefunden werden. Die Entdeckung deutet darauf hin, dass dieser Mond schon länger existiert und stabil ist. Eine öffentliche Kampagne zur Benennung des Mondes könnte in Zukunft stattfinden.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 67,
+        "startSec": 408,
+        "endSec": 646,
+        "llmDetectedStartSec": 428,
+        "llmDetectedEndSec": 626,
+        "generatedAt": "2026-01-04T22:01:31.294Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Supernova",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Astrophysics"
+      },
+      "summary": "In der Episode wird eine neu entdeckte Art von Supernova besprochen, die als Kollisions-Supernova klassifiziert wird. Diese spezielle Supernova entsteht in einem Doppelsternsystem, in dem ein schwarzes Loch und ein massereicher Stern beteiligt sind. Das schwarze Loch zieht Material vom lebenden Stern an, was zu einer Veränderung der Umlaufbahn und letztendlich zu einem vorzeitigen Kernkollaps des Sterns führt. Diese Entdeckung bestätigt bestehende Theorien über die Entstehung von Supernovae und zeigt, dass schwarze Löcher eine entscheidende Rolle in diesem Prozess spielen können.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 146,
+        "startSec": 606,
+        "endSec": 1140,
+        "llmDetectedStartSec": 626,
+        "llmDetectedEndSec": 1120,
+        "generatedAt": "2026-01-04T22:01:33.349Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Oortschen Wolke",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Astronomy"
+      },
+      "summary": "Der estnische Astronom Ernst Öpik sagte 1932 die Existenz der Oortschen Wolke voraus, die als Ursprungsort für Kometen gilt und sich außerhalb von Plutos Orbit befinden soll. Diese Theorie wurde später von Jan Hendrik Ort in den 1950er Jahren aufgegriffen und präzisiert, was zur Bezeichnung \"Oortschen Wolke\" führte. Öpik beschäftigte sich auch mit Asteroiden und dem Mond, was seine Bedeutung in der Astronomie unterstreicht.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 161,
+        "startSec": 1100,
+        "endSec": 1724,
+        "llmDetectedStartSec": 1120,
+        "llmDetectedEndSec": 1704,
+        "generatedAt": "2026-01-04T22:01:34.883Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Andromeda-Galaxie",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Astronomy"
+      },
+      "summary": "Der Astronom Ernst Öpik hat 1922 die Entfernung zur Andromeda-Galaxie mit einer neuartigen Methode berechnet, die auf der Rotationsgeschwindigkeit der Galaxie basiert. Diese Methode ermöglicht es, die Masse der Galaxie zu bestimmen und daraus die Entfernung abzuleiten. Öpiks Ergebnis von etwa 1,5 Millionen Lichtjahren war näher an der heutigen Schätzung als die späteren Berechnungen von Edwin Hubble, der die Entfernung auf unter eine Million Lichtjahre schätzte. Trotz seiner bedeutenden Entdeckung erhielt Öpik nicht die Anerkennung, die ihm zustehen würde.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 186,
+        "startSec": 1684,
+        "endSec": 2423,
+        "llmDetectedStartSec": 1704,
+        "llmDetectedEndSec": 2403,
+        "generatedAt": "2026-01-04T22:01:40.105Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Fragen zur Unendlichkeit",
+      "subject": {
+        "coarse": "Philosophy",
+        "fine": "Cosmology"
+      },
+      "summary": "Im Transkript wird über den Astronomen Öpik gesprochen, der 1922 geboren wurde und bedeutende Beiträge zur Astronomie geleistet hat, jedoch nicht die Anerkennung erhielt, die ihm zusteht. Er emigrierte 1944 aus Estland nach Nordirland, wo er Rektor einer Exil-Universität wurde. Die Diskussion umfasst auch die Toll-Di-Fischer-Relation, die die Beziehung zwischen der Rotationsgeschwindigkeit von Galaxien, ihrer Leuchtkraft und Masse beschreibt, und die Rolle der dunklen Materie in dieser Beziehung. Es wird erwähnt, dass Öpik diese Relation ursprünglich bei der Andromeda-Galaxie anwandte.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 389,
+        "startSec": 2383,
+        "endSec": 3847,
+        "llmDetectedStartSec": 2403,
+        "llmDetectedEndSec": 3827,
+        "generatedAt": "2026-01-04T22:01:39.076Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Sci-Fi-Sommerrätsel",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Film"
+      },
+      "summary": "In dieser Episode diskutieren Ruth und Florian die komplexe Natur des Universums und die Frage der Unendlichkeit. Sie sprechen über die Unterscheidung zwischen dem beobachtbaren Universum und dem gesamten Universum, das möglicherweise unendlich ist. Ruth erwähnt Lothar, der in Knysna, Südafrika, lebt und sich mit der Frage der Unendlichkeit beschäftigt. Evi bringt das Thema der Sci-Fi-Sommerrätsel auf, die mit verschiedenen Filmen verbunden sind, und die Zuhörer haben ihre Antworten eingereicht. Es wird auch auf die unterschiedlichen Schwierigkeitsgrade der Rätsel eingegangen.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 170,
+        "startSec": 3807,
+        "endSec": 4443,
+        "llmDetectedStartSec": 3827,
+        "llmDetectedEndSec": 4423,
+        "generatedAt": "2026-01-04T22:01:43.467Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Dystopisches Los Angeles",
+      "subject": {
+        "coarse": "Culture",
+        "fine": "Literature"
+      },
+      "summary": "In der Diskussion über Los Angeles wird eine differenzierte Sichtweise präsentiert. Ruth findet die Stadt eher mühsam, während Evi betont, dass es auch schöne Flecken gibt, wie Venice Beach und Santa Monica. Evi erwähnt, dass die Erfahrung, mit einem Einheimischen die Stadt zu erkunden, einen anderen Blick auf Los Angeles ermöglicht. Florian bringt humorvoll ein, dass Evis Karten eher postapokalyptische und dystopische Aspekte von LA zeigen, was möglicherweise nicht die beste Werbung für die Stadt ist.",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 12,
+        "startSec": 4403,
+        "endSec": 4443,
+        "llmDetectedStartSec": 4423,
+        "llmDetectedEndSec": 4423,
+        "generatedAt": "2026-01-04T22:01:43.687Z",
+        "llm": {
+          "provider": "openai",
+          "model": "gpt-4o-mini",
+          "temperature": 0.3
+        }
+      }
+    },
+    {
+      "topic": "Science Busters Buch",
+      "subject": {
+        "coarse": "Science",
+        "fine": "Publication"
+      },
+      "summary": "",
+      "summaryMeta": {
+        "transcriptFound": true,
+        "transcriptFile": "138-ts.json",
+        "method": "llm-batch-timestamp-detection",
+        "pickedCount": 0,
+        "startSec": 4403,
+        "endSec": 20,
+        "llmDetectedStartSec": 4423,
+        "llmDetectedEndSec": 0,
+        "note": "no-excerpt"
+      }
+    }
+  ],
+  "extendedAt": "2026-01-04T22:01:43.687Z",
+  "transcriptFound": true,
+  "transcriptFile": "138-ts.json"
+}

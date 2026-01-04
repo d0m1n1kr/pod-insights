@@ -1,6 +1,6 @@
-use std::{path::PathBuf, sync::Arc};
+use std::{path::{Path, PathBuf}, sync::Arc};
 
-use anyhow::{Context, Result};
+use anyhow::{anyhow, Context, Result};
 use serde::Deserialize;
 
 use crate::config::AppState;
@@ -21,7 +21,7 @@ pub struct TranscriptEntry {
 pub async fn load_transcript_entries(
     st: &AppState,
     podcast_id: &str,
-    episodes_dir: &PathBuf,
+    episodes_dir: &Path,
     episode_number: u32,
 ) -> Result<Arc<Vec<TranscriptEntry>>> {
     let cache_key = (podcast_id.to_string(), episode_number);
@@ -40,6 +40,11 @@ pub async fn load_transcript_entries(
         use std::fs::File;
         use std::io::BufReader;
         
+        // Check if file exists first to avoid unnecessary error context wrapping
+        if !path_clone.exists() {
+            return Err(anyhow::anyhow!("File not found: {}", path_clone.display()));
+        }
+        
         let file = File::open(&path_clone)
             .with_context(|| format!("Failed to open {}", path_clone.display()))?;
         let reader = BufReader::new(file);
@@ -51,14 +56,37 @@ pub async fn load_transcript_entries(
     {
         Ok(tf) => tf,
         Err(e) => {
-            // Check if it's a "file not found" error
+            // Check if it's a "file not found" error by checking the entire error chain
             let error_msg = format!("{}", e);
-            if error_msg.contains("No such file") || error_msg.contains("not found") {
-                tracing::warn!("Transcript not found: {}", path.display());
+            let mut is_file_not_found = false;
+            
+            // Check all levels of the error chain
+            for cause in e.chain() {
+                let cause_msg = format!("{}", cause);
+                if cause_msg.contains("No such file") 
+                    || cause_msg.contains("os error 2")
+                    || cause_msg.contains("File not found")
+                    || error_msg.contains("File not found") {
+                    is_file_not_found = true;
+                    break;
+                }
+            }
+            
+            // Also check the main error message
+            if !is_file_not_found {
+                is_file_not_found = error_msg.contains("File not found") 
+                    || error_msg.contains("No such file") 
+                    || error_msg.contains("os error 2");
+            }
+            
+            if is_file_not_found {
+                tracing::debug!("Transcript not found (skipping): {}", path.display());
                 let arc = Arc::new(Vec::new());
                 st.transcript_cache.insert(cache_key, arc.clone()).await;
                 return Ok(arc);
             }
+            // For other errors, log at warn level instead of error
+            tracing::warn!("Failed to parse transcript {}: {}", path.display(), e);
             return Err(e.context(format!("Failed to parse transcript {}", path.display())));
         }
     };

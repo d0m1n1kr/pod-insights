@@ -1,0 +1,43 @@
+{
+  "episodeNumber": 205,
+  "title": "Mi205 - \"Mettbett\"",
+  "extractedAt": "2026-01-04T19:02:58.490Z",
+  "dataSource": "description",
+  "topics": [
+    {
+      "topic": "Evolution",
+      "subject": {
+        "coarse": "Biologie",
+        "fine": "Evolutionstheorie"
+      }
+    },
+    {
+      "topic": "Konsum",
+      "subject": {
+        "coarse": "Wirtschaft",
+        "fine": "Konsumverhalten"
+      }
+    },
+    {
+      "topic": "Hasskommentare",
+      "subject": {
+        "coarse": "Gesellschaft",
+        "fine": "Online-Kommunikation"
+      }
+    },
+    {
+      "topic": "Plastik",
+      "subject": {
+        "coarse": "Umwelt",
+        "fine": "Plastikverschmutzung"
+      }
+    },
+    {
+      "topic": "Experiment der Woche: Magnetisches Wasser",
+      "subject": {
+        "coarse": "Wissenschaft",
+        "fine": "Experimente"
+      }
+    }
+  ]
+}

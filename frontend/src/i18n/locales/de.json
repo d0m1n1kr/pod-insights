@@ -41,7 +41,13 @@
     "titleByPodcast": {
       "freakshow": "Frag die Freak Show",
       "lnp": "Frag Logbuch:Netzpolitik",
-      "ukw": "Frag UKW"
+      "ukw": "Frag UKW",
+      "das-universum": "Frag das Universum",
+      "cre": "Frag CRE",
+      "raumzeit": "Frag die Raumzeit",
+      "forschergeist": "Frag den Forschergeist",
+      "minkorrekt": "Frag Methodisch inkorrekt",
+      "wrint-wissenschaft": "Frag die Wissenschaft"
     },
     "queryLabel": "Query:",
     "placeholder": "Frage eingeben...",
@@ -78,6 +84,36 @@
       },
       "ukw": {
         "neutral1": "UKW: Wie ist die Lage in der Ukraine?"
+      },
+      "das-universum": {
+        "neutral1": "Neutral: Was sind Exoplaneten und wie findet man sie?",
+        "persona1": "Florian: Was sind eigentlich die Lagrange-Punkte?",
+        "discussion1": "Ruth VS Florian: Sollten wir nach außerirdischem Leben suchen?"
+      },
+      "cre": {
+        "neutral1": "Neutral: Was ist der aktuelle Stand der KI-Entwicklung?",
+        "persona1": "Tim Pritlove: Wie siehst du die Zukunft des Podcastings?",
+        "discussion1": "Tim Pritlove VS Gast: Was ist besser, Open Source oder proprietäre Software?"
+      },
+      "raumzeit": {
+        "neutral1": "Neutral: Was sind die neuesten Erkenntnisse über den Mars?",
+        "persona1": "Tim Pritlove: Wie funktioniert die Raumfahrt-Technologie?",
+        "discussion1": "Tim Pritlove VS Gast: Sollten wir zum Mars fliegen?"
+      },
+      "forschergeist": {
+        "neutral1": "Neutral: Wie funktioniert wissenschaftliches Arbeiten heute?",
+        "persona1": "Tim Pritlove: Was sind die größten Herausforderungen in der Wissenschaft?",
+        "discussion1": "Tim Pritlove VS Gast: Wie sollte Wissenschaft kommuniziert werden?"
+      },
+      "minkorrekt": {
+        "neutral1": "Neutral: Was gibt es neues und spannendes in der Wissenschaft?",
+        "persona1": "Nikolas: Was sind deine Ig-Nobelpreis Favoriten?",
+        "discussion1": "Nikolas VS Rainer: Was haltet Ihr von Homöopathie?"
+      },
+      "wrint-wissenschaft": {
+        "neutral1": "Neutral: Was sind die neuesten Erkenntnisse in der Klimaforschung?",
+        "persona1": "Holger Klein: Wie erklärst du komplexe Wissenschaft verständlich?",
+        "discussion1": "Holger Klein VS Gast: Wie sollte Wissenschaftskommunikation funktionieren?"
       }
     },
     "discussionMode": {
