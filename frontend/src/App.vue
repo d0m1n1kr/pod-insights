@@ -4,7 +4,7 @@ import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from './stores/settings';
 import { useAudioPlayerStore } from './stores/audioPlayer';
-import { getVersionJsonUrl, getLogoUrl } from './composables/usePodcast';
+import { getVersionJsonUrl, getLogoUrl, getPodcastLogoUrl } from './composables/usePodcast';
 import LanguageSelector from './components/LanguageSelector.vue';
 import MiniAudioPlayer from './components/MiniAudioPlayer.vue';
 import SplashScreen from './components/SplashScreen.vue';
@@ -29,7 +29,9 @@ const currentPodcast = computed(() => {
 });
 
 const podcastLogoUrl = computed(() => {
-  return currentPodcast.value?.logoUrl || 'https://freakshow.fm/files/2013/07/cropped-freakshow-logo-600x600-180x180.jpg';
+  // Try local logo first, fallback to logoUrl from podcasts.json
+  const localLogo = getPodcastLogoUrl(settingsStore.selectedPodcast);
+  return currentPodcast.value?.logoUrl || localLogo;
 });
 
 const podcastHomeUrl = computed(() => {
@@ -185,7 +187,8 @@ const submitAIChat = async () => {
               <img
                 :src="podcastLogoUrl"
                 :alt="currentPodcast.name"
-                class="w-10 h-10 sm:w-12 sm:h-12 rounded-lg shadow-sm ring-1 ring-gray-200 dark:ring-gray-700"
+                class="w-10 h-10 sm:w-12 sm:h-12 rounded-lg shadow-sm ring-1 ring-gray-200 dark:ring-gray-700 object-cover"
+                :onerror="`this.onerror=null; this.src='${currentPodcast?.logoUrl || ''}'`"
                 loading="lazy"
                 referrerpolicy="no-referrer"
               />
@@ -229,10 +232,10 @@ const submitAIChat = async () => {
                     }"
                   >
                     <img
-                      v-if="podcast.logoUrl"
-                      :src="podcast.logoUrl"
+                      :src="getPodcastLogoUrl(podcast.id)"
                       :alt="podcast.name"
-                      class="w-8 h-8 rounded-lg flex-shrink-0"
+                      class="w-8 h-8 rounded-lg flex-shrink-0 object-cover"
+                      :onerror="`this.onerror=null; this.src='${podcast.logoUrl || ''}'`"
                       loading="lazy"
                       referrerpolicy="no-referrer"
                     />

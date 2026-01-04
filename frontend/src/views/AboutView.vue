@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 import type { Podcast } from '@/stores/settings';
-import { getPodcastsJsonUrl, getLogoUrl, getDominikProfileUrl } from '@/composables/usePodcast';
+import { getPodcastsJsonUrl, getLogoUrl, getDominikProfileUrl, getPodcastLogoUrl } from '@/composables/usePodcast';
 
 const { t } = useI18n();
 
@@ -66,10 +66,10 @@ onMounted(async () => {
           >
             <div class="flex items-center gap-4">
               <img
-                v-if="podcast.logoUrl"
-                :src="podcast.logoUrl"
+                :src="getPodcastLogoUrl(podcast.id)"
                 :alt="podcast.name"
                 class="w-16 h-16 rounded-lg object-cover flex-shrink-0 ring-2 ring-blue-200 dark:ring-blue-700 group-hover:ring-blue-400 dark:group-hover:ring-blue-500 transition-all"
+                :onerror="`this.onerror=null; this.src='${podcast.logoUrl || ''}'`"
                 loading="lazy"
                 referrerpolicy="no-referrer"
               />

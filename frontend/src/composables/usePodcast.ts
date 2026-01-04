@@ -268,6 +268,28 @@ export function getLogoUrl(): string {
 }
 
 /**
+ * Get URL for podcast logo
+ * Uses local file (frontend/public/podcasts/<podcast-id>/logo.*)
+ * Falls back to logoUrl from podcasts.json via onerror handler in components
+ * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
+ */
+export function getPodcastLogoUrl(podcastId?: string): string {
+  const settings = useSettingsStore();
+  const pid = podcastId || settings.selectedPodcast || 'freakshow';
+  const cdnBase = getCdnBaseUrl();
+  
+  // Use local logo (most common format is jpg, but script downloads actual format)
+  // Components use onerror handler to fallback to logoUrl from podcasts.json
+  const basePath = `/podcasts/${pid}/logo`;
+  
+  if (cdnBase) {
+    return `${cdnBase}${basePath}.jpg`;
+  }
+  
+  return `${basePath}.jpg`;
+}
+
+/**
  * Get URL for dominik-profile.png file
  * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
  */
