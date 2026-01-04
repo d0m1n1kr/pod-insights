@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
 import type { Podcast } from '@/stores/settings';
+import { getPodcastsJsonUrl, getLogoUrl, getDominikProfileUrl } from '@/composables/usePodcast';
 
 const { t } = useI18n();
 
@@ -10,7 +11,7 @@ const loading = ref(true);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/podcasts.json');
+    const response = await fetch(getPodcastsJsonUrl());
     if (response.ok) {
       const data = await response.json();
       podcasts.value = data.podcasts || [];
@@ -28,7 +29,7 @@ onMounted(async () => {
     <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-blue-50 to-teal-50 dark:from-blue-900/20 dark:to-teal-900/20">
       <div class="flex items-center gap-4 mb-4">
         <img
-          src="/logo.svg?v=2"
+          :src="getLogoUrl() + '?v=2'"
           alt="PodInsights Logo"
           class="w-16 h-16 flex-shrink-0"
         />
@@ -466,7 +467,7 @@ onMounted(async () => {
         <div class="p-5 bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 rounded-lg border border-indigo-200 dark:border-indigo-700">
           <div class="flex items-start gap-4 mb-3">
             <img 
-              src="/dominik-profile.png" 
+              :src="getDominikProfileUrl()" 
               alt="Dominik Rössler" 
               class="w-20 h-20 rounded-full object-cover border-2 border-indigo-300 dark:border-indigo-600"
             />

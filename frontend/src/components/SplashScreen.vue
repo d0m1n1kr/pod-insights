@@ -50,6 +50,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
+import { getVersionJsonUrl } from '@/composables/usePodcast';
 
 const { t } = useI18n();
 
@@ -82,7 +83,7 @@ const displayName = ref(props.projectName);
 onMounted(async () => {
   // Load version information from version.json
   try {
-    const response = await fetch('/version.json');
+    const response = await fetch(getVersionJsonUrl());
     if (response.ok) {
       const versionData = await response.json();
       displayVersion.value = versionData.version || props.version;

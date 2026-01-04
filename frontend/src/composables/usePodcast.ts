@@ -6,13 +6,30 @@ import { useSettingsStore, type Podcast } from '@/stores/settings';
 export type { Podcast };
 
 /**
+ * Get the CDN base URL from environment variable
+ * If VITE_CDN_BASE_URL is set, use it; otherwise use local paths
+ */
+function getCdnBaseUrl(): string | null {
+  const cdnBase = (import.meta.env.VITE_CDN_BASE_URL as string | undefined);
+  if (cdnBase && cdnBase.trim()) {
+    // Ensure it doesn't end with a slash (we'll add it when constructing paths)
+    return cdnBase.trim().replace(/\/+$/, '');
+  }
+  return null;
+}
+
+/**
  * Get the base path for a podcast's data files
  */
 export function usePodcastPath() {
   const settings = useSettingsStore();
+  const cdnBase = getCdnBaseUrl();
   
   const podcastPath = computed(() => {
     const podcastId = settings.selectedPodcast || 'freakshow';
+    if (cdnBase) {
+      return `${cdnBase}/podcasts/${podcastId}`;
+    }
     return `/podcasts/${podcastId}`;
   });
   
@@ -45,10 +62,20 @@ export async function loadPodcastData<T>(filename: string): Promise<T> {
 
 /**
  * Get URL for a podcast-specific file
+ * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
+ * 
+ * Examples:
+ * - Local: /podcasts/freakshow/episodes.json
+ * - GitHub CDN: https://raw.githubusercontent.com/user/repo/branch/frontend/public/podcasts/freakshow/episodes.json
  */
 export function getPodcastFileUrl(filename: string, podcastId?: string): string {
   const settings = useSettingsStore();
   const pid = podcastId || settings.selectedPodcast || 'freakshow';
+  const cdnBase = getCdnBaseUrl();
+  
+  if (cdnBase) {
+    return `${cdnBase}/podcasts/${pid}/${filename}`;
+  }
   return `/podcasts/${pid}/${filename}`;
 }
 
@@ -68,10 +95,16 @@ export function getSpeakerMetaUrl(slug: string, podcastId?: string): string {
 
 /**
  * Get base URL for speakers directory
+ * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
  */
 export function getSpeakersBaseUrl(podcastId?: string): string {
   const settings = useSettingsStore();
   const pid = podcastId || settings.selectedPodcast || 'freakshow';
+  const cdnBase = getCdnBaseUrl();
+  
+  if (cdnBase) {
+    return `${cdnBase}/podcasts/${pid}/speakers`;
+  }
   return `/podcasts/${pid}/speakers`;
 }
 
@@ -86,8 +119,61 @@ export function getSpeakersBaseUrl(podcastId?: string): string {
 export function getEpisodeImageUrl(episodeNumber: number, podcastId?: string): string {
   const settings = useSettingsStore();
   const pid = podcastId || settings.selectedPodcast || 'freakshow';
+  const cdnBase = getCdnBaseUrl();
+  
+  if (cdnBase) {
+    return `${cdnBase}/podcasts/${pid}/episodes/${episodeNumber}.jpg`;
+  }
   // Try jpg first (most common format)
   // If the image doesn't exist or has a different extension, the @error handler will hide it
   return `/podcasts/${pid}/episodes/${episodeNumber}.jpg`;
+}
+
+/**
+ * Get URL for podcasts.json file
+ * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
+ */
+export function getPodcastsJsonUrl(): string {
+  const cdnBase = getCdnBaseUrl();
+  if (cdnBase) {
+    return `${cdnBase}/podcasts.json`;
+  }
+  return '/podcasts.json';
+}
+
+/**
+ * Get URL for version.json file
+ * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
+ */
+export function getVersionJsonUrl(): string {
+  const cdnBase = getCdnBaseUrl();
+  if (cdnBase) {
+    return `${cdnBase}/version.json`;
+  }
+  return '/version.json';
+}
+
+/**
+ * Get URL for logo.svg file
+ * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
+ */
+export function getLogoUrl(): string {
+  const cdnBase = getCdnBaseUrl();
+  if (cdnBase) {
+    return `${cdnBase}/logo.svg`;
+  }
+  return '/logo.svg';
+}
+
+/**
+ * Get URL for dominik-profile.png file
+ * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
+ */
+export function getDominikProfileUrl(): string {
+  const cdnBase = getCdnBaseUrl();
+  if (cdnBase) {
+    return `${cdnBase}/dominik-profile.png`;
+  }
+  return '/dominik-profile.png';
 }
 

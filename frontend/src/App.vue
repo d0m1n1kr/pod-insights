@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from './stores/settings';
 import { useAudioPlayerStore } from './stores/audioPlayer';
+import { getVersionJsonUrl, getLogoUrl } from './composables/usePodcast';
 import LanguageSelector from './components/LanguageSelector.vue';
 import MiniAudioPlayer from './components/MiniAudioPlayer.vue';
 import SplashScreen from './components/SplashScreen.vue';
@@ -67,7 +68,7 @@ onMounted(async () => {
 
   // Load version information
   try {
-    const response = await fetch('/version.json');
+    const response = await fetch(getVersionJsonUrl());
     if (response.ok) {
       const versionData = await response.json();
       appVersion.value = versionData.version;
@@ -161,7 +162,7 @@ const submitAIChat = async () => {
 <template>
   <SplashScreen
     v-if="showSplash"
-    :logo-url="'/logo.svg'"
+    :logo-url="getLogoUrl()"
     :project-name="appName"
     :version="appVersion"
     @dismissed="showSplash = false"

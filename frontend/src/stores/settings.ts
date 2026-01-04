@@ -124,7 +124,9 @@ export const useSettingsStore = defineStore('settings', () => {
   // Load available podcasts from podcasts.json
   async function loadPodcasts() {
     try {
-      const response = await fetch('/podcasts.json');
+      // Use CDN-aware URL helper
+      const { getPodcastsJsonUrl } = await import('@/composables/usePodcast');
+      const response = await fetch(getPodcastsJsonUrl());
       if (response.ok) {
         const data = await response.json();
         availablePodcasts.value = data.podcasts || [];

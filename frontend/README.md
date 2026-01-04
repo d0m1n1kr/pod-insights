@@ -200,6 +200,69 @@ cp topic-river-data.json frontend/public/
 - Use dynamic imports
 - Enable gzip/brotli compression
 
+## CDN Configuration
+
+The frontend supports loading podcast data files from a CDN (e.g., GitHub Pages, GitHub raw URLs, or any CDN) instead of the local server. This is useful for hosting the frontend separately from the data files.
+
+### Configuration
+
+Set the `VITE_CDN_BASE_URL` environment variable to enable CDN mode:
+
+```bash
+# Example 1: Use GitHub Pages (recommended)
+export VITE_CDN_BASE_URL="https://d0m1n1kr.github.io/pod-insights/public"
+
+# Example 2: Use GitHub raw URLs
+export VITE_CDN_BASE_URL="https://raw.githubusercontent.com/d0m1n1kr/pod-insights/refs/heads/main/frontend/public"
+
+# Example 3: Use custom CDN
+export VITE_CDN_BASE_URL="https://cdn.yourdomain.com/pod-insights/public"
+
+# Or create a .env file in the frontend directory
+echo "VITE_CDN_BASE_URL=https://d0m1n1kr.github.io/pod-insights/public" > frontend/.env
+```
+
+### GitHub Pages Setup
+
+For detailed instructions on setting up GitHub Pages as a CDN, see [GitHub Pages Setup Guide](../docs/GITHUB-PAGES-SETUP.md).
+
+Quick setup:
+1. Enable GitHub Pages in repository settings (Settings → Pages → Source: GitHub Actions)
+2. The included `.github/workflows/deploy-pages.yml` will automatically deploy `frontend/public/` to GitHub Pages
+3. Files will be available at `https://d0m1n1kr.github.io/pod-insights/public/`
+4. Set `VITE_CDN_BASE_URL` to the GitHub Pages URL
+
+### How It Works
+
+When `VITE_CDN_BASE_URL` is set:
+- All podcast files (episodes.json, episode details, speaker stats, etc.) are loaded from the CDN
+- The `podcasts.json` file is also loaded from the CDN
+- All paths are automatically prefixed with the CDN base URL
+
+When `VITE_CDN_BASE_URL` is not set (default):
+- Files are loaded from the local server using relative paths (e.g., `/podcasts/freakshow/episodes.json`)
+
+### Example URLs
+
+**Local mode (default):**
+- `/podcasts/freakshow/episodes.json`
+- `/podcasts/freakshow/episodes/123.json`
+
+**CDN mode (with VITE_CDN_BASE_URL set):**
+- `https://raw.githubusercontent.com/.../podcasts/freakshow/episodes.json`
+- `https://raw.githubusercontent.com/.../podcasts/freakshow/episodes/123.json`
+
+### Building with CDN
+
+```bash
+# Set environment variable and build
+VITE_CDN_BASE_URL="https://raw.githubusercontent.com/d0m1n1kr/pod-insights/refs/heads/main/frontend/public" npm run build
+
+# Or use .env file
+echo "VITE_CDN_BASE_URL=https://raw.githubusercontent.com/d0m1n1kr/pod-insights/refs/heads/main/frontend/public" > .env
+npm run build
+```
+
 ## See Also
 
 - Main README: `../README.md`
