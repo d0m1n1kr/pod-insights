@@ -2,7 +2,6 @@
 import { ref, onMounted, computed, watch, nextTick, onUnmounted } from 'vue';
 import {
   select,
-  selectAll,
   scaleLinear,
   axisBottom,
   format,
@@ -17,7 +16,6 @@ import {
   schemeCategory10,
   schemePaired,
   schemeSet3,
-  transition,
   easeSinInOut
 } from '@/utils/d3-imports';
 import type { TopicRiverData, ProcessedTopicData } from '../types';
@@ -194,8 +192,7 @@ const pulseOnce = (key: string) => {
   if (hoveredTopic.value !== key) return;
 
   const stroke = settingsStore.isDarkMode ? 'rgba(255,255,255,0.75)' : 'rgba(0,0,0,0.45)';
-  const sel = d3
-    .select(svgRef.value)
+  const sel = select(svgRef.value)
     .selectAll<SVGPathElement, any>('.stream')
     .filter((d: any) => d?.key === key);
 

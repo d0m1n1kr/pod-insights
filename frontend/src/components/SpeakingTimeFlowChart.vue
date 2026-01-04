@@ -8,7 +8,6 @@ import {
   axisLeft,
   format,
   pointer,
-  line,
   area,
   curveMonotoneX,
   type Selection
