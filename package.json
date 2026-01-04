@@ -23,6 +23,7 @@
     "generate-umap": "node scripts/generate-topic-umap.js",
     "speaker-profiles": "node scripts/generate-speaker-profiles.js",
     "speaker-index": "node scripts/generate-speaker-index.js",
+    "fix-speaker-index": "node scripts/fix-speaker-index.js",
     "ts-live": "node scripts/generate-ts-live.js --in-dir episodes --out-dir episodes --all && node scripts/generate-ts-live.js --in-dir frontend/public/episodes --out-dir frontend/public/episodes --all",
     "generate-favicon": "node scripts/generate-favicon-pngs.js",
     "test": "npm run test:frontend && npm run test:rust",

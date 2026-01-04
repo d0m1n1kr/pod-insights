@@ -589,6 +589,7 @@ async function main() {
   }
 
   // Write a full index for convenience (independent from filters)
+  // Note: profilePath is not included - backend constructs paths relative to speakers directory
   const index = allSpeakers.map((s) => ({
     speaker: s.speaker,
     slug: slugify(s.speaker),
@@ -596,7 +597,6 @@ async function main() {
     utterancesCount: s.utterancesCount,
     totalWords: s.totalWords,
     episodes: s.episodes,
-    profilePath: path.join(args.outDir, `${slugify(s.speaker)}.md`),
   }));
 
   if (!args.dryRun) {
