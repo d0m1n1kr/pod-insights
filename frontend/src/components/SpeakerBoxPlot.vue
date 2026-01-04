@@ -563,11 +563,11 @@ const drawChart = () => {
         const topicBgColor = isDarkMode ? 'rgba(30, 58, 138, 0.3)' : '#dbeafe';
         const topicTextColor = isDarkMode ? '#93c5fd' : '#1e40af';
         
-        const speakerMeta = speakersMeta.value.get(d.speaker);
+        const speakerImage = getSpeakerImage(d.speaker);
         const topics = getTopicsForInterval(d.intervalStartSec, d.intervalEndSec);
         
-        const imageHtml = speakerMeta?.image
-          ? `<img src="${speakerMeta.image}" alt="${d.speaker}" style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid white; display: inline-block; margin-right: 8px;" />`
+        const imageHtml = speakerImage
+          ? `<img src="${speakerImage}" alt="${d.speaker}" style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid white; display: inline-block; margin-right: 8px;" />`
           : '';
         
         const topicsHtml = topics.length > 0
@@ -723,11 +723,17 @@ onMounted(() => {
   }
   
   // Load speaker metadata
-  loadAllSpeakerMeta().then(() => {
+  if (props.data?.speakers) {
+    loadSpeakers(props.data.speakers).then(() => {
+      setTimeout(() => {
+        drawChart();
+      }, 0);
+    });
+  } else {
     setTimeout(() => {
       drawChart();
     }, 0);
-  });
+  }
 
   // Watch for data changes
   watch(() => props.data, () => {

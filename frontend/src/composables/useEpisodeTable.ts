@@ -1,6 +1,6 @@
 // Unified composable for episode table loading
 // Handles priming, batch loading, filter changes, and cleanup consistently across all components
-import { ref, nextTick, watch, onUnmounted, type Ref } from 'vue';
+import { ref, nextTick, onUnmounted } from 'vue';
 import { useInlineEpisodePlayer } from './useInlineEpisodePlayer';
 import { loadEpisodeDetail, getCachedEpisodeDetail, type EpisodeDetail } from './useEpisodeDetails';
 import { getEpisodeUrl, withBase } from './usePodcast';
@@ -9,13 +9,6 @@ function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const secondsToHmsTuple = (sec: unknown): [number, number, number] => {
-  const s0 = Number.isFinite(sec as number) ? Math.max(0, Math.floor(sec as number)) : 0;
-  const h = Math.floor(s0 / 3600);
-  const m = Math.floor((s0 % 3600) / 60);
-  const s = s0 % 60;
-  return [h, m, s];
-};
 
 /**
  * Unified episode table loader that works consistently across all components

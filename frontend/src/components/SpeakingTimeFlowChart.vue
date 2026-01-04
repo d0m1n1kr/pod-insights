@@ -624,11 +624,11 @@ const drawChart = () => {
         }
         
         if (hoveredSpeaker && tooltipRef.value && interval) {
-          const speakerMeta = speakersMeta.value.get(hoveredSpeaker);
+          const speakerImage = getSpeakerImage(hoveredSpeaker);
           const topics = getTopicsForInterval(interval.start, interval.end);
           
-          const imageHtml = speakerMeta?.image
-            ? `<img src="${speakerMeta.image}" alt="${hoveredSpeaker}" style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid white; display: inline-block; margin-right: 8px;" />`
+          const imageHtml = speakerImage
+            ? `<img src="${speakerImage}" alt="${hoveredSpeaker}" style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid white; display: inline-block; margin-right: 8px;" />`
             : '';
           
           const borderColor = isDarkMode ? '#374151' : '#e5e7eb';
@@ -881,11 +881,11 @@ const drawChart = () => {
           }
           
           if (hoveredSpeaker && tooltipRef.value && interval) {
-            const speakerMeta = speakersMeta.value.get(hoveredSpeaker);
+            const speakerImage = getSpeakerImage(hoveredSpeaker);
             const topics = getTopicsForInterval(interval.start, interval.end);
             
-            const imageHtml = speakerMeta?.image
-              ? `<img src="${speakerMeta.image}" alt="${hoveredSpeaker}" style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid white; display: inline-block; margin-right: 8px;" />`
+            const imageHtml = speakerImage
+              ? `<img src="${speakerImage}" alt="${hoveredSpeaker}" style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid white; display: inline-block; margin-right: 8px;" />`
               : '';
             
             const borderColor = isDarkMode ? '#374151' : '#e5e7eb';

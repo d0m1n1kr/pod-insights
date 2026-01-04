@@ -113,7 +113,7 @@ export function getSpeakerMetaUrl(slug: string, podcastId?: string): string {
  * Get URL for speaker image file
  * Supports configurable CDN via VITE_CDN_BASE_URL environment variable
  */
-export function getSpeakerImageUrl(slug: string, imageFileName: string, podcastId?: string): string {
+export function getSpeakerImageUrl(_slug: string, imageFileName: string, podcastId?: string): string {
   const settings = useSettingsStore();
   const pid = podcastId || settings.selectedPodcast || 'freakshow';
   const cdnBase = getCdnBaseUrl();

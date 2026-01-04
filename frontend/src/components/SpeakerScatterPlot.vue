@@ -39,12 +39,6 @@ type EpisodeTopics = {
   }>;
 };
 
-type SpeakerMeta = {
-  name: string;
-  slug: string;
-  image?: string;
-};
-
 type TranscriptData = {
   speakers: string[];
   t: number[]; // timestamps in seconds
@@ -72,13 +66,10 @@ const chartRef = ref<HTMLDivElement>();
 const tooltipRef = ref<HTMLDivElement>();
 const transcriptData = ref<TranscriptData | null>(null);
 const transcriptLoading = ref(false);
-const speakersMeta = ref<Map<string, SpeakerMeta>>(new Map());
 const isDarkMode = ref(false);
 
-// Computed property for safe access to speaker meta in template
-const getSpeakerImage = (speaker: string): string | undefined => {
-  return speakersMeta.value?.get(speaker)?.image;
-};
+// Use speaker meta composable (uses index-meta.json to reduce 404 requests)
+const { loadSpeakers, getSpeakerImage } = useSpeakerMeta();
 
 const colors = [
   '#3b82f6', // blue
@@ -253,11 +244,11 @@ const drawChart = () => {
         .attr('r', 6)
         .attr('fill-opacity', 1);
 
-      const speakerMeta = speakersMeta.value.get(d.speaker);
+      const speakerImage = getSpeakerImage(d.speaker);
       const topics = getTopicsForInterval(d.startTime, d.endTime);
 
-      const imageHtml = speakerMeta?.image
-        ? `<img src="${speakerMeta.image}" alt="${d.speaker}" style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid white; display: inline-block; margin-right: 8px;" />`
+      const imageHtml = speakerImage
+        ? `<img src="${speakerImage}" alt="${d.speaker}" style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid white; display: inline-block; margin-right: 8px;" />`
         : '';
 
       const borderColor = isDarkMode.value ? '#374151' : '#e5e7eb';
@@ -416,11 +407,17 @@ onMounted(() => {
   }
 
   // Load speaker metadata
-  loadAllSpeakerMeta().then(() => {
+  if (props.data?.speakers) {
+    loadSpeakers(props.data.speakers).then(() => {
+      setTimeout(() => {
+        drawChart();
+      }, 0);
+    });
+  } else {
     setTimeout(() => {
       drawChart();
     }, 0);
-  });
+  }
 
   // Watch for data changes
   watch(() => props.data, () => {
