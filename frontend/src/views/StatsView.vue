@@ -491,7 +491,14 @@ interface AnalyticsStats {
   top_pages: Array<{ path: string; route_name: string | null; views: number; unique_users: number }>;
   top_podcasts: Array<{ podcast: string; views: number; unique_users: number }>;
   top_episodes: Array<{ podcast: string; episode: string; views: number; unique_users: number }>;
-  locations: Array<{ country: string | null; city: string | null; views: number; unique_users: number }>;
+  locations: Array<{ 
+    country: string | null; 
+    city: string | null; 
+    views: number; 
+    unique_users: number;
+    latitude?: number | null;
+    longitude?: number | null;
+  }>;
 }
 
 const stats = ref<AnalyticsStats | null>(null);
@@ -1150,20 +1157,47 @@ const renderWorldMap = async () => {
     'AT-Innsbruck': [11.4041, 47.2692],
   };
   
+  // Simple hash function for deterministic offsets
+  const hashString = (str: string): number => {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      const char = str.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash = hash & hash; // Convert to 32-bit integer
+    }
+    return Math.abs(hash);
+  };
+
   cityData.forEach((data) => {
-    // Try to get city-specific coordinates, fallback to country centroid
+    // Use coordinates from backend if available, otherwise fallback to hardcoded offsets
     const cityKey = `${data.country}-${data.city}`;
-    let coords = cityOffsets[cityKey];
+    let coords: [number, number] | undefined;
     
-    if (!coords) {
-      // Fallback to country centroid
-      coords = countryCoordinates[data.country];
+    // First, try to get coordinates from the location data (enriched by backend)
+    const locationData = stats.value?.locations.find(loc => 
+      loc.country === data.country && loc.city === data.city
+    );
+    
+    if (locationData?.longitude != null && locationData?.latitude != null) {
+      // Backend provided coordinates - use them directly (note: backend uses lat/lng, we need lng/lat)
+      coords = [locationData.longitude, locationData.latitude];
+    } else {
+      // Fallback to hardcoded offsets
+      coords = cityOffsets[cityKey];
+      
       if (!coords) {
-        console.log('No coordinates for city:', cityKey);
-        return;
+        // Fallback to country centroid
+        coords = countryCoordinates[data.country];
+        if (!coords) {
+          console.log('No coordinates for city:', cityKey);
+          return;
+        }
+        // Add deterministic offset based on city name to prevent exact overlap
+        const hash = hashString(cityKey);
+        const offsetX = ((hash % 200) - 100) / 100; // -1 to 1 degrees
+        const offsetY = (((hash >> 8) % 200) - 100) / 100; // -1 to 1 degrees
+        coords = [coords[0] + offsetX, coords[1] + offsetY];
       }
-      // Add small random offset to prevent exact overlap
-      coords = [coords[0] + (Math.random() - 0.5) * 2, coords[1] + (Math.random() - 0.5) * 2];
     }
 
     const [lon, lat] = coords;

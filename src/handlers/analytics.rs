@@ -10,6 +10,7 @@ use moka::future::Cache;
 use rusqlite::{params, Connection};
 use serde::{Deserialize, Serialize};
 use sha2::{Digest, Sha256};
+use std::collections::HashMap;
 use std::path::PathBuf;
 use std::sync::Arc;
 use std::time::Duration;
@@ -71,12 +72,17 @@ pub struct LocationStats {
     pub city: Option<String>,
     pub views: i64,
     pub unique_users: i64,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub latitude: Option<f64>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub longitude: Option<f64>,
 }
 
 pub struct AnalyticsDb {
     conn: Arc<Mutex<Connection>>,
     geoip_db: Option<maxminddb::Reader<Vec<u8>>>,
     stats_cache: Cache<Option<i64>, AnalyticsStats>,
+    city_coordinates: Arc<std::collections::HashMap<String, (f64, f64)>>, // Key: "country-city", Value: (lat, lng)
 }
 
 impl AnalyticsDb {
@@ -177,11 +183,82 @@ impl AnalyticsDb {
             None
         };
 
+        // Load city coordinates from worldcities.csv if available
+        let city_coordinates = Self::load_city_coordinates().unwrap_or_else(|e| {
+            tracing::warn!("Failed to load city coordinates: {}. City coordinates will not be available.", e);
+            HashMap::new()
+        });
+
         Ok(Self {
             conn: Arc::new(Mutex::new(conn)),
             geoip_db,
             stats_cache,
+            city_coordinates: Arc::new(city_coordinates),
         })
+    }
+
+    fn load_city_coordinates() -> Result<HashMap<String, (f64, f64)>> {
+        let csv_path = PathBuf::from("worldcities.csv");
+        if !csv_path.exists() {
+            return Err(anyhow::anyhow!("worldcities.csv not found"));
+        }
+
+        let mut coordinates = HashMap::new();
+        let content = std::fs::read_to_string(&csv_path)
+            .with_context(|| format!("Failed to read worldcities.csv"))?;
+        
+        let mut lines = content.lines();
+        // Skip header
+        lines.next();
+        
+        for line in lines {
+            if line.trim().is_empty() {
+                continue;
+            }
+            
+            // Parse CSV line (handling quoted fields)
+            let fields: Vec<String> = line
+                .split(',')
+                .map(|s| {
+                    s.trim_matches('"').trim().to_string()
+                })
+                .collect();
+            
+            if fields.len() < 6 {
+                continue;
+            }
+            
+            // Format: city, city_ascii, lat, lng, country, iso2, ...
+            let city = fields.get(0).map(|s| s.trim().to_string());
+            let lat_str = fields.get(2).and_then(|s| s.parse::<f64>().ok());
+            let lng_str = fields.get(3).and_then(|s| s.parse::<f64>().ok());
+            let iso2 = fields.get(5).map(|s| s.trim().to_uppercase());
+            
+            if let (Some(city_name), Some(lat), Some(lng), Some(country_code)) = (city, lat_str, lng_str, iso2) {
+                // Create lookup key: "COUNTRY-CITY" (uppercase for consistency)
+                let key = format!("{}-{}", country_code, city_name.to_uppercase());
+                coordinates.insert(key, (lat, lng));
+                
+                // Also add city_ascii variant if different
+                if let Some(city_ascii) = fields.get(1) {
+                    let city_ascii_upper = city_ascii.trim().to_uppercase();
+                    if city_ascii_upper != city_name.to_uppercase() {
+                        let key_ascii = format!("{}-{}", country_code, city_ascii_upper);
+                        coordinates.insert(key_ascii, (lat, lng));
+                    }
+                }
+            }
+        }
+        
+        tracing::info!("Loaded {} city coordinates from worldcities.csv", coordinates.len());
+        Ok(coordinates)
+    }
+
+    fn get_city_coordinates(&self, country: &Option<String>, city: &Option<String>) -> Option<(f64, f64)> {
+        let country_code = country.as_ref()?.to_uppercase();
+        let city_name = city.as_ref()?.to_uppercase();
+        let key = format!("{}-{}", country_code, city_name);
+        self.city_coordinates.get(&key).copied()
     }
 
     fn get_user_fingerprint(ip: &str, user_agent: &str) -> String {
@@ -406,14 +483,14 @@ impl AnalyticsDb {
             })
         }
 
-        // Helper function to map LocationStats
-        fn map_location_stats(row: &rusqlite::Row<'_>) -> rusqlite::Result<LocationStats> {
-            Ok(LocationStats {
-                country: row.get(0)?,
-                city: row.get(1)?,
-                views: row.get(2)?,
-                unique_users: row.get(3)?,
-            })
+        // Helper function to map LocationStats (without coordinates - we'll enrich later)
+        fn map_location_stats_raw(row: &rusqlite::Row<'_>) -> rusqlite::Result<(Option<String>, Option<String>, i64, i64)> {
+            Ok((
+                row.get(0)?,
+                row.get(1)?,
+                row.get(2)?,
+                row.get(3)?,
+            ))
         }
 
         // Unique users
@@ -516,8 +593,8 @@ impl AnalyticsDb {
             .collect::<Result<Vec<_>, _>>()?
         };
 
-        // Locations
-        let locations = if let Some(ref since_str) = since {
+        // Locations (enriched with coordinates)
+        let locations_raw = if let Some(ref since_str) = since {
             conn.prepare(
                 "SELECT country, city, COUNT(*) as views, COUNT(DISTINCT user_fingerprint) as unique_users
                  FROM page_views
@@ -526,7 +603,7 @@ impl AnalyticsDb {
                  ORDER BY views DESC
                  LIMIT 50",
             )?
-            .query_map(params![since_str], map_location_stats)?
+            .query_map(params![since_str], map_location_stats_raw)?
             .collect::<Result<Vec<_>, _>>()?
         } else {
             conn.prepare(
@@ -537,9 +614,25 @@ impl AnalyticsDb {
                  ORDER BY views DESC
                  LIMIT 50",
             )?
-            .query_map([], map_location_stats)?
+            .query_map([], map_location_stats_raw)?
             .collect::<Result<Vec<_>, _>>()?
         };
+        
+        // Enrich locations with coordinates
+        let locations: Vec<LocationStats> = locations_raw
+            .into_iter()
+            .map(|(country, city, views, unique_users)| {
+                let coords = self.get_city_coordinates(&country, &city);
+                LocationStats {
+                    country,
+                    city,
+                    views,
+                    unique_users,
+                    latitude: coords.map(|(lat, _)| lat),
+                    longitude: coords.map(|(_, lng)| lng),
+                }
+            })
+            .collect();
 
         let stats = AnalyticsStats {
             unique_users,

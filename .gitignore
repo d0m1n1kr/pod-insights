@@ -2,6 +2,7 @@ node_modules/
 *.log
 analytics.db*
 GeoLite2*
+worldcities.csv
 
 # Environment and API keys
 .env
