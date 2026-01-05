@@ -4,7 +4,8 @@ import { useRoute } from 'vue-router';
 import {
   select,
   scaleLinear,
-  pointer
+  pointer,
+  transition
 } from '@/utils/d3-imports';
 import type { SubjectRiverData } from '../types';
 import { useSettingsStore } from '../stores/settings';
@@ -33,6 +34,12 @@ const dimensions = ref({ width: 800, height: 800 });
 const selectedYears = ref<Set<number>>(new Set());
 const hoveredArea = ref<{ year: number; subject: string; percentage: number } | null>(null);
 const selectedArea = ref<{ year: number; subject: string } | null>(null);
+
+// Animation state
+const isAnimating = ref(false);
+const currentAnimatedYearIndex = ref(0);
+const animationTimeout = ref<number | null>(null);
+const animationYearLabel = ref<number | null>(null);
 
 // Year search query
 const yearSearchQuery = ref('');
@@ -285,8 +292,83 @@ const playEpisodeAt = (episodeNumber: number, seconds: number, title: string) =>
 // Max value is always 100% (since we're now using percentages)
 const maxValue = computed(() => 100);
 
+// Get sorted years for animation
+const sortedYearsForAnimation = computed(() => {
+  return Array.from(availableYears.value).sort((a, b) => a - b);
+});
+
+// Start/stop animation
+const toggleAnimation = () => {
+  if (isAnimating.value) {
+    stopAnimation();
+  } else {
+    startAnimation();
+  }
+};
+
+const startAnimation = () => {
+  if (sortedYearsForAnimation.value.length === 0) return;
+  
+  isAnimating.value = true;
+  currentAnimatedYearIndex.value = 0;
+  
+  // Set only the first year as selected for animation
+  const firstYear = sortedYearsForAnimation.value[0];
+  if (firstYear !== undefined) {
+    selectedYears.value = new Set([firstYear]);
+    animationYearLabel.value = firstYear;
+  }
+  
+  // Redraw first frame without animation (since there are no existing paths yet)
+  nextTick(() => {
+    drawRadar(false);
+    // Start animating after a short delay to allow first frame to render
+    setTimeout(() => {
+      animateToNextYear();
+    }, 100);
+  });
+};
+
+const stopAnimation = () => {
+  isAnimating.value = false;
+  if (animationTimeout.value !== null) {
+    clearTimeout(animationTimeout.value);
+    animationTimeout.value = null;
+  }
+  animationYearLabel.value = null;
+};
+
+const animateToNextYear = () => {
+  if (!isAnimating.value) return;
+  
+  const years = sortedYearsForAnimation.value;
+  if (years.length === 0) {
+    stopAnimation();
+    return;
+  }
+  
+  const currentIndex = currentAnimatedYearIndex.value;
+  const nextIndex = (currentIndex + 1) % years.length;
+  
+  // Update to next year after 300ms
+  animationTimeout.value = window.setTimeout(() => {
+    if (!isAnimating.value) return;
+    
+    currentAnimatedYearIndex.value = nextIndex;
+    const nextYear = years[nextIndex];
+    selectedYears.value = new Set([nextYear]);
+    animationYearLabel.value = nextYear;
+    
+    // Redraw with smooth transition
+    nextTick(() => {
+      drawRadar(true);
+      animateToNextYear();
+    });
+  }, 300);
+};
+
 // Draw radar chart
-const drawRadar = () => {
+const drawRadar = (animate = false) => {
   if (!svgRef.value || !containerRef.value) return;
   
   const container = containerRef.value;
@@ -303,14 +385,27 @@ const drawRadar = () => {
   const centerX = width / 2;
   const centerY = height / 2;
   
-  select(svgRef.value).selectAll('*').remove();
-  
   const svg = select(svgRef.value)
     .attr('width', width)
     .attr('height', height);
   
-  const g = svg.append('g')
-    .attr('transform', `translate(${centerX},${centerY})`);
+  // Check if we have existing paths for animation
+  const existingPaths = svg.selectAll('.radar-area');
+  const shouldAnimate = animate && existingPaths.size() > 0;
+  
+  // Only remove non-path elements if not animating, or remove everything if animating but no paths exist
+  if (!shouldAnimate) {
+    select(svgRef.value).selectAll('*').remove();
+  } else {
+    // Keep paths, remove other elements
+    svg.selectAll('circle, line, text').remove();
+  }
+  
+  let g = svg.select('g');
+  if (g.empty()) {
+    g = svg.append('g');
+  }
+  g.attr('transform', `translate(${centerX},${centerY})`);
   
   const subjects = allSubjects.value;
   const numAxes = subjects.length;
@@ -321,59 +416,66 @@ const drawRadar = () => {
     .domain([0, maxValue.value])
     .range([0, radius]);
   
-  // Draw grid circles
-  const gridLevels = 5;
-  for (let i = 0; i <= gridLevels; i++) {
-    const level = i / gridLevels;
-    g.append('circle')
-      .attr('r', radius * level)
-      .attr('fill', 'none')
-      .attr('stroke', '#e5e7eb')
-      .attr('stroke-width', 1)
-      .attr('opacity', 0.3);
+  // Draw grid circles (only if not animating or if they don't exist)
+  if (!shouldAnimate || g.selectAll('circle').empty()) {
+    const gridLevels = 5;
+    for (let i = 0; i <= gridLevels; i++) {
+      const level = i / gridLevels;
+      g.append('circle')
+        .attr('r', radius * level)
+        .attr('fill', 'none')
+        .attr('stroke', '#e5e7eb')
+        .attr('stroke-width', 1)
+        .attr('opacity', 0.3);
+    }
   }
   
-  // Draw axes
-  subjects.forEach((subjectId, i) => {
-    const angle = (i * angleSlice) - (Math.PI / 2);
-    const x = Math.cos(angle) * radius;
-    const y = Math.sin(angle) * radius;
-    
-    // Axis line
-    g.append('line')
-      .attr('x1', 0)
-      .attr('y1', 0)
-      .attr('x2', x)
-      .attr('y2', y)
-      .attr('stroke', '#9ca3af')
-      .attr('stroke-width', 1)
-      .attr('opacity', 0.5);
-    
-    // Subject label
-    const subject = props.data.subjects[subjectId];
-    const labelX = Math.cos(angle) * (radius + 50);
-    const labelY = Math.sin(angle) * (radius + 50);
-    
-    // Truncate long labels
-    const maxLabelLength = numAxes > 10 ? 15 : 20;
-    const labelText = (subject?.name || subjectId).length > maxLabelLength
-      ? (subject?.name || subjectId).substring(0, maxLabelLength) + '...'
-      : (subject?.name || subjectId);
-    
-    g.append('text')
-      .attr('x', labelX)
-      .attr('y', labelY)
-      .attr('text-anchor', 'middle')
-      .attr('dominant-baseline', 'middle')
-      .attr('font-size', numAxes > 15 ? '10px' : '12px')
-      .attr('fill', '#374151')
-      .attr('class', 'dark:fill-gray-300')
-      .text(labelText)
-      .append('title')
-      .text(subject?.name || subjectId);
-  });
+  // Draw axes (only if not animating or if they don't exist)
+  if (!shouldAnimate || g.selectAll('line').empty()) {
+    subjects.forEach((subjectId, i) => {
+      const angle = (i * angleSlice) - (Math.PI / 2);
+      const x = Math.cos(angle) * radius;
+      const y = Math.sin(angle) * radius;
+      
+      // Axis line
+      g.append('line')
+        .attr('x1', 0)
+        .attr('y1', 0)
+        .attr('x2', x)
+        .attr('y2', y)
+        .attr('stroke', '#9ca3af')
+        .attr('stroke-width', 1)
+        .attr('opacity', 0.5);
+      
+      // Subject label
+      const subject = props.data.subjects[subjectId];
+      const labelX = Math.cos(angle) * (radius + 50);
+      const labelY = Math.sin(angle) * (radius + 50);
+      
+      // Truncate long labels
+      const maxLabelLength = numAxes > 10 ? 15 : 20;
+      const labelText = (subject?.name || subjectId).length > maxLabelLength
+        ? (subject?.name || subjectId).substring(0, maxLabelLength) + '...'
+        : (subject?.name || subjectId);
+      
+      g.append('text')
+        .attr('x', labelX)
+        .attr('y', labelY)
+        .attr('text-anchor', 'middle')
+        .attr('dominant-baseline', 'middle')
+        .attr('font-size', numAxes > 15 ? '10px' : '12px')
+        .attr('fill', '#374151')
+        .attr('class', 'dark:fill-gray-300')
+        .text(labelText)
+        .append('title')
+        .text(subject?.name || subjectId);
+    });
+  }
   
   // Draw year areas
+  // During animation, reuse a single path element for smooth transitions
+  const existingAnimatedPath = shouldAnimate ? g.selectAll<SVGPathElement, unknown>('.radar-area').node() : null;
+  
   radarData.value.forEach((yearData) => {
     const points: Array<[number, number]> = [];
     
@@ -399,17 +501,45 @@ const drawRadar = () => {
     });
     pathString += ' Z'; // Close path
     
-    // Create area
-    const areaPath = g.append('path')
-      .attr('d', pathString)
-      .attr('fill', yearData.color)
-      .attr('fill-opacity', 0.3)
-      .attr('stroke', yearData.color)
-      .attr('stroke-width', 2)
-      .attr('class', 'radar-area')
-      .attr('data-year', yearData.year)
-      .style('cursor', 'pointer')
+    let areaPath: ReturnType<typeof g.selectAll<SVGPathElement, unknown>>;
+    
+    if (shouldAnimate && existingAnimatedPath) {
+      // During animation: reuse the existing path element for smooth morphing
+      areaPath = select(existingAnimatedPath);
+      areaPath
+        .transition(transition().duration(300))
+        .attr('d', pathString)
+        .attr('data-year', yearData.year.toString())
+        .attr('fill', yearData.color)
+        .attr('stroke', yearData.color);
+    } else {
+      // Normal mode: find or create path for this year
+      areaPath = g.selectAll<SVGPathElement, unknown>('.radar-area[data-year="' + yearData.year + '"]');
+      
+      if (areaPath.empty()) {
+        // Create new path
+        areaPath = g.append('path')
+          .attr('class', 'radar-area')
+          .attr('data-year', yearData.year.toString())
+          .attr('d', pathString)
+          .attr('fill', yearData.color)
+          .attr('fill-opacity', 0.3)
+          .attr('stroke', yearData.color)
+          .attr('stroke-width', 2)
+          .style('cursor', 'pointer');
+      } else {
+        // Update existing path
+        areaPath
+          .attr('d', pathString)
+          .attr('fill', yearData.color)
+          .attr('stroke', yearData.color);
+      }
+    }
+    
+    // Re-attach event handlers
+    areaPath
       .on('mouseover', function(event: MouseEvent) {
+        if (isAnimating.value) return; // Disable hover during animation
         select(this).attr('fill-opacity', 0.5);
         
         // Calculate which subject is being hovered
@@ -449,6 +579,7 @@ const drawRadar = () => {
         }
       })
       .on('mousemove', function(event: MouseEvent) {
+        if (isAnimating.value) return; // Disable hover during animation
         // Update tooltip position
         if (tooltipRef.value && hoveredArea.value) {
           const mouseX = event.clientX || (event as any).pageX || 0;
@@ -458,6 +589,7 @@ const drawRadar = () => {
         }
       })
       .on('mouseout', function() {
+        if (isAnimating.value) return; // Disable hover during animation
         if (!selectedArea.value || selectedArea.value.year !== yearData.year) {
           select(this).attr('fill-opacity', 0.3);
         }
@@ -467,6 +599,10 @@ const drawRadar = () => {
         }
       })
       .on('click', function(event) {
+        if (isAnimating.value) {
+          stopAnimation(); // Stop animation on click
+          return;
+        }
         const [mx, my] = pointer(event, svgRef.value);
         const centerX = width / 2;
         const centerY = height / 2;
@@ -485,39 +621,73 @@ const drawRadar = () => {
         select(this).attr('fill-opacity', 0.7);
       });
     
-    // Highlight selected area
-    if (selectedArea.value && selectedArea.value.year === yearData.year) {
+    // Highlight selected area (but not during animation)
+    if (!isAnimating.value && selectedArea.value && selectedArea.value.year === yearData.year) {
       areaPath.attr('fill-opacity', 0.7);
+    } else if (isAnimating.value && yearData.year === animationYearLabel.value) {
+      areaPath.attr('fill-opacity', 0.5);
     }
   });
   
-  // Draw grid labels (value labels on axes as percentages)
-  for (let i = 1; i <= gridLevels; i++) {
-    const level = i / gridLevels;
-    const percentage = Math.round(level * 100);
-    
-    subjects.forEach((_subjectId, j) => {
-      const angle = (j * angleSlice) - (Math.PI / 2);
-      const x = Math.cos(angle) * (radius * level);
-      const y = Math.sin(angle) * (radius * level);
+  // Remove paths that are no longer in radarData
+  // During animation, we keep the single path element, so only clean up in normal mode
+  if (!shouldAnimate) {
+    g.selectAll('.radar-area')
+      .filter(function() {
+        const year = parseInt(select(this).attr('data-year') || '0', 10);
+        return !radarData.value.some(yd => yd.year === year);
+      })
+      .remove();
+  } else {
+    // During animation, remove any extra paths (should only be one)
+    const allPaths = g.selectAll('.radar-area');
+    if (allPaths.size() > 1) {
+      const pathsArray = Array.from(allPaths.nodes());
+      // Keep the first one, remove the rest
+      for (let i = 1; i < pathsArray.length; i++) {
+        select(pathsArray[i]).remove();
+      }
+    }
+  }
+  
+  // Draw grid labels (value labels on axes as percentages) - only if not animating or if they don't exist
+  if (!shouldAnimate || g.selectAll('text[data-type="grid-label"]').empty()) {
+    const gridLevels = 5;
+    for (let i = 1; i <= gridLevels; i++) {
+      const level = i / gridLevels;
+      const percentage = Math.round(level * 100);
       
-      g.append('text')
-        .attr('x', x)
-        .attr('y', y)
-        .attr('text-anchor', 'middle')
-        .attr('dominant-baseline', 'middle')
-        .attr('font-size', '10px')
-        .attr('fill', '#6b7280')
-        .attr('class', 'dark:fill-gray-500')
-        .text(`${percentage}%`);
-    });
+      subjects.forEach((_subjectId, j) => {
+        const angle = (j * angleSlice) - (Math.PI / 2);
+        const x = Math.cos(angle) * (radius * level);
+        const y = Math.sin(angle) * (radius * level);
+        
+        g.append('text')
+          .attr('data-type', 'grid-label')
+          .attr('x', x)
+          .attr('y', y)
+          .attr('text-anchor', 'middle')
+          .attr('dominant-baseline', 'middle')
+          .attr('font-size', '10px')
+          .attr('fill', '#6b7280')
+          .attr('class', 'dark:fill-gray-500')
+          .text(`${percentage}%`);
+      });
+    }
   }
 };
 
 // Watch for changes and redraw
 watch([selectedYears, radarData, selectedArea, allSubjects], () => {
+  // Stop animation if years change externally (user manually changed selection)
+  if (isAnimating.value) {
+    const currentYear = sortedYearsForAnimation.value[currentAnimatedYearIndex.value];
+    if (currentYear !== undefined && !selectedYears.value.has(currentYear)) {
+      stopAnimation();
+    }
+  }
   nextTick(() => {
-    drawRadar();
+    drawRadar(isAnimating.value);
   });
 });
 
@@ -531,9 +701,17 @@ watch(() => settingsStore.subjectFilter, () => {
   // Clear selected area when filter changes
   selectedArea.value = null;
   emit('selected-area', null);
+  if (isAnimating.value) {
+    stopAnimation();
+  }
   nextTick(() => {
     drawRadar();
   });
+});
+
+// Stop animation when component unmounts
+onUnmounted(() => {
+  stopAnimation();
 });
 
 // Emit selected area changes
@@ -629,7 +807,26 @@ const toggleYear = (year: number) => {
       <div class="flex flex-col gap-4">
         <div class="flex flex-col lg:flex-row gap-4">
           <!-- Radar Chart -->
-          <div ref="containerRef" class="flex-1 w-full flex justify-center items-center min-h-[600px]">
+          <div ref="containerRef" class="flex-1 w-full flex flex-col justify-center items-center min-h-[600px] relative">
+            <!-- Animation Controls -->
+            <div class="absolute top-0 left-0 flex items-center gap-3 mb-2 z-10">
+              <button
+                @click="toggleAnimation"
+                class="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors shadow-lg"
+                :class="{ 'bg-red-600 hover:bg-red-700': isAnimating }"
+              >
+                <svg v-if="!isAnimating" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                </svg>
+                <svg v-else class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M5.75 3a.75.75 0 00-.75.75v12.5c0 .414.336.75.75.75h1.5a.75.75 0 00.75-.75V3.75A.75.75 0 007.25 3h-1.5zM12.75 3a.75.75 0 00-.75.75v12.5c0 .414.336.75.75.75h1.5a.75.75 0 00.75-.75V3.75a.75.75 0 00-.75-.75h-1.5z" />
+                </svg>
+                <span>{{ isAnimating ? 'Pause' : 'Play' }}</span>
+              </button>
+              <div v-if="isAnimating && animationYearLabel" class="px-4 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg">
+                <span class="text-lg font-bold text-gray-900 dark:text-white">{{ animationYearLabel }}</span>
+              </div>
+            </div>
             <svg ref="svgRef" class="radar-chart w-full h-auto"></svg>
           </div>
           
