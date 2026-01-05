@@ -48,6 +48,10 @@
           <p class="text-3xl font-bold text-gray-900 dark:text-gray-100">{{ formatNumber(stats.total_page_views) }}</p>
         </div>
         <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">Total Episode Plays</h3>
+          <p class="text-3xl font-bold text-gray-900 dark:text-gray-100">{{ formatNumber(stats.total_episode_plays) }}</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
           <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">Avg Views per User</h3>
           <p class="text-3xl font-bold text-gray-900 dark:text-gray-100">
             {{ stats.unique_users > 0 ? (stats.total_page_views / stats.unique_users).toFixed(1) : '0' }}
@@ -438,6 +442,225 @@
         </div>
       </div>
 
+      <!-- Top Played Podcasts Table -->
+      <div v-if="stats.top_played_podcasts" class="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-xl font-bold">Top Played Podcasts</h2>
+          <div class="flex items-center gap-2">
+            <label class="text-sm text-gray-600 dark:text-gray-400">Items per page:</label>
+            <select 
+              v-model="podcastsPerPage" 
+              class="px-2 py-1 border border-gray-300 dark:border-gray-600 rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 text-sm"
+            >
+              <option :value="10">10</option>
+              <option :value="20">20</option>
+              <option :value="50">50</option>
+            </select>
+          </div>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+            <thead class="bg-gray-50 dark:bg-gray-700">
+              <tr>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">#</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Podcast</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Plays</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Unique Users</th>
+              </tr>
+            </thead>
+            <tbody class="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
+              <tr v-for="(podcast, index) in paginatedPlayedPodcasts" :key="podcast.podcast">
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{{ (playedPodcastsCurrentPage - 1) * podcastsPerPage + index + 1 }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-gray-100">{{ podcast.podcast }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{{ formatNumber(podcast.views) }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{{ formatNumber(podcast.unique_users) }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div v-if="playedPodcastsTotalPages > 1" class="mt-4 flex items-center justify-between">
+          <div class="text-sm text-gray-600 dark:text-gray-400">
+            Showing {{ (playedPodcastsCurrentPage - 1) * podcastsPerPage + 1 }} to {{ Math.min(playedPodcastsCurrentPage * podcastsPerPage, stats.top_played_podcasts.length) }} of {{ stats.top_played_podcasts.length }} podcasts
+          </div>
+          <div class="flex gap-2">
+            <button
+              @click="playedPodcastsCurrentPage = 1"
+              :disabled="playedPodcastsCurrentPage === 1"
+              :class="[
+                'px-3 py-1 rounded text-sm font-medium transition-colors',
+                playedPodcastsCurrentPage === 1
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              ]"
+            >
+              First
+            </button>
+            <button
+              @click="playedPodcastsCurrentPage--"
+              :disabled="playedPodcastsCurrentPage === 1"
+              :class="[
+                'px-3 py-1 rounded text-sm font-medium transition-colors',
+                playedPodcastsCurrentPage === 1
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              ]"
+            >
+              Previous
+            </button>
+            <div class="flex gap-1">
+              <button
+                v-for="page in visiblePlayedPodcastPages"
+                :key="page"
+                @click="playedPodcastsCurrentPage = page"
+                :class="[
+                  'px-3 py-1 rounded text-sm font-medium transition-colors',
+                  playedPodcastsCurrentPage === page
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                ]"
+              >
+                {{ page }}
+              </button>
+            </div>
+            <button
+              @click="playedPodcastsCurrentPage++"
+              :disabled="playedPodcastsCurrentPage === playedPodcastsTotalPages"
+              :class="[
+                'px-3 py-1 rounded text-sm font-medium transition-colors',
+                playedPodcastsCurrentPage === playedPodcastsTotalPages
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              ]"
+            >
+              Next
+            </button>
+            <button
+              @click="playedPodcastsCurrentPage = playedPodcastsTotalPages"
+              :disabled="playedPodcastsCurrentPage === playedPodcastsTotalPages"
+              :class="[
+                'px-3 py-1 rounded text-sm font-medium transition-colors',
+                playedPodcastsCurrentPage === playedPodcastsTotalPages
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              ]"
+            >
+              Last
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Played Episodes Table -->
+      <div v-if="stats.top_played_episodes && stats.top_played_episodes.length > 0" class="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-xl font-bold">Top Played Episodes</h2>
+          <div class="flex items-center gap-2">
+            <label class="text-sm text-gray-600 dark:text-gray-400">Items per page:</label>
+            <select 
+              v-model="episodesPerPage" 
+              class="px-2 py-1 border border-gray-300 dark:border-gray-600 rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 text-sm"
+            >
+              <option :value="10">10</option>
+              <option :value="20">20</option>
+              <option :value="50">50</option>
+            </select>
+          </div>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+            <thead class="bg-gray-50 dark:bg-gray-700">
+              <tr>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">#</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Podcast</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Episode</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Plays</th>
+                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Unique Users</th>
+              </tr>
+            </thead>
+            <tbody class="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
+              <tr v-for="(episode, index) in paginatedPlayedEpisodes" :key="`${episode.podcast}-${episode.episode}`">
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{{ (playedEpisodesCurrentPage - 1) * episodesPerPage + index + 1 }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-gray-100">{{ episode.podcast }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{{ episode.episode }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{{ formatNumber(episode.views) }}</td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{{ formatNumber(episode.unique_users) }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Pagination Controls -->
+        <div v-if="playedEpisodesTotalPages > 1" class="mt-4 flex items-center justify-between">
+          <div class="text-sm text-gray-600 dark:text-gray-400">
+            Showing {{ (playedEpisodesCurrentPage - 1) * episodesPerPage + 1 }} to {{ Math.min(playedEpisodesCurrentPage * episodesPerPage, stats.top_played_episodes.length) }} of {{ stats.top_played_episodes.length }} episodes
+          </div>
+          <div class="flex gap-2">
+            <button
+              @click="playedEpisodesCurrentPage = 1"
+              :disabled="playedEpisodesCurrentPage === 1"
+              :class="[
+                'px-3 py-1 rounded text-sm font-medium transition-colors',
+                playedEpisodesCurrentPage === 1
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              ]"
+            >
+              First
+            </button>
+            <button
+              @click="playedEpisodesCurrentPage--"
+              :disabled="playedEpisodesCurrentPage === 1"
+              :class="[
+                'px-3 py-1 rounded text-sm font-medium transition-colors',
+                playedEpisodesCurrentPage === 1
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              ]"
+            >
+              Previous
+            </button>
+            <div class="flex gap-1">
+              <button
+                v-for="page in visiblePlayedEpisodePages"
+                :key="page"
+                @click="playedEpisodesCurrentPage = page"
+                :class="[
+                  'px-3 py-1 rounded text-sm font-medium transition-colors',
+                  playedEpisodesCurrentPage === page
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                ]"
+              >
+                {{ page }}
+              </button>
+            </div>
+            <button
+              @click="playedEpisodesCurrentPage++"
+              :disabled="playedEpisodesCurrentPage === playedEpisodesTotalPages"
+              :class="[
+                'px-3 py-1 rounded text-sm font-medium transition-colors',
+                playedEpisodesCurrentPage === playedEpisodesTotalPages
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              ]"
+            >
+              Next
+            </button>
+            <button
+              @click="playedEpisodesCurrentPage = playedEpisodesTotalPages"
+              :disabled="playedEpisodesCurrentPage === playedEpisodesTotalPages"
+              :class="[
+                'px-3 py-1 rounded text-sm font-medium transition-colors',
+                playedEpisodesCurrentPage === playedEpisodesTotalPages
+                  ? 'bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              ]"
+            >
+              Last
+            </button>
+          </div>
+        </div>
+      </div>
+
       <!-- Locations Chart -->
       <div v-if="stats.locations.length > 0" class="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6">
         <h2 class="text-xl font-bold mb-4">Top Locations</h2>
@@ -488,9 +711,12 @@ const backendBase = computed(() => {
 interface AnalyticsStats {
   unique_users: number;
   total_page_views: number;
+  total_episode_plays: number;
   top_pages: Array<{ path: string; route_name: string | null; views: number; unique_users: number }>;
   top_podcasts: Array<{ podcast: string; views: number; unique_users: number }>;
+  top_played_podcasts: Array<{ podcast: string; views: number; unique_users: number }>;
   top_episodes: Array<{ podcast: string; episode: string; views: number; unique_users: number }>;
+  top_played_episodes: Array<{ podcast: string; episode: string; views: number; unique_users: number }>;
   locations: Array<{ 
     country: string | null; 
     city: string | null; 
@@ -551,6 +777,36 @@ const visibleEpisodePages = computed(() => {
   const pages: number[] = [];
   
   // Show up to 5 page numbers around current page
+  const start = Math.max(1, current - 2);
+  const end = Math.min(total, current + 2);
+  
+  for (let i = start; i <= end; i++) {
+    pages.push(i);
+  }
+  
+  return pages;
+});
+
+// Pagination for played episodes table
+const playedEpisodesCurrentPage = ref(1);
+
+const paginatedPlayedEpisodes = computed(() => {
+  if (!stats.value || !stats.value.top_played_episodes) return [];
+  const start = (playedEpisodesCurrentPage.value - 1) * episodesPerPage.value;
+  const end = start + episodesPerPage.value;
+  return stats.value.top_played_episodes.slice(start, end);
+});
+
+const playedEpisodesTotalPages = computed(() => {
+  if (!stats.value || !stats.value.top_played_episodes) return 1;
+  return Math.ceil(stats.value.top_played_episodes.length / episodesPerPage.value);
+});
+
+const visiblePlayedEpisodePages = computed(() => {
+  const total = playedEpisodesTotalPages.value;
+  const current = playedEpisodesCurrentPage.value;
+  const pages: number[] = [];
+  
   const start = Math.max(1, current - 2);
   const end = Math.min(total, current + 2);
   
@@ -629,6 +885,36 @@ const visiblePodcastPages = computed(() => {
   return pages;
 });
 
+// Pagination for played podcasts table
+const playedPodcastsCurrentPage = ref(1);
+
+const paginatedPlayedPodcasts = computed(() => {
+  if (!stats.value || !stats.value.top_played_podcasts) return [];
+  const start = (playedPodcastsCurrentPage.value - 1) * podcastsPerPage.value;
+  const end = start + podcastsPerPage.value;
+  return stats.value.top_played_podcasts.slice(start, end);
+});
+
+const playedPodcastsTotalPages = computed(() => {
+  if (!stats.value || !stats.value.top_played_podcasts) return 1;
+  return Math.ceil(stats.value.top_played_podcasts.length / podcastsPerPage.value);
+});
+
+const visiblePlayedPodcastPages = computed(() => {
+  const total = playedPodcastsTotalPages.value;
+  const current = playedPodcastsCurrentPage.value;
+  const pages: number[] = [];
+  
+  const start = Math.max(1, current - 2);
+  const end = Math.min(total, current + 2);
+  
+  for (let i = start; i <= end; i++) {
+    pages.push(i);
+  }
+  
+  return pages;
+});
+
 const ensureAuthToken = async (): Promise<string | null> => {
   const existing = typeof settings.statsAuthToken === 'string' ? settings.statsAuthToken.trim() : '';
   if (existing) return existing;
@@ -681,6 +967,10 @@ const fetchStats = async () => {
     }
 
     const data = await res.json() as AnalyticsStats;
+    // Ensure top_played_podcasts exists (fallback to empty array if missing)
+    if (!data.top_played_podcasts) {
+      (data as any).top_played_podcasts = [];
+    }
     stats.value = data;
     authenticated.value = true;
     // Wait for DOM to update and ensure containers have width
@@ -1388,8 +1678,10 @@ const renderWorldMap = async () => {
 watch(selectedDays, () => {
   // Reset all pagination to first page when time period changes
   episodesCurrentPage.value = 1;
+  playedEpisodesCurrentPage.value = 1;
   pagesCurrentPage.value = 1;
   podcastsCurrentPage.value = 1;
+  playedPodcastsCurrentPage.value = 1;
   fetchStats();
 });
 
@@ -1409,6 +1701,28 @@ watch(() => settings.isDarkMode, () => {
   if (stats.value) {
     renderCharts();
     renderWorldMap();
+  }
+});
+
+watch(showPagesChart, (show) => {
+  if (show && stats.value) {
+    // Wait for DOM to update before rendering
+    nextTick(() => {
+      setTimeout(() => {
+        renderCharts();
+      }, 100);
+    });
+  }
+});
+
+watch(showPodcastsChart, (show) => {
+  if (show && stats.value) {
+    // Wait for DOM to update before rendering
+    nextTick(() => {
+      setTimeout(() => {
+        renderCharts();
+      }, 100);
+    });
   }
 });
 

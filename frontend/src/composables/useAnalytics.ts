@@ -21,6 +21,12 @@ interface TrackRequest {
   user_agent?: string;
 }
 
+interface TrackEpisodePlayRequest {
+  podcast: string;
+  episode: string;
+  user_agent?: string;
+}
+
 let lastTrackedPath: string | null = null;
 const trackingEnabled = ref(true);
 
@@ -83,11 +89,41 @@ export async function trackPageView(routeName?: string, podcast?: string, episod
 }
 
 /**
+ * Track an episode play
+ */
+export async function trackEpisodePlay(podcast: string, episode: string) {
+  if (!trackingEnabled.value) return;
+
+  const trackData: TrackEpisodePlayRequest = {
+    podcast,
+    episode,
+    user_agent: navigator.userAgent,
+  };
+
+  try {
+    const url = backendBase() ? `${backendBase()}/api/analytics/track-episode-play` : '/api/analytics/track-episode-play';
+    await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(trackData),
+      // Don't wait for response, fire and forget
+      keepalive: true,
+    });
+  } catch (error) {
+    // Silently fail - analytics should not break the app
+    console.debug('Episode play tracking failed:', error);
+  }
+}
+
+/**
  * Composable for analytics tracking
  */
 export function useAnalytics() {
   return {
     trackPageView,
+    trackEpisodePlay,
     trackingEnabled,
   };
 }

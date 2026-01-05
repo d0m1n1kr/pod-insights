@@ -22,7 +22,7 @@ use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
 
 use config::{AppConfig, AppState};
 use handlers::{chat, episodes_latest, episodes_search, speakers_list};
-use handlers::analytics::{self, insert_test_data_endpoint, stats, track};
+use handlers::analytics::{self, insert_test_data_endpoint, stats, track, track_episode_play};
 use cache::load_rag_index_cached;
 use std::path::PathBuf;
 use std::sync::Arc;
@@ -162,6 +162,7 @@ async fn main() -> Result<()> {
         .route("/api/episodes/latest", post(episodes_latest))
         .route("/api/speakers", axum::routing::get(speakers_list))
         .route("/api/analytics/track", post(track))
+        .route("/api/analytics/track-episode-play", post(track_episode_play))
         .route("/api/analytics/stats", axum::routing::get(stats))
         .route("/api/analytics/test-data", axum::routing::get(insert_test_data_endpoint))
         .route("/api/health", axum::routing::get(health))

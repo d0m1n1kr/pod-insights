@@ -33,13 +33,23 @@ pub struct TrackResponse {
     pub success: bool,
 }
 
+#[derive(Debug, Deserialize)]
+pub struct TrackEpisodePlayRequest {
+    pub podcast: String,
+    pub episode: String,
+    pub user_agent: Option<String>,
+}
+
 #[derive(Debug, Serialize, Clone)]
 pub struct AnalyticsStats {
     pub unique_users: i64,
     pub total_page_views: i64,
+    pub total_episode_plays: i64,
     pub top_pages: Vec<PageStats>,
     pub top_podcasts: Vec<PodcastStats>,
+    pub top_played_podcasts: Vec<PodcastStats>,
     pub top_episodes: Vec<EpisodeStats>,
+    pub top_played_episodes: Vec<EpisodeStats>,
     pub locations: Vec<LocationStats>,
 }
 
@@ -156,6 +166,45 @@ impl AnalyticsDb {
         // Composite index for common stats queries (created_at + podcast + episode)
         conn.execute(
             "CREATE INDEX IF NOT EXISTS idx_stats ON page_views(created_at, podcast, episode)",
+            [],
+        )?;
+
+        // Create episode_plays table
+        conn.execute(
+            "CREATE TABLE IF NOT EXISTS episode_plays (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_fingerprint TEXT NOT NULL,
+                podcast TEXT NOT NULL,
+                episode TEXT NOT NULL,
+                user_agent TEXT,
+                ip_address TEXT,
+                created_at TEXT NOT NULL
+            )",
+            [],
+        )?;
+
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_episode_plays_user ON episode_plays(user_fingerprint)",
+            [],
+        )?;
+
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_episode_plays_podcast ON episode_plays(podcast)",
+            [],
+        )?;
+
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_episode_plays_episode ON episode_plays(episode)",
+            [],
+        )?;
+
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_episode_plays_created_at ON episode_plays(created_at)",
+            [],
+        )?;
+
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_episode_plays_stats ON episode_plays(created_at, podcast, episode)",
             [],
         )?;
 
@@ -320,6 +369,35 @@ impl AnalyticsDb {
                 country,
                 city,
                 req.referrer,
+                user_agent,
+                ip,
+                created_at
+            ],
+        )?;
+
+        // Invalidate stats cache since we added new data
+        self.stats_cache.invalidate_all();
+
+        Ok(())
+    }
+
+    pub async fn track_episode_play(
+        &self,
+        req: TrackEpisodePlayRequest,
+        ip: String,
+        user_agent: String,
+    ) -> Result<()> {
+        let fingerprint = Self::get_user_fingerprint(&ip, &user_agent);
+        let created_at = Utc::now().to_rfc3339();
+
+        let conn = self.conn.lock().await;
+        conn.execute(
+            "INSERT INTO episode_plays (user_fingerprint, podcast, episode, user_agent, ip_address, created_at)
+             VALUES (?1, ?2, ?3, ?4, ?5, ?6)",
+            params![
+                fingerprint,
+                req.podcast,
+                req.episode,
                 user_agent,
                 ip,
                 created_at
@@ -519,6 +597,17 @@ impl AnalyticsDb {
             conn.query_row("SELECT COUNT(*) FROM page_views", [], |row| row.get(0))?
         };
 
+        // Total episode plays
+        let total_episode_plays: i64 = if let Some(ref since_str) = since {
+            conn.query_row(
+                "SELECT COUNT(*) FROM episode_plays WHERE created_at >= ?1",
+                params![since_str],
+                |row| row.get(0),
+            )?
+        } else {
+            conn.query_row("SELECT COUNT(*) FROM episode_plays", [], |row| row.get(0))?
+        };
+
         // Top pages
         let top_pages = if let Some(ref since_str) = since {
             conn.prepare(
@@ -543,7 +632,7 @@ impl AnalyticsDb {
             .collect::<Result<Vec<_>, _>>()?
         };
 
-        // Top podcasts
+        // Top podcasts (from page views)
         let top_podcasts = if let Some(ref since_str) = since {
             conn.prepare(
                 "SELECT podcast, COUNT(*) as views, COUNT(DISTINCT user_fingerprint) as unique_users
@@ -560,6 +649,30 @@ impl AnalyticsDb {
                 "SELECT podcast, COUNT(*) as views, COUNT(DISTINCT user_fingerprint) as unique_users
                  FROM page_views
                  WHERE podcast IS NOT NULL
+                 GROUP BY podcast
+                 ORDER BY views DESC
+                 LIMIT 20",
+            )?
+            .query_map([], map_podcast_stats)?
+            .collect::<Result<Vec<_>, _>>()?
+        };
+
+        // Top played podcasts (from episode_plays table)
+        let top_played_podcasts = if let Some(ref since_str) = since {
+            conn.prepare(
+                "SELECT podcast, COUNT(*) as views, COUNT(DISTINCT user_fingerprint) as unique_users
+                 FROM episode_plays
+                 WHERE created_at >= ?1
+                 GROUP BY podcast
+                 ORDER BY views DESC
+                 LIMIT 20",
+            )?
+            .query_map(params![since_str], map_podcast_stats)?
+            .collect::<Result<Vec<_>, _>>()?
+        } else {
+            conn.prepare(
+                "SELECT podcast, COUNT(*) as views, COUNT(DISTINCT user_fingerprint) as unique_users
+                 FROM episode_plays
                  GROUP BY podcast
                  ORDER BY views DESC
                  LIMIT 20",
@@ -634,12 +747,39 @@ impl AnalyticsDb {
             })
             .collect();
 
+        // Top played episodes (from episode_plays table)
+        let top_played_episodes = if let Some(ref since_str) = since {
+            conn.prepare(
+                "SELECT podcast, episode, COUNT(*) as views, COUNT(DISTINCT user_fingerprint) as unique_users
+                 FROM episode_plays
+                 WHERE created_at >= ?1
+                 GROUP BY podcast, episode
+                 ORDER BY views DESC
+                 LIMIT 20",
+            )?
+            .query_map(params![since_str], map_episode_stats)?
+            .collect::<Result<Vec<_>, _>>()?
+        } else {
+            conn.prepare(
+                "SELECT podcast, episode, COUNT(*) as views, COUNT(DISTINCT user_fingerprint) as unique_users
+                 FROM episode_plays
+                 GROUP BY podcast, episode
+                 ORDER BY views DESC
+                 LIMIT 20",
+            )?
+            .query_map([], map_episode_stats)?
+            .collect::<Result<Vec<_>, _>>()?
+        };
+
         let stats = AnalyticsStats {
             unique_users,
             total_page_views,
+            total_episode_plays,
             top_pages,
             top_podcasts,
+            top_played_podcasts,
             top_episodes,
+            top_played_episodes,
             locations,
         };
 
@@ -694,6 +834,34 @@ pub async fn track(
     tokio::spawn(async move {
         if let Err(e) = analytics_db.track_page_view(req, ip, user_agent).await {
             tracing::warn!("Failed to track page view: {}", e);
+        }
+    });
+
+    Json(TrackResponse { success: true })
+}
+
+pub async fn track_episode_play(
+    State(state): State<AppState>,
+    headers: HeaderMap,
+    Json(req): Json<TrackEpisodePlayRequest>,
+) -> impl IntoResponse {
+    let ip = extract_ip_from_headers(&headers);
+    let user_agent = req
+        .user_agent
+        .clone()
+        .or_else(|| {
+            headers
+                .get("user-agent")
+                .and_then(|h| h.to_str().ok())
+                .map(|s| s.to_string())
+        })
+        .unwrap_or_else(|| "unknown".to_string());
+
+    // Track the episode play (fire and forget - don't block response)
+    let analytics_db = state.analytics_db.clone();
+    tokio::spawn(async move {
+        if let Err(e) = analytics_db.track_episode_play(req, ip, user_agent).await {
+            tracing::warn!("Failed to track episode play: {}", e);
         }
     });
 

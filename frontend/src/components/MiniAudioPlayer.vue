@@ -3,6 +3,7 @@ import { ref, watch, onMounted, onBeforeUnmount, computed, nextTick } from 'vue'
 import { useSettingsStore } from '@/stores/settings';
 import { getEpisodeImageUrl } from '@/composables/usePodcast';
 import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
+import { trackEpisodePlay } from '@/composables/useAnalytics';
 
 const settings = useSettingsStore();
 
@@ -347,11 +348,35 @@ const onScrubCommit = async () => {
   }
 };
 
+// Track episode plays (only once per episode per session)
+const trackedEpisodes = new Set<string>();
+
 const attach = () => {
   const a = audioRef.value;
   if (!a) return;
 
-  const onPlay = () => { isPlaying.value = true; };
+  const onPlay = () => { 
+    isPlaying.value = true;
+    
+    // Track episode play (only once per episode)
+    if (episodeNumber.value) {
+      const podcastName = (() => {
+        if (props.transcriptSrc) {
+          const match = props.transcriptSrc.match(/\/podcasts\/([^\/]+)\//);
+          if (match && match[1]) {
+            return match[1];
+          }
+        }
+        return settings.selectedPodcast || 'freakshow';
+      })();
+      
+      const episodeKey = `${podcastName}-${episodeNumber.value}`;
+      if (!trackedEpisodes.has(episodeKey)) {
+        trackedEpisodes.add(episodeKey);
+        trackEpisodePlay(podcastName, episodeNumber.value.toString());
+      }
+    }
+  };
   const onPause = () => { isPlaying.value = false; };
   const onTimeUpdate = () => { currentTime.value = a.currentTime || 0; };
   const onLoadedMeta = () => {
