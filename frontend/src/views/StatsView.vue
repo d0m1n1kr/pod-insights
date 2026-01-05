@@ -24,7 +24,7 @@
       <div class="mb-6 flex gap-2">
         <button
           v-for="period in timePeriods"
-          :key="period.days"
+          :key="period.days ?? 'all'"
           @click="selectedDays = period.days"
           :class="[
             'px-4 py-2 rounded-lg font-medium transition-colors',
@@ -467,20 +467,15 @@ import { ref, computed, onMounted, watch, nextTick, onUnmounted } from 'vue';
 import { useSettingsStore } from '@/stores/settings';
 import {
   select,
-  pointer,
   scaleBand,
   scaleLinear,
   axisBottom,
   axisLeft,
   max,
   geoMercator,
-  geoNaturalEarth1,
   geoPath,
   scaleSqrt
 } from '@/utils/d3-imports';
-import { useI18n } from 'vue-i18n';
-
-const { t } = useI18n();
 const settings = useSettingsStore();
 
 const backendBase = computed(() => {
@@ -885,7 +880,7 @@ const renderCharts = () => {
       .enter()
       .append('rect')
       .attr('class', 'bar')
-      .attr('x', (_, i) => x(locationLabels[i]) || 0)
+      .attr('x', (_, i) => x(locationLabels[i] ?? '') || 0)
       .attr('width', x.bandwidth())
       .attr('y', d => y(d.views))
       .attr('height', d => height - y(d.views))
@@ -1155,7 +1150,7 @@ const renderWorldMap = async () => {
     'AT-Innsbruck': [11.4041, 47.2692],
   };
   
-  cityData.forEach((data, key) => {
+  cityData.forEach((data) => {
     // Try to get city-specific coordinates, fallback to country centroid
     const cityKey = `${data.country}-${data.city}`;
     let coords = cityOffsets[cityKey];

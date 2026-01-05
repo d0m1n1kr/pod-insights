@@ -99,7 +99,7 @@ describe('LanguageSelector', () => {
 
     // Find and click English option
     const buttons = wrapper.findAll('button');
-    const englishButton = buttons.find(b => b.text().includes('English'));
+    const englishButton = buttons.find((b: any) => b.text().includes('English'));
     
     if (englishButton) {
       await englishButton.trigger('click');
