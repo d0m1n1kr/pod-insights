@@ -94,5 +94,9 @@ export {
 // Color manipulation
 export { rgb } from 'd3-color';
 
+// Geo projections and paths
+export { geoMercator, geoNaturalEarth1, geoOrthographic } from 'd3-geo';
+export { geoPath } from 'd3-geo';
+
 // Re-export commonly used types
 export type { Selection } from 'd3-selection';

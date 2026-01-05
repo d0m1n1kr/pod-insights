@@ -1,5 +1,7 @@
 node_modules/
 *.log
+analytics.db*
+GeoLite2*
 
 # Environment and API keys
 .env

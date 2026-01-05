@@ -123,7 +123,8 @@
   "rag": {
     "bindAddr": "127.0.0.1:7878",
     "authToken": "CHANGE_ME",
-    "_comment": "Optional: Token required by the RAG backend for /api/chat. Frontend will ask for this token on first search and store it locally."
+    "statsAuthToken": "CHANGE_ME",
+    "_comment": "Optional: Token required by the RAG backend for /api/chat. Frontend will ask for this token on first search and store it locally. statsAuthToken is required for /api/analytics/stats endpoint."
   },
   "categoryGrouping": {
     "categories": 12,

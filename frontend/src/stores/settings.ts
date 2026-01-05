@@ -45,6 +45,14 @@ export const useSettingsStore = defineStore('settings', () => {
   // RAG backend auth token (persisted). Used for /search.
   const ragAuthToken = ref<string>('');
   
+  // Stats auth token (persisted). Used for /api/analytics/stats.
+  const statsAuthToken = ref<string>('');
+  
+  // Stats page pagination (persisted)
+  const statsEpisodesPerPage = ref<number>(20);
+  const statsPagesPerPage = ref<number>(20);
+  const statsPodcastsPerPage = ref<number>(20);
+  
   // Search: Answer style (speaker persona) - persisted
   const selectedSpeaker = ref<string | null>(null);
   
@@ -113,6 +121,26 @@ export const useSettingsStore = defineStore('settings', () => {
 
   function clearRagAuthToken() {
     ragAuthToken.value = '';
+  }
+
+  function setStatsAuthToken(token: string) {
+    statsAuthToken.value = token;
+  }
+
+  function clearStatsAuthToken() {
+    statsAuthToken.value = '';
+  }
+  
+  function setStatsEpisodesPerPage(value: number) {
+    statsEpisodesPerPage.value = value;
+  }
+  
+  function setStatsPagesPerPage(value: number) {
+    statsPagesPerPage.value = value;
+  }
+  
+  function setStatsPodcastsPerPage(value: number) {
+    statsPodcastsPerPage.value = value;
   }
   
   function setSelectedSpeaker(speaker: string | null) {
@@ -187,6 +215,10 @@ export const useSettingsStore = defineStore('settings', () => {
     themeMode,
     isDarkMode,
     ragAuthToken,
+    statsAuthToken,
+    statsEpisodesPerPage,
+    statsPagesPerPage,
+    statsPodcastsPerPage,
     selectedSpeaker,
     selectedSpeaker2,
     crossPodcastSearch,
@@ -200,6 +232,11 @@ export const useSettingsStore = defineStore('settings', () => {
     applyTheme,
     setRagAuthToken,
     clearRagAuthToken,
+    setStatsAuthToken,
+    clearStatsAuthToken,
+    setStatsEpisodesPerPage,
+    setStatsPagesPerPage,
+    setStatsPodcastsPerPage,
     setSelectedSpeaker,
     setSelectedSpeaker2,
     setCrossPodcastSearch,
@@ -229,6 +266,10 @@ export const useSettingsStore = defineStore('settings', () => {
       'clusteringVariant',
       'themeMode',
       'ragAuthToken',
+      'statsAuthToken',
+      'statsEpisodesPerPage',
+      'statsPagesPerPage',
+      'statsPodcastsPerPage',
       'selectedSpeaker',
       'selectedSpeaker2',
       'crossPodcastSearch',

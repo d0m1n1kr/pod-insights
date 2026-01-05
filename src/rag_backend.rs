@@ -22,8 +22,10 @@ use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt};
 
 use config::{AppConfig, AppState};
 use handlers::{chat, episodes_latest, episodes_search, speakers_list};
+use handlers::analytics::{self, insert_test_data_endpoint, stats, track};
 use cache::load_rag_index_cached;
 use std::path::PathBuf;
+use std::sync::Arc;
 
 async fn health() -> impl IntoResponse {
     (StatusCode::OK, "ok")
@@ -115,6 +117,24 @@ async fn main() -> Result<()> {
         .time_to_idle(Duration::from_secs(1800))
         .build();
 
+    // Initialize analytics database
+    let analytics_db_path = PathBuf::from("analytics.db");
+    let geoip_db_path = std::env::var("GEOIP_DB_PATH")
+        .ok()
+        .map(PathBuf::from)
+        .or_else(|| Some(PathBuf::from("GeoLite2-City.mmdb")));
+    
+    let analytics_db = Arc::new(
+        analytics::AnalyticsDb::new(&analytics_db_path, geoip_db_path.as_ref())
+            .context("Failed to initialize analytics database")?
+    );
+    
+    if geoip_db_path.is_none() || !geoip_db_path.as_ref().unwrap().exists() {
+        info!("GeoIP database not found. Location tracking will be disabled. Set GEOIP_DB_PATH env var or place GeoLite2-City.mmdb in the project root.");
+    } else {
+        info!("GeoIP database loaded successfully");
+    }
+
     let app_state = AppState {
         cfg: cfg.clone(),
         http,
@@ -127,6 +147,7 @@ async fn main() -> Result<()> {
         speaker_meta_cache,
         episode_topics_map_cache,
         episode_files_cache,
+        analytics_db,
     };
 
     // Pre-cache all embedding databases
@@ -140,6 +161,9 @@ async fn main() -> Result<()> {
         .route("/api/episodes/search", post(episodes_search))
         .route("/api/episodes/latest", post(episodes_latest))
         .route("/api/speakers", axum::routing::get(speakers_list))
+        .route("/api/analytics/track", post(track))
+        .route("/api/analytics/stats", axum::routing::get(stats))
+        .route("/api/analytics/test-data", axum::routing::get(insert_test_data_endpoint))
         .route("/api/health", axum::routing::get(health))
         .layer(cors)
         .layer(TraceLayer::new_for_http())

@@ -7,6 +7,9 @@ use serde::Deserialize;
 
 use crate::cache::{CachedEpisodeFiles, CachedEpisodeList, CachedEpisodeMetadata, CachedEpisodeTopicsMap, CachedRagIndex, CachedSpeakerMeta, CachedSpeakerProfile, CachedSpeakersIndex};
 
+// Forward declaration to avoid circular dependency
+pub type AnalyticsDb = crate::handlers::analytics::AnalyticsDb;
+
 #[derive(Debug, Deserialize, Clone)]
 pub struct SettingsFile {
     llm: Option<LlmSettings>,
@@ -34,6 +37,8 @@ pub struct TopicClusteringSettings {
 pub struct RagSettings {
     #[serde(rename = "authToken")]
     auth_token: Option<String>,
+    #[serde(rename = "statsAuthToken")]
+    stats_auth_token: Option<String>,
     #[serde(rename = "bindAddr")]
     bind_addr: Option<String>,
 }
@@ -75,6 +80,7 @@ pub struct AppConfig {
     pub top_k: usize,
     pub max_context_chars: usize,
     pub auth_token: Option<String>,
+    pub stats_auth_token: Option<String>,
 }
 
 impl AppConfig {
@@ -148,6 +154,12 @@ impl AppConfig {
             .map(|s| s.trim().to_string())
             .filter(|s| !s.is_empty());
 
+        let stats_auth_token = std::env::var("RAG_STATS_AUTH_TOKEN")
+            .ok()
+            .or_else(|| settings_rag.and_then(|r| r.stats_auth_token.clone()))
+            .map(|s| s.trim().to_string())
+            .filter(|s| !s.is_empty());
+
         Ok((
             Self {
                 bind_addr,
@@ -160,6 +172,7 @@ impl AppConfig {
                 top_k,
                 max_context_chars,
                 auth_token,
+                stats_auth_token,
             },
             settings_source,
         ))
@@ -180,5 +193,6 @@ pub struct AppState {
     pub speaker_meta_cache: Cache<(String, String), CachedSpeakerMeta>,
     pub episode_topics_map_cache: Cache<String, CachedEpisodeTopicsMap>,
     pub episode_files_cache: Cache<(String, u32), CachedEpisodeFiles>,
+    pub analytics_db: Arc<AnalyticsDb>,
 }
 

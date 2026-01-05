@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import { useSettingsStore } from '../stores/settings';
+import { trackPageView } from '../composables/useAnalytics';
 
 // Lazy load views for code splitting
 const TopicsView = () => import('../views/TopicsView.vue');
@@ -13,6 +14,7 @@ const UmapView = () => import('../views/UmapView.vue');
 const AboutView = () => import('../views/AboutView.vue');
 const SearchView = () => import('../views/SearchView.vue');
 const EpisodeView = () => import('../views/EpisodeView.vue');
+const StatsView = () => import('../views/StatsView.vue');
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -75,6 +77,11 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       component: AboutView
+    },
+    {
+      path: '/stats',
+      name: 'stats',
+      component: StatsView
     }
   ]
 });
@@ -130,6 +137,19 @@ router.beforeEach((to, _from, next) => {
   }
   
   next();
+});
+
+// Track page views after navigation
+router.afterEach((to) => {
+  const settingsStore = useSettingsStore();
+  const podcast = (to.query.podcast as string) || settingsStore.selectedPodcast;
+  const episode = to.query.episode as string | undefined;
+  
+  trackPageView(
+    to.name as string | undefined,
+    podcast,
+    episode
+  );
 });
 
 export default router;

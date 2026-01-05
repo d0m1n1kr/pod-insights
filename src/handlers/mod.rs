@@ -1,3 +1,4 @@
+pub mod analytics;
 pub mod chat;
 pub mod episodes;
 pub mod speakers;
