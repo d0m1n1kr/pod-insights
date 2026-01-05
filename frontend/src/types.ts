@@ -130,13 +130,23 @@ export interface SubjectRiverData {
       id: string;
       name: string;
       totalEpisodes: number;
+      totalRelevanceSec?: number;
+      totalOccurrences?: number;
       yearData: Array<{
         year: number;
         count: number;
+        totalRelevanceSec?: number;
+        totalOccurrences?: number;
         episodes: Array<{
           number: number;
           date: string;
           title: string;
+          relevanceSec?: number;
+          occurrences?: Array<{
+            topic?: string | null;
+            positionSec: number;
+            durationSec?: number | null;
+          }>;
         }>;
       }>;
     };
