@@ -113,6 +113,50 @@ let speakerPaths: Map<string, Selection<SVGPathElement, SpeakerPathData[], null,
 const currentPosition = ref<number | null>(null);
 const currentSpeaker = ref<string | null>(null);
 
+// Module-level function to update speaker highlighting (always accesses current state)
+const updateSpeakerHighlightGlobal = () => {
+  if (!speakerPaths) return;
+  
+  // Always access the current reactive values
+  const isCurrent = isCurrentEpisode.value;
+  const activeSpeaker = isCurrent ? currentSpeaker.value : null;
+  
+  // Normalize speaker names for comparison (trim whitespace, handle case)
+  const normalizeSpeakerName = (name: string | null) => {
+    if (!name) return null;
+    return name.trim();
+  };
+  
+  const normalizedActiveSpeaker = normalizeSpeakerName(activeSpeaker);
+  
+  speakerPaths.forEach((path, speaker) => {
+    const normalizedSpeaker = normalizeSpeakerName(speaker);
+    
+    if (normalizedActiveSpeaker && normalizedActiveSpeaker === normalizedSpeaker) {
+      // Highlight current speaker: brighter, thicker stroke
+      path
+        .attr('fill-opacity', 0.9)
+        .attr('stroke-width', 2.5)
+        .attr('stroke-opacity', 1)
+        .style('filter', 'drop-shadow(0 0 3px rgba(0,0,0,0.3))');
+    } else if (normalizedActiveSpeaker !== null) {
+      // Dim other speakers when someone is speaking
+      path
+        .attr('fill-opacity', 0.3)
+        .attr('stroke-width', 1)
+        .attr('stroke-opacity', 0.5)
+        .style('filter', null);
+    } else {
+      // Reset to normal when no one is speaking
+      path
+        .attr('fill-opacity', 0.7)
+        .attr('stroke-width', 1)
+        .attr('stroke-opacity', 1)
+        .style('filter', null);
+    }
+  });
+};
+
 // Helper function to find the last index <= value in a sorted array
 const findLastIndexLE = (arr: number[], value: number) => {
   let lo = 0;
@@ -170,13 +214,60 @@ const updateCurrentPosition = () => {
   const audioElements = document.querySelectorAll('audio');
   let time: number | null = null;
   
+  // More robust matching: compare URLs by normalizing them
+  const storeSrc = audioPlayerStore.state.src;
+  const normalizeUrl = (url: string) => {
+    try {
+      const u = new URL(url, window.location.href);
+      // Remove query params and hash for comparison
+      return u.origin + u.pathname;
+    } catch {
+      return url;
+    }
+  };
+  
+  const normalizedStoreSrc = normalizeUrl(storeSrc);
+  
+  // First, try to find audio element by exact or normalized URL match
   for (const audio of audioElements) {
-    // Check if this audio element matches the current player source
-    if (audio.src && audio.src === audioPlayerStore.state.src) {
+    if (!audio.src) continue;
+    
+    // Try exact match first
+    if (audio.src === storeSrc) {
       const audioTime = audio.currentTime || 0;
       if (Number.isFinite(audioTime) && audioTime >= 0) {
         time = audioTime;
         break;
+      }
+    }
+    
+    // Try normalized match (in case of query params or encoding differences)
+    const normalizedAudioSrc = normalizeUrl(audio.src);
+    if (normalizedAudioSrc === normalizedStoreSrc) {
+      const audioTime = audio.currentTime || 0;
+      if (Number.isFinite(audioTime) && audioTime >= 0) {
+        time = audioTime;
+        break;
+      }
+    }
+    
+    // Also check if the audio element's src contains the store src (for blob URLs or similar)
+    if (audio.src.includes(normalizedStoreSrc) || normalizedStoreSrc.includes(normalizeUrl(audio.src))) {
+      const audioTime = audio.currentTime || 0;
+      if (Number.isFinite(audioTime) && audioTime >= 0) {
+        time = audioTime;
+        break;
+      }
+    }
+  }
+  
+  // Fallback: if we have only one audio element and it's playing or has a duration, use it
+  if (time === null && audioElements.length === 1) {
+    const audio = audioElements[0];
+    if (audio && (audio.duration > 0 || !audio.paused)) {
+      const audioTime = audio.currentTime || 0;
+      if (Number.isFinite(audioTime) && audioTime >= 0) {
+        time = audioTime;
       }
     }
   }
@@ -689,42 +780,8 @@ const drawChart = () => {
     speakerPaths.set(speaker, path);
   }
   
-  // Function to update speaker highlighting
-  const updateSpeakerHighlight = () => {
-    if (!speakerPaths) return;
-    const activeSpeaker = isCurrentEpisode.value ? currentSpeaker.value : null;
-    
-    speakerPaths.forEach((path, speaker) => {
-      if (activeSpeaker === speaker) {
-        // Highlight current speaker: brighter, thicker stroke
-        path
-          .attr('fill-opacity', 0.9)
-          .attr('stroke-width', 2.5)
-          .attr('stroke-opacity', 1)
-          .style('filter', 'drop-shadow(0 0 3px rgba(0,0,0,0.3))');
-      } else if (activeSpeaker !== null) {
-        // Dim other speakers when someone is speaking
-        path
-          .attr('fill-opacity', 0.3)
-          .attr('stroke-width', 1)
-          .attr('stroke-opacity', 0.5)
-          .style('filter', null);
-      } else {
-        // Reset to normal when no one is speaking
-        path
-          .attr('fill-opacity', 0.7)
-          .attr('stroke-width', 1)
-          .attr('stroke-opacity', 1)
-          .style('filter', null);
-      }
-    });
-  };
-  
-  // Initial highlight update
-  updateSpeakerHighlight();
-  
-  // Store update function for later use
-  (g.node() as any).__updateSpeakerHighlight = updateSpeakerHighlight;
+  // Initial highlight update using module-level function
+  updateSpeakerHighlightGlobal();
 
   // Create invisible overlay for tooltip interaction (must be added AFTER paths so it's on top)
   g.append('rect')
@@ -1243,10 +1300,14 @@ const drawChart = () => {
   
   // Initial update
   updateMarker();
+  updateSpeakerHighlightGlobal();
   
   // Store update functions for later use
-  (g.node() as any).__updateMarker = updateMarker;
-  (g.node() as any).__updateSpeakerHighlight = updateSpeakerHighlight;
+  const gNode = g.node();
+  if (gNode) {
+    (gNode as any).__updateMarker = updateMarker;
+    (gNode as any).__updateSpeakerHighlight = updateSpeakerHighlightGlobal;
+  }
 };
 
 onMounted(() => {
@@ -1258,16 +1319,17 @@ onMounted(() => {
   
   // Set up position update interval
   positionUpdateInterval = window.setInterval(() => {
-    const oldPosition = currentPosition.value;
-    const oldSpeaker = currentSpeaker.value;
     updateCurrentPosition();
-    // Update marker and highlight if chart is drawn and position/speaker changed
-    if (svg && chartRef.value && (oldPosition !== currentPosition.value || oldSpeaker !== currentSpeaker.value)) {
+    // Always try to update marker and highlight if chart is drawn
+    if (svg && chartRef.value) {
       const g = select(chartRef.value).select('g');
-      const updateMarkerFn = (g.node() as any)?.__updateMarker;
-      const updateHighlightFn = (g.node() as any)?.__updateSpeakerHighlight;
-      if (updateMarkerFn) updateMarkerFn();
-      if (updateHighlightFn) updateHighlightFn();
+      const gNode = g.node();
+      if (gNode) {
+        const updateMarkerFn = (gNode as any)?.__updateMarker;
+        if (updateMarkerFn) updateMarkerFn();
+      }
+      // Always call module-level highlight function directly
+      updateSpeakerHighlightGlobal();
     }
   }, 100); // Update every 100ms
   
@@ -1295,15 +1357,18 @@ onMounted(() => {
   }, 0);
 
   // Watch for current position and speaker changes to update marker and highlight
-  watch([currentPosition, currentSpeaker], () => {
+  watch([currentPosition, currentSpeaker, isCurrentEpisode], () => {
     if (svg && chartRef.value) {
       const g = select(chartRef.value).select('g');
-      const updateMarkerFn = (g.node() as any)?.__updateMarker;
-      const updateHighlightFn = (g.node() as any)?.__updateSpeakerHighlight;
-      if (updateMarkerFn) updateMarkerFn();
-      if (updateHighlightFn) updateHighlightFn();
+      const gNode = g.node();
+      if (gNode) {
+        const updateMarkerFn = (gNode as any)?.__updateMarker;
+        if (updateMarkerFn) updateMarkerFn();
+      }
+      // Always call module-level highlight function directly
+      updateSpeakerHighlightGlobal();
     }
-  });
+  }, { immediate: true });
   
   // Watch for data changes
   watch(() => props.data, () => {
