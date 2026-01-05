@@ -1,0 +1,2304 @@
+{
+  "generatedAt": "2026-01-05T09:44:31.056Z",
+  "podcastId": "forschergeist",
+  "totalEpisodes": 99,
+  "topSubjectsCount": 12,
+  "topSubjects": [
+    "Wissenschaft",
+    "Umwelt",
+    "Bildung",
+    "Gesellschaft",
+    "Technologie",
+    "Education",
+    "Psychologie",
+    "Biologie",
+    "Ethik",
+    "Forschung",
+    "Technology",
+    "Wirtschaft"
+  ],
+  "subjectMapping": {
+    "Media": null,
+    "Science": "Wissenschaft",
+    "Politik": "Gesellschaft",
+    "Natur": "Umwelt",
+    "Energie": "Umwelt",
+    "Gesundheit": "Gesellschaft",
+    "Medizin": "Gesellschaft",
+    "Innovation": "Technologie",
+    "Data": "Technologie",
+    "Economics": "Wirtschaft",
+    "Philosophie": "Ethik",
+    "Mathematik": "Wissenschaft",
+    "Kultur": "Gesellschaft",
+    "Linguistik": null,
+    "Cybersecurity": "Technologie",
+    "Philosophy": "Ethik",
+    "Wissenschaftsgeschichte": "Wissenschaft",
+    "Industrie": "Wirtschaft",
+    "Chemie": "Wissenschaft",
+    "Geschichte": null,
+    "Landwirtschaft": "Umwelt",
+    "Klimawissenschaft": "Umwelt",
+    "Sozialwissenschaften": "Gesellschaft",
+    "Soziale Themen": "Gesellschaft",
+    "Events": null,
+    "Recht": null,
+    "Urbanisierung": "Gesellschaft",
+    "Humanities": null,
+    "History": null,
+    "Lifestyle": null,
+    "Business": "Wirtschaft",
+    "Culture": "Gesellschaft",
+    "Urbanismus": "Gesellschaft",
+    "Tierschutz": "Umwelt",
+    "Ernährung": "Umwelt",
+    "Sozial": "Gesellschaft",
+    "Sprache": null,
+    "Human Rights": "Gesellschaft",
+    "Organisationsverhalten": null,
+    "Kunst": null,
+    "Literature": null,
+    "Cultural Institutions": null,
+    "Mobilität": null,
+    "Organisation": null,
+    "Digitalisierung": "Technologie",
+    "Naturwissenschaften": "Wissenschaft",
+    "Society": "Gesellschaft",
+    "Kriminalbiologie": "Biologie",
+    "Biotechnologie": "Biologie",
+    "Health": "Gesundheit",
+    "Environment": "Umwelt",
+    "Regierung": "Gesellschaft",
+    "Marketing": null,
+    "Software": "Technologie",
+    "Datenschutz": null,
+    "Computing": "Technologie"
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "FG001 Geschichte der Wissenschaften",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 2,
+      "title": "FG002 Citizen Science",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 3,
+      "title": "FG003 Autonomer Verkehr",
+      "coarseSubjects": [
+        "Ethik",
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 4,
+      "title": "FG004 Talentförderung",
+      "coarseSubjects": [
+        "Education"
+      ]
+    },
+    {
+      "episodeNumber": 5,
+      "title": "FG005 Wissenschaftskommunikation",
+      "coarseSubjects": [
+        "Forschung"
+      ]
+    },
+    {
+      "episodeNumber": 6,
+      "title": "FG006 Die Bildung und das Web",
+      "coarseSubjects": [
+        "Education",
+        "Technology"
+      ]
+    },
+    {
+      "episodeNumber": 7,
+      "title": "FG007 Die deutsche Sprache und die Wissenschaften",
+      "coarseSubjects": [
+        "Sonstige",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 8,
+      "title": "FG008 Wirtschaftskriminalität",
+      "coarseSubjects": [
+        "Technologie",
+        "Wirtschaft"
+      ]
+    },
+    {
+      "episodeNumber": 9,
+      "title": "FG009 Wirtschaftspolitischer Journalismus",
+      "coarseSubjects": [
+        "Education",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 10,
+      "title": "FG010 Wissenschaft im Dialog",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 11,
+      "title": "FG011 Lehren und Lernen in digitalen Zeiten",
+      "coarseSubjects": [
+        "Education",
+        "Ethik",
+        "Technology",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 12,
+      "title": "FG012 Energieforschung",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 13,
+      "title": "FG013 Horizont 2020",
+      "coarseSubjects": [
+        "Forschung",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 14,
+      "title": "FG014 Wissenschaftsgeschichte Asiens",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 15,
+      "title": "FG015 Wissenschaftsmanagement",
+      "coarseSubjects": [
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 16,
+      "title": "FG016 Open Science",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 17,
+      "title": "FG017 Forschen und Lehren in Cambridge",
+      "coarseSubjects": [
+        "Bildung"
+      ]
+    },
+    {
+      "episodeNumber": 18,
+      "title": "FG018 Die Vermessung der Welt",
+      "coarseSubjects": [
+        "Technologie",
+        "Wirtschaft",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 19,
+      "title": "FG019 Cradle To Cradle",
+      "coarseSubjects": [
+        "Umwelt",
+        "Wirtschaft"
+      ]
+    },
+    {
+      "episodeNumber": 20,
+      "title": "FG020 Wissenschaftsfinanzierung",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 21,
+      "title": "FG021 Spielen und Lernen",
+      "coarseSubjects": [
+        "Education"
+      ]
+    },
+    {
+      "episodeNumber": 22,
+      "title": "FG022 Hochschullehre Digital",
+      "coarseSubjects": [
+        "Bildung",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 23,
+      "title": "FG023 Welt in Balance",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 24,
+      "title": "FG024 Nachhaltige Chemie und das Wasser",
+      "coarseSubjects": [
+        "Umwelt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 25,
+      "title": "FG025 Transformative Wissenschaft",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 26,
+      "title": "FG026 Gottfried Wilhelm Leibniz",
+      "coarseSubjects": [
+        "Ethik",
+        "Gesellschaft",
+        "Sonstige",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 27,
+      "title": "FG027 Vertrauen und Kontrolle in der Wissenschaft",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 28,
+      "title": "FG028 Moore, Paludikultur und das Klima",
+      "coarseSubjects": [
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 29,
+      "title": "FG029 Meeresforschung und Tiefsee",
+      "coarseSubjects": [
+        "Technologie",
+        "Umwelt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 30,
+      "title": "FG030 Konflikt- und Gewaltforschung",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Psychologie"
+      ]
+    },
+    {
+      "episodeNumber": 31,
+      "title": "FG031 Abenteuer Mathematik",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 32,
+      "title": "FG032 Hochschule und Zivilgesellschaft",
+      "coarseSubjects": [
+        "Bildung",
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 33,
+      "title": "FG033 Cusanus-Hochschule",
+      "coarseSubjects": [
+        "Bildung"
+      ]
+    },
+    {
+      "episodeNumber": 34,
+      "title": "FG034 Werner Heisenberg",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 35,
+      "title": "FG035 Science Slams und Wissenschaftskommunikation",
+      "coarseSubjects": [
+        "Sonstige",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 36,
+      "title": "FG036 Internationalisierung der Forschung",
+      "coarseSubjects": [
+        "Bildung",
+        "Forschung"
+      ]
+    },
+    {
+      "episodeNumber": 37,
+      "title": "FG037 Freies Wissen und Open Data",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 38,
+      "title": "FG038 Politische Zäsuren und das Recht",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 39,
+      "title": "FG039 Das Anthropozän",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 40,
+      "title": "FG040 Stadt und Gesundheit",
+      "coarseSubjects": [
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 41,
+      "title": "FG041 Klassische Archäologie",
+      "coarseSubjects": [
+        "Sonstige",
+        "Technology"
+      ]
+    },
+    {
+      "episodeNumber": 42,
+      "title": "FG042 Neues Lehren und Lernen an der Fachhochschule",
+      "coarseSubjects": [
+        "Bildung",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 43,
+      "title": "FG043 Schule und Lernen in der digitalen Welt",
+      "coarseSubjects": [
+        "Bildung",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 44,
+      "title": "FG044 Digitalisierung der Bibliotheken",
+      "coarseSubjects": [
+        "Bildung",
+        "Gesellschaft",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 45,
+      "title": "FG045 Martin Luther",
+      "coarseSubjects": [
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 46,
+      "title": "FG046 Bienenforschung",
+      "coarseSubjects": [
+        "Biologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 47,
+      "title": "FG047 Wüstenforschung",
+      "coarseSubjects": [
+        "Umwelt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 48,
+      "title": "FG048 Die Zukunftsmacher",
+      "coarseSubjects": [
+        "Bildung",
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 49,
+      "title": "FG049 Open Educational Resources",
+      "coarseSubjects": [
+        "Education"
+      ]
+    },
+    {
+      "episodeNumber": 50,
+      "title": "FG050 Duft und Riechen",
+      "coarseSubjects": [
+        "Psychologie",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 51,
+      "title": "FG051 Gründungsmanagement",
+      "coarseSubjects": [
+        "Education",
+        "Wirtschaft"
+      ]
+    },
+    {
+      "episodeNumber": 52,
+      "title": "FG052 Deutsches Museum Bonn",
+      "coarseSubjects": [
+        "Education",
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 53,
+      "title": "FG053 Energiewende",
+      "coarseSubjects": [
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 54,
+      "title": "FG054 Urbane Resilienz",
+      "coarseSubjects": [
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 55,
+      "title": "FG055 Die Kunst des Wissens",
+      "coarseSubjects": [
+        "Bildung",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 56,
+      "title": "FG056 Die digitale Medizin",
+      "coarseSubjects": [
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 57,
+      "title": "FG057 Artenschutz und Zoos",
+      "coarseSubjects": [
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 58,
+      "title": "FG058 Fischerei",
+      "coarseSubjects": [
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 59,
+      "title": "FG059 Digitale Didaktik",
+      "coarseSubjects": [
+        "Education"
+      ]
+    },
+    {
+      "episodeNumber": 60,
+      "title": "FG060 Klimawandel",
+      "coarseSubjects": [
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 61,
+      "title": "FG061 Persönlichkeitsentwicklung",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Psychologie"
+      ]
+    },
+    {
+      "episodeNumber": 62,
+      "title": "FG062 Leichte Sprache",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 63,
+      "title": "FG063 Geothermie",
+      "coarseSubjects": [
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 64,
+      "title": "FG064 Ethik und Genetik",
+      "coarseSubjects": [
+        "Ethik",
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 65,
+      "title": "FG065 Feuerökologie",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 66,
+      "title": "FG066 Klimaneutralität",
+      "coarseSubjects": [
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 67,
+      "title": "FG067 Datenbasierte Konfliktforschung",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 68,
+      "title": "FG068 Risikoforschung",
+      "coarseSubjects": [
+        "Psychologie",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 69,
+      "title": "FG069 Islamische Ästhetik",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 70,
+      "title": "FG070 Nachhaltigkeit und die Stadt",
+      "coarseSubjects": [
+        "Bildung",
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 71,
+      "title": "FG071 Wirtschaft und Wettbewerb",
+      "coarseSubjects": [
+        "Wirtschaft"
+      ]
+    },
+    {
+      "episodeNumber": 72,
+      "title": "FG072 Verantwortung in der Informatik",
+      "coarseSubjects": [
+        "Bildung",
+        "Ethik",
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 73,
+      "title": "FG073 Klimawandel in Seen",
+      "coarseSubjects": [
+        "Umwelt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 74,
+      "title": "FG074 Stoffwechselforschung",
+      "coarseSubjects": [
+        "Biologie",
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 75,
+      "title": "FG075 Literatur und Digitalisierung",
+      "coarseSubjects": [
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 76,
+      "title": "FG076 Mobilität und Gesellschaft",
+      "coarseSubjects": [
+        "Sonstige",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 77,
+      "title": "FG077 Organisationsforschung",
+      "coarseSubjects": [
+        "Sonstige",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 78,
+      "title": "FG078 Angst und Zukunft",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Psychologie"
+      ]
+    },
+    {
+      "episodeNumber": 79,
+      "title": "FG079 Wüstenforschung (Teil 2)",
+      "coarseSubjects": [
+        "Biologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 80,
+      "title": "FG080 Medien und Meinungsbildung",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 81,
+      "title": "FG081 Wissenschaftskommunikation in Krisen",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 82,
+      "title": "FG082 Kriminalbiologie",
+      "coarseSubjects": [
+        "Biologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 83,
+      "title": "FG083 Bioengineering",
+      "coarseSubjects": [
+        "Biologie",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 84,
+      "title": "FG084 Evidenzbasierte Medizin",
+      "coarseSubjects": [
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 85,
+      "title": "FG085 Coronavirus Structural Task Force",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 86,
+      "title": "FG086 Klugscheißen im Fernsehen",
+      "coarseSubjects": [
+        "Gesundheit",
+        "Sonstige",
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 87,
+      "title": "FG087 Computertomographie",
+      "coarseSubjects": [
+        "Gesellschaft"
+      ]
+    },
+    {
+      "episodeNumber": 88,
+      "title": "FG088 Reifen aus Löwenzahn",
+      "coarseSubjects": [
+        "Umwelt",
+        "Wirtschaft"
+      ]
+    },
+    {
+      "episodeNumber": 89,
+      "title": "FG089 Geometrie und Visualisierung",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 90,
+      "title": "FG090 Angeln und Naturschutz",
+      "coarseSubjects": [
+        "Umwelt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 91,
+      "title": "FG091 Sprunginnovationen",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 92,
+      "title": "FG092 Innovationen kreativ ermöglichen",
+      "coarseSubjects": [
+        "Gesellschaft",
+        "Wirtschaft"
+      ]
+    },
+    {
+      "episodeNumber": 93,
+      "title": "FG093 Solarstrom für Mieter",
+      "coarseSubjects": [
+        "Sonstige",
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 94,
+      "title": "FG094 Vulkanologie",
+      "coarseSubjects": [
+        "Umwelt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 95,
+      "title": "FG095 Federated Secure Computing",
+      "coarseSubjects": [
+        "Sonstige",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 96,
+      "title": "FG096 Tierstimmenarchiv",
+      "coarseSubjects": [
+        "Bildung",
+        "Umwelt"
+      ]
+    },
+    {
+      "episodeNumber": 97,
+      "title": "FG097 Hacker School",
+      "coarseSubjects": [
+        "Bildung"
+      ]
+    },
+    {
+      "episodeNumber": 98,
+      "title": "FG098 Philosophie kommunizieren",
+      "coarseSubjects": [
+        "Bildung",
+        "Ethik"
+      ]
+    },
+    {
+      "episodeNumber": 99,
+      "title": "FG099 Biodiversität von Mikroorganismen",
+      "coarseSubjects": [
+        "Biologie",
+        "Gesellschaft",
+        "Wissenschaft"
+      ]
+    }
+  ],
+  "reverseIndex": {
+    "Bildung": [
+      {
+        "episodeNumber": 17,
+        "title": "FG017 Forschen und Lehren in Cambridge",
+        "topic": "Akademisches System in England",
+        "fine": "Hochschulwesen"
+      },
+      {
+        "episodeNumber": 22,
+        "title": "FG022 Hochschullehre Digital",
+        "topic": "Digitalisierung in der Hochschullehre",
+        "fine": "Hochschullehre"
+      },
+      {
+        "episodeNumber": 22,
+        "title": "FG022 Hochschullehre Digital",
+        "topic": "Mehrwerte durch digitale Lehre",
+        "fine": "Lernmethoden"
+      },
+      {
+        "episodeNumber": 32,
+        "title": "FG032 Hochschule und Zivilgesellschaft",
+        "topic": "Hochschule und Zivilgesellschaft",
+        "fine": "Hochschulbildung"
+      },
+      {
+        "episodeNumber": 33,
+        "title": "FG033 Cusanus-Hochschule",
+        "topic": "Akademische Selbstgründung",
+        "fine": "Hochschulen"
+      },
+      {
+        "episodeNumber": 33,
+        "title": "FG033 Cusanus-Hochschule",
+        "topic": "Alternative Bildungssysteme",
+        "fine": "Bildungsansätze"
+      },
+      {
+        "episodeNumber": 36,
+        "title": "FG036 Internationalisierung der Forschung",
+        "topic": "Hochschulbildung als globaler Markt",
+        "fine": "Hochschulbildung"
+      },
+      {
+        "episodeNumber": 42,
+        "title": "FG042 Neues Lehren und Lernen an der Fachhochschule",
+        "topic": "Neues Lehren und Lernen",
+        "fine": "Hochschulbildung"
+      },
+      {
+        "episodeNumber": 42,
+        "title": "FG042 Neues Lehren und Lernen an der Fachhochschule",
+        "topic": "Experimentelle Elemente in der Ausbildung",
+        "fine": "Praktische Ausbildung"
+      },
+      {
+        "episodeNumber": 43,
+        "title": "FG043 Schule und Lernen in der digitalen Welt",
+        "topic": "Schulsystem im Wandel",
+        "fine": "Schulsystem"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "FG044 Digitalisierung der Bibliotheken",
+        "topic": "Aufgaben des Bibliothekswesens",
+        "fine": "Bibliotheken"
+      },
+      {
+        "episodeNumber": 48,
+        "title": "FG048 Die Zukunftsmacher",
+        "topic": "Universitäten als Communities",
+        "fine": "Hochschulen"
+      },
+      {
+        "episodeNumber": 55,
+        "title": "FG055 Die Kunst des Wissens",
+        "topic": "Änderungen in der Bildung",
+        "fine": "Bildungsreform"
+      },
+      {
+        "episodeNumber": 70,
+        "title": "FG070 Nachhaltigkeit und die Stadt",
+        "topic": "Wissenschaftliche Vorgehensweise",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "FG072 Verantwortung in der Informatik",
+        "topic": "Denkweisen in der Informatik",
+        "fine": "Informatik"
+      },
+      {
+        "episodeNumber": 96,
+        "title": "FG096 Tierstimmenarchiv",
+        "topic": "Museum für Naturkunde",
+        "fine": "Museen"
+      },
+      {
+        "episodeNumber": 97,
+        "title": "FG097 Hacker School",
+        "topic": "Programmieren für Jugendliche",
+        "fine": "Programmierung"
+      },
+      {
+        "episodeNumber": 97,
+        "title": "FG097 Hacker School",
+        "topic": "Hacker School",
+        "fine": "Technologie"
+      },
+      {
+        "episodeNumber": 97,
+        "title": "FG097 Hacker School",
+        "topic": "Frühe Förderung von Technikinteresse",
+        "fine": "Technik"
+      },
+      {
+        "episodeNumber": 97,
+        "title": "FG097 Hacker School",
+        "topic": "Entwicklung von Programmierfähigkeiten",
+        "fine": "Fähigkeiten"
+      },
+      {
+        "episodeNumber": 98,
+        "title": "FG098 Philosophie kommunizieren",
+        "topic": "Vermittlung von philosophischen Inhalten",
+        "fine": "Philosophievermittlung"
+      }
+    ],
+    "Biologie": [
+      {
+        "episodeNumber": 46,
+        "title": "FG046 Bienenforschung",
+        "topic": "Wesen der Honigbienen",
+        "fine": "Insekten"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "FG074 Stoffwechselforschung",
+        "topic": "Evolution",
+        "fine": "Evolutionstheorie"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "FG079 Wüstenforschung (Teil 2)",
+        "topic": "Lebensformen in Wüsten",
+        "fine": "Tier- und Pflanzenwelt"
+      },
+      {
+        "episodeNumber": 99,
+        "title": "FG099 Biodiversität von Mikroorganismen",
+        "topic": "Biodiversität von Mikroorganismen",
+        "fine": "Mikrobiologie"
+      },
+      {
+        "episodeNumber": 82,
+        "title": "FG082 Kriminalbiologie",
+        "topic": "Kriminalistische Spurensuche",
+        "fine": "Spurensuche"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "FG083 Bioengineering",
+        "topic": "Bekämpfung von Krankheiten",
+        "fine": "Krankheitsbekämpfung"
+      }
+    ],
+    "Education": [
+      {
+        "episodeNumber": 4,
+        "title": "FG004 Talentförderung",
+        "topic": "Talentscouting",
+        "fine": "Talent Development"
+      },
+      {
+        "episodeNumber": 4,
+        "title": "FG004 Talentförderung",
+        "topic": "Hochschulausbildung",
+        "fine": "Higher Education"
+      },
+      {
+        "episodeNumber": 6,
+        "title": "FG006 Die Bildung und das Web",
+        "topic": "Bildungssystem",
+        "fine": "System"
+      },
+      {
+        "episodeNumber": 9,
+        "title": "FG009 Wirtschaftspolitischer Journalismus",
+        "topic": "Lehre und Forschung im Journalismus",
+        "fine": "Journalism"
+      },
+      {
+        "episodeNumber": 11,
+        "title": "FG011 Lehren und Lernen in digitalen Zeiten",
+        "topic": "Lehren und Lernen in digitalen Zeiten",
+        "fine": "Digital Learning"
+      },
+      {
+        "episodeNumber": 21,
+        "title": "FG021 Spielen und Lernen",
+        "topic": "Serious Games",
+        "fine": "Learning Tools"
+      },
+      {
+        "episodeNumber": 21,
+        "title": "FG021 Spielen und Lernen",
+        "topic": "Lernen durch Spielen",
+        "fine": "Game-Based Learning"
+      },
+      {
+        "episodeNumber": 49,
+        "title": "FG049 Open Educational Resources",
+        "topic": "Open Educational Resources",
+        "fine": "Digital Resources"
+      },
+      {
+        "episodeNumber": 49,
+        "title": "FG049 Open Educational Resources",
+        "topic": "Chancen des Lehrens",
+        "fine": "Teaching Methods"
+      },
+      {
+        "episodeNumber": 51,
+        "title": "FG051 Gründungsmanagement",
+        "topic": "Gründerkultur an der Universität",
+        "fine": "University Programs"
+      },
+      {
+        "episodeNumber": 51,
+        "title": "FG051 Gründungsmanagement",
+        "topic": "Lehre im Gründungsmanagement",
+        "fine": "Entrepreneurship Education"
+      },
+      {
+        "episodeNumber": 52,
+        "title": "FG052 Deutsches Museum Bonn",
+        "topic": "Moderne Wissensvermittlung",
+        "fine": "Museum Education"
+      },
+      {
+        "episodeNumber": 59,
+        "title": "FG059 Digitale Didaktik",
+        "topic": "Digitale Medien im Schulunterricht",
+        "fine": "Digital Media"
+      },
+      {
+        "episodeNumber": 59,
+        "title": "FG059 Digitale Didaktik",
+        "topic": "Kulturelle Aspekte der digitalen Didaktik",
+        "fine": "Cultural Studies"
+      }
+    ],
+    "Ethik": [
+      {
+        "episodeNumber": 3,
+        "title": "FG003 Autonomer Verkehr",
+        "topic": "Moralisch-ethische Fragestellungen im autonomen Verkehr",
+        "fine": "Technologie"
+      },
+      {
+        "episodeNumber": 64,
+        "title": "FG064 Ethik und Genetik",
+        "topic": "Ethische Fragen in der Genetik",
+        "fine": "Genetik"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "FG072 Verantwortung in der Informatik",
+        "topic": "Verantwortung in der Informatik",
+        "fine": "Informatik"
+      },
+      {
+        "episodeNumber": 11,
+        "title": "FG011 Lehren und Lernen in digitalen Zeiten",
+        "topic": "Philosophie",
+        "fine": "Existentialism"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "FG026 Gottfried Wilhelm Leibniz",
+        "topic": "Porträt von Gottfried Wilhelm Leibniz",
+        "fine": "Leibniz"
+      },
+      {
+        "episodeNumber": 98,
+        "title": "FG098 Philosophie kommunizieren",
+        "topic": "Bedeutung der Philosophie für die Gesellschaft",
+        "fine": "Gesellschaft"
+      }
+    ],
+    "Forschung": [
+      {
+        "episodeNumber": 5,
+        "title": "FG005 Wissenschaftskommunikation",
+        "topic": "Wissenschaftskommunikation",
+        "fine": "Öffentlichkeitsarbeit"
+      },
+      {
+        "episodeNumber": 13,
+        "title": "FG013 Horizont 2020",
+        "topic": "Horizont 2020",
+        "fine": "EU-Programme"
+      },
+      {
+        "episodeNumber": 36,
+        "title": "FG036 Internationalisierung der Forschung",
+        "topic": "Vernetzung in der Forschung",
+        "fine": "Vernetzung"
+      },
+      {
+        "episodeNumber": 36,
+        "title": "FG036 Internationalisierung der Forschung",
+        "topic": "Internationale Kooperation",
+        "fine": "Kooperation"
+      }
+    ],
+    "Gesellschaft": [
+      {
+        "episodeNumber": 3,
+        "title": "FG003 Autonomer Verkehr",
+        "topic": "Gesellschaftliche Implikationen des autonomen Verkehrs",
+        "fine": "Verkehrstechnologien"
+      },
+      {
+        "episodeNumber": 23,
+        "title": "FG023 Welt in Balance",
+        "topic": "Zukunft der Welt",
+        "fine": "Zukunftsvisionen"
+      },
+      {
+        "episodeNumber": 31,
+        "title": "FG031 Abenteuer Mathematik",
+        "topic": "Mathematik in der Gesellschaft",
+        "fine": "Mathematik"
+      },
+      {
+        "episodeNumber": 38,
+        "title": "FG038 Politische Zäsuren und das Recht",
+        "topic": "Bedeutung für die Stabilität einer Gesellschaft",
+        "fine": "Stabilität"
+      },
+      {
+        "episodeNumber": 39,
+        "title": "FG039 Das Anthropozän",
+        "topic": "Einfluss des Menschen",
+        "fine": "Mensch und Umwelt"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "FG044 Digitalisierung der Bibliotheken",
+        "topic": "Zukunft des Bibliothekswesens",
+        "fine": "Wandel der Informationsvermittlung"
+      },
+      {
+        "episodeNumber": 62,
+        "title": "FG062 Leichte Sprache",
+        "topic": "Barrierefreiheit",
+        "fine": "Inklusion"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "FG065 Feuerökologie",
+        "topic": "Auswirkungen des Klimawandels auf die Feuerwehr",
+        "fine": "Feuerwehrwesen"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "FG072 Verantwortung in der Informatik",
+        "topic": "Gesellschaftliche Bedeutung der Informatik",
+        "fine": "Technologie"
+      },
+      {
+        "episodeNumber": 78,
+        "title": "FG078 Angst und Zukunft",
+        "topic": "Handlungsfähigkeit in Krisenzeiten",
+        "fine": "Krisenmanagement"
+      },
+      {
+        "episodeNumber": 78,
+        "title": "FG078 Angst und Zukunft",
+        "topic": "Zukunftsperspektiven",
+        "fine": "Zukunftsforschung"
+      },
+      {
+        "episodeNumber": 81,
+        "title": "FG081 Wissenschaftskommunikation in Krisen",
+        "topic": "Öffentlichkeit",
+        "fine": "Öffentlichkeit"
+      },
+      {
+        "episodeNumber": 81,
+        "title": "FG081 Wissenschaftskommunikation in Krisen",
+        "topic": "Deutungshoheit",
+        "fine": "Meinungsbildung"
+      },
+      {
+        "episodeNumber": 92,
+        "title": "FG092 Innovationen kreativ ermöglichen",
+        "topic": "Disruption in der Gesellschaft",
+        "fine": "Disruption"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "FG026 Gottfried Wilhelm Leibniz",
+        "topic": "Leibniz als Diplomat",
+        "fine": "Diplomatie"
+      },
+      {
+        "episodeNumber": 92,
+        "title": "FG092 Innovationen kreativ ermöglichen",
+        "topic": "Kreativität in der Politik",
+        "fine": "Kreativität"
+      },
+      {
+        "episodeNumber": 99,
+        "title": "FG099 Biodiversität von Mikroorganismen",
+        "topic": "Wissenschaftspolitik",
+        "fine": "Wissenschaftspolitik"
+      },
+      {
+        "episodeNumber": 30,
+        "title": "FG030 Konflikt- und Gewaltforschung",
+        "topic": "Konfliktforschung",
+        "fine": "Konflikte"
+      },
+      {
+        "episodeNumber": 30,
+        "title": "FG030 Konflikt- und Gewaltforschung",
+        "topic": "Gewaltforschung",
+        "fine": "Gewalt"
+      },
+      {
+        "episodeNumber": 32,
+        "title": "FG032 Hochschule und Zivilgesellschaft",
+        "topic": "Mission Gesellschaft",
+        "fine": "Gesellschaftliches Engagement"
+      },
+      {
+        "episodeNumber": 37,
+        "title": "FG037 Freies Wissen und Open Data",
+        "topic": "Freies Wissen",
+        "fine": "Wissen"
+      },
+      {
+        "episodeNumber": 69,
+        "title": "FG069 Islamische Ästhetik",
+        "topic": "Ästhetik der modernen Produktwelt",
+        "fine": "Islamische Kultur"
+      },
+      {
+        "episodeNumber": 40,
+        "title": "FG040 Stadt und Gesundheit",
+        "topic": "Stadt und Gesundheit",
+        "fine": "Gesundheitseinflüsse"
+      },
+      {
+        "episodeNumber": 40,
+        "title": "FG040 Stadt und Gesundheit",
+        "topic": "Chancen der Stadt",
+        "fine": "Lebensqualität"
+      },
+      {
+        "episodeNumber": 40,
+        "title": "FG040 Stadt und Gesundheit",
+        "topic": "Bedrohungen der Stadt",
+        "fine": "Umweltfaktoren"
+      },
+      {
+        "episodeNumber": 52,
+        "title": "FG052 Deutsches Museum Bonn",
+        "topic": "Museum und Science Center",
+        "fine": "Exhibitions"
+      },
+      {
+        "episodeNumber": 54,
+        "title": "FG054 Urbane Resilienz",
+        "topic": "Wandlungsfähigkeit des städtischen Raums",
+        "fine": "Stadtentwicklung"
+      },
+      {
+        "episodeNumber": 54,
+        "title": "FG054 Urbane Resilienz",
+        "topic": "Evolution des städtischen Raums",
+        "fine": "Stadtgeschichte"
+      },
+      {
+        "episodeNumber": 54,
+        "title": "FG054 Urbane Resilienz",
+        "topic": "Widerstandsfähigkeit von Städten",
+        "fine": "Resilienz"
+      },
+      {
+        "episodeNumber": 56,
+        "title": "FG056 Die digitale Medizin",
+        "topic": "Digitale Medizin",
+        "fine": "Digitale Technologien"
+      },
+      {
+        "episodeNumber": 56,
+        "title": "FG056 Die digitale Medizin",
+        "topic": "Apps in der Medizin",
+        "fine": "Medizinische Apps"
+      },
+      {
+        "episodeNumber": 56,
+        "title": "FG056 Die digitale Medizin",
+        "topic": "Big Data in der Medizin",
+        "fine": "Datenanalyse"
+      },
+      {
+        "episodeNumber": 56,
+        "title": "FG056 Die digitale Medizin",
+        "topic": "Ärzte und Patientenrolle",
+        "fine": "Rollenveränderung"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "FG074 Stoffwechselforschung",
+        "topic": "Ernährungssystem",
+        "fine": "Ernährung"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "FG074 Stoffwechselforschung",
+        "topic": "Übergewicht",
+        "fine": "Volkskrankheiten"
+      },
+      {
+        "episodeNumber": 78,
+        "title": "FG078 Angst und Zukunft",
+        "topic": "Psychische Gesundheit in einer sich ändernden Welt",
+        "fine": "Psychische Gesundheit"
+      },
+      {
+        "episodeNumber": 61,
+        "title": "FG061 Persönlichkeitsentwicklung",
+        "topic": "Wert der Unterschiede",
+        "fine": "Diversität"
+      },
+      {
+        "episodeNumber": 64,
+        "title": "FG064 Ethik und Genetik",
+        "topic": "Moderne genetische Verfahren",
+        "fine": "Genetik"
+      },
+      {
+        "episodeNumber": 84,
+        "title": "FG084 Evidenzbasierte Medizin",
+        "topic": "Evidenzbasierte Medizin",
+        "fine": "Evidenzbasierte Praxis"
+      },
+      {
+        "episodeNumber": 84,
+        "title": "FG084 Evidenzbasierte Medizin",
+        "topic": "Empirie in der Medizin",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 87,
+        "title": "FG087 Computertomographie",
+        "topic": "Nächste Generation von Computertomographen",
+        "fine": "Diagnosetechnologien"
+      },
+      {
+        "episodeNumber": 87,
+        "title": "FG087 Computertomographie",
+        "topic": "Neue Ära der medizinischen Diagnose",
+        "fine": "Diagnoseverfahren"
+      },
+      {
+        "episodeNumber": 67,
+        "title": "FG067 Datenbasierte Konfliktforschung",
+        "topic": "Menschenrechtsverletzungen",
+        "fine": "Violations"
+      },
+      {
+        "episodeNumber": 80,
+        "title": "FG080 Medien und Meinungsbildung",
+        "topic": "Meinungsbildung im Online-Zeitalter",
+        "fine": "Opinion Formation"
+      },
+      {
+        "episodeNumber": 91,
+        "title": "FG091 Sprunginnovationen",
+        "topic": "Bundesagentur für Sprunginnovationen",
+        "fine": "Forschung und Entwicklung"
+      }
+    ],
+    "Psychologie": [
+      {
+        "episodeNumber": 30,
+        "title": "FG030 Konflikt- und Gewaltforschung",
+        "topic": "Sozialpsychologie",
+        "fine": "Sozialpsychologie"
+      },
+      {
+        "episodeNumber": 50,
+        "title": "FG050 Duft und Riechen",
+        "topic": "Wahrnehmung über den Geruch",
+        "fine": "Sinneswahrnehmung"
+      },
+      {
+        "episodeNumber": 61,
+        "title": "FG061 Persönlichkeitsentwicklung",
+        "topic": "Persönlichkeitsentwicklung",
+        "fine": "Persönlichkeitstheorie"
+      },
+      {
+        "episodeNumber": 68,
+        "title": "FG068 Risikoforschung",
+        "topic": "Entscheidungsfindung",
+        "fine": "Entscheidungsprozesse"
+      },
+      {
+        "episodeNumber": 78,
+        "title": "FG078 Angst und Zukunft",
+        "topic": "Umgang mit Angst",
+        "fine": "Angstbewältigung"
+      }
+    ],
+    "Technologie": [
+      {
+        "episodeNumber": 7,
+        "title": "FG007 Die deutsche Sprache und die Wissenschaften",
+        "topic": "Einfluss der Sprache auf Technologie",
+        "fine": "Sprache in der Technologie"
+      },
+      {
+        "episodeNumber": 15,
+        "title": "FG015 Wissenschaftsmanagement",
+        "topic": "Digitalisierung",
+        "fine": "Digitalisierung"
+      },
+      {
+        "episodeNumber": 22,
+        "title": "FG022 Hochschullehre Digital",
+        "topic": "Chancen der Digitalisierung",
+        "fine": "Bildungstechnologie"
+      },
+      {
+        "episodeNumber": 29,
+        "title": "FG029 Meeresforschung und Tiefsee",
+        "topic": "Technologien zur Erforschung der Tiefsee",
+        "fine": "Forschungsausrüstung"
+      },
+      {
+        "episodeNumber": 37,
+        "title": "FG037 Freies Wissen und Open Data",
+        "topic": "Open Data",
+        "fine": "Daten"
+      },
+      {
+        "episodeNumber": 42,
+        "title": "FG042 Neues Lehren und Lernen an der Fachhochschule",
+        "topic": "Digitalisierung in der Ausbildung",
+        "fine": "Digitalisierung"
+      },
+      {
+        "episodeNumber": 43,
+        "title": "FG043 Schule und Lernen in der digitalen Welt",
+        "topic": "Herausforderungen der digitalen Welt",
+        "fine": "Digitale Bildung"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "FG044 Digitalisierung der Bibliotheken",
+        "topic": "Wandel des Bibliothekswesens",
+        "fine": "Digitalisierung"
+      },
+      {
+        "episodeNumber": 76,
+        "title": "FG076 Mobilität und Gesellschaft",
+        "topic": "Transformation durch Digitalisierung",
+        "fine": "Digitalisierung"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "FG083 Bioengineering",
+        "topic": "Technologische Entwicklungen",
+        "fine": "Bioengineering"
+      },
+      {
+        "episodeNumber": 8,
+        "title": "FG008 Wirtschaftskriminalität",
+        "topic": "White Collar Hacking Contest",
+        "fine": "Hacking"
+      },
+      {
+        "episodeNumber": 13,
+        "title": "FG013 Horizont 2020",
+        "topic": "Förderung von Innovation",
+        "fine": "Forschungsförderung"
+      },
+      {
+        "episodeNumber": 91,
+        "title": "FG091 Sprunginnovationen",
+        "topic": "Sprunginnovationen",
+        "fine": "Technologie"
+      },
+      {
+        "episodeNumber": 18,
+        "title": "FG018 Die Vermessung der Welt",
+        "topic": "Visualisierung von Daten",
+        "fine": "Visualization"
+      },
+      {
+        "episodeNumber": 18,
+        "title": "FG018 Die Vermessung der Welt",
+        "topic": "Offene Daten in der Forschung",
+        "fine": "Open Data"
+      },
+      {
+        "episodeNumber": 67,
+        "title": "FG067 Datenbasierte Konfliktforschung",
+        "topic": "Datenbasierte Konfliktforschung",
+        "fine": "Big Data"
+      },
+      {
+        "episodeNumber": 77,
+        "title": "FG077 Organisationsforschung",
+        "topic": "Wie die Digitalisierung Organisationen verändert",
+        "fine": "Organisationsentwicklung"
+      },
+      {
+        "episodeNumber": 95,
+        "title": "FG095 Federated Secure Computing",
+        "topic": "Offene Software-Werkzeuge",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 95,
+        "title": "FG095 Federated Secure Computing",
+        "topic": "Federated Secure Computing",
+        "fine": "Sichere Systeme"
+      }
+    ],
+    "Technology": [
+      {
+        "episodeNumber": 6,
+        "title": "FG006 Die Bildung und das Web",
+        "topic": "digitaler Wandel",
+        "fine": "Digital Transformation"
+      },
+      {
+        "episodeNumber": 11,
+        "title": "FG011 Lehren und Lernen in digitalen Zeiten",
+        "topic": "IBM",
+        "fine": "Computing"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "FG041 Klassische Archäologie",
+        "topic": "Werkzeuge der Zukunft",
+        "fine": "Innovative Tools"
+      }
+    ],
+    "Umwelt": [
+      {
+        "episodeNumber": 19,
+        "title": "FG019 Cradle To Cradle",
+        "topic": "Ansätze für eine Welt ohne Müll",
+        "fine": "Nachhaltigkeit"
+      },
+      {
+        "episodeNumber": 24,
+        "title": "FG024 Nachhaltige Chemie und das Wasser",
+        "topic": "Belastung des Wassers",
+        "fine": "Wasserqualität"
+      },
+      {
+        "episodeNumber": 28,
+        "title": "FG028 Moore, Paludikultur und das Klima",
+        "topic": "Bedeutung von Sümpfen für das Weltklima",
+        "fine": "Ökosysteme"
+      },
+      {
+        "episodeNumber": 29,
+        "title": "FG029 Meeresforschung und Tiefsee",
+        "topic": "Tiefseeökosysteme",
+        "fine": "Tiefsee"
+      },
+      {
+        "episodeNumber": 39,
+        "title": "FG039 Das Anthropozän",
+        "topic": "Anthropozän",
+        "fine": "Anthropozän"
+      },
+      {
+        "episodeNumber": 48,
+        "title": "FG048 Die Zukunftsmacher",
+        "topic": "Nachhaltige Entwicklung",
+        "fine": "Nachhaltigkeit"
+      },
+      {
+        "episodeNumber": 57,
+        "title": "FG057 Artenschutz und Zoos",
+        "topic": "Ausrottung der Arten",
+        "fine": "Biodiversität"
+      },
+      {
+        "episodeNumber": 58,
+        "title": "FG058 Fischerei",
+        "topic": "Fischerei und Umweltschutz",
+        "fine": "Nachhaltigkeit"
+      },
+      {
+        "episodeNumber": 60,
+        "title": "FG060 Klimawandel",
+        "topic": "Ozeanographie",
+        "fine": "Ozeane"
+      },
+      {
+        "episodeNumber": 60,
+        "title": "FG060 Klimawandel",
+        "topic": "Zukunft unseres Planeten",
+        "fine": "Klimawandel"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "FG065 Feuerökologie",
+        "topic": "Auswirkungen des Klimawandels auf die Natur",
+        "fine": "Klimawandel"
+      },
+      {
+        "episodeNumber": 66,
+        "title": "FG066 Klimaneutralität",
+        "topic": "Klimakompensation",
+        "fine": "Klimaschutz"
+      },
+      {
+        "episodeNumber": 66,
+        "title": "FG066 Klimaneutralität",
+        "topic": "Klimaneutralität",
+        "fine": "Nachhaltigkeit"
+      },
+      {
+        "episodeNumber": 70,
+        "title": "FG070 Nachhaltigkeit und die Stadt",
+        "topic": "Nachhaltigkeit in der Stadt",
+        "fine": "Stadtplanung"
+      },
+      {
+        "episodeNumber": 73,
+        "title": "FG073 Klimawandel in Seen",
+        "topic": "Auswirkungen des Klimawandels",
+        "fine": "Klimawandel"
+      },
+      {
+        "episodeNumber": 88,
+        "title": "FG088 Reifen aus Löwenzahn",
+        "topic": "Umweltbelastung reduzieren",
+        "fine": "Nachhaltigkeit"
+      },
+      {
+        "episodeNumber": 90,
+        "title": "FG090 Angeln und Naturschutz",
+        "topic": "Einfluss der Angelfischerei auf Ökosysteme",
+        "fine": "Ökosysteme"
+      },
+      {
+        "episodeNumber": 94,
+        "title": "FG094 Vulkanologie",
+        "topic": "Auswirkungen von Vulkanausbrüchen auf das Klima",
+        "fine": "Klimawandel"
+      },
+      {
+        "episodeNumber": 28,
+        "title": "FG028 Moore, Paludikultur und das Klima",
+        "topic": "Paludikultur und ihre Vorteile",
+        "fine": "Nachhaltige Praktiken"
+      },
+      {
+        "episodeNumber": 28,
+        "title": "FG028 Moore, Paludikultur und das Klima",
+        "topic": "Einfluss von Mooren auf den Klimawandel",
+        "fine": "Treibhausgase"
+      },
+      {
+        "episodeNumber": 47,
+        "title": "FG047 Wüstenforschung",
+        "topic": "Faszination der Wüste",
+        "fine": "Wüstenökologie"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "FG065 Feuerökologie",
+        "topic": "Natur des Feuers",
+        "fine": "Feuerökologie"
+      },
+      {
+        "episodeNumber": 96,
+        "title": "FG096 Tierstimmenarchiv",
+        "topic": "Tierstimmenarchiv",
+        "fine": "Tierwelt"
+      },
+      {
+        "episodeNumber": 53,
+        "title": "FG053 Energiewende",
+        "topic": "Energiewende",
+        "fine": "Nachhaltige Energieversorgung"
+      },
+      {
+        "episodeNumber": 63,
+        "title": "FG063 Geothermie",
+        "topic": "Geothermie als Energiewende",
+        "fine": "Geothermie"
+      },
+      {
+        "episodeNumber": 63,
+        "title": "FG063 Geothermie",
+        "topic": "Wärme aus der Tiefe",
+        "fine": "Wärmequellen"
+      },
+      {
+        "episodeNumber": 93,
+        "title": "FG093 Solarstrom für Mieter",
+        "topic": "Solarstrom für Mieter",
+        "fine": "Solarenergie"
+      },
+      {
+        "episodeNumber": 57,
+        "title": "FG057 Artenschutz und Zoos",
+        "topic": "Rolle der Zoos für den Artenschutz",
+        "fine": "Zoos"
+      },
+      {
+        "episodeNumber": 58,
+        "title": "FG058 Fischerei",
+        "topic": "Bedeutung der Fischerei für die Ernährung",
+        "fine": "Fischerei"
+      },
+      {
+        "episodeNumber": 86,
+        "title": "FG086 Klugscheißen im Fernsehen",
+        "topic": "Klimawandel",
+        "fine": "Climate Change"
+      }
+    ],
+    "Wirtschaft": [
+      {
+        "episodeNumber": 8,
+        "title": "FG008 Wirtschaftskriminalität",
+        "topic": "Bedrohungen für Unternehmen",
+        "fine": "Wirtschaftskriminalität"
+      },
+      {
+        "episodeNumber": 88,
+        "title": "FG088 Reifen aus Löwenzahn",
+        "topic": "Kooperation zwischen Industrie und Forschung",
+        "fine": "Forschung und Entwicklung"
+      },
+      {
+        "episodeNumber": 92,
+        "title": "FG092 Innovationen kreativ ermöglichen",
+        "topic": "Innovation in der Wirtschaft",
+        "fine": "Innovation"
+      },
+      {
+        "episodeNumber": 18,
+        "title": "FG018 Die Vermessung der Welt",
+        "topic": "Ökonomische Forschung",
+        "fine": "Research"
+      },
+      {
+        "episodeNumber": 71,
+        "title": "FG071 Wirtschaft und Wettbewerb",
+        "topic": "Wirtschaftssystem",
+        "fine": "Economic Systems"
+      },
+      {
+        "episodeNumber": 71,
+        "title": "FG071 Wirtschaft und Wettbewerb",
+        "topic": "Marktregulierungen",
+        "fine": "Market Regulation"
+      },
+      {
+        "episodeNumber": 19,
+        "title": "FG019 Cradle To Cradle",
+        "topic": "Neue Produktionsmethoden",
+        "fine": "Produktion"
+      },
+      {
+        "episodeNumber": 51,
+        "title": "FG051 Gründungsmanagement",
+        "topic": "Maßnahmen zur Förderung von Gründern",
+        "fine": "Startup Support"
+      }
+    ],
+    "Wissenschaft": [
+      {
+        "episodeNumber": 1,
+        "title": "FG001 Geschichte der Wissenschaften",
+        "topic": "Geschichte der Wissenschaften",
+        "fine": "Geschichte"
+      },
+      {
+        "episodeNumber": 1,
+        "title": "FG001 Geschichte der Wissenschaften",
+        "topic": "Zukunft der Wissenschaft",
+        "fine": "Zukunft"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "FG002 Citizen Science",
+        "topic": "Bürgerwissenschaften",
+        "fine": "Bürgerwissenschaft"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "FG002 Citizen Science",
+        "topic": "Ergänzung des professionellen Wissenschaftsbetriebs",
+        "fine": "Wissenschaftsbetrieb"
+      },
+      {
+        "episodeNumber": 7,
+        "title": "FG007 Die deutsche Sprache und die Wissenschaften",
+        "topic": "Sprache und Wissenschaft",
+        "fine": "Wissenschaftskommunikation"
+      },
+      {
+        "episodeNumber": 10,
+        "title": "FG010 Wissenschaft im Dialog",
+        "topic": "Vernetzung im wissenschaftlichen Betrieb",
+        "fine": "Vernetzung"
+      },
+      {
+        "episodeNumber": 10,
+        "title": "FG010 Wissenschaft im Dialog",
+        "topic": "Innovationen in der Wissenschaft",
+        "fine": "Innovationen"
+      },
+      {
+        "episodeNumber": 10,
+        "title": "FG010 Wissenschaft im Dialog",
+        "topic": "Öffentlichkeitsarbeit in der Wissenschaft",
+        "fine": "Öffentlichkeitsarbeit"
+      },
+      {
+        "episodeNumber": 12,
+        "title": "FG012 Energieforschung",
+        "topic": "Energieprobleme",
+        "fine": "Energieforschung"
+      },
+      {
+        "episodeNumber": 12,
+        "title": "FG012 Energieforschung",
+        "topic": "Lösungen für Energieprobleme",
+        "fine": "Energiepolitik"
+      },
+      {
+        "episodeNumber": 14,
+        "title": "FG014 Wissenschaftsgeschichte Asiens",
+        "topic": "Forschung im asiatischen Raum",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 15,
+        "title": "FG015 Wissenschaftsmanagement",
+        "topic": "Internationalisierung",
+        "fine": "Internationalisierung"
+      },
+      {
+        "episodeNumber": 15,
+        "title": "FG015 Wissenschaftsmanagement",
+        "topic": "Wissenstransfer",
+        "fine": "Wissenstransfer"
+      },
+      {
+        "episodeNumber": 16,
+        "title": "FG016 Open Science",
+        "topic": "Neues Modell wissenschaftlichen Publizierens",
+        "fine": "Open Science"
+      },
+      {
+        "episodeNumber": 16,
+        "title": "FG016 Open Science",
+        "topic": "Forschungsmethoden",
+        "fine": "Forschungsansätze"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "FG020 Wissenschaftsfinanzierung",
+        "topic": "Wissenschaftsfinanzierung in Deutschland",
+        "fine": "Finanzierung"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "FG020 Wissenschaftsfinanzierung",
+        "topic": "Rolle der öffentlichen Hand in der Forschung",
+        "fine": "Öffentliche Finanzierung"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "FG020 Wissenschaftsfinanzierung",
+        "topic": "Private Geldgeber in der Wissenschaft",
+        "fine": "Private Finanzierung"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "FG020 Wissenschaftsfinanzierung",
+        "topic": "Einfluss von Förderprogrammen auf Forschungsprojekte",
+        "fine": "Förderprogramme"
+      },
+      {
+        "episodeNumber": 23,
+        "title": "FG023 Welt in Balance",
+        "topic": "Verantwortung der Wissenschaft",
+        "fine": "Ethik"
+      },
+      {
+        "episodeNumber": 25,
+        "title": "FG025 Transformative Wissenschaft",
+        "topic": "Nachhaltigkeit in der Wissenschaft",
+        "fine": "Nachhaltigkeit"
+      },
+      {
+        "episodeNumber": 25,
+        "title": "FG025 Transformative Wissenschaft",
+        "topic": "Vernetzung in der Wissenschaft",
+        "fine": "Vernetzung"
+      },
+      {
+        "episodeNumber": 25,
+        "title": "FG025 Transformative Wissenschaft",
+        "topic": "Wandel der Wissenschaft",
+        "fine": "Transformation"
+      },
+      {
+        "episodeNumber": 27,
+        "title": "FG027 Vertrauen und Kontrolle in der Wissenschaft",
+        "topic": "Reproduzierbarkeit von Studien",
+        "fine": "Studienqualität"
+      },
+      {
+        "episodeNumber": 27,
+        "title": "FG027 Vertrauen und Kontrolle in der Wissenschaft",
+        "topic": "Methoden zur Qualitätskontrolle",
+        "fine": "Qualitätsmanagement"
+      },
+      {
+        "episodeNumber": 29,
+        "title": "FG029 Meeresforschung und Tiefsee",
+        "topic": "Bedeutung der Meeresforschung",
+        "fine": "Meeresbiologie"
+      },
+      {
+        "episodeNumber": 31,
+        "title": "FG031 Abenteuer Mathematik",
+        "topic": "Mathematik in der Wissenschaft",
+        "fine": "Mathematik"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "FG034 Werner Heisenberg",
+        "topic": "Die Revolution der Physik",
+        "fine": "Physik"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "FG034 Werner Heisenberg",
+        "topic": "Werner Heisenberg und seine Beiträge",
+        "fine": "Theoretische Physik"
+      },
+      {
+        "episodeNumber": 46,
+        "title": "FG046 Bienenforschung",
+        "topic": "Methoden der Bienenforschung",
+        "fine": "Forschungstechniken"
+      },
+      {
+        "episodeNumber": 46,
+        "title": "FG046 Bienenforschung",
+        "topic": "Stand der Erkenntnisse in der Bienenforschung",
+        "fine": "Bienenforschung"
+      },
+      {
+        "episodeNumber": 47,
+        "title": "FG047 Wüstenforschung",
+        "topic": "Erforschung der Wüste",
+        "fine": "Geographie"
+      },
+      {
+        "episodeNumber": 55,
+        "title": "FG055 Die Kunst des Wissens",
+        "topic": "Wirkung von Wissenschaft auf die Gesellschaft",
+        "fine": "Gesellschaft"
+      },
+      {
+        "episodeNumber": 73,
+        "title": "FG073 Klimawandel in Seen",
+        "topic": "Forschung an Binnenseen",
+        "fine": "Ökologie"
+      },
+      {
+        "episodeNumber": 81,
+        "title": "FG081 Wissenschaftskommunikation in Krisen",
+        "topic": "Wissenschaftskommunikation",
+        "fine": "Kommunikation"
+      },
+      {
+        "episodeNumber": 81,
+        "title": "FG081 Wissenschaftskommunikation in Krisen",
+        "topic": "Wissenschaftsjournalismus",
+        "fine": "Journalismus"
+      },
+      {
+        "episodeNumber": 82,
+        "title": "FG082 Kriminalbiologie",
+        "topic": "Angewandte Wissenschaft",
+        "fine": "Angewandte Wissenschaft"
+      },
+      {
+        "episodeNumber": 85,
+        "title": "FG085 Coronavirus Structural Task Force",
+        "topic": "Strukturbiologie des Coronavirus",
+        "fine": "Strukturbiologie"
+      },
+      {
+        "episodeNumber": 85,
+        "title": "FG085 Coronavirus Structural Task Force",
+        "topic": "Entschlüsselung der Coronavirus-Funktion",
+        "fine": "Virologie"
+      },
+      {
+        "episodeNumber": 90,
+        "title": "FG090 Angeln und Naturschutz",
+        "topic": "Transformative Wissenschaft im Angeln",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 94,
+        "title": "FG094 Vulkanologie",
+        "topic": "Entwicklung der Vulkanforschung",
+        "fine": "Vulkanologie"
+      },
+      {
+        "episodeNumber": 99,
+        "title": "FG099 Biodiversität von Mikroorganismen",
+        "topic": "Forschung an der DSMZ",
+        "fine": "Forschungsinstitute"
+      },
+      {
+        "episodeNumber": 11,
+        "title": "FG011 Lehren und Lernen in digitalen Zeiten",
+        "topic": "Mathematik",
+        "fine": "Mathematics"
+      },
+      {
+        "episodeNumber": 18,
+        "title": "FG018 Die Vermessung der Welt",
+        "topic": "Wissenschaftspublikation",
+        "fine": "Publication"
+      },
+      {
+        "episodeNumber": 35,
+        "title": "FG035 Science Slams und Wissenschaftskommunikation",
+        "topic": "Wissenschaftskommunikation",
+        "fine": "Wissenschaftskommunikation"
+      },
+      {
+        "episodeNumber": 14,
+        "title": "FG014 Wissenschaftsgeschichte Asiens",
+        "topic": "Entwicklung von Wissen in Asien",
+        "fine": "Asien"
+      },
+      {
+        "episodeNumber": 24,
+        "title": "FG024 Nachhaltige Chemie und das Wasser",
+        "topic": "Nachhaltige Chemie",
+        "fine": "Nachhaltigkeit"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "FG026 Gottfried Wilhelm Leibniz",
+        "topic": "Mathematische Beiträge von Leibniz",
+        "fine": "Infinitesimalrechnung"
+      },
+      {
+        "episodeNumber": 89,
+        "title": "FG089 Geometrie und Visualisierung",
+        "topic": "Formales Denken",
+        "fine": "Theorie"
+      },
+      {
+        "episodeNumber": 89,
+        "title": "FG089 Geometrie und Visualisierung",
+        "topic": "Visualisierung komplexer Mathematik",
+        "fine": "Visualisierung"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "FG079 Wüstenforschung (Teil 2)",
+        "topic": "Wüstenforschung",
+        "fine": "Geographie"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "FG079 Wüstenforschung (Teil 2)",
+        "topic": "Ökosysteme der Wüsten",
+        "fine": "Ökologie"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "FG079 Wüstenforschung (Teil 2)",
+        "topic": "Klima der Wüsten",
+        "fine": "Meteorologie"
+      }
+    ],
+    "Sonstige": [
+      {
+        "episodeNumber": 7,
+        "title": "FG007 Die deutsche Sprache und die Wissenschaften",
+        "topic": "Sprache und Denken",
+        "fine": "Kognitive Linguistik"
+      },
+      {
+        "episodeNumber": 9,
+        "title": "FG009 Wirtschaftspolitischer Journalismus",
+        "topic": "Wirtschaftspolitischer Journalismus",
+        "fine": "Journalism"
+      },
+      {
+        "episodeNumber": 9,
+        "title": "FG009 Wirtschaftspolitischer Journalismus",
+        "topic": "Qualität im Wirtschaftsjournalismus",
+        "fine": "Quality Standards"
+      },
+      {
+        "episodeNumber": 80,
+        "title": "FG080 Medien und Meinungsbildung",
+        "topic": "Aufkommen der Sozialen Medien",
+        "fine": "Social Media"
+      },
+      {
+        "episodeNumber": 80,
+        "title": "FG080 Medien und Meinungsbildung",
+        "topic": "Koexistenz mit klassischen Massenmedien",
+        "fine": "Mass Media"
+      },
+      {
+        "episodeNumber": 86,
+        "title": "FG086 Klugscheißen im Fernsehen",
+        "topic": "Wissenschaftsjournalismus im Fernsehen",
+        "fine": "Television"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "FG026 Gottfried Wilhelm Leibniz",
+        "topic": "Historische Einflüsse von Leibniz",
+        "fine": "Aufklärung"
+      },
+      {
+        "episodeNumber": 35,
+        "title": "FG035 Science Slams und Wissenschaftskommunikation",
+        "topic": "Science Slams",
+        "fine": "Science Slams"
+      },
+      {
+        "episodeNumber": 38,
+        "title": "FG038 Politische Zäsuren und das Recht",
+        "topic": "Wesen des Rechtssystems",
+        "fine": "Rechtsphilosophie"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "FG041 Klassische Archäologie",
+        "topic": "Klassische Archäologie",
+        "fine": "Archaeology"
+      },
+      {
+        "episodeNumber": 45,
+        "title": "FG045 Martin Luther",
+        "topic": "Martin Luther",
+        "fine": "Medieval Studies"
+      },
+      {
+        "episodeNumber": 45,
+        "title": "FG045 Martin Luther",
+        "topic": "Mittelalter",
+        "fine": "Medieval History"
+      },
+      {
+        "episodeNumber": 50,
+        "title": "FG050 Duft und Riechen",
+        "topic": "Welt der Düfte",
+        "fine": "Düfte"
+      },
+      {
+        "episodeNumber": 62,
+        "title": "FG062 Leichte Sprache",
+        "topic": "Leichte Sprache",
+        "fine": "Zugänglichkeit"
+      },
+      {
+        "episodeNumber": 68,
+        "title": "FG068 Risikoforschung",
+        "topic": "Fehlerkultur",
+        "fine": "Fehlermanagement"
+      },
+      {
+        "episodeNumber": 69,
+        "title": "FG069 Islamische Ästhetik",
+        "topic": "Einfluss der islamischen Ästhetik",
+        "fine": "Islamische Kunst"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "FG075 Literatur und Digitalisierung",
+        "topic": "Literaturforschung",
+        "fine": "Research Methods"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "FG075 Literatur und Digitalisierung",
+        "topic": "Digitalisierung in der Literatur",
+        "fine": "Digitalization"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "FG075 Literatur und Digitalisierung",
+        "topic": "Deutsches Literaturarchiv Marbach",
+        "fine": "Literary Archives"
+      },
+      {
+        "episodeNumber": 76,
+        "title": "FG076 Mobilität und Gesellschaft",
+        "topic": "Bedarf an Mobilität",
+        "fine": "Bedarf"
+      },
+      {
+        "episodeNumber": 77,
+        "title": "FG077 Organisationsforschung",
+        "topic": "Was Organisation und Organisationen ausmacht",
+        "fine": "Organisationsstruktur"
+      },
+      {
+        "episodeNumber": 86,
+        "title": "FG086 Klugscheißen im Fernsehen",
+        "topic": "Corona",
+        "fine": "Pandemics"
+      },
+      {
+        "episodeNumber": 93,
+        "title": "FG093 Solarstrom für Mieter",
+        "topic": "Marketing zur Energiewende",
+        "fine": "Energiewende"
+      },
+      {
+        "episodeNumber": 95,
+        "title": "FG095 Federated Secure Computing",
+        "topic": "private Daten",
+        "fine": "Privatsphäre"
+      }
+    ]
+  }
+}

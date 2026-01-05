@@ -111,6 +111,7 @@ onUnmounted(() => {
 
 const activeView = computed(() => {
   return route.name as
+    | 'subjects-river'
     | 'clusters-river'
     | 'speakers-river'
     | 'cluster-heatmap'
@@ -354,6 +355,17 @@ const submitAIChat = async () => {
               ]"
             >
               {{ t('nav.episodes') }}
+            </router-link>
+            <router-link
+              to="/subjects-river"
+              :class="[
+                'px-3 sm:px-4 md:px-6 py-2 md:py-3 text-sm md:text-base font-semibold border-b-2 transition-colors whitespace-nowrap',
+                activeView === 'subjects-river' 
+                  ? 'border-purple-500 text-purple-600 dark:text-purple-400' 
+                  : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
+              ]"
+            >
+              {{ t('nav.subjects') }}
             </router-link>
             <router-link
               to="/clusters-river"

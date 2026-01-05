@@ -3,6 +3,7 @@ import { useSettingsStore } from '../stores/settings';
 
 // Lazy load views for code splitting
 const TopicsView = () => import('../views/TopicsView.vue');
+const SubjectsView = () => import('../views/SubjectsView.vue');
 const SpeakersView = () => import('../views/SpeakersView.vue');
 const ClusterHeatmapView = () => import('../views/ClusterHeatmapView.vue');
 const SpeakerSpeakerHeatmapView = () => import('../views/SpeakerSpeakerHeatmapView.vue');
@@ -24,6 +25,11 @@ const router = createRouter({
       path: '/clusters-river',
       name: 'clusters-river',
       component: TopicsView
+    },
+    {
+      path: '/subjects-river',
+      name: 'subjects-river',
+      component: SubjectsView
     },
     {
       path: '/episode-search',

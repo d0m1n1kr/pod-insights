@@ -1,0 +1,2742 @@
+{
+  "generatedAt": "2026-01-05T11:21:36.913Z",
+  "description": "Subject River Daten für raumzeit Podcast - Coarse Subjects aggregiert nach Jahren",
+  "statistics": {
+    "totalSubjects": 14,
+    "yearRange": {
+      "start": 2010,
+      "end": 2024
+    },
+    "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "subjectsByEpisodeCount": [
+      {
+        "id": "wissenschaft",
+        "name": "Wissenschaft",
+        "count": 49
+      },
+      {
+        "id": "raumfahrt",
+        "name": "Raumfahrt",
+        "count": 45
+      },
+      {
+        "id": "astronomie",
+        "name": "Astronomie",
+        "count": 43
+      },
+      {
+        "id": "technologie",
+        "name": "Technologie",
+        "count": 40
+      },
+      {
+        "id": "sonstige",
+        "name": "Sonstige",
+        "count": 35
+      },
+      {
+        "id": "space",
+        "name": "Space",
+        "count": 17
+      },
+      {
+        "id": "science",
+        "name": "Science",
+        "count": 17
+      },
+      {
+        "id": "physik",
+        "name": "Physik",
+        "count": 12
+      },
+      {
+        "id": "technology",
+        "name": "Technology",
+        "count": 10
+      },
+      {
+        "id": "forschung",
+        "name": "Forschung",
+        "count": 7
+      }
+    ]
+  },
+  "subjects": {
+    "raumfahrt": {
+      "id": "raumfahrt",
+      "name": "Raumfahrt",
+      "totalEpisodes": 45,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 1,
+              "date": "2010-11-08",
+              "title": "RZ001 Raumfahrt in Deutschland und Europa"
+            },
+            {
+              "number": 2,
+              "date": "2010-11-12",
+              "title": "RZ002 Missionsplanung"
+            },
+            {
+              "number": 4,
+              "date": "2010-12-03",
+              "title": "RZ004 Operations"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 13,
+          "episodes": [
+            {
+              "number": 6,
+              "date": "2011-01-07",
+              "title": "RZ006 Erdbeobachtung"
+            },
+            {
+              "number": 7,
+              "date": "2011-01-21",
+              "title": "RZ007 Weltraumschrott"
+            },
+            {
+              "number": 10,
+              "date": "2011-03-11",
+              "title": "RZ010 Raumstationen"
+            },
+            {
+              "number": 14,
+              "date": "2011-05-06",
+              "title": "RZ014 Robotik in der Raumfahrt"
+            },
+            {
+              "number": 18,
+              "date": "2011-07-01",
+              "title": "RZ018 ESTEC Test Centre"
+            },
+            {
+              "number": 19,
+              "date": "2011-07-08",
+              "title": "RZ019 Space Shuttle"
+            },
+            {
+              "number": 20,
+              "date": "2011-07-25",
+              "title": "RZ020 Giotto und Rosetta"
+            },
+            {
+              "number": 22,
+              "date": "2011-09-09",
+              "title": "RZ022 Advanced Concepts Team"
+            },
+            {
+              "number": 23,
+              "date": "2011-09-23",
+              "title": "RZ023 ROSAT"
+            },
+            {
+              "number": 24,
+              "date": "2011-09-30",
+              "title": "RZ024 ROSAT-Wiedereintritt"
+            },
+            {
+              "number": 27,
+              "date": "2011-11-04",
+              "title": "RZ027 Mars500"
+            },
+            {
+              "number": 28,
+              "date": "2011-11-18",
+              "title": "RZ028 ESTRACK Bodenstations-Netzwerk"
+            },
+            {
+              "number": 30,
+              "date": "2011-12-16",
+              "title": "RZ030 Cassini-Huygens"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 8,
+          "episodes": [
+            {
+              "number": 32,
+              "date": "2012-02-24",
+              "title": "RZ032 Das Saturnsystem"
+            },
+            {
+              "number": 34,
+              "date": "2012-03-30",
+              "title": "RZ034 Space Situational Awareness"
+            },
+            {
+              "number": 41,
+              "date": "2012-07-09",
+              "title": "RZ041 Envisat"
+            },
+            {
+              "number": 42,
+              "date": "2012-07-20",
+              "title": "RZ042 Copernicus/GMES"
+            },
+            {
+              "number": 43,
+              "date": "2012-08-03",
+              "title": "RZ043 BepiColombo"
+            },
+            {
+              "number": 44,
+              "date": "2012-08-17",
+              "title": "RZ044 Der Merkur"
+            },
+            {
+              "number": 47,
+              "date": "2012-10-05",
+              "title": "RZ047 Die Venus"
+            },
+            {
+              "number": 49,
+              "date": "2012-11-09",
+              "title": "RZ049 Der Mars"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 54,
+              "date": "2013-07-05",
+              "title": "RZ054 Space Elevator"
+            },
+            {
+              "number": 57,
+              "date": "2013-12-18",
+              "title": "RZ057 Gaia"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 58,
+              "date": "2015-06-16",
+              "title": "RZ058 Philae"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 65,
+              "date": "2016-12-17",
+              "title": "RZ065 Part Time Scientists"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 72,
+              "date": "2018-04-26",
+              "title": "RZ072 Die Zukunft der Raumfahrt"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 76,
+              "date": "2019-07-08",
+              "title": "RZ076 Der Gaia-Sternkatalog"
+            },
+            {
+              "number": 77,
+              "date": "2019-08-05",
+              "title": "RZ077 Pflanzen im Weltraum"
+            },
+            {
+              "number": 78,
+              "date": "2019-09-03",
+              "title": "RZ078 Pluto und New Horizons"
+            },
+            {
+              "number": 80,
+              "date": "2019-11-07",
+              "title": "RZ080 Europäische Raumfahrtpolitik"
+            },
+            {
+              "number": 81,
+              "date": "2019-11-29",
+              "title": "RZ081 Hubble-Weltraumteleskop"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 83,
+              "date": "2020-01-17",
+              "title": "RZ083 SpaceX"
+            },
+            {
+              "number": 86,
+              "date": "2020-04-08",
+              "title": "RZ086 Meteoriten"
+            },
+            {
+              "number": 89,
+              "date": "2020-09-22",
+              "title": "RZ089 Kerbal Space Program"
+            },
+            {
+              "number": 90,
+              "date": "2020-10-13",
+              "title": "RZ090 Weltraumstaub"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 96,
+              "date": "2021-11-07",
+              "title": "RZ096 Erdähnliche Exoplaneten"
+            },
+            {
+              "number": 98,
+              "date": "2021-12-12",
+              "title": "RZ098 Geschichte der Europäischen Raumfahrt"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 99,
+              "date": "2022-01-11",
+              "title": "RZ099 CHEOPS"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 108,
+              "date": "2023-03-27",
+              "title": "RZ108 NASA"
+            },
+            {
+              "number": 109,
+              "date": "2023-05-03",
+              "title": "RZ109 Quantentechnologie für die Raumfahrt"
+            },
+            {
+              "number": 110,
+              "date": "2023-06-14",
+              "title": "RZ110 Grenzen des menschlichen Körpers"
+            },
+            {
+              "number": 118,
+              "date": "2023-11-20",
+              "title": "RZ118 Raumfahrt-Industrie"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "physik": {
+      "id": "physik",
+      "name": "Physik",
+      "totalEpisodes": 12,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 3,
+              "date": "2010-11-19",
+              "title": "RZ003 Raketenantriebe"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 21,
+              "date": "2011-09-02",
+              "title": "RZ021 Weltraummedizin"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2013,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 54,
+              "date": "2013-07-05",
+              "title": "RZ054 Space Elevator"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 67,
+              "date": "2017-10-16",
+              "title": "RZ067 Neutronensterne"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 77,
+              "date": "2019-08-05",
+              "title": "RZ077 Pflanzen im Weltraum"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 100,
+              "date": "2022-05-12",
+              "title": "RZ100 Raumzeit und Gravitation"
+            },
+            {
+              "number": 104,
+              "date": "2022-09-12",
+              "title": "RZ104 Cherenkov Telescope Array"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 112,
+              "date": "2023-07-19",
+              "title": "RZ112 CERN: Die Beschleuniger-Kette"
+            },
+            {
+              "number": 113,
+              "date": "2023-08-02",
+              "title": "RZ113 CERN: Der ALICE-Detektor"
+            },
+            {
+              "number": 115,
+              "date": "2023-09-24",
+              "title": "RZ115 CERN: ATLAS"
+            },
+            {
+              "number": 116,
+              "date": "2023-10-13",
+              "title": "RZ116 CERN: LHCb"
+            },
+            {
+              "number": 117,
+              "date": "2023-10-30",
+              "title": "RZ117 Euclid"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "sonstige": {
+      "id": "sonstige",
+      "name": "Sonstige",
+      "totalEpisodes": 35,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 3,
+              "date": "2010-11-19",
+              "title": "RZ003 Raketenantriebe"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 7,
+          "episodes": [
+            {
+              "number": 6,
+              "date": "2011-01-07",
+              "title": "RZ006 Erdbeobachtung"
+            },
+            {
+              "number": 13,
+              "date": "2011-04-21",
+              "title": "RZ013 Die Atmosphäre"
+            },
+            {
+              "number": 14,
+              "date": "2011-05-06",
+              "title": "RZ014 Robotik in der Raumfahrt"
+            },
+            {
+              "number": 21,
+              "date": "2011-09-02",
+              "title": "RZ021 Weltraummedizin"
+            },
+            {
+              "number": 25,
+              "date": "2011-10-14",
+              "title": "RZ025 Zentrum für Kriseninformation"
+            },
+            {
+              "number": 27,
+              "date": "2011-11-04",
+              "title": "RZ027 Mars500"
+            },
+            {
+              "number": 30,
+              "date": "2011-12-16",
+              "title": "RZ030 Cassini-Huygens"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 31,
+              "date": "2012-02-10",
+              "title": "RZ031 DLR_School_Labs"
+            },
+            {
+              "number": 34,
+              "date": "2012-03-30",
+              "title": "RZ034 Space Situational Awareness"
+            },
+            {
+              "number": 35,
+              "date": "2012-04-13",
+              "title": "RZ035 Technology Transfer Program"
+            },
+            {
+              "number": 39,
+              "date": "2012-06-08",
+              "title": "RZ039 Der Mond"
+            },
+            {
+              "number": 45,
+              "date": "2012-08-31",
+              "title": "RZ045 Rexus/Bexus"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 53,
+              "date": "2013-04-30",
+              "title": "RZ053 Mythos Raumfahrt"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 59,
+              "date": "2015-12-01",
+              "title": "RZ059 Kleinsatelliten"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 62,
+              "date": "2016-05-12",
+              "title": "RZ062 Albert Einstein"
+            },
+            {
+              "number": 65,
+              "date": "2016-12-17",
+              "title": "RZ065 Part Time Scientists"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 69,
+              "date": "2018-01-20",
+              "title": "RZ069 Copernicus Open Data Strategy"
+            },
+            {
+              "number": 70,
+              "date": "2018-02-14",
+              "title": "RZ070 Weltraumrecht"
+            },
+            {
+              "number": 71,
+              "date": "2018-03-14",
+              "title": "RZ071 Asteroidenabwehr"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 77,
+              "date": "2019-08-05",
+              "title": "RZ077 Pflanzen im Weltraum"
+            },
+            {
+              "number": 80,
+              "date": "2019-11-07",
+              "title": "RZ080 Europäische Raumfahrtpolitik"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 86,
+              "date": "2020-04-08",
+              "title": "RZ086 Meteoriten"
+            },
+            {
+              "number": 87,
+              "date": "2020-05-06",
+              "title": "RZ087 Amateurastronomie"
+            },
+            {
+              "number": 89,
+              "date": "2020-09-22",
+              "title": "RZ089 Kerbal Space Program"
+            },
+            {
+              "number": 91,
+              "date": "2020-10-27",
+              "title": "RZ091 Philosophie und das Universum"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 93,
+              "date": "2021-09-26",
+              "title": "RZ093 Das James-Webb-Weltraumteleskop"
+            },
+            {
+              "number": 97,
+              "date": "2021-11-21",
+              "title": "RZ097 Wettersatelliten"
+            },
+            {
+              "number": 98,
+              "date": "2021-12-12",
+              "title": "RZ098 Geschichte der Europäischen Raumfahrt"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 100,
+              "date": "2022-05-12",
+              "title": "RZ100 Raumzeit und Gravitation"
+            },
+            {
+              "number": 103,
+              "date": "2022-08-23",
+              "title": "RZ103 Gran Telescopio Canarias"
+            },
+            {
+              "number": 104,
+              "date": "2022-09-12",
+              "title": "RZ104 Cherenkov Telescope Array"
+            },
+            {
+              "number": 106,
+              "date": "2022-12-12",
+              "title": "RZ106 Der Gaia-Sternkatalog 2"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 108,
+              "date": "2023-03-27",
+              "title": "RZ108 NASA"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 119,
+              "date": "2024-01-29",
+              "title": "RZ119 Das Ariane-Raketenprogramm"
+            }
+          ]
+        }
+      ]
+    },
+    "space": {
+      "id": "space",
+      "name": "Space",
+      "totalEpisodes": 17,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 3,
+              "date": "2010-11-19",
+              "title": "RZ003 Raketenantriebe"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 12,
+              "date": "2011-04-08",
+              "title": "RZ012 Sigmund Jähn"
+            },
+            {
+              "number": 17,
+              "date": "2011-06-17",
+              "title": "RZ017 Automated Transfer Vehicle"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 36,
+              "date": "2012-04-27",
+              "title": "RZ036 Deutsches Raumfahrt-Kontrollzentrum"
+            },
+            {
+              "number": 37,
+              "date": "2012-05-11",
+              "title": "RZ037 TanDEM-X"
+            },
+            {
+              "number": 46,
+              "date": "2012-09-20",
+              "title": "RZ046 Venus Express"
+            },
+            {
+              "number": 48,
+              "date": "2012-10-19",
+              "title": "RZ048 Mars Express"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 51,
+              "date": "2013-02-01",
+              "title": "RZ051 XMM-Newton"
+            },
+            {
+              "number": 52,
+              "date": "2013-03-01",
+              "title": "RZ052 Solar Orbiter"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 59,
+              "date": "2015-12-01",
+              "title": "RZ059 Kleinsatelliten"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 82,
+              "date": "2019-12-20",
+              "title": "RZ082 Bodenerkundung auf dem Mars"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 84,
+              "date": "2020-02-07",
+              "title": "RZ084 Besuch beim Asteroiden"
+            },
+            {
+              "number": 92,
+              "date": "2020-11-17",
+              "title": "RZ092 Weltraumschrott-Bekämpfung"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 95,
+              "date": "2021-10-24",
+              "title": "RZ095 JUICE"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 107,
+              "date": "2023-02-14",
+              "title": "RZ107 Artemis und Orion"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 120,
+              "date": "2024-02-23",
+              "title": "RZ120 Ulf Merbold"
+            },
+            {
+              "number": 121,
+              "date": "2024-03-25",
+              "title": "RZ121 EarthCARE"
+            }
+          ]
+        }
+      ]
+    },
+    "technologie": {
+      "id": "technologie",
+      "name": "Technologie",
+      "totalEpisodes": 40,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 3,
+              "date": "2010-11-19",
+              "title": "RZ003 Raketenantriebe"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 10,
+          "episodes": [
+            {
+              "number": 8,
+              "date": "2011-02-04",
+              "title": "RZ008 Satellitennavigation"
+            },
+            {
+              "number": 13,
+              "date": "2011-04-21",
+              "title": "RZ013 Die Atmosphäre"
+            },
+            {
+              "number": 14,
+              "date": "2011-05-06",
+              "title": "RZ014 Robotik in der Raumfahrt"
+            },
+            {
+              "number": 15,
+              "date": "2011-05-20",
+              "title": "RZ015 Softwaretechnik"
+            },
+            {
+              "number": 16,
+              "date": "2011-06-03",
+              "title": "RZ016 SOFIA Infrarotteleskop"
+            },
+            {
+              "number": 18,
+              "date": "2011-07-01",
+              "title": "RZ018 ESTEC Test Centre"
+            },
+            {
+              "number": 26,
+              "date": "2011-10-28",
+              "title": "RZ026 Forschen in Schwerelosigkeit"
+            },
+            {
+              "number": 27,
+              "date": "2011-11-04",
+              "title": "RZ027 Mars500"
+            },
+            {
+              "number": 29,
+              "date": "2011-12-02",
+              "title": "RZ029 Herschel-Weltraumteleskop"
+            },
+            {
+              "number": 30,
+              "date": "2011-12-16",
+              "title": "RZ030 Cassini-Huygens"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 40,
+              "date": "2012-06-22",
+              "title": "RZ040 GOCE"
+            },
+            {
+              "number": 42,
+              "date": "2012-07-20",
+              "title": "RZ042 Copernicus/GMES"
+            },
+            {
+              "number": 50,
+              "date": "2012-12-07",
+              "title": "RZ050 Humanoide Robotik"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 51,
+              "date": "2013-02-01",
+              "title": "RZ051 XMM-Newton"
+            },
+            {
+              "number": 54,
+              "date": "2013-07-05",
+              "title": "RZ054 Space Elevator"
+            },
+            {
+              "number": 55,
+              "date": "2013-08-23",
+              "title": "RZ055 Planck"
+            },
+            {
+              "number": 57,
+              "date": "2013-12-18",
+              "title": "RZ057 Gaia"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 61,
+              "date": "2016-02-18",
+              "title": "RZ061 Gravitationswellenastronomie"
+            },
+            {
+              "number": 65,
+              "date": "2016-12-17",
+              "title": "RZ065 Part Time Scientists"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 66,
+              "date": "2017-04-16",
+              "title": "RZ066 Laserkommunikation"
+            },
+            {
+              "number": 68,
+              "date": "2017-11-18",
+              "title": "RZ068 Bodengestützte Astronomie"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 71,
+              "date": "2018-03-14",
+              "title": "RZ071 Asteroidenabwehr"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 74,
+              "date": "2019-05-11",
+              "title": "RZ074 Schwarze Löcher"
+            },
+            {
+              "number": 79,
+              "date": "2019-10-01",
+              "title": "RZ079 Kosmische Chemie"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 85,
+              "date": "2020-03-08",
+              "title": "RZ085 Erforschung der Sonne"
+            },
+            {
+              "number": 88,
+              "date": "2020-08-04",
+              "title": "RZ088 GEO600"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 93,
+              "date": "2021-09-26",
+              "title": "RZ093 Das James-Webb-Weltraumteleskop"
+            },
+            {
+              "number": 98,
+              "date": "2021-12-12",
+              "title": "RZ098 Geschichte der Europäischen Raumfahrt"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 99,
+              "date": "2022-01-11",
+              "title": "RZ099 CHEOPS"
+            },
+            {
+              "number": 101,
+              "date": "2022-06-04",
+              "title": "RZ101 Exoplaneten-Beobachtung"
+            },
+            {
+              "number": 104,
+              "date": "2022-09-12",
+              "title": "RZ104 Cherenkov Telescope Array"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 7,
+          "episodes": [
+            {
+              "number": 109,
+              "date": "2023-05-03",
+              "title": "RZ109 Quantentechnologie für die Raumfahrt"
+            },
+            {
+              "number": 110,
+              "date": "2023-06-14",
+              "title": "RZ110 Grenzen des menschlichen Körpers"
+            },
+            {
+              "number": 111,
+              "date": "2023-07-05",
+              "title": "RZ111 CERN: Geschichte und Erfolge"
+            },
+            {
+              "number": 112,
+              "date": "2023-07-19",
+              "title": "RZ112 CERN: Die Beschleuniger-Kette"
+            },
+            {
+              "number": 115,
+              "date": "2023-09-24",
+              "title": "RZ115 CERN: ATLAS"
+            },
+            {
+              "number": 116,
+              "date": "2023-10-13",
+              "title": "RZ116 CERN: LHCb"
+            },
+            {
+              "number": 118,
+              "date": "2023-11-20",
+              "title": "RZ118 Raumfahrt-Industrie"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 119,
+              "date": "2024-01-29",
+              "title": "RZ119 Das Ariane-Raketenprogramm"
+            }
+          ]
+        }
+      ]
+    },
+    "technology": {
+      "id": "technology",
+      "name": "Technology",
+      "totalEpisodes": 10,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 3,
+              "date": "2010-11-19",
+              "title": "RZ003 Raketenantriebe"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 25,
+              "date": "2011-10-14",
+              "title": "RZ025 Zentrum für Kriseninformation"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 35,
+              "date": "2012-04-13",
+              "title": "RZ035 Technology Transfer Program"
+            },
+            {
+              "number": 37,
+              "date": "2012-05-11",
+              "title": "RZ037 TanDEM-X"
+            },
+            {
+              "number": 46,
+              "date": "2012-09-20",
+              "title": "RZ046 Venus Express"
+            },
+            {
+              "number": 48,
+              "date": "2012-10-19",
+              "title": "RZ048 Mars Express"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 69,
+              "date": "2018-01-20",
+              "title": "RZ069 Copernicus Open Data Strategy"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2020,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 87,
+              "date": "2020-05-06",
+              "title": "RZ087 Amateurastronomie"
+            },
+            {
+              "number": 92,
+              "date": "2020-11-17",
+              "title": "RZ092 Weltraumschrott-Bekämpfung"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 97,
+              "date": "2021-11-21",
+              "title": "RZ097 Wettersatelliten"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2023,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2024,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "astronomie": {
+      "id": "astronomie",
+      "name": "Astronomie",
+      "totalEpisodes": 43,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 5,
+              "date": "2010-12-16",
+              "title": "RZ005 Planetenforschung"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 9,
+              "date": "2011-02-21",
+              "title": "RZ009 Asteroiden und Kometen"
+            },
+            {
+              "number": 16,
+              "date": "2011-06-03",
+              "title": "RZ016 SOFIA Infrarotteleskop"
+            },
+            {
+              "number": 20,
+              "date": "2011-07-25",
+              "title": "RZ020 Giotto und Rosetta"
+            },
+            {
+              "number": 23,
+              "date": "2011-09-23",
+              "title": "RZ023 ROSAT"
+            },
+            {
+              "number": 29,
+              "date": "2011-12-02",
+              "title": "RZ029 Herschel-Weltraumteleskop"
+            },
+            {
+              "number": 30,
+              "date": "2011-12-16",
+              "title": "RZ030 Cassini-Huygens"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 32,
+              "date": "2012-02-24",
+              "title": "RZ032 Das Saturnsystem"
+            },
+            {
+              "number": 34,
+              "date": "2012-03-30",
+              "title": "RZ034 Space Situational Awareness"
+            },
+            {
+              "number": 40,
+              "date": "2012-06-22",
+              "title": "RZ040 GOCE"
+            },
+            {
+              "number": 44,
+              "date": "2012-08-17",
+              "title": "RZ044 Der Merkur"
+            },
+            {
+              "number": 47,
+              "date": "2012-10-05",
+              "title": "RZ047 Die Venus"
+            },
+            {
+              "number": 49,
+              "date": "2012-11-09",
+              "title": "RZ049 Der Mars"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 52,
+              "date": "2013-03-01",
+              "title": "RZ052 Solar Orbiter"
+            },
+            {
+              "number": 57,
+              "date": "2013-12-18",
+              "title": "RZ057 Gaia"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 60,
+              "date": "2016-01-05",
+              "title": "RZ060 Extrasolare Planeten"
+            },
+            {
+              "number": 63,
+              "date": "2016-09-28",
+              "title": "RZ063 Galaxien und Kosmologie"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 67,
+              "date": "2017-10-16",
+              "title": "RZ067 Neutronensterne"
+            },
+            {
+              "number": 68,
+              "date": "2017-11-18",
+              "title": "RZ068 Bodengestützte Astronomie"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 71,
+              "date": "2018-03-14",
+              "title": "RZ071 Asteroidenabwehr"
+            },
+            {
+              "number": 73,
+              "date": "2018-06-06",
+              "title": "RZ073 IceCube Neutrino Observatory"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 74,
+              "date": "2019-05-11",
+              "title": "RZ074 Schwarze Löcher"
+            },
+            {
+              "number": 75,
+              "date": "2019-06-10",
+              "title": "RZ075 Geologische Zeit"
+            },
+            {
+              "number": 76,
+              "date": "2019-07-08",
+              "title": "RZ076 Der Gaia-Sternkatalog"
+            },
+            {
+              "number": 78,
+              "date": "2019-09-03",
+              "title": "RZ078 Pluto und New Horizons"
+            },
+            {
+              "number": 79,
+              "date": "2019-10-01",
+              "title": "RZ079 Kosmische Chemie"
+            },
+            {
+              "number": 81,
+              "date": "2019-11-29",
+              "title": "RZ081 Hubble-Weltraumteleskop"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 86,
+              "date": "2020-04-08",
+              "title": "RZ086 Meteoriten"
+            },
+            {
+              "number": 90,
+              "date": "2020-10-13",
+              "title": "RZ090 Weltraumstaub"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 93,
+              "date": "2021-09-26",
+              "title": "RZ093 Das James-Webb-Weltraumteleskop"
+            },
+            {
+              "number": 95,
+              "date": "2021-10-24",
+              "title": "RZ095 JUICE"
+            },
+            {
+              "number": 96,
+              "date": "2021-11-07",
+              "title": "RZ096 Erdähnliche Exoplaneten"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 8,
+          "episodes": [
+            {
+              "number": 99,
+              "date": "2022-01-11",
+              "title": "RZ099 CHEOPS"
+            },
+            {
+              "number": 100,
+              "date": "2022-05-12",
+              "title": "RZ100 Raumzeit und Gravitation"
+            },
+            {
+              "number": 101,
+              "date": "2022-06-04",
+              "title": "RZ101 Exoplaneten-Beobachtung"
+            },
+            {
+              "number": 102,
+              "date": "2022-06-26",
+              "title": "RZ102 Galaxien-Beobachtung"
+            },
+            {
+              "number": 103,
+              "date": "2022-08-23",
+              "title": "RZ103 Gran Telescopio Canarias"
+            },
+            {
+              "number": 104,
+              "date": "2022-09-12",
+              "title": "RZ104 Cherenkov Telescope Array"
+            },
+            {
+              "number": 105,
+              "date": "2022-10-21",
+              "title": "RZ105 Neutronensterne 2"
+            },
+            {
+              "number": 106,
+              "date": "2022-12-12",
+              "title": "RZ106 Der Gaia-Sternkatalog 2"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 117,
+              "date": "2023-10-30",
+              "title": "RZ117 Euclid"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 122,
+              "date": "2024-07-04",
+              "title": "RZ122 Cosmic Dawn"
+            },
+            {
+              "number": 123,
+              "date": "2024-11-19",
+              "title": "RZ123 Die Erforschung des Jupitersystems"
+            }
+          ]
+        }
+      ]
+    },
+    "biologie": {
+      "id": "biologie",
+      "name": "Biologie",
+      "totalEpisodes": 6,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 5,
+              "date": "2010-12-16",
+              "title": "RZ005 Planetenforschung"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 26,
+              "date": "2011-10-28",
+              "title": "RZ026 Forschen in Schwerelosigkeit"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 47,
+              "date": "2012-10-05",
+              "title": "RZ047 Die Venus"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 77,
+              "date": "2019-08-05",
+              "title": "RZ077 Pflanzen im Weltraum"
+            },
+            {
+              "number": 79,
+              "date": "2019-10-01",
+              "title": "RZ079 Kosmische Chemie"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 110,
+              "date": "2023-06-14",
+              "title": "RZ110 Grenzen des menschlichen Körpers"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "wissenschaft": {
+      "id": "wissenschaft",
+      "name": "Wissenschaft",
+      "totalEpisodes": 49,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2011,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 6,
+              "date": "2011-01-07",
+              "title": "RZ006 Erdbeobachtung"
+            },
+            {
+              "number": 9,
+              "date": "2011-02-21",
+              "title": "RZ009 Asteroiden und Kometen"
+            },
+            {
+              "number": 13,
+              "date": "2011-04-21",
+              "title": "RZ013 Die Atmosphäre"
+            },
+            {
+              "number": 20,
+              "date": "2011-07-25",
+              "title": "RZ020 Giotto und Rosetta"
+            },
+            {
+              "number": 24,
+              "date": "2011-09-30",
+              "title": "RZ024 ROSAT-Wiedereintritt"
+            },
+            {
+              "number": 26,
+              "date": "2011-10-28",
+              "title": "RZ026 Forschen in Schwerelosigkeit"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 8,
+          "episodes": [
+            {
+              "number": 33,
+              "date": "2012-03-09",
+              "title": "RZ033 Energie der Zukunft"
+            },
+            {
+              "number": 37,
+              "date": "2012-05-11",
+              "title": "RZ037 TanDEM-X"
+            },
+            {
+              "number": 39,
+              "date": "2012-06-08",
+              "title": "RZ039 Der Mond"
+            },
+            {
+              "number": 40,
+              "date": "2012-06-22",
+              "title": "RZ040 GOCE"
+            },
+            {
+              "number": 41,
+              "date": "2012-07-09",
+              "title": "RZ041 Envisat"
+            },
+            {
+              "number": 42,
+              "date": "2012-07-20",
+              "title": "RZ042 Copernicus/GMES"
+            },
+            {
+              "number": 47,
+              "date": "2012-10-05",
+              "title": "RZ047 Die Venus"
+            },
+            {
+              "number": 49,
+              "date": "2012-11-09",
+              "title": "RZ049 Der Mars"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 55,
+              "date": "2013-08-23",
+              "title": "RZ055 Planck"
+            },
+            {
+              "number": 56,
+              "date": "2013-09-20",
+              "title": "RZ056 Forschung in der ISS"
+            },
+            {
+              "number": 57,
+              "date": "2013-12-18",
+              "title": "RZ057 Gaia"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 58,
+              "date": "2015-06-16",
+              "title": "RZ058 Philae"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 60,
+              "date": "2016-01-05",
+              "title": "RZ060 Extrasolare Planeten"
+            },
+            {
+              "number": 61,
+              "date": "2016-02-18",
+              "title": "RZ061 Gravitationswellenastronomie"
+            },
+            {
+              "number": 62,
+              "date": "2016-05-12",
+              "title": "RZ062 Albert Einstein"
+            },
+            {
+              "number": 63,
+              "date": "2016-09-28",
+              "title": "RZ063 Galaxien und Kosmologie"
+            },
+            {
+              "number": 64,
+              "date": "2016-10-12",
+              "title": "RZ064 ISS-Expedition 42"
+            },
+            {
+              "number": 65,
+              "date": "2016-12-17",
+              "title": "RZ065 Part Time Scientists"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 66,
+              "date": "2017-04-16",
+              "title": "RZ066 Laserkommunikation"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 69,
+              "date": "2018-01-20",
+              "title": "RZ069 Copernicus Open Data Strategy"
+            },
+            {
+              "number": 71,
+              "date": "2018-03-14",
+              "title": "RZ071 Asteroidenabwehr"
+            },
+            {
+              "number": 73,
+              "date": "2018-06-06",
+              "title": "RZ073 IceCube Neutrino Observatory"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 75,
+              "date": "2019-06-10",
+              "title": "RZ075 Geologische Zeit"
+            },
+            {
+              "number": 76,
+              "date": "2019-07-08",
+              "title": "RZ076 Der Gaia-Sternkatalog"
+            },
+            {
+              "number": 77,
+              "date": "2019-08-05",
+              "title": "RZ077 Pflanzen im Weltraum"
+            },
+            {
+              "number": 79,
+              "date": "2019-10-01",
+              "title": "RZ079 Kosmische Chemie"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 85,
+              "date": "2020-03-08",
+              "title": "RZ085 Erforschung der Sonne"
+            },
+            {
+              "number": 86,
+              "date": "2020-04-08",
+              "title": "RZ086 Meteoriten"
+            },
+            {
+              "number": 87,
+              "date": "2020-05-06",
+              "title": "RZ087 Amateurastronomie"
+            },
+            {
+              "number": 88,
+              "date": "2020-08-04",
+              "title": "RZ088 GEO600"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 93,
+              "date": "2021-09-26",
+              "title": "RZ093 Das James-Webb-Weltraumteleskop"
+            },
+            {
+              "number": 94,
+              "date": "2021-10-10",
+              "title": "RZ094 Weltraumbeobachtung und die Wissenschaft"
+            },
+            {
+              "number": 96,
+              "date": "2021-11-07",
+              "title": "RZ096 Erdähnliche Exoplaneten"
+            },
+            {
+              "number": 98,
+              "date": "2021-12-12",
+              "title": "RZ098 Geschichte der Europäischen Raumfahrt"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 102,
+              "date": "2022-06-26",
+              "title": "RZ102 Galaxien-Beobachtung"
+            },
+            {
+              "number": 105,
+              "date": "2022-10-21",
+              "title": "RZ105 Neutronensterne 2"
+            },
+            {
+              "number": 106,
+              "date": "2022-12-12",
+              "title": "RZ106 Der Gaia-Sternkatalog 2"
+            }
+          ]
+        },
+        {
+          "year": 2023,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 108,
+              "date": "2023-03-27",
+              "title": "RZ108 NASA"
+            },
+            {
+              "number": 111,
+              "date": "2023-07-05",
+              "title": "RZ111 CERN: Geschichte und Erfolge"
+            },
+            {
+              "number": 112,
+              "date": "2023-07-19",
+              "title": "RZ112 CERN: Die Beschleuniger-Kette"
+            },
+            {
+              "number": 114,
+              "date": "2023-08-16",
+              "title": "RZ114 CERN: CMS"
+            },
+            {
+              "number": 118,
+              "date": "2023-11-20",
+              "title": "RZ118 Raumfahrt-Industrie"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 121,
+              "date": "2024-03-25",
+              "title": "RZ121 EarthCARE"
+            }
+          ]
+        }
+      ]
+    },
+    "science": {
+      "id": "science",
+      "name": "Science",
+      "totalEpisodes": 17,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2011,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 11,
+              "date": "2011-03-25",
+              "title": "RZ011 Astronautenausbildung"
+            },
+            {
+              "number": 25,
+              "date": "2011-10-14",
+              "title": "RZ025 Zentrum für Kriseninformation"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 31,
+              "date": "2012-02-10",
+              "title": "RZ031 DLR_School_Labs"
+            },
+            {
+              "number": 37,
+              "date": "2012-05-11",
+              "title": "RZ037 TanDEM-X"
+            },
+            {
+              "number": 38,
+              "date": "2012-06-01",
+              "title": "RZ038 Alpha-Magnet-Spektrometer"
+            },
+            {
+              "number": 45,
+              "date": "2012-08-31",
+              "title": "RZ045 Rexus/Bexus"
+            },
+            {
+              "number": 46,
+              "date": "2012-09-20",
+              "title": "RZ046 Venus Express"
+            },
+            {
+              "number": 48,
+              "date": "2012-10-19",
+              "title": "RZ048 Mars Express"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 51,
+              "date": "2013-02-01",
+              "title": "RZ051 XMM-Newton"
+            },
+            {
+              "number": 53,
+              "date": "2013-04-30",
+              "title": "RZ053 Mythos Raumfahrt"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 82,
+              "date": "2019-12-20",
+              "title": "RZ082 Bodenerkundung auf dem Mars"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 87,
+              "date": "2020-05-06",
+              "title": "RZ087 Amateurastronomie"
+            },
+            {
+              "number": 91,
+              "date": "2020-10-27",
+              "title": "RZ091 Philosophie und das Universum"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 95,
+              "date": "2021-10-24",
+              "title": "RZ095 JUICE"
+            },
+            {
+              "number": 97,
+              "date": "2021-11-21",
+              "title": "RZ097 Wettersatelliten"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 113,
+              "date": "2023-08-02",
+              "title": "RZ113 CERN: Der ALICE-Detektor"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 121,
+              "date": "2024-03-25",
+              "title": "RZ121 EarthCARE"
+            }
+          ]
+        }
+      ]
+    },
+    "forschung": {
+      "id": "forschung",
+      "name": "Forschung",
+      "totalEpisodes": 7,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2011,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 14,
+              "date": "2011-05-06",
+              "title": "RZ014 Robotik in der Raumfahrt"
+            },
+            {
+              "number": 15,
+              "date": "2011-05-20",
+              "title": "RZ015 Softwaretechnik"
+            },
+            {
+              "number": 16,
+              "date": "2011-06-03",
+              "title": "RZ016 SOFIA Infrarotteleskop"
+            },
+            {
+              "number": 27,
+              "date": "2011-11-04",
+              "title": "RZ027 Mars500"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 73,
+              "date": "2018-06-06",
+              "title": "RZ073 IceCube Neutrino Observatory"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2023,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 109,
+              "date": "2023-05-03",
+              "title": "RZ109 Quantentechnologie für die Raumfahrt"
+            },
+            {
+              "number": 115,
+              "date": "2023-09-24",
+              "title": "RZ115 CERN: ATLAS"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "research": {
+      "id": "research",
+      "name": "Research",
+      "totalEpisodes": 5,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2011,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 21,
+              "date": "2011-09-02",
+              "title": "RZ021 Weltraummedizin"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 33,
+              "date": "2012-03-09",
+              "title": "RZ033 Energie der Zukunft"
+            },
+            {
+              "number": 45,
+              "date": "2012-08-31",
+              "title": "RZ045 Rexus/Bexus"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 78,
+              "date": "2019-09-03",
+              "title": "RZ078 Pluto und New Horizons"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2023,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 113,
+              "date": "2023-08-02",
+              "title": "RZ113 CERN: Der ALICE-Detektor"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "wirtschaft": {
+      "id": "wirtschaft",
+      "name": "Wirtschaft",
+      "totalEpisodes": 7,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2011,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2012,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 35,
+              "date": "2012-04-13",
+              "title": "RZ035 Technology Transfer Program"
+            },
+            {
+              "number": 42,
+              "date": "2012-07-20",
+              "title": "RZ042 Copernicus/GMES"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 65,
+              "date": "2016-12-17",
+              "title": "RZ065 Part Time Scientists"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 70,
+              "date": "2018-02-14",
+              "title": "RZ070 Weltraumrecht"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 80,
+              "date": "2019-11-07",
+              "title": "RZ080 Europäische Raumfahrtpolitik"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2023,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 108,
+              "date": "2023-03-27",
+              "title": "RZ108 NASA"
+            },
+            {
+              "number": 118,
+              "date": "2023-11-20",
+              "title": "RZ118 Raumfahrt-Industrie"
+            }
+          ]
+        },
+        {
+          "year": 2024,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "geowissenschaften": {
+      "id": "geowissenschaften",
+      "name": "Geowissenschaften",
+      "totalEpisodes": 1,
+      "yearData": [
+        {
+          "year": 2010,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2011,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2012,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 49,
+              "date": "2012-11-09",
+              "title": "RZ049 Der Mars"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2023,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2024,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    }
+  }
+}

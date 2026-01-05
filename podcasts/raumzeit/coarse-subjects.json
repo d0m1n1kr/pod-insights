@@ -1,0 +1,4637 @@
+{
+  "generatedAt": "2026-01-05T09:43:42.755Z",
+  "podcastId": "raumzeit",
+  "totalEpisodes": 123,
+  "topSubjectsCount": 12,
+  "topSubjects": [
+    "Raumfahrt",
+    "Astronomie",
+    "Wissenschaft",
+    "Technologie",
+    "Space",
+    "Science",
+    "Technology",
+    "Physik",
+    "Forschung",
+    "Biologie",
+    "Research",
+    "Wirtschaft"
+  ],
+  "subjectMapping": {
+    "Umwelt": "Wissenschaft",
+    "Astronomy": "Astronomie",
+    "Engineering": "Technologie",
+    "Physics": "Physik",
+    "Geowissenschaften": "Wissenschaft",
+    "Space Exploration": "Raumfahrt",
+    "Education": null,
+    "Politik": null,
+    "Naturwissenschaften": "Wissenschaft",
+    "Sicherheit": null,
+    "Mission": "Raumfahrt",
+    "Social": null,
+    "Collaboration": null,
+    "Society": null,
+    "Geschichte": null,
+    "Geologie": "Wissenschaft",
+    "Umweltwissenschaft": "Wissenschaft",
+    "Environment": "Wissenschaft",
+    "Astrophysik": "Astronomie",
+    "Geographie": null,
+    "History": null,
+    "Soziale Themen": null,
+    "Anwendungen": "Technologie",
+    "Naturereignisse": null,
+    "Software": "Technologie",
+    "Health": null,
+    "Materialwissenschaft": "Wissenschaft",
+    "Psychologie": null,
+    "Medizin": null,
+    "Space Technology": "Technologie",
+    "Project Management": null,
+    "Career Development": null,
+    "Energy": "Wissenschaft",
+    "Economics": "Wirtschaft",
+    "Business": "Wirtschaft",
+    "Earth Science": "Wissenschaft",
+    "Satelliten": "Raumfahrt",
+    "Geodäsie": "Wissenschaft",
+    "Geophysik": "Wissenschaft",
+    "Space Challenges": "Raumfahrt",
+    "Career": null,
+    "Atmosphäre": "Wissenschaft",
+    "Astrobiologie": "Biologie",
+    "Planetengeologie": "Geowissenschaften",
+    "Robotik": "Technologie",
+    "Culture": null,
+    "Gesellschaft": null,
+    "Wettbewerbe": null,
+    "Unternehmen": "Wirtschaft",
+    "Data": null,
+    "Recht": null,
+    "Naturkatastrophen": null,
+    "Agrarwissenschaft": null,
+    "Ökologie": "Wissenschaft",
+    "Chemie": "Wissenschaft",
+    "Geopolitik": null,
+    "Museen": null,
+    "Gaming": null,
+    "Philosophy": null,
+    "Projektmanagement": null,
+    "Organization": null,
+    "Policy": null,
+    "Kosmologie": "Astronomie",
+    "Philosophie": null,
+    "Daten": null,
+    "Industrie": "Wirtschaft",
+    "Climate": "Wissenschaft"
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "RZ001 Raumfahrt in Deutschland und Europa",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 2,
+      "title": "RZ002 Missionsplanung",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 3,
+      "title": "RZ003 Raketenantriebe",
+      "coarseSubjects": [
+        "Physik",
+        "Sonstige",
+        "Space",
+        "Technologie",
+        "Technology"
+      ]
+    },
+    {
+      "episodeNumber": 4,
+      "title": "RZ004 Operations",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 5,
+      "title": "RZ005 Planetenforschung",
+      "coarseSubjects": [
+        "Astronomie",
+        "Biologie"
+      ]
+    },
+    {
+      "episodeNumber": 6,
+      "title": "RZ006 Erdbeobachtung",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Sonstige",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 7,
+      "title": "RZ007 Weltraumschrott",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 8,
+      "title": "RZ008 Satellitennavigation",
+      "coarseSubjects": [
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 9,
+      "title": "RZ009 Asteroiden und Kometen",
+      "coarseSubjects": [
+        "Astronomie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 10,
+      "title": "RZ010 Raumstationen",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 11,
+      "title": "RZ011 Astronautenausbildung",
+      "coarseSubjects": [
+        "Science"
+      ]
+    },
+    {
+      "episodeNumber": 12,
+      "title": "RZ012 Sigmund Jähn",
+      "coarseSubjects": [
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 13,
+      "title": "RZ013 Die Atmosphäre",
+      "coarseSubjects": [
+        "Sonstige",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 14,
+      "title": "RZ014 Robotik in der Raumfahrt",
+      "coarseSubjects": [
+        "Forschung",
+        "Raumfahrt",
+        "Sonstige",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 15,
+      "title": "RZ015 Softwaretechnik",
+      "coarseSubjects": [
+        "Forschung",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 16,
+      "title": "RZ016 SOFIA Infrarotteleskop",
+      "coarseSubjects": [
+        "Astronomie",
+        "Forschung",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 17,
+      "title": "RZ017 Automated Transfer Vehicle",
+      "coarseSubjects": [
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 18,
+      "title": "RZ018 ESTEC Test Centre",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 19,
+      "title": "RZ019 Space Shuttle",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 20,
+      "title": "RZ020 Giotto und Rosetta",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 21,
+      "title": "RZ021 Weltraummedizin",
+      "coarseSubjects": [
+        "Physik",
+        "Research",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 22,
+      "title": "RZ022 Advanced Concepts Team",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 23,
+      "title": "RZ023 ROSAT",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 24,
+      "title": "RZ024 ROSAT-Wiedereintritt",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 25,
+      "title": "RZ025 Zentrum für Kriseninformation",
+      "coarseSubjects": [
+        "Science",
+        "Sonstige",
+        "Technology"
+      ]
+    },
+    {
+      "episodeNumber": 26,
+      "title": "RZ026 Forschen in Schwerelosigkeit",
+      "coarseSubjects": [
+        "Biologie",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 27,
+      "title": "RZ027 Mars500",
+      "coarseSubjects": [
+        "Forschung",
+        "Raumfahrt",
+        "Sonstige",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 28,
+      "title": "RZ028 ESTRACK Bodenstations-Netzwerk",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 29,
+      "title": "RZ029 Herschel-Weltraumteleskop",
+      "coarseSubjects": [
+        "Astronomie",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 30,
+      "title": "RZ030 Cassini-Huygens",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt",
+        "Sonstige",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 31,
+      "title": "RZ031 DLR_School_Labs",
+      "coarseSubjects": [
+        "Science",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 32,
+      "title": "RZ032 Das Saturnsystem",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 33,
+      "title": "RZ033 Energie der Zukunft",
+      "coarseSubjects": [
+        "Research",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 34,
+      "title": "RZ034 Space Situational Awareness",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 35,
+      "title": "RZ035 Technology Transfer Program",
+      "coarseSubjects": [
+        "Sonstige",
+        "Technology",
+        "Wirtschaft"
+      ]
+    },
+    {
+      "episodeNumber": 36,
+      "title": "RZ036 Deutsches Raumfahrt-Kontrollzentrum",
+      "coarseSubjects": [
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 37,
+      "title": "RZ037 TanDEM-X",
+      "coarseSubjects": [
+        "Science",
+        "Space",
+        "Technology",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 38,
+      "title": "RZ038 Alpha-Magnet-Spektrometer",
+      "coarseSubjects": [
+        "Science"
+      ]
+    },
+    {
+      "episodeNumber": 39,
+      "title": "RZ039 Der Mond",
+      "coarseSubjects": [
+        "Sonstige",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 40,
+      "title": "RZ040 GOCE",
+      "coarseSubjects": [
+        "Astronomie",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 41,
+      "title": "RZ041 Envisat",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 42,
+      "title": "RZ042 Copernicus/GMES",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Technologie",
+        "Wirtschaft",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 43,
+      "title": "RZ043 BepiColombo",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 44,
+      "title": "RZ044 Der Merkur",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 45,
+      "title": "RZ045 Rexus/Bexus",
+      "coarseSubjects": [
+        "Research",
+        "Science",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 46,
+      "title": "RZ046 Venus Express",
+      "coarseSubjects": [
+        "Science",
+        "Space",
+        "Technology"
+      ]
+    },
+    {
+      "episodeNumber": 47,
+      "title": "RZ047 Die Venus",
+      "coarseSubjects": [
+        "Astronomie",
+        "Biologie",
+        "Raumfahrt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 48,
+      "title": "RZ048 Mars Express",
+      "coarseSubjects": [
+        "Science",
+        "Space",
+        "Technology"
+      ]
+    },
+    {
+      "episodeNumber": 49,
+      "title": "RZ049 Der Mars",
+      "coarseSubjects": [
+        "Astronomie",
+        "Geowissenschaften",
+        "Raumfahrt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 50,
+      "title": "RZ050 Humanoide Robotik",
+      "coarseSubjects": [
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 51,
+      "title": "RZ051 XMM-Newton",
+      "coarseSubjects": [
+        "Science",
+        "Space",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 52,
+      "title": "RZ052 Solar Orbiter",
+      "coarseSubjects": [
+        "Astronomie",
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 53,
+      "title": "RZ053 Mythos Raumfahrt",
+      "coarseSubjects": [
+        "Science",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 54,
+      "title": "RZ054 Space Elevator",
+      "coarseSubjects": [
+        "Physik",
+        "Raumfahrt",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 55,
+      "title": "RZ055 Planck",
+      "coarseSubjects": [
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 56,
+      "title": "RZ056 Forschung in der ISS",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 57,
+      "title": "RZ057 Gaia",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 58,
+      "title": "RZ058 Philae",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 59,
+      "title": "RZ059 Kleinsatelliten",
+      "coarseSubjects": [
+        "Sonstige",
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 60,
+      "title": "RZ060 Extrasolare Planeten",
+      "coarseSubjects": [
+        "Astronomie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 61,
+      "title": "RZ061 Gravitationswellenastronomie",
+      "coarseSubjects": [
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 62,
+      "title": "RZ062 Albert Einstein",
+      "coarseSubjects": [
+        "Sonstige",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 63,
+      "title": "RZ063 Galaxien und Kosmologie",
+      "coarseSubjects": [
+        "Astronomie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 64,
+      "title": "RZ064 ISS-Expedition 42",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 65,
+      "title": "RZ065 Part Time Scientists",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Sonstige",
+        "Technologie",
+        "Wirtschaft",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 66,
+      "title": "RZ066 Laserkommunikation",
+      "coarseSubjects": [
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 67,
+      "title": "RZ067 Neutronensterne",
+      "coarseSubjects": [
+        "Astronomie",
+        "Physik"
+      ]
+    },
+    {
+      "episodeNumber": 68,
+      "title": "RZ068 Bodengestützte Astronomie",
+      "coarseSubjects": [
+        "Astronomie",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 69,
+      "title": "RZ069 Copernicus Open Data Strategy",
+      "coarseSubjects": [
+        "Sonstige",
+        "Technology",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 70,
+      "title": "RZ070 Weltraumrecht",
+      "coarseSubjects": [
+        "Sonstige",
+        "Wirtschaft"
+      ]
+    },
+    {
+      "episodeNumber": 71,
+      "title": "RZ071 Asteroidenabwehr",
+      "coarseSubjects": [
+        "Astronomie",
+        "Sonstige",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 72,
+      "title": "RZ072 Die Zukunft der Raumfahrt",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 73,
+      "title": "RZ073 IceCube Neutrino Observatory",
+      "coarseSubjects": [
+        "Astronomie",
+        "Forschung",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 74,
+      "title": "RZ074 Schwarze Löcher",
+      "coarseSubjects": [
+        "Astronomie",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 75,
+      "title": "RZ075 Geologische Zeit",
+      "coarseSubjects": [
+        "Astronomie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 76,
+      "title": "RZ076 Der Gaia-Sternkatalog",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 77,
+      "title": "RZ077 Pflanzen im Weltraum",
+      "coarseSubjects": [
+        "Biologie",
+        "Physik",
+        "Raumfahrt",
+        "Sonstige",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 78,
+      "title": "RZ078 Pluto und New Horizons",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt",
+        "Research"
+      ]
+    },
+    {
+      "episodeNumber": 79,
+      "title": "RZ079 Kosmische Chemie",
+      "coarseSubjects": [
+        "Astronomie",
+        "Biologie",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 80,
+      "title": "RZ080 Europäische Raumfahrtpolitik",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Sonstige",
+        "Wirtschaft"
+      ]
+    },
+    {
+      "episodeNumber": 81,
+      "title": "RZ081 Hubble-Weltraumteleskop",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 82,
+      "title": "RZ082 Bodenerkundung auf dem Mars",
+      "coarseSubjects": [
+        "Science",
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 83,
+      "title": "RZ083 SpaceX",
+      "coarseSubjects": [
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 84,
+      "title": "RZ084 Besuch beim Asteroiden",
+      "coarseSubjects": [
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 85,
+      "title": "RZ085 Erforschung der Sonne",
+      "coarseSubjects": [
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 86,
+      "title": "RZ086 Meteoriten",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt",
+        "Sonstige",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 87,
+      "title": "RZ087 Amateurastronomie",
+      "coarseSubjects": [
+        "Science",
+        "Sonstige",
+        "Technology",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 88,
+      "title": "RZ088 GEO600",
+      "coarseSubjects": [
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 89,
+      "title": "RZ089 Kerbal Space Program",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 90,
+      "title": "RZ090 Weltraumstaub",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt"
+      ]
+    },
+    {
+      "episodeNumber": 91,
+      "title": "RZ091 Philosophie und das Universum",
+      "coarseSubjects": [
+        "Science",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 92,
+      "title": "RZ092 Weltraumschrott-Bekämpfung",
+      "coarseSubjects": [
+        "Space",
+        "Technology"
+      ]
+    },
+    {
+      "episodeNumber": 93,
+      "title": "RZ093 Das James-Webb-Weltraumteleskop",
+      "coarseSubjects": [
+        "Astronomie",
+        "Sonstige",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 94,
+      "title": "RZ094 Weltraumbeobachtung und die Wissenschaft",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 95,
+      "title": "RZ095 JUICE",
+      "coarseSubjects": [
+        "Astronomie",
+        "Science",
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 96,
+      "title": "RZ096 Erdähnliche Exoplaneten",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 97,
+      "title": "RZ097 Wettersatelliten",
+      "coarseSubjects": [
+        "Science",
+        "Sonstige",
+        "Technology"
+      ]
+    },
+    {
+      "episodeNumber": 98,
+      "title": "RZ098 Geschichte der Europäischen Raumfahrt",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Sonstige",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 99,
+      "title": "RZ099 CHEOPS",
+      "coarseSubjects": [
+        "Astronomie",
+        "Raumfahrt",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 100,
+      "title": "RZ100 Raumzeit und Gravitation",
+      "coarseSubjects": [
+        "Astronomie",
+        "Physik",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 101,
+      "title": "RZ101 Exoplaneten-Beobachtung",
+      "coarseSubjects": [
+        "Astronomie",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 102,
+      "title": "RZ102 Galaxien-Beobachtung",
+      "coarseSubjects": [
+        "Astronomie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 103,
+      "title": "RZ103 Gran Telescopio Canarias",
+      "coarseSubjects": [
+        "Astronomie",
+        "Sonstige"
+      ]
+    },
+    {
+      "episodeNumber": 104,
+      "title": "RZ104 Cherenkov Telescope Array",
+      "coarseSubjects": [
+        "Astronomie",
+        "Physik",
+        "Sonstige",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 105,
+      "title": "RZ105 Neutronensterne 2",
+      "coarseSubjects": [
+        "Astronomie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 106,
+      "title": "RZ106 Der Gaia-Sternkatalog 2",
+      "coarseSubjects": [
+        "Astronomie",
+        "Sonstige",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 107,
+      "title": "RZ107 Artemis und Orion",
+      "coarseSubjects": [
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 108,
+      "title": "RZ108 NASA",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Sonstige",
+        "Wirtschaft",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 109,
+      "title": "RZ109 Quantentechnologie für die Raumfahrt",
+      "coarseSubjects": [
+        "Forschung",
+        "Raumfahrt",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 110,
+      "title": "RZ110 Grenzen des menschlichen Körpers",
+      "coarseSubjects": [
+        "Biologie",
+        "Raumfahrt",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 111,
+      "title": "RZ111 CERN: Geschichte und Erfolge",
+      "coarseSubjects": [
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 112,
+      "title": "RZ112 CERN: Die Beschleuniger-Kette",
+      "coarseSubjects": [
+        "Physik",
+        "Technologie",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 113,
+      "title": "RZ113 CERN: Der ALICE-Detektor",
+      "coarseSubjects": [
+        "Physik",
+        "Research",
+        "Science"
+      ]
+    },
+    {
+      "episodeNumber": 114,
+      "title": "RZ114 CERN: CMS",
+      "coarseSubjects": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 115,
+      "title": "RZ115 CERN: ATLAS",
+      "coarseSubjects": [
+        "Forschung",
+        "Physik",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 116,
+      "title": "RZ116 CERN: LHCb",
+      "coarseSubjects": [
+        "Physik",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 117,
+      "title": "RZ117 Euclid",
+      "coarseSubjects": [
+        "Astronomie",
+        "Physik"
+      ]
+    },
+    {
+      "episodeNumber": 118,
+      "title": "RZ118 Raumfahrt-Industrie",
+      "coarseSubjects": [
+        "Raumfahrt",
+        "Technologie",
+        "Wirtschaft",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 119,
+      "title": "RZ119 Das Ariane-Raketenprogramm",
+      "coarseSubjects": [
+        "Sonstige",
+        "Technologie"
+      ]
+    },
+    {
+      "episodeNumber": 120,
+      "title": "RZ120 Ulf Merbold",
+      "coarseSubjects": [
+        "Space"
+      ]
+    },
+    {
+      "episodeNumber": 121,
+      "title": "RZ121 EarthCARE",
+      "coarseSubjects": [
+        "Science",
+        "Space",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "episodeNumber": 122,
+      "title": "RZ122 Cosmic Dawn",
+      "coarseSubjects": [
+        "Astronomie"
+      ]
+    },
+    {
+      "episodeNumber": 123,
+      "title": "RZ123 Die Erforschung des Jupitersystems",
+      "coarseSubjects": [
+        "Astronomie"
+      ]
+    }
+  ],
+  "reverseIndex": {
+    "Astronomie": [
+      {
+        "episodeNumber": 5,
+        "title": "RZ005 Planetenforschung",
+        "topic": "Planetenforschung",
+        "fine": "Planeten"
+      },
+      {
+        "episodeNumber": 5,
+        "title": "RZ005 Planetenforschung",
+        "topic": "Entstehung von Planeten",
+        "fine": "Planetensysteme"
+      },
+      {
+        "episodeNumber": 9,
+        "title": "RZ009 Asteroiden und Kometen",
+        "topic": "Asteroiden und Kometen",
+        "fine": "Himmelskörper"
+      },
+      {
+        "episodeNumber": 9,
+        "title": "RZ009 Asteroiden und Kometen",
+        "topic": "Kollisionsgefahr",
+        "fine": "Kollisionen"
+      },
+      {
+        "episodeNumber": 16,
+        "title": "RZ016 SOFIA Infrarotteleskop",
+        "topic": "SOFIA Infrarotteleskop",
+        "fine": "Weltraumteleskope"
+      },
+      {
+        "episodeNumber": 16,
+        "title": "RZ016 SOFIA Infrarotteleskop",
+        "topic": "Beobachtungen des Weltalls",
+        "fine": "Beobachtungsmethoden"
+      },
+      {
+        "episodeNumber": 16,
+        "title": "RZ016 SOFIA Infrarotteleskop",
+        "topic": "Kuiper Airborne Observatory",
+        "fine": "Historische Teleskope"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "RZ020 Giotto und Rosetta",
+        "topic": "Komet Halley",
+        "fine": "Kometen"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "RZ020 Giotto und Rosetta",
+        "topic": "Komet Tschurjumow-Gerasimenko",
+        "fine": "Kometen"
+      },
+      {
+        "episodeNumber": 23,
+        "title": "RZ023 ROSAT",
+        "topic": "Röntgenastronomie",
+        "fine": "Röntgenastronomie"
+      },
+      {
+        "episodeNumber": 23,
+        "title": "RZ023 ROSAT",
+        "topic": "Kartografie des Universums",
+        "fine": "Universumskartografie"
+      },
+      {
+        "episodeNumber": 23,
+        "title": "RZ023 ROSAT",
+        "topic": "Röntgenquellen im All",
+        "fine": "Röntgenquellen"
+      },
+      {
+        "episodeNumber": 29,
+        "title": "RZ029 Herschel-Weltraumteleskop",
+        "topic": "Herschel-Weltraumteleskop",
+        "fine": "Weltraumteleskope"
+      },
+      {
+        "episodeNumber": 29,
+        "title": "RZ029 Herschel-Weltraumteleskop",
+        "topic": "Infrarotstrahlung",
+        "fine": "Infrarotastronomie"
+      },
+      {
+        "episodeNumber": 32,
+        "title": "RZ032 Das Saturnsystem",
+        "topic": "Wissenschaftliche Erkenntnisse über das Saturnsystem",
+        "fine": "Saturn"
+      },
+      {
+        "episodeNumber": 32,
+        "title": "RZ032 Das Saturnsystem",
+        "topic": "Monde des Saturns",
+        "fine": "Saturnmonde"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "RZ034 Space Situational Awareness",
+        "topic": "Sonnenaktivität",
+        "fine": "Sonnenforschung"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "RZ034 Space Situational Awareness",
+        "topic": "Erdnahe Asteroiden",
+        "fine": "Asteroiden"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "RZ034 Space Situational Awareness",
+        "topic": "Weltraumwetter",
+        "fine": "Weltraumwetter"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "RZ034 Space Situational Awareness",
+        "topic": "Eintritt von Asteroiden in die Erdatmosphäre",
+        "fine": "Asteroiden"
+      },
+      {
+        "episodeNumber": 40,
+        "title": "RZ040 GOCE",
+        "topic": "Auswirkungen auf Fernerkundungsmissionen",
+        "fine": "Planetenerforschung"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "RZ044 Der Merkur",
+        "topic": "Merkur",
+        "fine": "Planeten"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "RZ044 Der Merkur",
+        "topic": "Entstehung des Merkurs",
+        "fine": "Planetentstehung"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "RZ044 Der Merkur",
+        "topic": "Magnetfeld des Merkurs",
+        "fine": "Magnetfelder"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "RZ044 Der Merkur",
+        "topic": "Oberflächenmerkmale des Merkurs",
+        "fine": "Planetengeologie"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "RZ044 Der Merkur",
+        "topic": "Eisenkern des Merkurs",
+        "fine": "Planetenkern"
+      },
+      {
+        "episodeNumber": 47,
+        "title": "RZ047 Die Venus",
+        "topic": "Venus als Forschungsobjekt",
+        "fine": "Planeten"
+      },
+      {
+        "episodeNumber": 49,
+        "title": "RZ049 Der Mars",
+        "topic": "Entwicklung des Sonnensystems",
+        "fine": "Sonnensystem"
+      },
+      {
+        "episodeNumber": 57,
+        "title": "RZ057 Gaia",
+        "topic": "Vermessung der Galaxis",
+        "fine": "Galaxien"
+      },
+      {
+        "episodeNumber": 57,
+        "title": "RZ057 Gaia",
+        "topic": "Sternenkatalog",
+        "fine": "Sternenkataloge"
+      },
+      {
+        "episodeNumber": 60,
+        "title": "RZ060 Extrasolare Planeten",
+        "topic": "Erforschung von extrasolaren Planeten",
+        "fine": "Extrasolare Planeten"
+      },
+      {
+        "episodeNumber": 60,
+        "title": "RZ060 Extrasolare Planeten",
+        "topic": "Beobachtungsmethoden für Planeten",
+        "fine": "Beobachtungsmethoden"
+      },
+      {
+        "episodeNumber": 60,
+        "title": "RZ060 Extrasolare Planeten",
+        "topic": "Entdeckung von Planeten in anderen Sternensystemen",
+        "fine": "Planetendetektion"
+      },
+      {
+        "episodeNumber": 60,
+        "title": "RZ060 Extrasolare Planeten",
+        "topic": "Zahl der Planeten in der Galaxis",
+        "fine": "Galaxie"
+      },
+      {
+        "episodeNumber": 63,
+        "title": "RZ063 Galaxien und Kosmologie",
+        "topic": "Größe des Universums",
+        "fine": "Universum"
+      },
+      {
+        "episodeNumber": 63,
+        "title": "RZ063 Galaxien und Kosmologie",
+        "topic": "Galaxienzuordnung",
+        "fine": "Galaxien"
+      },
+      {
+        "episodeNumber": 63,
+        "title": "RZ063 Galaxien und Kosmologie",
+        "topic": "Struktur des Universums",
+        "fine": "Universum"
+      },
+      {
+        "episodeNumber": 67,
+        "title": "RZ067 Neutronensterne",
+        "topic": "Neutronensterne",
+        "fine": "Sternentwicklung"
+      },
+      {
+        "episodeNumber": 67,
+        "title": "RZ067 Neutronensterne",
+        "topic": "Supernova",
+        "fine": "Sternexplosionen"
+      },
+      {
+        "episodeNumber": 67,
+        "title": "RZ067 Neutronensterne",
+        "topic": "Rotationsdynamik von Neutronensternen",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 68,
+        "title": "RZ068 Bodengestützte Astronomie",
+        "topic": "Bodengestützte Astronomie",
+        "fine": "Beobachtung"
+      },
+      {
+        "episodeNumber": 68,
+        "title": "RZ068 Bodengestützte Astronomie",
+        "topic": "Großteleskope",
+        "fine": "Großteleskope"
+      },
+      {
+        "episodeNumber": 68,
+        "title": "RZ068 Bodengestützte Astronomie",
+        "topic": "Entwicklung der Astronomie",
+        "fine": "Entwicklung"
+      },
+      {
+        "episodeNumber": 68,
+        "title": "RZ068 Bodengestützte Astronomie",
+        "topic": "Europäische Südsternwarte",
+        "fine": "Forschungseinrichtungen"
+      },
+      {
+        "episodeNumber": 68,
+        "title": "RZ068 Bodengestützte Astronomie",
+        "topic": "Extremely Large Telescope",
+        "fine": "Zukunftsprojekte"
+      },
+      {
+        "episodeNumber": 68,
+        "title": "RZ068 Bodengestützte Astronomie",
+        "topic": "Multi-Messenger-Astronomie",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 71,
+        "title": "RZ071 Asteroidenabwehr",
+        "topic": "Bedrohung durch Asteroiden",
+        "fine": "Asteroiden"
+      },
+      {
+        "episodeNumber": 73,
+        "title": "RZ073 IceCube Neutrino Observatory",
+        "topic": "Messung kosmischer Neutrinostrahlung",
+        "fine": "Neutrinos"
+      },
+      {
+        "episodeNumber": 73,
+        "title": "RZ073 IceCube Neutrino Observatory",
+        "topic": "Gravitationswellen",
+        "fine": "Gravitationswellenforschung"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "RZ075 Geologische Zeit",
+        "topic": "Raumfahrtmissionen und ihre Ergebnisse",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "RZ075 Geologische Zeit",
+        "topic": "Entstehung des Monds und anderer Planeten",
+        "fine": "Planetenkunde"
+      },
+      {
+        "episodeNumber": 76,
+        "title": "RZ076 Der Gaia-Sternkatalog",
+        "topic": "Gaia-Sternkatalog",
+        "fine": "Sternkataloge"
+      },
+      {
+        "episodeNumber": 76,
+        "title": "RZ076 Der Gaia-Sternkatalog",
+        "topic": "Daten über Sterne",
+        "fine": "Sternbewegung"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "RZ079 Kosmische Chemie",
+        "topic": "Entstehung von Sternensystemen",
+        "fine": "Sternensysteme"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "RZ079 Kosmische Chemie",
+        "topic": "Astrochemie",
+        "fine": "Astrochemie"
+      },
+      {
+        "episodeNumber": 81,
+        "title": "RZ081 Hubble-Weltraumteleskop",
+        "topic": "Hubble-Weltraumteleskop",
+        "fine": "Weltraumteleskope"
+      },
+      {
+        "episodeNumber": 81,
+        "title": "RZ081 Hubble-Weltraumteleskop",
+        "topic": "Hubble-Konstante",
+        "fine": "Kosmologie"
+      },
+      {
+        "episodeNumber": 81,
+        "title": "RZ081 Hubble-Weltraumteleskop",
+        "topic": "Exoplaneten-Erforschung",
+        "fine": "Exoplaneten"
+      },
+      {
+        "episodeNumber": 81,
+        "title": "RZ081 Hubble-Weltraumteleskop",
+        "topic": "James-Webb-Teleskop",
+        "fine": "Weltraumteleskope"
+      },
+      {
+        "episodeNumber": 86,
+        "title": "RZ086 Meteoriten",
+        "topic": "Meteoriten und ihre Bedeutung",
+        "fine": "Meteoriten"
+      },
+      {
+        "episodeNumber": 90,
+        "title": "RZ090 Weltraumstaub",
+        "topic": "Weltraumstaub",
+        "fine": "Partikelastronomie"
+      },
+      {
+        "episodeNumber": 90,
+        "title": "RZ090 Weltraumstaub",
+        "topic": "Neue Astronomie",
+        "fine": "Entwicklungen"
+      },
+      {
+        "episodeNumber": 90,
+        "title": "RZ090 Weltraumstaub",
+        "topic": "Partikelströme",
+        "fine": "Partikelbewegung"
+      },
+      {
+        "episodeNumber": 93,
+        "title": "RZ093 Das James-Webb-Weltraumteleskop",
+        "topic": "James-Webb-Weltraumteleskop",
+        "fine": "Weltraumteleskope"
+      },
+      {
+        "episodeNumber": 96,
+        "title": "RZ096 Erdähnliche Exoplaneten",
+        "topic": "Suche nach Exoplaneten",
+        "fine": "Exoplaneten"
+      },
+      {
+        "episodeNumber": 99,
+        "title": "RZ099 CHEOPS",
+        "topic": "Exoplanetenforschung",
+        "fine": "Exoplaneten"
+      },
+      {
+        "episodeNumber": 99,
+        "title": "RZ099 CHEOPS",
+        "topic": "Helligkeitsmessung von Sternen",
+        "fine": "Sternenbeobachtung"
+      },
+      {
+        "episodeNumber": 101,
+        "title": "RZ101 Exoplaneten-Beobachtung",
+        "topic": "Exoplaneten-Beobachtung",
+        "fine": "Exoplaneten"
+      },
+      {
+        "episodeNumber": 101,
+        "title": "RZ101 Exoplaneten-Beobachtung",
+        "topic": "Erforschung des Sonnensystems",
+        "fine": "Sonnensystem"
+      },
+      {
+        "episodeNumber": 102,
+        "title": "RZ102 Galaxien-Beobachtung",
+        "topic": "Beobachtung von Galaxien",
+        "fine": "Galaxien"
+      },
+      {
+        "episodeNumber": 102,
+        "title": "RZ102 Galaxien-Beobachtung",
+        "topic": "Eigenschaften von Galaxien",
+        "fine": "Galaxien"
+      },
+      {
+        "episodeNumber": 103,
+        "title": "RZ103 Gran Telescopio Canarias",
+        "topic": "Aufbau des Gran Telescopio Canarias",
+        "fine": "Teleskope"
+      },
+      {
+        "episodeNumber": 103,
+        "title": "RZ103 Gran Telescopio Canarias",
+        "topic": "Betrieb des Gran Telescopio Canarias",
+        "fine": "Teleskope"
+      },
+      {
+        "episodeNumber": 104,
+        "title": "RZ104 Cherenkov Telescope Array",
+        "topic": "Gammastrahlen-Teleskope",
+        "fine": "Gammastrahlen"
+      },
+      {
+        "episodeNumber": 104,
+        "title": "RZ104 Cherenkov Telescope Array",
+        "topic": "Multimessenger-Astronomie",
+        "fine": "Multimessenger"
+      },
+      {
+        "episodeNumber": 104,
+        "title": "RZ104 Cherenkov Telescope Array",
+        "topic": "Cherenkov Telescope Array",
+        "fine": "Teleskope"
+      },
+      {
+        "episodeNumber": 105,
+        "title": "RZ105 Neutronensterne 2",
+        "topic": "Neutronensterne",
+        "fine": "Neutronensterne"
+      },
+      {
+        "episodeNumber": 105,
+        "title": "RZ105 Neutronensterne 2",
+        "topic": "Kilonova",
+        "fine": "Kollision von Neutronenstern"
+      },
+      {
+        "episodeNumber": 106,
+        "title": "RZ106 Der Gaia-Sternkatalog 2",
+        "topic": "Gaia-Sternkatalog",
+        "fine": "Sternkatalog"
+      },
+      {
+        "episodeNumber": 117,
+        "title": "RZ117 Euclid",
+        "topic": "Weltraumteleskop Euclid",
+        "fine": "Weltraumteleskope"
+      },
+      {
+        "episodeNumber": 117,
+        "title": "RZ117 Euclid",
+        "topic": "geometrische Vermessung des Universums",
+        "fine": "Universum"
+      },
+      {
+        "episodeNumber": 117,
+        "title": "RZ117 Euclid",
+        "topic": "Himmelsdurchmusterung",
+        "fine": "Beobachtungsmethoden"
+      },
+      {
+        "episodeNumber": 122,
+        "title": "RZ122 Cosmic Dawn",
+        "topic": "Frühzeit nach dem Urknall",
+        "fine": "Urknall"
+      },
+      {
+        "episodeNumber": 122,
+        "title": "RZ122 Cosmic Dawn",
+        "topic": "Lichtwerdung des Universums",
+        "fine": "Kosmologie"
+      },
+      {
+        "episodeNumber": 122,
+        "title": "RZ122 Cosmic Dawn",
+        "topic": "Entstehung der ersten Galaxien",
+        "fine": "Galaxienbildung"
+      },
+      {
+        "episodeNumber": 123,
+        "title": "RZ123 Die Erforschung des Jupitersystems",
+        "topic": "Erforschung des Jupitersystems",
+        "fine": "Planetensysteme"
+      },
+      {
+        "episodeNumber": 123,
+        "title": "RZ123 Die Erforschung des Jupitersystems",
+        "topic": "Jupitermonde",
+        "fine": "Monde"
+      },
+      {
+        "episodeNumber": 30,
+        "title": "RZ030 Cassini-Huygens",
+        "topic": "Saturn System",
+        "fine": "Gas Planets"
+      },
+      {
+        "episodeNumber": 30,
+        "title": "RZ030 Cassini-Huygens",
+        "topic": "Titan",
+        "fine": "Moons"
+      },
+      {
+        "episodeNumber": 52,
+        "title": "RZ052 Solar Orbiter",
+        "topic": "Sun Exploration",
+        "fine": "Solar Studies"
+      },
+      {
+        "episodeNumber": 78,
+        "title": "RZ078 Pluto und New Horizons",
+        "topic": "Pluto",
+        "fine": "Dwarf Planets"
+      },
+      {
+        "episodeNumber": 78,
+        "title": "RZ078 Pluto und New Horizons",
+        "topic": "Kuipergürtel",
+        "fine": "Celestial Objects"
+      },
+      {
+        "episodeNumber": 78,
+        "title": "RZ078 Pluto und New Horizons",
+        "topic": "Ultimate Thule",
+        "fine": "Trans-Neptunian Objects"
+      },
+      {
+        "episodeNumber": 95,
+        "title": "RZ095 JUICE",
+        "topic": "Eismonde des Jupiters",
+        "fine": "Moons"
+      },
+      {
+        "episodeNumber": 95,
+        "title": "RZ095 JUICE",
+        "topic": "Ganymed",
+        "fine": "Galilean Moons"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "RZ074 Schwarze Löcher",
+        "topic": "Schwarze Löcher",
+        "fine": "Schwarze Löcher"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "RZ074 Schwarze Löcher",
+        "topic": "Singularitäten",
+        "fine": "Singularitäten"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "RZ074 Schwarze Löcher",
+        "topic": "Gravitationswellen",
+        "fine": "Gravitationswellen"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "RZ074 Schwarze Löcher",
+        "topic": "Verschmelzung von Schwarzen Löchern",
+        "fine": "Kollisionen"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "RZ074 Schwarze Löcher",
+        "topic": "Neutronensterne",
+        "fine": "Neutronensterne"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "RZ074 Schwarze Löcher",
+        "topic": "Theorien zur Entstehung von Schwarzen Löchern",
+        "fine": "Theorien"
+      },
+      {
+        "episodeNumber": 102,
+        "title": "RZ102 Galaxien-Beobachtung",
+        "topic": "Entstehung des Universums",
+        "fine": "Universum"
+      },
+      {
+        "episodeNumber": 100,
+        "title": "RZ100 Raumzeit und Gravitation",
+        "topic": "Entstehung des Universums",
+        "fine": "Universumsentstehung"
+      }
+    ],
+    "Biologie": [
+      {
+        "episodeNumber": 5,
+        "title": "RZ005 Planetenforschung",
+        "topic": "Entstehung von Leben",
+        "fine": "Ursprung des Lebens"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "RZ026 Forschen in Schwerelosigkeit",
+        "topic": "Einfluss der Schwerelosigkeit auf biologische Prozesse",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 77,
+        "title": "RZ077 Pflanzen im Weltraum",
+        "topic": "Biologische Systeme zur Ernährung",
+        "fine": "Ernährung"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "RZ079 Kosmische Chemie",
+        "topic": "Ursprung des Lebens",
+        "fine": "Ursprung des Lebens"
+      },
+      {
+        "episodeNumber": 110,
+        "title": "RZ110 Grenzen des menschlichen Körpers",
+        "topic": "Grenzen des menschlichen Körpers",
+        "fine": "Physiologie"
+      },
+      {
+        "episodeNumber": 110,
+        "title": "RZ110 Grenzen des menschlichen Körpers",
+        "topic": "Anpassung an Extrembedingungen",
+        "fine": "Evolution"
+      },
+      {
+        "episodeNumber": 47,
+        "title": "RZ047 Die Venus",
+        "topic": "Mögliche Lebensbedingungen auf der Venus",
+        "fine": "Lebensbedingungen"
+      }
+    ],
+    "Forschung": [
+      {
+        "episodeNumber": 14,
+        "title": "RZ014 Robotik in der Raumfahrt",
+        "topic": "Bodengesteuerte Experimente",
+        "fine": "Experimente"
+      },
+      {
+        "episodeNumber": 15,
+        "title": "RZ015 Softwaretechnik",
+        "topic": "Forschung in der Softwaretechnik",
+        "fine": "Softwaretechnik"
+      },
+      {
+        "episodeNumber": 16,
+        "title": "RZ016 SOFIA Infrarotteleskop",
+        "topic": "Gemeinschaftsprojekt DLR und NASA",
+        "fine": "Internationale Kooperation"
+      },
+      {
+        "episodeNumber": 27,
+        "title": "RZ027 Mars500",
+        "topic": "Langzeitexperiment Mars500",
+        "fine": "Langzeitstudien"
+      },
+      {
+        "episodeNumber": 73,
+        "title": "RZ073 IceCube Neutrino Observatory",
+        "topic": "IceCube-Experiment",
+        "fine": "Experimentelle Physik"
+      },
+      {
+        "episodeNumber": 109,
+        "title": "RZ109 Quantentechnologie für die Raumfahrt",
+        "topic": "Forschungseinrichtungen des DLR im Bereich Quantenmechanik",
+        "fine": "DLR"
+      },
+      {
+        "episodeNumber": 115,
+        "title": "RZ115 CERN: ATLAS",
+        "topic": "Aufgabe des ATLAS-Detektors",
+        "fine": "Grundlagenforschung"
+      }
+    ],
+    "Physik": [
+      {
+        "episodeNumber": 3,
+        "title": "RZ003 Raketenantriebe",
+        "topic": "Energiefreisetzung in der Raumfahrt",
+        "fine": "Energy Release"
+      },
+      {
+        "episodeNumber": 21,
+        "title": "RZ021 Weltraummedizin",
+        "topic": "Schwerelosigkeit und ihre Auswirkungen",
+        "fine": "Microgravity"
+      },
+      {
+        "episodeNumber": 21,
+        "title": "RZ021 Weltraummedizin",
+        "topic": "Einfluss der kosmischen Strahlung",
+        "fine": "Cosmic Radiation"
+      },
+      {
+        "episodeNumber": 113,
+        "title": "RZ113 CERN: Der ALICE-Detektor",
+        "topic": "Quark-Gluon-Plasma",
+        "fine": "State of Matter"
+      },
+      {
+        "episodeNumber": 54,
+        "title": "RZ054 Space Elevator",
+        "topic": "Fliehkraft und Seil",
+        "fine": "Mechanik"
+      },
+      {
+        "episodeNumber": 67,
+        "title": "RZ067 Neutronensterne",
+        "topic": "Kernphysik",
+        "fine": "Kernstruktur"
+      },
+      {
+        "episodeNumber": 67,
+        "title": "RZ067 Neutronensterne",
+        "topic": "Dichte von Neutronensternen",
+        "fine": "Materiezustände"
+      },
+      {
+        "episodeNumber": 77,
+        "title": "RZ077 Pflanzen im Weltraum",
+        "topic": "Abhängigkeit von Atmosphäre, Licht und Gravitation",
+        "fine": "Gravitation"
+      },
+      {
+        "episodeNumber": 100,
+        "title": "RZ100 Raumzeit und Gravitation",
+        "topic": "Wesen der Raumzeit",
+        "fine": "Raumzeit"
+      },
+      {
+        "episodeNumber": 100,
+        "title": "RZ100 Raumzeit und Gravitation",
+        "topic": "Gravitation",
+        "fine": "Gravitationstheorien"
+      },
+      {
+        "episodeNumber": 100,
+        "title": "RZ100 Raumzeit und Gravitation",
+        "topic": "Formeln von Newton und Einstein",
+        "fine": "Theoretische Physik"
+      },
+      {
+        "episodeNumber": 100,
+        "title": "RZ100 Raumzeit und Gravitation",
+        "topic": "Theoretische Physik und Kosmologie",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 104,
+        "title": "RZ104 Cherenkov Telescope Array",
+        "topic": "Kosmische Teilchenstrahlung",
+        "fine": "Teilchenstrahlung"
+      },
+      {
+        "episodeNumber": 104,
+        "title": "RZ104 Cherenkov Telescope Array",
+        "topic": "Tscherenkow-Blitze",
+        "fine": "Strahlung"
+      },
+      {
+        "episodeNumber": 112,
+        "title": "RZ112 CERN: Die Beschleuniger-Kette",
+        "topic": "Teilchenbeschleunigung",
+        "fine": "Teilchenphysik"
+      },
+      {
+        "episodeNumber": 112,
+        "title": "RZ112 CERN: Die Beschleuniger-Kette",
+        "topic": "Energieaufbau in Kollisionen",
+        "fine": "Kollisionstheorie"
+      },
+      {
+        "episodeNumber": 115,
+        "title": "RZ115 CERN: ATLAS",
+        "topic": "Funktion des ATLAS-Detektors",
+        "fine": "Teilchenphysik"
+      },
+      {
+        "episodeNumber": 115,
+        "title": "RZ115 CERN: ATLAS",
+        "topic": "Nachweis des Higgs-Bosons",
+        "fine": "Higgs-Boson"
+      },
+      {
+        "episodeNumber": 115,
+        "title": "RZ115 CERN: ATLAS",
+        "topic": "Teilchenkollisionen am LHC",
+        "fine": "Kollisionsexperimente"
+      },
+      {
+        "episodeNumber": 116,
+        "title": "RZ116 CERN: LHCb",
+        "topic": "Materie und Anti-Materie",
+        "fine": "Kosmologie"
+      },
+      {
+        "episodeNumber": 116,
+        "title": "RZ116 CERN: LHCb",
+        "topic": "Standardmodell der Physik",
+        "fine": "Theoretische Physik"
+      },
+      {
+        "episodeNumber": 116,
+        "title": "RZ116 CERN: LHCb",
+        "topic": "Grenzen der Physik",
+        "fine": "Fundamentale Fragen"
+      },
+      {
+        "episodeNumber": 117,
+        "title": "RZ117 Euclid",
+        "topic": "dunkle Energie",
+        "fine": "Kosmologie"
+      },
+      {
+        "episodeNumber": 117,
+        "title": "RZ117 Euclid",
+        "topic": "dunkle Materie",
+        "fine": "Kosmologie"
+      }
+    ],
+    "Raumfahrt": [
+      {
+        "episodeNumber": 1,
+        "title": "RZ001 Raumfahrt in Deutschland und Europa",
+        "topic": "Raumfahrt in Deutschland",
+        "fine": "Deutschland"
+      },
+      {
+        "episodeNumber": 1,
+        "title": "RZ001 Raumfahrt in Deutschland und Europa",
+        "topic": "Europäische Raumfahrtorganisation",
+        "fine": "Europa"
+      },
+      {
+        "episodeNumber": 1,
+        "title": "RZ001 Raumfahrt in Deutschland und Europa",
+        "topic": "Wichtige Projekte der europäischen Raumfahrt",
+        "fine": "Projekte"
+      },
+      {
+        "episodeNumber": 1,
+        "title": "RZ001 Raumfahrt in Deutschland und Europa",
+        "topic": "Ziele der deutschen Raumfahrt",
+        "fine": "Ziele"
+      },
+      {
+        "episodeNumber": 1,
+        "title": "RZ001 Raumfahrt in Deutschland und Europa",
+        "topic": "Motivation der Raumfahrt-Akteure",
+        "fine": "Motivation"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "RZ002 Missionsplanung",
+        "topic": "Missionsplanung",
+        "fine": "Mission Design"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "RZ002 Missionsplanung",
+        "topic": "Koordinierung mit Gruppen",
+        "fine": "Team Collaboration"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "RZ002 Missionsplanung",
+        "topic": "Einfluss der Planung auf Durchführung",
+        "fine": "Mission Execution"
+      },
+      {
+        "episodeNumber": 4,
+        "title": "RZ004 Operations",
+        "topic": "Steuerung von Raumfahrt-Missionen",
+        "fine": "Operations"
+      },
+      {
+        "episodeNumber": 4,
+        "title": "RZ004 Operations",
+        "topic": "Betrieb im Orbit",
+        "fine": "Orbit"
+      },
+      {
+        "episodeNumber": 4,
+        "title": "RZ004 Operations",
+        "topic": "Betrieb im Deep Space",
+        "fine": "Deep Space"
+      },
+      {
+        "episodeNumber": 6,
+        "title": "RZ006 Erdbeobachtung",
+        "topic": "Erdbeobachtung",
+        "fine": "Erdbeobachtungstechnologien"
+      },
+      {
+        "episodeNumber": 7,
+        "title": "RZ007 Weltraumschrott",
+        "topic": "Weltraumschrott",
+        "fine": "Orbitaltrümmer"
+      },
+      {
+        "episodeNumber": 7,
+        "title": "RZ007 Weltraumschrott",
+        "topic": "Kollisionen im Orbit",
+        "fine": "Kollisionen"
+      },
+      {
+        "episodeNumber": 7,
+        "title": "RZ007 Weltraumschrott",
+        "topic": "Zukunft der Raumfahrt",
+        "fine": "Nachhaltigkeit"
+      },
+      {
+        "episodeNumber": 10,
+        "title": "RZ010 Raumstationen",
+        "topic": "Geschichte der Raumstationen",
+        "fine": "Raumstationen"
+      },
+      {
+        "episodeNumber": 10,
+        "title": "RZ010 Raumstationen",
+        "topic": "Internationale Zusammenarbeit in der Raumfahrt",
+        "fine": "Internationale Raumfahrtagenturen"
+      },
+      {
+        "episodeNumber": 10,
+        "title": "RZ010 Raumstationen",
+        "topic": "Beitrag der ESA zur ISS",
+        "fine": "ESA und ISS"
+      },
+      {
+        "episodeNumber": 14,
+        "title": "RZ014 Robotik in der Raumfahrt",
+        "topic": "Zukunft der Robotik in der Raumfahrt",
+        "fine": "Technologische Entwicklungen"
+      },
+      {
+        "episodeNumber": 14,
+        "title": "RZ014 Robotik in der Raumfahrt",
+        "topic": "Einsatz von Robotik auf Raumfahrzeugen",
+        "fine": "Raumfahrzeuge"
+      },
+      {
+        "episodeNumber": 18,
+        "title": "RZ018 ESTEC Test Centre",
+        "topic": "Qualitätssicherung von ESA-Missionen",
+        "fine": "Qualitätssicherung"
+      },
+      {
+        "episodeNumber": 18,
+        "title": "RZ018 ESTEC Test Centre",
+        "topic": "ESTEC Test Centre",
+        "fine": "Testzentren"
+      },
+      {
+        "episodeNumber": 18,
+        "title": "RZ018 ESTEC Test Centre",
+        "topic": "Prüfung von Raumfahrzeugen",
+        "fine": "Raumfahrzeuge"
+      },
+      {
+        "episodeNumber": 19,
+        "title": "RZ019 Space Shuttle",
+        "topic": "Ende des Space Shuttle-Programms",
+        "fine": "Space Shuttle"
+      },
+      {
+        "episodeNumber": 19,
+        "title": "RZ019 Space Shuttle",
+        "topic": "Missionsvielfalt des Space Shuttle",
+        "fine": "Missionen"
+      },
+      {
+        "episodeNumber": 19,
+        "title": "RZ019 Space Shuttle",
+        "topic": "Beitrag zum Aufbau der ISS",
+        "fine": "Internationale Raumstation"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "RZ020 Giotto und Rosetta",
+        "topic": "Missionen zu Kometen",
+        "fine": "Kometenforschung"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "RZ020 Giotto und Rosetta",
+        "topic": "Raumsonde Giotto",
+        "fine": "Giotto"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "RZ020 Giotto und Rosetta",
+        "topic": "Raumsonde Rosetta",
+        "fine": "Rosetta"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "RZ020 Giotto und Rosetta",
+        "topic": "Lander auf Kometen",
+        "fine": "Landemissionen"
+      },
+      {
+        "episodeNumber": 22,
+        "title": "RZ022 Advanced Concepts Team",
+        "topic": "Neue Konzepte in der Raumfahrt",
+        "fine": "Innovationen"
+      },
+      {
+        "episodeNumber": 22,
+        "title": "RZ022 Advanced Concepts Team",
+        "topic": "Zuverlässigkeit in Raumfahrtmissionen",
+        "fine": "Technologie"
+      },
+      {
+        "episodeNumber": 22,
+        "title": "RZ022 Advanced Concepts Team",
+        "topic": "Rolle des Advanced Concepts Teams",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 22,
+        "title": "RZ022 Advanced Concepts Team",
+        "topic": "Herausforderungen in der Raumfahrtforschung",
+        "fine": "Problemlösung"
+      },
+      {
+        "episodeNumber": 23,
+        "title": "RZ023 ROSAT",
+        "topic": "ROSAT-Mission",
+        "fine": "Röntgenteleskope"
+      },
+      {
+        "episodeNumber": 24,
+        "title": "RZ024 ROSAT-Wiedereintritt",
+        "topic": "Wiedereintritt des Satelliten ROSAT",
+        "fine": "Satelliten"
+      },
+      {
+        "episodeNumber": 24,
+        "title": "RZ024 ROSAT-Wiedereintritt",
+        "topic": "Trümmerteile und deren Auswirkungen",
+        "fine": "Satelliten"
+      },
+      {
+        "episodeNumber": 24,
+        "title": "RZ024 ROSAT-Wiedereintritt",
+        "topic": "Vorbereitungen für den Wiedereintritt",
+        "fine": "Mission Planung"
+      },
+      {
+        "episodeNumber": 27,
+        "title": "RZ027 Mars500",
+        "topic": "Bemanntes Marsprojekt",
+        "fine": "Marsmission"
+      },
+      {
+        "episodeNumber": 28,
+        "title": "RZ028 ESTRACK Bodenstations-Netzwerk",
+        "topic": "Kommunikation mit Raumfahrtzeugen",
+        "fine": "Kommunikation"
+      },
+      {
+        "episodeNumber": 28,
+        "title": "RZ028 ESTRACK Bodenstations-Netzwerk",
+        "topic": "Bodenstationen und ihre Frequenzbänder",
+        "fine": "Bodenstationen"
+      },
+      {
+        "episodeNumber": 28,
+        "title": "RZ028 ESTRACK Bodenstations-Netzwerk",
+        "topic": "ESTRACK Bodenstations-Netzwerk",
+        "fine": "Netzwerk"
+      },
+      {
+        "episodeNumber": 28,
+        "title": "RZ028 ESTRACK Bodenstations-Netzwerk",
+        "topic": "Überwachung und Steuerung von Raumfahrtmissionen",
+        "fine": "Missionen"
+      },
+      {
+        "episodeNumber": 28,
+        "title": "RZ028 ESTRACK Bodenstations-Netzwerk",
+        "topic": "Internationale Zusammenarbeit in der Raumfahrt",
+        "fine": "Zusammenarbeit"
+      },
+      {
+        "episodeNumber": 32,
+        "title": "RZ032 Das Saturnsystem",
+        "topic": "Mission Cassini-Huygens",
+        "fine": "Raumsonden"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "RZ034 Space Situational Awareness",
+        "topic": "Beobachtung der Erdumgebung",
+        "fine": "Erdumgebung"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "RZ034 Space Situational Awareness",
+        "topic": "Satellitenverkehr und Weltraumschrott",
+        "fine": "Satelliten"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "RZ034 Space Situational Awareness",
+        "topic": "Space Situational Awareness Program",
+        "fine": "Beobachtungssysteme"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "RZ034 Space Situational Awareness",
+        "topic": "Objekt-Kollisionen im Orbit",
+        "fine": "Kollisionen"
+      },
+      {
+        "episodeNumber": 42,
+        "title": "RZ042 Copernicus/GMES",
+        "topic": "Erdbeobachtung",
+        "fine": "Erdbeobachtungstechnologien"
+      },
+      {
+        "episodeNumber": 42,
+        "title": "RZ042 Copernicus/GMES",
+        "topic": "Copernicus/GMES-Programm",
+        "fine": "Satellitenmissionen"
+      },
+      {
+        "episodeNumber": 42,
+        "title": "RZ042 Copernicus/GMES",
+        "topic": "Sentinel-Satelliten",
+        "fine": "Satellitentechnologie"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "RZ044 Der Merkur",
+        "topic": "Raummissionen",
+        "fine": "Missionen"
+      },
+      {
+        "episodeNumber": 44,
+        "title": "RZ044 Der Merkur",
+        "topic": "BepiColombo",
+        "fine": "Missionen"
+      },
+      {
+        "episodeNumber": 47,
+        "title": "RZ047 Die Venus",
+        "topic": "Herausforderungen der Venusmission",
+        "fine": "Missionstechnologie"
+      },
+      {
+        "episodeNumber": 49,
+        "title": "RZ049 Der Mars",
+        "topic": "Erforschung des Mars",
+        "fine": "Planetenerkundung"
+      },
+      {
+        "episodeNumber": 49,
+        "title": "RZ049 Der Mars",
+        "topic": "Missionen zum Mars",
+        "fine": "Forschungsmissionen"
+      },
+      {
+        "episodeNumber": 54,
+        "title": "RZ054 Space Elevator",
+        "topic": "Weltraumbahnhof",
+        "fine": "Technologie"
+      },
+      {
+        "episodeNumber": 54,
+        "title": "RZ054 Space Elevator",
+        "topic": "Raumfahrtprobleme",
+        "fine": "Herausforderungen"
+      },
+      {
+        "episodeNumber": 54,
+        "title": "RZ054 Space Elevator",
+        "topic": "Raumfahrstuhl-Konzept",
+        "fine": "Innovationen"
+      },
+      {
+        "episodeNumber": 54,
+        "title": "RZ054 Space Elevator",
+        "topic": "Zugang zum All",
+        "fine": "Zukunft"
+      },
+      {
+        "episodeNumber": 57,
+        "title": "RZ057 Gaia",
+        "topic": "Gaia-Mission",
+        "fine": "Weltraummissionen"
+      },
+      {
+        "episodeNumber": 58,
+        "title": "RZ058 Philae",
+        "topic": "Landung auf einem Kometen",
+        "fine": "Kometenlandung"
+      },
+      {
+        "episodeNumber": 58,
+        "title": "RZ058 Philae",
+        "topic": "Rosetta-Mission",
+        "fine": "Raumsonden"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "RZ065 Part Time Scientists",
+        "topic": "ALINA Lander",
+        "fine": "Lander"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "RZ072 Die Zukunft der Raumfahrt",
+        "topic": "Zukunft der bemannten Raumfahrt",
+        "fine": "Missionen"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "RZ072 Die Zukunft der Raumfahrt",
+        "topic": "Forschung auf der Internationalen Raumstation",
+        "fine": "ISS"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "RZ072 Die Zukunft der Raumfahrt",
+        "topic": "Rolle des Mondes in der Raumfahrt",
+        "fine": "Mond"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "RZ072 Die Zukunft der Raumfahrt",
+        "topic": "Technologien für Marsmissionen",
+        "fine": "Technologie"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "RZ072 Die Zukunft der Raumfahrt",
+        "topic": "Herausforderungen der Marsreise",
+        "fine": "Mars"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "RZ072 Die Zukunft der Raumfahrt",
+        "topic": "Entsorgung von Weltraumschrott",
+        "fine": "Weltraumschrott"
+      },
+      {
+        "episodeNumber": 72,
+        "title": "RZ072 Die Zukunft der Raumfahrt",
+        "topic": "Militärische Aspekte der Raumfahrt",
+        "fine": "Militär"
+      },
+      {
+        "episodeNumber": 76,
+        "title": "RZ076 Der Gaia-Sternkatalog",
+        "topic": "Raumsonde Gaia",
+        "fine": "Raumsonden"
+      },
+      {
+        "episodeNumber": 77,
+        "title": "RZ077 Pflanzen im Weltraum",
+        "topic": "Klimasteuerung in der Raumfahrt",
+        "fine": "Klimasteuerung"
+      },
+      {
+        "episodeNumber": 77,
+        "title": "RZ077 Pflanzen im Weltraum",
+        "topic": "Herausforderungen bei der Nahrungsmittelzucht",
+        "fine": "Nahrungsmittelzucht"
+      },
+      {
+        "episodeNumber": 80,
+        "title": "RZ080 Europäische Raumfahrtpolitik",
+        "topic": "Zukunft der ISS",
+        "fine": "Internationale Raumstation"
+      },
+      {
+        "episodeNumber": 80,
+        "title": "RZ080 Europäische Raumfahrtpolitik",
+        "topic": "Herausforderungen der europäischen Raumfahrt",
+        "fine": "Europäische Raumfahrtpolitik"
+      },
+      {
+        "episodeNumber": 80,
+        "title": "RZ080 Europäische Raumfahrtpolitik",
+        "topic": "Entwicklung von Launchern",
+        "fine": "Launcher-Technologie"
+      },
+      {
+        "episodeNumber": 81,
+        "title": "RZ081 Hubble-Weltraumteleskop",
+        "topic": "Raumfahrtmissionen",
+        "fine": "Missionen"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "RZ083 SpaceX",
+        "topic": "Geschichte von SpaceX",
+        "fine": "Unternehmen"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "RZ083 SpaceX",
+        "topic": "Methodik der Raumfahrt",
+        "fine": "Technologie"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "RZ083 SpaceX",
+        "topic": "Philosophie von SpaceX",
+        "fine": "Innovation"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "RZ083 SpaceX",
+        "topic": "Falcon 9 Rakete",
+        "fine": "Raketen"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "RZ083 SpaceX",
+        "topic": "Kostenreduktion in der Raumfahrt",
+        "fine": "Wirtschaftlichkeit"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "RZ083 SpaceX",
+        "topic": "Landung der ersten Stufe der Rakete",
+        "fine": "Technologie"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "RZ083 SpaceX",
+        "topic": "Falcon Heavy",
+        "fine": "Raketen"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "RZ083 SpaceX",
+        "topic": "Starship-Projekt",
+        "fine": "Zukunftsprojekte"
+      },
+      {
+        "episodeNumber": 83,
+        "title": "RZ083 SpaceX",
+        "topic": "Transportweg zum Mars",
+        "fine": "Erforschung"
+      },
+      {
+        "episodeNumber": 86,
+        "title": "RZ086 Meteoriten",
+        "topic": "Meteoriten und Raumfahrt",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 89,
+        "title": "RZ089 Kerbal Space Program",
+        "topic": "Raketenprogramme im Spiel",
+        "fine": "Raketen"
+      },
+      {
+        "episodeNumber": 89,
+        "title": "RZ089 Kerbal Space Program",
+        "topic": "Satellitenstart und -orbit",
+        "fine": "Satelliten"
+      },
+      {
+        "episodeNumber": 89,
+        "title": "RZ089 Kerbal Space Program",
+        "topic": "Landemissionen auf anderen Planeten",
+        "fine": "Planetenerkundung"
+      },
+      {
+        "episodeNumber": 90,
+        "title": "RZ090 Weltraumstaub",
+        "topic": "Raumfahrtgefahren",
+        "fine": "Risiken"
+      },
+      {
+        "episodeNumber": 96,
+        "title": "RZ096 Erdähnliche Exoplaneten",
+        "topic": "Deep Space Missionen",
+        "fine": "Deep Space"
+      },
+      {
+        "episodeNumber": 98,
+        "title": "RZ098 Geschichte der Europäischen Raumfahrt",
+        "topic": "Bedeutung der Europäischen Raumfahrt",
+        "fine": "Internationale Raumfahrt"
+      },
+      {
+        "episodeNumber": 98,
+        "title": "RZ098 Geschichte der Europäischen Raumfahrt",
+        "topic": "ESA und europäische Raumfahrtindustrie",
+        "fine": "Raumfahrtorganisationen"
+      },
+      {
+        "episodeNumber": 99,
+        "title": "RZ099 CHEOPS",
+        "topic": "CHEOPS-Mission",
+        "fine": "Weltraummissionen"
+      },
+      {
+        "episodeNumber": 108,
+        "title": "RZ108 NASA",
+        "topic": "Rolle der NASA in der Raumfahrt",
+        "fine": "NASA"
+      },
+      {
+        "episodeNumber": 109,
+        "title": "RZ109 Quantentechnologie für die Raumfahrt",
+        "topic": "Entwicklung neuer Technologien für die Raumfahrt",
+        "fine": "Technologieentwicklung"
+      },
+      {
+        "episodeNumber": 109,
+        "title": "RZ109 Quantentechnologie für die Raumfahrt",
+        "topic": "Genauere Mess- und Steuerinstrumente",
+        "fine": "Messinstrumente"
+      },
+      {
+        "episodeNumber": 110,
+        "title": "RZ110 Grenzen des menschlichen Körpers",
+        "topic": "Belastungen im Weltraum",
+        "fine": "Astronautenmedizin"
+      },
+      {
+        "episodeNumber": 110,
+        "title": "RZ110 Grenzen des menschlichen Körpers",
+        "topic": "Mondmissionen und ihre Herausforderungen",
+        "fine": "Missionstechnologie"
+      },
+      {
+        "episodeNumber": 14,
+        "title": "RZ014 Robotik in der Raumfahrt",
+        "topic": "Missionsverlängernde Maßnahmen",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 118,
+        "title": "RZ118 Raumfahrt-Industrie",
+        "topic": "Planung des Missionsendes",
+        "fine": "Missionsplanung"
+      },
+      {
+        "episodeNumber": 30,
+        "title": "RZ030 Cassini-Huygens",
+        "topic": "Cassini-Huygens Mission",
+        "fine": "Deep Space Missions"
+      },
+      {
+        "episodeNumber": 43,
+        "title": "RZ043 BepiColombo",
+        "topic": "ESA-Mission BepiColombo",
+        "fine": "Mercury"
+      },
+      {
+        "episodeNumber": 78,
+        "title": "RZ078 Pluto und New Horizons",
+        "topic": "Mission New Horizons",
+        "fine": "NASA Missions"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Einfluss von Envisat auf die Erdbeobachtung",
+        "fine": "Erdbeobachtung"
+      },
+      {
+        "episodeNumber": 43,
+        "title": "RZ043 BepiColombo",
+        "topic": "Herausforderungen der Raumfahrt zum Merkur",
+        "fine": "Solar Proximity"
+      }
+    ],
+    "Research": [
+      {
+        "episodeNumber": 21,
+        "title": "RZ021 Weltraummedizin",
+        "topic": "Wissenschaftliche Erkenntnisse durch Raumfahrtmedizin",
+        "fine": "Medical Research"
+      },
+      {
+        "episodeNumber": 33,
+        "title": "RZ033 Energie der Zukunft",
+        "topic": "Studien des DLR",
+        "fine": "Energy Research"
+      },
+      {
+        "episodeNumber": 45,
+        "title": "RZ045 Rexus/Bexus",
+        "topic": "REXUS und BEXUS Programme",
+        "fine": "Space Experiments"
+      },
+      {
+        "episodeNumber": 78,
+        "title": "RZ078 Pluto und New Horizons",
+        "topic": "Wissenschaftliche Erkenntnisse",
+        "fine": "Planetary Science"
+      },
+      {
+        "episodeNumber": 113,
+        "title": "RZ113 CERN: Der ALICE-Detektor",
+        "topic": "CERN",
+        "fine": "Particle Accelerator"
+      }
+    ],
+    "Science": [
+      {
+        "episodeNumber": 11,
+        "title": "RZ011 Astronautenausbildung",
+        "topic": "Astronautenausbildung",
+        "fine": "Astronautics"
+      },
+      {
+        "episodeNumber": 11,
+        "title": "RZ011 Astronautenausbildung",
+        "topic": "Herausforderungen im Orbit",
+        "fine": "Space Missions"
+      },
+      {
+        "episodeNumber": 11,
+        "title": "RZ011 Astronautenausbildung",
+        "topic": "Notfallsituationen im All",
+        "fine": "Emergency Procedures"
+      },
+      {
+        "episodeNumber": 25,
+        "title": "RZ025 Zentrum für Kriseninformation",
+        "topic": "Raumfahrt und Katastrophenbekämpfung",
+        "fine": "Space Exploration"
+      },
+      {
+        "episodeNumber": 25,
+        "title": "RZ025 Zentrum für Kriseninformation",
+        "topic": "Erdbeobachtungssysteme",
+        "fine": "Earth Observation"
+      },
+      {
+        "episodeNumber": 31,
+        "title": "RZ031 DLR_School_Labs",
+        "topic": "Forschung und Wissenschaft erleben",
+        "fine": "Research Experience"
+      },
+      {
+        "episodeNumber": 37,
+        "title": "RZ037 TanDEM-X",
+        "topic": "Genauigkeit in der Höhenmessung",
+        "fine": "Geodäsie"
+      },
+      {
+        "episodeNumber": 38,
+        "title": "RZ038 Alpha-Magnet-Spektrometer",
+        "topic": "Alpha-Magnet-Spektrometer",
+        "fine": "Astrophysics"
+      },
+      {
+        "episodeNumber": 38,
+        "title": "RZ038 Alpha-Magnet-Spektrometer",
+        "topic": "Dunkle Materie",
+        "fine": "Cosmology"
+      },
+      {
+        "episodeNumber": 38,
+        "title": "RZ038 Alpha-Magnet-Spektrometer",
+        "topic": "Dunkle Energie",
+        "fine": "Cosmology"
+      },
+      {
+        "episodeNumber": 38,
+        "title": "RZ038 Alpha-Magnet-Spektrometer",
+        "topic": "kosmische Strahlung",
+        "fine": "Astrophysics"
+      },
+      {
+        "episodeNumber": 38,
+        "title": "RZ038 Alpha-Magnet-Spektrometer",
+        "topic": "Urknall",
+        "fine": "Cosmology"
+      },
+      {
+        "episodeNumber": 45,
+        "title": "RZ045 Rexus/Bexus",
+        "topic": "Durchführung von Experimenten in der Schwerelosigkeit",
+        "fine": "Microgravity Research"
+      },
+      {
+        "episodeNumber": 46,
+        "title": "RZ046 Venus Express",
+        "topic": "Extreme Atmosphäre der Venus",
+        "fine": "Planetary Science"
+      },
+      {
+        "episodeNumber": 46,
+        "title": "RZ046 Venus Express",
+        "topic": "Klimaforschung durch Venus-Studien",
+        "fine": "Climate Research"
+      },
+      {
+        "episodeNumber": 46,
+        "title": "RZ046 Venus Express",
+        "topic": "Daten und Erkenntnisse von Venus Express",
+        "fine": "Data Analysis"
+      },
+      {
+        "episodeNumber": 48,
+        "title": "RZ048 Mars Express",
+        "topic": "Scientific Discoveries",
+        "fine": "Astrobiology"
+      },
+      {
+        "episodeNumber": 48,
+        "title": "RZ048 Mars Express",
+        "topic": "Search for Life on Mars",
+        "fine": "Astrobiology"
+      },
+      {
+        "episodeNumber": 51,
+        "title": "RZ051 XMM-Newton",
+        "topic": "Röntgenastronomie",
+        "fine": "Astrophysics"
+      },
+      {
+        "episodeNumber": 51,
+        "title": "RZ051 XMM-Newton",
+        "topic": "Forschung im Frequenzbereich der Röntgen-Strahlung",
+        "fine": "Radiation"
+      },
+      {
+        "episodeNumber": 53,
+        "title": "RZ053 Mythos Raumfahrt",
+        "topic": "Mythos Raumfahrt",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 53,
+        "title": "RZ053 Mythos Raumfahrt",
+        "topic": "Herausforderungen der Raumfahrt",
+        "fine": "Raumfahrttechnik"
+      },
+      {
+        "episodeNumber": 82,
+        "title": "RZ082 Bodenerkundung auf dem Mars",
+        "topic": "Geologie des Mars",
+        "fine": "Geology"
+      },
+      {
+        "episodeNumber": 82,
+        "title": "RZ082 Bodenerkundung auf dem Mars",
+        "topic": "Geochemie des Mars",
+        "fine": "Geochemistry"
+      },
+      {
+        "episodeNumber": 82,
+        "title": "RZ082 Bodenerkundung auf dem Mars",
+        "topic": "Entwicklung des Sonnensystems",
+        "fine": "Cosmology"
+      },
+      {
+        "episodeNumber": 87,
+        "title": "RZ087 Amateurastronomie",
+        "topic": "Amateurastronomie",
+        "fine": "Astronomy"
+      },
+      {
+        "episodeNumber": 87,
+        "title": "RZ087 Amateurastronomie",
+        "topic": "Beobachtungen zur Unterstützung der Wissenschaft",
+        "fine": "Citizen Science"
+      },
+      {
+        "episodeNumber": 91,
+        "title": "RZ091 Philosophie und das Universum",
+        "topic": "Astrophysik und Astronomie",
+        "fine": "Astrophysics"
+      },
+      {
+        "episodeNumber": 95,
+        "title": "RZ095 JUICE",
+        "topic": "Untersuchung von Ganymed",
+        "fine": "Planetary Science"
+      },
+      {
+        "episodeNumber": 97,
+        "title": "RZ097 Wettersatelliten",
+        "topic": "Zukünftige Herausforderungen der Wetterbeobachtung",
+        "fine": "Meteorologie"
+      },
+      {
+        "episodeNumber": 113,
+        "title": "RZ113 CERN: Der ALICE-Detektor",
+        "topic": "ALICE-Experiment",
+        "fine": "Particle Physics"
+      },
+      {
+        "episodeNumber": 121,
+        "title": "RZ121 EarthCARE",
+        "topic": "Globale Beobachtungen",
+        "fine": "Remote Sensing"
+      }
+    ],
+    "Space": [
+      {
+        "episodeNumber": 3,
+        "title": "RZ003 Raketenantriebe",
+        "topic": "Bedeutung der Antriebstechnik",
+        "fine": "Space Exploration"
+      },
+      {
+        "episodeNumber": 12,
+        "title": "RZ012 Sigmund Jähn",
+        "topic": "Rückblick auf die bemannte Raumfahrt",
+        "fine": "Manned Spaceflight"
+      },
+      {
+        "episodeNumber": 12,
+        "title": "RZ012 Sigmund Jähn",
+        "topic": "Juri Gagarin und die Wostok 1",
+        "fine": "Historical Missions"
+      },
+      {
+        "episodeNumber": 12,
+        "title": "RZ012 Sigmund Jähn",
+        "topic": "Sigmund Jähn als erster deutscher Raumfahrer",
+        "fine": "Astronauts"
+      },
+      {
+        "episodeNumber": 12,
+        "title": "RZ012 Sigmund Jähn",
+        "topic": "Raumstationen und Langzeitmissionen",
+        "fine": "Space Stations"
+      },
+      {
+        "episodeNumber": 12,
+        "title": "RZ012 Sigmund Jähn",
+        "topic": "Rolle von Sigmund Jähn nach der Wende",
+        "fine": "Astronaut Training"
+      },
+      {
+        "episodeNumber": 17,
+        "title": "RZ017 Automated Transfer Vehicle",
+        "topic": "Automated Transfer Vehicle",
+        "fine": "Spacecraft"
+      },
+      {
+        "episodeNumber": 17,
+        "title": "RZ017 Automated Transfer Vehicle",
+        "topic": "Logistics for ISS",
+        "fine": "International Space Station"
+      },
+      {
+        "episodeNumber": 17,
+        "title": "RZ017 Automated Transfer Vehicle",
+        "topic": "ATV Missions",
+        "fine": "Missions"
+      },
+      {
+        "episodeNumber": 36,
+        "title": "RZ036 Deutsches Raumfahrt-Kontrollzentrum",
+        "topic": "Deutsches Raumfahrt-Kontrollzentrum",
+        "fine": "Mission Control"
+      },
+      {
+        "episodeNumber": 36,
+        "title": "RZ036 Deutsches Raumfahrt-Kontrollzentrum",
+        "topic": "Columbus-Mission an Bord der ISS",
+        "fine": "International Space Station"
+      },
+      {
+        "episodeNumber": 36,
+        "title": "RZ036 Deutsches Raumfahrt-Kontrollzentrum",
+        "topic": "Erdbeobachtungssatelliten",
+        "fine": "Earth Observation"
+      },
+      {
+        "episodeNumber": 36,
+        "title": "RZ036 Deutsches Raumfahrt-Kontrollzentrum",
+        "topic": "Rosetta-Raumsonde",
+        "fine": "Spacecraft"
+      },
+      {
+        "episodeNumber": 37,
+        "title": "RZ037 TanDEM-X",
+        "topic": "Doppelmission TerraSAR-X und TanDEM-X",
+        "fine": "Satelliten"
+      },
+      {
+        "episodeNumber": 37,
+        "title": "RZ037 TanDEM-X",
+        "topic": "Helixförmige Flugbahn um die Erde",
+        "fine": "Orbitalmechanik"
+      },
+      {
+        "episodeNumber": 46,
+        "title": "RZ046 Venus Express",
+        "topic": "ESA-Mission zur Venus",
+        "fine": "Space Missions"
+      },
+      {
+        "episodeNumber": 48,
+        "title": "RZ048 Mars Express",
+        "topic": "Mars Express Mission",
+        "fine": "Mars Exploration"
+      },
+      {
+        "episodeNumber": 51,
+        "title": "RZ051 XMM-Newton",
+        "topic": "XMM-Newton Mission",
+        "fine": "Spacecraft"
+      },
+      {
+        "episodeNumber": 51,
+        "title": "RZ051 XMM-Newton",
+        "topic": "Laufzeitverlängerung von Satelliten",
+        "fine": "Mission Duration"
+      },
+      {
+        "episodeNumber": 52,
+        "title": "RZ052 Solar Orbiter",
+        "topic": "Solar Orbiter Mission",
+        "fine": "Space Missions"
+      },
+      {
+        "episodeNumber": 59,
+        "title": "RZ059 Kleinsatelliten",
+        "topic": "Kleinsatelliten und ihre Vorteile",
+        "fine": "Satellites"
+      },
+      {
+        "episodeNumber": 59,
+        "title": "RZ059 Kleinsatelliten",
+        "topic": "Forschung neuer Raumfahrtsysteme",
+        "fine": "Research"
+      },
+      {
+        "episodeNumber": 82,
+        "title": "RZ082 Bodenerkundung auf dem Mars",
+        "topic": "Erkenntnisse aus Marsmissionen",
+        "fine": "Mars Exploration"
+      },
+      {
+        "episodeNumber": 82,
+        "title": "RZ082 Bodenerkundung auf dem Mars",
+        "topic": "Zusammenarbeit von NASA und ESA",
+        "fine": "Space Agencies"
+      },
+      {
+        "episodeNumber": 82,
+        "title": "RZ082 Bodenerkundung auf dem Mars",
+        "topic": "Zukünftige Marsmissionen",
+        "fine": "Mission Planning"
+      },
+      {
+        "episodeNumber": 84,
+        "title": "RZ084 Besuch beim Asteroiden",
+        "topic": "Mission Hayabusa 2",
+        "fine": "Space Missions"
+      },
+      {
+        "episodeNumber": 84,
+        "title": "RZ084 Besuch beim Asteroiden",
+        "topic": "Asteroid Ryugu",
+        "fine": "Asteroids"
+      },
+      {
+        "episodeNumber": 84,
+        "title": "RZ084 Besuch beim Asteroiden",
+        "topic": "Lander MASCOT",
+        "fine": "Space Probes"
+      },
+      {
+        "episodeNumber": 84,
+        "title": "RZ084 Besuch beim Asteroiden",
+        "topic": "JAXA",
+        "fine": "Space Agencies"
+      },
+      {
+        "episodeNumber": 84,
+        "title": "RZ084 Besuch beim Asteroiden",
+        "topic": "Rückflug zur Erde",
+        "fine": "Space Travel"
+      },
+      {
+        "episodeNumber": 92,
+        "title": "RZ092 Weltraumschrott-Bekämpfung",
+        "topic": "Weltraumschrott-Bekämpfung",
+        "fine": "Space Debris"
+      },
+      {
+        "episodeNumber": 92,
+        "title": "RZ092 Weltraumschrott-Bekämpfung",
+        "topic": "Raumfahrtprobleme durch erhöhten Verkehr",
+        "fine": "Orbital Traffic"
+      },
+      {
+        "episodeNumber": 92,
+        "title": "RZ092 Weltraumschrott-Bekämpfung",
+        "topic": "Space Safety Programm der ESA",
+        "fine": "Safety Programs"
+      },
+      {
+        "episodeNumber": 92,
+        "title": "RZ092 Weltraumschrott-Bekämpfung",
+        "topic": "Missionen zur Entfernung gefährlicher Strukturen",
+        "fine": "Debris Removal"
+      },
+      {
+        "episodeNumber": 95,
+        "title": "RZ095 JUICE",
+        "topic": "ESA-Mission JUICE",
+        "fine": "Space Missions"
+      },
+      {
+        "episodeNumber": 107,
+        "title": "RZ107 Artemis und Orion",
+        "topic": "Artemis-Mission",
+        "fine": "Lunar Exploration"
+      },
+      {
+        "episodeNumber": 107,
+        "title": "RZ107 Artemis und Orion",
+        "topic": "Zusammenarbeit NASA und ESA",
+        "fine": "International Cooperation"
+      },
+      {
+        "episodeNumber": 107,
+        "title": "RZ107 Artemis und Orion",
+        "topic": "European Service Modul",
+        "fine": "Spacecraft Components"
+      },
+      {
+        "episodeNumber": 107,
+        "title": "RZ107 Artemis und Orion",
+        "topic": "Artemis 1 Mission",
+        "fine": "Mission Success"
+      },
+      {
+        "episodeNumber": 120,
+        "title": "RZ120 Ulf Merbold",
+        "topic": "Ulf Merbolds Raumfahrtkarriere",
+        "fine": "Astronauten"
+      },
+      {
+        "episodeNumber": 120,
+        "title": "RZ120 Ulf Merbold",
+        "topic": "Space Shuttle Missionen",
+        "fine": "Space Shuttle"
+      },
+      {
+        "episodeNumber": 120,
+        "title": "RZ120 Ulf Merbold",
+        "topic": "Raumstation Mir",
+        "fine": "Raumstationen"
+      },
+      {
+        "episodeNumber": 120,
+        "title": "RZ120 Ulf Merbold",
+        "topic": "Europäisches Astronautenzentrum",
+        "fine": "Astronautenausbildung"
+      },
+      {
+        "episodeNumber": 120,
+        "title": "RZ120 Ulf Merbold",
+        "topic": "Forschungsmodul Columbus",
+        "fine": "ISS"
+      },
+      {
+        "episodeNumber": 121,
+        "title": "RZ121 EarthCARE",
+        "topic": "EarthCARE Mission",
+        "fine": "Satellite Missions"
+      }
+    ],
+    "Technologie": [
+      {
+        "episodeNumber": 3,
+        "title": "RZ003 Raketenantriebe",
+        "topic": "Raketenantriebe",
+        "fine": "Rocket Propulsion"
+      },
+      {
+        "episodeNumber": 3,
+        "title": "RZ003 Raketenantriebe",
+        "topic": "Entwicklung von Antrieben",
+        "fine": "Propulsion Systems"
+      },
+      {
+        "episodeNumber": 30,
+        "title": "RZ030 Cassini-Huygens",
+        "topic": "Technical Challenges",
+        "fine": "Aerospace Engineering"
+      },
+      {
+        "episodeNumber": 51,
+        "title": "RZ051 XMM-Newton",
+        "topic": "Technische Herausforderungen",
+        "fine": "Space Operations"
+      },
+      {
+        "episodeNumber": 8,
+        "title": "RZ008 Satellitennavigation",
+        "topic": "Technische Basis der Ortungssysteme",
+        "fine": "Ortungssysteme"
+      },
+      {
+        "episodeNumber": 8,
+        "title": "RZ008 Satellitennavigation",
+        "topic": "GPS-System",
+        "fine": "GPS"
+      },
+      {
+        "episodeNumber": 8,
+        "title": "RZ008 Satellitennavigation",
+        "topic": "Galileo Navigationssystem",
+        "fine": "Galileo"
+      },
+      {
+        "episodeNumber": 13,
+        "title": "RZ013 Die Atmosphäre",
+        "topic": "Atmosphäre und Raumfahrt",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 13,
+        "title": "RZ013 Die Atmosphäre",
+        "topic": "Kommunikation in der Raumfahrt",
+        "fine": "Kommunikation"
+      },
+      {
+        "episodeNumber": 14,
+        "title": "RZ014 Robotik in der Raumfahrt",
+        "topic": "Erste Missionen robotischer Anlagen",
+        "fine": "Robotik"
+      },
+      {
+        "episodeNumber": 16,
+        "title": "RZ016 SOFIA Infrarotteleskop",
+        "topic": "Messwerte und Messtechnik",
+        "fine": "Messtechnik"
+      },
+      {
+        "episodeNumber": 18,
+        "title": "RZ018 ESTEC Test Centre",
+        "topic": "Temperatur- und Vakuumbeständigkeit",
+        "fine": "Materialprüfung"
+      },
+      {
+        "episodeNumber": 18,
+        "title": "RZ018 ESTEC Test Centre",
+        "topic": "Vibrationsfestigkeit von Raumfahrzeugen",
+        "fine": "Vibrationsprüfung"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "RZ026 Forschen in Schwerelosigkeit",
+        "topic": "Falltürme und Höhenforschungsraketen",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "RZ026 Forschen in Schwerelosigkeit",
+        "topic": "Parabelflugzeuge",
+        "fine": "Luftfahrt"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "RZ026 Forschen in Schwerelosigkeit",
+        "topic": "Technologische Erprobungen ohne Gravitation",
+        "fine": "Entwicklung"
+      },
+      {
+        "episodeNumber": 27,
+        "title": "RZ027 Mars500",
+        "topic": "Simulation von Marsbedingungen",
+        "fine": "Simulationstechniken"
+      },
+      {
+        "episodeNumber": 29,
+        "title": "RZ029 Herschel-Weltraumteleskop",
+        "topic": "Technik des Satelliten",
+        "fine": "Raumfahrttechnik"
+      },
+      {
+        "episodeNumber": 29,
+        "title": "RZ029 Herschel-Weltraumteleskop",
+        "topic": "Technische Anforderungen",
+        "fine": "Projektmanagement"
+      },
+      {
+        "episodeNumber": 40,
+        "title": "RZ040 GOCE",
+        "topic": "Technik des Satelliten GOCE",
+        "fine": "Satellitentechnologie"
+      },
+      {
+        "episodeNumber": 42,
+        "title": "RZ042 Copernicus/GMES",
+        "topic": "Datenzugänglichkeit",
+        "fine": "Datenmanagement"
+      },
+      {
+        "episodeNumber": 54,
+        "title": "RZ054 Space Elevator",
+        "topic": "Zukünftige Technologien",
+        "fine": "Entwicklung"
+      },
+      {
+        "episodeNumber": 55,
+        "title": "RZ055 Planck",
+        "topic": "Weltraumteleskop",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 57,
+        "title": "RZ057 Gaia",
+        "topic": "Kamerasystem der Gaia-Mission",
+        "fine": "Kameratechnologie"
+      },
+      {
+        "episodeNumber": 61,
+        "title": "RZ061 Gravitationswellenastronomie",
+        "topic": "Messmethoden in der Gravitationswellenastronomie",
+        "fine": "Messtechnik"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "RZ065 Part Time Scientists",
+        "topic": "Rover-Entwicklung",
+        "fine": "Roboter"
+      },
+      {
+        "episodeNumber": 66,
+        "title": "RZ066 Laserkommunikation",
+        "topic": "Optische Kommunikation",
+        "fine": "Kommunikation"
+      },
+      {
+        "episodeNumber": 66,
+        "title": "RZ066 Laserkommunikation",
+        "topic": "Datenübertragung",
+        "fine": "Datenkommunikation"
+      },
+      {
+        "episodeNumber": 66,
+        "title": "RZ066 Laserkommunikation",
+        "topic": "Bandbreitensteigerung",
+        "fine": "Netzwerktechnologien"
+      },
+      {
+        "episodeNumber": 66,
+        "title": "RZ066 Laserkommunikation",
+        "topic": "Latenzreduktion",
+        "fine": "Netzwerktechnologien"
+      },
+      {
+        "episodeNumber": 68,
+        "title": "RZ068 Bodengestützte Astronomie",
+        "topic": "Teleskop-Technologie",
+        "fine": "Teleskope"
+      },
+      {
+        "episodeNumber": 71,
+        "title": "RZ071 Asteroidenabwehr",
+        "topic": "Techniken zur Asteroidenabwehr",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "RZ074 Schwarze Löcher",
+        "topic": "Event Horizon Telescope",
+        "fine": "Teleskope"
+      },
+      {
+        "episodeNumber": 74,
+        "title": "RZ074 Schwarze Löcher",
+        "topic": "Visualisierung von Schwarzen Löchern",
+        "fine": "Bildgebung"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "RZ079 Kosmische Chemie",
+        "topic": "Spektrale Analysen",
+        "fine": "Spektralanalyse"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "RZ079 Kosmische Chemie",
+        "topic": "Massenspektrometer im Sonnensystem",
+        "fine": "Massenspektrometrie"
+      },
+      {
+        "episodeNumber": 85,
+        "title": "RZ085 Erforschung der Sonne",
+        "topic": "Parker Solar Probe",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 85,
+        "title": "RZ085 Erforschung der Sonne",
+        "topic": "Solar Orbiter",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 88,
+        "title": "RZ088 GEO600",
+        "topic": "Technologie von GEO600",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 93,
+        "title": "RZ093 Das James-Webb-Weltraumteleskop",
+        "topic": "Komplexität der Instrumente",
+        "fine": "Instrumententechnologie"
+      },
+      {
+        "episodeNumber": 98,
+        "title": "RZ098 Geschichte der Europäischen Raumfahrt",
+        "topic": "Entwicklung der Raketentechnik",
+        "fine": "Raketentechnik"
+      },
+      {
+        "episodeNumber": 98,
+        "title": "RZ098 Geschichte der Europäischen Raumfahrt",
+        "topic": "Ariane-Programm",
+        "fine": "Raumfahrtprogramme"
+      },
+      {
+        "episodeNumber": 99,
+        "title": "RZ099 CHEOPS",
+        "topic": "Weltraumteleskope",
+        "fine": "Weltraumteleskope"
+      },
+      {
+        "episodeNumber": 99,
+        "title": "RZ099 CHEOPS",
+        "topic": "Präzisionsmessungen",
+        "fine": "Messinstrumente"
+      },
+      {
+        "episodeNumber": 101,
+        "title": "RZ101 Exoplaneten-Beobachtung",
+        "topic": "Entwicklung von Weltraumteleskopen",
+        "fine": "Weltraumteleskope"
+      },
+      {
+        "episodeNumber": 104,
+        "title": "RZ104 Cherenkov Telescope Array",
+        "topic": "Beobachtungstechnologien",
+        "fine": "Beobachtung"
+      },
+      {
+        "episodeNumber": 109,
+        "title": "RZ109 Quantentechnologie für die Raumfahrt",
+        "topic": "Quantenmechanische Eigenschaften in Technologien",
+        "fine": "Quantenmechanik"
+      },
+      {
+        "episodeNumber": 109,
+        "title": "RZ109 Quantentechnologie für die Raumfahrt",
+        "topic": "Einfluss von Quantenmechanik auf irdische Technologien",
+        "fine": "Anwendungen"
+      },
+      {
+        "episodeNumber": 110,
+        "title": "RZ110 Grenzen des menschlichen Körpers",
+        "topic": "Technologische Überwindung von biologischen Grenzen",
+        "fine": "Medizinische Technologie"
+      },
+      {
+        "episodeNumber": 111,
+        "title": "RZ111 CERN: Geschichte und Erfolge",
+        "topic": "Erfindung des World Wide Webs",
+        "fine": "Internet"
+      },
+      {
+        "episodeNumber": 112,
+        "title": "RZ112 CERN: Die Beschleuniger-Kette",
+        "topic": "Aufbau und Betrieb von Beschleunigern",
+        "fine": "Maschinenbau"
+      },
+      {
+        "episodeNumber": 115,
+        "title": "RZ115 CERN: ATLAS",
+        "topic": "Aufbau des ATLAS-Detektors",
+        "fine": "Detektoren"
+      },
+      {
+        "episodeNumber": 116,
+        "title": "RZ116 CERN: LHCb",
+        "topic": "LHCb-Detektor",
+        "fine": "Teilchenbeschleuniger"
+      },
+      {
+        "episodeNumber": 118,
+        "title": "RZ118 Raumfahrt-Industrie",
+        "topic": "Bau und Betrieb von Raumfahrzeugen",
+        "fine": "Raumfahrzeuge"
+      },
+      {
+        "episodeNumber": 118,
+        "title": "RZ118 Raumfahrt-Industrie",
+        "topic": "Moderne Satellitentechnologie",
+        "fine": "Satelliten"
+      },
+      {
+        "episodeNumber": 118,
+        "title": "RZ118 Raumfahrt-Industrie",
+        "topic": "Lösungen für Planung und Rettung von Missionen",
+        "fine": "Missionstechnologien"
+      },
+      {
+        "episodeNumber": 119,
+        "title": "RZ119 Das Ariane-Raketenprogramm",
+        "topic": "Geschichte der Ariane-Raketen",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 119,
+        "title": "RZ119 Das Ariane-Raketenprogramm",
+        "topic": "Ariane 6",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 119,
+        "title": "RZ119 Das Ariane-Raketenprogramm",
+        "topic": "Ariane 5",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 8,
+        "title": "RZ008 Satellitennavigation",
+        "topic": "Einsatzgebiete der Satellitennavigation",
+        "fine": "Navigation"
+      },
+      {
+        "episodeNumber": 15,
+        "title": "RZ015 Softwaretechnik",
+        "topic": "Softwareentwicklung",
+        "fine": "Entwicklung"
+      },
+      {
+        "episodeNumber": 15,
+        "title": "RZ015 Softwaretechnik",
+        "topic": "Betrieb und Simulation",
+        "fine": "Simulation"
+      },
+      {
+        "episodeNumber": 15,
+        "title": "RZ015 Softwaretechnik",
+        "topic": "Techniken in der Softwareentwicklung",
+        "fine": "Techniken"
+      },
+      {
+        "episodeNumber": 30,
+        "title": "RZ030 Cassini-Huygens",
+        "topic": "Atmospheric Entry",
+        "fine": "Entry Systems"
+      },
+      {
+        "episodeNumber": 50,
+        "title": "RZ050 Humanoide Robotik",
+        "topic": "Anwendungsgebiete humanoider Roboter",
+        "fine": "Humanoide Roboter"
+      },
+      {
+        "episodeNumber": 50,
+        "title": "RZ050 Humanoide Robotik",
+        "topic": "Entwicklungsstand der Robotik",
+        "fine": "Technologischer Fortschritt"
+      },
+      {
+        "episodeNumber": 50,
+        "title": "RZ050 Humanoide Robotik",
+        "topic": "Forschungsfelder der Robotik",
+        "fine": "Forschungsanwendungen"
+      }
+    ],
+    "Technology": [
+      {
+        "episodeNumber": 3,
+        "title": "RZ003 Raketenantriebe",
+        "topic": "Zukunft der Raumfahrtantriebe",
+        "fine": "Future Innovations"
+      },
+      {
+        "episodeNumber": 25,
+        "title": "RZ025 Zentrum für Kriseninformation",
+        "topic": "Satellitengestützte Kriseninformation",
+        "fine": "Satellite Technology"
+      },
+      {
+        "episodeNumber": 25,
+        "title": "RZ025 Zentrum für Kriseninformation",
+        "topic": "Datenanalyse und Aufbereitung",
+        "fine": "Data Processing"
+      },
+      {
+        "episodeNumber": 35,
+        "title": "RZ035 Technology Transfer Program",
+        "topic": "Technologietransfer zwischen Raumfahrt und Wirtschaft",
+        "fine": "Technology Transfer"
+      },
+      {
+        "episodeNumber": 37,
+        "title": "RZ037 TanDEM-X",
+        "topic": "Technische Innovation in der Satellitensteuerung",
+        "fine": "Satellitensteuerung"
+      },
+      {
+        "episodeNumber": 46,
+        "title": "RZ046 Venus Express",
+        "topic": "Technologien von Rosetta und Mars Express",
+        "fine": "Space Technology"
+      },
+      {
+        "episodeNumber": 48,
+        "title": "RZ048 Mars Express",
+        "topic": "Stereoscopic Cameras",
+        "fine": "Imaging"
+      },
+      {
+        "episodeNumber": 48,
+        "title": "RZ048 Mars Express",
+        "topic": "HRSC-Camera",
+        "fine": "Remote Sensing"
+      },
+      {
+        "episodeNumber": 48,
+        "title": "RZ048 Mars Express",
+        "topic": "MARSIS-Radar-Instrument",
+        "fine": "Radar"
+      },
+      {
+        "episodeNumber": 69,
+        "title": "RZ069 Copernicus Open Data Strategy",
+        "topic": "Sentinel-Satelliten",
+        "fine": "Satellites"
+      },
+      {
+        "episodeNumber": 87,
+        "title": "RZ087 Amateurastronomie",
+        "topic": "Teleskope und Kameras",
+        "fine": "Optics"
+      },
+      {
+        "episodeNumber": 87,
+        "title": "RZ087 Amateurastronomie",
+        "topic": "Satelliten und deren Auswirkungen",
+        "fine": "Satellites"
+      },
+      {
+        "episodeNumber": 92,
+        "title": "RZ092 Weltraumschrott-Bekämpfung",
+        "topic": "Radarsysteme zur Objekterfassung",
+        "fine": "Radar Systems"
+      },
+      {
+        "episodeNumber": 92,
+        "title": "RZ092 Weltraumschrott-Bekämpfung",
+        "topic": "Lasertechnologie zur Bahnänderung",
+        "fine": "Laser Technology"
+      },
+      {
+        "episodeNumber": 97,
+        "title": "RZ097 Wettersatelliten",
+        "topic": "Entwicklung der europäischen Wettersatelliten",
+        "fine": "Satelliten"
+      },
+      {
+        "episodeNumber": 97,
+        "title": "RZ097 Wettersatelliten",
+        "topic": "Meteosat- und MetOp-Satelliten",
+        "fine": "Wettersatelliten"
+      }
+    ],
+    "Wirtschaft": [
+      {
+        "episodeNumber": 35,
+        "title": "RZ035 Technology Transfer Program",
+        "topic": "Ökonomische Nutzung der Raumfahrtanwendungen",
+        "fine": "Space Applications"
+      },
+      {
+        "episodeNumber": 35,
+        "title": "RZ035 Technology Transfer Program",
+        "topic": "Gründung von Firmen basierend auf Raumfahrtforschung",
+        "fine": "Startups"
+      },
+      {
+        "episodeNumber": 42,
+        "title": "RZ042 Copernicus/GMES",
+        "topic": "Agrarwirtschaft",
+        "fine": "Landwirtschaft"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "RZ065 Part Time Scientists",
+        "topic": "private Raumfahrt",
+        "fine": "Privatinvestitionen"
+      },
+      {
+        "episodeNumber": 70,
+        "title": "RZ070 Weltraumrecht",
+        "topic": "Herausforderungen durch private Nutzung des Weltraums",
+        "fine": "Ressourcennutzung"
+      },
+      {
+        "episodeNumber": 80,
+        "title": "RZ080 Europäische Raumfahrtpolitik",
+        "topic": "Rolle privater Unternehmen",
+        "fine": "Private Raumfahrtunternehmen"
+      },
+      {
+        "episodeNumber": 108,
+        "title": "RZ108 NASA",
+        "topic": "Privatisierung im Raumfahrtbetrieb",
+        "fine": "Privatisierung"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "RZ065 Part Time Scientists",
+        "topic": "Part Time Scientists",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 118,
+        "title": "RZ118 Raumfahrt-Industrie",
+        "topic": "Rolle der Raumfahrt-Industrie",
+        "fine": "Raumfahrt"
+      }
+    ],
+    "Wissenschaft": [
+      {
+        "episodeNumber": 6,
+        "title": "RZ006 Erdbeobachtung",
+        "topic": "Blick aus dem All",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 20,
+        "title": "RZ020 Giotto und Rosetta",
+        "topic": "Analyse der Kometenzusammensetzung",
+        "fine": "Chemische Analyse"
+      },
+      {
+        "episodeNumber": 24,
+        "title": "RZ024 ROSAT-Wiedereintritt",
+        "topic": "Berechnungen zum Wiedereintritt",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "RZ026 Forschen in Schwerelosigkeit",
+        "topic": "Experimentieren in Schwerelosigkeit",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 39,
+        "title": "RZ039 Der Mond",
+        "topic": "Erforschung des Mondes",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 39,
+        "title": "RZ039 Der Mond",
+        "topic": "Wasser auf dem Mond",
+        "fine": "Planetologie"
+      },
+      {
+        "episodeNumber": 39,
+        "title": "RZ039 Der Mond",
+        "topic": "Zukünftige Mondmissionen",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 40,
+        "title": "RZ040 GOCE",
+        "topic": "Bedeutung der Messergebnisse",
+        "fine": "Erdbeobachtung"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Übergang von Forschung zu wissenschaftlicher Dienstleistung",
+        "fine": "Dienstleistungen"
+      },
+      {
+        "episodeNumber": 42,
+        "title": "RZ042 Copernicus/GMES",
+        "topic": "Umweltforschung",
+        "fine": "Umweltwissenschaften"
+      },
+      {
+        "episodeNumber": 55,
+        "title": "RZ055 Planck",
+        "topic": "Kosmische Hintergrundstrahlung",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 55,
+        "title": "RZ055 Planck",
+        "topic": "Urknall",
+        "fine": "Kosmologie"
+      },
+      {
+        "episodeNumber": 55,
+        "title": "RZ055 Planck",
+        "topic": "Planck-Mission",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 55,
+        "title": "RZ055 Planck",
+        "topic": "Mikrowellenastronomie",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 56,
+        "title": "RZ056 Forschung in der ISS",
+        "topic": "Wissenschaftliche Arbeit in der ISS",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 56,
+        "title": "RZ056 Forschung in der ISS",
+        "topic": "Bedeutung der ISS für die Forschung",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 56,
+        "title": "RZ056 Forschung in der ISS",
+        "topic": "Langzeitforschung in der Schwerelosigkeit",
+        "fine": "Physik"
+      },
+      {
+        "episodeNumber": 57,
+        "title": "RZ057 Gaia",
+        "topic": "Wissenschaftliche Erkenntnisse über das Universum",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 58,
+        "title": "RZ058 Philae",
+        "topic": "Wissenschaftliche Untersuchungen",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 58,
+        "title": "RZ058 Philae",
+        "topic": "Kartografierung des Kometen",
+        "fine": "Geowissenschaften"
+      },
+      {
+        "episodeNumber": 58,
+        "title": "RZ058 Philae",
+        "topic": "Experimente mit Philae",
+        "fine": "Experimentelle Forschung"
+      },
+      {
+        "episodeNumber": 60,
+        "title": "RZ060 Extrasolare Planeten",
+        "topic": "Einfluss auf das Weltbild",
+        "fine": "Weltbild"
+      },
+      {
+        "episodeNumber": 61,
+        "title": "RZ061 Gravitationswellenastronomie",
+        "topic": "Entdeckung der Gravitationswellen",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 61,
+        "title": "RZ061 Gravitationswellenastronomie",
+        "topic": "Zukunft der Gravitationswellenastronomie",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 61,
+        "title": "RZ061 Gravitationswellenastronomie",
+        "topic": "Beobachtung von Schwarzen Löchern",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 61,
+        "title": "RZ061 Gravitationswellenastronomie",
+        "topic": "Einfluss der Allgemeinen Relativitätstheorie",
+        "fine": "Theoretische Physik"
+      },
+      {
+        "episodeNumber": 62,
+        "title": "RZ062 Albert Einstein",
+        "topic": "Allgemeine Relativitätstheorie",
+        "fine": "Physik"
+      },
+      {
+        "episodeNumber": 63,
+        "title": "RZ063 Galaxien und Kosmologie",
+        "topic": "Erkenntnisgewinn in der Kosmologie",
+        "fine": "Kosmologie"
+      },
+      {
+        "episodeNumber": 63,
+        "title": "RZ063 Galaxien und Kosmologie",
+        "topic": "Unbekannte im Kosmos",
+        "fine": "Kosmologie"
+      },
+      {
+        "episodeNumber": 64,
+        "title": "RZ064 ISS-Expedition 42",
+        "topic": "Reise zur Internationalen Raumstation",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 64,
+        "title": "RZ064 ISS-Expedition 42",
+        "topic": "Astronautenrotation auf der ISS",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 64,
+        "title": "RZ064 ISS-Expedition 42",
+        "topic": "Erstmaliger Einsatz von Samantha Cristoforetti",
+        "fine": "Astronauten"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "RZ065 Part Time Scientists",
+        "topic": "Monderkundung",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 66,
+        "title": "RZ066 Laserkommunikation",
+        "topic": "Raumfahrt",
+        "fine": "Raumfahrttechnik"
+      },
+      {
+        "episodeNumber": 73,
+        "title": "RZ073 IceCube Neutrino Observatory",
+        "topic": "Erweiterung astronomischer Disziplinen",
+        "fine": "Astronomische Methoden"
+      },
+      {
+        "episodeNumber": 76,
+        "title": "RZ076 Der Gaia-Sternkatalog",
+        "topic": "Astronomische Forschung",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "RZ079 Kosmische Chemie",
+        "topic": "Laborexperimente mit Meteoriten",
+        "fine": "Meteoriten"
+      },
+      {
+        "episodeNumber": 85,
+        "title": "RZ085 Erforschung der Sonne",
+        "topic": "Erforschung des Sonnenwinds",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 85,
+        "title": "RZ085 Erforschung der Sonne",
+        "topic": "Magnetosphäre der Sonne",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 85,
+        "title": "RZ085 Erforschung der Sonne",
+        "topic": "Rätsel der Sonnenaktivität",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 86,
+        "title": "RZ086 Meteoriten",
+        "topic": "Herkunft und Analyse von Meteoriten",
+        "fine": "Geologie"
+      },
+      {
+        "episodeNumber": 88,
+        "title": "RZ088 GEO600",
+        "topic": "Detektion von Gravitationswellen",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 88,
+        "title": "RZ088 GEO600",
+        "topic": "Einfluss von GEO600 auf LIGO",
+        "fine": "Gravitationswellen"
+      },
+      {
+        "episodeNumber": 88,
+        "title": "RZ088 GEO600",
+        "topic": "Zukunft der Gravitationswellenastronomie",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 93,
+        "title": "RZ093 Das James-Webb-Weltraumteleskop",
+        "topic": "Wissenschaftliche Erkenntnisse",
+        "fine": "Astrophysik"
+      },
+      {
+        "episodeNumber": 94,
+        "title": "RZ094 Weltraumbeobachtung und die Wissenschaft",
+        "topic": "Weltraumbeobachtungsmissionen",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 94,
+        "title": "RZ094 Weltraumbeobachtung und die Wissenschaft",
+        "topic": "Mission Gaia",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 94,
+        "title": "RZ094 Weltraumbeobachtung und die Wissenschaft",
+        "topic": "Zusammenarbeit mit der wissenschaftlichen Community",
+        "fine": "Kooperation"
+      },
+      {
+        "episodeNumber": 94,
+        "title": "RZ094 Weltraumbeobachtung und die Wissenschaft",
+        "topic": "Zukunft der bodengestützten Astronomie",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 94,
+        "title": "RZ094 Weltraumbeobachtung und die Wissenschaft",
+        "topic": "Extremely Large Telescope in Chile",
+        "fine": "Astronomie"
+      },
+      {
+        "episodeNumber": 96,
+        "title": "RZ096 Erdähnliche Exoplaneten",
+        "topic": "Forschung zu erdähnlichen Planeten",
+        "fine": "Astrobiologie"
+      },
+      {
+        "episodeNumber": 98,
+        "title": "RZ098 Geschichte der Europäischen Raumfahrt",
+        "topic": "Erdbeobachtungsprojekte",
+        "fine": "Erdbeobachtung"
+      },
+      {
+        "episodeNumber": 102,
+        "title": "RZ102 Galaxien-Beobachtung",
+        "topic": "Überprüfung physikalischer Theorien",
+        "fine": "Theorien"
+      },
+      {
+        "episodeNumber": 105,
+        "title": "RZ105 Neutronensterne 2",
+        "topic": "Theoretische Physik",
+        "fine": "Theoretische Physik"
+      },
+      {
+        "episodeNumber": 105,
+        "title": "RZ105 Neutronensterne 2",
+        "topic": "Forschungstechniken",
+        "fine": "Forschungstechniken"
+      },
+      {
+        "episodeNumber": 106,
+        "title": "RZ106 Der Gaia-Sternkatalog 2",
+        "topic": "Forschung",
+        "fine": "Astronomische Forschung"
+      },
+      {
+        "episodeNumber": 108,
+        "title": "RZ108 NASA",
+        "topic": "Wissenschaftsdirektion der NASA",
+        "fine": "Raumfahrtwissenschaft"
+      },
+      {
+        "episodeNumber": 111,
+        "title": "RZ111 CERN: Geschichte und Erfolge",
+        "topic": "Geschichte des CERN",
+        "fine": "Teilchenphysik"
+      },
+      {
+        "episodeNumber": 111,
+        "title": "RZ111 CERN: Geschichte und Erfolge",
+        "topic": "Forschung und Durchbrüche",
+        "fine": "Kernforschung"
+      },
+      {
+        "episodeNumber": 111,
+        "title": "RZ111 CERN: Geschichte und Erfolge",
+        "topic": "Higgsfeld und Standardmodell",
+        "fine": "Teilchenphysik"
+      },
+      {
+        "episodeNumber": 112,
+        "title": "RZ112 CERN: Die Beschleuniger-Kette",
+        "topic": "Forschung am CERN",
+        "fine": "Forschungseinrichtungen"
+      },
+      {
+        "episodeNumber": 114,
+        "title": "RZ114 CERN: CMS",
+        "topic": "Aufbau des CMS-Detektors",
+        "fine": "Physik"
+      },
+      {
+        "episodeNumber": 114,
+        "title": "RZ114 CERN: CMS",
+        "topic": "Funktion des CMS-Detektors",
+        "fine": "Physik"
+      },
+      {
+        "episodeNumber": 114,
+        "title": "RZ114 CERN: CMS",
+        "topic": "Aufgabe des CMS-Detektors",
+        "fine": "Physik"
+      },
+      {
+        "episodeNumber": 114,
+        "title": "RZ114 CERN: CMS",
+        "topic": "Nachweis des Higgs-Bosons",
+        "fine": "Teilchenphysik"
+      },
+      {
+        "episodeNumber": 114,
+        "title": "RZ114 CERN: CMS",
+        "topic": "Untersuchung von Teilchen am LHC",
+        "fine": "Teilchenphysik"
+      },
+      {
+        "episodeNumber": 6,
+        "title": "RZ006 Erdbeobachtung",
+        "topic": "Nutzung der Erde",
+        "fine": "Nachhaltigkeit"
+      },
+      {
+        "episodeNumber": 13,
+        "title": "RZ013 Die Atmosphäre",
+        "topic": "Umweltauswirkungen der Atmosphäre",
+        "fine": "Verschmutzung"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Umweltforschung durch Envisat",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Beobachtung von Ozeanverschmutzung",
+        "fine": "Verschmutzung"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Tropenwaldabholzung und ihre Auswirkungen",
+        "fine": "Abholzung"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Luftverschmutzung durch Industrie",
+        "fine": "Luftqualität"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Beobachtung des Ozonlochs",
+        "fine": "Ozon"
+      },
+      {
+        "episodeNumber": 118,
+        "title": "RZ118 Raumfahrt-Industrie",
+        "topic": "Weltraumschrottproblematik",
+        "fine": "Weltraumschrott"
+      },
+      {
+        "episodeNumber": 9,
+        "title": "RZ009 Asteroiden und Kometen",
+        "topic": "Einfluss auf die Erde",
+        "fine": "Einschläge"
+      },
+      {
+        "episodeNumber": 40,
+        "title": "RZ040 GOCE",
+        "topic": "Vermessung des Gravitationsfelds",
+        "fine": "Geodäsie"
+      },
+      {
+        "episodeNumber": 49,
+        "title": "RZ049 Der Mars",
+        "topic": "Entwicklung der Erde",
+        "fine": "Erde"
+      },
+      {
+        "episodeNumber": 13,
+        "title": "RZ013 Die Atmosphäre",
+        "topic": "Atmosphäre und Leben",
+        "fine": "Biologie"
+      },
+      {
+        "episodeNumber": 71,
+        "title": "RZ071 Asteroidenabwehr",
+        "topic": "Schutzmechanismen der Erde",
+        "fine": "Atmosphäre"
+      },
+      {
+        "episodeNumber": 26,
+        "title": "RZ026 Forschen in Schwerelosigkeit",
+        "topic": "Materialforschung in Schwerelosigkeit",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 33,
+        "title": "RZ033 Energie der Zukunft",
+        "topic": "Photovoltaik und Solarthermie",
+        "fine": "Renewable Energy"
+      },
+      {
+        "episodeNumber": 33,
+        "title": "RZ033 Energie der Zukunft",
+        "topic": "Umbau der Energieversorgung",
+        "fine": "Energy Transition"
+      },
+      {
+        "episodeNumber": 33,
+        "title": "RZ033 Energie der Zukunft",
+        "topic": "Kombination erneuerbarer Energiequellen",
+        "fine": "Energy Mix"
+      },
+      {
+        "episodeNumber": 33,
+        "title": "RZ033 Energie der Zukunft",
+        "topic": "DESERTEC-Initiativen",
+        "fine": "Infrastructure Projects"
+      },
+      {
+        "episodeNumber": 37,
+        "title": "RZ037 TanDEM-X",
+        "topic": "Erdbeobachtung",
+        "fine": "Erdbeobachtungstechnologien"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Vermessung der Erde mit Envisat",
+        "fine": "Satellitenvermessung"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Beobachtung von Erdbeben und deren Auswirkungen",
+        "fine": "Erdbeben"
+      },
+      {
+        "episodeNumber": 41,
+        "title": "RZ041 Envisat",
+        "topic": "Beobachtung von Vulkanen",
+        "fine": "Vulkanismus"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "RZ075 Geologische Zeit",
+        "topic": "Bestimmung des Alters der Erde",
+        "fine": "Erdalterbestimmung"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "RZ075 Geologische Zeit",
+        "topic": "Einteilung der Lebenszeit der Erde",
+        "fine": "Geologische Zeitalter"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "RZ075 Geologische Zeit",
+        "topic": "Korrelation zwischen Erde und Kosmos",
+        "fine": "Kosmologie"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "RZ075 Geologische Zeit",
+        "topic": "Offene Fragen in der Geologie",
+        "fine": "Forschung"
+      },
+      {
+        "episodeNumber": 75,
+        "title": "RZ075 Geologische Zeit",
+        "topic": "Informationslage zur Geologie",
+        "fine": "Wissenschaftliche Erkenntnisse"
+      },
+      {
+        "episodeNumber": 47,
+        "title": "RZ047 Die Venus",
+        "topic": "Atmosphäre der Venus",
+        "fine": "Planetare Atmosphären"
+      },
+      {
+        "episodeNumber": 47,
+        "title": "RZ047 Die Venus",
+        "topic": "Erderwärmung und Venus",
+        "fine": "Klimaforschung"
+      },
+      {
+        "episodeNumber": 77,
+        "title": "RZ077 Pflanzen im Weltraum",
+        "topic": "Nutzung von Pflanzen zur Luftreinigun",
+        "fine": "Luftreinigung"
+      },
+      {
+        "episodeNumber": 69,
+        "title": "RZ069 Copernicus Open Data Strategy",
+        "topic": "Copernicus Erdbeobachtungsprogramm",
+        "fine": "Earth Observation"
+      },
+      {
+        "episodeNumber": 87,
+        "title": "RZ087 Amateurastronomie",
+        "topic": "Lichtverschmutzung",
+        "fine": "Pollution"
+      },
+      {
+        "episodeNumber": 77,
+        "title": "RZ077 Pflanzen im Weltraum",
+        "topic": "Biokreisläufe in der Antarktis",
+        "fine": "Biokreisläufe"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "RZ079 Kosmische Chemie",
+        "topic": "Kosmische Chemie",
+        "fine": "Kosmische Chemie"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "RZ079 Kosmische Chemie",
+        "topic": "Chemische Prozesse im Kosmos",
+        "fine": "Chemische Prozesse"
+      },
+      {
+        "episodeNumber": 79,
+        "title": "RZ079 Kosmische Chemie",
+        "topic": "Wasser und Bausteine des Lebens",
+        "fine": "Lebensbausteine"
+      },
+      {
+        "episodeNumber": 121,
+        "title": "RZ121 EarthCARE",
+        "topic": "Wolken und Aerosole",
+        "fine": "Atmospheric Science"
+      },
+      {
+        "episodeNumber": 121,
+        "title": "RZ121 EarthCARE",
+        "topic": "Einfluss auf das Erdklima",
+        "fine": "Climate Change"
+      }
+    ],
+    "Sonstige": [
+      {
+        "episodeNumber": 3,
+        "title": "RZ003 Raketenantriebe",
+        "topic": "Geschichte der Raketenantriebe",
+        "fine": "Rocket Technology"
+      },
+      {
+        "episodeNumber": 6,
+        "title": "RZ006 Erdbeobachtung",
+        "topic": "Bewusstsein für den Planeten",
+        "fine": "Umweltbewusstsein"
+      },
+      {
+        "episodeNumber": 13,
+        "title": "RZ013 Die Atmosphäre",
+        "topic": "Eyjafjallajökull Ausbruch",
+        "fine": "Vulkanismus"
+      },
+      {
+        "episodeNumber": 14,
+        "title": "RZ014 Robotik in der Raumfahrt",
+        "topic": "Sichere Außenbordeinsätze",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 34,
+        "title": "RZ034 Space Situational Awareness",
+        "topic": "Schutz kritischer Infrastrukturen",
+        "fine": "Infrastruktur"
+      },
+      {
+        "episodeNumber": 21,
+        "title": "RZ021 Weltraummedizin",
+        "topic": "Belastungen von Astronauten",
+        "fine": "Space Medicine"
+      },
+      {
+        "episodeNumber": 21,
+        "title": "RZ021 Weltraummedizin",
+        "topic": "Medizinische Betreuung vor und während der Mission",
+        "fine": "Astronaut Care"
+      },
+      {
+        "episodeNumber": 25,
+        "title": "RZ025 Zentrum für Kriseninformation",
+        "topic": "Unterstützung von Hilfsorganisationen",
+        "fine": "Disaster Relief"
+      },
+      {
+        "episodeNumber": 87,
+        "title": "RZ087 Amateurastronomie",
+        "topic": "Einfluss auf lokale Politik",
+        "fine": "Activism"
+      },
+      {
+        "episodeNumber": 27,
+        "title": "RZ027 Mars500",
+        "topic": "Psychische Belastungen bei Langzeitmissionen",
+        "fine": "Raumfahrtpsychologie"
+      },
+      {
+        "episodeNumber": 27,
+        "title": "RZ027 Mars500",
+        "topic": "Medizinisch-psychologische Herausforderungen",
+        "fine": "Psychiatrie"
+      },
+      {
+        "episodeNumber": 30,
+        "title": "RZ030 Cassini-Huygens",
+        "topic": "Mission Planning",
+        "fine": "Space Missions"
+      },
+      {
+        "episodeNumber": 31,
+        "title": "RZ031 DLR_School_Labs",
+        "topic": "Technischer Zugang zu Luft- und Raumfahrt",
+        "fine": "Technical Education"
+      },
+      {
+        "episodeNumber": 31,
+        "title": "RZ031 DLR_School_Labs",
+        "topic": "Ergänzung des Lehrprogramms",
+        "fine": "Curriculum Development"
+      },
+      {
+        "episodeNumber": 45,
+        "title": "RZ045 Rexus/Bexus",
+        "topic": "Weiterbildungsprogramm im Bereich Raumfahrt",
+        "fine": "Space Education"
+      },
+      {
+        "episodeNumber": 59,
+        "title": "RZ059 Kleinsatelliten",
+        "topic": "Einfluss auf die Bildung",
+        "fine": "Engineering"
+      },
+      {
+        "episodeNumber": 59,
+        "title": "RZ059 Kleinsatelliten",
+        "topic": "Institut für Raumfahrt an der TU Berlin",
+        "fine": "Institutions"
+      },
+      {
+        "episodeNumber": 31,
+        "title": "RZ031 DLR_School_Labs",
+        "topic": "Nachwuchsförderung im Bereich Luft- und Raumfahrt",
+        "fine": "STEM Initiatives"
+      },
+      {
+        "episodeNumber": 35,
+        "title": "RZ035 Technology Transfer Program",
+        "topic": "Wechselwirkungen zwischen Forschung und Wirtschaft",
+        "fine": "Research and Industry"
+      },
+      {
+        "episodeNumber": 45,
+        "title": "RZ045 Rexus/Bexus",
+        "topic": "Zusammenarbeit mit Raumfahrtagenturen",
+        "fine": "Space Agencies"
+      },
+      {
+        "episodeNumber": 35,
+        "title": "RZ035 Technology Transfer Program",
+        "topic": "Gesellschaftliche Nutzung von Raumfahrttechnologien",
+        "fine": "Space Technology"
+      },
+      {
+        "episodeNumber": 53,
+        "title": "RZ053 Mythos Raumfahrt",
+        "topic": "Interesse an Raumfahrt",
+        "fine": "Öffentliches Interesse"
+      },
+      {
+        "episodeNumber": 39,
+        "title": "RZ039 Der Mond",
+        "topic": "Raumfahrtgeschichte",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "RZ065 Part Time Scientists",
+        "topic": "Apollo-17-Mission",
+        "fine": "Mondmissionen"
+      },
+      {
+        "episodeNumber": 45,
+        "title": "RZ045 Rexus/Bexus",
+        "topic": "Einstiegsmöglichkeiten für Studenten in der Raumfahrt",
+        "fine": "Space Careers"
+      },
+      {
+        "episodeNumber": 49,
+        "title": "RZ049 Der Mars",
+        "topic": "Wasser auf dem Mars",
+        "fine": "Wasserressourcen"
+      },
+      {
+        "episodeNumber": 53,
+        "title": "RZ053 Mythos Raumfahrt",
+        "topic": "Rolle der Science Fiction",
+        "fine": "Literatur"
+      },
+      {
+        "episodeNumber": 62,
+        "title": "RZ062 Albert Einstein",
+        "topic": "gesellschaftliche Verantwortung der Wissenschaft",
+        "fine": "Wissenschaftsethik"
+      },
+      {
+        "episodeNumber": 65,
+        "title": "RZ065 Part Time Scientists",
+        "topic": "Lunar X Prize",
+        "fine": "Raumfahrt"
+      },
+      {
+        "episodeNumber": 69,
+        "title": "RZ069 Copernicus Open Data Strategy",
+        "topic": "Zugänglichkeit von Erdbeobachtungsdaten",
+        "fine": "Open Data"
+      },
+      {
+        "episodeNumber": 69,
+        "title": "RZ069 Copernicus Open Data Strategy",
+        "topic": "Datenanalyse und -auswertung",
+        "fine": "Data Analysis"
+      },
+      {
+        "episodeNumber": 70,
+        "title": "RZ070 Weltraumrecht",
+        "topic": "Rechtliche Bedingungen der Raumfahrt",
+        "fine": "Weltraumrecht"
+      },
+      {
+        "episodeNumber": 70,
+        "title": "RZ070 Weltraumrecht",
+        "topic": "Entwicklung eines globalen Rechtssystems",
+        "fine": "Völkerrecht"
+      },
+      {
+        "episodeNumber": 71,
+        "title": "RZ071 Asteroidenabwehr",
+        "topic": "Einschläge und ihre Auswirkungen",
+        "fine": "Einschläge"
+      },
+      {
+        "episodeNumber": 77,
+        "title": "RZ077 Pflanzen im Weltraum",
+        "topic": "Pflanzenzucht in der Raumfahrt",
+        "fine": "Pflanzenzucht"
+      },
+      {
+        "episodeNumber": 80,
+        "title": "RZ080 Europäische Raumfahrtpolitik",
+        "topic": "Kooperationen mit anderen Staaten",
+        "fine": "Raumfahrtkooperationen"
+      },
+      {
+        "episodeNumber": 86,
+        "title": "RZ086 Meteoriten",
+        "topic": "Sammlungen von Meteoriten",
+        "fine": "Naturkunde"
+      },
+      {
+        "episodeNumber": 89,
+        "title": "RZ089 Kerbal Space Program",
+        "topic": "Missionsanalyse durch Spiele",
+        "fine": "Simulation"
+      },
+      {
+        "episodeNumber": 89,
+        "title": "RZ089 Kerbal Space Program",
+        "topic": "Physikalische Gesetzmäßigkeiten in Spielen",
+        "fine": "Physik"
+      },
+      {
+        "episodeNumber": 91,
+        "title": "RZ091 Philosophie und das Universum",
+        "topic": "Philosophie und Naturwissenschaften",
+        "fine": "Science"
+      },
+      {
+        "episodeNumber": 91,
+        "title": "RZ091 Philosophie und das Universum",
+        "topic": "Philosophische Erklärungsmuster",
+        "fine": "Explanation"
+      },
+      {
+        "episodeNumber": 91,
+        "title": "RZ091 Philosophie und das Universum",
+        "topic": "Neuformulierung von Fragestellungen",
+        "fine": "Inquiry"
+      },
+      {
+        "episodeNumber": 93,
+        "title": "RZ093 Das James-Webb-Weltraumteleskop",
+        "topic": "Startverzögerung",
+        "fine": "Raumfahrtprojekte"
+      },
+      {
+        "episodeNumber": 97,
+        "title": "RZ097 Wettersatelliten",
+        "topic": "EUMETSAT und seine Rolle",
+        "fine": "EUMETSAT"
+      },
+      {
+        "episodeNumber": 97,
+        "title": "RZ097 Wettersatelliten",
+        "topic": "EU-Programm Copernicus",
+        "fine": "Erdbeobachtung"
+      },
+      {
+        "episodeNumber": 98,
+        "title": "RZ098 Geschichte der Europäischen Raumfahrt",
+        "topic": "Einigungsprozess Westeuropas",
+        "fine": "Europäische Integration"
+      },
+      {
+        "episodeNumber": 108,
+        "title": "RZ108 NASA",
+        "topic": "Herausforderungen durch geopolitische Veränderungen",
+        "fine": "Geopolitik"
+      },
+      {
+        "episodeNumber": 119,
+        "title": "RZ119 Das Ariane-Raketenprogramm",
+        "topic": "Zusammenarbeit europäischer Techniknationen",
+        "fine": "Internationale Zusammenarbeit"
+      },
+      {
+        "episodeNumber": 100,
+        "title": "RZ100 Raumzeit und Gravitation",
+        "topic": "Grenzen der mathematischen Beschreibungen",
+        "fine": "Wissenschaftstheorie"
+      },
+      {
+        "episodeNumber": 100,
+        "title": "RZ100 Raumzeit und Gravitation",
+        "topic": "Verständnis der Welt",
+        "fine": "Weltverständnis"
+      },
+      {
+        "episodeNumber": 103,
+        "title": "RZ103 Gran Telescopio Canarias",
+        "topic": "Standortvorteile der Kanarischen Inseln für Teleskope",
+        "fine": "Inseln"
+      },
+      {
+        "episodeNumber": 104,
+        "title": "RZ104 Cherenkov Telescope Array",
+        "topic": "Atacama-Wüste",
+        "fine": "Wüsten"
+      },
+      {
+        "episodeNumber": 106,
+        "title": "RZ106 Der Gaia-Sternkatalog 2",
+        "topic": "Data Release 3",
+        "fine": "Astronomische Daten"
+      }
+    ]
+  }
+}

@@ -129,6 +129,10 @@
     "categories": 12,
     "_comment": "Anzahl der übergeordneten Kategorien für Topic-Gruppierung"
   },
+  "coarseSubjects": {
+    "topSubjects": 12,
+    "_comment": "Anzahl der Top Subjects für Bereiche-River. Andere Subjects werden per LLM diesen zugeordnet."
+  },
   "_examples": {
     "_comment": "Beispiel-Konfigurationen für verschiedene LLM-Anbieter. Kopiere die gewünschte Konfiguration in den 'llm' Abschnitt oben.",
     "openai": {

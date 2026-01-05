@@ -1,0 +1,4640 @@
+{
+  "generatedAt": "2026-01-05T11:21:23.808Z",
+  "description": "Subject River Daten für cre Podcast - Coarse Subjects aggregiert nach Jahren",
+  "statistics": {
+    "totalSubjects": 13,
+    "yearRange": {
+      "start": 2005,
+      "end": 2022
+    },
+    "years": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "subjectsByEpisodeCount": [
+      {
+        "id": "sonstige",
+        "name": "Sonstige",
+        "count": 133
+      },
+      {
+        "id": "technology",
+        "name": "Technology",
+        "count": 89
+      },
+      {
+        "id": "software",
+        "name": "Software",
+        "count": 73
+      },
+      {
+        "id": "social",
+        "name": "Social",
+        "count": 68
+      },
+      {
+        "id": "politics",
+        "name": "Politics",
+        "count": 55
+      },
+      {
+        "id": "media",
+        "name": "Media",
+        "count": 47
+      },
+      {
+        "id": "culture",
+        "name": "Culture",
+        "count": 40
+      },
+      {
+        "id": "hardware",
+        "name": "Hardware",
+        "count": 28
+      },
+      {
+        "id": "technologie",
+        "name": "Technologie",
+        "count": 27
+      },
+      {
+        "id": "security",
+        "name": "Security",
+        "count": 23
+      }
+    ]
+  },
+  "subjects": {
+    "media": {
+      "id": "media",
+      "name": "Media",
+      "totalEpisodes": 47,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 1,
+              "date": "2005-11-22",
+              "title": "CRE001 Chaosradio Express stellt sich vor"
+            },
+            {
+              "number": 8,
+              "date": "2005-12-18",
+              "title": "CRE008 Feedback, Wikipedia und freie Klänge"
+            },
+            {
+              "number": 9,
+              "date": "2005-12-24",
+              "title": "CRE009 22C3 Roundup, Nerd Net Radio History"
+            },
+            {
+              "number": 10,
+              "date": "2005-12-29",
+              "title": "CRE010 Régine Débatty"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 14,
+              "date": "2006-01-22",
+              "title": "CRE014 22C3 Rückblick, Veranstaltungen in 2006"
+            },
+            {
+              "number": 15,
+              "date": "2006-01-30",
+              "title": "CRE015 WMF, Aibo, E-Ink, Prozessoren und Podcasting"
+            },
+            {
+              "number": 20,
+              "date": "2006-03-04",
+              "title": "CRE020 Mac Security"
+            },
+            {
+              "number": 27,
+              "date": "2006-05-07",
+              "title": "CRE027 CACert"
+            },
+            {
+              "number": 30,
+              "date": "2006-05-19",
+              "title": "CRE030 Freie Radios und ZIP.FM"
+            },
+            {
+              "number": 38,
+              "date": "2006-09-03",
+              "title": "CRE038 Eine Reise in die Vergangenheit"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 61,
+              "date": "2007-12-26",
+              "title": "CRE061 Medienformate und Codecs"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 71,
+              "date": "2008-02-07",
+              "title": "CRE071 One Laptop Per Child"
+            },
+            {
+              "number": 81,
+              "date": "2008-03-26",
+              "title": "CRE081 Neusprech im Schnüffelstaat"
+            },
+            {
+              "number": 83,
+              "date": "2008-04-06",
+              "title": "CRE083 Die Kritische Masse"
+            },
+            {
+              "number": 93,
+              "date": "2008-08-04",
+              "title": "CRE093 Qualitätsmanagement in der Wikipedia"
+            },
+            {
+              "number": 94,
+              "date": "2008-08-11",
+              "title": "CRE094 Conversational Design"
+            },
+            {
+              "number": 96,
+              "date": "2008-08-20",
+              "title": "CRE096 Live Cinema"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 8,
+          "episodes": [
+            {
+              "number": 107,
+              "date": "2009-02-08",
+              "title": "CRE107 Barrierefreiheit im Web"
+            },
+            {
+              "number": 108,
+              "date": "2009-02-13",
+              "title": "CRE108 Schusswaffen"
+            },
+            {
+              "number": 111,
+              "date": "2009-02-28",
+              "title": "CRE111 MediaWiki"
+            },
+            {
+              "number": 123,
+              "date": "2009-05-25",
+              "title": "CRE123 Die Bayrische Hackerpost"
+            },
+            {
+              "number": 124,
+              "date": "2009-05-30",
+              "title": "CRE124 Kampf gegen Zensursula"
+            },
+            {
+              "number": 129,
+              "date": "2009-07-13",
+              "title": "CRE129 Globales Dorf – Rechtsfreier Raum?"
+            },
+            {
+              "number": 137,
+              "date": "2009-11-22",
+              "title": "CRE137 AV Streaming"
+            },
+            {
+              "number": 139,
+              "date": "2009-12-07",
+              "title": "CRE139 Medienkompetenz"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 9,
+          "episodes": [
+            {
+              "number": 150,
+              "date": "2010-03-31",
+              "title": "CRE150 Filmsynchronisation"
+            },
+            {
+              "number": 154,
+              "date": "2010-05-11",
+              "title": "CRE154 Digital Audio"
+            },
+            {
+              "number": 157,
+              "date": "2010-07-01",
+              "title": "CRE157 Fernsehen"
+            },
+            {
+              "number": 159,
+              "date": "2010-07-17",
+              "title": "CRE159 Nachrichtendienste"
+            },
+            {
+              "number": 161,
+              "date": "2010-09-07",
+              "title": "CRE161 Der CCC und die Öffentlichkeit"
+            },
+            {
+              "number": 162,
+              "date": "2010-09-14",
+              "title": "CRE162 Brettspiele"
+            },
+            {
+              "number": 164,
+              "date": "2010-10-05",
+              "title": "CRE164 Urheberrecht"
+            },
+            {
+              "number": 166,
+              "date": "2010-10-08",
+              "title": "CRE166 Segeln"
+            },
+            {
+              "number": 170,
+              "date": "2010-11-10",
+              "title": "CRE170 Arcade Games"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 174,
+              "date": "2011-02-01",
+              "title": "CRE174 Kunst, Kultur, Gesellschaft"
+            },
+            {
+              "number": 178,
+              "date": "2011-04-09",
+              "title": "CRE178 Jugendmedienarbeit"
+            },
+            {
+              "number": 179,
+              "date": "2011-04-19",
+              "title": "CRE179 GSM Security"
+            },
+            {
+              "number": 183,
+              "date": "2011-06-24",
+              "title": "CRE183 TETRA Bündelfunk"
+            },
+            {
+              "number": 185,
+              "date": "2011-10-23",
+              "title": "CRE185 Hedonistische Internationale"
+            },
+            {
+              "number": 188,
+              "date": "2011-12-26",
+              "title": "CRE188 Telecomix"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 198,
+              "date": "2012-11-04",
+              "title": "CRE198 Pornographie"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 202,
+              "date": "2013-03-30",
+              "title": "CRE202 Hackerfilme"
+            },
+            {
+              "number": 203,
+              "date": "2013-08-16",
+              "title": "CRE203 Online-Journalismus"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 217,
+              "date": "2018-02-13",
+              "title": "CRE217 Mythos 68er"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 220,
+              "date": "2019-12-21",
+              "title": "CRE220 Sprechendes Denken"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 222,
+              "date": "2021-10-18",
+              "title": "CRE222 Terravision"
+            },
+            {
+              "number": 223,
+              "date": "2021-11-23",
+              "title": "CRE223 Die Sendung mit der Maus"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "social": {
+      "id": "social",
+      "name": "Social",
+      "totalEpisodes": 68,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 1,
+              "date": "2005-11-22",
+              "title": "CRE001 Chaosradio Express stellt sich vor"
+            },
+            {
+              "number": 3,
+              "date": "2005-12-03",
+              "title": "CRE003 Die Testsendung"
+            },
+            {
+              "number": 10,
+              "date": "2005-12-29",
+              "title": "CRE010 Régine Débatty"
+            },
+            {
+              "number": 11,
+              "date": "2005-12-29",
+              "title": "CRE011 Joi Ito"
+            },
+            {
+              "number": 12,
+              "date": "2005-12-29",
+              "title": "CRE012 Eric Blossom"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "count": 7,
+          "episodes": [
+            {
+              "number": 18,
+              "date": "2006-02-20",
+              "title": "CRE018 Dropping Knowledge"
+            },
+            {
+              "number": 22,
+              "date": "2006-03-23",
+              "title": "CRE022 Windows Security"
+            },
+            {
+              "number": 24,
+              "date": "2006-04-21",
+              "title": "CRE024 Blinde und Computer"
+            },
+            {
+              "number": 29,
+              "date": "2006-05-15",
+              "title": "CRE029 Haftung für Links und das Telemediengesetz"
+            },
+            {
+              "number": 37,
+              "date": "2006-08-10",
+              "title": "CRE037 Das Luftsicherheitsgesetz"
+            },
+            {
+              "number": 38,
+              "date": "2006-09-03",
+              "title": "CRE038 Eine Reise in die Vergangenheit"
+            },
+            {
+              "number": 39,
+              "date": "2006-10-31",
+              "title": "CRE039 Der NEDAP-Hack"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 43,
+              "date": "2007-03-20",
+              "title": "CRE043 Wikipedia für Fortgeschrittene"
+            },
+            {
+              "number": 46,
+              "date": "2007-10-05",
+              "title": "CRE046 Sicherheit"
+            },
+            {
+              "number": 51,
+              "date": "2007-11-06",
+              "title": "CRE051 Vorratsdatenspeicherung"
+            },
+            {
+              "number": 53,
+              "date": "2007-11-14",
+              "title": "CRE053 Netlabels"
+            },
+            {
+              "number": 59,
+              "date": "2007-12-21",
+              "title": "CRE059 Überwachung"
+            },
+            {
+              "number": 60,
+              "date": "2007-12-22",
+              "title": "CRE060 Retrofuturismus"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 8,
+          "episodes": [
+            {
+              "number": 70,
+              "date": "2008-02-03",
+              "title": "CRE070 Mac OS X Anwendungsentwicklung"
+            },
+            {
+              "number": 73,
+              "date": "2008-02-16",
+              "title": "CRE073 World of Warcraft"
+            },
+            {
+              "number": 76,
+              "date": "2008-02-29",
+              "title": "CRE076 OpenWRT"
+            },
+            {
+              "number": 77,
+              "date": "2008-03-05",
+              "title": "CRE077 TUWAT.TXT"
+            },
+            {
+              "number": 83,
+              "date": "2008-04-06",
+              "title": "CRE083 Die Kritische Masse"
+            },
+            {
+              "number": 91,
+              "date": "2008-07-27",
+              "title": "CRE091 Poststrukturalismus"
+            },
+            {
+              "number": 94,
+              "date": "2008-08-11",
+              "title": "CRE094 Conversational Design"
+            },
+            {
+              "number": 96,
+              "date": "2008-08-20",
+              "title": "CRE096 Live Cinema"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 10,
+          "episodes": [
+            {
+              "number": 108,
+              "date": "2009-02-13",
+              "title": "CRE108 Schusswaffen"
+            },
+            {
+              "number": 124,
+              "date": "2009-05-30",
+              "title": "CRE124 Kampf gegen Zensursula"
+            },
+            {
+              "number": 129,
+              "date": "2009-07-13",
+              "title": "CRE129 Globales Dorf – Rechtsfreier Raum?"
+            },
+            {
+              "number": 130,
+              "date": "2009-08-02",
+              "title": "CRE130 Verteilte Versionskontrollsysteme"
+            },
+            {
+              "number": 132,
+              "date": "2009-08-10",
+              "title": "CRE132 UBERMORGEN.COM"
+            },
+            {
+              "number": 133,
+              "date": "2009-08-11",
+              "title": "CRE133 Piraten"
+            },
+            {
+              "number": 134,
+              "date": "2009-08-12",
+              "title": "CRE134 Hackerspaces"
+            },
+            {
+              "number": 135,
+              "date": "2009-08-17",
+              "title": "CRE135 Mut zur Freiheit"
+            },
+            {
+              "number": 138,
+              "date": "2009-12-04",
+              "title": "CRE138 Basteln im 21. Jahrhundert"
+            },
+            {
+              "number": 140,
+              "date": "2009-12-12",
+              "title": "CRE140 FoeBuD"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 13,
+          "episodes": [
+            {
+              "number": 143,
+              "date": "2010-02-15",
+              "title": "CRE143 Biohacking"
+            },
+            {
+              "number": 145,
+              "date": "2010-02-23",
+              "title": "CRE145 Musik und MIDI-Hacking"
+            },
+            {
+              "number": 146,
+              "date": "2010-02-27",
+              "title": "CRE146 JavaScript"
+            },
+            {
+              "number": 153,
+              "date": "2010-05-08",
+              "title": "CRE153 Feuerwehr"
+            },
+            {
+              "number": 158,
+              "date": "2010-07-11",
+              "title": "CRE158 LiquidFeedback"
+            },
+            {
+              "number": 159,
+              "date": "2010-07-17",
+              "title": "CRE159 Nachrichtendienste"
+            },
+            {
+              "number": 160,
+              "date": "2010-08-25",
+              "title": "CRE160 DDR"
+            },
+            {
+              "number": 161,
+              "date": "2010-09-07",
+              "title": "CRE161 Der CCC und die Öffentlichkeit"
+            },
+            {
+              "number": 162,
+              "date": "2010-09-14",
+              "title": "CRE162 Brettspiele"
+            },
+            {
+              "number": 165,
+              "date": "2010-10-06",
+              "title": "CRE165 Privatsphäre"
+            },
+            {
+              "number": 168,
+              "date": "2010-10-20",
+              "title": "CRE168 Wheelmap"
+            },
+            {
+              "number": 172,
+              "date": "2010-12-10",
+              "title": "CRE172 Holland und die Hacker"
+            },
+            {
+              "number": 173,
+              "date": "2010-12-25",
+              "title": "CRE173 Rollenspiele"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 174,
+              "date": "2011-02-01",
+              "title": "CRE174 Kunst, Kultur, Gesellschaft"
+            },
+            {
+              "number": 175,
+              "date": "2011-02-15",
+              "title": "CRE175 Hackerbrausen"
+            },
+            {
+              "number": 178,
+              "date": "2011-04-09",
+              "title": "CRE178 Jugendmedienarbeit"
+            },
+            {
+              "number": 185,
+              "date": "2011-10-23",
+              "title": "CRE185 Hedonistische Internationale"
+            },
+            {
+              "number": 188,
+              "date": "2011-12-26",
+              "title": "CRE188 Telecomix"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 192,
+              "date": "2012-04-08",
+              "title": "CRE192 Poststrukturalismus 2"
+            },
+            {
+              "number": 194,
+              "date": "2012-07-02",
+              "title": "CRE194 Bier"
+            },
+            {
+              "number": 196,
+              "date": "2012-09-06",
+              "title": "CRE196 Feminismus"
+            },
+            {
+              "number": 198,
+              "date": "2012-11-04",
+              "title": "CRE198 Pornographie"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 200,
+              "date": "2013-02-05",
+              "title": "CRE200 Stadtplanung"
+            },
+            {
+              "number": 201,
+              "date": "2013-03-13",
+              "title": "CRE201 Höhlenforschung"
+            },
+            {
+              "number": 202,
+              "date": "2013-03-30",
+              "title": "CRE202 Hackerfilme"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 209,
+              "date": "2015-11-10",
+              "title": "CRE209 Das Linux System"
+            },
+            {
+              "number": 210,
+              "date": "2015-11-23",
+              "title": "CRE210 Die Jagd"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 212,
+              "date": "2016-05-27",
+              "title": "CRE212 Saudi Arabien"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 217,
+              "date": "2018-02-13",
+              "title": "CRE217 Mythos 68er"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 219,
+              "date": "2019-05-27",
+              "title": "CRE219 Partykultur"
+            },
+            {
+              "number": 220,
+              "date": "2019-12-21",
+              "title": "CRE220 Sprechendes Denken"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 224,
+              "date": "2022-01-08",
+              "title": "CRE224 Elektronisches Geld 2"
+            }
+          ]
+        }
+      ]
+    },
+    "sonstige": {
+      "id": "sonstige",
+      "name": "Sonstige",
+      "totalEpisodes": 133,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 10,
+          "episodes": [
+            {
+              "number": 1,
+              "date": "2005-11-22",
+              "title": "CRE001 Chaosradio Express stellt sich vor"
+            },
+            {
+              "number": 2,
+              "date": "2005-11-29",
+              "title": "CRE002 22C3, Schäuble, Coral CDN, CACert"
+            },
+            {
+              "number": 4,
+              "date": "2005-12-06",
+              "title": "CRE004 Klangwellen aller Art"
+            },
+            {
+              "number": 5,
+              "date": "2005-12-09",
+              "title": "CRE005 Das 22C3 Konferenzprogramm"
+            },
+            {
+              "number": 6,
+              "date": "2005-12-09",
+              "title": "CRE006 Das POC"
+            },
+            {
+              "number": 8,
+              "date": "2005-12-18",
+              "title": "CRE008 Feedback, Wikipedia und freie Klänge"
+            },
+            {
+              "number": 9,
+              "date": "2005-12-24",
+              "title": "CRE009 22C3 Roundup, Nerd Net Radio History"
+            },
+            {
+              "number": 10,
+              "date": "2005-12-29",
+              "title": "CRE010 Régine Débatty"
+            },
+            {
+              "number": 11,
+              "date": "2005-12-29",
+              "title": "CRE011 Joi Ito"
+            },
+            {
+              "number": 13,
+              "date": "2005-12-30",
+              "title": "CRE013 Jacob Appelbaum"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "count": 9,
+          "episodes": [
+            {
+              "number": 14,
+              "date": "2006-01-22",
+              "title": "CRE014 22C3 Rückblick, Veranstaltungen in 2006"
+            },
+            {
+              "number": 18,
+              "date": "2006-02-20",
+              "title": "CRE018 Dropping Knowledge"
+            },
+            {
+              "number": 19,
+              "date": "2006-02-22",
+              "title": "CRE019 Fon"
+            },
+            {
+              "number": 23,
+              "date": "2006-04-13",
+              "title": "CRE023 OpenVPN"
+            },
+            {
+              "number": 27,
+              "date": "2006-05-07",
+              "title": "CRE027 CACert"
+            },
+            {
+              "number": 30,
+              "date": "2006-05-19",
+              "title": "CRE030 Freie Radios und ZIP.FM"
+            },
+            {
+              "number": 34,
+              "date": "2006-07-14",
+              "title": "CRE034 Die FIFA WM-Tickets"
+            },
+            {
+              "number": 35,
+              "date": "2006-07-20",
+              "title": "CRE035 Perry Rhodan"
+            },
+            {
+              "number": 38,
+              "date": "2006-09-03",
+              "title": "CRE038 Eine Reise in die Vergangenheit"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 11,
+          "episodes": [
+            {
+              "number": 41,
+              "date": "2007-03-03",
+              "title": "CRE041 Sprachen"
+            },
+            {
+              "number": 43,
+              "date": "2007-03-20",
+              "title": "CRE043 Wikipedia für Fortgeschrittene"
+            },
+            {
+              "number": 46,
+              "date": "2007-10-05",
+              "title": "CRE046 Sicherheit"
+            },
+            {
+              "number": 47,
+              "date": "2007-10-09",
+              "title": "CRE047 Der Elektronische Reisepass"
+            },
+            {
+              "number": 51,
+              "date": "2007-11-06",
+              "title": "CRE051 Vorratsdatenspeicherung"
+            },
+            {
+              "number": 53,
+              "date": "2007-11-14",
+              "title": "CRE053 Netlabels"
+            },
+            {
+              "number": 54,
+              "date": "2007-11-27",
+              "title": "CRE054 GIMP"
+            },
+            {
+              "number": 55,
+              "date": "2007-11-28",
+              "title": "CRE055 Metalab"
+            },
+            {
+              "number": 58,
+              "date": "2007-12-06",
+              "title": "CRE058 24C3 Preview"
+            },
+            {
+              "number": 59,
+              "date": "2007-12-21",
+              "title": "CRE059 Überwachung"
+            },
+            {
+              "number": 60,
+              "date": "2007-12-22",
+              "title": "CRE060 Retrofuturismus"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 20,
+          "episodes": [
+            {
+              "number": 62,
+              "date": "2008-01-02",
+              "title": "CRE062 Monochrom"
+            },
+            {
+              "number": 64,
+              "date": "2008-01-17",
+              "title": "CRE064 Usability und Interaktionsdesign"
+            },
+            {
+              "number": 65,
+              "date": "2008-01-19",
+              "title": "CRE065 Elektrische Fahrräder"
+            },
+            {
+              "number": 71,
+              "date": "2008-02-07",
+              "title": "CRE071 One Laptop Per Child"
+            },
+            {
+              "number": 73,
+              "date": "2008-02-16",
+              "title": "CRE073 World of Warcraft"
+            },
+            {
+              "number": 74,
+              "date": "2008-02-20",
+              "title": "CRE074 Hubschrauberkultur"
+            },
+            {
+              "number": 75,
+              "date": "2008-02-24",
+              "title": "CRE075 Energiesparhäuser"
+            },
+            {
+              "number": 80,
+              "date": "2008-03-21",
+              "title": "CRE080 Geschichte der Typographie"
+            },
+            {
+              "number": 81,
+              "date": "2008-03-26",
+              "title": "CRE081 Neusprech im Schnüffelstaat"
+            },
+            {
+              "number": 83,
+              "date": "2008-04-06",
+              "title": "CRE083 Die Kritische Masse"
+            },
+            {
+              "number": 84,
+              "date": "2008-04-09",
+              "title": "CRE084 LISP"
+            },
+            {
+              "number": 85,
+              "date": "2008-04-24",
+              "title": "CRE085 Nur Fliegen ist schöner"
+            },
+            {
+              "number": 89,
+              "date": "2008-06-21",
+              "title": "CRE089 Computerspiele"
+            },
+            {
+              "number": 91,
+              "date": "2008-07-27",
+              "title": "CRE091 Poststrukturalismus"
+            },
+            {
+              "number": 94,
+              "date": "2008-08-11",
+              "title": "CRE094 Conversational Design"
+            },
+            {
+              "number": 95,
+              "date": "2008-08-13",
+              "title": "CRE095 Netzpolitik und das Telekom-Paket"
+            },
+            {
+              "number": 96,
+              "date": "2008-08-20",
+              "title": "CRE096 Live Cinema"
+            },
+            {
+              "number": 97,
+              "date": "2008-08-25",
+              "title": "CRE097 File & Print Sharing"
+            },
+            {
+              "number": 99,
+              "date": "2008-10-23",
+              "title": "CRE099 Domain Name System"
+            },
+            {
+              "number": 100,
+              "date": "2008-11-18",
+              "title": "CRE100 Das Internet und die Hacker"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 21,
+          "episodes": [
+            {
+              "number": 101,
+              "date": "2009-01-06",
+              "title": "CRE101 iPhone Anwendungsentwicklung"
+            },
+            {
+              "number": 106,
+              "date": "2009-02-03",
+              "title": "CRE106 Mikrokopter"
+            },
+            {
+              "number": 107,
+              "date": "2009-02-08",
+              "title": "CRE107 Barrierefreiheit im Web"
+            },
+            {
+              "number": 108,
+              "date": "2009-02-13",
+              "title": "CRE108 Schusswaffen"
+            },
+            {
+              "number": 111,
+              "date": "2009-02-28",
+              "title": "CRE111 MediaWiki"
+            },
+            {
+              "number": 112,
+              "date": "2009-03-05",
+              "title": "CRE112 Roboterfussball"
+            },
+            {
+              "number": 113,
+              "date": "2009-03-10",
+              "title": "CRE113 OpenStreetMap"
+            },
+            {
+              "number": 115,
+              "date": "2009-03-20",
+              "title": "CRE115 OpenBICO"
+            },
+            {
+              "number": 116,
+              "date": "2009-03-25",
+              "title": "CRE116 Mobile Ad-hoc Netzwerke"
+            },
+            {
+              "number": 119,
+              "date": "2009-04-09",
+              "title": "CRE119 Kaffee"
+            },
+            {
+              "number": 121,
+              "date": "2009-04-28",
+              "title": "CRE121 Internet-Meme"
+            },
+            {
+              "number": 126,
+              "date": "2009-06-23",
+              "title": "CRE126 Raumfahrt"
+            },
+            {
+              "number": 127,
+              "date": "2009-06-26",
+              "title": "CRE127 TeX und LaTeX"
+            },
+            {
+              "number": 129,
+              "date": "2009-07-13",
+              "title": "CRE129 Globales Dorf – Rechtsfreier Raum?"
+            },
+            {
+              "number": 131,
+              "date": "2009-08-08",
+              "title": "CRE131 Mensch-Maschine-Interaktion"
+            },
+            {
+              "number": 132,
+              "date": "2009-08-10",
+              "title": "CRE132 UBERMORGEN.COM"
+            },
+            {
+              "number": 133,
+              "date": "2009-08-11",
+              "title": "CRE133 Piraten"
+            },
+            {
+              "number": 134,
+              "date": "2009-08-12",
+              "title": "CRE134 Hackerspaces"
+            },
+            {
+              "number": 135,
+              "date": "2009-08-17",
+              "title": "CRE135 Mut zur Freiheit"
+            },
+            {
+              "number": 136,
+              "date": "2009-11-16",
+              "title": "CRE136 Techno"
+            },
+            {
+              "number": 137,
+              "date": "2009-11-22",
+              "title": "CRE137 AV Streaming"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 23,
+          "episodes": [
+            {
+              "number": 141,
+              "date": "2010-02-06",
+              "title": "CRE141 IPv4"
+            },
+            {
+              "number": 142,
+              "date": "2010-02-11",
+              "title": "CRE142 Steuern"
+            },
+            {
+              "number": 143,
+              "date": "2010-02-15",
+              "title": "CRE143 Biohacking"
+            },
+            {
+              "number": 144,
+              "date": "2010-02-19",
+              "title": "CRE144 Die Internetwolke"
+            },
+            {
+              "number": 145,
+              "date": "2010-02-23",
+              "title": "CRE145 Musik und MIDI-Hacking"
+            },
+            {
+              "number": 147,
+              "date": "2010-03-07",
+              "title": "CRE147 Mikrokosmos, Makrokosmos"
+            },
+            {
+              "number": 149,
+              "date": "2010-03-15",
+              "title": "CRE149 Synthesizer"
+            },
+            {
+              "number": 150,
+              "date": "2010-03-31",
+              "title": "CRE150 Filmsynchronisation"
+            },
+            {
+              "number": 151,
+              "date": "2010-04-21",
+              "title": "CRE151 Die ARM-Architektur"
+            },
+            {
+              "number": 152,
+              "date": "2010-04-28",
+              "title": "CRE152 Android"
+            },
+            {
+              "number": 153,
+              "date": "2010-05-08",
+              "title": "CRE153 Feuerwehr"
+            },
+            {
+              "number": 155,
+              "date": "2010-06-10",
+              "title": "CRE155 Malware und Botnets"
+            },
+            {
+              "number": 156,
+              "date": "2010-06-26",
+              "title": "CRE156 Das Sonnensystem"
+            },
+            {
+              "number": 158,
+              "date": "2010-07-11",
+              "title": "CRE158 LiquidFeedback"
+            },
+            {
+              "number": 160,
+              "date": "2010-08-25",
+              "title": "CRE160 DDR"
+            },
+            {
+              "number": 162,
+              "date": "2010-09-14",
+              "title": "CRE162 Brettspiele"
+            },
+            {
+              "number": 164,
+              "date": "2010-10-05",
+              "title": "CRE164 Urheberrecht"
+            },
+            {
+              "number": 165,
+              "date": "2010-10-06",
+              "title": "CRE165 Privatsphäre"
+            },
+            {
+              "number": 166,
+              "date": "2010-10-08",
+              "title": "CRE166 Segeln"
+            },
+            {
+              "number": 170,
+              "date": "2010-11-10",
+              "title": "CRE170 Arcade Games"
+            },
+            {
+              "number": 171,
+              "date": "2010-12-02",
+              "title": "CRE171 Die Eisenbahn"
+            },
+            {
+              "number": 172,
+              "date": "2010-12-10",
+              "title": "CRE172 Holland und die Hacker"
+            },
+            {
+              "number": 173,
+              "date": "2010-12-25",
+              "title": "CRE173 Rollenspiele"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 12,
+          "episodes": [
+            {
+              "number": 174,
+              "date": "2011-02-01",
+              "title": "CRE174 Kunst, Kultur, Gesellschaft"
+            },
+            {
+              "number": 175,
+              "date": "2011-02-15",
+              "title": "CRE175 Hackerbrausen"
+            },
+            {
+              "number": 176,
+              "date": "2011-02-21",
+              "title": "CRE176 Cloud Computing"
+            },
+            {
+              "number": 178,
+              "date": "2011-04-09",
+              "title": "CRE178 Jugendmedienarbeit"
+            },
+            {
+              "number": 179,
+              "date": "2011-04-19",
+              "title": "CRE179 GSM Security"
+            },
+            {
+              "number": 180,
+              "date": "2011-06-08",
+              "title": "CRE180 Passivhäuser"
+            },
+            {
+              "number": 181,
+              "date": "2011-06-10",
+              "title": "CRE181 Aram Bartholl"
+            },
+            {
+              "number": 182,
+              "date": "2011-06-12",
+              "title": "CRE182 Elektronisches Geld"
+            },
+            {
+              "number": 183,
+              "date": "2011-06-24",
+              "title": "CRE183 TETRA Bündelfunk"
+            },
+            {
+              "number": 186,
+              "date": "2011-12-22",
+              "title": "CRE186 Astropeiler"
+            },
+            {
+              "number": 187,
+              "date": "2011-12-25",
+              "title": "CRE187 Paparazzi"
+            },
+            {
+              "number": 188,
+              "date": "2011-12-26",
+              "title": "CRE188 Telecomix"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 8,
+          "episodes": [
+            {
+              "number": 189,
+              "date": "2012-01-06",
+              "title": "CRE189 Chaos macht Schule"
+            },
+            {
+              "number": 190,
+              "date": "2012-01-11",
+              "title": "CRE190 Rhetorik"
+            },
+            {
+              "number": 191,
+              "date": "2012-01-22",
+              "title": "CRE191 Internet im Festnetz"
+            },
+            {
+              "number": 192,
+              "date": "2012-04-08",
+              "title": "CRE192 Poststrukturalismus 2"
+            },
+            {
+              "number": 194,
+              "date": "2012-07-02",
+              "title": "CRE194 Bier"
+            },
+            {
+              "number": 195,
+              "date": "2012-09-01",
+              "title": "CRE195 Das Gehirn"
+            },
+            {
+              "number": 196,
+              "date": "2012-09-06",
+              "title": "CRE196 Feminismus"
+            },
+            {
+              "number": 198,
+              "date": "2012-11-04",
+              "title": "CRE198 Pornographie"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 199,
+              "date": "2013-01-11",
+              "title": "CRE199 NetHack"
+            },
+            {
+              "number": 200,
+              "date": "2013-02-05",
+              "title": "CRE200 Stadtplanung"
+            },
+            {
+              "number": 201,
+              "date": "2013-03-13",
+              "title": "CRE201 Höhlenforschung"
+            },
+            {
+              "number": 204,
+              "date": "2013-11-05",
+              "title": "CRE204 Geocaching"
+            },
+            {
+              "number": 205,
+              "date": "2013-12-09",
+              "title": "CRE205 Wikidata"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 206,
+              "date": "2014-06-02",
+              "title": "CRE206 Das Ohr"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 207,
+              "date": "2015-02-13",
+              "title": "CRE207 Planetarien"
+            },
+            {
+              "number": 210,
+              "date": "2015-11-23",
+              "title": "CRE210 Die Jagd"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 211,
+              "date": "2016-01-21",
+              "title": "CRE211 Ziviler Luftverkehr"
+            },
+            {
+              "number": 212,
+              "date": "2016-05-27",
+              "title": "CRE212 Saudi Arabien"
+            },
+            {
+              "number": 213,
+              "date": "2016-11-19",
+              "title": "CRE213 Brot"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 216,
+              "date": "2017-11-05",
+              "title": "CRE216 Chilikultur"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 218,
+              "date": "2018-05-05",
+              "title": "CRE218 Diamanten"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 219,
+              "date": "2019-05-27",
+              "title": "CRE219 Partykultur"
+            },
+            {
+              "number": 220,
+              "date": "2019-12-21",
+              "title": "CRE220 Sprechendes Denken"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 221,
+              "date": "2020-08-05",
+              "title": "CRE221 Fledermäuse"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 223,
+              "date": "2021-11-23",
+              "title": "CRE223 Die Sendung mit der Maus"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 224,
+              "date": "2022-01-08",
+              "title": "CRE224 Elektronisches Geld 2"
+            },
+            {
+              "number": 225,
+              "date": "2022-05-03",
+              "title": "CRE225 Permakultur"
+            }
+          ]
+        }
+      ]
+    },
+    "technology": {
+      "id": "technology",
+      "name": "Technology",
+      "totalEpisodes": 89,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 8,
+          "episodes": [
+            {
+              "number": 1,
+              "date": "2005-11-22",
+              "title": "CRE001 Chaosradio Express stellt sich vor"
+            },
+            {
+              "number": 2,
+              "date": "2005-11-29",
+              "title": "CRE002 22C3, Schäuble, Coral CDN, CACert"
+            },
+            {
+              "number": 4,
+              "date": "2005-12-06",
+              "title": "CRE004 Klangwellen aller Art"
+            },
+            {
+              "number": 6,
+              "date": "2005-12-09",
+              "title": "CRE006 Das POC"
+            },
+            {
+              "number": 7,
+              "date": "2005-12-13",
+              "title": "CRE007 WSIS, Data Retention, Urheberrecht"
+            },
+            {
+              "number": 10,
+              "date": "2005-12-29",
+              "title": "CRE010 Régine Débatty"
+            },
+            {
+              "number": 11,
+              "date": "2005-12-29",
+              "title": "CRE011 Joi Ito"
+            },
+            {
+              "number": 12,
+              "date": "2005-12-29",
+              "title": "CRE012 Eric Blossom"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "count": 7,
+          "episodes": [
+            {
+              "number": 16,
+              "date": "2006-02-06",
+              "title": "CRE016 Wireless Mesh Networking"
+            },
+            {
+              "number": 19,
+              "date": "2006-02-22",
+              "title": "CRE019 Fon"
+            },
+            {
+              "number": 23,
+              "date": "2006-04-13",
+              "title": "CRE023 OpenVPN"
+            },
+            {
+              "number": 24,
+              "date": "2006-04-21",
+              "title": "CRE024 Blinde und Computer"
+            },
+            {
+              "number": 34,
+              "date": "2006-07-14",
+              "title": "CRE034 Die FIFA WM-Tickets"
+            },
+            {
+              "number": 38,
+              "date": "2006-09-03",
+              "title": "CRE038 Eine Reise in die Vergangenheit"
+            },
+            {
+              "number": 40,
+              "date": "2006-11-13",
+              "title": "CRE040 Digitale Telefonnetze"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 43,
+              "date": "2007-03-20",
+              "title": "CRE043 Wikipedia für Fortgeschrittene"
+            },
+            {
+              "number": 45,
+              "date": "2007-10-02",
+              "title": "CRE045 B.A.T.M.A.N."
+            },
+            {
+              "number": 56,
+              "date": "2007-12-02",
+              "title": "CRE056 GSM Hacking"
+            },
+            {
+              "number": 57,
+              "date": "2007-12-05",
+              "title": "CRE057 BitTorrent"
+            },
+            {
+              "number": 60,
+              "date": "2007-12-22",
+              "title": "CRE060 Retrofuturismus"
+            },
+            {
+              "number": 61,
+              "date": "2007-12-26",
+              "title": "CRE061 Medienformate und Codecs"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 12,
+          "episodes": [
+            {
+              "number": 64,
+              "date": "2008-01-17",
+              "title": "CRE064 Usability und Interaktionsdesign"
+            },
+            {
+              "number": 65,
+              "date": "2008-01-19",
+              "title": "CRE065 Elektrische Fahrräder"
+            },
+            {
+              "number": 71,
+              "date": "2008-02-07",
+              "title": "CRE071 One Laptop Per Child"
+            },
+            {
+              "number": 77,
+              "date": "2008-03-05",
+              "title": "CRE077 TUWAT.TXT"
+            },
+            {
+              "number": 80,
+              "date": "2008-03-21",
+              "title": "CRE080 Geschichte der Typographie"
+            },
+            {
+              "number": 93,
+              "date": "2008-08-04",
+              "title": "CRE093 Qualitätsmanagement in der Wikipedia"
+            },
+            {
+              "number": 94,
+              "date": "2008-08-11",
+              "title": "CRE094 Conversational Design"
+            },
+            {
+              "number": 95,
+              "date": "2008-08-13",
+              "title": "CRE095 Netzpolitik und das Telekom-Paket"
+            },
+            {
+              "number": 96,
+              "date": "2008-08-20",
+              "title": "CRE096 Live Cinema"
+            },
+            {
+              "number": 97,
+              "date": "2008-08-25",
+              "title": "CRE097 File & Print Sharing"
+            },
+            {
+              "number": 98,
+              "date": "2008-09-16",
+              "title": "CRE098 Der Mifare-Hack"
+            },
+            {
+              "number": 99,
+              "date": "2008-10-23",
+              "title": "CRE099 Domain Name System"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 20,
+          "episodes": [
+            {
+              "number": 102,
+              "date": "2009-01-11",
+              "title": "CRE102 Der DECT Hack"
+            },
+            {
+              "number": 104,
+              "date": "2009-01-23",
+              "title": "CRE104 E-Mail"
+            },
+            {
+              "number": 106,
+              "date": "2009-02-03",
+              "title": "CRE106 Mikrokopter"
+            },
+            {
+              "number": 107,
+              "date": "2009-02-08",
+              "title": "CRE107 Barrierefreiheit im Web"
+            },
+            {
+              "number": 109,
+              "date": "2009-02-18",
+              "title": "CRE109 Computer-Telefonie-Integration"
+            },
+            {
+              "number": 110,
+              "date": "2009-02-23",
+              "title": "CRE110 Next Generation Networks"
+            },
+            {
+              "number": 112,
+              "date": "2009-03-05",
+              "title": "CRE112 Roboterfussball"
+            },
+            {
+              "number": 115,
+              "date": "2009-03-20",
+              "title": "CRE115 OpenBICO"
+            },
+            {
+              "number": 116,
+              "date": "2009-03-25",
+              "title": "CRE116 Mobile Ad-hoc Netzwerke"
+            },
+            {
+              "number": 120,
+              "date": "2009-04-21",
+              "title": "CRE120 OpenBSC"
+            },
+            {
+              "number": 123,
+              "date": "2009-05-25",
+              "title": "CRE123 Die Bayrische Hackerpost"
+            },
+            {
+              "number": 125,
+              "date": "2009-06-10",
+              "title": "CRE125 CouchDB"
+            },
+            {
+              "number": 126,
+              "date": "2009-06-23",
+              "title": "CRE126 Raumfahrt"
+            },
+            {
+              "number": 129,
+              "date": "2009-07-13",
+              "title": "CRE129 Globales Dorf – Rechtsfreier Raum?"
+            },
+            {
+              "number": 132,
+              "date": "2009-08-10",
+              "title": "CRE132 UBERMORGEN.COM"
+            },
+            {
+              "number": 134,
+              "date": "2009-08-12",
+              "title": "CRE134 Hackerspaces"
+            },
+            {
+              "number": 136,
+              "date": "2009-11-16",
+              "title": "CRE136 Techno"
+            },
+            {
+              "number": 137,
+              "date": "2009-11-22",
+              "title": "CRE137 AV Streaming"
+            },
+            {
+              "number": 138,
+              "date": "2009-12-04",
+              "title": "CRE138 Basteln im 21. Jahrhundert"
+            },
+            {
+              "number": 140,
+              "date": "2009-12-12",
+              "title": "CRE140 FoeBuD"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 14,
+          "episodes": [
+            {
+              "number": 141,
+              "date": "2010-02-06",
+              "title": "CRE141 IPv4"
+            },
+            {
+              "number": 144,
+              "date": "2010-02-19",
+              "title": "CRE144 Die Internetwolke"
+            },
+            {
+              "number": 149,
+              "date": "2010-03-15",
+              "title": "CRE149 Synthesizer"
+            },
+            {
+              "number": 155,
+              "date": "2010-06-10",
+              "title": "CRE155 Malware und Botnets"
+            },
+            {
+              "number": 158,
+              "date": "2010-07-11",
+              "title": "CRE158 LiquidFeedback"
+            },
+            {
+              "number": 160,
+              "date": "2010-08-25",
+              "title": "CRE160 DDR"
+            },
+            {
+              "number": 161,
+              "date": "2010-09-07",
+              "title": "CRE161 Der CCC und die Öffentlichkeit"
+            },
+            {
+              "number": 162,
+              "date": "2010-09-14",
+              "title": "CRE162 Brettspiele"
+            },
+            {
+              "number": 165,
+              "date": "2010-10-06",
+              "title": "CRE165 Privatsphäre"
+            },
+            {
+              "number": 166,
+              "date": "2010-10-08",
+              "title": "CRE166 Segeln"
+            },
+            {
+              "number": 168,
+              "date": "2010-10-20",
+              "title": "CRE168 Wheelmap"
+            },
+            {
+              "number": 169,
+              "date": "2010-10-26",
+              "title": "CRE169 Bluetooth"
+            },
+            {
+              "number": 172,
+              "date": "2010-12-10",
+              "title": "CRE172 Holland und die Hacker"
+            },
+            {
+              "number": 173,
+              "date": "2010-12-25",
+              "title": "CRE173 Rollenspiele"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 10,
+          "episodes": [
+            {
+              "number": 175,
+              "date": "2011-02-15",
+              "title": "CRE175 Hackerbrausen"
+            },
+            {
+              "number": 176,
+              "date": "2011-02-21",
+              "title": "CRE176 Cloud Computing"
+            },
+            {
+              "number": 177,
+              "date": "2011-03-14",
+              "title": "CRE177 Commodore 64"
+            },
+            {
+              "number": 178,
+              "date": "2011-04-09",
+              "title": "CRE178 Jugendmedienarbeit"
+            },
+            {
+              "number": 179,
+              "date": "2011-04-19",
+              "title": "CRE179 GSM Security"
+            },
+            {
+              "number": 181,
+              "date": "2011-06-10",
+              "title": "CRE181 Aram Bartholl"
+            },
+            {
+              "number": 183,
+              "date": "2011-06-24",
+              "title": "CRE183 TETRA Bündelfunk"
+            },
+            {
+              "number": 185,
+              "date": "2011-10-23",
+              "title": "CRE185 Hedonistische Internationale"
+            },
+            {
+              "number": 186,
+              "date": "2011-12-22",
+              "title": "CRE186 Astropeiler"
+            },
+            {
+              "number": 188,
+              "date": "2011-12-26",
+              "title": "CRE188 Telecomix"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 191,
+              "date": "2012-01-22",
+              "title": "CRE191 Internet im Festnetz"
+            },
+            {
+              "number": 193,
+              "date": "2012-06-15",
+              "title": "CRE193 Old School Computing"
+            },
+            {
+              "number": 195,
+              "date": "2012-09-01",
+              "title": "CRE195 Das Gehirn"
+            },
+            {
+              "number": 197,
+              "date": "2012-09-17",
+              "title": "CRE197 IPv6"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 199,
+              "date": "2013-01-11",
+              "title": "CRE199 NetHack"
+            },
+            {
+              "number": 204,
+              "date": "2013-11-05",
+              "title": "CRE204 Geocaching"
+            },
+            {
+              "number": 205,
+              "date": "2013-12-09",
+              "title": "CRE205 Wikidata"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 208,
+              "date": "2015-10-20",
+              "title": "CRE208 Neuronale Netze"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 214,
+              "date": "2017-08-03",
+              "title": "CRE214 Satellitentelefonie"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 217,
+              "date": "2018-02-13",
+              "title": "CRE217 Mythos 68er"
+            },
+            {
+              "number": 218,
+              "date": "2018-05-05",
+              "title": "CRE218 Diamanten"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 224,
+              "date": "2022-01-08",
+              "title": "CRE224 Elektronisches Geld 2"
+            }
+          ]
+        }
+      ]
+    },
+    "security": {
+      "id": "security",
+      "name": "Security",
+      "totalEpisodes": 23,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 2,
+              "date": "2005-11-29",
+              "title": "CRE002 22C3, Schäuble, Coral CDN, CACert"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 20,
+              "date": "2006-03-04",
+              "title": "CRE020 Mac Security"
+            },
+            {
+              "number": 34,
+              "date": "2006-07-14",
+              "title": "CRE034 Die FIFA WM-Tickets"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 44,
+              "date": "2007-04-10",
+              "title": "CRE044 WEP is dead"
+            },
+            {
+              "number": 50,
+              "date": "2007-10-31",
+              "title": "CRE050 Der Wahlstift"
+            },
+            {
+              "number": 57,
+              "date": "2007-12-05",
+              "title": "CRE057 BitTorrent"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 95,
+              "date": "2008-08-13",
+              "title": "CRE095 Netzpolitik und das Telekom-Paket"
+            },
+            {
+              "number": 97,
+              "date": "2008-08-25",
+              "title": "CRE097 File & Print Sharing"
+            },
+            {
+              "number": 98,
+              "date": "2008-09-16",
+              "title": "CRE098 Der Mifare-Hack"
+            },
+            {
+              "number": 99,
+              "date": "2008-10-23",
+              "title": "CRE099 Domain Name System"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 104,
+              "date": "2009-01-23",
+              "title": "CRE104 E-Mail"
+            },
+            {
+              "number": 116,
+              "date": "2009-03-25",
+              "title": "CRE116 Mobile Ad-hoc Netzwerke"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 155,
+              "date": "2010-06-10",
+              "title": "CRE155 Malware und Botnets"
+            },
+            {
+              "number": 158,
+              "date": "2010-07-11",
+              "title": "CRE158 LiquidFeedback"
+            },
+            {
+              "number": 159,
+              "date": "2010-07-17",
+              "title": "CRE159 Nachrichtendienste"
+            },
+            {
+              "number": 161,
+              "date": "2010-09-07",
+              "title": "CRE161 Der CCC und die Öffentlichkeit"
+            },
+            {
+              "number": 165,
+              "date": "2010-10-06",
+              "title": "CRE165 Privatsphäre"
+            },
+            {
+              "number": 169,
+              "date": "2010-10-26",
+              "title": "CRE169 Bluetooth"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 179,
+              "date": "2011-04-19",
+              "title": "CRE179 GSM Security"
+            },
+            {
+              "number": 180,
+              "date": "2011-06-08",
+              "title": "CRE180 Passivhäuser"
+            },
+            {
+              "number": 182,
+              "date": "2011-06-12",
+              "title": "CRE182 Elektronisches Geld"
+            },
+            {
+              "number": 183,
+              "date": "2011-06-24",
+              "title": "CRE183 TETRA Bündelfunk"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 219,
+              "date": "2019-05-27",
+              "title": "CRE219 Partykultur"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "software": {
+      "id": "software",
+      "name": "Software",
+      "totalEpisodes": 73,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 3,
+              "date": "2005-12-03",
+              "title": "CRE003 Die Testsendung"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "count": 12,
+          "episodes": [
+            {
+              "number": 15,
+              "date": "2006-01-30",
+              "title": "CRE015 WMF, Aibo, E-Ink, Prozessoren und Podcasting"
+            },
+            {
+              "number": 17,
+              "date": "2006-02-17",
+              "title": "CRE017 GNU General Public License"
+            },
+            {
+              "number": 21,
+              "date": "2006-03-22",
+              "title": "CRE021 Website Relaunch und Feedback"
+            },
+            {
+              "number": 22,
+              "date": "2006-03-23",
+              "title": "CRE022 Windows Security"
+            },
+            {
+              "number": 24,
+              "date": "2006-04-21",
+              "title": "CRE024 Blinde und Computer"
+            },
+            {
+              "number": 25,
+              "date": "2006-05-06",
+              "title": "CRE025 Samba"
+            },
+            {
+              "number": 26,
+              "date": "2006-05-07",
+              "title": "CRE026 Free Software Foundation"
+            },
+            {
+              "number": 28,
+              "date": "2006-05-09",
+              "title": "CRE028 Extreme Programming"
+            },
+            {
+              "number": 31,
+              "date": "2006-05-21",
+              "title": "CRE031 Programmiersprachen und Dylan"
+            },
+            {
+              "number": 32,
+              "date": "2006-05-22",
+              "title": "CRE032 Data Recovery"
+            },
+            {
+              "number": 33,
+              "date": "2006-06-26",
+              "title": "CRE033 K Desktop Environment"
+            },
+            {
+              "number": 36,
+              "date": "2006-07-21",
+              "title": "CRE036 Grafikkarten und 3D"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 8,
+          "episodes": [
+            {
+              "number": 41,
+              "date": "2007-03-03",
+              "title": "CRE041 Sprachen"
+            },
+            {
+              "number": 42,
+              "date": "2007-03-15",
+              "title": "CRE042 OpenMoko"
+            },
+            {
+              "number": 48,
+              "date": "2007-10-18",
+              "title": "CRE048 FreeBSD"
+            },
+            {
+              "number": 49,
+              "date": "2007-10-21",
+              "title": "CRE049 Das ZFS Dateisystem"
+            },
+            {
+              "number": 52,
+              "date": "2007-11-13",
+              "title": "CRE052 Voice over IP Systeme"
+            },
+            {
+              "number": 54,
+              "date": "2007-11-27",
+              "title": "CRE054 GIMP"
+            },
+            {
+              "number": 55,
+              "date": "2007-11-28",
+              "title": "CRE055 Metalab"
+            },
+            {
+              "number": 61,
+              "date": "2007-12-26",
+              "title": "CRE061 Medienformate und Codecs"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 18,
+          "episodes": [
+            {
+              "number": 63,
+              "date": "2008-01-17",
+              "title": "CRE063 Die Programmiersprache C++"
+            },
+            {
+              "number": 64,
+              "date": "2008-01-17",
+              "title": "CRE064 Usability und Interaktionsdesign"
+            },
+            {
+              "number": 67,
+              "date": "2008-01-23",
+              "title": "CRE067 Microcontroller"
+            },
+            {
+              "number": 68,
+              "date": "2008-01-27",
+              "title": "CRE068 KDE4"
+            },
+            {
+              "number": 69,
+              "date": "2008-01-30",
+              "title": "CRE069 Der Mac OS X Kernel"
+            },
+            {
+              "number": 70,
+              "date": "2008-02-03",
+              "title": "CRE070 Mac OS X Anwendungsentwicklung"
+            },
+            {
+              "number": 71,
+              "date": "2008-02-07",
+              "title": "CRE071 One Laptop Per Child"
+            },
+            {
+              "number": 72,
+              "date": "2008-02-12",
+              "title": "CRE072 Moderne Webentwicklung"
+            },
+            {
+              "number": 76,
+              "date": "2008-02-29",
+              "title": "CRE076 OpenWRT"
+            },
+            {
+              "number": 78,
+              "date": "2008-03-14",
+              "title": "CRE078 Zope und Plone"
+            },
+            {
+              "number": 79,
+              "date": "2008-03-16",
+              "title": "CRE079 GTK+ und GNOME"
+            },
+            {
+              "number": 82,
+              "date": "2008-03-31",
+              "title": "CRE082 Erlang"
+            },
+            {
+              "number": 84,
+              "date": "2008-04-09",
+              "title": "CRE084 LISP"
+            },
+            {
+              "number": 86,
+              "date": "2008-04-29",
+              "title": "CRE086 USB"
+            },
+            {
+              "number": 87,
+              "date": "2008-05-17",
+              "title": "CRE087 Software Defined Radio"
+            },
+            {
+              "number": 88,
+              "date": "2008-06-12",
+              "title": "CRE088 Python und PyPy"
+            },
+            {
+              "number": 90,
+              "date": "2008-07-09",
+              "title": "CRE090 Java"
+            },
+            {
+              "number": 92,
+              "date": "2008-07-29",
+              "title": "CRE092 Virtualisierung"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 16,
+          "episodes": [
+            {
+              "number": 101,
+              "date": "2009-01-06",
+              "title": "CRE101 iPhone Anwendungsentwicklung"
+            },
+            {
+              "number": 103,
+              "date": "2009-01-17",
+              "title": "CRE103 Drupal"
+            },
+            {
+              "number": 105,
+              "date": "2009-01-28",
+              "title": "CRE105 OpenBSD"
+            },
+            {
+              "number": 107,
+              "date": "2009-02-08",
+              "title": "CRE107 Barrierefreiheit im Web"
+            },
+            {
+              "number": 109,
+              "date": "2009-02-18",
+              "title": "CRE109 Computer-Telefonie-Integration"
+            },
+            {
+              "number": 111,
+              "date": "2009-02-28",
+              "title": "CRE111 MediaWiki"
+            },
+            {
+              "number": 112,
+              "date": "2009-03-05",
+              "title": "CRE112 Roboterfussball"
+            },
+            {
+              "number": 114,
+              "date": "2009-03-15",
+              "title": "CRE114 LLVM"
+            },
+            {
+              "number": 115,
+              "date": "2009-03-20",
+              "title": "CRE115 OpenBICO"
+            },
+            {
+              "number": 117,
+              "date": "2009-03-30",
+              "title": "CRE117 FPGA"
+            },
+            {
+              "number": 120,
+              "date": "2009-04-21",
+              "title": "CRE120 OpenBSC"
+            },
+            {
+              "number": 122,
+              "date": "2009-05-13",
+              "title": "CRE122 Compilerbau und Typtheorie"
+            },
+            {
+              "number": 125,
+              "date": "2009-06-10",
+              "title": "CRE125 CouchDB"
+            },
+            {
+              "number": 127,
+              "date": "2009-06-26",
+              "title": "CRE127 TeX und LaTeX"
+            },
+            {
+              "number": 130,
+              "date": "2009-08-02",
+              "title": "CRE130 Verteilte Versionskontrollsysteme"
+            },
+            {
+              "number": 131,
+              "date": "2009-08-08",
+              "title": "CRE131 Mensch-Maschine-Interaktion"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 10,
+          "episodes": [
+            {
+              "number": 145,
+              "date": "2010-02-23",
+              "title": "CRE145 Musik und MIDI-Hacking"
+            },
+            {
+              "number": 146,
+              "date": "2010-02-27",
+              "title": "CRE146 JavaScript"
+            },
+            {
+              "number": 148,
+              "date": "2010-03-12",
+              "title": "CRE148 Das Apache Projekt"
+            },
+            {
+              "number": 151,
+              "date": "2010-04-21",
+              "title": "CRE151 Die ARM-Architektur"
+            },
+            {
+              "number": 152,
+              "date": "2010-04-28",
+              "title": "CRE152 Android"
+            },
+            {
+              "number": 154,
+              "date": "2010-05-11",
+              "title": "CRE154 Digital Audio"
+            },
+            {
+              "number": 155,
+              "date": "2010-06-10",
+              "title": "CRE155 Malware und Botnets"
+            },
+            {
+              "number": 163,
+              "date": "2010-10-01",
+              "title": "CRE163 Ruby und Rails"
+            },
+            {
+              "number": 167,
+              "date": "2010-10-19",
+              "title": "CRE167 node.js"
+            },
+            {
+              "number": 170,
+              "date": "2010-11-10",
+              "title": "CRE170 Arcade Games"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 176,
+              "date": "2011-02-21",
+              "title": "CRE176 Cloud Computing"
+            },
+            {
+              "number": 177,
+              "date": "2011-03-14",
+              "title": "CRE177 Commodore 64"
+            },
+            {
+              "number": 187,
+              "date": "2011-12-25",
+              "title": "CRE187 Paparazzi"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 193,
+              "date": "2012-06-15",
+              "title": "CRE193 Old School Computing"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 199,
+              "date": "2013-01-11",
+              "title": "CRE199 NetHack"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 209,
+              "date": "2015-11-10",
+              "title": "CRE209 Das Linux System"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 220,
+              "date": "2019-12-21",
+              "title": "CRE220 Sprechendes Denken"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 222,
+              "date": "2021-10-18",
+              "title": "CRE222 Terravision"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "politics": {
+      "id": "politics",
+      "name": "Politics",
+      "totalEpisodes": 55,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 7,
+              "date": "2005-12-13",
+              "title": "CRE007 WSIS, Data Retention, Urheberrecht"
+            },
+            {
+              "number": 11,
+              "date": "2005-12-29",
+              "title": "CRE011 Joi Ito"
+            },
+            {
+              "number": 13,
+              "date": "2005-12-30",
+              "title": "CRE013 Jacob Appelbaum"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 17,
+              "date": "2006-02-17",
+              "title": "CRE017 GNU General Public License"
+            },
+            {
+              "number": 25,
+              "date": "2006-05-06",
+              "title": "CRE025 Samba"
+            },
+            {
+              "number": 29,
+              "date": "2006-05-15",
+              "title": "CRE029 Haftung für Links und das Telemediengesetz"
+            },
+            {
+              "number": 37,
+              "date": "2006-08-10",
+              "title": "CRE037 Das Luftsicherheitsgesetz"
+            },
+            {
+              "number": 39,
+              "date": "2006-10-31",
+              "title": "CRE039 Der NEDAP-Hack"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 7,
+          "episodes": [
+            {
+              "number": 47,
+              "date": "2007-10-09",
+              "title": "CRE047 Der Elektronische Reisepass"
+            },
+            {
+              "number": 50,
+              "date": "2007-10-31",
+              "title": "CRE050 Der Wahlstift"
+            },
+            {
+              "number": 51,
+              "date": "2007-11-06",
+              "title": "CRE051 Vorratsdatenspeicherung"
+            },
+            {
+              "number": 53,
+              "date": "2007-11-14",
+              "title": "CRE053 Netlabels"
+            },
+            {
+              "number": 59,
+              "date": "2007-12-21",
+              "title": "CRE059 Überwachung"
+            },
+            {
+              "number": 60,
+              "date": "2007-12-22",
+              "title": "CRE060 Retrofuturismus"
+            },
+            {
+              "number": 61,
+              "date": "2007-12-26",
+              "title": "CRE061 Medienformate und Codecs"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 66,
+              "date": "2008-01-21",
+              "title": "CRE066 Politik für Anfänger"
+            },
+            {
+              "number": 77,
+              "date": "2008-03-05",
+              "title": "CRE077 TUWAT.TXT"
+            },
+            {
+              "number": 80,
+              "date": "2008-03-21",
+              "title": "CRE080 Geschichte der Typographie"
+            },
+            {
+              "number": 81,
+              "date": "2008-03-26",
+              "title": "CRE081 Neusprech im Schnüffelstaat"
+            },
+            {
+              "number": 95,
+              "date": "2008-08-13",
+              "title": "CRE095 Netzpolitik und das Telekom-Paket"
+            },
+            {
+              "number": 99,
+              "date": "2008-10-23",
+              "title": "CRE099 Domain Name System"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 13,
+          "episodes": [
+            {
+              "number": 104,
+              "date": "2009-01-23",
+              "title": "CRE104 E-Mail"
+            },
+            {
+              "number": 105,
+              "date": "2009-01-28",
+              "title": "CRE105 OpenBSD"
+            },
+            {
+              "number": 106,
+              "date": "2009-02-03",
+              "title": "CRE106 Mikrokopter"
+            },
+            {
+              "number": 107,
+              "date": "2009-02-08",
+              "title": "CRE107 Barrierefreiheit im Web"
+            },
+            {
+              "number": 108,
+              "date": "2009-02-13",
+              "title": "CRE108 Schusswaffen"
+            },
+            {
+              "number": 114,
+              "date": "2009-03-15",
+              "title": "CRE114 LLVM"
+            },
+            {
+              "number": 118,
+              "date": "2009-04-03",
+              "title": "CRE118 Das Wahlcomputer-Urteil"
+            },
+            {
+              "number": 124,
+              "date": "2009-05-30",
+              "title": "CRE124 Kampf gegen Zensursula"
+            },
+            {
+              "number": 128,
+              "date": "2009-07-12",
+              "title": "CRE128 Wahlrecht und Wahlsysteme"
+            },
+            {
+              "number": 129,
+              "date": "2009-07-13",
+              "title": "CRE129 Globales Dorf – Rechtsfreier Raum?"
+            },
+            {
+              "number": 132,
+              "date": "2009-08-10",
+              "title": "CRE132 UBERMORGEN.COM"
+            },
+            {
+              "number": 133,
+              "date": "2009-08-11",
+              "title": "CRE133 Piraten"
+            },
+            {
+              "number": 135,
+              "date": "2009-08-17",
+              "title": "CRE135 Mut zur Freiheit"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 9,
+          "episodes": [
+            {
+              "number": 155,
+              "date": "2010-06-10",
+              "title": "CRE155 Malware und Botnets"
+            },
+            {
+              "number": 158,
+              "date": "2010-07-11",
+              "title": "CRE158 LiquidFeedback"
+            },
+            {
+              "number": 159,
+              "date": "2010-07-17",
+              "title": "CRE159 Nachrichtendienste"
+            },
+            {
+              "number": 160,
+              "date": "2010-08-25",
+              "title": "CRE160 DDR"
+            },
+            {
+              "number": 161,
+              "date": "2010-09-07",
+              "title": "CRE161 Der CCC und die Öffentlichkeit"
+            },
+            {
+              "number": 164,
+              "date": "2010-10-05",
+              "title": "CRE164 Urheberrecht"
+            },
+            {
+              "number": 165,
+              "date": "2010-10-06",
+              "title": "CRE165 Privatsphäre"
+            },
+            {
+              "number": 171,
+              "date": "2010-12-02",
+              "title": "CRE171 Die Eisenbahn"
+            },
+            {
+              "number": 172,
+              "date": "2010-12-10",
+              "title": "CRE172 Holland und die Hacker"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 175,
+              "date": "2011-02-15",
+              "title": "CRE175 Hackerbrausen"
+            },
+            {
+              "number": 178,
+              "date": "2011-04-09",
+              "title": "CRE178 Jugendmedienarbeit"
+            },
+            {
+              "number": 180,
+              "date": "2011-06-08",
+              "title": "CRE180 Passivhäuser"
+            },
+            {
+              "number": 181,
+              "date": "2011-06-10",
+              "title": "CRE181 Aram Bartholl"
+            },
+            {
+              "number": 184,
+              "date": "2011-08-10",
+              "title": "CRE184 Bundeswehr"
+            },
+            {
+              "number": 185,
+              "date": "2011-10-23",
+              "title": "CRE185 Hedonistische Internationale"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 191,
+              "date": "2012-01-22",
+              "title": "CRE191 Internet im Festnetz"
+            },
+            {
+              "number": 196,
+              "date": "2012-09-06",
+              "title": "CRE196 Feminismus"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 212,
+              "date": "2016-05-27",
+              "title": "CRE212 Saudi Arabien"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 215,
+              "date": "2017-10-04",
+              "title": "CRE215 Kurdistan"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 217,
+              "date": "2018-02-13",
+              "title": "CRE217 Mythos 68er"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 222,
+              "date": "2021-10-18",
+              "title": "CRE222 Terravision"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "culture": {
+      "id": "culture",
+      "name": "Culture",
+      "totalEpisodes": 40,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 11,
+              "date": "2005-12-29",
+              "title": "CRE011 Joi Ito"
+            },
+            {
+              "number": 12,
+              "date": "2005-12-29",
+              "title": "CRE012 Eric Blossom"
+            }
+          ]
+        },
+        {
+          "year": 2006,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2007,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 43,
+              "date": "2007-03-20",
+              "title": "CRE043 Wikipedia für Fortgeschrittene"
+            },
+            {
+              "number": 58,
+              "date": "2007-12-06",
+              "title": "CRE058 24C3 Preview"
+            },
+            {
+              "number": 60,
+              "date": "2007-12-22",
+              "title": "CRE060 Retrofuturismus"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 8,
+          "episodes": [
+            {
+              "number": 62,
+              "date": "2008-01-02",
+              "title": "CRE062 Monochrom"
+            },
+            {
+              "number": 63,
+              "date": "2008-01-17",
+              "title": "CRE063 Die Programmiersprache C++"
+            },
+            {
+              "number": 73,
+              "date": "2008-02-16",
+              "title": "CRE073 World of Warcraft"
+            },
+            {
+              "number": 74,
+              "date": "2008-02-20",
+              "title": "CRE074 Hubschrauberkultur"
+            },
+            {
+              "number": 80,
+              "date": "2008-03-21",
+              "title": "CRE080 Geschichte der Typographie"
+            },
+            {
+              "number": 89,
+              "date": "2008-06-21",
+              "title": "CRE089 Computerspiele"
+            },
+            {
+              "number": 91,
+              "date": "2008-07-27",
+              "title": "CRE091 Poststrukturalismus"
+            },
+            {
+              "number": 100,
+              "date": "2008-11-18",
+              "title": "CRE100 Das Internet und die Hacker"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 7,
+          "episodes": [
+            {
+              "number": 119,
+              "date": "2009-04-09",
+              "title": "CRE119 Kaffee"
+            },
+            {
+              "number": 121,
+              "date": "2009-04-28",
+              "title": "CRE121 Internet-Meme"
+            },
+            {
+              "number": 132,
+              "date": "2009-08-10",
+              "title": "CRE132 UBERMORGEN.COM"
+            },
+            {
+              "number": 133,
+              "date": "2009-08-11",
+              "title": "CRE133 Piraten"
+            },
+            {
+              "number": 136,
+              "date": "2009-11-16",
+              "title": "CRE136 Techno"
+            },
+            {
+              "number": 138,
+              "date": "2009-12-04",
+              "title": "CRE138 Basteln im 21. Jahrhundert"
+            },
+            {
+              "number": 140,
+              "date": "2009-12-12",
+              "title": "CRE140 FoeBuD"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 157,
+              "date": "2010-07-01",
+              "title": "CRE157 Fernsehen"
+            },
+            {
+              "number": 161,
+              "date": "2010-09-07",
+              "title": "CRE161 Der CCC und die Öffentlichkeit"
+            },
+            {
+              "number": 162,
+              "date": "2010-09-14",
+              "title": "CRE162 Brettspiele"
+            },
+            {
+              "number": 172,
+              "date": "2010-12-10",
+              "title": "CRE172 Holland und die Hacker"
+            },
+            {
+              "number": 173,
+              "date": "2010-12-25",
+              "title": "CRE173 Rollenspiele"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 175,
+              "date": "2011-02-15",
+              "title": "CRE175 Hackerbrausen"
+            },
+            {
+              "number": 177,
+              "date": "2011-03-14",
+              "title": "CRE177 Commodore 64"
+            },
+            {
+              "number": 181,
+              "date": "2011-06-10",
+              "title": "CRE181 Aram Bartholl"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 192,
+              "date": "2012-04-08",
+              "title": "CRE192 Poststrukturalismus 2"
+            },
+            {
+              "number": 198,
+              "date": "2012-11-04",
+              "title": "CRE198 Pornographie"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 199,
+              "date": "2013-01-11",
+              "title": "CRE199 NetHack"
+            },
+            {
+              "number": 202,
+              "date": "2013-03-30",
+              "title": "CRE202 Hackerfilme"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 210,
+              "date": "2015-11-23",
+              "title": "CRE210 Die Jagd"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 212,
+              "date": "2016-05-27",
+              "title": "CRE212 Saudi Arabien"
+            },
+            {
+              "number": 213,
+              "date": "2016-11-19",
+              "title": "CRE213 Brot"
+            }
+          ]
+        },
+        {
+          "year": 2017,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 215,
+              "date": "2017-10-04",
+              "title": "CRE215 Kurdistan"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 218,
+              "date": "2018-05-05",
+              "title": "CRE218 Diamanten"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 219,
+              "date": "2019-05-27",
+              "title": "CRE219 Partykultur"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 221,
+              "date": "2020-08-05",
+              "title": "CRE221 Fledermäuse"
+            }
+          ]
+        },
+        {
+          "year": 2021,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 222,
+              "date": "2021-10-18",
+              "title": "CRE222 Terravision"
+            }
+          ]
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "hardware": {
+      "id": "hardware",
+      "name": "Hardware",
+      "totalEpisodes": 28,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2006,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 15,
+              "date": "2006-01-30",
+              "title": "CRE015 WMF, Aibo, E-Ink, Prozessoren und Podcasting"
+            },
+            {
+              "number": 32,
+              "date": "2006-05-22",
+              "title": "CRE032 Data Recovery"
+            },
+            {
+              "number": 36,
+              "date": "2006-07-21",
+              "title": "CRE036 Grafikkarten und 3D"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 42,
+              "date": "2007-03-15",
+              "title": "CRE042 OpenMoko"
+            },
+            {
+              "number": 45,
+              "date": "2007-10-02",
+              "title": "CRE045 B.A.T.M.A.N."
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 67,
+              "date": "2008-01-23",
+              "title": "CRE067 Microcontroller"
+            },
+            {
+              "number": 71,
+              "date": "2008-02-07",
+              "title": "CRE071 One Laptop Per Child"
+            },
+            {
+              "number": 76,
+              "date": "2008-02-29",
+              "title": "CRE076 OpenWRT"
+            },
+            {
+              "number": 84,
+              "date": "2008-04-09",
+              "title": "CRE084 LISP"
+            },
+            {
+              "number": 86,
+              "date": "2008-04-29",
+              "title": "CRE086 USB"
+            },
+            {
+              "number": 92,
+              "date": "2008-07-29",
+              "title": "CRE092 Virtualisierung"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 7,
+          "episodes": [
+            {
+              "number": 101,
+              "date": "2009-01-06",
+              "title": "CRE101 iPhone Anwendungsentwicklung"
+            },
+            {
+              "number": 109,
+              "date": "2009-02-18",
+              "title": "CRE109 Computer-Telefonie-Integration"
+            },
+            {
+              "number": 112,
+              "date": "2009-03-05",
+              "title": "CRE112 Roboterfussball"
+            },
+            {
+              "number": 115,
+              "date": "2009-03-20",
+              "title": "CRE115 OpenBICO"
+            },
+            {
+              "number": 117,
+              "date": "2009-03-30",
+              "title": "CRE117 FPGA"
+            },
+            {
+              "number": 120,
+              "date": "2009-04-21",
+              "title": "CRE120 OpenBSC"
+            },
+            {
+              "number": 131,
+              "date": "2009-08-08",
+              "title": "CRE131 Mensch-Maschine-Interaktion"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 145,
+              "date": "2010-02-23",
+              "title": "CRE145 Musik und MIDI-Hacking"
+            },
+            {
+              "number": 151,
+              "date": "2010-04-21",
+              "title": "CRE151 Die ARM-Architektur"
+            },
+            {
+              "number": 153,
+              "date": "2010-05-08",
+              "title": "CRE153 Feuerwehr"
+            },
+            {
+              "number": 163,
+              "date": "2010-10-01",
+              "title": "CRE163 Ruby und Rails"
+            },
+            {
+              "number": 167,
+              "date": "2010-10-19",
+              "title": "CRE167 node.js"
+            },
+            {
+              "number": 170,
+              "date": "2010-11-10",
+              "title": "CRE170 Arcade Games"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 177,
+              "date": "2011-03-14",
+              "title": "CRE177 Commodore 64"
+            },
+            {
+              "number": 179,
+              "date": "2011-04-19",
+              "title": "CRE179 GSM Security"
+            },
+            {
+              "number": 187,
+              "date": "2011-12-25",
+              "title": "CRE187 Paparazzi"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 193,
+              "date": "2012-06-15",
+              "title": "CRE193 Old School Computing"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "history": {
+      "id": "history",
+      "name": "History",
+      "totalEpisodes": 21,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2006,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 16,
+              "date": "2006-02-06",
+              "title": "CRE016 Wireless Mesh Networking"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2008,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 71,
+              "date": "2008-02-07",
+              "title": "CRE071 One Laptop Per Child"
+            },
+            {
+              "number": 77,
+              "date": "2008-03-05",
+              "title": "CRE077 TUWAT.TXT"
+            },
+            {
+              "number": 91,
+              "date": "2008-07-27",
+              "title": "CRE091 Poststrukturalismus"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 5,
+          "episodes": [
+            {
+              "number": 123,
+              "date": "2009-05-25",
+              "title": "CRE123 Die Bayrische Hackerpost"
+            },
+            {
+              "number": 126,
+              "date": "2009-06-23",
+              "title": "CRE126 Raumfahrt"
+            },
+            {
+              "number": 131,
+              "date": "2009-08-08",
+              "title": "CRE131 Mensch-Maschine-Interaktion"
+            },
+            {
+              "number": 133,
+              "date": "2009-08-11",
+              "title": "CRE133 Piraten"
+            },
+            {
+              "number": 136,
+              "date": "2009-11-16",
+              "title": "CRE136 Techno"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 160,
+              "date": "2010-08-25",
+              "title": "CRE160 DDR"
+            },
+            {
+              "number": 161,
+              "date": "2010-09-07",
+              "title": "CRE161 Der CCC und die Öffentlichkeit"
+            },
+            {
+              "number": 172,
+              "date": "2010-12-10",
+              "title": "CRE172 Holland und die Hacker"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 175,
+              "date": "2011-02-15",
+              "title": "CRE175 Hackerbrausen"
+            },
+            {
+              "number": 185,
+              "date": "2011-10-23",
+              "title": "CRE185 Hedonistische Internationale"
+            },
+            {
+              "number": 188,
+              "date": "2011-12-26",
+              "title": "CRE188 Telecomix"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 192,
+              "date": "2012-04-08",
+              "title": "CRE192 Poststrukturalismus 2"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 210,
+              "date": "2015-11-23",
+              "title": "CRE210 Die Jagd"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 215,
+              "date": "2017-10-04",
+              "title": "CRE215 Kurdistan"
+            },
+            {
+              "number": 216,
+              "date": "2017-11-05",
+              "title": "CRE216 Chilikultur"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 217,
+              "date": "2018-02-13",
+              "title": "CRE217 Mythos 68er"
+            }
+          ]
+        },
+        {
+          "year": 2019,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 219,
+              "date": "2019-05-27",
+              "title": "CRE219 Partykultur"
+            }
+          ]
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "technologie": {
+      "id": "technologie",
+      "name": "Technologie",
+      "totalEpisodes": 27,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2006,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 18,
+              "date": "2006-02-20",
+              "title": "CRE018 Dropping Knowledge"
+            },
+            {
+              "number": 21,
+              "date": "2006-03-22",
+              "title": "CRE021 Website Relaunch und Feedback"
+            },
+            {
+              "number": 39,
+              "date": "2006-10-31",
+              "title": "CRE039 Der NEDAP-Hack"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 46,
+              "date": "2007-10-05",
+              "title": "CRE046 Sicherheit"
+            },
+            {
+              "number": 47,
+              "date": "2007-10-09",
+              "title": "CRE047 Der Elektronische Reisepass"
+            },
+            {
+              "number": 51,
+              "date": "2007-11-06",
+              "title": "CRE051 Vorratsdatenspeicherung"
+            },
+            {
+              "number": 52,
+              "date": "2007-11-13",
+              "title": "CRE052 Voice over IP Systeme"
+            },
+            {
+              "number": 56,
+              "date": "2007-12-02",
+              "title": "CRE056 GSM Hacking"
+            },
+            {
+              "number": 59,
+              "date": "2007-12-21",
+              "title": "CRE059 Überwachung"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 6,
+          "episodes": [
+            {
+              "number": 65,
+              "date": "2008-01-19",
+              "title": "CRE065 Elektrische Fahrräder"
+            },
+            {
+              "number": 74,
+              "date": "2008-02-20",
+              "title": "CRE074 Hubschrauberkultur"
+            },
+            {
+              "number": 75,
+              "date": "2008-02-24",
+              "title": "CRE075 Energiesparhäuser"
+            },
+            {
+              "number": 87,
+              "date": "2008-05-17",
+              "title": "CRE087 Software Defined Radio"
+            },
+            {
+              "number": 99,
+              "date": "2008-10-23",
+              "title": "CRE099 Domain Name System"
+            },
+            {
+              "number": 100,
+              "date": "2008-11-18",
+              "title": "CRE100 Das Internet und die Hacker"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 108,
+              "date": "2009-02-13",
+              "title": "CRE108 Schusswaffen"
+            },
+            {
+              "number": 124,
+              "date": "2009-05-30",
+              "title": "CRE124 Kampf gegen Zensursula"
+            },
+            {
+              "number": 131,
+              "date": "2009-08-08",
+              "title": "CRE131 Mensch-Maschine-Interaktion"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 156,
+              "date": "2010-06-26",
+              "title": "CRE156 Das Sonnensystem"
+            },
+            {
+              "number": 164,
+              "date": "2010-10-05",
+              "title": "CRE164 Urheberrecht"
+            },
+            {
+              "number": 171,
+              "date": "2010-12-02",
+              "title": "CRE171 Die Eisenbahn"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 187,
+              "date": "2011-12-25",
+              "title": "CRE187 Paparazzi"
+            }
+          ]
+        },
+        {
+          "year": 2012,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 191,
+              "date": "2012-01-22",
+              "title": "CRE191 Internet im Festnetz"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 201,
+              "date": "2013-03-13",
+              "title": "CRE201 Höhlenforschung"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 206,
+              "date": "2014-06-02",
+              "title": "CRE206 Das Ohr"
+            }
+          ]
+        },
+        {
+          "year": 2015,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 207,
+              "date": "2015-02-13",
+              "title": "CRE207 Planetarien"
+            }
+          ]
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 214,
+              "date": "2017-08-03",
+              "title": "CRE214 Satellitentelefonie"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "community": {
+      "id": "community",
+      "name": "Community",
+      "totalEpisodes": 13,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2006,
+          "count": 3,
+          "episodes": [
+            {
+              "number": 21,
+              "date": "2006-03-22",
+              "title": "CRE021 Website Relaunch und Feedback"
+            },
+            {
+              "number": 25,
+              "date": "2006-05-06",
+              "title": "CRE025 Samba"
+            },
+            {
+              "number": 35,
+              "date": "2006-07-20",
+              "title": "CRE035 Perry Rhodan"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 54,
+              "date": "2007-11-27",
+              "title": "CRE054 GIMP"
+            },
+            {
+              "number": 55,
+              "date": "2007-11-28",
+              "title": "CRE055 Metalab"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 78,
+              "date": "2008-03-14",
+              "title": "CRE078 Zope und Plone"
+            },
+            {
+              "number": 79,
+              "date": "2008-03-16",
+              "title": "CRE079 GTK+ und GNOME"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 105,
+              "date": "2009-01-28",
+              "title": "CRE105 OpenBSD"
+            },
+            {
+              "number": 127,
+              "date": "2009-06-26",
+              "title": "CRE127 TeX und LaTeX"
+            },
+            {
+              "number": 128,
+              "date": "2009-07-12",
+              "title": "CRE128 Wahlrecht und Wahlsysteme"
+            },
+            {
+              "number": 134,
+              "date": "2009-08-12",
+              "title": "CRE134 Hackerspaces"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2011,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2012,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 189,
+              "date": "2012-01-06",
+              "title": "CRE189 Chaos macht Schule"
+            }
+          ]
+        },
+        {
+          "year": 2013,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 204,
+              "date": "2013-11-05",
+              "title": "CRE204 Geocaching"
+            }
+          ]
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    },
+    "sicherheit": {
+      "id": "sicherheit",
+      "name": "Sicherheit",
+      "totalEpisodes": 13,
+      "yearData": [
+        {
+          "year": 2005,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2006,
+          "count": 4,
+          "episodes": [
+            {
+              "number": 23,
+              "date": "2006-04-13",
+              "title": "CRE023 OpenVPN"
+            },
+            {
+              "number": 27,
+              "date": "2006-05-07",
+              "title": "CRE027 CACert"
+            },
+            {
+              "number": 37,
+              "date": "2006-08-10",
+              "title": "CRE037 Das Luftsicherheitsgesetz"
+            },
+            {
+              "number": 40,
+              "date": "2006-11-13",
+              "title": "CRE040 Digitale Telefonnetze"
+            }
+          ]
+        },
+        {
+          "year": 2007,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 47,
+              "date": "2007-10-09",
+              "title": "CRE047 Der Elektronische Reisepass"
+            },
+            {
+              "number": 56,
+              "date": "2007-12-02",
+              "title": "CRE056 GSM Hacking"
+            }
+          ]
+        },
+        {
+          "year": 2008,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 74,
+              "date": "2008-02-20",
+              "title": "CRE074 Hubschrauberkultur"
+            },
+            {
+              "number": 100,
+              "date": "2008-11-18",
+              "title": "CRE100 Das Internet und die Hacker"
+            }
+          ]
+        },
+        {
+          "year": 2009,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 120,
+              "date": "2009-04-21",
+              "title": "CRE120 OpenBSC"
+            },
+            {
+              "number": 124,
+              "date": "2009-05-30",
+              "title": "CRE124 Kampf gegen Zensursula"
+            }
+          ]
+        },
+        {
+          "year": 2010,
+          "count": 1,
+          "episodes": [
+            {
+              "number": 171,
+              "date": "2010-12-02",
+              "title": "CRE171 Die Eisenbahn"
+            }
+          ]
+        },
+        {
+          "year": 2011,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2012,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2013,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2014,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2015,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2016,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2017,
+          "count": 2,
+          "episodes": [
+            {
+              "number": 214,
+              "date": "2017-08-03",
+              "title": "CRE214 Satellitentelefonie"
+            },
+            {
+              "number": 215,
+              "date": "2017-10-04",
+              "title": "CRE215 Kurdistan"
+            }
+          ]
+        },
+        {
+          "year": 2018,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "episodes": []
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "episodes": []
+        }
+      ]
+    }
+  }
+}

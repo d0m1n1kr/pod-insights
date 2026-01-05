@@ -109,6 +109,48 @@ export interface ProcessedSpeakerData {
   color: string;
 }
 
+export interface SubjectRiverData {
+  generatedAt: string;
+  description: string;
+  statistics: {
+    totalSubjects: number;
+    yearRange: {
+      start: number;
+      end: number;
+    };
+    years: number[];
+    subjectsByEpisodeCount: Array<{
+      id: string;
+      name: string;
+      count: number;
+    }>;
+  };
+  subjects: {
+    [key: string]: {
+      id: string;
+      name: string;
+      totalEpisodes: number;
+      yearData: Array<{
+        year: number;
+        count: number;
+        episodes: Array<{
+          number: number;
+          date: string;
+          title: string;
+        }>;
+      }>;
+    };
+  };
+}
+
+export interface ProcessedSubjectData {
+  id: string;
+  name: string;
+  yearValues: Map<number, number>;
+  totalEpisodes: number;
+  color: string;
+}
+
 export interface HeatmapData {
   generatedAt: string;
   description: string;

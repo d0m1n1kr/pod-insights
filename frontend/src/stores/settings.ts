@@ -23,6 +23,7 @@ export const useSettingsStore = defineStore('settings', () => {
   // Available podcasts (loaded from podcasts.json)
   const availablePodcasts = ref<Podcast[]>([]);
   const topicFilter = ref(15);
+  const subjectFilter = ref(12);
   const speakerFilter = ref(15);
   const topNSpeakersHeatmap = ref(15);
   const topNCategoriesHeatmap = ref(10);
@@ -170,6 +171,7 @@ export const useSettingsStore = defineStore('settings', () => {
   return {
     normalizedView,
     topicFilter,
+    subjectFilter,
     speakerFilter,
     topNSpeakersHeatmap,
     topNCategoriesHeatmap,
@@ -212,6 +214,7 @@ export const useSettingsStore = defineStore('settings', () => {
     paths: [
       'normalizedView',
       'topicFilter',
+      'subjectFilter',
       'speakerFilter',
       'topNSpeakersHeatmap',
       'topNCategoriesHeatmap',
