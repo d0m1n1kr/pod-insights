@@ -89,7 +89,8 @@ pub struct LocationStats {
 }
 
 pub struct AnalyticsDb {
-    conn: Arc<Mutex<Connection>>,
+    conn: Arc<Mutex<Connection>>, // Write connection
+    read_conn: Arc<Mutex<Connection>>, // Read-only connection for stats queries
     geoip_db: Option<maxminddb::Reader<Vec<u8>>>,
     stats_cache: Cache<Option<i64>, AnalyticsStats>,
     city_coordinates: Arc<std::collections::HashMap<String, (f64, f64)>>, // Key: "country-city", Value: (lat, lng)
@@ -118,6 +119,16 @@ impl AnalyticsDb {
         
         // Set busy timeout to handle concurrent access gracefully
         conn.busy_timeout(std::time::Duration::from_secs(5))?;
+
+        // Create read-only connection for stats queries (allows concurrent reads)
+        let mut read_conn = Connection::open(db_path)
+            .with_context(|| format!("Failed to open read-only database: {:?}", db_path))?;
+        
+        // Configure read-only connection with same optimizations
+        read_conn.pragma_update(None, "journal_mode", "WAL")?;
+        read_conn.pragma_update(None, "synchronous", "NORMAL")?;
+        read_conn.pragma_update(None, "cache_size", "-65536")?;
+        read_conn.busy_timeout(std::time::Duration::from_secs(5))?;
 
         // Create tables
         conn.execute(
@@ -240,6 +251,7 @@ impl AnalyticsDb {
 
         Ok(Self {
             conn: Arc::new(Mutex::new(conn)),
+            read_conn: Arc::new(Mutex::new(read_conn)),
             geoip_db,
             stats_cache,
             city_coordinates: Arc::new(city_coordinates),
@@ -524,7 +536,8 @@ impl AnalyticsDb {
             return Ok(cached_stats);
         }
 
-        let conn = self.conn.lock().await;
+        // Use read-only connection for stats queries (allows concurrent reads)
+        let conn = self.read_conn.lock().await;
         let since = if let Some(d) = days {
             let cutoff = Utc::now() - chrono::Duration::days(d);
             Some(cutoff.to_rfc3339())
