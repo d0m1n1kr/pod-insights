@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, onMounted, computed, watch, nextTick, onUnmounted } from 'vue';
-import { computed as computedImport } from 'vue';
 import {
   select,
   scaleLinear,
@@ -22,7 +21,7 @@ import {
 import type { TopicRiverData, ProcessedTopicData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
-import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakersBaseUrl, withBase } from '@/composables/usePodcast';
 import { useLazyEpisodeDetails, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 
 const props = defineProps<{
@@ -56,12 +55,8 @@ const selectedYear = ref<number | null>(null);
 const hoveredYear = ref<number | null>(null);
 
 // Total count of available topics (before filtering)
-const totalTopicsAvailable = computed(() => {
-  return Object.keys(props.data.topics).length;
-});
 
 // Slider max must be >= min (min is 5)
-const topicFilterMax = computed(() => Math.max(5, totalTopicsAvailable.value));
 
 // Default slider value to "max" (but don't override persisted user choice)
 // Note: This is now handled by the parent component via props
@@ -1138,7 +1133,10 @@ watch(showTopicList, (newValue) => {
 });
 
 // Helper function to format duration
-const formatDuration = (duration: [number, number, number]) => {
+const formatDuration = (duration: string | [number, number, number] | undefined): string => {
+  if (!duration) return 'N/A';
+  if (typeof duration === 'string') return duration;
+  if (!Array.isArray(duration) || duration.length !== 3) return 'N/A';
   const [hours, minutes, seconds] = duration;
   if (hours > 0) {
     return `${hours}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;

@@ -21,7 +21,10 @@ const normalizedView = ref<boolean>(settings.normalizedView);
 const speakerFilter = ref<number>(settings.speakerFilter);
 
 // Helper functions for EpisodeTable
-const formatDuration = (duration: [number, number, number]): string => {
+const formatDuration = (duration: string | [number, number, number] | undefined): string => {
+  if (!duration) return 'N/A';
+  if (typeof duration === 'string') return duration;
+  if (!Array.isArray(duration) || duration.length !== 3) return 'N/A';
   const [h, m, s] = duration;
   if (h > 0) return `${h}h ${m}m ${s}s`;
   if (m > 0) return `${m}m ${s}s`;
@@ -37,7 +40,7 @@ const formatHmsFromSeconds = (seconds: number): string => {
   return `${s}s`;
 };
 
-const getTopicOccurrences = (episode: any): Array<{ positionSec: number; durationSec: number | null; topic: string | null }> => {
+const getTopicOccurrences = (_episode: any): Array<{ positionSec: number; durationSec: number | null; topic: string | null }> => {
   // Speaker river doesn't have topic occurrences, return empty array
   return [];
 };

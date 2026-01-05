@@ -1,12 +1,11 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch, nextTick } from 'vue';
-import { watch as watchReactive } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import SubjectRiver from '../components/SubjectRiver.vue';
 import SubjectRadar from '../components/SubjectRadar.vue';
 import EpisodeTable from '../components/EpisodeTable.vue';
 import type { SubjectRiverData } from '../types';
-import { getPodcastFileUrl, getEpisodeImageUrl, withBase, getSpeakersBaseUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, withBase, getSpeakersBaseUrl } from '@/composables/usePodcast';
 import { useSettingsStore } from '@/stores/settings';
 import { useLazyEpisodeDetails, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
@@ -207,7 +206,15 @@ const updateUrl = () => {
   
   // Build final query object, removing undefined values and merging with current query
   const currentQuery = route.query;
-  const mergedQuery: Record<string, string> = { ...currentQuery };
+  const mergedQuery: Record<string, string> = {};
+  
+  // Copy current query values (only strings)
+  Object.keys(currentQuery).forEach(key => {
+    const value = currentQuery[key];
+    if (typeof value === 'string') {
+      mergedQuery[key] = value;
+    }
+  });
   
   Object.entries(query).forEach(([key, value]) => {
     if (value !== undefined) {
@@ -298,9 +305,12 @@ const readFromUrl = () => {
     if (query.years && typeof query.years === 'string') {
       nextTick(() => {
         if (radarComponentRef.value && radarComponentRef.value.setSelectedYears) {
-          const years = query.years.split(',').map(y => parseInt(y.trim(), 10)).filter(y => Number.isFinite(y));
-          if (years.length > 0) {
-            radarComponentRef.value.setSelectedYears(years);
+          const yearsStr = query.years;
+          if (typeof yearsStr === 'string') {
+            const years = yearsStr.split(',').map((y: string) => parseInt(y.trim(), 10)).filter((y: number) => Number.isFinite(y));
+            if (years.length > 0) {
+              radarComponentRef.value.setSelectedYears(years);
+            }
           }
         }
       });
@@ -314,9 +324,11 @@ const readFromUrl = () => {
     // Set selected area from URL
     if (query.area && typeof query.area === 'string') {
       const [subject, yearStr] = query.area.split(':');
-      const year = parseInt(yearStr, 10);
-      if (subject && Number.isFinite(year) && subjectData.value?.subjects[subject]) {
-        radarSelectedArea.value = { subject, year };
+      if (subject && yearStr) {
+        const year = parseInt(yearStr, 10);
+        if (Number.isFinite(year) && subjectData.value?.subjects[subject]) {
+          radarSelectedArea.value = { subject, year };
+        }
       }
     }
   }
@@ -330,13 +342,15 @@ watch(activeChart, async (newChart) => {
     const query = route.query;
     if (query.area && typeof query.area === 'string' && newChart === 'river') {
       const [subject, yearStr] = query.area.split(':');
-      const year = parseInt(yearStr, 10);
-      if (subject && Number.isFinite(year) && subjectData.value?.subjects[subject]) {
-        await nextTick();
-        if (riverComponentRef.value) {
-          riverComponentRef.value.setSelectedSubject(subject);
-          if (Number.isFinite(year)) {
-            riverComponentRef.value.setSelectedYear(year);
+      if (subject && yearStr) {
+        const year = parseInt(yearStr, 10);
+        if (Number.isFinite(year) && subjectData.value?.subjects[subject]) {
+          await nextTick();
+          if (riverComponentRef.value) {
+            riverComponentRef.value.setSelectedSubject(subject);
+            if (Number.isFinite(year)) {
+              riverComponentRef.value.setSelectedYear(year);
+            }
           }
         }
       }
@@ -377,9 +391,11 @@ watch(activeChart, async (newChart) => {
     if (query.area && typeof query.area === 'string' && subjectData.value) {
       // Use area parameter if available (from previous radar selection)
       const [subject, yearStr] = query.area.split(':');
-      const year = parseInt(yearStr, 10);
-      if (subject && Number.isFinite(year) && subjectData.value.subjects[subject]) {
-        areaToRestore = { subject, year };
+      if (subject && yearStr) {
+        const year = parseInt(yearStr, 10);
+        if (Number.isFinite(year) && subjectData.value.subjects[subject]) {
+          areaToRestore = { subject, year };
+        }
       }
     } else if (query.subject && typeof query.subject === 'string' && query.year && typeof query.year === 'string' && subjectData.value) {
       // Convert river chart's subject/year to radar's area format
@@ -743,11 +759,13 @@ const playEpisodeAt = async (episodeNumber: number, positionSec: number, label: 
         </button>
         <button
           @click="() => { 
-            riverComponentRef.setShowEpisodeList(false);
-            riverComponentRef.setShowTopicList(true);
-            // Ensure topics are loaded - call directly if not already loading
-            if (riverComponentRef.selectedSubjectInfo) {
-              riverComponentRef.loadAllTopics();
+            if (riverComponentRef) {
+              riverComponentRef.setShowEpisodeList(false);
+              riverComponentRef.setShowTopicList(true);
+              // Ensure topics are loaded - call directly if not already loading
+              if (riverComponentRef.selectedSubjectInfo) {
+                riverComponentRef.loadAllTopics();
+              }
             }
           }"
           :class="[

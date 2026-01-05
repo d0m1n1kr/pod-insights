@@ -428,15 +428,6 @@ async function loadEpisodeDetails(episodeNumbers: number[]) {
   }
 }
 
-function formatDate(dateString: string | undefined): string {
-  if (!dateString) return '';
-  const date = new Date(dateString);
-  return date.toLocaleDateString('de-DE', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
-}
 
 function formatDuration(duration?: string | number | number[]): string {
   if (!duration) return 'N/A';
@@ -472,7 +463,7 @@ const formatHmsFromSeconds = (seconds: number): string => {
   return `${s}s`;
 };
 
-const getTopicOccurrences = (episode: any): Array<{ positionSec: number; durationSec: number | null; topic: string | null }> => {
+const getTopicOccurrences = (_episode: any): Array<{ positionSec: number; durationSec: number | null; topic: string | null }> => {
   // Cluster heatmap doesn't have topic occurrences, return empty array
   return [];
 };

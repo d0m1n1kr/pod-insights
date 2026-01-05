@@ -21,9 +21,8 @@ import {
 import type { SubjectRiverData, ProcessedSubjectData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
-import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getSpeakersBaseUrl, withBase } from '@/composables/usePodcast';
 import { useLazyEpisodeDetails, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
-import EpisodeTable from './EpisodeTable.vue';
 
 const props = defineProps<{
   data: SubjectRiverData;
@@ -56,7 +55,6 @@ const totalSubjectsAvailable = computed(() => {
 });
 
 // Slider max must be >= min (min is 5)
-const subjectFilterMax = computed(() => Math.max(5, totalSubjectsAvailable.value));
 
 // Default slider value to max (but don't override persisted user choice)
 // Note: This is now handled by the parent component via props
@@ -1077,8 +1075,8 @@ const allIndividualTopics = computed(() => {
         // Filter topics by the selected subject's coarse value
         const topicCoarseSubject = t.subject?.coarse;
         // Normalize the subject name (remove " / <subname>" if present)
-        const normalizedTopicSubject = typeof topicCoarseSubject === 'string' 
-          ? topicCoarseSubject.split(' / ')[0].trim() 
+        const normalizedTopicSubject = typeof topicCoarseSubject === 'string' && topicCoarseSubject.length > 0
+          ? topicCoarseSubject.split(' / ')[0]!.trim() 
           : topicCoarseSubject;
         
         // Only include topics that match the selected subject

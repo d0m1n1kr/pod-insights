@@ -290,10 +290,6 @@ function clearSelection() {
   showEpisodeList.value = false;
 }
 
-function formatDate(dateStr?: string) {
-  if (!dateStr) return '';
-  return new Date(dateStr).toLocaleDateString('de-DE');
-}
 
 function formatDuration(duration?: string | number | number[]): string {
   if (!duration) return '';
@@ -329,7 +325,7 @@ const formatHmsFromSeconds = (seconds: number): string => {
   return `${s}s`;
 };
 
-const getTopicOccurrences = (episode: any): Array<{ positionSec: number; durationSec: number | null; topic: string | null }> => {
+const getTopicOccurrences = (_episode: any): Array<{ positionSec: number; durationSec: number | null; topic: string | null }> => {
   // Cluster-Cluster heatmap doesn't have topic occurrences, return empty array
   return [];
 };

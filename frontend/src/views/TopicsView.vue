@@ -8,7 +8,6 @@ import NoVariantsMessage from '../components/NoVariantsMessage.vue';
 import type { TopicRiverData } from '../types';
 import { loadVariantData } from '@/composables/useVariants';
 import { useSettingsStore } from '@/stores/settings';
-import { getEpisodeImageUrl } from '@/composables/usePodcast';
 
 const route = useRoute();
 const router = useRouter();
@@ -64,7 +63,15 @@ const updateUrl = () => {
   
   // Build final query object, removing undefined values and merging with current query
   const currentQuery = route.query;
-  const mergedQuery: Record<string, string> = { ...currentQuery };
+  const mergedQuery: Record<string, string> = {};
+  
+  // Copy current query values (only strings)
+  Object.keys(currentQuery).forEach(key => {
+    const value = currentQuery[key];
+    if (typeof value === 'string') {
+      mergedQuery[key] = value;
+    }
+  });
   
   Object.entries(query).forEach(([key, value]) => {
     if (value !== undefined) {
@@ -272,10 +279,12 @@ watch(() => topicRiverRef.value?.selectedYear, () => {
         </button>
         <button
           @click="() => { 
-            topicRiverRef.setShowEpisodeList(false);
-            topicRiverRef.setShowTopicList(true);
-            if (topicRiverRef.selectedTopicInfo) {
-              topicRiverRef.loadAllTopics();
+            if (topicRiverRef) {
+              topicRiverRef.setShowEpisodeList(false);
+              topicRiverRef.setShowTopicList(true);
+              if (topicRiverRef.selectedTopicInfo) {
+                topicRiverRef.loadAllTopics();
+              }
             }
           }"
           :class="[

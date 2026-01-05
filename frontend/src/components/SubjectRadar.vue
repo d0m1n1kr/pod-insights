@@ -9,8 +9,8 @@ import {
 import type { SubjectRiverData } from '../types';
 import { useSettingsStore } from '../stores/settings';
 import { useAudioPlayerStore } from '../stores/audioPlayer';
-import { getPodcastFileUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
-import { useLazyEpisodeDetails, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
+import { withBase } from '@/composables/usePodcast';
+import { useLazyEpisodeDetails } from '@/composables/useEpisodeDetails';
 
 const props = defineProps<{
   data: SubjectRiverData;
@@ -21,7 +21,6 @@ const emit = defineEmits<{
   (e: 'selected-area', area: { year: number; subject: string } | null): void;
 }>();
 
-const themeColor = props.color || 'purple';
 
 const route = useRoute();
 const settingsStore = useSettingsStore();
@@ -29,11 +28,11 @@ const audioPlayerStore = useAudioPlayerStore();
 
 const svgRef = ref<SVGSVGElement | null>(null);
 const containerRef = ref<HTMLDivElement | null>(null);
+const tooltipRef = ref<HTMLDivElement | null>(null);
 const dimensions = ref({ width: 800, height: 800 });
 const selectedYears = ref<Set<number>>(new Set());
-const hoveredArea = ref<{ year: number; subject: string } | null>(null);
+const hoveredArea = ref<{ year: number; subject: string; percentage: number } | null>(null);
 const selectedArea = ref<{ year: number; subject: string } | null>(null);
-const tooltipRef = ref<HTMLDivElement | null>(null);
 
 // Year search query
 const yearSearchQuery = ref('');
@@ -86,7 +85,9 @@ checkUrlForYears();
 watch(availableYears, (years) => {
   if (years.length > 0 && selectedYears.value.size === 0 && !yearsInitializedExternally.value) {
     const yearToSelect = years.includes(currentYear) ? currentYear : years[0]; // years[0] is now the newest
-    selectedYears.value.add(yearToSelect);
+    if (yearToSelect !== undefined) {
+      selectedYears.value.add(yearToSelect);
+    }
   }
 }, { immediate: true });
 
@@ -117,27 +118,63 @@ const yearColors = computed(() => {
   ];
   const yearColorMap = new Map<number, string>();
   availableYears.value.forEach((year, idx) => {
-    yearColorMap.set(year, colors[idx % colors.length]);
+    const color = colors[idx % colors.length];
+    if (color) {
+      yearColorMap.set(year, color);
+    }
   });
   return yearColorMap;
 });
 
-// Prepare data for radar chart
+// Calculate total episodes per year (unique episode numbers across all subjects)
+const totalEpisodesPerYear = computed(() => {
+  const yearMap = new Map<number, Set<number>>();
+  
+  // Collect all unique episode numbers per year from all subjects
+  Object.values(props.data.subjects).forEach(subject => {
+    subject.yearData.forEach(yearData => {
+      if (!yearMap.has(yearData.year)) {
+        yearMap.set(yearData.year, new Set<number>());
+      }
+      const episodeSet = yearMap.get(yearData.year);
+      if (episodeSet) {
+        yearData.episodes.forEach(ep => {
+          episodeSet.add(ep.number);
+        });
+      }
+    });
+  });
+  
+  // Convert Sets to counts
+  const result = new Map<number, number>();
+  yearMap.forEach((episodeSet, year) => {
+    result.set(year, episodeSet.size);
+  });
+  
+  return result;
+});
+
+// Prepare data for radar chart (values as percentages of total episodes per year)
 const radarData = computed(() => {
   const subjects = allSubjects.value;
   const years = Array.from(selectedYears.value).sort();
   
   return years.map(year => {
+    const totalEpisodesInYear = totalEpisodesPerYear.value.get(year) || 1; // Avoid division by zero
+    
     const values = subjects.map(subjectId => {
       const subject = props.data.subjects[subjectId];
       const yearData = subject?.yearData.find(yd => yd.year === year);
-      return yearData?.count || 0;
+      const count = yearData?.count || 0;
+      // Convert to percentage: (count / totalEpisodesInYear) * 100
+      return totalEpisodesInYear > 0 ? (count / totalEpisodesInYear) * 100 : 0;
     });
     
     return {
       year,
       values,
-      color: yearColors.value.get(year) || '#888'
+      color: yearColors.value.get(year) || '#888',
+      totalEpisodesInYear
     };
   });
 });
@@ -166,7 +203,7 @@ const loadEpisodeDetails = () => {
   loadingEpisodes.value = true;
   
   episodesToLoad.forEach(episodeNumber => {
-    setupLazyLoad(episodeNumber, (detail) => {
+    setupLazyLoad(null, episodeNumber, (detail: any) => {
       episodeDetails.value.set(episodeNumber, detail);
     });
   });
@@ -242,20 +279,11 @@ const playEpisodeAt = (episodeNumber: number, seconds: number, title: string) =>
     subtitle: title,
     seekToSec: Math.max(0, Math.floor(seconds)),
     autoplay: true,
-    playToken: `episode-${episodeNumber}-${Date.now()}`
   });
 };
 
-// Get max value for scaling
-const maxValue = computed(() => {
-  let max = 0;
-  radarData.value.forEach(yearData => {
-    yearData.values.forEach(v => {
-      if (v > max) max = v;
-    });
-  });
-  return Math.max(max, 1);
-});
+// Max value is always 100% (since we're now using percentages)
+const maxValue = computed(() => 100);
 
 // Draw radar chart
 const drawRadar = () => {
@@ -346,16 +374,18 @@ const drawRadar = () => {
   });
   
   // Draw year areas
-  radarData.value.forEach((yearData, yearIdx) => {
+  radarData.value.forEach((yearData) => {
     const points: Array<[number, number]> = [];
     
-    subjects.forEach((subjectId, i) => {
+    subjects.forEach((_subjectId, i) => {
       const angle = (i * angleSlice) - (Math.PI / 2);
       const value = yearData.values[i];
-      const r = rScale(value);
-      const x = Math.cos(angle) * r;
-      const y = Math.sin(angle) * r;
-      points.push([x, y]);
+      if (value !== undefined) {
+        const r = rScale(value);
+        const x = Math.cos(angle) * r;
+        const y = Math.sin(angle) * r;
+        points.push([x, y]);
+      }
     });
     
     // Build SVG path string
@@ -379,12 +409,61 @@ const drawRadar = () => {
       .attr('class', 'radar-area')
       .attr('data-year', yearData.year)
       .style('cursor', 'pointer')
-      .on('mouseover', function(event) {
+      .on('mouseover', function(event: MouseEvent) {
         select(this).attr('fill-opacity', 0.5);
+        
+        // Calculate which subject is being hovered
+        const [mx, my] = pointer(event, svgRef.value);
+        const centerX = width / 2;
+        const centerY = height / 2;
+        const dx = mx - centerX;
+        const dy = my - centerY;
+        const angle = Math.atan2(dy, dx) + (Math.PI / 2);
+        const normalizedAngle = angle < 0 ? angle + (Math.PI * 2) : angle;
+        const subjectIdx = Math.round(normalizedAngle / angleSlice) % subjects.length;
+        const subjectId = subjects[subjectIdx];
+        
+        if (subjectId !== undefined) {
+          const value = yearData.values[subjectIdx];
+          // Value is already a percentage (0-100)
+          const percentage = value !== undefined ? value : 0;
+          
+          hoveredArea.value = {
+            year: yearData.year,
+            subject: subjectId,
+            percentage: percentage
+          };
+          
+          // Show tooltip - use nextTick to ensure DOM is updated
+          nextTick(() => {
+            if (tooltipRef.value) {
+              const mouseX = event.clientX || (event as any).pageX || 0;
+              const mouseY = event.clientY || (event as any).pageY || 0;
+              tooltipRef.value.style.display = 'block';
+              tooltipRef.value.style.position = 'fixed';
+              tooltipRef.value.style.left = `${mouseX + 15}px`;
+              tooltipRef.value.style.top = `${mouseY - 10}px`;
+              tooltipRef.value.style.zIndex = '1000';
+            }
+          });
+        }
+      })
+      .on('mousemove', function(event: MouseEvent) {
+        // Update tooltip position
+        if (tooltipRef.value && hoveredArea.value) {
+          const mouseX = event.clientX || (event as any).pageX || 0;
+          const mouseY = event.clientY || (event as any).pageY || 0;
+          tooltipRef.value.style.left = `${mouseX + 15}px`;
+          tooltipRef.value.style.top = `${mouseY - 10}px`;
+        }
       })
       .on('mouseout', function() {
         if (!selectedArea.value || selectedArea.value.year !== yearData.year) {
           select(this).attr('fill-opacity', 0.3);
+        }
+        hoveredArea.value = null;
+        if (tooltipRef.value) {
+          tooltipRef.value.style.display = 'none';
         }
       })
       .on('click', function(event) {
@@ -398,8 +477,10 @@ const drawRadar = () => {
         const subjectIdx = Math.round(normalizedAngle / angleSlice) % subjects.length;
         const subjectId = subjects[subjectIdx];
         
-        selectedArea.value = { year: yearData.year, subject: subjectId };
-        emit('selected-area', selectedArea.value);
+        if (subjectId !== undefined) {
+          selectedArea.value = { year: yearData.year, subject: subjectId };
+          emit('selected-area', selectedArea.value);
+        }
         select(svgRef.value).selectAll('.radar-area').attr('fill-opacity', 0.3);
         select(this).attr('fill-opacity', 0.7);
       });
@@ -410,12 +491,12 @@ const drawRadar = () => {
     }
   });
   
-  // Draw grid labels (value labels on axes)
+  // Draw grid labels (value labels on axes as percentages)
   for (let i = 1; i <= gridLevels; i++) {
     const level = i / gridLevels;
-    const labelValue = Math.round(maxValue.value * level);
+    const percentage = Math.round(level * 100);
     
-    subjects.forEach((subjectId, j) => {
+    subjects.forEach((_subjectId, j) => {
       const angle = (j * angleSlice) - (Math.PI / 2);
       const x = Math.cos(angle) * (radius * level);
       const y = Math.sin(angle) * (radius * level);
@@ -428,7 +509,7 @@ const drawRadar = () => {
         .attr('font-size', '10px')
         .attr('fill', '#6b7280')
         .attr('class', 'dark:fill-gray-500')
-        .text(labelValue.toString());
+        .text(`${percentage}%`);
     });
   }
 };
@@ -635,12 +716,20 @@ const toggleYear = (year: number) => {
     <!-- Tooltip -->
     <div
       ref="tooltipRef"
-      v-if="hoveredArea"
-      class="tooltip fixed bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-2 text-xs z-50 pointer-events-none"
+      class="tooltip fixed bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-3 text-xs z-50 pointer-events-none"
       style="display: none;"
     >
-      <div class="font-semibold">{{ hoveredArea.year }}</div>
-      <div>{{ props.data.subjects[hoveredArea.subject]?.name }}</div>
+      <template v-if="hoveredArea">
+        <div class="font-semibold text-purple-900 dark:text-purple-100 mb-1">
+          {{ hoveredArea.year }}
+        </div>
+        <div class="text-gray-900 dark:text-gray-100 mb-1">
+          {{ props.data.subjects[hoveredArea.subject]?.name }}
+        </div>
+        <div class="text-gray-600 dark:text-gray-400">
+          {{ hoveredArea.percentage.toFixed(1) }}%
+        </div>
+      </template>
     </div>
   </div>
 </template>
