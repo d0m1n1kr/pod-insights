@@ -658,7 +658,7 @@ onBeforeUnmount(() => {
 watch(
   () => settings.selectedPodcast,
   async (newPodcast, oldPodcast) => {
-    if (newPodcast && newPodcast !== oldPodcast) {
+    if (newPodcast && newPodcast !== oldPodcast && route.name === 'episodeSearch') {
       // Clear search query and results
       searchQuery.value = '';
       searchResults.value = [];
@@ -674,6 +674,20 @@ watch(
       episodeSubjectsData.value = null;
       transcriptData.value = null;
       currentSpeaker.value = null;
+
+      // Update URL: remove episode parameter and update podcast parameter
+      const queryParams: Record<string, string> = { ...route.query as Record<string, string> };
+      if (queryParams.episode) {
+        delete queryParams.episode;
+      }
+      // Always update podcast parameter to match the new selection
+      queryParams.podcast = newPodcast;
+      
+      // Use nextTick to ensure the update happens after the store change is processed
+      await router.replace({ 
+        name: 'episodeSearch', 
+        query: queryParams 
+      });
 
       // Load latest episodes for the new podcast
       await loadLatestEpisodes(false);

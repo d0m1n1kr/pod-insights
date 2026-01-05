@@ -5,14 +5,15 @@
 # Steps:
 #   1: Data Collection (scraping + speaker stats)
 #   2: Topic Extraction & Analysis
-#   3: Clustering
-#   4: Generate Visualizations
-#   5: Optional Processing
-#   6: Organize Frontend Files
+#   3: Subject Analysis
+#   4: Clustering
+#   5: Generate Visualizations
+#   6: Optional Processing
+#   7: Organize Frontend Files
 #
 # Example:
 #   ./scripts/process-podcast.sh freakshow
-#   ./scripts/process-podcast.sh freakshow --from-step 3  # Start from clustering
+#   ./scripts/process-podcast.sh freakshow --from-step 3  # Start from subject analysis
 
 # Safety: if this script is invoked via zsh/sh (or sourced), re-exec under bash.
 # This prevents parse errors like "syntax error near unexpected token `('" in zsh.
@@ -51,15 +52,16 @@ for arg in "$@"; do
             echo "Options:"
             echo "  --skip-scraping    Skip data collection phase"
             echo "  --skip-rag         Skip RAG database creation"
-            echo "  --from-step <n>    Start from step n (1-6)"
+            echo "  --from-step <n>    Start from step n (1-7)"
             echo ""
     echo "Steps:"
     echo "  1: Data Collection (scraping + speaker stats)"
     echo "  2: Topic Extraction & Analysis"
-    echo "  3: Clustering"
-    echo "  4: Generate Visualizations"
-    echo "  5: Optional Processing"
-    echo "  6: Organize Frontend Files"
+    echo "  3: Subject Analysis"
+    echo "  4: Clustering"
+    echo "  5: Generate Visualizations"
+    echo "  6: Optional Processing"
+    echo "  7: Organize Frontend Files"
             exit 0
             ;;
         *)
@@ -74,8 +76,8 @@ for arg in "$@"; do
 done
 
 # Validate FROM_STEP
-if [ "$FROM_STEP" -lt 0 ] || [ "$FROM_STEP" -gt 6 ]; then
-    echo -e "${RED}❌ Invalid --from-step value: $FROM_STEP (must be 0-6)${NC}"
+if [ "$FROM_STEP" -lt 0 ] || [ "$FROM_STEP" -gt 7 ]; then
+    echo -e "${RED}❌ Invalid --from-step value: $FROM_STEP (must be 0-7)${NC}"
     exit 1
 fi
 
@@ -171,9 +173,25 @@ else
     echo -e "${YELLOW}⏭${NC}  Skipping Phase 2 (starting from step $FROM_STEP)\n"
 fi
 
-# Phase 3: Clustering
+# Phase 3: Subject Analysis
 if should_run_step 3; then
-    echo -e "${BLUE}🎯 Phase 3: Clustering (V2 auto-v2.1)${NC}\n"
+    echo -e "${BLUE}📚 Phase 3: Subject Analysis${NC}\n"
+
+    echo -e "${YELLOW}→${NC} Generating coarse subjects..."
+    run_script "scripts/generate-coarse-subjects.js"
+
+    echo -e "${YELLOW}→${NC} Generating episode subjects data..."
+    run_script "scripts/generate-episode-subjects.js" --all
+
+    echo -e "${YELLOW}→${NC} Generating subject river data..."
+    run_script "scripts/generate-subject-river.js"
+else
+    echo -e "${YELLOW}⏭${NC}  Skipping Phase 3 (starting from step $FROM_STEP)\n"
+fi
+
+# Phase 4: Clustering
+if should_run_step 4; then
+    echo -e "${BLUE}🎯 Phase 4: Clustering (V2 auto-v2.1)${NC}\n"
 
     echo -e "${YELLOW}→${NC} Building clustering variant: auto-v2.1..."
     if ./scripts/build-variant.sh v2 auto-v2.1 --podcast "$PODCAST_ID"; then
@@ -183,11 +201,11 @@ if should_run_step 3; then
         exit 1
     fi
 else
-    echo -e "${YELLOW}⏭${NC}  Skipping Phase 3 (starting from step $FROM_STEP)\n"
+    echo -e "${YELLOW}⏭${NC}  Skipping Phase 4 (starting from step $FROM_STEP)\n"
 fi
 
-# Phase 4: Generate Visualizations
-if should_run_step 4; then
+# Phase 5: Generate Visualizations
+if should_run_step 5; then
     echo -e "${BLUE}📊 Phase 4: Generate Visualizations${NC}\n"
 
     echo -e "${YELLOW}→${NC} Generating speaker river data..."
@@ -232,8 +250,8 @@ else
     echo -e "${YELLOW}⏭${NC}  Skipping Phase 4 (starting from step $FROM_STEP)\n"
 fi
 
-# Phase 5: Optional Processing
-if should_run_step 5; then
+# Phase 6: Optional Processing
+if should_run_step 6; then
     echo -e "${BLUE}⚙️  Phase 5: Optional Processing${NC}\n"
 
     echo -e "${YELLOW}→${NC} Generating episodes MP3 index..."
@@ -253,9 +271,9 @@ else
     echo -e "${YELLOW}⏭${NC}  Skipping Phase 5 (starting from step $FROM_STEP)\n"
 fi
 
-# Phase 6: Copy/Move Files to Frontend
-if should_run_step 6; then
-    echo -e "${BLUE}📦 Phase 6: Organize Frontend Files${NC}\n"
+# Phase 7: Copy/Move Files to Frontend
+if should_run_step 7; then
+    echo -e "${BLUE}📦 Phase 7: Organize Frontend Files${NC}\n"
 
     FRONTEND_PODCAST_DIR="frontend/public/podcasts/$PODCAST_ID"
     mkdir -p "$FRONTEND_PODCAST_DIR"
@@ -270,6 +288,7 @@ if should_run_step 6; then
     [ -f "year-duration-heatmap.json" ] && cp "year-duration-heatmap.json" "$FRONTEND_PODCAST_DIR/" && echo "  ✓ year-duration-heatmap.json"
     [ -f "dayofweek-duration-heatmap.json" ] && cp "dayofweek-duration-heatmap.json" "$FRONTEND_PODCAST_DIR/" && echo "  ✓ dayofweek-duration-heatmap.json"
     [ -f "speaker-duration-heatmap.json" ] && cp "speaker-duration-heatmap.json" "$FRONTEND_PODCAST_DIR/" && echo "  ✓ speaker-duration-heatmap.json"
+    [ -f "subject-river-data.json" ] && cp "subject-river-data.json" "$FRONTEND_PODCAST_DIR/" && echo "  ✓ subject-river-data.json"
     [ -f "episodes.json" ] && cp "episodes.json" "$FRONTEND_PODCAST_DIR/" && echo "  ✓ episodes.json"
 
     # Copy topic files from variant directory (already created by build-variant.sh)
@@ -302,7 +321,7 @@ if should_run_step 6; then
         fi
     fi
 else
-    echo -e "${YELLOW}⏭${NC}  Skipping Phase 6 (starting from step $FROM_STEP)\n"
+    echo -e "${YELLOW}⏭${NC}  Skipping Phase 7 (starting from step $FROM_STEP)\n"
 fi
 
 # Summary
