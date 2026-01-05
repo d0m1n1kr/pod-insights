@@ -16,6 +16,7 @@ import {
 import { getPodcastFileUrl, withBase } from '@/composables/usePodcast';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
 import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
+import { useI18n } from 'vue-i18n';
 
 type SpeakerStats = {
   v: number;
@@ -54,10 +55,35 @@ type EpisodeChapters = {
   }>;
 };
 
+type EpisodeSubjects = {
+  episodeNumber: number;
+  title: string | null;
+  generatedAt: string;
+  dataSource: string;
+  radarChart: {
+    values: Record<string, number>;
+    durations: Record<string, number>;
+    topicCounts: Record<string, number>;
+    totalDurationSec: number;
+    totalTopics: number;
+  };
+  timeline: Array<{
+    subject: string;
+    startSec: number | null;
+    endSec: number | null;
+    durationSec: number | null;
+    topic: string;
+    fineSubject: string | null;
+    topicIndex: number;
+    untimed?: boolean;
+  }>;
+};
+
 const props = defineProps<{
   data: SpeakerStats;
   episodeTopics?: EpisodeTopics | null;
   episodeNumber?: number;
+  episodeSubjects?: EpisodeSubjects | null;
 }>();
 
 const emit = defineEmits<{
@@ -66,8 +92,14 @@ const emit = defineEmits<{
 
 // const settingsStore = useSettingsStore(); // Unused for now
 const audioPlayerStore = useAudioPlayerStore();
+const { t } = useI18n();
 const chartRef = ref<HTMLElement | null>(null);
+const legendRef = ref<HTMLDivElement | null>(null);
 const tooltipRef = ref<HTMLDivElement | null>(null);
+
+// Mark legendRef as used (it's used in template)
+void legendRef;
+const chartHeight = ref<number>(400);
 let svg: Selection<SVGSVGElement, unknown, null, undefined> | null = null;
 let resizeObserver: ResizeObserver | null = null;
 let positionMarker: Selection<SVGLineElement, unknown, null, undefined> | null = null;
@@ -302,6 +334,30 @@ const getTopicsForInterval = (startSec: number, endSec: number): string[] => {
   return matchingTopics;
 };
 
+// Get unique subjects from timeline
+const uniqueSubjects = computed(() => {
+  if (!props.episodeSubjects?.timeline) return [];
+  const subjects = new Set<string>();
+  props.episodeSubjects.timeline.forEach(item => {
+    if (item.subject && item.startSec !== null && item.endSec !== null) {
+      subjects.add(item.subject);
+    }
+  });
+  return Array.from(subjects).sort();
+});
+
+// Get subject color mapping
+const subjectColorMap = computed(() => {
+  const map = new Map<string, string>();
+  uniqueSubjects.value.forEach((subject, index) => {
+    const color = subjectColors[index % subjectColors.length];
+    if (color) {
+      map.set(subject, color);
+    }
+  });
+  return map;
+});
+
 const colors = [
   '#3b82f6', // blue
   '#10b981', // green
@@ -311,6 +367,26 @@ const colors = [
   '#ec4899', // pink
   '#06b6d4', // cyan
   '#84cc16', // lime
+];
+
+// Subject colors - distinct palette for subjects
+const subjectColors = [
+  '#3b82f6', // blue
+  '#10b981', // green
+  '#f59e0b', // orange
+  '#ef4444', // red
+  '#8b5cf6', // purple
+  '#ec4899', // pink
+  '#06b6d4', // cyan
+  '#84cc16', // lime
+  '#f97316', // orange-500
+  '#14b8a6', // teal-500
+  '#a855f7', // purple-500
+  '#eab308', // yellow-500
+  '#22c55e', // green-500
+  '#06b6d4', // cyan-500
+  '#f43f5e', // rose-500
+  '#8b5cf6', // violet-500
 ];
 
 const drawChart = () => {
@@ -337,16 +413,135 @@ const drawChart = () => {
     (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
 
   const container = chartRef.value;
-  const width = container.clientWidth;
+  // Get the actual available width from the container
+  const containerWidth = container.clientWidth || 800;
+  // Use container width directly - it's already constrained by CSS
+  const width = containerWidth;
   const height = Math.max(400, Math.min(600, width * 0.6));
-  const margin = { top: 20, right: 20, bottom: 60, left: 60 };
-  const innerWidth = width - margin.left - margin.right;
+  chartHeight.value = height; // Store chart height for legend
+  const progressBarHeight = props.episodeSubjects?.timeline ? 20 : 0;
+  const progressBarGap = props.episodeSubjects?.timeline ? 10 : 0; // Gap between progress bar and chart
+  const margin = { top: 20 + progressBarHeight + progressBarGap, right: 20, bottom: 60, left: 60 };
+  const innerWidth = Math.max(0, width - margin.left - margin.right);
   const innerHeight = height - margin.top - margin.bottom;
 
   svg = select(container)
     .append('svg')
-    .attr('width', width)
-    .attr('height', height);
+    .attr('viewBox', `0 0 ${width} ${height}`)
+    .attr('preserveAspectRatio', 'xMidYMid meet')
+    .style('width', '100%')
+    .style('max-width', '100%')
+    .style('height', 'auto');
+
+  // Draw progress bar if subjects data is available
+  if (props.episodeSubjects?.timeline && props.episodeSubjects.timeline.length > 0) {
+    const progressBarG = svg
+      .append('g')
+      .attr('transform', `translate(${margin.left},${20})`);
+    
+    const progressBarScale = scaleLinear()
+      .domain([0, props.data.episodeDurationSec])
+      .range([0, innerWidth]);
+    
+    // Helper function to format time
+    function formatTime(sec: number): string {
+      const h = Math.floor(sec / 3600);
+      const m = Math.floor((sec % 3600) / 60);
+      const s = Math.floor(sec % 60);
+      if (h > 0) return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+      return `${m}:${String(s).padStart(2, '0')}`;
+    }
+    
+    // Add label for progress bar
+    const labelColor = isDarkMode ? '#d1d5db' : '#4b5563';
+    progressBarG
+      .append('text')
+      .attr('x', 0)
+      .attr('y', -5)
+      .attr('font-size', '12px')
+      .attr('font-weight', '500')
+      .attr('fill', labelColor)
+      .text(t('episodes.chart.subjectsLabel'));
+    
+    // Draw progress bar segments with tooltips and click handler
+    props.episodeSubjects.timeline.forEach(item => {
+      if (item.startSec !== null && item.endSec !== null && item.subject) {
+        const startX = progressBarScale(item.startSec);
+        const endX = progressBarScale(item.endSec);
+        const width = Math.max(1, endX - startX);
+        const color = subjectColorMap.value.get(item.subject) || '#9ca3af';
+        
+        const rect = progressBarG
+          .append('rect')
+          .attr('x', startX)
+          .attr('y', 0)
+          .attr('width', width)
+          .attr('height', progressBarHeight)
+          .attr('fill', color)
+          .attr('stroke', isDarkMode ? '#374151' : '#e5e7eb')
+          .attr('stroke-width', 0.5)
+          .style('cursor', 'pointer');
+        
+        // Add click handler to start playing from this time
+        rect
+          .on('click', function() {
+            if (item.startSec !== null && props.episodeNumber) {
+              emit('play-at-time', item.startSec);
+            }
+          });
+        
+        // Add tooltip on hover
+        rect
+          .on('mousemove', function(event: MouseEvent) {
+            if (!tooltipRef.value) return;
+            
+            const mouseX = event.clientX || (event as any).pageX || 0;
+            const mouseY = event.clientY || (event as any).pageY || 0;
+            
+            // Build tooltip content
+            const subject = item.subject || '';
+            const fineSubject = item.fineSubject || '';
+            const topic = item.topic || '';
+            
+            const borderColor = isDarkMode ? '#374151' : '#e5e7eb';
+            const labelColor = isDarkMode ? '#9ca3af' : '#4b5563';
+            
+            let tooltipContent = `<div style="font-weight: 600; font-size: 14px; color: ${isDarkMode ? '#f3f4f6' : '#111827'}; margin-bottom: 8px;">${subject}</div>`;
+            
+            if (fineSubject) {
+              tooltipContent += `<div style="font-size: 12px; color: ${isDarkMode ? '#9ca3af' : '#4b5563'}; margin-bottom: 4px;"><strong>Fine Subject:</strong> ${fineSubject}</div>`;
+            }
+            
+            if (topic) {
+              tooltipContent += `<div style="font-size: 12px; color: ${isDarkMode ? '#9ca3af' : '#4b5563'}; margin-bottom: 4px;"><strong>Topic:</strong> ${topic}</div>`;
+            }
+            
+            tooltipContent += `<div style="font-size: 11px; color: ${labelColor}; margin-top: 8px; padding-top: 8px; border-top: 1px solid ${borderColor};">
+              <strong>Time:</strong> ${item.startSec !== null ? formatTime(item.startSec) : 'N/A'} - ${item.endSec !== null ? formatTime(item.endSec) : 'N/A'}
+            </div>`;
+            
+            if (props.episodeNumber) {
+              tooltipContent += `<div style="font-size: 11px; color: ${labelColor}; font-style: italic; margin-top: 4px;">${t('episodes.chart.clickToPlay')}</div>`;
+            }
+            
+            tooltipRef.value.style.display = 'block';
+            tooltipRef.value.style.position = 'fixed';
+            tooltipRef.value.style.left = `${mouseX + 15}px`;
+            tooltipRef.value.style.top = `${mouseY - 10}px`;
+            tooltipRef.value.style.zIndex = '1000';
+            tooltipRef.value.style.backgroundColor = isDarkMode ? '#1f2937' : 'white';
+            tooltipRef.value.style.color = isDarkMode ? '#f3f4f6' : '#111827';
+            tooltipRef.value.style.borderColor = isDarkMode ? '#374151' : '#e5e7eb';
+            tooltipRef.value.innerHTML = tooltipContent;
+          })
+          .on('mouseout', function() {
+            if (tooltipRef.value) {
+              tooltipRef.value.style.display = 'none';
+            }
+          });
+      }
+    });
+  }
 
   const g = svg
     .append('g')
@@ -1144,6 +1339,13 @@ onMounted(() => {
       drawChart();
     }
   }, { deep: true });
+  
+  // Watch for episode subjects changes
+  watch(() => props.episodeSubjects, () => {
+    if (tooltipRef.value) {
+      drawChart();
+    }
+  }, { deep: true });
 
   // Watch for theme changes (dark mode toggle)
   if (window.matchMedia) {
@@ -1194,50 +1396,83 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="relative w-full">
-    <div class="flex flex-col lg:flex-row gap-4">
+  <div class="relative w-full max-w-full overflow-x-hidden">
+    <div class="flex flex-col lg:flex-row gap-4 min-w-0 max-w-full">
       <!-- Chart -->
-      <div ref="chartRef" class="flex-1 w-full overflow-x-auto -mx-2 sm:mx-0"></div>
+      <div ref="chartRef" class="flex-1 min-w-0 max-w-full overflow-x-auto"></div>
       
       <!-- HTML Legend (Desktop only) -->
       <div class="hidden lg:block w-64 flex-shrink-0">
-        <div class="sticky top-4 max-h-[600px] overflow-y-auto border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 p-4 mt-5">
-          <h3 class="text-sm font-semibold mb-3 text-gray-900 dark:text-white">Sprecher</h3>
-          <div class="space-y-2">
-            <div 
-              v-for="speaker in props.data.speakers" 
-              :key="speaker"
-              class="flex items-center gap-2 p-2 rounded transition-all"
-              :class="{
-                'bg-gray-100 dark:bg-gray-700': isCurrentEpisode && currentSpeaker === speaker
-              }"
-            >
-              <!-- Speaker Image -->
-              <img
-                v-if="getSpeakerImage(speaker)"
-                :src="getSpeakerImage(speaker)"
-                :alt="speaker"
-                @error="($event.target as HTMLImageElement).style.display = 'none'"
-                class="w-8 h-8 rounded-full flex-shrink-0 border border-gray-300 dark:border-gray-600 object-cover"
-              />
-              <div class="flex-1 min-w-0 flex items-center gap-2">
-                <div 
-                  class="text-xs leading-tight text-gray-900 dark:text-white"
-                  :class="{
-                    'font-bold text-blue-600 dark:text-blue-400': isCurrentEpisode && currentSpeaker === speaker,
-                    'font-normal': !(isCurrentEpisode && currentSpeaker === speaker)
-                  }"
-                >
-                  {{ speaker }}
+        <div 
+          ref="legendRef"
+          class="sticky top-4 border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 p-4 mt-5 flex flex-col"
+          :style="{ height: `${chartHeight}px` }"
+        >
+          <!-- Speaker Legend -->
+          <div :class="props.episodeSubjects?.timeline && uniqueSubjects.length > 0 ? 'flex-1 min-h-0 flex flex-col' : 'flex-1 min-h-0 flex flex-col'">
+            <h3 class="text-sm font-semibold mb-3 text-gray-900 dark:text-white flex-shrink-0">Sprecher</h3>
+            <div class="space-y-2 overflow-y-auto flex-1 min-h-0">
+              <div 
+                v-for="speaker in props.data.speakers" 
+                :key="speaker"
+                class="flex items-center gap-2 p-2 rounded transition-all"
+                :class="{
+                  'bg-gray-100 dark:bg-gray-700': isCurrentEpisode && currentSpeaker === speaker
+                }"
+              >
+                <!-- Speaker Image -->
+                <img
+                  v-if="getSpeakerImage(speaker)"
+                  :src="getSpeakerImage(speaker)"
+                  :alt="speaker"
+                  @error="($event.target as HTMLImageElement).style.display = 'none'"
+                  class="w-8 h-8 rounded-full flex-shrink-0 border border-gray-300 dark:border-gray-600 object-cover"
+                />
+                <div class="flex-1 min-w-0 flex items-center gap-2">
+                  <div 
+                    class="text-xs leading-tight text-gray-900 dark:text-white"
+                    :class="{
+                      'font-bold text-blue-600 dark:text-blue-400': isCurrentEpisode && currentSpeaker === speaker,
+                      'font-normal': !(isCurrentEpisode && currentSpeaker === speaker)
+                    }"
+                  >
+                    {{ speaker }}
+                  </div>
+                  <!-- Color marker -->
+                  <div 
+                    class="w-4 h-4 rounded flex-shrink-0" 
+                    :style="{ 
+                      backgroundColor: colors[props.data.speakers.indexOf(speaker) % colors.length],
+                      opacity: 0.7
+                    }"
+                  ></div>
                 </div>
-                <!-- Color marker -->
-                <div 
-                  class="w-4 h-4 rounded flex-shrink-0" 
-                  :style="{ 
-                    backgroundColor: colors[props.data.speakers.indexOf(speaker) % colors.length],
-                    opacity: 0.7
-                  }"
-                ></div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Subject Legend -->
+          <div v-if="props.episodeSubjects?.timeline && uniqueSubjects.length > 0" class="flex-1 min-h-0 flex flex-col border-t border-gray-200 dark:border-gray-700 pt-4">
+            <h3 class="text-sm font-semibold mb-3 text-gray-900 dark:text-white flex-shrink-0">{{ t('episodes.chart.subjectsLabel') }}</h3>
+            <div class="space-y-2 overflow-y-auto flex-1 min-h-0">
+              <div 
+                v-for="subject in uniqueSubjects" 
+                :key="subject"
+                class="flex items-center gap-2 p-2 rounded"
+              >
+                <div class="flex-1 min-w-0 flex items-center gap-2">
+                  <div class="text-xs leading-tight text-gray-900 dark:text-white">
+                    {{ subject }}
+                  </div>
+                  <!-- Color marker -->
+                  <div 
+                    class="w-4 h-4 rounded flex-shrink-0" 
+                    :style="{ 
+                      backgroundColor: subjectColorMap.get(subject) || '#9ca3af',
+                      opacity: 0.7
+                    }"
+                  ></div>
+                </div>
               </div>
             </div>
           </div>

@@ -12,6 +12,24 @@
     color-scheme: dark;
   }
   
+  /* Prevent horizontal scrolling */
+  html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  #app {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  
   /* Mobile viewport optimization */
   @media (max-width: 639px) {
     body {

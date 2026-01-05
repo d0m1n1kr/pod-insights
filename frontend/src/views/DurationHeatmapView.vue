@@ -43,7 +43,7 @@
       </div>
       
       <!-- Chart Body -->
-      <div class="flex-1 overflow-auto p-6" ref="heatmapContainer">
+      <div class="flex-1 overflow-auto p-6 overflow-x-hidden max-w-full" ref="heatmapContainer">
         <div v-if="loading" class="flex items-center justify-center h-full">
           <p class="text-gray-500 dark:text-gray-400">Lade Daten...</p>
         </div>
@@ -373,9 +373,15 @@ function drawHeatmap() {
     : { top: 100, right: 20, bottom: 60, left: labelWidth };
   const width = durations.length * cellSize;
   const height = matrix.length * cellSize;
+  const totalWidth = width + margin.left + margin.right;
+  const totalHeight = height + margin.top + margin.bottom;
 
-  svg.attr('width', width + margin.left + margin.right)
-    .attr('height', height + margin.top + margin.bottom);
+  svg.attr('viewBox', `0 0 ${totalWidth} ${totalHeight}`)
+    .attr('preserveAspectRatio', 'xMidYMid meet')
+    .style('width', '100%')
+    .style('max-width', '100%')
+    .style('height', 'auto')
+    .style('display', 'block');
 
   const g = svg.append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);

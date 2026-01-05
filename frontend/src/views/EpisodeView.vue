@@ -804,7 +804,7 @@ const getPodcastInfo = (podcastId: string) => {
 </script>
 
 <template>
-  <div class="space-y-6">
+  <div class="space-y-6 overflow-x-hidden">
     <!-- Search Section -->
     <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-4 md:p-6">
       <h2 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4">
@@ -1067,11 +1067,12 @@ const getPodcastInfo = (podcastId: string) => {
       </div>
 
       <!-- Statistics Content -->
-      <div v-if="speakerStats && activeStat === 'flow'" class="bg-white dark:bg-gray-800 rounded-b-xl shadow-lg border border-gray-200 dark:border-gray-700 p-4 md:p-6">
+      <div v-if="speakerStats && activeStat === 'flow'" class="bg-white dark:bg-gray-800 rounded-b-xl shadow-lg border border-gray-200 dark:border-gray-700 p-4 md:p-6 overflow-x-hidden max-w-full">
         <SpeakingTimeFlowChart
           :data="speakerStats"
           :episode-topics="episodeTopics"
           :episode-number="selectedEpisode?.number"
+          :episode-subjects="episodeSubjectsData"
           @play-at-time="handlePlayAtTime"
         />
       </div>

@@ -207,7 +207,7 @@ const submitAIChat = async () => {
     @dismissed="showSplash = false"
   />
 
-  <div class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
+  <div class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 overflow-x-hidden">
     <header class="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 shadow-sm">
       <div class="container mx-auto px-4 py-4 md:py-6">
         <div class="flex items-start justify-between flex-col lg:flex-row gap-4">
@@ -482,7 +482,7 @@ const submitAIChat = async () => {
     </header>
 
     <main 
-      class="container mx-auto px-2 sm:px-4 py-4 sm:py-6 md:py-8" 
+      class="container mx-auto px-2 sm:px-4 py-4 sm:py-6 md:py-8 overflow-x-hidden" 
       :class="{ 
         'mb-14': audioPlayerStore.state.src && audioPlayerStore.size === 'small',
       }"
