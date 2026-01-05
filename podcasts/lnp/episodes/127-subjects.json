@@ -1,0 +1,63 @@
+{
+  "episodeNumber": 127,
+  "title": "LNP127 Hat sich fast gereimt",
+  "generatedAt": "2026-01-05T15:17:57.591Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1952,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 1952,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 264,
+      "endSec": 2216,
+      "durationSec": 1952,
+      "topic": "Charlie Hebdo",
+      "fineSubject": "Satire",
+      "topicIndex": 0
+    }
+  ]
+}

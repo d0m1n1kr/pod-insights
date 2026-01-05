@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 128,
+  "title": "FS128 Zweitausendachtundvierzig",
+  "generatedAt": "2026-01-05T15:17:51.075Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1358936484490399,
+      "Software": 0.35263417035942884,
+      "Hardware": 0,
+      "Finance": 0.15686853766617428,
+      "Media": 0.08498276710979813,
+      "Social": 0.07808961102904972,
+      "Culture": 0,
+      "Security": 0.1447562776957164,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.04677498769079271,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1380,
+      "Software": 3581,
+      "Hardware": 0,
+      "Finance": 1593,
+      "Media": 863,
+      "Social": 793,
+      "Culture": 0,
+      "Security": 1470,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 475,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 3,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 10155,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 616,
+      "endSec": 1479,
+      "durationSec": 863,
+      "topic": "Podcasting",
+      "fineSubject": "Production / Podcasting",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 2566,
+      "endSec": 3359,
+      "durationSec": 793,
+      "topic": "Twitter",
+      "fineSubject": "Platform / Twitter",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3359,
+      "endSec": 4952,
+      "durationSec": 1593,
+      "topic": "Bitcoin",
+      "fineSubject": "Currency / Bitcoin",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 4952,
+      "endSec": 6422,
+      "durationSec": 1470,
+      "topic": "gotofail",
+      "fineSubject": "Incident / gotofail",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6422,
+      "endSec": 7802,
+      "durationSec": 1380,
+      "topic": "IETF Meeting",
+      "fineSubject": "Event / IETF Meeting",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 7802,
+      "endSec": 8277,
+      "durationSec": 475,
+      "topic": "2048 Spiel",
+      "fineSubject": "Game / 2048 Spiel",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 8277,
+      "endSec": 10470,
+      "durationSec": 2193,
+      "topic": "iOS 7.1",
+      "fineSubject": "Version / iOS 7.1",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 10470,
+      "endSec": 11511,
+      "durationSec": 1041,
+      "topic": "Atom Editor",
+      "fineSubject": "Editor / Atom Editor",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 11511,
+      "endSec": 11858,
+      "durationSec": 347,
+      "topic": "10.9.3 Beta",
+      "fineSubject": "Version / 10.9.3 Beta",
+      "topicIndex": 9
+    }
+  ]
+}

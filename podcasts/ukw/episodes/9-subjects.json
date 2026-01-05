@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 9,
+  "title": "UKW009 Corona Lockdown",
+  "generatedAt": "2026-01-05T15:18:02.999Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.3795401532822393,
+      "Military": 0,
+      "Technology": 0.18493835388203933,
+      "Economics": 0.04815061646117961,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.3873708763745418,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2278,
+      "Military": 0,
+      "Technology": 1110,
+      "Economics": 289,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 2325,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 6,
+      "Military": 0,
+      "Technology": 1,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6002,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 379,
+      "endSec": 903,
+      "durationSec": 524,
+      "topic": "Stand der Dinge",
+      "fineSubject": "Current Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 904,
+      "endSec": 1022,
+      "durationSec": 118,
+      "topic": "Dilemma der Politik",
+      "fineSubject": "Policy Dilemmas",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1022,
+      "endSec": 2132,
+      "durationSec": 1110,
+      "topic": "Zahlenspielereien",
+      "fineSubject": "Statistics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2133,
+      "endSec": 2794,
+      "durationSec": 661,
+      "topic": "Reaktionspläne",
+      "fineSubject": "Crisis Management",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2794,
+      "endSec": 3256,
+      "durationSec": 462,
+      "topic": "Handling der Situation",
+      "fineSubject": "Crisis Response",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3257,
+      "endSec": 3663,
+      "durationSec": 406,
+      "topic": "USA und Trump",
+      "fineSubject": "International Relations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3664,
+      "endSec": 3771,
+      "durationSec": 107,
+      "topic": "Merkels Reaktion",
+      "fineSubject": "Leadership",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3771,
+      "endSec": 4060,
+      "durationSec": 289,
+      "topic": "Wirtschaft",
+      "fineSubject": "Impact Analysis",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Society",
+      "startSec": 4061,
+      "endSec": 6386,
+      "durationSec": 2325,
+      "topic": "Mögliche Auswirkungen",
+      "fineSubject": "Social Impact",
+      "topicIndex": 8
+    }
+  ]
+}

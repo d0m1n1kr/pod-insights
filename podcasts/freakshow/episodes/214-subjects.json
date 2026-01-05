@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 214,
+  "title": "FS214 Hört Euch doch mal zu",
+  "generatedAt": "2026-01-05T15:17:51.095Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.639684911041695,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.3286703789216352,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.03164471003666983,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4710,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2420,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 233,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 5,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7363,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 909,
+      "endSec": 1474,
+      "durationSec": 565,
+      "topic": "YouTube-Formate",
+      "fineSubject": "YouTube",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1474,
+      "endSec": 2233,
+      "durationSec": 759,
+      "topic": "Cappucino Update",
+      "fineSubject": "Updates",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3459,
+      "endSec": 4255,
+      "durationSec": 796,
+      "topic": "Mobilfunk-Flatrates",
+      "fineSubject": "Mobile Plans",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 4256,
+      "endSec": 4781,
+      "durationSec": 525,
+      "topic": "10 Jahre Freak Show",
+      "fineSubject": "Anniversaries",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4781,
+      "endSec": 5589,
+      "durationSec": 808,
+      "topic": "hukls Funk-Erzeugnis",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 7145,
+      "endSec": 7851,
+      "durationSec": 706,
+      "topic": "WinAmp",
+      "fineSubject": "Music Software",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Events",
+      "startSec": 7851,
+      "endSec": 8084,
+      "durationSec": 233,
+      "topic": "GPN 18",
+      "fineSubject": "Conventions",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8085,
+      "endSec": 8662,
+      "durationSec": 577,
+      "topic": "Konferenzsysteme",
+      "fineSubject": "Conference Systems",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9638,
+      "endSec": 11408,
+      "durationSec": 1770,
+      "topic": "Zoom L-12 First Impression",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 11408,
+      "endSec": 11869,
+      "durationSec": 461,
+      "topic": "Freakonomics Podcast",
+      "fineSubject": "Podcasts",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 12103,
+      "endSec": 12266,
+      "durationSec": 163,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 17
+    }
+  ]
+}

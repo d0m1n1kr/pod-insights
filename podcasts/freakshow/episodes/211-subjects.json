@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 211,
+  "title": "FS211 Digitaler Swingerclub",
+  "generatedAt": "2026-01-05T15:17:51.094Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5403,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 5403,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 7077,
+      "endSec": 8011,
+      "durationSec": 934,
+      "topic": "Siri Anomalie",
+      "fineSubject": "Voice Assistants",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8911,
+      "endSec": 10404,
+      "durationSec": 1493,
+      "topic": "iPhone X und die Zukunft",
+      "fineSubject": "Smartphones",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10513,
+      "endSec": 10811,
+      "durationSec": 298,
+      "topic": "Ultraschall 3.1",
+      "fineSubject": "Ultrasound",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10811,
+      "endSec": 12107,
+      "durationSec": 1296,
+      "topic": "VPNs mit tinc",
+      "fineSubject": "VPNs",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12609,
+      "endSec": 13333,
+      "durationSec": 724,
+      "topic": "Hosting",
+      "fineSubject": "Hosting",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13334,
+      "endSec": 13992,
+      "durationSec": 658,
+      "topic": "Die Beziehung zum Internet",
+      "fineSubject": "User Experience",
+      "topicIndex": 14
+    }
+  ]
+}

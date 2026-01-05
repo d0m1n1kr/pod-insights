@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 173,
+  "title": "FS173 Koreaners Katzi",
+  "generatedAt": "2026-01-05T15:17:51.085Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3549330315034899,
+      "Software": 0.2543859649122807,
+      "Hardware": 0.12026032823995472,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.03857762686285607,
+      "Security": 0.2318430484814186,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3763,
+      "Software": 2697,
+      "Hardware": 1275,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 409,
+      "Security": 2458,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 2,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 2,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10602,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 752,
+      "endSec": 2965,
+      "durationSec": 2213,
+      "topic": "Datenintegrität und Dateisysteme",
+      "fineSubject": "File Systems",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4033,
+      "endSec": 5917,
+      "durationSec": 1884,
+      "topic": "Ultraschall",
+      "fineSubject": "Ultrasound",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7373,
+      "endSec": 7966,
+      "durationSec": 593,
+      "topic": "Siri und die Sprachen",
+      "fineSubject": "Voice Assistants",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7966,
+      "endSec": 9252,
+      "durationSec": 1286,
+      "topic": "Alpha Go und die Singularität",
+      "fineSubject": "Game AI",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9252,
+      "endSec": 9567,
+      "durationSec": 315,
+      "topic": "Schöne Plakate",
+      "fineSubject": "Posters",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 9568,
+      "endSec": 11487,
+      "durationSec": 1919,
+      "topic": "Geklaute Macs",
+      "fineSubject": "Technology",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Culture",
+      "startSec": 11487,
+      "endSec": 11581,
+      "durationSec": 94,
+      "topic": "Noch mehr schöne Plakate",
+      "fineSubject": "Posters",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 11582,
+      "endSec": 12066,
+      "durationSec": 484,
+      "topic": "1Password",
+      "fineSubject": "Password Management",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Security",
+      "startSec": 12066,
+      "endSec": 12605,
+      "durationSec": 539,
+      "topic": "Ransomware in Transmission",
+      "fineSubject": "Ransomware",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13056,
+      "endSec": 14331,
+      "durationSec": 1275,
+      "topic": "Headphone Jack",
+      "fineSubject": "Audio",
+      "topicIndex": 16
+    }
+  ]
+}

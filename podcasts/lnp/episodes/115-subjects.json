@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 115,
+  "title": "LNP115 Heiland aus Digitalien",
+  "generatedAt": "2026-01-05T15:17:57.590Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1881720430107527,
+      "Technology": 0.11433691756272402,
+      "Law": 0.05913978494623656,
+      "Security": 0.5345878136200717,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.0543010752688172,
+      "Privacy": 0.04946236559139785,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1050,
+      "Technology": 638,
+      "Law": 330,
+      "Security": 2983,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 303,
+      "Privacy": 276,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 4,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5580,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 127,
+      "endSec": 894,
+      "durationSec": 767,
+      "topic": "NSA hat deutsche Provider gehackt",
+      "fineSubject": "Hacking",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 894,
+      "endSec": 1452,
+      "durationSec": 558,
+      "topic": "NSA darf weiterhin Metadaten sammeln",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1452,
+      "endSec": 2502,
+      "durationSec": 1050,
+      "topic": "Netzneutralität in den USA und der EU",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2503,
+      "endSec": 3090,
+      "durationSec": 587,
+      "topic": "Wikileaks: Mehr Spy Files & Finfisher Leak",
+      "fineSubject": "Leaks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 3090,
+      "endSec": 3393,
+      "durationSec": 303,
+      "topic": "Eilverbot von Uber aufgehoben",
+      "fineSubject": "Ridesharing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3394,
+      "endSec": 3724,
+      "durationSec": 330,
+      "topic": "Leistungsschutzrecht: Suchmaschinen werfen Verlage raus",
+      "fineSubject": "Copyright",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3724,
+      "endSec": 4795,
+      "durationSec": 1071,
+      "topic": "Snowden, Greenwald und Assange für Kimble",
+      "fineSubject": "Whistleblowers",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4796,
+      "endSec": 5072,
+      "durationSec": 276,
+      "topic": "Datenschützer mahnen Mail-Server-Betreiber",
+      "fineSubject": "Email Security",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5072,
+      "endSec": 5710,
+      "durationSec": 638,
+      "topic": "Google soll Algorithmus offen legen. Meint Heiko Maas.",
+      "fineSubject": "Algorithms",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "episodeNumber": 191,
+  "title": "FS191 Sendungslängenangst",
+  "generatedAt": "2026-01-05T15:17:51.090Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1687627344902691,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.33218576547460127,
+      "Gaming": 0,
+      "Event": 0.4990515000351296
+    },
+    "durations": {
+      "Technology": 2402,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 4728,
+      "Gaming": 0,
+      "Event": 7103
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2,
+      "Gaming": 0,
+      "Event": 20
+    },
+    "totalDurationSec": 14233,
+    "totalTopics": 29
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 167,
+      "endSec": 663,
+      "durationSec": 496,
+      "topic": "Thorsten ist da",
+      "fineSubject": "33C3",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 664,
+      "endSec": 1158,
+      "durationSec": 494,
+      "topic": "33C3",
+      "fineSubject": "33C3",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 1158,
+      "endSec": 1966,
+      "durationSec": 808,
+      "topic": "33C3 Ticketsituation",
+      "fineSubject": "33C3",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 1967,
+      "endSec": 2845,
+      "durationSec": 878,
+      "topic": "33C3 Eindrücke",
+      "fineSubject": "33C3",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Event",
+      "startSec": 2845,
+      "endSec": 3883,
+      "durationSec": 1038,
+      "topic": "33C3 Recordings",
+      "fineSubject": "33C3",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Event",
+      "startSec": 3884,
+      "endSec": 4341,
+      "durationSec": 457,
+      "topic": "33C3 Kidspace",
+      "fineSubject": "33C3",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Event",
+      "startSec": 4341,
+      "endSec": 4529,
+      "durationSec": 188,
+      "topic": "33C3 Electromagnetic Fields",
+      "fineSubject": "33C3",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Event",
+      "startSec": 4529,
+      "endSec": 4709,
+      "durationSec": 180,
+      "topic": "33C3: Spiegelmining",
+      "fineSubject": "33C3",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Event",
+      "startSec": 4710,
+      "endSec": 5092,
+      "durationSec": 382,
+      "topic": "33C3: Build Your Own NSA",
+      "fineSubject": "33C3",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Event",
+      "startSec": 5092,
+      "endSec": 5437,
+      "durationSec": 345,
+      "topic": "33C3: The Ulmate Game Boy Talk",
+      "fineSubject": "33C3",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Event",
+      "startSec": 5438,
+      "endSec": 5502,
+      "durationSec": 64,
+      "topic": "33C3: Mikroskope",
+      "fineSubject": "33C3",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Event",
+      "startSec": 5502,
+      "endSec": 6055,
+      "durationSec": 553,
+      "topic": "33C3: Spass mit Banken",
+      "fineSubject": "33C3",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Event",
+      "startSec": 6056,
+      "endSec": 6256,
+      "durationSec": 200,
+      "topic": "33C3: Dieselgate",
+      "fineSubject": "33C3",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Event",
+      "startSec": 6256,
+      "endSec": 6318,
+      "durationSec": 62,
+      "topic": "33C3: Polizeiakten",
+      "fineSubject": "33C3",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Event",
+      "startSec": 6318,
+      "endSec": 6512,
+      "durationSec": 194,
+      "topic": "33C3: Dronenkriege",
+      "fineSubject": "33C3",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Event",
+      "startSec": 6513,
+      "endSec": 6602,
+      "durationSec": 89,
+      "topic": "33C3: Blockchains",
+      "fineSubject": "33C3",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Event",
+      "startSec": 6603,
+      "endSec": 6895,
+      "durationSec": 292,
+      "topic": "33C3: Zcash",
+      "fineSubject": "33C3",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Event",
+      "startSec": 6896,
+      "endSec": 7160,
+      "durationSec": 264,
+      "topic": "33C3: Threema Protocol Reengineering",
+      "fineSubject": "33C3",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7160,
+      "endSec": 7969,
+      "durationSec": 809,
+      "topic": "Messenger sind schwierig",
+      "fineSubject": "Messenger",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Event",
+      "startSec": 7969,
+      "endSec": 8030,
+      "durationSec": 61,
+      "topic": "33C3: 802.11ac",
+      "fineSubject": "33C3",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Event",
+      "startSec": 8031,
+      "endSec": 8089,
+      "durationSec": 58,
+      "topic": "33C3: Hochsicherheitsschlüssel",
+      "fineSubject": "33C3",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8089,
+      "endSec": 8195,
+      "durationSec": 106,
+      "topic": "33C3: Downgrading iOS",
+      "fineSubject": "iOS",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8196,
+      "endSec": 8507,
+      "durationSec": 311,
+      "topic": "33C3: IPv6 scanning",
+      "fineSubject": "IPv6",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8507,
+      "endSec": 8864,
+      "durationSec": 357,
+      "topic": "33C3: Space Track",
+      "fineSubject": "Tracking",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8864,
+      "endSec": 9075,
+      "durationSec": 211,
+      "topic": "33C3: 3G/4G Modems",
+      "fineSubject": "Modems",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Business",
+      "startSec": 9945,
+      "endSec": 10265,
+      "durationSec": 320,
+      "topic": "Chris Lattner geht von Apple zu Tesla",
+      "fineSubject": "Apple to Tesla",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Business",
+      "startSec": 10265,
+      "endSec": 14673,
+      "durationSec": 4408,
+      "topic": "Tesla und Elektromobilität",
+      "fineSubject": "Electric Mobility",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14674,
+      "endSec": 15282,
+      "durationSec": 608,
+      "topic": "Gerätekram",
+      "fineSubject": "Gadgets",
+      "topicIndex": 28
+    }
+  ]
+}

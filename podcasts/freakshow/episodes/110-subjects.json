@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 110,
+  "title": "MM110 The One Million Satoshi Pizza",
+  "generatedAt": "2026-01-05T15:17:51.072Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4269397134360638,
+      "Software": 0.036158421194917544,
+      "Hardware": 0,
+      "Finance": 0.08096782914301162,
+      "Media": 0.18687483103541497,
+      "Social": 0.03865909705325764,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.1630170316301703,
+      "Gaming": 0,
+      "Event": 0.0673830765071641
+    },
+    "durations": {
+      "Technology": 6317,
+      "Software": 535,
+      "Hardware": 0,
+      "Finance": 1198,
+      "Media": 2765,
+      "Social": 572,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2412,
+      "Gaming": 0,
+      "Event": 997
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 14796,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 164,
+      "endSec": 736,
+      "durationSec": 572,
+      "topic": "Geschenke auspacken",
+      "fineSubject": "Gifts",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 736,
+      "endSec": 2940,
+      "durationSec": 2204,
+      "topic": "Eröffnung des Apple Store Berlin",
+      "fineSubject": "Retail",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 2940,
+      "endSec": 3475,
+      "durationSec": 535,
+      "topic": "iOS",
+      "fineSubject": "iOS",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 3475,
+      "endSec": 3683,
+      "durationSec": 208,
+      "topic": "Drosselkom",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Event",
+      "startSec": 3683,
+      "endSec": 4680,
+      "durationSec": 997,
+      "topic": "re:publica 2013",
+      "fineSubject": "Conference",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4680,
+      "endSec": 6893,
+      "durationSec": 2213,
+      "topic": "Hackertools",
+      "fineSubject": "Tools",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6893,
+      "endSec": 8643,
+      "durationSec": 1750,
+      "topic": "App.net",
+      "fineSubject": "Social Network",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8643,
+      "endSec": 9841,
+      "durationSec": 1198,
+      "topic": "Bitcoin",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 9841,
+      "endSec": 12606,
+      "durationSec": 2765,
+      "topic": "Audiozeug",
+      "fineSubject": "Audio",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12606,
+      "endSec": 14960,
+      "durationSec": 2354,
+      "topic": "Adblocker",
+      "fineSubject": "Ad Blocking",
+      "topicIndex": 9
+    }
+  ]
+}

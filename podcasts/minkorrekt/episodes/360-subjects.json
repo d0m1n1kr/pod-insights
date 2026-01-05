@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 360,
+  "title": "Mi360 – \"same Dip double Rap\"",
+  "generatedAt": "2026-01-05T15:18:17.394Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.30478156174750604,
+      "Culture": 0.6222910216718266,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.07292741658066736,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1772,
+      "Culture": 3618,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 424,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 5,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5814,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 477,
+      "endSec": 1348,
+      "durationSec": 871,
+      "topic": "Bullet Journal",
+      "fineSubject": "Bullet Journal",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1917,
+      "endSec": 2440,
+      "durationSec": 523,
+      "topic": "Odonien",
+      "fineSubject": "Odonien",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2440,
+      "endSec": 2539,
+      "durationSec": 99,
+      "topic": "Quantenkonzert",
+      "fineSubject": "Quantenkonzert",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2539,
+      "endSec": 2963,
+      "durationSec": 424,
+      "topic": "Kommentar von Linus zu Erdbeobachtungssatelliten",
+      "fineSubject": "Erdbeobachtungssatelliten",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2963,
+      "endSec": 4107,
+      "durationSec": 1144,
+      "topic": "Thema 1: \"Unheimlich echt und echt unheimlich\"",
+      "fineSubject": "Unheimlich echt und echt unheimlich",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4107,
+      "endSec": 4547,
+      "durationSec": 440,
+      "topic": "Science Snack",
+      "fineSubject": "Science Snack",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 4547,
+      "endSec": 5879,
+      "durationSec": 1332,
+      "topic": "Thema 2: \"Tektonische Fernwirkung\"",
+      "fineSubject": "Tektonische Fernwirkung",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5879,
+      "endSec": 6860,
+      "durationSec": 981,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Schwurbel der Woche",
+      "topicIndex": 8
+    }
+  ]
+}

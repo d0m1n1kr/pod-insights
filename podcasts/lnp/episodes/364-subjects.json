@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 364,
+  "title": "LNP364 Der Fall Assange",
+  "generatedAt": "2026-01-05T15:17:57.622Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7163449486086738,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.18174981198295312,
+      "Health": 0.027450488844321885,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.07445475056405114,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5715,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1450,
+      "Health": 219,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 594,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 10,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 3,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 7978,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1498,
+      "endSec": 1962,
+      "durationSec": 464,
+      "topic": "Vorgeschichte: WikiLeaks & Assange",
+      "fineSubject": "WikiLeaks",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1962,
+      "endSec": 2563,
+      "durationSec": 601,
+      "topic": "Der Auslieferungsantrag der USA",
+      "fineSubject": "Extradition",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2564,
+      "endSec": 2912,
+      "durationSec": 348,
+      "topic": "Die Anhörungen",
+      "fineSubject": "Legal Proceedings",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2913,
+      "endSec": 3507,
+      "durationSec": 594,
+      "topic": "Überwachungsmaßnahmen",
+      "fineSubject": "Government Measures",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3508,
+      "endSec": 4458,
+      "durationSec": 950,
+      "topic": "Vorwürfe und Verfahrensrahmen",
+      "fineSubject": "Allegations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4458,
+      "endSec": 5501,
+      "durationSec": 1043,
+      "topic": "Einschätzung zum Verfahren",
+      "fineSubject": "Legal Assessment",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5501,
+      "endSec": 5720,
+      "durationSec": 219,
+      "topic": "Gesundheitszustand Assanges",
+      "fineSubject": "Mental Health",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5721,
+      "endSec": 6367,
+      "durationSec": 646,
+      "topic": "Haftbedingungen in den USA",
+      "fineSubject": "Prison Conditions",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6368,
+      "endSec": 7100,
+      "durationSec": 732,
+      "topic": "Verfahrensbeobachtung und Anwälte",
+      "fineSubject": "Legal Defense",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7100,
+      "endSec": 7253,
+      "durationSec": 153,
+      "topic": "Zulässigkeit des Verfahrens",
+      "fineSubject": "Legal Validity",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 7253,
+      "endSec": 7460,
+      "durationSec": 207,
+      "topic": "Verteidigung der Pressefreiheit",
+      "fineSubject": "Press Freedom",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7460,
+      "endSec": 7899,
+      "durationSec": 439,
+      "topic": "Strafmaße, Zeiträume und Repression",
+      "fineSubject": "Sentencing",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 7899,
+      "endSec": 8433,
+      "durationSec": 534,
+      "topic": "Wert der WikiLeaks-Veröffentlichungen",
+      "fineSubject": "WikiLeaks Impact",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 8434,
+      "endSec": 9143,
+      "durationSec": 709,
+      "topic": "Berichterstattung über das Verfahren",
+      "fineSubject": "Media Coverage",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9143,
+      "endSec": 9482,
+      "durationSec": 339,
+      "topic": "Urteilsverkündung im Januar",
+      "fineSubject": "Judgment",
+      "topicIndex": 14
+    }
+  ]
+}

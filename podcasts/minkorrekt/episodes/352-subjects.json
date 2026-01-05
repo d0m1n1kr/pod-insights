@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 352,
+  "title": "Mi352 – \"linksrüsselig\"",
+  "generatedAt": "2026-01-05T15:18:17.393Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.42395437262357416,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.3311153358681876,
+      "Technology": 0.15050697084917616,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.0944233206590621,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1338,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1045,
+      "Technology": 475,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 298,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 3156,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 232,
+      "endSec": 1023,
+      "durationSec": 791,
+      "topic": "freestyle physics",
+      "fineSubject": "Physics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1610,
+      "endSec": 2085,
+      "durationSec": 475,
+      "topic": "eufyMake E1",
+      "fineSubject": "Smart Home",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Education",
+      "startSec": 2085,
+      "endSec": 2383,
+      "durationSec": 298,
+      "topic": "MS Wissenschaft",
+      "fineSubject": "Science",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4770,
+      "endSec": 5317,
+      "durationSec": 547,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5317,
+      "endSec": 6362,
+      "durationSec": 1045,
+      "topic": "Thema 2: \"Frikandel, Hot-Dog, Pommes-Special\"",
+      "fineSubject": "Culinary",
+      "topicIndex": 8
+    }
+  ]
+}

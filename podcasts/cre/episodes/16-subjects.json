@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 16,
+  "title": "CRE016 Wireless Mesh Networking",
+  "generatedAt": "2026-01-05T15:17:54.361Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.8,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0.2,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 4,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 1,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wireless Mesh Networking",
+      "fineSubject": "Wireless Technologies",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "OLSR",
+      "fineSubject": "Protocols",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Offene Netzwerke",
+      "fineSubject": "Community Networks",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technik und Projekte",
+      "fineSubject": "Projects",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geschichte des Wireless Mesh Networking",
+      "fineSubject": "Technology History",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

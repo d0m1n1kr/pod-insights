@@ -1,0 +1,254 @@
+{
+  "episodeNumber": 183,
+  "title": "CRE183 TETRA Bündelfunk",
+  "generatedAt": "2026-01-05T15:17:54.388Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.6,
+      "Social": 0,
+      "Media": 0.15,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0.25,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 12,
+      "Social": 0,
+      "Media": 3,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 5,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Unterschied zwischen Sprechfunk und Bündelfunk",
+      "fineSubject": "Radio Communication",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklung des Bündelfunks in Deutschland",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Migration zum digitalen Bündelfunk",
+      "fineSubject": "Digital Communication",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Funkverkehr abhören",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Digitale Bündelfunkstandards in aller Welt",
+      "fineSubject": "Standards",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Frequenzausbreitung",
+      "fineSubject": "Signal Propagation",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Tetra Netztopologie",
+      "fineSubject": "Network Architecture",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Switching and Management Infrastructure (SwMI) und Basisstationen",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Protokollverlauf",
+      "fineSubject": "Protocols",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Herstellerspezifische Erweiterungen",
+      "fineSubject": "Customization",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Authentifizierung",
+      "fineSubject": "Access Control",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rufmodi und Gruppenkommunikation",
+      "fineSubject": "Group Communication",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Datenübertragung über Tetra",
+      "fineSubject": "Data Transmission",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Textnachrichten",
+      "fineSubject": "Messaging",
+      "topicIndex": 14,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verschlüsselung",
+      "fineSubject": "Encryption",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rate-Compatible Punctured Convulotional Code und das Subnet Dependent Convergence Protocol",
+      "fineSubject": "Coding Techniques",
+      "topicIndex": 16,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mindestanforderungen für Tetra-Netze",
+      "fineSubject": "Network Standards",
+      "topicIndex": 17,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Unverschlüsselte Tetra-Netze bei Verkehrsbetrieben und Energieversorgern und die potentiellen Sicherheitsschwankungen",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 18,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aufbau eigener Tetranetze",
+      "fineSubject": "Network Setup",
+      "topicIndex": 19,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Automatisiertes Abhören und Analysieren von Sicherheitssystemen an Flughäfen und anderen kritischen Infrastrukturen",
+      "fineSubject": "Critical Infrastructure",
+      "topicIndex": 20,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 76,
+  "title": "LNP076 Moll",
+  "generatedAt": "2026-01-05T15:17:57.584Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5988,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5988,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 105,
+      "endSec": 2122,
+      "durationSec": 2017,
+      "topic": "Pressefreiheit in UK",
+      "fineSubject": "Press Freedom",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2123,
+      "endSec": 2694,
+      "durationSec": 571,
+      "topic": "Überwachung in USA",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2694,
+      "endSec": 3655,
+      "durationSec": 961,
+      "topic": "Verurteilung Bradley Mannings",
+      "fineSubject": "Legal Cases",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3655,
+      "endSec": 3918,
+      "durationSec": 263,
+      "topic": "Bestandsdatenauskunft in Deutschland",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3919,
+      "endSec": 6095,
+      "durationSec": 2176,
+      "topic": "Wahlen in Deutschland",
+      "fineSubject": "Elections",
+      "topicIndex": 4
+    }
+  ]
+}

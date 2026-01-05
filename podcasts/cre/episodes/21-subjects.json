@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 21,
+  "title": "CRE021 Website Relaunch und Feedback",
+  "generatedAt": "2026-01-05T15:17:54.362Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.3333333333333333,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.3333333333333333,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0.3333333333333333,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 1,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 1,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 1,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Änderungen an der Website",
+      "fineSubject": "Website-Design",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Community",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Feedback der Hörer",
+      "fineSubject": "Hörerfeedback",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erfahrungsbericht zu Fon",
+      "fineSubject": "Telekommunikation",
+      "topicIndex": 2,
+      "untimed": true
+    }
+  ]
+}

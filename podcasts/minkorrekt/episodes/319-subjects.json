@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 319,
+  "title": "Mi319 – \"Bildungswesen\"",
+  "generatedAt": "2026-01-05T15:18:17.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.2506105579560398,
+      "Culture": 0.03569415743002066,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.24985910201014466,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.46383618260379483,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1334,
+      "Culture": 190,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1330,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 2469,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 3,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5323,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 649,
+      "endSec": 1374,
+      "durationSec": 725,
+      "topic": "Abgelehntes Paper",
+      "fineSubject": "Rejected Papers",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2525,
+      "endSec": 3576,
+      "durationSec": 1051,
+      "topic": "SpaceX",
+      "fineSubject": "SpaceX",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Education",
+      "startSec": 3576,
+      "endSec": 4681,
+      "durationSec": 1105,
+      "topic": "Thema 1: \"Auf einem Auge blind und trotzdem sicher\"",
+      "fineSubject": "Blindness",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4681,
+      "endSec": 5290,
+      "durationSec": 609,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Education",
+      "startSec": 5290,
+      "endSec": 6529,
+      "durationSec": 1239,
+      "topic": "Thema 2: \"Bleib sitzen\"",
+      "fineSubject": "Seating",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6529,
+      "endSec": 6719,
+      "durationSec": 190,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Education",
+      "startSec": 6991,
+      "endSec": 7116,
+      "durationSec": 125,
+      "topic": "Tobias zu wissenschaftlichen Spielen",
+      "fineSubject": "Scientific Games",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7116,
+      "endSec": 7395,
+      "durationSec": 279,
+      "topic": "Jan zu Tauchrobotern und der Franklin Expedition",
+      "fineSubject": "Diving Robots",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Science",
+      "startSec": 7395,
+      "endSec": 7395,
+      "durationSec": 0,
+      "topic": "Jochen Maßstab der Zeit",
+      "fineSubject": "Time",
+      "topicIndex": 9
+    }
+  ]
+}

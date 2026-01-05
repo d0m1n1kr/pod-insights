@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 55,
+  "title": "RZ055 Planck",
+  "generatedAt": "2026-01-05T15:18:06.281Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0.8,
+      "Technologie": 0.2,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 4,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kosmische Hintergrundstrahlung",
+      "fineSubject": "Astronomie",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Urknall",
+      "fineSubject": "Kosmologie",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Weltraumteleskop",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Planck-Mission",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mikrowellenastronomie",
+      "fineSubject": "Astronomie",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

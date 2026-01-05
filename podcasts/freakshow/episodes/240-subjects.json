@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 240,
+  "title": "FS240 Es gibt noch alte Leute",
+  "generatedAt": "2026-01-05T15:17:51.104Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5904772675865189,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.03890522506220312,
+      "Security": 0,
+      "Events": 0.37061750735127796,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5221,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 344,
+      "Security": 0,
+      "Events": 3277,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 9,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 3,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8842,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 121,
+      "endSec": 465,
+      "durationSec": 344,
+      "topic": "Freak Show History",
+      "fineSubject": "History",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 465,
+      "endSec": 950,
+      "durationSec": 485,
+      "topic": "mobileMacs",
+      "fineSubject": "Computers",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Events",
+      "startSec": 950,
+      "endSec": 2775,
+      "durationSec": 1825,
+      "topic": "Blinkenlights Day",
+      "fineSubject": "Conventions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Events",
+      "startSec": 2776,
+      "endSec": 4130,
+      "durationSec": 1354,
+      "topic": "Camp Review",
+      "fineSubject": "Reviews",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4130,
+      "endSec": 5013,
+      "durationSec": 883,
+      "topic": "card10 und Camp Badges",
+      "fineSubject": "Hardware",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5014,
+      "endSec": 5536,
+      "durationSec": 522,
+      "topic": "Keynote: Apple Arcade",
+      "fineSubject": "Gaming",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5537,
+      "endSec": 6045,
+      "durationSec": 508,
+      "topic": "Keynote: Apple tv+",
+      "fineSubject": "Streaming",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6045,
+      "endSec": 6278,
+      "durationSec": 233,
+      "topic": "Keynote: iPad 10,2\"",
+      "fineSubject": "Tablets",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6279,
+      "endSec": 6764,
+      "durationSec": 485,
+      "topic": "Apple Maps",
+      "fineSubject": "Navigation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6765,
+      "endSec": 7027,
+      "durationSec": 262,
+      "topic": "iOS 13 Release",
+      "fineSubject": "Software",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7028,
+      "endSec": 7746,
+      "durationSec": 718,
+      "topic": "Keynote: Apple Watch Series 5",
+      "fineSubject": "Wearables",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7747,
+      "endSec": 8872,
+      "durationSec": 1125,
+      "topic": "Keynote: iPhone 11",
+      "fineSubject": "Smartphones",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Events",
+      "startSec": 9552,
+      "endSec": 9650,
+      "durationSec": 98,
+      "topic": "Termine",
+      "fineSubject": "Scheduling",
+      "topicIndex": 13
+    }
+  ]
+}

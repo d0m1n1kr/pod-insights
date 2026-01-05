@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 238,
+  "title": "FS238 Das raumgreifende Wesen des Nerds im Freien",
+  "generatedAt": "2026-01-05T15:17:51.104Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.30417445482866046,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.22953271028037384,
+      "Media": 0.184797507788162,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.18105919003115264,
+      "Events": 0.1004361370716511,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2441,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1842,
+      "Media": 1483,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1453,
+      "Events": 806,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8025,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Events",
+      "startSec": 752,
+      "endSec": 1558,
+      "durationSec": 806,
+      "topic": "Freak Show @ Camp",
+      "fineSubject": "Freak Show",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 5053,
+      "endSec": 6536,
+      "durationSec": 1483,
+      "topic": "A Long Time Ago In A Galaxy Far Far Away",
+      "fineSubject": "Star Wars",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Finance",
+      "startSec": 6536,
+      "endSec": 8378,
+      "durationSec": 1842,
+      "topic": "Digitale Zahlungssysteme auf Festivals",
+      "fineSubject": "Digital Payment at Festivals",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 8378,
+      "endSec": 9831,
+      "durationSec": 1453,
+      "topic": "Deanomysierung",
+      "fineSubject": "De-anonymization",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9832,
+      "endSec": 12273,
+      "durationSec": 2441,
+      "topic": "Korrektes Nerd-HiFi für Zuhause",
+      "fineSubject": "Nerd Hi-Fi for Home",
+      "topicIndex": 8
+    }
+  ]
+}

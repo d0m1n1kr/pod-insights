@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 270,
+  "title": "Mi270 – \"Rattenhass\"",
+  "generatedAt": "2026-01-05T15:18:17.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5839140534262486,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.13138792102206737,
+      "Technology": 0.2576945412311266,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0.02700348432055749
+    },
+    "durations": {
+      "Science": 4022,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 905,
+      "Technology": 1775,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 186
+    },
+    "topicCounts": {
+      "Science": 5,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 1
+    },
+    "totalDurationSec": 6888,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 389,
+      "endSec": 687,
+      "durationSec": 298,
+      "topic": "Lange Nacht der Physik",
+      "fineSubject": "Physics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 687,
+      "endSec": 950,
+      "durationSec": 263,
+      "topic": "Minkorrekt in München",
+      "fineSubject": "Physics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 950,
+      "endSec": 1413,
+      "durationSec": 463,
+      "topic": "Stretching",
+      "fineSubject": "Fitness",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Biology",
+      "startSec": 1413,
+      "endSec": 1599,
+      "durationSec": 186,
+      "topic": "Kommentar Pilze",
+      "fineSubject": "Fungi",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1599,
+      "endSec": 2041,
+      "durationSec": 442,
+      "topic": "Kommentar Narkose",
+      "fineSubject": "Anesthesia",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2271,
+      "endSec": 4046,
+      "durationSec": 1775,
+      "topic": "Thema 1: “KI sucht Leben”",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 4046,
+      "endSec": 5056,
+      "durationSec": 1010,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 5056,
+      "endSec": 6688,
+      "durationSec": 1632,
+      "topic": "Thema 2: \"Physik sucht Vorzeichen\"",
+      "fineSubject": "Physics",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Science",
+      "startSec": 6688,
+      "endSec": 7507,
+      "durationSec": 819,
+      "topic": "Schwurbel der Woche: Helium",
+      "fineSubject": "Helium",
+      "topicIndex": 9
+    }
+  ]
+}

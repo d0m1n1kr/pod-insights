@@ -1,0 +1,73 @@
+{
+  "episodeNumber": 123,
+  "title": "RZ123 Die Erforschung des Jupitersystems",
+  "generatedAt": "2026-01-05T15:18:06.290Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 1,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 1375,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 2,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 1375,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 16,
+      "endSec": 1391,
+      "durationSec": 1375,
+      "topic": "Erforschung des Jupitersystems",
+      "fineSubject": "Planetensysteme",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Jupitermonde",
+      "fineSubject": "Monde",
+      "topicIndex": 1,
+      "untimed": true
+    }
+  ]
+}

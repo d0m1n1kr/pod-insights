@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 220,
+  "title": "LNP220 Street Clickability",
+  "generatedAt": "2026-01-05T15:17:57.602Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.09150772025431426,
+      "Technology": 0.2391008174386921,
+      "Law": 0.28201634877384196,
+      "Security": 0.28133514986376024,
+      "Social": 0,
+      "Media": 0.10603996366939146,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 403,
+      "Technology": 1053,
+      "Law": 1242,
+      "Security": 1239,
+      "Social": 0,
+      "Media": 467,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4404,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 218,
+      "endSec": 763,
+      "durationSec": 545,
+      "topic": "Feedback: Data Science Stories",
+      "fineSubject": "Stories",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 763,
+      "endSec": 1166,
+      "durationSec": 403,
+      "topic": "Terror-Soldat mit ZPS auf der Todesliste",
+      "fineSubject": "Security",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1167,
+      "endSec": 2311,
+      "durationSec": 1144,
+      "topic": "Gesetz zur Änderung des Strafgesetzbuches",
+      "fineSubject": "Criminal Code",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2311,
+      "endSec": 3550,
+      "durationSec": 1239,
+      "topic": "Hacking back?",
+      "fineSubject": "Hacking",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3551,
+      "endSec": 4018,
+      "durationSec": 467,
+      "topic": "Streaming jetzt illegal",
+      "fineSubject": "Streaming",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4018,
+      "endSec": 4526,
+      "durationSec": 508,
+      "topic": "Juvenal.org",
+      "fineSubject": "Websites",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4527,
+      "endSec": 4625,
+      "durationSec": 98,
+      "topic": "eID Gesetz verschoben",
+      "fineSubject": "eID",
+      "topicIndex": 6
+    }
+  ]
+}

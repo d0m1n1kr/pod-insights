@@ -1,0 +1,74 @@
+{
+  "episodeNumber": 37,
+  "title": "FG037 Freies Wissen und Open Data",
+  "generatedAt": "2026-01-05T15:18:12.230Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Wissenschaft": 0,
+      "Umwelt": 0,
+      "Bildung": 0,
+      "Gesellschaft": 0.5,
+      "Technologie": 0.5,
+      "Education": 0,
+      "Psychologie": 0,
+      "Biologie": 0,
+      "Ethik": 0,
+      "Forschung": 0,
+      "Technology": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Wissenschaft": 0,
+      "Umwelt": 0,
+      "Bildung": 0,
+      "Gesellschaft": 0,
+      "Technologie": 0,
+      "Education": 0,
+      "Psychologie": 0,
+      "Biologie": 0,
+      "Ethik": 0,
+      "Forschung": 0,
+      "Technology": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Wissenschaft": 0,
+      "Umwelt": 0,
+      "Bildung": 0,
+      "Gesellschaft": 1,
+      "Technologie": 1,
+      "Education": 0,
+      "Psychologie": 0,
+      "Biologie": 0,
+      "Ethik": 0,
+      "Forschung": 0,
+      "Technology": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Gesellschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Freies Wissen",
+      "fineSubject": "Wissen",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Open Data",
+      "fineSubject": "Daten",
+      "topicIndex": 1,
+      "untimed": true
+    }
+  ]
+}

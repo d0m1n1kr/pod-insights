@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 69,
+  "title": "RZ069 Copernicus Open Data Strategy",
+  "generatedAt": "2026-01-05T15:18:06.283Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0.6402159244264507,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0.35978407557354924,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 2372,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 1333,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 1,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 1,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 3705,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": 299,
+      "endSec": 2671,
+      "durationSec": 2372,
+      "topic": "Copernicus Erdbeobachtungsprogramm",
+      "fineSubject": "Earth Observation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 299,
+      "endSec": 1632,
+      "durationSec": 1333,
+      "topic": "Sentinel-Satelliten",
+      "fineSubject": "Satellites",
+      "topicIndex": 2
+    }
+  ]
+}

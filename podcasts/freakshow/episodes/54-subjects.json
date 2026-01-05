@@ -1,0 +1,124 @@
+{
+  "episodeNumber": 54,
+  "title": "MM054 Datenesoterik",
+  "generatedAt": "2026-01-05T15:17:51.064Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2857142857142857,
+      "Software": 0.5714285714285714,
+      "Hardware": 0.14285714285714285,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 4,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Launch von Windows Phone 7",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hardware-Basteleien",
+      "fineSubject": "DIY-Projekte",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erfahrungen mit iLife und Aperture",
+      "fineSubject": "Bildbearbeitung",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einsatz von FreeBSD als Apple File Server",
+      "fineSubject": "Server-Betriebssysteme",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "TimeMachine-Target",
+      "fineSubject": "Backup-Lösungen",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Probleme mit ISPs",
+      "fineSubject": "Provider",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wunsch nach besserem Internet",
+      "fineSubject": "Geschwindigkeit",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

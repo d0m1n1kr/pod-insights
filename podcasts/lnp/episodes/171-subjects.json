@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 171,
+  "title": "LNP171 Schatz, reichst du mir mal den Terror-Teil?",
+  "generatedAt": "2026-01-05T15:17:57.596Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.02834589163975601,
+      "Technology": 0,
+      "Law": 0.16469321851453175,
+      "Security": 0.061356297093649086,
+      "Social": 0.17491926803013993,
+      "Media": 0.31969860064585576,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.2509867240760675,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 158,
+      "Technology": 0,
+      "Law": 918,
+      "Security": 342,
+      "Social": 975,
+      "Media": 1782,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1399,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5574,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 615,
+      "endSec": 1590,
+      "durationSec": 975,
+      "topic": "Brave New Harbor",
+      "fineSubject": "Culture",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1591,
+      "endSec": 2509,
+      "durationSec": 918,
+      "topic": "BGH zu Netzsperren",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 2509,
+      "endSec": 2851,
+      "durationSec": 342,
+      "topic": "BND-Überwachung nimmt zu",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 2852,
+      "endSec": 4251,
+      "durationSec": 1399,
+      "topic": "Krieg gegen Bargeld",
+      "fineSubject": "Cashless Society",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 4252,
+      "endSec": 6034,
+      "durationSec": 1782,
+      "topic": "Fine Brothers React",
+      "fineSubject": "Entertainment",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6035,
+      "endSec": 6193,
+      "durationSec": 158,
+      "topic": "Referendum Schweizer Nachrichtendienstgesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 5
+    }
+  ]
+}

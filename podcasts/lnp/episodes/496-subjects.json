@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 496,
+  "title": "LNP496 Ignoriere alle vorherigen Anweisungen",
+  "generatedAt": "2026-01-05T15:17:57.641Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.43156974202011367,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.05465675557498907,
+      "Social": 0,
+      "Media": 0.08373414954088325,
+      "Health": 0,
+      "Feedback": 0.4068648885002186,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.023174464363795364
+    },
+    "durations": {
+      "Politics": 1974,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 250,
+      "Social": 0,
+      "Media": 383,
+      "Health": 0,
+      "Feedback": 1861,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 106
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 3,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4574,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 209,
+      "endSec": 380,
+      "durationSec": 171,
+      "topic": "LNP500",
+      "fineSubject": "Podcast",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 709,
+      "endSec": 784,
+      "durationSec": 75,
+      "topic": "LNP500",
+      "fineSubject": "Podcast",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 912,
+      "endSec": 1016,
+      "durationSec": 104,
+      "topic": "Feedback: Termin-Melodie",
+      "fineSubject": "User Experience",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1017,
+      "endSec": 2258,
+      "durationSec": 1241,
+      "topic": "Feedback: Telekom-Transit",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 2258,
+      "endSec": 2774,
+      "durationSec": 516,
+      "topic": "Feedback: Biometerie am Flughafen",
+      "fineSubject": "Security",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2775,
+      "endSec": 2881,
+      "durationSec": 106,
+      "topic": "Marc-Uwe Kling: Views",
+      "fineSubject": "Entertainment",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 2882,
+      "endSec": 3019,
+      "durationSec": 137,
+      "topic": "Linus im HuFiPod",
+      "fineSubject": "Podcast",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 3019,
+      "endSec": 3269,
+      "durationSec": 250,
+      "topic": "Linus sucht Senior Security Consultants",
+      "fineSubject": "Consulting",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3269,
+      "endSec": 4725,
+      "durationSec": 1456,
+      "topic": "Julian Assange",
+      "fineSubject": "Activism",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4725,
+      "endSec": 4960,
+      "durationSec": 235,
+      "topic": "Chatkontrolle aufgeschoben",
+      "fineSubject": "Legislation",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4961,
+      "endSec": 5244,
+      "durationSec": 283,
+      "topic": "BDSG-Reform",
+      "fineSubject": "Data Protection",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 41,
+  "title": "LNP041 Datenspuren Spezial: Netzneutralität",
+  "generatedAt": "2026-01-05T15:17:57.578Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7721194879089616,
+      "Technology": 0.2278805120910384,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2714,
+      "Technology": 801,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3515,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 207,
+      "endSec": 610,
+      "durationSec": 403,
+      "topic": "Wo kommt das Internet her?",
+      "fineSubject": "Internet History",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 611,
+      "endSec": 1009,
+      "durationSec": 398,
+      "topic": "Wie funktionieren Flatrates (nicht)?",
+      "fineSubject": "Internet Services",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1009,
+      "endSec": 2224,
+      "durationSec": 1215,
+      "topic": "Wann ist ein Netz nicht mehr neutral?",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2224,
+      "endSec": 2794,
+      "durationSec": 570,
+      "topic": "Zusatzdienste sind Einschränkungen, Priorisierung ist Diskriminierung",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2795,
+      "endSec": 3724,
+      "durationSec": 929,
+      "topic": "Politische Situation",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 4
+    }
+  ]
+}

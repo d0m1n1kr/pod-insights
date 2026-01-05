@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 300,
+  "title": "LNP300 Valium und Vodka",
+  "generatedAt": "2026-01-05T15:17:57.613Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 6872,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6872,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 218,
+      "endSec": 3268,
+      "durationSec": 3050,
+      "topic": "Cesy Leonard",
+      "fineSubject": "Cesy Leonard",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 3269,
+      "endSec": 7091,
+      "durationSec": 3822,
+      "topic": "Klaus Landefeld",
+      "fineSubject": "Klaus Landefeld",
+      "topicIndex": 1
+    }
+  ]
+}

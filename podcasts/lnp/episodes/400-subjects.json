@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 400,
+  "title": "LNP400 Experimenteller Zustand",
+  "generatedAt": "2026-01-05T15:17:57.628Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2018035250717311,
+      "Technology": 0.03115179669353737,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.29430250034157673,
+      "Media": 0.40333378876895754,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.06940838912419729
+    },
+    "durations": {
+      "Politics": 1477,
+      "Technology": 228,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2154,
+      "Media": 2952,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 508
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3,
+      "Media": 8,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 7319,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 399,
+      "endSec": 1846,
+      "durationSec": 1447,
+      "topic": "Wie alles zusammenkam",
+      "fineSubject": "Community Building",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1847,
+      "endSec": 2673,
+      "durationSec": 826,
+      "topic": "Aktivistische Arbeit und Finanzierung",
+      "fineSubject": "Funding",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 2674,
+      "endSec": 2929,
+      "durationSec": 255,
+      "topic": "Podcast als Community",
+      "fineSubject": "Podcasting",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2929,
+      "endSec": 3875,
+      "durationSec": 946,
+      "topic": "Fame und Medienarbeit",
+      "fineSubject": "Public Relations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3875,
+      "endSec": 4103,
+      "durationSec": 228,
+      "topic": "Die Hoffnungen der Digital Natives",
+      "fineSubject": "Digital Natives",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 4103,
+      "endSec": 4429,
+      "durationSec": 326,
+      "topic": "Asymmetrische Beziehungen",
+      "fineSubject": "Power Dynamics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4430,
+      "endSec": 4857,
+      "durationSec": 427,
+      "topic": "Aktivismus in Österreich",
+      "fineSubject": "Regional Focus",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 4858,
+      "endSec": 5430,
+      "durationSec": 572,
+      "topic": "netzpolitik.org",
+      "fineSubject": "Online Platforms",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 5431,
+      "endSec": 5812,
+      "durationSec": 381,
+      "topic": "Loveblogging",
+      "fineSubject": "Blogging",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5812,
+      "endSec": 6320,
+      "durationSec": 508,
+      "topic": "Zukunftstheater",
+      "fineSubject": "Theater",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 6479,
+      "endSec": 6996,
+      "durationSec": 517,
+      "topic": "Wo geht's hin mit LNP?",
+      "fineSubject": "Future Directions",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 7659,
+      "endSec": 7854,
+      "durationSec": 195,
+      "topic": "Nachrichtenquellen",
+      "fineSubject": "Information Sources",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 7855,
+      "endSec": 7964,
+      "durationSec": 109,
+      "topic": "Sendungsrhythmus",
+      "fineSubject": "Scheduling",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 7964,
+      "endSec": 8157,
+      "durationSec": 193,
+      "topic": "Sendungsformat",
+      "fineSubject": "Format",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8158,
+      "endSec": 8382,
+      "durationSec": 224,
+      "topic": "Würste und Gesetze",
+      "fineSubject": "Legislation",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 8669,
+      "endSec": 8834,
+      "durationSec": 165,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 17
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "episodeNumber": 284,
+  "title": "FS284 Atomuhr? Nein, danke",
+  "generatedAt": "2026-01-05T15:17:51.119Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4878811571540266,
+      "Software": 0.2054339327599687,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.13702111024237687,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.044761532447224396,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.11679046129788898,
+      "Event": 0.008111806098514465
+    },
+    "durations": {
+      "Technology": 4992,
+      "Software": 2102,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1402,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 458,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1195,
+      "Event": 83
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 5,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 5,
+      "Event": 1
+    },
+    "totalDurationSec": 10232,
+    "totalTopics": 23
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 278,
+      "endSec": 361,
+      "durationSec": 83,
+      "topic": "38C3",
+      "fineSubject": "38C3",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 362,
+      "endSec": 972,
+      "durationSec": 610,
+      "topic": "SUBSCRIBE 11",
+      "fineSubject": "SUBSCRIBE 11",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1363,
+      "endSec": 2155,
+      "durationSec": 792,
+      "topic": "Schallplattenspieler",
+      "fineSubject": "Schallplattenspieler",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5620,
+      "endSec": 7023,
+      "durationSec": 1403,
+      "topic": "Neue iPhones 16",
+      "fineSubject": "Neue iPhones 16",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7024,
+      "endSec": 7961,
+      "durationSec": 937,
+      "topic": "Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7961,
+      "endSec": 9070,
+      "durationSec": 1109,
+      "topic": "AirPods",
+      "fineSubject": "AirPods",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9070,
+      "endSec": 9265,
+      "durationSec": 195,
+      "topic": "Elektrisch ablösbare Batterien",
+      "fineSubject": "Elektrisch ablösbare Batterien",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9265,
+      "endSec": 9380,
+      "durationSec": 115,
+      "topic": "Apple Watch Kleinigkeiten",
+      "fineSubject": "Apple Watch Kleinigkeiten",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 9381,
+      "endSec": 9554,
+      "durationSec": 173,
+      "topic": "iOS 18",
+      "fineSubject": "iOS 18",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 9554,
+      "endSec": 10012,
+      "durationSec": 458,
+      "topic": "Passwörter",
+      "fineSubject": "Passwörter",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10013,
+      "endSec": 11246,
+      "durationSec": 1233,
+      "topic": "iPhone und eSIM Migration",
+      "fineSubject": "iPhone und eSIM Migration",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 11247,
+      "endSec": 11428,
+      "durationSec": 181,
+      "topic": "iOS 18: Kalender und Messages",
+      "fineSubject": "iOS 18: Kalender und Messages",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 11751,
+      "endSec": 11868,
+      "durationSec": 117,
+      "topic": "Screen Recording Prompts",
+      "fineSubject": "Screen Recording Prompts",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 11868,
+      "endSec": 11961,
+      "durationSec": 93,
+      "topic": "iStat Menus",
+      "fineSubject": "iStat Menus",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 11962,
+      "endSec": 13500,
+      "durationSec": 1538,
+      "topic": "VisionOS 2.0",
+      "fineSubject": "VisionOS 2.0",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 13500,
+      "endSec": 13886,
+      "durationSec": 386,
+      "topic": "GeoGuessr",
+      "fineSubject": "GeoGuessr",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 13886,
+      "endSec": 13931,
+      "durationSec": 45,
+      "topic": "Past Puzzle",
+      "fineSubject": "Past Puzzle",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 13932,
+      "endSec": 14215,
+      "durationSec": 283,
+      "topic": "Sudoku",
+      "fineSubject": "Sudoku",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 14216,
+      "endSec": 14627,
+      "durationSec": 411,
+      "topic": "Neues Zelda",
+      "fineSubject": "Neues Zelda",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 14627,
+      "endSec": 14697,
+      "durationSec": 70,
+      "topic": "Talos Principle 2",
+      "fineSubject": "Talos Principle 2",
+      "topicIndex": 22
+    }
+  ]
+}

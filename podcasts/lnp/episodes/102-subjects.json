@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 102,
+  "title": "LNP102 Nur wenige Admins haben Zugriff",
+  "generatedAt": "2026-01-05T15:17:57.588Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7391223155929039,
+      "Technology": 0,
+      "Law": 0.2608776844070962,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3958,
+      "Technology": 0,
+      "Law": 1397,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5355,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 251,
+      "endSec": 2545,
+      "durationSec": 2294,
+      "topic": "Netzpoliitk in der Schweiz",
+      "fineSubject": "Netzpolitik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 4196,
+      "endSec": 5593,
+      "durationSec": 1397,
+      "topic": "EuGH: Suchmaschinen und personenbezogene Daten",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5593,
+      "endSec": 6562,
+      "durationSec": 969,
+      "topic": "Drei Bundesminister zur deutschen IT-Politik",
+      "fineSubject": "IT-Politik",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6562,
+      "endSec": 6802,
+      "durationSec": 240,
+      "topic": "Netzneutralität in den USA",
+      "fineSubject": "Netzneutralität",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6802,
+      "endSec": 7257,
+      "durationSec": 455,
+      "topic": "Bundestags-Ausschuss \"Digital Agenda\" zu IT-Sicherheit",
+      "fineSubject": "IT-Sicherheit",
+      "topicIndex": 5
+    }
+  ]
+}

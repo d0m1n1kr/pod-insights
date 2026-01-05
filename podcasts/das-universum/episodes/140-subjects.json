@@ -1,0 +1,110 @@
+{
+  "episodeNumber": 140,
+  "title": "DU140 - Ist ja irre… auf dem Mars gibt’s Leoparden",
+  "generatedAt": "2026-01-05T15:18:22.112Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.994447529150472,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0.00555247084952804,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 3582,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 20,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 0,
+      "Kultur": 2,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 1,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 3602,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 1484,
+      "durationSec": 1484,
+      "topic": "Erntemond und seine Bedeutung",
+      "fineSubject": "Mondphasen",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Bildung",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "Workshop für Nationalpark-Ranger_innen",
+      "fineSubject": "Workshops",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1606,
+      "endSec": 1808,
+      "durationSec": 202,
+      "topic": "Marsrover Perseverance und seine Entdeckungen",
+      "fineSubject": "Mars",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1768,
+      "endSec": 3664,
+      "durationSec": 1896,
+      "topic": "Fragen aus der Hörerschaft zu astronomischen Themen",
+      "fineSubject": "Allgemeine Fragen",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Astronomische Lyrik und Gedichte",
+      "fineSubject": "Lyrik",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Carry On-Filmreihe und deren wissenschaftliche Aspekte",
+      "fineSubject": "Film",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

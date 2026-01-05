@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 274,
+  "title": "LNP274 Hau den Lukas, frag den Minister!",
+  "generatedAt": "2026-01-05T15:17:57.610Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.18560975609756097,
+      "Technology": 0,
+      "Law": 0.16658536585365855,
+      "Security": 0.07292682926829268,
+      "Social": 0,
+      "Media": 0.26707317073170733,
+      "Health": 0.2819512195121951,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.025853658536585365,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 761,
+      "Technology": 0,
+      "Law": 683,
+      "Security": 299,
+      "Social": 0,
+      "Media": 1095,
+      "Health": 1156,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 106,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 2,
+      "Social": 0,
+      "Media": 2,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4100,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 41,
+      "endSec": 157,
+      "durationSec": 116,
+      "topic": "Feedback: AFD Denunziationsplattform",
+      "fineSubject": "Denunciation Platforms",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 158,
+      "endSec": 325,
+      "durationSec": 167,
+      "topic": "Feedback: Prozentpunkte",
+      "fineSubject": "Election Metrics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 325,
+      "endSec": 431,
+      "durationSec": 106,
+      "topic": "Feedback: Amazon-Links",
+      "fineSubject": "Affiliate Links",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 432,
+      "endSec": 576,
+      "durationSec": 144,
+      "topic": "Nachtrag: Cyberwar-Buch",
+      "fineSubject": "Cyberwarfare",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 576,
+      "endSec": 858,
+      "durationSec": 282,
+      "topic": "Wahlen und Wahlcomputer",
+      "fineSubject": "Voting Technology",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 858,
+      "endSec": 1210,
+      "durationSec": 352,
+      "topic": "Boomberg-Story bleibt zweifelhaft",
+      "fineSubject": "Story Credibility",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 1211,
+      "endSec": 2367,
+      "durationSec": 1156,
+      "topic": "Sicherheitslücken bei “digitaler Gesundheitsakte vivy”",
+      "fineSubject": "Digital Health Records",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 2367,
+      "endSec": 2522,
+      "durationSec": 155,
+      "topic": "Dual-Use Leak",
+      "fineSubject": "Dual-Use Technologies",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2523,
+      "endSec": 2719,
+      "durationSec": 196,
+      "topic": "Frag den Minister: Maaßen",
+      "fineSubject": "Political Figures",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 3320,
+      "endSec": 3730,
+      "durationSec": 410,
+      "topic": "Sigi Maurer: Rechtshilfefonds gegen Hass im Netz",
+      "fineSubject": "Online Harassment",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Law",
+      "startSec": 3730,
+      "endSec": 4003,
+      "durationSec": 273,
+      "topic": "Massenüberwachung vor dem EGMR",
+      "fineSubject": "Surveillance",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 4004,
+      "endSec": 4747,
+      "durationSec": 743,
+      "topic": "YouTuber aller Länder, vereinigt euch!",
+      "fineSubject": "Content Creation",
+      "topicIndex": 12
+    }
+  ]
+}

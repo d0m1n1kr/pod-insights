@@ -1,0 +1,164 @@
+{
+  "episodeNumber": 109,
+  "title": "CRE109 Computer-Telefonie-Integration",
+  "generatedAt": "2026-01-05T15:17:54.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.2727272727272727,
+      "Technology": 0.5454545454545454,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.18181818181818182,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 3,
+      "Technology": 6,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 2,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Computer-Telefonie-Integration",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hardware-Technologie",
+      "fineSubject": "Telephony",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Protokolle",
+      "fineSubject": "Protocols",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anwendungen und Trends",
+      "fineSubject": "Applications",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Signalisierung und Sprachencoding",
+      "fineSubject": "Signal Processing",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wählverfahren",
+      "fineSubject": "Dialing Methods",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Durchwahlen und automatische Assistenten",
+      "fineSubject": "Call Management",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "moderne Bussysteme",
+      "fineSubject": "Bus Systems",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Spracherkennung und Sprachsynthese",
+      "fineSubject": "Speech Processing",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Telefon-APIs",
+      "fineSubject": "APIs",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "freie Software zur Entwicklung von Telefonie-Sprachanwendungen",
+      "fineSubject": "Open Source",
+      "topicIndex": 10,
+      "untimed": true
+    }
+  ]
+}

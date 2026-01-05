@@ -1,0 +1,234 @@
+{
+  "episodeNumber": 256,
+  "title": "FS256 Physisch virtuell",
+  "generatedAt": "2026-01-05T15:17:51.111Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.16651849217638692,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.20705903271692747,
+      "Culture": 0.021248221906116645,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.605174253200569
+    },
+    "durations": {
+      "Technology": 1873,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 2329,
+      "Culture": 239,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 6807
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 6,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 11
+    },
+    "totalDurationSec": 11248,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 421,
+      "endSec": 918,
+      "durationSec": 497,
+      "topic": "Gast: Noujoum",
+      "fineSubject": "Guests",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 918,
+      "endSec": 1135,
+      "durationSec": 217,
+      "topic": "Gast: Lars",
+      "fineSubject": "Guests",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1136,
+      "endSec": 2008,
+      "durationSec": 872,
+      "topic": "Audio und Internet",
+      "fineSubject": "Audio",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 2008,
+      "endSec": 2965,
+      "durationSec": 957,
+      "topic": "rC3 Erwartungen",
+      "fineSubject": "rC3",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Event",
+      "startSec": 2966,
+      "endSec": 3156,
+      "durationSec": 190,
+      "topic": "rC3 Struktur und Design",
+      "fineSubject": "rC3",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Event",
+      "startSec": 3156,
+      "endSec": 3793,
+      "durationSec": 637,
+      "topic": "rC3 First Contact",
+      "fineSubject": "rC3",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Event",
+      "startSec": 3793,
+      "endSec": 5327,
+      "durationSec": 1534,
+      "topic": "Die Villa",
+      "fineSubject": "Location",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Event",
+      "startSec": 5327,
+      "endSec": 6137,
+      "durationSec": 810,
+      "topic": "rC3 Highlights",
+      "fineSubject": "Highlights",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6138,
+      "endSec": 7139,
+      "durationSec": 1001,
+      "topic": "Technik der Villa",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 7139,
+      "endSec": 7986,
+      "durationSec": 847,
+      "topic": "Trollresistenz",
+      "fineSubject": "Community",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 7986,
+      "endSec": 8312,
+      "durationSec": 326,
+      "topic": "Audio Communities",
+      "fineSubject": "Community",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Event",
+      "startSec": 8313,
+      "endSec": 8737,
+      "durationSec": 424,
+      "topic": "Multimediales Theater und Online-Festivals",
+      "fineSubject": "Online Festivals",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Event",
+      "startSec": 8738,
+      "endSec": 8947,
+      "durationSec": 209,
+      "topic": "rC3 Jam Sessions",
+      "fineSubject": "rC3",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Event",
+      "startSec": 8947,
+      "endSec": 10193,
+      "durationSec": 1246,
+      "topic": "Dauercongress",
+      "fineSubject": "rC3",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Social",
+      "startSec": 10193,
+      "endSec": 10402,
+      "durationSec": 209,
+      "topic": "Zugänglichkeit",
+      "fineSubject": "Accessibility",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Social",
+      "startSec": 10402,
+      "endSec": 10635,
+      "durationSec": 233,
+      "topic": "Hackerautonomie",
+      "fineSubject": "Autonomy",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Event",
+      "startSec": 10636,
+      "endSec": 11111,
+      "durationSec": 475,
+      "topic": "rC3 Fazit",
+      "fineSubject": "rC3",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Event",
+      "startSec": 11112,
+      "endSec": 11288,
+      "durationSec": 176,
+      "topic": "rC3 Konferenz",
+      "fineSubject": "rC3",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Event",
+      "startSec": 11288,
+      "endSec": 11437,
+      "durationSec": 149,
+      "topic": "rC3 Teleshopping",
+      "fineSubject": "rC3",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Culture",
+      "startSec": 11438,
+      "endSec": 11677,
+      "durationSec": 239,
+      "topic": "Kulturelle Verschmelzung",
+      "fineSubject": "Cultural Fusion",
+      "topicIndex": 19
+    }
+  ]
+}

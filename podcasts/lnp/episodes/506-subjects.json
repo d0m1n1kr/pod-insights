@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 506,
+  "title": "LNP506 Als erstes am Frosch geleckt",
+  "generatedAt": "2026-01-05T15:17:57.642Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3827027027027027,
+      "Technology": 0.16378378378378378,
+      "Law": 0,
+      "Security": 0.07063063063063063,
+      "Social": 0,
+      "Media": 0.09441441441441441,
+      "Health": 0.1398198198198198,
+      "Feedback": 0.04108108108108108,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.10756756756756757
+    },
+    "durations": {
+      "Politics": 2124,
+      "Technology": 909,
+      "Law": 0,
+      "Security": 392,
+      "Social": 0,
+      "Media": 524,
+      "Health": 776,
+      "Feedback": 228,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 597
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 1,
+      "Feedback": 1,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 2
+    },
+    "totalDurationSec": 5550,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 190,
+      "endSec": 971,
+      "durationSec": 781,
+      "topic": "Ampel",
+      "fineSubject": "Traffic Light System",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 971,
+      "endSec": 1199,
+      "durationSec": 228,
+      "topic": "Feedback: Schachbretter und Rubik's Cube",
+      "fineSubject": "Games",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1200,
+      "endSec": 1976,
+      "durationSec": 776,
+      "topic": "Feedback: elektronische Patientenakte",
+      "fineSubject": "Patient Records",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1976,
+      "endSec": 3319,
+      "durationSec": 1343,
+      "topic": "Trump und die Wahl",
+      "fineSubject": "Elections",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3320,
+      "endSec": 4004,
+      "durationSec": 684,
+      "topic": "Modern Solution",
+      "fineSubject": "Solutions",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 4004,
+      "endSec": 4396,
+      "durationSec": 392,
+      "topic": "BND",
+      "fineSubject": "Intelligence Agency",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4397,
+      "endSec": 4622,
+      "durationSec": 225,
+      "topic": "Unterseekabel gekappt",
+      "fineSubject": "Undersea Cables",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 4622,
+      "endSec": 5146,
+      "durationSec": 524,
+      "topic": "Infowars",
+      "fineSubject": "Information Wars",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5146,
+      "endSec": 5417,
+      "durationSec": 271,
+      "topic": "Satanische Verse in Indien nicht mehr verboten",
+      "fineSubject": "Literature",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5418,
+      "endSec": 5744,
+      "durationSec": 326,
+      "topic": "Fake Halloween Parade",
+      "fineSubject": "Events",
+      "topicIndex": 9
+    }
+  ]
+}

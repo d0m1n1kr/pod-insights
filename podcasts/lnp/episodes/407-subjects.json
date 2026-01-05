@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 407,
+  "title": "LNP407 Institut für Bullshit-Bingo-Bashing",
+  "generatedAt": "2026-01-05T15:17:57.629Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.0595695618754804,
+      "Technology": 0.28823981552651806,
+      "Law": 0,
+      "Security": 0.18908531898539585,
+      "Social": 0,
+      "Media": 0.14738662567255956,
+      "Health": 0,
+      "Feedback": 0.2646041506533436,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.05111452728670254
+    },
+    "durations": {
+      "Politics": 310,
+      "Technology": 1500,
+      "Law": 0,
+      "Security": 984,
+      "Social": 0,
+      "Media": 767,
+      "Health": 0,
+      "Feedback": 1377,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 266
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 3,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 5204,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 803,
+      "endSec": 1405,
+      "durationSec": 602,
+      "topic": "Feedback: Wahlhelfer",
+      "fineSubject": "Helpers",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1406,
+      "endSec": 1820,
+      "durationSec": 414,
+      "topic": "Feedback: Pur-Abos",
+      "fineSubject": "Pure",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1820,
+      "endSec": 2181,
+      "durationSec": 361,
+      "topic": "Feedback: Bullshit-Bingo-Studien",
+      "fineSubject": "Bullshit-Bingo",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2182,
+      "endSec": 2448,
+      "durationSec": 266,
+      "topic": "Avocadolf",
+      "fineSubject": "Avocadolf",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2448,
+      "endSec": 2883,
+      "durationSec": 435,
+      "topic": "Kaseya",
+      "fineSubject": "Kaseya",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2883,
+      "endSec": 2995,
+      "durationSec": 112,
+      "topic": "GFF gegen Pegasus",
+      "fineSubject": "Pegasus",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2996,
+      "endSec": 3306,
+      "durationSec": 310,
+      "topic": "cduconnect",
+      "fineSubject": "CDU",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3306,
+      "endSec": 3743,
+      "durationSec": 437,
+      "topic": "Datenleck bei Modern Solution",
+      "fineSubject": "Modern Solution",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 3744,
+      "endSec": 4511,
+      "durationSec": 767,
+      "topic": "Facebook löscht Querdenker-Kanäle",
+      "fineSubject": "Facebook",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4511,
+      "endSec": 6011,
+      "durationSec": 1500,
+      "topic": "Digitaler Führerschein",
+      "fineSubject": "Digital Driver's License",
+      "topicIndex": 10
+    }
+  ]
+}

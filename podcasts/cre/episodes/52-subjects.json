@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 52,
+  "title": "CRE052 Voice over IP Systeme",
+  "generatedAt": "2026-01-05T15:17:54.369Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.25,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.75,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 1,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 3,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Funktionsweise von VoIP-Systemen",
+      "fineSubject": "VoIP",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technische Grundlagen der Internettelefonie",
+      "fineSubject": "Internet",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vergleich zwischen Internettelefonie und klassischer Telefonie",
+      "fineSubject": "Telefonie",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Freie Softwareprojekte für Telefonanlagen",
+      "fineSubject": "Telefonanlagen",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

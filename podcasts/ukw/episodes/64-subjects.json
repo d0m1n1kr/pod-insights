@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 64,
+  "title": "UKW064 Corona Weekly: Condition Ultra",
+  "generatedAt": "2026-01-05T15:18:03.015Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 9919,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 19,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9919,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 79,
+      "endSec": 317,
+      "durationSec": 238,
+      "topic": "Hintergrundinformationen",
+      "fineSubject": "Background Information",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 318,
+      "endSec": 1563,
+      "durationSec": 1245,
+      "topic": "Neues zur Risikotabelle",
+      "fineSubject": "Risk Assessment",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1563,
+      "endSec": 2058,
+      "durationSec": 495,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Situation in Germany",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2058,
+      "endSec": 2441,
+      "durationSec": 383,
+      "topic": "Dispersion, Zufall und neue Varianten",
+      "fineSubject": "Variants and Transmission",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2442,
+      "endSec": 2748,
+      "durationSec": 306,
+      "topic": "B1117 und Kinder",
+      "fineSubject": "Children and COVID-19",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2748,
+      "endSec": 3263,
+      "durationSec": 515,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "Regional Situation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3698,
+      "endSec": 3884,
+      "durationSec": 186,
+      "topic": "Pollenflug",
+      "fineSubject": "Allergies",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3885,
+      "endSec": 4493,
+      "durationSec": 608,
+      "topic": "Die Pandemie vorhersagen",
+      "fineSubject": "Pandemic Predictions",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4494,
+      "endSec": 5220,
+      "durationSec": 726,
+      "topic": "Situation im Ausland",
+      "fineSubject": "International Situation",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 5220,
+      "endSec": 5964,
+      "durationSec": 744,
+      "topic": "Impfkampagne und Verfügbarkeit von Impfstoffen",
+      "fineSubject": "Vaccination Campaign",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 5965,
+      "endSec": 6264,
+      "durationSec": 299,
+      "topic": "Impfreihenfolge",
+      "fineSubject": "Vaccination Order",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 6264,
+      "endSec": 6614,
+      "durationSec": 350,
+      "topic": "Impfsimulator",
+      "fineSubject": "Vaccination Simulation",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 6615,
+      "endSec": 6903,
+      "durationSec": 288,
+      "topic": "Digitale Impfquotenmonitoring",
+      "fineSubject": "Digital Monitoring",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 6904,
+      "endSec": 7484,
+      "durationSec": 580,
+      "topic": "AstraZeneca und die Skeptiker",
+      "fineSubject": "Vaccine Hesitancy",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 7484,
+      "endSec": 7907,
+      "durationSec": 423,
+      "topic": "Neuer Impfstoff von Johnson & Johnson",
+      "fineSubject": "New Vaccines",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Health",
+      "startSec": 7907,
+      "endSec": 8603,
+      "durationSec": 696,
+      "topic": "Human Challgenges",
+      "fineSubject": "Human Challenges",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Health",
+      "startSec": 8604,
+      "endSec": 8883,
+      "durationSec": 279,
+      "topic": "Auswirkung von Impfungen auf Long Covid",
+      "fineSubject": "Long COVID",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Health",
+      "startSec": 8883,
+      "endSec": 9417,
+      "durationSec": 534,
+      "topic": "Wahrscheinlichkeiten von Hospitalisierung und Tod",
+      "fineSubject": "Hospitalization Risks",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Health",
+      "startSec": 9418,
+      "endSec": 10442,
+      "durationSec": 1024,
+      "topic": "Schnelltests und Testläufe",
+      "fineSubject": "Testing",
+      "topicIndex": 19
+    }
+  ]
+}

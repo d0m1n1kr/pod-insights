@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 249,
+  "title": "Mi249 – „Gefühlte Kompetenz“",
+  "generatedAt": "2026-01-05T15:18:17.378Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.24312896405919662,
+      "Culture": 0.07108879492600423,
+      "Wissenschaft": 0,
+      "Health": 0.3311310782241015,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.2727272727272727,
+      "Physik": 0,
+      "Education": 0.08192389006342495,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 920,
+      "Culture": 269,
+      "Wissenschaft": 0,
+      "Health": 1253,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1032,
+      "Physik": 0,
+      "Education": 310,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 3784,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Education",
+      "startSec": 220,
+      "endSec": 530,
+      "durationSec": 310,
+      "topic": "Bildungsauftrag Podcast",
+      "fineSubject": "Podcast",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 530,
+      "endSec": 1311,
+      "durationSec": 781,
+      "topic": "Picture a Science Film",
+      "fineSubject": "Science Film",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1311,
+      "endSec": 1562,
+      "durationSec": 251,
+      "topic": "Science Sheroes Podcast",
+      "fineSubject": "Podcast",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1562,
+      "endSec": 1831,
+      "durationSec": 269,
+      "topic": "Pint of Science Duisburg",
+      "fineSubject": "Science Festival",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2108,
+      "endSec": 2648,
+      "durationSec": 540,
+      "topic": "Science Notes",
+      "fineSubject": "Notes",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 5154,
+      "endSec": 5534,
+      "durationSec": 380,
+      "topic": "Snackable Science: Was wiegt ne Wolke?",
+      "fineSubject": "Cloud Weight",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5534,
+      "endSec": 6787,
+      "durationSec": 1253,
+      "topic": "Thema 2: \"Eau de Kannibal\"",
+      "fineSubject": "Cannibalism",
+      "topicIndex": 8
+    }
+  ]
+}

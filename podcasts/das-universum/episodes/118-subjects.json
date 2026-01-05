@@ -1,0 +1,118 @@
+{
+  "episodeNumber": 118,
+  "title": "DU118 - Wo ist die Tür zum Sonnensystem?",
+  "generatedAt": "2026-01-05T15:18:22.108Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.5050426687354539,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.43289371605896043,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0.062063615205585725,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 651,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 558,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 80,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 3,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 1,
+      "Physics": 0
+    },
+    "totalDurationSec": 1289,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 1033,
+      "endSec": 1586,
+      "durationSec": 553,
+      "topic": "Dauerhafter Einfang interstellarer Objekte",
+      "fineSubject": "Gravitation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 1546,
+      "endSec": 1626,
+      "durationSec": 80,
+      "topic": "Computersimulationen in der Astronomie",
+      "fineSubject": "Simulation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Physik",
+      "startSec": 1586,
+      "endSec": 1639,
+      "durationSec": 53,
+      "topic": "Gravitationswechselwirkungen",
+      "fineSubject": "Gravitation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Physik",
+      "startSec": 1599,
+      "endSec": 1939,
+      "durationSec": 340,
+      "topic": "Kepler-Energie",
+      "fineSubject": "Energie",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Physik",
+      "startSec": 1899,
+      "endSec": 2064,
+      "durationSec": 165,
+      "topic": "Hill-Sphäre",
+      "fineSubject": "Gravitation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 2316,
+      "endSec": 2414,
+      "durationSec": 98,
+      "topic": "Eingang ins Sonnensystem",
+      "fineSubject": "Sonnensystem",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Interstellare Tunnel",
+      "fineSubject": "Raumzeit",
+      "topicIndex": 1,
+      "untimed": true
+    }
+  ]
+}

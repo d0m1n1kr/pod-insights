@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 306,
+  "title": "Mi306 - \"Fakepost von der Zahlstelle\"",
+  "generatedAt": "2026-01-05T15:18:17.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.8747553816046967,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.12524461839530332,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1341,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 192,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 1533,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1968,
+      "endSec": 2160,
+      "durationSec": 192,
+      "topic": "ÖPNV on demand",
+      "fineSubject": "Public Transport",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3898,
+      "endSec": 5239,
+      "durationSec": 1341,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Content",
+      "topicIndex": 4
+    }
+  ]
+}

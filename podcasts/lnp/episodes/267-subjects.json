@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 267,
+  "title": "LNP267 Wenn ein Postillon-Artikel nur noch einen Tag hält",
+  "generatedAt": "2026-01-05T15:17:57.609Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5583584337349398,
+      "Technology": 0,
+      "Law": 0.050640060240963854,
+      "Security": 0,
+      "Social": 0.27259036144578314,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.11841114457831325,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2966,
+      "Technology": 0,
+      "Law": 269,
+      "Security": 0,
+      "Social": 1448,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 629,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5312,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 100,
+      "endSec": 1192,
+      "durationSec": 1092,
+      "topic": "Hans-Georg Maaßen und die AfD",
+      "fineSubject": "Right-Wing Extremism",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1193,
+      "endSec": 2137,
+      "durationSec": 944,
+      "topic": "EU-Parlament befürwortet Uploadfilter und EU-Leistungsschutzrecht",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2138,
+      "endSec": 2407,
+      "durationSec": 269,
+      "topic": "GCHQ-Verfahren in Strasbourg",
+      "fineSubject": "International Law",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2407,
+      "endSec": 3337,
+      "durationSec": 930,
+      "topic": "Die wichtigsten Fragen zum Brexit",
+      "fineSubject": "Brexit",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3337,
+      "endSec": 4785,
+      "durationSec": 1448,
+      "topic": "Hetzen in den Netzen",
+      "fineSubject": "Online Behavior",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 4971,
+      "endSec": 5600,
+      "durationSec": 629,
+      "topic": "EU-Digitalsteuer",
+      "fineSubject": "Digital Taxation",
+      "topicIndex": 5
+    }
+  ]
+}

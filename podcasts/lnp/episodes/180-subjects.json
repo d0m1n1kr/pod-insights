@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 180,
+  "title": "LNP180 Krieg ist Frieden und Kupfer ist Glasfaser",
+  "generatedAt": "2026-01-05T15:17:57.597Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.41644256626968884,
+      "Technology": 0.20322704571648098,
+      "Law": 0.07510564733000384,
+      "Security": 0.1415674222051479,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.06262005378409527,
+      "Privacy": 0.10103726469458317,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2168,
+      "Technology": 1058,
+      "Law": 391,
+      "Security": 737,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 326,
+      "Privacy": 526,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 5206,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 109,
+      "endSec": 256,
+      "durationSec": 147,
+      "topic": "Feedback: Die Anwälte",
+      "fineSubject": "Feedback / Lawyers",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 256,
+      "endSec": 500,
+      "durationSec": 244,
+      "topic": "Feedback: Panama Papers",
+      "fineSubject": "Feedback / Panama Papers",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 501,
+      "endSec": 834,
+      "durationSec": 333,
+      "topic": "Cyberkrieg in D",
+      "fineSubject": "Cyber Warfare / Germany",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 835,
+      "endSec": 1063,
+      "durationSec": 228,
+      "topic": "Cyberkrieg USA/ISIS",
+      "fineSubject": "Cyber Warfare / USA/ISIS",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1064,
+      "endSec": 1553,
+      "durationSec": 489,
+      "topic": "Russenverschwörung",
+      "fineSubject": "Conspiracy / Russian Conspiracy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1554,
+      "endSec": 1923,
+      "durationSec": 369,
+      "topic": "Neuer BND-Chef",
+      "fineSubject": "Intelligence / New BND Chief",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1924,
+      "endSec": 3127,
+      "durationSec": 1203,
+      "topic": "Netzpolitik-Affäre",
+      "fineSubject": "Network Policy / Network Policy Affair",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3127,
+      "endSec": 3395,
+      "durationSec": 268,
+      "topic": "Bestandsdatenauskunft: Anonyme SIM-Karten adé",
+      "fineSubject": "Data Protection / Data Access for Anonymous SIM Cards",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3396,
+      "endSec": 4454,
+      "durationSec": 1058,
+      "topic": "BNetzA unterstützt T-Vectoring",
+      "fineSubject": "Infrastructure / T-Vectoring",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4454,
+      "endSec": 4712,
+      "durationSec": 258,
+      "topic": "Adblocker und die e-Privacy-Richtlinie",
+      "fineSubject": "Regulation / e-Privacy Directive",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 4713,
+      "endSec": 4889,
+      "durationSec": 176,
+      "topic": "FBIphone",
+      "fineSubject": "Law Enforcement / FBI iPhone",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Business",
+      "startSec": 4889,
+      "endSec": 5031,
+      "durationSec": 142,
+      "topic": "Microsoft will Kunden benachrichtigen",
+      "fineSubject": "Customer Relations / Microsoft Notification",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5032,
+      "endSec": 5139,
+      "durationSec": 107,
+      "topic": "TTIP-Gegendemo in Hannover",
+      "fineSubject": "Protests / TTIP Counter-Demo",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Business",
+      "startSec": 5139,
+      "endSec": 5323,
+      "durationSec": 184,
+      "topic": "Kartellverfahren gegen Google",
+      "fineSubject": "Competition / Google Antitrust",
+      "topicIndex": 13
+    }
+  ]
+}

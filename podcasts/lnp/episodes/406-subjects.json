@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 406,
+  "title": "LNP406 Schreibtischtäter ohne Keyboard",
+  "generatedAt": "2026-01-05T15:17:57.629Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.35243741765480896,
+      "Technology": 0.19675010979358806,
+      "Law": 0,
+      "Security": 0.33992094861660077,
+      "Social": 0,
+      "Media": 0.10210803689064558,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.00878348704435661,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1605,
+      "Technology": 896,
+      "Law": 0,
+      "Security": 1548,
+      "Social": 0,
+      "Media": 465,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 40,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 3,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4554,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 389,
+      "endSec": 787,
+      "durationSec": 398,
+      "topic": "Feedback: Pur-Abos",
+      "fineSubject": "Voting System",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 788,
+      "endSec": 1495,
+      "durationSec": 707,
+      "topic": "Feedback: Bundestagswahl",
+      "fineSubject": "Elections",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1496,
+      "endSec": 1577,
+      "durationSec": 81,
+      "topic": "Feedback: Strategisches Wählen",
+      "fineSubject": "Strategic Voting",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1577,
+      "endSec": 1772,
+      "durationSec": 195,
+      "topic": "Feedback: Wahl-O-Mat",
+      "fineSubject": "Voting Tools",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 1773,
+      "endSec": 1813,
+      "durationSec": 40,
+      "topic": "Feedback: Telekom-Anteile",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1813,
+      "endSec": 1877,
+      "durationSec": 64,
+      "topic": "Feedback: Bundesminister Helge Braun",
+      "fineSubject": "Government Officials",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1878,
+      "endSec": 2774,
+      "durationSec": 896,
+      "topic": "40 Jahre CCC",
+      "fineSubject": "Digital Culture",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 2775,
+      "endSec": 3320,
+      "durationSec": 545,
+      "topic": "BKA kauft NSO Pegasus",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3320,
+      "endSec": 3911,
+      "durationSec": 591,
+      "topic": "Citizenlab meldet NSO zero-day",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 3912,
+      "endSec": 4324,
+      "durationSec": 412,
+      "topic": "Cyber-Sicherheitsstrategie",
+      "fineSubject": "Cybersecurity Strategy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4324,
+      "endSec": 4484,
+      "durationSec": 160,
+      "topic": "Bundestag beschließt Cell Broadcast",
+      "fineSubject": "Emergency Services",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 4484,
+      "endSec": 4949,
+      "durationSec": 465,
+      "topic": "Attila Hildmann hat seine Kanäle verloren",
+      "fineSubject": "Public Figures",
+      "topicIndex": 11
+    }
+  ]
+}

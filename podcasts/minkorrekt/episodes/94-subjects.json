@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 94,
+  "title": "Minkorrekt Folge 94 “Löblicher Kaffee”",
+  "generatedAt": "2026-01-05T15:18:17.361Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.16666666666666666,
+      "Culture": 0,
+      "Wissenschaft": 0.16666666666666666,
+      "Health": 0.3333333333333333,
+      "Technology": 0,
+      "Technologie": 0.16666666666666666,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.16666666666666666,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 1,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 1,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "schwere Linsen",
+      "fineSubject": "Optik",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "kleine Speicher",
+      "fineSubject": "Speichertechnologien",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "anzügliche Selfies",
+      "fineSubject": "Soziale Medien",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Feuchtgebiete",
+      "fineSubject": "Ökologie",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Health",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "löblicher Kaffee",
+      "fineSubject": "Kaffee",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Health",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fingertrainer",
+      "fineSubject": "Fitness",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

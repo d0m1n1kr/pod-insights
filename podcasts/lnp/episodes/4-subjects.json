@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 4,
+  "title": "LNP004 TurboBoost",
+  "generatedAt": "2026-01-05T15:17:57.571Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5645249862712796,
+      "Technology": 0.17188358045030203,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.23064250411861614,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.032948929159802305,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1028,
+      "Technology": 313,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 420,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 60,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 1821,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 148,
+      "endSec": 208,
+      "durationSec": 60,
+      "topic": "Twitter-Anwalt",
+      "fineSubject": "Social Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 208,
+      "endSec": 350,
+      "durationSec": 142,
+      "topic": "Wikileaks",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 794,
+      "endSec": 1214,
+      "durationSec": 420,
+      "topic": "Werner Eiskalt",
+      "fineSubject": "Public Figures",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1214,
+      "endSec": 1590,
+      "durationSec": 376,
+      "topic": "EU-Parlament zu Netzneutralität",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1591,
+      "endSec": 1904,
+      "durationSec": 313,
+      "topic": "Verizon TurboBoost",
+      "fineSubject": "Internet Services",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1904,
+      "endSec": 2414,
+      "durationSec": 510,
+      "topic": "SPD und Vorratsdatenspeicherung",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 8
+    }
+  ]
+}

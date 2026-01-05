@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 250,
+  "title": "LNP250 Vermögensabschöpfungsstelle",
+  "generatedAt": "2026-01-05T15:17:57.607Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.41936706462004925,
+      "Technology": 0,
+      "Law": 0.2069357589539511,
+      "Security": 0.10403638430926662,
+      "Social": 0.08413871517907902,
+      "Media": 0,
+      "Health": 0.13625165813909418,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.04927041879855979,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2213,
+      "Technology": 0,
+      "Law": 1092,
+      "Security": 549,
+      "Social": 444,
+      "Media": 0,
+      "Health": 719,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 260,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 2,
+      "Social": 2,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5277,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 177,
+      "endSec": 260,
+      "durationSec": 83,
+      "topic": "Babylon",
+      "fineSubject": "Social Network",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 260,
+      "endSec": 621,
+      "durationSec": 361,
+      "topic": "Feedback: Not all Facebook User",
+      "fineSubject": "Social Network",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 621,
+      "endSec": 1216,
+      "durationSec": 595,
+      "topic": "Anhörung von Mark Zuckerberg im US-Senat",
+      "fineSubject": "Government Hearing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 1217,
+      "endSec": 1477,
+      "durationSec": 260,
+      "topic": "Bundesregierung zahlt indirekt Millionen Euro an Facebook",
+      "fineSubject": "Corporate Funding",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1477,
+      "endSec": 1573,
+      "durationSec": 96,
+      "topic": "EU-Kommission möchte Zuckerberg auch anhören",
+      "fineSubject": "Government Hearing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 1573,
+      "endSec": 2130,
+      "durationSec": 557,
+      "topic": "Facebook und die DSGVO",
+      "fineSubject": "Data Protection",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2131,
+      "endSec": 2323,
+      "durationSec": 192,
+      "topic": "Rechtsanwaltsregister wegen Sicherheitslücke abgeschaltet",
+      "fineSubject": "Data Breach",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2324,
+      "endSec": 3260,
+      "durationSec": 936,
+      "topic": "Binnen 6 Stunden in die Cloud mit dem neuen Anti-Terror-Paket der EU",
+      "fineSubject": "Legislation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3260,
+      "endSec": 3617,
+      "durationSec": 357,
+      "topic": "Grüne wollen aus PC-Wahl-Hack, beA-Hack und Bundeshack lernen",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3617,
+      "endSec": 4336,
+      "durationSec": 719,
+      "topic": "Medizindatenschutz wird gespahnt",
+      "fineSubject": "Data Protection",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 4337,
+      "endSec": 4760,
+      "durationSec": 423,
+      "topic": "Bayerisches Psychiatriegesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4760,
+      "endSec": 4889,
+      "durationSec": 129,
+      "topic": "USA dürfen weltweit auf Clouds zugreifen",
+      "fineSubject": "International Relations",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4890,
+      "endSec": 5258,
+      "durationSec": 368,
+      "topic": "Der Russe wieder",
+      "fineSubject": "International Relations",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Law",
+      "startSec": 5258,
+      "endSec": 5370,
+      "durationSec": 112,
+      "topic": "Transparenzgesetz: CCC unterliegt",
+      "fineSubject": "Transparency",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5370,
+      "endSec": 5459,
+      "durationSec": 89,
+      "topic": "Russland blockiert Telegram",
+      "fineSubject": "Censorship",
+      "topicIndex": 14
+    }
+  ]
+}

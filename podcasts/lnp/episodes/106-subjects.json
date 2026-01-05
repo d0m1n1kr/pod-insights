@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 106,
+  "title": "LNP106 Irgendwas mit Datenschutz",
+  "generatedAt": "2026-01-05T15:17:57.589Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2925,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2925,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 141,
+      "endSec": 588,
+      "durationSec": 447,
+      "topic": "Snowden sagt dem NSA-UA ab",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 588,
+      "endSec": 985,
+      "durationSec": 397,
+      "topic": "Bundestag bezieht Internet von Verizon",
+      "fineSubject": "Internet Infrastructure",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 986,
+      "endSec": 1753,
+      "durationSec": 767,
+      "topic": "BND hat DE-CIX-Schnorchelei mit NSA geteilt",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1754,
+      "endSec": 2044,
+      "durationSec": 290,
+      "topic": "De Maiziere hat eine Grundsatzrede zum Internet gehalten",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2045,
+      "endSec": 2563,
+      "durationSec": 518,
+      "topic": "US-Repräsentantenhaus votiert gegen NSA-gesponserte Sicherheitslücken",
+      "fineSubject": "Legislation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2563,
+      "endSec": 3069,
+      "durationSec": 506,
+      "topic": "Es beginnt der transatlantische Cyberdialog",
+      "fineSubject": "International Relations",
+      "topicIndex": 5
+    }
+  ]
+}

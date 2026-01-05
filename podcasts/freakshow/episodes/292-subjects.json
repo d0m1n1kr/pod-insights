@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 292,
+  "title": "FS292 Grüße aus Bad Keming",
+  "generatedAt": "2026-01-05T15:17:51.121Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1446737928492444,
+      "Software": 0.2036490969406561,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.47152598599336526,
+      "Social": 0.12311094729082196,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.057040176925912275,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1570,
+      "Software": 2210,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 5117,
+      "Social": 1336,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 619,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 5,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 6,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10852,
+    "totalTopics": 23
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 1987,
+      "endSec": 2290,
+      "durationSec": 303,
+      "topic": "FreeCAD",
+      "fineSubject": "FreeCAD",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 2291,
+      "endSec": 2433,
+      "durationSec": 142,
+      "topic": "Blender MCP Server",
+      "fineSubject": "Blender",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 2433,
+      "endSec": 2544,
+      "durationSec": 111,
+      "topic": "three.js",
+      "fineSubject": "three.js",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 2545,
+      "endSec": 3242,
+      "durationSec": 697,
+      "topic": "Dreidimensionale Medien",
+      "fineSubject": "Dreidimensionale Medien",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 3242,
+      "endSec": 3645,
+      "durationSec": 403,
+      "topic": "Tier Lists",
+      "fineSubject": "Tier Lists",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 3645,
+      "endSec": 3994,
+      "durationSec": 349,
+      "topic": "ElixirConf und Konferenzdesign",
+      "fineSubject": "ElixirConf",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 3994,
+      "endSec": 4429,
+      "durationSec": 435,
+      "topic": "Conference Apps",
+      "fineSubject": "Conference Apps",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Events",
+      "startSec": 4430,
+      "endSec": 4700,
+      "durationSec": 270,
+      "topic": "ElixirConf Highlights",
+      "fineSubject": "ElixirConf",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 4700,
+      "endSec": 5505,
+      "durationSec": 805,
+      "topic": "Eurovision Song Contest",
+      "fineSubject": "Eurovision Song Contest",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 5505,
+      "endSec": 5984,
+      "durationSec": 479,
+      "topic": "ESC Voting",
+      "fineSubject": "ESC Voting",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Social",
+      "startSec": 5985,
+      "endSec": 6918,
+      "durationSec": 933,
+      "topic": "Mastotags",
+      "fineSubject": "Mastotags",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 6918,
+      "endSec": 8137,
+      "durationSec": 1219,
+      "topic": "Vibe Coding und Open Source",
+      "fineSubject": "Vibe Coding",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8137,
+      "endSec": 9019,
+      "durationSec": 882,
+      "topic": "Specialized AI Devices",
+      "fineSubject": "AI Devices",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 9020,
+      "endSec": 9554,
+      "durationSec": 534,
+      "topic": "FR A NCIS VS",
+      "fineSubject": "FR A NCIS VS",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 9554,
+      "endSec": 11026,
+      "durationSec": 1472,
+      "topic": "Serienqualität",
+      "fineSubject": "Serienqualität",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Media",
+      "startSec": 11027,
+      "endSec": 12157,
+      "durationSec": 1130,
+      "topic": "Stromausfall auf der iberischen Halbinsel",
+      "fineSubject": "Stromausfall",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12941,
+      "endSec": 13629,
+      "durationSec": 688,
+      "topic": "Applekram Wünsch-Dir-Was",
+      "fineSubject": "Applekram",
+      "topicIndex": 21
+    }
+  ]
+}

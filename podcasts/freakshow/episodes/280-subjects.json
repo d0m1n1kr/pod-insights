@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 280,
+  "title": "FS280 Freund des kubanischen Volkes",
+  "generatedAt": "2026-01-05T15:17:51.119Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.8059807256235828,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.09537981859410431,
+      "Media": 0.0715702947845805,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.027069160997732426
+    },
+    "durations": {
+      "Technology": 5687,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 673,
+      "Media": 505,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 191
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 7056,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 488,
+      "endSec": 697,
+      "durationSec": 209,
+      "topic": "LNP500",
+      "fineSubject": "Podcast Episode",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 1962,
+      "endSec": 2153,
+      "durationSec": 191,
+      "topic": "Podstock 2024",
+      "fineSubject": "Podstock 2024",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3031,
+      "endSec": 6037,
+      "durationSec": 3006,
+      "topic": "Apple und das DMA",
+      "fineSubject": "Digital Markets Act",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6038,
+      "endSec": 6401,
+      "durationSec": 363,
+      "topic": "Apple Intelligence und DMA",
+      "fineSubject": "Apple Intelligence",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6402,
+      "endSec": 7391,
+      "durationSec": 989,
+      "topic": "Private Cloud Compute",
+      "fineSubject": "Private Cloud Compute",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7391,
+      "endSec": 7812,
+      "durationSec": 421,
+      "topic": "Backmarket und iPhone Model Regions",
+      "fineSubject": "iPhone Model Regions",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7813,
+      "endSec": 8721,
+      "durationSec": 908,
+      "topic": "iPad Air M2",
+      "fineSubject": "iPad Air M2",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8722,
+      "endSec": 9395,
+      "durationSec": 673,
+      "topic": "Mt. Gox",
+      "fineSubject": "Mt. Gox",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 9887,
+      "endSec": 10183,
+      "durationSec": 296,
+      "topic": "Veloconcerts",
+      "fineSubject": "Veloconcerts",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 389,
+  "title": "LNP389 Spaßbremse in Zeiten der Not",
+  "generatedAt": "2026-01-05T15:17:57.627Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.10554197229013855,
+      "Technology": 0.6811328443357784,
+      "Law": 0.03606356968215159,
+      "Security": 0,
+      "Social": 0.09861450692746536,
+      "Media": 0,
+      "Health": 0.025876120619396904,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.052770986145069275
+    },
+    "durations": {
+      "Politics": 518,
+      "Technology": 3343,
+      "Law": 177,
+      "Security": 0,
+      "Social": 484,
+      "Media": 0,
+      "Health": 127,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 259
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 4,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4908,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 162,
+      "endSec": 404,
+      "durationSec": 242,
+      "topic": "Feedback: Corona-Warn-App",
+      "fineSubject": "Apps",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 405,
+      "endSec": 532,
+      "durationSec": 127,
+      "topic": "Feedback: MRSA",
+      "fineSubject": "Infections",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 532,
+      "endSec": 2915,
+      "durationSec": 2383,
+      "topic": "Luca App, die Dritte",
+      "fineSubject": "Apps",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2916,
+      "endSec": 3271,
+      "durationSec": 355,
+      "topic": "NHS Covid-19 App",
+      "fineSubject": "Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3271,
+      "endSec": 3448,
+      "durationSec": 177,
+      "topic": "Urheberrechtsreform: Artikel 13",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3449,
+      "endSec": 3812,
+      "durationSec": 363,
+      "topic": "Das elektronische besondere Anwaltspostfach (beA)",
+      "fineSubject": "Legal Tech",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 3812,
+      "endSec": 4296,
+      "durationSec": 484,
+      "topic": "Facebook Leaks",
+      "fineSubject": "Privacy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4296,
+      "endSec": 4814,
+      "durationSec": 518,
+      "topic": "Öffentliche Hand",
+      "fineSubject": "Public Services",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4814,
+      "endSec": 5073,
+      "durationSec": 259,
+      "topic": "Ville de Bitche",
+      "fineSubject": "Local History",
+      "topicIndex": 8
+    }
+  ]
+}

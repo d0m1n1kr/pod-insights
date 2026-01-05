@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 228,
+  "title": "Mi228 – „Nobelpreis-Sonderfolge 2022“",
+  "generatedAt": "2026-01-05T15:18:17.375Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.8129099427381572,
+      "Culture": 0.14856845393024468,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.038521603331598125,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 7808,
+      "Culture": 1427,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 370,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 6,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 9605,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 199,
+      "endSec": 980,
+      "durationSec": 781,
+      "topic": "Physik verhandelt nicht",
+      "fineSubject": "Physics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 980,
+      "endSec": 1156,
+      "durationSec": 176,
+      "topic": "Computermuseum Oldenburg",
+      "fineSubject": "Museums",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1156,
+      "endSec": 1984,
+      "durationSec": 828,
+      "topic": "Beethoven Feng Shui",
+      "fineSubject": "Music",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 1984,
+      "endSec": 2138,
+      "durationSec": 154,
+      "topic": "Nobelpreisposter",
+      "fineSubject": "Nobel Prize",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2479,
+      "endSec": 5018,
+      "durationSec": 2539,
+      "topic": "Physik-Nobelpreis 2022",
+      "fineSubject": "Nobel Prize",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 5018,
+      "endSec": 6834,
+      "durationSec": 1816,
+      "topic": "Chemie-Nobelpreis 2022",
+      "fineSubject": "Chemistry",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 6834,
+      "endSec": 8309,
+      "durationSec": 1475,
+      "topic": "Medizin-Nobelpreis 2022",
+      "fineSubject": "Medicine",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8309,
+      "endSec": 8732,
+      "durationSec": 423,
+      "topic": "Literaturnobelpreis 2022",
+      "fineSubject": "Nobel Prize",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 8732,
+      "endSec": 9102,
+      "durationSec": 370,
+      "topic": "Friedensnobelpreis 2022",
+      "fineSubject": "Peace",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Science",
+      "startSec": 10517,
+      "endSec": 11560,
+      "durationSec": 1043,
+      "topic": "Schwurbel",
+      "fineSubject": "General",
+      "topicIndex": 12
+    }
+  ]
+}

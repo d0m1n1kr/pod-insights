@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 285,
+  "title": "Mi285 – \"Semmelparität\"",
+  "generatedAt": "2026-01-05T15:18:17.382Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.19114935464044253,
+      "Culture": 0.03948985863552551,
+      "Wissenschaft": 0,
+      "Health": 0.525660725261217,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0.243700061462815,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1244,
+      "Culture": 257,
+      "Wissenschaft": 0,
+      "Health": 3421,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1586,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 3,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6508,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 116,
+      "endSec": 597,
+      "durationSec": 481,
+      "topic": "Demos",
+      "fineSubject": "Demos",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 597,
+      "endSec": 1147,
+      "durationSec": 550,
+      "topic": "Blutzuckersensor",
+      "fineSubject": "Blutzuckersensor",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1147,
+      "endSec": 1404,
+      "durationSec": 257,
+      "topic": "Oppenheimer",
+      "fineSubject": "Film",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 1765,
+      "endSec": 3351,
+      "durationSec": 1586,
+      "topic": "Thema 1: “Ameisen vs. Löwen”",
+      "fineSubject": "Ameisen vs. Löwen",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 3351,
+      "endSec": 4114,
+      "durationSec": 763,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4114,
+      "endSec": 5147,
+      "durationSec": 1033,
+      "topic": "Thema 2: \"Isst du den noch?\"",
+      "fineSubject": "Isst du den noch?",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 5147,
+      "endSec": 6985,
+      "durationSec": 1838,
+      "topic": "Schwurbel: Super Patch",
+      "fineSubject": "Schwurbel",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 17,
+  "title": "LNP017 Córdoba 2.0",
+  "generatedAt": "2026-01-05T15:17:57.574Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4596,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 7,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4596,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 123,
+      "endSec": 203,
+      "durationSec": 80,
+      "topic": "Errata",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 204,
+      "endSec": 885,
+      "durationSec": 681,
+      "topic": "ACTA: Transparenz und Petition",
+      "fineSubject": "Transparency",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 885,
+      "endSec": 1694,
+      "durationSec": 809,
+      "topic": "Dialog des BMWi zu freiwilliger Two-Strikes-Regelung",
+      "fineSubject": "Regulation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1694,
+      "endSec": 2285,
+      "durationSec": 591,
+      "topic": "Fluggastdaten-Abkommen EU/USA",
+      "fineSubject": "International Relations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2286,
+      "endSec": 3734,
+      "durationSec": 1448,
+      "topic": "Netzpolitik in Österreich: Geschichte, Gegenwart und Aktivisten",
+      "fineSubject": "Activism",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3735,
+      "endSec": 4184,
+      "durationSec": 449,
+      "topic": "ACTA und Urheberrecht in Österreich",
+      "fineSubject": "Copyright",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4185,
+      "endSec": 4723,
+      "durationSec": 538,
+      "topic": "Anonymous Austria",
+      "fineSubject": "Activism",
+      "topicIndex": 6
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "episodeNumber": 293,
+  "title": "FS293 Pussytelefon",
+  "generatedAt": "2026-01-05T15:17:51.121Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3838231255149684,
+      "Software": 0.30534193902773965,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.033987915407854986,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.15394122493820378,
+      "Business": 0,
+      "Gaming": 0.12290579511123317,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5590,
+      "Software": 4447,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 495,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 2242,
+      "Business": 0,
+      "Gaming": 1790,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 28,
+      "Software": 7,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 2,
+      "Event": 0
+    },
+    "totalDurationSec": 14564,
+    "totalTopics": 43
+  },
+  "timeline": [
+    {
+      "subject": "Gaming",
+      "startSec": 426,
+      "endSec": 1936,
+      "durationSec": 1510,
+      "topic": "Nintendo Switch 2",
+      "fineSubject": "Nintendo Switch",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Events",
+      "startSec": 1937,
+      "endSec": 3599,
+      "durationSec": 1662,
+      "topic": "Hackathon in Lwiw",
+      "fineSubject": "Hackathon",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 3600,
+      "endSec": 4095,
+      "durationSec": 495,
+      "topic": "Auphonic Bandwidth Extension",
+      "fineSubject": "Auphonic",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4488,
+      "endSec": 4660,
+      "durationSec": 172,
+      "topic": "Pussytelefon",
+      "fineSubject": "Pussytelefon",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Events",
+      "startSec": 5107,
+      "endSec": 5687,
+      "durationSec": 580,
+      "topic": "WWDC Keynote",
+      "fineSubject": "WWDC",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 7231,
+      "endSec": 8011,
+      "durationSec": 780,
+      "topic": "iOS",
+      "fineSubject": "iOS",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 8012,
+      "endSec": 8292,
+      "durationSec": 280,
+      "topic": "Apple und Gaming",
+      "fineSubject": "Apple",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 8292,
+      "endSec": 8403,
+      "durationSec": 111,
+      "topic": "watchOS",
+      "fineSubject": "watchOS",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 8404,
+      "endSec": 8491,
+      "durationSec": 87,
+      "topic": "tvOS",
+      "fineSubject": "tvOS",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 8492,
+      "endSec": 9395,
+      "durationSec": 903,
+      "topic": "macOS",
+      "fineSubject": "macOS",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 9395,
+      "endSec": 10790,
+      "durationSec": 1395,
+      "topic": "visionOS",
+      "fineSubject": "visionOS",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 10791,
+      "endSec": 11608,
+      "durationSec": 817,
+      "topic": "iPadOS",
+      "fineSubject": "iPadOS",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 11608,
+      "endSec": 11962,
+      "durationSec": 354,
+      "topic": "Developerkram",
+      "fineSubject": "Developer Tools",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12833,
+      "endSec": 13200,
+      "durationSec": 367,
+      "topic": "Physical Interfaces Tier List",
+      "fineSubject": "Physical Interfaces",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13200,
+      "endSec": 13383,
+      "durationSec": 183,
+      "topic": "Tier List: V.24",
+      "fineSubject": "V.24",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13384,
+      "endSec": 13522,
+      "durationSec": 138,
+      "topic": "Tier List: Centronics",
+      "fineSubject": "Centronics",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13522,
+      "endSec": 13677,
+      "durationSec": 155,
+      "topic": "Tier List: SCSI",
+      "fineSubject": "SCSI",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13677,
+      "endSec": 13940,
+      "durationSec": 263,
+      "topic": "Tier List: LocalTalk",
+      "fineSubject": "LocalTalk",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13940,
+      "endSec": 14191,
+      "durationSec": 251,
+      "topic": "Tier List: MIDI",
+      "fineSubject": "MIDI",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14192,
+      "endSec": 14472,
+      "durationSec": 280,
+      "topic": "Tier List: PS/2",
+      "fineSubject": "PS/2",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14472,
+      "endSec": 14594,
+      "durationSec": 122,
+      "topic": "Tier List: ADB",
+      "fineSubject": "ADB",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14595,
+      "endSec": 14905,
+      "durationSec": 310,
+      "topic": "Tier List: ISA",
+      "fineSubject": "ISA",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14906,
+      "endSec": 15128,
+      "durationSec": 222,
+      "topic": "Tier List: Nubus",
+      "fineSubject": "Nubus",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15128,
+      "endSec": 15214,
+      "durationSec": 86,
+      "topic": "Tier List: ATA",
+      "fineSubject": "ATA",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15215,
+      "endSec": 15374,
+      "durationSec": 159,
+      "topic": "Tier List: VGA",
+      "fineSubject": "VGA",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15374,
+      "endSec": 15635,
+      "durationSec": 261,
+      "topic": "Tier List: DVI",
+      "fineSubject": "DVI",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15636,
+      "endSec": 15898,
+      "durationSec": 262,
+      "topic": "Tier List: HDMI",
+      "fineSubject": "HDMI",
+      "topicIndex": 29
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15898,
+      "endSec": 16051,
+      "durationSec": 153,
+      "topic": "Tier List: PCMCIA",
+      "fineSubject": "PCMCIA",
+      "topicIndex": 30
+    },
+    {
+      "subject": "Technology",
+      "startSec": 16052,
+      "endSec": 16258,
+      "durationSec": 206,
+      "topic": "Tier List: TOSLINK",
+      "fineSubject": "TOSLINK",
+      "topicIndex": 31
+    },
+    {
+      "subject": "Technology",
+      "startSec": 16258,
+      "endSec": 16429,
+      "durationSec": 171,
+      "topic": "Tier List: DMX",
+      "fineSubject": "DMX",
+      "topicIndex": 32
+    },
+    {
+      "subject": "Technology",
+      "startSec": 16430,
+      "endSec": 16492,
+      "durationSec": 62,
+      "topic": "Tier List: SATA",
+      "fineSubject": "SATA",
+      "topicIndex": 33
+    },
+    {
+      "subject": "Technology",
+      "startSec": 16492,
+      "endSec": 16550,
+      "durationSec": 58,
+      "topic": "Tier List: Apple Dock Connector",
+      "fineSubject": "Apple Dock Connector",
+      "topicIndex": 34
+    },
+    {
+      "subject": "Technology",
+      "startSec": 16551,
+      "endSec": 16928,
+      "durationSec": 377,
+      "topic": "Tier List: SD Card",
+      "fineSubject": "SD Card",
+      "topicIndex": 35
+    },
+    {
+      "subject": "Technology",
+      "startSec": 16929,
+      "endSec": 17187,
+      "durationSec": 258,
+      "topic": "Tier List: Lightning",
+      "fineSubject": "Lightning",
+      "topicIndex": 36
+    },
+    {
+      "subject": "Technology",
+      "startSec": 17187,
+      "endSec": 17348,
+      "durationSec": 161,
+      "topic": "Tier List: FireWire",
+      "fineSubject": "FireWire",
+      "topicIndex": 37
+    },
+    {
+      "subject": "Technology",
+      "startSec": 17349,
+      "endSec": 17514,
+      "durationSec": 165,
+      "topic": "Tier List: Thunderbolt",
+      "fineSubject": "Thunderbolt",
+      "topicIndex": 38
+    },
+    {
+      "subject": "Technology",
+      "startSec": 17514,
+      "endSec": 17667,
+      "durationSec": 153,
+      "topic": "Tier List: PCI",
+      "fineSubject": "PCI",
+      "topicIndex": 39
+    },
+    {
+      "subject": "Technology",
+      "startSec": 17668,
+      "endSec": 17889,
+      "durationSec": 221,
+      "topic": "Tier List: USB",
+      "fineSubject": "USB",
+      "topicIndex": 40
+    },
+    {
+      "subject": "Technology",
+      "startSec": 17889,
+      "endSec": 18170,
+      "durationSec": 281,
+      "topic": "Tier List: Ethernet",
+      "fineSubject": "Ethernet",
+      "topicIndex": 41
+    },
+    {
+      "subject": "Technology",
+      "startSec": 18170,
+      "endSec": 18263,
+      "durationSec": 93,
+      "topic": "Tier List: Schlussrunde",
+      "fineSubject": "Conclusion",
+      "topicIndex": 42
+    }
+  ]
+}

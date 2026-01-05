@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 85,
+  "title": "RZ085 Erforschung der Sonne",
+  "generatedAt": "2026-01-05T15:18:06.285Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0.5948599480219463,
+      "Technologie": 0.4051400519780537,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 4120,
+      "Technologie": 2806,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 3,
+      "Technologie": 2,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 6926,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": 13,
+      "endSec": 1745,
+      "durationSec": 1732,
+      "topic": "Erforschung des Sonnenwinds",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 13,
+      "endSec": 1274,
+      "durationSec": 1261,
+      "topic": "Magnetosphäre der Sonne",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 66,
+      "endSec": 1745,
+      "durationSec": 1679,
+      "topic": "Parker Solar Probe",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 74,
+      "endSec": 1201,
+      "durationSec": 1127,
+      "topic": "Solar Orbiter",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 74,
+      "endSec": 1201,
+      "durationSec": 1127,
+      "topic": "Rätsel der Sonnenaktivität",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 4
+    }
+  ]
+}

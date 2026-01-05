@@ -1,0 +1,124 @@
+{
+  "episodeNumber": 57,
+  "title": "CRE057 BitTorrent",
+  "generatedAt": "2026-01-05T15:17:54.369Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.7142857142857143,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0.2857142857142857,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 5,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 2,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Funktionsweise von BitTorrent",
+      "fineSubject": "P2P Protocols",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anonymität im BitTorrent",
+      "fineSubject": "Internet Privacy",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verschlüsselung von BitTorrent-Verbindungen",
+      "fineSubject": "Encryption",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zufall und Effizienz im BitTorrent-Protokoll",
+      "fineSubject": "Protocol Efficiency",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Neues Projekt opentracker",
+      "fineSubject": "BitTorrent Tracker",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anforderungen an Tracker-Software",
+      "fineSubject": "Software Requirements",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Probleme beim Betrieb eines Trackers",
+      "fineSubject": "Operational Challenges",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

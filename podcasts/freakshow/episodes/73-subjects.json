@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 73,
+  "title": "MM073 Creepy",
+  "generatedAt": "2026-01-05T15:17:51.066Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.8,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Ankündigungen und Veranstaltungen",
+      "fineSubject": "Devices",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "iPhone",
+      "fineSubject": "Mobile Phones",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kindle",
+      "fineSubject": "E-Readers",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Psyche der Apple Store Mitarbeiter",
+      "fineSubject": "Work Environment",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kommunikation mit Geräten",
+      "fineSubject": "Human-Computer Interaction",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

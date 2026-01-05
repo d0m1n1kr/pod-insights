@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 519,
+  "title": "LNP519 Die Hermeneutik des Misstrauens",
+  "generatedAt": "2026-01-05T15:17:57.644Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.09808660624370594,
+      "Technology": 0.43303121852970794,
+      "Law": 0.4120845921450151,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.03202416918429003,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.024773413897280966
+    },
+    "durations": {
+      "Politics": 487,
+      "Technology": 2150,
+      "Law": 2046,
+      "Security": 0,
+      "Social": 0,
+      "Media": 159,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 123
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4965,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 206,
+      "endSec": 365,
+      "durationSec": 159,
+      "topic": "Feedback: Propaganda",
+      "fineSubject": "Propaganda",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 519,
+      "endSec": 642,
+      "durationSec": 123,
+      "topic": "Feedback: Leuchttürme",
+      "fineSubject": "Lighthouses",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 642,
+      "endSec": 1042,
+      "durationSec": 400,
+      "topic": "Feedback: Digitalministerium",
+      "fineSubject": "Digital Ministry",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1042,
+      "endSec": 2649,
+      "durationSec": 1607,
+      "topic": "Signalgate",
+      "fineSubject": "Signal Processing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2650,
+      "endSec": 4356,
+      "durationSec": 1706,
+      "topic": "Informationsfreiheitsgesetz",
+      "fineSubject": "Freedom of Information",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4679,
+      "endSec": 4761,
+      "durationSec": 82,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chat Control",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4761,
+      "endSec": 4848,
+      "durationSec": 87,
+      "topic": "CDU und AfD in Umfragen gleichauf",
+      "fineSubject": "Polls",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4849,
+      "endSec": 5310,
+      "durationSec": 461,
+      "topic": "Palantir",
+      "fineSubject": "Data Analytics",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 5311,
+      "endSec": 5651,
+      "durationSec": 340,
+      "topic": "Altersverifikation",
+      "fineSubject": "Age Verification",
+      "topicIndex": 10
+    }
+  ]
+}

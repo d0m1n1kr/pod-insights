@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 106,
+  "title": "DU106 - Wasserrutschen auf dem Mars und zu viel Kohlenstoff zu früh nach dem Urknall",
+  "generatedAt": "2026-01-05T15:18:22.105Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0.2,
+      "Space": 0.8,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 1,
+      "Space": 4,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wasserrutschen auf dem Mars",
+      "fineSubject": "Mars",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Frost auf dem Mars",
+      "fineSubject": "Mars",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Benennung eines Quasimonds",
+      "fineSubject": "Asteroids",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Marslandung vortäuschen",
+      "fineSubject": "Mars Missions",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Chang’e 6 Mondmission",
+      "fineSubject": "Lunar Exploration",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

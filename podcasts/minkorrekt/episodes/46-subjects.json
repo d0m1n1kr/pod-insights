@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 46,
+  "title": "Minkorrekt Folge 46 „Donauwellen-Dualismus“",
+  "generatedAt": "2026-01-05T15:18:17.355Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.4,
+      "Culture": 0,
+      "Wissenschaft": 0.2,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0.2,
+      "Biologie": 0.2,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 0,
+      "Wissenschaft": 1,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 1,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Foto aus der Quantenwelt",
+      "fineSubject": "Quantenphysik",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Neuronale Netze und Computerspiele",
+      "fineSubject": "Künstliche Intelligenz",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wasser auf dem Mars",
+      "fineSubject": "Planetologie",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Händegeruch",
+      "fineSubject": "Mikrobiologie",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Experiment der Woche: Pulverhandschuh",
+      "fineSubject": "Chemie",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

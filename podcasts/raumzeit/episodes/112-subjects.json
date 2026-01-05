@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 112,
+  "title": "RZ112 CERN: Die Beschleuniger-Kette",
+  "generatedAt": "2026-01-05T15:18:06.289Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0.35458470916941837,
+      "Technologie": 0.21844043688087375,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0.4269748539497079,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 1396,
+      "Technologie": 860,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 1681,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 1,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 2,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 3937,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": 14,
+      "endSec": 1410,
+      "durationSec": 1396,
+      "topic": "Forschung am CERN",
+      "fineSubject": "Forschungseinrichtungen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 14,
+      "endSec": 874,
+      "durationSec": 860,
+      "topic": "Aufbau und Betrieb von Beschleunigern",
+      "fineSubject": "Maschinenbau",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Physik",
+      "startSec": 83,
+      "endSec": 1187,
+      "durationSec": 1104,
+      "topic": "Energieaufbau in Kollisionen",
+      "fineSubject": "Kollisionstheorie",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Physik",
+      "startSec": 5300,
+      "endSec": 5877,
+      "durationSec": 577,
+      "topic": "Teilchenbeschleunigung",
+      "fineSubject": "Teilchenphysik",
+      "topicIndex": 0
+    }
+  ]
+}

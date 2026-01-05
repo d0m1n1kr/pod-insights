@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 236,
+  "title": "LNP236 Marktgerechte Bepreisung",
+  "generatedAt": "2026-01-05T15:17:57.604Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.38153428377460963,
+      "Technology": 0.2754582484725051,
+      "Law": 0.11591989137813985,
+      "Security": 0.22708757637474541,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2248,
+      "Technology": 1623,
+      "Law": 683,
+      "Security": 1338,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5892,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 62,
+      "endSec": 652,
+      "durationSec": 590,
+      "topic": "Feedback: Videoerkennung",
+      "fineSubject": "Video Recognition",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 722,
+      "endSec": 1605,
+      "durationSec": 883,
+      "topic": "Der Rathaus-Hack",
+      "fineSubject": "Hacking",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1606,
+      "endSec": 1967,
+      "durationSec": 361,
+      "topic": "Daten-Diebstahl bei Uber",
+      "fineSubject": "Data Breach",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1967,
+      "endSec": 2650,
+      "durationSec": 683,
+      "topic": "FCC und Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2650,
+      "endSec": 3683,
+      "durationSec": 1033,
+      "topic": "1 GBit nur für Nerds",
+      "fineSubject": "Internet Speed",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3683,
+      "endSec": 5931,
+      "durationSec": 2248,
+      "topic": "Stelen für Höcke",
+      "fineSubject": "Public Figures",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 5932,
+      "endSec": 6026,
+      "durationSec": 94,
+      "topic": "Centpost Daten ungeschützt in der Cloud",
+      "fineSubject": "Cloud Storage",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 15,
+  "title": "CRE015 WMF, Aibo, E-Ink, Prozessoren und Podcasting",
+  "generatedAt": "2026-01-05T15:17:54.361Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.2,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0.2,
+      "Hardware": 0.6,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 1,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 1,
+      "Hardware": 3,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheitslücke in Windows WMF",
+      "fineSubject": "Sicherheitslücken",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einstellung der Produktion des Sony Aibo",
+      "fineSubject": "Roboter",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einführung des Sony Reader",
+      "fineSubject": "E-Book Reader",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Neue Prozessoren von Intel",
+      "fineSubject": "Prozessoren",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklungen in der Podcastinglandschaft",
+      "fineSubject": "Podcasting",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

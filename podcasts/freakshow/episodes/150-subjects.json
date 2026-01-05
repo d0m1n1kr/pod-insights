@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 150,
+  "title": "FS150 Syntactic Cancer",
+  "generatedAt": "2026-01-05T15:17:51.079Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5574898785425101,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.2628879892037787,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.1796221322537112,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4131,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1948,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1331,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7410,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 2140,
+      "endSec": 3361,
+      "durationSec": 1221,
+      "topic": "Technik von Früher",
+      "fineSubject": "History",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 8148,
+      "endSec": 10096,
+      "durationSec": 1948,
+      "topic": "Frauen in der Computer Szene",
+      "fineSubject": "Women in Tech",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10096,
+      "endSec": 10956,
+      "durationSec": 860,
+      "topic": "Fahrstühle",
+      "fineSubject": "Elevators",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 10956,
+      "endSec": 12287,
+      "durationSec": 1331,
+      "topic": "Apple",
+      "fineSubject": "Apple",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12287,
+      "endSec": 13987,
+      "durationSec": 1700,
+      "topic": "Audio-Equipment",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13987,
+      "endSec": 14337,
+      "durationSec": 350,
+      "topic": "Telekomtarif Hybrid",
+      "fineSubject": "Hybrid Tariffs",
+      "topicIndex": 6
+    }
+  ]
+}

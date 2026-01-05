@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 243,
+  "title": "FS243 Das Schnarchen der Anderen",
+  "generatedAt": "2026-01-05T15:17:51.106Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5730724178322882,
+      "Software": 0,
+      "Hardware": 0.2565286295045821,
+      "Finance": 0.057948046578929234,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.06352924963825536,
+      "Gaming": 0.04892165644594502,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 8317,
+      "Software": 0,
+      "Hardware": 3723,
+      "Finance": 841,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 922,
+      "Gaming": 710,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 0,
+      "Hardware": 2,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 14513,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 281,
+      "endSec": 2514,
+      "durationSec": 2233,
+      "topic": "MacBook Pro 16\" und Plattform-Angst",
+      "fineSubject": "MacBook",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2515,
+      "endSec": 4005,
+      "durationSec": 1490,
+      "topic": "AirPods Pro",
+      "fineSubject": "AirPods",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 4005,
+      "endSec": 4927,
+      "durationSec": 922,
+      "topic": "Tesla-Fabrik in Berlin",
+      "fineSubject": "Tesla",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 4928,
+      "endSec": 5769,
+      "durationSec": 841,
+      "topic": "bunq Update",
+      "fineSubject": "bunq",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5770,
+      "endSec": 12668,
+      "durationSec": 6898,
+      "topic": "Laser!",
+      "fineSubject": "Laser",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 13421,
+      "endSec": 14131,
+      "durationSec": 710,
+      "topic": "Pong-Nachbau",
+      "fineSubject": "Pong",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14131,
+      "endSec": 15132,
+      "durationSec": 1001,
+      "topic": "Lorenz SZ42",
+      "fineSubject": "Lorenz",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15132,
+      "endSec": 15550,
+      "durationSec": 418,
+      "topic": "Magic Roundabound",
+      "fineSubject": "Roundabout",
+      "topicIndex": 9
+    }
+  ]
+}

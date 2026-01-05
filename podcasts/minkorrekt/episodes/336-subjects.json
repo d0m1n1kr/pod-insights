@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 336,
+  "title": "Mi336 – \"Wurzelproblem\"",
+  "generatedAt": "2026-01-05T15:18:17.389Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5196288365453248,
+      "Culture": 0.19509873899595526,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.28527242445872,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2184,
+      "Culture": 820,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1199,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4203,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 323,
+      "endSec": 982,
+      "durationSec": 659,
+      "topic": "Enduco App",
+      "fineSubject": "Enduco App",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 982,
+      "endSec": 1294,
+      "durationSec": 312,
+      "topic": "Minkorrekt Radtour",
+      "fineSubject": "Radtour",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1294,
+      "endSec": 1834,
+      "durationSec": 540,
+      "topic": "iMac Monitor",
+      "fineSubject": "iMac Monitor",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3722,
+      "endSec": 4715,
+      "durationSec": 993,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4715,
+      "endSec": 5906,
+      "durationSec": 1191,
+      "topic": "Thema 2: \"Intelligent Evolution\"",
+      "fineSubject": "Intelligent Evolution",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5906,
+      "endSec": 6414,
+      "durationSec": 508,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Schwurbel",
+      "topicIndex": 6
+    }
+  ]
+}

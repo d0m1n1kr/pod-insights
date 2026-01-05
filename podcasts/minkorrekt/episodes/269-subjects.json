@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 269,
+  "title": "Mi269 – \"Salzlimo\"",
+  "generatedAt": "2026-01-05T15:18:17.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.4011022657685242,
+      "Culture": 0.4874464176362523,
+      "Wissenschaft": 0,
+      "Health": 0.05496019595835885,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.056491120636864664,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2620,
+      "Culture": 3184,
+      "Wissenschaft": 0,
+      "Health": 359,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 369,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6532,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 336,
+      "endSec": 2318,
+      "durationSec": 1982,
+      "topic": "10 Jahre NETZ",
+      "fineSubject": "Anniversaries",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 2318,
+      "endSec": 2677,
+      "durationSec": 359,
+      "topic": "Darmspiegelung",
+      "fineSubject": "Medical Procedures",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 2677,
+      "endSec": 3046,
+      "durationSec": 369,
+      "topic": "Podcastempfehlung \"Tatort Kunst\"",
+      "fineSubject": "Podcast Recommendations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3046,
+      "endSec": 3452,
+      "durationSec": 406,
+      "topic": "Braco",
+      "fineSubject": "Public Figures",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3728,
+      "endSec": 3823,
+      "durationSec": 95,
+      "topic": "Kommentar Glutamat",
+      "fineSubject": "Food Additives",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 3823,
+      "endSec": 5099,
+      "durationSec": 1276,
+      "topic": "Thema 1: “Last of ants”",
+      "fineSubject": "Entomology",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 5099,
+      "endSec": 5493,
+      "durationSec": 394,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 5493,
+      "endSec": 6348,
+      "durationSec": 855,
+      "topic": "Thema 2: \"Gespannter Schaum\"",
+      "fineSubject": "Physics",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6348,
+      "endSec": 7144,
+      "durationSec": 796,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 9
+    }
+  ]
+}

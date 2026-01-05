@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 186,
+  "title": "LNP186 Digitale Mietpreisbremse",
+  "generatedAt": "2026-01-05T15:17:57.598Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9213665943600867,
+      "Technology": 0.07863340563991324,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3398,
+      "Technology": 290,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3688,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 236,
+      "endSec": 972,
+      "durationSec": 736,
+      "topic": "Anti-Terror-Paket Deutschland",
+      "fineSubject": "Terrorism",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 973,
+      "endSec": 1731,
+      "durationSec": 758,
+      "topic": "Terrorismus-Richtlinie EU",
+      "fineSubject": "Terrorism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1731,
+      "endSec": 2939,
+      "durationSec": 1208,
+      "topic": "Geheimdienstreform",
+      "fineSubject": "Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2940,
+      "endSec": 3230,
+      "durationSec": 290,
+      "topic": "Adblocker-Verbot geplant?",
+      "fineSubject": "Internet",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3230,
+      "endSec": 3403,
+      "durationSec": 173,
+      "topic": "Störerhaftung-Reform abgesegnet",
+      "fineSubject": "Law",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3404,
+      "endSec": 3927,
+      "durationSec": 523,
+      "topic": "Cyber-NATO",
+      "fineSubject": "Defense",
+      "topicIndex": 5
+    }
+  ]
+}

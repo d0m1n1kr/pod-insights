@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 167,
+  "title": "FS167 Hacker Nr. 5",
+  "generatedAt": "2026-01-05T15:17:51.085Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1880003170325751,
+      "Software": 0.22842197035745423,
+      "Hardware": 0.18276927954347308,
+      "Finance": 0.165015455338036,
+      "Media": 0,
+      "Social": 0.047079337401918046,
+      "Culture": 0.021399698819053656,
+      "Security": 0.1673139415074899,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2372,
+      "Software": 2882,
+      "Hardware": 2306,
+      "Finance": 2082,
+      "Media": 0,
+      "Social": 594,
+      "Culture": 270,
+      "Security": 2111,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 2,
+      "Hardware": 1,
+      "Finance": 2,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12617,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 288,
+      "endSec": 882,
+      "durationSec": 594,
+      "topic": "Gast: Hans Hübner",
+      "fineSubject": "Guest",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 882,
+      "endSec": 1152,
+      "durationSec": 270,
+      "topic": "Freak Show Bingo",
+      "fineSubject": "Games",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1153,
+      "endSec": 3459,
+      "durationSec": 2306,
+      "topic": "MIST FPGA Computer",
+      "fineSubject": "FPGA",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3459,
+      "endSec": 3820,
+      "durationSec": 361,
+      "topic": "Software Defined Networking",
+      "fineSubject": "Software Defined Networking",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3821,
+      "endSec": 4567,
+      "durationSec": 746,
+      "topic": "Vectoring",
+      "fineSubject": "Vectoring",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5307,
+      "endSec": 6042,
+      "durationSec": 735,
+      "topic": "BCP38",
+      "fineSubject": "BCP38",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 6042,
+      "endSec": 8153,
+      "durationSec": 2111,
+      "topic": "Let's Encrypt",
+      "fineSubject": "Let's Encrypt",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8154,
+      "endSec": 9325,
+      "durationSec": 1171,
+      "topic": "Flattr Relaunch",
+      "fineSubject": "Flattr",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9326,
+      "endSec": 10237,
+      "durationSec": 911,
+      "topic": "Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 11099,
+      "endSec": 12333,
+      "durationSec": 1234,
+      "topic": "Programmiersprachen",
+      "fineSubject": "Programming Languages",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 12333,
+      "endSec": 13981,
+      "durationSec": 1648,
+      "topic": "Swift",
+      "fineSubject": "Swift",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13982,
+      "endSec": 14512,
+      "durationSec": 530,
+      "topic": "802.1X",
+      "fineSubject": "802.1X",
+      "topicIndex": 13
+    }
+  ]
+}

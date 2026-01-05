@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 182,
+  "title": "CRE182 Elektronisches Geld",
+  "generatedAt": "2026-01-05T15:17:54.388Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 1,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 6572,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 3,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 6572,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 71,
+      "endSec": 2787,
+      "durationSec": 2716,
+      "topic": "Kryptographische Grundlagen von eCash und Bitcoin",
+      "fineSubject": "Cryptography",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 71,
+      "endSec": 1443,
+      "durationSec": 1372,
+      "topic": "Double Spending Problem",
+      "fineSubject": "Transaction Integrity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 71,
+      "endSec": 2555,
+      "durationSec": 2484,
+      "topic": "Technische Schwachstellen von Bitcoin",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 5
+    }
+  ]
+}

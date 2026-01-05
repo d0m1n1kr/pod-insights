@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 125,
+  "title": "UKW125 Ukraine: Raketenbrot",
+  "generatedAt": "2026-01-05T15:18:03.033Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.13106295149638802,
+      "Military": 0.3664430684554524,
+      "Technology": 0.1063811489508084,
+      "Economics": 0,
+      "Media": 0.05847953216374269,
+      "Miscellaneous": 0,
+      "Society": 0.07344341245270038,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0.26418988648090813,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 1524,
+      "Military": 4261,
+      "Technology": 1237,
+      "Economics": 0,
+      "Media": 680,
+      "Miscellaneous": 0,
+      "Society": 854,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 3072,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 2,
+      "Military": 8,
+      "Technology": 1,
+      "Economics": 0,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 2,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 11628,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 352,
+      "endSec": 1634,
+      "durationSec": 1282,
+      "topic": "Die Kursk-Offensive",
+      "fineSubject": "Offensive Strategies",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 1635,
+      "endSec": 1899,
+      "durationSec": 264,
+      "topic": "Zerstötung der letzten Kertsch-Fähre",
+      "fineSubject": "Naval Assets",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 1900,
+      "endSec": 2293,
+      "durationSec": 393,
+      "topic": "Angriffe auf Militärbasen und Tanklager",
+      "fineSubject": "Supply Chains",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 2293,
+      "endSec": 2675,
+      "durationSec": 382,
+      "topic": "F-16 im Einsatz",
+      "fineSubject": "Aircraft",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 2676,
+      "endSec": 2758,
+      "durationSec": 82,
+      "topic": "Gripen für die Ukraine?",
+      "fineSubject": "Aircraft",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 2759,
+      "endSec": 3129,
+      "durationSec": 370,
+      "topic": "Neue FPV-Drohnen",
+      "fineSubject": "Drones",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 3129,
+      "endSec": 3223,
+      "durationSec": 94,
+      "topic": "Neue Boden-Drohnen",
+      "fineSubject": "Drones",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Society",
+      "startSec": 3224,
+      "endSec": 4078,
+      "durationSec": 854,
+      "topic": "Palianytsia",
+      "fineSubject": "Traditional Dishes",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 4078,
+      "endSec": 5472,
+      "durationSec": 1394,
+      "topic": "Angriffe auf russische Munitionsdepots",
+      "fineSubject": "Supply Chain Disruption",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5473,
+      "endSec": 5906,
+      "durationSec": 433,
+      "topic": "Kabinettsumbildung in der Ukraine",
+      "fineSubject": "Cabinet Reshuffles",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5906,
+      "endSec": 6997,
+      "durationSec": 1091,
+      "topic": "Internationale Politik",
+      "fineSubject": "Diplomatic Affairs",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6998,
+      "endSec": 8235,
+      "durationSec": 1237,
+      "topic": "Pavel Durow und Telegram",
+      "fineSubject": "Messaging Apps",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 8235,
+      "endSec": 8915,
+      "durationSec": 680,
+      "topic": "Tenet Media und Russland",
+      "fineSubject": "Media Companies",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Economy",
+      "startSec": 8915,
+      "endSec": 10351,
+      "durationSec": 1436,
+      "topic": "Die Wirtschaft in Russland",
+      "fineSubject": "Russian Economy",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Economy",
+      "startSec": 10352,
+      "endSec": 11988,
+      "durationSec": 1636,
+      "topic": "Die Wirtschaft in der Ukraine",
+      "fineSubject": "Ukrainian Economy",
+      "topicIndex": 14
+    }
+  ]
+}

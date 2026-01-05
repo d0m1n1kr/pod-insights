@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 30,
+  "title": "LNP030 Die Internet-Bürgerwehr rächt sich",
+  "generatedAt": "2026-01-05T15:17:57.576Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.0736758263639984,
+      "Technology": 0,
+      "Law": 0.12664277180406214,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.7996814018319395,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 185,
+      "Technology": 0,
+      "Law": 318,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2008,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2511,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 109,
+      "endSec": 2117,
+      "durationSec": 2008,
+      "topic": "Die GEMA wird immer beliebter",
+      "fineSubject": "Copyright",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2118,
+      "endSec": 2303,
+      "durationSec": 185,
+      "topic": "ACTA und ihre Schwestern",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2304,
+      "endSec": 2622,
+      "durationSec": 318,
+      "topic": "Digitale Gesellschaft: Gesetzesentwurf zur Aufhebung der Störerhaftung",
+      "fineSubject": "Liability",
+      "topicIndex": 2
+    }
+  ]
+}

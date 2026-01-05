@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 234,
+  "title": "LNP234 Mein Weg aus der Beschaffungskriminalität",
+  "generatedAt": "2026-01-05T15:17:57.604Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5857699805068226,
+      "Technology": 0.1650422352176738,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.24918778427550356,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3606,
+      "Technology": 1016,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1534,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6156,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 29,
+      "endSec": 1636,
+      "durationSec": 1607,
+      "topic": "6 Jahre Logbuch:Netzpolitik",
+      "fineSubject": "Netzpolitik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 2853,
+      "endSec": 4387,
+      "durationSec": 1534,
+      "topic": "Fragen der Wertschätzung",
+      "fineSubject": "Wertschätzung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4555,
+      "endSec": 5072,
+      "durationSec": 517,
+      "topic": "Peter Steudtner frei",
+      "fineSubject": "Menschenrechte",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5073,
+      "endSec": 6555,
+      "durationSec": 1482,
+      "topic": "Donald Trump",
+      "fineSubject": "Donald Trump",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6556,
+      "endSec": 7344,
+      "durationSec": 788,
+      "topic": "Russische Meinungsroboter",
+      "fineSubject": "Meinungsroboter",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7344,
+      "endSec": 7572,
+      "durationSec": 228,
+      "topic": "iOS Apps mit ohne Verschlüssellung",
+      "fineSubject": "iOS Apps",
+      "topicIndex": 6
+    }
+  ]
+}

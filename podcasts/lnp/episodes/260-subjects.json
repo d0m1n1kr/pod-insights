@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 260,
+  "title": "LNP260: Eine Hausdurchsuchung kommt selten allein",
+  "generatedAt": "2026-01-05T15:17:57.608Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.07455386649041638,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.03027098479841375,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.8951751487111699,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 564,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 229,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 6772,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 3,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7565,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 201,
+      "endSec": 765,
+      "durationSec": 564,
+      "topic": "Urheberrechtsnovelle im EU-Parlament abgelehnt",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 765,
+      "endSec": 5028,
+      "durationSec": 4263,
+      "topic": "Durchsuchung Zwiebelfreunde",
+      "fineSubject": "Search Warrant",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5028,
+      "endSec": 6303,
+      "durationSec": 1275,
+      "topic": "Durchsuchung in Dortmund",
+      "fineSubject": "Search Warrant",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 6303,
+      "endSec": 7537,
+      "durationSec": 1234,
+      "topic": "Verhalten bei Hausdurchsuchungen",
+      "fineSubject": "Rights",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 7538,
+      "endSec": 7767,
+      "durationSec": 229,
+      "topic": "Spendenaufruf Peter Steudtner",
+      "fineSubject": "Fundraising",
+      "topicIndex": 4
+    }
+  ]
+}

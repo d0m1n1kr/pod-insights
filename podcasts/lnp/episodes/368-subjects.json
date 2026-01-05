@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 368,
+  "title": "LNP368 Nicht vergessen: Freitag, Anschlag!",
+  "generatedAt": "2026-01-05T15:17:57.623Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1559216131780744,
+      "Technology": 0.019312695257029253,
+      "Law": 0,
+      "Security": 0.6716841806305027,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.15308151093439365,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 549,
+      "Technology": 68,
+      "Law": 0,
+      "Security": 2365,
+      "Social": 0,
+      "Media": 0,
+      "Health": 539,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3521,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 108,
+      "endSec": 657,
+      "durationSec": 549,
+      "topic": "Wahlen in den USA",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 657,
+      "endSec": 3022,
+      "durationSec": 2365,
+      "topic": "Angriff auf Verschlüsselung",
+      "fineSubject": "Encryption",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 3023,
+      "endSec": 3562,
+      "durationSec": 539,
+      "topic": "Biometrie-Kampagne",
+      "fineSubject": "Biometrics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3908,
+      "endSec": 3976,
+      "durationSec": 68,
+      "topic": "rC3",
+      "fineSubject": "Conferences",
+      "topicIndex": 4
+    }
+  ]
+}

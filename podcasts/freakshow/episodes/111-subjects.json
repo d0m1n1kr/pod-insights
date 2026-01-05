@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 111,
+  "title": "MM111 Gute Nacht John-Boy",
+  "generatedAt": "2026-01-05T15:17:51.072Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.5448275862068965,
+      "Hardware": 0,
+      "Finance": 0.09724137931034482,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.35793103448275865
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 2370,
+      "Hardware": 0,
+      "Finance": 423,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1557
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 4350,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 92,
+      "endSec": 1284,
+      "durationSec": 1192,
+      "topic": "Software-Entwicklung für Mac und iOS",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1284,
+      "endSec": 2462,
+      "durationSec": 1178,
+      "topic": "iCloud und Bedienkonzepte",
+      "fineSubject": "Cloud",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 2462,
+      "endSec": 4019,
+      "durationSec": 1557,
+      "topic": "WWDC 2013",
+      "fineSubject": "WWDC",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8421,
+      "endSec": 8844,
+      "durationSec": 423,
+      "topic": "Geld und Authentifizierung",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 5
+    }
+  ]
+}

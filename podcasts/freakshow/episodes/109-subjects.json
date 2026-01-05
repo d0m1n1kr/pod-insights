@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 109,
+  "title": "MM109 Pie Malum Domine Dona Nobis Requiem",
+  "generatedAt": "2026-01-05T15:17:51.072Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.11437968207564407,
+      "Software": 0.42417321395943725,
+      "Hardware": 0,
+      "Finance": 0.0526219623606797,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.15019185090443998,
+      "Gaming": 0.23314452768134478,
+      "Event": 0.02548876301845423
+    },
+    "durations": {
+      "Technology": 1252,
+      "Software": 4643,
+      "Hardware": 0,
+      "Finance": 576,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1644,
+      "Gaming": 2552,
+      "Event": 279
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 1,
+      "Event": 1
+    },
+    "totalDurationSec": 10946,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 1299,
+      "endSec": 3888,
+      "durationSec": 2589,
+      "topic": "Android",
+      "fineSubject": "Android",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3888,
+      "endSec": 5140,
+      "durationSec": 1252,
+      "topic": "Wieder Drossel",
+      "fineSubject": "Drossel",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 5912,
+      "endSec": 7556,
+      "durationSec": 1644,
+      "topic": "Quarterly results und WWDC",
+      "fineSubject": "Quarterly results",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 7556,
+      "endSec": 9610,
+      "durationSec": 2054,
+      "topic": "Ingress und Android Apps",
+      "fineSubject": "Apps",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Event",
+      "startSec": 9610,
+      "endSec": 9889,
+      "durationSec": 279,
+      "topic": "Republica",
+      "fineSubject": "Republica",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9889,
+      "endSec": 10465,
+      "durationSec": 576,
+      "topic": "Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 10465,
+      "endSec": 13017,
+      "durationSec": 2552,
+      "topic": "Nochmal Switch",
+      "fineSubject": "Switch",
+      "topicIndex": 7
+    }
+  ]
+}

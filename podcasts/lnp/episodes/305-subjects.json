@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 305,
+  "title": "LNP305 Influencer-Influenza",
+  "generatedAt": "2026-01-05T15:17:57.614Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5792769137547971,
+      "Technology": 0,
+      "Law": 0.06564330438295293,
+      "Security": 0.021611795596849122,
+      "Social": 0.3334679862654009,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2868,
+      "Technology": 0,
+      "Law": 325,
+      "Security": 107,
+      "Social": 1651,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4951,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 156,
+      "endSec": 1974,
+      "durationSec": 1818,
+      "topic": "Seehofer vs. Crypto",
+      "fineSubject": "Crypto",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1975,
+      "endSec": 3025,
+      "durationSec": 1050,
+      "topic": "AKKlarnamenpflicht",
+      "fineSubject": "Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 3026,
+      "endSec": 4677,
+      "durationSec": 1651,
+      "topic": "Influencer, Zeitgeist und die neue politische Öffentlichkeit",
+      "fineSubject": "Influencers",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 4677,
+      "endSec": 5002,
+      "durationSec": 325,
+      "topic": "Auslieferung: Assange",
+      "fineSubject": "Extradition",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 5003,
+      "endSec": 5110,
+      "durationSec": 107,
+      "topic": "Datenleck der Woche",
+      "fineSubject": "Data Breach",
+      "topicIndex": 4
+    }
+  ]
+}

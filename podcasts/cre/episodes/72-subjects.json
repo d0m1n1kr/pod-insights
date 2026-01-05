@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 72,
+  "title": "CRE072 Moderne Webentwicklung",
+  "generatedAt": "2026-01-05T15:17:54.371Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 1,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 9,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Moderne Webentwicklung",
+      "fineSubject": "Webanwendungen",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Ruby on Rails",
+      "fineSubject": "Frameworks",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "JavaScript Fortschritte",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklungsmethoden",
+      "fineSubject": "Entwicklungsmethoden",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Interaktive Benutzeroberflächen",
+      "fineSubject": "UI/UX",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Programmiermodelle",
+      "fineSubject": "Programmiermodelle",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Datenformate",
+      "fineSubject": "Datenmanagement",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Protokolle",
+      "fineSubject": "Netzwerkprotokolle",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheitsfragen",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

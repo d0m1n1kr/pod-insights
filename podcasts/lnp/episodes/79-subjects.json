@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 79,
+  "title": "LNP079 Lass uns nochmal über den Preis reden",
+  "generatedAt": "2026-01-05T15:17:57.586Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.14391043145821955,
+      "Law": 0,
+      "Security": 0.596395412342982,
+      "Social": 0.2596941561987985,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 527,
+      "Law": 0,
+      "Security": 2184,
+      "Social": 951,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3662,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 260,
+      "endSec": 1211,
+      "durationSec": 951,
+      "topic": "Vielleicht 2, vielleicht mehr oder weniger, vielleicht 864",
+      "fineSubject": "Discussion",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1211,
+      "endSec": 1740,
+      "durationSec": 529,
+      "topic": "NSA-Datenschützer",
+      "fineSubject": "Data Protection",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1741,
+      "endSec": 2268,
+      "durationSec": 527,
+      "topic": "Backdoors in Open-Source-Software",
+      "fineSubject": "Open Source",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2268,
+      "endSec": 3923,
+      "durationSec": 1655,
+      "topic": "Spionage und der “private Sektor”",
+      "fineSubject": "Espionage",
+      "topicIndex": 3
+    }
+  ]
+}

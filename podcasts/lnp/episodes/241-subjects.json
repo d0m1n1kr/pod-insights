@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 241,
+  "title": "LNP241 Das Ausland könnte von außenpolitischer Bedeutung sein",
+  "generatedAt": "2026-01-05T15:17:57.605Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.13486894360603655,
+      "Technology": 0.0698967434471803,
+      "Law": 0,
+      "Security": 0.43320095313741064,
+      "Social": 0.08387609213661636,
+      "Media": 0.19507545671167592,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.08308181096108022,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 849,
+      "Technology": 440,
+      "Law": 0,
+      "Security": 2727,
+      "Social": 528,
+      "Media": 1228,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 523,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 2,
+      "Social": 1,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6295,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 1071,
+      "endSec": 3628,
+      "durationSec": 2557,
+      "topic": "Meltdown/Spectre",
+      "fineSubject": "Meltdown/Spectre",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3628,
+      "endSec": 3679,
+      "durationSec": 51,
+      "topic": "Besondere elektronische Anwaltspostfach",
+      "fineSubject": "Besondere elektronische Anwaltspostfach",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3680,
+      "endSec": 3834,
+      "durationSec": 154,
+      "topic": "Prozessordesign",
+      "fineSubject": "Prozessordesign",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3835,
+      "endSec": 4363,
+      "durationSec": 528,
+      "topic": "Strava",
+      "fineSubject": "Strava",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 4363,
+      "endSec": 5184,
+      "durationSec": 821,
+      "topic": "The Attention Merchants",
+      "fineSubject": "The Attention Merchants",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5184,
+      "endSec": 5470,
+      "durationSec": 286,
+      "topic": "Vodafone Pass",
+      "fineSubject": "Vodafone Pass",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5608,
+      "endSec": 6080,
+      "durationSec": 472,
+      "topic": "Verfassungsbeschwerde gegen das BND-Gesetz",
+      "fineSubject": "Verfassungsbeschwerde gegen das BND-Gesetz",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 6080,
+      "endSec": 6250,
+      "durationSec": 170,
+      "topic": "Staatstrojaner im Einsatz",
+      "fineSubject": "Staatstrojaner im Einsatz",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6250,
+      "endSec": 6401,
+      "durationSec": 151,
+      "topic": "Jimmy Schulz leitet Ausschuss Digitale Agenda",
+      "fineSubject": "Jimmy Schulz leitet Ausschuss Digitale Agenda",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6402,
+      "endSec": 6861,
+      "durationSec": 459,
+      "topic": "Stephan Brandner leitet Rechtsausschuss",
+      "fineSubject": "Stephan Brandner leitet Rechtsausschuss",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 6861,
+      "endSec": 7268,
+      "durationSec": 407,
+      "topic": "Die abgeschriebene Rede von netzpolitik.org",
+      "fineSubject": "Die abgeschriebene Rede von netzpolitik.org",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7268,
+      "endSec": 7507,
+      "durationSec": 239,
+      "topic": "The Cabinet Files",
+      "fineSubject": "The Cabinet Files",
+      "topicIndex": 12
+    }
+  ]
+}

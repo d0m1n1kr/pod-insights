@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 105,
+  "title": "UKW105 Ukraine: Menü der Grausamkeiten",
+  "generatedAt": "2026-01-05T15:18:03.027Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.31079310692330947,
+      "Military": 0.5832913433437469,
+      "Technology": 0.08938828983170412,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0.016527259901239544,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 3084,
+      "Military": 5788,
+      "Technology": 887,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 164,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 3,
+      "Military": 5,
+      "Technology": 2,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9923,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 32,
+      "endSec": 145,
+      "durationSec": 113,
+      "topic": "Überblick",
+      "fineSubject": "Overview",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 146,
+      "endSec": 2454,
+      "durationSec": 2308,
+      "topic": "Machtspiele in Russland",
+      "fineSubject": "Power Dynamics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 2455,
+      "endSec": 5179,
+      "durationSec": 2724,
+      "topic": "Anschlag auf die Kertsch-Brücke",
+      "fineSubject": "Attacks",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 5179,
+      "endSec": 6222,
+      "durationSec": 1043,
+      "topic": "Cruise Missile Angriffe Russlands",
+      "fineSubject": "Missile Attacks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 6223,
+      "endSec": 7029,
+      "durationSec": 806,
+      "topic": "Cherson-Offensive",
+      "fineSubject": "Offensive Operations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 7029,
+      "endSec": 7232,
+      "durationSec": 203,
+      "topic": "Luhansk-Offensive",
+      "fineSubject": "Offensive Operations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7233,
+      "endSec": 7859,
+      "durationSec": 626,
+      "topic": "Aktuelle Waffentechnik im Krieg",
+      "fineSubject": "Military Technology",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 7859,
+      "endSec": 8871,
+      "durationSec": 1012,
+      "topic": "Waffen- und Munitionslieferungen",
+      "fineSubject": "Supplies",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8871,
+      "endSec": 9132,
+      "durationSec": 261,
+      "topic": "StarLink und vernetzte Kriegsführung",
+      "fineSubject": "Warfare Technology",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9310,
+      "endSec": 9973,
+      "durationSec": 663,
+      "topic": "Ausblick",
+      "fineSubject": "Outlook",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 9974,
+      "endSec": 10138,
+      "durationSec": 164,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 11
+    }
+  ]
+}

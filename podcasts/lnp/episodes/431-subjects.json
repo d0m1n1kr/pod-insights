@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 431,
+  "title": "LNP431 Petzprovider",
+  "generatedAt": "2026-01-05T15:17:57.633Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.08066792097836312,
+      "Technology": 0.584901222953904,
+      "Law": 0,
+      "Security": 0.30761994355597366,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.026810912511759172,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 343,
+      "Technology": 2487,
+      "Law": 0,
+      "Security": 1308,
+      "Social": 0,
+      "Media": 0,
+      "Health": 114,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 4,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4252,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 298,
+      "endSec": 511,
+      "durationSec": 213,
+      "topic": "LNP auf der Fusion",
+      "fineSubject": "Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 511,
+      "endSec": 777,
+      "durationSec": 266,
+      "topic": "Feedback: Richtlinie vs. Verordnung",
+      "fineSubject": "Regulations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 778,
+      "endSec": 1553,
+      "durationSec": 775,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1554,
+      "endSec": 2048,
+      "durationSec": 494,
+      "topic": "Ausfall Zahlungsterminals",
+      "fineSubject": "Payment Systems",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2048,
+      "endSec": 3567,
+      "durationSec": 1519,
+      "topic": "trustPID",
+      "fineSubject": "Identity Management",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3568,
+      "endSec": 4101,
+      "durationSec": 533,
+      "topic": "Cyberwar",
+      "fineSubject": "Cyber Warfare",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4101,
+      "endSec": 4178,
+      "durationSec": 77,
+      "topic": "Unabhängigeres BSI",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4179,
+      "endSec": 4293,
+      "durationSec": 114,
+      "topic": "Glyphosat-Gutachten",
+      "fineSubject": "Agriculture",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4294,
+      "endSec": 4555,
+      "durationSec": 261,
+      "topic": "Moderne Geräte unterstützen kein Cell Broadcast?",
+      "fineSubject": "Communication",
+      "topicIndex": 8
+    }
+  ]
+}

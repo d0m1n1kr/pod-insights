@@ -1,0 +1,134 @@
+{
+  "episodeNumber": 31,
+  "title": "CRE031 Programmiersprachen und Dylan",
+  "generatedAt": "2026-01-05T15:17:54.364Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 1,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 8,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Moderne Programmiersprachen",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geschichte von Programmiersprachen",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technische Grundlagen von Programmiersprachen",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Merkmale der Programmiersprache Dylan",
+      "fineSubject": "Dylan",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Konzepte hinter Dylan",
+      "fineSubject": "Dylan",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Unterschiede zwischen Dylan und anderen Programmiersprachen",
+      "fineSubject": "Dylan",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lösungen für Programmierprobleme mit Dylan",
+      "fineSubject": "Dylan",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zukunft von Programmiersprachen",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 7,
+      "untimed": true
+    }
+  ]
+}

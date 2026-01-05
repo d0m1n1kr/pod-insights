@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 280,
+  "title": "Mi280 – \"Ig-Nobelpreis 2023 Sonderfolge\"",
+  "generatedAt": "2026-01-05T15:18:17.381Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.20440251572327045,
+      "Culture": 0.10399820305480682,
+      "Wissenschaft": 0,
+      "Health": 0.37376460017969454,
+      "Technology": 0.15049415992812218,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.04604672057502246,
+      "Physik": 0,
+      "Education": 0.12129380053908356,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 910,
+      "Culture": 463,
+      "Wissenschaft": 0,
+      "Health": 1664,
+      "Technology": 670,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 205,
+      "Physik": 0,
+      "Education": 540,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 3,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4452,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 596,
+      "endSec": 801,
+      "durationSec": 205,
+      "topic": "Empfehlung André Lampe Twitch am 20.12.23",
+      "fineSubject": "Event / Twitch",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 2789,
+      "endSec": 3452,
+      "durationSec": 663,
+      "topic": "CHEMISTRY and GEOLOGY PRIZE",
+      "fineSubject": "Award / Ig-Nobelpreis",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3452,
+      "endSec": 3915,
+      "durationSec": 463,
+      "topic": "LITERATURE PRIZE",
+      "fineSubject": "Award / Ig-Nobelpreis",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3915,
+      "endSec": 4585,
+      "durationSec": 670,
+      "topic": "MECHANICAL ENGINEERING PRIZE",
+      "fineSubject": "Award / Ig-Nobelpreis",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4585,
+      "endSec": 5348,
+      "durationSec": 763,
+      "topic": "PUBLIC HEALTH PRIZE",
+      "fineSubject": "Award / Ig-Nobelpreis",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 6028,
+      "endSec": 6401,
+      "durationSec": 373,
+      "topic": "MEDICINE PRIZE",
+      "fineSubject": "Award / Ig-Nobelpreis",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 6401,
+      "endSec": 6929,
+      "durationSec": 528,
+      "topic": "NUTRITION PRIZE",
+      "fineSubject": "Award / Ig-Nobelpreis",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Education",
+      "startSec": 6929,
+      "endSec": 7469,
+      "durationSec": 540,
+      "topic": "EDUCATION PRIZE",
+      "fineSubject": "Award / Ig-Nobelpreis",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Science",
+      "startSec": 7985,
+      "endSec": 8232,
+      "durationSec": 247,
+      "topic": "PHYSICS PRIZE",
+      "fineSubject": "Award / Ig-Nobelpreis",
+      "topicIndex": 13
+    }
+  ]
+}

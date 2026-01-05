@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 104,
+  "title": "UKW104 Ukraine: Kampf ums elektromagnetische Spektrum",
+  "generatedAt": "2026-01-05T15:18:03.027Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.10660377358490566,
+      "Politics": 0.48309143686502176,
+      "Military": 0.39644412191582,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0.01386066763425254,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 1469,
+      "Politics": 6657,
+      "Military": 5463,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 191,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 1,
+      "Politics": 4,
+      "Military": 5,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 13780,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 114,
+      "endSec": 188,
+      "durationSec": 74,
+      "topic": "Überblick",
+      "fineSubject": "Conflict Overview",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 189,
+      "endSec": 596,
+      "durationSec": 407,
+      "topic": "NAFO",
+      "fineSubject": "NAFO",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 596,
+      "endSec": 1557,
+      "durationSec": 961,
+      "topic": "Open Source Intelligence",
+      "fineSubject": "Open Source Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1558,
+      "endSec": 5540,
+      "durationSec": 3982,
+      "topic": "Nordstream-Explosionen",
+      "fineSubject": "Nordstream Incident",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 5540,
+      "endSec": 7102,
+      "durationSec": 1562,
+      "topic": "Mobilisierung",
+      "fineSubject": "Mobilization",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7103,
+      "endSec": 8063,
+      "durationSec": 960,
+      "topic": "Die Annexion",
+      "fineSubject": "Annexation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 8063,
+      "endSec": 9601,
+      "durationSec": 1538,
+      "topic": "Charkiv-Luhansk-Offensive",
+      "fineSubject": "Charkiv-Luhansk Offensive",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 9602,
+      "endSec": 10597,
+      "durationSec": 995,
+      "topic": "Cherson-Offensive",
+      "fineSubject": "Cherson Offensive",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 10598,
+      "endSec": 12239,
+      "durationSec": 1641,
+      "topic": "Verbleidendes Eskalationspotential",
+      "fineSubject": "Eskalationspotential",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 12240,
+      "endSec": 13709,
+      "durationSec": 1469,
+      "topic": "Ängste und Realität",
+      "fineSubject": "Ängste und Realität",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 13858,
+      "endSec": 14049,
+      "durationSec": 191,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 10
+    }
+  ]
+}

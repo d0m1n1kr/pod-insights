@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 106,
+  "title": "RZ106 Der Gaia-Sternkatalog 2",
+  "generatedAt": "2026-01-05T15:18:06.288Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0.709409594095941,
+      "Wissenschaft": 0.29059040590405905,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 3076,
+      "Wissenschaft": 1260,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 1,
+      "Wissenschaft": 1,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 4336,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 17,
+      "endSec": 3093,
+      "durationSec": 3076,
+      "topic": "Gaia-Sternkatalog",
+      "fineSubject": "Sternkatalog",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 3162,
+      "endSec": 4422,
+      "durationSec": 1260,
+      "topic": "Forschung",
+      "fineSubject": "Astronomische Forschung",
+      "topicIndex": 2
+    }
+  ]
+}

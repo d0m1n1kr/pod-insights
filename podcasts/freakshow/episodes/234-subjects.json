@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 234,
+  "title": "FS234 Welle F",
+  "generatedAt": "2026-01-05T15:17:51.102Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.09528214616096208,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.45837187789084183,
+      "Media": 0.44634597594819614,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 412,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1982,
+      "Media": 1930,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 4324,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 1135,
+      "endSec": 1628,
+      "durationSec": 493,
+      "topic": "Jonathan Pie",
+      "fineSubject": "Comedy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 2245,
+      "endSec": 4227,
+      "durationSec": 1982,
+      "topic": "Apple Card",
+      "fineSubject": "Credit Cards",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12199,
+      "endSec": 12611,
+      "durationSec": 412,
+      "topic": "Apple Magic Keyboard",
+      "fineSubject": "Keyboards",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 13449,
+      "endSec": 14886,
+      "durationSec": 1437,
+      "topic": "360 Grad Fotos und Videos",
+      "fineSubject": "Photography",
+      "topicIndex": 12
+    }
+  ]
+}

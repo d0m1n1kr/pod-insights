@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 140,
+  "title": "UKW140 Ukraine: No Fucks Given",
+  "generatedAt": "2026-01-05T15:18:03.036Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.7763440860215054,
+      "Military": 0,
+      "Technology": 0.07105376344086022,
+      "Economics": 0.1526021505376344,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 9025,
+      "Military": 0,
+      "Technology": 826,
+      "Economics": 1774,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 15,
+      "Military": 0,
+      "Technology": 1,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 11625,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 151,
+      "endSec": 400,
+      "durationSec": 249,
+      "topic": "Angriffe Russlands auf die Ukraine",
+      "fineSubject": "Military Conflict",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 401,
+      "endSec": 1152,
+      "durationSec": 751,
+      "topic": "Situation an der Front",
+      "fineSubject": "Military Conflict",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1152,
+      "endSec": 2040,
+      "durationSec": 888,
+      "topic": "Angriffe auf RU-Infrastruktur",
+      "fineSubject": "Military Conflict",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2041,
+      "endSec": 2371,
+      "durationSec": 330,
+      "topic": "Angriffe auf Öl-Terminals",
+      "fineSubject": "Military Conflict",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2371,
+      "endSec": 3082,
+      "durationSec": 711,
+      "topic": "Wie das Öltanker-Business funktioniert",
+      "fineSubject": "Oil Industry",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3082,
+      "endSec": 3953,
+      "durationSec": 871,
+      "topic": "Angriffe auf die Shadow Fleet",
+      "fineSubject": "Military Conflict",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3954,
+      "endSec": 4537,
+      "durationSec": 583,
+      "topic": "Unfälle, Angriffe und Attentate",
+      "fineSubject": "Military Conflict",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4537,
+      "endSec": 5256,
+      "durationSec": 719,
+      "topic": "Kilo-Klasse-U-Boot versenkt",
+      "fineSubject": "Military Conflict",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5257,
+      "endSec": 6083,
+      "durationSec": 826,
+      "topic": "Drohnentechnik- und -produktion",
+      "fineSubject": "Drones",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6084,
+      "endSec": 6531,
+      "durationSec": 447,
+      "topic": "Korruptionsaffäre in der Ukraine",
+      "fineSubject": "Corruption",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6532,
+      "endSec": 6983,
+      "durationSec": 451,
+      "topic": "Ukraine erlaubt Wehrpflichtigen die Ausreise",
+      "fineSubject": "Military Policy",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6983,
+      "endSec": 7132,
+      "durationSec": 149,
+      "topic": "Doppelte Staatsbürgerschaft",
+      "fineSubject": "Citizenship",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7133,
+      "endSec": 8262,
+      "durationSec": 1129,
+      "topic": "Deutschland und die Wehrpflicht",
+      "fineSubject": "Military Policy",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8263,
+      "endSec": 8854,
+      "durationSec": 591,
+      "topic": "Moldawien",
+      "fineSubject": "Geopolitics",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Economics",
+      "startSec": 8854,
+      "endSec": 9917,
+      "durationSec": 1063,
+      "topic": "Russlands wirtschaftliche Situation",
+      "fineSubject": "National Economy",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9918,
+      "endSec": 10348,
+      "durationSec": 430,
+      "topic": "Wahlen in Tschechien",
+      "fineSubject": "Elections",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Politics",
+      "startSec": 10348,
+      "endSec": 11259,
+      "durationSec": 911,
+      "topic": "USA",
+      "fineSubject": "International Relations",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Politics",
+      "startSec": 11259,
+      "endSec": 11785,
+      "durationSec": 526,
+      "topic": "Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 17
+    }
+  ]
+}

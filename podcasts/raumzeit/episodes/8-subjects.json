@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 8,
+  "title": "RZ008 Satellitennavigation",
+  "generatedAt": "2026-01-05T15:18:06.274Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 4,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technische Basis der Ortungssysteme",
+      "fineSubject": "Ortungssysteme",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "GPS-System",
+      "fineSubject": "GPS",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Galileo Navigationssystem",
+      "fineSubject": "Galileo",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einsatzgebiete der Satellitennavigation",
+      "fineSubject": "Navigation",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

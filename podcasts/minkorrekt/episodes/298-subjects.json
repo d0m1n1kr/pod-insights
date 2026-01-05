@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 298,
+  "title": "Mi298 – \"Es ist ein süßer Tod\"",
+  "generatedAt": "2026-01-05T15:18:17.384Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.09735645252984651,
+      "Culture": 0.6787947697555429,
+      "Wissenschaft": 0,
+      "Health": 0.1526435474701535,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.07120523024445707,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 685,
+      "Culture": 4776,
+      "Wissenschaft": 0,
+      "Health": 1074,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 501,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 7036,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 149,
+      "endSec": 810,
+      "durationSec": 661,
+      "topic": "Grenzübertritt",
+      "fineSubject": "Border Crossing",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 810,
+      "endSec": 1336,
+      "durationSec": 526,
+      "topic": "Stadtteilwanderung",
+      "fineSubject": "Neighborhood Walk",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1336,
+      "endSec": 1648,
+      "durationSec": 312,
+      "topic": "Science-o-Mat",
+      "fineSubject": "Science-o-Mat",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1648,
+      "endSec": 1872,
+      "durationSec": 224,
+      "topic": "SFB 1242 Podcast",
+      "fineSubject": "Podcast",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1872,
+      "endSec": 2149,
+      "durationSec": 277,
+      "topic": "Botenstoff Podcast",
+      "fineSubject": "Podcast",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2149,
+      "endSec": 4533,
+      "durationSec": 2384,
+      "topic": "Thema 1: “Das kann ich nicht tun, Dave”",
+      "fineSubject": "AI Ethics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4533,
+      "endSec": 4906,
+      "durationSec": 373,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4906,
+      "endSec": 5980,
+      "durationSec": 1074,
+      "topic": "Thema 2: \"Nicht nur sauber, sondern rein!\"",
+      "fineSubject": "Cleanliness",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5980,
+      "endSec": 7185,
+      "durationSec": 1205,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 222,
+  "title": "CRE222 Terravision",
+  "generatedAt": "2026-01-05T15:17:54.396Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.3956851730114146,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0.23821191657204327,
+      "Hardware": 0,
+      "Culture": 0.27789398195183174,
+      "Technologie": 0,
+      "Politics": 0.08820892846471046,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 6621,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 3986,
+      "Hardware": 0,
+      "Culture": 4650,
+      "Technologie": 0,
+      "Politics": 1476,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 3,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 2,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 16733,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 49,
+      "endSec": 2042,
+      "durationSec": 1993,
+      "topic": "Film 'The Billion Dollar Code'",
+      "fineSubject": "Film",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 49,
+      "endSec": 2042,
+      "durationSec": 1993,
+      "topic": "Dramaturgische Unterschiede zwischen Film und Realität",
+      "fineSubject": "Drehbuch",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 368,
+      "endSec": 2850,
+      "durationSec": 2482,
+      "topic": "User Interface 'Earth Tracker'",
+      "fineSubject": "Benutzeroberflächen",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1591,
+      "endSec": 6241,
+      "durationSec": 4650,
+      "topic": "Technikkultur der 90er",
+      "fineSubject": "Technologie",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4588,
+      "endSec": 6064,
+      "durationSec": 1476,
+      "topic": "Auseinandersetzung mit Google",
+      "fineSubject": "Patentrecht",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 4588,
+      "endSec": 5927,
+      "durationSec": 1339,
+      "topic": "Ähnlichkeiten zwischen Terravision und Google Earth",
+      "fineSubject": "Geoinformationssysteme",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 6085,
+      "endSec": 8885,
+      "durationSec": 2800,
+      "topic": "Entstehungsgeschichte von Terravision",
+      "fineSubject": "Virtuelle Realität",
+      "topicIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 158,
+  "title": "LNP158 Teilweise fundamentalistisch",
+  "generatedAt": "2026-01-05T15:17:57.595Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.03908794788273615,
+      "Technology": 0.7107491856677525,
+      "Law": 0,
+      "Security": 0.06563517915309446,
+      "Social": 0,
+      "Media": 0.18452768729641694,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 240,
+      "Technology": 4364,
+      "Law": 0,
+      "Security": 403,
+      "Social": 0,
+      "Media": 1133,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6140,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 148,
+      "endSec": 2378,
+      "durationSec": 2230,
+      "topic": "Netzneutralität wird abgeschafft",
+      "fineSubject": "Regulierung / Abschaffung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2378,
+      "endSec": 4512,
+      "durationSec": 2134,
+      "topic": "Telekom legt vor",
+      "fineSubject": "Telekom / Maßnahmen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 4513,
+      "endSec": 4947,
+      "durationSec": 434,
+      "topic": "Graulichs Report",
+      "fineSubject": "Graulichs Report / Analyse",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 4947,
+      "endSec": 5646,
+      "durationSec": 699,
+      "topic": "Springer gegen Adblock Plus & YouTuber",
+      "fineSubject": "Adblock Plus / YouTuber",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 5646,
+      "endSec": 6049,
+      "durationSec": 403,
+      "topic": "Droidjack Razzia",
+      "fineSubject": "Droidjack / Razzia",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6050,
+      "endSec": 6290,
+      "durationSec": 240,
+      "topic": "EU-Parlament fordert Straffreiheit für Edward Snowden",
+      "fineSubject": "Edward Snowden / Straffreiheit",
+      "topicIndex": 5
+    }
+  ]
+}

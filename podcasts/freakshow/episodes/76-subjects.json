@@ -1,0 +1,74 @@
+{
+  "episodeNumber": 76,
+  "title": "MM076 Seepferdchensex",
+  "generatedAt": "2026-01-05T15:17:51.066Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Prognosen und Einschätzungen",
+      "fineSubject": "Meinungsbildung",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Feier über den Tod der Hexe",
+      "fineSubject": "Mythologie",
+      "topicIndex": 2,
+      "untimed": true
+    }
+  ]
+}

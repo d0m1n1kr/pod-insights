@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 210,
+  "title": "LNP210 Netzpolitische Südkurve",
+  "generatedAt": "2026-01-05T15:17:57.601Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2522925520017893,
+      "Technology": 0,
+      "Law": 0.24983225229255202,
+      "Security": 0.4041601431447104,
+      "Social": 0.0820845448445538,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.011630507716394543,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1128,
+      "Technology": 0,
+      "Law": 1117,
+      "Security": 1807,
+      "Social": 367,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 52,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4471,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 644,
+      "endSec": 1011,
+      "durationSec": 367,
+      "topic": "Feedback: Quellen-Sperrungen in Facebook",
+      "fineSubject": "Social Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1012,
+      "endSec": 2413,
+      "durationSec": 1401,
+      "topic": "NSA-UA",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2414,
+      "endSec": 2820,
+      "durationSec": 406,
+      "topic": "BND Satellitenüberwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2820,
+      "endSec": 3948,
+      "durationSec": 1128,
+      "topic": "Wahlsoftware-Spende an CCC erbeten",
+      "fineSubject": "Election Technology",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3949,
+      "endSec": 4952,
+      "durationSec": 1003,
+      "topic": "Italien: Vorschlag für Regulation von Staatstrojanern",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4953,
+      "endSec": 5067,
+      "durationSec": 114,
+      "topic": "BGH: IP-Adressenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 5067,
+      "endSec": 5119,
+      "durationSec": 52,
+      "topic": "CETA beschlossen",
+      "fineSubject": "International Agreements",
+      "topicIndex": 7
+    }
+  ]
+}

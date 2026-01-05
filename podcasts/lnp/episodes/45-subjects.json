@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 45,
+  "title": "LNP045 Ohrfeigen in der Hermann-Büttner-Straße",
+  "generatedAt": "2026-01-05T15:17:57.578Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.3544827586206897,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.6455172413793103,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 514,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 936,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 1450,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 96,
+      "endSec": 1032,
+      "durationSec": 936,
+      "topic": "BGH-Urteil zu Filesharing",
+      "fineSubject": "Filesharing",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1033,
+      "endSec": 1547,
+      "durationSec": 514,
+      "topic": "Facebook-Fahndung",
+      "fineSubject": "Facebook",
+      "topicIndex": 1
+    }
+  ]
+}

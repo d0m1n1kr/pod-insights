@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 247,
+  "title": "Mi247 – „Wer bin ich für Dich?“",
+  "generatedAt": "2026-01-05T15:18:17.378Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.14330042313117067,
+      "Culture": 0.41311706629055006,
+      "Wissenschaft": 0,
+      "Health": 0.09774330042313117,
+      "Technology": 0.21156558533145275,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.13427362482369534,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1016,
+      "Culture": 2929,
+      "Wissenschaft": 0,
+      "Health": 693,
+      "Technology": 1500,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 952,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 7090,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 201,
+      "endSec": 1153,
+      "durationSec": 952,
+      "topic": "Topfschlagen",
+      "fineSubject": "Games",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1153,
+      "endSec": 1846,
+      "durationSec": 693,
+      "topic": "Reha Ende",
+      "fineSubject": "Rehabilitation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1846,
+      "endSec": 2488,
+      "durationSec": 642,
+      "topic": "Pforzheim",
+      "fineSubject": "Cities",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3096,
+      "endSec": 4596,
+      "durationSec": 1500,
+      "topic": "Thema 1: “Spidergerm”",
+      "fineSubject": "AI",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4596,
+      "endSec": 4970,
+      "durationSec": 374,
+      "topic": "Snackable Science: Neutrinos",
+      "fineSubject": "Physics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4970,
+      "endSec": 7178,
+      "durationSec": 2208,
+      "topic": "Thema 2: “Descartes ex Machina\"",
+      "fineSubject": "Mind",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7178,
+      "endSec": 7899,
+      "durationSec": 721,
+      "topic": "Schwurbel",
+      "fineSubject": "Beliefs",
+      "topicIndex": 7
+    }
+  ]
+}

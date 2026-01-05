@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 497,
+  "title": "LNP497 Real men use it after free()",
+  "generatedAt": "2026-01-05T15:17:57.641Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.24300841705131687,
+      "Technology": 0.22481672549551995,
+      "Law": 0.08973662774911757,
+      "Security": 0.34632093402117836,
+      "Social": 0.08403475427640511,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.012082541406462123,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1790,
+      "Technology": 1656,
+      "Law": 661,
+      "Security": 2551,
+      "Social": 619,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 89,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7366,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 99,
+      "endSec": 718,
+      "durationSec": 619,
+      "topic": "El Hotzo fliegt raus",
+      "fineSubject": "Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 718,
+      "endSec": 826,
+      "durationSec": 108,
+      "topic": "LNP500",
+      "fineSubject": "Podcasting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1023,
+      "endSec": 2416,
+      "durationSec": 1393,
+      "topic": "US-Wahlen",
+      "fineSubject": "Elections",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2416,
+      "endSec": 4967,
+      "durationSec": 2551,
+      "topic": "Crowdstrike",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4968,
+      "endSec": 5994,
+      "durationSec": 1026,
+      "topic": "Identify Mobile",
+      "fineSubject": "Mobile",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 5994,
+      "endSec": 6655,
+      "durationSec": 661,
+      "topic": "AI Act Timeline",
+      "fineSubject": "AI",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 6656,
+      "endSec": 6745,
+      "durationSec": 89,
+      "topic": "Bargeld-Limits bei Geldkarten",
+      "fineSubject": "Payments",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6745,
+      "endSec": 7142,
+      "durationSec": 397,
+      "topic": "Huawei-Verbot",
+      "fineSubject": "Trade",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7142,
+      "endSec": 7664,
+      "durationSec": 522,
+      "topic": "Datarade",
+      "fineSubject": "Marketplace",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 299,
+  "title": "FS299 Find My Grave",
+  "generatedAt": "2026-01-05T15:16:55.322Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6277693353595137,
+      "Software": 0.13404782852115493,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.16628009277773334,
+      "Event": 0.07190274334159802
+    },
+    "durations": {
+      "Technology": 7849,
+      "Software": 1676,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 2079,
+      "Event": 899
+    },
+    "topicCounts": {
+      "Technology": 9,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 2,
+      "Event": 4
+    },
+    "totalDurationSec": 12503,
+    "totalTopics": 27
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 213,
+      "endSec": 278,
+      "durationSec": 65,
+      "topic": "39C3 Ticketsituation",
+      "fineSubject": "Tickets / Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 278,
+      "endSec": 773,
+      "durationSec": 495,
+      "topic": "39C3 Sendezentrum",
+      "fineSubject": "Media / Sendezentrum",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 774,
+      "endSec": 894,
+      "durationSec": 120,
+      "topic": "Congresspause",
+      "fineSubject": "Break / Congresspause",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2049,
+      "endSec": 2383,
+      "durationSec": 334,
+      "topic": "Magische Kabel",
+      "fineSubject": "Products / Magische Kabel",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 2805,
+      "endSec": 4169,
+      "durationSec": 1364,
+      "topic": "Schach",
+      "fineSubject": "Strategy / Board Games",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 4169,
+      "endSec": 4884,
+      "durationSec": 715,
+      "topic": "Brettspiele",
+      "fineSubject": "Types / Variety",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4885,
+      "endSec": 5834,
+      "durationSec": 949,
+      "topic": "Apple Vision Pro",
+      "fineSubject": "Products / Vision Pro",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5834,
+      "endSec": 6917,
+      "durationSec": 1083,
+      "topic": "MNT Pocket Reform",
+      "fineSubject": "Products / MNT Pocket Reform",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 7454,
+      "endSec": 7772,
+      "durationSec": 318,
+      "topic": "macOS Tahoe Electron Detector",
+      "fineSubject": "Tools / Tahoe Electron Detector",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7772,
+      "endSec": 8657,
+      "durationSec": 885,
+      "topic": "Smart Home Update",
+      "fineSubject": "Updates / News",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Event",
+      "startSec": 8657,
+      "endSec": 8876,
+      "durationSec": 219,
+      "topic": "Pragma Conference",
+      "fineSubject": "Topics / Pragma",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 8877,
+      "endSec": 10235,
+      "durationSec": 1358,
+      "topic": "Cursor 2.0",
+      "fineSubject": "Updates / Version 2.0",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10235,
+      "endSec": 11355,
+      "durationSec": 1120,
+      "topic": "Das Wikiversum",
+      "fineSubject": "Platforms / Discussion",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11356,
+      "endSec": 12709,
+      "durationSec": 1353,
+      "topic": "Wikidata",
+      "fineSubject": "Data / Management",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12710,
+      "endSec": 13195,
+      "durationSec": 485,
+      "topic": "Wikifunctions",
+      "fineSubject": "Development / Features",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13195,
+      "endSec": 14266,
+      "durationSec": 1071,
+      "topic": "Wikipedia vs AI",
+      "fineSubject": "AI / Comparison",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14267,
+      "endSec": 14836,
+      "durationSec": 569,
+      "topic": "AI und Wissengenerierung",
+      "fineSubject": "Knowledge / Generation",
+      "topicIndex": 24
+    }
+  ]
+}

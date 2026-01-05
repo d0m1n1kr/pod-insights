@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 255,
+  "title": "Mi255 – \"Lieferandofenster\"",
+  "generatedAt": "2026-01-05T15:18:17.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.28274804905239687,
+      "Culture": 0.19467670011148272,
+      "Wissenschaft": 0,
+      "Health": 0.5225752508361204,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2029,
+      "Culture": 1397,
+      "Wissenschaft": 0,
+      "Health": 3750,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 7176,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 156,
+      "endSec": 1399,
+      "durationSec": 1243,
+      "topic": "freestyle-physics 2023",
+      "fineSubject": "Physics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1399,
+      "endSec": 1915,
+      "durationSec": 516,
+      "topic": "Kopenhagen1",
+      "fineSubject": "Kopenhagen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2420,
+      "endSec": 2542,
+      "durationSec": 122,
+      "topic": "MS Wissenschaft: Filmabend und Pub-Quiz",
+      "fineSubject": "Filmabend",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2542,
+      "endSec": 3301,
+      "durationSec": 759,
+      "topic": "Kopenhagen2",
+      "fineSubject": "Kopenhagen",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3609,
+      "endSec": 5874,
+      "durationSec": 2265,
+      "topic": "Thema 1: “Bed of Burgers”",
+      "fineSubject": "Burgers",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 5874,
+      "endSec": 6660,
+      "durationSec": 786,
+      "topic": "Snackable Science: Lebensdauer Schwarze Löcher",
+      "fineSubject": "Astrophysics",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 6660,
+      "endSec": 8145,
+      "durationSec": 1485,
+      "topic": "Thema 2: \"Stressesser\"",
+      "fineSubject": "Ernährung",
+      "topicIndex": 8
+    }
+  ]
+}

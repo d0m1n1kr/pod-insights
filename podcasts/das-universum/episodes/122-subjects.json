@@ -1,0 +1,127 @@
+{
+  "episodeNumber": 122,
+  "title": "DU122 - Die Sternenhimmel der Menschheit",
+  "generatedAt": "2026-01-05T15:18:22.109Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.4108527131782946,
+      "Raumfahrt": 0,
+      "Kultur": 0.5064599483204134,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0.082687338501292,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 318,
+      "Raumfahrt": 0,
+      "Kultur": 392,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 64,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 1,
+      "Kultur": 3,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 1,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 774,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Kultur",
+      "startSec": 0,
+      "endSec": 104,
+      "durationSec": 104,
+      "topic": "Sternenhimmel der Menschheit",
+      "fineSubject": "Mythologie",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 64,
+      "endSec": 168,
+      "durationSec": 104,
+      "topic": "Wert der Sternbilder",
+      "fineSubject": "Sternbilder",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 128,
+      "endSec": 248,
+      "durationSec": 120,
+      "topic": "Vergleich westlicher und anderer Sternenhimmel",
+      "fineSubject": "Sternenkunde",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 208,
+      "endSec": 312,
+      "durationSec": 104,
+      "topic": "Volkssternbilder",
+      "fineSubject": "Volkskunde",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 214,
+      "endSec": 308,
+      "durationSec": 94,
+      "topic": "Daten von Gaia",
+      "fineSubject": "Datenanalyse",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 268,
+      "endSec": 452,
+      "durationSec": 184,
+      "topic": "Sternengeschichten und ihre Ursprünge",
+      "fineSubject": "Geschichten",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Literatur",
+      "startSec": 412,
+      "endSec": 476,
+      "durationSec": 64,
+      "topic": "Buch von Raoul Schrott",
+      "fineSubject": "Sachbuch",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Raumsonde Gaia",
+      "fineSubject": "Missionen",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

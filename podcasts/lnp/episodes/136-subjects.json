@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 136,
+  "title": "LNP136 In Absurdistan ist das völlig normal",
+  "generatedAt": "2026-01-05T15:17:57.592Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.24464018613927208,
+      "Technology": 0.11533987036729267,
+      "Law": 0.11633704503905601,
+      "Security": 0.13993684560412165,
+      "Social": 0.19361808210071463,
+      "Media": 0.19012797074954296,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1472,
+      "Technology": 694,
+      "Law": 700,
+      "Security": 842,
+      "Social": 1165,
+      "Media": 1144,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6017,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 173,
+      "endSec": 1220,
+      "durationSec": 1047,
+      "topic": "10 Jahre Medienkompetenz",
+      "fineSubject": "Media Literacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1220,
+      "endSec": 2062,
+      "durationSec": 842,
+      "topic": "BND am DE-CIX",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2062,
+      "endSec": 2762,
+      "durationSec": 700,
+      "topic": "Urteil zum Leistungsschutzrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2763,
+      "endSec": 3928,
+      "durationSec": 1165,
+      "topic": "Ehrenamt für Dieter Gorny",
+      "fineSubject": "Volunteering",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3928,
+      "endSec": 4523,
+      "durationSec": 595,
+      "topic": "Obama: Nationaler Notfall bei Hacking",
+      "fineSubject": "National Security",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4523,
+      "endSec": 5217,
+      "durationSec": 694,
+      "topic": "Gesetz gegen den Routerzwang ist auf dem Weg",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 5217,
+      "endSec": 5314,
+      "durationSec": 97,
+      "topic": "Geoblocking",
+      "fineSubject": "Content Access",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5314,
+      "endSec": 6191,
+      "durationSec": 877,
+      "topic": "De Mazière zu Schengen",
+      "fineSubject": "Immigration",
+      "topicIndex": 7
+    }
+  ]
+}

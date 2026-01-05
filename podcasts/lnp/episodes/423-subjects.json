@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 423,
+  "title": "LNP423 Die Grenze des Nicht-Peinlichen",
+  "generatedAt": "2026-01-05T15:17:57.631Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2528041415012942,
+      "Technology": 0.15099223468507333,
+      "Law": 0.19398907103825136,
+      "Security": 0.08527466206499856,
+      "Social": 0.31693989071038253,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1758,
+      "Technology": 1050,
+      "Law": 1349,
+      "Security": 593,
+      "Social": 2204,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6954,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 63,
+      "endSec": 189,
+      "durationSec": 126,
+      "topic": "HTTP Status Code 423",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 190,
+      "endSec": 631,
+      "durationSec": 441,
+      "topic": "Situation in Österreich",
+      "fineSubject": "Current Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 631,
+      "endSec": 2728,
+      "durationSec": 2097,
+      "topic": "Julian Hessenthaler",
+      "fineSubject": "Julian Hessenthaler",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2729,
+      "endSec": 4046,
+      "durationSec": 1317,
+      "topic": "Datenskandale Österreich",
+      "fineSubject": "Data Scandals",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 4046,
+      "endSec": 5395,
+      "durationSec": 1349,
+      "topic": "eIDAS-Richtlinie",
+      "fineSubject": "eIDAS Directive",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5396,
+      "endSec": 6320,
+      "durationSec": 924,
+      "topic": "Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 6321,
+      "endSec": 6914,
+      "durationSec": 593,
+      "topic": "Staatstrojaner",
+      "fineSubject": "Staatstrojaner",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 6914,
+      "endSec": 7021,
+      "durationSec": 107,
+      "topic": "Sven Guckes RIP",
+      "fineSubject": "Sven Guckes",
+      "topicIndex": 7
+    }
+  ]
+}

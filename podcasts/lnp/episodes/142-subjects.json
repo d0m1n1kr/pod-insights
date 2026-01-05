@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 142,
+  "title": "LNP142 Wird mit Freiheitsstrafe bezahlt",
+  "generatedAt": "2026-01-05T15:17:57.593Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7233934467868935,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.2766065532131064,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2848,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1089,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3937,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 638,
+      "endSec": 1316,
+      "durationSec": 678,
+      "topic": "VDS Kabinettsbeschluss",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1316,
+      "endSec": 2325,
+      "durationSec": 1009,
+      "topic": "Merkel knew",
+      "fineSubject": "Public Figures",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2326,
+      "endSec": 3124,
+      "durationSec": 798,
+      "topic": "G10-Kommission rebelliert",
+      "fineSubject": "Government Oversight",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3125,
+      "endSec": 3488,
+      "durationSec": 363,
+      "topic": "Patriot Act Section 215 nicht verlängert, Freedom Act beschlossen",
+      "fineSubject": "Legislation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3489,
+      "endSec": 4578,
+      "durationSec": 1089,
+      "topic": "Cyberattacke: Bundesanwaltschaft ermittelt (nicht)",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 164,
+  "title": "FS164 Die Sendung ohne Maus",
+  "generatedAt": "2026-01-05T15:17:51.083Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.024792659255337923,
+      "Software": 0.21404623257455443,
+      "Hardware": 0.2007234868537145,
+      "Finance": 0.04605611434621493,
+      "Media": 0.3054526204340921,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.07984824422092818,
+      "Events": 0,
+      "Business": 0.0277924827951297,
+      "Gaming": 0.10128815952002823,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 281,
+      "Software": 2426,
+      "Hardware": 2275,
+      "Finance": 522,
+      "Media": 3462,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 905,
+      "Events": 0,
+      "Business": 315,
+      "Gaming": 1148,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 3,
+      "Hardware": 4,
+      "Finance": 1,
+      "Media": 4,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 2,
+      "Event": 0
+    },
+    "totalDurationSec": 11334,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 306,
+      "endSec": 1672,
+      "durationSec": 1366,
+      "topic": "Feedumstellung in der Metaebene",
+      "fineSubject": "Feed Management",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1673,
+      "endSec": 2431,
+      "durationSec": 758,
+      "topic": "Google Podcasting",
+      "fineSubject": "Platforms",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 2431,
+      "endSec": 3591,
+      "durationSec": 1160,
+      "topic": "Overcast, Kapitelmarken und Flattr",
+      "fineSubject": "Features",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 3591,
+      "endSec": 4487,
+      "durationSec": 896,
+      "topic": "Human Resource Machine",
+      "fineSubject": "Educational Games",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 4488,
+      "endSec": 4740,
+      "durationSec": 252,
+      "topic": "Lightbot",
+      "fineSubject": "Educational Games",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4741,
+      "endSec": 5870,
+      "durationSec": 1129,
+      "topic": "SpaceAge 2 CPU",
+      "fineSubject": "Architecture",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 5870,
+      "endSec": 6776,
+      "durationSec": 906,
+      "topic": "SPL-T",
+      "fineSubject": "Languages",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Finance",
+      "startSec": 6777,
+      "endSec": 7299,
+      "durationSec": 522,
+      "topic": "Apple Pay",
+      "fineSubject": "Digital Wallets",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 7299,
+      "endSec": 7614,
+      "durationSec": 315,
+      "topic": "Apple Quartalszahlen",
+      "fineSubject": "Company Performance",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7735,
+      "endSec": 8481,
+      "durationSec": 746,
+      "topic": "Magic TrackPad 2",
+      "fineSubject": "Peripherals",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8482,
+      "endSec": 8668,
+      "durationSec": 186,
+      "topic": "A1242",
+      "fineSubject": "Models",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8668,
+      "endSec": 8882,
+      "durationSec": 214,
+      "topic": "Apple TV",
+      "fineSubject": "Apple TV",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 8883,
+      "endSec": 9949,
+      "durationSec": 1066,
+      "topic": "Pimp My Mac: FreeBSD",
+      "fineSubject": "FreeBSD",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 9949,
+      "endSec": 10403,
+      "durationSec": 454,
+      "topic": "Ports used by OSX",
+      "fineSubject": "Ports",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Security",
+      "startSec": 10403,
+      "endSec": 11308,
+      "durationSec": 905,
+      "topic": "Let's Encrypt",
+      "fineSubject": "SSL",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11697,
+      "endSec": 11978,
+      "durationSec": 281,
+      "topic": "hackertyper.net",
+      "fineSubject": "Coding",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 13608,
+      "endSec": 13786,
+      "durationSec": 178,
+      "topic": "Bonus Track",
+      "fineSubject": "Tracks",
+      "topicIndex": 20
+    }
+  ]
+}

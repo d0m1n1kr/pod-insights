@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 264,
+  "title": "Mi264 – „Science vs. Wild“",
+  "generatedAt": "2026-01-05T15:18:17.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.6350809446012179,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.203920986187435,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.017080053467993465,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.14391801574335364,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 4276,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1373,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 115,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 969,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 6,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6733,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 287,
+      "endSec": 804,
+      "durationSec": 517,
+      "topic": "BalkonSolar",
+      "fineSubject": "Solar",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 804,
+      "endSec": 1773,
+      "durationSec": 969,
+      "topic": "Twitter X",
+      "fineSubject": "Social Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1773,
+      "endSec": 3146,
+      "durationSec": 1373,
+      "topic": "E-Bike Reini",
+      "fineSubject": "E-Bike",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 3146,
+      "endSec": 3261,
+      "durationSec": 115,
+      "topic": "Journalistenpodcast",
+      "fineSubject": "Podcast",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3261,
+      "endSec": 3892,
+      "durationSec": 631,
+      "topic": "Science Chatter Ruhr",
+      "fineSubject": "Discussion",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4189,
+      "endSec": 5716,
+      "durationSec": 1527,
+      "topic": "Thema 1: “Plasmawellenreiter”",
+      "fineSubject": "Physics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 5716,
+      "endSec": 6292,
+      "durationSec": 576,
+      "topic": "Experiment: Papiersäge",
+      "fineSubject": "Experiment",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 6292,
+      "endSec": 7317,
+      "durationSec": 1025,
+      "topic": "Thema 2: \"Nomen est Memoria\"",
+      "fineSubject": "Memory",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 7433,
+      "endSec": 7433,
+      "durationSec": 0,
+      "topic": "Science Chatter Ruhr: Alica",
+      "fineSubject": "Discussion",
+      "topicIndex": 8
+    }
+  ]
+}

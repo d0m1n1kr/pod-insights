@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 137,
+  "title": "UKW137 Serbien: Der Präsident ist jetzt zuständig",
+  "generatedAt": "2026-01-05T15:18:03.035Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.6576475536240011,
+      "Military": 0.12266928361138371,
+      "Technology": 0,
+      "Economics": 0.03981494462358054,
+      "Media": 0.02004766577877471,
+      "Miscellaneous": 0,
+      "Society": 0.15982055236225992,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 4691,
+      "Military": 875,
+      "Technology": 0,
+      "Economics": 284,
+      "Media": 143,
+      "Miscellaneous": 0,
+      "Society": 1140,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 13,
+      "Military": 1,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 3,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7133,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 435,
+      "endSec": 541,
+      "durationSec": 106,
+      "topic": "April: Schülerproteste",
+      "fineSubject": "Protests",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 541,
+      "endSec": 752,
+      "durationSec": 211,
+      "topic": "April: Student:innen in jedem Dorf",
+      "fineSubject": "Protests",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 753,
+      "endSec": 896,
+      "durationSec": 143,
+      "topic": "April: Besetzung staatlichen Fernsehens endet",
+      "fineSubject": "Television",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Economics",
+      "startSec": 897,
+      "endSec": 1181,
+      "durationSec": 284,
+      "topic": "Mai: Rolle der Gewerkschaften",
+      "fineSubject": "Unions",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1181,
+      "endSec": 1672,
+      "durationSec": 491,
+      "topic": "Mai: Bürgerversammlungen",
+      "fineSubject": "Community Engagement",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1673,
+      "endSec": 1848,
+      "durationSec": 175,
+      "topic": "Mai: Vučić reist in die USA",
+      "fineSubject": "International Relations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1848,
+      "endSec": 2298,
+      "durationSec": 450,
+      "topic": "Mai: Neuwahlen-Forderung mit eigener Liste",
+      "fineSubject": "Elections",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2298,
+      "endSec": 2737,
+      "durationSec": 439,
+      "topic": "Juni: Erste Kommunalwahlen nach Protestbeginn",
+      "fineSubject": "Elections",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2737,
+      "endSec": 3107,
+      "durationSec": 370,
+      "topic": "Juni: Großdemo in Belgrad und die Folgen",
+      "fineSubject": "Protests",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3108,
+      "endSec": 3281,
+      "durationSec": 173,
+      "topic": "Juli: Waldbrände stoppen die Bewegung",
+      "fineSubject": "Protests",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Military",
+      "startSec": 3282,
+      "endSec": 4157,
+      "durationSec": 875,
+      "topic": "August: Schlägertruppen und Gewalteskalation",
+      "fineSubject": "Political Violence",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4158,
+      "endSec": 4630,
+      "durationSec": 472,
+      "topic": "August: Marko Kričak",
+      "fineSubject": "Individuals",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4630,
+      "endSec": 5251,
+      "durationSec": 621,
+      "topic": "August: Druck auf Gemeinden und Universitäten",
+      "fineSubject": "Pressure Tactics",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Society",
+      "startSec": 5252,
+      "endSec": 5599,
+      "durationSec": 347,
+      "topic": "September: Neues Schuljahr",
+      "fineSubject": "School Year",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Society",
+      "startSec": 5599,
+      "endSec": 6045,
+      "durationSec": 446,
+      "topic": "September: Belgrade Pride",
+      "fineSubject": "Pride Events",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6045,
+      "endSec": 6575,
+      "durationSec": 530,
+      "topic": "Die Rolle der EU",
+      "fineSubject": "International Relations",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Society",
+      "startSec": 6576,
+      "endSec": 6923,
+      "durationSec": 347,
+      "topic": "Sport und Kultur",
+      "fineSubject": "Sports",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6923,
+      "endSec": 7166,
+      "durationSec": 243,
+      "topic": "Solidarität mit Bogdan Jovičić",
+      "fineSubject": "Solidarity",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7166,
+      "endSec": 7576,
+      "durationSec": 410,
+      "topic": "Status Quo und Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 18
+    }
+  ]
+}

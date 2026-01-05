@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 326,
+  "title": "LNP326 Bestellzettel",
+  "generatedAt": "2026-01-05T15:17:57.617Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.06144935725384942,
+      "Technology": 0,
+      "Law": 0.9385506427461506,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 435,
+      "Technology": 0,
+      "Law": 6644,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 9,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7079,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 93,
+      "endSec": 442,
+      "durationSec": 349,
+      "topic": "Constanze für den CCC vor dem BVerfG",
+      "fineSubject": "Case Study / CCC",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 443,
+      "endSec": 876,
+      "durationSec": 433,
+      "topic": "Erfahrungen mit dem BVerfG",
+      "fineSubject": "Experiences / Court Proceedings",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 876,
+      "endSec": 994,
+      "durationSec": 118,
+      "topic": "Das  Gefühl vor Ort",
+      "fineSubject": "Atmosphere / On-Site Experience",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1443,
+      "endSec": 1834,
+      "durationSec": 391,
+      "topic": "Vor Gericht",
+      "fineSubject": "Process / Trial",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1835,
+      "endSec": 2270,
+      "durationSec": 435,
+      "topic": "Der BND",
+      "fineSubject": "Agency / BND",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2270,
+      "endSec": 3118,
+      "durationSec": 848,
+      "topic": "Die Beschwerde",
+      "fineSubject": "Legal Action / Appeals",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 3119,
+      "endSec": 4801,
+      "durationSec": 1682,
+      "topic": "Die Vorwürfe",
+      "fineSubject": "Claims / Accusations",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 5199,
+      "endSec": 5863,
+      "durationSec": 664,
+      "topic": "Der zweite Tag",
+      "fineSubject": "Process / Second Day",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 5863,
+      "endSec": 6861,
+      "durationSec": 998,
+      "topic": "Weitere Entwicklung",
+      "fineSubject": "Updates / Progress",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 6861,
+      "endSec": 8022,
+      "durationSec": 1161,
+      "topic": "Fazit und Ausblick",
+      "fineSubject": "Summary / Outlook",
+      "topicIndex": 10
+    }
+  ]
+}

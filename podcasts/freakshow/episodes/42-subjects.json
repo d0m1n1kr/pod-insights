@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 42,
+  "title": "MM042 Bi-Ba-Buzzemann",
+  "generatedAt": "2026-01-05T15:17:51.063Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1734853029394121,
+      "Software": 0.29658068386322733,
+      "Hardware": 0.17528494301139771,
+      "Finance": 0,
+      "Media": 0.11601679664067187,
+      "Social": 0.09682063587282544,
+      "Culture": 0,
+      "Security": 0.06022795440911818,
+      "Events": 0,
+      "Business": 0.08158368326334733,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1446,
+      "Software": 2472,
+      "Hardware": 1461,
+      "Finance": 0,
+      "Media": 967,
+      "Social": 807,
+      "Culture": 0,
+      "Security": 502,
+      "Events": 0,
+      "Business": 680,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 5,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8335,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 596,
+      "endSec": 1403,
+      "durationSec": 807,
+      "topic": "Google Buzz",
+      "fineSubject": "Google Buzz",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1403,
+      "endSec": 2321,
+      "durationSec": 918,
+      "topic": "iBookstore",
+      "fineSubject": "iBookstore",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2321,
+      "endSec": 3767,
+      "durationSec": 1446,
+      "topic": "Flash und HTML5",
+      "fineSubject": "Flash und HTML5",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 3767,
+      "endSec": 4210,
+      "durationSec": 443,
+      "topic": "iPhone OS 3",
+      "fineSubject": "iPhone OS 3",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 4210,
+      "endSec": 4890,
+      "durationSec": 680,
+      "topic": "Apple und Google",
+      "fineSubject": "Apple und Google",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5403,
+      "endSec": 5970,
+      "durationSec": 567,
+      "topic": "Windows Phone",
+      "fineSubject": "Windows Phone",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 5970,
+      "endSec": 6125,
+      "durationSec": 155,
+      "topic": "MeeGo",
+      "fineSubject": "MeeGo",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6125,
+      "endSec": 6523,
+      "durationSec": 398,
+      "topic": "Apple Magic Mouse",
+      "fineSubject": "Apple Magic Mouse",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 6523,
+      "endSec": 6807,
+      "durationSec": 284,
+      "topic": "Opera Mobile",
+      "fineSubject": "Opera Mobile",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 6807,
+      "endSec": 7774,
+      "durationSec": 967,
+      "topic": "MPEG-4 LA",
+      "fineSubject": "MPEG-4 LA",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7774,
+      "endSec": 8270,
+      "durationSec": 496,
+      "topic": "Atom-BSD-Maschine",
+      "fineSubject": "Atom-BSD-Maschine",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 8270,
+      "endSec": 8942,
+      "durationSec": 672,
+      "topic": "Syncing",
+      "fineSubject": "Syncing",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Security",
+      "startSec": 8942,
+      "endSec": 9444,
+      "durationSec": 502,
+      "topic": "1Password",
+      "fineSubject": "1Password",
+      "topicIndex": 13
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 351,
+  "title": "LNP351 Der Potemkinsche VW-Bus",
+  "generatedAt": "2026-01-05T15:17:57.621Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.23410565338276182,
+      "Technology": 0.35607043558850787,
+      "Law": 0.08303985171455051,
+      "Security": 0.3267840593141798,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1263,
+      "Technology": 1921,
+      "Law": 448,
+      "Security": 1763,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5395,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 669,
+      "endSec": 1100,
+      "durationSec": 431,
+      "topic": "Feedback: Google-freies Android",
+      "fineSubject": "Android",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2316,
+      "endSec": 2447,
+      "durationSec": 131,
+      "topic": "Feedback: CWA-FAQ",
+      "fineSubject": "CWA",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2447,
+      "endSec": 3806,
+      "durationSec": 1359,
+      "topic": "Probleme mit der Corona-Warn-App",
+      "fineSubject": "Corona-Warn-App",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3807,
+      "endSec": 5166,
+      "durationSec": 1359,
+      "topic": "Feedback: Facebook FBI Exploit",
+      "fineSubject": "Exploits",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 5166,
+      "endSec": 5570,
+      "durationSec": 404,
+      "topic": "Staatstrojaner gegen Journalisten",
+      "fineSubject": "Staatstrojaner",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5571,
+      "endSec": 6834,
+      "durationSec": 1263,
+      "topic": "Trumps’ Angriff auf den Open Technology Fund",
+      "fineSubject": "Open Technology Fund",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 6835,
+      "endSec": 7283,
+      "durationSec": 448,
+      "topic": "Gesetzentwurf zu \"Hasskriminalität\"",
+      "fineSubject": "Hasskriminalität",
+      "topicIndex": 8
+    }
+  ]
+}

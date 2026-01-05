@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 124,
+  "title": "FS124 Endlich mal normale Leute",
+  "generatedAt": "2026-01-05T15:17:51.075Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.030885096386374628,
+      "Software": 0,
+      "Hardware": 0.23250190008982244,
+      "Finance": 0,
+      "Media": 0.19747115318178676,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.5391418503420161
+    },
+    "durations": {
+      "Technology": 447,
+      "Software": 0,
+      "Hardware": 3365,
+      "Finance": 0,
+      "Media": 2858,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 7803
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 14473,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 375,
+      "endSec": 8178,
+      "durationSec": 7803,
+      "topic": "Der 30C3",
+      "fineSubject": "Technology / 30C3",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8178,
+      "endSec": 9609,
+      "durationSec": 1431,
+      "topic": "Probleme mit Apple-Gear",
+      "fineSubject": "Issues / Gear",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 9609,
+      "endSec": 12467,
+      "durationSec": 2858,
+      "topic": "Audio Foo",
+      "fineSubject": "Audio Processing / Foo",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12467,
+      "endSec": 12914,
+      "durationSec": 447,
+      "topic": "White Volcano",
+      "fineSubject": "Concept / White",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12914,
+      "endSec": 14848,
+      "durationSec": 1934,
+      "topic": "Mobile und andere Hardware",
+      "fineSubject": "Devices / General",
+      "topicIndex": 4
+    }
+  ]
+}

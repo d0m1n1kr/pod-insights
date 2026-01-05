@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 380,
+  "title": "LNP380 Werkzeug der Aufklärung",
+  "generatedAt": "2026-01-05T15:17:57.625Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.011607992388201713,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.3678401522359657,
+      "Media": 0,
+      "Health": 0.006660323501427212,
+      "Feedback": 0,
+      "Legal": 0.5493815413891532,
+      "Business": 0.06450999048525215,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 61,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1933,
+      "Media": 0,
+      "Health": 35,
+      "Feedback": 0,
+      "Legal": 2887,
+      "Business": 339,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 3,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5255,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 94,
+      "endSec": 262,
+      "durationSec": 168,
+      "topic": "Feedback: DSGVO-Ersuchen an Clearview.AI",
+      "fineSubject": "Privacy / DSGVO",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 551,
+      "endSec": 743,
+      "durationSec": 192,
+      "topic": "Feedback: “Handelsstopp” bei robinhood und co",
+      "fineSubject": "Market Practices / Trading Restrictions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 743,
+      "endSec": 890,
+      "durationSec": 147,
+      "topic": "Feedback: Shorten als Marktverzerrung",
+      "fineSubject": "Market Manipulation / Short Selling",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 891,
+      "endSec": 926,
+      "durationSec": 35,
+      "topic": "Feedback: Impterminvergabe per Eventim",
+      "fineSubject": "Booking / Eventim",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 927,
+      "endSec": 988,
+      "durationSec": 61,
+      "topic": "Feedback: Linux im Finanzamt",
+      "fineSubject": "Software / Linux",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 989,
+      "endSec": 3563,
+      "durationSec": 2574,
+      "topic": "Urheberrechtreform",
+      "fineSubject": "Reform / Copyright Law",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 3563,
+      "endSec": 5496,
+      "durationSec": 1933,
+      "topic": "Hatespeech",
+      "fineSubject": "Content / Hatespeech",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5497,
+      "endSec": 5642,
+      "durationSec": 145,
+      "topic": "Hamburger LfDI verlangt Auskunft von Clubhouse",
+      "fineSubject": "Inquiries / Clubhouse",
+      "topicIndex": 8
+    }
+  ]
+}

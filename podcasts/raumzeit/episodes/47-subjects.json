@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 47,
+  "title": "RZ047 Die Venus",
+  "generatedAt": "2026-01-05T15:18:06.280Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.2,
+      "Astronomie": 0.2,
+      "Wissenschaft": 0.4,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0.2,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 1,
+      "Astronomie": 1,
+      "Wissenschaft": 2,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 1,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Venus als Forschungsobjekt",
+      "fineSubject": "Planeten",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Atmosphäre der Venus",
+      "fineSubject": "Planetare Atmosphären",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mögliche Lebensbedingungen auf der Venus",
+      "fineSubject": "Lebensbedingungen",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erderwärmung und Venus",
+      "fineSubject": "Klimaforschung",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Herausforderungen der Venusmission",
+      "fineSubject": "Missionstechnologie",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

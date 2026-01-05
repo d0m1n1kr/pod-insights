@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 155,
+  "title": "FS155 Käpt’n mein Käpt’n",
+  "generatedAt": "2026-01-05T15:17:51.081Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.819201467268623,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.07470372460496615,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.10609480812641084
+    },
+    "durations": {
+      "Technology": 11613,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1059,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1504
+    },
+    "topicCounts": {
+      "Technology": 11,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 3
+    },
+    "totalDurationSec": 14176,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 716,
+      "endSec": 1631,
+      "durationSec": 915,
+      "topic": "Das Podlove Workshop-Modell",
+      "fineSubject": "Podcasting",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 1632,
+      "endSec": 2704,
+      "durationSec": 1072,
+      "topic": "republica 15: Netz und Multicast-Video",
+      "fineSubject": "Conference",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 2704,
+      "endSec": 3003,
+      "durationSec": 299,
+      "topic": "rp15 App und Geräteverteilung",
+      "fineSubject": "App Distribution",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 3004,
+      "endSec": 3137,
+      "durationSec": 133,
+      "topic": "republica 15: Vorträge",
+      "fineSubject": "Talks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3137,
+      "endSec": 4298,
+      "durationSec": 1161,
+      "topic": "Google IO",
+      "fineSubject": "Google IO",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4299,
+      "endSec": 6578,
+      "durationSec": 2279,
+      "topic": "WWDC: OSX Käpt'n",
+      "fineSubject": "WWDC",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6578,
+      "endSec": 7201,
+      "durationSec": 623,
+      "topic": "Apple Watch Erfahrungen",
+      "fineSubject": "Wearables",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7201,
+      "endSec": 8724,
+      "durationSec": 1523,
+      "topic": "WWDC: Developer Features",
+      "fineSubject": "WWDC Features",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8725,
+      "endSec": 10965,
+      "durationSec": 2240,
+      "topic": "WWDC: IPv6 und TLS Enforcement",
+      "fineSubject": "Networking",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10965,
+      "endSec": 11612,
+      "durationSec": 647,
+      "topic": "iOS 9: Spotlight",
+      "fineSubject": "iOS",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11613,
+      "endSec": 12117,
+      "durationSec": 504,
+      "topic": "iOS 9: Split View und PiP",
+      "fineSubject": "iOS Features",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12117,
+      "endSec": 12402,
+      "durationSec": 285,
+      "topic": "iOS 9: Maps und Transit",
+      "fineSubject": "iOS Maps",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12403,
+      "endSec": 13643,
+      "durationSec": 1240,
+      "topic": "Adressen und Adressbücher",
+      "fineSubject": "Contacts",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13643,
+      "endSec": 13839,
+      "durationSec": 196,
+      "topic": "CloudKit",
+      "fineSubject": "Cloud Services",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Social",
+      "startSec": 13840,
+      "endSec": 14899,
+      "durationSec": 1059,
+      "topic": "Soziales Verhalten mit digitalen Geräten",
+      "fineSubject": "Digital Behavior",
+      "topicIndex": 14
+    }
+  ]
+}

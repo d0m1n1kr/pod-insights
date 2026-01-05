@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 163,
+  "title": "FS163 Mentale Menopause",
+  "generatedAt": "2026-01-05T15:17:51.082Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.187244128420599,
+      "Software": 0,
+      "Hardware": 0.41208791208791207,
+      "Finance": 0.20739064856711917,
+      "Media": 0.11710838181426417,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.07616892911010557,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1738,
+      "Software": 0,
+      "Hardware": 3825,
+      "Finance": 1925,
+      "Media": 1087,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 707,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 0,
+      "Hardware": 4,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 9282,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 649,
+      "endSec": 2171,
+      "durationSec": 1522,
+      "topic": "Sensorik",
+      "fineSubject": "Sensorik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 2172,
+      "endSec": 2879,
+      "durationSec": 707,
+      "topic": "Jelly Splash",
+      "fineSubject": "Jelly Splash",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3847,
+      "endSec": 5772,
+      "durationSec": 1925,
+      "topic": "Electronic Payment",
+      "fineSubject": "Electronic Payment",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5773,
+      "endSec": 7190,
+      "durationSec": 1417,
+      "topic": "Macs",
+      "fineSubject": "Macs",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7190,
+      "endSec": 8043,
+      "durationSec": 853,
+      "topic": "Neue Peripherie für Macs",
+      "fineSubject": "Peripherie",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8043,
+      "endSec": 8624,
+      "durationSec": 581,
+      "topic": "Pimp my Mac",
+      "fineSubject": "Mac Customization",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8625,
+      "endSec": 9599,
+      "durationSec": 974,
+      "topic": "Neues Apple TV",
+      "fineSubject": "Apple TV",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 13390,
+      "endSec": 14268,
+      "durationSec": 878,
+      "topic": "Podcasts und Overcast",
+      "fineSubject": "Podcasts",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14269,
+      "endSec": 14485,
+      "durationSec": 216,
+      "topic": "Voice over LTE",
+      "fineSubject": "Voice over LTE",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 14592,
+      "endSec": 14801,
+      "durationSec": 209,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 12
+    }
+  ]
+}

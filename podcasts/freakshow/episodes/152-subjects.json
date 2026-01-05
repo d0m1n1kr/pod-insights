@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 152,
+  "title": "FS152 Luxusprobleme für 10000",
+  "generatedAt": "2026-01-05T15:17:51.080Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2667836070802105,
+      "Software": 0.056530059001754104,
+      "Hardware": 0.3690001594642003,
+      "Finance": 0.08674852495614735,
+      "Media": 0.19478552065061394,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.02615212884707383,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3346,
+      "Software": 709,
+      "Hardware": 4628,
+      "Finance": 1088,
+      "Media": 2443,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 328,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 3,
+      "Hardware": 4,
+      "Finance": 1,
+      "Media": 3,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12542,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 213,
+      "endSec": 1260,
+      "durationSec": 1047,
+      "topic": "10 GBit Ethernet & iPhone NAND Performance",
+      "fineSubject": "Networking",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1260,
+      "endSec": 1786,
+      "durationSec": 526,
+      "topic": "AVB und USB Audio Probleme",
+      "fineSubject": "USB",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1787,
+      "endSec": 2505,
+      "durationSec": 718,
+      "topic": "Audiorecorder und Kunstkopfaufnahmen",
+      "fineSubject": "Recording",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 2505,
+      "endSec": 2705,
+      "durationSec": 200,
+      "topic": "Keynote: Apple TV",
+      "fineSubject": "Apple TV",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 2706,
+      "endSec": 3078,
+      "durationSec": 372,
+      "topic": "Keynote: ResearchKit",
+      "fineSubject": "ResearchKit",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3078,
+      "endSec": 4886,
+      "durationSec": 1808,
+      "topic": "Keynote: Retina MacBook",
+      "fineSubject": "MacBook",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4887,
+      "endSec": 6341,
+      "durationSec": 1454,
+      "topic": "Keynote: Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6342,
+      "endSec": 6661,
+      "durationSec": 319,
+      "topic": "Waagen",
+      "fineSubject": "Scales",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6661,
+      "endSec": 8901,
+      "durationSec": 2240,
+      "topic": "Path MTU Discovery und VPN Tunnel",
+      "fineSubject": "VPN",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8901,
+      "endSec": 9989,
+      "durationSec": 1088,
+      "topic": "Bitcoins",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 9990,
+      "endSec": 11189,
+      "durationSec": 1199,
+      "topic": "Audiomixer",
+      "fineSubject": "Mixing",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13788,
+      "endSec": 14894,
+      "durationSec": 1106,
+      "topic": "Telekom Hybrid DSL",
+      "fineSubject": "DSL",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Security",
+      "startSec": 14894,
+      "endSec": 15222,
+      "durationSec": 328,
+      "topic": "Enterprise E-Mail Encryption",
+      "fineSubject": "Email",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 15223,
+      "endSec": 15360,
+      "durationSec": 137,
+      "topic": "Swift Compiler Crashes",
+      "fineSubject": "Compiler",
+      "topicIndex": 14
+    }
+  ]
+}

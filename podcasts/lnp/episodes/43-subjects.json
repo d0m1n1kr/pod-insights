@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 43,
+  "title": "LNP043 Leichenschutzrecht",
+  "generatedAt": "2026-01-05T15:17:57.578Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.38733216579100993,
+      "Technology": 0.10245183887915937,
+      "Law": 0.11733800350262696,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.18768242848803268,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.20519556333917105,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1327,
+      "Technology": 351,
+      "Law": 402,
+      "Security": 0,
+      "Social": 0,
+      "Media": 643,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 703,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3426,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 73,
+      "endSec": 987,
+      "durationSec": 914,
+      "topic": "Internetzensur in Russland",
+      "fineSubject": "Censorship",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 988,
+      "endSec": 1339,
+      "durationSec": 351,
+      "topic": "IP-Adressauskünfte",
+      "fineSubject": "IP Addressing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 1340,
+      "endSec": 2043,
+      "durationSec": 703,
+      "topic": "O2 will Bewegungsprofile seiner Kunden verkaufen",
+      "fineSubject": "Customer Data",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2044,
+      "endSec": 2217,
+      "durationSec": 173,
+      "topic": "Neues von Wikileaks",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2217,
+      "endSec": 2619,
+      "durationSec": 402,
+      "topic": "Das Urheberrecht gilt noch nicht lang genug",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2620,
+      "endSec": 2860,
+      "durationSec": 240,
+      "topic": "Störerhaftung war kurz Thema im Bundestag",
+      "fineSubject": "Legislation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 2860,
+      "endSec": 3248,
+      "durationSec": 388,
+      "topic": "Paywalls auf deutschen Medienseiten",
+      "fineSubject": "Paywalls",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 3249,
+      "endSec": 3504,
+      "durationSec": 255,
+      "topic": "Ein Jahr Logbuch:Netzpolitik",
+      "fineSubject": "Net Politics",
+      "topicIndex": 7
+    }
+  ]
+}

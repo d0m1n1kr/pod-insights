@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 210,
+  "title": "Mi210 – „22022202“",
+  "generatedAt": "2026-01-05T15:18:17.373Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.42239727485629125,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.22716627634660422,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0.33617202469661484,
+      "Media": 0.014264424100489675,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1984,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1067,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1579,
+      "Media": 67,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4697,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 185,
+      "endSec": 702,
+      "durationSec": 517,
+      "topic": "Sturmschäden",
+      "fineSubject": "Damage / Storm Damage",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 2456,
+      "endSec": 2523,
+      "durationSec": 67,
+      "topic": "Trailrunning Podcast",
+      "fineSubject": "Genre / Trailrunning",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2676,
+      "endSec": 3629,
+      "durationSec": 953,
+      "topic": "Altersbestimmung",
+      "fineSubject": "Method / Age Determination",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4268,
+      "endSec": 4481,
+      "durationSec": 213,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Activity / Experiment of the Week",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 5972,
+      "endSec": 6273,
+      "durationSec": 301,
+      "topic": "Auswertung Experiment",
+      "fineSubject": "Analysis / Experiment Evaluation",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 6273,
+      "endSec": 7852,
+      "durationSec": 1579,
+      "topic": "Thema 2: \"Das gefährlichste Tier der Welt!\"",
+      "fineSubject": "Discussion / Dangerous Animals",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 7852,
+      "endSec": 8919,
+      "durationSec": 1067,
+      "topic": "Thema 3: \"#NotJustCovid\"",
+      "fineSubject": "Discussion / Covid",
+      "topicIndex": 11
+    }
+  ]
+}

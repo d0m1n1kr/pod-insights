@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 308,
+  "title": "Mi308 – \"Ramschkirchen\"",
+  "generatedAt": "2026-01-05T15:18:17.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.6006478482184174,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.3993521517815826,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1298,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 863,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 2161,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 1006,
+      "endSec": 2304,
+      "durationSec": 1298,
+      "topic": "Fitnessstudio Reini",
+      "fineSubject": "Fitness / Reini",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 6202,
+      "endSec": 7065,
+      "durationSec": 863,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Gesellschaft / Schwurbel der Woche",
+      "topicIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 62,
+  "title": "LNP062 Zerebrale Flatulenz",
+  "generatedAt": "2026-01-05T15:17:57.581Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.6238061961332402,
+      "Law": 0.3270440251572327,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.04914977870952714,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2678,
+      "Law": 1404,
+      "Security": 0,
+      "Social": 0,
+      "Media": 211,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4293,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 103,
+      "endSec": 2781,
+      "durationSec": 2678,
+      "topic": "Telekom erdrosselt ihre Kunden",
+      "fineSubject": "Kundenrechte",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 2782,
+      "endSec": 3926,
+      "durationSec": 1144,
+      "topic": "eGovernment-Gesetz samt De-Mail-Klausel beschlossen",
+      "fineSubject": "eGovernment",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 3926,
+      "endSec": 4186,
+      "durationSec": 260,
+      "topic": "Funkzellenabfrage in Dresden war rechtswidrig",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 4186,
+      "endSec": 4397,
+      "durationSec": 211,
+      "topic": "Facebook gewinnt im Klarnamenstreit",
+      "fineSubject": "Rechtsstreit",
+      "topicIndex": 3
+    }
+  ]
+}

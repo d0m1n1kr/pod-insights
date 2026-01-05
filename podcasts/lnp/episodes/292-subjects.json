@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 292,
+  "title": "LNP292 ad ACTA",
+  "generatedAt": "2026-01-05T15:17:57.612Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.870453172205438,
+      "Technology": 0.0733534743202417,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.056193353474320244,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 7203,
+      "Technology": 607,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 465,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 8275,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 149,
+      "endSec": 3623,
+      "durationSec": 3474,
+      "topic": "in Brüssel",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3623,
+      "endSec": 5594,
+      "durationSec": 1971,
+      "topic": "Demos in Berlin und Wien",
+      "fineSubject": "Protests",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 5595,
+      "endSec": 6060,
+      "durationSec": 465,
+      "topic": "Wikipedia Blackout",
+      "fineSubject": "Censorship",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6060,
+      "endSec": 6667,
+      "durationSec": 607,
+      "topic": "450€-Bots",
+      "fineSubject": "Bots",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6667,
+      "endSec": 8425,
+      "durationSec": 1758,
+      "topic": "Die Abstimmung",
+      "fineSubject": "Voting",
+      "topicIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 108,
+  "title": "UKW108 Ukraine: Banks vs. Tanks",
+  "generatedAt": "2026-01-05T15:18:03.028Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.03323070389637966,
+      "Military": 0.9473404820044591,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.01942881409916127
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 313,
+      "Military": 8923,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 183
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 1,
+      "Military": 12,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 1
+    },
+    "totalDurationSec": 9419,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 33,
+      "endSec": 252,
+      "durationSec": 219,
+      "topic": "Überblick",
+      "fineSubject": "Overview",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 252,
+      "endSec": 1551,
+      "durationSec": 1299,
+      "topic": "Militärische Lage der letzten zwei Monate",
+      "fineSubject": "Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 1551,
+      "endSec": 1817,
+      "durationSec": 266,
+      "topic": "Wagner-Linie",
+      "fineSubject": "Wagner Group",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 1818,
+      "endSec": 2214,
+      "durationSec": 396,
+      "topic": "Angriffe auf die Infrastruktur",
+      "fineSubject": "Infrastructure Attacks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 2215,
+      "endSec": 2617,
+      "durationSec": 402,
+      "topic": "UA greift RU Airbases an",
+      "fineSubject": "Airbase Attacks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 2617,
+      "endSec": 2800,
+      "durationSec": 183,
+      "topic": "Internationale Unterstützung bei Energieversorung",
+      "fineSubject": "Energy Support",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 2800,
+      "endSec": 5813,
+      "durationSec": 3013,
+      "topic": "Westliche Militärtechnik für UA",
+      "fineSubject": "Western Military Technology",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 5814,
+      "endSec": 6227,
+      "durationSec": 413,
+      "topic": "Tatsächlicher Bedarf an Kriegsgerät",
+      "fineSubject": "Equipment Needs",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 6228,
+      "endSec": 6692,
+      "durationSec": 464,
+      "topic": "Kampfflugzeuge für UA",
+      "fineSubject": "Fighter Jets",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 6692,
+      "endSec": 7374,
+      "durationSec": 682,
+      "topic": "Russlands Reaktion",
+      "fineSubject": "Russia's Reaction",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Military",
+      "startSec": 7375,
+      "endSec": 7701,
+      "durationSec": 326,
+      "topic": "Neuer Oberbefehlshaber",
+      "fineSubject": "Leadership Changes",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7702,
+      "endSec": 8015,
+      "durationSec": 313,
+      "topic": "Rolle Weißrußlands",
+      "fineSubject": "Belarus Role",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Military",
+      "startSec": 8015,
+      "endSec": 9188,
+      "durationSec": 1173,
+      "topic": "Wer ergreift die Offensive?",
+      "fineSubject": "Offensive Actions",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Military",
+      "startSec": 9188,
+      "endSec": 9458,
+      "durationSec": 270,
+      "topic": "Auch nach Weihnachten kein Atomkrieg",
+      "fineSubject": "Nuclear Threat",
+      "topicIndex": 13
+    }
+  ]
+}

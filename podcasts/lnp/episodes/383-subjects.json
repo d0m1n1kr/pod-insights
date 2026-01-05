@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 383,
+  "title": "LNP383 Dann sagen wir es eben nochmal",
+  "generatedAt": "2026-01-05T15:17:57.626Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.08490335209199902,
+      "Law": 0.8891607536090042,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.025935894298996818,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 694,
+      "Law": 7268,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 212,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 10,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 8174,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 73,
+      "endSec": 285,
+      "durationSec": 212,
+      "topic": "Feedback: SCADA",
+      "fineSubject": "SCADA",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 854,
+      "endSec": 1548,
+      "durationSec": 694,
+      "topic": "Tkmog und die Datenautobahn",
+      "fineSubject": "Datenautobahn",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1549,
+      "endSec": 1752,
+      "durationSec": 203,
+      "topic": "Anhörung IT-Sicherheitsgesetz 2.0",
+      "fineSubject": "IT-Sicherheitsgesetz",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1752,
+      "endSec": 2194,
+      "durationSec": 442,
+      "topic": "IT-SiG 2.0: Eingangsstatement",
+      "fineSubject": "IT-SiG 2.0: Eingangsstatement",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2195,
+      "endSec": 4137,
+      "durationSec": 1942,
+      "topic": "IT-SiG 2.0: Stellungnahme",
+      "fineSubject": "IT-SiG 2.0: Stellungnahme",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4138,
+      "endSec": 4505,
+      "durationSec": 367,
+      "topic": "IT-SiG 2.0: Rolle des BSI",
+      "fineSubject": "IT-SiG 2.0: Rolle des BSI",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4505,
+      "endSec": 4798,
+      "durationSec": 293,
+      "topic": "IT-SiG 2.0: Portscans",
+      "fineSubject": "IT-SiG 2.0: Portscans",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 4798,
+      "endSec": 5949,
+      "durationSec": 1151,
+      "topic": "IT-SiG 2.0: Eingriffe in Systeme",
+      "fineSubject": "IT-SiG 2.0: Eingriffe in Systeme",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 5950,
+      "endSec": 6785,
+      "durationSec": 835,
+      "topic": "IT-SiG 2.0: Anhörungsverlauf",
+      "fineSubject": "IT-SiG 2.0: Anhörungsverlauf",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 6785,
+      "endSec": 8010,
+      "durationSec": 1225,
+      "topic": "IT-SiG 2.0: Lex Huawei",
+      "fineSubject": "IT-SiG 2.0: Lex Huawei",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Law",
+      "startSec": 8011,
+      "endSec": 8657,
+      "durationSec": 646,
+      "topic": "IT-SiG 2.0:  IT-Sicherheitskennzeichen",
+      "fineSubject": "IT-SiG 2.0: IT-Sicherheitskennzeichen",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Law",
+      "startSec": 8657,
+      "endSec": 8821,
+      "durationSec": 164,
+      "topic": "IT-SiG 2.0: Roundup",
+      "fineSubject": "IT-SiG 2.0: Roundup",
+      "topicIndex": 12
+    }
+  ]
+}

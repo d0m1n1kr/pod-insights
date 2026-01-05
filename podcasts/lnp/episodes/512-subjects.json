@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 512,
+  "title": "LNP512 Unicoin",
+  "generatedAt": "2026-01-05T15:17:57.643Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3865866957470011,
+      "Technology": 0.08178844056706652,
+      "Law": 0,
+      "Security": 0.2197382769901854,
+      "Social": 0.06597600872410032,
+      "Media": 0,
+      "Health": 0.09378407851690294,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.15212649945474374,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2127,
+      "Technology": 450,
+      "Law": 0,
+      "Security": 1209,
+      "Social": 363,
+      "Media": 0,
+      "Health": 516,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 837,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5502,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 340,
+      "endSec": 856,
+      "durationSec": 516,
+      "topic": "Feedback: elektronische Patientenakte",
+      "fineSubject": "Electronic Health Records",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 857,
+      "endSec": 1405,
+      "durationSec": 548,
+      "topic": "Feedback: CARIAD-Datenleck",
+      "fineSubject": "Data Breaches",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1406,
+      "endSec": 1769,
+      "durationSec": 363,
+      "topic": "Feedback: Soziale Medien",
+      "fineSubject": "Social Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1769,
+      "endSec": 2479,
+      "durationSec": 710,
+      "topic": "Social Media und die US-Wahl",
+      "fineSubject": "Elections",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2480,
+      "endSec": 3141,
+      "durationSec": 661,
+      "topic": "D-Trust Datenleck",
+      "fineSubject": "Data Breaches",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3141,
+      "endSec": 3978,
+      "durationSec": 837,
+      "topic": "Fingerabdruck-Zwang",
+      "fineSubject": "Biometrics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3979,
+      "endSec": 4429,
+      "durationSec": 450,
+      "topic": "Wahlsoftware",
+      "fineSubject": "Voting Software",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4429,
+      "endSec": 5846,
+      "durationSec": 1417,
+      "topic": "Welcome to Trumpistan 2.0",
+      "fineSubject": "Political Commentary",
+      "topicIndex": 7
+    }
+  ]
+}

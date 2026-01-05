@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 336,
+  "title": "LNP336 Patientendatenschutzgesetz",
+  "generatedAt": "2026-01-05T15:17:57.619Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.4869181107713218,
+      "Security": 0.07305470608222901,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.4400271831464492,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1433,
+      "Security": 215,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1295,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 4,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2943,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 152,
+      "endSec": 723,
+      "durationSec": 571,
+      "topic": "Gesundheitstelematik",
+      "fineSubject": "Health / Health Telematics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 724,
+      "endSec": 923,
+      "durationSec": 199,
+      "topic": "Bedeutung von Gesundheitsdaten",
+      "fineSubject": "Health / Health Data Importance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1606,
+      "endSec": 2623,
+      "durationSec": 1017,
+      "topic": "Patientendatenschutzgesetz (PDSG)",
+      "fineSubject": "Law / Patient Data Protection Act",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2624,
+      "endSec": 2791,
+      "durationSec": 167,
+      "topic": "Datenhoheit",
+      "fineSubject": "Law / Data Control",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2792,
+      "endSec": 3041,
+      "durationSec": 249,
+      "topic": "Beschlagnahmeschutz",
+      "fineSubject": "Law / Seizure Protection",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3041,
+      "endSec": 3256,
+      "durationSec": 215,
+      "topic": "Sicherheit der Identifikation",
+      "fineSubject": "Security / Identification Safety",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3256,
+      "endSec": 3487,
+      "durationSec": 231,
+      "topic": "Datenspenden",
+      "fineSubject": "Health / Data Donations",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3488,
+      "endSec": 3782,
+      "durationSec": 294,
+      "topic": "Aktuelle Situation der Ärzte",
+      "fineSubject": "Health / Current Situation of Doctors",
+      "topicIndex": 7
+    }
+  ]
+}

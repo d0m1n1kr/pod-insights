@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 365,
+  "title": "Mi365 – \"N'Eis\"",
+  "generatedAt": "2026-01-05T15:18:17.394Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.3969243557772236,
+      "Wissenschaft": 0,
+      "Health": 0.3942227763923524,
+      "Technology": 0.04467996674979219,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.16417290108063176,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 1910,
+      "Wissenschaft": 0,
+      "Health": 1897,
+      "Technology": 215,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 790,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4812,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 240,
+      "endSec": 385,
+      "durationSec": 145,
+      "topic": "Duisburg und Dortmund abgesagt",
+      "fineSubject": "Cancellations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 385,
+      "endSec": 570,
+      "durationSec": 185,
+      "topic": "GAG",
+      "fineSubject": "GAG",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 570,
+      "endSec": 1360,
+      "durationSec": 790,
+      "topic": "Essen im Ohr Podcast",
+      "fineSubject": "Podcast",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1360,
+      "endSec": 1575,
+      "durationSec": 215,
+      "topic": "Drohne",
+      "fineSubject": "Drones",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2024,
+      "endSec": 3269,
+      "durationSec": 1245,
+      "topic": "Thema 1: \"Tanzende Giganten\"",
+      "fineSubject": "Performance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3269,
+      "endSec": 4067,
+      "durationSec": 798,
+      "topic": "Science Snack",
+      "fineSubject": "Science",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4067,
+      "endSec": 5166,
+      "durationSec": 1099,
+      "topic": "Thema 2: \"Schweflige Konserven\"",
+      "fineSubject": "Preservation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5166,
+      "endSec": 5501,
+      "durationSec": 335,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 8
+    }
+  ]
+}

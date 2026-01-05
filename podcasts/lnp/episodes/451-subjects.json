@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 451,
+  "title": "LNP451 Exitstrategie AI",
+  "generatedAt": "2026-01-05T15:17:57.636Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.060836501901140684,
+      "Technology": 0.09147841646164169,
+      "Law": 0.34645493178259895,
+      "Security": 0,
+      "Social": 0.19302169537016328,
+      "Media": 0.18698277790203535,
+      "Health": 0.12122567658242005,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 272,
+      "Technology": 409,
+      "Law": 1549,
+      "Security": 0,
+      "Social": 863,
+      "Media": 836,
+      "Health": 542,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 2,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4471,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 197,
+      "endSec": 606,
+      "durationSec": 409,
+      "topic": "HTTP Status Code 451",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 685,
+      "endSec": 967,
+      "durationSec": 282,
+      "topic": "Feedback: Notruf ohne SIM-Karte",
+      "fineSubject": "SIM-less Solutions",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 967,
+      "endSec": 2516,
+      "durationSec": 1549,
+      "topic": "Copyright vs AI",
+      "fineSubject": "AI Implications",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2909,
+      "endSec": 3463,
+      "durationSec": 554,
+      "topic": "Razzia bei Radio Dreyeckland",
+      "fineSubject": "Raids",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4709,
+      "endSec": 5251,
+      "durationSec": 542,
+      "topic": "Corona-Warn-App jetzt mit Selbsttest",
+      "fineSubject": "COVID-19 Solutions",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 5251,
+      "endSec": 6114,
+      "durationSec": 863,
+      "topic": "Twitter sperrt 3rd Party Apps",
+      "fineSubject": "Platform Policies",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6115,
+      "endSec": 6387,
+      "durationSec": 272,
+      "topic": "Schönbohm tritt neue Stelle an",
+      "fineSubject": "Career Moves",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 280,
+  "title": "LNP280 Wolkensensorik",
+  "generatedAt": "2026-01-05T15:17:57.611Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.44318954959858486,
+      "Technology": 0.19458429718329023,
+      "Law": 0,
+      "Security": 0.0273506599537352,
+      "Social": 0.06572322765002041,
+      "Media": 0.04381548510001361,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.07728942713294326,
+      "Business": 0.14804735338141245,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3257,
+      "Technology": 1430,
+      "Law": 0,
+      "Security": 201,
+      "Social": 483,
+      "Media": 322,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 568,
+      "Business": 1088,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7349,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 492,
+      "endSec": 1060,
+      "durationSec": 568,
+      "topic": "Amazon DSGVO-Fail",
+      "fineSubject": "GDPR",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1061,
+      "endSec": 1328,
+      "durationSec": 267,
+      "topic": "Facebook Leak",
+      "fineSubject": "Data Breach",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1328,
+      "endSec": 1599,
+      "durationSec": 271,
+      "topic": "G20 Biometrie-Rasterfahndung",
+      "fineSubject": "Law Enforcement",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1600,
+      "endSec": 1922,
+      "durationSec": 322,
+      "topic": "Spiegel-Fall Relotius",
+      "fineSubject": "Fake News",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 1922,
+      "endSec": 2138,
+      "durationSec": 216,
+      "topic": "Facebook Fact Checker",
+      "fineSubject": "Fact Checking",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2139,
+      "endSec": 2593,
+      "durationSec": 454,
+      "topic": "China",
+      "fineSubject": "China",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2593,
+      "endSec": 4023,
+      "durationSec": 1430,
+      "topic": "China: Entwicklung des Internets",
+      "fineSubject": "Development",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4024,
+      "endSec": 4296,
+      "durationSec": 272,
+      "topic": "China: Ökosystem",
+      "fineSubject": "China",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4297,
+      "endSec": 5251,
+      "durationSec": 954,
+      "topic": "China: Zensurinfrastruktur",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5251,
+      "endSec": 6216,
+      "durationSec": 965,
+      "topic": "China: Social Scoring",
+      "fineSubject": "Scoring System",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Business",
+      "startSec": 6217,
+      "endSec": 7305,
+      "durationSec": 1088,
+      "topic": "China: Handelskrieg und Huawei",
+      "fineSubject": "Huawei",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 7305,
+      "endSec": 7506,
+      "durationSec": 201,
+      "topic": "China: Hackereien und Industriespionage",
+      "fineSubject": "Industrial Spying",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7507,
+      "endSec": 7848,
+      "durationSec": 341,
+      "topic": "China: Fazit",
+      "fineSubject": "China",
+      "topicIndex": 12
+    }
+  ]
+}

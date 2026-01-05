@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 221,
+  "title": "LNP221 Ich glaub doch nichts, was die Regierung sagt!",
+  "generatedAt": "2026-01-05T15:17:57.603Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.04291845493562232,
+      "Law": 0,
+      "Security": 0.7376609442060086,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.2194206008583691,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 240,
+      "Law": 0,
+      "Security": 4125,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1227,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 5,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5592,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 88,
+      "endSec": 328,
+      "durationSec": 240,
+      "topic": "Feedback: Wahlsoftware",
+      "fineSubject": "Wahlsoftware",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 328,
+      "endSec": 884,
+      "durationSec": 556,
+      "topic": "WannaCry: Vorgeschichte",
+      "fineSubject": "WannaCry",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 884,
+      "endSec": 1494,
+      "durationSec": 610,
+      "topic": "WannaCry: Verbreitungsweg",
+      "fineSubject": "WannaCry",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1495,
+      "endSec": 2017,
+      "durationSec": 522,
+      "topic": "WannaCry: Auswirkungen",
+      "fineSubject": "WannaCry",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2018,
+      "endSec": 3191,
+      "durationSec": 1173,
+      "topic": "WannaCry: Politische Komponente",
+      "fineSubject": "WannaCry",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3192,
+      "endSec": 4419,
+      "durationSec": 1227,
+      "topic": "Vorratsdatenseicherung wird ausgeweitet",
+      "fineSubject": "Vorratsdatensicherung",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4419,
+      "endSec": 5683,
+      "durationSec": 1264,
+      "topic": "SMS-2nd-Factor-Hack",
+      "fineSubject": "SMS-2nd-Factor-Hack",
+      "topicIndex": 6
+    }
+  ]
+}

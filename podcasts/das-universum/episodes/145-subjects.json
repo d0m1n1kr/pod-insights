@@ -1,0 +1,129 @@
+{
+  "episodeNumber": 145,
+  "title": "DU145 - Wo sind die ganzen Plejaden hin?",
+  "generatedAt": "2026-01-05T15:18:22.113Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.23119651703948357,
+      "Raumfahrt": 0,
+      "Kultur": 0.4952709803332833,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0.27353250262723316,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 1540,
+      "Raumfahrt": 0,
+      "Kultur": 3299,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 1822,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 6,
+      "Raumfahrt": 0,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 1,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 6661,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 626,
+      "endSec": 1619,
+      "durationSec": 993,
+      "topic": "Gyrochronologie zur Altersbestimmung von Sternen",
+      "fineSubject": "Sternentwicklung",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 639,
+      "endSec": 3938,
+      "durationSec": 3299,
+      "topic": "Einstein und Eddington Film",
+      "fineSubject": "Film",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 823,
+      "endSec": 1131,
+      "durationSec": 308,
+      "topic": "Plejaden Sternhaufen",
+      "fineSubject": "Sternhaufen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 1091,
+      "endSec": 2913,
+      "durationSec": 1822,
+      "topic": "Pseudowissenschaft und telepathischer Kontakt",
+      "fineSubject": "Pseudowissenschaft",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1579,
+      "endSec": 1818,
+      "durationSec": 239,
+      "topic": "TESS und GAIA Datenkombination",
+      "fineSubject": "Datenanalyse",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kometeneinschläge auf der Erde",
+      "fineSubject": "Kometen",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "HD7977 und Klimaänderung",
+      "fineSubject": "Sterne",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Ursprung der Sonne und verlorene Familie",
+      "fineSubject": "Sternentstehung",
+      "topicIndex": 7,
+      "untimed": true
+    }
+  ]
+}

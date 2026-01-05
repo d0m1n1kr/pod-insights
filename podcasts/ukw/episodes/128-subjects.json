@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 128,
+  "title": "UKW128 Terrororganisation mit menschlichem Antlitz",
+  "generatedAt": "2026-01-05T15:18:03.033Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.7751391887285536,
+      "Military": 0.22486081127144641,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 6822,
+      "Military": 1979,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 7,
+      "Military": 1,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8801,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 165,
+      "endSec": 1717,
+      "durationSec": 1552,
+      "topic": "Kriegsfortschritt",
+      "fineSubject": "War Progress",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 1718,
+      "endSec": 3697,
+      "durationSec": 1979,
+      "topic": "Waffensysteme",
+      "fineSubject": "Weapon Systems",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3697,
+      "endSec": 4178,
+      "durationSec": 481,
+      "topic": "Russlands Probleme",
+      "fineSubject": "Russia",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4179,
+      "endSec": 4500,
+      "durationSec": 321,
+      "topic": "Nordkorea greift ein",
+      "fineSubject": "North Korea",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4500,
+      "endSec": 5724,
+      "durationSec": 1224,
+      "topic": "Revolution in Syrien",
+      "fineSubject": "Syria",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5724,
+      "endSec": 7694,
+      "durationSec": 1970,
+      "topic": "USA und Trump",
+      "fineSubject": "USA",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7695,
+      "endSec": 8415,
+      "durationSec": 720,
+      "topic": "Wo geht die Reise hin?",
+      "fineSubject": "Future Directions",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8415,
+      "endSec": 8969,
+      "durationSec": 554,
+      "topic": "Bundestagswahl",
+      "fineSubject": "Elections",
+      "topicIndex": 7
+    }
+  ]
+}

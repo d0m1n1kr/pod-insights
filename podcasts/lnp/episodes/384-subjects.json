@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 384,
+  "title": "LNP384 Sprengung in der Wüste",
+  "generatedAt": "2026-01-05T15:17:57.626Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.07732558139534884,
+      "Media": 0,
+      "Health": 0.5238372093023256,
+      "Feedback": 0,
+      "Legal": 0.3988372093023256,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 399,
+      "Media": 0,
+      "Health": 2703,
+      "Feedback": 0,
+      "Legal": 2058,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 3,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5160,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 61,
+      "endSec": 460,
+      "durationSec": 399,
+      "topic": "Daft Rant",
+      "fineSubject": "Rant",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 460,
+      "endSec": 1868,
+      "durationSec": 1408,
+      "topic": "TKMoG und Ausweiszwang im Internet",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1868,
+      "endSec": 4571,
+      "durationSec": 2703,
+      "topic": "Elektronischer Immunitätsausweis",
+      "fineSubject": "Digital Health Pass",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4572,
+      "endSec": 4899,
+      "durationSec": 327,
+      "topic": "Digital Services Act & Digital Markets Act",
+      "fineSubject": "Digital Services",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4900,
+      "endSec": 5223,
+      "durationSec": 323,
+      "topic": "Data Governance Act (DGA)",
+      "fineSubject": "Data Governance",
+      "topicIndex": 4
+    }
+  ]
+}

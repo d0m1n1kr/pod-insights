@@ -1,0 +1,252 @@
+{
+  "episodeNumber": 80,
+  "title": "MM080 Kalender für Einhundert",
+  "generatedAt": "2026-01-05T15:17:51.067Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.030791010440629978,
+      "Software": 0.837816315696337,
+      "Hardware": 0.022562378340116793,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.1088302955229163,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 348,
+      "Software": 9469,
+      "Hardware": 255,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1230,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 16,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 3,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11302,
+    "totalTopics": 24
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 295,
+      "endSec": 775,
+      "durationSec": 480,
+      "topic": "Apples Quartalsergebnisse",
+      "fineSubject": "Financial Results",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 775,
+      "endSec": 970,
+      "durationSec": 195,
+      "topic": "Anobit Akquisition",
+      "fineSubject": "Acquisitions",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1085,
+      "endSec": 1500,
+      "durationSec": 415,
+      "topic": "iBooks Author und iBooks",
+      "fineSubject": "eBooks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 1500,
+      "endSec": 2410,
+      "durationSec": 910,
+      "topic": "Redaktionssysteme und zukünftige eBook-Standards",
+      "fineSubject": "Publishing Standards",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 2410,
+      "endSec": 3540,
+      "durationSec": 1130,
+      "topic": "ePub 3.0",
+      "fineSubject": "ePub",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 3540,
+      "endSec": 3785,
+      "durationSec": 245,
+      "topic": "iTunes U",
+      "fineSubject": "Education",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 3785,
+      "endSec": 4340,
+      "durationSec": 555,
+      "topic": "Der Apple Store Berlin-Scoop",
+      "fineSubject": "Retail",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4340,
+      "endSec": 4485,
+      "durationSec": 145,
+      "topic": "iPhone-Probleme",
+      "fineSubject": "iPhone",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 4485,
+      "endSec": 4695,
+      "durationSec": 210,
+      "topic": "Hintergrundprogramme",
+      "fineSubject": "Background Processes",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 4695,
+      "endSec": 4870,
+      "durationSec": 175,
+      "topic": "Photoshop auf dem iPad (Wette aus MM41)",
+      "fineSubject": "Image Editing",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 4870,
+      "endSec": 5620,
+      "durationSec": 750,
+      "topic": "iCloud-Probleme",
+      "fineSubject": "Cloud Services",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 5620,
+      "endSec": 5945,
+      "durationSec": 325,
+      "topic": "Google Calender-Integration",
+      "fineSubject": "Calendar",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 5945,
+      "endSec": 6301,
+      "durationSec": 356,
+      "topic": "Max' Problemlösung für den Google-Sync",
+      "fineSubject": "Sync Solutions",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 6301,
+      "endSec": 6375,
+      "durationSec": 74,
+      "topic": "DocSets for iOS",
+      "fineSubject": "Documentation",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 6375,
+      "endSec": 6730,
+      "durationSec": 355,
+      "topic": "Dash",
+      "fineSubject": "Development Tools",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 6730,
+      "endSec": 6917,
+      "durationSec": 187,
+      "topic": "Instacast bekommt Flattr-Integration",
+      "fineSubject": "Podcasting",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 6917,
+      "endSec": 7960,
+      "durationSec": 1043,
+      "topic": "Podcast-Apps",
+      "fineSubject": "Podcast Apps",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 7960,
+      "endSec": 9775,
+      "durationSec": 1815,
+      "topic": "Zevo: ZFS für den Mac",
+      "fineSubject": "File Systems",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9775,
+      "endSec": 9885,
+      "durationSec": 110,
+      "topic": "Labor-Firmware für die FritzBox 7390",
+      "fineSubject": "Networking",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9885,
+      "endSec": 10233,
+      "durationSec": 348,
+      "topic": "CRE191 Internet im Festnetz",
+      "fineSubject": "Connectivity",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Software",
+      "startSec": 10233,
+      "endSec": 11610,
+      "durationSec": 1377,
+      "topic": "Tom Tom vs. Navigon Shootout",
+      "fineSubject": "Navigation",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Software",
+      "startSec": 11610,
+      "endSec": 11712,
+      "durationSec": 102,
+      "topic": "Mac OS X 10.7.3",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 23
+    }
+  ]
+}

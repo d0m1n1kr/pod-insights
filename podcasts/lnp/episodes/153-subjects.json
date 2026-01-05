@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 153,
+  "title": "LNP153 Gefahrgeneigte Dienste",
+  "generatedAt": "2026-01-05T15:17:57.594Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7147341984093764,
+      "Technology": 0,
+      "Law": 0.043532858936793636,
+      "Security": 0.24173294265383005,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3415,
+      "Technology": 0,
+      "Law": 208,
+      "Security": 1155,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4778,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1215,
+      "endSec": 3531,
+      "durationSec": 2316,
+      "topic": "Kabinettsentwurf zum WLAN-Gesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3531,
+      "endSec": 4630,
+      "durationSec": 1099,
+      "topic": "EU-Kommission zu Vorratsdatenspeicherung",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 4631,
+      "endSec": 5061,
+      "durationSec": 430,
+      "topic": "Bundeswehr cybert, Bitkom applaudiert",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 5061,
+      "endSec": 5524,
+      "durationSec": 463,
+      "topic": "NSA-UA: Kein Reformbedarf",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 5525,
+      "endSec": 5787,
+      "durationSec": 262,
+      "topic": "Bundestag-Hack Aftermath",
+      "fineSubject": "Cyber Attacks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 5788,
+      "endSec": 5996,
+      "durationSec": 208,
+      "topic": "Merrill vs. FBI",
+      "fineSubject": "Legal Cases",
+      "topicIndex": 5
+    }
+  ]
+}

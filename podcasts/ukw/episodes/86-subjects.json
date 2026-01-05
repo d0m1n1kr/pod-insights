@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 86,
+  "title": "UKW086 Corona Weekly: Obertonwelle Omikron",
+  "generatedAt": "2026-01-05T15:18:03.021Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9781181619256017,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0.02188183807439825,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 8493,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 190,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 13,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8683,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 65,
+      "endSec": 1724,
+      "durationSec": 1659,
+      "topic": "Corona-Management in Israel",
+      "fineSubject": "COVID-19 Management",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1724,
+      "endSec": 3087,
+      "durationSec": 1363,
+      "topic": "Inzidenzen in Deutschland",
+      "fineSubject": "Infection Rates",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 3088,
+      "endSec": 3210,
+      "durationSec": 122,
+      "topic": "Altersgruppen",
+      "fineSubject": "Demographics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 3211,
+      "endSec": 3789,
+      "durationSec": 578,
+      "topic": "Bundesländer und Landkreise",
+      "fineSubject": "Regional Responses",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3789,
+      "endSec": 4651,
+      "durationSec": 862,
+      "topic": "Impfkampagne",
+      "fineSubject": "Vaccination Campaigns",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4652,
+      "endSec": 5315,
+      "durationSec": 663,
+      "topic": "Debatte um eine Impfplicht",
+      "fineSubject": "Vaccination Policies",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5316,
+      "endSec": 5808,
+      "durationSec": 492,
+      "topic": "Impfgegnerzucht",
+      "fineSubject": "Vaccine Opposition",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 5808,
+      "endSec": 5991,
+      "durationSec": 183,
+      "topic": "STIKO",
+      "fineSubject": "Health Authorities",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5991,
+      "endSec": 6616,
+      "durationSec": 625,
+      "topic": "Wer braucht die Boosterimpfung?",
+      "fineSubject": "Booster Vaccination",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 6616,
+      "endSec": 6741,
+      "durationSec": 125,
+      "topic": "Impfung für 5+",
+      "fineSubject": "Vaccination for Children",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 6742,
+      "endSec": 7577,
+      "durationSec": 835,
+      "topic": "Die Omikron-Variante",
+      "fineSubject": "Variants of Concern",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 7577,
+      "endSec": 8173,
+      "durationSec": 596,
+      "topic": "Paxlovid",
+      "fineSubject": "Treatments",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 8174,
+      "endSec": 8564,
+      "durationSec": 390,
+      "topic": "Winfried Stöcker macht wieder Ärger",
+      "fineSubject": "Controversies",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 8900,
+      "endSec": 9090,
+      "durationSec": 190,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 13
+    }
+  ]
+}

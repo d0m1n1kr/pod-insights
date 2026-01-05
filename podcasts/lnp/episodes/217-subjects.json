@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 217,
+  "title": "LNP217 Märchen aus dem Cyberwald",
+  "generatedAt": "2026-01-05T15:17:57.602Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.21716101694915255,
+      "Technology": 0.42648305084745763,
+      "Law": 0,
+      "Security": 0.2457627118644068,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.11059322033898306,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1025,
+      "Technology": 2013,
+      "Law": 0,
+      "Security": 1160,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 522,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 3,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4720,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 202,
+      "endSec": 252,
+      "durationSec": 50,
+      "topic": "Feedback: BGH-Urteil",
+      "fineSubject": "Data Protection",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 252,
+      "endSec": 1298,
+      "durationSec": 1046,
+      "topic": "Feedback: Cyberwehr",
+      "fineSubject": "Cyber Defense",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1299,
+      "endSec": 1413,
+      "durationSec": 114,
+      "topic": "Feedback: Cybermarsch",
+      "fineSubject": "Cyber March",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1413,
+      "endSec": 1693,
+      "durationSec": 280,
+      "topic": "Feedback: Deklaration zur Meinungsfreiheit",
+      "fineSubject": "Declarations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1694,
+      "endSec": 3707,
+      "durationSec": 2013,
+      "topic": "StreamOn",
+      "fineSubject": "Services",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3707,
+      "endSec": 4732,
+      "durationSec": 1025,
+      "topic": "Bundestagsnetz",
+      "fineSubject": "Networks",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 6456,
+      "endSec": 6648,
+      "durationSec": 192,
+      "topic": "Kein Eilverfahren gegen Vorratsdatenspeicherung",
+      "fineSubject": "Lawsuits",
+      "topicIndex": 9
+    }
+  ]
+}

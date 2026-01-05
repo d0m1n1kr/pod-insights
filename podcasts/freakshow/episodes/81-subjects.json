@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 81,
+  "title": "MM081 Hochdynamisch-Metaprogrammatisch",
+  "generatedAt": "2026-01-05T15:17:51.067Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.6683878370625359,
+      "Hardware": 0.04714094473130618,
+      "Finance": 0.03843947217441193,
+      "Media": 0,
+      "Social": 0.01596863645056416,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.23006310958118187,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 6990,
+      "Hardware": 493,
+      "Finance": 402,
+      "Media": 0,
+      "Social": 167,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2406,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 13,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 3,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10458,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 361,
+      "endSec": 1030,
+      "durationSec": 669,
+      "topic": "Lion Recovery Mode",
+      "fineSubject": "Recovery Mode",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1030,
+      "endSec": 1495,
+      "durationSec": 465,
+      "topic": "netatalk",
+      "fineSubject": "netatalk",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1496,
+      "endSec": 2726,
+      "durationSec": 1230,
+      "topic": "ZFS",
+      "fineSubject": "ZFS",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 3127,
+      "endSec": 5008,
+      "durationSec": 1881,
+      "topic": "$500, Apple TV und der Fernsehmarkt",
+      "fineSubject": "Apple TV",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 5008,
+      "endSec": 5211,
+      "durationSec": 203,
+      "topic": "Bittorrent Live",
+      "fineSubject": "Bittorrent",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 5211,
+      "endSec": 6354,
+      "durationSec": 1143,
+      "topic": "Adressbuch-Upload-Gate",
+      "fineSubject": "Adressbuch",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 6355,
+      "endSec": 6814,
+      "durationSec": 459,
+      "topic": "Tweetbot",
+      "fineSubject": "Tweetbot",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 6815,
+      "endSec": 6982,
+      "durationSec": 167,
+      "topic": "Favs",
+      "fineSubject": "Favorites",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 6982,
+      "endSec": 7108,
+      "durationSec": 126,
+      "topic": "Apple is evil",
+      "fineSubject": "Apple",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8030,
+      "endSec": 8523,
+      "durationSec": 493,
+      "topic": "iPhone Docks",
+      "fineSubject": "iPhone Docks",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8523,
+      "endSec": 8925,
+      "durationSec": 402,
+      "topic": "Bitcoin Pool Update",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 8926,
+      "endSec": 9571,
+      "durationSec": 645,
+      "topic": "CouchDB",
+      "fineSubject": "CouchDB",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Business",
+      "startSec": 9571,
+      "endSec": 9970,
+      "durationSec": 399,
+      "topic": "Nokia, Microsoft und Samsung",
+      "fineSubject": "Nokia, Microsoft, Samsung",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 9971,
+      "endSec": 10185,
+      "durationSec": 214,
+      "topic": "Chrome für Android",
+      "fineSubject": "Chrome",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 10185,
+      "endSec": 10642,
+      "durationSec": 457,
+      "topic": "Browserkompatibilität",
+      "fineSubject": "Browser Compatibility",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 10643,
+      "endSec": 10918,
+      "durationSec": 275,
+      "topic": "Mac-Tools für Versionskontrolle:",
+      "fineSubject": "Version Control",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 10918,
+      "endSec": 11051,
+      "durationSec": 133,
+      "topic": "iCloud",
+      "fineSubject": "iCloud",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 11051,
+      "endSec": 11541,
+      "durationSec": 490,
+      "topic": "Core Data",
+      "fineSubject": "Core Data",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 12048,
+      "endSec": 12655,
+      "durationSec": 607,
+      "topic": "Ruby und Rails",
+      "fineSubject": "Ruby on Rails",
+      "topicIndex": 20
+    }
+  ]
+}

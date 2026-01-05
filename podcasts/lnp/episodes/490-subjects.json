@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 490,
+  "title": "LNP490 Spionage-Spielplatz",
+  "generatedAt": "2026-01-05T15:17:57.640Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1924436999813884,
+      "Technology": 0.23152801042248278,
+      "Law": 0,
+      "Security": 0.3212358086729946,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.25479248092313417,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1034,
+      "Technology": 1244,
+      "Law": 0,
+      "Security": 1726,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1369,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5373,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 177,
+      "endSec": 969,
+      "durationSec": 792,
+      "topic": "Feedback: Bundestagszusammenfasser",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 969,
+      "endSec": 1051,
+      "durationSec": 82,
+      "topic": "Feedback: Humboldt",
+      "fineSubject": "Education",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1052,
+      "endSec": 1109,
+      "durationSec": 57,
+      "topic": "Feedback: Entsenden nach Phettberg",
+      "fineSubject": "International Relations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1109,
+      "endSec": 1212,
+      "durationSec": 103,
+      "topic": "Feedback: EGMR und Russland",
+      "fineSubject": "Human Rights",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 1213,
+      "endSec": 2783,
+      "durationSec": 1570,
+      "topic": "Spionageskandal & Bundestrojaner in Österreich",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2783,
+      "endSec": 4027,
+      "durationSec": 1244,
+      "topic": "SPRIN-D Challenge für offene eIDAS Wallet",
+      "fineSubject": "Digital Identity",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 4028,
+      "endSec": 5397,
+      "durationSec": 1369,
+      "topic": "Digitaler Euro und Recht auf Bargeld",
+      "fineSubject": "Currency",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 5397,
+      "endSec": 5553,
+      "durationSec": 156,
+      "topic": "Chatkontrolle Update",
+      "fineSubject": "Surveillance",
+      "topicIndex": 7
+    }
+  ]
+}

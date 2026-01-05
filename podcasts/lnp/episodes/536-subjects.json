@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 536,
+  "title": "LNP536 Matratze im Pornomodus",
+  "generatedAt": "2026-01-05T15:17:57.646Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.500859845227859,
+      "Law": 0.2328030954428203,
+      "Security": 0.11027515047291488,
+      "Social": 0.028589853826311264,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.1274720550300946,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2330,
+      "Law": 1083,
+      "Security": 513,
+      "Social": 133,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 593,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 4652,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 445,
+      "endSec": 530,
+      "durationSec": 85,
+      "topic": "Feedback: Anti-Palantir-Petition",
+      "fineSubject": "Petition",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 530,
+      "endSec": 578,
+      "durationSec": 48,
+      "topic": "Feedback: Khaleesi-Jingle",
+      "fineSubject": "Jingle",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 579,
+      "endSec": 2909,
+      "durationSec": 2330,
+      "topic": "AWSocalypse",
+      "fineSubject": "Cloud Computing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2909,
+      "endSec": 3813,
+      "durationSec": 904,
+      "topic": "Internationaler Strafgerichtshof wird datensouverän",
+      "fineSubject": "International Law",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3814,
+      "endSec": 3997,
+      "durationSec": 183,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3998,
+      "endSec": 4408,
+      "durationSec": 410,
+      "topic": "Biometrische Überwachung",
+      "fineSubject": "Biometrics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4408,
+      "endSec": 4921,
+      "durationSec": 513,
+      "topic": "Collins Aerospace gecybert",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4921,
+      "endSec": 5100,
+      "durationSec": 179,
+      "topic": "Cybercrime Convention unterzeichnet",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 7
+    }
+  ]
+}

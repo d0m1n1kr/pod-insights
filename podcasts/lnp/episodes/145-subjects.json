@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 145,
+  "title": "LNP145 Mangelhafte Harmonisierung",
+  "generatedAt": "2026-01-05T15:17:57.593Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3503717472118959,
+      "Technology": 0.30855018587360594,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.34107806691449816,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1131,
+      "Technology": 996,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1101,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3228,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 677,
+      "endSec": 1673,
+      "durationSec": 996,
+      "topic": "Ende von Roaming & Netzneutralität",
+      "fineSubject": "Roaming und Netzneutralität",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1674,
+      "endSec": 2397,
+      "durationSec": 723,
+      "topic": "Union und SPD einigen sich auf Sonderermittler",
+      "fineSubject": "Sonderermittler",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2397,
+      "endSec": 2805,
+      "durationSec": 408,
+      "topic": "Bundestag sperrt 100.000 Seiten",
+      "fineSubject": "Bundestag",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 2806,
+      "endSec": 3907,
+      "durationSec": 1101,
+      "topic": "Uber: Streiks, Krawalle und baldiges Verbot?",
+      "fineSubject": "Uber",
+      "topicIndex": 3
+    }
+  ]
+}

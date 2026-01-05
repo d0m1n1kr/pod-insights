@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 14,
+  "title": "Minkorrekt Folge 14 „Gotisches Bouquet“",
+  "generatedAt": "2026-01-05T15:18:17.350Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.4,
+      "Wissenschaft": 0.4,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0.2,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 2,
+      "Wissenschaft": 2,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 1,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Jesusbilder auf Toastscheiben",
+      "fineSubject": "Religiöse Symbole",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lego-Evolution in der Waschmaschine",
+      "fineSubject": "Spielzeug",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wissenschaft hinter Heavy-Metal Konzerten",
+      "fineSubject": "Musik",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Popcorn im Kino",
+      "fineSubject": "Film",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Experiment: Kirchenfenster im Weinglas",
+      "fineSubject": "Experimente",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 8,
+  "title": "LNP008 Bundeswolkenkuckucksheim",
+  "generatedAt": "2026-01-05T15:17:57.572Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5281588447653429,
+      "Technology": 0.47184115523465703,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1463,
+      "Technology": 1307,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2770,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 35,
+      "endSec": 759,
+      "durationSec": 724,
+      "topic": "Internet-Kinderschutzzentrum",
+      "fineSubject": "Internet / Kinderschutzzentrum",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 759,
+      "endSec": 1994,
+      "durationSec": 1235,
+      "topic": "Neues von WikiLeaks",
+      "fineSubject": "Aktuelles / WikiLeaks",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1994,
+      "endSec": 2222,
+      "durationSec": 228,
+      "topic": "Grundsatzprogramm DIE LINKE",
+      "fineSubject": "Politik / DIE LINKE",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2222,
+      "endSec": 2805,
+      "durationSec": 583,
+      "topic": "Bundescloud mit T-Systems und BSI",
+      "fineSubject": "Technologie / Bundescloud",
+      "topicIndex": 3
+    }
+  ]
+}

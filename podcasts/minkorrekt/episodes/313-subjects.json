@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 313,
+  "title": "Mi313 – \"Ascheplatz\"",
+  "generatedAt": "2026-01-05T15:18:17.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.7476681394207167,
+      "Culture": 0.25233186057928325,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1523,
+      "Culture": 514,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 2037,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 986,
+      "endSec": 1170,
+      "durationSec": 184,
+      "topic": "Plasmatagung",
+      "fineSubject": "Plasmatagung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1432,
+      "endSec": 1591,
+      "durationSec": 159,
+      "topic": "Subscribe11 Podcast Konferenz",
+      "fineSubject": "Podcast Konferenz",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2065,
+      "endSec": 2236,
+      "durationSec": 171,
+      "topic": "Tour 2025",
+      "fineSubject": "Tour 2025",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4343,
+      "endSec": 5866,
+      "durationSec": 1523,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 8
+    }
+  ]
+}

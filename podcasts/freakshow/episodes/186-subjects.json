@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 186,
+  "title": "FS186 Kastratur",
+  "generatedAt": "2026-01-05T15:17:51.089Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.07056545313710302,
+      "Software": 0,
+      "Hardware": 0.8377226955848179,
+      "Finance": 0.09171185127807902,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 911,
+      "Software": 0,
+      "Hardware": 10815,
+      "Finance": 1184,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 16,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12910,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 420,
+      "endSec": 1322,
+      "durationSec": 902,
+      "topic": "Aktuelle Entwicklung bei Grafikkarten",
+      "fineSubject": "Graphics Cards",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1793,
+      "endSec": 1861,
+      "durationSec": 68,
+      "topic": "Neue MacBook Pros",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1861,
+      "endSec": 2254,
+      "durationSec": 393,
+      "topic": "Leuchtapfel no more",
+      "fineSubject": "Design Changes",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2254,
+      "endSec": 2759,
+      "durationSec": 505,
+      "topic": "Startup Sound",
+      "fineSubject": "Startup Sound",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2760,
+      "endSec": 4184,
+      "durationSec": 1424,
+      "topic": "Laden mit Magsafe und USB-C",
+      "fineSubject": "Charging",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4184,
+      "endSec": 5418,
+      "durationSec": 1234,
+      "topic": "HDMI Port ist weg",
+      "fineSubject": "Ports",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5419,
+      "endSec": 6828,
+      "durationSec": 1409,
+      "topic": "Neue Butterfly Tastatur",
+      "fineSubject": "Keyboard",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6829,
+      "endSec": 7121,
+      "durationSec": 292,
+      "topic": "Thunderbolt 3",
+      "fineSubject": "Connectivity",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7121,
+      "endSec": 7196,
+      "durationSec": 75,
+      "topic": "Neue Lautsprecher",
+      "fineSubject": "Audio",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7197,
+      "endSec": 7753,
+      "durationSec": 556,
+      "topic": "RAM und CPUs",
+      "fineSubject": "Performance",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7753,
+      "endSec": 8263,
+      "durationSec": 510,
+      "topic": "SSD und Stromverbrauch",
+      "fineSubject": "Storage",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8263,
+      "endSec": 8399,
+      "durationSec": 136,
+      "topic": "Trackpad",
+      "fineSubject": "Input Devices",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8400,
+      "endSec": 8686,
+      "durationSec": 286,
+      "topic": "Bildschirm",
+      "fineSubject": "Display",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8687,
+      "endSec": 10398,
+      "durationSec": 1711,
+      "topic": "TouchBar",
+      "fineSubject": "User Interface",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10398,
+      "endSec": 11582,
+      "durationSec": 1184,
+      "topic": "Wer kauft was?",
+      "fineSubject": "Consumer Behavior",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11582,
+      "endSec": 12493,
+      "durationSec": 911,
+      "topic": "Zukunft der Mac-Plattform",
+      "fineSubject": "Future Trends",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12493,
+      "endSec": 13388,
+      "durationSec": 895,
+      "topic": "PC schrauben",
+      "fineSubject": "DIY",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13703,
+      "endSec": 14122,
+      "durationSec": 419,
+      "topic": "Touch ID",
+      "fineSubject": "Security Features",
+      "topicIndex": 19
+    }
+  ]
+}

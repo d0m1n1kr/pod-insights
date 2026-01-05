@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 159,
+  "title": "FS159 Damit ich Dich besser tracken kann",
+  "generatedAt": "2026-01-05T15:17:51.081Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.03165654813529922,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.9683434518647008
+    },
+    "durations": {
+      "Technology": 146,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 4466
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 10
+    },
+    "totalDurationSec": 4612,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 416,
+      "endSec": 839,
+      "durationSec": 423,
+      "topic": "Camp: Netzversorgung",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 840,
+      "endSec": 963,
+      "durationSec": 123,
+      "topic": "Camp: Family Village",
+      "fineSubject": "Family Village",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 963,
+      "endSec": 1417,
+      "durationSec": 454,
+      "topic": "Camp: Infrastruktur",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 1418,
+      "endSec": 1512,
+      "durationSec": 94,
+      "topic": "Camp: Ralph Caspers",
+      "fineSubject": "Speaker",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Event",
+      "startSec": 1512,
+      "endSec": 3435,
+      "durationSec": 1923,
+      "topic": "Camp: Highlights und Features",
+      "fineSubject": "Highlights",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Event",
+      "startSec": 3435,
+      "endSec": 4011,
+      "durationSec": 576,
+      "topic": "Camp: rad1o",
+      "fineSubject": "rad1o",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Event",
+      "startSec": 5014,
+      "endSec": 5161,
+      "durationSec": 147,
+      "topic": "Bierspenden",
+      "fineSubject": "Beverages",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Event",
+      "startSec": 5161,
+      "endSec": 5432,
+      "durationSec": 271,
+      "topic": "Camp: Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Event",
+      "startSec": 5432,
+      "endSec": 5495,
+      "durationSec": 63,
+      "topic": "Camp: Map und Straßennamen",
+      "fineSubject": "Map",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5495,
+      "endSec": 5641,
+      "durationSec": 146,
+      "topic": "proot",
+      "fineSubject": "Usage",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Event",
+      "startSec": 5641,
+      "endSec": 6033,
+      "durationSec": 392,
+      "topic": "Camp: Sonstiges",
+      "fineSubject": "Miscellaneous",
+      "topicIndex": 11
+    }
+  ]
+}

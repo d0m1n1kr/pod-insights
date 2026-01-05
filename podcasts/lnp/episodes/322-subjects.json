@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 322,
+  "title": "LNP322 Deluxe Hacktivism",
+  "generatedAt": "2026-01-05T15:17:57.617Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.32228057014253564,
+      "Technology": 0.09602400600150038,
+      "Law": 0.12378094523630907,
+      "Security": 0.19654913728432108,
+      "Social": 0.0808702175543886,
+      "Media": 0,
+      "Health": 0.14193548387096774,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.038559639909977496
+    },
+    "durations": {
+      "Politics": 2148,
+      "Technology": 640,
+      "Law": 825,
+      "Security": 1310,
+      "Social": 539,
+      "Media": 0,
+      "Health": 946,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 257
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 3,
+      "Social": 3,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 6665,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 142,
+      "endSec": 306,
+      "durationSec": 164,
+      "topic": "Feedback: Instagram",
+      "fineSubject": "Social Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 306,
+      "endSec": 326,
+      "durationSec": 20,
+      "topic": "Feedback: Morbidität vs. Mortalität",
+      "fineSubject": "Statistics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 327,
+      "endSec": 612,
+      "durationSec": 285,
+      "topic": "Feedback: Phishing",
+      "fineSubject": "Phishing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 613,
+      "endSec": 870,
+      "durationSec": 257,
+      "topic": "Stadt nach Acht",
+      "fineSubject": "Urban Life",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 870,
+      "endSec": 1115,
+      "durationSec": 245,
+      "topic": "Feedback: XR",
+      "fineSubject": "Activism",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1115,
+      "endSec": 1277,
+      "durationSec": 162,
+      "topic": "Jimmy Schulz",
+      "fineSubject": "Public Figures",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 1278,
+      "endSec": 2013,
+      "durationSec": 735,
+      "topic": "Phineas Fisher strikes again",
+      "fineSubject": "Hacktivism",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2013,
+      "endSec": 2939,
+      "durationSec": 926,
+      "topic": "Datenleck in Arztpraxis",
+      "fineSubject": "Data Breaches",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2940,
+      "endSec": 3435,
+      "durationSec": 495,
+      "topic": "Julian Assange in Lebensgefahr",
+      "fineSubject": "Human Rights",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 3435,
+      "endSec": 4260,
+      "durationSec": 825,
+      "topic": "BVerfG zu Recht auf Vergessenwerden",
+      "fineSubject": "Privacy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4261,
+      "endSec": 4757,
+      "durationSec": 496,
+      "topic": "Stellt sich raus: Das Internet in Deutschland ist langsam",
+      "fineSubject": "Internet",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4758,
+      "endSec": 5443,
+      "durationSec": 685,
+      "topic": "Stephan Brandner",
+      "fineSubject": "Public Figures",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5443,
+      "endSec": 5916,
+      "durationSec": 473,
+      "topic": "Rainer Wendt",
+      "fineSubject": "Public Figures",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5917,
+      "endSec": 6040,
+      "durationSec": 123,
+      "topic": "Peter Steudtner",
+      "fineSubject": "Public Figures",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Social",
+      "startSec": 6041,
+      "endSec": 6171,
+      "durationSec": 130,
+      "topic": "TikTok",
+      "fineSubject": "Social Media",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6171,
+      "endSec": 6315,
+      "durationSec": 144,
+      "topic": "Twitter will Accounts löschen",
+      "fineSubject": "Social Media",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Security",
+      "startSec": 6316,
+      "endSec": 6606,
+      "durationSec": 290,
+      "topic": "Bundeswehr macht auf Retro auf Insta",
+      "fineSubject": "Social Media",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6606,
+      "endSec": 6816,
+      "durationSec": 210,
+      "topic": "Internet Blackout im Iran",
+      "fineSubject": "Internet Censorship",
+      "topicIndex": 17
+    }
+  ]
+}

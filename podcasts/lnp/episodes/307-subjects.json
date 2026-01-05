@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 307,
+  "title": "LNP307 Nationales Symbol der Erreichbarkeit",
+  "generatedAt": "2026-01-05T15:17:57.614Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.19996265870052277,
+      "Technology": 0.13984316654219567,
+      "Law": 0.0371545929798357,
+      "Security": 0.23058252427184467,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.39245705750560117,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1071,
+      "Technology": 749,
+      "Law": 199,
+      "Security": 1235,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2102,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5356,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 101,
+      "endSec": 1172,
+      "durationSec": 1071,
+      "topic": "Zensursula Revisited",
+      "fineSubject": "Censorship",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 2666,
+      "endSec": 4768,
+      "durationSec": 2102,
+      "topic": "Facebook Libra",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4769,
+      "endSec": 5124,
+      "durationSec": 355,
+      "topic": "5G Auktion abgeschlossen",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 5831,
+      "endSec": 6898,
+      "durationSec": 1067,
+      "topic": "Ransomware",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 6898,
+      "endSec": 7012,
+      "durationSec": 114,
+      "topic": "Gmail ist kein Telekommunikationsdienst",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 7013,
+      "endSec": 7181,
+      "durationSec": 168,
+      "topic": "Shady VPNs",
+      "fineSubject": "VPN",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 7181,
+      "endSec": 7266,
+      "durationSec": 85,
+      "topic": "Zensurheberrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7267,
+      "endSec": 7661,
+      "durationSec": 394,
+      "topic": "Google rudert im Werbeblocker-Streit zurück",
+      "fineSubject": "Advertising",
+      "topicIndex": 9
+    }
+  ]
+}

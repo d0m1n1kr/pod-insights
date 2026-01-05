@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 354,
+  "title": "Mi354 – \"Zwischenwasser\"",
+  "generatedAt": "2026-01-05T15:18:17.393Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.32370203160270883,
+      "Culture": 0.48803611738148983,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.18826185101580137,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 717,
+      "Culture": 1081,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 417,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 2215,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 338,
+      "endSec": 802,
+      "durationSec": 464,
+      "topic": "Rad am Ring",
+      "fineSubject": "Sport / Rad am Ring",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1608,
+      "endSec": 2325,
+      "durationSec": 717,
+      "topic": "empirie Probelauf",
+      "fineSubject": "Methodology / Probelauf",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2325,
+      "endSec": 2942,
+      "durationSec": 617,
+      "topic": "Spezialauftritt in Duisburg",
+      "fineSubject": "Location / Duisburg",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Education",
+      "startSec": 4950,
+      "endSec": 5367,
+      "durationSec": 417,
+      "topic": "Science Snack",
+      "fineSubject": "Format / Snack",
+      "topicIndex": 6
+    }
+  ]
+}

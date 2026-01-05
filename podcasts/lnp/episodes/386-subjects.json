@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 386,
+  "title": "LNP386 Technisches Flair",
+  "generatedAt": "2026-01-05T15:17:57.626Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.5287602715255448,
+      "Law": 0,
+      "Security": 0.05609146123615577,
+      "Social": 0.07520543051089675,
+      "Media": 0.04501607717041801,
+      "Health": 0.2638442300821722,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.031082529474812434,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2960,
+      "Law": 0,
+      "Security": 314,
+      "Social": 421,
+      "Media": 252,
+      "Health": 1477,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 174,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 5,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 1,
+      "Health": 3,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5598,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 479,
+      "endSec": 597,
+      "durationSec": 118,
+      "topic": "Feedback: Blockchains",
+      "fineSubject": "Blockchains",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 598,
+      "endSec": 667,
+      "durationSec": 69,
+      "topic": "Feedback: Rapper gegen VDS",
+      "fineSubject": "Privacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 725,
+      "endSec": 1209,
+      "durationSec": 484,
+      "topic": "Feedback: More Blockchains",
+      "fineSubject": "Blockchains",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1210,
+      "endSec": 1312,
+      "durationSec": 102,
+      "topic": "Feedback: Kontaktverfolgung und Quarantäne",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1312,
+      "endSec": 1624,
+      "durationSec": 312,
+      "topic": "Feedback: NINA",
+      "fineSubject": "Emergency Services",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 1625,
+      "endSec": 2545,
+      "durationSec": 920,
+      "topic": "130.000 Corona-Testergebisse",
+      "fineSubject": "COVID-19 Testing",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2545,
+      "endSec": 3000,
+      "durationSec": 455,
+      "topic": "Impfpass-Vorschlag EU-Kommission",
+      "fineSubject": "Vaccination",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3000,
+      "endSec": 3314,
+      "durationSec": 314,
+      "topic": "Emotet-Takedown",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3314,
+      "endSec": 4340,
+      "durationSec": 1026,
+      "topic": "CWA mit Check-in-Funktion",
+      "fineSubject": "Apps",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4341,
+      "endSec": 5361,
+      "durationSec": 1020,
+      "topic": "Privatisierte DNS-Sperren",
+      "fineSubject": "DNS",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 5361,
+      "endSec": 5613,
+      "durationSec": 252,
+      "topic": "YouTube Uploadfilter",
+      "fineSubject": "Content Moderation",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Social",
+      "startSec": 5613,
+      "endSec": 5965,
+      "durationSec": 352,
+      "topic": "Gemeinnützigkeit change.org",
+      "fineSubject": "Nonprofits",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Business",
+      "startSec": 5965,
+      "endSec": 6139,
+      "durationSec": 174,
+      "topic": "Jobs",
+      "fineSubject": "Jobs",
+      "topicIndex": 13
+    }
+  ]
+}

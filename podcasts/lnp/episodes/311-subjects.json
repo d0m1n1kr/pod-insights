@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 311,
+  "title": "LNP311 I love you but I have chosen Datenschutz",
+  "generatedAt": "2026-01-05T15:17:57.615Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.47043113315528423,
+      "Technology": 0.3273559710034338,
+      "Law": 0,
+      "Security": 0.20221289584128196,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1233,
+      "Technology": 858,
+      "Law": 0,
+      "Security": 530,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2621,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 711,
+      "endSec": 1944,
+      "durationSec": 1233,
+      "topic": "Das wird Maaßen ja noch sagen dürfen",
+      "fineSubject": "Freedom of Speech",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1945,
+      "endSec": 2521,
+      "durationSec": 576,
+      "topic": "Digitale Freiheit",
+      "fineSubject": "Digital Freedom",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2522,
+      "endSec": 2804,
+      "durationSec": 282,
+      "topic": "Systemabsturz",
+      "fineSubject": "System Failure",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2934,
+      "endSec": 3266,
+      "durationSec": 332,
+      "topic": "Systemabsturz: Verdächtig",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3267,
+      "endSec": 3465,
+      "durationSec": 198,
+      "topic": "Systemabsturz: Staatstrojaner",
+      "fineSubject": "State Trojan",
+      "topicIndex": 4
+    }
+  ]
+}

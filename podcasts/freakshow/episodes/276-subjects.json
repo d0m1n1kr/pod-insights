@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 276,
+  "title": "FS276 Remember we are in the eighties, so dress accordingly!",
+  "generatedAt": "2026-01-05T15:17:51.118Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2809044725570276,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.24743500348640302,
+      "Social": 0.3088953082976392,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.16276521565893018,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2820,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2484,
+      "Social": 3101,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1634,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 10039,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 236,
+      "endSec": 1148,
+      "durationSec": 912,
+      "topic": "Vision Pro Recap",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1148,
+      "endSec": 1549,
+      "durationSec": 401,
+      "topic": "Reflektionsarme Räume und Studioakustik",
+      "fineSubject": "Studio Acoustics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 3938,
+      "endSec": 6021,
+      "durationSec": 2083,
+      "topic": "True Crime Content",
+      "fineSubject": "True Crime",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7834,
+      "endSec": 9132,
+      "durationSec": 1298,
+      "topic": "USB-C Kabeltester",
+      "fineSubject": "Cables",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9508,
+      "endSec": 9798,
+      "durationSec": 290,
+      "topic": "Dell U4025QW Monitor",
+      "fineSubject": "Monitors",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9799,
+      "endSec": 10119,
+      "durationSec": 320,
+      "topic": "Samsung VireFinity S6 Business Monitor",
+      "fineSubject": "Monitors",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 10119,
+      "endSec": 11753,
+      "durationSec": 1634,
+      "topic": "Minecraft für Kinder",
+      "fineSubject": "Minecraft",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Social",
+      "startSec": 11754,
+      "endSec": 14855,
+      "durationSec": 3101,
+      "topic": "Mastodon",
+      "fineSubject": "Social Network",
+      "topicIndex": 14
+    }
+  ]
+}

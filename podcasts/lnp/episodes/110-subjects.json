@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 110,
+  "title": "LNP110 Jura lernen für Dummies von Dummies",
+  "generatedAt": "2026-01-05T15:17:57.589Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.2573018080667594,
+      "Law": 0.7426981919332406,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 740,
+      "Law": 2136,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 4,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2876,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 92,
+      "endSec": 646,
+      "durationSec": 554,
+      "topic": "Klage gegen BND-Emailüberwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 646,
+      "endSec": 1080,
+      "durationSec": 434,
+      "topic": "BND darf nicht sagen, ob er Trojaner einsetzt",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1081,
+      "endSec": 1375,
+      "durationSec": 294,
+      "topic": "DRIP",
+      "fineSubject": "Legislation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1375,
+      "endSec": 2229,
+      "durationSec": 854,
+      "topic": "Österreich: kino.to-Urteil",
+      "fineSubject": "Copyright",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2230,
+      "endSec": 2970,
+      "durationSec": 740,
+      "topic": "Digitale Agenda",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 4
+    }
+  ]
+}

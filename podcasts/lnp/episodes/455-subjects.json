@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 455,
+  "title": "LNP455 Leitungsschutzrecht",
+  "generatedAt": "2026-01-05T15:17:57.636Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.38143525741029644,
+      "Technology": 0.12363494539781592,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.15405616224648985,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.3408736349453978,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1956,
+      "Technology": 634,
+      "Law": 0,
+      "Security": 0,
+      "Social": 790,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1748,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5128,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 968,
+      "endSec": 2661,
+      "durationSec": 1693,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Regulation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 2661,
+      "endSec": 4409,
+      "durationSec": 1748,
+      "topic": "EU-Breitbandsteuer",
+      "fineSubject": "Taxation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4409,
+      "endSec": 5043,
+      "durationSec": 634,
+      "topic": "Quad9",
+      "fineSubject": "DNS",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 5043,
+      "endSec": 5200,
+      "durationSec": 157,
+      "topic": "Tanz auf dem Vulkan",
+      "fineSubject": "Crisis",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 5201,
+      "endSec": 5834,
+      "durationSec": 633,
+      "topic": "x-hain braucht Hilfe",
+      "fineSubject": "Support",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5834,
+      "endSec": 6097,
+      "durationSec": 263,
+      "topic": "Die Verschlusssachen des Bundestags",
+      "fineSubject": "Government",
+      "topicIndex": 5
+    }
+  ]
+}

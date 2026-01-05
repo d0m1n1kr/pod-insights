@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 218,
+  "title": "FS218 Der kann kein Blut hören",
+  "generatedAt": "2026-01-05T15:17:51.096Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1847985347985348,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.43003663003663006,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.12014652014652015,
+      "Events": 0.06721611721611721,
+      "Business": 0.12637362637362637,
+      "Gaming": 0.07142857142857142,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1009,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2348,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 656,
+      "Events": 367,
+      "Business": 690,
+      "Gaming": 390,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 1,
+      "Business": 2,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 5460,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Gaming",
+      "startSec": 289,
+      "endSec": 679,
+      "durationSec": 390,
+      "topic": "Spiele spielen und Computer programmieren",
+      "fineSubject": "Programming",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6177,
+      "endSec": 7186,
+      "durationSec": 1009,
+      "topic": "Geiler Computer gesucht",
+      "fineSubject": "Computers",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 8486,
+      "endSec": 8821,
+      "durationSec": 335,
+      "topic": "Online Shopping",
+      "fineSubject": "Online Shopping",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 8821,
+      "endSec": 9176,
+      "durationSec": 355,
+      "topic": "SEO",
+      "fineSubject": "SEO",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 9176,
+      "endSec": 9832,
+      "durationSec": 656,
+      "topic": "Handbuch für Hacker",
+      "fineSubject": "Hacking",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Events",
+      "startSec": 9833,
+      "endSec": 10200,
+      "durationSec": 367,
+      "topic": "GPN18",
+      "fineSubject": "GPN18",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 10200,
+      "endSec": 12548,
+      "durationSec": 2348,
+      "topic": "Doctor Who",
+      "fineSubject": "TV Series",
+      "topicIndex": 11
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 303,
+  "title": "LNP303 Halt mal meinen Pflaumenschnaps",
+  "generatedAt": "2026-01-05T15:17:57.614Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.10285474391267842,
+      "Technology": 0,
+      "Law": 0.13455079764903444,
+      "Security": 0.3602015113350126,
+      "Social": 0,
+      "Media": 0.10621326616288833,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.2961796809403862,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 490,
+      "Technology": 0,
+      "Law": 641,
+      "Security": 1716,
+      "Social": 0,
+      "Media": 506,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1411,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 4,
+      "Security": 3,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4764,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 162,
+      "endSec": 652,
+      "durationSec": 490,
+      "topic": "Europawahl",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 653,
+      "endSec": 1159,
+      "durationSec": 506,
+      "topic": "AKK reacts to Rezo (again)",
+      "fineSubject": "Influencers",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1159,
+      "endSec": 2312,
+      "durationSec": 1153,
+      "topic": "Aktive Cyberabwehr",
+      "fineSubject": "Cyber Defense",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2313,
+      "endSec": 2632,
+      "durationSec": 319,
+      "topic": "Seehofer will Journalisten hacken",
+      "fineSubject": "Journalism",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2633,
+      "endSec": 2847,
+      "durationSec": 214,
+      "topic": "Julian Assage drohen 175 Jahre Haft",
+      "fineSubject": "Criminal Justice",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 2847,
+      "endSec": 4258,
+      "durationSec": 1411,
+      "topic": "Huawei-Boykott",
+      "fineSubject": "International Trade",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4258,
+      "endSec": 4442,
+      "durationSec": 184,
+      "topic": "Klarnamenpflicht",
+      "fineSubject": "Privacy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4443,
+      "endSec": 4572,
+      "durationSec": 129,
+      "topic": "Klagen gegen Fluggastenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 4572,
+      "endSec": 4816,
+      "durationSec": 244,
+      "topic": "DNS Hijacking der Telekom",
+      "fineSubject": "Network Security",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 4817,
+      "endSec": 4931,
+      "durationSec": 114,
+      "topic": "DSGVO nicht abmahnbar",
+      "fineSubject": "Data Protection",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "episodeNumber": 54,
+  "title": "CRE054 GIMP",
+  "generatedAt": "2026-01-05T15:17:54.369Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.8571428571428571,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0.14285714285714285,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 6,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 1,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklung von GIMP",
+      "fineSubject": "Bildbearbeitung",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Open Source Software",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "User Interface Toolkits",
+      "fineSubject": "UI/UX",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Usability-Forschung",
+      "fineSubject": "Usability",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Cross-Plattform-Entwicklung",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Online-Feedback-Techniken",
+      "fineSubject": "Benutzerinteraktion",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Community",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mitwirkung am Projekt",
+      "fineSubject": "Open Source",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

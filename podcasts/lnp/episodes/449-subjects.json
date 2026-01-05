@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 449,
+  "title": "LNP449 Eigentlich schon",
+  "generatedAt": "2026-01-05T15:17:57.635Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.06627877561345813,
+      "Technology": 0.04528206425499621,
+      "Law": 0.1242094611687326,
+      "Security": 0.383000252972426,
+      "Social": 0.38122944599038705,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 262,
+      "Technology": 179,
+      "Law": 491,
+      "Security": 1514,
+      "Social": 1507,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 3,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3953,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 436,
+      "endSec": 809,
+      "durationSec": 373,
+      "topic": "Google-Fonts-Erpresser gerazzt",
+      "fineSubject": "Ransomware",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 809,
+      "endSec": 2316,
+      "durationSec": 1507,
+      "topic": "Twitter",
+      "fineSubject": "Social Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2317,
+      "endSec": 2579,
+      "durationSec": 262,
+      "topic": "Corona für Überwachung genutzt",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2579,
+      "endSec": 3070,
+      "durationSec": 491,
+      "topic": "Bankman-Fried wurde ausgeliefert",
+      "fineSubject": "Extradition",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3070,
+      "endSec": 3596,
+      "durationSec": 526,
+      "topic": "LastPass Hack",
+      "fineSubject": "Data Breach",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3596,
+      "endSec": 4211,
+      "durationSec": 615,
+      "topic": "Ransomware beim Guardian",
+      "fineSubject": "Ransomware",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4212,
+      "endSec": 4391,
+      "durationSec": 179,
+      "topic": "ChatGPT für Vertragsverhandlungen nutzen",
+      "fineSubject": "AI",
+      "topicIndex": 6
+    }
+  ]
+}

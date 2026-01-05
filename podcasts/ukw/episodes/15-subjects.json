@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 15,
+  "title": "UKW015: Corona: Wirtschaft in der Krise",
+  "generatedAt": "2026-01-05T15:18:03.000Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.17101410700026617,
+      "Military": 0,
+      "Technology": 0.07519297311684855,
+      "Economics": 0.12004258717061485,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0.6337503327122704,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 1285,
+      "Military": 0,
+      "Technology": 565,
+      "Economics": 902,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 4762,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 1,
+      "Military": 0,
+      "Technology": 1,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 8,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7514,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Economy",
+      "startSec": 213,
+      "endSec": 863,
+      "durationSec": 650,
+      "topic": "Aktuelle Situation",
+      "fineSubject": "Current Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Economy",
+      "startSec": 864,
+      "endSec": 1739,
+      "durationSec": 875,
+      "topic": "Unmittelbar betroffene Unternehmen",
+      "fineSubject": "Affected Companies",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Economy",
+      "startSec": 1739,
+      "endSec": 2228,
+      "durationSec": 489,
+      "topic": "Teilweise betroffene Branchen",
+      "fineSubject": "Affected Industries",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2229,
+      "endSec": 2794,
+      "durationSec": 565,
+      "topic": "Disruptive Elemente und das Internet",
+      "fineSubject": "Disruption and Internet",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2794,
+      "endSec": 3079,
+      "durationSec": 285,
+      "topic": "Landwirtschaft und Nahrungsmittel",
+      "fineSubject": "Food Supply",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Economy",
+      "startSec": 3080,
+      "endSec": 3755,
+      "durationSec": 675,
+      "topic": "Kurzfristige Maßnahmen",
+      "fineSubject": "Short-term Measures",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3755,
+      "endSec": 4372,
+      "durationSec": 617,
+      "topic": "Immobilien",
+      "fineSubject": "Market Impact",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Economy",
+      "startSec": 4372,
+      "endSec": 5260,
+      "durationSec": 888,
+      "topic": "Verteilungsgerechtigkeit",
+      "fineSubject": "Distribution Justice",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Economy",
+      "startSec": 5261,
+      "endSec": 6016,
+      "durationSec": 755,
+      "topic": "Grundeinkommen",
+      "fineSubject": "Basic Income",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6016,
+      "endSec": 7301,
+      "durationSec": 1285,
+      "topic": "Solidarität in Europa",
+      "fineSubject": "European Solidarity",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Economy",
+      "startSec": 7302,
+      "endSec": 7556,
+      "durationSec": 254,
+      "topic": "Globale Auswirkungen",
+      "fineSubject": "Global Impact",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Economy",
+      "startSec": 7557,
+      "endSec": 7733,
+      "durationSec": 176,
+      "topic": "Resilienz des Kapitalismus",
+      "fineSubject": "Capitalism Resilience",
+      "topicIndex": 11
+    }
+  ]
+}

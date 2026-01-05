@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 129,
+  "title": "LNP129 Ureinwanderer",
+  "generatedAt": "2026-01-05T15:17:57.591Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.33046340845783745,
+      "Technology": 0.0947075208913649,
+      "Law": 0.3542669030134211,
+      "Security": 0.14434033932641174,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.0762218283109648,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1305,
+      "Technology": 374,
+      "Law": 1399,
+      "Security": 570,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 301,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3949,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 300,
+      "endSec": 1299,
+      "durationSec": 999,
+      "topic": "Obama, de Maizière und de Kerchove stimmen in Camerons Crypto-Lied ein",
+      "fineSubject": "International Relations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1300,
+      "endSec": 1870,
+      "durationSec": 570,
+      "topic": "GCHQ hat Journalisten abgehört",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1871,
+      "endSec": 2941,
+      "durationSec": 1070,
+      "topic": "Mobilfunkgeräte nach Demo beschlagnahmt",
+      "fineSubject": "Police Actions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2941,
+      "endSec": 3247,
+      "durationSec": 306,
+      "topic": "Peter Schaar vor Geheimdienst-Untersuchungsausschuss",
+      "fineSubject": "Government Oversight",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3247,
+      "endSec": 3621,
+      "durationSec": 374,
+      "topic": "Freifunker wehren sich gegen Störerhaftung und Abmahner",
+      "fineSubject": "Internet Freedom",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3622,
+      "endSec": 3951,
+      "durationSec": 329,
+      "topic": "Julia Reda legt Entwurf zu EU-Urheberrecht-Evaluation vor",
+      "fineSubject": "Copyright",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 3951,
+      "endSec": 4252,
+      "durationSec": 301,
+      "topic": "TTIP verfassungsrechtlich umstritten",
+      "fineSubject": "Trade Agreements",
+      "topicIndex": 6
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "episodeNumber": 260,
+  "title": "FS260 Hypewertszeit",
+  "generatedAt": "2026-01-05T15:17:51.113Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6172357492723788,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.3420884503442891,
+      "Media": 0.04067580038333215,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 8695,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 4819,
+      "Media": 573,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 18,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 4,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 14087,
+    "totalTopics": 28
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 777,
+      "endSec": 1350,
+      "durationSec": 573,
+      "topic": "Apple Music",
+      "fineSubject": "Streaming / Apple Music",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3206,
+      "endSec": 3642,
+      "durationSec": 436,
+      "topic": "Bitcoin und Verantwortung",
+      "fineSubject": "Bitcoin / Responsibility",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3642,
+      "endSec": 5186,
+      "durationSec": 1544,
+      "topic": "NFTs",
+      "fineSubject": "NFTs / Market",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Finance",
+      "startSec": 5415,
+      "endSec": 8033,
+      "durationSec": 2618,
+      "topic": "Bitcoin Energy Consumption / Moral Hazard",
+      "fineSubject": "Bitcoin / Energy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8034,
+      "endSec": 8255,
+      "durationSec": 221,
+      "topic": "Bitcoin News",
+      "fineSubject": "Bitcoin / News",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8256,
+      "endSec": 9032,
+      "durationSec": 776,
+      "topic": "WWDC: Keynote",
+      "fineSubject": "Apple / WWDC",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9033,
+      "endSec": 9702,
+      "durationSec": 669,
+      "topic": "WWDC: iOS",
+      "fineSubject": "Apple / iOS",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9703,
+      "endSec": 9973,
+      "durationSec": 270,
+      "topic": "Messenger-Präferenzen",
+      "fineSubject": "Messaging / Preferences",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9973,
+      "endSec": 10385,
+      "durationSec": 412,
+      "topic": "WWDC: Shared By",
+      "fineSubject": "Apple / Shared Features",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10386,
+      "endSec": 11197,
+      "durationSec": 811,
+      "topic": "WWDC: Focus",
+      "fineSubject": "Apple / WWDC",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11197,
+      "endSec": 11631,
+      "durationSec": 434,
+      "topic": "WWDC: Live Text",
+      "fineSubject": "Apple / Live Text",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11632,
+      "endSec": 12344,
+      "durationSec": 712,
+      "topic": "WWDC: AirPods",
+      "fineSubject": "Apple / AirPods",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12344,
+      "endSec": 12697,
+      "durationSec": 353,
+      "topic": "WWDC: Notes",
+      "fineSubject": "Apple / Notes",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12697,
+      "endSec": 13142,
+      "durationSec": 445,
+      "topic": "WWDC: Swift Playgrounds",
+      "fineSubject": "Apple / Swift Playgrounds",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13143,
+      "endSec": 13631,
+      "durationSec": 488,
+      "topic": "WWDC: Xcode Cloud",
+      "fineSubject": "Apple / Xcode",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13632,
+      "endSec": 13839,
+      "durationSec": 207,
+      "topic": "WWDC: iCloud+",
+      "fineSubject": "Apple / iCloud",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13840,
+      "endSec": 14183,
+      "durationSec": 343,
+      "topic": "WWDC: Digital Legacy",
+      "fineSubject": "Apple / Digital Legacy",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14587,
+      "endSec": 14808,
+      "durationSec": 221,
+      "topic": "WWDC: watchOS",
+      "fineSubject": "Apple / watchOS",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14809,
+      "endSec": 15017,
+      "durationSec": 208,
+      "topic": "WWDC: Home",
+      "fineSubject": "Apple / Home",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15018,
+      "endSec": 15590,
+      "durationSec": 572,
+      "topic": "WWDC: Safari",
+      "fineSubject": "Apple / Safari",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15590,
+      "endSec": 16105,
+      "durationSec": 515,
+      "topic": "WWDC: Universal Control und AirPlay",
+      "fineSubject": "Apple / AirPlay",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Technology",
+      "startSec": 16106,
+      "endSec": 16730,
+      "durationSec": 624,
+      "topic": "WWDC: Shortcuts",
+      "fineSubject": "Apple / Shortcuts",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Technology",
+      "startSec": 16731,
+      "endSec": 17366,
+      "durationSec": 635,
+      "topic": "WWDC: Roundup",
+      "fineSubject": "Apple / WWDC Roundup",
+      "topicIndex": 27
+    }
+  ]
+}

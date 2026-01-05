@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 66,
+  "title": "DU066 - Aliens sind nervig!",
+  "generatedAt": "2026-01-05T15:18:22.100Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0.25,
+      "Space": 0.75,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 1,
+      "Space": 3,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Astronautenauswahl der ESA",
+      "fineSubject": "Astronauts",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Orion-Raumkapsel und Artemis-1-Mission",
+      "fineSubject": "Missions",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Exoplanetenforschung und James-Webb-Teleskop",
+      "fineSubject": "Exoplanets",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fragen aus der Hörerschaft zu Gasriesen und braunen Zwergen",
+      "fineSubject": "Gas Giants",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

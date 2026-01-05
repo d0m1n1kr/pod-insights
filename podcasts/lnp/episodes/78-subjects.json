@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 78,
+  "title": "LNP078 Bugdoor",
+  "generatedAt": "2026-01-05T15:17:57.585Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.277888667110224,
+      "Technology": 0.545131958305611,
+      "Law": 0.17697937458416502,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1253,
+      "Technology": 2458,
+      "Law": 798,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4509,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 173,
+      "endSec": 1299,
+      "durationSec": 1126,
+      "topic": "Freiheit statt Angst",
+      "fineSubject": "Civil Liberties",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1300,
+      "endSec": 2923,
+      "durationSec": 1623,
+      "topic": "Cryptocalypse!",
+      "fineSubject": "Cryptography",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2924,
+      "endSec": 3189,
+      "durationSec": 265,
+      "topic": "Smartphones",
+      "fineSubject": "Smartphones",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3189,
+      "endSec": 3759,
+      "durationSec": 570,
+      "topic": "Swift-Daten",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3760,
+      "endSec": 4055,
+      "durationSec": 295,
+      "topic": "Vorratsdatenspeicherung für die DEA",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4056,
+      "endSec": 4183,
+      "durationSec": 127,
+      "topic": "Neues von WikiLeaks",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4183,
+      "endSec": 4311,
+      "durationSec": 128,
+      "topic": "Keine Glücksspiel-Netzsperren",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4312,
+      "endSec": 4687,
+      "durationSec": 375,
+      "topic": "Funkzellenabfragen",
+      "fineSubject": "Surveillance",
+      "topicIndex": 7
+    }
+  ]
+}

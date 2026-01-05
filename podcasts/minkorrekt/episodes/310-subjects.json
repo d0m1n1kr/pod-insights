@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 310,
+  "title": "Mi310 – \"Konfliktbrot\"",
+  "generatedAt": "2026-01-05T15:18:17.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.23154307966899237,
+      "Culture": 0.09070257991238033,
+      "Wissenschaft": 0,
+      "Health": 0.605062469576505,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.07269187084212235,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1427,
+      "Culture": 559,
+      "Wissenschaft": 0,
+      "Health": 3729,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 448,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 4,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6163,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 1294,
+      "endSec": 1857,
+      "durationSec": 563,
+      "topic": "Wespenstich",
+      "fineSubject": "Insect Bites",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1857,
+      "endSec": 2305,
+      "durationSec": 448,
+      "topic": "Fernseherdrama",
+      "fineSubject": "Television",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2305,
+      "endSec": 3170,
+      "durationSec": 865,
+      "topic": "Sportroutine",
+      "fineSubject": "Exercise Routine",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3170,
+      "endSec": 4271,
+      "durationSec": 1101,
+      "topic": "MS Wissenschaft",
+      "fineSubject": "Exhibitions",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4766,
+      "endSec": 6158,
+      "durationSec": 1392,
+      "topic": "Thema 1: “Marathon oder Milchshake?”",
+      "fineSubject": "Diet Choices",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 6158,
+      "endSec": 6484,
+      "durationSec": 326,
+      "topic": "Experiment: Cutting Pi",
+      "fineSubject": "Pi",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 6484,
+      "endSec": 7393,
+      "durationSec": 909,
+      "topic": "Thema 2: \"Immer schön aus den Beinen heben\"",
+      "fineSubject": "Running Technique",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7393,
+      "endSec": 7952,
+      "durationSec": 559,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 8
+    }
+  ]
+}

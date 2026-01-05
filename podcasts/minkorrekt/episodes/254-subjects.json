@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 254,
+  "title": "MI254 - \"Brutaler Backsteinismus\"",
+  "generatedAt": "2026-01-05T15:18:17.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.6944331572531491,
+      "Wissenschaft": 0.30556684274685086,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 1709,
+      "Wissenschaft": 752,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 3,
+      "Wissenschaft": 1,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 2461,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 456,
+      "endSec": 1100,
+      "durationSec": 644,
+      "topic": "WissKom Workshop",
+      "fineSubject": "WissKom",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1100,
+      "endSec": 1290,
+      "durationSec": 190,
+      "topic": "Apollo watch party",
+      "fineSubject": "Apollo",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1290,
+      "endSec": 2165,
+      "durationSec": 875,
+      "topic": "Stadtteilwanderung",
+      "fineSubject": "Wanderung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 3811,
+      "endSec": 4563,
+      "durationSec": 752,
+      "topic": "Snackable Science und Experiment",
+      "fineSubject": "Experiment",
+      "topicIndex": 6
+    }
+  ]
+}

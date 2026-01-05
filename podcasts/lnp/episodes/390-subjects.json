@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 390,
+  "title": "LNP390 Qualitätsschwankungen in der Suchtmittelversorgung",
+  "generatedAt": "2026-01-05T15:17:57.627Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.050617283950617285,
+      "Technology": 0.7552469135802469,
+      "Law": 0,
+      "Security": 0.15123456790123457,
+      "Social": 0,
+      "Media": 0.042901234567901236,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 164,
+      "Technology": 2447,
+      "Law": 0,
+      "Security": 490,
+      "Social": 0,
+      "Media": 139,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 4,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3240,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 1494,
+      "endSec": 1558,
+      "durationSec": 64,
+      "topic": "Tip: Linus bei Malik",
+      "fineSubject": "Interviews",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1558,
+      "endSec": 1633,
+      "durationSec": 75,
+      "topic": "Tip: Mann in Merkels Rechner",
+      "fineSubject": "Interviews",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1975,
+      "endSec": 2045,
+      "durationSec": 70,
+      "topic": "Feedback: Computing in der Öffentlichen Verwaltung",
+      "fineSubject": "Public Administration",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2046,
+      "endSec": 2174,
+      "durationSec": 128,
+      "topic": "Feedback: NHS App",
+      "fineSubject": "Healthcare Apps",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2175,
+      "endSec": 2803,
+      "durationSec": 628,
+      "topic": "Corona-Warn-App mit Checkin-Funktion",
+      "fineSubject": "Healthcare Apps",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2803,
+      "endSec": 4424,
+      "durationSec": 1621,
+      "topic": "Luca App",
+      "fineSubject": "Healthcare Apps",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 4424,
+      "endSec": 4914,
+      "durationSec": 490,
+      "topic": "Signal hackt Cellebrite",
+      "fineSubject": "Hacking",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4915,
+      "endSec": 5079,
+      "durationSec": 164,
+      "topic": "Frag den Staat vs. Frontex",
+      "fineSubject": "Government Agencies",
+      "topicIndex": 9
+    }
+  ]
+}

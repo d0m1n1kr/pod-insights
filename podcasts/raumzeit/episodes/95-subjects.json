@@ -1,0 +1,92 @@
+{
+  "episodeNumber": 95,
+  "title": "RZ095 JUICE",
+  "generatedAt": "2026-01-05T15:18:06.287Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0.5686475409836066,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0.43135245901639346,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 1110,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 842,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 2,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 1,
+      "Science": 1,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 1952,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": 14,
+      "endSec": 856,
+      "durationSec": 842,
+      "topic": "ESA-Mission JUICE",
+      "fineSubject": "Space Missions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 197,
+      "endSec": 1307,
+      "durationSec": 1110,
+      "topic": "Eismonde des Jupiters",
+      "fineSubject": "Moons",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Ganymed",
+      "fineSubject": "Galilean Moons",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Untersuchung von Ganymed",
+      "fineSubject": "Planetary Science",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

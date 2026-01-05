@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 123,
+  "title": "UKW123 Brexit: He rose without a trace",
+  "generatedAt": "2026-01-05T15:18:03.032Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.9354057327412192,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.06459426725878079,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 4634,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 320,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 12,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 4954,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 349,
+      "endSec": 1136,
+      "durationSec": 787,
+      "topic": "Die Amtszeit von Rishi Sunak",
+      "fineSubject": "Leadership",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1136,
+      "endSec": 1456,
+      "durationSec": 320,
+      "topic": "Wirtschaftliche Situation",
+      "fineSubject": "Economic Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1457,
+      "endSec": 1851,
+      "durationSec": 394,
+      "topic": "UK und der Krieg in der Ukraine",
+      "fineSubject": "International Relations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1852,
+      "endSec": 1997,
+      "durationSec": 145,
+      "topic": "Wie wird der Brexit jetzt gesehen?",
+      "fineSubject": "Public Opinion",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1998,
+      "endSec": 2337,
+      "durationSec": 339,
+      "topic": "Nordirland",
+      "fineSubject": "Regional Issues",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2338,
+      "endSec": 2669,
+      "durationSec": 331,
+      "topic": "Schottland",
+      "fineSubject": "Regional Issues",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2669,
+      "endSec": 3013,
+      "durationSec": 344,
+      "topic": "Die Unterhauswahlen",
+      "fineSubject": "Elections",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3013,
+      "endSec": 3188,
+      "durationSec": 175,
+      "topic": "LibDems",
+      "fineSubject": "Political Parties",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3189,
+      "endSec": 3632,
+      "durationSec": 443,
+      "topic": "Wahlsystem vs. Parteistruktur",
+      "fineSubject": "Political Systems",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3633,
+      "endSec": 4613,
+      "durationSec": 980,
+      "topic": "Die neue Labour-Regierung",
+      "fineSubject": "Government",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4613,
+      "endSec": 4812,
+      "durationSec": 199,
+      "topic": "Starmer vs. Trump",
+      "fineSubject": "Political Figures",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4813,
+      "endSec": 5115,
+      "durationSec": 302,
+      "topic": "Prognosen für den Wahlabend",
+      "fineSubject": "Elections",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5116,
+      "endSec": 5311,
+      "durationSec": 195,
+      "topic": "Brexit ist vorbei",
+      "fineSubject": "Brexit",
+      "topicIndex": 12
+    }
+  ]
+}

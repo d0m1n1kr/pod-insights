@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 408,
+  "title": "LNP408 Führung in der Wurstfabrik",
+  "generatedAt": "2026-01-05T15:17:57.629Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5615018688413184,
+      "Technology": 0.43849813115868164,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3305,
+      "Technology": 2581,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5886,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 938,
+      "endSec": 3347,
+      "durationSec": 2409,
+      "topic": "Wahlhelfer und Wahlbeobachtung in Berlin",
+      "fineSubject": "Politics / Wahlbeobachtung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3348,
+      "endSec": 3961,
+      "durationSec": 613,
+      "topic": "Wahlergebnis Bund",
+      "fineSubject": "Politics / Bund",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3961,
+      "endSec": 6542,
+      "durationSec": 2581,
+      "topic": "ID Wallet",
+      "fineSubject": "Security / Digital Identity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6542,
+      "endSec": 6825,
+      "durationSec": 283,
+      "topic": "Frag den Staat und Frontex",
+      "fineSubject": "Politics / Frontex",
+      "topicIndex": 4
+    }
+  ]
+}

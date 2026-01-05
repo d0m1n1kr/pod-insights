@@ -1,0 +1,184 @@
+{
+  "episodeNumber": 176,
+  "title": "CRE176 Cloud Computing",
+  "generatedAt": "2026-01-05T15:17:54.387Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.15384615384615385,
+      "Technology": 0.8461538461538461,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 2,
+      "Technology": 11,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Cloud Services Überblick",
+      "fineSubject": "Cloud Services",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklung von frühen Diensten im Internet",
+      "fineSubject": "Frühe Dienste",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verteiltes Rechnen und Virtualisierung",
+      "fineSubject": "Virtualisierung",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Infrastructure as a Service",
+      "fineSubject": "Infrastructure as a Service",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Populäre Infrastrukturanbieter",
+      "fineSubject": "Infrastrukturanbieter",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Platform as a Service",
+      "fineSubject": "Platform as a Service",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Betriebssystemkampf in der Wolke",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zuverlässigkeiten und Abhängigkeiten",
+      "fineSubject": "Zuverlässigkeit",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Cloud Services, Datenschutz und Privatsphäre",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anwendungen für Cloud-Plattformen",
+      "fineSubject": "Anwendungen",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Webanwendungen vs. Native Anwendungen",
+      "fineSubject": "Anwendungstypen",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Google App Engine und TyphoonAE",
+      "fineSubject": "Cloud Plattformen",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Open Source Alternativen für Cloud Technologien",
+      "fineSubject": "Open Source",
+      "topicIndex": 12,
+      "untimed": true
+    }
+  ]
+}

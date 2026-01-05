@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 61,
+  "title": "UKW061 Corona Weekly: Das Virus-Prekariat",
+  "generatedAt": "2026-01-05T15:18:03.014Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9333049222245898,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0.06669507777541019,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 8760,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 626,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 15,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 3,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9386,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 146,
+      "endSec": 557,
+      "durationSec": 411,
+      "topic": "Feedback: Grenzregionen",
+      "fineSubject": "Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 557,
+      "endSec": 602,
+      "durationSec": 45,
+      "topic": "Feedback: Teslaventil",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 603,
+      "endSec": 773,
+      "durationSec": 170,
+      "topic": "Feedback: Impfdrängler",
+      "fineSubject": "Feedback",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 773,
+      "endSec": 1393,
+      "durationSec": 620,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Situation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1394,
+      "endSec": 1889,
+      "durationSec": 495,
+      "topic": "Vorhersagen in der Risikotabelle",
+      "fineSubject": "Predictions",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1889,
+      "endSec": 2684,
+      "durationSec": 795,
+      "topic": "Mutationen in Deutschland",
+      "fineSubject": "Mutations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2685,
+      "endSec": 3196,
+      "durationSec": 511,
+      "topic": "Die Welt aus Sicht des Virus",
+      "fineSubject": "Virus Perspective",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3196,
+      "endSec": 4751,
+      "durationSec": 1555,
+      "topic": "Das Virus und das Immunsystem",
+      "fineSubject": "Immune System",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4751,
+      "endSec": 5212,
+      "durationSec": 461,
+      "topic": "Schnelltests",
+      "fineSubject": "Testing",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5213,
+      "endSec": 5738,
+      "durationSec": 525,
+      "topic": "Impfungen in Deutschland",
+      "fineSubject": "Vaccination",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 5738,
+      "endSec": 6329,
+      "durationSec": 591,
+      "topic": "Erkenntnisse aus Israel",
+      "fineSubject": "Insights",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 6330,
+      "endSec": 6447,
+      "durationSec": 117,
+      "topic": "How Nine Covid-19 Vaccines Work",
+      "fineSubject": "Vaccines",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 6448,
+      "endSec": 6593,
+      "durationSec": 145,
+      "topic": "Pfizer: Hohe Haltbarkeite auch bei höheren Temperaturen",
+      "fineSubject": "Vaccine Stability",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 6593,
+      "endSec": 6873,
+      "durationSec": 280,
+      "topic": "Pfizer: Hohe Wirksamkeit auch nach 1. Dosis",
+      "fineSubject": "Vaccine Efficacy",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 6874,
+      "endSec": 7233,
+      "durationSec": 359,
+      "topic": "Effektivität von Track & Trace",
+      "fineSubject": "Tracking",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 7233,
+      "endSec": 7742,
+      "durationSec": 509,
+      "topic": "Medikament EXO-CD24",
+      "fineSubject": "Medication",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Health",
+      "startSec": 7743,
+      "endSec": 9105,
+      "durationSec": 1362,
+      "topic": "Wiesendangers Unsinn-Studie",
+      "fineSubject": "Research",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Health",
+      "startSec": 9105,
+      "endSec": 9540,
+      "durationSec": 435,
+      "topic": "Fazit",
+      "fineSubject": "Conclusion",
+      "topicIndex": 17
+    }
+  ]
+}

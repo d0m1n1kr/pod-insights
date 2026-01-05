@@ -1,0 +1,134 @@
+{
+  "episodeNumber": 179,
+  "title": "CRE179 GSM Security",
+  "generatedAt": "2026-01-05T15:17:54.387Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.125,
+      "Social": 0,
+      "Media": 0.125,
+      "Hardware": 0.125,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0.625,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 0,
+      "Media": 1,
+      "Hardware": 1,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 5,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheit der GSM-Kryptografie",
+      "fineSubject": "Cryptography",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Denial of Service Attacken auf GSM",
+      "fineSubject": "Attacks",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheit und Zuverlässigkeit von SMS",
+      "fineSubject": "SMS",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Maßnahmen zur Erhöhung der Sicherheit von GSM",
+      "fineSubject": "Improvements",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Software in SIM-Karten",
+      "fineSubject": "SIM Cards",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Installation von Software auf der SIM-Karte",
+      "fineSubject": "Software Installation",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Spyware und Sicherheitslücken auf SIM-Karten",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Open Source Baseband Prozessoren",
+      "fineSubject": "Open Source",
+      "topicIndex": 10,
+      "untimed": true
+    }
+  ]
+}

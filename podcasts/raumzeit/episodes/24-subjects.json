@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 24,
+  "title": "RZ024 ROSAT-Wiedereintritt",
+  "generatedAt": "2026-01-05T15:18:06.277Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.75,
+      "Astronomie": 0,
+      "Wissenschaft": 0.25,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 3,
+      "Astronomie": 0,
+      "Wissenschaft": 1,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wiedereintritt des Satelliten ROSAT",
+      "fineSubject": "Satelliten",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Trümmerteile und deren Auswirkungen",
+      "fineSubject": "Satelliten",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vorbereitungen für den Wiedereintritt",
+      "fineSubject": "Mission Planung",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Berechnungen zum Wiedereintritt",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

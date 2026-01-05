@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 327,
+  "title": "LNP327 Dienste der Informationsgesellschaft",
+  "generatedAt": "2026-01-05T15:17:57.617Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.13493033488144707,
+      "Law": 0.15986311415301882,
+      "Security": 0.35468100708873135,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.35052554387680274,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 552,
+      "Law": 654,
+      "Security": 1451,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1434,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 5,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 4091,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 583,
+      "endSec": 824,
+      "durationSec": 241,
+      "topic": "Kommentar: FinSpy",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 824,
+      "endSec": 1374,
+      "durationSec": 550,
+      "topic": "Neuer Entwurf für Leistungsschutzrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1951,
+      "endSec": 2274,
+      "durationSec": 323,
+      "topic": "Citrix Vulnerability",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2274,
+      "endSec": 2513,
+      "durationSec": 239,
+      "topic": "Windows 7 endlich reif",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2514,
+      "endSec": 2900,
+      "durationSec": 386,
+      "topic": "NSA meldet Windows 10 Vulnerability",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2901,
+      "endSec": 3214,
+      "durationSec": 313,
+      "topic": "Twixit",
+      "fineSubject": "Apps",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3214,
+      "endSec": 3781,
+      "durationSec": 567,
+      "topic": "Verbot von Gesichtserkennung",
+      "fineSubject": "Facial Recognition",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3782,
+      "endSec": 3886,
+      "durationSec": 104,
+      "topic": "Nationale VDS vor dem EuGH",
+      "fineSubject": "Data Retention",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 3887,
+      "endSec": 4090,
+      "durationSec": 203,
+      "topic": "weleakinfo.com",
+      "fineSubject": "Data Breaches",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4090,
+      "endSec": 4957,
+      "durationSec": 867,
+      "topic": "Klarnamenpflicht und Licht ins Darknet",
+      "fineSubject": "Anonymity",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 4958,
+      "endSec": 5256,
+      "durationSec": 298,
+      "topic": "Wieder Debatte um iPhone-Entschlüsselung",
+      "fineSubject": "Encryption",
+      "topicIndex": 11
+    }
+  ]
+}

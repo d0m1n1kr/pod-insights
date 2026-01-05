@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 420,
+  "title": "LNP420 Digitalisierungsfehler",
+  "generatedAt": "2026-01-05T15:17:57.631Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.12301763746850453,
+      "Technology": 0,
+      "Law": 0.8769823625314955,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 830,
+      "Technology": 0,
+      "Law": 5917,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6747,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 222,
+      "endSec": 1052,
+      "durationSec": 830,
+      "topic": "Lobbyismus-Realitäten",
+      "fineSubject": "Lobbying",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1052,
+      "endSec": 3805,
+      "durationSec": 2753,
+      "topic": "Digital Services Act",
+      "fineSubject": "Digital Services Act",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 3806,
+      "endSec": 6970,
+      "durationSec": 3164,
+      "topic": "Digital Markets Act",
+      "fineSubject": "Digital Markets Act",
+      "topicIndex": 2
+    }
+  ]
+}

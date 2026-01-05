@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 264,
+  "title": "FS264 Die Große Elchwanderung",
+  "generatedAt": "2026-01-05T15:17:51.114Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.15451916124367318,
+      "Software": 0.3223427331887202,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.09139551699204627,
+      "Social": 0.43174258857556036,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2137,
+      "Software": 4458,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1264,
+      "Social": 5971,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 4,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13830,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 285,
+      "endSec": 837,
+      "durationSec": 552,
+      "topic": "The Freak Show returns",
+      "fineSubject": "Freak Show",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2219,
+      "endSec": 4195,
+      "durationSec": 1976,
+      "topic": "Roddi baut einen Gaming-PC",
+      "fineSubject": "Gaming-PC",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4196,
+      "endSec": 4357,
+      "durationSec": 161,
+      "topic": "Ladefuchs",
+      "fineSubject": "Ladefuchs",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 5849,
+      "endSec": 7851,
+      "durationSec": 2002,
+      "topic": "Infrastrukturen für Flüchtlingszentren",
+      "fineSubject": "Flüchtlingszentren",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 7852,
+      "endSec": 12310,
+      "durationSec": 4458,
+      "topic": "Schöner Programmieren mit Elixir",
+      "fineSubject": "Elixir",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 12460,
+      "endSec": 12518,
+      "durationSec": 58,
+      "topic": "Roddi singt",
+      "fineSubject": "Singen",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 12518,
+      "endSec": 13054,
+      "durationSec": 536,
+      "topic": "Slow TV",
+      "fineSubject": "Slow TV",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 13054,
+      "endSec": 17023,
+      "durationSec": 3969,
+      "topic": "Die-Twitter-Mastodon-Situation",
+      "fineSubject": "Twitter und Mastodon",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 17168,
+      "endSec": 17286,
+      "durationSec": 118,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 12
+    }
+  ]
+}

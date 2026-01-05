@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 83,
+  "title": "CRE083 Die Kritische Masse",
+  "generatedAt": "2026-01-05T15:17:54.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.3333333333333333,
+      "Media": 0.6666666666666666,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 2,
+      "Media": 4,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Alternative Meinungsgestaltung im digitalen Zeitalter",
+      "fineSubject": "Digital Media",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einfluss elitärer Minderheiten auf Mehrheiten",
+      "fineSubject": "Influence",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Effekt moderner Themengestaltung auf die Aufmerksamkeitsökonomie",
+      "fineSubject": "Attention Economy",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kritische Masse und Gemeinschaftseinfluss",
+      "fineSubject": "Community Dynamics",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Übergang vom Massenmedium zu einer Masse von Medien",
+      "fineSubject": "Media Evolution",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Qualität in der Medienpräsenz",
+      "fineSubject": "Quality Assessment",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

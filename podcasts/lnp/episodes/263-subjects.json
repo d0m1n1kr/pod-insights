@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 263,
+  "title": "LNP263 Der Putsch-Dämon",
+  "generatedAt": "2026-01-05T15:17:57.609Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.26346544715447157,
+      "Technology": 0,
+      "Law": 0.4639227642276423,
+      "Security": 0.08155487804878049,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.1910569105691057,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1037,
+      "Technology": 0,
+      "Law": 1826,
+      "Security": 321,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 752,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3936,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 117,
+      "endSec": 169,
+      "durationSec": 52,
+      "topic": "Feedback: Lateinische Aussprache",
+      "fineSubject": "Aussprache",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 169,
+      "endSec": 628,
+      "durationSec": 459,
+      "topic": "Feedback: Rundfunkbeitrag",
+      "fineSubject": "Rundfunk",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 629,
+      "endSec": 870,
+      "durationSec": 241,
+      "topic": "Feedback: Google Play Store",
+      "fineSubject": "Apps",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 870,
+      "endSec": 2095,
+      "durationSec": 1225,
+      "topic": "NetzDG Statistiken",
+      "fineSubject": "NetzDG",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2096,
+      "endSec": 2697,
+      "durationSec": 601,
+      "topic": "Störerhaftung vorm BGH",
+      "fineSubject": "Störerhaftung",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2697,
+      "endSec": 3381,
+      "durationSec": 684,
+      "topic": "Julio Assanchez fliegt aus der Botschaft",
+      "fineSubject": "Julio Assange",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3641,
+      "endSec": 3994,
+      "durationSec": 353,
+      "topic": "Österreich verschiebt ePrivacy-Reform",
+      "fineSubject": "ePrivacy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3994,
+      "endSec": 4315,
+      "durationSec": 321,
+      "topic": "“Spionage-Chip” in Putins Geschenk an Trump",
+      "fineSubject": "Spionage",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 191,
+  "title": "CRE191 Internet im Festnetz",
+  "generatedAt": "2026-01-05T15:17:54.390Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.6666666666666666,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.2222222222222222,
+      "Politics": 0.1111111111111111,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 6,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 2,
+      "Politics": 1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zugang zum Internet",
+      "fineSubject": "Zugangstechnologien",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Festnetz vs. Mobilfunk",
+      "fineSubject": "Technologien",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geschichte der Netzversorgung",
+      "fineSubject": "Geschichte",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "DSL-Technik",
+      "fineSubject": "Technologien",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Netzneutralität",
+      "fineSubject": "Regulierung",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Infrastrukturprobleme",
+      "fineSubject": "Infrastruktur",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Gigabit Ethernet",
+      "fineSubject": "Technologien",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Regulierung des Netzmarkts",
+      "fineSubject": "Regulierung",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Datenautobahn",
+      "fineSubject": "Infrastruktur",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

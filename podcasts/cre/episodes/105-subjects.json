@@ -1,0 +1,164 @@
+{
+  "episodeNumber": 105,
+  "title": "CRE105 OpenBSD",
+  "generatedAt": "2026-01-05T15:17:54.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.8181818181818182,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.09090909090909091,
+      "Security": 0,
+      "History": 0,
+      "Community": 0.09090909090909091,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 9,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 1,
+      "Security": 0,
+      "History": 0,
+      "Community": 1,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklerkultur von OpenBSD",
+      "fineSubject": "Entwicklerkultur",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheitsfokus von OpenBSD",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Unterschiede zu anderen BSD-Projekten",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vorteile der BSD Lizenz",
+      "fineSubject": "Lizenzierung",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "OpenBSD Releases",
+      "fineSubject": "Versionierung",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Stop-The-Blob-Kampagne",
+      "fineSubject": "Sicherheitskampagnen",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einsatzgebiete von OpenBSD",
+      "fineSubject": "Anwendungsgebiete",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Stärken und Schwächen von OpenBSD",
+      "fineSubject": "Bewertung",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kultur der OpenBSD-Entwicklerszene",
+      "fineSubject": "Entwicklergemeinschaft",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Community",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Teilnahme an Konferenzen und Camps",
+      "fineSubject": "Veranstaltungen",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erfolgreiche Subprojekte von OpenBSD",
+      "fineSubject": "Subprojekte",
+      "topicIndex": 10,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 139,
+  "title": "DU139 - Bier und die wässrige Aktivität der Asteroiden",
+  "generatedAt": "2026-01-05T15:18:22.112Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.45044319097502017,
+      "Raumfahrt": 0,
+      "Kultur": 0.5495568090249798,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 1118,
+      "Raumfahrt": 0,
+      "Kultur": 1364,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 0,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 2482,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 1383,
+      "endSec": 2057,
+      "durationSec": 674,
+      "topic": "Wasser auf der Erde durch Asteroiden",
+      "fineSubject": "Asteroiden",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 2017,
+      "endSec": 2282,
+      "durationSec": 265,
+      "topic": "Asteroid Ryugu und seine Wasserhaltigkeit",
+      "fineSubject": "Asteroiden",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 2242,
+      "endSec": 2421,
+      "durationSec": 179,
+      "topic": "Asteroid Bennu und seine Entstehungsgeschichte",
+      "fineSubject": "Asteroiden",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 2381,
+      "endSec": 3745,
+      "durationSec": 1364,
+      "topic": "Film 'Die Astronautin' und der Konflikt zwischen Beruf und Karriere",
+      "fineSubject": "Film",
+      "topicIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 232,
+  "title": "LNP232 Der böse Kleber aus Deutschland",
+  "generatedAt": "2026-01-05T15:17:57.604Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5247752938465085,
+      "Technology": 0.0672966121226089,
+      "Law": 0.3701313666743489,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.03779672735653376
+    },
+    "durations": {
+      "Politics": 2277,
+      "Technology": 292,
+      "Law": 1606,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 164
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4339,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 87,
+      "endSec": 1509,
+      "durationSec": 1422,
+      "topic": "Wahl in Österreich",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1509,
+      "endSec": 2364,
+      "durationSec": 855,
+      "topic": "Wahlen aus netzpolitischer Perspektive",
+      "fineSubject": "Net Politics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2365,
+      "endSec": 3971,
+      "durationSec": 1606,
+      "topic": "Bundesnetzagentur zu StreamOn",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3972,
+      "endSec": 4264,
+      "durationSec": 292,
+      "topic": "Netzneutralitäts-Meßtool",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4264,
+      "endSec": 4428,
+      "durationSec": 164,
+      "topic": "Save The Meme",
+      "fineSubject": "Memes",
+      "topicIndex": 4
+    }
+  ]
+}

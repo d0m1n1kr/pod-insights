@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 478,
+  "title": "LNP478 Hackerschein für Scheinhacker",
+  "generatedAt": "2026-01-05T15:17:57.639Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.08610611510791367,
+      "Law": 0.48741007194244607,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.4264838129496403,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 383,
+      "Law": 2168,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1897,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 6,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 5,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4448,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 1121,
+      "endSec": 1539,
+      "durationSec": 418,
+      "topic": "Feedback: Einsatz von KI im Podcast",
+      "fineSubject": "KI",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1540,
+      "endSec": 2034,
+      "durationSec": 494,
+      "topic": "Feedback: CloudFlare-Urteill",
+      "fineSubject": "Recht",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 2034,
+      "endSec": 2774,
+      "durationSec": 740,
+      "topic": "Feedback: OpenAI: Sam Altman is back",
+      "fineSubject": "Technologie",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 2775,
+      "endSec": 2966,
+      "durationSec": 191,
+      "topic": "Feedback: Pritlove’s Law",
+      "fineSubject": "Gesetz",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 2966,
+      "endSec": 3020,
+      "durationSec": 54,
+      "topic": "Feedback: Alliterationen",
+      "fineSubject": "Sprache",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3021,
+      "endSec": 3699,
+      "durationSec": 678,
+      "topic": "Ermittlungen gegen Frag den Staat",
+      "fineSubject": "Transparenz",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 3699,
+      "endSec": 4112,
+      "durationSec": 413,
+      "topic": "KI-erzeugtes Gesetz in Brasilien",
+      "fineSubject": "KI",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4113,
+      "endSec": 4531,
+      "durationSec": 418,
+      "topic": "Reform des Hackerparagraphen",
+      "fineSubject": "Hacking",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 4532,
+      "endSec": 4760,
+      "durationSec": 228,
+      "topic": "Quad 9 doch kein Störer",
+      "fineSubject": "Internet",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 4760,
+      "endSec": 4978,
+      "durationSec": 218,
+      "topic": "noyb gegen Facebook und EU-Kommission",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 4979,
+      "endSec": 5192,
+      "durationSec": 213,
+      "topic": "Freiwillige Chatkontrolle Verlängerung",
+      "fineSubject": "Überwachung",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5192,
+      "endSec": 5575,
+      "durationSec": 383,
+      "topic": "Polnische Züge mit Killswitch",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 11
+    }
+  ]
+}

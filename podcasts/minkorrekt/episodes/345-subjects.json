@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 345,
+  "title": "Mi345 – \"Dunkle Erwartung\"",
+  "generatedAt": "2026-01-05T15:18:17.392Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5274566473988439,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.2745664739884393,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.13170933113129646,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.06626754748142032,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2555,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1330,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 638,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 321,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 4844,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 107,
+      "endSec": 428,
+      "durationSec": 321,
+      "topic": "Kanzlerwahl",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 428,
+      "endSec": 1418,
+      "durationSec": 990,
+      "topic": "Klimaringvorlesung",
+      "fineSubject": "Climate Change",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1637,
+      "endSec": 2359,
+      "durationSec": 722,
+      "topic": "Isotopen-Experiment",
+      "fineSubject": "Experiments",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 4121,
+      "endSec": 4964,
+      "durationSec": 843,
+      "topic": "Science Snack",
+      "fineSubject": "Short Topics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4964,
+      "endSec": 6294,
+      "durationSec": 1330,
+      "topic": "Thema 2: \"Stabile Seitenlage\"",
+      "fineSubject": "First Aid",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 6294,
+      "endSec": 6932,
+      "durationSec": 638,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 6
+    }
+  ]
+}

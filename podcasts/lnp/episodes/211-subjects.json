@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 211,
+  "title": "LNP211 Gib Handy!",
+  "generatedAt": "2026-01-05T15:17:57.601Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.23258606885508407,
+      "Security": 0.14811849479583666,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.6192954363490792,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 581,
+      "Security": 370,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1547,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 3,
+      "Culture": 0
+    },
+    "totalDurationSec": 2498,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Privacy",
+      "startSec": 64,
+      "endSec": 221,
+      "durationSec": 157,
+      "topic": "Feedback: Smartphone im NSAUA",
+      "fineSubject": "Smartphone",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 285,
+      "endSec": 1055,
+      "durationSec": 770,
+      "topic": "Meine Daten gehören De Maizière",
+      "fineSubject": "Government Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2395,
+      "endSec": 2976,
+      "durationSec": 581,
+      "topic": "EU-Parlament beschließt Anti-Terror-Richtlinie mit Websperren",
+      "fineSubject": "Anti-Terror Measures",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2977,
+      "endSec": 3347,
+      "durationSec": 370,
+      "topic": "Trojaner in Mexiko",
+      "fineSubject": "Malware",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3347,
+      "endSec": 3967,
+      "durationSec": 620,
+      "topic": "Videoüberwachung in der Bahn",
+      "fineSubject": "Public Transport",
+      "topicIndex": 5
+    }
+  ]
+}

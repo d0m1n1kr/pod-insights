@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 248,
+  "title": "LNP248 Hack & Back",
+  "generatedAt": "2026-01-05T15:17:57.606Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.15900494617398894,
+      "Law": 0.06255455338958393,
+      "Security": 0.15522257782950247,
+      "Social": 0.23567064300261856,
+      "Media": 0.100669188245563,
+      "Health": 0,
+      "Feedback": 0.22825138201920278,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.0586267093395403,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1093,
+      "Law": 430,
+      "Security": 1067,
+      "Social": 1620,
+      "Media": 692,
+      "Health": 0,
+      "Feedback": 1569,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 403,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 2,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 8,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 6874,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 669,
+      "endSec": 755,
+      "durationSec": 86,
+      "topic": "Feedback: Ilias",
+      "fineSubject": "Ilias",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 755,
+      "endSec": 967,
+      "durationSec": 212,
+      "topic": "Feedback: Infrastrukturrückbau",
+      "fineSubject": "Infrastrukturrückbau",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 967,
+      "endSec": 1019,
+      "durationSec": 52,
+      "topic": "Feedback: Netzausbau ist keine Bärenaufgabe",
+      "fineSubject": "Netzausbau",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1020,
+      "endSec": 1155,
+      "durationSec": 135,
+      "topic": "Feedback: Verlage vs. ÖR",
+      "fineSubject": "Verlage",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1156,
+      "endSec": 1396,
+      "durationSec": 240,
+      "topic": "Feedback: Netzausbau und der Staat",
+      "fineSubject": "Netzausbau und Staat",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1396,
+      "endSec": 1762,
+      "durationSec": 366,
+      "topic": "Feedback: MITM für die Sicherheit",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1763,
+      "endSec": 1955,
+      "durationSec": 192,
+      "topic": "Feedback: Uploadfilter",
+      "fineSubject": "Uploadfilter",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 1955,
+      "endSec": 2250,
+      "durationSec": 295,
+      "topic": "Keine Artikel via LNP auf Facebook mehr",
+      "fineSubject": "Facebook",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 2251,
+      "endSec": 2537,
+      "durationSec": 286,
+      "topic": "Feedback: Modell Republik.ch",
+      "fineSubject": "Modell Republik.ch",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 2538,
+      "endSec": 3863,
+      "durationSec": 1325,
+      "topic": "Cambridge Analytica & Facebook",
+      "fineSubject": "Cambridge Analytica",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 3864,
+      "endSec": 4294,
+      "durationSec": 430,
+      "topic": "GFF klagt in Sachen beA",
+      "fineSubject": "beA",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 4294,
+      "endSec": 5361,
+      "durationSec": 1067,
+      "topic": "Hack & Back bei der Cyberwehr",
+      "fineSubject": "Cyberwehr",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5361,
+      "endSec": 5764,
+      "durationSec": 403,
+      "topic": "Projekt Gutenberg sperrt deutsche Nutzer aus",
+      "fineSubject": "Zugangsproblematik",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5765,
+      "endSec": 6655,
+      "durationSec": 890,
+      "topic": "Internet macht den Papst flatterhaft und Manfred Spitzer auch",
+      "fineSubject": "Einfluss auf Gesellschaft",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6656,
+      "endSec": 6859,
+      "durationSec": 203,
+      "topic": "Firefox Password-Safe ist Mist",
+      "fineSubject": "Password Manager",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 6859,
+      "endSec": 7551,
+      "durationSec": 692,
+      "topic": "Christina Schulze Föcking sieht sich fern",
+      "fineSubject": "Christina Schulze Föcking",
+      "topicIndex": 15
+    }
+  ]
+}

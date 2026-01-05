@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 503,
+  "title": "LNP503 Klargesicht",
+  "generatedAt": "2026-01-05T15:17:57.642Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.343503937007874,
+      "Technology": 0.17093175853018372,
+      "Law": 0,
+      "Security": 0.14009186351706038,
+      "Social": 0.3454724409448819,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1047,
+      "Technology": 521,
+      "Law": 0,
+      "Security": 427,
+      "Social": 1053,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3048,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 81,
+      "endSec": 253,
+      "durationSec": 172,
+      "topic": "KI löst Captchas besser als Menschen",
+      "fineSubject": "AI",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 254,
+      "endSec": 563,
+      "durationSec": 309,
+      "topic": "Feedback: Thüringen und Sachsen",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 563,
+      "endSec": 1307,
+      "durationSec": 744,
+      "topic": "Feedback: Sprengstoffe",
+      "fineSubject": "Feedback",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1307,
+      "endSec": 1734,
+      "durationSec": 427,
+      "topic": "FBI Crypto-Token",
+      "fineSubject": "Cryptography",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1735,
+      "endSec": 2058,
+      "durationSec": 323,
+      "topic": "Überwachungspaket",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2058,
+      "endSec": 2241,
+      "durationSec": 183,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Censorship",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2911,
+      "endSec": 3452,
+      "durationSec": 541,
+      "topic": "Vermummungsverbot und biometrische Überwachumg",
+      "fineSubject": "Surveillance",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3453,
+      "endSec": 3802,
+      "durationSec": 349,
+      "topic": "Telegram kooperiert",
+      "fineSubject": "Messaging",
+      "topicIndex": 8
+    }
+  ]
+}

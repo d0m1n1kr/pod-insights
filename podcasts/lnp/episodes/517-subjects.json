@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 517,
+  "title": "LNP517 Greenwich Mean Facts",
+  "generatedAt": "2026-01-05T15:17:57.644Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.7443758709934302,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.2556241290065698,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3739,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1284,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 6,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5023,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 153,
+      "endSec": 188,
+      "durationSec": 35,
+      "topic": "Feedback",
+      "fineSubject": "General",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 189,
+      "endSec": 733,
+      "durationSec": 544,
+      "topic": "Feedback: Wahlwerbesendung LNP",
+      "fineSubject": "Political Campaigns",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 733,
+      "endSec": 879,
+      "durationSec": 146,
+      "topic": "Feedback: Teleprompter",
+      "fineSubject": "Technology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 880,
+      "endSec": 1120,
+      "durationSec": 240,
+      "topic": "Feedback: Wahlrechtsreform",
+      "fineSubject": "Political Reforms",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1120,
+      "endSec": 1276,
+      "durationSec": 156,
+      "topic": "Feedback: Taiwan",
+      "fineSubject": "International Relations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1277,
+      "endSec": 1440,
+      "durationSec": 163,
+      "topic": "Feedback: Adenauer SRP+",
+      "fineSubject": "Historical Figures",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 1441,
+      "endSec": 5180,
+      "durationSec": 3739,
+      "topic": "Zeitenwende: Resistance & Resilience",
+      "fineSubject": "Crisis Management",
+      "topicIndex": 6
+    }
+  ]
+}

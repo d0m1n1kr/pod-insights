@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 253,
+  "title": "FS253 Zero Latency Computing",
+  "generatedAt": "2026-01-05T15:17:51.110Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.23905284234351876,
+      "Hardware": 0.31540001741098633,
+      "Finance": 0,
+      "Media": 0.2529816314094193,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.1324976059893793,
+      "Events": 0,
+      "Business": 0.06006790284669627,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 2746,
+      "Hardware": 3623,
+      "Finance": 0,
+      "Media": 2906,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1522,
+      "Events": 0,
+      "Business": 690,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 4,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 5,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 3,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11487,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 248,
+      "endSec": 678,
+      "durationSec": 430,
+      "topic": "Silver Obelisk OPSEC",
+      "fineSubject": "OPSEC",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 679,
+      "endSec": 784,
+      "durationSec": 105,
+      "topic": "15 Jahre Metaebene",
+      "fineSubject": "Anniversary",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1426,
+      "endSec": 2515,
+      "durationSec": 1089,
+      "topic": "Ultraschall",
+      "fineSubject": "Ultrasound",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2515,
+      "endSec": 3377,
+      "durationSec": 862,
+      "topic": "Headset und Mischpult",
+      "fineSubject": "Headset",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3378,
+      "endSec": 4184,
+      "durationSec": 806,
+      "topic": "Gamer-Headsets",
+      "fineSubject": "Gaming",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4918,
+      "endSec": 6449,
+      "durationSec": 1531,
+      "topic": "M1 Macs First Impression",
+      "fineSubject": "M1 Macs",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6449,
+      "endSec": 8132,
+      "durationSec": 1683,
+      "topic": "M1 Systemarchitektur",
+      "fineSubject": "M1 Architecture",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8132,
+      "endSec": 8541,
+      "durationSec": 409,
+      "topic": "PCI Devices und M1",
+      "fineSubject": "PCI Devices",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 8541,
+      "endSec": 9298,
+      "durationSec": 757,
+      "topic": "Realtime UI",
+      "fineSubject": "User Interface",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 9299,
+      "endSec": 9953,
+      "durationSec": 654,
+      "topic": "Terminal Commands und M1",
+      "fineSubject": "Terminal Commands",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 9953,
+      "endSec": 10568,
+      "durationSec": 615,
+      "topic": "iOS Apps auf macOS",
+      "fineSubject": "iOS Apps",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 10569,
+      "endSec": 11289,
+      "durationSec": 720,
+      "topic": "Kernel Extensions vs. System Extensions",
+      "fineSubject": "Extensions",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Security",
+      "startSec": 11290,
+      "endSec": 11865,
+      "durationSec": 575,
+      "topic": "OCSP Skandal",
+      "fineSubject": "OCSP",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Security",
+      "startSec": 11866,
+      "endSec": 12383,
+      "durationSec": 517,
+      "topic": "Apple Firewall Bypass",
+      "fineSubject": "Firewall",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Business",
+      "startSec": 12383,
+      "endSec": 13073,
+      "durationSec": 690,
+      "topic": "Apple Small Business Program",
+      "fineSubject": "Apple Program",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 13269,
+      "endSec": 13313,
+      "durationSec": 44,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 17
+    }
+  ]
+}

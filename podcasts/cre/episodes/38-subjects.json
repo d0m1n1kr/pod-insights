@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 38,
+  "title": "CRE038 Eine Reise in die Vergangenheit",
+  "generatedAt": "2026-01-05T15:17:54.366Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.25,
+      "Social": 0.5,
+      "Media": 0.25,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 2,
+      "Media": 1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geschichte des Chaos Computer Clubs",
+      "fineSubject": "History",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einfluss des CCC auf die Gesellschaft",
+      "fineSubject": "Society",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Motivation der Mitglieder im CCC",
+      "fineSubject": "Community",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklung der Datenschleuder",
+      "fineSubject": "Publications",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

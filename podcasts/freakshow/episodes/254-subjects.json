@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 254,
+  "title": "FS254 Chat Roulette Business Edition",
+  "generatedAt": "2026-01-05T15:17:51.110Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.46521809631911787,
+      "Software": 0,
+      "Hardware": 0.09680557807686072,
+      "Finance": 0.042484190043781414,
+      "Media": 0.058780606453705204,
+      "Social": 0.0795362412842549,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.2571752878222799,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5738,
+      "Software": 0,
+      "Hardware": 1194,
+      "Finance": 524,
+      "Media": 725,
+      "Social": 981,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 3172,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 7,
+      "Software": 0,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 5,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12334,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 136,
+      "endSec": 594,
+      "durationSec": 458,
+      "topic": "rami",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 594,
+      "endSec": 870,
+      "durationSec": 276,
+      "topic": "20.000 Hörer im Stream?",
+      "fineSubject": "Streaming",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 871,
+      "endSec": 1012,
+      "durationSec": 141,
+      "topic": "Talking Heads im Internet",
+      "fineSubject": "Online Content",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 1012,
+      "endSec": 1536,
+      "durationSec": 524,
+      "topic": "Konten und Banken",
+      "fineSubject": "Banking",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1537,
+      "endSec": 2731,
+      "durationSec": 1194,
+      "topic": "M1 und das Ende von Wintel",
+      "fineSubject": "Computing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 2731,
+      "endSec": 2850,
+      "durationSec": 119,
+      "topic": "Just Have A Think",
+      "fineSubject": "Podcasting",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 2851,
+      "endSec": 2943,
+      "durationSec": 92,
+      "topic": "Ishgurs Guide To Electronic Music",
+      "fineSubject": "Electronic",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 2943,
+      "endSec": 3040,
+      "durationSec": 97,
+      "topic": "Radiooooo",
+      "fineSubject": "Radio",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3041,
+      "endSec": 5137,
+      "durationSec": 2096,
+      "topic": "pretix",
+      "fineSubject": "Event Management",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5137,
+      "endSec": 5605,
+      "durationSec": 468,
+      "topic": "venueless",
+      "fineSubject": "Event Management",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 5605,
+      "endSec": 6128,
+      "durationSec": 523,
+      "topic": "Community Development",
+      "fineSubject": "Community Development",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6129,
+      "endSec": 6466,
+      "durationSec": 337,
+      "topic": "pretalx",
+      "fineSubject": "Event Management",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Events",
+      "startSec": 6467,
+      "endSec": 9639,
+      "durationSec": 3172,
+      "topic": "Virtuelle Events",
+      "fineSubject": "Virtual Events",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9640,
+      "endSec": 10562,
+      "durationSec": 922,
+      "topic": "Videotechnik",
+      "fineSubject": "Video",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10563,
+      "endSec": 11298,
+      "durationSec": 735,
+      "topic": "Mikrofone und Headsets",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11298,
+      "endSec": 12157,
+      "durationSec": 859,
+      "topic": "Licht",
+      "fineSubject": "Lighting",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12158,
+      "endSec": 12479,
+      "durationSec": 321,
+      "topic": "Ethernet ist geil",
+      "fineSubject": "Networking",
+      "topicIndex": 16
+    }
+  ]
+}

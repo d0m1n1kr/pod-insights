@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 233,
+  "title": "Mi233 – „Opalentsafter“",
+  "generatedAt": "2026-01-05T15:18:17.376Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.8191686197113606,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.018502528678919453,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.15801159491797212,
+      "Social": 0.004317256691747872,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 6641,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 150,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1281,
+      "Social": 35,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 6,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 2,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 8107,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 218,
+      "endSec": 290,
+      "durationSec": 72,
+      "topic": "Legoverlosung",
+      "fineSubject": "Funding",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 290,
+      "endSec": 1830,
+      "durationSec": 1540,
+      "topic": "DFG-Antrag",
+      "fineSubject": "Funding",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Education",
+      "startSec": 1964,
+      "endSec": 2542,
+      "durationSec": 578,
+      "topic": "Bezahlung Promotion",
+      "fineSubject": "Funding",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2542,
+      "endSec": 2692,
+      "durationSec": 150,
+      "topic": "3d Maus",
+      "fineSubject": "3D Input Devices",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Education",
+      "startSec": 2692,
+      "endSec": 3395,
+      "durationSec": 703,
+      "topic": "Akustisches Periodensystem",
+      "fineSubject": "Periodic Table",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 3477,
+      "endSec": 3512,
+      "durationSec": 35,
+      "topic": "Themen der Woche",
+      "fineSubject": "Discussion",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 3512,
+      "endSec": 4726,
+      "durationSec": 1214,
+      "topic": "Thema 1: “This time of the year: Wasser auf dem Mars”",
+      "fineSubject": "Water Research",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 4726,
+      "endSec": 5314,
+      "durationSec": 588,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Weekly Experiment",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Science",
+      "startSec": 5314,
+      "endSec": 7918,
+      "durationSec": 2604,
+      "topic": "Thema 2: \"Im Paper nichts Neues\"",
+      "fineSubject": "Literature Review",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Science",
+      "startSec": 7918,
+      "endSec": 8541,
+      "durationSec": 623,
+      "topic": "Schwurbel",
+      "fineSubject": "Skepticism",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8562,
+      "endSec": 8562,
+      "durationSec": 0,
+      "topic": "Sportklamotten",
+      "fineSubject": "Sportswear",
+      "topicIndex": 11
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 36,
+  "title": "RZ036 Deutsches Raumfahrt-Kontrollzentrum",
+  "generatedAt": "2026-01-05T15:18:06.279Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 1,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 4,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Deutsches Raumfahrt-Kontrollzentrum",
+      "fineSubject": "Mission Control",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Columbus-Mission an Bord der ISS",
+      "fineSubject": "International Space Station",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erdbeobachtungssatelliten",
+      "fineSubject": "Earth Observation",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rosetta-Raumsonde",
+      "fineSubject": "Spacecraft",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

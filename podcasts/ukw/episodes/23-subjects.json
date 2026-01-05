@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 23,
+  "title": "UKW023 Corona: China, Taiwan und Hong-Kong",
+  "generatedAt": "2026-01-05T15:18:03.002Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.5432175673571095,
+      "Politics": 0.3300109017287027,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.12677153091418783,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 3488,
+      "Politics": 2119,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 814,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 7,
+      "Politics": 5,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 2,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6421,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 78,
+      "endSec": 214,
+      "durationSec": 136,
+      "topic": "Katharin Tai",
+      "fineSubject": "International Relations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 215,
+      "endSec": 675,
+      "durationSec": 460,
+      "topic": "Ground Zero Wuhan",
+      "fineSubject": "Pandemics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 675,
+      "endSec": 790,
+      "durationSec": 115,
+      "topic": "Wuhan",
+      "fineSubject": "Pandemics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 791,
+      "endSec": 1129,
+      "durationSec": 338,
+      "topic": "Wuhan Lockdown",
+      "fineSubject": "Pandemics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1130,
+      "endSec": 1610,
+      "durationSec": 480,
+      "topic": "Akzeptanz und Informationspolitik",
+      "fineSubject": "Public Policy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1610,
+      "endSec": 2167,
+      "durationSec": 557,
+      "topic": "Situation in Wuhan heute",
+      "fineSubject": "Current Situation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2167,
+      "endSec": 2733,
+      "durationSec": 566,
+      "topic": "Die Reaktion Taiwan",
+      "fineSubject": "International Relations",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2734,
+      "endSec": 3301,
+      "durationSec": 567,
+      "topic": "Taiwan und die WHO",
+      "fineSubject": "International Organizations",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3302,
+      "endSec": 3803,
+      "durationSec": 501,
+      "topic": "China und die USA",
+      "fineSubject": "International Relations",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Society",
+      "startSec": 3803,
+      "endSec": 4265,
+      "durationSec": 462,
+      "topic": "Globaliisierung und Kollektivismus",
+      "fineSubject": "Cultural Trends",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4265,
+      "endSec": 4701,
+      "durationSec": 436,
+      "topic": "Situation in Hongkong",
+      "fineSubject": "Human Rights",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4702,
+      "endSec": 5281,
+      "durationSec": 579,
+      "topic": "Ursprung des Virus",
+      "fineSubject": "Virus Origins",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Society",
+      "startSec": 5281,
+      "endSec": 5633,
+      "durationSec": 352,
+      "topic": "Verschwörungstheorien",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5633,
+      "endSec": 6505,
+      "durationSec": 872,
+      "topic": "Contact Tracing",
+      "fineSubject": "Public Health Measures",
+      "topicIndex": 13
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 157,
+  "title": "FS157 Freaks 1",
+  "generatedAt": "2026-01-05T15:17:51.081Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.4810560859188544,
+      "Hardware": 0.15542959427207637,
+      "Finance": 0.021554295942720764,
+      "Media": 0.11843675417661098,
+      "Social": 0.15386336515513127,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.0696599045346062
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 6450,
+      "Hardware": 2084,
+      "Finance": 289,
+      "Media": 1588,
+      "Social": 2063,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 934
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 9,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 3,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 2
+    },
+    "totalDurationSec": 13408,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 137,
+      "endSec": 1162,
+      "durationSec": 1025,
+      "topic": "Roddi und der Fahrstuhl",
+      "fineSubject": "Personal Experience",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1163,
+      "endSec": 3247,
+      "durationSec": 2084,
+      "topic": "Apple Watch Experience",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 3247,
+      "endSec": 3792,
+      "durationSec": 545,
+      "topic": "WatchOS 2",
+      "fineSubject": "WatchOS",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 3793,
+      "endSec": 4277,
+      "durationSec": 484,
+      "topic": "Begegnung am Vulkan",
+      "fineSubject": "Event Experience",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Event",
+      "startSec": 4278,
+      "endSec": 4897,
+      "durationSec": 619,
+      "topic": "Chaos Communication Camp 2015",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Event",
+      "startSec": 4897,
+      "endSec": 5212,
+      "durationSec": 315,
+      "topic": "Fusion Festival mit Content",
+      "fineSubject": "Fusion Festival",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 5213,
+      "endSec": 6047,
+      "durationSec": 834,
+      "topic": "OSX System Integrity Protection",
+      "fineSubject": "OSX",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 6047,
+      "endSec": 6258,
+      "durationSec": 211,
+      "topic": "TRIM Support mit OSX 10.10.4",
+      "fineSubject": "OSX",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 6258,
+      "endSec": 6482,
+      "durationSec": 224,
+      "topic": "El Capitan",
+      "fineSubject": "OSX",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 6483,
+      "endSec": 6951,
+      "durationSec": 468,
+      "topic": "discoveryd -> mDNSResponder",
+      "fineSubject": "Networking",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 6951,
+      "endSec": 7698,
+      "durationSec": 747,
+      "topic": "Bitcode",
+      "fineSubject": "Development",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 7698,
+      "endSec": 8895,
+      "durationSec": 1197,
+      "topic": "Swift 2",
+      "fineSubject": "Development",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 8895,
+      "endSec": 10956,
+      "durationSec": 2061,
+      "topic": "Erlang",
+      "fineSubject": "Development",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 10957,
+      "endSec": 12545,
+      "durationSec": 1588,
+      "topic": "Apple Music",
+      "fineSubject": "Music",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 12545,
+      "endSec": 12708,
+      "durationSec": 163,
+      "topic": "iOS Back Button",
+      "fineSubject": "iOS",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12709,
+      "endSec": 12998,
+      "durationSec": 289,
+      "topic": "Bitcoinkram",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Social",
+      "startSec": 12999,
+      "endSec": 13553,
+      "durationSec": 554,
+      "topic": "Schießübungen",
+      "fineSubject": "Activities",
+      "topicIndex": 16
+    }
+  ]
+}

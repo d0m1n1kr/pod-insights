@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 117,
+  "title": "UKW117 Ukraine: Die Russen haben kein Hollywood",
+  "generatedAt": "2026-01-05T15:18:03.029Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.8686339838172299,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0.1313660161827701,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 7300,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1104,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 7,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8404,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 521,
+      "endSec": 2708,
+      "durationSec": 2187,
+      "topic": "Militärische Situation",
+      "fineSubject": "Military Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 2709,
+      "endSec": 3813,
+      "durationSec": 1104,
+      "topic": "10 Jahre EuroMaidan",
+      "fineSubject": "EuroMaidan",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3814,
+      "endSec": 5152,
+      "durationSec": 1338,
+      "topic": "Innenpolitische Situation in den USA",
+      "fineSubject": "US Domestic Politics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5153,
+      "endSec": 5552,
+      "durationSec": 399,
+      "topic": "Unterstützung durch Deutschland",
+      "fineSubject": "Support from Germany",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5552,
+      "endSec": 6269,
+      "durationSec": 717,
+      "topic": "Unterstützung aus der EU",
+      "fineSubject": "Support from EU",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6270,
+      "endSec": 6937,
+      "durationSec": 667,
+      "topic": "Situation in Russland",
+      "fineSubject": "Situation in Russia",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6938,
+      "endSec": 7244,
+      "durationSec": 306,
+      "topic": "Walerij Saluschnyi zum Stand des Krieges",
+      "fineSubject": "War Status",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7244,
+      "endSec": 8930,
+      "durationSec": 1686,
+      "topic": "Forderungen nach Waffenstillstand und Verhandlungen",
+      "fineSubject": "Ceasefire Demands",
+      "topicIndex": 7
+    }
+  ]
+}

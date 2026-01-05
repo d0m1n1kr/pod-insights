@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 69,
+  "title": "LNP069 Räume für Spezialbehandlung",
+  "generatedAt": "2026-01-05T15:17:57.583Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9271948608137045,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.0728051391862955,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4330,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 340,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4670,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 94,
+      "endSec": 2191,
+      "durationSec": 2097,
+      "topic": "Snowdens Flucht",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2192,
+      "endSec": 3701,
+      "durationSec": 1509,
+      "topic": "Tempora",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 3701,
+      "endSec": 4041,
+      "durationSec": 340,
+      "topic": "Google News",
+      "fineSubject": "News",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4042,
+      "endSec": 4287,
+      "durationSec": 245,
+      "topic": "Petitionsausschuss zur Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4287,
+      "endSec": 4455,
+      "durationSec": 168,
+      "topic": "Gamma: OECD-Beschwerde angenommen",
+      "fineSubject": "International Relations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4456,
+      "endSec": 4767,
+      "durationSec": 311,
+      "topic": "VDS-EuGH-Verfahren",
+      "fineSubject": "Legal Proceedings",
+      "topicIndex": 5
+    }
+  ]
+}

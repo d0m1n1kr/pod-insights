@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 40,
+  "title": "MM040 Das Tablett",
+  "generatedAt": "2026-01-05T15:17:51.062Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.17445910290237468,
+      "Software": 0.17477572559366755,
+      "Hardware": 0.4445382585751979,
+      "Finance": 0.2062269129287599,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1653,
+      "Software": 1656,
+      "Hardware": 4212,
+      "Finance": 1954,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 3,
+      "Hardware": 4,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9475,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 379,
+      "endSec": 1057,
+      "durationSec": 678,
+      "topic": "BitTorrent",
+      "fineSubject": "File Sharing",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1057,
+      "endSec": 1499,
+      "durationSec": 442,
+      "topic": "iMac i7",
+      "fineSubject": "Desktop",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1499,
+      "endSec": 2059,
+      "durationSec": 560,
+      "topic": "HandBrake",
+      "fineSubject": "Video Processing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2059,
+      "endSec": 2723,
+      "durationSec": 664,
+      "topic": "IPv6",
+      "fineSubject": "Internet Protocols",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2723,
+      "endSec": 3034,
+      "durationSec": 311,
+      "topic": "SCTP",
+      "fineSubject": "Transport Protocols",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 3189,
+      "endSec": 4092,
+      "durationSec": 903,
+      "topic": "Snow Leopard Server",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4092,
+      "endSec": 5142,
+      "durationSec": 1050,
+      "topic": "Palm Pre",
+      "fineSubject": "Mobile Devices",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 5142,
+      "endSec": 7096,
+      "durationSec": 1954,
+      "topic": "Smartphone Markt",
+      "fineSubject": "Mobile Technology",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 7630,
+      "endSec": 7823,
+      "durationSec": 193,
+      "topic": "XBMC",
+      "fineSubject": "Media Center",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7823,
+      "endSec": 8103,
+      "durationSec": 280,
+      "topic": "Atom Mainboard",
+      "fineSubject": "Motherboards",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8238,
+      "endSec": 10678,
+      "durationSec": 2440,
+      "topic": "Das Tablett",
+      "fineSubject": "Tablets",
+      "topicIndex": 13
+    }
+  ]
+}

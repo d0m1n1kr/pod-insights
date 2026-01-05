@@ -1,0 +1,101 @@
+{
+  "episodeNumber": 99,
+  "title": "RZ099 CHEOPS",
+  "generatedAt": "2026-01-05T15:18:06.287Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.21207729468599035,
+      "Astronomie": 0.6850241545893719,
+      "Wissenschaft": 0,
+      "Technologie": 0.10289855072463767,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 878,
+      "Astronomie": 2836,
+      "Wissenschaft": 0,
+      "Technologie": 426,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 1,
+      "Astronomie": 2,
+      "Wissenschaft": 0,
+      "Technologie": 2,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 4140,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": 15,
+      "endSec": 893,
+      "durationSec": 878,
+      "topic": "CHEOPS-Mission",
+      "fineSubject": "Weltraummissionen",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 72,
+      "endSec": 2908,
+      "durationSec": 2836,
+      "topic": "Helligkeitsmessung von Sternen",
+      "fineSubject": "Sternenbeobachtung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 2922,
+      "endSec": 3348,
+      "durationSec": 426,
+      "topic": "Weltraumteleskope",
+      "fineSubject": "Weltraumteleskope",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Exoplanetenforschung",
+      "fineSubject": "Exoplaneten",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Präzisionsmessungen",
+      "fineSubject": "Messinstrumente",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

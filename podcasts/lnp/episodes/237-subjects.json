@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 237,
+  "title": "LNP237 Gemächtvergleich im Internet",
+  "generatedAt": "2026-01-05T15:17:57.605Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.43320790216368765,
+      "Technology": 0.16995923486986517,
+      "Law": 0,
+      "Security": 0.26011288805268107,
+      "Social": 0.018344308560677328,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.07086861084979618,
+      "Business": 0,
+      "Privacy": 0.04750705550329257,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2763,
+      "Technology": 1084,
+      "Law": 0,
+      "Security": 1659,
+      "Social": 117,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 452,
+      "Business": 0,
+      "Privacy": 303,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 6378,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 95,
+      "endSec": 857,
+      "durationSec": 762,
+      "topic": "Feedback: Bilderkennung",
+      "fineSubject": "Image Recognition",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 857,
+      "endSec": 1179,
+      "durationSec": 322,
+      "topic": "Feedback: Uber-Hack",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1180,
+      "endSec": 2457,
+      "durationSec": 1277,
+      "topic": "Feedback: Zentrum für politische Schönheit",
+      "fineSubject": "Political Activism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2458,
+      "endSec": 2575,
+      "durationSec": 117,
+      "topic": "Themenwünsche Anrufbeantworter und Kommentare",
+      "fineSubject": "Feedback",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3645,
+      "endSec": 5131,
+      "durationSec": 1486,
+      "topic": "Netzneutralität in den USA",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5132,
+      "endSec": 5584,
+      "durationSec": 452,
+      "topic": "Telekom klagt gegen BnetzA",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 5585,
+      "endSec": 6980,
+      "durationSec": 1395,
+      "topic": "Backdoor everything",
+      "fineSubject": "Backdoors",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 6980,
+      "endSec": 7283,
+      "durationSec": 303,
+      "topic": "Reporter ohne Grenzen ./. BND",
+      "fineSubject": "Surveillance",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 7284,
+      "endSec": 7548,
+      "durationSec": 264,
+      "topic": "Mirai-Entwickler verknackt",
+      "fineSubject": "Botnets",
+      "topicIndex": 9
+    }
+  ]
+}

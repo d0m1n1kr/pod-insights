@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 88,
+  "title": "UKW088 Corona Weekly: Pandemie ist kein Wunschkonzert",
+  "generatedAt": "2026-01-05T15:18:03.022Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9060998151571165,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0.012939001848428836,
+      "Miscellaneous": 0,
+      "Society": 0.08096118299445472,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7353,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 105,
+      "Miscellaneous": 0,
+      "Society": 657,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 14,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8115,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Society",
+      "startSec": 86,
+      "endSec": 743,
+      "durationSec": 657,
+      "topic": "Wie klein ist unsere Welt?",
+      "fineSubject": "Globalization",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 744,
+      "endSec": 1136,
+      "durationSec": 392,
+      "topic": "Antikörpertest",
+      "fineSubject": "Testing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1137,
+      "endSec": 1692,
+      "durationSec": 555,
+      "topic": "Inzidenz in Deutschland",
+      "fineSubject": "Statistics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1692,
+      "endSec": 1869,
+      "durationSec": 177,
+      "topic": "Positivquote und Tests",
+      "fineSubject": "Testing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1869,
+      "endSec": 2453,
+      "durationSec": 584,
+      "topic": "Situation in Europa",
+      "fineSubject": "Europe",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2453,
+      "endSec": 2683,
+      "durationSec": 230,
+      "topic": "Gefährdung von Kindern",
+      "fineSubject": "Children",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2683,
+      "endSec": 3438,
+      "durationSec": 755,
+      "topic": "Impfkampagne",
+      "fineSubject": "Vaccination",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3439,
+      "endSec": 4181,
+      "durationSec": 742,
+      "topic": "Neue Maßnahmen",
+      "fineSubject": "Policy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4182,
+      "endSec": 5008,
+      "durationSec": 826,
+      "topic": "Neuer Impfstoff von Novavax",
+      "fineSubject": "Vaccination",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5009,
+      "endSec": 6024,
+      "durationSec": 1015,
+      "topic": "Omikron",
+      "fineSubject": "Variants",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 6024,
+      "endSec": 6199,
+      "durationSec": 175,
+      "topic": "Paxlovid",
+      "fineSubject": "Treatment",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 6199,
+      "endSec": 7081,
+      "durationSec": 882,
+      "topic": "Corona Warn App",
+      "fineSubject": "Technology",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 7082,
+      "endSec": 7225,
+      "durationSec": 143,
+      "topic": "Impfbetrug in Slowenien",
+      "fineSubject": "Fraud",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 7225,
+      "endSec": 7606,
+      "durationSec": 381,
+      "topic": "Antigentests im Test",
+      "fineSubject": "Testing",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 7607,
+      "endSec": 7712,
+      "durationSec": 105,
+      "topic": "Drosten und Paywalls",
+      "fineSubject": "Access",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 7713,
+      "endSec": 8209,
+      "durationSec": 496,
+      "topic": "Fazit",
+      "fineSubject": "Summary",
+      "topicIndex": 15
+    }
+  ]
+}

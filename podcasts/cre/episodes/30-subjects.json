@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 30,
+  "title": "CRE030 Freie Radios und ZIP.FM",
+  "generatedAt": "2026-01-05T15:17:54.363Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 4,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Freie Radios",
+      "fineSubject": "Radio",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Nachrichtenproduktion",
+      "fineSubject": "Journalismus",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Alternatives Radioprogramm",
+      "fineSubject": "Programmgestaltung",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "ZIP.FM Projekt",
+      "fineSubject": "Radioprogramm",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

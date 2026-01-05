@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 395,
+  "title": "LNP395 Gute-Geheimdienste-Gesetz",
+  "generatedAt": "2026-01-05T15:17:57.627Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.07695596408721676,
+      "Technology": 0,
+      "Law": 0.7971355280034202,
+      "Security": 0.12590850790936298,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 360,
+      "Technology": 0,
+      "Law": 3729,
+      "Security": 589,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 6,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4678,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 109,
+      "endSec": 692,
+      "durationSec": 583,
+      "topic": "Staatstrojaner",
+      "fineSubject": "Surveillance / Staatstrojaner",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 692,
+      "endSec": 1828,
+      "durationSec": 1136,
+      "topic": "Das rechtliche Gefüge",
+      "fineSubject": "Regulation / Legal Structure",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1828,
+      "endSec": 2585,
+      "durationSec": 757,
+      "topic": "Mitwirkungspflicht der Anbieter",
+      "fineSubject": "Compliance / Provider Responsibilities",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2586,
+      "endSec": 3133,
+      "durationSec": 547,
+      "topic": "Verfassungsschutznovelle",
+      "fineSubject": "Legislation / Verfassungsschutz",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3133,
+      "endSec": 3574,
+      "durationSec": 441,
+      "topic": "Quellen-TKÜ für Geheimdienste",
+      "fineSubject": "Interception / Quellen-TKÜ",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3575,
+      "endSec": 3840,
+      "durationSec": 265,
+      "topic": "Präventive Strafverfolgung",
+      "fineSubject": "Prevention / Preventive Prosecution",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3840,
+      "endSec": 4429,
+      "durationSec": 589,
+      "topic": "Das Sicherheitsdilemma",
+      "fineSubject": "Challenges / Security Dilemma",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4430,
+      "endSec": 4790,
+      "durationSec": 360,
+      "topic": "Nächste Schritte des Bundestags",
+      "fineSubject": "Parliament / Bundestag Steps",
+      "topicIndex": 7
+    }
+  ]
+}

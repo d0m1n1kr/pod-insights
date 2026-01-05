@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 255,
+  "title": "LNP255 Hallo, wir möchten mit Ihnen über Netzpolitik reden",
+  "generatedAt": "2026-01-05T15:17:57.608Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5155161494616846,
+      "Technology": 0,
+      "Law": 0.06713109563014566,
+      "Security": 0.3651044965167828,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.052248258391386956,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1628,
+      "Technology": 0,
+      "Law": 212,
+      "Security": 1153,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 165,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 4,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3158,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Privacy",
+      "startSec": 265,
+      "endSec": 430,
+      "durationSec": 165,
+      "topic": "Feedback: Funkzellenabfrage",
+      "fineSubject": "Data Collection",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 431,
+      "endSec": 534,
+      "durationSec": 103,
+      "topic": "Feedback: haveibeenpwned",
+      "fineSubject": "Data Breach",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 534,
+      "endSec": 962,
+      "durationSec": 428,
+      "topic": "Feedback: Efail",
+      "fineSubject": "Email Security",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 963,
+      "endSec": 1357,
+      "durationSec": 394,
+      "topic": "Signal und PGP mit neuen alten Lücken",
+      "fineSubject": "Encryption",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 1357,
+      "endSec": 1585,
+      "durationSec": 228,
+      "topic": "Feedback: Hack & Back",
+      "fineSubject": "Hacking",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1585,
+      "endSec": 2436,
+      "durationSec": 851,
+      "topic": "Zuckerberg im EU-Parlament",
+      "fineSubject": "Regulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2436,
+      "endSec": 2786,
+      "durationSec": 350,
+      "topic": "BND beendet illegale Datenverarbeitung",
+      "fineSubject": "Data Processing",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 2787,
+      "endSec": 2999,
+      "durationSec": 212,
+      "topic": "Bayern beschließt Polizeiaufgabengesetz",
+      "fineSubject": "Police Legislation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2999,
+      "endSec": 3426,
+      "durationSec": 427,
+      "topic": "US Senatoren stimmen wieder für Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 8
+    }
+  ]
+}

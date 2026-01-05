@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 26,
+  "title": "LNP026 Der Kampagnenzipfel",
+  "generatedAt": "2026-01-05T15:17:57.575Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.05228276877761414,
+      "Technology": 0.11597938144329897,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.5938880706921944,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.23784977908689248,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 142,
+      "Technology": 315,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1613,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 646,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2716,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 37,
+      "endSec": 1650,
+      "durationSec": 1613,
+      "topic": "Aktion Klehranlage",
+      "fineSubject": "Activism",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1650,
+      "endSec": 2106,
+      "durationSec": 456,
+      "topic": "Assange verliert Berufung gegen Auslieferung nach Schweden",
+      "fineSubject": "Extradition",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2107,
+      "endSec": 2297,
+      "durationSec": 190,
+      "topic": "Amtsgerichturteil zur Funkzellenabfrage in Dresden",
+      "fineSubject": "Privacy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2298,
+      "endSec": 2613,
+      "durationSec": 315,
+      "topic": "Gründung der \"Internet Defense League\"",
+      "fineSubject": "Internet",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2613,
+      "endSec": 2755,
+      "durationSec": 142,
+      "topic": "ACTA im EU-Parlament",
+      "fineSubject": "Legislation",
+      "topicIndex": 4
+    }
+  ]
+}

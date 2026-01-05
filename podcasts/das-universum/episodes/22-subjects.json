@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 22,
+  "title": "DU022 - Die mittelmäßige Dunkelheit schwarzer Löcher",
+  "generatedAt": "2026-01-05T15:18:22.092Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.75,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.25,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 1,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entdeckung eines mittelschweren schwarzen Lochs",
+      "fineSubject": "Schwarze Löcher",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Dunkle Materie und schwarze Löcher",
+      "fineSubject": "Dunkle Materie",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fragen zur Entstehung supermassereicher schwarzer Löcher",
+      "fineSubject": "Schwarze Löcher",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Gravitationslinseneffekt und Lichtablenkung",
+      "fineSubject": "Gravitationslinsen",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

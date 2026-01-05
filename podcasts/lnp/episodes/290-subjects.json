@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 290,
+  "title": "LNP290 Demokratisch-Industrieller Komplex",
+  "generatedAt": "2026-01-05T15:17:57.612Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5250307395046548,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.12383629018092394,
+      "Social": 0.3286492183383102,
+      "Media": 0.022483751976111015,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2989,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 705,
+      "Social": 1871,
+      "Media": 128,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 7,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5693,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 67,
+      "endSec": 1747,
+      "durationSec": 1680,
+      "topic": "Martin ruft an",
+      "fineSubject": "Communication",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1748,
+      "endSec": 1876,
+      "durationSec": 128,
+      "topic": "Linus bei Rocketbeans Almost Daily",
+      "fineSubject": "Entertainment",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1876,
+      "endSec": 2661,
+      "durationSec": 785,
+      "topic": "Artikel 13: Der neue Widerstand",
+      "fineSubject": "Legislation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2661,
+      "endSec": 3498,
+      "durationSec": 837,
+      "topic": "Artikel 13: Demonstrationskultur",
+      "fineSubject": "Protest",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3499,
+      "endSec": 3793,
+      "durationSec": 294,
+      "topic": "Artikel 13: Proteste am Politischen Aschermittwoch der CDU",
+      "fineSubject": "Protest",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3794,
+      "endSec": 4051,
+      "durationSec": 257,
+      "topic": "Artikel 13: Demos vor CDU-Zentralen",
+      "fineSubject": "Protest",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4052,
+      "endSec": 4307,
+      "durationSec": 255,
+      "topic": "Artikel 13: Lobby-Video des Europarlaments",
+      "fineSubject": "Lobbying",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 4307,
+      "endSec": 5012,
+      "durationSec": 705,
+      "topic": "Bundesrat: Darknet verbieten",
+      "fineSubject": "Legislation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5013,
+      "endSec": 5230,
+      "durationSec": 217,
+      "topic": "EU: Fingerabdrücke im Personalausweis",
+      "fineSubject": "Privacy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 5230,
+      "endSec": 5421,
+      "durationSec": 191,
+      "topic": "Facebook macht jetzt auf Datenschutz",
+      "fineSubject": "Privacy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5422,
+      "endSec": 5766,
+      "durationSec": 344,
+      "topic": "Innenministerium erlässt Auftrittsverbot gegen Philipp Ruch",
+      "fineSubject": "Censorship",
+      "topicIndex": 10
+    }
+  ]
+}

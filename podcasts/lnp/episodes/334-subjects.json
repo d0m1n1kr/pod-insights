@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 334,
+  "title": "LNP334 Klopapier mit Mandelmilch-Aroma",
+  "generatedAt": "2026-01-05T15:17:57.618Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.11237113402061856,
+      "Technology": 0.09716494845360825,
+      "Law": 0.10541237113402062,
+      "Security": 0,
+      "Social": 0.1115979381443299,
+      "Media": 0.024742268041237112,
+      "Health": 0.45128865979381444,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.09742268041237113,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 436,
+      "Technology": 377,
+      "Law": 409,
+      "Security": 0,
+      "Social": 433,
+      "Media": 96,
+      "Health": 1751,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 378,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 3,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3880,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 31,
+      "endSec": 944,
+      "durationSec": 913,
+      "topic": "Corona Risks",
+      "fineSubject": "Pandemic Risks",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 944,
+      "endSec": 1763,
+      "durationSec": 819,
+      "topic": "Corona: Risiko Depression",
+      "fineSubject": "Mental Health",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1764,
+      "endSec": 2141,
+      "durationSec": 377,
+      "topic": "Corona: Digitale Fragen",
+      "fineSubject": "Digital Issues",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 2141,
+      "endSec": 2519,
+      "durationSec": 378,
+      "topic": "Corona: Wirtschaftliche Auswirkungen",
+      "fineSubject": "Economic Impact",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2520,
+      "endSec": 2616,
+      "durationSec": 96,
+      "topic": "Corona: Fake News",
+      "fineSubject": "Misinformation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2617,
+      "endSec": 2910,
+      "durationSec": 293,
+      "topic": "Feedback: NetzDG",
+      "fineSubject": "Regulatory Feedback",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2911,
+      "endSec": 3027,
+      "durationSec": 116,
+      "topic": "Feedback: Bestandsdatenauskunft",
+      "fineSubject": "Data Access",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3138,
+      "endSec": 3379,
+      "durationSec": 241,
+      "topic": "Manning frei!",
+      "fineSubject": "Activism",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 3379,
+      "endSec": 3812,
+      "durationSec": 433,
+      "topic": "Mutmaßliches Assange-Opfer kritisiert Uno-Folterexperten",
+      "fineSubject": "Criticism of Experts",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3813,
+      "endSec": 4008,
+      "durationSec": 195,
+      "topic": "Öffentliches Geld, öffentliches Gut",
+      "fineSubject": "Public Goods",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4230,
+      "endSec": 4249,
+      "durationSec": 19,
+      "topic": "Corona-Alarm",
+      "fineSubject": "Pandemic Alerts",
+      "topicIndex": 11
+    }
+  ]
+}

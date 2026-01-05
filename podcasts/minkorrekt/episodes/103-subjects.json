@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 103,
+  "title": "Minkorrekt Folge 103 “Apfelnagel”",
+  "generatedAt": "2026-01-05T15:18:17.362Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0.4,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0.2,
+      "Biologie": 0.2,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.2,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 2,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 1,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "spielende Affen",
+      "fineSubject": "Tiere",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "flüssiges Sonnenlicht",
+      "fineSubject": "Physik",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verrat",
+      "fineSubject": "Ethik",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Experiment der Woche: Apfelnagel",
+      "fineSubject": "Experimente",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Chinagadget: Schleifenersatz",
+      "fineSubject": "Gadgets",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

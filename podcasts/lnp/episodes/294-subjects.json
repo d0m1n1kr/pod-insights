@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 294,
+  "title": "LNP294 Mut zur Schutzlücke",
+  "generatedAt": "2026-01-05T15:17:57.612Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1292517006802721,
+      "Technology": 0.2437641723356009,
+      "Law": 0,
+      "Security": 0.5209750566893424,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.10600907029478458,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 456,
+      "Technology": 860,
+      "Law": 0,
+      "Security": 1838,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 374,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3528,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 1255,
+      "endSec": 2887,
+      "durationSec": 1632,
+      "topic": "Staatstrojaner für Geheimdienste",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4427,
+      "endSec": 5287,
+      "durationSec": 860,
+      "topic": "ASUS Supply Chain Attacks",
+      "fineSubject": "Supply Chain",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5288,
+      "endSec": 5597,
+      "durationSec": 309,
+      "topic": "Cybervoting in der Schweiz ausgesetzt",
+      "fineSubject": "Voting",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 5597,
+      "endSec": 5971,
+      "durationSec": 374,
+      "topic": "Kartellstrafe gegen Google",
+      "fineSubject": "Regulation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 5972,
+      "endSec": 6178,
+      "durationSec": 206,
+      "topic": "Unverschlüsselte Passwörter bei Facebook",
+      "fineSubject": "Data Breach",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6178,
+      "endSec": 6325,
+      "durationSec": 147,
+      "topic": "Asyl für Snowden Refugee",
+      "fineSubject": "Asylum",
+      "topicIndex": 6
+    }
+  ]
+}

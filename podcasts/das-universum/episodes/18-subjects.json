@@ -1,0 +1,124 @@
+{
+  "episodeNumber": 18,
+  "title": "DU018 - Aufbruch zum Mars",
+  "generatedAt": "2026-01-05T15:18:22.091Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0.14285714285714285,
+      "Space": 0.8571428571428571,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 1,
+      "Space": 6,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mars Exploration",
+      "fineSubject": "Mars",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mars Rovers and Helicopter",
+      "fineSubject": "Rovers",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Atmospheric Studies on Mars",
+      "fineSubject": "Atmosphere",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Terraforming Mars",
+      "fineSubject": "Terraforming",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Discovery of New Gas on Mars",
+      "fineSubject": "Atmospheric Chemistry",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Planetary Migration",
+      "fineSubject": "Planetary Science",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Ice Giants: Uranus and Neptune",
+      "fineSubject": "Ice Giants",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 296,
+  "title": "FS296 Chat der langen Messer",
+  "generatedAt": "2026-01-05T15:17:51.122Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2071307300509338,
+      "Software": 0.10589983022071307,
+      "Hardware": 0.14070458404074704,
+      "Finance": 0,
+      "Media": 0.48323429541595925,
+      "Social": 0.06303056027164686,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 976,
+      "Software": 499,
+      "Hardware": 663,
+      "Finance": 0,
+      "Media": 2277,
+      "Social": 297,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 1,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 3,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 4712,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 161,
+      "endSec": 458,
+      "durationSec": 297,
+      "topic": "Die Stimme der Jugend",
+      "fineSubject": "Youth Voice",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 458,
+      "endSec": 1434,
+      "durationSec": 976,
+      "topic": "trackiwi",
+      "fineSubject": "Tracking",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1435,
+      "endSec": 1934,
+      "durationSec": 499,
+      "topic": "StreamDeck OSC Plugin",
+      "fineSubject": "Plugins",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2927,
+      "endSec": 3480,
+      "durationSec": 553,
+      "topic": "Musik im Auto",
+      "fineSubject": "In-Car Music",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 3481,
+      "endSec": 4122,
+      "durationSec": 641,
+      "topic": "Computerspielemusik",
+      "fineSubject": "Video Game Music",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 4122,
+      "endSec": 5205,
+      "durationSec": 1083,
+      "topic": "Computational Music",
+      "fineSubject": "Computational Music",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5206,
+      "endSec": 5869,
+      "durationSec": 663,
+      "topic": "RME Audio Interfaces",
+      "fineSubject": "Audio Interfaces",
+      "topicIndex": 7
+    }
+  ]
+}

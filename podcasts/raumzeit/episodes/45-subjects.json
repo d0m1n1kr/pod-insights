@@ -1,0 +1,74 @@
+{
+  "episodeNumber": 45,
+  "title": "RZ045 Rexus/Bexus",
+  "generatedAt": "2026-01-05T15:18:06.280Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0.5,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0.5,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 1,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 1,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Research",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "REXUS und BEXUS Programme",
+      "fineSubject": "Space Experiments",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Durchführung von Experimenten in der Schwerelosigkeit",
+      "fineSubject": "Microgravity Research",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

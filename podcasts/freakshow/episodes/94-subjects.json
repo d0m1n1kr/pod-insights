@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 94,
+  "title": "MM094 Mit einer leichten Haselnuss im Abgang",
+  "generatedAt": "2026-01-05T15:17:51.069Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.459343411754182,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.01878522229179712,
+      "Media": 0,
+      "Social": 0.3827712675552375,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.13910009839878343,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5135,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 210,
+      "Media": 0,
+      "Social": 4279,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1555,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11179,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 661,
+      "endSec": 1495,
+      "durationSec": 834,
+      "topic": "Gast: Martin Pittenauer (@map)",
+      "fineSubject": "Social / Guest Appearance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Events",
+      "startSec": 2025,
+      "endSec": 3580,
+      "durationSec": 1555,
+      "topic": "Campus Party Europe™",
+      "fineSubject": "Events / Campus Party",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3580,
+      "endSec": 4710,
+      "durationSec": 1130,
+      "topic": "Mobilfunk",
+      "fineSubject": "Technology / Mobile Networks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Finance",
+      "startSec": 4710,
+      "endSec": 4920,
+      "durationSec": 210,
+      "topic": "Bitcoins",
+      "fineSubject": "Finance / Bitcoin",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4920,
+      "endSec": 5665,
+      "durationSec": 745,
+      "topic": "ZFS: Apple, Oracle und Sun",
+      "fineSubject": "Technology / ZFS",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5665,
+      "endSec": 7090,
+      "durationSec": 1425,
+      "topic": "Real-time Collaboration",
+      "fineSubject": "Technology / Real-time Collaboration",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7090,
+      "endSec": 8040,
+      "durationSec": 950,
+      "topic": "Hard- und Software",
+      "fineSubject": "Technology / General Hardware and Software",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8040,
+      "endSec": 8925,
+      "durationSec": 885,
+      "topic": "Internet",
+      "fineSubject": "Technology / General Internet",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 8925,
+      "endSec": 12370,
+      "durationSec": 3445,
+      "topic": "Social Media",
+      "fineSubject": "Social / Social Media",
+      "topicIndex": 9
+    }
+  ]
+}

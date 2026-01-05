@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 413,
+  "title": "LNP413 Der Papagei-Murmeltier-Komplex",
+  "generatedAt": "2026-01-05T15:17:57.630Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.06397497867500711,
+      "Law": 0.11543929485356838,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.8205857264714245,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 225,
+      "Law": 406,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 2886,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3517,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 3823,
+      "endSec": 4046,
+      "durationSec": 223,
+      "topic": "VDS vor dem EuGH",
+      "fineSubject": "Data Retention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 4047,
+      "endSec": 6933,
+      "durationSec": 2886,
+      "topic": "Impfpass-Fälschungen",
+      "fineSubject": "Vaccination",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6933,
+      "endSec": 7158,
+      "durationSec": 225,
+      "topic": "Das Internet gehört uns allen",
+      "fineSubject": "Ownership",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 7159,
+      "endSec": 7342,
+      "durationSec": 183,
+      "topic": "IFG-Anfrage kippelnde Kinder",
+      "fineSubject": "Information Freedom",
+      "topicIndex": 6
+    }
+  ]
+}

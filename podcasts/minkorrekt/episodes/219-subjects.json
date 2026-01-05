@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 219,
+  "title": "Mi219 – „Samstrikot“",
+  "generatedAt": "2026-01-05T15:18:17.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.06173960414018522,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.9382603958598148,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 680,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 10334,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 10,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 11014,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 737,
+      "endSec": 2626,
+      "durationSec": 1889,
+      "topic": "Chemo",
+      "fineSubject": "Chemo",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 2626,
+      "endSec": 4023,
+      "durationSec": 1397,
+      "topic": "Corona-Urlaub Reini",
+      "fineSubject": "Corona",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 4345,
+      "endSec": 4840,
+      "durationSec": 495,
+      "topic": "Stressesser",
+      "fineSubject": "Stress",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 4869,
+      "endSec": 6758,
+      "durationSec": 1889,
+      "topic": "Thema 1: \"Placebo ist ein weißer Mann\"",
+      "fineSubject": "Placebo",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 6758,
+      "endSec": 8400,
+      "durationSec": 1642,
+      "topic": "Thema 2: \"Doppelt oder nichts!\"",
+      "fineSubject": "Risk",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 8400,
+      "endSec": 9080,
+      "durationSec": 680,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiment",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 9080,
+      "endSec": 10747,
+      "durationSec": 1667,
+      "topic": "Thema 3: \"Redstone Rezepte der Erde\"",
+      "fineSubject": "Recipes",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 10747,
+      "endSec": 11564,
+      "durationSec": 817,
+      "topic": "Thema 4: \"Klingt stressig\"",
+      "fineSubject": "Stress",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 12260,
+      "endSec": 12450,
+      "durationSec": 190,
+      "topic": "Audiokommentar Tobias über Psychotherapie",
+      "fineSubject": "Psychotherapy",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 12450,
+      "endSec": 12798,
+      "durationSec": 348,
+      "topic": "Audiokommentar Olli über Psychotherapie",
+      "fineSubject": "Psychotherapy",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 12798,
+      "endSec": 12798,
+      "durationSec": 0,
+      "topic": "Audiokommentar Ilka über Depression",
+      "fineSubject": "Depression",
+      "topicIndex": 12
+    }
+  ]
+}

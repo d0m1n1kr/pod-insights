@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 88,
+  "title": "RZ088 GEO600",
+  "generatedAt": "2026-01-05T15:18:06.286Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0.7352112676056338,
+      "Technologie": 0.2647887323943662,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 2610,
+      "Technologie": 940,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 3,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 3550,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": 15,
+      "endSec": 819,
+      "durationSec": 804,
+      "topic": "Detektion von Gravitationswellen",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 512,
+      "endSec": 1439,
+      "durationSec": 927,
+      "topic": "Zukunft der Gravitationswellenastronomie",
+      "fineSubject": "Astronomie",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 1870,
+      "endSec": 2810,
+      "durationSec": 940,
+      "topic": "Technologie von GEO600",
+      "fineSubject": "Forschung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 7742,
+      "endSec": 8621,
+      "durationSec": 879,
+      "topic": "Einfluss von GEO600 auf LIGO",
+      "fineSubject": "Gravitationswellen",
+      "topicIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 166,
+  "title": "Minkorrekt Folge 166 - \"Menschen mit Familienhintergrund\"",
+  "generatedAt": "2026-01-05T15:18:17.369Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.5,
+      "Wissenschaft": 0.25,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.25,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 2,
+      "Wissenschaft": 1,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Heinsbergstudie",
+      "fineSubject": "Epidemiologie",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "ungelöstes Rätsel",
+      "fineSubject": "Rätsel",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Biowaffen",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Terminatoren",
+      "fineSubject": "Film",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

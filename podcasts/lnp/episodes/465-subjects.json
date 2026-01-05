@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 465,
+  "title": "LNP465 This one goes to eleven",
+  "generatedAt": "2026-01-05T15:17:57.637Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.14279606669516887,
+      "Security": 0.41000427533133815,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.4471996579734929,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 334,
+      "Security": 959,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1046,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2339,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 3043,
+      "endSec": 3772,
+      "durationSec": 729,
+      "topic": "Konto-Leak",
+      "fineSubject": "Konto-Leak",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 3773,
+      "endSec": 4819,
+      "durationSec": 1046,
+      "topic": "Digitaler Euro",
+      "fineSubject": "Digitaler Euro",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4819,
+      "endSec": 5153,
+      "durationSec": 334,
+      "topic": "Kritis-Dachgesetz",
+      "fineSubject": "Kritis-Dachgesetz",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 5153,
+      "endSec": 5383,
+      "durationSec": 230,
+      "topic": "Facebook wollte Pegasus nutzen",
+      "fineSubject": "Facebook wollte Pegasus nutzen",
+      "topicIndex": 8
+    }
+  ]
+}

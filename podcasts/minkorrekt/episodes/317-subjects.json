@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 317,
+  "title": "Mi317 – \"Matrix-Heldenreise\"",
+  "generatedAt": "2026-01-05T15:18:17.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.23506493506493506,
+      "Culture": 0.665064935064935,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.09987012987012987,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1810,
+      "Culture": 5121,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 769,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 7700,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 93,
+      "endSec": 974,
+      "durationSec": 881,
+      "topic": "Spielemesse in Essen",
+      "fineSubject": "Gaming",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 974,
+      "endSec": 2181,
+      "durationSec": 1207,
+      "topic": "Climate Fresk",
+      "fineSubject": "Climate Change",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2181,
+      "endSec": 2950,
+      "durationSec": 769,
+      "topic": "Social Media",
+      "fineSubject": "Social Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2950,
+      "endSec": 5121,
+      "durationSec": 2171,
+      "topic": "Thema 1: \"Kannibalismus on the rocks\"",
+      "fineSubject": "Cannibalism",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 5121,
+      "endSec": 5724,
+      "durationSec": 603,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5724,
+      "endSec": 7297,
+      "durationSec": 1573,
+      "topic": "Thema 2: \"Bergballast\"",
+      "fineSubject": "Ballast",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7297,
+      "endSec": 7793,
+      "durationSec": 496,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy",
+      "topicIndex": 6
+    }
+  ]
+}

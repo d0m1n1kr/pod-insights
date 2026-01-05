@@ -1,0 +1,279 @@
+{
+  "episodeNumber": 283,
+  "title": "FS283 Kann ich noch was von dem Ozon haben?",
+  "generatedAt": "2026-01-05T15:17:51.119Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5594157451724707,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.2921274137646476,
+      "Social": 0,
+      "Culture": 0.1194916652913022,
+      "Security": 0,
+      "Events": 0.02896517577157947,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6779,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 3540,
+      "Social": 0,
+      "Culture": 1448,
+      "Security": 0,
+      "Events": 351,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 8,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 12,
+      "Social": 0,
+      "Culture": 3,
+      "Security": 0,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12118,
+    "totalTopics": 27
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 214,
+      "endSec": 1139,
+      "durationSec": 925,
+      "topic": "Verschwörungstheorien",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1139,
+      "endSec": 2143,
+      "durationSec": 1004,
+      "topic": "Malik",
+      "fineSubject": "Malik",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2144,
+      "endSec": 2470,
+      "durationSec": 326,
+      "topic": "Feedback: Ozongenerator",
+      "fineSubject": "Ozone Generator",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2471,
+      "endSec": 3025,
+      "durationSec": 554,
+      "topic": "Nasssauger",
+      "fineSubject": "Nassauger",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3025,
+      "endSec": 4065,
+      "durationSec": 1040,
+      "topic": "Personen im Computer abbilden",
+      "fineSubject": "Computer Representation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 4066,
+      "endSec": 4644,
+      "durationSec": 578,
+      "topic": "Podstock: Ultraschall Editing Techniques",
+      "fineSubject": "Editing Techniques",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Events",
+      "startSec": 4908,
+      "endSec": 5103,
+      "durationSec": 195,
+      "topic": "Tim @ PodFest: Things are more interesting in the dark",
+      "fineSubject": "PodFest",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Events",
+      "startSec": 5103,
+      "endSec": 5259,
+      "durationSec": 156,
+      "topic": "c-base: Berlin Fediverse Day",
+      "fineSubject": "Fediverse Day",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5577,
+      "endSec": 6648,
+      "durationSec": 1071,
+      "topic": "Ladefuchs 3.0",
+      "fineSubject": "Ladefuchs",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6649,
+      "endSec": 7957,
+      "durationSec": 1308,
+      "topic": "LNP500 Review",
+      "fineSubject": "LNP500 Review",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10323,
+      "endSec": 10954,
+      "durationSec": 631,
+      "topic": "macOS Textersetzung",
+      "fineSubject": "macOS",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 10954,
+      "endSec": 11018,
+      "durationSec": 64,
+      "topic": "Die digitale Band",
+      "fineSubject": "Digital Band",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 11019,
+      "endSec": 11301,
+      "durationSec": 282,
+      "topic": "Die digitale Band: Bühnensituation",
+      "fineSubject": "Stage Situation",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 11301,
+      "endSec": 11514,
+      "durationSec": 213,
+      "topic": "Die digitale Band: Abstrahlwinkel",
+      "fineSubject": "Radiation Pattern",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 11515,
+      "endSec": 11525,
+      "durationSec": 10,
+      "topic": "Die digitale Band: Was man nicht haben will",
+      "fineSubject": "Unwanted Elements",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 11525,
+      "endSec": 11620,
+      "durationSec": 95,
+      "topic": "Die digitale Band: Was alles wegkommt",
+      "fineSubject": "What is Removed",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 11621,
+      "endSec": 11909,
+      "durationSec": 288,
+      "topic": "Die digitale Band: In-Ear Monitoring",
+      "fineSubject": "In-Ear Monitoring",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Media",
+      "startSec": 11909,
+      "endSec": 12204,
+      "durationSec": 295,
+      "topic": "Die digitale Band: Digital-Rack v1",
+      "fineSubject": "Digital Rack v1",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Media",
+      "startSec": 12205,
+      "endSec": 13604,
+      "durationSec": 1399,
+      "topic": "Die digitale Band: Digital-Rack v2",
+      "fineSubject": "Digital Rack v2",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13604,
+      "endSec": 14449,
+      "durationSec": 845,
+      "topic": "AA Batterien",
+      "fineSubject": "AA Batteries",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Media",
+      "startSec": 14450,
+      "endSec": 14542,
+      "durationSec": 92,
+      "topic": "Darkk Tech Rider",
+      "fineSubject": "Tech Rider",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Media",
+      "startSec": 14542,
+      "endSec": 14663,
+      "durationSec": 121,
+      "topic": "Bellingcat Shadow Finder",
+      "fineSubject": "Bellingcat",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Media",
+      "startSec": 14664,
+      "endSec": 14767,
+      "durationSec": 103,
+      "topic": "Letty @ YouTube",
+      "fineSubject": "YouTube",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Culture",
+      "startSec": 14768,
+      "endSec": 15170,
+      "durationSec": 402,
+      "topic": "Gigapixel-Scan der Nachtwache",
+      "fineSubject": "Gigapixel Scan",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Culture",
+      "startSec": 15171,
+      "endSec": 15292,
+      "durationSec": 121,
+      "topic": "Bibelvisualisierung",
+      "fineSubject": "Bible Visualization",
+      "topicIndex": 26
+    }
+  ]
+}

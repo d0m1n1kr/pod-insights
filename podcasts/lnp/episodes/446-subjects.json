@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 446,
+  "title": "LNP446 Die Lärmsucht des Pöbels",
+  "generatedAt": "2026-01-05T15:17:57.635Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.11066267413097253,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.4716833745606041,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.41765395130842337,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 850,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3623,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 3208,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7681,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 141,
+      "endSec": 325,
+      "durationSec": 184,
+      "topic": "Daniel Kroeger",
+      "fineSubject": "Individual",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 326,
+      "endSec": 2564,
+      "durationSec": 2238,
+      "topic": "FTX",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 2564,
+      "endSec": 3534,
+      "durationSec": 970,
+      "topic": "Der Krypto-Markt",
+      "fineSubject": "Market",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 3535,
+      "endSec": 5899,
+      "durationSec": 2364,
+      "topic": "Twitter",
+      "fineSubject": "Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 5899,
+      "endSec": 6974,
+      "durationSec": 1075,
+      "topic": "Aufruhr im Global Village",
+      "fineSubject": "Community",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6974,
+      "endSec": 7824,
+      "durationSec": 850,
+      "topic": "Fediverse",
+      "fineSubject": "Network",
+      "topicIndex": 5
+    }
+  ]
+}

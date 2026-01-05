@@ -1,0 +1,134 @@
+{
+  "episodeNumber": 106,
+  "title": "CRE106 Mikrokopter",
+  "generatedAt": "2026-01-05T15:17:54.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.875,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.125,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 7,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entstehung des Projekts",
+      "fineSubject": "Project Development",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sensorik in der Steuerung und Stabilisierung",
+      "fineSubject": "Sensors",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zusammenspiel der Gyroskope und Beschleunigungssensoren",
+      "fineSubject": "Sensor Fusion",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Feststellung der Höhe",
+      "fineSubject": "Altitude Measurement",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Automatische Selbstortung mit Kompass und GPS",
+      "fineSubject": "Navigation",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Benötigte Elektronik zur Steuerung",
+      "fineSubject": "Electronics",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Telemetrische Auslesung des Geräts im Flugbetrieb",
+      "fineSubject": "Telemetry",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Benötigte Versicherungen beim Betrieb eines Quadrocopters",
+      "fineSubject": "Insurance",
+      "topicIndex": 11,
+      "untimed": true
+    }
+  ]
+}

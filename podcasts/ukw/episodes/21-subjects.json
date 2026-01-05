@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 21,
+  "title": "UKW021 Corona Weekly: Die Christliche Logistikfunktion",
+  "generatedAt": "2026-01-05T15:18:03.001Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.3827813140576114,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.5516236918761463,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.06559499406624231
+    },
+    "durations": {
+      "Health": 3548,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 5113,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 608
+    },
+    "topicCounts": {
+      "Health": 3,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 2,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 1
+    },
+    "totalDurationSec": 9269,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 174,
+      "endSec": 903,
+      "durationSec": 729,
+      "topic": "Sterblichkeitsraten",
+      "fineSubject": "Mortality Rates",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 903,
+      "endSec": 2205,
+      "durationSec": 1302,
+      "topic": "Das schwankende R",
+      "fineSubject": "Infection Rates",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 2205,
+      "endSec": 3722,
+      "durationSec": 1517,
+      "topic": "Die Schwächen des Meldewesens",
+      "fineSubject": "Reporting Issues",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3723,
+      "endSec": 4532,
+      "durationSec": 809,
+      "topic": "Schnelle technische Lösungen",
+      "fineSubject": "Solutions",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 4533,
+      "endSec": 5141,
+      "durationSec": 608,
+      "topic": "Internationale Situation",
+      "fineSubject": "International Situation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5141,
+      "endSec": 9445,
+      "durationSec": 4304,
+      "topic": "Tracing Apps: Dezentral vs. Zentral",
+      "fineSubject": "Tracing Apps",
+      "topicIndex": 5
+    }
+  ]
+}

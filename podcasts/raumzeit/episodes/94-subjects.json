@@ -1,0 +1,100 @@
+{
+  "episodeNumber": 94,
+  "title": "RZ094 Weltraumbeobachtung und die Wissenschaft",
+  "generatedAt": "2026-01-05T15:18:06.287Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 1,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 11248,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 5,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 11248,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": 13,
+      "endSec": 1476,
+      "durationSec": 1463,
+      "topic": "Mission Gaia",
+      "fineSubject": "Astronomie",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 13,
+      "endSec": 2097,
+      "durationSec": 2084,
+      "topic": "Zukunft der bodengestützten Astronomie",
+      "fineSubject": "Astronomie",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 13,
+      "endSec": 4433,
+      "durationSec": 4420,
+      "topic": "Extremely Large Telescope in Chile",
+      "fineSubject": "Astronomie",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 224,
+      "endSec": 3505,
+      "durationSec": 3281,
+      "topic": "Zusammenarbeit mit der wissenschaftlichen Community",
+      "fineSubject": "Kooperation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Weltraumbeobachtungsmissionen",
+      "fineSubject": "Astronomie",
+      "topicIndex": 0,
+      "untimed": true
+    }
+  ]
+}

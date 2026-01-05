@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 187,
+  "title": "LNP187 Und ob ich schon wanderte im finsteren Unglück",
+  "generatedAt": "2026-01-05T15:17:57.598Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3920505871725384,
+      "Technology": 0.24661246612466126,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.14092140921409213,
+      "Business": 0.2204155374887082,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 868,
+      "Technology": 546,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 312,
+      "Business": 488,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2214,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 138,
+      "endSec": 864,
+      "durationSec": 726,
+      "topic": "Bundestag beschließt Anti-Terror-Paket",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 864,
+      "endSec": 1006,
+      "durationSec": 142,
+      "topic": "Ausweitung der BND-Überwachung auf den Weg gebracht",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1007,
+      "endSec": 1319,
+      "durationSec": 312,
+      "topic": "Eyeo unterliegt vor Gericht",
+      "fineSubject": "Court Cases",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1319,
+      "endSec": 1700,
+      "durationSec": 381,
+      "topic": "Krypto",
+      "fineSubject": "Cryptography",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 1701,
+      "endSec": 2061,
+      "durationSec": 360,
+      "topic": "Die Cider-Connection",
+      "fineSubject": "Connections",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2061,
+      "endSec": 2226,
+      "durationSec": 165,
+      "topic": "EU-finanzierte Audits für Open Source Software",
+      "fineSubject": "Open Source",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 2227,
+      "endSec": 2355,
+      "durationSec": 128,
+      "topic": "VDS macht der Wirtschaft Sorgen",
+      "fineSubject": "Regulations",
+      "topicIndex": 6
+    }
+  ]
+}

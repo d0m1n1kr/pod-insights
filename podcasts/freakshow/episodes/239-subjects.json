@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 239,
+  "title": "FS239 Strukturpalme",
+  "generatedAt": "2026-01-05T15:17:51.104Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.22930903568716782,
+      "Software": 0,
+      "Hardware": 0.16021260440394836,
+      "Finance": 0.05239179954441914,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.19779802581624906,
+      "Events": 0.03151100987091875,
+      "Business": 0.09225512528473805,
+      "Gaming": 0,
+      "Event": 0.23652239939255884
+    },
+    "durations": {
+      "Technology": 604,
+      "Software": 0,
+      "Hardware": 422,
+      "Finance": 138,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 521,
+      "Events": 83,
+      "Business": 243,
+      "Gaming": 0,
+      "Event": 623
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 0,
+      "Hardware": 3,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 2,
+      "Events": 1,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 2634,
+    "totalTopics": 30
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 586,
+      "endSec": 714,
+      "durationSec": 128,
+      "topic": "Tellerkopfschrauben und Chaos Post",
+      "fineSubject": "Tellerkopfschrauben",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 714,
+      "endSec": 957,
+      "durationSec": 243,
+      "topic": "fehlkauf.biz",
+      "fineSubject": "fehlkauf.biz",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1199,
+      "endSec": 1313,
+      "durationSec": 114,
+      "topic": "Staubsauger und Powerbank",
+      "fineSubject": "Staubsauger",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1460,
+      "endSec": 1640,
+      "durationSec": 180,
+      "topic": "Bohrmaschinenpumpe",
+      "fineSubject": "Bohrmaschinenpumpe",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1801,
+      "endSec": 2081,
+      "durationSec": 280,
+      "topic": "Telekom- und Funkinfrastrukturen",
+      "fineSubject": "Funkinfrastrukturen",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2081,
+      "endSec": 2405,
+      "durationSec": 324,
+      "topic": "MacFail",
+      "fineSubject": "MacFail",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 2406,
+      "endSec": 2630,
+      "durationSec": 224,
+      "topic": "Unkenntlichmachung",
+      "fineSubject": "Unkenntlichmachung",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Security",
+      "startSec": 2630,
+      "endSec": 2927,
+      "durationSec": 297,
+      "topic": "Geschichten vom CERT",
+      "fineSubject": "Geschichten vom CERT",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3295,
+      "endSec": 3433,
+      "durationSec": 138,
+      "topic": "Denis macht Kasse",
+      "fineSubject": "Denis macht Kasse",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Events",
+      "startSec": 4611,
+      "endSec": 4694,
+      "durationSec": 83,
+      "topic": "Veranstaltungslänge",
+      "fineSubject": "Veranstaltungslänge",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Event",
+      "startSec": 4756,
+      "endSec": 5379,
+      "durationSec": 623,
+      "topic": "Camp Badge",
+      "fineSubject": "Camp Badge",
+      "topicIndex": 24
+    }
+  ]
+}

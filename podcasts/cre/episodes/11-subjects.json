@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 11,
+  "title": "CRE011 Joi Ito",
+  "generatedAt": "2026-01-05T15:17:54.360Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.3333333333333333,
+      "Social": 0.1111111111111111,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.1111111111111111,
+      "Technologie": 0,
+      "Politics": 0.4444444444444444,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 3,
+      "Social": 1,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 4,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Chicago's club scene",
+      "fineSubject": "Music",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Early Internet days",
+      "fineSubject": "Internet",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Creative Commons licensing",
+      "fineSubject": "Intellectual Property",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Open Source Initiative",
+      "fineSubject": "Software",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Political activism",
+      "fineSubject": "Activism",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Optimism vs. pessimism in politics",
+      "fineSubject": "Philosophy",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "ICANN",
+      "fineSubject": "Internet Governance",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Living a super-public life",
+      "fineSubject": "Privacy",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Influence of the Internet on democracy",
+      "fineSubject": "Democracy",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

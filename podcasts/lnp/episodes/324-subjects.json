@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 324,
+  "title": "LNP324 Echt nicht Witzigmann",
+  "generatedAt": "2026-01-05T15:17:57.617Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.06909607193563654,
+      "Security": 0.6966398485565547,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.08471367723615712,
+      "Legal": 0.14955040227165167,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 146,
+      "Security": 1472,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 179,
+      "Legal": 316,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 2,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2113,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 113,
+      "endSec": 241,
+      "durationSec": 128,
+      "topic": "Feedback: Cadus",
+      "fineSubject": "Cadus",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 242,
+      "endSec": 293,
+      "durationSec": 51,
+      "topic": "Feedback: Spotify und die Metaebene",
+      "fineSubject": "Spotify",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 293,
+      "endSec": 597,
+      "durationSec": 304,
+      "topic": "36C3: Resource Exhaustion",
+      "fineSubject": "Resource Exhaustion",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 597,
+      "endSec": 1391,
+      "durationSec": 794,
+      "topic": "Passwort123",
+      "fineSubject": "Password Management",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 1902,
+      "endSec": 2276,
+      "durationSec": 374,
+      "topic": "BSI droppt unfreiwillig 0day",
+      "fineSubject": "0day Vulnerabilities",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2891,
+      "endSec": 3037,
+      "durationSec": 146,
+      "topic": ".at: Kfz-Kennzeichenerfassung und „Bundestrojaner“ verfassungswidrig",
+      "fineSubject": "Privacy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3038,
+      "endSec": 3354,
+      "durationSec": 316,
+      "topic": "Abmahnung Kraftfuttermischwerk",
+      "fineSubject": "Cease and Desist",
+      "topicIndex": 8
+    }
+  ]
+}

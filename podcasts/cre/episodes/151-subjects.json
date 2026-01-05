@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 151,
+  "title": "CRE151 Die ARM-Architektur",
+  "generatedAt": "2026-01-05T15:17:54.382Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.2222222222222222,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.7777777777777778,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 2,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 7,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geschichte der ARM-Architektur",
+      "fineSubject": "Prozessorarchitektur",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Befehlssätze und Architekturversionen",
+      "fineSubject": "Prozessorarchitektur",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anwendungsfälle für ARM-Prozessoren",
+      "fineSubject": "Prozessorarchitektur",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Alternative Befehlssätze",
+      "fineSubject": "Prozessorarchitektur",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Optimierung von Prozessordesigns",
+      "fineSubject": "Prozessorarchitektur",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Debugging",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "3D-Grafiksysteme für ARM",
+      "fineSubject": "Grafiksysteme",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "ARM als Standardplattform",
+      "fineSubject": "Prozessorarchitektur",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "ARM Dokumentation",
+      "fineSubject": "Dokumentation",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

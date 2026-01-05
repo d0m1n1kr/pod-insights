@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 137,
+  "title": "LNP137 Kommt in den besten Senderfamilien vor",
+  "generatedAt": "2026-01-05T15:17:57.592Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2154459086730003,
+      "Technology": 0.07508427827152926,
+      "Law": 0,
+      "Security": 0.12381244253754214,
+      "Social": 0.27980386147716824,
+      "Media": 0.30585350904076003,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 703,
+      "Technology": 245,
+      "Law": 0,
+      "Security": 404,
+      "Social": 913,
+      "Media": 998,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3263,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 995,
+      "endSec": 1993,
+      "durationSec": 998,
+      "topic": "TV5 monde",
+      "fineSubject": "Television",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1993,
+      "endSec": 2906,
+      "durationSec": 913,
+      "topic": "Facebook vs. Europe",
+      "fineSubject": "Social Network",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2907,
+      "endSec": 3610,
+      "durationSec": 703,
+      "topic": "Sigmar Gabriel führt jetzt den NSU für die VDS ins Feld",
+      "fineSubject": "National Security",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3610,
+      "endSec": 3855,
+      "durationSec": 245,
+      "topic": "Datenspeicherung DEA",
+      "fineSubject": "Data Storage",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3856,
+      "endSec": 4260,
+      "durationSec": 404,
+      "topic": "Russische Haxxor lasen Obamas Terminkalender",
+      "fineSubject": "Hacking",
+      "topicIndex": 4
+    }
+  ]
+}

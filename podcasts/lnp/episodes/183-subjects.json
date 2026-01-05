@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 183,
+  "title": "LNP183 Blinde Kuh mit Baseballschläger",
+  "generatedAt": "2026-01-05T15:17:57.597Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.017050448233432942,
+      "Technology": 0.6317454737212164,
+      "Law": 0.3512040780453507,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 97,
+      "Technology": 3594,
+      "Law": 1998,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 4,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5689,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 102,
+      "endSec": 988,
+      "durationSec": 886,
+      "topic": "Störerhaftung wurde vielleicht abgeschafft",
+      "fineSubject": "Störerhaftung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 989,
+      "endSec": 1775,
+      "durationSec": 786,
+      "topic": "Sampling erlaubt",
+      "fineSubject": "Sampling",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1775,
+      "endSec": 2799,
+      "durationSec": 1024,
+      "topic": "Android Location History",
+      "fineSubject": "Android",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2799,
+      "endSec": 3125,
+      "durationSec": 326,
+      "topic": "Google gewinnt Urheberrechtsstreit gegen Oracle",
+      "fineSubject": "Urheberrechtsstreit",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3126,
+      "endSec": 3541,
+      "durationSec": 415,
+      "topic": "KI lernt Stereotype",
+      "fineSubject": "KI",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3541,
+      "endSec": 4598,
+      "durationSec": 1057,
+      "topic": "Cyber Cyber Cigarette",
+      "fineSubject": "Cyber Cigarette",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4599,
+      "endSec": 5697,
+      "durationSec": 1098,
+      "topic": "Fast WLAN in Berlin",
+      "fineSubject": "WLAN",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5697,
+      "endSec": 5794,
+      "durationSec": 97,
+      "topic": "Netzneutralitätsdemo in Wien",
+      "fineSubject": "Demo",
+      "topicIndex": 7
+    }
+  ]
+}

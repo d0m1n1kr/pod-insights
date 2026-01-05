@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 468,
+  "title": "LNP468 Steirische Sünde",
+  "generatedAt": "2026-01-05T15:17:57.638Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16131687242798354,
+      "Technology": 0.5393689986282579,
+      "Law": 0.09986282578875172,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.060905349794238686,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.0784636488340192,
+      "Privacy": 0,
+      "Culture": 0.060082304526748974
+    },
+    "durations": {
+      "Politics": 588,
+      "Technology": 1966,
+      "Law": 364,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 222,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 286,
+      "Privacy": 0,
+      "Culture": 219
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 3645,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 435,
+      "endSec": 1852,
+      "durationSec": 1417,
+      "topic": "25 Jahre Google",
+      "fineSubject": "Internet",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1853,
+      "endSec": 2072,
+      "durationSec": 219,
+      "topic": "Feedback: Steirische Sünden und Österreich",
+      "fineSubject": "Austria",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2072,
+      "endSec": 2191,
+      "durationSec": 119,
+      "topic": "Feedback: Selbstbestimmungsgesetz",
+      "fineSubject": "Self-Determination",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2192,
+      "endSec": 2414,
+      "durationSec": 222,
+      "topic": "Feedback: Patientenakte",
+      "fineSubject": "Patient Records",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 2414,
+      "endSec": 2700,
+      "durationSec": 286,
+      "topic": "Warum Elon Musk Twitter gekauft hat",
+      "fineSubject": "Acquisitions",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2701,
+      "endSec": 3250,
+      "durationSec": 549,
+      "topic": "Chatkontrolle: Technische Maßnahmen",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3250,
+      "endSec": 3838,
+      "durationSec": 588,
+      "topic": "Chatkontrolle: Politik in Europa",
+      "fineSubject": "European Policy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3839,
+      "endSec": 3913,
+      "durationSec": 74,
+      "topic": "Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3914,
+      "endSec": 4085,
+      "durationSec": 171,
+      "topic": "Störerhaftung",
+      "fineSubject": "Liability",
+      "topicIndex": 8
+    }
+  ]
+}

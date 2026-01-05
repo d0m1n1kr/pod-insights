@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 54,
+  "title": "Minkorrekt Folge 54 „Mettschale“",
+  "generatedAt": "2026-01-05T15:18:17.356Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.4,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0.4,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0.2
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 2,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 1
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Diamantmikroskop",
+      "fineSubject": "Microscopy",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Biology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "segelnde Spinnen",
+      "fineSubject": "Arachnology",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lochfraß",
+      "fineSubject": "Material Science",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "hüpfende Batterien",
+      "fineSubject": "Electronics",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Super-Soaker auf der Drehscheibe",
+      "fineSubject": "Fluid Dynamics",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 360,
+  "title": "LNP360 Philosophische Hürden",
+  "generatedAt": "2026-01-05T15:17:57.622Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.15321428571428572,
+      "Technology": 0.16375,
+      "Law": 0.10142857142857142,
+      "Security": 0,
+      "Social": 0.20089285714285715,
+      "Media": 0,
+      "Health": 0.10535714285714286,
+      "Feedback": 0.1975,
+      "Legal": 0,
+      "Business": 0.07785714285714286,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 858,
+      "Technology": 917,
+      "Law": 568,
+      "Security": 0,
+      "Social": 1125,
+      "Media": 0,
+      "Health": 590,
+      "Feedback": 1106,
+      "Legal": 0,
+      "Business": 436,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 4,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5600,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 86,
+      "endSec": 448,
+      "durationSec": 362,
+      "topic": "Feedback: Telefonbuch",
+      "fineSubject": "Telefonbuch",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 448,
+      "endSec": 590,
+      "durationSec": 142,
+      "topic": "Feedback: Warn-App im Funkloch",
+      "fineSubject": "Warn-App",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 590,
+      "endSec": 627,
+      "durationSec": 37,
+      "topic": "Feedback: EU-Alert",
+      "fineSubject": "EU-Alert",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 628,
+      "endSec": 1193,
+      "durationSec": 565,
+      "topic": "Feedback: EU-Alert",
+      "fineSubject": "EU-Alert",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1849,
+      "endSec": 2439,
+      "durationSec": 590,
+      "topic": "Messengerfilter",
+      "fineSubject": "Messengerfilter",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2439,
+      "endSec": 2707,
+      "durationSec": 268,
+      "topic": "Immunitätsausweis reloaded",
+      "fineSubject": "Immunitätsausweis",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 2708,
+      "endSec": 3161,
+      "durationSec": 453,
+      "topic": "EuGH Zero-Rating",
+      "fineSubject": "EuGH",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 3162,
+      "endSec": 4287,
+      "durationSec": 1125,
+      "topic": "Rechtsextreme Polizei",
+      "fineSubject": "Rechtsextremismus",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4287,
+      "endSec": 4609,
+      "durationSec": 322,
+      "topic": "Uniklinikum Düsseldorf",
+      "fineSubject": "Uniklinikum",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 5166,
+      "endSec": 5281,
+      "durationSec": 115,
+      "topic": "@_0rbit Prozess",
+      "fineSubject": "Prozess",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Business",
+      "startSec": 5281,
+      "endSec": 5717,
+      "durationSec": 436,
+      "topic": "Schufa will Nutzer von günstigen Angeboten diskriminieren",
+      "fineSubject": "Schufa",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5718,
+      "endSec": 6045,
+      "durationSec": 327,
+      "topic": "TikTok Übernahme",
+      "fineSubject": "TikTok",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6045,
+      "endSec": 6903,
+      "durationSec": 858,
+      "topic": "Bundestag beschließt Recht auf Ladepunkt und Glasfaser",
+      "fineSubject": "Bundestag",
+      "topicIndex": 14
+    }
+  ]
+}

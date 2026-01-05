@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 80,
+  "title": "UKW080 Corona Weekly: Tempo 30 für Corona",
+  "generatedAt": "2026-01-05T15:18:03.019Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.944754889509779,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.03200406400812802,
+      "Media": 0,
+      "Miscellaneous": 0.023241046482092964,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7439,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 252,
+      "Media": 0,
+      "Miscellaneous": 183,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 13,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7874,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 205,
+      "endSec": 619,
+      "durationSec": 414,
+      "topic": "Inzidenzen",
+      "fineSubject": "Infection Rates",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 620,
+      "endSec": 1156,
+      "durationSec": 536,
+      "topic": "Sterblichkeit",
+      "fineSubject": "Mortality",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1156,
+      "endSec": 1757,
+      "durationSec": 601,
+      "topic": "Altersverteilung",
+      "fineSubject": "Demographics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1757,
+      "endSec": 2053,
+      "durationSec": 296,
+      "topic": "Bundesländer",
+      "fineSubject": "Regional Analysis",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2054,
+      "endSec": 2241,
+      "durationSec": 187,
+      "topic": "Tests und Positivquote",
+      "fineSubject": "Testing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2241,
+      "endSec": 2939,
+      "durationSec": 698,
+      "topic": "Impfkampagne in Deutschland",
+      "fineSubject": "Vaccination Campaigns",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2940,
+      "endSec": 3383,
+      "durationSec": 443,
+      "topic": "Delta",
+      "fineSubject": "Variants",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3383,
+      "endSec": 3547,
+      "durationSec": 164,
+      "topic": "Varianten international",
+      "fineSubject": "Global Variants",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3548,
+      "endSec": 3895,
+      "durationSec": 347,
+      "topic": "Cubas Impfstoff",
+      "fineSubject": "Vaccines",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3895,
+      "endSec": 4147,
+      "durationSec": 252,
+      "topic": "BioNTech Quartalsergebnisse",
+      "fineSubject": "Quarterly Results",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4147,
+      "endSec": 4770,
+      "durationSec": 623,
+      "topic": "Zukunft der mRNA Technologie",
+      "fineSubject": "Technology",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4771,
+      "endSec": 5329,
+      "durationSec": 558,
+      "topic": "10 Thesen zur Impfung",
+      "fineSubject": "Vaccination Theories",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5329,
+      "endSec": 7587,
+      "durationSec": 2258,
+      "topic": "Wie geht es weiter?",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 7587,
+      "endSec": 7901,
+      "durationSec": 314,
+      "topic": "Fazit",
+      "fineSubject": "Conclusion",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 7902,
+      "endSec": 8085,
+      "durationSec": 183,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 14
+    }
+  ]
+}

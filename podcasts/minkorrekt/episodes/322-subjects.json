@@ -1,0 +1,63 @@
+{
+  "episodeNumber": 322,
+  "title": "Mi322 – \"John 3:16\"",
+  "generatedAt": "2026-01-05T15:18:17.387Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 360,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 360,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1369,
+      "endSec": 1729,
+      "durationSec": 360,
+      "topic": "Kommentar von Hendrik zu Verkehrsplanung",
+      "fineSubject": "Urban Planning",
+      "topicIndex": 0
+    }
+  ]
+}

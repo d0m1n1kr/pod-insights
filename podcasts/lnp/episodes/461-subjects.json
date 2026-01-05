@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 461,
+  "title": "LNP461 Rechtsunten kaufen, linksunten linken",
+  "generatedAt": "2026-01-05T15:17:57.637Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.15380997177798683,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.41251175917215427,
+      "Media": 0.25870178739416744,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.14557855126999059,
+      "Business": 0.029397930385700845,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 654,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1754,
+      "Media": 1100,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 619,
+      "Business": 125,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4252,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 311,
+      "endSec": 434,
+      "durationSec": 123,
+      "topic": "Feedback: Unterschicht",
+      "fineSubject": "Unterschicht",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 434,
+      "endSec": 1088,
+      "durationSec": 654,
+      "topic": "Feedback: Airtags",
+      "fineSubject": "Airtags",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1088,
+      "endSec": 1471,
+      "durationSec": 383,
+      "topic": "Feedback: Digitale Gewalt",
+      "fineSubject": "Digitale Gewalt",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1472,
+      "endSec": 2038,
+      "durationSec": 566,
+      "topic": "Anklageerhebung Finfisher",
+      "fineSubject": "Anklage",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2038,
+      "endSec": 2833,
+      "durationSec": 795,
+      "topic": "Quellenschutz: Böhmermann vs. Hessenthaler",
+      "fineSubject": "Quellenschutz",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 2834,
+      "endSec": 3139,
+      "durationSec": 305,
+      "topic": "Recherche: Böhmermann vs. Schönbohm",
+      "fineSubject": "Recherche",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 3139,
+      "endSec": 4387,
+      "durationSec": 1248,
+      "topic": "Letzte Generation",
+      "fineSubject": "Letzte Generation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4387,
+      "endSec": 4440,
+      "durationSec": 53,
+      "topic": "Link auf linksunten völlig überraschend nicht illegal",
+      "fineSubject": "Linkrecht",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 4440,
+      "endSec": 4565,
+      "durationSec": 125,
+      "topic": "epicenter works sucht Assistenz der Geschäftsführung",
+      "fineSubject": "Assistenz",
+      "topicIndex": 8
+    }
+  ]
+}

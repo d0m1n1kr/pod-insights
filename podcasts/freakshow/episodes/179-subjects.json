@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 179,
+  "title": "FS179 Sticker sind wichtig für die Fortpflanzung",
+  "generatedAt": "2026-01-05T15:17:51.087Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.06819656179046384,
+      "Software": 0.5713590658449562,
+      "Hardware": 0.10501135257865715,
+      "Finance": 0.06162828413882582,
+      "Media": 0,
+      "Social": 0.12625689263704185,
+      "Culture": 0,
+      "Security": 0.046059033409017194,
+      "Events": 0,
+      "Business": 0.02148880960103795,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 841,
+      "Software": 7046,
+      "Hardware": 1295,
+      "Finance": 760,
+      "Media": 0,
+      "Social": 1557,
+      "Culture": 0,
+      "Security": 568,
+      "Events": 0,
+      "Business": 265,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 8,
+      "Hardware": 1,
+      "Finance": 2,
+      "Media": 0,
+      "Social": 3,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12332,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 736,
+      "endSec": 1098,
+      "durationSec": 362,
+      "topic": "World Events und verteilte Beteiligung",
+      "fineSubject": "Participation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1098,
+      "endSec": 1491,
+      "durationSec": 393,
+      "topic": "WWDC",
+      "fineSubject": "WWDC",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1492,
+      "endSec": 2221,
+      "durationSec": 729,
+      "topic": "watchOS 3",
+      "fineSubject": "watchOS",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 2221,
+      "endSec": 3098,
+      "durationSec": 877,
+      "topic": "Extensibility und Siri",
+      "fineSubject": "Extensibility",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3098,
+      "endSec": 3666,
+      "durationSec": 568,
+      "topic": "Differential Privacy",
+      "fineSubject": "Differential Privacy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 3667,
+      "endSec": 4692,
+      "durationSec": 1025,
+      "topic": "macOS Neuerungen",
+      "fineSubject": "macOS",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4693,
+      "endSec": 5988,
+      "durationSec": 1295,
+      "topic": "Sierra CPU- und GPU-Anforderungen",
+      "fineSubject": "CPU/GPU Requirements",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 5988,
+      "endSec": 8630,
+      "durationSec": 2642,
+      "topic": "APFS",
+      "fineSubject": "File Systems",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 8630,
+      "endSec": 8781,
+      "durationSec": 151,
+      "topic": "ZFS kann jetzt booten",
+      "fineSubject": "File Systems",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8781,
+      "endSec": 9263,
+      "durationSec": 482,
+      "topic": "Apple Pay",
+      "fineSubject": "Payment Systems",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 9264,
+      "endSec": 9974,
+      "durationSec": 710,
+      "topic": "iOS 10",
+      "fineSubject": "iOS",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9974,
+      "endSec": 10815,
+      "durationSec": 841,
+      "topic": "Artificial Intelligence",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Social",
+      "startSec": 11231,
+      "endSec": 12227,
+      "durationSec": 996,
+      "topic": "Sticker und Effekte",
+      "fineSubject": "Communication",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 12227,
+      "endSec": 12746,
+      "durationSec": 519,
+      "topic": "Swift Playground",
+      "fineSubject": "Development",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Social",
+      "startSec": 12747,
+      "endSec": 12946,
+      "durationSec": 199,
+      "topic": "WWDC Keynote Diversity",
+      "fineSubject": "Diversity",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Business",
+      "startSec": 12946,
+      "endSec": 13211,
+      "durationSec": 265,
+      "topic": "App Store Changes",
+      "fineSubject": "App Store",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Finance",
+      "startSec": 13212,
+      "endSec": 13490,
+      "durationSec": 278,
+      "topic": "Denis stellt seinen Bitcoin Pool ein",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 17
+    }
+  ]
+}

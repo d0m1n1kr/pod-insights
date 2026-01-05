@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 3,
+  "title": "MM003 Das Schwert des Damokles",
+  "generatedAt": "2026-01-05T15:17:51.055Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.5,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kauf von P.A. Semi",
+      "fineSubject": "Akquisition",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Business",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Motivationen für Apple",
+      "fineSubject": "Strategie",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Damoklesschwert Microsoft",
+      "fineSubject": "Unternehmensbewertung",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bewertung der Situation von Microsoft",
+      "fineSubject": "Marktanalyse",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

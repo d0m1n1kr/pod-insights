@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 287,
+  "title": "Mi287 – \"Flicken-Cordjackett\"",
+  "generatedAt": "2026-01-05T15:18:17.382Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5255782918149466,
+      "Culture": 0.18616548042704625,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.17193060498220641,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.1163256227758007,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2363,
+      "Culture": 837,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 773,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 523,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4496,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 195,
+      "endSec": 1032,
+      "durationSec": 837,
+      "topic": "Karneval",
+      "fineSubject": "Carnival",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1966,
+      "endSec": 2739,
+      "durationSec": 773,
+      "topic": "scienceOS",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2824,
+      "endSec": 4299,
+      "durationSec": 1475,
+      "topic": "Thema 1: “Das gasförmige Gold”",
+      "fineSubject": "Chemistry",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Education",
+      "startSec": 4299,
+      "endSec": 4822,
+      "durationSec": 523,
+      "topic": "Snackable Science",
+      "fineSubject": "Science Communication",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4822,
+      "endSec": 5710,
+      "durationSec": 888,
+      "topic": "Thema 2: \"Schlumpfenwachs\"",
+      "fineSubject": "Chemistry",
+      "topicIndex": 6
+    }
+  ]
+}

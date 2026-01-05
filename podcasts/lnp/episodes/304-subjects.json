@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 304,
+  "title": "LNP304 Der Knopf des Verderbens",
+  "generatedAt": "2026-01-05T15:17:57.614Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1572969903463941,
+      "Technology": 0.26197236418701497,
+      "Law": 0.04675373840620859,
+      "Security": 0.16051485898163922,
+      "Social": 0.3734620480787431,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 831,
+      "Technology": 1384,
+      "Law": 247,
+      "Security": 848,
+      "Social": 1973,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 5,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5283,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 85,
+      "endSec": 395,
+      "durationSec": 310,
+      "topic": "Feedback: Rentner",
+      "fineSubject": "Social / Rentner",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 395,
+      "endSec": 527,
+      "durationSec": 132,
+      "topic": "Feedback: Wahl in Laupheim",
+      "fineSubject": "Politics / Wahl",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 528,
+      "endSec": 907,
+      "durationSec": 379,
+      "topic": "Feedback: Die größten Arschlöcher des Landes",
+      "fineSubject": "Social / Arschlöcher",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 908,
+      "endSec": 1114,
+      "durationSec": 206,
+      "topic": "Debattenkultur",
+      "fineSubject": "Politics / Kultur",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1114,
+      "endSec": 1426,
+      "durationSec": 312,
+      "topic": "Komplizierte Gesetze",
+      "fineSubject": "Politics / Kompliziert",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1426,
+      "endSec": 1905,
+      "durationSec": 479,
+      "topic": "Smart Home Daten für Ermittler?",
+      "fineSubject": "Law / Ermittler",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 1906,
+      "endSec": 2257,
+      "durationSec": 351,
+      "topic": "Social Media Konten und die USA",
+      "fineSubject": "Politics / USA",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 2257,
+      "endSec": 2504,
+      "durationSec": 247,
+      "topic": "Transatlantik-Brücke: Cloud Act meets E-Evidence",
+      "fineSubject": "Law / E-Evidence",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2505,
+      "endSec": 3410,
+      "durationSec": 905,
+      "topic": "Google wirft Adblocker raus",
+      "fineSubject": "Technology / Adblocker",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 3411,
+      "endSec": 4212,
+      "durationSec": 801,
+      "topic": "cnetz nicht mehr gemeinnützig",
+      "fineSubject": "Social / Gemeinnützigkeit",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4212,
+      "endSec": 4525,
+      "durationSec": 313,
+      "topic": "Strache",
+      "fineSubject": "Politics / Personen",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 4526,
+      "endSec": 5374,
+      "durationSec": 848,
+      "topic": "Malware-Angriff auf Heise",
+      "fineSubject": "Technology / Heise",
+      "topicIndex": 11
+    }
+  ]
+}

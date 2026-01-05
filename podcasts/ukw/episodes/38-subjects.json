@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 38,
+  "title": "UKW038 Corona Weekly: Neue Deutsche Welle",
+  "generatedAt": "2026-01-05T15:18:03.006Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.7030241250424737,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.2969758749575263
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 2069,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 874
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 5,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 1
+    },
+    "totalDurationSec": 2943,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 499,
+      "endSec": 860,
+      "durationSec": 361,
+      "topic": "Zahlen in Deutschland",
+      "fineSubject": "Germany",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 860,
+      "endSec": 1359,
+      "durationSec": 499,
+      "topic": "Zahlen in Berlin",
+      "fineSubject": "Berlin",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 2780,
+      "endSec": 3654,
+      "durationSec": 874,
+      "topic": "Internationale Situation",
+      "fineSubject": "International Situation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3933,
+      "endSec": 4251,
+      "durationSec": 318,
+      "topic": "State of Corona-Warn-App",
+      "fineSubject": "Corona-Warn-App",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4252,
+      "endSec": 4819,
+      "durationSec": 567,
+      "topic": "CrowdNotifier: Presence Tracing",
+      "fineSubject": "Presence Tracing",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5996,
+      "endSec": 6320,
+      "durationSec": 324,
+      "topic": "CN: Technik",
+      "fineSubject": "Technical Aspects",
+      "topicIndex": 14
+    }
+  ]
+}

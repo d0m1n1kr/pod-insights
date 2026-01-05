@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 75,
+  "title": "UKW075 Corona Weekly: Impfen in 3D",
+  "generatedAt": "2026-01-05T15:18:03.018Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9279682922626228,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0.027227296226089954,
+      "Society": 0,
+      "Travel": 0.044804411511287265,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5385,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 158,
+      "Society": 0,
+      "Travel": 260,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 12,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5803,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 119,
+      "endSec": 921,
+      "durationSec": 802,
+      "topic": "Zahlen in Deutschland",
+      "fineSubject": "Statistics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 922,
+      "endSec": 1444,
+      "durationSec": 522,
+      "topic": "Tests",
+      "fineSubject": "Testing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1444,
+      "endSec": 2864,
+      "durationSec": 1420,
+      "topic": "Impfkampagne",
+      "fineSubject": "Vaccination Campaign",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2865,
+      "endSec": 3284,
+      "durationSec": 419,
+      "topic": "Impfnachweise",
+      "fineSubject": "Vaccination Certificates",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3285,
+      "endSec": 3490,
+      "durationSec": 205,
+      "topic": "mRNA-Patente",
+      "fineSubject": "Patents",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3490,
+      "endSec": 4025,
+      "durationSec": 535,
+      "topic": "Indische Variante in UK",
+      "fineSubject": "Variants",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4026,
+      "endSec": 4148,
+      "durationSec": 122,
+      "topic": "BioNTech kann länger gelagert werden",
+      "fineSubject": "Vaccine Storage",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4148,
+      "endSec": 4413,
+      "durationSec": 265,
+      "topic": "Erste Studien zu AZ/BP-Kombiimpfung",
+      "fineSubject": "Research",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4413,
+      "endSec": 4757,
+      "durationSec": 344,
+      "topic": "Neuer Impfstoff von Sanofi/GSK",
+      "fineSubject": "New Vaccines",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4758,
+      "endSec": 5001,
+      "durationSec": 243,
+      "topic": "Wo der Impfstoff wirkt",
+      "fineSubject": "Vaccine Efficacy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 5001,
+      "endSec": 5247,
+      "durationSec": 246,
+      "topic": "Impfen gegen andere Krankheiten",
+      "fineSubject": "Vaccination",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Travel",
+      "startSec": 5248,
+      "endSec": 5508,
+      "durationSec": 260,
+      "topic": "Reisen ins Ausland",
+      "fineSubject": "International Travel",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5509,
+      "endSec": 5771,
+      "durationSec": 262,
+      "topic": "Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 5912,
+      "endSec": 6070,
+      "durationSec": 158,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 13
+    }
+  ]
+}

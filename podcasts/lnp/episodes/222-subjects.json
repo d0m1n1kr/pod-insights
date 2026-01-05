@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 222,
+  "title": "LNP222 Mut zur Schutzlücke",
+  "generatedAt": "2026-01-05T15:17:57.603Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.19024514811031665,
+      "Technology": 0,
+      "Law": 0.4014300306435138,
+      "Security": 0.19458631256384065,
+      "Social": 0,
+      "Media": 0.11925434116445352,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.09448416751787539,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 745,
+      "Technology": 0,
+      "Law": 1572,
+      "Security": 762,
+      "Social": 0,
+      "Media": 467,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 370,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 4,
+      "Security": 2,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 3916,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 141,
+      "endSec": 520,
+      "durationSec": 379,
+      "topic": "Feedback: WannaCry",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 521,
+      "endSec": 904,
+      "durationSec": 383,
+      "topic": "Feedback: StreamOn",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 904,
+      "endSec": 1479,
+      "durationSec": 575,
+      "topic": "Staatstrojaner-Ausweitung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1480,
+      "endSec": 1796,
+      "durationSec": 316,
+      "topic": "eID-Gesetz beschlossen",
+      "fineSubject": "Digital Identity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 1796,
+      "endSec": 2070,
+      "durationSec": 274,
+      "topic": "Biometrie-Superdatenbank der EU",
+      "fineSubject": "Biometrics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2070,
+      "endSec": 2166,
+      "durationSec": 96,
+      "topic": "Gib Handy!",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2166,
+      "endSec": 2353,
+      "durationSec": 187,
+      "topic": "IP-Adressen-Speicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 2354,
+      "endSec": 2848,
+      "durationSec": 494,
+      "topic": "netzDG verstößt gegen Europarecht",
+      "fineSubject": "Digital Rights",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2848,
+      "endSec": 2948,
+      "durationSec": 100,
+      "topic": "Chelsea Manning frei",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2949,
+      "endSec": 3594,
+      "durationSec": 645,
+      "topic": "Juri Assanschov \"frei\"",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 3595,
+      "endSec": 4062,
+      "durationSec": 467,
+      "topic": "Facebook Löschregeln",
+      "fineSubject": "Content Moderation",
+      "topicIndex": 10
+    }
+  ]
+}

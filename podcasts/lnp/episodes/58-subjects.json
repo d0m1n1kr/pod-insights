@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 58,
+  "title": "LNP058 Spy Cloud",
+  "generatedAt": "2026-01-05T15:17:57.580Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.2679368859779696,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.523965465912474,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.20809764810955642,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 900,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1760,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 699,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3359,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 30,
+      "endSec": 538,
+      "durationSec": 508,
+      "topic": "Erratum LNP057",
+      "fineSubject": "Privacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 539,
+      "endSec": 1171,
+      "durationSec": 632,
+      "topic": "Hilfe, Porno-Verbot!",
+      "fineSubject": "Censorship",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1171,
+      "endSec": 2071,
+      "durationSec": 900,
+      "topic": "Feinde des Internets",
+      "fineSubject": "Internet Freedom",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2072,
+      "endSec": 2771,
+      "durationSec": 699,
+      "topic": "Bestandsdatenauskunft",
+      "fineSubject": "Data Retention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 2771,
+      "endSec": 3391,
+      "durationSec": 620,
+      "topic": "Aus Facebook-Likes lassen sich Persönlichkeitseigenschaften vorhersagen",
+      "fineSubject": "Data Analysis",
+      "topicIndex": 4
+    }
+  ]
+}

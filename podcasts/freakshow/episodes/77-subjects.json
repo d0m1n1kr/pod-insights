@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 77,
+  "title": "MM077 Der Spiegel ruckelt",
+  "generatedAt": "2026-01-05T15:17:51.067Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1926009601807399,
+      "Software": 0.4168314035583169,
+      "Hardware": 0.2615080485738492,
+      "Finance": 0,
+      "Media": 0.12905958768709405,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1364,
+      "Software": 2952,
+      "Hardware": 1852,
+      "Finance": 0,
+      "Media": 914,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 6,
+      "Hardware": 6,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7082,
+    "totalTopics": 23
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 371,
+      "endSec": 702,
+      "durationSec": 331,
+      "topic": "Audio-Upgrades",
+      "fineSubject": "Audio",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 702,
+      "endSec": 2313,
+      "durationSec": 1611,
+      "topic": "Google Developer Day",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 2313,
+      "endSec": 2992,
+      "durationSec": 679,
+      "topic": "Blade Runner",
+      "fineSubject": "Film",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2992,
+      "endSec": 3583,
+      "durationSec": 591,
+      "topic": "Thunderbolt",
+      "fineSubject": "Thunderbolt",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3583,
+      "endSec": 3923,
+      "durationSec": 340,
+      "topic": "Zukunft des Macs",
+      "fineSubject": "Mac",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3923,
+      "endSec": 4171,
+      "durationSec": 248,
+      "topic": "Zukunft der MacBooks",
+      "fineSubject": "MacBook",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4171,
+      "endSec": 4417,
+      "durationSec": 246,
+      "topic": "PowerLAN",
+      "fineSubject": "PowerLAN",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4417,
+      "endSec": 4911,
+      "durationSec": 494,
+      "topic": "Airport Extreme",
+      "fineSubject": "Airport",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4911,
+      "endSec": 5136,
+      "durationSec": 225,
+      "topic": "FritzBox",
+      "fineSubject": "Router",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 5136,
+      "endSec": 5286,
+      "durationSec": 150,
+      "topic": "Occupy Flash",
+      "fineSubject": "Flash",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 5286,
+      "endSec": 5521,
+      "durationSec": 235,
+      "topic": "Doom",
+      "fineSubject": "Spiel",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5521,
+      "endSec": 5659,
+      "durationSec": 138,
+      "topic": "AFP",
+      "fineSubject": "Protokoll",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 5659,
+      "endSec": 5768,
+      "durationSec": 109,
+      "topic": "Netatalk",
+      "fineSubject": "Netzwerk",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 5768,
+      "endSec": 5946,
+      "durationSec": 178,
+      "topic": "WebKit",
+      "fineSubject": "Web",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5946,
+      "endSec": 6207,
+      "durationSec": 261,
+      "topic": "inunico.de",
+      "fineSubject": "Website",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 6207,
+      "endSec": 6862,
+      "durationSec": 655,
+      "topic": "Mac-Programmierung",
+      "fineSubject": "Programmierung",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 7122,
+      "endSec": 7371,
+      "durationSec": 249,
+      "topic": "Siri-Proxy",
+      "fineSubject": "Siri",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8790,
+      "endSec": 9047,
+      "durationSec": 257,
+      "topic": "iPad 3",
+      "fineSubject": "iPad",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9878,
+      "endSec": 9963,
+      "durationSec": 85,
+      "topic": "Teaser: Zeppelin Air",
+      "fineSubject": "Audio",
+      "topicIndex": 22
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 303,
+  "title": "Mi303 – \"Schatten in der Lichtenergie\"",
+  "generatedAt": "2026-01-05T15:18:17.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.48119821542383684,
+      "Culture": 0.5188017845761632,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 755,
+      "Culture": 814,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 1569,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 1099,
+      "endSec": 1618,
+      "durationSec": 519,
+      "topic": "Glühwürmchentour",
+      "fineSubject": "Glühwürmchentour",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1618,
+      "endSec": 1913,
+      "durationSec": 295,
+      "topic": "Käferwanderung",
+      "fineSubject": "Käferwanderung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3602,
+      "endSec": 4357,
+      "durationSec": 755,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 5
+    }
+  ]
+}

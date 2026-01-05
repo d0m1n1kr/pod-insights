@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 48,
+  "title": "UKW048 Corona Weekly: Vielleicht gibt’s ja ein Wunder",
+  "generatedAt": "2026-01-05T15:18:03.009Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9374890867819102,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0.06251091321808976,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5369,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 358,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 12,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 2,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5727,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 75,
+      "endSec": 153,
+      "durationSec": 78,
+      "topic": "Prozent und Promille",
+      "fineSubject": "Statistics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 154,
+      "endSec": 664,
+      "durationSec": 510,
+      "topic": "Verwirrende Zahlen",
+      "fineSubject": "Statistics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 664,
+      "endSec": 804,
+      "durationSec": 140,
+      "topic": "Datenjournalismus und Algorithmen",
+      "fineSubject": "Journalism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 804,
+      "endSec": 1540,
+      "durationSec": 736,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1541,
+      "endSec": 1643,
+      "durationSec": 102,
+      "topic": "Situation in den Bundesländer",
+      "fineSubject": "COVID-19",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1643,
+      "endSec": 2066,
+      "durationSec": 423,
+      "topic": "Welches R wäre nötig?",
+      "fineSubject": "Epidemiology",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2066,
+      "endSec": 3977,
+      "durationSec": 1911,
+      "topic": "Neue Maßnahmen braucht das Land",
+      "fineSubject": "Policy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3978,
+      "endSec": 4494,
+      "durationSec": 516,
+      "topic": "Neuer Impfstoff aus Oxford",
+      "fineSubject": "Vaccines",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4494,
+      "endSec": 4562,
+      "durationSec": 68,
+      "topic": "Freezer Farms",
+      "fineSubject": "Vaccines",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4562,
+      "endSec": 4698,
+      "durationSec": 136,
+      "topic": "Impfstoff-Auswirkungen",
+      "fineSubject": "Vaccines",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4699,
+      "endSec": 5135,
+      "durationSec": 436,
+      "topic": "Theorien über andere Verbreitungswege",
+      "fineSubject": "Transmission",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 5135,
+      "endSec": 5246,
+      "durationSec": 111,
+      "topic": "Neue Viren und Verbreitungswege",
+      "fineSubject": "Viruses",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5247,
+      "endSec": 5589,
+      "durationSec": 342,
+      "topic": "Ausblick",
+      "fineSubject": "COVID-19",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 5589,
+      "endSec": 5807,
+      "durationSec": 218,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 13
+    }
+  ]
+}

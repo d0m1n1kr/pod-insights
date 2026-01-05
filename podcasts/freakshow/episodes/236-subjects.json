@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 236,
+  "title": "FS236 Die Queen im Bluescreen",
+  "generatedAt": "2026-01-05T15:17:51.103Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7840314136125655,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.21596858638743455,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4792,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1320,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 8,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 6112,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 2971,
+      "endSec": 3179,
+      "durationSec": 208,
+      "topic": "Feedback: Techno mit klassischen Instrumenten",
+      "fineSubject": "Genres",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3180,
+      "endSec": 3285,
+      "durationSec": 105,
+      "topic": "Feedback: Keynote",
+      "fineSubject": "Presentations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3286,
+      "endSec": 4398,
+      "durationSec": 1112,
+      "topic": "Rødecaster Pro First Test",
+      "fineSubject": "Equipment",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8722,
+      "endSec": 10244,
+      "durationSec": 1522,
+      "topic": "Kinect v4",
+      "fineSubject": "Gaming",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10244,
+      "endSec": 10838,
+      "durationSec": 594,
+      "topic": "Open3D",
+      "fineSubject": "Software",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10839,
+      "endSec": 11567,
+      "durationSec": 728,
+      "topic": "Time of flight cameras",
+      "fineSubject": "Imaging",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12797,
+      "endSec": 13164,
+      "durationSec": 367,
+      "topic": "Neuigkeiten von der BUILD",
+      "fineSubject": "Conferences",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13165,
+      "endSec": 13262,
+      "durationSec": 97,
+      "topic": "GOTO Conference",
+      "fineSubject": "Conferences",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13262,
+      "endSec": 13304,
+      "durationSec": 42,
+      "topic": "UIConf",
+      "fineSubject": "Conferences",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13304,
+      "endSec": 14641,
+      "durationSec": 1337,
+      "topic": "WWDC Glaskugeling",
+      "fineSubject": "Conferences",
+      "topicIndex": 19
+    }
+  ]
+}

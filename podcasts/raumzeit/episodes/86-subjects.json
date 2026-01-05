@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 86,
+  "title": "RZ086 Meteoriten",
+  "generatedAt": "2026-01-05T15:18:06.285Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.38914518317503394,
+      "Astronomie": 0.25590230664857533,
+      "Wissenschaft": 0.3549525101763908,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 1434,
+      "Astronomie": 943,
+      "Wissenschaft": 1308,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 1,
+      "Astronomie": 1,
+      "Wissenschaft": 1,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 3685,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 957,
+      "durationSec": 943,
+      "topic": "Meteoriten und ihre Bedeutung",
+      "fineSubject": "Meteoriten",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 14,
+      "endSec": 1322,
+      "durationSec": 1308,
+      "topic": "Herkunft und Analyse von Meteoriten",
+      "fineSubject": "Geologie",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 14,
+      "endSec": 1448,
+      "durationSec": 1434,
+      "topic": "Meteoriten und Raumfahrt",
+      "fineSubject": "Forschung",
+      "topicIndex": 2
+    }
+  ]
+}

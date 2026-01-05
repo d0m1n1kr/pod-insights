@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 366,
+  "title": "Mi366 – \"Schafschlafe\"",
+  "generatedAt": "2026-01-05T15:18:17.395Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.38954143201930813,
+      "Culture": 0.11713596138374899,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.4165728077232502,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.07674979887369268,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2421,
+      "Culture": 728,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2589,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 477,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6215,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 175,
+      "endSec": 652,
+      "durationSec": 477,
+      "topic": "eMpirie",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1053,
+      "endSec": 1721,
+      "durationSec": 668,
+      "topic": "Interview Bremen3",
+      "fineSubject": "Interviews",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1721,
+      "endSec": 2053,
+      "durationSec": 332,
+      "topic": "Jan Philipp Zymny",
+      "fineSubject": "Comedy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2053,
+      "endSec": 3807,
+      "durationSec": 1754,
+      "topic": "Thema 1 \"Die dunkle Seite des Universums\"",
+      "fineSubject": "Astrophysics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 3807,
+      "endSec": 4474,
+      "durationSec": 667,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 4474,
+      "endSec": 6395,
+      "durationSec": 1921,
+      "topic": "Thema 2: \"Uncanny Podcast\"",
+      "fineSubject": "Podcasting",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6395,
+      "endSec": 6791,
+      "durationSec": 396,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 106,
+  "title": "MM106 No Known Issues",
+  "generatedAt": "2026-01-05T15:17:51.072Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2659095006309717,
+      "Software": 0.014602487831260141,
+      "Hardware": 0.45520100955471426,
+      "Finance": 0.07932215612042545,
+      "Media": 0,
+      "Social": 0.18496484586262846,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2950,
+      "Software": 162,
+      "Hardware": 5050,
+      "Finance": 880,
+      "Media": 0,
+      "Social": 2052,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 1,
+      "Hardware": 4,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11094,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 238,
+      "endSec": 1633,
+      "durationSec": 1395,
+      "topic": "CeBIT und Grafikkarten",
+      "fineSubject": "Grafikkarten",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1633,
+      "endSec": 3068,
+      "durationSec": 1435,
+      "topic": "Mac Pro und Festplattennutzung",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4294,
+      "endSec": 4591,
+      "durationSec": 297,
+      "topic": "WLAN Kram",
+      "fineSubject": "WLAN",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 4591,
+      "endSec": 6120,
+      "durationSec": 1529,
+      "topic": "Twitter und App.net",
+      "fineSubject": "Twitter",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6120,
+      "endSec": 8773,
+      "durationSec": 2653,
+      "topic": "Netzwerke",
+      "fineSubject": "Netzwerke",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 8773,
+      "endSec": 8935,
+      "durationSec": 162,
+      "topic": "UML",
+      "fineSubject": "UML",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9080,
+      "endSec": 10840,
+      "durationSec": 1760,
+      "topic": "Google Glass und iWatch Glaskugeling",
+      "fineSubject": "Google Glass",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10840,
+      "endSec": 11300,
+      "durationSec": 460,
+      "topic": "Fritz! Dect200",
+      "fineSubject": "Fritz! Dect200",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 11300,
+      "endSec": 12180,
+      "durationSec": 880,
+      "topic": "BitCoin, JOYN und Mobilfunk",
+      "fineSubject": "BitCoin",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 12180,
+      "endSec": 12703,
+      "durationSec": 523,
+      "topic": "Clemens braucht Followerpower für ne Apple Mail Frage",
+      "fineSubject": "Followerpower",
+      "topicIndex": 9
+    }
+  ]
+}

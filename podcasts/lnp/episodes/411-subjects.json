@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 411,
+  "title": "LNP411 Anfälligkeit für Schwachstellen bei unklarem Nutzen",
+  "generatedAt": "2026-01-05T15:17:57.629Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.008798283261802575,
+      "Law": 0.10042918454935622,
+      "Security": 0.28605150214592273,
+      "Social": 0.21351931330472104,
+      "Media": 0,
+      "Health": 0.20686695278969958,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.18433476394849785
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 41,
+      "Law": 468,
+      "Security": 1333,
+      "Social": 995,
+      "Media": 0,
+      "Health": 964,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 859
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 2,
+      "Social": 2,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4660,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 354,
+      "endSec": 395,
+      "durationSec": 41,
+      "topic": "HTTP 411",
+      "fineSubject": "Protocol / HTTP 411",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 396,
+      "endSec": 796,
+      "durationSec": 400,
+      "topic": "Facebook heißt jetzt Meta",
+      "fineSubject": "Platform / Meta",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 797,
+      "endSec": 1837,
+      "durationSec": 1040,
+      "topic": "ID Wallet: Schwachstellen waren bekannt",
+      "fineSubject": "Application / ID Wallet",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1837,
+      "endSec": 2130,
+      "durationSec": 293,
+      "topic": "Pegasus gegen NYT-Journalist eingesetzt",
+      "fineSubject": "Tool / Pegasus",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2131,
+      "endSec": 2414,
+      "durationSec": 283,
+      "topic": "Vorratsdatensspeicherung",
+      "fineSubject": "Policy / Vorratsdatenspeicherung",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 2414,
+      "endSec": 3009,
+      "durationSec": 595,
+      "topic": "Facebook Files",
+      "fineSubject": "Data / Facebook Files",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3010,
+      "endSec": 3869,
+      "durationSec": 859,
+      "topic": "Drachenlord",
+      "fineSubject": "Individual / Drachenlord",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3869,
+      "endSec": 4833,
+      "durationSec": 964,
+      "topic": "Impfpässe",
+      "fineSubject": "Verification / Impfpass",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 4833,
+      "endSec": 5018,
+      "durationSec": 185,
+      "topic": "Klage gegen Staatstrojaner",
+      "fineSubject": "Technology / Staatstrojaner",
+      "topicIndex": 8
+    }
+  ]
+}

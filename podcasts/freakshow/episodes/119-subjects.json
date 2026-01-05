@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 119,
+  "title": "FS119 Stevemütterlich",
+  "generatedAt": "2026-01-05T15:17:51.074Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.17365172189733594,
+      "Software": 0.5183560753736193,
+      "Hardware": 0.08528265107212475,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.22270955165692008,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2138,
+      "Software": 6382,
+      "Hardware": 1050,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 2742,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 5,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12312,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 1012,
+      "endSec": 4226,
+      "durationSec": 3214,
+      "topic": "iOS 7",
+      "fineSubject": "iOS",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4226,
+      "endSec": 6364,
+      "durationSec": 2138,
+      "topic": "Multipath-TCP",
+      "fineSubject": "Multipath-TCP",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6364,
+      "endSec": 7414,
+      "durationSec": 1050,
+      "topic": "Touch ID",
+      "fineSubject": "Touch ID",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Events",
+      "startSec": 7414,
+      "endSec": 10156,
+      "durationSec": 2742,
+      "topic": "Event am 22.Oktober 2013",
+      "fineSubject": "Product Launch",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 10156,
+      "endSec": 10188,
+      "durationSec": 32,
+      "topic": "Logic Pro X",
+      "fineSubject": "Logic Pro X",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 10188,
+      "endSec": 11418,
+      "durationSec": 1230,
+      "topic": "Videoschnitt und iMovie",
+      "fineSubject": "Video Editing",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 12506,
+      "endSec": 13629,
+      "durationSec": 1123,
+      "topic": "App Empfehlungen",
+      "fineSubject": "App Recommendations",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 13629,
+      "endSec": 14412,
+      "durationSec": 783,
+      "topic": "Data Becker",
+      "fineSubject": "Data Becker",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 337,
+  "title": "LNP337 Die Häuser denen, die darin Sachen verkaufen",
+  "generatedAt": "2026-01-05T15:17:57.619Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.030938987451319774,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.02574643011683254,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.9433145824318477,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 143,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 119,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 4360,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4622,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 294,
+      "endSec": 352,
+      "durationSec": 58,
+      "topic": "Feedback: Lüftung",
+      "fineSubject": "Feedback / Lüftung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 353,
+      "endSec": 414,
+      "durationSec": 61,
+      "topic": "Feedback: Depressionsprävention",
+      "fineSubject": "Feedback / Depressionsprävention",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 415,
+      "endSec": 558,
+      "durationSec": 143,
+      "topic": "Feedback: Jitsi",
+      "fineSubject": "Feedback / Jitsi",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 558,
+      "endSec": 4918,
+      "durationSec": 4360,
+      "topic": "Wirtschaftliche Folgen der Corona-Krise",
+      "fineSubject": "Wirtschaftliche Folgen der Corona-Krise",
+      "topicIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 204,
+  "title": "LNP204 Factbook oder Fakebook, das ist hier die Frage",
+  "generatedAt": "2026-01-05T15:17:57.601Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.724694589877836,
+      "Technology": 0.015488656195462478,
+      "Law": 0.11474694589877836,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.03883071553228621,
+      "Health": 0,
+      "Feedback": 0.106239092495637,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3322,
+      "Technology": 71,
+      "Law": 526,
+      "Security": 0,
+      "Social": 0,
+      "Media": 178,
+      "Health": 0,
+      "Feedback": 487,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 2,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4584,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 246,
+      "endSec": 560,
+      "durationSec": 314,
+      "topic": "Feedback: Telekom-Router",
+      "fineSubject": "Telekom-Router",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 560,
+      "endSec": 733,
+      "durationSec": 173,
+      "topic": "Feedback: Daten sammeln und Wahlmanipulation",
+      "fineSubject": "Daten sammeln",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 734,
+      "endSec": 2474,
+      "durationSec": 1740,
+      "topic": "Wahlmanipulation & Fake News",
+      "fineSubject": "Fake News",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2474,
+      "endSec": 2614,
+      "durationSec": 140,
+      "topic": "Wahlmanipulation & Hacking",
+      "fineSubject": "Hacking",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2614,
+      "endSec": 3140,
+      "durationSec": 526,
+      "topic": "Landgericht Hamburg verbietet wieder Links",
+      "fineSubject": "Medienrecht",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3141,
+      "endSec": 4517,
+      "durationSec": 1376,
+      "topic": "e-privacy-Richtlinie der EU-Kommission",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4517,
+      "endSec": 4588,
+      "durationSec": 71,
+      "topic": "Neuer Yahoo-Rekord: 1 Milliarde",
+      "fineSubject": "Yahoo",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4589,
+      "endSec": 4655,
+      "durationSec": 66,
+      "topic": "Ströbele tritt nicht mehr an",
+      "fineSubject": "Wahlen",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 4911,
+      "endSec": 5089,
+      "durationSec": 178,
+      "topic": "Christian Streich über Facebook",
+      "fineSubject": "Facebook",
+      "topicIndex": 8
+    }
+  ]
+}

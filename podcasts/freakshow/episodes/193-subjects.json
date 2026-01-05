@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 193,
+  "title": "FS193 Erst Peitsche dann Zuckerbrot",
+  "generatedAt": "2026-01-05T15:17:51.090Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.35661462612982747,
+      "Software": 0,
+      "Hardware": 0.3032046014790468,
+      "Finance": 0,
+      "Media": 0.1948585514731776,
+      "Social": 0,
+      "Culture": 0.015142622373518018,
+      "Security": 0.06526587627655828,
+      "Events": 0.06491372226787182,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3038,
+      "Software": 0,
+      "Hardware": 2583,
+      "Finance": 0,
+      "Media": 1660,
+      "Social": 0,
+      "Culture": 129,
+      "Security": 556,
+      "Events": 553,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 9,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8519,
+    "totalTopics": 24
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 136,
+      "endSec": 265,
+      "durationSec": 129,
+      "topic": "Die Goldkante",
+      "fineSubject": "Art",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 265,
+      "endSec": 821,
+      "durationSec": 556,
+      "topic": "Passwörter an der Grenze",
+      "fineSubject": "Passwords",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Events",
+      "startSec": 822,
+      "endSec": 1375,
+      "durationSec": 553,
+      "topic": "Internationale Events",
+      "fineSubject": "International",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1666,
+      "endSec": 1750,
+      "durationSec": 84,
+      "topic": "WWDC",
+      "fineSubject": "WWDC",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1750,
+      "endSec": 1851,
+      "durationSec": 101,
+      "topic": "hukl hat jetzt auch ein MacBook Pro",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1852,
+      "endSec": 2069,
+      "durationSec": 217,
+      "topic": "MacBook Pro: Migration",
+      "fineSubject": "Migration",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2069,
+      "endSec": 2413,
+      "durationSec": 344,
+      "topic": "MacBook Pro: Tastatur",
+      "fineSubject": "Keyboard",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2413,
+      "endSec": 2845,
+      "durationSec": 432,
+      "topic": "MacBook Pro: TouchBar",
+      "fineSubject": "TouchBar",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2846,
+      "endSec": 3098,
+      "durationSec": 252,
+      "topic": "MacBook Pro: Touchpad",
+      "fineSubject": "Touchpad",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3098,
+      "endSec": 3391,
+      "durationSec": 293,
+      "topic": "MacBook Pro: Netzteil",
+      "fineSubject": "Power Supply",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3392,
+      "endSec": 3460,
+      "durationSec": 68,
+      "topic": "MacBook Pro: Akkulaufzeit",
+      "fineSubject": "Battery Life",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3461,
+      "endSec": 4052,
+      "durationSec": 591,
+      "topic": "MacBook Pro: USB-C",
+      "fineSubject": "USB-C",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4052,
+      "endSec": 4337,
+      "durationSec": 285,
+      "topic": "MacBook Pro: Fazit",
+      "fineSubject": "Conclusion",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 4338,
+      "endSec": 5998,
+      "durationSec": 1660,
+      "topic": "AirPods First Impressions",
+      "fineSubject": "AirPods",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5998,
+      "endSec": 6565,
+      "durationSec": 567,
+      "topic": "Hey Siri, Hallo Alexa",
+      "fineSubject": "Siri and Alexa",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7956,
+      "endSec": 9337,
+      "durationSec": 1381,
+      "topic": "Peak Apple: Feature Degraditis",
+      "fineSubject": "Apple Features",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11068,
+      "endSec": 12074,
+      "durationSec": 1006,
+      "topic": "Hopper",
+      "fineSubject": "Hopper",
+      "topicIndex": 20
+    }
+  ]
+}

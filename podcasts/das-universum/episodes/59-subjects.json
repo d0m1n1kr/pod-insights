@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 59,
+  "title": "DU059 - Cosmic Latte und das Weltraumwetter",
+  "generatedAt": "2026-01-05T15:18:22.099Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.6666666666666666,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0.3333333333333333,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 2,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 1,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Weltraumwetter",
+      "fineSubject": "Weltraumwetter",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einfluss der Sonne auf die Erde",
+      "fineSubject": "Sonne",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Literatur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bücher über Astronomie",
+      "fineSubject": "Astronomie",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

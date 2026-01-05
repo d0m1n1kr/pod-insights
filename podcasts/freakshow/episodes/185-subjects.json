@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 185,
+  "title": "FS185 Haltbares Wasser",
+  "generatedAt": "2026-01-05T15:17:51.088Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.8285994123408423,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.027097616715638262,
+      "Security": 0.14430297094351943,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 7614,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 249,
+      "Security": 1326,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 8,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9189,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 2777,
+      "endSec": 3417,
+      "durationSec": 640,
+      "topic": "Exploding Phones",
+      "fineSubject": "Phones / Exploding",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3417,
+      "endSec": 4481,
+      "durationSec": 1064,
+      "topic": "WLAN in Zügen und Flughäfen",
+      "fineSubject": "WLAN / Transportation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4482,
+      "endSec": 5521,
+      "durationSec": 1039,
+      "topic": "WLAN Call und Datentarife",
+      "fineSubject": "Datentarife / WLAN Call",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5521,
+      "endSec": 8415,
+      "durationSec": 2894,
+      "topic": "App Store Politics",
+      "fineSubject": "App Store / Politics",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8416,
+      "endSec": 8830,
+      "durationSec": 414,
+      "topic": "FreeBSD goes to 11",
+      "fineSubject": "FreeBSD / Version 11",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8830,
+      "endSec": 9707,
+      "durationSec": 877,
+      "topic": "Ethernet ist geil",
+      "fineSubject": "Ethernet / Technology",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9708,
+      "endSec": 10214,
+      "durationSec": 506,
+      "topic": "CallKit",
+      "fineSubject": "CallKit / VoIP",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 10214,
+      "endSec": 11540,
+      "durationSec": 1326,
+      "topic": "GlobalSign Fuckup und OCSP",
+      "fineSubject": "GlobalSign / OCSP",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13924,
+      "endSec": 14104,
+      "durationSec": 180,
+      "topic": "ISDN-Datencalls via VoIP",
+      "fineSubject": "ISDN / VoIP",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Culture",
+      "startSec": 14342,
+      "endSec": 14591,
+      "durationSec": 249,
+      "topic": "Wissenswertes über Schweden",
+      "fineSubject": "Schweden / Wissenswertes",
+      "topicIndex": 19
+    }
+  ]
+}

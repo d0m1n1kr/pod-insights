@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 192,
+  "title": "LNP192 Viele Datenköche verderben die Demokratie",
+  "generatedAt": "2026-01-05T15:17:57.599Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9017108938547486,
+      "Technology": 0.0982891061452514,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5165,
+      "Technology": 563,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5728,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 551,
+      "endSec": 808,
+      "durationSec": 257,
+      "topic": "Snowden im NSA/UA: Antrag beim Bundesgerichtshof",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 809,
+      "endSec": 1372,
+      "durationSec": 563,
+      "topic": "WhatsApp und die Telefonnummern",
+      "fineSubject": "Messaging",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1372,
+      "endSec": 6280,
+      "durationSec": 4908,
+      "topic": "Die Datentöpfe der EU",
+      "fineSubject": "Data Regulation",
+      "topicIndex": 2
+    }
+  ]
+}

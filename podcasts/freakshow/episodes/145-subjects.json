@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 145,
+  "title": "FS145 Mülltonne rechts unten",
+  "generatedAt": "2026-01-05T15:17:51.078Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.08264119601328904,
+      "Software": 0,
+      "Hardware": 0.6701273532668881,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.2472314507198228,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 597,
+      "Software": 0,
+      "Hardware": 4841,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1786,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7224,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 4364,
+      "endSec": 5153,
+      "durationSec": 789,
+      "topic": "Reise-Hardware",
+      "fineSubject": "Travel Gear",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5153,
+      "endSec": 5750,
+      "durationSec": 597,
+      "topic": "Jahreszeits-Gadgets",
+      "fineSubject": "Seasonal",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 8942,
+      "endSec": 10728,
+      "durationSec": 1786,
+      "topic": "Sterben im Netz",
+      "fineSubject": "Online Presence",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11431,
+      "endSec": 15483,
+      "durationSec": 4052,
+      "topic": "Mac",
+      "fineSubject": "Mac",
+      "topicIndex": 6
+    }
+  ]
+}

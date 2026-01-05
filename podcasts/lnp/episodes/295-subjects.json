@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 295,
+  "title": "LNP295 Nicht die beste Wohnlage",
+  "generatedAt": "2026-01-05T15:17:57.612Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.8010279001468429,
+      "Technology": 0.06534508076358296,
+      "Law": 0.07958883994126285,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.035682819383259914,
+      "Health": 0.018355359765051395,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5455,
+      "Technology": 445,
+      "Law": 542,
+      "Security": 0,
+      "Social": 0,
+      "Media": 243,
+      "Health": 125,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6810,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 219,
+      "endSec": 262,
+      "durationSec": 43,
+      "topic": "LNP300",
+      "fineSubject": "Podcast",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 263,
+      "endSec": 467,
+      "durationSec": 204,
+      "topic": "Feedback: Ungültige Stimme",
+      "fineSubject": "Voting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 468,
+      "endSec": 593,
+      "durationSec": 125,
+      "topic": "Feedback: Sensitivität und Spezifität",
+      "fineSubject": "Statistics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 593,
+      "endSec": 1135,
+      "durationSec": 542,
+      "topic": "Ermittlungen gegen ZPS eingestellt",
+      "fineSubject": "Investigations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1135,
+      "endSec": 6039,
+      "durationSec": 4904,
+      "topic": "Julian Assange",
+      "fineSubject": "Activism",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6040,
+      "endSec": 6387,
+      "durationSec": 347,
+      "topic": "Österreich: Klarnamenpflicht",
+      "fineSubject": "Regulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 6387,
+      "endSec": 6587,
+      "durationSec": 200,
+      "topic": "DNS-Sperren durch GEMA",
+      "fineSubject": "Censorship",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6588,
+      "endSec": 7033,
+      "durationSec": 445,
+      "topic": "Digital-o-mat für Europawahl",
+      "fineSubject": "Voting Tools",
+      "topicIndex": 7
+    }
+  ]
+}

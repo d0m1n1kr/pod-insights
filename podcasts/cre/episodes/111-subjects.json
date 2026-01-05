@@ -1,0 +1,214 @@
+{
+  "episodeNumber": 111,
+  "title": "CRE111 MediaWiki",
+  "generatedAt": "2026-01-05T15:17:54.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.875,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0.125,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 14,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 2,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Eigenschaften von MediaWiki",
+      "fineSubject": "Content Management",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Syntax von MediaWiki",
+      "fineSubject": "Markup Language",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Namespaces in MediaWiki",
+      "fineSubject": "Data Organization",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wikimedia Commons",
+      "fineSubject": "Image Repository",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Single Unified Login (SUL)",
+      "fineSubject": "User Authentication",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Stabile Versionen von MediaWiki",
+      "fineSubject": "Version Control",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Benutzerrechte in MediaWiki",
+      "fineSubject": "Access Control",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Templates in MediaWiki",
+      "fineSubject": "Content Reusability",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Begriffsklärungsseite",
+      "fineSubject": "Information Structure",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Weiterleitungsseiten in MediaWiki",
+      "fineSubject": "Navigation",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Artikel verschieben in MediaWiki",
+      "fineSubject": "Content Management",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rich Editing in MediaWiki",
+      "fineSubject": "Editing Tools",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mobile Version von MediaWiki",
+      "fineSubject": "Mobile Development",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Skins in MediaWiki",
+      "fineSubject": "User Interface",
+      "topicIndex": 14,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lokalisierung in MediaWiki",
+      "fineSubject": "Internationalization",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "MediaWiki Extensions",
+      "fineSubject": "Functionality Enhancement",
+      "topicIndex": 16,
+      "untimed": true
+    }
+  ]
+}

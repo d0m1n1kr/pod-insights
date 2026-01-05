@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 109,
+  "title": "RZ109 Quantentechnologie für die Raumfahrt",
+  "generatedAt": "2026-01-05T15:18:06.289Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.3510955529625308,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0.4627252690263192,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0.18617917801115,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 2708,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 3569,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 1436,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 2,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 2,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 1,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 7713,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": 14,
+      "endSec": 739,
+      "durationSec": 725,
+      "topic": "Entwicklung neuer Technologien für die Raumfahrt",
+      "fineSubject": "Technologieentwicklung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Forschung",
+      "startSec": 14,
+      "endSec": 1450,
+      "durationSec": 1436,
+      "topic": "Forschungseinrichtungen des DLR im Bereich Quantenmechanik",
+      "fineSubject": "DLR",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 76,
+      "endSec": 1450,
+      "durationSec": 1374,
+      "topic": "Einfluss von Quantenmechanik auf irdische Technologien",
+      "fineSubject": "Anwendungen",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 80,
+      "endSec": 2275,
+      "durationSec": 2195,
+      "topic": "Quantenmechanische Eigenschaften in Technologien",
+      "fineSubject": "Quantenmechanik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 771,
+      "endSec": 2754,
+      "durationSec": 1983,
+      "topic": "Genauere Mess- und Steuerinstrumente",
+      "fineSubject": "Messinstrumente",
+      "topicIndex": 2
+    }
+  ]
+}

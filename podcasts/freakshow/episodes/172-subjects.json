@@ -1,0 +1,243 @@
+{
+  "episodeNumber": 172,
+  "title": "FS172 Sendeeinsatzkommando",
+  "generatedAt": "2026-01-05T15:17:51.085Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.026688534367079172,
+      "Software": 0.15685105114059938,
+      "Hardware": 0.13754286566274043,
+      "Finance": 0.055613538094528105,
+      "Media": 0.519159087520501,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.10414492321455196,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 358,
+      "Software": 2104,
+      "Hardware": 1845,
+      "Finance": 746,
+      "Media": 6964,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1397,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 3,
+      "Hardware": 4,
+      "Finance": 1,
+      "Media": 10,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13414,
+    "totalTopics": 25
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 1388,
+      "endSec": 1834,
+      "durationSec": 446,
+      "topic": "iPod touch und Ständersysteme",
+      "fineSubject": "iPod touch",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 2418,
+      "endSec": 3714,
+      "durationSec": 1296,
+      "topic": "Mac Clean Install",
+      "fineSubject": "Mac Clean Install",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3714,
+      "endSec": 5111,
+      "durationSec": 1397,
+      "topic": "Apple vs. FBI",
+      "fineSubject": "Apple vs. FBI",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 5111,
+      "endSec": 6053,
+      "durationSec": 942,
+      "topic": "Filme",
+      "fineSubject": "Filme",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 6054,
+      "endSec": 7184,
+      "durationSec": 1130,
+      "topic": "Eisenbahnunfall von Bad Aibling",
+      "fineSubject": "Eisenbahnunfall",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 7185,
+      "endSec": 7931,
+      "durationSec": 746,
+      "topic": "Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 7932,
+      "endSec": 9431,
+      "durationSec": 1499,
+      "topic": "Podcasts Connect",
+      "fineSubject": "Podcasts",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 9431,
+      "endSec": 9524,
+      "durationSec": 93,
+      "topic": "Swift 2.2",
+      "fineSubject": "Swift",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9525,
+      "endSec": 9773,
+      "durationSec": 248,
+      "topic": "www. is not deprecated",
+      "fineSubject": "www",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9773,
+      "endSec": 10875,
+      "durationSec": 1102,
+      "topic": "Mobiles Headset-Setup",
+      "fineSubject": "Mobiles Headset",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 11672,
+      "endSec": 12657,
+      "durationSec": 985,
+      "topic": "Star Wars",
+      "fineSubject": "Star Wars",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 12657,
+      "endSec": 12824,
+      "durationSec": 167,
+      "topic": "Tex Montana Will Survive",
+      "fineSubject": "Tex Montana",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 12825,
+      "endSec": 13034,
+      "durationSec": 209,
+      "topic": "All Creatures Welcome",
+      "fineSubject": "All Creatures Welcome",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 13035,
+      "endSec": 13614,
+      "durationSec": 579,
+      "topic": "23 - Nichts ist so wie es scheint",
+      "fineSubject": "Nichts ist so wie es scheint",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 13615,
+      "endSec": 14150,
+      "durationSec": 535,
+      "topic": "Gutes Wedding, schlechtes Wedding",
+      "fineSubject": "Gutes Wedding",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Media",
+      "startSec": 14150,
+      "endSec": 14831,
+      "durationSec": 681,
+      "topic": "Ok Go Upside down & Inside out",
+      "fineSubject": "Ok Go",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 14832,
+      "endSec": 14977,
+      "durationSec": 145,
+      "topic": "Technoline BC1000",
+      "fineSubject": "Technoline BC1000",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Software",
+      "startSec": 14978,
+      "endSec": 15693,
+      "durationSec": 715,
+      "topic": "Vector Software",
+      "fineSubject": "Vector Software",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 15693,
+      "endSec": 15845,
+      "durationSec": 152,
+      "topic": "Force Touch",
+      "fineSubject": "Force Touch",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15943,
+      "endSec": 16053,
+      "durationSec": 110,
+      "topic": "Der Eier-Entscheidungs-Computer",
+      "fineSubject": "Eier-Entscheidungs-Computer",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Media",
+      "startSec": 16053,
+      "endSec": 16290,
+      "durationSec": 237,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 24
+    }
+  ]
+}

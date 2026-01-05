@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 187,
+  "title": "FS187 Knüppelgrätsche richtig geil",
+  "generatedAt": "2026-01-05T15:17:51.089Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7532628370010479,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.008764408878727255,
+      "Media": 0.07802229208345242,
+      "Social": 0,
+      "Culture": 0.04896637134419358,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.11098409069257884
+    },
+    "durations": {
+      "Technology": 7907,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 92,
+      "Media": 819,
+      "Social": 0,
+      "Culture": 514,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1165
+    },
+    "topicCounts": {
+      "Technology": 13,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 2
+    },
+    "totalDurationSec": 10497,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 2040,
+      "endSec": 2554,
+      "durationSec": 514,
+      "topic": "Weißwurstäquator",
+      "fineSubject": "Geography",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2555,
+      "endSec": 2924,
+      "durationSec": 369,
+      "topic": "LNP200",
+      "fineSubject": "Networking",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 2925,
+      "endSec": 3646,
+      "durationSec": 721,
+      "topic": "33C3",
+      "fineSubject": "Conference",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3646,
+      "endSec": 4092,
+      "durationSec": 446,
+      "topic": "Ticketingsysteme",
+      "fineSubject": "Ticketing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Event",
+      "startSec": 4092,
+      "endSec": 4536,
+      "durationSec": 444,
+      "topic": "Event für Musikfreunde",
+      "fineSubject": "Music",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4537,
+      "endSec": 5132,
+      "durationSec": 595,
+      "topic": "Emojis und Gitarren",
+      "fineSubject": "Emojis",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5132,
+      "endSec": 5677,
+      "durationSec": 545,
+      "topic": "USB-C Adaptersituation",
+      "fineSubject": "USB-C",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5677,
+      "endSec": 6517,
+      "durationSec": 840,
+      "topic": "TouchBar und Tastatur",
+      "fineSubject": "Hardware",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6518,
+      "endSec": 7129,
+      "durationSec": 611,
+      "topic": "Presonus FaderPort",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7130,
+      "endSec": 7233,
+      "durationSec": 103,
+      "topic": "Thunderbolt PCI",
+      "fineSubject": "Connectivity",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7233,
+      "endSec": 7639,
+      "durationSec": 406,
+      "topic": "Facehugger",
+      "fineSubject": "Hardware",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7640,
+      "endSec": 8032,
+      "durationSec": 392,
+      "topic": "Hackintosh",
+      "fineSubject": "Computing",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8032,
+      "endSec": 9204,
+      "durationSec": 1172,
+      "topic": "iFixit Pro Tech Toolkit",
+      "fineSubject": "Tools",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9205,
+      "endSec": 11169,
+      "durationSec": 1964,
+      "topic": "Licht- und Heizungsautomatisierung",
+      "fineSubject": "Automation",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 11169,
+      "endSec": 11988,
+      "durationSec": 819,
+      "topic": "GEMA und YouTube",
+      "fineSubject": "Copyright",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11989,
+      "endSec": 12408,
+      "durationSec": 419,
+      "topic": "Refraktometer App",
+      "fineSubject": "Apps",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12408,
+      "endSec": 12500,
+      "durationSec": 92,
+      "topic": "Bitcoin Update",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12500,
+      "endSec": 12545,
+      "durationSec": 45,
+      "topic": "ZFS Update",
+      "fineSubject": "File Systems",
+      "topicIndex": 18
+    }
+  ]
+}

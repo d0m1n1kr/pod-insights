@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 119,
+  "title": "UKW119 Ukraine: Aquatische Wolfsrudel",
+  "generatedAt": "2026-01-05T15:18:03.030Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.15691901509498937,
+      "Military": 0.5792343454054985,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0.26384663949951215,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2734,
+      "Military": 10092,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 4597,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 2,
+      "Military": 11,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 17423,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 331,
+      "endSec": 1180,
+      "durationSec": 849,
+      "topic": "Die Russische Winter-Bodenoffensive",
+      "fineSubject": "Russian Winter Ground Offensive",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 1181,
+      "endSec": 1644,
+      "durationSec": 463,
+      "topic": "Russischer Luftkrieg",
+      "fineSubject": "Russian Air War",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 1644,
+      "endSec": 3468,
+      "durationSec": 1824,
+      "topic": "Ukrainischer Luftkrieg",
+      "fineSubject": "Ukrainian Air War",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 3469,
+      "endSec": 3848,
+      "durationSec": 379,
+      "topic": "Der Dnipro-Brückenkopf in Krynky",
+      "fineSubject": "Dnipro Bridgehead in Krynky",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 3848,
+      "endSec": 4873,
+      "durationSec": 1025,
+      "topic": "Der Seekrieg im Schwarzen Meer",
+      "fineSubject": "Naval Warfare in the Black Sea",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 4874,
+      "endSec": 5327,
+      "durationSec": 453,
+      "topic": "Angriffe auf russische Infrastruktur",
+      "fineSubject": "Attacks on Russian Infrastructure",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 5327,
+      "endSec": 6263,
+      "durationSec": 936,
+      "topic": "Russische Infrastrukturprobleme",
+      "fineSubject": "Russian Infrastructure Problems",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 6264,
+      "endSec": 7808,
+      "durationSec": 1544,
+      "topic": "Aufrüstung der Ukraine",
+      "fineSubject": "Ukraine's Armament",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 7809,
+      "endSec": 8313,
+      "durationSec": 504,
+      "topic": "Umbau der Ukrainischen Streitkräfte",
+      "fineSubject": "Reorganization of Ukrainian Armed Forces",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Travel",
+      "startSec": 8313,
+      "endSec": 12910,
+      "durationSec": 4597,
+      "topic": "Reise in die Ukraine",
+      "fineSubject": "Travel to Ukraine",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 12910,
+      "endSec": 14322,
+      "durationSec": 1412,
+      "topic": "Die Politik des Westens",
+      "fineSubject": "Western Politics",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Military",
+      "startSec": 14323,
+      "endSec": 15219,
+      "durationSec": 896,
+      "topic": "Was kann Taurus?",
+      "fineSubject": "Capabilities of Taurus",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Military",
+      "startSec": 15219,
+      "endSec": 16438,
+      "durationSec": 1219,
+      "topic": "Die abgehörte Bundeswehr-Telefonkonferenz",
+      "fineSubject": "Intercepted Bundeswehr Conference Call",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 16438,
+      "endSec": 17760,
+      "durationSec": 1322,
+      "topic": "Die Taurus-Debatte und die Scholz-Isolation",
+      "fineSubject": "Taurus Debate and Scholz Isolation",
+      "topicIndex": 13
+    }
+  ]
+}

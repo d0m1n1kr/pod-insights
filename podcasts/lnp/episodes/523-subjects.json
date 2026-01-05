@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 523,
+  "title": "LNP523 200 Prozent auf Segen",
+  "generatedAt": "2026-01-05T15:17:57.644Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5751353790613718,
+      "Technology": 0.365072202166065,
+      "Law": 0.05979241877256318,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2549,
+      "Technology": 1618,
+      "Law": 265,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4432,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 540,
+      "endSec": 1318,
+      "durationSec": 778,
+      "topic": "Überwachungsgesamtrechnung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1318,
+      "endSec": 1583,
+      "durationSec": 265,
+      "topic": "NSO: Schadenersatz an Meta",
+      "fineSubject": "Compensation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1584,
+      "endSec": 1941,
+      "durationSec": 357,
+      "topic": "Schweiz: Überwachung des Post- und Fernmeldeverkehrs",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1941,
+      "endSec": 2767,
+      "durationSec": 826,
+      "topic": "Apple vs Epic",
+      "fineSubject": "Legal Disputes",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2768,
+      "endSec": 3560,
+      "durationSec": 792,
+      "topic": "Google Search Engine Default",
+      "fineSubject": "Search Engines",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3560,
+      "endSec": 4048,
+      "durationSec": 488,
+      "topic": "USA: Signal-Affäre",
+      "fineSubject": "Scandals",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4049,
+      "endSec": 4975,
+      "durationSec": 926,
+      "topic": "Digitalministerium",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 6
+    }
+  ]
+}

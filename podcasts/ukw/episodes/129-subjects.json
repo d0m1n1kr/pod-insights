@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 129,
+  "title": "UKW129 Trump im Porzellanladen",
+  "generatedAt": "2026-01-05T15:18:03.034Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.9319032682383892,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.06809673176161085,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 9210,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 673,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 15,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9883,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 240,
+      "endSec": 670,
+      "durationSec": 430,
+      "topic": "USA Außenpolitik: Kanada und Mexiko",
+      "fineSubject": "Foreign Policy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 671,
+      "endSec": 813,
+      "durationSec": 142,
+      "topic": "USA Außenpolitik: Handelskriege und Annexionen",
+      "fineSubject": "Foreign Policy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 813,
+      "endSec": 1098,
+      "durationSec": 285,
+      "topic": "USA Außenpolitik: Panama und Gaza",
+      "fineSubject": "Foreign Policy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1098,
+      "endSec": 1540,
+      "durationSec": 442,
+      "topic": "USA Außenpolitik: Taiwan",
+      "fineSubject": "Foreign Policy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1541,
+      "endSec": 1652,
+      "durationSec": 111,
+      "topic": "USA Außenpolitik: EU und andere Länder",
+      "fineSubject": "Foreign Policy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1652,
+      "endSec": 1712,
+      "durationSec": 60,
+      "topic": "USA Außenpolitik: NATO, Ukraine und Rußland",
+      "fineSubject": "Foreign Policy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1713,
+      "endSec": 2423,
+      "durationSec": 710,
+      "topic": "Verhandlungen mit Rußland und NATO",
+      "fineSubject": "Foreign Policy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2423,
+      "endSec": 3735,
+      "durationSec": 1312,
+      "topic": "USA: Demontage des Staates",
+      "fineSubject": "Domestic Policy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3736,
+      "endSec": 4680,
+      "durationSec": 944,
+      "topic": "Folgen für die USA",
+      "fineSubject": "Domestic Policy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Economics",
+      "startSec": 4681,
+      "endSec": 5354,
+      "durationSec": 673,
+      "topic": "Folgen für die US-Waffenindustrie",
+      "fineSubject": "Defense Industry",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5355,
+      "endSec": 6270,
+      "durationSec": 915,
+      "topic": "Folgen für Europa",
+      "fineSubject": "Foreign Policy",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6271,
+      "endSec": 6621,
+      "durationSec": 350,
+      "topic": "Run auf eigene Atomwaffen",
+      "fineSubject": "Nuclear Policy",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6622,
+      "endSec": 7718,
+      "durationSec": 1096,
+      "topic": "Deutschland nach der Wahl",
+      "fineSubject": "Domestic Politics",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7718,
+      "endSec": 8992,
+      "durationSec": 1274,
+      "topic": "Situation der Ukraine",
+      "fineSubject": "Conflict",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8993,
+      "endSec": 9798,
+      "durationSec": 805,
+      "topic": "Friedenstruppen in der Ukraine",
+      "fineSubject": "Military Operations",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9798,
+      "endSec": 10132,
+      "durationSec": 334,
+      "topic": "Reaktionen in Russland",
+      "fineSubject": "International Relations",
+      "topicIndex": 15
+    }
+  ]
+}

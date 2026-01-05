@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 201,
+  "title": "CRE201 Höhlenforschung",
+  "generatedAt": "2026-01-05T15:17:54.392Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.2909308829404714,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.7090691170595286,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 3641,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 8874,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 1,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 2,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 12515,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": 62,
+      "endSec": 6019,
+      "durationSec": 5957,
+      "topic": "Technologien in der Höhlenforschung",
+      "fineSubject": "Messmethoden",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 62,
+      "endSec": 3703,
+      "durationSec": 3641,
+      "topic": "Persönlicher Wert der Höhlenforschung",
+      "fineSubject": "Hobby",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 4252,
+      "endSec": 7169,
+      "durationSec": 2917,
+      "topic": "Fortschritte in Abseil- und Lichttechnik",
+      "fineSubject": "Ausrüstung",
+      "topicIndex": 4
+    }
+  ]
+}

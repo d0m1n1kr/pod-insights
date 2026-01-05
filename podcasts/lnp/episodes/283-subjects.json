@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 283,
+  "title": "LNP283 23bonobo42",
+  "generatedAt": "2026-01-05T15:17:57.611Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.07031867263629181,
+      "Technology": 0.2857519094021596,
+      "Law": 0.1919936792204372,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.10534632604687912,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.34658941269423227,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 267,
+      "Technology": 1085,
+      "Law": 729,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 400,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1316,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 2,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 3797,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 169,
+      "endSec": 421,
+      "durationSec": 252,
+      "topic": "Feedback: aus den Sitzungen",
+      "fineSubject": "Sessions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 421,
+      "endSec": 569,
+      "durationSec": 148,
+      "topic": "Feedback: Anti-Antifa-Liste",
+      "fineSubject": "Anti-Antifa",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 570,
+      "endSec": 1096,
+      "durationSec": 526,
+      "topic": "EU-Urheberrechtsrefom",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1097,
+      "endSec": 1758,
+      "durationSec": 661,
+      "topic": "Seehofer macht Datenbank",
+      "fineSubject": "Database",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2900,
+      "endSec": 3990,
+      "durationSec": 1090,
+      "topic": "MAC-Adressen-Fahndung",
+      "fineSubject": "Tracking",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3991,
+      "endSec": 4217,
+      "durationSec": 226,
+      "topic": "Erstmals weniger TKÜ",
+      "fineSubject": "Telecommunication",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4772,
+      "endSec": 4975,
+      "durationSec": 203,
+      "topic": "Digitales Vermummungsverbot in Österreich",
+      "fineSubject": "Privacy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5044,
+      "endSec": 5468,
+      "durationSec": 424,
+      "topic": "Telekom darf Glasfaser der Konkurrenz drosseln",
+      "fineSubject": "Internet Access",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5468,
+      "endSec": 5550,
+      "durationSec": 82,
+      "topic": "Bundespräsident hört Metaebene",
+      "fineSubject": "Media",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5550,
+      "endSec": 5735,
+      "durationSec": 185,
+      "topic": "Trump und Brexit",
+      "fineSubject": "International Relations",
+      "topicIndex": 12
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 234,
+  "title": "Mi234 – „Genitale Unzulänglichkeit“",
+  "generatedAt": "2026-01-05T15:18:17.376Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.30465341735336887,
+      "Culture": 0.4025690741638391,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.29277750848279205,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1257,
+      "Culture": 1661,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1208,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4126,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 352,
+      "endSec": 864,
+      "durationSec": 512,
+      "topic": "US Toaster",
+      "fineSubject": "Kitchen Appliances",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 864,
+      "endSec": 1560,
+      "durationSec": 696,
+      "topic": "Porsche und Pimmel",
+      "fineSubject": "Porsche",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1715,
+      "endSec": 2432,
+      "durationSec": 717,
+      "topic": "Zeit- vs. Frequenzdomäne",
+      "fineSubject": "Signal Processing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2499,
+      "endSec": 2990,
+      "durationSec": 491,
+      "topic": "Themen der Woche und Last of Us",
+      "fineSubject": "Video Games",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2990,
+      "endSec": 4160,
+      "durationSec": 1170,
+      "topic": "Thema 1: “One Eight Seven Pilzpate!”",
+      "fineSubject": "Gaming",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4160,
+      "endSec": 4700,
+      "durationSec": 540,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6306,
+      "endSec": 6306,
+      "durationSec": 0,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 8
+    }
+  ]
+}

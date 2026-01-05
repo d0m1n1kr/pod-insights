@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 69,
+  "title": "CRE069 Der Mac OS X Kernel",
+  "generatedAt": "2026-01-05T15:17:54.371Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 1,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 6,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Überblick über den Mac OS X Kernel",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Eigenschaften von Darwin",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Unterschiede zu anderen UNIX-Systemen",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mythen und Gerüchte über Darwin",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Struktur und Komponenten von Darwin",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hauptunterschiede des Mac OS X Kernels",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

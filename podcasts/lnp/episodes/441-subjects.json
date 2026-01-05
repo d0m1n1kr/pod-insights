@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 441,
+  "title": "LNP441 Das prüfen wir im Frontend",
+  "generatedAt": "2026-01-05T15:17:57.634Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.28335668690643,
+      "Technology": 0.11848046084384244,
+      "Law": 0.39109450412579794,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.05371321812237272,
+      "Health": 0.09497119725984743,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.058383932741709485
+    },
+    "durations": {
+      "Politics": 1820,
+      "Technology": 761,
+      "Law": 2512,
+      "Security": 0,
+      "Social": 0,
+      "Media": 345,
+      "Health": 610,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 375
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 6423,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 85,
+      "endSec": 460,
+      "durationSec": 375,
+      "topic": "Frida Kahlo",
+      "fineSubject": "Art",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 461,
+      "endSec": 1222,
+      "durationSec": 761,
+      "topic": "Feedback: VPN und Co.",
+      "fineSubject": "VPN",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1222,
+      "endSec": 1585,
+      "durationSec": 363,
+      "topic": "Feedback: Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1586,
+      "endSec": 1931,
+      "durationSec": 345,
+      "topic": "Poschardt und Döpfner wollen Twitter für Elon Musk managen",
+      "fineSubject": "Social Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1931,
+      "endSec": 3533,
+      "durationSec": 1602,
+      "topic": "EU-Besuch",
+      "fineSubject": "International Relations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3534,
+      "endSec": 5683,
+      "durationSec": 2149,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5683,
+      "endSec": 6082,
+      "durationSec": 399,
+      "topic": "e-Rezept",
+      "fineSubject": "Digital Health",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 6083,
+      "endSec": 6294,
+      "durationSec": 211,
+      "topic": "European Health Data Space",
+      "fineSubject": "Data Management",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6294,
+      "endSec": 6512,
+      "durationSec": 218,
+      "topic": "Faschisten",
+      "fineSubject": "Extremism",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 298,
+  "title": "FS298 Eine gute Zeit mit Druckern",
+  "generatedAt": "2026-01-05T15:17:51.122Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4655350276657601,
+      "Software": 0.07390040326362186,
+      "Hardware": 0.15061427365656946,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.30995029541404856,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4964,
+      "Software": 788,
+      "Hardware": 1606,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 3305,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 2,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10663,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 117,
+      "endSec": 794,
+      "durationSec": 677,
+      "topic": "Telefon Hirmondo",
+      "fineSubject": "Hirmondo",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 795,
+      "endSec": 4677,
+      "durationSec": 3882,
+      "topic": "State of Apple",
+      "fineSubject": "Apple",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 6907,
+      "endSec": 7602,
+      "durationSec": 695,
+      "topic": "Fediverse Day Berlin",
+      "fineSubject": "Fediverse",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 7602,
+      "endSec": 10212,
+      "durationSec": 2610,
+      "topic": "BlueSky and the ATmosphere",
+      "fineSubject": "BlueSky",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 10213,
+      "endSec": 10624,
+      "durationSec": 411,
+      "topic": "MastoWall 2.0",
+      "fineSubject": "MastoWall",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 10624,
+      "endSec": 11001,
+      "durationSec": 377,
+      "topic": "Vibe Coding",
+      "fineSubject": "Vibe Coding",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11001,
+      "endSec": 11406,
+      "durationSec": 405,
+      "topic": "NextCloud",
+      "fineSubject": "NextCloud",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11569,
+      "endSec": 11973,
+      "durationSec": 404,
+      "topic": "Raspberri Pi 500+",
+      "fineSubject": "Raspberry Pi",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11973,
+      "endSec": 13175,
+      "durationSec": 1202,
+      "topic": "Open Printer",
+      "fineSubject": "Printers",
+      "topicIndex": 11
+    }
+  ]
+}

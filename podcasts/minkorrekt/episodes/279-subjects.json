@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 279,
+  "title": "Mi279 – \"Raubmöwe\"",
+  "generatedAt": "2026-01-05T15:18:17.381Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.35835496107007386,
+      "Culture": 0.2922739069674586,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.03473747254941106,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.2687163106408465,
+      "Social": 0.04591734877221002,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1795,
+      "Culture": 1464,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 174,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1346,
+      "Social": 230,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 2,
+      "Social": 2,
+      "Biology": 0
+    },
+    "totalDurationSec": 5009,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Education",
+      "startSec": 1518,
+      "endSec": 2373,
+      "durationSec": 855,
+      "topic": "Schülergruppen",
+      "fineSubject": "Student Groups",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 2373,
+      "endSec": 2481,
+      "durationSec": 108,
+      "topic": "Vortrag Nobelpreise 2023",
+      "fineSubject": "Nobel Prizes",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 3016,
+      "endSec": 3048,
+      "durationSec": 32,
+      "topic": "Kommentare",
+      "fineSubject": "Comments",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3048,
+      "endSec": 3246,
+      "durationSec": 198,
+      "topic": "Zionismus",
+      "fineSubject": "Zionism",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3246,
+      "endSec": 3420,
+      "durationSec": 174,
+      "topic": "Be my eyes",
+      "fineSubject": "Assistive Tech",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3420,
+      "endSec": 3624,
+      "durationSec": 204,
+      "topic": "Gray",
+      "fineSubject": "Gray",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3624,
+      "endSec": 4266,
+      "durationSec": 642,
+      "topic": "Woanders ist auch scheiße!",
+      "fineSubject": "Social Commentary",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 4266,
+      "endSec": 5953,
+      "durationSec": 1687,
+      "topic": "Thema 1: “No sleep till hatching”",
+      "fineSubject": "Development",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Education",
+      "startSec": 5953,
+      "endSec": 6444,
+      "durationSec": 491,
+      "topic": "Snackable Science",
+      "fineSubject": "Science Communication",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7824,
+      "endSec": 8442,
+      "durationSec": 618,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 11
+    }
+  ]
+}

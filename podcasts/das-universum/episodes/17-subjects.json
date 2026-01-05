@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 17,
+  "title": "DU017 - Tanzende Planeten und die älteste Geschichte der Welt",
+  "generatedAt": "2026-01-05T15:18:22.091Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.6,
+      "Raumfahrt": 0,
+      "Kultur": 0.2,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.2,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 0,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 1,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "tanzende Planeten",
+      "fineSubject": "Planeten",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Plejaden",
+      "fineSubject": "Sternengruppen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mythen der Plejaden",
+      "fineSubject": "Mythologie",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sternbewegung",
+      "fineSubject": "Sternenbewegung",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "dunkle Materie",
+      "fineSubject": "Kosmologie",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

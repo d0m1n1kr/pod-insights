@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 333,
+  "title": "LNP333 Royal ohne Käse",
+  "generatedAt": "2026-01-05T15:17:57.618Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6088183421516755,
+      "Technology": 0.20811287477954143,
+      "Law": 0.06313932980599647,
+      "Security": 0,
+      "Social": 0.030335097001763667,
+      "Media": 0,
+      "Health": 0.07037037037037037,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.019223985890652558,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3452,
+      "Technology": 1180,
+      "Law": 358,
+      "Security": 0,
+      "Social": 172,
+      "Media": 0,
+      "Health": 399,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 109,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 7,
+      "Technology": 4,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5670,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 408,
+      "endSec": 673,
+      "durationSec": 265,
+      "topic": "Feedback: Assange & Roger Stone",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 674,
+      "endSec": 1026,
+      "durationSec": 352,
+      "topic": "Feedback: Chelsea Manning",
+      "fineSubject": "Feedback",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1026,
+      "endSec": 1110,
+      "durationSec": 84,
+      "topic": "Grenell bleibt doch in Berlin",
+      "fineSubject": "Diplomacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 1110,
+      "endSec": 1282,
+      "durationSec": 172,
+      "topic": "Hanau",
+      "fineSubject": "Crime",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 1283,
+      "endSec": 1641,
+      "durationSec": 358,
+      "topic": "Passwort-Herausgabe",
+      "fineSubject": "Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1641,
+      "endSec": 3416,
+      "durationSec": 1775,
+      "topic": "Assange Anhörung",
+      "fineSubject": "Legal",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3416,
+      "endSec": 4190,
+      "durationSec": 774,
+      "topic": "Russian Meddling",
+      "fineSubject": "International Relations",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4191,
+      "endSec": 4794,
+      "durationSec": 603,
+      "topic": "LSR Dauerfail",
+      "fineSubject": "Legislation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4794,
+      "endSec": 4963,
+      "durationSec": 169,
+      "topic": "Frontex vs. Fragdenstaat",
+      "fineSubject": "Transparency",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4963,
+      "endSec": 5362,
+      "durationSec": 399,
+      "topic": "Corona.xslm",
+      "fineSubject": "Pandemic",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5363,
+      "endSec": 5396,
+      "durationSec": 33,
+      "topic": "CDU gegen Verkürzung der Mindestvertragslaufzeiten",
+      "fineSubject": "Legislation",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Business",
+      "startSec": 5397,
+      "endSec": 5506,
+      "durationSec": 109,
+      "topic": "Huawei zu entfernen wird völlig überraschend teuer",
+      "fineSubject": "Technology",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5506,
+      "endSec": 5622,
+      "durationSec": 116,
+      "topic": "Hackerbericht: WiFi",
+      "fineSubject": "Security",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5623,
+      "endSec": 5769,
+      "durationSec": 146,
+      "topic": "Hackerbericht: Clearview",
+      "fineSubject": "Security",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5769,
+      "endSec": 6084,
+      "durationSec": 315,
+      "topic": "Gesichtserkennung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 15
+    }
+  ]
+}

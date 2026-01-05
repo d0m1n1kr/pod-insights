@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 277,
+  "title": "FS277 Das goldene Zugpferd",
+  "generatedAt": "2026-01-05T15:17:51.118Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7949510561566203,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.09668555727288339,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.058818478447535634,
+      "Event": 0.049544908122960675
+    },
+    "durations": {
+      "Technology": 9258,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1126,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 685,
+      "Event": 577
+    },
+    "topicCounts": {
+      "Technology": 7,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 1
+    },
+    "totalDurationSec": 11646,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 138,
+      "endSec": 912,
+      "durationSec": 774,
+      "topic": "VAE",
+      "fineSubject": "Machine Learning",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 1224,
+      "endSec": 1801,
+      "durationSec": 577,
+      "topic": "EasterHegg 2024",
+      "fineSubject": "Festival",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1801,
+      "endSec": 2761,
+      "durationSec": 960,
+      "topic": "Save Buttons",
+      "fineSubject": "User Interface",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2762,
+      "endSec": 3715,
+      "durationSec": 953,
+      "topic": "Festival Tracker",
+      "fineSubject": "Tracking",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 4014,
+      "endSec": 4699,
+      "durationSec": 685,
+      "topic": "Minecraft Feedback",
+      "fineSubject": "Feedback",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6121,
+      "endSec": 8310,
+      "durationSec": 2189,
+      "topic": "Audio AI",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8878,
+      "endSec": 10616,
+      "durationSec": 1738,
+      "topic": "Apple AI",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10617,
+      "endSec": 10762,
+      "durationSec": 145,
+      "topic": "Themensuche",
+      "fineSubject": "Search",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10762,
+      "endSec": 13261,
+      "durationSec": 2499,
+      "topic": "xz und npm install everything",
+      "fineSubject": "Software Installation",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Finance",
+      "startSec": 13262,
+      "endSec": 14388,
+      "durationSec": 1126,
+      "topic": "Elektronische Rechnungen",
+      "fineSubject": "Billing",
+      "topicIndex": 13
+    }
+  ]
+}

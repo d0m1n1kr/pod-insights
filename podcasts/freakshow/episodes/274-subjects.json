@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 274,
+  "title": "FS274 Was hat Apple jemals nicht für uns getan?",
+  "generatedAt": "2026-01-05T15:17:51.117Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6840758579169175,
+      "Software": 0.09105960264900662,
+      "Hardware": 0.0717940999397953,
+      "Finance": 0,
+      "Media": 0.12116195063214931,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.03190848886213125
+    },
+    "durations": {
+      "Technology": 4545,
+      "Software": 605,
+      "Hardware": 477,
+      "Finance": 0,
+      "Media": 805,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 212
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 1,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 6644,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 325,
+      "endSec": 537,
+      "durationSec": 212,
+      "topic": "Raumzeit live on stage im Februar 2024",
+      "fineSubject": "Event / Raumzeit",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 538,
+      "endSec": 894,
+      "durationSec": 356,
+      "topic": "RIP Flattr",
+      "fineSubject": "Service / Flattr",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 895,
+      "endSec": 1075,
+      "durationSec": 180,
+      "topic": "RIP Ingenuity",
+      "fineSubject": "Mission / Ingenuity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1075,
+      "endSec": 1267,
+      "durationSec": 192,
+      "topic": "RØDECaster Pro II Review",
+      "fineSubject": "Device / RØDECaster Pro II",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 1267,
+      "endSec": 1872,
+      "durationSec": 605,
+      "topic": "Das Sendegate Forum und die Software Discourse",
+      "fineSubject": "Platform / Discourse",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1872,
+      "endSec": 2157,
+      "durationSec": 285,
+      "topic": "HDMI Matrix",
+      "fineSubject": "Device / HDMI Matrix",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4578,
+      "endSec": 8587,
+      "durationSec": 4009,
+      "topic": "Heimautomatisierung",
+      "fineSubject": "System / Heimautomatisierung",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 8588,
+      "endSec": 9393,
+      "durationSec": 805,
+      "topic": "Podcast-Transkripte",
+      "fineSubject": "Tool / Transkripte",
+      "topicIndex": 8
+    }
+  ]
+}

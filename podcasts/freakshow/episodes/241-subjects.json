@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 241,
+  "title": "FS241 Nackedei in der Lederhülle",
+  "generatedAt": "2026-01-05T15:17:51.104Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.26783178590933915,
+      "Software": 0.17127252867285636,
+      "Hardware": 0,
+      "Finance": 0.46826870562534134,
+      "Media": 0.09262697979246313,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2452,
+      "Software": 1568,
+      "Hardware": 0,
+      "Finance": 4287,
+      "Media": 848,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 2,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9155,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Finance",
+      "startSec": 1615,
+      "endSec": 2150,
+      "durationSec": 535,
+      "topic": "Ausgaben splitten",
+      "fineSubject": "Ausgaben",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 2150,
+      "endSec": 5902,
+      "durationSec": 3752,
+      "topic": "Das PSD2-Drama",
+      "fineSubject": "PSD2",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6074,
+      "endSec": 6567,
+      "durationSec": 493,
+      "topic": "Russen im Apple Store",
+      "fineSubject": "Apple Store",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6567,
+      "endSec": 6831,
+      "durationSec": 264,
+      "topic": "iPhone-Versicherungen",
+      "fineSubject": "iPhone-Versicherungen",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6832,
+      "endSec": 7627,
+      "durationSec": 795,
+      "topic": "iPhone und iPad Restore und Setup",
+      "fineSubject": "iPhone und iPad",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7627,
+      "endSec": 7854,
+      "durationSec": 227,
+      "topic": "iPad Pro",
+      "fineSubject": "iPad Pro",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 7854,
+      "endSec": 8080,
+      "durationSec": 226,
+      "topic": "Chaosradio 23",
+      "fineSubject": "Chaosradio",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 8318,
+      "endSec": 8940,
+      "durationSec": 622,
+      "topic": "Podcasts hören",
+      "fineSubject": "Podcasts",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8940,
+      "endSec": 9471,
+      "durationSec": 531,
+      "topic": "iPhone 11 Pro",
+      "fineSubject": "iPhone 11 Pro",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 9472,
+      "endSec": 11040,
+      "durationSec": 1568,
+      "topic": "Publishing Software",
+      "fineSubject": "Publishing",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11040,
+      "endSec": 11182,
+      "durationSec": 142,
+      "topic": "card10 abzugeben",
+      "fineSubject": "card10",
+      "topicIndex": 13
+    }
+  ]
+}

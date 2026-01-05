@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 328,
+  "title": "Mi328 – \"Ig-Nobelpreise 2024\"",
+  "generatedAt": "2026-01-05T15:18:17.388Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.6661419801668503,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.10561939241303321,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.22823862742011647,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 4232,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 671,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1450,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 8,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2,
+      "Biology": 0
+    },
+    "totalDurationSec": 6353,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 677,
+      "endSec": 1348,
+      "durationSec": 671,
+      "topic": "iMac umgebaut",
+      "fineSubject": "iMac",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1348,
+      "endSec": 1970,
+      "durationSec": 622,
+      "topic": "Anatomie",
+      "fineSubject": "Anatomy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1970,
+      "endSec": 2390,
+      "durationSec": 420,
+      "topic": "Biologie",
+      "fineSubject": "Biology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2390,
+      "endSec": 2870,
+      "durationSec": 480,
+      "topic": "Botanik",
+      "fineSubject": "Botany",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2870,
+      "endSec": 3271,
+      "durationSec": 401,
+      "topic": "Chemie",
+      "fineSubject": "Chemistry",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3271,
+      "endSec": 4183,
+      "durationSec": 912,
+      "topic": "Demografie",
+      "fineSubject": "Demography",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4183,
+      "endSec": 4755,
+      "durationSec": 572,
+      "topic": "Medizin",
+      "fineSubject": "Medicine",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 4755,
+      "endSec": 5293,
+      "durationSec": 538,
+      "topic": "Frieden",
+      "fineSubject": "Peace",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 5293,
+      "endSec": 5687,
+      "durationSec": 394,
+      "topic": "Physik",
+      "fineSubject": "Physics",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Science",
+      "startSec": 5687,
+      "endSec": 6219,
+      "durationSec": 532,
+      "topic": "Physiologie",
+      "fineSubject": "Physiology",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Science",
+      "startSec": 6219,
+      "endSec": 7030,
+      "durationSec": 811,
+      "topic": "Wahrscheinlichkeit",
+      "fineSubject": "Probability",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7820,
+      "endSec": 7820,
+      "durationSec": 0,
+      "topic": "Song Casio CT-460",
+      "fineSubject": "Instrument",
+      "topicIndex": 11
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 43,
+  "title": "MM043 Patentkrieg",
+  "generatedAt": "2026-01-05T15:17:51.063Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.45114671693371033,
+      "Hardware": 0.4206723217090795,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.1281809613572102,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 1436,
+      "Hardware": 1339,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 408,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 2,
+      "Hardware": 5,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 3183,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 309,
+      "endSec": 568,
+      "durationSec": 259,
+      "topic": "SSDs",
+      "fineSubject": "SSDs",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 568,
+      "endSec": 1396,
+      "durationSec": 828,
+      "topic": "Leben mit Windows 7",
+      "fineSubject": "Windows 7",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1396,
+      "endSec": 1497,
+      "durationSec": 101,
+      "topic": "Desktops sind out",
+      "fineSubject": "Desktops",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4116,
+      "endSec": 4412,
+      "durationSec": 296,
+      "topic": "Flash und Touch",
+      "fineSubject": "Flash und Touch",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4412,
+      "endSec": 4849,
+      "durationSec": 437,
+      "topic": "iPad kommt",
+      "fineSubject": "iPad",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 4849,
+      "endSec": 5457,
+      "durationSec": 608,
+      "topic": "AppStore",
+      "fineSubject": "AppStore",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 5457,
+      "endSec": 5865,
+      "durationSec": 408,
+      "topic": "Werbung im iPhone",
+      "fineSubject": "Werbung im iPhone",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5865,
+      "endSec": 6111,
+      "durationSec": 246,
+      "topic": "iPhone kaufen",
+      "fineSubject": "iPhone",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 332,
+  "title": "LNP332 Check mal die Crimeline",
+  "generatedAt": "2026-01-05T15:17:57.618Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.18347704030479245,
+      "Technology": 0,
+      "Law": 0.401243232404251,
+      "Security": 0.0585522358131141,
+      "Social": 0,
+      "Media": 0.2608782835371967,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.0382995789051534,
+      "Privacy": 0,
+      "Culture": 0.05754962903549228
+    },
+    "durations": {
+      "Politics": 915,
+      "Technology": 0,
+      "Law": 2001,
+      "Security": 292,
+      "Social": 0,
+      "Media": 1301,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 191,
+      "Privacy": 0,
+      "Culture": 287
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4987,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 70,
+      "endSec": 200,
+      "durationSec": 130,
+      "topic": "Feedback: Indymedia/Altermedia",
+      "fineSubject": "Indymedia",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 312,
+      "endSec": 503,
+      "durationSec": 191,
+      "topic": "Feedback: Digitaler Erwerb",
+      "fineSubject": "Digitaler Erwerb",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 503,
+      "endSec": 1674,
+      "durationSec": 1171,
+      "topic": "Feedback: Wikileaks",
+      "fineSubject": "Wikileaks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2613,
+      "endSec": 4614,
+      "durationSec": 2001,
+      "topic": "Verschärfung des NetzDG",
+      "fineSubject": "NetzDG",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4615,
+      "endSec": 4926,
+      "durationSec": 311,
+      "topic": "Roger Stone verurteilt",
+      "fineSubject": "Roger Stone",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4927,
+      "endSec": 5359,
+      "durationSec": 432,
+      "topic": "Trump wollte Assange begnadigen – unter Bedingungen",
+      "fineSubject": "Assange",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 5359,
+      "endSec": 5651,
+      "durationSec": 292,
+      "topic": "Crypto AG",
+      "fineSubject": "Crypto AG",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5652,
+      "endSec": 5824,
+      "durationSec": 172,
+      "topic": "Grenell wird Geheimdienstkoordinator",
+      "fineSubject": "Grenell",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5824,
+      "endSec": 6111,
+      "durationSec": 287,
+      "topic": "All The Music",
+      "fineSubject": "Music",
+      "topicIndex": 10
+    }
+  ]
+}

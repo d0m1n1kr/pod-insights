@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 22,
+  "title": "UKW022 Corona Weekly: Der oder das Virus",
+  "generatedAt": "2026-01-05T15:18:03.002Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.5662398424033489,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.37798571780349666,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0.0557744397931544,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 4599,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 3070,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 453,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 9,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 3,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 1,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8122,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 136,
+      "endSec": 375,
+      "durationSec": 239,
+      "topic": "Feedback: Maßnahmen",
+      "fineSubject": "Measures",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 375,
+      "endSec": 616,
+      "durationSec": 241,
+      "topic": "Feedback: Lockerungsmaßnahmen",
+      "fineSubject": "Relaxation Measures",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 617,
+      "endSec": 773,
+      "durationSec": 156,
+      "topic": "Feedback: DIVI-Zentralregister",
+      "fineSubject": "DIVI Central Register",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 773,
+      "endSec": 1069,
+      "durationSec": 296,
+      "topic": "Feedback: Der oder das Virus",
+      "fineSubject": "Virus Discussion",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1070,
+      "endSec": 1200,
+      "durationSec": 130,
+      "topic": "Feedback: Begründung der Maßnahmen",
+      "fineSubject": "Justification of Measures",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1201,
+      "endSec": 2245,
+      "durationSec": 1044,
+      "topic": "Gedanken zur RKI Pressekonferenz",
+      "fineSubject": "Press Conference",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2246,
+      "endSec": 3824,
+      "durationSec": 1578,
+      "topic": "R ist nicht alles",
+      "fineSubject": "R Value",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3824,
+      "endSec": 4221,
+      "durationSec": 397,
+      "topic": "Lockerungsübungen",
+      "fineSubject": "Relaxation Exercises",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4222,
+      "endSec": 4740,
+      "durationSec": 518,
+      "topic": "Wann ist alles vorbei?",
+      "fineSubject": "End of Pandemic",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4741,
+      "endSec": 5143,
+      "durationSec": 402,
+      "topic": "Tracing App: Zentral ist tot",
+      "fineSubject": "Tracing App",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Economy",
+      "startSec": 5143,
+      "endSec": 5596,
+      "durationSec": 453,
+      "topic": "Die Nöte der Großkonzerne",
+      "fineSubject": "Corporate Struggles",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5597,
+      "endSec": 6315,
+      "durationSec": 718,
+      "topic": "Protokollversion 1.1",
+      "fineSubject": "Protocol Version",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6315,
+      "endSec": 8265,
+      "durationSec": 1950,
+      "topic": "Tracing App Development",
+      "fineSubject": "Tracing App Development",
+      "topicIndex": 12
+    }
+  ]
+}

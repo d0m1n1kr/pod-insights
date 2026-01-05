@@ -1,0 +1,174 @@
+{
+  "episodeNumber": 78,
+  "title": "CRE078 Zope und Plone",
+  "generatedAt": "2026-01-05T15:17:54.372Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.9166666666666666,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0.08333333333333333,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 11,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 1,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zope und Plone",
+      "fineSubject": "Web-Publishing-Framework",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Struktur und Möglichkeiten von Zope-Anwendungen",
+      "fineSubject": "Web-Applikationen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "objektorientierte Datenbank",
+      "fineSubject": "Datenbanken",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rechte- und Sicherheitssystem",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Event-System von Zope 3",
+      "fineSubject": "Event-Management",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Session Management",
+      "fineSubject": "Benutzersitzungen",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aufwärtskompatibilität von Erweiterungen",
+      "fineSubject": "Kompatibilität",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lokalisierung von Websites",
+      "fineSubject": "Internationalisierung",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Community",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Plone Community",
+      "fineSubject": "Open Source",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "dynamische Webseiten mit Kinetic Style Sheets (KSS)",
+      "fineSubject": "Web-Technologien",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erweiterung von Plone für Anwendungen",
+      "fineSubject": "Anpassungen",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anwendungsfälle und Organisationen für Plone",
+      "fineSubject": "Content-Management-Systeme",
+      "topicIndex": 11,
+      "untimed": true
+    }
+  ]
+}

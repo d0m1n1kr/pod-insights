@@ -1,0 +1,279 @@
+{
+  "episodeNumber": 267,
+  "title": "FS267 Gesichtsmuffe",
+  "generatedAt": "2026-01-05T15:17:51.114Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4627884746688516,
+      "Software": 0.1840775638399563,
+      "Hardware": 0.22620510719650416,
+      "Finance": 0,
+      "Media": 0.021917247029905777,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.04765806363512222,
+      "Business": 0,
+      "Gaming": 0.05735354362965998,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6778,
+      "Software": 2696,
+      "Hardware": 3313,
+      "Finance": 0,
+      "Media": 321,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 698,
+      "Business": 0,
+      "Gaming": 840,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 7,
+      "Software": 7,
+      "Hardware": 8,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 14646,
+    "totalTopics": 27
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 643,
+      "endSec": 719,
+      "durationSec": 76,
+      "topic": "Überblick",
+      "fineSubject": "Overview",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 719,
+      "endSec": 1335,
+      "durationSec": 616,
+      "topic": "50 Jahre Ethernet",
+      "fineSubject": "Ethernet",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1336,
+      "endSec": 1462,
+      "durationSec": 126,
+      "topic": "Webcam-Probleme",
+      "fineSubject": "Webcam",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 1463,
+      "endSec": 1685,
+      "durationSec": 222,
+      "topic": "Ladefuchs",
+      "fineSubject": "Utilities",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1686,
+      "endSec": 1896,
+      "durationSec": 210,
+      "topic": "Webcam-Probleme contd.",
+      "fineSubject": "Webcam",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 1897,
+      "endSec": 2218,
+      "durationSec": 321,
+      "topic": "Amen Break und Musikanalyse",
+      "fineSubject": "Analysis",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2218,
+      "endSec": 2509,
+      "durationSec": 291,
+      "topic": "Webcam-Probleme contd.",
+      "fineSubject": "Webcam",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Events",
+      "startSec": 2509,
+      "endSec": 3207,
+      "durationSec": 698,
+      "topic": "WWDC Keynote",
+      "fineSubject": "Keynote",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3208,
+      "endSec": 3973,
+      "durationSec": 765,
+      "topic": "MacBook Air",
+      "fineSubject": "MacBook Air",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3973,
+      "endSec": 4742,
+      "durationSec": 769,
+      "topic": "Mac Studio",
+      "fineSubject": "Mac Studio",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4743,
+      "endSec": 4856,
+      "durationSec": 113,
+      "topic": "Synology-Probleme",
+      "fineSubject": "Synology",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4856,
+      "endSec": 5070,
+      "durationSec": 214,
+      "topic": "Mac Studio contd.",
+      "fineSubject": "Mac Studio",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5070,
+      "endSec": 5895,
+      "durationSec": 825,
+      "topic": "Mac Pro",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 5896,
+      "endSec": 6329,
+      "durationSec": 433,
+      "topic": "Transkription und VoiceMail",
+      "fineSubject": "Transcription",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 6329,
+      "endSec": 6877,
+      "durationSec": 548,
+      "topic": "Autocorrect und Begrifflichkeiten",
+      "fineSubject": "Autocorrect",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 6878,
+      "endSec": 7148,
+      "durationSec": 270,
+      "topic": "iOS: Check In und Find My",
+      "fineSubject": "Features",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 7148,
+      "endSec": 7252,
+      "durationSec": 104,
+      "topic": "AirTag Sharing",
+      "fineSubject": "AirTag",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 7868,
+      "endSec": 8519,
+      "durationSec": 651,
+      "topic": "PDF Handling und Notizen",
+      "fineSubject": "PDF Handling",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 8519,
+      "endSec": 9359,
+      "durationSec": 840,
+      "topic": "macOS Game Porting",
+      "fineSubject": "macOS",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Software",
+      "startSec": 9360,
+      "endSec": 9828,
+      "durationSec": 468,
+      "topic": "Safari Updates",
+      "fineSubject": "Safari",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9828,
+      "endSec": 11323,
+      "durationSec": 1495,
+      "topic": "Vision Pro: die Technik und das Konzept",
+      "fineSubject": "Vision Pro",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11324,
+      "endSec": 12501,
+      "durationSec": 1177,
+      "topic": "Vision Pro: Spatial Computing",
+      "fineSubject": "Vision Pro",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12502,
+      "endSec": 13743,
+      "durationSec": 1241,
+      "topic": "Vision Pro: Mögilche Anwendungen",
+      "fineSubject": "Vision Pro",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13743,
+      "endSec": 15242,
+      "durationSec": 1499,
+      "topic": "Vision Pro: Kaufjuckreiz",
+      "fineSubject": "Vision Pro",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15243,
+      "endSec": 15917,
+      "durationSec": 674,
+      "topic": "Vision Pro: Worüber sie nicht gesprochen haben",
+      "fineSubject": "Vision Pro",
+      "topicIndex": 25
+    }
+  ]
+}

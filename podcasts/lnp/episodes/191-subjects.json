@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 191,
+  "title": "LNP191 Bauer h5",
+  "generatedAt": "2026-01-05T15:17:57.599Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.26809583858764185,
+      "Technology": 0.07919293820933165,
+      "Law": 0.14300126103404792,
+      "Security": 0.5097099621689786,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1063,
+      "Technology": 314,
+      "Law": 567,
+      "Security": 2021,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3965,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 277,
+      "endSec": 1829,
+      "durationSec": 1552,
+      "topic": "Shadow Brokers vs. Equation Group",
+      "fineSubject": "Hacking Groups",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1830,
+      "endSec": 2479,
+      "durationSec": 649,
+      "topic": "Berliner Erklärung zur Inneren Sicherheit",
+      "fineSubject": "Security Policy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2480,
+      "endSec": 2894,
+      "durationSec": 414,
+      "topic": "Eckpunkte-Papier Deutschland/Frankreich",
+      "fineSubject": "International Relations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2894,
+      "endSec": 3461,
+      "durationSec": 567,
+      "topic": "Landesverrat: Regierung wies Ermittler an",
+      "fineSubject": "Espionage",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3462,
+      "endSec": 3756,
+      "durationSec": 294,
+      "topic": "Darknet-Waffendealer gefasst",
+      "fineSubject": "Darknet",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3756,
+      "endSec": 3931,
+      "durationSec": 175,
+      "topic": "CCC: Staatstrojaner-Stellungnahme",
+      "fineSubject": "Government Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3932,
+      "endSec": 4246,
+      "durationSec": 314,
+      "topic": "BubCon Messenger",
+      "fineSubject": "Messaging Apps",
+      "topicIndex": 6
+    }
+  ]
+}

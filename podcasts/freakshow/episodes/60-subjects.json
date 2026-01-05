@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 60,
+  "title": "MM060 Back to the Boots",
+  "generatedAt": "2026-01-05T15:17:51.065Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3333333333333333,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.3333333333333333,
+      "Media": 0.3333333333333333,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Neugestaltung der Sendung",
+      "fineSubject": "Podcast",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Analyse der aktuellen Situation",
+      "fineSubject": "Trends",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Finance",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Computer-Standort Europa",
+      "fineSubject": "Technology Industry",
+      "topicIndex": 2,
+      "untimed": true
+    }
+  ]
+}

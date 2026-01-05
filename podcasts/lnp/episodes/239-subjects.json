@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 239,
+  "title": "LNP239 Faktenfaktura",
+  "generatedAt": "2026-01-05T15:17:57.605Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3370665517984062,
+      "Technology": 0.234546629334482,
+      "Law": 0.4283868188671118,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1565,
+      "Technology": 1089,
+      "Law": 1989,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4643,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 456,
+      "endSec": 884,
+      "durationSec": 428,
+      "topic": "EU-Gesetzgebungsprozess",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 884,
+      "endSec": 2873,
+      "durationSec": 1989,
+      "topic": "Leistungsschutzrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2874,
+      "endSec": 3963,
+      "durationSec": 1089,
+      "topic": "Upload-Filter",
+      "fineSubject": "Content Moderation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3963,
+      "endSec": 4320,
+      "durationSec": 357,
+      "topic": "Nächste Schritte",
+      "fineSubject": "Advocacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4320,
+      "endSec": 5100,
+      "durationSec": 780,
+      "topic": "Mitmachen und Kampagnen",
+      "fineSubject": "Campaigns",
+      "topicIndex": 4
+    }
+  ]
+}

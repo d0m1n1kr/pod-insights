@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 270,
+  "title": "FS270 Computer im Regen",
+  "generatedAt": "2026-01-05T15:17:51.114Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.12276945039257674,
+      "Software": 0.0655484177968118,
+      "Hardware": 0.622412562455389,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.09207708779443255,
+      "Security": 0,
+      "Events": 0.09719248156078991,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1032,
+      "Software": 551,
+      "Hardware": 5232,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 774,
+      "Security": 0,
+      "Events": 817,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 1,
+      "Hardware": 5,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8406,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 1116,
+      "endSec": 1420,
+      "durationSec": 304,
+      "topic": "Nachtrag Wärmebildkamera",
+      "fineSubject": "Wärmebildkamera",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1664,
+      "endSec": 2111,
+      "durationSec": 447,
+      "topic": "Starlink",
+      "fineSubject": "Starlink",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2112,
+      "endSec": 2886,
+      "durationSec": 774,
+      "topic": "Vorbilder und Miniatur Wunderland",
+      "fineSubject": "Miniatur Wunderland",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Events",
+      "startSec": 2886,
+      "endSec": 3703,
+      "durationSec": 817,
+      "topic": "Festival of Leid",
+      "fineSubject": "Festival of Leid",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3703,
+      "endSec": 4976,
+      "durationSec": 1273,
+      "topic": "Quest 3",
+      "fineSubject": "Quest 3",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4977,
+      "endSec": 5562,
+      "durationSec": 585,
+      "topic": "Orion",
+      "fineSubject": "Orion",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 5562,
+      "endSec": 6113,
+      "durationSec": 551,
+      "topic": "Auphonic: Äh-Entfernung",
+      "fineSubject": "Auphonic",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8097,
+      "endSec": 9203,
+      "durationSec": 1106,
+      "topic": "Raspberry Pi Pico",
+      "fineSubject": "Raspberry Pi Pico",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9204,
+      "endSec": 10935,
+      "durationSec": 1731,
+      "topic": "Mainframes",
+      "fineSubject": "Mainframes",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10936,
+      "endSec": 11754,
+      "durationSec": 818,
+      "topic": "Terminals",
+      "fineSubject": "Terminals",
+      "topicIndex": 12
+    }
+  ]
+}

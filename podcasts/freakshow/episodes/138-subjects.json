@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 138,
+  "title": "FS138 Ich glaub mein Schwein surft",
+  "generatedAt": "2026-01-05T15:17:51.077Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6997726875327854,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.10823570554292708,
+      "Social": 0,
+      "Culture": 0.12030075187969924,
+      "Security": 0,
+      "Events": 0.07169085504458822,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 8004,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1238,
+      "Social": 0,
+      "Culture": 1376,
+      "Security": 0,
+      "Events": 820,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11438,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 331,
+      "endSec": 3921,
+      "durationSec": 3590,
+      "topic": "Webdevelopment und Programmiersprachen",
+      "fineSubject": "Web Development",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 3921,
+      "endSec": 5159,
+      "durationSec": 1238,
+      "topic": "Podcasting",
+      "fineSubject": "Podcasting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5159,
+      "endSec": 7640,
+      "durationSec": 2481,
+      "topic": "iBeacons, Bloat-Apps",
+      "fineSubject": "Mobile Technology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7640,
+      "endSec": 8412,
+      "durationSec": 772,
+      "topic": "Gadget-Tipps",
+      "fineSubject": "Gadgets",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 11539,
+      "endSec": 12915,
+      "durationSec": 1376,
+      "topic": "Das deutsche Internet",
+      "fineSubject": "Internet",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Events",
+      "startSec": 12915,
+      "endSec": 13735,
+      "durationSec": 820,
+      "topic": "Wacken",
+      "fineSubject": "Music Festivals",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14224,
+      "endSec": 15385,
+      "durationSec": 1161,
+      "topic": "Utilities",
+      "fineSubject": "Utilities",
+      "topicIndex": 8
+    }
+  ]
+}

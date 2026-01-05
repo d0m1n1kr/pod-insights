@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 229,
+  "title": "FS229 Telefonischturm",
+  "generatedAt": "2026-01-05T15:17:51.100Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.05783654217892214,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.04461455192144127,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.8975489058996365
+    },
+    "durations": {
+      "Technology": 748,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 577,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 11608
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 12933,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 2545,
+      "endSec": 2928,
+      "durationSec": 383,
+      "topic": "DeepL",
+      "fineSubject": "Translation Tools",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 6169,
+      "endSec": 17777,
+      "durationSec": 11608,
+      "topic": "35C3",
+      "fineSubject": "35C3",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 17777,
+      "endSec": 18354,
+      "durationSec": 577,
+      "topic": "SUBSCRIBE 10",
+      "fineSubject": "Subscription Services",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 18355,
+      "endSec": 18720,
+      "durationSec": 365,
+      "topic": "UKW",
+      "fineSubject": "Radio",
+      "topicIndex": 6
+    }
+  ]
+}

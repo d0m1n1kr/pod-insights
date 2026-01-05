@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 115,
+  "title": "UKW115 Angriff auf Israel",
+  "generatedAt": "2026-01-05T15:18:03.029Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.8372753074739829,
+      "Military": 0.16272469252601704,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 7080,
+      "Military": 1376,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 12,
+      "Military": 1,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8456,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 624,
+      "endSec": 2133,
+      "durationSec": 1509,
+      "topic": "Die Vorgeschichte des Konflikts",
+      "fineSubject": "Conflict History",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2133,
+      "endSec": 2404,
+      "durationSec": 271,
+      "topic": "Die Gründung Israels",
+      "fineSubject": "Nation Formation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2404,
+      "endSec": 2664,
+      "durationSec": 260,
+      "topic": "Der 6-Tage-Krieg",
+      "fineSubject": "Military Conflict",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2665,
+      "endSec": 2942,
+      "durationSec": 277,
+      "topic": "Jom-Kippur-Krieg",
+      "fineSubject": "Military Conflict",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2943,
+      "endSec": 3104,
+      "durationSec": 161,
+      "topic": "Camp-David-Abkommen",
+      "fineSubject": "Peace Agreements",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3104,
+      "endSec": 3435,
+      "durationSec": 331,
+      "topic": "Autonomie für Palästina",
+      "fineSubject": "Autonomy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3436,
+      "endSec": 3538,
+      "durationSec": 102,
+      "topic": "Die Intifada",
+      "fineSubject": "Civil Unrest",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3538,
+      "endSec": 3785,
+      "durationSec": 247,
+      "topic": "Abzug aus Gaza und Aufstieg von Hamas",
+      "fineSubject": "Conflict Dynamics",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3785,
+      "endSec": 4395,
+      "durationSec": 610,
+      "topic": "Instrumentalisierung des Konflikts",
+      "fineSubject": "Conflict Utilization",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 4396,
+      "endSec": 5772,
+      "durationSec": 1376,
+      "topic": "Der Terrorangriff der Hamas",
+      "fineSubject": "Attacks",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5773,
+      "endSec": 6657,
+      "durationSec": 884,
+      "topic": "Die Reaktion Israels",
+      "fineSubject": "Military Response",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6657,
+      "endSec": 7476,
+      "durationSec": 819,
+      "topic": "Strategie von Hamas und Situation in Gaza",
+      "fineSubject": "Conflict Strategy",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7477,
+      "endSec": 9086,
+      "durationSec": 1609,
+      "topic": "Israels Endgame",
+      "fineSubject": "Future Strategies",
+      "topicIndex": 12
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 104,
+  "title": "MM104 Möglichst nah an der Null",
+  "generatedAt": "2026-01-05T15:17:51.071Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1705533483042552,
+      "Software": 0.31191339897506765,
+      "Hardware": 0.305694708354926,
+      "Finance": 0,
+      "Media": 0.20815339436863017,
+      "Social": 0.0036851499971209765,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2962,
+      "Software": 5417,
+      "Hardware": 5309,
+      "Finance": 0,
+      "Media": 3615,
+      "Social": 64,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 7,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 17367,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 769,
+      "endSec": 833,
+      "durationSec": 64,
+      "topic": "Streamdiskussion",
+      "fineSubject": "Discussion",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 833,
+      "endSec": 1132,
+      "durationSec": 299,
+      "topic": "iPhone Backup Teil 2",
+      "fineSubject": "Backup",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1267,
+      "endSec": 1773,
+      "durationSec": 506,
+      "topic": "Informationen über das VNC-Experiment",
+      "fineSubject": "Experiment",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 1773,
+      "endSec": 2648,
+      "durationSec": 875,
+      "topic": "Programmiersprachen, Umgebungen und Compiler",
+      "fineSubject": "Programming",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 2648,
+      "endSec": 3178,
+      "durationSec": 530,
+      "topic": "File:/// Bug",
+      "fineSubject": "Bug",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3178,
+      "endSec": 3183,
+      "durationSec": 5,
+      "topic": "Rufnummern",
+      "fineSubject": "Phone Numbers",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 3183,
+      "endSec": 4303,
+      "durationSec": 1120,
+      "topic": "Android kann Dinge die iOS nicht kann",
+      "fineSubject": "Comparison",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 4303,
+      "endSec": 4958,
+      "durationSec": 655,
+      "topic": "Jailbreak 6.x",
+      "fineSubject": "Jailbreak",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4958,
+      "endSec": 5489,
+      "durationSec": 531,
+      "topic": "Alte Rechner und Läden",
+      "fineSubject": "Old Computers",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5489,
+      "endSec": 6189,
+      "durationSec": 700,
+      "topic": "Surface und der PC-Markt",
+      "fineSubject": "Market",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6189,
+      "endSec": 10267,
+      "durationSec": 4078,
+      "topic": "Mac Pro",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 10267,
+      "endSec": 13882,
+      "durationSec": 3615,
+      "topic": "Player und Audiofoo",
+      "fineSubject": "Audio",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13882,
+      "endSec": 15293,
+      "durationSec": 1411,
+      "topic": "Digitaler Dokumentenscan",
+      "fineSubject": "Document Scanning",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 15293,
+      "endSec": 15656,
+      "durationSec": 363,
+      "topic": "Schachprogramme",
+      "fineSubject": "Chess Programs",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15656,
+      "endSec": 16696,
+      "durationSec": 1040,
+      "topic": "Netzwerktechnik und Router",
+      "fineSubject": "Routers",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 16696,
+      "endSec": 18271,
+      "durationSec": 1575,
+      "topic": "App-Tipps und -Rants",
+      "fineSubject": "Apps",
+      "topicIndex": 15
+    }
+  ]
+}

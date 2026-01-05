@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 291,
+  "title": "Mi291 – \"Materialistische Skeptiker\"",
+  "generatedAt": "2026-01-05T15:18:17.383Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5773643949930459,
+      "Culture": 0.2202712100139082,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.2023643949930459,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3321,
+      "Culture": 1267,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1164,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5752,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 814,
+      "endSec": 1199,
+      "durationSec": 385,
+      "topic": "DPG Tagung Berlin",
+      "fineSubject": "DPG Tagung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Education",
+      "startSec": 1199,
+      "endSec": 2363,
+      "durationSec": 1164,
+      "topic": "Klima-Ringvorlesung",
+      "fineSubject": "Climate",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2363,
+      "endSec": 2508,
+      "durationSec": 145,
+      "topic": "Terminverschiebung Tour",
+      "fineSubject": "Schedule",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2508,
+      "endSec": 3969,
+      "durationSec": 1461,
+      "topic": "Thema 1: “Mit Diamanten zum heiligen Gral”",
+      "fineSubject": "Diamonds",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 3969,
+      "endSec": 4959,
+      "durationSec": 990,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4959,
+      "endSec": 5829,
+      "durationSec": 870,
+      "topic": "Thema 2: \"Wir kochen alle doch nur mit einem Wasser\"",
+      "fineSubject": "Water",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5829,
+      "endSec": 6566,
+      "durationSec": 737,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 20,
+  "title": "DU020 - Das dunkle Herz der Galaxie",
+  "generatedAt": "2026-01-05T15:18:22.091Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0.3333333333333333,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0.6666666666666666
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 1,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 2
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Quantengravitation und Korruption",
+      "fineSubject": "Quantum Gravity",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sterile Neutrinos und dunkle Materie",
+      "fineSubject": "Neutrinos",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fragen zur dunklen Materie und Antimaterie",
+      "fineSubject": "Antimatter",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

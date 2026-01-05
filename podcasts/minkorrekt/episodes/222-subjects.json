@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 222,
+  "title": "Mi222 – „Müll in Tüten“",
+  "generatedAt": "2026-01-05T15:18:17.375Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.16557313778463914,
+      "Culture": 0.8278656889231957,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.006561173292165187,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1287,
+      "Culture": 6435,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 51,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 6,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2,
+      "Biology": 0
+    },
+    "totalDurationSec": 7773,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 451,
+      "endSec": 841,
+      "durationSec": 390,
+      "topic": "AAA-Auftritte",
+      "fineSubject": "Performances",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 2092,
+      "endSec": 2398,
+      "durationSec": 306,
+      "topic": "Klimaticket",
+      "fineSubject": "Sustainability",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2398,
+      "endSec": 3379,
+      "durationSec": 981,
+      "topic": "Linz",
+      "fineSubject": "Cities",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3731,
+      "endSec": 3782,
+      "durationSec": 51,
+      "topic": "Themen der Woche",
+      "fineSubject": "Weekly Topics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3782,
+      "endSec": 5004,
+      "durationSec": 1222,
+      "topic": "Thema 1: \"Ein Ring, sie ins Dunkel zu treiben und ewig zu binden.\"",
+      "fineSubject": "Fantasy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5004,
+      "endSec": 6433,
+      "durationSec": 1429,
+      "topic": "Thema 2: \"Galadriels brüchige Phiole\"",
+      "fineSubject": "Fantasy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6433,
+      "endSec": 7451,
+      "durationSec": 1018,
+      "topic": "Thema 3: “Flieht ihr Narren!”",
+      "fineSubject": "Fantasy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7451,
+      "endSec": 8980,
+      "durationSec": 1529,
+      "topic": "Thema 4: \"War Gollum rare oder well done?\"",
+      "fineSubject": "Fantasy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9088,
+      "endSec": 9935,
+      "durationSec": 847,
+      "topic": "Schwurbel",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Social",
+      "startSec": 10553,
+      "endSec": 10553,
+      "durationSec": 0,
+      "topic": "Audiokommentar David zu sozialem Kapital",
+      "fineSubject": "Capital",
+      "topicIndex": 12
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 177,
+  "title": "LNP177 Nach einem Tag war sie Hitler",
+  "generatedAt": "2026-01-05T15:17:57.597Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.0732232591529074,
+      "Technology": 0.5394831299353913,
+      "Law": 0.10660445082555635,
+      "Security": 0.20064608758076094,
+      "Social": 0,
+      "Media": 0.032663316582914576,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.04737975592246949
+    },
+    "durations": {
+      "Politics": 204,
+      "Technology": 1503,
+      "Law": 297,
+      "Security": 559,
+      "Social": 0,
+      "Media": 91,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 132
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 2786,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 74,
+      "endSec": 165,
+      "durationSec": 91,
+      "topic": "LNP ist Mainstream",
+      "fineSubject": "Mainstream",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 165,
+      "endSec": 369,
+      "durationSec": 204,
+      "topic": "Feedback: Chaos in Österreich",
+      "fineSubject": "Austria",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 678,
+      "endSec": 1237,
+      "durationSec": 559,
+      "topic": "Verteidigung im Cyberraum",
+      "fineSubject": "Defense",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1237,
+      "endSec": 1369,
+      "durationSec": 132,
+      "topic": "Wunschzettel der Herzen",
+      "fineSubject": "Wishes",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1370,
+      "endSec": 2399,
+      "durationSec": 1029,
+      "topic": "Apple vs. FBI",
+      "fineSubject": "Apple",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3197,
+      "endSec": 3494,
+      "durationSec": 297,
+      "topic": "Störerhaftung und Abmahnindustrie",
+      "fineSubject": "Liability",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3495,
+      "endSec": 3639,
+      "durationSec": 144,
+      "topic": "Freie Firmware",
+      "fineSubject": "Firmware",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3639,
+      "endSec": 3969,
+      "durationSec": 330,
+      "topic": "KI Revisited",
+      "fineSubject": "AI",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 369,
+  "title": "Mi369 – \"QVC Live Rollenspiel\"",
+  "generatedAt": "2026-01-05T15:18:17.395Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.1500835122882367,
+      "Culture": 0.38869005010737295,
+      "Wissenschaft": 0,
+      "Health": 0.46122643760439036,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 629,
+      "Culture": 1629,
+      "Wissenschaft": 0,
+      "Health": 1933,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4191,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 149,
+      "endSec": 338,
+      "durationSec": 189,
+      "topic": "Auftritte",
+      "fineSubject": "Performances",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 338,
+      "endSec": 967,
+      "durationSec": 629,
+      "topic": "Supermond",
+      "fineSubject": "Celestial Events",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 967,
+      "endSec": 1539,
+      "durationSec": 572,
+      "topic": "Messen",
+      "fineSubject": "Exhibitions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 3600,
+      "endSec": 4204,
+      "durationSec": 604,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4204,
+      "endSec": 5533,
+      "durationSec": 1329,
+      "topic": "Thema 2: \"Kann Spuren von Nüssen enthalten\"",
+      "fineSubject": "Allergen Information",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5533,
+      "endSec": 6401,
+      "durationSec": 868,
+      "topic": "Schwurbel",
+      "fineSubject": "Misinformation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 6415,
+      "endSec": 6415,
+      "durationSec": 0,
+      "topic": "Audiokommentar Thorsten",
+      "fineSubject": "Comments",
+      "topicIndex": 9
+    }
+  ]
+}

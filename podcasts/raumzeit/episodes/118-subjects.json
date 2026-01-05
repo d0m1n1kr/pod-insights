@@ -1,0 +1,109 @@
+{
+  "episodeNumber": 118,
+  "title": "RZ118 Raumfahrt-Industrie",
+  "generatedAt": "2026-01-05T15:18:06.290Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.18797178567009035,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0.4964732087612919,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0.31555500556861776
+    },
+    "durations": {
+      "Raumfahrt": 1519,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 4012,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 2550
+    },
+    "topicCounts": {
+      "Raumfahrt": 1,
+      "Astronomie": 0,
+      "Wissenschaft": 1,
+      "Technologie": 3,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 1
+    },
+    "totalDurationSec": 8081,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Wirtschaft",
+      "startSec": 14,
+      "endSec": 2564,
+      "durationSec": 2550,
+      "topic": "Rolle der Raumfahrt-Industrie",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 14,
+      "endSec": 1627,
+      "durationSec": 1613,
+      "topic": "Bau und Betrieb von Raumfahrzeugen",
+      "fineSubject": "Raumfahrzeuge",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 108,
+      "endSec": 1627,
+      "durationSec": 1519,
+      "topic": "Planung des Missionsendes",
+      "fineSubject": "Missionsplanung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 131,
+      "endSec": 1852,
+      "durationSec": 1721,
+      "topic": "Lösungen für Planung und Rettung von Missionen",
+      "fineSubject": "Missionstechnologien",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 228,
+      "endSec": 906,
+      "durationSec": 678,
+      "topic": "Moderne Satellitentechnologie",
+      "fineSubject": "Satelliten",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Weltraumschrottproblematik",
+      "fineSubject": "Weltraumschrott",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

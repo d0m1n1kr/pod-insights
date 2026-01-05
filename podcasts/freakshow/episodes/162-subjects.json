@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 162,
+  "title": "FS162 Das fix ich jetzt einfach mal",
+  "generatedAt": "2026-01-05T15:17:51.082Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5725377426312006,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.02257368799424874,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.16462976276060387,
+      "Events": 0.012365204888569374,
+      "Business": 0.22789360172537743,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3982,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 157,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1145,
+      "Events": 86,
+      "Business": 1585,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 13,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 1,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 6955,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 3166,
+      "endSec": 3464,
+      "durationSec": 298,
+      "topic": "Feedback: Content Blocker",
+      "fineSubject": "Content Blocker",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3464,
+      "endSec": 3770,
+      "durationSec": 306,
+      "topic": "iPhone 6s Live Unboxing",
+      "fineSubject": "iPhone Unboxing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3771,
+      "endSec": 3964,
+      "durationSec": 193,
+      "topic": "Feedback: Android",
+      "fineSubject": "Android Feedback",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3964,
+      "endSec": 4614,
+      "durationSec": 650,
+      "topic": "Fire TV und Apple TV",
+      "fineSubject": "Streaming Devices",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4614,
+      "endSec": 5144,
+      "durationSec": 530,
+      "topic": "iOS 9 Install Erfahrung",
+      "fineSubject": "iOS Experience",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 5145,
+      "endSec": 6290,
+      "durationSec": 1145,
+      "topic": "S/MIME und Zertifikate",
+      "fineSubject": "S/MIME and Certificates",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6290,
+      "endSec": 6485,
+      "durationSec": 195,
+      "topic": "iPhone 6s 3D Touch",
+      "fineSubject": "iPhone Features",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6485,
+      "endSec": 6807,
+      "durationSec": 322,
+      "topic": "Siri",
+      "fineSubject": "Siri",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6808,
+      "endSec": 7108,
+      "durationSec": 300,
+      "topic": "SIM-Karten",
+      "fineSubject": "SIM Cards",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7108,
+      "endSec": 7327,
+      "durationSec": 219,
+      "topic": "Vintage Computing Festival",
+      "fineSubject": "Vintage Computing",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Events",
+      "startSec": 7327,
+      "endSec": 7413,
+      "durationSec": 86,
+      "topic": "Maker Faire Berlin",
+      "fineSubject": "Maker Faire",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Business",
+      "startSec": 7414,
+      "endSec": 8999,
+      "durationSec": 1585,
+      "topic": "Modernes Einkaufen",
+      "fineSubject": "Modern Shopping",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9000,
+      "endSec": 9063,
+      "durationSec": 63,
+      "topic": "iPhone 6s Touch ID",
+      "fineSubject": "iPhone Features",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9063,
+      "endSec": 9168,
+      "durationSec": 105,
+      "topic": "Messaging mit mehreren Devices",
+      "fineSubject": "Messaging",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9169,
+      "endSec": 9326,
+      "durationSec": 157,
+      "topic": "Bitcoin Bread Wallet",
+      "fineSubject": "Bitcoin Wallet",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9326,
+      "endSec": 9750,
+      "durationSec": 424,
+      "topic": "IPv6",
+      "fineSubject": "IPv6",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9804,
+      "endSec": 10181,
+      "durationSec": 377,
+      "topic": "IPv6 via VPN",
+      "fineSubject": "IPv6 via VPN",
+      "topicIndex": 20
+    }
+  ]
+}

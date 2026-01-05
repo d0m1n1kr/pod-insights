@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 253,
+  "title": "MI253 - \"Egal gibbet nicht!\"",
+  "generatedAt": "2026-01-05T15:18:17.378Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5629719118091211,
+      "Culture": 0.4370280881908789,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3728,
+      "Culture": 2894,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 6,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6622,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 254,
+      "endSec": 810,
+      "durationSec": 556,
+      "topic": "Orchester vs Wissenschaft",
+      "fineSubject": "Science",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 810,
+      "endSec": 910,
+      "durationSec": 100,
+      "topic": "Reini in Amsterdam",
+      "fineSubject": "Amsterdam",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 910,
+      "endSec": 1259,
+      "durationSec": 349,
+      "topic": "Kurt Krömer",
+      "fineSubject": "Comedy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1259,
+      "endSec": 1631,
+      "durationSec": 372,
+      "topic": "Amsterdam Pt2",
+      "fineSubject": "Amsterdam",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 1631,
+      "endSec": 2823,
+      "durationSec": 1192,
+      "topic": "Hodenforschung",
+      "fineSubject": "Research",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 2823,
+      "endSec": 4676,
+      "durationSec": 1853,
+      "topic": "Thema 1: “Elektronenmikroskop auf Speed”",
+      "fineSubject": "Microscopy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4676,
+      "endSec": 5359,
+      "durationSec": 683,
+      "topic": "Experiment",
+      "fineSubject": "Experimentation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5359,
+      "endSec": 6569,
+      "durationSec": 1210,
+      "topic": "Thema 2: \"Is mir egal such du nen Titel aus!\"",
+      "fineSubject": "Language",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6569,
+      "endSec": 6876,
+      "durationSec": 307,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Humor",
+      "topicIndex": 8
+    }
+  ]
+}

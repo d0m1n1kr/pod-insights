@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 458,
+  "title": "LNP458 Shedhallenfittinge",
+  "generatedAt": "2026-01-05T15:17:57.636Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1193502824858757,
+      "Technology": 0.1228813559322034,
+      "Law": 0.3375706214689266,
+      "Security": 0.1445386064030132,
+      "Social": 0.11652542372881355,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.14218455743879474,
+      "Privacy": 0,
+      "Culture": 0.01694915254237288
+    },
+    "durations": {
+      "Politics": 507,
+      "Technology": 522,
+      "Law": 1434,
+      "Security": 614,
+      "Social": 495,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 604,
+      "Privacy": 0,
+      "Culture": 72
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 2,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4248,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 300,
+      "endSec": 515,
+      "durationSec": 215,
+      "topic": "Empfehlungen: Der Spion in unseren Handys",
+      "fineSubject": "Privacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 515,
+      "endSec": 587,
+      "durationSec": 72,
+      "topic": "Empfehlungen: Tschunkelmusik",
+      "fineSubject": "Music",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 785,
+      "endSec": 893,
+      "durationSec": 108,
+      "topic": "Feedback: Open Assistant",
+      "fineSubject": "AI",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 894,
+      "endSec": 1498,
+      "durationSec": 604,
+      "topic": "Feedback: Kosten von AI",
+      "fineSubject": "AI Costs",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1498,
+      "endSec": 1912,
+      "durationSec": 414,
+      "topic": "Feedback: Das Wesen von AI",
+      "fineSubject": "AI",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1912,
+      "endSec": 2419,
+      "durationSec": 507,
+      "topic": "Wahlcomputer vs. Fox News",
+      "fineSubject": "Election Security",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2804,
+      "endSec": 3080,
+      "durationSec": 276,
+      "topic": "Internet-Wache",
+      "fineSubject": "Internet Safety",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3081,
+      "endSec": 4515,
+      "durationSec": 1434,
+      "topic": "Gesetzentwurf zur Bekämpfung \"Digitaler Gewalt\"",
+      "fineSubject": "Digital Violence",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 4516,
+      "endSec": 4796,
+      "durationSec": 280,
+      "topic": "Verschwörhaus",
+      "fineSubject": "Verschwörhaus",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 4796,
+      "endSec": 5134,
+      "durationSec": 338,
+      "topic": "ZPS-Phishing",
+      "fineSubject": "Phishing",
+      "topicIndex": 10
+    }
+  ]
+}

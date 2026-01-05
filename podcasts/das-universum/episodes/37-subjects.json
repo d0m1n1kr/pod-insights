@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 37,
+  "title": "DU037 -  Roboter-Aliens und Trojaner",
+  "generatedAt": "2026-01-05T15:18:22.095Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.6,
+      "Raumfahrt": 0.2,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.2,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 1,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 1,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Roboter-Aliens und ihre Erkennung",
+      "fineSubject": "Extraterrestrische Intelligenz",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "NASA-Sonde Lucy und Trojaner-Asteroiden",
+      "fineSubject": "Asteroidenforschung",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Forschung zu Farben der Sterne",
+      "fineSubject": "Sternenphysik",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lichtgeschwindigkeit und ihre Effekte",
+      "fineSubject": "Relativitätstheorie",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Trojaner-Asymmetrie und Umlaufbahnen",
+      "fineSubject": "Orbitalmechanik",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

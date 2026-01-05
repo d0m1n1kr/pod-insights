@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 18,
+  "title": "LNP018 Mehr Heu!",
+  "generatedAt": "2026-01-05T15:17:57.574Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6222148320585301,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.3777851679414699
+    },
+    "durations": {
+      "Politics": 1871,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1136
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 3007,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 52,
+      "endSec": 1188,
+      "durationSec": 1136,
+      "topic": "Sven Regener will kein Straßenmusiker sein",
+      "fineSubject": "Music",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1188,
+      "endSec": 2280,
+      "durationSec": 1092,
+      "topic": "EU und Bundesinnenminister wollen jetzt gerne endlich die Vorratsdatenspeicherung",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2280,
+      "endSec": 2692,
+      "durationSec": 412,
+      "topic": "EU will endlich mal das Hacken verbieten",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2692,
+      "endSec": 2783,
+      "durationSec": 91,
+      "topic": "EU-Parlament will doch über ACTA abstimmen",
+      "fineSubject": "Legislation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2783,
+      "endSec": 3059,
+      "durationSec": 276,
+      "topic": "PNR (Fluggastdatenabkommen)",
+      "fineSubject": "International Agreements",
+      "topicIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 521,
+  "title": "LNP521 Wir hießen schon Tim und Linus bevor es cool war",
+  "generatedAt": "2026-01-05T15:17:57.644Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.20352905384849407,
+      "Technology": 0.1980529358077274,
+      "Law": 0.34134469120778826,
+      "Security": 0.0803163979312443,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.17675692120474598,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 669,
+      "Technology": 651,
+      "Law": 1122,
+      "Security": 264,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 581,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3287,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 549,
+      "endSec": 804,
+      "durationSec": 255,
+      "topic": "Feedback: Trump vs Unis",
+      "fineSubject": "Trump",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 805,
+      "endSec": 1069,
+      "durationSec": 264,
+      "topic": "Feedback: CVE-Datenbank",
+      "fineSubject": "CVE-Datenbank",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1070,
+      "endSec": 1721,
+      "durationSec": 651,
+      "topic": "Musk und die DOGE-Hacker",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1721,
+      "endSec": 2843,
+      "durationSec": 1122,
+      "topic": "DMA-Strafen",
+      "fineSubject": "DMA",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 2844,
+      "endSec": 3425,
+      "durationSec": 581,
+      "topic": "Meta-Zerschlagung",
+      "fineSubject": "Meta",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3426,
+      "endSec": 3647,
+      "durationSec": 221,
+      "topic": "LNP500 Follow-up: Petition cum-cum",
+      "fineSubject": "Petition",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3647,
+      "endSec": 3840,
+      "durationSec": 193,
+      "topic": "LNP500 Follow-up: 1. Mai Grunewald",
+      "fineSubject": "Grunewald",
+      "topicIndex": 6
+    }
+  ]
+}

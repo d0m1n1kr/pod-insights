@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 261,
+  "title": "Mi261 – „Dreiländereck der Korngrenzen“",
+  "generatedAt": "2026-01-05T15:18:17.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.08311767392297154,
+      "Wissenschaft": 0.9168823260770285,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 546,
+      "Wissenschaft": 6023,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 2,
+      "Wissenschaft": 5,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6569,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 272,
+      "endSec": 568,
+      "durationSec": 296,
+      "topic": "Oppenheimer Hörer:innentreffen",
+      "fineSubject": "Hörer:innentreffen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 568,
+      "endSec": 818,
+      "durationSec": 250,
+      "topic": "MINT PubQuiz",
+      "fineSubject": "MINT PubQuiz",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 818,
+      "endSec": 2000,
+      "durationSec": 1182,
+      "topic": "Schwurbelurteil: Wahrsagerin",
+      "fineSubject": "Schwurbelurteil",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 2000,
+      "endSec": 3193,
+      "durationSec": 1193,
+      "topic": "Hochtemperatur Supraleiter?",
+      "fineSubject": "Hochtemperatur Supraleiter",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 4019,
+      "endSec": 6022,
+      "durationSec": 2003,
+      "topic": "Thema 1: “Cryoschlaf”",
+      "fineSubject": "Cryoschlaf",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 6022,
+      "endSec": 7283,
+      "durationSec": 1261,
+      "topic": "Thema 2: \"Stressheilung\"",
+      "fineSubject": "Stressheilung",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 7283,
+      "endSec": 7667,
+      "durationSec": 384,
+      "topic": "Snackable Science: Lichtjahr trinken",
+      "fineSubject": "Lichtjahr",
+      "topicIndex": 7
+    }
+  ]
+}

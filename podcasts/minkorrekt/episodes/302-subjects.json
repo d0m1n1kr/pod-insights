@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 302,
+  "title": "Mi302 – \"Faktenflexibel\"",
+  "generatedAt": "2026-01-05T15:18:17.384Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.38855028297779715,
+      "Culture": 0.6114497170222029,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1785,
+      "Culture": 2809,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4594,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 1495,
+      "endSec": 2094,
+      "durationSec": 599,
+      "topic": "Bahnabenteuer",
+      "fineSubject": "Experiences",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2226,
+      "endSec": 3015,
+      "durationSec": 789,
+      "topic": "Nordatlantikstrom",
+      "fineSubject": "Climate",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3015,
+      "endSec": 4011,
+      "durationSec": 996,
+      "topic": "Thema 1: \"Schneller. Wärmer. \"",
+      "fineSubject": "Impact",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4011,
+      "endSec": 4691,
+      "durationSec": 680,
+      "topic": "Musik: The Ballad of Dolly and Laika",
+      "fineSubject": "Cultural References",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4691,
+      "endSec": 6012,
+      "durationSec": 1321,
+      "topic": "Thema 2: \"Ein Wiener Standard-Wasser bitte!\"",
+      "fineSubject": "Culinary Traditions",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6632,
+      "endSec": 6841,
+      "durationSec": 209,
+      "topic": "Musik: Major Tom Sternengangster",
+      "fineSubject": "Cultural References",
+      "topicIndex": 8
+    }
+  ]
+}

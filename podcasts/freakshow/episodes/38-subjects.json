@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 38,
+  "title": "MM038 Google für Eintausend",
+  "generatedAt": "2026-01-05T15:17:51.062Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.5706166868198307,
+      "Hardware": 0.1592503022974607,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.2701330108827086,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 4719,
+      "Hardware": 1317,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 2234,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 9,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 4,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8270,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 224,
+      "endSec": 552,
+      "durationSec": 328,
+      "topic": "Neues aus dem Studio",
+      "fineSubject": "iMac",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 552,
+      "endSec": 646,
+      "durationSec": 94,
+      "topic": "Tims iMac i7",
+      "fineSubject": "Chrome OS",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 646,
+      "endSec": 1986,
+      "durationSec": 1340,
+      "topic": "Google Chrome OS",
+      "fineSubject": "SPDY",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 1987,
+      "endSec": 2388,
+      "durationSec": 401,
+      "topic": "Google SPDY",
+      "fineSubject": "Go",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 2389,
+      "endSec": 3464,
+      "durationSec": 1075,
+      "topic": "Google Go",
+      "fineSubject": "Twitter",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3464,
+      "endSec": 4105,
+      "durationSec": 641,
+      "topic": "Twitter Retweets",
+      "fineSubject": "Twitter",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 4105,
+      "endSec": 4489,
+      "durationSec": 384,
+      "topic": "Twitter Listen",
+      "fineSubject": "Twitter",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 4490,
+      "endSec": 5020,
+      "durationSec": 530,
+      "topic": "Twitter Geo",
+      "fineSubject": "Mac OS",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 5020,
+      "endSec": 5266,
+      "durationSec": 246,
+      "topic": "Große Mauscursor",
+      "fineSubject": "Jabber",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 5267,
+      "endSec": 5852,
+      "durationSec": 585,
+      "topic": "Mac OS 10.6.2",
+      "fineSubject": "QuickTime",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 5853,
+      "endSec": 6438,
+      "durationSec": 585,
+      "topic": "Jabber auf Mac und iPhone",
+      "fineSubject": "Homebrew",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 6438,
+      "endSec": 7072,
+      "durationSec": 634,
+      "topic": "QuickTime X",
+      "fineSubject": "BetterTouchTool",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7073,
+      "endSec": 7726,
+      "durationSec": 653,
+      "topic": "Homebrew",
+      "fineSubject": "Mischpult",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 7726,
+      "endSec": 8030,
+      "durationSec": 304,
+      "topic": "BetterTouchTool",
+      "fineSubject": "Rogue Amoeba",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Social",
+      "startSec": 8031,
+      "endSec": 8165,
+      "durationSec": 134,
+      "topic": "Mischpultprobleme",
+      "fineSubject": "Interview",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8166,
+      "endSec": 8502,
+      "durationSec": 336,
+      "topic": "Rogue Amoeba",
+      "fineSubject": "iPhone",
+      "topicIndex": 15
+    }
+  ]
+}

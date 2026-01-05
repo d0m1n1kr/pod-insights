@@ -1,0 +1,234 @@
+{
+  "episodeNumber": 165,
+  "title": "FS165 Skandal im Sperrbezirk",
+  "generatedAt": "2026-01-05T15:17:51.084Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.449468085106383,
+      "Software": 0,
+      "Hardware": 0.12061170212765958,
+      "Finance": 0.02353723404255319,
+      "Media": 0.1148936170212766,
+      "Social": 0,
+      "Culture": 0.06243351063829787,
+      "Security": 0.06735372340425531,
+      "Events": 0,
+      "Business": 0.1452127659574468,
+      "Gaming": 0.01648936170212766,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6760,
+      "Software": 0,
+      "Hardware": 1814,
+      "Finance": 354,
+      "Media": 1728,
+      "Social": 0,
+      "Culture": 939,
+      "Security": 1013,
+      "Events": 0,
+      "Business": 2184,
+      "Gaming": 248,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 9,
+      "Software": 0,
+      "Hardware": 2,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 3,
+      "Security": 1,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 15040,
+    "totalTopics": 23
+  },
+  "timeline": [
+    {
+      "subject": "Gaming",
+      "startSec": 713,
+      "endSec": 961,
+      "durationSec": 248,
+      "topic": "Feedback: Programming Games",
+      "fineSubject": "Programming Games",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 961,
+      "endSec": 1485,
+      "durationSec": 524,
+      "topic": "Deep Learning",
+      "fineSubject": "Deep Learning",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1486,
+      "endSec": 2087,
+      "durationSec": 601,
+      "topic": "Internet im Flugzeug",
+      "fineSubject": "Internet im Flugzeug",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2087,
+      "endSec": 3818,
+      "durationSec": 1731,
+      "topic": "Verkehr und Datenverkehr in Japan",
+      "fineSubject": "Verkehr und Datenverkehr in Japan",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3819,
+      "endSec": 4832,
+      "durationSec": 1013,
+      "topic": "Mißbrauchspotential bei NFC Payment",
+      "fineSubject": "Mißbrauchspotential bei NFC Payment",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4832,
+      "endSec": 5529,
+      "durationSec": 697,
+      "topic": "Akihabara",
+      "fineSubject": "Akihabara",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 5530,
+      "endSec": 7714,
+      "durationSec": 2184,
+      "topic": "App Store Politik",
+      "fineSubject": "App Store Politik",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7714,
+      "endSec": 9080,
+      "durationSec": 1366,
+      "topic": "iPad Pro",
+      "fineSubject": "iPad Pro",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9081,
+      "endSec": 10182,
+      "durationSec": 1101,
+      "topic": "Mobilfunktarife und Tethering",
+      "fineSubject": "Mobilfunktarife und Tethering",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10182,
+      "endSec": 11199,
+      "durationSec": 1017,
+      "topic": "Festnetzkapriolen",
+      "fineSubject": "Festnetzkapriolen",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 11200,
+      "endSec": 11929,
+      "durationSec": 729,
+      "topic": "Podcastquerelen",
+      "fineSubject": "Podcastquerelen",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13205,
+      "endSec": 13653,
+      "durationSec": 448,
+      "topic": "Magic Keyboard",
+      "fineSubject": "Magic Keyboard",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Finance",
+      "startSec": 13653,
+      "endSec": 14007,
+      "durationSec": 354,
+      "topic": "Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14008,
+      "endSec": 15145,
+      "durationSec": 1137,
+      "topic": "Top Level Domains",
+      "fineSubject": "Top Level Domains",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Culture",
+      "startSec": 15145,
+      "endSec": 15288,
+      "durationSec": 143,
+      "topic": "Emojis",
+      "fineSubject": "Emojis",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15289,
+      "endSec": 15482,
+      "durationSec": 193,
+      "topic": "Z-MODEM",
+      "fineSubject": "Z-MODEM",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Culture",
+      "startSec": 15482,
+      "endSec": 15581,
+      "durationSec": 99,
+      "topic": "Schoki-Request",
+      "fineSubject": "Schoki-Request",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 15581,
+      "endSec": 16580,
+      "durationSec": 999,
+      "topic": "Kinoherbst",
+      "fineSubject": "Kinoherbst",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 17841,
+      "endSec": 18183,
+      "durationSec": 342,
+      "topic": "Wahlcomputer",
+      "fineSubject": "Wahlcomputer",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 18184,
+      "endSec": 18298,
+      "durationSec": 114,
+      "topic": "DNS",
+      "fineSubject": "DNS",
+      "topicIndex": 22
+    }
+  ]
+}

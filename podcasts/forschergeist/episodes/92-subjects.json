@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 92,
+  "title": "FG092 Innovationen kreativ ermöglichen",
+  "generatedAt": "2026-01-05T15:18:12.243Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Wissenschaft": 0,
+      "Umwelt": 0,
+      "Bildung": 0,
+      "Gesellschaft": 0.6666666666666666,
+      "Technologie": 0,
+      "Education": 0,
+      "Psychologie": 0,
+      "Biologie": 0,
+      "Ethik": 0,
+      "Forschung": 0,
+      "Technology": 0,
+      "Wirtschaft": 0.3333333333333333
+    },
+    "durations": {
+      "Wissenschaft": 0,
+      "Umwelt": 0,
+      "Bildung": 0,
+      "Gesellschaft": 0,
+      "Technologie": 0,
+      "Education": 0,
+      "Psychologie": 0,
+      "Biologie": 0,
+      "Ethik": 0,
+      "Forschung": 0,
+      "Technology": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Wissenschaft": 0,
+      "Umwelt": 0,
+      "Bildung": 0,
+      "Gesellschaft": 2,
+      "Technologie": 0,
+      "Education": 0,
+      "Psychologie": 0,
+      "Biologie": 0,
+      "Ethik": 0,
+      "Forschung": 0,
+      "Technology": 0,
+      "Wirtschaft": 1
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Wirtschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Innovation in der Wirtschaft",
+      "fineSubject": "Innovation",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Gesellschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kreativität in der Politik",
+      "fineSubject": "Kreativität",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Gesellschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Disruption in der Gesellschaft",
+      "fineSubject": "Disruption",
+      "topicIndex": 2,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 134,
+  "title": "FS134 Not Enough Entertainment Value",
+  "generatedAt": "2026-01-05T15:17:51.076Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.04322650148128198,
+      "Software": 0.9567734985187181,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 642,
+      "Software": 14210,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 12,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 14852,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 679,
+      "endSec": 1012,
+      "durationSec": 333,
+      "topic": "Nachträge aus der letzten Ausgabe",
+      "fineSubject": "Updates",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1012,
+      "endSec": 1299,
+      "durationSec": 287,
+      "topic": "Instacast und Flattr",
+      "fineSubject": "Services",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1299,
+      "endSec": 2254,
+      "durationSec": 955,
+      "topic": "WWDC",
+      "fineSubject": "Events",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 2254,
+      "endSec": 4066,
+      "durationSec": 1812,
+      "topic": "Mac OS X Yosemite",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 4066,
+      "endSec": 5640,
+      "durationSec": 1574,
+      "topic": "iCloud und andere Online-Services",
+      "fineSubject": "Cloud Services",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 5640,
+      "endSec": 6359,
+      "durationSec": 719,
+      "topic": "Safari",
+      "fineSubject": "Browsers",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 6359,
+      "endSec": 7219,
+      "durationSec": 860,
+      "topic": "Continuity",
+      "fineSubject": "Features",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 7219,
+      "endSec": 8221,
+      "durationSec": 1002,
+      "topic": "Weitere OSX Frameworks",
+      "fineSubject": "Frameworks",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 8221,
+      "endSec": 10886,
+      "durationSec": 2665,
+      "topic": "iOS 8",
+      "fineSubject": "Mobile Operating Systems",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 10886,
+      "endSec": 11525,
+      "durationSec": 639,
+      "topic": "Beta-Testing und der AppStore",
+      "fineSubject": "Development",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 11525,
+      "endSec": 12982,
+      "durationSec": 1457,
+      "topic": "Weitere IOS Frameworks",
+      "fineSubject": "Frameworks",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 12982,
+      "endSec": 14889,
+      "durationSec": 1907,
+      "topic": "Swift",
+      "fineSubject": "Programming Languages",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14889,
+      "endSec": 15120,
+      "durationSec": 231,
+      "topic": "Tricorder",
+      "fineSubject": "Devices",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15120,
+      "endSec": 15531,
+      "durationSec": 411,
+      "topic": "ISEE-3",
+      "fineSubject": "Space Missions",
+      "topicIndex": 13
+    }
+  ]
+}

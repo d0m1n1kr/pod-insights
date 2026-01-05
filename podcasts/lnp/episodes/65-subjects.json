@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 65,
+  "title": "LNP065 Ein Klavier! Ein Klavier!",
+  "generatedAt": "2026-01-05T15:17:57.582Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.9079716835949523,
+      "Law": 0.0920283164050477,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2950,
+      "Law": 299,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 4,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3249,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 32,
+      "endSec": 812,
+      "durationSec": 780,
+      "topic": "Prolog",
+      "fineSubject": "Demonstrationen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 812,
+      "endSec": 1973,
+      "durationSec": 1161,
+      "topic": "Telekom-Demo in Köln",
+      "fineSubject": "Netzausbau",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1973,
+      "endSec": 2384,
+      "durationSec": 411,
+      "topic": "Telekom stellt Netzausbau ein",
+      "fineSubject": "Regulierung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2876,
+      "endSec": 3175,
+      "durationSec": 299,
+      "topic": "Verfassungsbeschwerde gegen Bestandsdatenauskunft",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3175,
+      "endSec": 3773,
+      "durationSec": 598,
+      "topic": "Skype checkt Links",
+      "fineSubject": "Kommunikation",
+      "topicIndex": 5
+    }
+  ]
+}

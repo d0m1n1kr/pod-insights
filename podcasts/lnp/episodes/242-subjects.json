@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 242,
+  "title": "LNP242 Make §§§ fast",
+  "generatedAt": "2026-01-05T15:17:57.605Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.9651061985262245,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.034893801473775465,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 4453,
+      "Law": 0,
+      "Security": 0,
+      "Social": 161,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 7,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4614,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 178,
+      "endSec": 339,
+      "durationSec": 161,
+      "topic": "Markus Drenger",
+      "fineSubject": "Individuals",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 340,
+      "endSec": 875,
+      "durationSec": 535,
+      "topic": "EVGA und BeA",
+      "fineSubject": "Security",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 875,
+      "endSec": 1409,
+      "durationSec": 534,
+      "topic": "Die Player im Spiel",
+      "fineSubject": "Stakeholders",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1410,
+      "endSec": 2677,
+      "durationSec": 1267,
+      "topic": "Technik: Sicherheitsarchitektur",
+      "fineSubject": "Security Architecture",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2678,
+      "endSec": 3307,
+      "durationSec": 629,
+      "topic": "Technik: Softwareabhängigkeiten",
+      "fineSubject": "Software Dependencies",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3307,
+      "endSec": 3698,
+      "durationSec": 391,
+      "topic": "Technik: Verschlüsselung",
+      "fineSubject": "Encryption",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3699,
+      "endSec": 3890,
+      "durationSec": 191,
+      "topic": "Technik: Das Backend",
+      "fineSubject": "Backend",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5399,
+      "endSec": 6305,
+      "durationSec": 906,
+      "topic": "Weitere Sicherheitsmängel und Angriffsvektoren",
+      "fineSubject": "Security Vulnerabilities",
+      "topicIndex": 9
+    }
+  ]
+}

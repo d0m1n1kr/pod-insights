@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 79,
+  "title": "UKW079 Corona Weekly: In niedrigen Inzidenzen bräunen",
+  "generatedAt": "2026-01-05T15:18:03.019Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 4091,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 7,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 4091,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 131,
+      "endSec": 326,
+      "durationSec": 195,
+      "topic": "Die Trendwende",
+      "fineSubject": "Pandemic Trends",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 326,
+      "endSec": 928,
+      "durationSec": 602,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 928,
+      "endSec": 1216,
+      "durationSec": 288,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "COVID-19 Situation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1217,
+      "endSec": 1343,
+      "durationSec": 126,
+      "topic": "Sterbezahlen",
+      "fineSubject": "Mortality Rates",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1343,
+      "endSec": 1567,
+      "durationSec": 224,
+      "topic": "Tests und Positivquote",
+      "fineSubject": "Testing and Positivity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1567,
+      "endSec": 3267,
+      "durationSec": 1700,
+      "topic": "Impfkampagne in Deutschland",
+      "fineSubject": "Vaccination Campaign",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3268,
+      "endSec": 4224,
+      "durationSec": 956,
+      "topic": "Resultierende Gesamtsituation",
+      "fineSubject": "Overall Situation",
+      "topicIndex": 6
+    }
+  ]
+}

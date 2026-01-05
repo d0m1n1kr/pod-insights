@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 45,
+  "title": "UKW045 Corona: Der Biontech-Impfstoff",
+  "generatedAt": "2026-01-05T15:18:03.009Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 2062,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 5,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 2062,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 66,
+      "endSec": 369,
+      "durationSec": 303,
+      "topic": "Biontech",
+      "fineSubject": "Vaccines",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 370,
+      "endSec": 885,
+      "durationSec": 515,
+      "topic": "Funktionsweise",
+      "fineSubject": "Vaccine Mechanism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 886,
+      "endSec": 1077,
+      "durationSec": 191,
+      "topic": "Mögliche Gefahren",
+      "fineSubject": "Vaccine Safety",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1078,
+      "endSec": 1416,
+      "durationSec": 338,
+      "topic": "Effektivität",
+      "fineSubject": "Vaccine Effectiveness",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1416,
+      "endSec": 2131,
+      "durationSec": 715,
+      "topic": "Verteilung des Impfstoffs",
+      "fineSubject": "Vaccine Distribution",
+      "topicIndex": 4
+    }
+  ]
+}

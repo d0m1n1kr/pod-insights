@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 502,
+  "title": "LNP502 Hauptsache in aller Konsequenz",
+  "generatedAt": "2026-01-05T15:17:57.642Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.2595751797959525,
+      "Law": 0,
+      "Security": 0.4480682388359257,
+      "Social": 0.25740090316106373,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.034955678207058034,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1552,
+      "Law": 0,
+      "Security": 2679,
+      "Social": 1539,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 209,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 3,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5979,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 964,
+      "endSec": 994,
+      "durationSec": 30,
+      "topic": "Feedback: Wahlfehler",
+      "fineSubject": "Politics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 994,
+      "endSec": 1262,
+      "durationSec": 268,
+      "topic": "Feedback: Pager-Anschläge",
+      "fineSubject": "Communication",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1263,
+      "endSec": 1384,
+      "durationSec": 121,
+      "topic": "HTTP Status Code 502",
+      "fineSubject": "Web Protocols",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1385,
+      "endSec": 4064,
+      "durationSec": 2679,
+      "topic": "Das Sicherheitspaket",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 4064,
+      "endSec": 5305,
+      "durationSec": 1241,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Regulation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5305,
+      "endSec": 6736,
+      "durationSec": 1431,
+      "topic": "Telekom-Facebook Peering",
+      "fineSubject": "Networking",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 6737,
+      "endSec": 6946,
+      "durationSec": 209,
+      "topic": "LibGen Urteil",
+      "fineSubject": "Copyright",
+      "topicIndex": 6
+    }
+  ]
+}

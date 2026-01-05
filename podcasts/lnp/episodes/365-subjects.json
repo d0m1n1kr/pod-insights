@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 365,
+  "title": "LNP365 Sie verlassen den realistischen Sektor",
+  "generatedAt": "2026-01-05T15:17:57.622Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.11589342276877213,
+      "Technology": 0.09390721073225265,
+      "Law": 0.3551332215390348,
+      "Security": 0.0737842370039128,
+      "Social": 0.1348984535122042,
+      "Media": 0,
+      "Health": 0.0786286566051798,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.14775479783864356,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 622,
+      "Technology": 504,
+      "Law": 1906,
+      "Security": 396,
+      "Social": 724,
+      "Media": 0,
+      "Health": 422,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 793,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5367,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 400,
+      "endSec": 816,
+      "durationSec": 416,
+      "topic": "US-Wahl: Hacking",
+      "fineSubject": "US Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 817,
+      "endSec": 1023,
+      "durationSec": 206,
+      "topic": "US-Wahl: Leaks",
+      "fineSubject": "US Elections",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1023,
+      "endSec": 1747,
+      "durationSec": 724,
+      "topic": "The Conspiracy Chart",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1747,
+      "endSec": 1927,
+      "durationSec": 180,
+      "topic": "rC3 Assemblies",
+      "fineSubject": "Events",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1928,
+      "endSec": 2693,
+      "durationSec": 765,
+      "topic": "Durchsuchungen bei FinFisher",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2693,
+      "endSec": 3834,
+      "durationSec": 1141,
+      "topic": "Kabinettsbeschluss: Staatstrojaner für Geheimdienste",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 3835,
+      "endSec": 4628,
+      "durationSec": 793,
+      "topic": "Kartellverfahren gegen Google",
+      "fineSubject": "Antitrust",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4629,
+      "endSec": 4953,
+      "durationSec": 324,
+      "topic": "Google rückt IP-Adressen von Suchanfragen heraus",
+      "fineSubject": "Privacy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 4953,
+      "endSec": 5349,
+      "durationSec": 396,
+      "topic": "Terrorfilter",
+      "fineSubject": "Censorship",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5349,
+      "endSec": 5771,
+      "durationSec": 422,
+      "topic": "Corona-Warn-App Update",
+      "fineSubject": "Technology",
+      "topicIndex": 9
+    }
+  ]
+}

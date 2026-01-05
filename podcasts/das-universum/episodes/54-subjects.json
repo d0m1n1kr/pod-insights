@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 54,
+  "title": "DU054 - Party mit Percy",
+  "generatedAt": "2026-01-05T15:18:22.098Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.5,
+      "Raumfahrt": 0.5,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 2,
+      "Raumfahrt": 2,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fußball und schwarzes Loch",
+      "fineSubject": "Schwarze Löcher",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Marsrover Perseverance",
+      "fineSubject": "Marsrover",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Ingenuity Helikopter",
+      "fineSubject": "Marshelikopter",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Marsfinsternis",
+      "fineSubject": "Himmelsereignisse",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

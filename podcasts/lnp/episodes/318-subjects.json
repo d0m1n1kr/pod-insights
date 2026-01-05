@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 318,
+  "title": "LNP318 Auch ein Slow Clap ist ein Clap",
+  "generatedAt": "2026-01-05T15:17:57.616Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3898398674765323,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.08144671452236334,
+      "Social": 0.35946990612921037,
+      "Media": 0.169243511871894,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1412,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 295,
+      "Social": 1302,
+      "Media": 613,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 3,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3622,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 73,
+      "endSec": 471,
+      "durationSec": 398,
+      "topic": "Feedback: Amoklauf und Killerspiele",
+      "fineSubject": "Violence in Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1953,
+      "endSec": 2896,
+      "durationSec": 943,
+      "topic": "Die SPD sucht die Supervorsitzenden im Cyber",
+      "fineSubject": "Political Parties",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2897,
+      "endSec": 3302,
+      "durationSec": 405,
+      "topic": "No so Welcome to Video",
+      "fineSubject": "Video Content",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 3302,
+      "endSec": 3510,
+      "durationSec": 208,
+      "topic": "Linus zu Gast bei Podcasts",
+      "fineSubject": "Podcasting",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 3510,
+      "endSec": 4147,
+      "durationSec": 637,
+      "topic": "Twitters neue Regeln für asoziale Staatschefs",
+      "fineSubject": "Social Media Policies",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 4148,
+      "endSec": 4415,
+      "durationSec": 267,
+      "topic": "Facebook löscht mal wieder Fake-Accounts",
+      "fineSubject": "Account Management",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 4415,
+      "endSec": 4710,
+      "durationSec": 295,
+      "topic": "BSI Lagebericht",
+      "fineSubject": "Cybersecurity Reports",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4711,
+      "endSec": 5180,
+      "durationSec": 469,
+      "topic": "Bundesregierung stimmt für Vergangenheit",
+      "fineSubject": "Government Decisions",
+      "topicIndex": 9
+    }
+  ]
+}

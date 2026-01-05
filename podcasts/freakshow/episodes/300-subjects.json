@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 300,
+  "title": "FS300 Das ist aber nicht schön gebucht",
+  "generatedAt": "2026-01-05T15:17:51.122Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4194458964976477,
+      "Software": 0.07746994249869316,
+      "Hardware": 0,
+      "Finance": 0.24014636696288552,
+      "Media": 0.19811813904861475,
+      "Social": 0.06481965499215891,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4012,
+      "Software": 741,
+      "Hardware": 0,
+      "Finance": 2297,
+      "Media": 1895,
+      "Social": 620,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 2,
+      "Media": 4,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9565,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 197,
+      "endSec": 883,
+      "durationSec": 686,
+      "topic": "MobileMax",
+      "fineSubject": "MobileMax",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 884,
+      "endSec": 986,
+      "durationSec": 102,
+      "topic": "Die nächste Stufe",
+      "fineSubject": "Next Level",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 986,
+      "endSec": 1730,
+      "durationSec": 744,
+      "topic": "Freak Show Themen",
+      "fineSubject": "Freak Show Topics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1730,
+      "endSec": 1861,
+      "durationSec": 131,
+      "topic": "Bumm Zack Return",
+      "fineSubject": "Bumm Zack Return",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1861,
+      "endSec": 2209,
+      "durationSec": 348,
+      "topic": "Freak Show AI",
+      "fineSubject": "Freak Show AI",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2210,
+      "endSec": 2347,
+      "durationSec": 137,
+      "topic": "hukl",
+      "fineSubject": "hukl",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2347,
+      "endSec": 2909,
+      "durationSec": 562,
+      "topic": "Apple AI",
+      "fineSubject": "Apple AI",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2910,
+      "endSec": 5058,
+      "durationSec": 2148,
+      "topic": "Studio Hot Fix",
+      "fineSubject": "Studio Hot Fix",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 7457,
+      "endSec": 7725,
+      "durationSec": 268,
+      "topic": "Weitere Freak Show Themen",
+      "fineSubject": "More Freak Show Topics",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Finance",
+      "startSec": 7726,
+      "endSec": 8859,
+      "durationSec": 1133,
+      "topic": "Die harten Zahlen",
+      "fineSubject": "Hard Numbers",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 8859,
+      "endSec": 9023,
+      "durationSec": 164,
+      "topic": "Lieblingssendungen",
+      "fineSubject": "Favorite Shows",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 9195,
+      "endSec": 9834,
+      "durationSec": 639,
+      "topic": "Ableton Live und Reaper",
+      "fineSubject": "Ableton Live and Reaper",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Social",
+      "startSec": 9835,
+      "endSec": 10455,
+      "durationSec": 620,
+      "topic": "Twitter",
+      "fineSubject": "Twitter",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10455,
+      "endSec": 11619,
+      "durationSec": 1164,
+      "topic": "Buchhaltung",
+      "fineSubject": "Accounting",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 12894,
+      "endSec": 13613,
+      "durationSec": 719,
+      "topic": "Glitterbrains",
+      "fineSubject": "Glitterbrains",
+      "topicIndex": 18
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 131,
+  "title": "UKW131 Ukraine: Fünftausend Helme",
+  "generatedAt": "2026-01-05T15:18:03.034Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 1,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 6335,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 8,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6335,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 194,
+      "endSec": 1299,
+      "durationSec": 1105,
+      "topic": "Vertrauen in das neue Regime / Syrien und Kurden",
+      "fineSubject": "Middle East",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1299,
+      "endSec": 1593,
+      "durationSec": 294,
+      "topic": "Wer hiilft wem in Syrien?",
+      "fineSubject": "Middle East",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1594,
+      "endSec": 1864,
+      "durationSec": 270,
+      "topic": "Russland und Syrien",
+      "fineSubject": "International Relations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1865,
+      "endSec": 3137,
+      "durationSec": 1272,
+      "topic": "Die Rolle der Türkei",
+      "fineSubject": "Middle East",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3138,
+      "endSec": 3928,
+      "durationSec": 790,
+      "topic": "Situation in Cherson",
+      "fineSubject": "Ukraine",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3928,
+      "endSec": 5022,
+      "durationSec": 1094,
+      "topic": "Stimmung in der Ukraine",
+      "fineSubject": "Ukraine",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5023,
+      "endSec": 5959,
+      "durationSec": 936,
+      "topic": "Neue Machtkonstellationen in Europa",
+      "fineSubject": "Europe",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5959,
+      "endSec": 6533,
+      "durationSec": 574,
+      "topic": "Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 7
+    }
+  ]
+}

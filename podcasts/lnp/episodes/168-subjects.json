@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 168,
+  "title": "LNP168 Es war nicht alles schlecht im Rechtsstaat",
+  "generatedAt": "2026-01-05T15:17:57.596Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5306364251861883,
+      "Technology": 0.3837169939065674,
+      "Law": 0.08564658090724442,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3135,
+      "Technology": 2267,
+      "Law": 506,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5908,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 335,
+      "endSec": 2602,
+      "durationSec": 2267,
+      "topic": "Mainzer Erklärung der CDU",
+      "fineSubject": "CDU",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2603,
+      "endSec": 3471,
+      "durationSec": 868,
+      "topic": "Ernst Uhrlau vor dem NSA-UA",
+      "fineSubject": "NSA",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 3471,
+      "endSec": 3977,
+      "durationSec": 506,
+      "topic": "Freundefinder vor dem BGH",
+      "fineSubject": "BGH",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3978,
+      "endSec": 4485,
+      "durationSec": 507,
+      "topic": "Cryptowars",
+      "fineSubject": "Cryptography",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4486,
+      "endSec": 5793,
+      "durationSec": 1307,
+      "topic": "BingeOn und die Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5794,
+      "endSec": 6247,
+      "durationSec": 453,
+      "topic": "CCC-App darf doch auf Apple TV",
+      "fineSubject": "Apps",
+      "topicIndex": 5
+    }
+  ]
+}

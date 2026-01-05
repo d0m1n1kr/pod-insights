@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 68,
+  "title": "LNP068 Marsch der Millionen",
+  "generatedAt": "2026-01-05T15:17:57.582Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.10352849941837922,
+      "Technology": 0.069988367584335,
+      "Law": 0,
+      "Security": 0.19813881349360218,
+      "Social": 0,
+      "Media": 0.6283443195036836,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 534,
+      "Technology": 361,
+      "Law": 0,
+      "Security": 1022,
+      "Social": 0,
+      "Media": 3241,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5158,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 96,
+      "endSec": 630,
+      "durationSec": 534,
+      "topic": "Linus war bei den Protesten in der Türkei",
+      "fineSubject": "Protests",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 631,
+      "endSec": 992,
+      "durationSec": 361,
+      "topic": "Drosselgedöns",
+      "fineSubject": "Network Management",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 992,
+      "endSec": 2014,
+      "durationSec": 1022,
+      "topic": "PRISM und technische Aufklärung des BND",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2015,
+      "endSec": 5256,
+      "durationSec": 3241,
+      "topic": "Die C3S als Alternative zur GEMA",
+      "fineSubject": "Copyright",
+      "topicIndex": 3
+    }
+  ]
+}

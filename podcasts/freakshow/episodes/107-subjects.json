@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 107,
+  "title": "MM107 Der neue Morseanschluss der Telekom",
+  "generatedAt": "2026-01-05T15:17:51.072Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.43633740794169007,
+      "Software": 0.32275453648166424,
+      "Hardware": 0,
+      "Finance": 0.10234606332093235,
+      "Media": 0,
+      "Social": 0.1385619922557133,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5747,
+      "Software": 4251,
+      "Hardware": 0,
+      "Finance": 1348,
+      "Media": 0,
+      "Social": 1825,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 5,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13171,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 730,
+      "endSec": 1553,
+      "durationSec": 823,
+      "topic": "Flattr und Appstore Bergwerk",
+      "fineSubject": "App Store",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1553,
+      "endSec": 1847,
+      "durationSec": 294,
+      "topic": "iCloudsync",
+      "fineSubject": "iCloud",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2563,
+      "endSec": 4187,
+      "durationSec": 1624,
+      "topic": "App.net und Security",
+      "fineSubject": "Social Network",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 4839,
+      "endSec": 6187,
+      "durationSec": 1348,
+      "topic": "Bitcoin",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6187,
+      "endSec": 9102,
+      "durationSec": 2915,
+      "topic": "Telekom DroSseL",
+      "fineSubject": "Telekom",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9102,
+      "endSec": 10071,
+      "durationSec": 969,
+      "topic": "Google drosselt den Zugang zu Reader",
+      "fineSubject": "Google",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 10071,
+      "endSec": 10565,
+      "durationSec": 494,
+      "topic": "Podlove",
+      "fineSubject": "Podcasting",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 11069,
+      "endSec": 12443,
+      "durationSec": 1374,
+      "topic": "Mediathek App wurde eingestellt",
+      "fineSubject": "Media",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 12443,
+      "endSec": 13709,
+      "durationSec": 1266,
+      "topic": "Vibrationen und Notifications",
+      "fineSubject": "Notifications",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 13709,
+      "endSec": 13910,
+      "durationSec": 201,
+      "topic": "Find my Friends",
+      "fineSubject": "Location Sharing",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13910,
+      "endSec": 15773,
+      "durationSec": 1863,
+      "topic": "VoIP",
+      "fineSubject": "VoIP",
+      "topicIndex": 12
+    }
+  ]
+}

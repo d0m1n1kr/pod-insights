@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 217,
+  "title": "Mi217 – „Fluchthandy“",
+  "generatedAt": "2026-01-05T15:18:17.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.3313953488372093,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.6686046511627907,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 627,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1265,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 1892,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1176,
+      "endSec": 2441,
+      "durationSec": 1265,
+      "topic": "Autopanne",
+      "fineSubject": "Breakdown",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 6140,
+      "endSec": 6767,
+      "durationSec": 627,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Weekly Experiment",
+      "topicIndex": 5
+    }
+  ]
+}

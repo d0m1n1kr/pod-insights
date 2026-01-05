@@ -1,0 +1,224 @@
+{
+  "episodeNumber": 103,
+  "title": "CRE103 Drupal",
+  "generatedAt": "2026-01-05T15:17:54.376Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 1,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 17,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Herkunft und Konzept von Drupal",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Content Types (Nodes)",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Metadaten für Content Types",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Installation einer neuen Drupal-Site",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Unterschiede zwischen den Major-Releases",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Multi-Site-Fähigkeit",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Themes und Templates",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Module und Blocks",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Regions",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Content Construction Kit",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Benutzer und Gruppen",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rollensystem von Drupal",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mehrsprachigkeit von Websites",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Workflows",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Shopsysteme mit Drupal",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 14,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "URL Design",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hook",
+      "fineSubject": "Content Management Systeme",
+      "topicIndex": 16,
+      "untimed": true
+    }
+  ]
+}

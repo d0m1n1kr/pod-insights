@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 405,
+  "title": "LNP405 Immer alles richtig machen",
+  "generatedAt": "2026-01-05T15:17:57.629Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7556682157442614,
+      "Technology": 0.1440642163075623,
+      "Law": 0.09153640332347557,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.008731164624700746,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5366,
+      "Technology": 1023,
+      "Law": 650,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 62,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7101,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 188,
+      "endSec": 404,
+      "durationSec": 216,
+      "topic": "HTTP 405",
+      "fineSubject": "Web / Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 404,
+      "endSec": 466,
+      "durationSec": 62,
+      "topic": "Feedback: Quad 9",
+      "fineSubject": "Feedback / Security",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 467,
+      "endSec": 990,
+      "durationSec": 523,
+      "topic": "Apple verzögert CSAM Feature",
+      "fineSubject": "Tech / Features",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 991,
+      "endSec": 3934,
+      "durationSec": 2943,
+      "topic": "CDU ist die digitalste Partei",
+      "fineSubject": "Politics / Digitalization",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3934,
+      "endSec": 6357,
+      "durationSec": 2423,
+      "topic": "Am 26. September ist Bundestagswahl",
+      "fineSubject": "Politics / Germany",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 6358,
+      "endSec": 7008,
+      "durationSec": 650,
+      "topic": "EuGH: StreamOn und Vodafone Pass sind illegal",
+      "fineSubject": "Law / Telecommunications",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7008,
+      "endSec": 7292,
+      "durationSec": 284,
+      "topic": "Telekom schaltet De-Mail ab",
+      "fineSubject": "Tech / Communication",
+      "topicIndex": 6
+    }
+  ]
+}

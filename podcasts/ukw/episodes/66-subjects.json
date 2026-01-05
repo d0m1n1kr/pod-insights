@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 66,
+  "title": "UKW066 Corona Weekly: Covid dauert dieses Jahr länger",
+  "generatedAt": "2026-01-05T15:18:03.016Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 9712,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 10,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9712,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 172,
+      "endSec": 1204,
+      "durationSec": 1032,
+      "topic": "Die Ostern-Lockdown-Rolle-Rückwärts",
+      "fineSubject": "Pandemic Management",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1205,
+      "endSec": 1641,
+      "durationSec": 436,
+      "topic": "Öffnungsdiskussionen",
+      "fineSubject": "Policy Discussion",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1641,
+      "endSec": 2721,
+      "durationSec": 1080,
+      "topic": "Zahlen in Deutschland",
+      "fineSubject": "Statistics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2722,
+      "endSec": 3824,
+      "durationSec": 1102,
+      "topic": "Varianten",
+      "fineSubject": "Variants",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3825,
+      "endSec": 4609,
+      "durationSec": 784,
+      "topic": "Voraussagen",
+      "fineSubject": "Forecasting",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4609,
+      "endSec": 5582,
+      "durationSec": 973,
+      "topic": "Impfungen und Impfstoffe",
+      "fineSubject": "Vaccination",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5582,
+      "endSec": 5726,
+      "durationSec": 144,
+      "topic": "Das Berliner Impfwunder",
+      "fineSubject": "Vaccination Success",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 5727,
+      "endSec": 6333,
+      "durationSec": 606,
+      "topic": "AstraZeneca Vax Wars",
+      "fineSubject": "Vaccine Controversy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 6334,
+      "endSec": 9195,
+      "durationSec": 2861,
+      "topic": "Wirkmächtigkeit von Schnelltests",
+      "fineSubject": "Testing",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 11402,
+      "endSec": 12096,
+      "durationSec": 694,
+      "topic": "Fazit",
+      "fineSubject": "Conclusion",
+      "topicIndex": 11
+    }
+  ]
+}

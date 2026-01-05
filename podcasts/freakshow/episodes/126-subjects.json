@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 126,
+  "title": "FS126 Happy Eyeballs",
+  "generatedAt": "2026-01-05T15:17:51.075Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3633866537405073,
+      "Software": 0.24979802876070448,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.1021974470835353,
+      "Culture": 0.1692518985296494,
+      "Security": 0.11536597188560349,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4498,
+      "Software": 3092,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1265,
+      "Culture": 2095,
+      "Security": 1428,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 3,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12378,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 339,
+      "endSec": 1767,
+      "durationSec": 1428,
+      "topic": "Fritz!Box-Hack",
+      "fineSubject": "Hacking",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1767,
+      "endSec": 3032,
+      "durationSec": 1265,
+      "topic": "App.net",
+      "fineSubject": "Social Network",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3032,
+      "endSec": 5120,
+      "durationSec": 2088,
+      "topic": "Denis, der Miner",
+      "fineSubject": "Mining",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5120,
+      "endSec": 6697,
+      "durationSec": 1577,
+      "topic": "Netz aus, Licht an",
+      "fineSubject": "Home Automation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6697,
+      "endSec": 7530,
+      "durationSec": 833,
+      "topic": "AppleTV-Gerüchte und Autogramme",
+      "fineSubject": "Streaming Devices",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 7530,
+      "endSec": 8591,
+      "durationSec": 1061,
+      "topic": "ATA, Arq, Auphonic",
+      "fineSubject": "Backup Solutions",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 8591,
+      "endSec": 9584,
+      "durationSec": 993,
+      "topic": "FreeBSD/ZFS",
+      "fineSubject": "FreeBSD",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9584,
+      "endSec": 11679,
+      "durationSec": 2095,
+      "topic": "Geschenke, foo und Happy Eyeballs",
+      "fineSubject": "Gifts",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 11679,
+      "endSec": 12717,
+      "durationSec": 1038,
+      "topic": "Clemens' Crypto-Plugins-Plug",
+      "fineSubject": "Plugins",
+      "topicIndex": 8
+    }
+  ]
+}

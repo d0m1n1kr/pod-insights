@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 48,
+  "title": "LNP048 Könnte Erfolg der Entscheidung vereiteln",
+  "generatedAt": "2026-01-05T15:17:57.579Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9230769230769231,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.07692307692307693,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 7392,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 616,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 13,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 8008,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 20,
+      "endSec": 462,
+      "durationSec": 442,
+      "topic": "Netzpolitische Jahresrückblicke",
+      "fineSubject": "Netzpolitik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 462,
+      "endSec": 552,
+      "durationSec": 90,
+      "topic": "Ein Jahr Logbuch:Netzpolitik",
+      "fineSubject": "Netzpolitik",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 553,
+      "endSec": 966,
+      "durationSec": 413,
+      "topic": "ACTA ad acta",
+      "fineSubject": "Urheberrecht",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 966,
+      "endSec": 1215,
+      "durationSec": 249,
+      "topic": "Kino.to",
+      "fineSubject": "Streaming",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1215,
+      "endSec": 1582,
+      "durationSec": 367,
+      "topic": "Megaupload und PirateBay",
+      "fineSubject": "Filesharing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1583,
+      "endSec": 1936,
+      "durationSec": 353,
+      "topic": "Die Urheberrechtsdiskussion in Deutschland",
+      "fineSubject": "Urheberrecht",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1936,
+      "endSec": 2085,
+      "durationSec": 149,
+      "topic": "Schultrojaner",
+      "fineSubject": "Überwachung",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2085,
+      "endSec": 2416,
+      "durationSec": 331,
+      "topic": "GEMA",
+      "fineSubject": "Urheberrecht",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2417,
+      "endSec": 2574,
+      "durationSec": 157,
+      "topic": "Cultural Commons Collecting Society (C3S)",
+      "fineSubject": "Urheberrecht",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2575,
+      "endSec": 3499,
+      "durationSec": 924,
+      "topic": "Leistungsschutzrecht",
+      "fineSubject": "Urheberrecht",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3499,
+      "endSec": 4409,
+      "durationSec": 910,
+      "topic": "Petitionen und moderner Aktivismus",
+      "fineSubject": "Aktivismus",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4409,
+      "endSec": 4927,
+      "durationSec": 518,
+      "topic": "Funkzellenabfrage",
+      "fineSubject": "Überwachung",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4928,
+      "endSec": 5647,
+      "durationSec": 719,
+      "topic": "Informationsfreiheitsgesetz",
+      "fineSubject": "Transparenz",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5648,
+      "endSec": 6376,
+      "durationSec": 728,
+      "topic": "ITU Regulierungsdebatte",
+      "fineSubject": "Regulierung",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6376,
+      "endSec": 8034,
+      "durationSec": 1658,
+      "topic": "Das Jahr der Piraten",
+      "fineSubject": "Piraten",
+      "topicIndex": 14
+    }
+  ]
+}

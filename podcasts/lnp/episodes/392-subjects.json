@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 392,
+  "title": "LNP392 Szenetypische Ansprache",
+  "generatedAt": "2026-01-05T15:17:57.627Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.024317751958930017,
+      "Technology": 0,
+      "Law": 0.12239935152661442,
+      "Security": 0,
+      "Social": 0.014455552553363955,
+      "Media": 0,
+      "Health": 0.8181572547960011,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.020670089165090517
+    },
+    "durations": {
+      "Politics": 180,
+      "Technology": 0,
+      "Law": 906,
+      "Security": 0,
+      "Social": 107,
+      "Media": 0,
+      "Health": 6056,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 153
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 5,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 7402,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 343,
+      "endSec": 523,
+      "durationSec": 180,
+      "topic": "Maaßen ist CDU-Kandidat in Thüringen",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 524,
+      "endSec": 677,
+      "durationSec": 153,
+      "topic": "Allesdichtmachen",
+      "fineSubject": "Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1225,
+      "endSec": 1865,
+      "durationSec": 640,
+      "topic": "Corona-Warn-App",
+      "fineSubject": "Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1865,
+      "endSec": 2761,
+      "durationSec": 896,
+      "topic": "Contact Tracing im Ausschuss Digitale Agenda",
+      "fineSubject": "Digital Health",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2762,
+      "endSec": 3438,
+      "durationSec": 676,
+      "topic": "Schwachstellen Luca App",
+      "fineSubject": "Apps",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3438,
+      "endSec": 3610,
+      "durationSec": 172,
+      "topic": "CWA Warnauslösung",
+      "fineSubject": "Apps",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3610,
+      "endSec": 7282,
+      "durationSec": 3672,
+      "topic": "EU-Impfpass",
+      "fineSubject": "Vaccination",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 7282,
+      "endSec": 8188,
+      "durationSec": 906,
+      "topic": "EU-Abmahnunwesen",
+      "fineSubject": "Regulations",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 8189,
+      "endSec": 8296,
+      "durationSec": 107,
+      "topic": "Trump bleibt von Facebook gebannt",
+      "fineSubject": "Social Media",
+      "topicIndex": 9
+    }
+  ]
+}

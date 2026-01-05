@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 68,
+  "title": "UKW068 Corona Weekly: Was heißt kurz? Was heißt hart?",
+  "generatedAt": "2026-01-05T15:18:03.016Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.6354398221657669,
+      "Politics": 0.3645601778342331,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 4002,
+      "Politics": 2296,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 9,
+      "Politics": 3,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6298,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 112,
+      "endSec": 793,
+      "durationSec": 681,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 793,
+      "endSec": 1741,
+      "durationSec": 948,
+      "topic": "Infektionszahlen",
+      "fineSubject": "Infection Rates",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1741,
+      "endSec": 1923,
+      "durationSec": 182,
+      "topic": "Sterbefälle",
+      "fineSubject": "Mortality Rates",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1924,
+      "endSec": 2683,
+      "durationSec": 759,
+      "topic": "Wirkung von Impfungen und Schnelltests",
+      "fineSubject": "Vaccination and Testing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2684,
+      "endSec": 3039,
+      "durationSec": 355,
+      "topic": "Auswirkungen der Krankheit",
+      "fineSubject": "Disease Impact",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3039,
+      "endSec": 3254,
+      "durationSec": 215,
+      "topic": "Impfungen",
+      "fineSubject": "Vaccinations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3254,
+      "endSec": 4315,
+      "durationSec": 1061,
+      "topic": "Die politische Debatte",
+      "fineSubject": "Political Debate",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4316,
+      "endSec": 4980,
+      "durationSec": 664,
+      "topic": "Politik vs. Wissenschaft",
+      "fineSubject": "Politics vs. Science",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4980,
+      "endSec": 5553,
+      "durationSec": 573,
+      "topic": "Greifswalder Zahlen",
+      "fineSubject": "Local Data",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5554,
+      "endSec": 5642,
+      "durationSec": 88,
+      "topic": "Ausbilck auf die nächste Woche",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5642,
+      "endSec": 6213,
+      "durationSec": 571,
+      "topic": "Wirtschaft vs. Politik",
+      "fineSubject": "Economics vs. Politics",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 6213,
+      "endSec": 6414,
+      "durationSec": 201,
+      "topic": "Coronavirus bei Forschergeist",
+      "fineSubject": "Research on Coronavirus",
+      "topicIndex": 11
+    }
+  ]
+}

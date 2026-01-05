@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 271,
+  "title": "Mi271 – \"Feenkönigin Mab\"",
+  "generatedAt": "2026-01-05T15:18:17.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.2842227378190255,
+      "Culture": 0.7157772621809745,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 980,
+      "Culture": 2468,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 3448,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 342,
+      "endSec": 1131,
+      "durationSec": 789,
+      "topic": "10 Jahre Minkorrekt Show",
+      "fineSubject": "Anniversary",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1131,
+      "endSec": 1741,
+      "durationSec": 610,
+      "topic": "Spielemesse",
+      "fineSubject": "Gaming Convention",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 5093,
+      "endSec": 6073,
+      "durationSec": 980,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7100,
+      "endSec": 8169,
+      "durationSec": 1069,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy",
+      "topicIndex": 6
+    }
+  ]
+}

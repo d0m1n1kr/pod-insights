@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 91,
+  "title": "LNP091 Huxleying into the full Orwell",
+  "generatedAt": "2026-01-05T15:17:57.587Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3071537956683439,
+      "Technology": 0.19492452417414133,
+      "Law": 0.1562021439509954,
+      "Security": 0,
+      "Social": 0.34171953620651935,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1404,
+      "Technology": 891,
+      "Law": 714,
+      "Security": 0,
+      "Social": 1562,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4571,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 41,
+      "endSec": 1603,
+      "durationSec": 1562,
+      "topic": "Einbruch der Dunkelheit",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1604,
+      "endSec": 2243,
+      "durationSec": 639,
+      "topic": "This week in Snowden",
+      "fineSubject": "Privacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2243,
+      "endSec": 2485,
+      "durationSec": 242,
+      "topic": "Mobilfunk-Übergriffe in der Ukraine",
+      "fineSubject": "War",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2486,
+      "endSec": 3377,
+      "durationSec": 891,
+      "topic": "DRM in HTML5",
+      "fineSubject": "Digital Rights Management",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3378,
+      "endSec": 3802,
+      "durationSec": 424,
+      "topic": "Urheberrechtsabgabe",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3802,
+      "endSec": 4325,
+      "durationSec": 523,
+      "topic": "Focus-Kampagne gegen parlamentarische Kontrolle",
+      "fineSubject": "Legislation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4326,
+      "endSec": 4616,
+      "durationSec": 290,
+      "topic": "Redtube: Aufhebung der Beschlüsse",
+      "fineSubject": "Legal Decisions",
+      "topicIndex": 6
+    }
+  ]
+}

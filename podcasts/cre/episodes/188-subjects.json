@@ -1,0 +1,164 @@
+{
+  "episodeNumber": 188,
+  "title": "CRE188 Telecomix",
+  "generatedAt": "2026-01-05T15:17:54.389Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.2727272727272727,
+      "Social": 0.45454545454545453,
+      "Media": 0.18181818181818182,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0.09090909090909091,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 3,
+      "Social": 5,
+      "Media": 2,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 1,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hackeraktivismus und Freiheit im Internet",
+      "fineSubject": "Activism",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erfahrungen im Kollektiv Telecomix",
+      "fineSubject": "Community",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technische Herausforderungen im Aktivismus",
+      "fineSubject": "Internet Access",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Netzpolitischer Aktivismus in Schweden",
+      "fineSubject": "Political Activism",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rolle des Internets im Arabischen Frühling",
+      "fineSubject": "Revolutions",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zugriff auf Firewalls in Krisengebieten",
+      "fineSubject": "Firewall Bypass",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Informationskrieg und Wahrheit im Netz",
+      "fineSubject": "Information Warfare",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Neue Quellenkultur im Internet",
+      "fineSubject": "Cultural Shifts",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Netzsperren und Zensursoftware",
+      "fineSubject": "Censorship",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Infragestellen von Machtstrukturen",
+      "fineSubject": "Power Dynamics",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sozialkompetenz in Nerdkreisen",
+      "fineSubject": "Community Skills",
+      "topicIndex": 11,
+      "untimed": true
+    }
+  ]
+}

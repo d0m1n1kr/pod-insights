@@ -1,0 +1,214 @@
+{
+  "episodeNumber": 80,
+  "title": "CRE080 Geschichte der Typographie",
+  "generatedAt": "2026-01-05T15:17:54.372Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.875,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.0625,
+      "Technologie": 0,
+      "Politics": 0.0625,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 14,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklung des Buchdrucks",
+      "fineSubject": "Printing",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Frühe Schriftentwicklung",
+      "fineSubject": "Writing Systems",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kupferstich als Drucktechnik",
+      "fineSubject": "Printing Techniques",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Gutenbergs Buchdrucktechnik",
+      "fineSubject": "Printing",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aufbau der Buchdruckmaschine",
+      "fineSubject": "Machinery",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklung von Copyright",
+      "fineSubject": "Copyright",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zeilenguss-Systeme",
+      "fineSubject": "Typesetting",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Digitalisierung des Schriftsatzes",
+      "fineSubject": "Digitalization",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kopplung von Satzmaschinen und Telegraphie",
+      "fineSubject": "Communication",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einführung der Tastatur",
+      "fineSubject": "Input Devices",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entstehung der Tastaturbelegung",
+      "fineSubject": "Input Devices",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Elektrofotografische Kopie",
+      "fineSubject": "Printing Techniques",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Offsetdruck",
+      "fineSubject": "Printing Techniques",
+      "topicIndex": 16,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fotosatz und gerasterte Schriftarten",
+      "fineSubject": "Typesetting",
+      "topicIndex": 17,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vektorisierung von Schriftarten",
+      "fineSubject": "Digital Fonts",
+      "topicIndex": 18,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Digitale Schriftarten: PostScript, TrueType, OpenType",
+      "fineSubject": "Digital Fonts",
+      "topicIndex": 19,
+      "untimed": true
+    }
+  ]
+}

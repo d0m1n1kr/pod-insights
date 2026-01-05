@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 282,
+  "title": "Mi282 – \"Mach Abnehmfrequenz!\"",
+  "generatedAt": "2026-01-05T15:18:17.381Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.07702523240371846,
+      "Culture": 0.6198908071418031,
+      "Wissenschaft": 0,
+      "Health": 0.3030839604544784,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 522,
+      "Culture": 4201,
+      "Wissenschaft": 0,
+      "Health": 2054,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 7,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6777,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 714,
+      "endSec": 1311,
+      "durationSec": 597,
+      "topic": "Büro Reini",
+      "fineSubject": "Büro",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1311,
+      "endSec": 1611,
+      "durationSec": 300,
+      "topic": "Vorsatz",
+      "fineSubject": "Vorsätze",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1611,
+      "endSec": 2396,
+      "durationSec": 785,
+      "topic": "Rad des Lebens",
+      "fineSubject": "Lebensrad",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2396,
+      "endSec": 3101,
+      "durationSec": 705,
+      "topic": "Mondoperation",
+      "fineSubject": "Operationen",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3101,
+      "endSec": 4411,
+      "durationSec": 1310,
+      "topic": "Thema 1: “Mach schnell Neujahr!”",
+      "fineSubject": "Neujahr",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4411,
+      "endSec": 4933,
+      "durationSec": 522,
+      "topic": "Snackable Science: Schnee auf Fugen",
+      "fineSubject": "Naturphänomene",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4933,
+      "endSec": 6282,
+      "durationSec": 1349,
+      "topic": "Thema 2: \"295,8 Hz\"",
+      "fineSubject": "Frequenzen",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6282,
+      "endSec": 7210,
+      "durationSec": 928,
+      "topic": "Schwurbel",
+      "fineSubject": "Schwurbel",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7212,
+      "endSec": 7286,
+      "durationSec": 74,
+      "topic": "Sportklamotten Bestellung",
+      "fineSubject": "Sport",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7286,
+      "endSec": 7493,
+      "durationSec": 207,
+      "topic": "Florian Freistetter live",
+      "fineSubject": "Events",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 437,
+  "title": "LNP437 Karotte am Stick",
+  "generatedAt": "2026-01-05T15:17:57.634Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.07723494830731806,
+      "Technology": 0.8047841070342591,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.04986823434015812,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.06811271031826474,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 381,
+      "Technology": 3970,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 246,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 336,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 11,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4933,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 76,
+      "endSec": 324,
+      "durationSec": 248,
+      "topic": "Hans-Christian Ströbele",
+      "fineSubject": "German Politics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 324,
+      "endSec": 457,
+      "durationSec": 133,
+      "topic": "Michail Sergejewitsch Gorbatschow",
+      "fineSubject": "International Politics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 457,
+      "endSec": 703,
+      "durationSec": 246,
+      "topic": "Julian Reichelt benimmt sich daneben",
+      "fineSubject": "Journalism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 704,
+      "endSec": 784,
+      "durationSec": 80,
+      "topic": "Feedback: Telefonbuchsuche",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 784,
+      "endSec": 962,
+      "durationSec": 178,
+      "topic": "Feedback: IT und IT Sicherheit",
+      "fineSubject": "IT Security",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 962,
+      "endSec": 1039,
+      "durationSec": 77,
+      "topic": "Feedback: Chatkontrolle",
+      "fineSubject": "Regulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1039,
+      "endSec": 1229,
+      "durationSec": 190,
+      "topic": "Feedback: Siri und Alexa",
+      "fineSubject": "Voice Assistants",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1229,
+      "endSec": 1735,
+      "durationSec": 506,
+      "topic": "Feedback: Cookiebanner",
+      "fineSubject": "Privacy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1736,
+      "endSec": 2152,
+      "durationSec": 416,
+      "topic": "Feedback: Postident",
+      "fineSubject": "Identity Verification",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2152,
+      "endSec": 2743,
+      "durationSec": 591,
+      "topic": "Twitter-“Whistleblower” Mudge",
+      "fineSubject": "Social Media",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2743,
+      "endSec": 3633,
+      "durationSec": 890,
+      "topic": "Digitalstrategie",
+      "fineSubject": "Digital Strategy",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3634,
+      "endSec": 4021,
+      "durationSec": 387,
+      "topic": "Chatkontrolle Rote Linien",
+      "fineSubject": "Regulation",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4021,
+      "endSec": 4538,
+      "durationSec": 517,
+      "topic": "Netzsperren für legale Seiten",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4539,
+      "endSec": 4677,
+      "durationSec": 138,
+      "topic": "Internet Archive wird verklagt",
+      "fineSubject": "Copyright",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Business",
+      "startSec": 4677,
+      "endSec": 5013,
+      "durationSec": 336,
+      "topic": "9-Euro-Fonds",
+      "fineSubject": "Public Funding",
+      "topicIndex": 14
+    }
+  ]
+}

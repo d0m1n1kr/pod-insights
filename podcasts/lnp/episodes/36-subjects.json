@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 36,
+  "title": "LNP036 Unbegrenzt [1]",
+  "generatedAt": "2026-01-05T15:17:57.577Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.49591558883594283,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.25119128658951667,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.2528931245745405,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1457,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 738,
+      "Social": 0,
+      "Media": 0,
+      "Health": 743,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2938,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 85,
+      "endSec": 910,
+      "durationSec": 825,
+      "topic": "Telekom und Spotify beerdigen endgültig die Netzneutralität",
+      "fineSubject": "Netzneutralität",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 910,
+      "endSec": 1653,
+      "durationSec": 743,
+      "topic": "Digitale Demenz und wir werden alle sterben",
+      "fineSubject": "Digitale Demenz",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1654,
+      "endSec": 2392,
+      "durationSec": 738,
+      "topic": "Anonymous veröffentlicht iOS device UDIDs und DDosSt Telcomix",
+      "fineSubject": "Datenlecks",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2393,
+      "endSec": 3025,
+      "durationSec": 632,
+      "topic": "GEMA PR-Offensive gegen Tarifreform-Demos",
+      "fineSubject": "GEMA",
+      "topicIndex": 3
+    }
+  ]
+}

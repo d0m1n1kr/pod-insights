@@ -1,0 +1,134 @@
+{
+  "episodeNumber": 93,
+  "title": "DU093 - Hubble-Tension reloaded: Das Universum braucht Urlaub",
+  "generatedAt": "2026-01-05T15:18:22.103Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0.875,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0.125
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 7,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 1
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hubble Tension",
+      "fineSubject": "Cosmology",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Asteroid Leona und Beteigeuze",
+      "fineSubject": "Asteroids",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sternbegegnungen und Weltuntergang",
+      "fineSubject": "Celestial Mechanics",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hubble-Weltraumteleskop",
+      "fineSubject": "Telescopes",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hubble-Konstante",
+      "fineSubject": "Cosmology",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "James-Webb-Weltraumteleskop",
+      "fineSubject": "Telescopes",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Laniakea Galaxienhaufen",
+      "fineSubject": "Galaxies",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "modifizierte Newtonsche Dynamik",
+      "fineSubject": "Gravity",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

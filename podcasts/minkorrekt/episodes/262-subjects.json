@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 262,
+  "title": "Mi262 – „Spionagepflanze“",
+  "generatedAt": "2026-01-05T15:18:17.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.4178628389154705,
+      "Culture": 0.3446748183590289,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.053340421761474396,
+      "Technologie": 0,
+      "Biologie": 0.11589580010632643,
+      "Media": 0,
+      "Physik": 0.0682261208576998,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2358,
+      "Culture": 1945,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 301,
+      "Technologie": 0,
+      "Biologie": 654,
+      "Media": 0,
+      "Physik": 385,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 1,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5643,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 72,
+      "endSec": 2017,
+      "durationSec": 1945,
+      "topic": "Oppenheimer",
+      "fineSubject": "Oppenheimer",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2017,
+      "endSec": 2318,
+      "durationSec": 301,
+      "topic": "Atomarer Raketenantrieb",
+      "fineSubject": "Nuclear Propulsion",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2318,
+      "endSec": 2444,
+      "durationSec": 126,
+      "topic": "Voyager2",
+      "fineSubject": "Voyager2",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 3059,
+      "endSec": 3713,
+      "durationSec": 654,
+      "topic": "Büropflanzen reloaded",
+      "fineSubject": "Office Plants",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Physik",
+      "startSec": 3713,
+      "endSec": 4098,
+      "durationSec": 385,
+      "topic": "Supraleitung Update",
+      "fineSubject": "Superconductivity",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4098,
+      "endSec": 5700,
+      "durationSec": 1602,
+      "topic": "Thema 1: “Hausbatterie\"",
+      "fineSubject": "Home Battery",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 5700,
+      "endSec": 6330,
+      "durationSec": 630,
+      "topic": "Snackable Science: Cäsars Atemzug",
+      "fineSubject": "César's Breath",
+      "topicIndex": 7
+    }
+  ]
+}

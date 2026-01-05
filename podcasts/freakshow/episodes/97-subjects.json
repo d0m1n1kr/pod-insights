@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 97,
+  "title": "MM097 Zieht Fäden bis in den vierten Stock",
+  "generatedAt": "2026-01-05T15:17:51.070Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.6163934426229508,
+      "Hardware": 0.1759884281581485,
+      "Finance": 0,
+      "Media": 0.03269045323047252,
+      "Social": 0.17492767598842815,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 6392,
+      "Hardware": 1825,
+      "Finance": 0,
+      "Media": 339,
+      "Social": 1814,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 6,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10370,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 307,
+      "endSec": 514,
+      "durationSec": 207,
+      "topic": "Gast: Dominik",
+      "fineSubject": "Guest",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 514,
+      "endSec": 698,
+      "durationSec": 184,
+      "topic": "Blitzgeräte",
+      "fineSubject": "Lighting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 699,
+      "endSec": 1367,
+      "durationSec": 668,
+      "topic": "iPhone 5",
+      "fineSubject": "iPhone",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 1367,
+      "endSec": 3899,
+      "durationSec": 2532,
+      "topic": "Apple Maps",
+      "fineSubject": "Maps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 4960,
+      "endSec": 5430,
+      "durationSec": 470,
+      "topic": "Mac OS Server",
+      "fineSubject": "Server",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 5430,
+      "endSec": 6090,
+      "durationSec": 660,
+      "topic": "iOS6",
+      "fineSubject": "iOS",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 6090,
+      "endSec": 7200,
+      "durationSec": 1110,
+      "topic": "Android-Bashing",
+      "fineSubject": "Android",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7200,
+      "endSec": 8173,
+      "durationSec": 973,
+      "topic": "Glaskugeling iPad mini",
+      "fineSubject": "iPad",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 8173,
+      "endSec": 9780,
+      "durationSec": 1607,
+      "topic": "App.net",
+      "fineSubject": "Network",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 9780,
+      "endSec": 10500,
+      "durationSec": 720,
+      "topic": "Mumble",
+      "fineSubject": "Communication",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 10500,
+      "endSec": 11400,
+      "durationSec": 900,
+      "topic": "Apps",
+      "fineSubject": "Applications",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 12799,
+      "endSec": 13138,
+      "durationSec": 339,
+      "topic": "Gitarrennews",
+      "fineSubject": "News",
+      "topicIndex": 13
+    }
+  ]
+}

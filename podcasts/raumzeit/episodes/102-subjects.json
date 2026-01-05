@@ -1,0 +1,91 @@
+{
+  "episodeNumber": 102,
+  "title": "RZ102 Galaxien-Beobachtung",
+  "generatedAt": "2026-01-05T15:18:06.288Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 1,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 2919,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 3,
+      "Wissenschaft": 1,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 2919,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 16,
+      "endSec": 977,
+      "durationSec": 961,
+      "topic": "Beobachtung von Galaxien",
+      "fineSubject": "Galaxien",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 16,
+      "endSec": 980,
+      "durationSec": 964,
+      "topic": "Eigenschaften von Galaxien",
+      "fineSubject": "Galaxien",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 77,
+      "endSec": 1071,
+      "durationSec": 994,
+      "topic": "Entstehung des Universums",
+      "fineSubject": "Universum",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Überprüfung physikalischer Theorien",
+      "fineSubject": "Theorien",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

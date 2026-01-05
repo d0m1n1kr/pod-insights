@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 273,
+  "title": "LNP273 Die Verfassungskatze",
+  "generatedAt": "2026-01-05T15:17:57.610Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.22228791013892996,
+      "Technology": 0.24800472953000297,
+      "Law": 0.17174105823233815,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.24297960390186224,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.11498669819686669,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 752,
+      "Technology": 839,
+      "Law": 581,
+      "Security": 0,
+      "Social": 0,
+      "Media": 822,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 389,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3383,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Privacy",
+      "startSec": 326,
+      "endSec": 715,
+      "durationSec": 389,
+      "topic": "Privacy Week",
+      "fineSubject": "Privacy Week",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1554,
+      "endSec": 2306,
+      "durationSec": 752,
+      "topic": "AFD-Denunziationsstelle gegen Lehrerinnen",
+      "fineSubject": "Denunciation Practices",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2381,
+      "endSec": 3220,
+      "durationSec": 839,
+      "topic": "Tim Cook auf ICDPPC",
+      "fineSubject": "Tim Cook",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3221,
+      "endSec": 3802,
+      "durationSec": 581,
+      "topic": "ePrivacy: Österreich verzögert die Verhandlungen weiter",
+      "fineSubject": "ePrivacy Negotiations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 3802,
+      "endSec": 4624,
+      "durationSec": 822,
+      "topic": "Facebook-Leck",
+      "fineSubject": "Facebook Data Breach",
+      "topicIndex": 6
+    }
+  ]
+}

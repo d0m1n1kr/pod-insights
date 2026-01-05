@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 230,
+  "title": "LNP230 Angst essen Seele auf",
+  "generatedAt": "2026-01-05T15:17:57.604Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4981298129812981,
+      "Technology": 0.5018701870187019,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2264,
+      "Technology": 2281,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 7,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4545,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 106,
+      "endSec": 472,
+      "durationSec": 366,
+      "topic": "Feedback: Politik und Angst",
+      "fineSubject": "Fear",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 473,
+      "endSec": 572,
+      "durationSec": 99,
+      "topic": "Feedback: linksunten",
+      "fineSubject": "Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 572,
+      "endSec": 620,
+      "durationSec": 48,
+      "topic": "Feedback: Briefwahl in Deutschland",
+      "fineSubject": "Voting",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 688,
+      "endSec": 1793,
+      "durationSec": 1105,
+      "topic": "PC-Wahl: Open Source Spende",
+      "fineSubject": "Open Source",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1793,
+      "endSec": 2171,
+      "durationSec": 378,
+      "topic": "Schweiz: E- und Online-Voting",
+      "fineSubject": "Voting",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2172,
+      "endSec": 2836,
+      "durationSec": 664,
+      "topic": "Schweiz: Beschwerde Kabel-/Funkaufklärung",
+      "fineSubject": "Complaints",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2836,
+      "endSec": 4012,
+      "durationSec": 1176,
+      "topic": "W3C, EFF und EME",
+      "fineSubject": "Standards",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4013,
+      "endSec": 4295,
+      "durationSec": 282,
+      "topic": "Schweiz: BÜPF tritt im Januar in Kraft",
+      "fineSubject": "Legislation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4296,
+      "endSec": 4723,
+      "durationSec": 427,
+      "topic": "Schweiz: Netzsperren",
+      "fineSubject": "Censorship",
+      "topicIndex": 8
+    }
+  ]
+}

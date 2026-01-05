@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 269,
+  "title": "FS269 Haustürdieb",
+  "generatedAt": "2026-01-05T15:17:51.114Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.22654578791891616,
+      "Software": 0.21391463787307732,
+      "Hardware": 0.2777834368951818,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.11337475807273098,
+      "Gaming": 0.16838137924009372,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2224,
+      "Software": 2100,
+      "Hardware": 2727,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1113,
+      "Gaming": 1653,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 2,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2,
+      "Gaming": 2,
+      "Event": 0
+    },
+    "totalDurationSec": 9817,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 144,
+      "endSec": 273,
+      "durationSec": 129,
+      "topic": "Zweiter Versuch",
+      "fineSubject": "General",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 273,
+      "endSec": 728,
+      "durationSec": 455,
+      "topic": "Jabra PanaCast",
+      "fineSubject": "Cameras",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 729,
+      "endSec": 1244,
+      "durationSec": 515,
+      "topic": "Wärmebildkamera",
+      "fineSubject": "Thermal Imaging",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 1245,
+      "endSec": 1545,
+      "durationSec": 300,
+      "topic": "Chinesische Markennamen",
+      "fineSubject": "Branding",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 3391,
+      "endSec": 3965,
+      "durationSec": 574,
+      "topic": "Spieletipps",
+      "fineSubject": "Tips",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 3965,
+      "endSec": 5044,
+      "durationSec": 1079,
+      "topic": "Spielemodus",
+      "fineSubject": "Modes",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 5045,
+      "endSec": 5982,
+      "durationSec": 937,
+      "topic": "Unity",
+      "fineSubject": "Game Development",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5982,
+      "endSec": 8077,
+      "durationSec": 2095,
+      "topic": "Starlink Erfahrungen",
+      "fineSubject": "Internet",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11037,
+      "endSec": 12794,
+      "durationSec": 1757,
+      "topic": "iPhones und USB-C",
+      "fineSubject": "Smartphones",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Business",
+      "startSec": 12794,
+      "endSec": 13607,
+      "durationSec": 813,
+      "topic": "Apple und Gaming",
+      "fineSubject": "Gaming",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 13607,
+      "endSec": 14770,
+      "durationSec": 1163,
+      "topic": "Betriebssystemupdates",
+      "fineSubject": "Updates",
+      "topicIndex": 16
+    }
+  ]
+}

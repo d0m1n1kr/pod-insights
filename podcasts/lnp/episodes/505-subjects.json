@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 505,
+  "title": "LNP505 bestandteile-einer-bombe24.de",
+  "generatedAt": "2026-01-05T15:17:57.642Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.0273972602739726,
+      "Technology": 0.05818235380762999,
+      "Law": 0.43717778759758436,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.010752688172043012,
+      "Health": 0.4357048166151127,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.03078509353365739,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 186,
+      "Technology": 395,
+      "Law": 2968,
+      "Security": 0,
+      "Social": 0,
+      "Media": 73,
+      "Health": 2958,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 209,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6789,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 733,
+      "endSec": 919,
+      "durationSec": 186,
+      "topic": "Google vs. Russland",
+      "fineSubject": "International Relations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1131,
+      "endSec": 1237,
+      "durationSec": 106,
+      "topic": "Feedprobleme",
+      "fineSubject": "Internet Issues",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1237,
+      "endSec": 1526,
+      "durationSec": 289,
+      "topic": "HTTP Status Codes 503-505",
+      "fineSubject": "Web Protocols",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2029,
+      "endSec": 3429,
+      "durationSec": 1400,
+      "topic": "Sicherheitspaket und Vorratsdatenspeicherung",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3430,
+      "endSec": 6388,
+      "durationSec": 2958,
+      "topic": "Elektronische Patientenakte",
+      "fineSubject": "Digital Health Records",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 6389,
+      "endSec": 7109,
+      "durationSec": 720,
+      "topic": "Hackerparagraph",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 7109,
+      "endSec": 7957,
+      "durationSec": 848,
+      "topic": "Urteil Arne Semsrott",
+      "fineSubject": "Legal Cases",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 7957,
+      "endSec": 8166,
+      "durationSec": 209,
+      "topic": "epicenter.works braucht Kohle",
+      "fineSubject": "Funding",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 8167,
+      "endSec": 8240,
+      "durationSec": 73,
+      "topic": "13 Jahre LNP",
+      "fineSubject": "Podcasting",
+      "topicIndex": 9
+    }
+  ]
+}

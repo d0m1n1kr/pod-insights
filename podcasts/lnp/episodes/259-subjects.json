@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 259,
+  "title": "LNP259 Stell Dir vor es ist Standard und keiner macht mit",
+  "generatedAt": "2026-01-05T15:17:57.608Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.6310868718348266,
+      "Security": 0.20276587456174522,
+      "Social": 0.08317101675107129,
+      "Media": 0,
+      "Health": 0.034086482275029216,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.04888975457732762,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 3240,
+      "Security": 1041,
+      "Social": 427,
+      "Media": 0,
+      "Health": 175,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 251,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5134,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 128,
+      "endSec": 555,
+      "durationSec": 427,
+      "topic": "Feedback: Messenger",
+      "fineSubject": "Messaging",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 555,
+      "endSec": 730,
+      "durationSec": 175,
+      "topic": "Feedback Digitalisierung und Ärzte",
+      "fineSubject": "Digitalization",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 731,
+      "endSec": 3371,
+      "durationSec": 2640,
+      "topic": "Julia Reda zur EU-Urheberrechtsreform",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 3371,
+      "endSec": 3655,
+      "durationSec": 284,
+      "topic": "Musterfeststellungsklagen und Abmahnungen",
+      "fineSubject": "Litigation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3655,
+      "endSec": 3835,
+      "durationSec": 180,
+      "topic": "Hessentrojaner",
+      "fineSubject": "Malware",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3836,
+      "endSec": 4152,
+      "durationSec": 316,
+      "topic": "Gutachten zum beA",
+      "fineSubject": "Legal Opinions",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4152,
+      "endSec": 5013,
+      "durationSec": 861,
+      "topic": "EU und Kaspersky",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 5186,
+      "endSec": 5437,
+      "durationSec": 251,
+      "topic": "Crowdfunding für das Zentralwerk",
+      "fineSubject": "Crowdfunding",
+      "topicIndex": 7
+    }
+  ]
+}

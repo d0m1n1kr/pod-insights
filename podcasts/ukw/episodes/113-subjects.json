@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 113,
+  "title": "UKW113 Ukraine: Die Denazifizierung des russischen Luftraums",
+  "generatedAt": "2026-01-05T15:18:03.029Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.35465755097057744,
+      "Military": 0.4860212428274936,
+      "Technology": 0,
+      "Economics": 0.07044316933219387,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.08887803686973507
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2905,
+      "Military": 3981,
+      "Technology": 0,
+      "Economics": 577,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 728
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 3,
+      "Military": 5,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 1
+    },
+    "totalDurationSec": 8191,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 141,
+      "endSec": 841,
+      "durationSec": 700,
+      "topic": "Ausgangssituation der Offensive",
+      "fineSubject": "Situation / Initial",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 842,
+      "endSec": 2673,
+      "durationSec": 1831,
+      "topic": "Militärische Lage der Offensive",
+      "fineSubject": "Situation / Current",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 2673,
+      "endSec": 3124,
+      "durationSec": 451,
+      "topic": "Drohnenkrieg",
+      "fineSubject": "Technology / Drones",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 3124,
+      "endSec": 3852,
+      "durationSec": 728,
+      "topic": "Situation auf der Krim und im Schwarzen Meer",
+      "fineSubject": "Location / Crimea",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 3853,
+      "endSec": 4242,
+      "durationSec": 389,
+      "topic": "Waffenlieferungen",
+      "fineSubject": "Support / Weapons",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4242,
+      "endSec": 4906,
+      "durationSec": 664,
+      "topic": "Der Tod von Prigoschin",
+      "fineSubject": "Event / Death",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4906,
+      "endSec": 6128,
+      "durationSec": 1222,
+      "topic": "Mögliche Ursachen des Absturzes",
+      "fineSubject": "Event / Crash",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 6129,
+      "endSec": 6739,
+      "durationSec": 610,
+      "topic": "Was bleibt von Wagner?",
+      "fineSubject": "Group / Wagner",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6740,
+      "endSec": 7759,
+      "durationSec": 1019,
+      "topic": "Der NATO-Gipfel",
+      "fineSubject": "Event / NATO Summit",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Economics",
+      "startSec": 7759,
+      "endSec": 8336,
+      "durationSec": 577,
+      "topic": "Stimmung und Wirtschaft in Russland",
+      "fineSubject": "Situation / Russia",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 83,
+  "title": "LNP083 500 Millionen Kommunikationen",
+  "generatedAt": "2026-01-05T15:17:57.586Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5533386013433426,
+      "Technology": 0.3455156064796523,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.10114579217700513,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2801,
+      "Technology": 1749,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 512,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5062,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 128,
+      "endSec": 1624,
+      "durationSec": 1496,
+      "topic": "Angela Merkels Handy wurde abgehört",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1625,
+      "endSec": 2317,
+      "durationSec": 692,
+      "topic": "Hintergrund: Handys abhören",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2317,
+      "endSec": 2757,
+      "durationSec": 440,
+      "topic": "Hintergrund: Cryptophones",
+      "fineSubject": "Cryptography",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 2758,
+      "endSec": 3270,
+      "durationSec": 512,
+      "topic": "Frankreich will aufholen in der Wirtschaftsspionage",
+      "fineSubject": "Espionage",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3271,
+      "endSec": 4576,
+      "durationSec": 1305,
+      "topic": "Etappensieg gegen Drosselkom",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4576,
+      "endSec": 5193,
+      "durationSec": 617,
+      "topic": "NSA kopiert Mails von Google-Servern",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 5
+    }
+  ]
+}

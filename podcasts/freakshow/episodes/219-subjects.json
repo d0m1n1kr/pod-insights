@@ -1,0 +1,270 @@
+{
+  "episodeNumber": 219,
+  "title": "FS219 Dein Gesicht ist ein Knopf",
+  "generatedAt": "2026-01-05T15:17:51.096Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.8015056648777579,
+      "Hardware": 0.07304710793082886,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.006782945736434108,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.04830053667262969,
+      "Gaming": 0,
+      "Event": 0.07036374478234943
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 10753,
+      "Hardware": 980,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 91,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 648,
+      "Gaming": 0,
+      "Event": 944
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 19,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 2
+    },
+    "totalDurationSec": 13416,
+    "totalTopics": 25
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 999,
+      "endSec": 1979,
+      "durationSec": 980,
+      "topic": "Tim hat einen neuen alten Mac",
+      "fineSubject": "Hardware / Mac",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1980,
+      "endSec": 2780,
+      "durationSec": 800,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Software / Pimp My Mac",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 2780,
+      "endSec": 3537,
+      "durationSec": 757,
+      "topic": "WWDC: Keynote",
+      "fineSubject": "Event / Keynote",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 3538,
+      "endSec": 3784,
+      "durationSec": 246,
+      "topic": "iOS 12: Performance",
+      "fineSubject": "Software / iOS 12 Performance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 3785,
+      "endSec": 4909,
+      "durationSec": 1124,
+      "topic": "iOS 12: AR",
+      "fineSubject": "Software / iOS 12 AR",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 4909,
+      "endSec": 5236,
+      "durationSec": 327,
+      "topic": "iOS 12: Siri Shortcuts",
+      "fineSubject": "Software / iOS 12 Siri Shortcuts",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 5237,
+      "endSec": 5447,
+      "durationSec": 210,
+      "topic": "iOS 12: Anti-Distraction & Screen Time",
+      "fineSubject": "Software / iOS 12 Anti-Distraction",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 5448,
+      "endSec": 5539,
+      "durationSec": 91,
+      "topic": "iPhone in Kinderhand",
+      "fineSubject": "Social / iPhone in Kinderhand",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 5540,
+      "endSec": 6107,
+      "durationSec": 567,
+      "topic": "Routing-Apps",
+      "fineSubject": "Software / Routing-Apps",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 6107,
+      "endSec": 6344,
+      "durationSec": 237,
+      "topic": "iOS 12: Communication",
+      "fineSubject": "Software / iOS 12 Communication",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 6344,
+      "endSec": 6470,
+      "durationSec": 126,
+      "topic": "iOS 12: Screenshots",
+      "fineSubject": "Software / iOS 12 Screenshots",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 6471,
+      "endSec": 7030,
+      "durationSec": 559,
+      "topic": "watchOS 5",
+      "fineSubject": "Software / watchOS 5",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 7030,
+      "endSec": 7691,
+      "durationSec": 661,
+      "topic": "Podcasts auf der Apple Watch",
+      "fineSubject": "Software / Podcasts auf der Apple Watch",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 7692,
+      "endSec": 7914,
+      "durationSec": 222,
+      "topic": "tvOS",
+      "fineSubject": "Software / tvOS",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 7914,
+      "endSec": 8809,
+      "durationSec": 895,
+      "topic": "macOS: Dark Mode",
+      "fineSubject": "Software / macOS Dark Mode",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 8810,
+      "endSec": 9136,
+      "durationSec": 326,
+      "topic": "Terminal Fonts",
+      "fineSubject": "Software / Terminal Fonts",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 9137,
+      "endSec": 9343,
+      "durationSec": 206,
+      "topic": "macOS: Desktop Stuff",
+      "fineSubject": "Software / macOS Desktop Stuff",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 9343,
+      "endSec": 9715,
+      "durationSec": 372,
+      "topic": "macOS: Safari",
+      "fineSubject": "Software / macOS Safari",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 9715,
+      "endSec": 10455,
+      "durationSec": 740,
+      "topic": "macOS: App Store",
+      "fineSubject": "Software / macOS App Store",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Event",
+      "startSec": 10456,
+      "endSec": 10643,
+      "durationSec": 187,
+      "topic": "WWDC: abschließende Gedanken",
+      "fineSubject": "Event / abschließende Gedanken",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Business",
+      "startSec": 10643,
+      "endSec": 11291,
+      "durationSec": 648,
+      "topic": "Microsoft kauft GitHub",
+      "fineSubject": "Business / Microsoft kauft GitHub",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Software",
+      "startSec": 11292,
+      "endSec": 13008,
+      "durationSec": 1716,
+      "topic": "Podlove Web Player",
+      "fineSubject": "Software / Podlove Web Player",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Software",
+      "startSec": 13008,
+      "endSec": 14199,
+      "durationSec": 1191,
+      "topic": "Testing und Tooling im Web",
+      "fineSubject": "Software / Testing und Tooling im Web",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Software",
+      "startSec": 14199,
+      "endSec": 14427,
+      "durationSec": 228,
+      "topic": "Podlove Web Player Zukunft",
+      "fineSubject": "Software / Podlove Web Player Zukunft",
+      "topicIndex": 24
+    }
+  ]
+}

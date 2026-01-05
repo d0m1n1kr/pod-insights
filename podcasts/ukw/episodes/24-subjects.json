@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 24,
+  "title": "UKW024 Corona Weekly: Risk Assessment",
+  "generatedAt": "2026-01-05T15:18:03.002Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.656627240580417,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.2392391171808316,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.10413364223875138,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5385,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1962,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 854,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 11,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 4,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8201,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 77,
+      "endSec": 177,
+      "durationSec": 100,
+      "topic": "Feedback: das Ende",
+      "fineSubject": "Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 177,
+      "endSec": 415,
+      "durationSec": 238,
+      "topic": "Feedback: Fits und Voraussagen",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 415,
+      "endSec": 855,
+      "durationSec": 440,
+      "topic": "Gangelt-Studie und die Dunkelziffern",
+      "fineSubject": "Studies",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 855,
+      "endSec": 953,
+      "durationSec": 98,
+      "topic": "Hintergrundimmunität",
+      "fineSubject": "Background Immunity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 954,
+      "endSec": 1051,
+      "durationSec": 97,
+      "topic": "Die Gefahr ist nicht gebannt",
+      "fineSubject": "Risk",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Society",
+      "startSec": 1051,
+      "endSec": 1905,
+      "durationSec": 854,
+      "topic": "Risiko Schulöffnung",
+      "fineSubject": "Risk Assessment",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 1906,
+      "endSec": 2052,
+      "durationSec": 146,
+      "topic": "Raucher",
+      "fineSubject": "Smoking",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2053,
+      "endSec": 3146,
+      "durationSec": 1093,
+      "topic": "Aktuelle Infektionszahlen",
+      "fineSubject": "Statistics",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3146,
+      "endSec": 4182,
+      "durationSec": 1036,
+      "topic": "Bereitstellungsqualität der RKI-Daten",
+      "fineSubject": "Quality",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4527,
+      "endSec": 4800,
+      "durationSec": 273,
+      "topic": "Die Contact Tracing Diskussion",
+      "fineSubject": "Discussion",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4800,
+      "endSec": 5054,
+      "durationSec": 254,
+      "topic": "Komplexität der Apps",
+      "fineSubject": "Complexity",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5054,
+      "endSec": 5370,
+      "durationSec": 316,
+      "topic": "Neue Regeln für Tracing Apps",
+      "fineSubject": "Regulations",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5371,
+      "endSec": 6622,
+      "durationSec": 1251,
+      "topic": "Risk Assessment",
+      "fineSubject": "Risk Assessment",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 6623,
+      "endSec": 7236,
+      "durationSec": 613,
+      "topic": "Mögliche Verbesserungstrategien",
+      "fineSubject": "Strategies",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7237,
+      "endSec": 7854,
+      "durationSec": 617,
+      "topic": "Bluetooth Exposure im System?",
+      "fineSubject": "Exposure",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7855,
+      "endSec": 8630,
+      "durationSec": 775,
+      "topic": "Potentielle Verbreitung der App",
+      "fineSubject": "Distribution",
+      "topicIndex": 16
+    }
+  ]
+}

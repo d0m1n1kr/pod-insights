@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 177,
+  "title": "FS177 Talk nerdy to me",
+  "generatedAt": "2026-01-05T15:17:51.086Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.019421445364407645,
+      "Software": 0.06582847797199223,
+      "Hardware": 0.41306347746090155,
+      "Finance": 0.09772053562301952,
+      "Media": 0,
+      "Social": 0.17499744454666258,
+      "Culture": 0.18164162322395994,
+      "Security": 0,
+      "Events": 0.04732699580905653,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 190,
+      "Software": 644,
+      "Hardware": 4041,
+      "Finance": 956,
+      "Media": 0,
+      "Social": 1712,
+      "Culture": 1777,
+      "Security": 0,
+      "Events": 463,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 2,
+      "Hardware": 6,
+      "Finance": 4,
+      "Media": 0,
+      "Social": 2,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9783,
+    "totalTopics": 26
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 260,
+      "endSec": 587,
+      "durationSec": 327,
+      "topic": "iPhone Dock",
+      "fineSubject": "iPhone Dock",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Finance",
+      "startSec": 588,
+      "endSec": 762,
+      "durationSec": 174,
+      "topic": "Satoshi Nakamoto",
+      "fineSubject": "Satoshi Nakamoto",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 762,
+      "endSec": 1164,
+      "durationSec": 402,
+      "topic": "291 Bitcoin Transaktionsgebühr",
+      "fineSubject": "Bitcoin Transaktionsgebühr",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 1165,
+      "endSec": 1404,
+      "durationSec": 239,
+      "topic": "Blockchain Business",
+      "fineSubject": "Business",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1405,
+      "endSec": 1804,
+      "durationSec": 399,
+      "topic": "Nokia und Blackberry",
+      "fineSubject": "Nokia und Blackberry",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 1804,
+      "endSec": 1945,
+      "durationSec": 141,
+      "topic": "Blockchain Business 2",
+      "fineSubject": "Business",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1946,
+      "endSec": 2683,
+      "durationSec": 737,
+      "topic": "Telefon-Tastaturen",
+      "fineSubject": "Telefon-Tastaturen",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 3937,
+      "endSec": 4406,
+      "durationSec": 469,
+      "topic": "Instant Apps",
+      "fineSubject": "Instant Apps",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 4407,
+      "endSec": 4501,
+      "durationSec": 94,
+      "topic": "Das N-Wort",
+      "fineSubject": "Das N-Wort",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 4501,
+      "endSec": 4676,
+      "durationSec": 175,
+      "topic": "Java",
+      "fineSubject": "Java",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Social",
+      "startSec": 6142,
+      "endSec": 7760,
+      "durationSec": 1618,
+      "topic": "Warum Mädchen nicht programmieren können",
+      "fineSubject": "Programmieren",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7760,
+      "endSec": 8752,
+      "durationSec": 992,
+      "topic": "Towel Day",
+      "fineSubject": "Towel Day",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Events",
+      "startSec": 8753,
+      "endSec": 8960,
+      "durationSec": 207,
+      "topic": "UNSUBSCRIBE in Wien",
+      "fineSubject": "UNSUBSCRIBE in Wien",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8961,
+      "endSec": 9982,
+      "durationSec": 1021,
+      "topic": "Kopfhörer",
+      "fineSubject": "Kopfhörer",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10586,
+      "endSec": 11835,
+      "durationSec": 1249,
+      "topic": "MacBook Pro Gerüchteküche",
+      "fineSubject": "MacBook Pro Gerüchteküche",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Events",
+      "startSec": 11836,
+      "endSec": 12092,
+      "durationSec": 256,
+      "topic": "Freak Show Termine",
+      "fineSubject": "Freak Show Termine",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12092,
+      "endSec": 12400,
+      "durationSec": 308,
+      "topic": "Movpak",
+      "fineSubject": "Movpak",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Culture",
+      "startSec": 13256,
+      "endSec": 14041,
+      "durationSec": 785,
+      "topic": "Star Wars",
+      "fineSubject": "Star Wars",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14041,
+      "endSec": 14231,
+      "durationSec": 190,
+      "topic": "Suchmaschinen",
+      "fineSubject": "Suchmaschinen",
+      "topicIndex": 25
+    }
+  ]
+}

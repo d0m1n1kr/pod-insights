@@ -1,0 +1,100 @@
+{
+  "episodeNumber": 127,
+  "title": "DU127 - Der Glücksstern und die Mutter von Hubble",
+  "generatedAt": "2026-01-05T15:18:22.110Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 1,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 131,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 4,
+      "Raumfahrt": 1,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 131,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "Gaia-Weltraumteleskop",
+      "fineSubject": "Weltraumteleskope",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "AG Draconis und seine Aktivitätsphasen",
+      "fineSubject": "Sternsysteme",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 28,
+      "endSec": 76,
+      "durationSec": 48,
+      "topic": "Nancy Grace Roman und AG Draconis",
+      "fineSubject": "Sternsysteme",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 36,
+      "endSec": 79,
+      "durationSec": 43,
+      "topic": "Hubble-Weltraumteleskop",
+      "fineSubject": "Weltraumteleskope",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Astronautinnen und ihre Missionen",
+      "fineSubject": "Astronauten",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

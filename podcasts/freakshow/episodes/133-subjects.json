@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 133,
+  "title": "FS133 Ich werde noch meinen Kindern davon erzählen",
+  "generatedAt": "2026-01-05T15:17:51.076Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3251874208937786,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.3099990263849674,
+      "Media": 0.04069710836335313,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.09074092103982086,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.23337552331808004
+    },
+    "durations": {
+      "Technology": 3340,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 3184,
+      "Media": 418,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 932,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 2397
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 3,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 10271,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 450,
+      "endSec": 2847,
+      "durationSec": 2397,
+      "topic": "WWDC",
+      "fineSubject": "Technology / Software",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3574,
+      "endSec": 4770,
+      "durationSec": 1196,
+      "topic": "Flattr",
+      "fineSubject": "Technology / Flattr",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6594,
+      "endSec": 7435,
+      "durationSec": 841,
+      "topic": "Owncloud",
+      "fineSubject": "Technology / Owncloud",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 7435,
+      "endSec": 8212,
+      "durationSec": 777,
+      "topic": "Bitcoin",
+      "fineSubject": "Technology / Bitcoin",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8212,
+      "endSec": 9423,
+      "durationSec": 1211,
+      "topic": "Apple-Aktie",
+      "fineSubject": "Business / Apple-Aktie",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 9423,
+      "endSec": 10355,
+      "durationSec": 932,
+      "topic": "Passwörter",
+      "fineSubject": "Technology / Management",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10977,
+      "endSec": 11710,
+      "durationSec": 733,
+      "topic": "Loadbalancing",
+      "fineSubject": "Technology / Infrastructure",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11710,
+      "endSec": 12663,
+      "durationSec": 953,
+      "topic": "Netzwerken",
+      "fineSubject": "Technology / Networking",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 14090,
+      "endSec": 14307,
+      "durationSec": 217,
+      "topic": "Hukls Audiointerface",
+      "fineSubject": "Technology / Hukls Audiointerface",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14307,
+      "endSec": 15120,
+      "durationSec": 813,
+      "topic": "Netzwerk Taschenmesser",
+      "fineSubject": "Technology / Network Toolkit",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 15230,
+      "endSec": 15431,
+      "durationSec": 201,
+      "topic": "Musik: iPhone Ringtone Remix",
+      "fineSubject": "Technology / iPhone",
+      "topicIndex": 14
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 219,
+  "title": "LNP219 Ternäres Feeling",
+  "generatedAt": "2026-01-05T15:17:57.602Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.2879699248120301,
+      "Law": 0.30582706766917295,
+      "Security": 0.08327067669172933,
+      "Social": 0,
+      "Media": 0.12443609022556391,
+      "Health": 0,
+      "Feedback": 0.19849624060150375,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1532,
+      "Law": 1627,
+      "Security": 443,
+      "Social": 0,
+      "Media": 662,
+      "Health": 0,
+      "Feedback": 1056,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 2,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 5,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5320,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 106,
+      "endSec": 349,
+      "durationSec": 243,
+      "topic": "Feedback: Taktfragen",
+      "fineSubject": "Taktfragen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 349,
+      "endSec": 526,
+      "durationSec": 177,
+      "topic": "Feedback: Bundeswehr",
+      "fineSubject": "Bundeswehr",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 527,
+      "endSec": 860,
+      "durationSec": 333,
+      "topic": "Feedback: Data Science & Stories",
+      "fineSubject": "Data Science",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 860,
+      "endSec": 929,
+      "durationSec": 69,
+      "topic": "Feedback: BMI, BSI und BfDI",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 930,
+      "endSec": 1164,
+      "durationSec": 234,
+      "topic": "Feedback: Wahlsoftware",
+      "fineSubject": "Wahlsoftware",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 1164,
+      "endSec": 1442,
+      "durationSec": 278,
+      "topic": "BND spioniert Interpol aus",
+      "fineSubject": "Spionage",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1443,
+      "endSec": 2975,
+      "durationSec": 1532,
+      "topic": "Uber: iPhone-Fingerprinting",
+      "fineSubject": "Fingerprinting",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 2975,
+      "endSec": 4266,
+      "durationSec": 1291,
+      "topic": "eID-Gesetz",
+      "fineSubject": "eID",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 4267,
+      "endSec": 4432,
+      "durationSec": 165,
+      "topic": "NSA-Exploits in the wild",
+      "fineSubject": "Exploits",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 4432,
+      "endSec": 4768,
+      "durationSec": 336,
+      "topic": "Verfahren gegen Wikileaks",
+      "fineSubject": "Wikileaks",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 4768,
+      "endSec": 5430,
+      "durationSec": 662,
+      "topic": "Neues von Fake News und Hatespeech",
+      "fineSubject": "Fake News",
+      "topicIndex": 10
+    }
+  ]
+}

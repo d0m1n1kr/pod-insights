@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 14,
+  "title": "UKW014 Corona: Modelle und Prognosen",
+  "generatedAt": "2026-01-05T15:18:03.000Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.8822489959839357,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.11775100401606425,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5492,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 733,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 10,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6225,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 297,
+      "endSec": 602,
+      "durationSec": 305,
+      "topic": "Zahlen und Modelle",
+      "fineSubject": "Models",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 602,
+      "endSec": 819,
+      "durationSec": 217,
+      "topic": "Probleme mit Modellen",
+      "fineSubject": "Models",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 819,
+      "endSec": 1435,
+      "durationSec": 616,
+      "topic": "Alternative Ansätze, Datenqualität und Dunkelziffern",
+      "fineSubject": "Data Quality",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1435,
+      "endSec": 2633,
+      "durationSec": 1198,
+      "topic": "Datenquellen und Datenqualität",
+      "fineSubject": "Data Sources",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2634,
+      "endSec": 3417,
+      "durationSec": 783,
+      "topic": "Aussagen der Modelle",
+      "fineSubject": "Models",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3417,
+      "endSec": 3755,
+      "durationSec": 338,
+      "topic": "Pavels Berechnungen",
+      "fineSubject": "Calculations",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3755,
+      "endSec": 4117,
+      "durationSec": 362,
+      "topic": "Situationsverbesserung",
+      "fineSubject": "Situational Improvement",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4118,
+      "endSec": 4667,
+      "durationSec": 549,
+      "topic": "Maßnahmen und Zahlen im Ausland",
+      "fineSubject": "International Comparison",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4667,
+      "endSec": 5328,
+      "durationSec": 661,
+      "topic": "Neue Tests und weitere Entwicklungen",
+      "fineSubject": "Testing",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Society",
+      "startSec": 5328,
+      "endSec": 6061,
+      "durationSec": 733,
+      "topic": "Die neue Realität nach dem Lockdown",
+      "fineSubject": "Post-Lockdown",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 6062,
+      "endSec": 6525,
+      "durationSec": 463,
+      "topic": "Rechtfertigung der Maßnahmen",
+      "fineSubject": "Policy Justification",
+      "topicIndex": 11
+    }
+  ]
+}

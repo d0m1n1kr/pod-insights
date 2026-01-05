@@ -1,0 +1,63 @@
+{
+  "episodeNumber": 320,
+  "title": "LNP320 Leute die Husten kauften, kauften auch…",
+  "generatedAt": "2026-01-05T15:17:57.616Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 2669,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2669,
+    "totalTopics": 1
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 302,
+      "endSec": 2971,
+      "durationSec": 2669,
+      "topic": "Das Digitale Versorgungsgesetz",
+      "fineSubject": "Digital Health",
+      "topicIndex": 0
+    }
+  ]
+}

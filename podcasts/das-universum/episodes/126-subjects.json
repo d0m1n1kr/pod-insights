@@ -1,0 +1,92 @@
+{
+  "episodeNumber": 126,
+  "title": "DU126 - Wackelndes Wasser am Anfang des Universums",
+  "generatedAt": "2026-01-05T15:18:22.109Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.98814463544754,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0.011855364552459988,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 1667,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 20,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 2,
+      "Raumfahrt": 1,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 1,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 1687,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "Wissenschaftliche Entdeckungen",
+      "fineSubject": "Forschung",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 7,
+      "endSec": 1674,
+      "durationSec": 1667,
+      "topic": "Ursprung des Wassers",
+      "fineSubject": "Wasser im Universum",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Raumsonden auf dem Mond",
+      "fineSubject": "Mondmissionen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Neue Saturnmonde",
+      "fineSubject": "Saturn",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

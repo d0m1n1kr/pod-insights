@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 210,
+  "title": "FS210 Spoiler Alert",
+  "generatedAt": "2026-01-05T15:17:51.094Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.15955182072829133,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.17680672268907563,
+      "Social": 0,
+      "Culture": 0.03932773109243697,
+      "Security": 0.23686274509803923,
+      "Events": 0.38745098039215686,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1424,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1578,
+      "Social": 0,
+      "Culture": 351,
+      "Security": 2114,
+      "Events": 3458,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 3,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8925,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 5102,
+      "endSec": 5319,
+      "durationSec": 217,
+      "topic": "Audiogeräte bauen und zum Laufen kriegen",
+      "fineSubject": "Technology / Audio Equipment",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 5686,
+      "endSec": 7264,
+      "durationSec": 1578,
+      "topic": "Denis schaut Fernsehen",
+      "fineSubject": "Media / Viewing Habits",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 7604,
+      "endSec": 9718,
+      "durationSec": 2114,
+      "topic": "Meltdown & Spectre",
+      "fineSubject": "Security / Meltdown & Spectre",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 9718,
+      "endSec": 11857,
+      "durationSec": 2139,
+      "topic": "34C3: Allgemeines",
+      "fineSubject": "Events / 34C3 Overview",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Events",
+      "startSec": 12230,
+      "endSec": 12984,
+      "durationSec": 754,
+      "topic": "34C3: Netzwerk",
+      "fineSubject": "Events / 34C3 Networking",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12985,
+      "endSec": 13530,
+      "durationSec": 545,
+      "topic": "34C3: Apollo Guidance Computer",
+      "fineSubject": "Technology / Apollo Guidance Computer",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13689,
+      "endSec": 14155,
+      "durationSec": 466,
+      "topic": "34C3: Ladeinfrastruktur für E-Autos",
+      "fineSubject": "Technology / E-Car Charging",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14155,
+      "endSec": 14351,
+      "durationSec": 196,
+      "topic": "34C3: Free Electron Lasers",
+      "fineSubject": "Technology / Free Electron Lasers",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Culture",
+      "startSec": 14514,
+      "endSec": 14865,
+      "durationSec": 351,
+      "topic": "34C3: Chaos Communication Choir",
+      "fineSubject": "Culture / Choir",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Events",
+      "startSec": 14865,
+      "endSec": 15430,
+      "durationSec": 565,
+      "topic": "34C3: Roundup und Zukunft",
+      "fineSubject": "Events / 34C3 Future Outlook",
+      "topicIndex": 16
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 15,
+  "title": "LNP015 B wie Blog, C wie Zukunft",
+  "generatedAt": "2026-01-05T15:17:57.573Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.18587555788920976,
+      "Law": 0.8141244421107903,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 708,
+      "Law": 3101,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3809,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 0,
+      "endSec": 1855,
+      "durationSec": 1855,
+      "topic": "Leistungsschutzrecht für Presseverlage",
+      "fineSubject": "Leistungsschutzrecht",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1855,
+      "endSec": 2563,
+      "durationSec": 708,
+      "topic": "Googles neue Datenschutzrichtlinie",
+      "fineSubject": "Datenschutzrichtlinien",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2563,
+      "endSec": 3809,
+      "durationSec": 1246,
+      "topic": "Jugendmedienschutzstaatsvertrag",
+      "fineSubject": "Jugendmedienschutz",
+      "topicIndex": 2
+    }
+  ]
+}

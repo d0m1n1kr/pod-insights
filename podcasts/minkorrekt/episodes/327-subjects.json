@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 327,
+  "title": "Mi327 – \"Weihnachtsfeier der Internetdullies\"",
+  "generatedAt": "2026-01-05T15:18:17.388Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.7683535281539559,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.2316464718460442,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 1078,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 325,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 1403,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 4024,
+      "endSec": 5102,
+      "durationSec": 1078,
+      "topic": "Musik \"Laser senden total\"",
+      "fineSubject": "Music",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 5566,
+      "endSec": 5891,
+      "durationSec": 325,
+      "topic": "Audiokommentar Bindegewebe von Daniel",
+      "fineSubject": "Commentary",
+      "topicIndex": 1
+    }
+  ]
+}

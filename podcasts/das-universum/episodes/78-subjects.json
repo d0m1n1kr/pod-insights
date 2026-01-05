@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 78,
+  "title": "DU078 - Ein schwarzes Loch voller Powidl und ein Plasma-Croissant",
+  "generatedAt": "2026-01-05T15:18:22.102Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0.25,
+      "Kultur": 0.5,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0.25,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 1,
+      "Kultur": 2,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 1,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Voyager 2",
+      "fineSubject": "Raumsonden",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "KI und schwarze Löcher",
+      "fineSubject": "Künstliche Intelligenz",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Film 'Interstellar'",
+      "fineSubject": "Film",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Public Viewing",
+      "fineSubject": "Veranstaltungen",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

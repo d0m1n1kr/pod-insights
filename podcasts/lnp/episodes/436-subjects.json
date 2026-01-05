@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 436,
+  "title": "LNP436 Leben in der Tabellenkalkulation",
+  "generatedAt": "2026-01-05T15:17:57.634Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.3140552599965677,
+      "Law": 0.15582632572507293,
+      "Security": 0.0832332246438991,
+      "Social": 0.11223614209713403,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.028659687660888965,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.3059893598764373,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1830,
+      "Law": 908,
+      "Security": 485,
+      "Social": 654,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 167,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1783,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 3,
+      "Law": 2,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 3,
+      "Culture": 0
+    },
+    "totalDurationSec": 5827,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 296,
+      "endSec": 463,
+      "durationSec": 167,
+      "topic": "Feedback: Zweiter Platz hinter Udo",
+      "fineSubject": "Wettbewerb",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 464,
+      "endSec": 1118,
+      "durationSec": 654,
+      "topic": "Feedback: Ukraine-Spendenaktion",
+      "fineSubject": "Spendenaktion",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1118,
+      "endSec": 1579,
+      "durationSec": 461,
+      "topic": "Linus Vortrag über Web3",
+      "fineSubject": "Web3",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2111,
+      "endSec": 2385,
+      "durationSec": 274,
+      "topic": "Alexa bekommt einen Zweitnamen",
+      "fineSubject": "Alexa",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2385,
+      "endSec": 3480,
+      "durationSec": 1095,
+      "topic": "CCC hackt Video-Ident",
+      "fineSubject": "Video-Ident",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3480,
+      "endSec": 3740,
+      "durationSec": 260,
+      "topic": "Cybercrime-Statistiken: Krimi­nalitäts­lage und Pandemie",
+      "fineSubject": "Statistiken",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 3740,
+      "endSec": 3965,
+      "durationSec": 225,
+      "topic": "Cybercrime-Statistiken: Löschung von Telemedienangeboten",
+      "fineSubject": "Telemedien",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 3966,
+      "endSec": 4638,
+      "durationSec": 672,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4639,
+      "endSec": 5313,
+      "durationSec": 674,
+      "topic": "Überwachung 1. Mai Grunewald",
+      "fineSubject": "1. Mai",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Law",
+      "startSec": 5313,
+      "endSec": 5549,
+      "durationSec": 236,
+      "topic": "Linksunten keine kriminelle Vereinigung",
+      "fineSubject": "Linksunten",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5550,
+      "endSec": 6112,
+      "durationSec": 562,
+      "topic": "noyb weiter gegen Cookiebanner",
+      "fineSubject": "Cookiebanner",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 6512,
+      "endSec": 7059,
+      "durationSec": 547,
+      "topic": "Datensafe zerforscht",
+      "fineSubject": "Datensafe",
+      "topicIndex": 15
+    }
+  ]
+}

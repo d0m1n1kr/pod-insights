@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 189,
+  "title": "FS189 Mahatma, Mahatma nich",
+  "generatedAt": "2026-01-05T15:17:51.089Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.14780307040762308,
+      "Hardware": 0.3890947591318158,
+      "Finance": 0.12228692429857067,
+      "Media": 0.28279512969825304,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.05802011646373743
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 1396,
+      "Hardware": 3675,
+      "Finance": 1155,
+      "Media": 2671,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 548
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 3,
+      "Hardware": 5,
+      "Finance": 2,
+      "Media": 5,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 9445,
+    "totalTopics": 22
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 379,
+      "endSec": 1704,
+      "durationSec": 1325,
+      "topic": "Weitere MacBook Pro Erfahrungen",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2860,
+      "endSec": 3496,
+      "durationSec": 636,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Mac",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 3497,
+      "endSec": 3550,
+      "durationSec": 53,
+      "topic": "Emoji Movie",
+      "fineSubject": "Film",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 7619,
+      "endSec": 8265,
+      "durationSec": 646,
+      "topic": "Reaper",
+      "fineSubject": "Reaper",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8266,
+      "endSec": 8852,
+      "durationSec": 586,
+      "topic": "Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8852,
+      "endSec": 9421,
+      "durationSec": 569,
+      "topic": "Zcoin und die Libertären",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 9422,
+      "endSec": 9598,
+      "durationSec": 176,
+      "topic": "Energy Framework",
+      "fineSubject": "Energy Framework",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9598,
+      "endSec": 9784,
+      "durationSec": 186,
+      "topic": "Smart Battery Case",
+      "fineSubject": "Smart Battery Case",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 9872,
+      "endSec": 10446,
+      "durationSec": 574,
+      "topic": "iTunes, Let's Encrypt und die Metaebene",
+      "fineSubject": "iTunes",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 11164,
+      "endSec": 12027,
+      "durationSec": 863,
+      "topic": "Spiele",
+      "fineSubject": "Games",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12028,
+      "endSec": 13255,
+      "durationSec": 1227,
+      "topic": "Beats Solo 3 Wireless",
+      "fineSubject": "Headphones",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 13255,
+      "endSec": 13529,
+      "durationSec": 274,
+      "topic": "Maximal unbeeindruckt",
+      "fineSubject": "Film",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13530,
+      "endSec": 13831,
+      "durationSec": 301,
+      "topic": "Akkus",
+      "fineSubject": "Batteries",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Event",
+      "startSec": 13831,
+      "endSec": 14379,
+      "durationSec": 548,
+      "topic": "33C3",
+      "fineSubject": "Conference",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Media",
+      "startSec": 14380,
+      "endSec": 14841,
+      "durationSec": 461,
+      "topic": "Blade Runner 2049",
+      "fineSubject": "Film",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Media",
+      "startSec": 14841,
+      "endSec": 15861,
+      "durationSec": 1020,
+      "topic": "Rogue One",
+      "fineSubject": "Film",
+      "topicIndex": 20
+    }
+  ]
+}

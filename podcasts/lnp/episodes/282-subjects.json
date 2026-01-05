@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 282,
+  "title": "LNP282 Selbstkritische Infrastruktur",
+  "generatedAt": "2026-01-05T15:17:57.611Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.13678789829417445,
+      "Security": 0.3540392661731574,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.43868683617637594,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.07048599935629224,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 425,
+      "Security": 1100,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1363,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 219,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 8,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3107,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 117,
+      "endSec": 196,
+      "durationSec": 79,
+      "topic": "Feedback: Sigismund Fabian",
+      "fineSubject": "Sigismund Fabian",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 197,
+      "endSec": 499,
+      "durationSec": 302,
+      "topic": "Feedback: Sicherheitsmaßnahmen",
+      "fineSubject": "Sicherheitsmaßnahmen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 500,
+      "endSec": 750,
+      "durationSec": 250,
+      "topic": "Feedback: Flaggenklau",
+      "fineSubject": "Flaggenklau",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 750,
+      "endSec": 881,
+      "durationSec": 131,
+      "topic": "Feedback: Password Manager",
+      "fineSubject": "Password Manager",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 881,
+      "endSec": 977,
+      "durationSec": 96,
+      "topic": "Feedback: Spendenwürdige Organisationen",
+      "fineSubject": "Spendenwürdige Organisationen",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 977,
+      "endSec": 1267,
+      "durationSec": 290,
+      "topic": "Feedback: Gefährliche Links",
+      "fineSubject": "Gefährliche Links",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1268,
+      "endSec": 1442,
+      "durationSec": 174,
+      "topic": "Feedback: Verteilte Backups",
+      "fineSubject": "Verteilte Backups",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1442,
+      "endSec": 1483,
+      "durationSec": 41,
+      "topic": "Feedback: Sicherheits-Checkliste",
+      "fineSubject": "Sicherheits-Checkliste",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5516,
+      "endSec": 5735,
+      "durationSec": 219,
+      "topic": "IP-Adressen-Speicherung",
+      "fineSubject": "IP-Adressen-Speicherung",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 5735,
+      "endSec": 5892,
+      "durationSec": 157,
+      "topic": "Passdaten im Marriot-Hack",
+      "fineSubject": "Passdaten im Marriot-Hack",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Law",
+      "startSec": 5990,
+      "endSec": 6415,
+      "durationSec": 425,
+      "topic": "Artikel 13 im Trilog",
+      "fineSubject": "Artikel 13",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Security",
+      "startSec": 6610,
+      "endSec": 7153,
+      "durationSec": 543,
+      "topic": "El Chapos Opsec Fail",
+      "fineSubject": "El Chapos Opsec Fail",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Security",
+      "startSec": 7154,
+      "endSec": 7554,
+      "durationSec": 400,
+      "topic": "Spanner bei Ring",
+      "fineSubject": "Spanner bei Ring",
+      "topicIndex": 17
+    }
+  ]
+}

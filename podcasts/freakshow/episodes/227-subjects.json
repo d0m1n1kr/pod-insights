@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 227,
+  "title": "FS227 Alien Wave",
+  "generatedAt": "2026-01-05T15:17:51.100Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3927710843373494,
+      "Software": 0,
+      "Hardware": 0.23044906900328588,
+      "Finance": 0,
+      "Media": 0.09375684556407447,
+      "Social": 0.16933187294633079,
+      "Culture": 0.015991237677984667,
+      "Security": 0.09769989047097481,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1793,
+      "Software": 0,
+      "Hardware": 1052,
+      "Finance": 0,
+      "Media": 428,
+      "Social": 773,
+      "Culture": 73,
+      "Security": 446,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 0,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 2,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 4565,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 4590,
+      "endSec": 4663,
+      "durationSec": 73,
+      "topic": "Flavor Flav",
+      "fineSubject": "Flavor Flav",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7998,
+      "endSec": 9050,
+      "durationSec": 1052,
+      "topic": "Rødecaster Pro",
+      "fineSubject": "Rødecaster Pro",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 9378,
+      "endSec": 9910,
+      "durationSec": 532,
+      "topic": "Änderungen bei Twitter",
+      "fineSubject": "Twitter",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9911,
+      "endSec": 9993,
+      "durationSec": 82,
+      "topic": "Slackbot-Hacker gesucht",
+      "fineSubject": "Hacking",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 9993,
+      "endSec": 10421,
+      "durationSec": 428,
+      "topic": "Audio Logos",
+      "fineSubject": "Logos",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10422,
+      "endSec": 11607,
+      "durationSec": 1185,
+      "topic": "HTTP/3 und DNS",
+      "fineSubject": "HTTP/3",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Security",
+      "startSec": 11608,
+      "endSec": 12054,
+      "durationSec": 446,
+      "topic": "TLS und Security",
+      "fineSubject": "TLS",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12054,
+      "endSec": 12580,
+      "durationSec": 526,
+      "topic": "Fritz OS 7 und Mesh Networking",
+      "fineSubject": "Fritz OS",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Social",
+      "startSec": 12581,
+      "endSec": 12822,
+      "durationSec": 241,
+      "topic": "First World Problems",
+      "fineSubject": "First World Problems",
+      "topicIndex": 18
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 130,
+  "title": "FS130 Intergalaktischer Autoscooter",
+  "generatedAt": "2026-01-05T15:17:51.075Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.29527813712807244,
+      "Software": 0.33408796895213455,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.11998706338939198,
+      "Security": 0.1423027166882277,
+      "Events": 0.10834411384217335,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3652,
+      "Software": 4132,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1484,
+      "Security": 1760,
+      "Events": 1340,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 4,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12368,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 284,
+      "endSec": 2044,
+      "durationSec": 1760,
+      "topic": "GotoFail vs. OpenSSL",
+      "fineSubject": "OpenSSL",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 2044,
+      "endSec": 3206,
+      "durationSec": 1162,
+      "topic": "Software-Entwicklung und Projektmanagement",
+      "fineSubject": "Development",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3206,
+      "endSec": 4690,
+      "durationSec": 1484,
+      "topic": "Roddisibirsk",
+      "fineSubject": "Roddisibirsk",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Events",
+      "startSec": 4690,
+      "endSec": 6030,
+      "durationSec": 1340,
+      "topic": "WWDC-Lotterie und Baseband-Gerüchte",
+      "fineSubject": "WWDC",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 6030,
+      "endSec": 6547,
+      "durationSec": 517,
+      "topic": "Functional Reaktive Programming",
+      "fineSubject": "Functional Reactive",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6547,
+      "endSec": 9642,
+      "durationSec": 3095,
+      "topic": "WWDC-Wünsche und Cloud",
+      "fineSubject": "Services",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 9642,
+      "endSec": 10450,
+      "durationSec": 808,
+      "topic": "Reguläre Ausdrücke",
+      "fineSubject": "Regular Expressions",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 10450,
+      "endSec": 12095,
+      "durationSec": 1645,
+      "topic": "NASA goes Open Source",
+      "fineSubject": "NASA",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12095,
+      "endSec": 12652,
+      "durationSec": 557,
+      "topic": "Schiffsdrohnen",
+      "fineSubject": "Drones",
+      "topicIndex": 8
+    }
+  ]
+}

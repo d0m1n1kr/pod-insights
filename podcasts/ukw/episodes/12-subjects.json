@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 12,
+  "title": "UKW012 Corona: Hygienemaßnahmen",
+  "generatedAt": "2026-01-05T15:18:03.000Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.759018759018759,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.240981240981241,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 2104,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 668,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 7,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 3,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 2772,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 402,
+      "endSec": 1090,
+      "durationSec": 688,
+      "topic": "Desinfektion und Händewaschen",
+      "fineSubject": "Hygiene",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1091,
+      "endSec": 1317,
+      "durationSec": 226,
+      "topic": "Überlebensdauer des Virus",
+      "fineSubject": "Virus",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1317,
+      "endSec": 1644,
+      "durationSec": 327,
+      "topic": "Hygienemaßnahmen im Haushalt",
+      "fineSubject": "Hygiene",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1644,
+      "endSec": 1877,
+      "durationSec": 233,
+      "topic": "Einkaufen und Bezahlen",
+      "fineSubject": "Shopping",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1878,
+      "endSec": 2132,
+      "durationSec": 254,
+      "topic": "Bargeld und kontaktloses Zahlen",
+      "fineSubject": "Payment",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2132,
+      "endSec": 2230,
+      "durationSec": 98,
+      "topic": "Toiletten",
+      "fineSubject": "Hygiene",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2231,
+      "endSec": 2412,
+      "durationSec": 181,
+      "topic": "Lieferdienste",
+      "fineSubject": "Delivery",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2413,
+      "endSec": 2924,
+      "durationSec": 511,
+      "topic": "Desinfektionsmittel und Hautpflege",
+      "fineSubject": "Hygiene",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3303,
+      "endSec": 3475,
+      "durationSec": 172,
+      "topic": "Abstand halten und in Bewegung bleiben",
+      "fineSubject": "Fitness",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3475,
+      "endSec": 3557,
+      "durationSec": 82,
+      "topic": "Beatmungsgeräte im Selbstbau",
+      "fineSubject": "Medical Equipment",
+      "topicIndex": 9
+    }
+  ]
+}

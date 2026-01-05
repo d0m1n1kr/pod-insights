@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 476,
+  "title": "LNP476 Zehn Komiker, die für ihren Humor bekannt sind",
+  "generatedAt": "2026-01-05T15:17:57.639Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.3084967320261438,
+      "Law": 0,
+      "Security": 0.19895424836601308,
+      "Social": 0.36444444444444446,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.12810457516339868,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1180,
+      "Law": 0,
+      "Security": 761,
+      "Social": 1394,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 490,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 6,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3825,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 782,
+      "endSec": 858,
+      "durationSec": 76,
+      "topic": "Feedback: Österreich",
+      "fineSubject": "Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 859,
+      "endSec": 931,
+      "durationSec": 72,
+      "topic": "Feedback: Fasching",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 931,
+      "endSec": 1383,
+      "durationSec": 452,
+      "topic": "Feedback: Helau und Alaaf",
+      "fineSubject": "Feedback",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 1384,
+      "endSec": 1831,
+      "durationSec": 447,
+      "topic": "Feedback: OLG Köln und CloudFare",
+      "fineSubject": "Feedback",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 1832,
+      "endSec": 1994,
+      "durationSec": 162,
+      "topic": "Feedback: AusweisApp",
+      "fineSubject": "Feedback",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 1994,
+      "endSec": 2755,
+      "durationSec": 761,
+      "topic": "Feedback: Passkeys",
+      "fineSubject": "Passkeys",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3572,
+      "endSec": 4752,
+      "durationSec": 1180,
+      "topic": "OpenAI Shakeup",
+      "fineSubject": "AI",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4753,
+      "endSec": 5166,
+      "durationSec": 413,
+      "topic": "Funkloch-Bußgeld",
+      "fineSubject": "Fines",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5166,
+      "endSec": 5243,
+      "durationSec": 77,
+      "topic": "Chatkontrolle: Direktes Verhandlungsmandat",
+      "fineSubject": "Regulations",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Social",
+      "startSec": 5244,
+      "endSec": 5429,
+      "durationSec": 185,
+      "topic": "Schulhof-Entkriminalisierung",
+      "fineSubject": "Criminalization",
+      "topicIndex": 12
+    }
+  ]
+}

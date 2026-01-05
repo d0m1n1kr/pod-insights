@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 353,
+  "title": "Mi353 – \"Wald- und Wiesenmuseum\"",
+  "generatedAt": "2026-01-05T15:18:17.393Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.25946829050943115,
+      "Culture": 0.5189365810188623,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.2215951284717065,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1747,
+      "Culture": 3494,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1492,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6733,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 42,
+      "endSec": 577,
+      "durationSec": 535,
+      "topic": "Berlin und Tour",
+      "fineSubject": "Berlin",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 577,
+      "endSec": 1130,
+      "durationSec": 553,
+      "topic": "Blasorchester",
+      "fineSubject": "Blasorchester",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1130,
+      "endSec": 3536,
+      "durationSec": 2406,
+      "topic": "Reini und London",
+      "fineSubject": "London",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3536,
+      "endSec": 4901,
+      "durationSec": 1365,
+      "topic": "Thema 1: \"DIY-Blut aus dem Labor\"",
+      "fineSubject": "Biotechnology",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4901,
+      "endSec": 5283,
+      "durationSec": 382,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5283,
+      "endSec": 6775,
+      "durationSec": 1492,
+      "topic": "Thema 2 \"Der Gerät wird nicht müde, der Gerät schwitzt nicht!\"",
+      "fineSubject": "Devices",
+      "topicIndex": 5
+    }
+  ]
+}

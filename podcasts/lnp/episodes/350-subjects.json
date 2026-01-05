@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 350,
+  "title": "LNP350 Der Gästeblock muss in Quarantäne",
+  "generatedAt": "2026-01-05T15:17:57.620Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.8522881739918441,
+      "Law": 0,
+      "Security": 0.1075366258873282,
+      "Social": 0.013744147409756834,
+      "Media": 0.026431052711070834,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 5643,
+      "Law": 0,
+      "Security": 712,
+      "Social": 91,
+      "Media": 175,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 14,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6621,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 229,
+      "endSec": 471,
+      "durationSec": 242,
+      "topic": "UKW-Interview mit CWA-Entwicklern",
+      "fineSubject": "CWA",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 471,
+      "endSec": 731,
+      "durationSec": 260,
+      "topic": "Corona-Warn-App FAQ",
+      "fineSubject": "CWA",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 732,
+      "endSec": 1235,
+      "durationSec": 503,
+      "topic": "CWA FAQ: Location-Dienste auf Android",
+      "fineSubject": "CWA",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1235,
+      "endSec": 1653,
+      "durationSec": 418,
+      "topic": "CWA FAQ: Batteriebedarf und Gerätesupport",
+      "fineSubject": "CWA",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1654,
+      "endSec": 1821,
+      "durationSec": 167,
+      "topic": "CWA FAQ: Datenverbrauch",
+      "fineSubject": "CWA",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1822,
+      "endSec": 2213,
+      "durationSec": 391,
+      "topic": "CWA FAQ: Internationale Nutzung",
+      "fineSubject": "CWA",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2213,
+      "endSec": 2861,
+      "durationSec": 648,
+      "topic": "CWA FAQ: Security",
+      "fineSubject": "CWA",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2861,
+      "endSec": 3356,
+      "durationSec": 495,
+      "topic": "CWA FAQ: Laboranbindung und Fehlalarme",
+      "fineSubject": "CWA",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3357,
+      "endSec": 4162,
+      "durationSec": 805,
+      "topic": "CWA FAQ: App-Zwang",
+      "fineSubject": "CWA",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4163,
+      "endSec": 4499,
+      "durationSec": 336,
+      "topic": "CWA FAQ: Entwicklungszeit",
+      "fineSubject": "CWA",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 4499,
+      "endSec": 4674,
+      "durationSec": 175,
+      "topic": "Fleischhauers Reaktion auf unsere Richtigstellungen",
+      "fineSubject": "Reaktionen",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4674,
+      "endSec": 5206,
+      "durationSec": 532,
+      "topic": "CWA: Open Source",
+      "fineSubject": "CWA",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5206,
+      "endSec": 5291,
+      "durationSec": 85,
+      "topic": "CWA: Risikominimierung",
+      "fineSubject": "CWA",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5292,
+      "endSec": 5885,
+      "durationSec": 593,
+      "topic": "CWA: TÜVit-Bericht",
+      "fineSubject": "CWA",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5886,
+      "endSec": 6054,
+      "durationSec": 168,
+      "topic": "CWA: Rolle des CCC",
+      "fineSubject": "CWA",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Security",
+      "startSec": 6055,
+      "endSec": 6767,
+      "durationSec": 712,
+      "topic": "Facebook und FBI hacken gemeinsam",
+      "fineSubject": "Hacking",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Social",
+      "startSec": 6767,
+      "endSec": 6858,
+      "durationSec": 91,
+      "topic": "Twitter will dass man Artikel liest",
+      "fineSubject": "Plattformen",
+      "topicIndex": 16
+    }
+  ]
+}

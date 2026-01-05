@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 349,
+  "title": "Mi349 – \"Wir werden wissen\"",
+  "generatedAt": "2026-01-05T15:18:17.392Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.7378565921356978,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.26214340786430224,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3828,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1360,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5188,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 659,
+      "endSec": 1718,
+      "durationSec": 1059,
+      "topic": "KI in der Forschung",
+      "fineSubject": "Research",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1718,
+      "endSec": 2200,
+      "durationSec": 482,
+      "topic": "Göttingen",
+      "fineSubject": "City",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 3057,
+      "endSec": 4417,
+      "durationSec": 1360,
+      "topic": "Thema 1: “Kaffeepause für Tiefschlaf”",
+      "fineSubject": "Sleep",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 4417,
+      "endSec": 4924,
+      "durationSec": 507,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4924,
+      "endSec": 6704,
+      "durationSec": 1780,
+      "topic": "Thema 2: \"Unglaubliche Entdeckung!\"",
+      "fineSubject": "Discovery",
+      "topicIndex": 4
+    }
+  ]
+}

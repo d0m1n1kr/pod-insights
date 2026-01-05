@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 81,
+  "title": "LNP081 Top Silkroader! Gerne wieder!",
+  "generatedAt": "2026-01-05T15:17:57.586Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3896011396011396,
+      "Technology": 0.28110161443494774,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.20560303893637227,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.12369420702754036,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1641,
+      "Technology": 1184,
+      "Law": 0,
+      "Security": 0,
+      "Social": 866,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 521,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4212,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 92,
+      "endSec": 958,
+      "durationSec": 866,
+      "topic": "Portalbetreiber haben Verantwortung für Nutzerkommentare",
+      "fineSubject": "User Responsibility",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 959,
+      "endSec": 1480,
+      "durationSec": 521,
+      "topic": "Auch in Schleswig-Holstein dürfen Unternehmen Facebook-Seiten haben",
+      "fineSubject": "Social Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1480,
+      "endSec": 2683,
+      "durationSec": 1203,
+      "topic": "Bundesnachrichtendienst zapft bis zu 25 Provider in Deutschland an",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2684,
+      "endSec": 3868,
+      "durationSec": 1184,
+      "topic": "Tor bereitet der NSA Kopfschmerzen",
+      "fineSubject": "Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3868,
+      "endSec": 4306,
+      "durationSec": 438,
+      "topic": "GCHQ vorm EGMR",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 4
+    }
+  ]
+}

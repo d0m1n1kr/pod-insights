@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 82,
+  "title": "UKW082 Corona Weekly: Die Pandemie has jumped the shark",
+  "generatedAt": "2026-01-05T15:18:03.020Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5754,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 12,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5754,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 32,
+      "endSec": 561,
+      "durationSec": 529,
+      "topic": "Stand der Dinge",
+      "fineSubject": "Pandemic Status",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 561,
+      "endSec": 1199,
+      "durationSec": 638,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Germany",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1200,
+      "endSec": 1658,
+      "durationSec": 458,
+      "topic": "Impfkampagne",
+      "fineSubject": "Vaccination Campaign",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1659,
+      "endSec": 2397,
+      "durationSec": 738,
+      "topic": "Booster-Impfungen",
+      "fineSubject": "Booster Vaccinations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2397,
+      "endSec": 2545,
+      "durationSec": 148,
+      "topic": "Impfproduktion",
+      "fineSubject": "Vaccine Production",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2546,
+      "endSec": 2912,
+      "durationSec": 366,
+      "topic": "International",
+      "fineSubject": "International",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2912,
+      "endSec": 3733,
+      "durationSec": 821,
+      "topic": "Maßnahmen und Personalproblem",
+      "fineSubject": "Measures and Personnel Issues",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3733,
+      "endSec": 3980,
+      "durationSec": 247,
+      "topic": "Prognosen",
+      "fineSubject": "Prognosis",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3981,
+      "endSec": 4065,
+      "durationSec": 84,
+      "topic": "Impfausweis nur noch digital",
+      "fineSubject": "Digital Vaccination Certificate",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4066,
+      "endSec": 4184,
+      "durationSec": 118,
+      "topic": "Trennwände sind sinnlos",
+      "fineSubject": "Ineffectiveness of Barriers",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4185,
+      "endSec": 4517,
+      "durationSec": 332,
+      "topic": "Einschränkungen für Ungeimpfte",
+      "fineSubject": "Restrictions for Unvaccinated",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4517,
+      "endSec": 5792,
+      "durationSec": 1275,
+      "topic": "Pathologiekonferenz",
+      "fineSubject": "Pathology Conference",
+      "topicIndex": 11
+    }
+  ]
+}

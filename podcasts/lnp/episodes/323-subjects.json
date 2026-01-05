@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 323,
+  "title": "LNP323 Bekannt aus Funkloch und Fernsehen",
+  "generatedAt": "2026-01-05T15:17:57.617Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.22141852521599356,
+      "Technology": 0.12979706650592726,
+      "Law": 0,
+      "Security": 0.016475788627687362,
+      "Social": 0.6272855133614628,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.005023106288929074
+    },
+    "durations": {
+      "Politics": 1102,
+      "Technology": 646,
+      "Law": 0,
+      "Security": 82,
+      "Social": 3122,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 25
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4977,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 216,
+      "endSec": 318,
+      "durationSec": 102,
+      "topic": "Feedback: Twitter-Accounts",
+      "fineSubject": "Twitter",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 504,
+      "endSec": 529,
+      "durationSec": 25,
+      "topic": "Feedback: Hippe",
+      "fineSubject": "Trends",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 529,
+      "endSec": 671,
+      "durationSec": 142,
+      "topic": "Feedback: Funktional kaputt",
+      "fineSubject": "Software",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 671,
+      "endSec": 966,
+      "durationSec": 295,
+      "topic": "Wir jagen Funklöcher",
+      "fineSubject": "Netzwerk",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 967,
+      "endSec": 3987,
+      "durationSec": 3020,
+      "topic": "TikTok",
+      "fineSubject": "TikTok",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3987,
+      "endSec": 5089,
+      "durationSec": 1102,
+      "topic": "Russland will russische Apps auf Smartphones",
+      "fineSubject": "Technologie",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5090,
+      "endSec": 5299,
+      "durationSec": 209,
+      "topic": "Windows 10 fressen Daten auf",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 5299,
+      "endSec": 5381,
+      "durationSec": 82,
+      "topic": "Kurze Anleitung zur digitalen Selbstverteidigung",
+      "fineSubject": "Selbstverteidigung",
+      "topicIndex": 8
+    }
+  ]
+}

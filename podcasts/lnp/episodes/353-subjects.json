@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 353,
+  "title": "LNP353 Ein Geisterfahrer? Tausende!",
+  "generatedAt": "2026-01-05T15:17:57.621Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.3687440982058546,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.6312559017941454,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 781,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1337,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 5,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2118,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 372,
+      "endSec": 655,
+      "durationSec": 283,
+      "topic": "Feedback: Dirk Kretzschmar, TÜVit",
+      "fineSubject": "Dirk Kretzschmar",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 655,
+      "endSec": 1049,
+      "durationSec": 394,
+      "topic": "Feedback: Zero-Rating und DPI",
+      "fineSubject": "Zero-Rating",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1050,
+      "endSec": 1520,
+      "durationSec": 470,
+      "topic": "Feedback: Traffic-Kosten",
+      "fineSubject": "Traffic-Kosten",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1521,
+      "endSec": 1589,
+      "durationSec": 68,
+      "topic": "Feedback: AMS-Algorithmus",
+      "fineSubject": "AMS-Algorithmus",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1589,
+      "endSec": 1711,
+      "durationSec": 122,
+      "topic": "Feedback: 30.000 Verdachtsfälle",
+      "fineSubject": "Verdachtsfälle",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3464,
+      "endSec": 3895,
+      "durationSec": 431,
+      "topic": "Kontaktlisten",
+      "fineSubject": "Kontaktlisten",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4698,
+      "endSec": 5048,
+      "durationSec": 350,
+      "topic": "PIMeyes",
+      "fineSubject": "PIMeyes",
+      "topicIndex": 11
+    }
+  ]
+}

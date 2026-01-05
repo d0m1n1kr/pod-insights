@@ -1,0 +1,63 @@
+{
+  "episodeNumber": 174,
+  "title": "LNP174 Die Messwerte waren okay",
+  "generatedAt": "2026-01-05T15:17:57.596Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 4746,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4746,
+    "totalTopics": 1
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 56,
+      "endSec": 4802,
+      "durationSec": 4746,
+      "topic": "Staatstrojaner",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    }
+  ]
+}

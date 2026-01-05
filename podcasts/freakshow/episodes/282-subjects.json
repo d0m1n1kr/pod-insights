@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 282,
+  "title": "FS282 Antik-Tok",
+  "generatedAt": "2026-01-05T15:17:51.119Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5737487570434207,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.11070599933708983,
+      "Social": 0,
+      "Culture": 0.31554524361948955,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1731,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 334,
+      "Social": 0,
+      "Culture": 952,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 3017,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 2652,
+      "endSec": 3604,
+      "durationSec": 952,
+      "topic": "Olympia und die öffentliche Infrastruktur",
+      "fineSubject": "Sports / Olympia",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 3605,
+      "endSec": 3754,
+      "durationSec": 149,
+      "topic": "Feedback: True Crime",
+      "fineSubject": "Genre / True Crime",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9208,
+      "endSec": 10830,
+      "durationSec": 1622,
+      "topic": "Digital Legacy",
+      "fineSubject": "Concept / Digital Legacy",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12702,
+      "endSec": 12811,
+      "durationSec": 109,
+      "topic": "Whitescreen",
+      "fineSubject": "Issue / Whitescreen",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 12998,
+      "endSec": 13183,
+      "durationSec": 185,
+      "topic": "Bonus Track",
+      "fineSubject": "Content / Bonus Track",
+      "topicIndex": 16
+    }
+  ]
+}

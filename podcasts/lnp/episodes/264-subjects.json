@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 264,
+  "title": "LNP264 Heute schon an die Apokalypse denken",
+  "generatedAt": "2026-01-05T15:17:57.609Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2302834483771479,
+      "Technology": 0,
+      "Law": 0.18666470847407843,
+      "Security": 0.04376560434718755,
+      "Social": 0,
+      "Media": 0.5392862388015861,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1568,
+      "Technology": 0,
+      "Law": 1271,
+      "Security": 298,
+      "Social": 0,
+      "Media": 3672,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 2,
+      "Social": 0,
+      "Media": 3,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6809,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 150,
+      "endSec": 223,
+      "durationSec": 73,
+      "topic": "Feedback: Datenelche in Schweden",
+      "fineSubject": "Public Broadcasting",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 224,
+      "endSec": 1696,
+      "durationSec": 1472,
+      "topic": "Feedback: Öffentlicher Rundfunk",
+      "fineSubject": "Public Broadcasting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1696,
+      "endSec": 2334,
+      "durationSec": 638,
+      "topic": "Feedback: Julio Assanchez",
+      "fineSubject": "Individual",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2335,
+      "endSec": 3265,
+      "durationSec": 930,
+      "topic": "Maaßen und die AfD",
+      "fineSubject": "Parties",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3265,
+      "endSec": 5392,
+      "durationSec": 2127,
+      "topic": "Alex Jones",
+      "fineSubject": "Individuals",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 5393,
+      "endSec": 5787,
+      "durationSec": 394,
+      "topic": "Verfassungsbeschwerde Staatstrojaner",
+      "fineSubject": "Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 5787,
+      "endSec": 6146,
+      "durationSec": 359,
+      "topic": "EuGH: Bagatellabmahnungen for the win!",
+      "fineSubject": "Intellectual Property",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 6146,
+      "endSec": 6664,
+      "durationSec": 518,
+      "topic": "Polizeigesetz Niedersachsen",
+      "fineSubject": "Public Safety",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 6665,
+      "endSec": 6794,
+      "durationSec": 129,
+      "topic": "Hacking-Angriffe auf Öffentlichen Rundfunk",
+      "fineSubject": "Public Broadcasting",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 6795,
+      "endSec": 6964,
+      "durationSec": 169,
+      "topic": "Hacking-Angriffe aus Saudi-Arabien: NSO/Pegasus",
+      "fineSubject": "International",
+      "topicIndex": 9
+    }
+  ]
+}

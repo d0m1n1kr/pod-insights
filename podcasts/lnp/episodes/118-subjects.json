@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 118,
+  "title": "LNP118 Außerhalb des offiziellen Luftraums",
+  "generatedAt": "2026-01-05T15:17:57.590Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9545454545454546,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.045454545454545456,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3801,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 181,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3982,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 80,
+      "endSec": 992,
+      "durationSec": 912,
+      "topic": "6. öffentliche Anhörung im NSA-Untersuchungsausschuss",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 993,
+      "endSec": 1520,
+      "durationSec": 527,
+      "topic": "Der Persönliche Bewacher",
+      "fineSubject": "Security",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1521,
+      "endSec": 1922,
+      "durationSec": 401,
+      "topic": "Eikonal: NSA wollte BND-Daten nicht mehr",
+      "fineSubject": "Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1922,
+      "endSec": 2635,
+      "durationSec": 713,
+      "topic": "Core Secrets: NSA Sabotage in Deutschland und China",
+      "fineSubject": "Espionage",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2636,
+      "endSec": 2817,
+      "durationSec": 181,
+      "topic": "Citizen Four",
+      "fineSubject": "Documentary",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2817,
+      "endSec": 3423,
+      "durationSec": 606,
+      "topic": "TTIP Demo",
+      "fineSubject": "Protest",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3424,
+      "endSec": 4066,
+      "durationSec": 642,
+      "topic": "FSA no more",
+      "fineSubject": "Reform",
+      "topicIndex": 6
+    }
+  ]
+}

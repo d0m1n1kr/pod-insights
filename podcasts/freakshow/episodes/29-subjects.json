@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 29,
+  "title": "MM029 Bumm Zack Return",
+  "generatedAt": "2026-01-05T15:17:51.061Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5,
+      "Software": 0.25,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.25,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Nachlese zur WWDC Keynote",
+      "fineSubject": "Apple Events",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Diskussion über neue Features",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklungen im Apple-Ökosystem",
+      "fineSubject": "Ecosystem",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Business",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Auswirkungen auf Entwickler",
+      "fineSubject": "App Development",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 361,
+  "title": "Mi361 – \"von der Scheiße in den Weltraum\"",
+  "generatedAt": "2026-01-05T15:18:17.394Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5361188486536675,
+      "Culture": 0.3831012070566388,
+      "Wissenschaft": 0,
+      "Health": 0.0807799442896936,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2887,
+      "Culture": 2063,
+      "Wissenschaft": 0,
+      "Health": 435,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5385,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 493,
+      "endSec": 728,
+      "durationSec": 235,
+      "topic": "Vorsorgeuntersuchung",
+      "fineSubject": "Preventive Care",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 728,
+      "endSec": 2069,
+      "durationSec": 1341,
+      "topic": "Göttingen und Quantenjahr",
+      "fineSubject": "Quantum Physics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2446,
+      "endSec": 4018,
+      "durationSec": 1572,
+      "topic": "Thema 1: \"Hymnologie im Glück\"",
+      "fineSubject": "Hymnology",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4018,
+      "endSec": 4218,
+      "durationSec": 200,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4218,
+      "endSec": 5764,
+      "durationSec": 1546,
+      "topic": "Thema 2: \"Space Bells\"",
+      "fineSubject": "Space Bells",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5764,
+      "endSec": 6255,
+      "durationSec": 491,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy",
+      "topicIndex": 7
+    }
+  ]
+}

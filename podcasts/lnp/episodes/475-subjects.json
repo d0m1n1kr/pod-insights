@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 475,
+  "title": "LNP475 Deutsch, aber lustig",
+  "generatedAt": "2026-01-05T15:17:57.638Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.6518920812894183,
+      "Security": 0.15872459705676245,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.1676594253679047,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.021723896285914507,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 3721,
+      "Security": 906,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 957,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 124,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 5,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5708,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 1093,
+      "endSec": 1230,
+      "durationSec": 137,
+      "topic": "Feedback: Äh",
+      "fineSubject": "Äh",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1230,
+      "endSec": 1463,
+      "durationSec": 233,
+      "topic": "Feedback: KI-Regulierung",
+      "fineSubject": "KI-Regulierung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1464,
+      "endSec": 1519,
+      "durationSec": 55,
+      "topic": "Feedback: Kommentarrekursion",
+      "fineSubject": "Kommentarrekursion",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1520,
+      "endSec": 1878,
+      "durationSec": 358,
+      "topic": "Feedback: Zeitreisen",
+      "fineSubject": "Zeitreisen",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1878,
+      "endSec": 2052,
+      "durationSec": 174,
+      "topic": "Feedback: Olympiade",
+      "fineSubject": "Olympiade",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2053,
+      "endSec": 5774,
+      "durationSec": 3721,
+      "topic": "eIDAS",
+      "fineSubject": "eIDAS",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 6748,
+      "endSec": 7289,
+      "durationSec": 541,
+      "topic": "UN Cybercrime Convention",
+      "fineSubject": "UN Cybercrime Convention",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 7289,
+      "endSec": 7413,
+      "durationSec": 124,
+      "topic": "Bundestrojaner Österreich",
+      "fineSubject": "Bundestrojaner Österreich",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 7414,
+      "endSec": 7779,
+      "durationSec": 365,
+      "topic": "Cloudflare ist Täter",
+      "fineSubject": "Cloudflare",
+      "topicIndex": 11
+    }
+  ]
+}

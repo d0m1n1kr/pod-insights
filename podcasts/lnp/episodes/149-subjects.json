@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 149,
+  "title": "LNP149 Landesverrat",
+  "generatedAt": "2026-01-05T15:17:57.594Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.22792321116928446,
+      "Technology": 0.6212914485165794,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.15078534031413612,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 653,
+      "Technology": 1780,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 432,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2865,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 597,
+      "endSec": 1250,
+      "durationSec": 653,
+      "topic": "Ermittlungen wegen Landesverrats",
+      "fineSubject": "Treason",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1250,
+      "endSec": 3030,
+      "durationSec": 1780,
+      "topic": "Die erweiterte Fachunterstützung Internet",
+      "fineSubject": "Internet",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 3031,
+      "endSec": 3463,
+      "durationSec": 432,
+      "topic": "Medienreaktionen",
+      "fineSubject": "Reactions",
+      "topicIndex": 2
+    }
+  ]
+}

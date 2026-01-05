@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 132,
+  "title": "FS132 Denk nicht in Layern, denk in Schichten!",
+  "generatedAt": "2026-01-05T15:17:51.076Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.0359441528864244,
+      "Software": 0.08545400534706407,
+      "Hardware": 0.12149717793840974,
+      "Finance": 0,
+      "Media": 0.059807901772452716,
+      "Social": 0.2769581146648183,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.07575007426477869,
+      "Gaming": 0,
+      "Event": 0.34458857312605207
+    },
+    "durations": {
+      "Technology": 363,
+      "Software": 863,
+      "Hardware": 1227,
+      "Finance": 0,
+      "Media": 604,
+      "Social": 2797,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 765,
+      "Gaming": 0,
+      "Event": 3480
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 1,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 2
+    },
+    "totalDurationSec": 10099,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 364,
+      "endSec": 686,
+      "durationSec": 322,
+      "topic": "News im Überblick",
+      "fineSubject": "Overview",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 686,
+      "endSec": 1549,
+      "durationSec": 863,
+      "topic": "Auphonic, Podlove, Sondersendung",
+      "fineSubject": "Auphonic and Podlove",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 1549,
+      "endSec": 4012,
+      "durationSec": 2463,
+      "topic": "re:publica-Netzwerk",
+      "fineSubject": "re:publica Network",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 4012,
+      "endSec": 5029,
+      "durationSec": 1017,
+      "topic": "re:publica-Vorträge",
+      "fineSubject": "re:publica Talks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7833,
+      "endSec": 8591,
+      "durationSec": 758,
+      "topic": "Mac Pro",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8591,
+      "endSec": 8954,
+      "durationSec": 363,
+      "topic": "Maps",
+      "fineSubject": "Maps",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 8954,
+      "endSec": 11751,
+      "durationSec": 2797,
+      "topic": "App.net Future",
+      "fineSubject": "App.net Future",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 12061,
+      "endSec": 12826,
+      "durationSec": 765,
+      "topic": "Apple und Beats",
+      "fineSubject": "Apple and Beats",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 12826,
+      "endSec": 13108,
+      "durationSec": 282,
+      "topic": "The Martian",
+      "fineSubject": "The Martian",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13108,
+      "endSec": 13577,
+      "durationSec": 469,
+      "topic": "Kabel",
+      "fineSubject": "Cables",
+      "topicIndex": 11
+    }
+  ]
+}

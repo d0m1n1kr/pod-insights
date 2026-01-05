@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 28,
+  "title": "UKW028 Corona Weekly: Die Hamburg-Anomalie",
+  "generatedAt": "2026-01-05T15:18:03.003Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.8083088733348386,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.19169112666516144,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7160,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1698,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 11,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 4,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8858,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 65,
+      "endSec": 705,
+      "durationSec": 640,
+      "topic": "Öffentliche Debatte um Drostenstudie",
+      "fineSubject": "Public Debate",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 705,
+      "endSec": 1659,
+      "durationSec": 954,
+      "topic": "Aktuelle Zahlen der Landkreise",
+      "fineSubject": "Statistics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1660,
+      "endSec": 2650,
+      "durationSec": 990,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Situation Overview",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2651,
+      "endSec": 4726,
+      "durationSec": 2075,
+      "topic": "Meldeverzögerungen in den Landkreisen",
+      "fineSubject": "Data Reporting",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 4727,
+      "endSec": 4999,
+      "durationSec": 272,
+      "topic": "Rohdaten der Risk-Tabelle",
+      "fineSubject": "Data Analysis",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4999,
+      "endSec": 5680,
+      "durationSec": 681,
+      "topic": "Thüringen",
+      "fineSubject": "Regional Focus",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5681,
+      "endSec": 6130,
+      "durationSec": 449,
+      "topic": "Maßnahmen für die nächste Zeit",
+      "fineSubject": "Preventive Measures",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 6130,
+      "endSec": 6577,
+      "durationSec": 447,
+      "topic": "Ausweitung der Tests",
+      "fineSubject": "Testing Strategies",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 6578,
+      "endSec": 6662,
+      "durationSec": 84,
+      "topic": "Vitamin D gegen COVID-19",
+      "fineSubject": "Supplement Research",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 6662,
+      "endSec": 6853,
+      "durationSec": 191,
+      "topic": "Virus im Abwasser",
+      "fineSubject": "Environmental Monitoring",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6853,
+      "endSec": 7181,
+      "durationSec": 328,
+      "topic": "SwissCovid App Beta",
+      "fineSubject": "Health Apps",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7181,
+      "endSec": 7252,
+      "durationSec": 71,
+      "topic": "Corona Warn App Prerelease?",
+      "fineSubject": "Health Apps",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7252,
+      "endSec": 7785,
+      "durationSec": 533,
+      "topic": "Exposure Notification Roaming",
+      "fineSubject": "Notification Systems",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7786,
+      "endSec": 8552,
+      "durationSec": 766,
+      "topic": "Corona Warn App in der Praxis",
+      "fineSubject": "Health Apps",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 8553,
+      "endSec": 8930,
+      "durationSec": 377,
+      "topic": "Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 14
+    }
+  ]
+}

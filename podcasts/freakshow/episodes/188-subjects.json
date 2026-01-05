@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 188,
+  "title": "FS188 Gas, Wasser, Freak Show",
+  "generatedAt": "2026-01-05T15:17:51.089Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3109344276310165,
+      "Software": 0,
+      "Hardware": 0.5495426177652389,
+      "Finance": 0,
+      "Media": 0.049756347781482434,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.08976660682226212,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3637,
+      "Software": 0,
+      "Hardware": 6428,
+      "Finance": 0,
+      "Media": 582,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1050,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 4,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 2,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11697,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 4535,
+      "endSec": 5506,
+      "durationSec": 971,
+      "topic": "Telekom-Router-Ausfall",
+      "fineSubject": "Router Issues",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5506,
+      "endSec": 5688,
+      "durationSec": 182,
+      "topic": "USB-C Ethernet Adapter",
+      "fineSubject": "USB-C Adapters",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5689,
+      "endSec": 9468,
+      "durationSec": 3779,
+      "topic": "MacBook Pro mit TouchBar",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9834,
+      "endSec": 11968,
+      "durationSec": 2134,
+      "topic": "Bluetooth Headsets",
+      "fineSubject": "Bluetooth Headsets",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 11968,
+      "endSec": 12409,
+      "durationSec": 441,
+      "topic": "T verschenkt Daten",
+      "fineSubject": "Data Sharing",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12409,
+      "endSec": 12689,
+      "durationSec": 280,
+      "topic": "Google Fi",
+      "fineSubject": "Google Fi",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12690,
+      "endSec": 13275,
+      "durationSec": 585,
+      "topic": "WLAN Call",
+      "fineSubject": "WLAN Calling",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13276,
+      "endSec": 13609,
+      "durationSec": 333,
+      "topic": "iPhone 7 mit Smart Battery Case",
+      "fineSubject": "iPhone Accessories",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Security",
+      "startSec": 13609,
+      "endSec": 14218,
+      "durationSec": 609,
+      "topic": "Apple Two-Factor Authentication",
+      "fineSubject": "Two-Factor Authentication",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14219,
+      "endSec": 16020,
+      "durationSec": 1801,
+      "topic": "Neues WLAN in ICEs",
+      "fineSubject": "WLAN in Trains",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 16021,
+      "endSec": 16259,
+      "durationSec": 238,
+      "topic": "Metaebene aktuell",
+      "fineSubject": "Current Trends",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 16260,
+      "endSec": 16604,
+      "durationSec": 344,
+      "topic": "Podcasts im Tesla",
+      "fineSubject": "Podcasts in Vehicles",
+      "topicIndex": 16
+    }
+  ]
+}

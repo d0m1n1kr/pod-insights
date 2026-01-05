@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 12,
+  "title": "LNP012 Mediale Schlachtordnung",
+  "generatedAt": "2026-01-05T15:17:57.573Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5321588366890381,
+      "Technology": 0.1865212527964206,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.28131991051454136,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1903,
+      "Technology": 667,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1006,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3576,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 35,
+      "endSec": 1041,
+      "durationSec": 1006,
+      "topic": "Netzgemeinde, Ihr werdet den Kampf verlieren!",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1042,
+      "endSec": 2606,
+      "durationSec": 1564,
+      "topic": "EU unterzeichnet ACTA",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2606,
+      "endSec": 3273,
+      "durationSec": 667,
+      "topic": "Twitter implementiert nationale Zensurfilter",
+      "fineSubject": "Censorship",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3854,
+      "endSec": 4193,
+      "durationSec": 339,
+      "topic": "Two Strikes",
+      "fineSubject": "Policy",
+      "topicIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 44,
+  "title": "UKW044 Brexit: Breaking the Law in a Limited and Specific Way",
+  "generatedAt": "2026-01-05T15:18:03.008Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.8871843285343404,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.11281567146565967,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 3759,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 478,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 12,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 4237,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 87,
+      "endSec": 370,
+      "durationSec": 283,
+      "topic": "Brexit Transition Period",
+      "fineSubject": "Brexit Transition",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 371,
+      "endSec": 850,
+      "durationSec": 479,
+      "topic": "Internal Market Bill",
+      "fineSubject": "Internal Market Bill",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 850,
+      "endSec": 1114,
+      "durationSec": 264,
+      "topic": "House of Lords",
+      "fineSubject": "House of Lords",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1115,
+      "endSec": 1524,
+      "durationSec": 409,
+      "topic": "Strategie der EU",
+      "fineSubject": "EU Strategy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1524,
+      "endSec": 2002,
+      "durationSec": 478,
+      "topic": "Wirtschaft und Trailer Parks",
+      "fineSubject": "Economy and Trailer Parks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2003,
+      "endSec": 2229,
+      "durationSec": 226,
+      "topic": "Freihandelsabkommen",
+      "fineSubject": "Free Trade Agreements",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2229,
+      "endSec": 2577,
+      "durationSec": 348,
+      "topic": "Verhältnis zu den USA",
+      "fineSubject": "Relations with the USA",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2577,
+      "endSec": 3284,
+      "durationSec": 707,
+      "topic": "Johnsons politische Kultur",
+      "fineSubject": "Political Culture",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3285,
+      "endSec": 3535,
+      "durationSec": 250,
+      "topic": "Situation in Schottland",
+      "fineSubject": "Situation in Scotland",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3536,
+      "endSec": 3828,
+      "durationSec": 292,
+      "topic": "Situation in Nordirland",
+      "fineSubject": "Situation in Northern Ireland",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3828,
+      "endSec": 4120,
+      "durationSec": 292,
+      "topic": "No-Deal Szenario",
+      "fineSubject": "No-Deal Scenario",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4121,
+      "endSec": 4231,
+      "durationSec": 110,
+      "topic": "EU-Deal Szenario",
+      "fineSubject": "EU-Deal Scenario",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4231,
+      "endSec": 4330,
+      "durationSec": 99,
+      "topic": "Konklusion",
+      "fineSubject": "Conclusion",
+      "topicIndex": 12
+    }
+  ]
+}

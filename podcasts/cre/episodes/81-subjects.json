@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 81,
+  "title": "CRE081 Neusprech im Schnüffelstaat",
+  "generatedAt": "2026-01-05T15:17:54.373Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0.5,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.5,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 2,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 2,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Linguistische Analyse der politischen Sprache",
+      "fineSubject": "Political Language",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einfluss der Sprache auf die Öffentlichkeit",
+      "fineSubject": "Public Influence",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Analyse von Redebeiträgen deutscher Politiker",
+      "fineSubject": "Political Discourse",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Motivation und Argumentationstechnik in der Politik",
+      "fineSubject": "Rhetoric",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

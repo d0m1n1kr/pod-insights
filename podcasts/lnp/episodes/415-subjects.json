@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 415,
+  "title": "LNP415 Internationale Grundsätze der Höflichkeit und Gegenseitigkeit",
+  "generatedAt": "2026-01-05T15:17:57.630Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.13997998498874156,
+      "Technology": 0.31623717788341255,
+      "Law": 0.22116587440580435,
+      "Security": 0,
+      "Social": 0.11971478608956718,
+      "Media": 0.05504128096072054,
+      "Health": 0.08844133099824869,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.05941956467350513,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1119,
+      "Technology": 2528,
+      "Law": 1768,
+      "Security": 0,
+      "Social": 957,
+      "Media": 440,
+      "Health": 707,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 475,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 4,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 3,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7994,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 118,
+      "endSec": 558,
+      "durationSec": 440,
+      "topic": "Unsupported Media Type",
+      "fineSubject": "Media / Unsupported",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 559,
+      "endSec": 693,
+      "durationSec": 134,
+      "topic": "Feedback: PCR-Test nach Exposition",
+      "fineSubject": "Health / PCR-Test",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 984,
+      "endSec": 1024,
+      "durationSec": 40,
+      "topic": "Feedback: CWA-Warndaten",
+      "fineSubject": "Health / CWA",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1025,
+      "endSec": 2144,
+      "durationSec": 1119,
+      "topic": "Ministerposten",
+      "fineSubject": "Politics / Ministerial Positions",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2144,
+      "endSec": 2899,
+      "durationSec": 755,
+      "topic": "BKA löscht KiPo nicht",
+      "fineSubject": "Law / Child Pornography",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 2899,
+      "endSec": 3374,
+      "durationSec": 475,
+      "topic": "Insolvenz FinFisher GmbH",
+      "fineSubject": "Business / FinFisher",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3374,
+      "endSec": 3907,
+      "durationSec": 533,
+      "topic": "CWA kann überraschend Impfzertifikate speichern",
+      "fineSubject": "Health / Vaccination",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3908,
+      "endSec": 5521,
+      "durationSec": 1613,
+      "topic": "Messenger-Interoperabilität",
+      "fineSubject": "Technology / Interoperability",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 5522,
+      "endSec": 5721,
+      "durationSec": 199,
+      "topic": "Assange-Auslieferung",
+      "fineSubject": "Law / Assange",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5721,
+      "endSec": 6636,
+      "durationSec": 915,
+      "topic": "Mitto Location Tracking",
+      "fineSubject": "Technology / Location",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 6637,
+      "endSec": 7594,
+      "durationSec": 957,
+      "topic": "Telegram und Klarnamenpflicht Facebook",
+      "fineSubject": "Social / Real Names",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Law",
+      "startSec": 7595,
+      "endSec": 8189,
+      "durationSec": 594,
+      "topic": "Porno-Sperren",
+      "fineSubject": "Law / Pornography",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Law",
+      "startSec": 8189,
+      "endSec": 8409,
+      "durationSec": 220,
+      "topic": "noyb von Verfahren ausgeschlossen",
+      "fineSubject": "Law / noyb",
+      "topicIndex": 13
+    }
+  ]
+}

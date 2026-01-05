@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 130,
+  "title": "UKW130 Geopolitischer Analphabetismus",
+  "generatedAt": "2026-01-05T15:18:03.034Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.8036456950712326,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.19635430492876738,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 9082,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 2219,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 6,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 11301,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 440,
+      "endSec": 1894,
+      "durationSec": 1454,
+      "topic": "Abriss der US-Staatsstrukturen",
+      "fineSubject": "US Government Structures",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1895,
+      "endSec": 3729,
+      "durationSec": 1834,
+      "topic": "Zölle und Handelskrieg",
+      "fineSubject": "Trade Wars",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3730,
+      "endSec": 4115,
+      "durationSec": 385,
+      "topic": "Alternative zu Gegenzöllen gegen USA im Handelskrieg",
+      "fineSubject": "Trade Alternatives",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4115,
+      "endSec": 4483,
+      "durationSec": 368,
+      "topic": "Skandal im Oval Office: internationaler Schock",
+      "fineSubject": "International Scandals",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4484,
+      "endSec": 7260,
+      "durationSec": 2776,
+      "topic": "Neue Geo- und Militärpolitik in Europa",
+      "fineSubject": "Geo- and Military Policy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7260,
+      "endSec": 8489,
+      "durationSec": 1229,
+      "topic": "Kann sich Europa ohne die USA verteidigen?",
+      "fineSubject": "European Defense",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8489,
+      "endSec": 10561,
+      "durationSec": 2072,
+      "topic": "Militärische Unterstützung der Ukraine",
+      "fineSubject": "Military Support",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 10561,
+      "endSec": 11744,
+      "durationSec": 1183,
+      "topic": "Aktuelle Verhandlung",
+      "fineSubject": "Current Negotiations",
+      "topicIndex": 7
+    }
+  ]
+}

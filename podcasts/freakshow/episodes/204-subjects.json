@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 204,
+  "title": "FS204 Hauptsache, Gott glaubt an Dich",
+  "generatedAt": "2026-01-05T15:17:51.093Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.9159179521952874,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.006017969147313104,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.07806407865739956,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 10806,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 71,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 921,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 9,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11798,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 440,
+      "endSec": 1975,
+      "durationSec": 1535,
+      "topic": "Apple History",
+      "fineSubject": "Apple History",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 1975,
+      "endSec": 2661,
+      "durationSec": 686,
+      "topic": "Apple Retail und Finanzen",
+      "fineSubject": "Apple Retail",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2662,
+      "endSec": 3263,
+      "durationSec": 601,
+      "topic": "Apple Leaks",
+      "fineSubject": "Apple Leaks",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5305,
+      "endSec": 6188,
+      "durationSec": 883,
+      "topic": "Apple TV und Fernseher",
+      "fineSubject": "Apple TV",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6188,
+      "endSec": 7021,
+      "durationSec": 833,
+      "topic": "iPhone 8",
+      "fineSubject": "iPhone 8",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7022,
+      "endSec": 7567,
+      "durationSec": 545,
+      "topic": "Apple Custom Silicon",
+      "fineSubject": "Apple Custom Silicon",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 7567,
+      "endSec": 7802,
+      "durationSec": 235,
+      "topic": "Outsourcing",
+      "fineSubject": "Outsourcing",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7803,
+      "endSec": 8303,
+      "durationSec": 500,
+      "topic": "iPhone X",
+      "fineSubject": "iPhone X",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8304,
+      "endSec": 10521,
+      "durationSec": 2217,
+      "topic": "Face ID und AR",
+      "fineSubject": "Face ID",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10521,
+      "endSec": 12148,
+      "durationSec": 1627,
+      "topic": "iPad Pro und Readly",
+      "fineSubject": "iPad Pro",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12149,
+      "endSec": 14214,
+      "durationSec": 2065,
+      "topic": "Die Zukunft von Apple",
+      "fineSubject": "Future of Apple",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 15681,
+      "endSec": 15752,
+      "durationSec": 71,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 14
+    }
+  ]
+}

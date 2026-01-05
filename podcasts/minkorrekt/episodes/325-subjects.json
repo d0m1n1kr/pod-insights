@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 325,
+  "title": "Mi325 – \"Fragen an das Bindegewebe\"",
+  "generatedAt": "2026-01-05T15:18:17.387Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.8064663023679417,
+      "Culture": 0.1935336976320583,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 5313,
+      "Culture": 1275,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 5,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6588,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 104,
+      "endSec": 628,
+      "durationSec": 524,
+      "topic": "Weihnachtsmarkt",
+      "fineSubject": "Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 628,
+      "endSec": 1156,
+      "durationSec": 528,
+      "topic": "Outpost One",
+      "fineSubject": "Space",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1156,
+      "endSec": 2333,
+      "durationSec": 1177,
+      "topic": "Science Black Stories",
+      "fineSubject": "Stories",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2756,
+      "endSec": 4199,
+      "durationSec": 1443,
+      "topic": "Thema 1: Antimaterie-UPS",
+      "fineSubject": "Physics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4199,
+      "endSec": 4618,
+      "durationSec": 419,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4618,
+      "endSec": 6364,
+      "durationSec": 1746,
+      "topic": "Thema 2: Sag mir wie die Sternlein stehen",
+      "fineSubject": "Astronomy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6364,
+      "endSec": 6880,
+      "durationSec": 516,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6890,
+      "endSec": 7033,
+      "durationSec": 143,
+      "topic": "Sportklamotten",
+      "fineSubject": "Fashion",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7033,
+      "endSec": 7125,
+      "durationSec": 92,
+      "topic": "Tour 2025",
+      "fineSubject": "Events",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 126,
+  "title": "CRE126 Raumfahrt",
+  "generatedAt": "2026-01-05T15:17:54.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.4,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0.6,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 2,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 3,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rakete A4",
+      "fineSubject": "Military Technology",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wernher von Braun",
+      "fineSubject": "Aerospace Engineering",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mondlandung",
+      "fineSubject": "Space Missions",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erdbeobachtungssatelliten",
+      "fineSubject": "Satellite Technology",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Weltraumteleskope",
+      "fineSubject": "Astronomy",
+      "topicIndex": 10,
+      "untimed": true
+    }
+  ]
+}

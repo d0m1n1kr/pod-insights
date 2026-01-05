@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 294,
+  "title": "Mi294 – \"12 Gebote\"",
+  "generatedAt": "2026-01-05T15:18:17.383Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.7125479086818863,
+      "Culture": 0.24029328445259124,
+      "Wissenschaft": 0,
+      "Health": 0.047158806865522415,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 4276,
+      "Culture": 1442,
+      "Wissenschaft": 0,
+      "Health": 283,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6001,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 114,
+      "endSec": 1026,
+      "durationSec": 912,
+      "topic": "Oberhummer Award",
+      "fineSubject": "Awards",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1026,
+      "endSec": 1184,
+      "durationSec": 158,
+      "topic": "Absage Auftritt Stuttgart",
+      "fineSubject": "Cancellations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1184,
+      "endSec": 1859,
+      "durationSec": 675,
+      "topic": "Science Cops",
+      "fineSubject": "Law Enforcement",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1859,
+      "endSec": 2142,
+      "durationSec": 283,
+      "topic": "Reha Reini",
+      "fineSubject": "Rehabilitation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3519,
+      "endSec": 5625,
+      "durationSec": 2106,
+      "topic": "Thema 1: “Datenkristalle”",
+      "fineSubject": "Data",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 5625,
+      "endSec": 6007,
+      "durationSec": 382,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 6007,
+      "endSec": 7120,
+      "durationSec": 1113,
+      "topic": "Thema 2: \"Alles für das Raumklima\"",
+      "fineSubject": "Environment",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7120,
+      "endSec": 7492,
+      "durationSec": 372,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 9
+    }
+  ]
+}

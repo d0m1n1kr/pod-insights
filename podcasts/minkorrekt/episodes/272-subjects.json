@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 272,
+  "title": "Mi272  – \"Löffelgradient\"",
+  "generatedAt": "2026-01-05T15:18:17.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.13742819266460451,
+      "Culture": 0.254234791574606,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.11857416408896745,
+      "Technologie": 0,
+      "Biologie": 0.26380910296067167,
+      "Media": 0.2259537487111504,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 933,
+      "Culture": 1726,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 805,
+      "Technologie": 0,
+      "Biologie": 1791,
+      "Media": 1534,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6789,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 141,
+      "endSec": 730,
+      "durationSec": 589,
+      "topic": "10 Jahre Minkorrekt Show",
+      "fineSubject": "Anniversary",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 730,
+      "endSec": 1535,
+      "durationSec": 805,
+      "topic": "Tolino mit Zugang zur Bibliothek",
+      "fineSubject": "Tolino",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1535,
+      "endSec": 2480,
+      "durationSec": 945,
+      "topic": "Smarter Leben Podcast",
+      "fineSubject": "Smarter Leben",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2480,
+      "endSec": 2790,
+      "durationSec": 310,
+      "topic": "Laufklamotten im Winter",
+      "fineSubject": "Winter Gear",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 3260,
+      "endSec": 5051,
+      "durationSec": 1791,
+      "topic": "Thema 1: “Tiere laufen Amok”",
+      "fineSubject": "Amok",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 5051,
+      "endSec": 5506,
+      "durationSec": 455,
+      "topic": "Snackable Science: Sonnenlicht",
+      "fineSubject": "Sunlight",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5506,
+      "endSec": 6922,
+      "durationSec": 1416,
+      "topic": "Thema 2: \"Wer gibt nicht den Löffel ab?\"",
+      "fineSubject": "Löffel",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Science",
+      "startSec": 6922,
+      "endSec": 7400,
+      "durationSec": 478,
+      "topic": "Schwurbel des Periodensystems: Lithium (3)",
+      "fineSubject": "Lithium",
+      "topicIndex": 9
+    }
+  ]
+}

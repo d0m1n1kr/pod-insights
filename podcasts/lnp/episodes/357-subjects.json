@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 357,
+  "title": "LNP357 Wie Autocorrect, nur schlimmer",
+  "generatedAt": "2026-01-05T15:17:57.621Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.370193401592719,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.23117178612059158,
+      "Media": 0,
+      "Health": 0.19681456200227532,
+      "Feedback": 0.2018202502844141,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1627,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1016,
+      "Media": 0,
+      "Health": 865,
+      "Feedback": 887,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 3,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4395,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 151,
+      "endSec": 403,
+      "durationSec": 252,
+      "topic": "Feedback: vote-it",
+      "fineSubject": "Voting",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 404,
+      "endSec": 789,
+      "durationSec": 385,
+      "topic": "Feedback: Laboranbindung CWA",
+      "fineSubject": "Health App",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 789,
+      "endSec": 1039,
+      "durationSec": 250,
+      "topic": "Feedback: Contact Tracing in der Gastronomie",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1040,
+      "endSec": 2667,
+      "durationSec": 1627,
+      "topic": "CCC findet Contact Tracing und Reservierungsdaten in der Cloud",
+      "fineSubject": "Data Storage",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 2668,
+      "endSec": 3239,
+      "durationSec": 571,
+      "topic": "Covidioten-Demo in Berlin",
+      "fineSubject": "Protests",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3239,
+      "endSec": 3684,
+      "durationSec": 445,
+      "topic": "Antifaschistische Auktion",
+      "fineSubject": "Fundraising",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3685,
+      "endSec": 3922,
+      "durationSec": 237,
+      "topic": "CWA: App auf 14 Mio Telefonen?",
+      "fineSubject": "Usage Statistics",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3922,
+      "endSec": 4192,
+      "durationSec": 270,
+      "topic": "CWA: App-Zwang ist REAL!!!",
+      "fineSubject": "Mandates",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4192,
+      "endSec": 4550,
+      "durationSec": 358,
+      "topic": "CWA: Euro-Lösung in Vorbereitung",
+      "fineSubject": "International Solutions",
+      "topicIndex": 8
+    }
+  ]
+}

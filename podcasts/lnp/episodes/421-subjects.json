@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 421,
+  "title": "LNP421 Das Geld ist nicht weg, es ist nur woanders",
+  "generatedAt": "2026-01-05T15:17:57.631Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.046689723320158104,
+      "Technology": 0.6136363636363636,
+      "Law": 0,
+      "Security": 0.05755928853754941,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.28211462450592883,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 378,
+      "Technology": 4968,
+      "Law": 0,
+      "Security": 466,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2284,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 7,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 8096,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 145,
+      "endSec": 447,
+      "durationSec": 302,
+      "topic": "HTTP Status Code 421",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 448,
+      "endSec": 943,
+      "durationSec": 495,
+      "topic": "fluepke",
+      "fineSubject": "Fluepke",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 943,
+      "endSec": 2866,
+      "durationSec": 1923,
+      "topic": "Zeugnis-Blockchain",
+      "fineSubject": "Zeugnis-Blockchain",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2866,
+      "endSec": 3745,
+      "durationSec": 879,
+      "topic": "ID Wallet",
+      "fineSubject": "ID Wallet",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 3746,
+      "endSec": 6030,
+      "durationSec": 2284,
+      "topic": "Der Kryptogeld-Wahnsinn",
+      "fineSubject": "Kryptogeld-Wahnsinn",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6030,
+      "endSec": 6408,
+      "durationSec": 378,
+      "topic": "Bundesregierung weiß jetzt, wie sie Telegram erreicht",
+      "fineSubject": "Telegram",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 6409,
+      "endSec": 6875,
+      "durationSec": 466,
+      "topic": "Microsoft schließt denkmalgeschützte Sicherheitslücke",
+      "fineSubject": "Microsoft",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6875,
+      "endSec": 7069,
+      "durationSec": 194,
+      "topic": "Luca mit Personalausweis für Strafverfolgung",
+      "fineSubject": "Luca",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7069,
+      "endSec": 7500,
+      "durationSec": 431,
+      "topic": "Google Fonts nicht zulässig",
+      "fineSubject": "Google Fonts",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7501,
+      "endSec": 8245,
+      "durationSec": 744,
+      "topic": "Canon DRM Desaster",
+      "fineSubject": "Canon",
+      "topicIndex": 9
+    }
+  ]
+}

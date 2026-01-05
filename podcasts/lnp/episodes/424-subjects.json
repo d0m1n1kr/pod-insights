@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 424,
+  "title": "LNP424 Spezialisierung auf Spezialexperte",
+  "generatedAt": "2026-01-05T15:17:57.631Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.722411186696901,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.27758881330309904,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3823,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1469,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5292,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 461,
+      "endSec": 1875,
+      "durationSec": 1414,
+      "topic": "Ukraine: Invasion begleitet von Cyber-Angriffen",
+      "fineSubject": "Cyber Warfare",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1875,
+      "endSec": 4284,
+      "durationSec": 2409,
+      "topic": "Ukraine: Anonymous erklärt den Cyberkrieg",
+      "fineSubject": "Cyber Warfare",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 4285,
+      "endSec": 5754,
+      "durationSec": 1469,
+      "topic": "Ukraine: Die Rolle der Kryptogelder",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 2
+    }
+  ]
+}

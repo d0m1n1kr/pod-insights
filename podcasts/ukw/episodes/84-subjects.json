@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 84,
+  "title": "UKW084 Brexit: The Brexit Trilemma",
+  "generatedAt": "2026-01-05T15:18:03.020Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.4740642499263189,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.10374300029472443,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0.10610079575596817,
+      "Economy": 0.3160919540229885,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 3217,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 704,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 720,
+      "Economy": 2145,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 5,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 1,
+      "Economy": 3,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6786,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 92,
+      "endSec": 812,
+      "durationSec": 720,
+      "topic": "Wie es sich jetzt anfühlt Brite zu sein",
+      "fineSubject": "Identity",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Economy",
+      "startSec": 812,
+      "endSec": 1398,
+      "durationSec": 586,
+      "topic": "Erste Auswirkungen des Brexit",
+      "fineSubject": "Impact",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Economy",
+      "startSec": 1398,
+      "endSec": 2424,
+      "durationSec": 1026,
+      "topic": "LKW-Fahrer und Versorgungskrise",
+      "fineSubject": "Logistics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Economy",
+      "startSec": 2425,
+      "endSec": 2958,
+      "durationSec": 533,
+      "topic": "Landwirtschaft",
+      "fineSubject": "Agriculture",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2958,
+      "endSec": 3331,
+      "durationSec": 373,
+      "topic": "Klärwerkproblematik",
+      "fineSubject": "Water Management",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3332,
+      "endSec": 3663,
+      "durationSec": 331,
+      "topic": "Energiekrise",
+      "fineSubject": "Crisis",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3664,
+      "endSec": 3974,
+      "durationSec": 310,
+      "topic": "Der Streit mit der EU",
+      "fineSubject": "EU Relations",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3974,
+      "endSec": 5457,
+      "durationSec": 1483,
+      "topic": "Das Nordirland-Protokoll",
+      "fineSubject": "Northern Ireland",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5458,
+      "endSec": 5688,
+      "durationSec": 230,
+      "topic": "Schottland",
+      "fineSubject": "Scotland",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5688,
+      "endSec": 6333,
+      "durationSec": 645,
+      "topic": "Korruption in der Britischen Regierung",
+      "fineSubject": "Corruption",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6333,
+      "endSec": 6882,
+      "durationSec": 549,
+      "topic": "Europäische Realität",
+      "fineSubject": "European Context",
+      "topicIndex": 10
+    }
+  ]
+}

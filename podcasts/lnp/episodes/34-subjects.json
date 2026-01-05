@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 34,
+  "title": "LNP034 Julio Assanchez",
+  "generatedAt": "2026-01-05T15:17:57.577Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5814106789716545,
+      "Technology": 0.10909690177982861,
+      "Law": 0.30949241924851684,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1764,
+      "Technology": 331,
+      "Law": 939,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3034,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 67,
+      "endSec": 1831,
+      "durationSec": 1764,
+      "topic": "Julian Assange erhält Asyl in Ecuador",
+      "fineSubject": "Asylum",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1831,
+      "endSec": 2770,
+      "durationSec": 939,
+      "topic": "BGH weitet Auskunftsanspruch aus",
+      "fineSubject": "Information Rights",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2770,
+      "endSec": 3101,
+      "durationSec": 331,
+      "topic": "Google büßt für Safari-Privacy Hack",
+      "fineSubject": "Privacy",
+      "topicIndex": 2
+    }
+  ]
+}

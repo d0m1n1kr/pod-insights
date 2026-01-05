@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 296,
+  "title": "LNP296 IT-Sicherheit per Gesetz",
+  "generatedAt": "2026-01-05T15:17:57.613Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.10496255870034268,
+      "Technology": 0,
+      "Law": 0.8950374412996573,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 827,
+      "Technology": 0,
+      "Law": 7052,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 14,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7879,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 154,
+      "endSec": 607,
+      "durationSec": 453,
+      "topic": "Hackertool-Paragraphen",
+      "fineSubject": "Legislation / Hackertool-Paragraphen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 608,
+      "endSec": 955,
+      "durationSec": 347,
+      "topic": "IT-Sicherheit: Quo vadis?",
+      "fineSubject": "Discussion / IT-Sicherheit: Quo vadis?",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 955,
+      "endSec": 1367,
+      "durationSec": 412,
+      "topic": "IT-Sicherheit: Was ist das?",
+      "fineSubject": "Definition / IT-Sicherheit: Was ist das?",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1368,
+      "endSec": 1640,
+      "durationSec": 272,
+      "topic": "Ausschuss Digitale Agenda",
+      "fineSubject": "Committee / Ausschuss Digitale Agenda",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1640,
+      "endSec": 1715,
+      "durationSec": 75,
+      "topic": "Eckpunkte deutscher Kryptopolitk",
+      "fineSubject": "Policy / Eckpunkte deutscher Kryptopolitk",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 1715,
+      "endSec": 2185,
+      "durationSec": 470,
+      "topic": "Staatstrojaner",
+      "fineSubject": "Surveillance / Staatstrojaner",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2186,
+      "endSec": 3159,
+      "durationSec": 973,
+      "topic": "Vulnerabilities Equities Process",
+      "fineSubject": "Process / Vulnerabilities Equities Process",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3160,
+      "endSec": 3620,
+      "durationSec": 460,
+      "topic": "IT Sicherheitsgesetz 1.0",
+      "fineSubject": "Legislation / IT Sicherheitsgesetz 1.0",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3620,
+      "endSec": 3727,
+      "durationSec": 107,
+      "topic": "ITSG 2.0",
+      "fineSubject": "Legislation / ITSG 2.0",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 3728,
+      "endSec": 4759,
+      "durationSec": 1031,
+      "topic": "Passwort-Herausgabe",
+      "fineSubject": "Legal Process / Passwort-Herausgabe",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 4760,
+      "endSec": 4834,
+      "durationSec": 74,
+      "topic": "Strafmaßerhöhungen §202",
+      "fineSubject": "Legal Penalties / Strafmaßerhöhungen §202",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Law",
+      "startSec": 4834,
+      "endSec": 5017,
+      "durationSec": 183,
+      "topic": "Digitaler Hausfriedensbruch",
+      "fineSubject": "Legal Issues / Digitaler Hausfriedensbruch",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Law",
+      "startSec": 5018,
+      "endSec": 5803,
+      "durationSec": 785,
+      "topic": "Aktive Maßnahmen",
+      "fineSubject": "Action / Aktive Maßnahmen",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Law",
+      "startSec": 5803,
+      "endSec": 6199,
+      "durationSec": 396,
+      "topic": "Rechtswidrig erlangte Daten",
+      "fineSubject": "Data Privacy / Rechtswidrig erlangte Daten",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6200,
+      "endSec": 6755,
+      "durationSec": 555,
+      "topic": "Anhörung im Innenausschuss am 8. April 2019",
+      "fineSubject": "Hearing / Anhörung im Innenausschuss am 8. April 2019",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Law",
+      "startSec": 6755,
+      "endSec": 8041,
+      "durationSec": 1286,
+      "topic": "Abschließende Bewertung",
+      "fineSubject": "Evaluation / Abschließende Bewertung",
+      "topicIndex": 15
+    }
+  ]
+}

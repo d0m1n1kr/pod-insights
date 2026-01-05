@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 498,
+  "title": "LNP498 Doppelte Transferleistung",
+  "generatedAt": "2026-01-05T15:17:57.641Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6303560651780326,
+      "Technology": 0,
+      "Law": 0.16686783343391673,
+      "Security": 0.032890766445383225,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.16988533494266747,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2089,
+      "Technology": 0,
+      "Law": 553,
+      "Security": 109,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 563,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3314,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 219,
+      "endSec": 609,
+      "durationSec": 390,
+      "topic": "Feedback: Witz erklärt",
+      "fineSubject": "Witz",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 610,
+      "endSec": 739,
+      "durationSec": 129,
+      "topic": "Feedback: Crowdstrike",
+      "fineSubject": "Crowdstrike",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 739,
+      "endSec": 783,
+      "durationSec": 44,
+      "topic": "Feedback: Silicon Valley",
+      "fineSubject": "Silicon Valley",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 784,
+      "endSec": 1990,
+      "durationSec": 1206,
+      "topic": "USA vs. Google",
+      "fineSubject": "USA vs. Google",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1991,
+      "endSec": 2544,
+      "durationSec": 553,
+      "topic": "BKA-Gesetz",
+      "fineSubject": "BKA-Gesetz",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2544,
+      "endSec": 3427,
+      "durationSec": 883,
+      "topic": "Cybercrime-Abkommen der UN",
+      "fineSubject": "Cybercrime-Abkommen",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3570,
+      "endSec": 3679,
+      "durationSec": 109,
+      "topic": "CUII-Liste",
+      "fineSubject": "CUII-Liste",
+      "topicIndex": 7
+    }
+  ]
+}

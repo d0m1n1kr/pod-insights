@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 28,
+  "title": "LNP028 Unavailable for illegal reasons",
+  "generatedAt": "2026-01-05T15:17:57.576Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.2547304170905392,
+      "Law": 0.4402848423194303,
+      "Security": 0,
+      "Social": 0.3049847405900305,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1252,
+      "Law": 2164,
+      "Security": 0,
+      "Social": 1499,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 4,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4915,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 60,
+      "endSec": 886,
+      "durationSec": 826,
+      "topic": "Gesetzesentwurf zum Leistungsschutzrecht",
+      "fineSubject": "Legislation / Leistungsschutzrecht",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 887,
+      "endSec": 1947,
+      "durationSec": 1060,
+      "topic": "Die Schufa hat(te) Facebook",
+      "fineSubject": "Privacy / Facebook",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1947,
+      "endSec": 2154,
+      "durationSec": 207,
+      "topic": "Hamburg bekommt das Transparenzgesetz",
+      "fineSubject": "Legislation / Transparency Law",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2155,
+      "endSec": 2594,
+      "durationSec": 439,
+      "topic": "Facebook verbessert sich seine Datenschutzregeln",
+      "fineSubject": "Privacy / Data Protection",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2595,
+      "endSec": 3086,
+      "durationSec": 491,
+      "topic": "Nachlese: ACTA-Aktionstag",
+      "fineSubject": "Activism / ACTA",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3086,
+      "endSec": 3726,
+      "durationSec": 640,
+      "topic": "Österreich und die Vorratsdatenspeicherung",
+      "fineSubject": "Legislation / Vorratsdatenspeicherung",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3727,
+      "endSec": 4556,
+      "durationSec": 829,
+      "topic": "Kabel Deutschland drosselt Filesharer",
+      "fineSubject": "Traffic Management / Throttling",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4557,
+      "endSec": 4980,
+      "durationSec": 423,
+      "topic": "HTTP/1.1 451 Unavailable For Legal Reasons",
+      "fineSubject": "Error Codes / Legal Reasons",
+      "topicIndex": 7
+    }
+  ]
+}

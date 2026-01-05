@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 363,
+  "title": "LNP363 Fortschreitende Verdunklungsgefahr",
+  "generatedAt": "2026-01-05T15:17:57.622Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.1988998262883613,
+      "Security": 0.04892877822814128,
+      "Social": 0.1569195136074117,
+      "Media": 0,
+      "Health": 0.4348581354950782,
+      "Feedback": 0.16039374638100753,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 687,
+      "Security": 169,
+      "Social": 542,
+      "Media": 0,
+      "Health": 1502,
+      "Feedback": 554,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3454,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 322,
+      "endSec": 421,
+      "durationSec": 99,
+      "topic": "Feedback: Cell Broadcast Center",
+      "fineSubject": "Cell Broadcast Center",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 421,
+      "endSec": 829,
+      "durationSec": 408,
+      "topic": "Feedback: Tesla in Grünheide",
+      "fineSubject": "Tesla",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 829,
+      "endSec": 876,
+      "durationSec": 47,
+      "topic": "Feedback: CWA in googlefrei",
+      "fineSubject": "CWA",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 876,
+      "endSec": 1944,
+      "durationSec": 1068,
+      "topic": "Corona-Warn-App",
+      "fineSubject": "Corona-Warn-App",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1945,
+      "endSec": 2409,
+      "durationSec": 464,
+      "topic": "VDS-Urteil des EuGH",
+      "fineSubject": "VDS-Urteil",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 2409,
+      "endSec": 2951,
+      "durationSec": 542,
+      "topic": "Social Media gegen QAnon",
+      "fineSubject": "QAnon",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2952,
+      "endSec": 3175,
+      "durationSec": 223,
+      "topic": "Urheberrechtsreform",
+      "fineSubject": "Urheberrechtsreform",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 3175,
+      "endSec": 3344,
+      "durationSec": 169,
+      "topic": "FinSpy in Ägypten",
+      "fineSubject": "FinSpy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3345,
+      "endSec": 3779,
+      "durationSec": 434,
+      "topic": "Excel taugt auch nicht für Corona-Bekämpfung",
+      "fineSubject": "Corona-Bekämpfung",
+      "topicIndex": 8
+    }
+  ]
+}

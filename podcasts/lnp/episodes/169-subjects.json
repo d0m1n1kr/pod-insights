@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 169,
+  "title": "LNP169 Unsere Freiheit wird auch an der Firewall verteidigt",
+  "generatedAt": "2026-01-05T15:17:57.596Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.46480012947078814,
+      "Security": 0.12769056481631333,
+      "Social": 0.08334681987376598,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.12154070237902573,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.2026217834601068,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 2872,
+      "Security": 789,
+      "Social": 515,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 751,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1252,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 3,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 2,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 6179,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 138,
+      "endSec": 653,
+      "durationSec": 515,
+      "topic": "Alexander Sander (Digitale Gesellschaft)",
+      "fineSubject": "Digital Rights",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 654,
+      "endSec": 1204,
+      "durationSec": 550,
+      "topic": "Feedback: BingeOn",
+      "fineSubject": "User Experience",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1205,
+      "endSec": 1406,
+      "durationSec": 201,
+      "topic": "Feedback: Visualisierung Sopranos-Clusterfuck",
+      "fineSubject": "Data Visualization",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1406,
+      "endSec": 3882,
+      "durationSec": 2476,
+      "topic": "Fluggastdatenspeicherung (PNR)",
+      "fineSubject": "Data Retention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3882,
+      "endSec": 5134,
+      "durationSec": 1252,
+      "topic": "Mobilfunküberwachung in Deutschland 2015",
+      "fineSubject": "Mobile Monitoring",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 5135,
+      "endSec": 5531,
+      "durationSec": 396,
+      "topic": "Verhaftung von David Miranda war legal, aber das Gesetz nicht",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 5531,
+      "endSec": 5673,
+      "durationSec": 142,
+      "topic": "Hacking is not allowed in the Bundestag",
+      "fineSubject": "Legislation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 5674,
+      "endSec": 5939,
+      "durationSec": 265,
+      "topic": "Bundeswehr plant Cyberattacken",
+      "fineSubject": "Cyber Operations",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 6234,
+      "endSec": 6616,
+      "durationSec": 382,
+      "topic": "Bonus Track: Hacking is not allowed in the Netherlands",
+      "fineSubject": "International Law",
+      "topicIndex": 8
+    }
+  ]
+}

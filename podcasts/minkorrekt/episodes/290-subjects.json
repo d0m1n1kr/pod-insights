@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 290,
+  "title": "Mi290  – \"Reini im Krankenhaus\"",
+  "generatedAt": "2026-01-05T15:18:17.383Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.9241437871497311,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.07585621285026889,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 3265,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 268,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 3533,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 100,
+      "endSec": 3365,
+      "durationSec": 3265,
+      "topic": "Reini im Krankenhaus",
+      "fineSubject": "Hospital",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Education",
+      "startSec": 3365,
+      "endSec": 3633,
+      "durationSec": 268,
+      "topic": "Kommentar Simon zu jugend forscht",
+      "fineSubject": "Science Competition",
+      "topicIndex": 1
+    }
+  ]
+}

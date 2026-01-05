@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 393,
+  "title": "LNP393 Mutmaßlich erlaubte Nutzung",
+  "generatedAt": "2026-01-05T15:17:57.627Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.1900121802679659,
+      "Law": 0.8099878197320342,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 780,
+      "Law": 3325,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 5,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4105,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 100,
+      "endSec": 808,
+      "durationSec": 708,
+      "topic": "Urheberrechtsreform verabschiedet",
+      "fineSubject": "Legislation / Reform",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 809,
+      "endSec": 2511,
+      "durationSec": 1702,
+      "topic": "Uploadfilter",
+      "fineSubject": "Technology / Upload Filters",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2511,
+      "endSec": 3188,
+      "durationSec": 677,
+      "topic": "Ausnahmen, Verbesserung und Fussball",
+      "fineSubject": "Exceptions / Sports",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 3189,
+      "endSec": 3353,
+      "durationSec": 164,
+      "topic": "Die Klage Polens",
+      "fineSubject": "Litigation / Poland",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3354,
+      "endSec": 3428,
+      "durationSec": 74,
+      "topic": "Beschwerden der GFF",
+      "fineSubject": "Complaints / GFF",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3429,
+      "endSec": 4209,
+      "durationSec": 780,
+      "topic": "CUII und SciHub",
+      "fineSubject": "Platforms / SciHub",
+      "topicIndex": 5
+    }
+  ]
+}

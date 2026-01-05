@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 155,
+  "title": "LNP155 Frivole Rechtsmeinung",
+  "generatedAt": "2026-01-05T15:17:57.594Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.3530295443164747,
+      "Law": 0.6469704556835253,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1410,
+      "Law": 2584,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3994,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 89,
+      "endSec": 1925,
+      "durationSec": 1836,
+      "topic": "Safe Harbor Urteil",
+      "fineSubject": "Judicial Decisions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1926,
+      "endSec": 3336,
+      "durationSec": 1410,
+      "topic": "Netzneutralität in Europa",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 3336,
+      "endSec": 4084,
+      "durationSec": 748,
+      "topic": "Staatsschutzgesetz in Österreich",
+      "fineSubject": "Legislation",
+      "topicIndex": 2
+    }
+  ]
+}

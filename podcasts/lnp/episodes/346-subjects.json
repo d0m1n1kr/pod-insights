@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 346,
+  "title": "LNP346 Grundrechtsimperialismus",
+  "generatedAt": "2026-01-05T15:17:57.620Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.09950248756218906,
+      "Technology": 0,
+      "Law": 0.900497512437811,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 640,
+      "Technology": 0,
+      "Law": 5792,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 8,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6432,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 310,
+      "endSec": 950,
+      "durationSec": 640,
+      "topic": "Corona-Demos",
+      "fineSubject": "Protests",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 950,
+      "endSec": 1393,
+      "durationSec": 443,
+      "topic": "Das BND-Gesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1394,
+      "endSec": 1919,
+      "durationSec": 525,
+      "topic": "BND-Gesetz: Die Klage",
+      "fineSubject": "Litigation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1919,
+      "endSec": 3114,
+      "durationSec": 1195,
+      "topic": "BND-Gesetz: Das Urteil",
+      "fineSubject": "Judicial Decisions",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3115,
+      "endSec": 3539,
+      "durationSec": 424,
+      "topic": "BND-Gesetz: Berufsgeheimnisträgerschutz",
+      "fineSubject": "Confidentiality",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3540,
+      "endSec": 4203,
+      "durationSec": 663,
+      "topic": "BND-Gesetz: Kooperationen mit Dritten",
+      "fineSubject": "Cooperation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4203,
+      "endSec": 5317,
+      "durationSec": 1114,
+      "topic": "BND-Gesetz: Kontrolle des BND",
+      "fineSubject": "Oversight",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 5318,
+      "endSec": 6153,
+      "durationSec": 835,
+      "topic": "BND-Gesetz: Konsequenzen",
+      "fineSubject": "Consequences",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 6153,
+      "endSec": 6746,
+      "durationSec": 593,
+      "topic": "BND-Gesetz: Fazit",
+      "fineSubject": "Conclusion",
+      "topicIndex": 8
+    }
+  ]
+}

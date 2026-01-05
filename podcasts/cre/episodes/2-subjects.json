@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 2,
+  "title": "CRE002 22C3, Schäuble, Coral CDN, CACert",
+  "generatedAt": "2026-01-05T15:17:54.356Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.3333333333333333,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0.6666666666666666,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 2,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Überwachungsmassnahmen auf der Autobahn",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Coral CDN",
+      "fineSubject": "Content Delivery Networks",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "CACert",
+      "fineSubject": "Certificate Authorities",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

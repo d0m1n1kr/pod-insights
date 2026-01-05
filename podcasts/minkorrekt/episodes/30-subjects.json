@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 30,
+  "title": "Minkorrekt Folge 30 „Cannibalus Nimmersattus“",
+  "generatedAt": "2026-01-05T15:18:17.353Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.2,
+      "Culture": 0.2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0.2,
+      "Biologie": 0.4,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 1,
+      "Biologie": 2,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "künstliche Muskeln",
+      "fineSubject": "Biotechnologie",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Raupe Nimmersatt",
+      "fineSubject": "Kinderliteratur",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Leichen im Ameisenbau",
+      "fineSubject": "Ökologie",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Reibung der Schlangenhaut",
+      "fineSubject": "Zoologie",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Warum ist der Himmel blau?",
+      "fineSubject": "Physik",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

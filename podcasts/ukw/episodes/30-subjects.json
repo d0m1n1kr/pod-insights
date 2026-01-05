@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 30,
+  "title": "UKW030 Die Corona-Warn-App",
+  "generatedAt": "2026-01-05T15:18:03.004Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.9579288025889967,
+      "Economics": 0,
+      "Media": 0.042071197411003236,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 7992,
+      "Economics": 0,
+      "Media": 351,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 17,
+      "Economics": 0,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8343,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 358,
+      "endSec": 1415,
+      "durationSec": 1057,
+      "topic": "Suche nach dem richtigen System",
+      "fineSubject": "Systemauswahl",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1416,
+      "endSec": 1884,
+      "durationSec": 468,
+      "topic": "Zuteilung an SAP und Telekom",
+      "fineSubject": "Zuteilung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1884,
+      "endSec": 2208,
+      "durationSec": 324,
+      "topic": "Entwicklungsbeginn",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2209,
+      "endSec": 2849,
+      "durationSec": 640,
+      "topic": "Systemarchitektur",
+      "fineSubject": "Architektur",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2849,
+      "endSec": 3062,
+      "durationSec": 213,
+      "topic": "Übermittlung von Laborergebnissen",
+      "fineSubject": "Datenübertragung",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3062,
+      "endSec": 3412,
+      "durationSec": 350,
+      "topic": "Open Source",
+      "fineSubject": "Open Source",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3413,
+      "endSec": 3539,
+      "durationSec": 126,
+      "topic": "Lizenz",
+      "fineSubject": "Lizenzierung",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3540,
+      "endSec": 3993,
+      "durationSec": 453,
+      "topic": "Dokumentation und offene Entwicklung",
+      "fineSubject": "Dokumentation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3994,
+      "endSec": 4161,
+      "durationSec": 167,
+      "topic": "Code Reviews und Tools",
+      "fineSubject": "Code Review",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4161,
+      "endSec": 4529,
+      "durationSec": 368,
+      "topic": "Exposure Notification API",
+      "fineSubject": "API",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4530,
+      "endSec": 4724,
+      "durationSec": 194,
+      "topic": "Laboratory Information Server",
+      "fineSubject": "Server",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4724,
+      "endSec": 5383,
+      "durationSec": 659,
+      "topic": "Die App in der Nutzung",
+      "fineSubject": "Nutzung",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5384,
+      "endSec": 6059,
+      "durationSec": 675,
+      "topic": "Die TeleTAN",
+      "fineSubject": "Technologie",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6419,
+      "endSec": 7193,
+      "durationSec": 774,
+      "topic": "Risiko-Kalibrierung",
+      "fineSubject": "Kalibrierung",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7193,
+      "endSec": 7461,
+      "durationSec": 268,
+      "topic": "Benachrichtigungen",
+      "fineSubject": "Benachrichtigungen",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7462,
+      "endSec": 8438,
+      "durationSec": 976,
+      "topic": "Internationaler Datenaustausch",
+      "fineSubject": "Datenaustausch",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8470,
+      "endSec": 8750,
+      "durationSec": 280,
+      "topic": "Modell für öffentliche Projekte",
+      "fineSubject": "Modell",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Media",
+      "startSec": 8751,
+      "endSec": 9102,
+      "durationSec": 351,
+      "topic": "Berichterstattung",
+      "fineSubject": "Analyse",
+      "topicIndex": 19
+    }
+  ]
+}

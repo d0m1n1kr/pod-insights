@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 36,
+  "title": "UKW036 Corona Weekly: Das Immunsystem ist ein militärisch-industrieller Komplex",
+  "generatedAt": "2026-01-05T15:18:03.006Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.8433467741935484,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0.1566532258064516,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 4183,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 777,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 9,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 1,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 4960,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 131,
+      "endSec": 544,
+      "durationSec": 413,
+      "topic": "Internationale Situation",
+      "fineSubject": "International Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 544,
+      "endSec": 1383,
+      "durationSec": 839,
+      "topic": "Situation in Europa",
+      "fineSubject": "European Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1383,
+      "endSec": 1775,
+      "durationSec": 392,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "German Situation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1776,
+      "endSec": 1937,
+      "durationSec": 161,
+      "topic": "Situation in Berlin",
+      "fineSubject": "Berlin Situation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1937,
+      "endSec": 2286,
+      "durationSec": 349,
+      "topic": "Gründe für Infektionsausbrüche",
+      "fineSubject": "Infection Outbreaks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2286,
+      "endSec": 2540,
+      "durationSec": 254,
+      "topic": "Probenrückstau",
+      "fineSubject": "Testing Backlog",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2541,
+      "endSec": 2923,
+      "durationSec": 382,
+      "topic": "Corona Walk-In",
+      "fineSubject": "Testing Facilities",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Economy",
+      "startSec": 2923,
+      "endSec": 3700,
+      "durationSec": 777,
+      "topic": "Wirtschaft vs. Gesundheit",
+      "fineSubject": "Health vs. Economy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3700,
+      "endSec": 4610,
+      "durationSec": 910,
+      "topic": "Impfstoff und Immunsysteme",
+      "fineSubject": "Vaccines and Immune Systems",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4611,
+      "endSec": 5094,
+      "durationSec": 483,
+      "topic": "Herbstausblick",
+      "fineSubject": "Autumn Outlook",
+      "topicIndex": 9
+    }
+  ]
+}

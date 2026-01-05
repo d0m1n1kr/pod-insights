@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 298,
+  "title": "LNP298 Political Speeddating",
+  "generatedAt": "2026-01-05T15:17:57.613Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6259477674810446,
+      "Technology": 0.3096040438079191,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.06444818871103622,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1486,
+      "Technology": 735,
+      "Law": 0,
+      "Security": 0,
+      "Social": 153,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2374,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 72,
+      "endSec": 453,
+      "durationSec": 381,
+      "topic": "LNP300: Familienduell",
+      "fineSubject": "Political Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 454,
+      "endSec": 607,
+      "durationSec": 153,
+      "topic": "Feedback: Religion",
+      "fineSubject": "Religion",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 608,
+      "endSec": 948,
+      "durationSec": 340,
+      "topic": "5G wird teuer",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 949,
+      "endSec": 1344,
+      "durationSec": 395,
+      "topic": "5G und Huawei",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1345,
+      "endSec": 1619,
+      "durationSec": 274,
+      "topic": "Uploadfilter wirken",
+      "fineSubject": "Censorship",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1619,
+      "endSec": 2122,
+      "durationSec": 503,
+      "topic": "Petition Gemeinnützigkeit",
+      "fineSubject": "Non-Profit Organizations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2122,
+      "endSec": 2450,
+      "durationSec": 328,
+      "topic": "Freiheit für alle politischen Gefangenen",
+      "fineSubject": "Human Rights",
+      "topicIndex": 6
+    }
+  ]
+}

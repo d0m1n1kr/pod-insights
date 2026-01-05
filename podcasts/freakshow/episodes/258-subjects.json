@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 258,
+  "title": "FS258 Friend Relationship Management",
+  "generatedAt": "2026-01-05T15:17:51.112Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6351522113727742,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.10304422745548536,
+      "Media": 0,
+      "Social": 0.09856404365307295,
+      "Culture": 0,
+      "Security": 0.16323951751866744,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5529,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 897,
+      "Media": 0,
+      "Social": 858,
+      "Culture": 0,
+      "Security": 1421,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8705,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 149,
+      "endSec": 1007,
+      "durationSec": 858,
+      "topic": "Gast: Ron",
+      "fineSubject": "Friendship",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1157,
+      "endSec": 2578,
+      "durationSec": 1421,
+      "topic": "Security Nightmares",
+      "fineSubject": "Nightmares",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2578,
+      "endSec": 2719,
+      "durationSec": 141,
+      "topic": "Online-Konferenzen",
+      "fineSubject": "Online Conferences",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2719,
+      "endSec": 3978,
+      "durationSec": 1259,
+      "topic": "Plattformen und Sicherheit",
+      "fineSubject": "Platforms",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 6490,
+      "endSec": 7387,
+      "durationSec": 897,
+      "topic": "Tesla, GameStop und Bitcoin",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7387,
+      "endSec": 11516,
+      "durationSec": 4129,
+      "topic": "Corona Hackbastel",
+      "fineSubject": "Hacking",
+      "topicIndex": 7
+    }
+  ]
+}

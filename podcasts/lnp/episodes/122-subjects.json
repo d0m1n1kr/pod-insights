@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 122,
+  "title": "LNP122 The Internet is about love",
+  "generatedAt": "2026-01-05T15:17:57.591Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.32747098135772074,
+      "Technology": 0.4379176925782624,
+      "Law": 0.23461132606401688,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 931,
+      "Technology": 1245,
+      "Law": 667,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2843,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 125,
+      "endSec": 481,
+      "durationSec": 356,
+      "topic": "NSA-Skandal: Republikaner verhindern \"Freedom Act\"",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 481,
+      "endSec": 876,
+      "durationSec": 395,
+      "topic": "WLAN-Störerhaftung",
+      "fineSubject": "Liability",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 877,
+      "endSec": 2122,
+      "durationSec": 1245,
+      "topic": "WhatsApp hat jetzt E2E-Crypto",
+      "fineSubject": "Cryptography",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2123,
+      "endSec": 2359,
+      "durationSec": 236,
+      "topic": "Obama-Administration will echte Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2359,
+      "endSec": 2631,
+      "durationSec": 272,
+      "topic": "BKA hat einen neuen Leiter",
+      "fineSubject": "Leadership",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2632,
+      "endSec": 2811,
+      "durationSec": 179,
+      "topic": "Britischer Pornofilter wird um Terror-Propaganda erweitert",
+      "fineSubject": "Censorship",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2811,
+      "endSec": 2971,
+      "durationSec": 160,
+      "topic": "AKVorrat Österreich bittet um Spenden",
+      "fineSubject": "Funding",
+      "topicIndex": 6
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 182,
+  "title": "LNP182 Welche IP-Adresse hat Gott?",
+  "generatedAt": "2026-01-05T15:17:57.597Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.18528710328380113,
+      "Technology": 0.28820399926618967,
+      "Law": 0.5265088974500092,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1010,
+      "Technology": 1571,
+      "Law": 2870,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 5,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5451,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 411,
+      "endSec": 2451,
+      "durationSec": 2040,
+      "topic": "Störerhaftung Quo Vadis?",
+      "fineSubject": "Internet / Störerhaftung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2451,
+      "endSec": 3204,
+      "durationSec": 753,
+      "topic": "Kabel-Hotspot",
+      "fineSubject": "Internet / Hotspot",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3792,
+      "endSec": 4355,
+      "durationSec": 563,
+      "topic": "Roland Berger soll den BND überprüfen",
+      "fineSubject": "Intelligence / BND",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4355,
+      "endSec": 4802,
+      "durationSec": 447,
+      "topic": "Staatstrojaner in Österreich",
+      "fineSubject": "Technology / Staatstrojaner",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 4803,
+      "endSec": 4969,
+      "durationSec": 166,
+      "topic": "Hausdurchsuchung bei Photojournalist",
+      "fineSubject": "Journalism / Photojournalist",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4970,
+      "endSec": 5788,
+      "durationSec": 818,
+      "topic": "Oracle vs Google",
+      "fineSubject": "Software / Oracle vs Google",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 5788,
+      "endSec": 5871,
+      "durationSec": 83,
+      "topic": "IT-Sicherheit bald auch per EU-Richtlinie",
+      "fineSubject": "IT / EU-Richtlinie",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 5872,
+      "endSec": 6398,
+      "durationSec": 526,
+      "topic": "Niederlande verbieten Zero-Rating",
+      "fineSubject": "Telecommunications / Zero-Rating",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 6399,
+      "endSec": 6454,
+      "durationSec": 55,
+      "topic": "Chelsea Manning legt Berufung ein",
+      "fineSubject": "Politics / Chelsea Manning",
+      "topicIndex": 9
+    }
+  ]
+}

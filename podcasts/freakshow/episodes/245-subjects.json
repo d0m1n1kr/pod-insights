@@ -1,0 +1,234 @@
+{
+  "episodeNumber": 245,
+  "title": "FS245 Lazy Letty",
+  "generatedAt": "2026-01-05T15:17:51.107Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.16734017200290124,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.0389596932960315,
+      "Media": 0.023728111076572377,
+      "Social": 0,
+      "Culture": 0.03118847787794011,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.7387835457465548
+    },
+    "durations": {
+      "Technology": 1615,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 376,
+      "Media": 229,
+      "Social": 0,
+      "Culture": 301,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 7130
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 12
+    },
+    "totalDurationSec": 9651,
+    "totalTopics": 27
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 3560,
+      "endSec": 4115,
+      "durationSec": 555,
+      "topic": "Tala hat nen Mac",
+      "fineSubject": "Computers",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4115,
+      "endSec": 4392,
+      "durationSec": 277,
+      "topic": "Talas Spaßdrohne",
+      "fineSubject": "Drones",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4393,
+      "endSec": 5033,
+      "durationSec": 640,
+      "topic": "Drohnen-Feuerwerk in Shanghai",
+      "fineSubject": "Drones",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Event",
+      "startSec": 5033,
+      "endSec": 5818,
+      "durationSec": 785,
+      "topic": "36C3: Allgemein",
+      "fineSubject": "Conference",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Event",
+      "startSec": 5818,
+      "endSec": 7003,
+      "durationSec": 1185,
+      "topic": "36C3: CERT",
+      "fineSubject": "Conference",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Event",
+      "startSec": 7003,
+      "endSec": 7210,
+      "durationSec": 207,
+      "topic": "36C3: LOC",
+      "fineSubject": "Conference",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Event",
+      "startSec": 7210,
+      "endSec": 8239,
+      "durationSec": 1029,
+      "topic": "36C3: Heralding",
+      "fineSubject": "Conference",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Event",
+      "startSec": 8240,
+      "endSec": 8556,
+      "durationSec": 316,
+      "topic": "36C3: Chaos Post",
+      "fineSubject": "Conference",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Event",
+      "startSec": 8556,
+      "endSec": 8836,
+      "durationSec": 280,
+      "topic": "36C3: Sport",
+      "fineSubject": "Conference",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Event",
+      "startSec": 8836,
+      "endSec": 9151,
+      "durationSec": 315,
+      "topic": "36C3: Glamping",
+      "fineSubject": "Conference",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Event",
+      "startSec": 9152,
+      "endSec": 9687,
+      "durationSec": 535,
+      "topic": "36C3: BahnMining",
+      "fineSubject": "Conference",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Event",
+      "startSec": 10218,
+      "endSec": 10345,
+      "durationSec": 127,
+      "topic": "36C3: Hirne hacken",
+      "fineSubject": "Conference",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Culture",
+      "startSec": 10345,
+      "endSec": 10522,
+      "durationSec": 177,
+      "topic": "36C3: Feministischer Jahresrückblick",
+      "fineSubject": "Feminism",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Culture",
+      "startSec": 10733,
+      "endSec": 10857,
+      "durationSec": 124,
+      "topic": "36C3: Vom Ich zum Wir",
+      "fineSubject": "Community",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10857,
+      "endSec": 11000,
+      "durationSec": 143,
+      "topic": "36C3: #mifail oder: Mit Gigaset wäre das nicht passiert!",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Finance",
+      "startSec": 11001,
+      "endSec": 11377,
+      "durationSec": 376,
+      "topic": "36C3: c3inkasso",
+      "fineSubject": "Debt Collection",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Event",
+      "startSec": 11377,
+      "endSec": 11494,
+      "durationSec": 117,
+      "topic": "36C3: Let's Play Infokrieg",
+      "fineSubject": "Gaming",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Event",
+      "startSec": 11494,
+      "endSec": 11712,
+      "durationSec": 218,
+      "topic": "36C3: Diverses",
+      "fineSubject": "Conference",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Event",
+      "startSec": 12887,
+      "endSec": 14903,
+      "durationSec": 2016,
+      "topic": "Die Zukunft des Congresses",
+      "fineSubject": "Future Planning",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Media",
+      "startSec": 15060,
+      "endSec": 15289,
+      "durationSec": 229,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 26
+    }
+  ]
+}

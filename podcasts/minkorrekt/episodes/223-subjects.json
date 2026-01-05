@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 223,
+  "title": "Mi223 – „Reklamation beim Quantenfeld“",
+  "generatedAt": "2026-01-05T15:18:17.375Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.33662754786905497,
+      "Culture": 0.0887893761581223,
+      "Wissenschaft": 0,
+      "Health": 0.24598517603458925,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.32859789993823346,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2180,
+      "Culture": 575,
+      "Wissenschaft": 0,
+      "Health": 1593,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2128,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6476,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 478,
+      "endSec": 897,
+      "durationSec": 419,
+      "topic": "Alternativmedizin",
+      "fineSubject": "Alternative Medicine",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 897,
+      "endSec": 1346,
+      "durationSec": 449,
+      "topic": "Studie: Kaffee beim Einkaufen",
+      "fineSubject": "Consumer Behavior",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2491,
+      "endSec": 3628,
+      "durationSec": 1137,
+      "topic": "Thema 1: Exoplanetarer Klimawandel",
+      "fineSubject": "Climate Change",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 3784,
+      "endSec": 5912,
+      "durationSec": 2128,
+      "topic": "Thema 2: Eine unbequeme Wahrheit",
+      "fineSubject": "Truth and Awareness",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 5912,
+      "endSec": 6506,
+      "durationSec": 594,
+      "topic": "Experiment: Sprühflasche",
+      "fineSubject": "Experiments",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 8031,
+      "endSec": 9205,
+      "durationSec": 1174,
+      "topic": "Thema 4: Kinderkaffee",
+      "fineSubject": "Coffee",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9517,
+      "endSec": 10092,
+      "durationSec": 575,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 7
+    }
+  ]
+}

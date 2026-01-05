@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 101,
+  "title": "LNP101 Christophorus-Plakette für E-Mail",
+  "generatedAt": "2026-01-05T15:17:57.588Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.19109119662625199,
+      "Technology": 0.7366895097522403,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.07221929362150764,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 725,
+      "Technology": 2795,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 274,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3794,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 165,
+      "endSec": 890,
+      "durationSec": 725,
+      "topic": "Bundesregierung will Snowden nicht einladen: Staatswohl",
+      "fineSubject": "Government",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 891,
+      "endSec": 2083,
+      "durationSec": 1192,
+      "topic": "FCC will doch eine \"Internet Fast Lane\" zulassen",
+      "fineSubject": "Internet",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2083,
+      "endSec": 2608,
+      "durationSec": 525,
+      "topic": "NetMundial",
+      "fineSubject": "Global Governance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2609,
+      "endSec": 3687,
+      "durationSec": 1078,
+      "topic": "E-Mail made in Germany",
+      "fineSubject": "E-Mail",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3688,
+      "endSec": 3962,
+      "durationSec": 274,
+      "topic": "Balthasar Glättli lässt VDS-Daten visualisieren",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    }
+  ]
+}

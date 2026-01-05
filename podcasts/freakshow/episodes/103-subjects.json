@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 103,
+  "title": "MM103 Plattform mit Migrationshintergrund",
+  "generatedAt": "2026-01-05T15:17:51.071Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.11691690203656906,
+      "Software": 0.5419206184034487,
+      "Hardware": 0.252712947822209,
+      "Finance": 0.08844953173777315,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1573,
+      "Software": 7291,
+      "Hardware": 3400,
+      "Finance": 1190,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 5,
+      "Hardware": 2,
+      "Finance": 2,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13454,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Finance",
+      "startSec": 288,
+      "endSec": 828,
+      "durationSec": 540,
+      "topic": "Quartalsendeberichtserstattungsfinanzkasper",
+      "fineSubject": "Reporting",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 828,
+      "endSec": 2452,
+      "durationSec": 1624,
+      "topic": "Microsoft und seine Produkte Bashing",
+      "fineSubject": "Microsoft",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2452,
+      "endSec": 3666,
+      "durationSec": 1214,
+      "topic": "Dokumentenscanning",
+      "fineSubject": "Document Scanning",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 3666,
+      "endSec": 4497,
+      "durationSec": 831,
+      "topic": "Java",
+      "fineSubject": "Java",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5228,
+      "endSec": 6801,
+      "durationSec": 1573,
+      "topic": "Netzwerktechnik",
+      "fineSubject": "Technology",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10085,
+      "endSec": 12271,
+      "durationSec": 2186,
+      "topic": "Professional Macs (MacPro)",
+      "fineSubject": "Macs",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12271,
+      "endSec": 12921,
+      "durationSec": 650,
+      "topic": "Apple Quarterly Results",
+      "fineSubject": "Apple Results",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 12921,
+      "endSec": 14384,
+      "durationSec": 1463,
+      "topic": "Softwareempfehlungen",
+      "fineSubject": "Recommendations",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 14384,
+      "endSec": 15548,
+      "durationSec": 1164,
+      "topic": "Ubuntu Phone",
+      "fineSubject": "Mobile OS",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 15548,
+      "endSec": 17757,
+      "durationSec": 2209,
+      "topic": "Appstore Politik und Richtlinien",
+      "fineSubject": "App Store Policies",
+      "topicIndex": 12
+    }
+  ]
+}

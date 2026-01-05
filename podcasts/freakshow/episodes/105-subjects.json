@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 105,
+  "title": "MM105 Featuritis Ante Portas",
+  "generatedAt": "2026-01-05T15:17:51.071Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.0677584810582201,
+      "Software": 0.4543327634302169,
+      "Hardware": 0.3486007378745613,
+      "Finance": 0.1293080176370017,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 753,
+      "Software": 5049,
+      "Hardware": 3874,
+      "Finance": 1437,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 5,
+      "Hardware": 4,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11113,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 667,
+      "endSec": 980,
+      "durationSec": 313,
+      "topic": "Erlang Factory Lite Recap",
+      "fineSubject": "Erlang",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 981,
+      "endSec": 2134,
+      "durationSec": 1153,
+      "topic": "iCloud Core Data Desaster und Syncing",
+      "fineSubject": "iCloud",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 2134,
+      "endSec": 4355,
+      "durationSec": 2221,
+      "topic": "OS X Future",
+      "fineSubject": "OS X",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4356,
+      "endSec": 4542,
+      "durationSec": 186,
+      "topic": "SSD und Thunderbolt",
+      "fineSubject": "SSD",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4542,
+      "endSec": 5650,
+      "durationSec": 1108,
+      "topic": "Drucker",
+      "fineSubject": "Drucker",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5650,
+      "endSec": 6910,
+      "durationSec": 1260,
+      "topic": "Document Scanner",
+      "fineSubject": "Scanner",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6911,
+      "endSec": 8231,
+      "durationSec": 1320,
+      "topic": "Festplatten und Dateisysteme",
+      "fineSubject": "Festplatten",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 8231,
+      "endSec": 8577,
+      "durationSec": 346,
+      "topic": "iStat Menus und SMC",
+      "fineSubject": "System Monitoring",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8578,
+      "endSec": 10015,
+      "durationSec": 1437,
+      "topic": "Bitcoins",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10015,
+      "endSec": 10430,
+      "durationSec": 415,
+      "topic": "SixXS und VPN-Provider-Privacy",
+      "fineSubject": "VPN",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10431,
+      "endSec": 10769,
+      "durationSec": 338,
+      "topic": "VPN unter iOS 6.1",
+      "fineSubject": "VPN",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 10895,
+      "endSec": 11911,
+      "durationSec": 1016,
+      "topic": "Twitter Clients und UI Fails",
+      "fineSubject": "Social Media",
+      "topicIndex": 12
+    }
+  ]
+}

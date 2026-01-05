@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 376,
+  "title": "LNP376 Elektionsstörungen",
+  "generatedAt": "2026-01-05T15:17:57.625Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.24214659685863874,
+      "Technology": 0.03197456993268512,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.41492146596858637,
+      "Health": 0.02580403889304413,
+      "Feedback": 0.13294689603590126,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.15220643231114436,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1295,
+      "Technology": 171,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2219,
+      "Health": 138,
+      "Feedback": 711,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 814,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2,
+      "Health": 1,
+      "Feedback": 2,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5348,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 139,
+      "endSec": 658,
+      "durationSec": 519,
+      "topic": "Feedback: Singapur",
+      "fineSubject": "Singapur",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 659,
+      "endSec": 851,
+      "durationSec": 192,
+      "topic": "Feedback: Social Media Werbetransparenz",
+      "fineSubject": "Social Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 852,
+      "endSec": 2147,
+      "durationSec": 1295,
+      "topic": "USA: Sturm auf das Capitol",
+      "fineSubject": "USA",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2148,
+      "endSec": 3130,
+      "durationSec": 982,
+      "topic": "Twitter sperrt Trump",
+      "fineSubject": "Twitter",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3130,
+      "endSec": 4367,
+      "durationSec": 1237,
+      "topic": "Parler wird zerlegt",
+      "fineSubject": "Parler",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4367,
+      "endSec": 5181,
+      "durationSec": 814,
+      "topic": "Änderung der WhatsApp Datenschutzbedingungen",
+      "fineSubject": "WhatsApp",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5182,
+      "endSec": 5320,
+      "durationSec": 138,
+      "topic": "Corona-Warn-App Status Quo",
+      "fineSubject": "Corona-Warn-App",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5676,
+      "endSec": 5847,
+      "durationSec": 171,
+      "topic": "Alexa als Zeugin",
+      "fineSubject": "Alexa",
+      "topicIndex": 8
+    }
+  ]
+}

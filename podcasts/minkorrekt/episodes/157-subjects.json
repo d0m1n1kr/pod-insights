@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 157,
+  "title": "Minkorrekt Folge 157 \"Immer Verachtung\"",
+  "generatedAt": "2026-01-05T15:18:17.368Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0.5,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 2,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "CO2 Rechner",
+      "fineSubject": "Klimawandel",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Katzenmimik",
+      "fineSubject": "Katzenverhalten",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Eis",
+      "fineSubject": "Wetterphänomene",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Abstände im Sonnensystem",
+      "fineSubject": "Sonnensystem",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

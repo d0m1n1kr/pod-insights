@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 189,
+  "title": "LNP189 Putsch Notification",
+  "generatedAt": "2026-01-05T15:17:57.598Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.20263716277659896,
+      "Technology": 0,
+      "Law": 0.08942103667778115,
+      "Security": 0.6547438617762958,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.053197938769324035,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1337,
+      "Technology": 0,
+      "Law": 590,
+      "Security": 4320,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 351,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6598,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 162,
+      "endSec": 262,
+      "durationSec": 100,
+      "topic": "Feedback Tesla",
+      "fineSubject": "Tesla",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 263,
+      "endSec": 347,
+      "durationSec": 84,
+      "topic": "Feedback Sofortüberweisung",
+      "fineSubject": "Sofortüberweisung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 347,
+      "endSec": 514,
+      "durationSec": 167,
+      "topic": "Feedback Terrorpropaganda",
+      "fineSubject": "Terrorpropaganda",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 514,
+      "endSec": 1876,
+      "durationSec": 1362,
+      "topic": "Terrorteil",
+      "fineSubject": "Terrorteil",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 1876,
+      "endSec": 4110,
+      "durationSec": 2234,
+      "topic": "Darknet",
+      "fineSubject": "Allgemein",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 4111,
+      "endSec": 4443,
+      "durationSec": 332,
+      "topic": "BEREC-Konsultation beendet",
+      "fineSubject": "BEREC",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4443,
+      "endSec": 5780,
+      "durationSec": 1337,
+      "topic": "Putsch in der Türkei und AKP-Leak",
+      "fineSubject": "Türkei",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 6170,
+      "endSec": 6894,
+      "durationSec": 724,
+      "topic": "Snowdens trügerische Smartphone-Sicherheit",
+      "fineSubject": "Smartphone",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 6895,
+      "endSec": 7094,
+      "durationSec": 199,
+      "topic": "Domke vs. Opel",
+      "fineSubject": "Domke vs. Opel",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 7095,
+      "endSec": 7154,
+      "durationSec": 59,
+      "topic": "Neue Störerhaftung in Kraft",
+      "fineSubject": "Störerhaftung",
+      "topicIndex": 10
+    }
+  ]
+}

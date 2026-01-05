@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 524,
+  "title": "LNP524 Die besten Datenkraken haben keine Logs",
+  "generatedAt": "2026-01-05T15:17:57.645Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.35130616509926854,
+      "Technology": 0.6486938349007314,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1681,
+      "Technology": 3104,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 5,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4785,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 149,
+      "endSec": 548,
+      "durationSec": 399,
+      "topic": "Feedback: Papstwahl",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 549,
+      "endSec": 972,
+      "durationSec": 423,
+      "topic": "Feedback: AI Vorherrschaft",
+      "fineSubject": "AI",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 972,
+      "endSec": 1533,
+      "durationSec": 561,
+      "topic": "Feedback: Nahostkonflikt",
+      "fineSubject": "Conflicts",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1534,
+      "endSec": 1993,
+      "durationSec": 459,
+      "topic": "Veröffentlichung des AfD-Gutachten",
+      "fineSubject": "Reports",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1993,
+      "endSec": 2727,
+      "durationSec": 734,
+      "topic": "Meta AI Training",
+      "fineSubject": "AI",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2728,
+      "endSec": 3395,
+      "durationSec": 667,
+      "topic": "AI: ChatGPT muss sich alles merken",
+      "fineSubject": "AI",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3395,
+      "endSec": 3776,
+      "durationSec": 381,
+      "topic": "AI: Autoren nutzen LLMs",
+      "fineSubject": "AI",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3776,
+      "endSec": 4675,
+      "durationSec": 899,
+      "topic": "Claude 4 Security Assessment",
+      "fineSubject": "Security",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4675,
+      "endSec": 4937,
+      "durationSec": 262,
+      "topic": "Zentrum für Digitalrechte und Demokratie",
+      "fineSubject": "Digital Rights",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 87,
+  "title": "UKW087 Corona Weekly: Goldene Triade",
+  "generatedAt": "2026-01-05T15:18:03.021Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.5755955730632152,
+      "Politics": 0.4105233539673607,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0.013881072969424124,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 6137,
+      "Politics": 4377,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 148,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 7,
+      "Politics": 2,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 10662,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 212,
+      "endSec": 1142,
+      "durationSec": 930,
+      "topic": "Karl Lauterbach",
+      "fineSubject": "Health Policy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1142,
+      "endSec": 1804,
+      "durationSec": 662,
+      "topic": "Inzidenzen in Deutschland",
+      "fineSubject": "Statistics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1804,
+      "endSec": 1897,
+      "durationSec": 93,
+      "topic": "Tests und Positivquote",
+      "fineSubject": "Testing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1897,
+      "endSec": 2105,
+      "durationSec": 208,
+      "topic": "Hospitalisierungen",
+      "fineSubject": "Hospitalization",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2105,
+      "endSec": 2433,
+      "durationSec": 328,
+      "topic": "Impfkampagne in Deutschland",
+      "fineSubject": "Vaccination Campaign",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2434,
+      "endSec": 3703,
+      "durationSec": 1269,
+      "topic": "Boosterimpfungen",
+      "fineSubject": "Booster Shots",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3704,
+      "endSec": 7151,
+      "durationSec": 3447,
+      "topic": "Impfpflicht",
+      "fineSubject": "Mandates",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 7152,
+      "endSec": 10439,
+      "durationSec": 3287,
+      "topic": "Omikron",
+      "fineSubject": "Variants",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 10439,
+      "endSec": 10729,
+      "durationSec": 290,
+      "topic": "Masken helfen",
+      "fineSubject": "Preventive Measures",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 10964,
+      "endSec": 11112,
+      "durationSec": 148,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 9
+    }
+  ]
+}

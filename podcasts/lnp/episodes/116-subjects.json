@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 116,
+  "title": "LNP116 Initialen reichen ja wohl",
+  "generatedAt": "2026-01-05T15:17:57.590Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4146,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4146,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 332,
+      "endSec": 1140,
+      "durationSec": 808,
+      "topic": "Uber-Verbot bestätigt in Berlin und Hamburg",
+      "fineSubject": "Regulation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1140,
+      "endSec": 1737,
+      "durationSec": 597,
+      "topic": "R.U. im NSAUA, leider ohne Aussagegenehmigung",
+      "fineSubject": "Intelligence",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1738,
+      "endSec": 2420,
+      "durationSec": 682,
+      "topic": "Opposition will Snowden-Vernehmung erklagen",
+      "fineSubject": "Legal",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2420,
+      "endSec": 4479,
+      "durationSec": 2059,
+      "topic": "Piratenpartei",
+      "fineSubject": "Political Parties",
+      "topicIndex": 3
+    }
+  ]
+}

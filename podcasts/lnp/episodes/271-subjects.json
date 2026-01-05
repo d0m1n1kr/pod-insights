@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 271,
+  "title": "LNP271 Angela muss verhungern",
+  "generatedAt": "2026-01-05T15:17:57.610Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.31786850477200423,
+      "Technology": 0.08669141039236479,
+      "Law": 0.021208907741251327,
+      "Security": 0.5742311770943797,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1199,
+      "Technology": 327,
+      "Law": 80,
+      "Security": 2166,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 4,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3772,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 219,
+      "endSec": 399,
+      "durationSec": 180,
+      "topic": "Tory App scheißt auf die DSGVO",
+      "fineSubject": "Data Protection",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 400,
+      "endSec": 1158,
+      "durationSec": 758,
+      "topic": "Brexit Update",
+      "fineSubject": "Brexit",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1159,
+      "endSec": 2635,
+      "durationSec": 1476,
+      "topic": "BSI Lagebericht: Deutschlands Cyber-Sheriff schlägt Alarm",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2635,
+      "endSec": 3144,
+      "durationSec": 509,
+      "topic": "Bloomberg: China Supermicro Hardware Hack",
+      "fineSubject": "Hardware Security",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3145,
+      "endSec": 3472,
+      "durationSec": 327,
+      "topic": "Amazon schaltet Recruiting-AI ab",
+      "fineSubject": "AI",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3472,
+      "endSec": 3733,
+      "durationSec": 261,
+      "topic": "AfD hat viel Geld und Zeit, Anträge zu schreiben",
+      "fineSubject": "Political Funding",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3733,
+      "endSec": 3813,
+      "durationSec": 80,
+      "topic": "DE-CIX zieht vor das Bundesverfassungsgericht",
+      "fineSubject": "Constitutional Court",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3814,
+      "endSec": 3901,
+      "durationSec": 87,
+      "topic": "FBI erzwingt Face-ID Unlock",
+      "fineSubject": "Biometrics",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 3902,
+      "endSec": 3996,
+      "durationSec": 94,
+      "topic": "Geheimdienstagent verkauft Daten",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 349,
+  "title": "LNP349 Mit Vollidioten ist schwierig",
+  "generatedAt": "2026-01-05T15:17:57.620Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.2493530217689146,
+      "Law": 0.048561424874410106,
+      "Security": 0.06195768001217841,
+      "Social": 0.3683970162886284,
+      "Media": 0.007915968945044908,
+      "Health": 0,
+      "Feedback": 0.12650327294869843,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.13731161516212514,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1638,
+      "Law": 319,
+      "Security": 407,
+      "Social": 2420,
+      "Media": 52,
+      "Health": 0,
+      "Feedback": 831,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 902,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 3,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 6569,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 173,
+      "endSec": 1118,
+      "durationSec": 945,
+      "topic": "Rassismus und Polizeigewalt",
+      "fineSubject": "Rassismus",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1119,
+      "endSec": 1349,
+      "durationSec": 230,
+      "topic": "Feedback: Schwarz",
+      "fineSubject": "Schwarz",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1349,
+      "endSec": 1571,
+      "durationSec": 222,
+      "topic": "Feedback: Korrektur von Walulis",
+      "fineSubject": "Korrektur",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1572,
+      "endSec": 1624,
+      "durationSec": 52,
+      "topic": "Kein Feedback: Jan Fleischhauer",
+      "fineSubject": "Jan Fleischhauer",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1625,
+      "endSec": 2004,
+      "durationSec": 379,
+      "topic": "Feedback: Alexander Kekulé",
+      "fineSubject": "Alexander Kekulé",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2004,
+      "endSec": 3642,
+      "durationSec": 1638,
+      "topic": "Corona Warn App",
+      "fineSubject": "Corona Warn App",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3642,
+      "endSec": 4049,
+      "durationSec": 407,
+      "topic": "Staatstrojaner für Verfassungsschutz",
+      "fineSubject": "Staatstrojaner",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 4050,
+      "endSec": 5293,
+      "durationSec": 1243,
+      "topic": "Wirksamkeit von Gegenrede im Netz",
+      "fineSubject": "Gegenrede",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 5293,
+      "endSec": 5525,
+      "durationSec": 232,
+      "topic": "Nemsdorf-Göhrendorf will im Funkloch bleiben",
+      "fineSubject": "Funkloch",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5525,
+      "endSec": 6427,
+      "durationSec": 902,
+      "topic": "Passfotos",
+      "fineSubject": "Passfotos",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 6427,
+      "endSec": 6746,
+      "durationSec": 319,
+      "topic": "Vorratsdatenspeicherung für Minister",
+      "fineSubject": "Vorratsdatenspeicherung",
+      "topicIndex": 10
+    }
+  ]
+}

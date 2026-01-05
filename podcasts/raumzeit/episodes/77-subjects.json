@@ -1,0 +1,109 @@
+{
+  "episodeNumber": 77,
+  "title": "RZ077 Pflanzen im Weltraum",
+  "generatedAt": "2026-01-05T15:18:06.284Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.15437910818973175,
+      "Astronomie": 0,
+      "Wissenschaft": 0.4329365784331142,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0.2551074791259549,
+      "Forschung": 0,
+      "Biologie": 0.15757683425119914,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 869,
+      "Astronomie": 0,
+      "Wissenschaft": 2437,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 1436,
+      "Forschung": 0,
+      "Biologie": 887,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 2,
+      "Astronomie": 0,
+      "Wissenschaft": 2,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 1,
+      "Forschung": 0,
+      "Biologie": 1,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 5629,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": 15,
+      "endSec": 884,
+      "durationSec": 869,
+      "topic": "Klimasteuerung in der Raumfahrt",
+      "fineSubject": "Klimasteuerung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 15,
+      "endSec": 1036,
+      "durationSec": 1021,
+      "topic": "Nutzung von Pflanzen zur Luftreinigun",
+      "fineSubject": "Luftreinigung",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 97,
+      "endSec": 984,
+      "durationSec": 887,
+      "topic": "Biologische Systeme zur Ernährung",
+      "fineSubject": "Ernährung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Physik",
+      "startSec": 97,
+      "endSec": 1533,
+      "durationSec": 1436,
+      "topic": "Abhängigkeit von Atmosphäre, Licht und Gravitation",
+      "fineSubject": "Gravitation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 1132,
+      "endSec": 2548,
+      "durationSec": 1416,
+      "topic": "Biokreisläufe in der Antarktis",
+      "fineSubject": "Biokreisläufe",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Herausforderungen bei der Nahrungsmittelzucht",
+      "fineSubject": "Nahrungsmittelzucht",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

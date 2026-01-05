@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 275,
+  "title": "LNP275 Früher war auch scheiße",
+  "generatedAt": "2026-01-05T15:17:57.610Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3855885588558856,
+      "Technology": 0,
+      "Law": 0.3272827282728273,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.22634763476347636,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.06078107810781078
+    },
+    "durations": {
+      "Politics": 1402,
+      "Technology": 0,
+      "Law": 1190,
+      "Security": 0,
+      "Social": 0,
+      "Media": 823,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 221
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 3636,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 828,
+      "endSec": 1377,
+      "durationSec": 549,
+      "topic": "Maaßen",
+      "fineSubject": "Maaßen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1378,
+      "endSec": 2201,
+      "durationSec": 823,
+      "topic": "Vivy versucht, Berichterstattung zu “korrigieren”",
+      "fineSubject": "Vivy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2202,
+      "endSec": 2822,
+      "durationSec": 620,
+      "topic": "Hessenwahl-Panne",
+      "fineSubject": "Hessenwahl",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4996,
+      "endSec": 5229,
+      "durationSec": 233,
+      "topic": "AFD lässt sich ihre Verfassungsfeindlichkeit bescheinigen",
+      "fineSubject": "AFD",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 5229,
+      "endSec": 6419,
+      "durationSec": 1190,
+      "topic": "Der Fall Acosta",
+      "fineSubject": "Acosta",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6420,
+      "endSec": 6641,
+      "durationSec": 221,
+      "topic": "All Creatures Welcome",
+      "fineSubject": "All Creatures Welcome",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 374,
+  "title": "LNP374 Ein alter weißer Mann ist passiert",
+  "generatedAt": "2026-01-05T15:17:57.625Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.6934608425949857,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.3065391574050142,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2683,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1186,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3869,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 729,
+      "endSec": 1915,
+      "durationSec": 1186,
+      "topic": "Zero Covid in Taiwan",
+      "fineSubject": "Covid",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1916,
+      "endSec": 4599,
+      "durationSec": 2683,
+      "topic": "(Digitale) Maßnahmen",
+      "fineSubject": "Digital Measures",
+      "topicIndex": 2
+    }
+  ]
+}

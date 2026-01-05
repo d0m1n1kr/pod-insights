@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 43,
+  "title": "UKW043 Corona Weekly: Die Dunkelziffer bleibt im Dunkeln",
+  "generatedAt": "2026-01-05T15:18:03.008Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5930,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 11,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5930,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 154,
+      "endSec": 857,
+      "durationSec": 703,
+      "topic": "Tim hat einen PCR-Test gemacht",
+      "fineSubject": "Testing",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 858,
+      "endSec": 1924,
+      "durationSec": 1066,
+      "topic": "Zahlen in Deutschland",
+      "fineSubject": "Statistics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1924,
+      "endSec": 2062,
+      "durationSec": 138,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "Regional Analysis",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2062,
+      "endSec": 2266,
+      "durationSec": 204,
+      "topic": "Situation in Berlin",
+      "fineSubject": "Regional Analysis",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2267,
+      "endSec": 3019,
+      "durationSec": 752,
+      "topic": "Internationale Situation",
+      "fineSubject": "Global Situation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3019,
+      "endSec": 3500,
+      "durationSec": 481,
+      "topic": "Dunkelziffer-Studien",
+      "fineSubject": "Research",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3501,
+      "endSec": 4983,
+      "durationSec": 1482,
+      "topic": "Drostens Vortrag in Meppen",
+      "fineSubject": "Public Speaking",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4984,
+      "endSec": 5115,
+      "durationSec": 131,
+      "topic": "Testcenter am BER",
+      "fineSubject": "Testing Facilities",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5115,
+      "endSec": 5528,
+      "durationSec": 413,
+      "topic": "Long Covid",
+      "fineSubject": "Long-term Effects",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5529,
+      "endSec": 5890,
+      "durationSec": 361,
+      "topic": "Anekdotisches aus Tschechisches",
+      "fineSubject": "Anecdotes",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 6077,
+      "endSec": 6276,
+      "durationSec": 199,
+      "topic": "Bonus Track",
+      "fineSubject": "Additional Content",
+      "topicIndex": 10
+    }
+  ]
+}

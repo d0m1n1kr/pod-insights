@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 294,
+  "title": "FS294 Gleiche Mutter, ähnliches Problem",
+  "generatedAt": "2026-01-05T15:17:51.121Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6228524115090044,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.06799834402815153,
+      "Social": 0,
+      "Culture": 0.203477540881805,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.10567170358103913,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6018,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 657,
+      "Social": 0,
+      "Culture": 1966,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1021,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 10,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 4,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 2,
+      "Event": 0
+    },
+    "totalDurationSec": 9662,
+    "totalTopics": 39
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 207,
+      "endSec": 959,
+      "durationSec": 752,
+      "topic": "AI-Musik und das Leben der Kreativen",
+      "fineSubject": "Creative Arts",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 959,
+      "endSec": 1107,
+      "durationSec": 148,
+      "topic": "Feedback: KI-Spam",
+      "fineSubject": "AI",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1108,
+      "endSec": 1236,
+      "durationSec": 128,
+      "topic": "Feedback: Pussytelefon",
+      "fineSubject": "Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 1800,
+      "endSec": 2266,
+      "durationSec": 466,
+      "topic": "Mario Kart Switch 2",
+      "fineSubject": "Consoles",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 2267,
+      "endSec": 2822,
+      "durationSec": 555,
+      "topic": "Nintendo",
+      "fineSubject": "Companies",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2822,
+      "endSec": 3337,
+      "durationSec": 515,
+      "topic": "Neuer Amp",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3338,
+      "endSec": 4392,
+      "durationSec": 1054,
+      "topic": "Endoskopkamera",
+      "fineSubject": "Cameras",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4393,
+      "endSec": 4516,
+      "durationSec": 123,
+      "topic": "Heißluftpistole",
+      "fineSubject": "Tools",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4516,
+      "endSec": 5581,
+      "durationSec": 1065,
+      "topic": "USB-C Transition",
+      "fineSubject": "Connectivity",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5581,
+      "endSec": 5930,
+      "durationSec": 349,
+      "topic": "Insta360 x5",
+      "fineSubject": "Cameras",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 5931,
+      "endSec": 6588,
+      "durationSec": 657,
+      "topic": "360-Grad Content",
+      "fineSubject": "Content Creation",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6588,
+      "endSec": 7335,
+      "durationSec": 747,
+      "topic": "Glasfaseranschlüsse",
+      "fineSubject": "Internet",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7794,
+      "endSec": 8213,
+      "durationSec": 419,
+      "topic": "Klingelverstärker",
+      "fineSubject": "Home Devices",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8214,
+      "endSec": 8912,
+      "durationSec": 698,
+      "topic": "Umzugsprobleme Mac Studio M4",
+      "fineSubject": "Computers",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8913,
+      "endSec": 9813,
+      "durationSec": 900,
+      "topic": "Audio-Transkription",
+      "fineSubject": "Software",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9813,
+      "endSec": 10502,
+      "durationSec": 689,
+      "topic": "Feedback zu Tier Lists",
+      "fineSubject": "Media",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Culture",
+      "startSec": 10746,
+      "endSec": 11143,
+      "durationSec": 397,
+      "topic": "Tier List Kriterien",
+      "fineSubject": "Media",
+      "topicIndex": 19
+    }
+  ]
+}

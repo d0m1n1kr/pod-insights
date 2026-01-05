@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 208,
+  "title": "FS208 Ich zahl alles",
+  "generatedAt": "2026-01-05T15:17:51.093Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.20234912920210613,
+      "Software": 0.12328878088294856,
+      "Hardware": 0.3350344268934791,
+      "Finance": 0.05694613203726205,
+      "Media": 0.10595382746051032,
+      "Social": 0,
+      "Culture": 0.16111786148238152,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.015309842041312272,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2498,
+      "Software": 1522,
+      "Hardware": 4136,
+      "Finance": 703,
+      "Media": 1308,
+      "Social": 0,
+      "Culture": 1989,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 189,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 2,
+      "Hardware": 3,
+      "Finance": 2,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 12345,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 85,
+      "endSec": 2074,
+      "durationSec": 1989,
+      "topic": "Ostgeschichten",
+      "fineSubject": "History",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 2074,
+      "endSec": 3382,
+      "durationSec": 1308,
+      "topic": "Raumzeit Live",
+      "fineSubject": "Live Events",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 3383,
+      "endSec": 4334,
+      "durationSec": 951,
+      "topic": "Software für Planetarien",
+      "fineSubject": "Planetarium Software",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 4335,
+      "endSec": 4524,
+      "durationSec": 189,
+      "topic": "Trüberbrook",
+      "fineSubject": "Adventure Games",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7653,
+      "endSec": 9258,
+      "durationSec": 1605,
+      "topic": "Schnelles Internet in Singapur und in der Metaebene",
+      "fineSubject": "Connectivity",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 9259,
+      "endSec": 9830,
+      "durationSec": 571,
+      "topic": "ZFS: Root on Linux und Crypto für Mac",
+      "fineSubject": "File Systems",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9830,
+      "endSec": 12499,
+      "durationSec": 2669,
+      "topic": "iPhone X",
+      "fineSubject": "Smartphones",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12500,
+      "endSec": 13494,
+      "durationSec": 994,
+      "topic": "ARM-Zukunft in Macs",
+      "fineSubject": "Computers",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13494,
+      "endSec": 13893,
+      "durationSec": 399,
+      "topic": "Quad9 DNS",
+      "fineSubject": "DNS Services",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Finance",
+      "startSec": 13894,
+      "endSec": 14502,
+      "durationSec": 608,
+      "topic": "Bitcoin",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14502,
+      "endSec": 14996,
+      "durationSec": 494,
+      "topic": "Komplexität von Blockchain und AI",
+      "fineSubject": "Blockchain",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Finance",
+      "startSec": 14997,
+      "endSec": 15092,
+      "durationSec": 95,
+      "topic": "Trezor 2",
+      "fineSubject": "Cryptocurrency Hardware",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 15092,
+      "endSec": 15565,
+      "durationSec": 473,
+      "topic": "External GPU",
+      "fineSubject": "Graphics",
+      "topicIndex": 16
+    }
+  ]
+}

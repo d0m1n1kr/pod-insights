@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 438,
+  "title": "LNP438 Ich muss mich da rankartoffeln",
+  "generatedAt": "2026-01-05T15:17:57.634Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.11900369003690037,
+      "Technology": 0.628690036900369,
+      "Law": 0,
+      "Security": 0.15059963099630996,
+      "Social": 0,
+      "Media": 0.08071955719557196,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.02098708487084871,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 516,
+      "Technology": 2726,
+      "Law": 0,
+      "Security": 653,
+      "Social": 0,
+      "Media": 350,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 91,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 3,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4336,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 62,
+      "endSec": 153,
+      "durationSec": 91,
+      "topic": "Feedback: 9-Euro-Fonds",
+      "fineSubject": "Public Funding",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 154,
+      "endSec": 1025,
+      "durationSec": 871,
+      "topic": "Feedback: Online-Ident",
+      "fineSubject": "Online Identity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1145,
+      "endSec": 1730,
+      "durationSec": 585,
+      "topic": "Linus experimentiert mit AI",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1731,
+      "endSec": 2247,
+      "durationSec": 516,
+      "topic": "Faeser will VDS",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2247,
+      "endSec": 2375,
+      "durationSec": 128,
+      "topic": "Cyberwar gegen Moskauer Taxis",
+      "fineSubject": "Cyberwarfare",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2376,
+      "endSec": 2769,
+      "durationSec": 393,
+      "topic": "Cyberwar: Fake Profile für russische Soldaten",
+      "fineSubject": "Disinformation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 2770,
+      "endSec": 2902,
+      "durationSec": 132,
+      "topic": "Cyberwar: China empört über Hacking",
+      "fineSubject": "Hacking",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 2903,
+      "endSec": 3253,
+      "durationSec": 350,
+      "topic": "Desinformationskampagne mit SZ-Videos",
+      "fineSubject": "Disinformation Campaigns",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3253,
+      "endSec": 4523,
+      "durationSec": 1270,
+      "topic": "Ether Merge",
+      "fineSubject": "Blockchain",
+      "topicIndex": 9
+    }
+  ]
+}

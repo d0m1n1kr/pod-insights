@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 245,
+  "title": "LNP245 Die Schmusi-Schnittstelle",
+  "generatedAt": "2026-01-05T15:17:57.606Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4372384937238494,
+      "Technology": 0.1192468619246862,
+      "Law": 0,
+      "Security": 0.16288105200239092,
+      "Social": 0.214584578601315,
+      "Media": 0.06604901374775851,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2926,
+      "Technology": 798,
+      "Law": 0,
+      "Security": 1090,
+      "Social": 1436,
+      "Media": 442,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 2,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6692,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 925,
+      "endSec": 1958,
+      "durationSec": 1033,
+      "topic": "miomiogate",
+      "fineSubject": "Scandals",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1959,
+      "endSec": 2432,
+      "durationSec": 473,
+      "topic": "FinSpy wird deutscher Staatstrojaner",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2432,
+      "endSec": 3142,
+      "durationSec": 710,
+      "topic": "Wir sind AfD",
+      "fineSubject": "Parties",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3143,
+      "endSec": 3799,
+      "durationSec": 656,
+      "topic": "USA klagt russische Trolls an",
+      "fineSubject": "International Relations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3800,
+      "endSec": 5076,
+      "durationSec": 1276,
+      "topic": "Das Problem heißt Social Media als Geschäftsmodell",
+      "fineSubject": "Business Models",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5076,
+      "endSec": 5603,
+      "durationSec": 527,
+      "topic": "Deutsche Trolls: Reconquista Germanica",
+      "fineSubject": "Trolls",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5603,
+      "endSec": 6401,
+      "durationSec": 798,
+      "topic": "OpenSCHUFA",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 6401,
+      "endSec": 7018,
+      "durationSec": 617,
+      "topic": "Malware gegen Raubkopierer",
+      "fineSubject": "Malware",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 7958,
+      "endSec": 8400,
+      "durationSec": 442,
+      "topic": "Vodafone sperrt kinox.to",
+      "fineSubject": "Censorship",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 8400,
+      "endSec": 8560,
+      "durationSec": 160,
+      "topic": "Klarnamenzwang bei Facebook bleibt illegal",
+      "fineSubject": "Privacy",
+      "topicIndex": 10
+    }
+  ]
+}

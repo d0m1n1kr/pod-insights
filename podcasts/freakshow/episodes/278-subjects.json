@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 278,
+  "title": "FS278 Quotenlinkshänder",
+  "generatedAt": "2026-01-05T15:17:51.118Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4694380834948036,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.4324467148141624,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.09811520169103399,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2665,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2455,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 557,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 5,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 5677,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 1509,
+      "endSec": 2066,
+      "durationSec": 557,
+      "topic": "Follow-Up: Fahrradklau",
+      "fineSubject": "Follow-Up",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9186,
+      "endSec": 11851,
+      "durationSec": 2665,
+      "topic": "Neue iPads",
+      "fineSubject": "iPads",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 11851,
+      "endSec": 12517,
+      "durationSec": 666,
+      "topic": "Serien für Nerds: 3 Body Problem",
+      "fineSubject": "Serien für Nerds",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 12518,
+      "endSec": 12913,
+      "durationSec": 395,
+      "topic": "Serien: Fallout",
+      "fineSubject": "Serien",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 12914,
+      "endSec": 13261,
+      "durationSec": 347,
+      "topic": "Serien: The Expanse",
+      "fineSubject": "Serien",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 13261,
+      "endSec": 13504,
+      "durationSec": 243,
+      "topic": "Serien: See",
+      "fineSubject": "Serien",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Media",
+      "startSec": 13504,
+      "endSec": 14308,
+      "durationSec": 804,
+      "topic": "Letzte Folgen und Serienangst",
+      "fineSubject": "Serien",
+      "topicIndex": 19
+    }
+  ]
+}

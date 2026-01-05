@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 418,
+  "title": "LNP418 Impulsgeber eines modernen Verwaltungsmanagements",
+  "generatedAt": "2026-01-05T15:17:57.630Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16141571194762683,
+      "Technology": 0.2203355155482815,
+      "Law": 0.20233224222585924,
+      "Security": 0.07242225859247135,
+      "Social": 0.15180032733224222,
+      "Media": 0,
+      "Health": 0.060556464811783964,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.13113747954173485,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 789,
+      "Technology": 1077,
+      "Law": 989,
+      "Security": 354,
+      "Social": 742,
+      "Media": 0,
+      "Health": 296,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 641,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4888,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 145,
+      "endSec": 887,
+      "durationSec": 742,
+      "topic": "I am a teapot",
+      "fineSubject": "Social Interaction",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 888,
+      "endSec": 1165,
+      "durationSec": 277,
+      "topic": "Feedback: Alles ist eins außer der 0",
+      "fineSubject": "Philosophy of Technology",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1165,
+      "endSec": 1461,
+      "durationSec": 296,
+      "topic": "Feedback: CovPassCheck",
+      "fineSubject": "Digital Health",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 1462,
+      "endSec": 2103,
+      "durationSec": 641,
+      "topic": "Luca holt das Business Modell aus dem Sack",
+      "fineSubject": "Business Models",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2103,
+      "endSec": 2892,
+      "durationSec": 789,
+      "topic": "Bundesservice Telekommunikation",
+      "fineSubject": "Telecommunication Services",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2893,
+      "endSec": 3882,
+      "durationSec": 989,
+      "topic": "ZPS Hausdurchsuchung",
+      "fineSubject": "Search and Seizure",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3882,
+      "endSec": 4236,
+      "durationSec": 354,
+      "topic": "REvil Verhaftung",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4237,
+      "endSec": 5037,
+      "durationSec": 800,
+      "topic": "youtube-dl",
+      "fineSubject": "Open Source Tools",
+      "topicIndex": 7
+    }
+  ]
+}

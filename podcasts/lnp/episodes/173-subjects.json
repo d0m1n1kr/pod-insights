@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 173,
+  "title": "LNP173 Rentable Sicherheit",
+  "generatedAt": "2026-01-05T15:17:57.596Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16888519134775373,
+      "Technology": 0.08469217970049916,
+      "Law": 0,
+      "Security": 0.746422628951747,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1015,
+      "Technology": 509,
+      "Law": 0,
+      "Security": 4486,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 4,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6010,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 150,
+      "endSec": 440,
+      "durationSec": 290,
+      "topic": "Erfolg für Frag den Bundestag",
+      "fineSubject": "Government",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 440,
+      "endSec": 949,
+      "durationSec": 509,
+      "topic": "Offene Router-Firmware",
+      "fineSubject": "Open Source",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 950,
+      "endSec": 1214,
+      "durationSec": 264,
+      "topic": "GCHQ-Hacker werden hacken",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1215,
+      "endSec": 3163,
+      "durationSec": 1948,
+      "topic": "Ransomware",
+      "fineSubject": "Ransomware",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3163,
+      "endSec": 5028,
+      "durationSec": 1865,
+      "topic": "Apple vs. FBI",
+      "fineSubject": "Law Enforcement",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 5029,
+      "endSec": 5438,
+      "durationSec": 409,
+      "topic": "NSA-UA: Erweiterung des Untersuchungsauftrages?",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5438,
+      "endSec": 6163,
+      "durationSec": 725,
+      "topic": "Neuer BSI-Chef",
+      "fineSubject": "Leadership",
+      "topicIndex": 6
+    }
+  ]
+}

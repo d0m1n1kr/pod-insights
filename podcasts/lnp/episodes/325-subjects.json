@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 325,
+  "title": "LNP325 Besser der Hund bellt einmal zu viel",
+  "generatedAt": "2026-01-05T15:17:57.617Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.01607232546459066,
+      "Technology": 0.10999497739829231,
+      "Law": 0,
+      "Security": 0.645906579608237,
+      "Social": 0.0233550979407333,
+      "Media": 0.029382219989954796,
+      "Health": 0.17528879959819185,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 64,
+      "Technology": 438,
+      "Law": 0,
+      "Security": 2572,
+      "Social": 93,
+      "Media": 117,
+      "Health": 698,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 1,
+      "Media": 1,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3982,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 245,
+      "endSec": 580,
+      "durationSec": 335,
+      "topic": "Feedback: BSI Truecrypt",
+      "fineSubject": "Encryption",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 580,
+      "endSec": 2817,
+      "durationSec": 2237,
+      "topic": "CCC analysiert Münchner Staatstrojaner FinSpy",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2818,
+      "endSec": 3516,
+      "durationSec": 698,
+      "topic": "gematik",
+      "fineSubject": "Digital Health",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3516,
+      "endSec": 3954,
+      "durationSec": 438,
+      "topic": "Gesichtserkennung",
+      "fineSubject": "Facial Recognition",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 3955,
+      "endSec": 4072,
+      "durationSec": 117,
+      "topic": "Surveillance Studies Journalistenpreis 2020",
+      "fineSubject": "Journalism Awards",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 5180,
+      "endSec": 5273,
+      "durationSec": 93,
+      "topic": "36C3: Geheimdienstliche Massenüberwachung vs. Menschenrechte",
+      "fineSubject": "Surveillance",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5901,
+      "endSec": 5965,
+      "durationSec": 64,
+      "topic": "edri Spendenkampagnee",
+      "fineSubject": "Fundraising",
+      "topicIndex": 17
+    }
+  ]
+}

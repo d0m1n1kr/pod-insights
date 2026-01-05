@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 213,
+  "title": "Mi213 – „Braco Cosplay“",
+  "generatedAt": "2026-01-05T15:18:17.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.4608695652173913,
+      "Culture": 0.4589894242068155,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.08014101057579319,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1961,
+      "Culture": 1953,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 341,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 5,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 2,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4255,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 167,
+      "endSec": 673,
+      "durationSec": 506,
+      "topic": "Coronapaper",
+      "fineSubject": "Health / Coronapaper",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 673,
+      "endSec": 867,
+      "durationSec": 194,
+      "topic": "Weleda Paper",
+      "fineSubject": "Health / Weleda",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 867,
+      "endSec": 1443,
+      "durationSec": 576,
+      "topic": "Zurückgezogene Paper",
+      "fineSubject": "Health / Withdrawn Papers",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Education",
+      "startSec": 1443,
+      "endSec": 1538,
+      "durationSec": 95,
+      "topic": "Klimaringvorlesung",
+      "fineSubject": "Environment / Climate",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1538,
+      "endSec": 2099,
+      "durationSec": 561,
+      "topic": "Barcamps",
+      "fineSubject": "Community / Collaboration",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2099,
+      "endSec": 3491,
+      "durationSec": 1392,
+      "topic": "Reini auf Tour",
+      "fineSubject": "Personal / Reini",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 6165,
+      "endSec": 6578,
+      "durationSec": 413,
+      "topic": "Experiment der Woche",
+      "fineSubject": "General / Experiment",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Education",
+      "startSec": 10354,
+      "endSec": 10600,
+      "durationSec": 246,
+      "topic": "Jennifer Religionsunterricht",
+      "fineSubject": "Religion / Jennifer",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Science",
+      "startSec": 10600,
+      "endSec": 10872,
+      "durationSec": 272,
+      "topic": "Sebastian Doomsday clock",
+      "fineSubject": "Future / Doomsday Clock",
+      "topicIndex": 15
+    }
+  ]
+}

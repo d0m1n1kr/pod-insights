@@ -1,0 +1,154 @@
+{
+  "episodeNumber": 91,
+  "title": "DU091 - Der Urknall war kein Fehler",
+  "generatedAt": "2026-01-05T15:18:22.103Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.9,
+      "Raumfahrt": 0.1,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 9,
+      "Raumfahrt": 1,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Doppelasteroiden",
+      "fineSubject": "Asteroiden",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Euclids erste Bilder",
+      "fineSubject": "Weltraumteleskope",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geistergalaxie und flauschige Materie",
+      "fineSubject": "Dunkle Materie",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beobachtungen des James-Webb-Teleskops",
+      "fineSubject": "Kosmologie",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bergbau auf dem Mond",
+      "fineSubject": "Rohstoffe",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zündung von Jupiter",
+      "fineSubject": "Planeten",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Olympus Mons",
+      "fineSubject": "Mars",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Doppelasteroid Dinkinesh",
+      "fineSubject": "Asteroiden",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Citizen Science Projekt Galaxy Cruise",
+      "fineSubject": "Bürgerwissenschaft",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fragen zur dunklen Materie",
+      "fineSubject": "Dunkle Materie",
+      "topicIndex": 10,
+      "untimed": true
+    }
+  ]
+}

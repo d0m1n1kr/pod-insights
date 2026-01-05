@@ -1,0 +1,92 @@
+{
+  "episodeNumber": 105,
+  "title": "RZ105 Neutronensterne 2",
+  "generatedAt": "2026-01-05T15:18:06.288Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0.5861042183622829,
+      "Wissenschaft": 0.4138957816377171,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 1181,
+      "Wissenschaft": 834,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 2,
+      "Wissenschaft": 2,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 2015,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": 14,
+      "endSec": 848,
+      "durationSec": 834,
+      "topic": "Theoretische Physik",
+      "fineSubject": "Theoretische Physik",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1610,
+      "endSec": 2791,
+      "durationSec": 1181,
+      "topic": "Neutronensterne",
+      "fineSubject": "Neutronensterne",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kilonova",
+      "fineSubject": "Kollision von Neutronenstern",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Forschungstechniken",
+      "fineSubject": "Forschungstechniken",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

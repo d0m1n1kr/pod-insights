@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 163,
+  "title": "LNP163 Die Teenage-Nerds von nebenan",
+  "generatedAt": "2026-01-05T15:17:57.595Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7643691867398045,
+      "Technology": 0.030288576198425947,
+      "Law": 0.1323634629143811,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.0729787741473885,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3205,
+      "Technology": 127,
+      "Law": 555,
+      "Security": 0,
+      "Social": 0,
+      "Media": 306,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4193,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 246,
+      "endSec": 373,
+      "durationSec": 127,
+      "topic": "Feedback: Smart Homes",
+      "fineSubject": "Smart Homes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 374,
+      "endSec": 914,
+      "durationSec": 540,
+      "topic": "EU: Flugdaten-Vorratsdatenspeicherung",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 914,
+      "endSec": 1181,
+      "durationSec": 267,
+      "topic": "Werbeblocker vor Gericht",
+      "fineSubject": "Advertising",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1182,
+      "endSec": 3499,
+      "durationSec": 2317,
+      "topic": "Heiko Maas präsentiert unsere digitalen Grundrechte",
+      "fineSubject": "Digital Rights",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3499,
+      "endSec": 3787,
+      "durationSec": 288,
+      "topic": "Störerhaftung vor dem EuGH",
+      "fineSubject": "Liability",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3788,
+      "endSec": 4136,
+      "durationSec": 348,
+      "topic": "EU: Urheberrechtsreform",
+      "fineSubject": "Copyright",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 5332,
+      "endSec": 5638,
+      "durationSec": 306,
+      "topic": "ZDF stellt Lobbyradar ein",
+      "fineSubject": "Lobbying",
+      "topicIndex": 7
+    }
+  ]
+}

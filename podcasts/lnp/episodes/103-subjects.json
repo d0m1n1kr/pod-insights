@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 103,
+  "title": "LNP103 Tanz um die heiße Kartoffel",
+  "generatedAt": "2026-01-05T15:17:57.589Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2416,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2416,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1067,
+      "endSec": 2117,
+      "durationSec": 1050,
+      "topic": "Deutschland und die NSA",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2118,
+      "endSec": 2470,
+      "durationSec": 352,
+      "topic": "Exportverbot von Spähsoftware",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2470,
+      "endSec": 3484,
+      "durationSec": 1014,
+      "topic": "USA und die NSA",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    }
+  ]
+}

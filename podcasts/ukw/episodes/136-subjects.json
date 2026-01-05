@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 136,
+  "title": "UKW136 USA: Good enough for the moment",
+  "generatedAt": "2026-01-05T15:18:03.035Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.20524861878453038,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.5209944751381216,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.10787292817679558,
+      "Travel": 0.017679558011049725,
+      "Social": 0,
+      "Economy": 0.14820441988950275,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 1486,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 3772,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 781,
+      "Travel": 128,
+      "Social": 0,
+      "Economy": 1073,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 1,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 5,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 3,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7240,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Travel",
+      "startSec": 2293,
+      "endSec": 2421,
+      "durationSec": 128,
+      "topic": "Einreise",
+      "fineSubject": "Entry",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2422,
+      "endSec": 2859,
+      "durationSec": 437,
+      "topic": "Verkehr: LKW",
+      "fineSubject": "Trucks",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2860,
+      "endSec": 3337,
+      "durationSec": 477,
+      "topic": "Verkehr: Kontrollen",
+      "fineSubject": "Controls",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3337,
+      "endSec": 4591,
+      "durationSec": 1254,
+      "topic": "Verkehr: Straßennetz",
+      "fineSubject": "Road Network",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Economy",
+      "startSec": 4591,
+      "endSec": 4810,
+      "durationSec": 219,
+      "topic": "Konsum: Energiepreise",
+      "fineSubject": "Energy Prices",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Economy",
+      "startSec": 4810,
+      "endSec": 5159,
+      "durationSec": 349,
+      "topic": "Konsum: Plastik",
+      "fineSubject": "Plastic",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Economics",
+      "startSec": 5160,
+      "endSec": 6410,
+      "durationSec": 1250,
+      "topic": "Qualität und Häuser",
+      "fineSubject": "Quality",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Economics",
+      "startSec": 6410,
+      "endSec": 6764,
+      "durationSec": 354,
+      "topic": "Einkaufen",
+      "fineSubject": "Purchasing",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Economy",
+      "startSec": 7045,
+      "endSec": 7550,
+      "durationSec": 505,
+      "topic": "Lebenshaltungskosten",
+      "fineSubject": "Cost of Living",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Society",
+      "startSec": 7551,
+      "endSec": 8332,
+      "durationSec": 781,
+      "topic": "Gesellschaft und Lebensstil",
+      "fineSubject": "Lifestyle",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8333,
+      "endSec": 9819,
+      "durationSec": 1486,
+      "topic": "Verhältnis zum Staat",
+      "fineSubject": "State Relations",
+      "topicIndex": 12
+    }
+  ]
+}

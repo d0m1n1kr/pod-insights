@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 250,
+  "title": "Mi250 – \"Diaabend mit Minkorrekt\"",
+  "generatedAt": "2026-01-05T15:18:17.378Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.6565439398011287,
+      "Culture": 0.16608438591776403,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.17737167428110723,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2443,
+      "Culture": 618,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 660,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 5,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 3721,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 397,
+      "endSec": 756,
+      "durationSec": 359,
+      "topic": "10 Jahre Minkorrekt auf der Bühne",
+      "fineSubject": "Podcast / Minkorrekt",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 756,
+      "endSec": 825,
+      "durationSec": 69,
+      "topic": "Pint of Science",
+      "fineSubject": "Event / Pint of Science",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 825,
+      "endSec": 1095,
+      "durationSec": 270,
+      "topic": "Orchester meets Science",
+      "fineSubject": "Event / Orchester",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1095,
+      "endSec": 1354,
+      "durationSec": 259,
+      "topic": "Ganzohr2023",
+      "fineSubject": "Science / Ganzohr",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 1354,
+      "endSec": 2014,
+      "durationSec": 660,
+      "topic": "Sozialwahl",
+      "fineSubject": "Social / Social Choice",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 2014,
+      "endSec": 2438,
+      "durationSec": 424,
+      "topic": "Korrektur zu Wolken",
+      "fineSubject": "Topic / Clouds",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4141,
+      "endSec": 5261,
+      "durationSec": 1120,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Activity / Weekly Experiment",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Science",
+      "startSec": 6605,
+      "endSec": 7165,
+      "durationSec": 560,
+      "topic": "Schwurbel",
+      "fineSubject": "Topic / Schwurbel",
+      "topicIndex": 17
+    }
+  ]
+}

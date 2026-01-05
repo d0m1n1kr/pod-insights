@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 23,
+  "title": "DU023 - Das ereignisreiche Leben von Galaxien und denen, die sie studieren",
+  "generatedAt": "2026-01-05T15:18:22.092Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0.5,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0.5
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 3,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 3
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Ordnung der Planeten",
+      "fineSubject": "Planetary Science",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anblick der Milchstraße",
+      "fineSubject": "Galaxies",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kugelblitze",
+      "fineSubject": "Atmospheric Phenomena",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geschwindigkeit der Gravitation",
+      "fineSubject": "Gravitation",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kosmologie",
+      "fineSubject": "Cosmology",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Gravitation und Lichtgeschwindigkeit",
+      "fineSubject": "Fundamental Forces",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

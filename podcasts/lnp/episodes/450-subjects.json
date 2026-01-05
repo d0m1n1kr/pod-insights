@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 450,
+  "title": "LNP450 Kompanieintelligenz",
+  "generatedAt": "2026-01-05T15:17:57.636Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.39092495636998253,
+      "Law": 0,
+      "Security": 0.14584891548242335,
+      "Social": 0,
+      "Media": 0.2862129144851658,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.1770132136624283,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1568,
+      "Law": 0,
+      "Security": 585,
+      "Social": 0,
+      "Media": 1148,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 710,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 4011,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 1855,
+      "endSec": 3003,
+      "durationSec": 1148,
+      "topic": "Content Moderation",
+      "fineSubject": "Moderation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3004,
+      "endSec": 3623,
+      "durationSec": 619,
+      "topic": "Bundeswehr überwacht ZPS",
+      "fineSubject": "Bundeswehr",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3623,
+      "endSec": 4208,
+      "durationSec": 585,
+      "topic": "UN Cybercrime Treaty Verhandlung",
+      "fineSubject": "UN Treaty",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4382,
+      "endSec": 5644,
+      "durationSec": 1262,
+      "topic": "ChatGPT macht Google Angst",
+      "fineSubject": "ChatGPT",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5644,
+      "endSec": 5766,
+      "durationSec": 122,
+      "topic": "Luca App 1x erfolgreich in Brandenburg angewendet",
+      "fineSubject": "Luca App",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5767,
+      "endSec": 5951,
+      "durationSec": 184,
+      "topic": "TrustPid ist zurück",
+      "fineSubject": "TrustPid",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5952,
+      "endSec": 6043,
+      "durationSec": 91,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 63,
+  "title": "DU063 - Diesmal mit Supernova-Vorhersage nach der Werbung",
+  "generatedAt": "2026-01-05T15:18:22.100Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0.75,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0.25,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 3,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 1,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "DART-Mission Ergebnisse",
+      "fineSubject": "Asteroids",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Weltraumwerbung",
+      "fineSubject": "Satellites",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fragen aus der Hörerschaft",
+      "fineSubject": "Astronomy",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lyman Spitzer und Weltraumteleskope",
+      "fineSubject": "Telescopes",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

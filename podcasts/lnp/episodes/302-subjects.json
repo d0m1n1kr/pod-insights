@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 302,
+  "title": "LNP302 Wir wollen Euch nur ein bisschen abkühlen",
+  "generatedAt": "2026-01-05T15:17:57.613Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6079340546110252,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.39206594538897477,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2360,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1522,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3882,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 342,
+      "endSec": 1441,
+      "durationSec": 1099,
+      "topic": "Seehofer will Totalüberwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1441,
+      "endSec": 2702,
+      "durationSec": 1261,
+      "topic": "Österreich und das Strache-Video",
+      "fineSubject": "Scandals",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 4071,
+      "endSec": 5593,
+      "durationSec": 1522,
+      "topic": "Rezo-Video",
+      "fineSubject": "YouTube",
+      "topicIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 477,
+  "title": "LNP477 Die Anwälte sind die wahren Künstler",
+  "generatedAt": "2026-01-05T15:17:57.639Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.36704631738800303,
+      "Technology": 0.3219438116932422,
+      "Law": 0.12968868640850417,
+      "Security": 0,
+      "Social": 0.015945330296127564,
+      "Media": 0.165375854214123,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2417,
+      "Technology": 2120,
+      "Law": 854,
+      "Security": 0,
+      "Social": 105,
+      "Media": 1089,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6585,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 195,
+      "endSec": 300,
+      "durationSec": 105,
+      "topic": "Stefan Pelzer",
+      "fineSubject": "Stefan Pelzer",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 493,
+      "endSec": 1088,
+      "durationSec": 595,
+      "topic": "Zentrum für politische Schönheit",
+      "fineSubject": "Political Art",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1603,
+      "endSec": 2378,
+      "durationSec": 775,
+      "topic": "AfD-Verbot: Wie es dazu kam",
+      "fineSubject": "Political Parties",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2379,
+      "endSec": 3012,
+      "durationSec": 633,
+      "topic": "AfD-Verbot: Brief an die Mitglieder",
+      "fineSubject": "Political Communication",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3013,
+      "endSec": 3427,
+      "durationSec": 414,
+      "topic": "AfD-Verbot: Aktion vor dem Kanzleramt",
+      "fineSubject": "Protests",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3427,
+      "endSec": 4281,
+      "durationSec": 854,
+      "topic": "AfD-Verbot: Zensurheberrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 4282,
+      "endSec": 5371,
+      "durationSec": 1089,
+      "topic": "AfD-Verbot: Medienaufmerksamkeit",
+      "fineSubject": "Public Attention",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5372,
+      "endSec": 6917,
+      "durationSec": 1545,
+      "topic": "AfD-Verbot: Technische Umsetzung",
+      "fineSubject": "Implementation",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6917,
+      "endSec": 7492,
+      "durationSec": 575,
+      "topic": "Deep Fakes",
+      "fineSubject": "Deep Fakes",
+      "topicIndex": 10
+    }
+  ]
+}

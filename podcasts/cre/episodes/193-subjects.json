@@ -1,0 +1,294 @@
+{
+  "episodeNumber": 193,
+  "title": "CRE193 Old School Computing",
+  "generatedAt": "2026-01-05T15:17:54.390Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.25,
+      "Technology": 0.2916666666666667,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.4583333333333333,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 6,
+      "Technology": 7,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 11,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 24
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Computertechnik der 70er Jahre",
+      "fineSubject": "Historical Computing",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklung von Mikrocomputern",
+      "fineSubject": "Microcomputers",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Benutzerschnittstellen",
+      "fineSubject": "User Interfaces",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Assembler-Code auf Lochstreifen",
+      "fineSubject": "Assembly Language",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Prozessautomation",
+      "fineSubject": "Process Automation",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Flugameisen im Kernspeicher",
+      "fineSubject": "Core Memory",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Unterschiedlichkeit der Systeme",
+      "fineSubject": "System Diversity",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Programmieren mit Lochkarten",
+      "fineSubject": "Punch Cards",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Druckerterminals",
+      "fineSubject": "Printer Terminals",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bildschirmterminals",
+      "fineSubject": "Display Terminals",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einzeilen-Editoren",
+      "fineSubject": "Text Editors",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bildschirmansteuerung",
+      "fineSubject": "Screen Control",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Analogrechner",
+      "fineSubject": "Analog Computers",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Floating-Point-Units",
+      "fineSubject": "Floating Point",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "CPU von Hand reparieren",
+      "fineSubject": "CPU Repair",
+      "topicIndex": 14,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Festplattenköpfe justieren",
+      "fineSubject": "Hard Drive Maintenance",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Magnetbandmaschinen",
+      "fineSubject": "Magnetic Tape Machines",
+      "topicIndex": 16,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zeilendrucker",
+      "fineSubject": "Line Printers",
+      "topicIndex": 17,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "PDP",
+      "fineSubject": "PDP Computers",
+      "topicIndex": 18,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Maschinensteuerung und Echtzeitsysteme",
+      "fineSubject": "Real-Time Systems",
+      "topicIndex": 19,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "UNIX und VMS",
+      "fineSubject": "UNIX and VMS",
+      "topicIndex": 20,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aufbau und interne Abläufe einer CPU",
+      "fineSubject": "CPU Architecture",
+      "topicIndex": 21,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Debugging einer CPU",
+      "fineSubject": "CPU Debugging",
+      "topicIndex": 22,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Embedded Computing",
+      "fineSubject": "Embedded Systems",
+      "topicIndex": 23,
+      "untimed": true
+    }
+  ]
+}

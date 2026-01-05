@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 198,
+  "title": "FS198 Er kennt den Admin",
+  "generatedAt": "2026-01-05T15:17:51.091Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2860428231562252,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.143695479777954,
+      "Media": 0.10190325138778747,
+      "Social": 0,
+      "Culture": 0.16383822363203807,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.3045202220459952
+    },
+    "durations": {
+      "Technology": 3607,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1812,
+      "Media": 1285,
+      "Social": 0,
+      "Culture": 2066,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 3840
+    },
+    "topicCounts": {
+      "Technology": 8,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 4,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 3
+    },
+    "totalDurationSec": 12610,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 238,
+      "endSec": 412,
+      "durationSec": 174,
+      "topic": "tomate",
+      "fineSubject": "Food",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 413,
+      "endSec": 1664,
+      "durationSec": 1251,
+      "topic": "re:publica 2017",
+      "fineSubject": "Conference",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 1664,
+      "endSec": 3100,
+      "durationSec": 1436,
+      "topic": "Netz auf der re:publica 2017",
+      "fineSubject": "Conference",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 3101,
+      "endSec": 4254,
+      "durationSec": 1153,
+      "topic": "34C3",
+      "fineSubject": "Conference",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4254,
+      "endSec": 5383,
+      "durationSec": 1129,
+      "topic": "Steuer und Nerds",
+      "fineSubject": "Economics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 5383,
+      "endSec": 7195,
+      "durationSec": 1812,
+      "topic": "Zahlungsplattformen",
+      "fineSubject": "Payment Systems",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7196,
+      "endSec": 7555,
+      "durationSec": 359,
+      "topic": "Müslilöffel",
+      "fineSubject": "Food",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7555,
+      "endSec": 8209,
+      "durationSec": 654,
+      "topic": "Pretix",
+      "fineSubject": "Event Management",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8209,
+      "endSec": 8929,
+      "durationSec": 720,
+      "topic": "Feinstaubsensor",
+      "fineSubject": "Sensors",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8929,
+      "endSec": 9584,
+      "durationSec": 655,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Hardware",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9584,
+      "endSec": 10150,
+      "durationSec": 566,
+      "topic": "LTE to go",
+      "fineSubject": "Mobile",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10151,
+      "endSec": 10437,
+      "durationSec": 286,
+      "topic": "Externer Akku 12V",
+      "fineSubject": "Power Supply",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 10438,
+      "endSec": 11723,
+      "durationSec": 1285,
+      "topic": "Star Wars Universe",
+      "fineSubject": "Movies",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11723,
+      "endSec": 12037,
+      "durationSec": 314,
+      "topic": "LTE Test",
+      "fineSubject": "Mobile",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12038,
+      "endSec": 12320,
+      "durationSec": 282,
+      "topic": "HD Telefonie im Mobilfunk",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Culture",
+      "startSec": 12320,
+      "endSec": 12724,
+      "durationSec": 404,
+      "topic": "MP3 ist frei",
+      "fineSubject": "Music",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12724,
+      "endSec": 12854,
+      "durationSec": 130,
+      "topic": "FS200",
+      "fineSubject": "Media",
+      "topicIndex": 16
+    }
+  ]
+}

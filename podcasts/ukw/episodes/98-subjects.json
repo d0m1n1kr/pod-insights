@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 98,
+  "title": "UKW098 Ukraine: Der Kot des Präsidenten ist ein Staatsgeheimnis",
+  "generatedAt": "2026-01-05T15:18:03.025Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.24134001823154055,
+      "Military": 0.5234731084776664,
+      "Technology": 0.07315405651777575,
+      "Economics": 0,
+      "Media": 0.10984503190519598,
+      "Miscellaneous": 0,
+      "Society": 0.05218778486782133,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2118,
+      "Military": 4594,
+      "Technology": 642,
+      "Economics": 0,
+      "Media": 964,
+      "Miscellaneous": 0,
+      "Society": 458,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 4,
+      "Military": 8,
+      "Technology": 2,
+      "Economics": 0,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8776,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Society",
+      "startSec": 104,
+      "endSec": 562,
+      "durationSec": 458,
+      "topic": "Ukraine gewinnt ESC",
+      "fineSubject": "Music",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 563,
+      "endSec": 976,
+      "durationSec": 413,
+      "topic": "Ukraine, Selensky und die Welt",
+      "fineSubject": "International Relations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 976,
+      "endSec": 1961,
+      "durationSec": 985,
+      "topic": "Militärische Situation",
+      "fineSubject": "Conflict Analysis",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 1962,
+      "endSec": 2425,
+      "durationSec": 463,
+      "topic": "Gescheiterter Flussübertritt",
+      "fineSubject": "Operations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 2426,
+      "endSec": 2870,
+      "durationSec": 444,
+      "topic": "Strategie UA und russische Verluste",
+      "fineSubject": "Strategy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2870,
+      "endSec": 3051,
+      "durationSec": 181,
+      "topic": "SIM Roaming Map of UA",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3051,
+      "endSec": 3512,
+      "durationSec": 461,
+      "topic": "Spezielle Einsatzsoftware UA",
+      "fineSubject": "Software",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 3513,
+      "endSec": 3914,
+      "durationSec": 401,
+      "topic": "Mobilisierung der Russen",
+      "fineSubject": "Mobilization",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 3914,
+      "endSec": 4057,
+      "durationSec": 143,
+      "topic": "Brände in Russland",
+      "fineSubject": "Operations",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 4057,
+      "endSec": 4950,
+      "durationSec": 893,
+      "topic": "Waffenlieferungen des Westens",
+      "fineSubject": "Supply",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Military",
+      "startSec": 4951,
+      "endSec": 5402,
+      "durationSec": 451,
+      "topic": "Fliegende Geschütztürme und Partisanenkrieg",
+      "fineSubject": "Tactics",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5402,
+      "endSec": 6028,
+      "durationSec": 626,
+      "topic": "NATO-Erweiterung",
+      "fineSubject": "International Relations",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 6028,
+      "endSec": 6992,
+      "durationSec": 964,
+      "topic": "Kritiker im russischen Fernsehen",
+      "fineSubject": "Propaganda",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6993,
+      "endSec": 7379,
+      "durationSec": 386,
+      "topic": "Ist Putin krank oder nicht?",
+      "fineSubject": "Leadership",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Military",
+      "startSec": 7379,
+      "endSec": 8193,
+      "durationSec": 814,
+      "topic": "Die Zukunft des Kriegs",
+      "fineSubject": "Future Warfare",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8193,
+      "endSec": 8886,
+      "durationSec": 693,
+      "topic": "Die Zukunft Russlands",
+      "fineSubject": "Future of Nations",
+      "topicIndex": 15
+    }
+  ]
+}

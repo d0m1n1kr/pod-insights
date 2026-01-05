@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 266,
+  "title": "Mi266 – \"Plastikmoratorium\"",
+  "generatedAt": "2026-01-05T15:18:17.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.20048991897493876,
+      "Culture": 0.32692670058413414,
+      "Wissenschaft": 0,
+      "Health": 0.10853589598643301,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0.3640474844544941,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1064,
+      "Culture": 1735,
+      "Wissenschaft": 0,
+      "Health": 576,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1932,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5307,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 440,
+      "endSec": 852,
+      "durationSec": 412,
+      "topic": "Krank",
+      "fineSubject": "Illness",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 852,
+      "endSec": 1016,
+      "durationSec": 164,
+      "topic": "Arzttermine",
+      "fineSubject": "Medical Appointments",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1797,
+      "endSec": 2343,
+      "durationSec": 546,
+      "topic": "Europa Clipper Sonde",
+      "fineSubject": "Space Exploration",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2343,
+      "endSec": 2861,
+      "durationSec": 518,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 3187,
+      "endSec": 5119,
+      "durationSec": 1932,
+      "topic": "Thema 1: “Walking Wildschwein”",
+      "fineSubject": "Wildlife",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5119,
+      "endSec": 5865,
+      "durationSec": 746,
+      "topic": "Thema 2: \"Duck and Cover\"",
+      "fineSubject": "Safety",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5865,
+      "endSec": 6854,
+      "durationSec": 989,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 6
+    }
+  ]
+}

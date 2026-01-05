@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 77,
+  "title": "LNP077 Alles überprüft",
+  "generatedAt": "2026-01-05T15:17:57.585Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.28627355028137996,
+      "Technology": 0.1578174700269146,
+      "Law": 0.20039148519696598,
+      "Security": 0.18938096403229754,
+      "Social": 0.1661365304624419,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1170,
+      "Technology": 645,
+      "Law": 819,
+      "Security": 774,
+      "Social": 679,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4087,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 99,
+      "endSec": 674,
+      "durationSec": 575,
+      "topic": "Nachtrag zu LNP076",
+      "fineSubject": "Social Network",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 674,
+      "endSec": 1493,
+      "durationSec": 819,
+      "topic": "Störerhaftung: Retnerin muss nicht zahlen",
+      "fineSubject": "Liability",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1494,
+      "endSec": 1970,
+      "durationSec": 476,
+      "topic": "Geheimdienstbudget der USA",
+      "fineSubject": "Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1971,
+      "endSec": 2231,
+      "durationSec": 260,
+      "topic": "Kabel-Anzapferei",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2231,
+      "endSec": 2925,
+      "durationSec": 694,
+      "topic": "Geld und Gag Order: Die NSA und die Unternehmen",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3740,
+      "endSec": 4125,
+      "durationSec": 385,
+      "topic": "Netzneutralitätsverordnung",
+      "fineSubject": "Regulation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 4125,
+      "endSec": 4229,
+      "durationSec": 104,
+      "topic": "Kreditratings bei Facebook",
+      "fineSubject": "Social Network",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 4230,
+      "endSec": 5004,
+      "durationSec": 774,
+      "topic": "Gamma-Leaks",
+      "fineSubject": "Leaks",
+      "topicIndex": 8
+    }
+  ]
+}

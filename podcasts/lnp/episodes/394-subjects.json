@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 394,
+  "title": "LNP394 Da war ein Hacker drin",
+  "generatedAt": "2026-01-05T15:17:57.627Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.25008576329331045,
+      "Technology": 0,
+      "Law": 0.2130360205831904,
+      "Security": 0.14785591766723843,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.38902229845626074,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 729,
+      "Technology": 0,
+      "Law": 621,
+      "Security": 431,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1134,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 4,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2915,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 1101,
+      "endSec": 1731,
+      "durationSec": 630,
+      "topic": "Feedback: Corona-Warn-App",
+      "fineSubject": "Apps",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1732,
+      "endSec": 1856,
+      "durationSec": 124,
+      "topic": "Feedback: CrowdNotifier",
+      "fineSubject": "Apps",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1856,
+      "endSec": 2073,
+      "durationSec": 217,
+      "topic": "Feedback: Digitaler Impfpass",
+      "fineSubject": "Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2074,
+      "endSec": 2237,
+      "durationSec": 163,
+      "topic": "Feedback: Luca und Telefonnummer-Signierung",
+      "fineSubject": "Apps",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2238,
+      "endSec": 2338,
+      "durationSec": 100,
+      "topic": "Feedback: Luca: Asymmetrische Verschlüsselung",
+      "fineSubject": "Encryption",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2339,
+      "endSec": 2960,
+      "durationSec": 621,
+      "topic": "e-ID-Gesetz",
+      "fineSubject": "Digital Identity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2960,
+      "endSec": 3689,
+      "durationSec": 729,
+      "topic": "CDU Wahlkamp-App",
+      "fineSubject": "Campaign Apps",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3690,
+      "endSec": 4021,
+      "durationSec": 331,
+      "topic": "Colonial / Darkside",
+      "fineSubject": "Ransomware",
+      "topicIndex": 8
+    }
+  ]
+}

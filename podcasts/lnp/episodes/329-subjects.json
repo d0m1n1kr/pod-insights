@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 329,
+  "title": "LNP329 Bongpflicht im Nagelstudio",
+  "generatedAt": "2026-01-05T15:17:57.617Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3807852599254222,
+      "Technology": 0.07720991445492432,
+      "Law": 0.12195656942311911,
+      "Security": 0.32529063391094537,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.09475762228558894,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1736,
+      "Technology": 352,
+      "Law": 556,
+      "Security": 1483,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 432,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 4559,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 243,
+      "endSec": 505,
+      "durationSec": 262,
+      "topic": "Feedback: Passwort-Zugriff",
+      "fineSubject": "Access Control",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 505,
+      "endSec": 1936,
+      "durationSec": 1431,
+      "topic": "Verbot von Linksunten",
+      "fineSubject": "Censorship",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1937,
+      "endSec": 2649,
+      "durationSec": 712,
+      "topic": "Staatstrojaner gegen Journalisten",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2650,
+      "endSec": 3082,
+      "durationSec": 432,
+      "topic": "Anonyme SIM-Karten",
+      "fineSubject": "Anonymity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3083,
+      "endSec": 3639,
+      "durationSec": 556,
+      "topic": "Totalschaden im Kammergericht Berlin",
+      "fineSubject": "Judiciary",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3640,
+      "endSec": 3945,
+      "durationSec": 305,
+      "topic": "Russland sperrt Mailbox.org und Protonmail",
+      "fineSubject": "Internet Freedom",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3945,
+      "endSec": 4454,
+      "durationSec": 509,
+      "topic": "Bundespolizei Hackback",
+      "fineSubject": "Cyber Operations",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4455,
+      "endSec": 4807,
+      "durationSec": 352,
+      "topic": "Kürzere Handy-Vertragslaufzeiten",
+      "fineSubject": "Contract Terms",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 366,
+  "title": "LNP366 Lockdown-Affinität",
+  "generatedAt": "2026-01-05T15:17:57.623Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1770219603642207,
+      "Technology": 0.2437064809855383,
+      "Law": 0,
+      "Security": 0.09614354579539368,
+      "Social": 0.18371719335832887,
+      "Media": 0.051419389394750936,
+      "Health": 0.24799143010176755,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 661,
+      "Technology": 910,
+      "Law": 0,
+      "Security": 359,
+      "Social": 686,
+      "Media": 192,
+      "Health": 926,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 1,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3734,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 52,
+      "endSec": 244,
+      "durationSec": 192,
+      "topic": "9 Jahre LNP",
+      "fineSubject": "Anniversary",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 794,
+      "endSec": 1480,
+      "durationSec": 686,
+      "topic": "Telegram-Drogengruppen",
+      "fineSubject": "Drug Trade",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1481,
+      "endSec": 2407,
+      "durationSec": 926,
+      "topic": "Lockdown Light",
+      "fineSubject": "Pandemic Response",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2407,
+      "endSec": 2733,
+      "durationSec": 326,
+      "topic": "Snowden",
+      "fineSubject": "Whistleblowers",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2734,
+      "endSec": 3093,
+      "durationSec": 359,
+      "topic": "Finnland: Online-Psychotherapieplattform gehackt",
+      "fineSubject": "Healthcare",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3094,
+      "endSec": 3323,
+      "durationSec": 229,
+      "topic": "Cryptowars Season 23 Episode 42",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3323,
+      "endSec": 3658,
+      "durationSec": 335,
+      "topic": "Quo vadis, ZITIS?",
+      "fineSubject": "Technology Policy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3658,
+      "endSec": 4339,
+      "durationSec": 681,
+      "topic": "Youtube-dl",
+      "fineSubject": "Open Source",
+      "topicIndex": 8
+    }
+  ]
+}

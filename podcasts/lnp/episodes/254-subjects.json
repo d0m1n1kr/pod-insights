@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 254,
+  "title": "LNP254 Exit from Brexit",
+  "generatedAt": "2026-01-05T15:17:57.607Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.44411456514146,
+      "Technology": 0.55588543485854,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2543,
+      "Technology": 3183,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5726,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 347,
+      "endSec": 1854,
+      "durationSec": 1507,
+      "topic": "Feedback: Brexit",
+      "fineSubject": "Brexit",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1854,
+      "endSec": 4350,
+      "durationSec": 2496,
+      "topic": "E-Fail",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4351,
+      "endSec": 4924,
+      "durationSec": 573,
+      "topic": "Finfisher in der Türkei gegen Opposition eingesetzt",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4925,
+      "endSec": 5612,
+      "durationSec": 687,
+      "topic": "Cellphone-Tracking",
+      "fineSubject": "Tracking",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5612,
+      "endSec": 6075,
+      "durationSec": 463,
+      "topic": "Maaßen spricht langsam Tacheles, was Hackback wirklich bedeutet",
+      "fineSubject": "Cyber Warfare",
+      "topicIndex": 4
+    }
+  ]
+}

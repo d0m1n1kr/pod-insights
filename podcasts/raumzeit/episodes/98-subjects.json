@@ -1,0 +1,100 @@
+{
+  "episodeNumber": 98,
+  "title": "RZ098 Geschichte der Europäischen Raumfahrt",
+  "generatedAt": "2026-01-05T15:18:06.287Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.522461947687306,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0.477538052312694,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 7071,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 6463,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 2,
+      "Astronomie": 0,
+      "Wissenschaft": 1,
+      "Technologie": 2,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 13534,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": 65,
+      "endSec": 2522,
+      "durationSec": 2457,
+      "topic": "Entwicklung der Raketentechnik",
+      "fineSubject": "Raketentechnik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 65,
+      "endSec": 4731,
+      "durationSec": 4666,
+      "topic": "Bedeutung der Europäischen Raumfahrt",
+      "fineSubject": "Internationale Raumfahrt",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 65,
+      "endSec": 2470,
+      "durationSec": 2405,
+      "topic": "ESA und europäische Raumfahrtindustrie",
+      "fineSubject": "Raumfahrtorganisationen",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 725,
+      "endSec": 4731,
+      "durationSec": 4006,
+      "topic": "Ariane-Programm",
+      "fineSubject": "Raumfahrtprogramme",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erdbeobachtungsprojekte",
+      "fineSubject": "Erdbeobachtung",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

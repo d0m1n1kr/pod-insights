@@ -1,0 +1,243 @@
+{
+  "episodeNumber": 206,
+  "title": "FS206 Partial Content",
+  "generatedAt": "2026-01-05T15:17:51.093Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.16262024736601008,
+      "Hardware": 0.29922125515345854,
+      "Finance": 0.05176362803481448,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.11827759963353184,
+      "Security": 0.11635364177737059,
+      "Events": 0,
+      "Business": 0.119560238204306,
+      "Gaming": 0.13220338983050847,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 1775,
+      "Hardware": 3266,
+      "Finance": 565,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1291,
+      "Security": 1270,
+      "Events": 0,
+      "Business": 1305,
+      "Gaming": 1443,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 6,
+      "Hardware": 7,
+      "Finance": 2,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 1,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 2,
+      "Event": 0
+    },
+    "totalDurationSec": 10915,
+    "totalTopics": 25
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 295,
+      "endSec": 1132,
+      "durationSec": 837,
+      "topic": "Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1133,
+      "endSec": 1442,
+      "durationSec": 309,
+      "topic": "Siri",
+      "fineSubject": "Siri",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1442,
+      "endSec": 1618,
+      "durationSec": 176,
+      "topic": "CarPlay",
+      "fineSubject": "CarPlay",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 1618,
+      "endSec": 1834,
+      "durationSec": 216,
+      "topic": "Ärger mit iOS 11",
+      "fineSubject": "iOS",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 1834,
+      "endSec": 2604,
+      "durationSec": 770,
+      "topic": "High Sierra",
+      "fineSubject": "High Sierra",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2604,
+      "endSec": 3802,
+      "durationSec": 1198,
+      "topic": "Mac mit ARM",
+      "fineSubject": "Mac mit ARM",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3803,
+      "endSec": 4084,
+      "durationSec": 281,
+      "topic": "Mac Pro",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4084,
+      "endSec": 4244,
+      "durationSec": 160,
+      "topic": "MacBook Wunschliste",
+      "fineSubject": "MacBook",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 4245,
+      "endSec": 5515,
+      "durationSec": 1270,
+      "topic": "Login-Sicherheits-Mechanismen",
+      "fineSubject": "Login-Sicherheits-Mechanismen",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 5515,
+      "endSec": 5716,
+      "durationSec": 201,
+      "topic": "Content Caching",
+      "fineSubject": "Content Caching",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 5716,
+      "endSec": 5819,
+      "durationSec": 103,
+      "topic": "macOS Disk Utility Bug",
+      "fineSubject": "macOS Disk Utility",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5820,
+      "endSec": 5986,
+      "durationSec": 166,
+      "topic": "Wasser im MacBook",
+      "fineSubject": "MacBook",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Business",
+      "startSec": 5987,
+      "endSec": 7292,
+      "durationSec": 1305,
+      "topic": "reverb.com und Online Shopping Sites",
+      "fineSubject": "Online Shopping",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7292,
+      "endSec": 7387,
+      "durationSec": 95,
+      "topic": "USB-C",
+      "fineSubject": "USB-C",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 7388,
+      "endSec": 7661,
+      "durationSec": 273,
+      "topic": "Shakes & Fidget",
+      "fineSubject": "Shakes & Fidget",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 7661,
+      "endSec": 8831,
+      "durationSec": 1170,
+      "topic": "Monkey Island und andere Adventures",
+      "fineSubject": "Monkey Island",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8832,
+      "endSec": 9235,
+      "durationSec": 403,
+      "topic": "Games-Kultur",
+      "fineSubject": "Games-Kultur",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9235,
+      "endSec": 10123,
+      "durationSec": 888,
+      "topic": "USA in Echtzeit",
+      "fineSubject": "USA",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12094,
+      "endSec": 12424,
+      "durationSec": 330,
+      "topic": "Gold",
+      "fineSubject": "Gold",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12424,
+      "endSec": 12659,
+      "durationSec": 235,
+      "topic": "Bitcoin Gold",
+      "fineSubject": "Bitcoin Gold",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12660,
+      "endSec": 13189,
+      "durationSec": 529,
+      "topic": "Fernseher",
+      "fineSubject": "Fernseher",
+      "topicIndex": 22
+    }
+  ]
+}

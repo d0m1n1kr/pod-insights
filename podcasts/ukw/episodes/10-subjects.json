@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 10,
+  "title": "UKW010 Corona: Ich bin Dunkelziffer",
+  "generatedAt": "2026-01-05T15:18:02.999Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.7008686210640608,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.08523344191096634,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.21389793702497287,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 1291,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 157,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 394,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 2,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 2,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 1842,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 101,
+      "endSec": 236,
+      "durationSec": 135,
+      "topic": "Roddis Symptome",
+      "fineSubject": "Symptoms",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Society",
+      "startSec": 1125,
+      "endSec": 1265,
+      "durationSec": 140,
+      "topic": "Geänderte Lebensverhältnisse",
+      "fineSubject": "Lifestyle Changes",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1378,
+      "endSec": 2534,
+      "durationSec": 1156,
+      "topic": "Roddis Erkrankungsgeschichte",
+      "fineSubject": "Medical History",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Society",
+      "startSec": 2535,
+      "endSec": 2789,
+      "durationSec": 254,
+      "topic": "Geschmackslosigkeit",
+      "fineSubject": "Taste",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2790,
+      "endSec": 2947,
+      "durationSec": 157,
+      "topic": "Kurven und Zahlen",
+      "fineSubject": "Statistics",
+      "topicIndex": 4
+    }
+  ]
+}

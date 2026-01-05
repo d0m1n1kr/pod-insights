@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 447,
+  "title": "LNP447 Videorekorder fürs Internet",
+  "generatedAt": "2026-01-05T15:17:57.635Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16440335163247616,
+      "Technology": 0.4326302610035635,
+      "Law": 0.12905711258788405,
+      "Security": 0.08494654724068189,
+      "Social": 0,
+      "Media": 0.1889627275353944,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1707,
+      "Technology": 4492,
+      "Law": 1340,
+      "Security": 882,
+      "Social": 0,
+      "Media": 1962,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 6,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 3,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 10383,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 31,
+      "endSec": 1243,
+      "durationSec": 1212,
+      "topic": "Prolog: ChatGPT",
+      "fineSubject": "AI",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1464,
+      "endSec": 1664,
+      "durationSec": 200,
+      "topic": "Petition Julian Hessenthaler",
+      "fineSubject": "Petitions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1664,
+      "endSec": 1765,
+      "durationSec": 101,
+      "topic": "Reality Winner Film",
+      "fineSubject": "Film",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1765,
+      "endSec": 1835,
+      "durationSec": 70,
+      "topic": "Epicenter.Works",
+      "fineSubject": "Startups",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 2075,
+      "endSec": 2333,
+      "durationSec": 258,
+      "topic": "Hackerfilme im Fernsehen",
+      "fineSubject": "Television",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2404,
+      "endSec": 3159,
+      "durationSec": 755,
+      "topic": "Digitalgipfel",
+      "fineSubject": "Conferences",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3160,
+      "endSec": 3912,
+      "durationSec": 752,
+      "topic": "Internet Governance Forum in Äthopien",
+      "fineSubject": "International Relations",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3912,
+      "endSec": 4794,
+      "durationSec": 882,
+      "topic": "Warntag",
+      "fineSubject": "Emergency Management",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4795,
+      "endSec": 6240,
+      "durationSec": 1445,
+      "topic": "Netzneutralität Reloaded",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 6241,
+      "endSec": 6840,
+      "durationSec": 599,
+      "topic": "eIDAS",
+      "fineSubject": "Regulations",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6840,
+      "endSec": 7509,
+      "durationSec": 669,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Privacy",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7509,
+      "endSec": 8186,
+      "durationSec": 677,
+      "topic": "Apple Advanced Data Protection",
+      "fineSubject": "Data Protection",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 8187,
+      "endSec": 9790,
+      "durationSec": 1603,
+      "topic": "Twitter/Musk",
+      "fineSubject": "Social Media",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9790,
+      "endSec": 10209,
+      "durationSec": 419,
+      "topic": "Hive zerforscht",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Law",
+      "startSec": 10209,
+      "endSec": 10950,
+      "durationSec": 741,
+      "topic": "UN Cybercrime Convention",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 15
+    }
+  ]
+}

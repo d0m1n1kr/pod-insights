@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 526,
+  "title": "LNP526 Souverän verkackt",
+  "generatedAt": "2026-01-05T15:17:57.645Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7774581589958159,
+      "Technology": 0.1087866108786611,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.11375523012552301,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2973,
+      "Technology": 416,
+      "Law": 0,
+      "Security": 0,
+      "Social": 435,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3824,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 205,
+      "endSec": 640,
+      "durationSec": 435,
+      "topic": "WhatsApp auch bald mit Werbung",
+      "fineSubject": "Messaging",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 814,
+      "endSec": 1123,
+      "durationSec": 309,
+      "topic": "Feedback: Airgapped Clouds",
+      "fineSubject": "Cloud Computing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1123,
+      "endSec": 1381,
+      "durationSec": 258,
+      "topic": "Bedrohung von Richtern",
+      "fineSubject": "Judiciary",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1381,
+      "endSec": 2782,
+      "durationSec": 1401,
+      "topic": "Eskalation in den USA",
+      "fineSubject": "Domestic Issues",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2783,
+      "endSec": 3887,
+      "durationSec": 1104,
+      "topic": "Eskalation Isreal-Iran",
+      "fineSubject": "International Relations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4255,
+      "endSec": 4465,
+      "durationSec": 210,
+      "topic": "Italien mit Staatstrojanern gegen Journalisten und Aktivisten",
+      "fineSubject": "Surveillance",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4466,
+      "endSec": 4573,
+      "durationSec": 107,
+      "topic": "Teilen statt Sperren",
+      "fineSubject": "Digital Rights",
+      "topicIndex": 8
+    }
+  ]
+}

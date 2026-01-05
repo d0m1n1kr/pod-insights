@@ -1,0 +1,184 @@
+{
+  "episodeNumber": 172,
+  "title": "CRE172 Holland und die Hacker",
+  "generatedAt": "2026-01-05T15:17:54.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.23076923076923078,
+      "Social": 0.23076923076923078,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.07692307692307693,
+      "Technologie": 0,
+      "Politics": 0.38461538461538464,
+      "Security": 0,
+      "History": 0.07692307692307693,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 3,
+      "Social": 3,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 5,
+      "Security": 0,
+      "History": 1,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hackergeschichte Hollands",
+      "fineSubject": "Hacker Culture",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Internationale Vernetzung",
+      "fineSubject": "Internet Infrastructure",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Netzpolitischer Aktivismus",
+      "fineSubject": "Internet Activism",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Datenreisen der Frühzeit",
+      "fineSubject": "Data Transmission",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Phone Phreaking",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wahrnehmung der Hackerszene",
+      "fineSubject": "Public Perception",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Freiheit und Leaking von Dokumenten",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kampf gegen Scientology",
+      "fineSubject": "Activism",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Niedergang der holländischen Gesellschaft",
+      "fineSubject": "Social Issues",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wahlcomputer in Holland",
+      "fineSubject": "Voting Technology",
+      "topicIndex": 16,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kampf gegen den totalitären Staat",
+      "fineSubject": "Civil Liberties",
+      "topicIndex": 17,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Privatsphäre",
+      "fineSubject": "Privacy Issues",
+      "topicIndex": 18,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "WikiLeaks und Collateral Murder",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 19,
+      "untimed": true
+    }
+  ]
+}

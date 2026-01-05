@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 516,
+  "title": "LNP516 Man darf alles auf dem Dach haben",
+  "generatedAt": "2026-01-05T15:17:57.644Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9304531085353003,
+      "Technology": 0,
+      "Law": 0.06954689146469968,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5298,
+      "Technology": 0,
+      "Law": 396,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 7,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5694,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 142,
+      "endSec": 1150,
+      "durationSec": 1008,
+      "topic": "Geschichten vom Adenauer",
+      "fineSubject": "History",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1151,
+      "endSec": 1313,
+      "durationSec": 162,
+      "topic": "Der rollende Beweis",
+      "fineSubject": "Evidence",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1314,
+      "endSec": 3216,
+      "durationSec": 1902,
+      "topic": "Adenauer beim AfD-Parteitag",
+      "fineSubject": "Parties",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5716,
+      "endSec": 6533,
+      "durationSec": 817,
+      "topic": "Plakataktion am Gorkitheater",
+      "fineSubject": "Campaigning",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6533,
+      "endSec": 7096,
+      "durationSec": 563,
+      "topic": "Die Technik des Adenauer",
+      "fineSubject": "Technology",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7097,
+      "endSec": 7679,
+      "durationSec": 582,
+      "topic": "Adenauer-Zukunft und -Finanzierung",
+      "fineSubject": "Finance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 7679,
+      "endSec": 8075,
+      "durationSec": 396,
+      "topic": "Die Polizei bricht ein",
+      "fineSubject": "Police",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8400,
+      "endSec": 8664,
+      "durationSec": 264,
+      "topic": "Weitere Details",
+      "fineSubject": "Details",
+      "topicIndex": 8
+    }
+  ]
+}

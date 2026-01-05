@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 159,
+  "title": "LNP159 Das Gesetz verstößt gegen die Geheimdienste",
+  "generatedAt": "2026-01-05T15:17:57.595Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5473172792564428,
+      "Technology": 0.45268272074355725,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2591,
+      "Technology": 2143,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4734,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 544,
+      "endSec": 1382,
+      "durationSec": 838,
+      "topic": "Graulich im NSAUA",
+      "fineSubject": "Intelligence Services",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1383,
+      "endSec": 1789,
+      "durationSec": 406,
+      "topic": "Routerzwang abgeschafft",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1789,
+      "endSec": 2698,
+      "durationSec": 909,
+      "topic": "Netzüberwachung in Großbritannien",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2699,
+      "endSec": 4436,
+      "durationSec": 1737,
+      "topic": "CCC TV vs. Apple TV",
+      "fineSubject": "Media Devices",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4437,
+      "endSec": 4612,
+      "durationSec": 175,
+      "topic": "Bundesrat billigt Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4612,
+      "endSec": 5281,
+      "durationSec": 669,
+      "topic": "Leistungsschutzrecht auf EU-Ebene?",
+      "fineSubject": "Copyright Law",
+      "topicIndex": 5
+    }
+  ]
+}

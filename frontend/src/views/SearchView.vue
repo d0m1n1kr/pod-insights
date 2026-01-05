@@ -6,6 +6,7 @@ import { useSettingsStore } from '@/stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
 import { marked } from 'marked';
 import { getPodcastFileUrl, getEpisodeUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
+import EpisodeRadarChart from '@/components/EpisodeRadarChart.vue';
 
 type ChatSource = {
   episodeNumber: number;
@@ -133,6 +134,29 @@ const loading = ref(false);
 const error = ref<string | null>(null);
 const result = ref<ChatResponse | null>(null);
 const expandedSources = ref<Record<number, boolean>>({});
+const episodeSubjectsData = ref<Map<number, any>>(new Map());
+const loadingSubjects = ref<Set<number>>(new Set());
+
+// Load episode subjects data
+const loadEpisodeSubjects = async (episodeNumber: number) => {
+  if (episodeSubjectsData.value.has(episodeNumber) || loadingSubjects.value.has(episodeNumber)) {
+    return;
+  }
+  
+  loadingSubjects.value.add(episodeNumber);
+  try {
+    const url = getPodcastFileUrl(`episodes/${episodeNumber}-subjects.json`);
+    const response = await fetch(url);
+    if (response.ok) {
+      const data = await response.json();
+      episodeSubjectsData.value.set(episodeNumber, data);
+    }
+  } catch (e) {
+    // Silently fail - not all episodes have subjects data
+  } finally {
+    loadingSubjects.value.delete(episodeNumber);
+  }
+};
 
 const availableSpeakers = ref<SpeakerInfo[]>([]);
 const speakersLoading = ref(false);
@@ -1014,14 +1038,22 @@ const handleAnswerClick = (event: MouseEvent) => {
             v-for="(s, idx) in result.sources"
             :key="idx"
             class="rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-4"
+            @mouseenter="loadEpisodeSubjects(s.episodeNumber)"
           >
             <div class="flex items-start justify-between gap-3">
-              <img
-                :src="getEpisodeImageUrl(s.episodeNumber)"
-                :alt="s.episodeTitle || `Episode ${s.episodeNumber}`"
-                @error="($event.target as HTMLImageElement).style.display = 'none'"
-                class="w-12 h-12 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-700"
-              />
+              <div class="flex items-start gap-3 flex-shrink-0">
+                <img
+                  :src="getEpisodeImageUrl(s.episodeNumber)"
+                  :alt="s.episodeTitle || `Episode ${s.episodeNumber}`"
+                  @error="($event.target as HTMLImageElement).style.display = 'none'"
+                  class="w-12 h-12 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-700"
+                />
+                <EpisodeRadarChart
+                  v-if="episodeSubjectsData.has(s.episodeNumber)"
+                  :data="episodeSubjectsData.get(s.episodeNumber)"
+                  class="hidden sm:block w-16 h-16"
+                />
+              </div>
               <div class="min-w-0 flex-1">
                 <div class="text-sm font-semibold text-gray-900 dark:text-white">
                   Episode {{ s.episodeNumber }}

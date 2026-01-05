@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 94,
+  "title": "LNP094 Internet Zero",
+  "generatedAt": "2026-01-05T15:17:57.588Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.5613936499016577,
+      "Security": 0,
+      "Social": 0.19752739533576846,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.24107895476257377,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1998,
+      "Security": 0,
+      "Social": 703,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 858,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3559,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 246,
+      "endSec": 2244,
+      "durationSec": 1998,
+      "topic": "EU Verordnung zur Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 2244,
+      "endSec": 3102,
+      "durationSec": 858,
+      "topic": "Netflix schließt Deal mit Comcast ab",
+      "fineSubject": "Media Deals",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 3102,
+      "endSec": 3805,
+      "durationSec": 703,
+      "topic": "Facebook Zero",
+      "fineSubject": "Social Media",
+      "topicIndex": 2
+    }
+  ]
+}

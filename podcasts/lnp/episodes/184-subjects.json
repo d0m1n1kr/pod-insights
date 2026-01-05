@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 184,
+  "title": "LNP184 100 Jahre NSA-Untersuchungsausschuss",
+  "generatedAt": "2026-01-05T15:17:57.598Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.8551446637286837,
+      "Technology": 0.14485533627131633,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4463,
+      "Technology": 756,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5219,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 63,
+      "endSec": 692,
+      "durationSec": 629,
+      "topic": "Anna Biselli",
+      "fineSubject": "Government Oversight",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 692,
+      "endSec": 800,
+      "durationSec": 108,
+      "topic": "100. Sitzung des NSA-UA",
+      "fineSubject": "Government Oversight",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 801,
+      "endSec": 1557,
+      "durationSec": 756,
+      "topic": "Begleitung durch netzpoltik.org und Technische Aufklärung",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1558,
+      "endSec": 2991,
+      "durationSec": 1433,
+      "topic": "Entstehung und Zusammensetzung des NSA-UA",
+      "fineSubject": "Government Structure",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2991,
+      "endSec": 3883,
+      "durationSec": 892,
+      "topic": "Bisherige Erkenntnisse aus dem NSA-UA",
+      "fineSubject": "Government Oversight",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3884,
+      "endSec": 4597,
+      "durationSec": 713,
+      "topic": "Entwurf der Bundesregierung zur BND-Reform",
+      "fineSubject": "Legislation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4598,
+      "endSec": 5286,
+      "durationSec": 688,
+      "topic": "Das Restprogramm des NSA-UA",
+      "fineSubject": "Government Oversight",
+      "topicIndex": 6
+    }
+  ]
+}

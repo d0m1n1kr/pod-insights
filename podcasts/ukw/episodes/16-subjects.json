@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 16,
+  "title": "UKW016 Corona: Masken Berlin",
+  "generatedAt": "2026-01-05T15:18:03.000Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 768,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 2,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 768,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 549,
+      "endSec": 1132,
+      "durationSec": 583,
+      "topic": "Faceshields bauen",
+      "fineSubject": "Production / Faceshields bauen",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1133,
+      "endSec": 1318,
+      "durationSec": 185,
+      "topic": "Verteilung und schwierige Entscheidungen",
+      "fineSubject": "Challenges / Verteilung und schwierige Entscheidungen",
+      "topicIndex": 3
+    }
+  ]
+}

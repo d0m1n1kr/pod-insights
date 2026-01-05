@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 130,
+  "title": "LNP130 Radikalisierung durch Internet",
+  "generatedAt": "2026-01-05T15:17:57.592Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.670958761092744,
+      "Technology": 0,
+      "Law": 0.14981729598051158,
+      "Security": 0.07290760396728728,
+      "Social": 0,
+      "Media": 0.10631633895945711,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3856,
+      "Technology": 0,
+      "Law": 861,
+      "Security": 419,
+      "Social": 0,
+      "Media": 611,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5747,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 659,
+      "endSec": 4157,
+      "durationSec": 3498,
+      "topic": "TTIP",
+      "fineSubject": "Trade Agreements",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 4158,
+      "endSec": 4769,
+      "durationSec": 611,
+      "topic": "Google hat Wikileaks-Mails weitergegeben",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 4769,
+      "endSec": 5630,
+      "durationSec": 861,
+      "topic": "Barrett Brown zu 63 Monaten Haft verurteilt",
+      "fineSubject": "Sentencing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5631,
+      "endSec": 5989,
+      "durationSec": 358,
+      "topic": "EU-Kommission plant doch keine neue VDS",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 5990,
+      "endSec": 6169,
+      "durationSec": 179,
+      "topic": "Massenverschlüsselung einziger Schutz gegen Massenüberwachung",
+      "fineSubject": "Encryption",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 6170,
+      "endSec": 6410,
+      "durationSec": 240,
+      "topic": "Regin nachweislich von NSA",
+      "fineSubject": "Cyber Espionage",
+      "topicIndex": 5
+    }
+  ]
+}

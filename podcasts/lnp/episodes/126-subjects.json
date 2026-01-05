@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 126,
+  "title": "LNP126 Ich wollte ja zur Revolution, aber war voll",
+  "generatedAt": "2026-01-05T15:17:57.591Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5497307001795332,
+      "Technology": 0,
+      "Law": 0.07684021543985638,
+      "Security": 0.3734290843806104,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1531,
+      "Technology": 0,
+      "Law": 214,
+      "Security": 1040,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2785,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1058,
+      "endSec": 1534,
+      "durationSec": 476,
+      "topic": "Netzneutralität und Breitband-Ausbau",
+      "fineSubject": "Infrastructure / Netzneutralität",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1534,
+      "endSec": 2589,
+      "durationSec": 1055,
+      "topic": "NSA-Untersuchungsausschuss",
+      "fineSubject": "Security / NSA",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2590,
+      "endSec": 3630,
+      "durationSec": 1040,
+      "topic": "Die Secucalypse",
+      "fineSubject": "Cybersecurity / Secucalypse",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3631,
+      "endSec": 3845,
+      "durationSec": 214,
+      "topic": "Urheberrecht",
+      "fineSubject": "Intellectual Property / Urheberrecht",
+      "topicIndex": 4
+    }
+  ]
+}

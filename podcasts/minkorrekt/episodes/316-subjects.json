@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 316,
+  "title": "Mi316 – \"Flexindex\"",
+  "generatedAt": "2026-01-05T15:18:17.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5826513911620295,
+      "Culture": 0.23797054009819968,
+      "Wissenschaft": 0,
+      "Health": 0.10834697217675941,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.07103109656301146,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3560,
+      "Culture": 1454,
+      "Wissenschaft": 0,
+      "Health": 662,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 434,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6110,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 395,
+      "endSec": 829,
+      "durationSec": 434,
+      "topic": "Alltagsgeschichten",
+      "fineSubject": "Everyday Stories",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 829,
+      "endSec": 1160,
+      "durationSec": 331,
+      "topic": "Irmimi 50",
+      "fineSubject": "Irmimi",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1160,
+      "endSec": 1561,
+      "durationSec": 401,
+      "topic": "Das Ziel ist im Weg",
+      "fineSubject": "Obstacles",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2260,
+      "endSec": 2922,
+      "durationSec": 662,
+      "topic": "Kommentar: Depression",
+      "fineSubject": "Depression",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 2922,
+      "endSec": 4557,
+      "durationSec": 1635,
+      "topic": "Thema 1: \"Es kam aus der Tiefe\"",
+      "fineSubject": "Deep Sea",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 4557,
+      "endSec": 5163,
+      "durationSec": 606,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Content",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 5163,
+      "endSec": 6482,
+      "durationSec": 1319,
+      "topic": "Thema 2: \"Ein Elektron macht noch keine Bindung\"",
+      "fineSubject": "Electrons",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6482,
+      "endSec": 7204,
+      "durationSec": 722,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "episodeNumber": 158,
+  "title": "FS158 Da fällt dem Hacker die Mate aus der Hand",
+  "generatedAt": "2026-01-05T15:17:51.081Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.06725237132638781,
+      "Software": 0.4095008552324677,
+      "Hardware": 0.1392473954283937,
+      "Finance": 0.09360908101383922,
+      "Media": 0.04680454050691961,
+      "Social": 0.025967967656663038,
+      "Culture": 0,
+      "Security": 0.21761778883532887,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 865,
+      "Software": 5267,
+      "Hardware": 1791,
+      "Finance": 1204,
+      "Media": 602,
+      "Social": 334,
+      "Culture": 0,
+      "Security": 2799,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 8,
+      "Hardware": 5,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 3,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12862,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 79,
+      "endSec": 413,
+      "durationSec": 334,
+      "topic": "Remote Facepalming",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 720,
+      "endSec": 1109,
+      "durationSec": 389,
+      "topic": "rad1o Badge",
+      "fineSubject": "Badge",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1110,
+      "endSec": 1484,
+      "durationSec": 374,
+      "topic": "Spülschrubber mit Wechselkopf",
+      "fineSubject": "Cleaning Tools",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1484,
+      "endSec": 1697,
+      "durationSec": 213,
+      "topic": "Sand Grabber",
+      "fineSubject": "Tools",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1698,
+      "endSec": 2357,
+      "durationSec": 659,
+      "topic": "Nerfguns",
+      "fineSubject": "Toys",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 2357,
+      "endSec": 2648,
+      "durationSec": 291,
+      "topic": "/usr",
+      "fineSubject": "Filesystem",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 2649,
+      "endSec": 2766,
+      "durationSec": 117,
+      "topic": "Bootplatte fixen am offenen Herzen",
+      "fineSubject": "System Repair",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 2766,
+      "endSec": 3970,
+      "durationSec": 1204,
+      "topic": "New Horizons",
+      "fineSubject": "Exploration",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 3970,
+      "endSec": 4572,
+      "durationSec": 602,
+      "topic": "Bücher lesen und iBooks",
+      "fineSubject": "Reading",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 4573,
+      "endSec": 4984,
+      "durationSec": 411,
+      "topic": "Rootless",
+      "fineSubject": "Security",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 4984,
+      "endSec": 5841,
+      "durationSec": 857,
+      "topic": "Clean Install",
+      "fineSubject": "Installation",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 5842,
+      "endSec": 6025,
+      "durationSec": 183,
+      "topic": "Bitcode",
+      "fineSubject": "Development",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 6026,
+      "endSec": 6557,
+      "durationSec": 531,
+      "topic": "RC4 NO MORE im Browser",
+      "fineSubject": "Cryptography",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 6557,
+      "endSec": 7894,
+      "durationSec": 1337,
+      "topic": "https und iTunes",
+      "fineSubject": "Networking",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Security",
+      "startSec": 7895,
+      "endSec": 8150,
+      "durationSec": 255,
+      "topic": "SSL Man-in-the-middle an Britischen Unis",
+      "fineSubject": "Network Attacks",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8151,
+      "endSec": 9355,
+      "durationSec": 1204,
+      "topic": "Bitcoin News",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Security",
+      "startSec": 9355,
+      "endSec": 11368,
+      "durationSec": 2013,
+      "topic": "GPG Key Erzeugung und Benutzung",
+      "fineSubject": "Encryption",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12125,
+      "endSec": 12990,
+      "durationSec": 865,
+      "topic": "IPv6 Happy Eyeballs Reloaded",
+      "fineSubject": "IPv6",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 12990,
+      "endSec": 13857,
+      "durationSec": 867,
+      "topic": "Flash - Aha - EOL",
+      "fineSubject": "End of Life",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13858,
+      "endSec": 14014,
+      "durationSec": 156,
+      "topic": "iPod touch Update",
+      "fineSubject": "Device Update",
+      "topicIndex": 20
+    }
+  ]
+}

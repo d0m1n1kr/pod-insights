@@ -1,0 +1,134 @@
+{
+  "episodeNumber": 79,
+  "title": "CRE079 GTK+ und GNOME",
+  "generatedAt": "2026-01-05T15:17:54.372Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.875,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0.125,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 7,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 1,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hintergründe und Geschichte von GTK+ und GNOME",
+      "fineSubject": "Desktop-Umgebungen",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Objektorientierung in GTK+",
+      "fineSubject": "Programmierung",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Portierung von GTK+ auf andere Betriebssysteme",
+      "fineSubject": "Plattformen",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einfluss von Mac OS X auf GTK+",
+      "fineSubject": "Benutzerschnittstellen",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bruch mit der Vergangenheit zur Implementierung neuer Fähigkeiten",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Grenzen zwischen GTK+ und GNOME",
+      "fineSubject": "Architektur",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Gemeinsame Arbeit an Desktop-Features im Projekt freedesktop.org",
+      "fineSubject": "Kollaboration",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Community",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wert von Real-Life-Treffen für Entwickler von Freier Software",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 7,
+      "untimed": true
+    }
+  ]
+}

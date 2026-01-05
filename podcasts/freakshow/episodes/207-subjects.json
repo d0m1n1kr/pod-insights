@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 207,
+  "title": "FS207 Berliner Leistungswasser",
+  "generatedAt": "2026-01-05T15:17:51.093Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.0488596769084574,
+      "Software": 0.119417168197656,
+      "Hardware": 0.2728856509344314,
+      "Finance": 0,
+      "Media": 0.1982895153626861,
+      "Social": 0,
+      "Culture": 0.09819448843839088,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.2623535001583782,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 617,
+      "Software": 1508,
+      "Hardware": 3446,
+      "Finance": 0,
+      "Media": 2504,
+      "Social": 0,
+      "Culture": 1240,
+      "Security": 0,
+      "Events": 0,
+      "Business": 3313,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 1,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 3,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12628,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 1615,
+      "endSec": 3123,
+      "durationSec": 1508,
+      "topic": "Textverarbeitung und Layout",
+      "fineSubject": "Textverarbeitung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 4129,
+      "endSec": 5399,
+      "durationSec": 1270,
+      "topic": "Selbständigkeit",
+      "fineSubject": "Selbständigkeit",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5686,
+      "endSec": 6878,
+      "durationSec": 1192,
+      "topic": "Hackintosh",
+      "fineSubject": "Hackintosh",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6878,
+      "endSec": 7495,
+      "durationSec": 617,
+      "topic": "IPv6",
+      "fineSubject": "IPv6",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7495,
+      "endSec": 7568,
+      "durationSec": 73,
+      "topic": "Themenstreit",
+      "fineSubject": "Themenstreit",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7569,
+      "endSec": 8562,
+      "durationSec": 993,
+      "topic": "iPhone X: Face ID",
+      "fineSubject": "iPhone X",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8563,
+      "endSec": 9824,
+      "durationSec": 1261,
+      "topic": "iPhone X: Kein Button",
+      "fineSubject": "iPhone X",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 9824,
+      "endSec": 11021,
+      "durationSec": 1197,
+      "topic": "Digitale Verstärker",
+      "fineSubject": "Digitale Verstärker",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Business",
+      "startSec": 11021,
+      "endSec": 13064,
+      "durationSec": 2043,
+      "topic": "Distribution und Merchandising",
+      "fineSubject": "Distribution",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 13064,
+      "endSec": 13789,
+      "durationSec": 725,
+      "topic": "Kinos",
+      "fineSubject": "Kinos",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 13790,
+      "endSec": 14372,
+      "durationSec": 582,
+      "topic": "Blade Runner 2049",
+      "fineSubject": "Blade Runner 2049",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Culture",
+      "startSec": 14686,
+      "endSec": 15853,
+      "durationSec": 1167,
+      "topic": "Deutschland zum in der Pfeife rauchen",
+      "fineSubject": "Deutschland",
+      "topicIndex": 14
+    }
+  ]
+}

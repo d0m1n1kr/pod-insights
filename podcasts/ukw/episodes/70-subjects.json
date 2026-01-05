@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 70,
+  "title": "UKW070 Corona Weekly: Bundesnotbremse Total Landscaping",
+  "generatedAt": "2026-01-05T15:18:03.017Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 8286,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 9,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8286,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 281,
+      "endSec": 493,
+      "durationSec": 212,
+      "topic": "Feedback: Sinusthrombosen",
+      "fineSubject": "Medical Conditions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 493,
+      "endSec": 940,
+      "durationSec": 447,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 941,
+      "endSec": 2791,
+      "durationSec": 1850,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "COVID-19 Situation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2792,
+      "endSec": 3389,
+      "durationSec": 597,
+      "topic": "Prognosenkontroverse",
+      "fineSubject": "COVID-19 Predictions",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3389,
+      "endSec": 4481,
+      "durationSec": 1092,
+      "topic": "Bundesnotbremse",
+      "fineSubject": "COVID-19 Regulations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4482,
+      "endSec": 5516,
+      "durationSec": 1034,
+      "topic": "Impfkampagne in Deutschland",
+      "fineSubject": "Vaccination Campaigns",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5517,
+      "endSec": 6590,
+      "durationSec": 1073,
+      "topic": "Impfkampagne in Israel",
+      "fineSubject": "Vaccination Campaigns",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 6591,
+      "endSec": 6917,
+      "durationSec": 326,
+      "topic": "Wann Zweitimpfung?",
+      "fineSubject": "Vaccination Timing",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 6917,
+      "endSec": 8572,
+      "durationSec": 1655,
+      "topic": "Die Pandemie im Rückblick",
+      "fineSubject": "Pandemic Overview",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "episodeNumber": 86,
+  "title": "CRE086 USB",
+  "generatedAt": "2026-01-05T15:17:54.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.15384615384615385,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.8461538461538461,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 2,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 11,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Funktionsprinzipien von USB",
+      "fineSubject": "USB",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Enumeration der Geräte am Bus",
+      "fineSubject": "USB",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geräteanmeldung am Bus",
+      "fineSubject": "USB",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geräte- und Geschwindigkeitsklassen",
+      "fineSubject": "USB",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Stecker und Verkabelung",
+      "fineSubject": "USB",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Übertragungsmodi",
+      "fineSubject": "USB",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Stromversorgung via USB",
+      "fineSubject": "USB",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "USB on the Go",
+      "fineSubject": "USB",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Funktion eines USB-Hubs",
+      "fineSubject": "USB",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mixbetrieb von schnellen und langsamen Geräten",
+      "fineSubject": "USB",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "USB-Implementierungen auf verschiedenen Betriebssystemen",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Probleme unter Windows",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklung eigener USB-Hardware",
+      "fineSubject": "USB",
+      "topicIndex": 12,
+      "untimed": true
+    }
+  ]
+}

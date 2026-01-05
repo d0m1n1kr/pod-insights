@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 208,
+  "title": "Mi208 – „Blaubär-Institut“",
+  "generatedAt": "2026-01-05T15:18:17.373Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.20794392523364486,
+      "Culture": 0.3865298659081674,
+      "Wissenschaft": 0,
+      "Health": 0.1055465258025193,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.12952052011377488,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.17045916294189353,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2047,
+      "Culture": 3805,
+      "Wissenschaft": 0,
+      "Health": 1039,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1275,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1678,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 9844,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 385,
+      "endSec": 1200,
+      "durationSec": 815,
+      "topic": "Pandemiesituation",
+      "fineSubject": "Current Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1200,
+      "endSec": 1424,
+      "durationSec": 224,
+      "topic": "TestTest",
+      "fineSubject": "Discussion",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1424,
+      "endSec": 2515,
+      "durationSec": 1091,
+      "topic": "Diskussion Schwurbler",
+      "fineSubject": "Discussion",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3216,
+      "endSec": 4156,
+      "durationSec": 940,
+      "topic": "Lehmans Uni Buchhandlung",
+      "fineSubject": "Bookstore",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 5286,
+      "endSec": 5347,
+      "durationSec": 61,
+      "topic": "Themen der Woche",
+      "fineSubject": "Overview",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 5347,
+      "endSec": 6622,
+      "durationSec": 1275,
+      "topic": "Thema 1: \"Dancin’ Homer auf dem Mars”",
+      "fineSubject": "Analysis",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 6622,
+      "endSec": 8221,
+      "durationSec": 1599,
+      "topic": "Thema 2: \"Knorpel Curie\"",
+      "fineSubject": "Discussion",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 8221,
+      "endSec": 8669,
+      "durationSec": 448,
+      "topic": "Experiment",
+      "fineSubject": "Discussion",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8669,
+      "endSec": 10323,
+      "durationSec": 1654,
+      "topic": "Thema 3: “Der Aufstieg und Fall der Rationalität”",
+      "fineSubject": "Discussion",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 10323,
+      "endSec": 11534,
+      "durationSec": 1211,
+      "topic": "Thema 4: \"My little War-Pony\"",
+      "fineSubject": "Discussion",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 11573,
+      "endSec": 12099,
+      "durationSec": 526,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Weekly Highlights",
+      "topicIndex": 11
+    }
+  ]
+}

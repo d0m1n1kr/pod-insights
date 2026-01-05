@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 351,
+  "title": "Mi351 – \"Klammse\"",
+  "generatedAt": "2026-01-05T15:18:17.393Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.34147309906690493,
+      "Culture": 0.6585269009330951,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1720,
+      "Culture": 3317,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5037,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 993,
+      "endSec": 2559,
+      "durationSec": 1566,
+      "topic": "Urlaubsvermeidung",
+      "fineSubject": "Travel",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 3348,
+      "endSec": 4603,
+      "durationSec": 1255,
+      "topic": "Thema 1: \"Jetstream im Stau\"",
+      "fineSubject": "Meteorology",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 4603,
+      "endSec": 5068,
+      "durationSec": 465,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5068,
+      "endSec": 6161,
+      "durationSec": 1093,
+      "topic": "Thema 2: \"Scheiß die Wand an ist das warm hier\"",
+      "fineSubject": "Comfort",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6161,
+      "endSec": 6819,
+      "durationSec": 658,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 4
+    }
+  ]
+}

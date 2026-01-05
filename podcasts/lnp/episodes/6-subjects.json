@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 6,
+  "title": "LNP006 Digitaler Denkpanzer",
+  "generatedAt": "2026-01-05T15:17:57.571Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6236215902495648,
+      "Technology": 0.005803830528148578,
+      "Law": 0.14509576320371445,
+      "Security": 0,
+      "Social": 0.1889146836912362,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.013639001741149159,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.022925130586186882,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2149,
+      "Technology": 20,
+      "Law": 500,
+      "Security": 0,
+      "Social": 651,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 47,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 79,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3446,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 30,
+      "endSec": 681,
+      "durationSec": 651,
+      "topic": "Facebook und FTC",
+      "fineSubject": "Social Network",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 681,
+      "endSec": 1380,
+      "durationSec": 699,
+      "topic": "Piratenpartei Parteitag",
+      "fineSubject": "Political Party",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1381,
+      "endSec": 2506,
+      "durationSec": 1125,
+      "topic": "D64",
+      "fineSubject": "Political Organization",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2507,
+      "endSec": 2832,
+      "durationSec": 325,
+      "topic": "SPD-Parteitag",
+      "fineSubject": "Political Party",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2833,
+      "endSec": 3333,
+      "durationSec": 500,
+      "topic": "Aufhebung Netzsperrengesetz",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3334,
+      "endSec": 3413,
+      "durationSec": 79,
+      "topic": "WikiLeaks Spyfiles",
+      "fineSubject": "Data Leak",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3413,
+      "endSec": 3433,
+      "durationSec": 20,
+      "topic": "Leitfaden zum Datenzugriff",
+      "fineSubject": "Data Access",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 3433,
+      "endSec": 3480,
+      "durationSec": 47,
+      "topic": "Feedback",
+      "fineSubject": "Audience Interaction",
+      "topicIndex": 7
+    }
+  ]
+}

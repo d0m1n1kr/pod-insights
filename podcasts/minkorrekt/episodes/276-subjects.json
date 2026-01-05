@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 276,
+  "title": "Mi276 – \"Klopfwebinar\"",
+  "generatedAt": "2026-01-05T15:18:17.381Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.41467975689574565,
+      "Culture": 0.42940626460963066,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.12155212716222534,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0.034361851332398316
+    },
+    "durations": {
+      "Science": 1774,
+      "Culture": 1837,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 520,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 147
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 1
+    },
+    "totalDurationSec": 4278,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 208,
+      "endSec": 338,
+      "durationSec": 130,
+      "topic": "Buch Lockwood und Co",
+      "fineSubject": "Books",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 338,
+      "endSec": 1437,
+      "durationSec": 1099,
+      "topic": "Supraleitung doch kein Durchbruch",
+      "fineSubject": "Physics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2131,
+      "endSec": 2651,
+      "durationSec": 520,
+      "topic": "Apps zu Unterrichtungstafeln",
+      "fineSubject": "Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Biology",
+      "startSec": 2651,
+      "endSec": 2798,
+      "durationSec": 147,
+      "topic": "Probenaufbewahrung in der Biologie",
+      "fineSubject": "Lab Practices",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2798,
+      "endSec": 4505,
+      "durationSec": 1707,
+      "topic": "Thema 1: “Bottom up Leben”",
+      "fineSubject": "Living",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4505,
+      "endSec": 5180,
+      "durationSec": 675,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 6
+    }
+  ]
+}

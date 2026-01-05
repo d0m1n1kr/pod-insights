@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 114,
+  "title": "RZ114 CERN: CMS",
+  "generatedAt": "2026-01-05T15:18:06.289Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 1,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 7189,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 5,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 7189,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": 14,
+      "endSec": 1330,
+      "durationSec": 1316,
+      "topic": "Aufbau des CMS-Detektors",
+      "fineSubject": "Physik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 14,
+      "endSec": 1330,
+      "durationSec": 1316,
+      "topic": "Funktion des CMS-Detektors",
+      "fineSubject": "Physik",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 14,
+      "endSec": 1688,
+      "durationSec": 1674,
+      "topic": "Aufgabe des CMS-Detektors",
+      "fineSubject": "Physik",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 14,
+      "endSec": 1057,
+      "durationSec": 1043,
+      "topic": "Nachweis des Higgs-Bosons",
+      "fineSubject": "Teilchenphysik",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 14,
+      "endSec": 1854,
+      "durationSec": 1840,
+      "topic": "Untersuchung von Teilchen am LHC",
+      "fineSubject": "Teilchenphysik",
+      "topicIndex": 4
+    }
+  ]
+}

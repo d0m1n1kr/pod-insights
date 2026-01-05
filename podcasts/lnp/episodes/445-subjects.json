@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 445,
+  "title": "LNP445 Das Goldkettchen des Internets",
+  "generatedAt": "2026-01-05T15:17:57.635Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.03691838291380625,
+      "Technology": 0.5906941266209,
+      "Law": 0.06254767353165523,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.26834477498093057,
+      "Health": 0.017391304347826087,
+      "Feedback": 0.02410373760488177,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 242,
+      "Technology": 3872,
+      "Law": 410,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1759,
+      "Health": 114,
+      "Feedback": 158,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2,
+      "Health": 1,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6555,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 79,
+      "endSec": 678,
+      "durationSec": 599,
+      "topic": "11 Jahre LNP",
+      "fineSubject": "Podcasting",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 679,
+      "endSec": 1839,
+      "durationSec": 1160,
+      "topic": "Finanzierung von Podcasts",
+      "fineSubject": "Financing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1839,
+      "endSec": 1928,
+      "durationSec": 89,
+      "topic": "Feedback: No Response",
+      "fineSubject": "Audience Response",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1928,
+      "endSec": 1953,
+      "durationSec": 25,
+      "topic": "Feedback: Satanische Botschaften",
+      "fineSubject": "Audience Response",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1953,
+      "endSec": 1997,
+      "durationSec": 44,
+      "topic": "Feedback: Linus böse",
+      "fineSubject": "Audience Response",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 1998,
+      "endSec": 2031,
+      "durationSec": 33,
+      "topic": "BSI-Prä­si­dent klagt",
+      "fineSubject": "Litigation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2032,
+      "endSec": 5904,
+      "durationSec": 3872,
+      "topic": "Musk kauft Twitter",
+      "fineSubject": "Social Media",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 5904,
+      "endSec": 6281,
+      "durationSec": 377,
+      "topic": "Abmahnungen wegen Google Fonts",
+      "fineSubject": "Copyright",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6281,
+      "endSec": 6401,
+      "durationSec": 120,
+      "topic": "Frag den Staat und die “NSU”-Akten",
+      "fineSubject": "Government Transparency",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6401,
+      "endSec": 6523,
+      "durationSec": 122,
+      "topic": "Österreich gegen Chatkontrolle",
+      "fineSubject": "Privacy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 6524,
+      "endSec": 6638,
+      "durationSec": 114,
+      "topic": "gematik für Laufzeitverlängerung?",
+      "fineSubject": "Digital Health",
+      "topicIndex": 10
+    }
+  ]
+}

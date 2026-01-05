@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 104,
+  "title": "LNP104 Sekundäre Darlegungslast",
+  "generatedAt": "2026-01-05T15:17:57.589Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.14470284237726097,
+      "Technology": 0.26582687338501293,
+      "Law": 0.25129198966408267,
+      "Security": 0.10981912144702842,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.228359173126615,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 448,
+      "Technology": 823,
+      "Law": 778,
+      "Security": 340,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 707,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3096,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 291,
+      "endSec": 453,
+      "durationSec": 162,
+      "topic": "EuGH: Websurfer durch Urheberrechtsausnahme geschützt",
+      "fineSubject": "Copyright",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 453,
+      "endSec": 654,
+      "durationSec": 201,
+      "topic": "Amtsgericht Hannover: Stream-Gucken nur bei offensichtlich rechtswidriger Vorlage illegal",
+      "fineSubject": "Streaming",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 655,
+      "endSec": 1070,
+      "durationSec": 415,
+      "topic": "Begründung des Bundesgerichtshofsurteils zur Störerhaftung",
+      "fineSubject": "Liability",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1071,
+      "endSec": 1519,
+      "durationSec": 448,
+      "topic": "EU-Kommission unternimmt keinen neuen Anlauf zur Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 1519,
+      "endSec": 2226,
+      "durationSec": 707,
+      "topic": "Vodafone veröffentlicht internationalen LI-Bericht",
+      "fineSubject": "Reporting",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2226,
+      "endSec": 2566,
+      "durationSec": 340,
+      "topic": "Bundeswehr will Twitter und Facebook auswerten",
+      "fineSubject": "Social Media",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2566,
+      "endSec": 3389,
+      "durationSec": 823,
+      "topic": "TrueCrypt WTF",
+      "fineSubject": "Encryption",
+      "topicIndex": 6
+    }
+  ]
+}

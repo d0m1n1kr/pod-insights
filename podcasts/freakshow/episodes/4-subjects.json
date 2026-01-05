@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 4,
+  "title": "MM004 Again and Again",
+  "generatedAt": "2026-01-05T15:17:51.056Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3333333333333333,
+      "Software": 0.3333333333333333,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.3333333333333333,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "iPhone-Nachrichtenlage",
+      "fineSubject": "Mobile Devices",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "MacPorts",
+      "fineSubject": "Package Management",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Denis Twitter",
+      "fineSubject": "Social Media",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

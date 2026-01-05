@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 304,
+  "title": "Mi304 – \"Wegwerfsatelliten\"",
+  "generatedAt": "2026-01-05T15:18:17.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.562544547398432,
+      "Culture": 0.1240199572344975,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.09158945117605131,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.22184604419101925,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3157,
+      "Culture": 696,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 514,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1245,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 5612,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 368,
+      "endSec": 1064,
+      "durationSec": 696,
+      "topic": "Auftritt Hamburg",
+      "fineSubject": "Location / Hamburg",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1064,
+      "endSec": 2013,
+      "durationSec": 949,
+      "topic": "freestyle-physics 2024",
+      "fineSubject": "Event / freestyle-physics 2024",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2013,
+      "endSec": 3258,
+      "durationSec": 1245,
+      "topic": "Thema 1: “Strafen per Zoom”",
+      "fineSubject": "Topic / Strafen per Zoom",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3258,
+      "endSec": 3657,
+      "durationSec": 399,
+      "topic": "Snackable Science",
+      "fineSubject": "Format / Snackable Science",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3657,
+      "endSec": 5466,
+      "durationSec": 1809,
+      "topic": "Thema 2: \"Das neue FCKW\"",
+      "fineSubject": "Topic / FCKW",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 5466,
+      "endSec": 5980,
+      "durationSec": 514,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Segment / Schwurbel der Woche",
+      "topicIndex": 5
+    }
+  ]
+}

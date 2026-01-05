@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 95,
+  "title": "LNP095 Unerwünschte Nacktheit",
+  "generatedAt": "2026-01-05T15:17:57.588Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.11822985468956407,
+      "Law": 0.23877146631439894,
+      "Security": 0.4815059445178336,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.16149273447820345,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 358,
+      "Law": 723,
+      "Security": 1458,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 489,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3028,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 294,
+      "endSec": 1546,
+      "durationSec": 1252,
+      "topic": "GCHQ greift Webcam-Standbilder ab",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1547,
+      "endSec": 1895,
+      "durationSec": 348,
+      "topic": "BKA-Beamter im Besitz von Kindesmißbrauchsdarstellungen",
+      "fineSubject": "Child Exploitation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1895,
+      "endSec": 2270,
+      "durationSec": 375,
+      "topic": "Britischer Porno-Zensurverfechter wg. KiPo festgenommen",
+      "fineSubject": "Censorship",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2270,
+      "endSec": 2628,
+      "durationSec": 358,
+      "topic": "Iran will Internetzensur lockern",
+      "fineSubject": "Censorship",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3956,
+      "endSec": 4162,
+      "durationSec": 206,
+      "topic": "RSA-Boss zur NSA-Zusammenarbeit",
+      "fineSubject": "Government Collaboration",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4162,
+      "endSec": 4651,
+      "durationSec": 489,
+      "topic": "Hochschule Karlsruhe stellt Strafanzeige gegen den CCC",
+      "fineSubject": "Cyber Activism",
+      "topicIndex": 6
+    }
+  ]
+}

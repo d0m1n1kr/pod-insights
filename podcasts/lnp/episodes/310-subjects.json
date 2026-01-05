@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 310,
+  "title": "LNP310 Kompliziert und zertifiziert",
+  "generatedAt": "2026-01-05T15:17:57.614Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.0778970547756675,
+      "Technology": 0.538673272777319,
+      "Law": 0.06083126892375447,
+      "Security": 0.06633636113404899,
+      "Social": 0,
+      "Media": 0.25626204238921,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 283,
+      "Technology": 1957,
+      "Law": 221,
+      "Security": 241,
+      "Social": 0,
+      "Media": 931,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 3,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3633,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 79,
+      "endSec": 285,
+      "durationSec": 206,
+      "topic": "Podcasts auf dem Camp 2019",
+      "fineSubject": "Podcasts",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 286,
+      "endSec": 351,
+      "durationSec": 65,
+      "topic": "Feedback: Enterprise MITM",
+      "fineSubject": "MITM",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 351,
+      "endSec": 823,
+      "durationSec": 472,
+      "topic": "StreamOn dreams on",
+      "fineSubject": "Streaming",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 824,
+      "endSec": 1107,
+      "durationSec": 283,
+      "topic": "Chelsea Manning in Beugehaft",
+      "fineSubject": "Activism",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1108,
+      "endSec": 2443,
+      "durationSec": 1335,
+      "topic": "8chan",
+      "fineSubject": "Forums",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2801,
+      "endSec": 3423,
+      "durationSec": 622,
+      "topic": "Sprachassistenten",
+      "fineSubject": "Voice Assistants",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 3424,
+      "endSec": 3677,
+      "durationSec": 253,
+      "topic": "Mal wieder eine Forbes-Ente",
+      "fineSubject": "News",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3677,
+      "endSec": 3853,
+      "durationSec": 176,
+      "topic": "FinFisher",
+      "fineSubject": "Surveillance",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 3854,
+      "endSec": 4075,
+      "durationSec": 221,
+      "topic": "Offene Lizenzen der EU-Kommission",
+      "fineSubject": "Licensing",
+      "topicIndex": 9
+    }
+  ]
+}

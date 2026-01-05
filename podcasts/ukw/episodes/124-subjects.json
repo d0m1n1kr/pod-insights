@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 124,
+  "title": "UKW124 Ukraine: One can simply walk into Mordor",
+  "generatedAt": "2026-01-05T15:18:03.032Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.5743200506008855,
+      "Military": 0.42567994939911447,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 5448,
+      "Military": 4038,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 5,
+      "Military": 6,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9486,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 168,
+      "endSec": 1201,
+      "durationSec": 1033,
+      "topic": "Lage in Donetsk, Luhansk, Cherson, Krim",
+      "fineSubject": "Conflict Zones",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 1202,
+      "endSec": 1520,
+      "durationSec": 318,
+      "topic": "Kharkiv-Offensive der Russen",
+      "fineSubject": "Offensives",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 1521,
+      "endSec": 1976,
+      "durationSec": 455,
+      "topic": "Drohnenangriffe in Russland",
+      "fineSubject": "Drones",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 1977,
+      "endSec": 3836,
+      "durationSec": 1859,
+      "topic": "Die Kursk-Offensive der Ukraine",
+      "fineSubject": "Offensives",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3837,
+      "endSec": 5406,
+      "durationSec": 1569,
+      "topic": "Die Dilemmata der Russen",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5406,
+      "endSec": 6778,
+      "durationSec": 1372,
+      "topic": "Außenpolitische Implikationen",
+      "fineSubject": "International Relations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6779,
+      "endSec": 7481,
+      "durationSec": 702,
+      "topic": "Situation in Russland",
+      "fineSubject": "Domestic Situation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 7481,
+      "endSec": 7917,
+      "durationSec": 436,
+      "topic": "Neue Waffensysteme",
+      "fineSubject": "Weapon Systems",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 7917,
+      "endSec": 8295,
+      "durationSec": 378,
+      "topic": "Roboter- und Drohnenkrieg",
+      "fineSubject": "Drones",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 8296,
+      "endSec": 8888,
+      "durationSec": 592,
+      "topic": "Cluster-Munition und die Minenproblematik",
+      "fineSubject": "Munitions",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8888,
+      "endSec": 9660,
+      "durationSec": 772,
+      "topic": "Neues zu den NordStream-Anschlägen",
+      "fineSubject": "Energy Security",
+      "topicIndex": 10
+    }
+  ]
+}

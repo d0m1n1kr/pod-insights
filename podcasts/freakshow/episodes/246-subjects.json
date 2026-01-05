@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 246,
+  "title": "FS246 Raumzeitfenster",
+  "generatedAt": "2026-01-05T15:17:51.107Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.10466600482201106,
+      "Software": 0.09998581761452276,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.2653524322791094,
+      "Social": 0,
+      "Culture": 0.4848957594667423,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.04509998581761452,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 738,
+      "Software": 705,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1871,
+      "Social": 0,
+      "Culture": 3419,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 318,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 7051,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 460,
+      "endSec": 2528,
+      "durationSec": 2068,
+      "topic": "Monty Python und Humor",
+      "fineSubject": "Comedy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 3855,
+      "endSec": 4173,
+      "durationSec": 318,
+      "topic": "Plague Inc.",
+      "fineSubject": "Simulation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 4174,
+      "endSec": 4879,
+      "durationSec": 705,
+      "topic": "Texteditoren",
+      "fineSubject": "Text Editors",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4880,
+      "endSec": 5618,
+      "durationSec": 738,
+      "topic": "Living the Future: Hotel Check-In",
+      "fineSubject": "Future Innovations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 6231,
+      "endSec": 7633,
+      "durationSec": 1402,
+      "topic": "Podcast-Zyklen und Social Media",
+      "fineSubject": "Social Media",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 11273,
+      "endSec": 12624,
+      "durationSec": 1351,
+      "topic": "Sozialraum Auto",
+      "fineSubject": "Automobiles",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 13870,
+      "endSec": 14339,
+      "durationSec": 469,
+      "topic": "Billie Eilish",
+      "fineSubject": "Artists",
+      "topicIndex": 11
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 342,
+  "title": "Mi342 – \"Super Pep\"",
+  "generatedAt": "2026-01-05T15:18:17.391Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.6522234891676169,
+      "Wissenschaft": 0,
+      "Health": 0.233751425313569,
+      "Technology": 0.11402508551881414,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 2860,
+      "Wissenschaft": 0,
+      "Health": 1025,
+      "Technology": 500,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4385,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 276,
+      "endSec": 521,
+      "durationSec": 245,
+      "topic": "McRib Duschgel",
+      "fineSubject": "Hygiene",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 521,
+      "endSec": 1021,
+      "durationSec": 500,
+      "topic": "Mehr KI nutzen",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1021,
+      "endSec": 1468,
+      "durationSec": 447,
+      "topic": "Joggen",
+      "fineSubject": "Fitness",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1832,
+      "endSec": 3514,
+      "durationSec": 1682,
+      "topic": "Thema 1: \"Klang statt Kübel\"",
+      "fineSubject": "Sound Design",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3514,
+      "endSec": 4092,
+      "durationSec": 578,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5439,
+      "endSec": 6372,
+      "durationSec": 933,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 6
+    }
+  ]
+}

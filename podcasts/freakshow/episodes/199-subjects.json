@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 199,
+  "title": "FS199 Dieses Wochenende, nächstes Wochenende",
+  "generatedAt": "2026-01-05T15:17:51.092Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3332120329936924,
+      "Software": 0.5339640950994663,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.13282387190684133,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2747,
+      "Software": 4402,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1095,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 6,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 3,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8244,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 283,
+      "endSec": 430,
+      "durationSec": 147,
+      "topic": "FS200 doch nicht live",
+      "fineSubject": "Podcast / Live Shows",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 431,
+      "endSec": 779,
+      "durationSec": 348,
+      "topic": "Dieses Wochenende, nächstes Wochenende",
+      "fineSubject": "Podcast / Weekend Plans",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 779,
+      "endSec": 1336,
+      "durationSec": 557,
+      "topic": "Arrays mit 0 oder 1",
+      "fineSubject": "Arrays / Basics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2396,
+      "endSec": 2739,
+      "durationSec": 343,
+      "topic": "Schwierigkeiten mit VR",
+      "fineSubject": "Challenges / Issues",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2740,
+      "endSec": 3482,
+      "durationSec": 742,
+      "topic": "Anwendungen für VR",
+      "fineSubject": "Applications / Use Cases",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 3482,
+      "endSec": 4560,
+      "durationSec": 1078,
+      "topic": "JavaScript App Framworks",
+      "fineSubject": "JavaScript / Apps",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 4561,
+      "endSec": 4747,
+      "durationSec": 186,
+      "topic": "WebASM",
+      "fineSubject": "WebASM / Overview",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 4748,
+      "endSec": 6105,
+      "durationSec": 1357,
+      "topic": "Continous Integration",
+      "fineSubject": "Continuous Integration / Tools",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 6105,
+      "endSec": 6793,
+      "durationSec": 688,
+      "topic": "Editoren",
+      "fineSubject": "Editors / Types",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 6793,
+      "endSec": 7329,
+      "durationSec": 536,
+      "topic": "Code schreiben und gut dabei fühlen",
+      "fineSubject": "Coding / Experience",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7330,
+      "endSec": 8992,
+      "durationSec": 1662,
+      "topic": "360 Grad Kameras",
+      "fineSubject": "360 Degree / Usage",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 11644,
+      "endSec": 12244,
+      "durationSec": 600,
+      "topic": "WWDC Wünschdirwas",
+      "fineSubject": "WWDC / Wishes",
+      "topicIndex": 11
+    }
+  ]
+}

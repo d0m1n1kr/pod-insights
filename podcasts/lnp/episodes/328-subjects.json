@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 328,
+  "title": "LNP328 Immerhin hat er aufgehört zu singen",
+  "generatedAt": "2026-01-05T15:17:57.617Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.48921028466483013,
+      "Law": 0.09320477502295683,
+      "Security": 0,
+      "Social": 0.0539485766758494,
+      "Media": 0.10560146923783287,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.1893939393939394,
+      "Privacy": 0,
+      "Culture": 0.06864095500459137
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2131,
+      "Law": 406,
+      "Security": 0,
+      "Social": 235,
+      "Media": 460,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 825,
+      "Privacy": 0,
+      "Culture": 299
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4356,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 336,
+      "endSec": 1161,
+      "durationSec": 825,
+      "topic": "MBS vs. Bezos",
+      "fineSubject": "Entrepreneurship",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1162,
+      "endSec": 1461,
+      "durationSec": 299,
+      "topic": "Buchbinder",
+      "fineSubject": "Literature",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1461,
+      "endSec": 1830,
+      "durationSec": 369,
+      "topic": "Gesichtserkennung in .de",
+      "fineSubject": "Facial Recognition",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1831,
+      "endSec": 3158,
+      "durationSec": 1327,
+      "topic": "FBI & Apple",
+      "fineSubject": "Security",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3159,
+      "endSec": 3619,
+      "durationSec": 460,
+      "topic": "Glenn Greenwald",
+      "fineSubject": "Journalism",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3619,
+      "endSec": 4054,
+      "durationSec": 435,
+      "topic": "Win 7 extended Support",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 4055,
+      "endSec": 4290,
+      "durationSec": 235,
+      "topic": "Hasspostings",
+      "fineSubject": "Online Behavior",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4290,
+      "endSec": 4696,
+      "durationSec": 406,
+      "topic": "Recht auf Verschlüsselung",
+      "fineSubject": "Privacy",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 19,
+  "title": "LNP019 Peak Pirate",
+  "generatedAt": "2026-01-05T15:17:57.574Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5967973722028331,
+      "Technology": 0,
+      "Law": 0.2434818312461507,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.1342640114966126,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.025456785054403613
+    },
+    "durations": {
+      "Politics": 2907,
+      "Technology": 0,
+      "Law": 1186,
+      "Security": 0,
+      "Social": 0,
+      "Media": 654,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 124
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4871,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 146,
+      "endSec": 1414,
+      "durationSec": 1268,
+      "topic": "cnetz",
+      "fineSubject": "Internet Governance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1414,
+      "endSec": 2297,
+      "durationSec": 883,
+      "topic": "Ausbau der Vorratsdatenspeicherung in UK",
+      "fineSubject": "Data Retention",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2297,
+      "endSec": 2600,
+      "durationSec": 303,
+      "topic": "Abmahnungen wegen offener WLANs in Cafés",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2601,
+      "endSec": 2725,
+      "durationSec": 124,
+      "topic": "Astroturfing oder Plagiat bei \"Kunst hat Recht\"",
+      "fineSubject": "Art and Ethics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2725,
+      "endSec": 3379,
+      "durationSec": 654,
+      "topic": "51 Tatort-Autoren gegen 51 Hacker",
+      "fineSubject": "Censorship",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3380,
+      "endSec": 5019,
+      "durationSec": 1639,
+      "topic": "Die allgemeine Großpiratenlage",
+      "fineSubject": "Piracy",
+      "topicIndex": 5
+    }
+  ]
+}

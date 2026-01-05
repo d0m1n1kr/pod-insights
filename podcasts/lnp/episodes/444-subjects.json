@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 444,
+  "title": "LNP444 Der Flaschenhals seid Ihr",
+  "generatedAt": "2026-01-05T15:17:57.635Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3482222222222222,
+      "Technology": 0.19266666666666668,
+      "Law": 0,
+      "Security": 0.09311111111111112,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.14266666666666666,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.22333333333333333,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1567,
+      "Technology": 867,
+      "Law": 0,
+      "Security": 419,
+      "Social": 0,
+      "Media": 0,
+      "Health": 642,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1005,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4500,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 211,
+      "endSec": 828,
+      "durationSec": 617,
+      "topic": "Feedback: GSM-R",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 829,
+      "endSec": 1471,
+      "durationSec": 642,
+      "topic": "Feedback: gematik TI",
+      "fineSubject": "Digital Health",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1471,
+      "endSec": 1890,
+      "durationSec": 419,
+      "topic": "Reaktionen auf den gematik-Hack",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1970,
+      "endSec": 3244,
+      "durationSec": 1274,
+      "topic": "Protelion-Affäre",
+      "fineSubject": "Government Affairs",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3962,
+      "endSec": 4255,
+      "durationSec": 293,
+      "topic": "Chatkontrolle-Kampagne",
+      "fineSubject": "Legislation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 4255,
+      "endSec": 5260,
+      "durationSec": 1005,
+      "topic": "Problembär Elon",
+      "fineSubject": "Entrepreneurship",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5261,
+      "endSec": 5511,
+      "durationSec": 250,
+      "topic": "Clearview AI",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 8
+    }
+  ]
+}

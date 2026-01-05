@@ -1,0 +1,252 @@
+{
+  "episodeNumber": 355,
+  "title": "LNP355 Hong Kong",
+  "generatedAt": "2026-01-05T15:17:57.621Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6712059869954606,
+      "Technology": 0.09348546190651454,
+      "Law": 0,
+      "Security": 0.023064654643602012,
+      "Social": 0.0425714636240952,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.05864311127469022,
+      "Privacy": 0,
+      "Culture": 0.11102932155563734
+    },
+    "durations": {
+      "Politics": 5471,
+      "Technology": 762,
+      "Law": 0,
+      "Security": 188,
+      "Social": 347,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 478,
+      "Privacy": 0,
+      "Culture": 905
+    },
+    "topicCounts": {
+      "Politics": 12,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 5
+    },
+    "totalDurationSec": 8151,
+    "totalTopics": 26
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 750,
+      "endSec": 1069,
+      "durationSec": 319,
+      "topic": "\"Demokratie\"",
+      "fineSubject": "Democracy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1070,
+      "endSec": 1376,
+      "durationSec": 306,
+      "topic": "Leben in Hong Kong",
+      "fineSubject": "Life in Hong Kong",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 1376,
+      "endSec": 1854,
+      "durationSec": 478,
+      "topic": "Arbeiten in Hong Kong",
+      "fineSubject": "Work in Hong Kong",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1855,
+      "endSec": 2505,
+      "durationSec": 650,
+      "topic": "Internet",
+      "fineSubject": "Internet",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2505,
+      "endSec": 2699,
+      "durationSec": 194,
+      "topic": "Cyberpunk",
+      "fineSubject": "Cyberpunk",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 2700,
+      "endSec": 3047,
+      "durationSec": 347,
+      "topic": "Domestic Helpers",
+      "fineSubject": "Domestic Helpers",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3047,
+      "endSec": 3147,
+      "durationSec": 100,
+      "topic": "\"Romantik\"",
+      "fineSubject": "Romance",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3148,
+      "endSec": 3195,
+      "durationSec": 47,
+      "topic": "Partyszene",
+      "fineSubject": "Party Scene",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3602,
+      "endSec": 3925,
+      "durationSec": 323,
+      "topic": "Liberalismus und Rechtssicherheit",
+      "fineSubject": "Liberalism and Rule of Law",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3926,
+      "endSec": 4184,
+      "durationSec": 258,
+      "topic": "kulturelle Unterschiede zu China",
+      "fineSubject": "Cultural Differences with China",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4184,
+      "endSec": 4992,
+      "durationSec": 808,
+      "topic": "Umbrella Revolution 2014",
+      "fineSubject": "Umbrella Revolution 2014",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4993,
+      "endSec": 5296,
+      "durationSec": 303,
+      "topic": "Extradition Law 2019",
+      "fineSubject": "Extradition Law 2019",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5297,
+      "endSec": 5529,
+      "durationSec": 232,
+      "topic": "Proteste 2019",
+      "fineSubject": "Protests 2019",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6403,
+      "endSec": 6552,
+      "durationSec": 149,
+      "topic": "Rolle der Polizei",
+      "fineSubject": "Role of Police",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6553,
+      "endSec": 7509,
+      "durationSec": 956,
+      "topic": "Forderungen 2019",
+      "fineSubject": "Demands 2019",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7509,
+      "endSec": 8248,
+      "durationSec": 739,
+      "topic": "2047",
+      "fineSubject": "2047",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8249,
+      "endSec": 8376,
+      "durationSec": 127,
+      "topic": "Joshua Wong",
+      "fineSubject": "Joshua Wong",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Security",
+      "startSec": 8377,
+      "endSec": 8565,
+      "durationSec": 188,
+      "topic": "Militär",
+      "fineSubject": "Military",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8565,
+      "endSec": 8748,
+      "durationSec": 183,
+      "topic": "Security Office",
+      "fineSubject": "Security Office",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8748,
+      "endSec": 8860,
+      "durationSec": 112,
+      "topic": "Internet und Netzkultur",
+      "fineSubject": "Internet and Net Culture",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8861,
+      "endSec": 9209,
+      "durationSec": 348,
+      "topic": "Unklarheit",
+      "fineSubject": "Uncertainty",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9209,
+      "endSec": 10193,
+      "durationSec": 984,
+      "topic": "Internationale Perpektive",
+      "fineSubject": "International Perspective",
+      "topicIndex": 25
+    }
+  ]
+}

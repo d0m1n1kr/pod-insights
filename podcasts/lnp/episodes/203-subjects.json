@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 203,
+  "title": "LNP203 Unglück im Glück im Unglück",
+  "generatedAt": "2026-01-05T15:17:57.600Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.08003597122302158,
+      "Technology": 0.7265187849720224,
+      "Law": 0.1035171862509992,
+      "Security": 0,
+      "Social": 0.03177458033573141,
+      "Media": 0.05815347721822542,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 801,
+      "Technology": 7271,
+      "Law": 1036,
+      "Security": 0,
+      "Social": 318,
+      "Media": 582,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 2,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 10008,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 96,
+      "endSec": 208,
+      "durationSec": 112,
+      "topic": "Feedback: Social Bots",
+      "fineSubject": "Social Bots",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 209,
+      "endSec": 415,
+      "durationSec": 206,
+      "topic": "Feedback: Kommentarkultur",
+      "fineSubject": "Kommentarkultur",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 415,
+      "endSec": 575,
+      "durationSec": 160,
+      "topic": "Feedback: Nachzählung in den USA",
+      "fineSubject": "Nachzählung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 576,
+      "endSec": 3205,
+      "durationSec": 2629,
+      "topic": "Telekom Routerausfall",
+      "fineSubject": "Router",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3205,
+      "endSec": 3817,
+      "durationSec": 612,
+      "topic": "IT-Sicherheitsgesetz schleppend",
+      "fineSubject": "IT-Sicherheitsgesetz",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3817,
+      "endSec": 8459,
+      "durationSec": 4642,
+      "topic": "Big Data",
+      "fineSubject": "Big Data",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 8459,
+      "endSec": 9041,
+      "durationSec": 582,
+      "topic": "Fake News",
+      "fineSubject": "Fake News",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9042,
+      "endSec": 9683,
+      "durationSec": 641,
+      "topic": "Wikileaks NSAUA",
+      "fineSubject": "Wikileaks",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 9861,
+      "endSec": 10285,
+      "durationSec": 424,
+      "topic": "Grundrechtcharta",
+      "fineSubject": "Grundrechtcharta",
+      "topicIndex": 9
+    }
+  ]
+}

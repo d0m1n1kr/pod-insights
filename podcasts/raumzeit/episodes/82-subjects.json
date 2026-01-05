@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 82,
+  "title": "RZ082 Bodenerkundung auf dem Mars",
+  "generatedAt": "2026-01-05T15:18:06.285Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0.5979424440428194,
+      "Science": 0.40205755595718057,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 8602,
+      "Science": 5784,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 3,
+      "Science": 3,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 14386,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": 15,
+      "endSec": 3996,
+      "durationSec": 3981,
+      "topic": "Erkenntnisse aus Marsmissionen",
+      "fineSubject": "Mars Exploration",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 15,
+      "endSec": 2026,
+      "durationSec": 2011,
+      "topic": "Entwicklung des Sonnensystems",
+      "fineSubject": "Cosmology",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Space",
+      "startSec": 15,
+      "endSec": 1124,
+      "durationSec": 1109,
+      "topic": "Zusammenarbeit von NASA und ESA",
+      "fineSubject": "Space Agencies",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 82,
+      "endSec": 1124,
+      "durationSec": 1042,
+      "topic": "Geologie des Mars",
+      "fineSubject": "Geology",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 494,
+      "endSec": 3225,
+      "durationSec": 2731,
+      "topic": "Geochemie des Mars",
+      "fineSubject": "Geochemistry",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Space",
+      "startSec": 4039,
+      "endSec": 7551,
+      "durationSec": 3512,
+      "topic": "Zukünftige Marsmissionen",
+      "fineSubject": "Mission Planning",
+      "topicIndex": 5
+    }
+  ]
+}

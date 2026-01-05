@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 356,
+  "title": "LNP356 Gesegneter Entscheidungswahn",
+  "generatedAt": "2026-01-05T15:17:57.621Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1774928294246668,
+      "Technology": 0.430065800573646,
+      "Law": 0.021933524548675552,
+      "Security": 0.13143242787244813,
+      "Social": 0.021258646870254767,
+      "Media": 0,
+      "Health": 0.11388560823350767,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.08216635734773073,
+      "Privacy": 0.021764805129070357,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1052,
+      "Technology": 2549,
+      "Law": 130,
+      "Security": 779,
+      "Social": 126,
+      "Media": 0,
+      "Health": 675,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 487,
+      "Privacy": 129,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 4,
+      "Law": 1,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5927,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 203,
+      "endSec": 1255,
+      "durationSec": 1052,
+      "topic": "Trump vs. TikTok",
+      "fineSubject": "Social Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1255,
+      "endSec": 2001,
+      "durationSec": 746,
+      "topic": "CWA: Anbindung der Labore nach wie vor problematisch",
+      "fineSubject": "Health Apps",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2001,
+      "endSec": 2906,
+      "durationSec": 905,
+      "topic": "CWA: Probleme mit Messungen im ÖPNV",
+      "fineSubject": "Public Transport",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2906,
+      "endSec": 3494,
+      "durationSec": 588,
+      "topic": "CWA: Probleme mit Hintergrundaktualisierung",
+      "fineSubject": "Health Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3495,
+      "endSec": 4170,
+      "durationSec": 675,
+      "topic": "Corona-Kontaktlisten",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 4170,
+      "endSec": 4591,
+      "durationSec": 421,
+      "topic": "Twitter-Hack",
+      "fineSubject": "Cyber Attacks",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4592,
+      "endSec": 4950,
+      "durationSec": 358,
+      "topic": "Illegale Zugriffe auf Polizeidatenbanken",
+      "fineSubject": "Data Breaches",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4950,
+      "endSec": 5080,
+      "durationSec": 130,
+      "topic": "Richtervorbehaaahahhaaa",
+      "fineSubject": "Judicial System",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5081,
+      "endSec": 5391,
+      "durationSec": 310,
+      "topic": "Bestandsdatenabfrage",
+      "fineSubject": "Data Requests",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Business",
+      "startSec": 5391,
+      "endSec": 5878,
+      "durationSec": 487,
+      "topic": "voteIT hat ivu.elect übernommen",
+      "fineSubject": "Acquisitions",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5879,
+      "endSec": 6008,
+      "durationSec": 129,
+      "topic": "noyb: 101 Beschwerden wegen illegaler Datentransfers",
+      "fineSubject": "Data Protection",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 6008,
+      "endSec": 6134,
+      "durationSec": 126,
+      "topic": "Digitale Gesellschaft sucht Leitung",
+      "fineSubject": "Digital Governance",
+      "topicIndex": 11
+    }
+  ]
+}

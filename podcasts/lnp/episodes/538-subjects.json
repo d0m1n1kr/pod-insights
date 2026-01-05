@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 538,
+  "title": "LNP538 Neugier ist immer eine gute Ausrede",
+  "generatedAt": "2026-01-05T15:17:57.646Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.29182242990654206,
+      "Technology": 0.16074766355140188,
+      "Law": 0.12266355140186916,
+      "Security": 0.1649532710280374,
+      "Social": 0,
+      "Media": 0.25981308411214954,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1249,
+      "Technology": 688,
+      "Law": 525,
+      "Security": 706,
+      "Social": 0,
+      "Media": 1112,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 1,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4280,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 183,
+      "endSec": 681,
+      "durationSec": 498,
+      "topic": "20 Jahre Metaebene",
+      "fineSubject": "Anniversary",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1024,
+      "endSec": 1175,
+      "durationSec": 151,
+      "topic": "Feedback: AI Act",
+      "fineSubject": "AI",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1885,
+      "endSec": 2573,
+      "durationSec": 688,
+      "topic": "Cloudflare-Ausfall",
+      "fineSubject": "Outage",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2574,
+      "endSec": 3823,
+      "durationSec": 1249,
+      "topic": "Souveränitäts-Digitalgipfel",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3823,
+      "endSec": 3958,
+      "durationSec": 135,
+      "topic": "Freiwillige Chatkontrolle",
+      "fineSubject": "Privacy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3959,
+      "endSec": 4198,
+      "durationSec": 239,
+      "topic": "JMStV-Novelle: Pornofilter für Betriebssysteme",
+      "fineSubject": "Content Filtering",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 4198,
+      "endSec": 4904,
+      "durationSec": 706,
+      "topic": "WhatsApp-Leak",
+      "fineSubject": "Data Leak",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 4904,
+      "endSec": 5518,
+      "durationSec": 614,
+      "topic": "Radio Dreyeckland",
+      "fineSubject": "Radio",
+      "topicIndex": 10
+    }
+  ]
+}

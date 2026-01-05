@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 84,
+  "title": "LNP084 Zielpersonenspezifische Ausleitung",
+  "generatedAt": "2026-01-05T15:17:57.586Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7533517769738243,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.17620770376675887,
+      "Social": 0,
+      "Media": 0.0704405192594169,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3540,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 828,
+      "Social": 0,
+      "Media": 331,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4699,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 311,
+      "endSec": 2847,
+      "durationSec": 2536,
+      "topic": "Große Koalition zur Netzpolitik",
+      "fineSubject": "Netzpolitik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 2847,
+      "endSec": 3178,
+      "durationSec": 331,
+      "topic": "Antennen auf Botschaften. Nein, wirklich!",
+      "fineSubject": "Botschaften",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3179,
+      "endSec": 4183,
+      "durationSec": 1004,
+      "topic": "Ströbele besucht Snowden",
+      "fineSubject": "Überwachung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 4184,
+      "endSec": 5012,
+      "durationSec": 828,
+      "topic": "Geheimdienst-Zusammenarbeit",
+      "fineSubject": "Zusammenarbeit",
+      "topicIndex": 3
+    }
+  ]
+}

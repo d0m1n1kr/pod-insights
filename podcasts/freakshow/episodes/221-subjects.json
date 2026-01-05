@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 221,
+  "title": "FS221 Touran Touran",
+  "generatedAt": "2026-01-05T15:17:51.097Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1779344227277582,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.15678735448040157,
+      "Media": 0.14738865748157642,
+      "Social": 0.15838940510520133,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.3595001602050625,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1666,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1468,
+      "Media": 1380,
+      "Social": 1483,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 3366,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2,
+      "Media": 2,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9363,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 524,
+      "endSec": 2007,
+      "durationSec": 1483,
+      "topic": "Mastodon und Twitter",
+      "fineSubject": "Mastodon und Twitter",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 2007,
+      "endSec": 4236,
+      "durationSec": 2229,
+      "topic": "Plattform-Abos",
+      "fineSubject": "Plattform-Abos",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 4237,
+      "endSec": 5494,
+      "durationSec": 1257,
+      "topic": "Apple Pay in Deutschland",
+      "fineSubject": "Apple Pay in Deutschland",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Finance",
+      "startSec": 5495,
+      "endSec": 5706,
+      "durationSec": 211,
+      "topic": "1001 Daueraufträge",
+      "fineSubject": "1001 Daueraufträge",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 10709,
+      "endSec": 12000,
+      "durationSec": 1291,
+      "topic": "Castro und Podcasting Features",
+      "fineSubject": "Castro und Podcasting Features",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12000,
+      "endSec": 12842,
+      "durationSec": 842,
+      "topic": "Richtfunk",
+      "fineSubject": "Richtfunk",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Business",
+      "startSec": 12843,
+      "endSec": 13980,
+      "durationSec": 1137,
+      "topic": "Selbständige Letty",
+      "fineSubject": "Selbständige Letty",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13980,
+      "endSec": 14804,
+      "durationSec": 824,
+      "topic": "Network Attached Storage",
+      "fineSubject": "Network Attached Storage",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 14907,
+      "endSec": 14996,
+      "durationSec": 89,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 15
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 201,
+  "title": "FS201 Multidimensionale Fisimatentendynamik",
+  "generatedAt": "2026-01-05T15:17:51.092Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5263226820324778,
+      "Software": 0.3023834468308015,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.0781822943949712,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.09311157674174961,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4019,
+      "Software": 2309,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 597,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 711,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 3,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 7636,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 3102,
+      "endSec": 3699,
+      "durationSec": 597,
+      "topic": "Notfall in Scoville",
+      "fineSubject": "Notfall",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 4388,
+      "endSec": 5099,
+      "durationSec": 711,
+      "topic": "Exploding Kitten",
+      "fineSubject": "Exploding Kitten",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5100,
+      "endSec": 6276,
+      "durationSec": 1176,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Pimp My Mac",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 6276,
+      "endSec": 7369,
+      "durationSec": 1093,
+      "topic": "iOS 11",
+      "fineSubject": "iOS 11",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 7369,
+      "endSec": 8386,
+      "durationSec": 1017,
+      "topic": "CarPlay und Maps",
+      "fineSubject": "CarPlay und Maps",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8387,
+      "endSec": 9375,
+      "durationSec": 988,
+      "topic": "Augmented Reality",
+      "fineSubject": "Augmented Reality",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11020,
+      "endSec": 11985,
+      "durationSec": 965,
+      "topic": "12V Powerbanks",
+      "fineSubject": "12V Powerbanks",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 11985,
+      "endSec": 12184,
+      "durationSec": 199,
+      "topic": "Slack Shortcut",
+      "fineSubject": "Slack Shortcut",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13174,
+      "endSec": 14064,
+      "durationSec": 890,
+      "topic": "Byteballs",
+      "fineSubject": "Byteballs",
+      "topicIndex": 13
+    }
+  ]
+}

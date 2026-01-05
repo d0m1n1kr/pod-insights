@@ -1,0 +1,194 @@
+{
+  "episodeNumber": 158,
+  "title": "CRE158 LiquidFeedback",
+  "generatedAt": "2026-01-05T15:17:54.383Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.14285714285714285,
+      "Social": 0.14285714285714285,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.6428571428571429,
+      "Security": 0.07142857142857142,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 2,
+      "Social": 2,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 9,
+      "Security": 1,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Liquid Democracy",
+      "fineSubject": "Democracy",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Delegated Voting",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "LiquidFeedback",
+      "fineSubject": "Voting Tools",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "System Configuration",
+      "fineSubject": "Software Configuration",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Best Practices",
+      "fineSubject": "Voting Processes",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Delegation",
+      "fineSubject": "Voting Dynamics",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Transparency",
+      "fineSubject": "System Transparency",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Abstimmung mit Präferenzen",
+      "fineSubject": "Voting Methods",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Nutzerverhalten",
+      "fineSubject": "User Behavior",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Trollresistenz",
+      "fineSubject": "System Security",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Risiken von Online-Abstimmungen",
+      "fineSubject": "Voting Risks",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Integration in andere Umgebungen",
+      "fineSubject": "System Integration",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Abstimmungspsychologie",
+      "fineSubject": "Voting Psychology",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Alternative Wahlsysteme",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 13,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 184,
+  "title": "FS184 Dringendes Klickbedürfnis",
+  "generatedAt": "2026-01-05T15:17:51.088Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4419959473150962,
+      "Software": 0.3300405268490375,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.04584599797365755,
+      "Social": 0,
+      "Culture": 0.18211752786220872,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1745,
+      "Software": 1303,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 181,
+      "Social": 0,
+      "Culture": 719,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 3,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 3948,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 5515,
+      "endSec": 6309,
+      "durationSec": 794,
+      "topic": "Datenkompression mit zStandard",
+      "fineSubject": "Datenkompression mit zStandard",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6310,
+      "endSec": 6824,
+      "durationSec": 514,
+      "topic": "Native Encryption mit ZFS",
+      "fineSubject": "Native Encryption mit ZFS",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 6824,
+      "endSec": 7678,
+      "durationSec": 854,
+      "topic": "macOS Sierra",
+      "fineSubject": "macOS Sierra",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7679,
+      "endSec": 7978,
+      "durationSec": 299,
+      "topic": "Garbage Collection No More",
+      "fineSubject": "Garbage Collection No More",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 7978,
+      "endSec": 8122,
+      "durationSec": 144,
+      "topic": "iOS 10",
+      "fineSubject": "iOS 10",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 8184,
+      "endSec": 8365,
+      "durationSec": 181,
+      "topic": "Roddi ist jetzt Podcaster",
+      "fineSubject": "Roddi ist jetzt Podcaster",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8365,
+      "endSec": 8503,
+      "durationSec": 138,
+      "topic": "Trauer um BlackBerry",
+      "fineSubject": "Trauer um BlackBerry",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 8504,
+      "endSec": 8809,
+      "durationSec": 305,
+      "topic": "iOS 10 Klagen",
+      "fineSubject": "iOS 10 Klagen",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8809,
+      "endSec": 9528,
+      "durationSec": 719,
+      "topic": "The KLF",
+      "fineSubject": "The KLF",
+      "topicIndex": 13
+    }
+  ]
+}

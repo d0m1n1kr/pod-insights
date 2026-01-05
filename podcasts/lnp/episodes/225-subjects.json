@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 225,
+  "title": "LNP225 Dringende Bitte",
+  "generatedAt": "2026-01-05T15:17:57.603Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9497616001860681,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.050238399813931855,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 8167,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 432,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 16,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 8599,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 118,
+      "endSec": 226,
+      "durationSec": 108,
+      "topic": "VDS außer Kraft gesetzt",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 226,
+      "endSec": 331,
+      "durationSec": 105,
+      "topic": "Staatstrojaner passiert Bundesrat",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 331,
+      "endSec": 763,
+      "durationSec": 432,
+      "topic": "Türkei nimmt Menschenrechtsaktivisten gefangen",
+      "fineSubject": "Activism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 763,
+      "endSec": 1119,
+      "durationSec": 356,
+      "topic": "G20: Gipfelkunde",
+      "fineSubject": "International Relations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1119,
+      "endSec": 1480,
+      "durationSec": 361,
+      "topic": "G20: Standort Hamburg",
+      "fineSubject": "Events",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1481,
+      "endSec": 1942,
+      "durationSec": 461,
+      "topic": "G20: Dudde und die Hamburger Linie",
+      "fineSubject": "Protests",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1942,
+      "endSec": 2149,
+      "durationSec": 207,
+      "topic": "G20: Pfefferspray",
+      "fineSubject": "Law Enforcement",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2150,
+      "endSec": 2548,
+      "durationSec": 398,
+      "topic": "G20: Protestcamps",
+      "fineSubject": "Protests",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2549,
+      "endSec": 3009,
+      "durationSec": 460,
+      "topic": "G20: Vielfältige Protestformen",
+      "fineSubject": "Protests",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3010,
+      "endSec": 4387,
+      "durationSec": 1377,
+      "topic": "G20: Welcome to Hell",
+      "fineSubject": "Protests",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4388,
+      "endSec": 4832,
+      "durationSec": 444,
+      "topic": "G20: Blockadestrategien",
+      "fineSubject": "Protests",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4832,
+      "endSec": 5343,
+      "durationSec": 511,
+      "topic": "G20: Gewaltanwendung der Polizei",
+      "fineSubject": "Law Enforcement",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5343,
+      "endSec": 5919,
+      "durationSec": 576,
+      "topic": "G20: Verpasste Chancen",
+      "fineSubject": "Protests",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5920,
+      "endSec": 6770,
+      "durationSec": 850,
+      "topic": "G20: Elbphilharmonie und Schanzenviertel",
+      "fineSubject": "Culture",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6770,
+      "endSec": 7237,
+      "durationSec": 467,
+      "topic": "G20: Großdemo am Samstag",
+      "fineSubject": "Protests",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7237,
+      "endSec": 8026,
+      "durationSec": 789,
+      "topic": "G20: Übergriffe auf Journalisten",
+      "fineSubject": "Media",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8027,
+      "endSec": 8724,
+      "durationSec": 697,
+      "topic": "G20: Politischer Fallout",
+      "fineSubject": "Consequences",
+      "topicIndex": 16
+    }
+  ]
+}

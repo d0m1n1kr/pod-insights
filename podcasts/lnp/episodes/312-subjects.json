@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 312,
+  "title": "LNP312 Wo sehen Sie mich in fünf Jahren?",
+  "generatedAt": "2026-01-05T15:17:57.615Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.30114135206321335,
+      "Technology": 0.03424056189640035,
+      "Law": 0,
+      "Security": 0.1788118232367574,
+      "Social": 0,
+      "Media": 0.04799531752999708,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.33069944395668716,
+      "Privacy": 0,
+      "Culture": 0.10711150131694469
+    },
+    "durations": {
+      "Politics": 1029,
+      "Technology": 117,
+      "Law": 0,
+      "Security": 611,
+      "Social": 0,
+      "Media": 164,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1130,
+      "Privacy": 0,
+      "Culture": 366
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 3417,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 340,
+      "endSec": 1470,
+      "durationSec": 1130,
+      "topic": "Payment Services Directive 2",
+      "fineSubject": "Regulations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1471,
+      "endSec": 1635,
+      "durationSec": 164,
+      "topic": "Deutsches LSR unwirksam",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1635,
+      "endSec": 2246,
+      "durationSec": 611,
+      "topic": "iOS Massenhack",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2247,
+      "endSec": 2723,
+      "durationSec": 476,
+      "topic": "AFD-Spitzelportal in MV verboten",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2723,
+      "endSec": 3089,
+      "durationSec": 366,
+      "topic": "In Hamburg nicht den Hafen fotografieren!",
+      "fineSubject": "Photography",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3090,
+      "endSec": 3445,
+      "durationSec": 355,
+      "topic": "Extinction Rebellion",
+      "fineSubject": "Environmental",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3445,
+      "endSec": 3562,
+      "durationSec": 117,
+      "topic": "Datenleck bei Facebook",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3562,
+      "endSec": 3760,
+      "durationSec": 198,
+      "topic": "Linus Vortrag zu Demokratie",
+      "fineSubject": "Democracy",
+      "topicIndex": 7
+    }
+  ]
+}

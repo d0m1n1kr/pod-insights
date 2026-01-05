@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 5,
+  "title": "UKW005 Hong Kong",
+  "generatedAt": "2026-01-05T15:18:02.998Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.3568206564006844,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.1882096749105615,
+      "Media": 0.02426504899673355,
+      "Miscellaneous": 0.2323845076994867,
+      "Society": 0.05646290247316846,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.14185720951936537
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2294,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1210,
+      "Media": 156,
+      "Miscellaneous": 1494,
+      "Society": 363,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 912
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 5,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 2,
+      "Media": 1,
+      "Miscellaneous": 3,
+      "Society": 3,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 2
+    },
+    "totalDurationSec": 6429,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Society",
+      "startSec": 118,
+      "endSec": 195,
+      "durationSec": 77,
+      "topic": "Hong Kong als Hobby",
+      "fineSubject": "Hobby",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 195,
+      "endSec": 351,
+      "durationSec": 156,
+      "topic": "Mario Sixtus",
+      "fineSubject": "Personality",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Society",
+      "startSec": 352,
+      "endSec": 412,
+      "durationSec": 60,
+      "topic": "Kontemporäre Kultur",
+      "fineSubject": "Contemporary",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 412,
+      "endSec": 1110,
+      "durationSec": 698,
+      "topic": "Geschichte und Struktur",
+      "fineSubject": "Structure",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Society",
+      "startSec": 1111,
+      "endSec": 1337,
+      "durationSec": 226,
+      "topic": "Faszination Hong Kong",
+      "fineSubject": "Fascination",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 1337,
+      "endSec": 1795,
+      "durationSec": 458,
+      "topic": "Der britische Einfluss",
+      "fineSubject": "British Influence",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 1795,
+      "endSec": 2133,
+      "durationSec": 338,
+      "topic": "Rückgabe an China",
+      "fineSubject": "Return to China",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2133,
+      "endSec": 2587,
+      "durationSec": 454,
+      "topic": "Die ersten Proteste",
+      "fineSubject": "Protests",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2588,
+      "endSec": 3327,
+      "durationSec": 739,
+      "topic": "Kapital und Gesellschaft",
+      "fineSubject": "Capital and Society",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3327,
+      "endSec": 3768,
+      "durationSec": 441,
+      "topic": "Hong Kongs politisches System",
+      "fineSubject": "Political System",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3769,
+      "endSec": 4514,
+      "durationSec": 745,
+      "topic": "Proteste gegen das Auslieferungsgesetz",
+      "fineSubject": "Extradition Protests",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4514,
+      "endSec": 4982,
+      "durationSec": 468,
+      "topic": "Auslaufmodell Demokratie",
+      "fineSubject": "Democracy",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Economics",
+      "startSec": 4983,
+      "endSec": 5454,
+      "durationSec": 471,
+      "topic": "China und die Wirtschaft",
+      "fineSubject": "China's Economy",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5454,
+      "endSec": 5640,
+      "durationSec": 186,
+      "topic": "Zukunft der Proteste",
+      "fineSubject": "Future of Protests",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 5640,
+      "endSec": 5989,
+      "durationSec": 349,
+      "topic": "China und der Westen",
+      "fineSubject": "China and the West",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 5990,
+      "endSec": 6553,
+      "durationSec": 563,
+      "topic": "Niedergang des Westens",
+      "fineSubject": "Decline of the West",
+      "topicIndex": 15
+    }
+  ]
+}

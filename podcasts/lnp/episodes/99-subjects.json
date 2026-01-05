@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 99,
+  "title": "LNP099 Sonst Punkt Punkt Punkt",
+  "generatedAt": "2026-01-05T15:17:57.588Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.27237991266375544,
+      "Technology": 0,
+      "Law": 0.36681222707423583,
+      "Security": 0.36080786026200873,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 499,
+      "Technology": 0,
+      "Law": 672,
+      "Security": 661,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 1832,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 460,
+      "endSec": 1132,
+      "durationSec": 672,
+      "topic": "EuGH urteilt über Vorratsdatenspeicherung",
+      "fineSubject": "Legal Cases / EU Court",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1132,
+      "endSec": 1793,
+      "durationSec": 661,
+      "topic": "Heartbleed-Bug in OpenSSL",
+      "fineSubject": "Software / OpenSSL",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1794,
+      "endSec": 2293,
+      "durationSec": 499,
+      "topic": "NSA-Untersuchungsausschuss",
+      "fineSubject": "Government / NSA",
+      "topicIndex": 2
+    }
+  ]
+}

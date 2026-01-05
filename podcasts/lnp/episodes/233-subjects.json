@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 233,
+  "title": "LNP233 Das Internet setzt sich endlich durch",
+  "generatedAt": "2026-01-05T15:17:57.604Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.059891685250079645,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.7645747053201657,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.1755336094297547,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 188,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 2400,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 551,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 4,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3139,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 839,
+      "endSec": 1219,
+      "durationSec": 380,
+      "topic": "Störerhaftung fällt",
+      "fineSubject": "Störerhaftung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1220,
+      "endSec": 1391,
+      "durationSec": 171,
+      "topic": "NetzDG tritt in Kraft",
+      "fineSubject": "NetzDG",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1391,
+      "endSec": 1706,
+      "durationSec": 315,
+      "topic": "Zero-Days zurückhalten",
+      "fineSubject": "Zero-Days",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1707,
+      "endSec": 2837,
+      "durationSec": 1130,
+      "topic": "KRACK: Key Reinstallation Attacks",
+      "fineSubject": "KRACK",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2837,
+      "endSec": 3115,
+      "durationSec": 278,
+      "topic": "Infineon RSA Bug",
+      "fineSubject": "Infineon Bug",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3116,
+      "endSec": 3793,
+      "durationSec": 677,
+      "topic": "Kaspersky vs. NSA",
+      "fineSubject": "Kaspersky vs. NSA",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3793,
+      "endSec": 3981,
+      "durationSec": 188,
+      "topic": "Istanbul 10",
+      "fineSubject": "Istanbul 10",
+      "topicIndex": 6
+    }
+  ]
+}

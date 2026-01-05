@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 4,
+  "title": "UKW004 Brexit: God Save the Queen",
+  "generatedAt": "2026-01-05T15:18:02.997Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.903953968722337,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.09604603127766302,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 6127,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 651,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 17,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6778,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 71,
+      "endSec": 142,
+      "durationSec": 71,
+      "topic": "Was bisher geschah",
+      "fineSubject": "Brexit History",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 142,
+      "endSec": 506,
+      "durationSec": 364,
+      "topic": "Europawahl in UK und Mays Rücktritt",
+      "fineSubject": "UK Elections",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 506,
+      "endSec": 890,
+      "durationSec": 384,
+      "topic": "Das neue Europaparlament",
+      "fineSubject": "European Parliament",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 891,
+      "endSec": 1216,
+      "durationSec": 325,
+      "topic": "Nachwahlen für das UK Parlament",
+      "fineSubject": "UK Parliament",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1216,
+      "endSec": 1650,
+      "durationSec": 434,
+      "topic": "Wirtschaftliche Situation von UK",
+      "fineSubject": "UK Economy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1651,
+      "endSec": 2177,
+      "durationSec": 526,
+      "topic": "Boris Johnson",
+      "fineSubject": "Boris Johnson",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2177,
+      "endSec": 2611,
+      "durationSec": 434,
+      "topic": "Die neue Regierung",
+      "fineSubject": "UK Government",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2612,
+      "endSec": 3193,
+      "durationSec": 581,
+      "topic": "Die Motivation für No-Deal",
+      "fineSubject": "Brexit Strategy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3194,
+      "endSec": 3775,
+      "durationSec": 581,
+      "topic": "Die Taktik von Boris Johnson",
+      "fineSubject": "Boris Johnson Tactics",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3775,
+      "endSec": 4291,
+      "durationSec": 516,
+      "topic": "Folgen eines Mißtrauensvotums",
+      "fineSubject": "Trust Vote",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4292,
+      "endSec": 4733,
+      "durationSec": 441,
+      "topic": "Möglicher Ausgang von Neuwahlen",
+      "fineSubject": "Elections Outcome",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4733,
+      "endSec": 5116,
+      "durationSec": 383,
+      "topic": "No-Deal-Verhinderungsstrategien",
+      "fineSubject": "No-Deal Strategies",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5117,
+      "endSec": 5333,
+      "durationSec": 216,
+      "topic": "People's Vote",
+      "fineSubject": "Public Vote",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5333,
+      "endSec": 5718,
+      "durationSec": 385,
+      "topic": "Referendum in Irland",
+      "fineSubject": "Irish Referendum",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5719,
+      "endSec": 5832,
+      "durationSec": 113,
+      "topic": "Referendum in Schottland",
+      "fineSubject": "Scottish Referendum",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5833,
+      "endSec": 5979,
+      "durationSec": 146,
+      "topic": "Situation in Wales",
+      "fineSubject": "Wales Situation",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5979,
+      "endSec": 6370,
+      "durationSec": 391,
+      "topic": "Internationale Situation",
+      "fineSubject": "International Relations",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Economics",
+      "startSec": 6371,
+      "endSec": 6588,
+      "durationSec": 217,
+      "topic": "Die Rolle der Wirtschaft",
+      "fineSubject": "Economic Role",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6588,
+      "endSec": 6858,
+      "durationSec": 270,
+      "topic": "Haus Windsor",
+      "fineSubject": "Royal Family",
+      "topicIndex": 18
+    }
+  ]
+}

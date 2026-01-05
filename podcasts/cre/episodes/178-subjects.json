@@ -1,0 +1,154 @@
+{
+  "episodeNumber": 178,
+  "title": "CRE178 Jugendmedienarbeit",
+  "generatedAt": "2026-01-05T15:17:54.387Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.5,
+      "Social": 0.3,
+      "Media": 0.1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 5,
+      "Social": 3,
+      "Media": 1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sozialpädagogie",
+      "fineSubject": "Social Work",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Interesse für Technik vs. Kommunikation",
+      "fineSubject": "Communication",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Motivation und Frust von Betreuern",
+      "fineSubject": "Youth Work",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Problemfeld Fernsehen",
+      "fineSubject": "Television",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lernsoftware",
+      "fineSubject": "Educational Software",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Serious Games",
+      "fineSubject": "Gaming",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Netzsperren, Filter und jugendgefährdende Inhalte",
+      "fineSubject": "Content Regulation",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Jugendmedienschutz-Staatsvertrag",
+      "fineSubject": "Youth Protection",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Angemessener Jugendschutz im Internet",
+      "fineSubject": "Youth Protection",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Soziale Netzwerke",
+      "fineSubject": "Social Media",
+      "topicIndex": 14,
+      "untimed": true
+    }
+  ]
+}

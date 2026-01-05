@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 469,
+  "title": "LNP469 Internet zum Abgewöhnen",
+  "generatedAt": "2026-01-05T15:17:57.638Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.6523410992988011,
+      "Law": 0,
+      "Security": 0.020583578375933047,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.32707532232526576,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2884,
+      "Law": 0,
+      "Security": 91,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1446,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 4,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4421,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 119,
+      "endSec": 432,
+      "durationSec": 313,
+      "topic": "Feedback: DSA und Störerhaftung",
+      "fineSubject": "Legal / Störerhaftung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 433,
+      "endSec": 562,
+      "durationSec": 129,
+      "topic": "Feedback: Apple Scanning Korrektur",
+      "fineSubject": "Technology / Apple",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 562,
+      "endSec": 709,
+      "durationSec": 147,
+      "topic": "Feedback: Selbstbestimmungsgesetz",
+      "fineSubject": "Legal / Self-Determination Act",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 710,
+      "endSec": 1031,
+      "durationSec": 321,
+      "topic": "Feedback: Google",
+      "fineSubject": "Technology / Google",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1031,
+      "endSec": 1751,
+      "durationSec": 720,
+      "topic": "Kartellverfahren gegen Google",
+      "fineSubject": "Legal / Google Antitrust",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1752,
+      "endSec": 4186,
+      "durationSec": 2434,
+      "topic": "Privacy Sandbox",
+      "fineSubject": "Technology / Privacy Sandbox",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4186,
+      "endSec": 4452,
+      "durationSec": 266,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Legal / Chat Control",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 4452,
+      "endSec": 4543,
+      "durationSec": 91,
+      "topic": "Russische Exil-Journalistin mit Pegasus gehackt",
+      "fineSubject": "Security / Pegasus",
+      "topicIndex": 7
+    }
+  ]
+}

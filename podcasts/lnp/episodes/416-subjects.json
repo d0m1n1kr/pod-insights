@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 416,
+  "title": "LNP416 Zusammenrottung aus dem Kreise der politischen Gegner mit Hacking-Affinität",
+  "generatedAt": "2026-01-05T15:17:57.630Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.037528179286566765,
+      "Technology": 0.011006497811961278,
+      "Law": 0.03872165495292402,
+      "Security": 0.6195464792467843,
+      "Social": 0.10635194271316802,
+      "Media": 0.10104760641824692,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.08579763957034876,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 283,
+      "Technology": 83,
+      "Law": 292,
+      "Security": 4672,
+      "Social": 802,
+      "Media": 762,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 647,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 4,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7541,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 65,
+      "endSec": 148,
+      "durationSec": 83,
+      "topic": "HTTP Status 416",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 370,
+      "endSec": 503,
+      "durationSec": 133,
+      "topic": "Feedback: Finfisher Umstrukturierung",
+      "fineSubject": "Finfisher",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 503,
+      "endSec": 1265,
+      "durationSec": 762,
+      "topic": "Feedback: Messenger-Interoperabilität",
+      "fineSubject": "Interoperability",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1413,
+      "endSec": 1696,
+      "durationSec": 283,
+      "topic": "Assange",
+      "fineSubject": "Julian Assange",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 1697,
+      "endSec": 4364,
+      "durationSec": 2667,
+      "topic": "log4j",
+      "fineSubject": "log4j",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4364,
+      "endSec": 5671,
+      "durationSec": 1307,
+      "topic": "NSO-Exploit",
+      "fineSubject": "NSO Group",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 5672,
+      "endSec": 6474,
+      "durationSec": 802,
+      "topic": "Klarnamenpflicht-Diskussion & Telegram-Showdown",
+      "fineSubject": "Klarnamenpflicht",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Legal",
+      "startSec": 6474,
+      "endSec": 7121,
+      "durationSec": 647,
+      "topic": "Cyberbunker-Urteil",
+      "fineSubject": "Cyberbunker",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 7122,
+      "endSec": 7414,
+      "durationSec": 292,
+      "topic": "Digital Services Act / Digital Markets Act",
+      "fineSubject": "Digital Services Act",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 7414,
+      "endSec": 7979,
+      "durationSec": 565,
+      "topic": "EMS-Leak",
+      "fineSubject": "EMS-Leak",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 156,
+  "title": "LNP156 BEReitbandausbau",
+  "generatedAt": "2026-01-05T15:17:57.594Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7792207792207793,
+      "Technology": 0.10519480519480519,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.05227272727272727,
+      "Media": 0.0633116883116883,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4800,
+      "Technology": 648,
+      "Law": 0,
+      "Security": 0,
+      "Social": 322,
+      "Media": 390,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6160,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 419,
+      "endSec": 2191,
+      "durationSec": 1772,
+      "topic": "VDS soll beschlossen werden",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2191,
+      "endSec": 3872,
+      "durationSec": 1681,
+      "topic": "TTIP-Demo",
+      "fineSubject": "Protests",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3872,
+      "endSec": 4668,
+      "durationSec": 796,
+      "topic": "Intelexit",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4669,
+      "endSec": 5317,
+      "durationSec": 648,
+      "topic": "Breitbandausbau",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5317,
+      "endSec": 5868,
+      "durationSec": 551,
+      "topic": "Maaßen: Whistleblower vom Amt?",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 5869,
+      "endSec": 6191,
+      "durationSec": 322,
+      "topic": "Refugees Emancipation",
+      "fineSubject": "Human Rights",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 6191,
+      "endSec": 6581,
+      "durationSec": 390,
+      "topic": "Zündfunk Netzkongress",
+      "fineSubject": "Conferences",
+      "topicIndex": 6
+    }
+  ]
+}

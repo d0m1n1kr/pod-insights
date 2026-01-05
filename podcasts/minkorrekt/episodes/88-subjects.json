@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 88,
+  "title": "Minkorrekt Folge 88 „Jahresrückblick 2016“",
+  "generatedAt": "2026-01-05T15:18:17.360Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0.3333333333333333,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0.3333333333333333,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.3333333333333333,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 1,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 1,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Jahresrückblick 2016",
+      "fineSubject": "Ereignisse",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Experiment der Woche: Wunderkerzen unter Wasser",
+      "fineSubject": "Experimente",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Chinagadget: Kettenreiniger",
+      "fineSubject": "Gadgets",
+      "topicIndex": 2,
+      "untimed": true
+    }
+  ]
+}

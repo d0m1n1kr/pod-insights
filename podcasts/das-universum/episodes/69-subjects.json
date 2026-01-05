@@ -1,0 +1,124 @@
+{
+  "episodeNumber": 69,
+  "title": "DU069 - Der Zufall und das Galaxienproblem",
+  "generatedAt": "2026-01-05T15:18:22.100Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.5714285714285714,
+      "Raumfahrt": 0,
+      "Kultur": 0.14285714285714285,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.14285714285714285,
+      "Wissenschaft": 0.14285714285714285,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 4,
+      "Raumfahrt": 0,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 1,
+      "Wissenschaft": 1,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verteilung von Zwerggalaxien",
+      "fineSubject": "Galaxien",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Dunkle Materie",
+      "fineSubject": "Dunkle Materie",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Weltraummüll",
+      "fineSubject": "Weltraummüll",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "ALCOHOLS Projekt",
+      "fineSubject": "Forschung",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kollisionskaskade",
+      "fineSubject": "Kollisionsrisiken",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Science Fiction in der Astronomie",
+      "fineSubject": "Science Fiction",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Forschungspolitik",
+      "fineSubject": "Forschungspolitik",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 121,
+  "title": "UKW121 Ukraine: Imperiale Träume",
+  "generatedAt": "2026-01-05T15:18:03.032Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.6028421839940165,
+      "Military": 0.39715781600598354,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 4836,
+      "Military": 3186,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 3,
+      "Military": 6,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8022,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 211,
+      "endSec": 1587,
+      "durationSec": 1376,
+      "topic": "Militärischen Situation",
+      "fineSubject": "Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1587,
+      "endSec": 3976,
+      "durationSec": 2389,
+      "topic": "Die Unterstützung der USA",
+      "fineSubject": "US Support",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3977,
+      "endSec": 5501,
+      "durationSec": 1524,
+      "topic": "Die Situation in Europa",
+      "fineSubject": "Europe",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5501,
+      "endSec": 6424,
+      "durationSec": 923,
+      "topic": "Russlands imperiale Attitüde",
+      "fineSubject": "Russia",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 6425,
+      "endSec": 6990,
+      "durationSec": 565,
+      "topic": "ATACMS",
+      "fineSubject": "Weapons",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 6990,
+      "endSec": 7309,
+      "durationSec": 319,
+      "topic": "GLSDB funktioniert nicht",
+      "fineSubject": "Technology",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 7309,
+      "endSec": 7534,
+      "durationSec": 225,
+      "topic": "Flug- und Seedrohnen",
+      "fineSubject": "Drones",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 7534,
+      "endSec": 7935,
+      "durationSec": 401,
+      "topic": "F16 Kampfflugzeuge",
+      "fineSubject": "Aircraft",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 7936,
+      "endSec": 8236,
+      "durationSec": 300,
+      "topic": "Personalprobleme der Ukraine",
+      "fineSubject": "Personnel",
+      "topicIndex": 8
+    }
+  ]
+}

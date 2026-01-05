@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 485,
+  "title": "LNP485 Raus aus dem Wohnzimmer",
+  "generatedAt": "2026-01-05T15:17:57.640Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.05917602996254682,
+      "Technology": 0.17777777777777778,
+      "Law": 0.2931335830212235,
+      "Security": 0.16891385767790262,
+      "Social": 0.24194756554307117,
+      "Media": 0,
+      "Health": 0.05905118601747815,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 474,
+      "Technology": 1424,
+      "Law": 2348,
+      "Security": 1353,
+      "Social": 1938,
+      "Media": 0,
+      "Health": 473,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 6,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 8010,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 957,
+      "endSec": 1431,
+      "durationSec": 474,
+      "topic": "Doku: Putins Bären",
+      "fineSubject": "International Relations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1431,
+      "endSec": 2784,
+      "durationSec": 1353,
+      "topic": "eID-Hack",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2785,
+      "endSec": 3289,
+      "durationSec": 504,
+      "topic": "eIDAS und DPI",
+      "fineSubject": "Digital Identity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3290,
+      "endSec": 4246,
+      "durationSec": 956,
+      "topic": "WhatsApp-Interoperabilität und keiner geht hin",
+      "fineSubject": "Messaging Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 4247,
+      "endSec": 6185,
+      "durationSec": 1938,
+      "topic": "Politische Inhalte in sozialen Medien",
+      "fineSubject": "Social Media",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6185,
+      "endSec": 6653,
+      "durationSec": 468,
+      "topic": "Air Canada Chatbot",
+      "fineSubject": "Chatbots",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 6653,
+      "endSec": 7126,
+      "durationSec": 473,
+      "topic": "European Health Dataspace",
+      "fineSubject": "Data Management",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 7870,
+      "endSec": 8342,
+      "durationSec": 472,
+      "topic": "ZPS: Deepfake-Verbot?",
+      "fineSubject": "Media Regulation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 8343,
+      "endSec": 8779,
+      "durationSec": 436,
+      "topic": "Correctiv: Eidesstattliche Versicherungen",
+      "fineSubject": "Verification Processes",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 8780,
+      "endSec": 9307,
+      "durationSec": 527,
+      "topic": "NOYB: Pay or Okay",
+      "fineSubject": "Privacy",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Law",
+      "startSec": 9308,
+      "endSec": 9571,
+      "durationSec": 263,
+      "topic": "Verfahren gegen Frag den Staat",
+      "fineSubject": "Transparency",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Law",
+      "startSec": 9571,
+      "endSec": 9717,
+      "durationSec": 146,
+      "topic": "Informationsfreiheitsgesetz Österreich",
+      "fineSubject": "Freedom of Information",
+      "topicIndex": 12
+    }
+  ]
+}

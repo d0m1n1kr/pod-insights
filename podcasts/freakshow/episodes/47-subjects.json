@@ -1,0 +1,164 @@
+{
+  "episodeNumber": 47,
+  "title": "MM047 Haptischer Orgasmus",
+  "generatedAt": "2026-01-05T15:17:51.063Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.6363636363636364,
+      "Hardware": 0.2727272727272727,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.09090909090909091,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 7,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Jailbreaks",
+      "fineSubject": "iOS",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "iPad in Spanien benutzen",
+      "fineSubject": "iPad",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Simplenote und andere Notizfelder",
+      "fineSubject": "Notizen",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "MacBook-Pro-hat-immer-noch-kein-3G-Dilemma",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "iTunes-ist-immer-noch-scheisse-Dilemma",
+      "fineSubject": "iTunes",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Flattr ist toll und wir werden alle reich",
+      "fineSubject": "Finanzierung",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "iPhone SDK Regeländerungen",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "iPhone 4",
+      "fineSubject": "iPhone",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "FaceTime verschafft Tim Schnappatmung",
+      "fineSubject": "Kommunikation",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Safari 5 findet allgemeine Zustimmung",
+      "fineSubject": "Browser",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "iPhone Apps und sonstiger Kram",
+      "fineSubject": "Apps",
+      "topicIndex": 10,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 399,
+  "title": "LNP399 Darknet für die Hosentasche",
+  "generatedAt": "2026-01-05T15:17:57.628Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.18709451166052954,
+      "Technology": 0,
+      "Law": 0.019989479221462388,
+      "Security": 0.20690864457303174,
+      "Social": 0.5525162195335788,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.03349114501139751,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1067,
+      "Technology": 0,
+      "Law": 114,
+      "Security": 1180,
+      "Social": 3151,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 191,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 6,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5703,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 108,
+      "endSec": 574,
+      "durationSec": 466,
+      "topic": "Max Hoppenstedt",
+      "fineSubject": "Max Hoppenstedt",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 574,
+      "endSec": 981,
+      "durationSec": 407,
+      "topic": "Recherche zu Telegram",
+      "fineSubject": "Telegram",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 982,
+      "endSec": 1553,
+      "durationSec": 571,
+      "topic": "Wer steckt hinter Telegram?",
+      "fineSubject": "Telegram",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 1554,
+      "endSec": 2316,
+      "durationSec": 762,
+      "topic": "Was geht da eigentlich alles auf Telegram?",
+      "fineSubject": "Telegram",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 2317,
+      "endSec": 2793,
+      "durationSec": 476,
+      "topic": "Kontrolle über Inhalte",
+      "fineSubject": "Content Control",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 2794,
+      "endSec": 2985,
+      "durationSec": 191,
+      "topic": "Womit verdient Telegram Geld?",
+      "fineSubject": "Telegram",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2985,
+      "endSec": 3099,
+      "durationSec": 114,
+      "topic": "Verfolgen von Strafdaten",
+      "fineSubject": "Criminal Data",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 3099,
+      "endSec": 3568,
+      "durationSec": 469,
+      "topic": "Was gibt es Positives auf Telegram?",
+      "fineSubject": "Telegram",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3569,
+      "endSec": 4636,
+      "durationSec": 1067,
+      "topic": "Regulierung: der Staat vs. Telegram",
+      "fineSubject": "Regulation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 4636,
+      "endSec": 5816,
+      "durationSec": 1180,
+      "topic": "Telegram OpSec",
+      "fineSubject": "OpSec",
+      "topicIndex": 9
+    }
+  ]
+}

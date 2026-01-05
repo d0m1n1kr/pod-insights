@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 277,
+  "title": "LNP277 Digitalmarxismus",
+  "generatedAt": "2026-01-05T15:17:57.610Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.018323901913230935,
+      "Technology": 0.6515763945028294,
+      "Law": 0.33009970358393964,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 136,
+      "Technology": 4836,
+      "Law": 2450,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 4,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7422,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 256,
+      "endSec": 1767,
+      "durationSec": 1511,
+      "topic": "Gericht: StreamOn verstößt gegen Netzneutralität",
+      "fineSubject": "Regulation / StreamOn",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1767,
+      "endSec": 2190,
+      "durationSec": 423,
+      "topic": "EU reformiert Netzneutralität im nächsten Jahr",
+      "fineSubject": "Regulation / EU Reform",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2190,
+      "endSec": 6015,
+      "durationSec": 3825,
+      "topic": "Vergabe der 5G-Lizenzen",
+      "fineSubject": "Licensing / Vergabe",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 6016,
+      "endSec": 6152,
+      "durationSec": 136,
+      "topic": "Feedback: Funkzellenabfragen-Transparenzsystem",
+      "fineSubject": "Transparency / Funkzellenabfragen",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6153,
+      "endSec": 7164,
+      "durationSec": 1011,
+      "topic": "Technische Richtlinie des BSI für Breitband-Router",
+      "fineSubject": "Regulation / BSI Richtlinie",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7227,
+      "endSec": 7363,
+      "durationSec": 136,
+      "topic": "Maaßen Nachfolge",
+      "fineSubject": "Person / Maaßen",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 7364,
+      "endSec": 7744,
+      "durationSec": 380,
+      "topic": "Geheime Anklage gegen Julian Assange",
+      "fineSubject": "Criminal / Anklage",
+      "topicIndex": 6
+    }
+  ]
+}

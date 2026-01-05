@@ -1,0 +1,288 @@
+{
+  "episodeNumber": 110,
+  "title": "UKW110 Ukraine: Balance des Schreckens",
+  "generatedAt": "2026-01-05T15:18:03.028Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.09824031091439059,
+      "Military": 0.8444348483212782,
+      "Technology": 0,
+      "Economics": 0.007017165065313614,
+      "Media": 0,
+      "Miscellaneous": 0.01727302169923351,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.033034653999784086
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 910,
+      "Military": 7822,
+      "Technology": 0,
+      "Economics": 65,
+      "Media": 0,
+      "Miscellaneous": 160,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 306
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 4,
+      "Military": 18,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 2
+    },
+    "totalDurationSec": 9263,
+    "totalTopics": 26
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 192,
+      "endSec": 314,
+      "durationSec": 122,
+      "topic": "Veränderung der Quellenlage",
+      "fineSubject": "Information Sources",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 315,
+      "endSec": 747,
+      "durationSec": 432,
+      "topic": "Drei Monate Krieg",
+      "fineSubject": "Duration",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 747,
+      "endSec": 882,
+      "durationSec": 135,
+      "topic": "Moldau und Transnistrien",
+      "fineSubject": "Moldova",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 883,
+      "endSec": 945,
+      "durationSec": 62,
+      "topic": "Angriffe auf die Krim",
+      "fineSubject": "Attacks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 946,
+      "endSec": 1076,
+      "durationSec": 130,
+      "topic": "ICC-Haftbefehl gegen Putin",
+      "fineSubject": "International Criminal Court",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 1077,
+      "endSec": 1253,
+      "durationSec": 176,
+      "topic": "Anschläge auf Milblogger",
+      "fineSubject": "Milbloggers",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 1253,
+      "endSec": 1604,
+      "durationSec": 351,
+      "topic": "US Document Leaks",
+      "fineSubject": "Document Leaks",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1605,
+      "endSec": 1670,
+      "durationSec": 65,
+      "topic": "Ukraine liefert wieder Strom",
+      "fineSubject": "Energy Supply",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 1670,
+      "endSec": 1978,
+      "durationSec": 308,
+      "topic": "Ausbildung und Waffenlieferungen der NATO",
+      "fineSubject": "NATO Support",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 1979,
+      "endSec": 2131,
+      "durationSec": 152,
+      "topic": "Russische Angriffe auf Cherson",
+      "fineSubject": "Russian Attacks",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Military",
+      "startSec": 2131,
+      "endSec": 2334,
+      "durationSec": 203,
+      "topic": "Ukrainische Luftverteidigung",
+      "fineSubject": "Air Defense",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Military",
+      "startSec": 2334,
+      "endSec": 2515,
+      "durationSec": 181,
+      "topic": "Ukrainische Gegenschläge",
+      "fineSubject": "Counteroffensive",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2516,
+      "endSec": 2659,
+      "durationSec": 143,
+      "topic": "Schweiz gibt Widerstand gegen Lieferungen auf",
+      "fineSubject": "Arms Policy",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Military",
+      "startSec": 2660,
+      "endSec": 3017,
+      "durationSec": 357,
+      "topic": "Putins 1-Panzer-Parade",
+      "fineSubject": "Parades",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3017,
+      "endSec": 3532,
+      "durationSec": 515,
+      "topic": "Prigoschin und der fröhliche Opa",
+      "fineSubject": "Leadership",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 3533,
+      "endSec": 3704,
+      "durationSec": 171,
+      "topic": "Situation der Krim",
+      "fineSubject": "Crimea",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Military",
+      "startSec": 3705,
+      "endSec": 4134,
+      "durationSec": 429,
+      "topic": "Attacke auf den Kreml",
+      "fineSubject": "Attacks",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Military",
+      "startSec": 4134,
+      "endSec": 4440,
+      "durationSec": 306,
+      "topic": "Schlechte Moral bei den russischen Truppen",
+      "fineSubject": "Morale",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Military",
+      "startSec": 4440,
+      "endSec": 4937,
+      "durationSec": 497,
+      "topic": "Russen bombardieren sich selbst",
+      "fineSubject": "Friendly Fire",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Military",
+      "startSec": 4938,
+      "endSec": 5569,
+      "durationSec": 631,
+      "topic": "Schwarzer Tag der Russen in Bryansk",
+      "fineSubject": "Casualties",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Military",
+      "startSec": 5569,
+      "endSec": 6313,
+      "durationSec": 744,
+      "topic": "Storm Shadow",
+      "fineSubject": "Weapons",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Military",
+      "startSec": 6314,
+      "endSec": 6699,
+      "durationSec": 385,
+      "topic": "Cruise Missile Attrappen",
+      "fineSubject": "Deception Tactics",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Military",
+      "startSec": 6699,
+      "endSec": 6843,
+      "durationSec": 144,
+      "topic": "Weitere Langstreckenraketen",
+      "fineSubject": "Long-Range Missiles",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Military",
+      "startSec": 6844,
+      "endSec": 7379,
+      "durationSec": 535,
+      "topic": "Zustand der Ukrainischen Armee",
+      "fineSubject": "Army Condition",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Military",
+      "startSec": 7379,
+      "endSec": 9308,
+      "durationSec": 1929,
+      "topic": "Die Ukrainische Gegenoffensive",
+      "fineSubject": "Counteroffensive",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 9369,
+      "endSec": 9529,
+      "durationSec": 160,
+      "topic": "Bonus Track",
+      "fineSubject": "Additional Content",
+      "topicIndex": 25
+    }
+  ]
+}

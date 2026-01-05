@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 305,
+  "title": "Mi305 - \"Kornkreis-Brandy\"",
+  "generatedAt": "2026-01-05T15:18:17.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.36189706278631095,
+      "Culture": 0.1301535974130962,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.5079493398005929,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2686,
+      "Culture": 966,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 3770,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 3,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 7422,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 79,
+      "endSec": 1624,
+      "durationSec": 1545,
+      "topic": "VAR",
+      "fineSubject": "Software",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1624,
+      "endSec": 1882,
+      "durationSec": 258,
+      "topic": "3d Drucker und Skadis",
+      "fineSubject": "3D Printing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1882,
+      "endSec": 3894,
+      "durationSec": 2012,
+      "topic": "Thema 1: “Zerbröselnde schwarze Löcher”",
+      "fineSubject": "Astrophysics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3894,
+      "endSec": 4568,
+      "durationSec": 674,
+      "topic": "Snackable Science",
+      "fineSubject": "General Science",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4568,
+      "endSec": 4918,
+      "durationSec": 350,
+      "topic": "Musik",
+      "fineSubject": "Music",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4918,
+      "endSec": 6885,
+      "durationSec": 1967,
+      "topic": "Thema 2: \"Desire ÖPNV\"",
+      "fineSubject": "Public Transport",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6885,
+      "endSec": 7501,
+      "durationSec": 616,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Miscellaneous",
+      "topicIndex": 6
+    }
+  ]
+}

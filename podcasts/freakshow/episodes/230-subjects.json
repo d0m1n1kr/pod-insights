@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 230,
+  "title": "FS230 Lieblingsdimension: X",
+  "generatedAt": "2026-01-05T15:17:51.101Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6307486233070397,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.3134394999255842,
+      "Social": 0,
+      "Culture": 0.0558118767673761,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4238,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2106,
+      "Social": 0,
+      "Culture": 375,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 6719,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 3760,
+      "endSec": 4848,
+      "durationSec": 1088,
+      "topic": "Netzbasteln mit Moritz Metz",
+      "fineSubject": "DIY Networking",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7597,
+      "endSec": 7972,
+      "durationSec": 375,
+      "topic": "Frank-Walter ist Tims Homie",
+      "fineSubject": "Personal Relationships",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 7973,
+      "endSec": 8632,
+      "durationSec": 659,
+      "topic": "Technische Retro-Erklärvideos",
+      "fineSubject": "Retro Videos",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 10846,
+      "endSec": 12293,
+      "durationSec": 1447,
+      "topic": "SUBSCRIBE, Radio und Podcasts",
+      "fineSubject": "Radio and Podcasts",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12294,
+      "endSec": 14568,
+      "durationSec": 2274,
+      "topic": "Mac und Monitor Kaufberatung",
+      "fineSubject": "Mac and Monitor Buying Advice",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15316,
+      "endSec": 16192,
+      "durationSec": 876,
+      "topic": "Wo das Internet lebt",
+      "fineSubject": "Internet Infrastructure",
+      "topicIndex": 13
+    }
+  ]
+}

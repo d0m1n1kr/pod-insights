@@ -1,0 +1,423 @@
+{
+  "episodeNumber": 82,
+  "title": "MM082 Verklickmeinnicht",
+  "generatedAt": "2026-01-05T15:17:51.068Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.8051391862955032,
+      "Hardware": 0.054960742326909354,
+      "Finance": 0,
+      "Media": 0.023197715917202,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.11670235546038545,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 11280,
+      "Hardware": 770,
+      "Finance": 0,
+      "Media": 325,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1635,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 34,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 4,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 14010,
+    "totalTopics": 42
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 300,
+      "endSec": 420,
+      "durationSec": 120,
+      "topic": "Mountain Lion",
+      "fineSubject": "Operating System",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 420,
+      "endSec": 780,
+      "durationSec": 360,
+      "topic": "Namensgebung",
+      "fineSubject": "Naming",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 780,
+      "endSec": 2160,
+      "durationSec": 1380,
+      "topic": "Messages",
+      "fineSubject": "Messaging",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 2160,
+      "endSec": 2280,
+      "durationSec": 120,
+      "topic": "Reminders",
+      "fineSubject": "Productivity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 2280,
+      "endSec": 2340,
+      "durationSec": 60,
+      "topic": "Notes",
+      "fineSubject": "Productivity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 2340,
+      "endSec": 2460,
+      "durationSec": 120,
+      "topic": "Kalender",
+      "fineSubject": "Productivity",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 2460,
+      "endSec": 2810,
+      "durationSec": 350,
+      "topic": "Notification Center",
+      "fineSubject": "Notifications",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 2810,
+      "endSec": 2986,
+      "durationSec": 176,
+      "topic": "Share Sheets",
+      "fineSubject": "Sharing",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 2986,
+      "endSec": 3470,
+      "durationSec": 484,
+      "topic": "Safari",
+      "fineSubject": "Web Browser",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 3470,
+      "endSec": 3780,
+      "durationSec": 310,
+      "topic": "Systemweite Twitter-Integration",
+      "fineSubject": "Social Media",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 3780,
+      "endSec": 3900,
+      "durationSec": 120,
+      "topic": "Game Center",
+      "fineSubject": "Gaming",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3900,
+      "endSec": 4620,
+      "durationSec": 720,
+      "topic": "Airplay Mirroring",
+      "fineSubject": "Streaming",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 4620,
+      "endSec": 5824,
+      "durationSec": 1204,
+      "topic": "Gatekeeper",
+      "fineSubject": "Security",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 5824,
+      "endSec": 6000,
+      "durationSec": 176,
+      "topic": "Sandboxing",
+      "fineSubject": "Security",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 6000,
+      "endSec": 6660,
+      "durationSec": 660,
+      "topic": "XCode / Garbage collection",
+      "fineSubject": "Development",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 6660,
+      "endSec": 6840,
+      "durationSec": 180,
+      "topic": "Disk CC",
+      "fineSubject": "Backup",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 6840,
+      "endSec": 6975,
+      "durationSec": 135,
+      "topic": "Bildschrimschoner",
+      "fineSubject": "Display",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 6975,
+      "endSec": 7060,
+      "durationSec": 85,
+      "topic": "Software Update über Mac AppStore",
+      "fineSubject": "Updates",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 7060,
+      "endSec": 7160,
+      "durationSec": 100,
+      "topic": "Dashboard",
+      "fineSubject": "Widgets",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 7160,
+      "endSec": 7365,
+      "durationSec": 205,
+      "topic": "Audio MIDI Setup",
+      "fineSubject": "Audio",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7365,
+      "endSec": 7415,
+      "durationSec": 50,
+      "topic": "Mac Mini/ MacBook Air",
+      "fineSubject": "Computers",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Business",
+      "startSec": 7415,
+      "endSec": 7590,
+      "durationSec": 175,
+      "topic": "Apple-Store Berlin",
+      "fineSubject": "Retail",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Software",
+      "startSec": 7590,
+      "endSec": 7920,
+      "durationSec": 330,
+      "topic": "PhotoshopExpress für iOS und Android",
+      "fineSubject": "Photo Editing",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Software",
+      "startSec": 7920,
+      "endSec": 8160,
+      "durationSec": 240,
+      "topic": "Sketchbook Pro für Mac und  iPad",
+      "fineSubject": "Art",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Software",
+      "startSec": 8160,
+      "endSec": 8220,
+      "durationSec": 60,
+      "topic": "AutoCAD WS",
+      "fineSubject": "Design",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Software",
+      "startSec": 8220,
+      "endSec": 8330,
+      "durationSec": 110,
+      "topic": "Osfoora",
+      "fineSubject": "Social Media",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Software",
+      "startSec": 8330,
+      "endSec": 8520,
+      "durationSec": 190,
+      "topic": "Kingdom Rush / Unstoppable Gorg",
+      "fineSubject": "Gaming",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Software",
+      "startSec": 8520,
+      "endSec": 8660,
+      "durationSec": 140,
+      "topic": "Diamond Dash",
+      "fineSubject": "Gaming",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Software",
+      "startSec": 8660,
+      "endSec": 8740,
+      "durationSec": 80,
+      "topic": "Reckless Racing",
+      "fineSubject": "Gaming",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Business",
+      "startSec": 8740,
+      "endSec": 9120,
+      "durationSec": 380,
+      "topic": "Samsung lagert LCD-Sparte aus",
+      "fineSubject": "Manufacturing",
+      "topicIndex": 29
+    },
+    {
+      "subject": "Business",
+      "startSec": 9120,
+      "endSec": 9600,
+      "durationSec": 480,
+      "topic": "Umsatz von HP und Dell",
+      "fineSubject": "Finance",
+      "topicIndex": 30
+    },
+    {
+      "subject": "Software",
+      "startSec": 9600,
+      "endSec": 9720,
+      "durationSec": 120,
+      "topic": "Thema Kapitelmarken",
+      "fineSubject": "Features",
+      "topicIndex": 31
+    },
+    {
+      "subject": "Business",
+      "startSec": 9780,
+      "endSec": 10380,
+      "durationSec": 600,
+      "topic": "Ausweg aus der Apple Krise",
+      "fineSubject": "Strategy",
+      "topicIndex": 33
+    },
+    {
+      "subject": "Software",
+      "startSec": 10380,
+      "endSec": 10680,
+      "durationSec": 300,
+      "topic": "Unity die neue Linux GUI",
+      "fineSubject": "User Interface",
+      "topicIndex": 34
+    },
+    {
+      "subject": "Software",
+      "startSec": 10680,
+      "endSec": 10800,
+      "durationSec": 120,
+      "topic": "Lion Fails",
+      "fineSubject": "Issues",
+      "topicIndex": 35
+    },
+    {
+      "subject": "Software",
+      "startSec": 10800,
+      "endSec": 11443,
+      "durationSec": 643,
+      "topic": "Autosave",
+      "fineSubject": "Features",
+      "topicIndex": 36
+    },
+    {
+      "subject": "Software",
+      "startSec": 11443,
+      "endSec": 11785,
+      "durationSec": 342,
+      "topic": "Funktionstasten I",
+      "fineSubject": "Hardware",
+      "topicIndex": 37
+    },
+    {
+      "subject": "Software",
+      "startSec": 11785,
+      "endSec": 11803,
+      "durationSec": 18,
+      "topic": "Numbers",
+      "fineSubject": "Productivity",
+      "topicIndex": 38
+    },
+    {
+      "subject": "Software",
+      "startSec": 11803,
+      "endSec": 12480,
+      "durationSec": 677,
+      "topic": "Funktionstasten II",
+      "fineSubject": "Hardware",
+      "topicIndex": 39
+    },
+    {
+      "subject": "Media",
+      "startSec": 12480,
+      "endSec": 12805,
+      "durationSec": 325,
+      "topic": "Simons Cat",
+      "fineSubject": "Animation",
+      "topicIndex": 40
+    },
+    {
+      "subject": "Software",
+      "startSec": 12805,
+      "endSec": 14370,
+      "durationSec": 1565,
+      "topic": "iWork / Früher war alles besser",
+      "fineSubject": "Productivity",
+      "topicIndex": 41
+    }
+  ]
+}

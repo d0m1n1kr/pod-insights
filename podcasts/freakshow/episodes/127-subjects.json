@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 127,
+  "title": "FS127 The Number of the Denis",
+  "generatedAt": "2026-01-05T15:17:51.075Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.18974272173324305,
+      "Software": 0.2968855788761002,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.3662830060934326,
+      "Social": 0.053825321597833445,
+      "Culture": 0.09326337169939065,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2242,
+      "Software": 3508,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 4328,
+      "Social": 636,
+      "Culture": 1102,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 1,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11816,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 201,
+      "endSec": 1583,
+      "durationSec": 1382,
+      "topic": "Audio",
+      "fineSubject": "Audio Technology",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 2153,
+      "endSec": 3953,
+      "durationSec": 1800,
+      "topic": "goto fail;",
+      "fineSubject": "Programming",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3953,
+      "endSec": 5537,
+      "durationSec": 1584,
+      "topic": "Goxocalypse",
+      "fineSubject": "Software Development",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5537,
+      "endSec": 6639,
+      "durationSec": 1102,
+      "topic": "ART COM",
+      "fineSubject": "Digital Art",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 6639,
+      "endSec": 9585,
+      "durationSec": 2946,
+      "topic": "Ultraschall, Reaper und Latenz",
+      "fineSubject": "Production",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 9585,
+      "endSec": 11293,
+      "durationSec": 1708,
+      "topic": "Apples iTunes-Support",
+      "fineSubject": "Support",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11293,
+      "endSec": 11951,
+      "durationSec": 658,
+      "topic": "Webforen",
+      "fineSubject": "Forums",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 14108,
+      "endSec": 14744,
+      "durationSec": 636,
+      "topic": "App.net",
+      "fineSubject": "Social Networks",
+      "topicIndex": 10
+    }
+  ]
+}

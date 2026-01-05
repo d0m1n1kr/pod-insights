@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 342,
+  "title": "LNP342 Coronaappdiskussionsorgien",
+  "generatedAt": "2026-01-05T15:17:57.619Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.08561643835616438,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.9143835616438356,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 300,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 3204,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 6,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3504,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 161,
+      "endSec": 287,
+      "durationSec": 126,
+      "topic": "Logbuch:Freiheit Update",
+      "fineSubject": "Freedom",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 288,
+      "endSec": 1338,
+      "durationSec": 1050,
+      "topic": "Datenspende",
+      "fineSubject": "Data Donation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1339,
+      "endSec": 2233,
+      "durationSec": 894,
+      "topic": "Contact Tracing zentral vs. dezentral",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2233,
+      "endSec": 2957,
+      "durationSec": 724,
+      "topic": "Contact Tracing wird Exposure Tracing",
+      "fineSubject": "Exposure Tracing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2958,
+      "endSec": 3144,
+      "durationSec": 186,
+      "topic": "Tracing App in Österreich",
+      "fineSubject": "Tracing App",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3144,
+      "endSec": 3368,
+      "durationSec": 224,
+      "topic": "Quaratäne-App geplant?",
+      "fineSubject": "Quarantine App",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3369,
+      "endSec": 3669,
+      "durationSec": 300,
+      "topic": "Palantir in Hessen",
+      "fineSubject": "Data Analytics",
+      "topicIndex": 6
+    }
+  ]
+}

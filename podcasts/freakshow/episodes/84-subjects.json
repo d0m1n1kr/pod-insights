@@ -1,0 +1,315 @@
+{
+  "episodeNumber": 84,
+  "title": "MM084 Auf Honig",
+  "generatedAt": "2026-01-05T15:17:51.068Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.023070892597155338,
+      "Software": 0.3787658192406764,
+      "Hardware": 0.4754171799753612,
+      "Finance": 0,
+      "Media": 0.07122858102811065,
+      "Social": 0,
+      "Culture": 0.03281442490760444,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.01870310225109195,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 206,
+      "Software": 3382,
+      "Hardware": 4245,
+      "Finance": 0,
+      "Media": 636,
+      "Social": 0,
+      "Culture": 293,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 167,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 13,
+      "Hardware": 10,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 8929,
+    "totalTopics": 30
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 295,
+      "endSec": 1652,
+      "durationSec": 1357,
+      "topic": "iPad 3",
+      "fineSubject": "iPad",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1652,
+      "endSec": 1825,
+      "durationSec": 173,
+      "topic": "Adblock für Chrome ausgehebelt",
+      "fineSubject": "Adblock",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1825,
+      "endSec": 2780,
+      "durationSec": 955,
+      "topic": "Windows 8",
+      "fineSubject": "Windows",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2780,
+      "endSec": 3380,
+      "durationSec": 600,
+      "topic": "AIrport Extreme",
+      "fineSubject": "Router",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3380,
+      "endSec": 3605,
+      "durationSec": 225,
+      "topic": "FritzBox-Update wegen Sommerzeit",
+      "fineSubject": "Router",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3605,
+      "endSec": 3811,
+      "durationSec": 206,
+      "topic": "Denis' Selbstbau-Uhr und die Schaltsekunde",
+      "fineSubject": "Uhr",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4640,
+      "endSec": 4845,
+      "durationSec": 205,
+      "topic": "Zeppelin Air",
+      "fineSubject": "Lautsprecher",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4845,
+      "endSec": 5415,
+      "durationSec": 570,
+      "topic": "Logitech Squeezebox",
+      "fineSubject": "Lautsprecher",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5415,
+      "endSec": 6129,
+      "durationSec": 714,
+      "topic": "NanoSIM",
+      "fineSubject": "SIM-Karten",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 6129,
+      "endSec": 6453,
+      "durationSec": 324,
+      "topic": "Instacast Apple Review",
+      "fineSubject": "App Review",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 6520,
+      "endSec": 6870,
+      "durationSec": 350,
+      "topic": "Verwendung der UDID",
+      "fineSubject": "iOS",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 6870,
+      "endSec": 6925,
+      "durationSec": 55,
+      "topic": "Paid Updates im AppStore",
+      "fineSubject": "App Store",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 6925,
+      "endSec": 7163,
+      "durationSec": 238,
+      "topic": "PaintCode",
+      "fineSubject": "Design",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 7163,
+      "endSec": 7300,
+      "durationSec": 137,
+      "topic": "MacUpdate Bundle",
+      "fineSubject": "Bundle",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 7300,
+      "endSec": 7333,
+      "durationSec": 33,
+      "topic": "Adium",
+      "fineSubject": "Chat",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 7333,
+      "endSec": 7390,
+      "durationSec": 57,
+      "topic": "Colloquy",
+      "fineSubject": "Chat",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7390,
+      "endSec": 7453,
+      "durationSec": 63,
+      "topic": "SD-Karten waschbar",
+      "fineSubject": "Speicher",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 7453,
+      "endSec": 7620,
+      "durationSec": 167,
+      "topic": "Angry Birds Space",
+      "fineSubject": "Mobile",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 7620,
+      "endSec": 7675,
+      "durationSec": 55,
+      "topic": "Skype",
+      "fineSubject": "VoIP",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Software",
+      "startSec": 7771,
+      "endSec": 7942,
+      "durationSec": 171,
+      "topic": "Auphonic",
+      "fineSubject": "Audio",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Media",
+      "startSec": 7942,
+      "endSec": 8058,
+      "durationSec": 116,
+      "topic": "Audio-Formate",
+      "fineSubject": "Formate",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Media",
+      "startSec": 8058,
+      "endSec": 8578,
+      "durationSec": 520,
+      "topic": "Adaptives Leveling",
+      "fineSubject": "Technik",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9067,
+      "endSec": 9106,
+      "durationSec": 39,
+      "topic": "MacBook Pro Air oder Air Pro?",
+      "fineSubject": "MacBook",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9106,
+      "endSec": 9457,
+      "durationSec": 351,
+      "topic": "SSD-Preise",
+      "fineSubject": "Speicher",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9457,
+      "endSec": 9511,
+      "durationSec": 54,
+      "topic": "Chain of Fools",
+      "fineSubject": "Medien",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9511,
+      "endSec": 9750,
+      "durationSec": 239,
+      "topic": "Mike Daisey And The Apple Factory",
+      "fineSubject": "Medien",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9750,
+      "endSec": 9871,
+      "durationSec": 121,
+      "topic": "Wärmeentwicklung bei Tablets",
+      "fineSubject": "Tablets",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Software",
+      "startSec": 9871,
+      "endSec": 10516,
+      "durationSec": 645,
+      "topic": "Android-Fragmentierung",
+      "fineSubject": "Android",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Software",
+      "startSec": 10516,
+      "endSec": 10705,
+      "durationSec": 189,
+      "topic": "iPhoto für iOS",
+      "fineSubject": "iPhoto",
+      "topicIndex": 29
+    }
+  ]
+}

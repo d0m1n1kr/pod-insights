@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 312,
+  "title": "Mi312 – \"Die Zeugen der Wissenschaftskommunikation\"",
+  "generatedAt": "2026-01-05T15:18:17.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.614197934370506,
+      "Culture": 0.2766374689501896,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.10916459667930449,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 4698,
+      "Culture": 2116,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 835,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 7649,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 168,
+      "endSec": 534,
+      "durationSec": 366,
+      "topic": "Minkorrekt Tour 2025",
+      "fineSubject": "Science Communication",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 534,
+      "endSec": 1742,
+      "durationSec": 1208,
+      "topic": "LNP 500",
+      "fineSubject": "LNP 500",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Education",
+      "startSec": 1742,
+      "endSec": 2577,
+      "durationSec": 835,
+      "topic": "TU Berlin",
+      "fineSubject": "TU Berlin",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2577,
+      "endSec": 4327,
+      "durationSec": 1750,
+      "topic": "Podiumsdiskussion",
+      "fineSubject": "Podiumsdiskussion",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4470,
+      "endSec": 6687,
+      "durationSec": 2217,
+      "topic": "Thema 1: “Die Salzkrise”",
+      "fineSubject": "Salzkrise",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 6687,
+      "endSec": 7960,
+      "durationSec": 1273,
+      "topic": "Thema 2: \"Winds of Charge\"",
+      "fineSubject": "Winds of Charge",
+      "topicIndex": 6
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "episodeNumber": 91,
+  "title": "RZ091 Philosophie und das Universum",
+  "generatedAt": "2026-01-05T15:18:06.286Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 1,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 931,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 1,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 931,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 13,
+      "endSec": 944,
+      "durationSec": 931,
+      "topic": "Astrophysik und Astronomie",
+      "fineSubject": "Astrophysics",
+      "topicIndex": 2
+    }
+  ]
+}

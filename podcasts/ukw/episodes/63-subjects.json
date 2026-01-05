@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 63,
+  "title": "UKW063 Corona Weekly: So kann man sein Geld auch aus dem Fenster werfen",
+  "generatedAt": "2026-01-05T15:18:03.015Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9723130586439939,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0.027686941356006103,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 8920,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 254,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 18,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9174,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 63,
+      "endSec": 458,
+      "durationSec": 395,
+      "topic": "Rückblick",
+      "fineSubject": "Statistics / Overview",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 459,
+      "endSec": 757,
+      "durationSec": 298,
+      "topic": "Die Risikotabelle ist gerade kaputt",
+      "fineSubject": "Data / Risk Assessment",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 758,
+      "endSec": 1300,
+      "durationSec": 542,
+      "topic": "Falsche Zahlen und Korrekturen",
+      "fineSubject": "Data / Corrections",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1301,
+      "endSec": 1591,
+      "durationSec": 290,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Geography / Germany",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1591,
+      "endSec": 2026,
+      "durationSec": 435,
+      "topic": "Testzahlen",
+      "fineSubject": "Data / Testing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2026,
+      "endSec": 2437,
+      "durationSec": 411,
+      "topic": "Saisonalität",
+      "fineSubject": "Research / Seasonality",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2438,
+      "endSec": 2589,
+      "durationSec": 151,
+      "topic": "Herdenimmunität",
+      "fineSubject": "Immunology / Herd Immunity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2589,
+      "endSec": 2817,
+      "durationSec": 228,
+      "topic": "Berlin",
+      "fineSubject": "Geography / Berlin",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 2818,
+      "endSec": 3319,
+      "durationSec": 501,
+      "topic": "Auswirkungen von Impfungen und Erkrankungen",
+      "fineSubject": "Vaccination / Impact",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3319,
+      "endSec": 4640,
+      "durationSec": 1321,
+      "topic": "Die neuen Maßnahmen",
+      "fineSubject": "Policy / Measures",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 4640,
+      "endSec": 4894,
+      "durationSec": 254,
+      "topic": "Auswirkung des News Cycles",
+      "fineSubject": "Impact / News Cycle",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4894,
+      "endSec": 5562,
+      "durationSec": 668,
+      "topic": "Wo stecken sich Leute an?",
+      "fineSubject": "Transmission / Infection Sources",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5562,
+      "endSec": 5818,
+      "durationSec": 256,
+      "topic": "Sputnik V im Roling Review der EMA",
+      "fineSubject": "Vaccination / Sputnik V",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5818,
+      "endSec": 6194,
+      "durationSec": 376,
+      "topic": "STIKO lässt AZ auch für 65+ zu",
+      "fineSubject": "Vaccination / AstraZeneca",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 6194,
+      "endSec": 6304,
+      "durationSec": 110,
+      "topic": "EU stoppt AZ-Impfexporte",
+      "fineSubject": "Policy / Export Restrictions",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 6305,
+      "endSec": 6447,
+      "durationSec": 142,
+      "topic": "Menschenaffen geimpft",
+      "fineSubject": "Research / Animal Studies",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Health",
+      "startSec": 6448,
+      "endSec": 7233,
+      "durationSec": 785,
+      "topic": "Der Wunderheiler aus Lübeck",
+      "fineSubject": "Case Study / Alternative Treatments",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Health",
+      "startSec": 7233,
+      "endSec": 7775,
+      "durationSec": 542,
+      "topic": "Ausblick",
+      "fineSubject": "Forecasting / Future Outlook",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Health",
+      "startSec": 7776,
+      "endSec": 9245,
+      "durationSec": 1469,
+      "topic": "Die Zukunft der Risikotabelle",
+      "fineSubject": "Data / Risk Assessment Future",
+      "topicIndex": 18
+    }
+  ]
+}

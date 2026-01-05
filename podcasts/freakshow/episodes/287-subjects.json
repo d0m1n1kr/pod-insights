@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 287,
+  "title": "FS287 Mad Internet Disease",
+  "generatedAt": "2026-01-05T15:17:51.120Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7025800596395696,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.11033320368209516,
+      "Social": 0,
+      "Culture": 0.14780241151302995,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.03928432516530533
+    },
+    "durations": {
+      "Technology": 5419,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 851,
+      "Social": 0,
+      "Culture": 1140,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 303
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 7713,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 340,
+      "endSec": 784,
+      "durationSec": 444,
+      "topic": "Plastic Rock",
+      "fineSubject": "Music",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 897,
+      "endSec": 1200,
+      "durationSec": 303,
+      "topic": "38C3 Sendezentrum",
+      "fineSubject": "Conference",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1201,
+      "endSec": 1718,
+      "durationSec": 517,
+      "topic": "Auracast",
+      "fineSubject": "Broadcasting",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1719,
+      "endSec": 2570,
+      "durationSec": 851,
+      "topic": "Ultraschall 5.1",
+      "fineSubject": "Sound Systems",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2571,
+      "endSec": 3105,
+      "durationSec": 534,
+      "topic": "KI-Auswertung der Freak Show",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4367,
+      "endSec": 5124,
+      "durationSec": 757,
+      "topic": "FOURKAY HDMI Matrix Switch",
+      "fineSubject": "Video Equipment",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5746,
+      "endSec": 9124,
+      "durationSec": 3378,
+      "topic": "Erfahrungen mit Cursor",
+      "fineSubject": "User Experience",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9124,
+      "endSec": 9357,
+      "durationSec": 233,
+      "topic": "LM Studio",
+      "fineSubject": "Software",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Culture",
+      "startSec": 10057,
+      "endSec": 10753,
+      "durationSec": 696,
+      "topic": "Programme des Jahres",
+      "fineSubject": "Media",
+      "topicIndex": 12
+    }
+  ]
+}

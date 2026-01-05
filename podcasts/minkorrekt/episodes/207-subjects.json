@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 207,
+  "title": "Mi207 - \"Eventimpferlebnis\"",
+  "generatedAt": "2026-01-05T15:18:17.373Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.10487898578563196,
+      "Culture": 0.6167242924830324,
+      "Wissenschaft": 0,
+      "Health": 0.09809194519144576,
+      "Technology": 0.15059546676911256,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.02970930977077731,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 819,
+      "Culture": 4816,
+      "Wissenschaft": 0,
+      "Health": 766,
+      "Technology": 1176,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 232,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 7809,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 405,
+      "endSec": 711,
+      "durationSec": 306,
+      "topic": "Science vs. Fiction",
+      "fineSubject": "Fiction",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 711,
+      "endSec": 1477,
+      "durationSec": 766,
+      "topic": "Boosterimpfung",
+      "fineSubject": "Vaccination",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1477,
+      "endSec": 1709,
+      "durationSec": 232,
+      "topic": "Podcasts und Schwurbler in Wien",
+      "fineSubject": "Podcasts",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1709,
+      "endSec": 2752,
+      "durationSec": 1043,
+      "topic": "Impulse2022",
+      "fineSubject": "Impulse2022",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3308,
+      "endSec": 4829,
+      "durationSec": 1521,
+      "topic": "Thema 1: \"Woher der Ringe?\"",
+      "fineSubject": "Film",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4886,
+      "endSec": 6541,
+      "durationSec": 1655,
+      "topic": "Thema 2: \"\"Infinity War\" war unrealistisch!\"",
+      "fineSubject": "Film",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 6541,
+      "endSec": 7054,
+      "durationSec": 513,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiment",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7054,
+      "endSec": 8230,
+      "durationSec": 1176,
+      "topic": "Thema 3: \"DeepL fürs Tierreich”",
+      "fineSubject": "Translation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9411,
+      "endSec": 10008,
+      "durationSec": 597,
+      "topic": "Schwurbel",
+      "fineSubject": "Conspiracy",
+      "topicIndex": 9
+    }
+  ]
+}

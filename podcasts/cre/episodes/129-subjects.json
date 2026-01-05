@@ -1,0 +1,234 @@
+{
+  "episodeNumber": 129,
+  "title": "CRE129 Globales Dorf – Rechtsfreier Raum?",
+  "generatedAt": "2026-01-05T15:17:54.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.05555555555555555,
+      "Social": 0.3333333333333333,
+      "Media": 0.1111111111111111,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.5,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 6,
+      "Media": 2,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 9,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einfluss des Internets auf die Gesellschaft",
+      "fineSubject": "Internet Society",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Netzzensur und ihre Bewertung",
+      "fineSubject": "Censorship",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Abmahnpraxis im Internet",
+      "fineSubject": "Internet Law",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Polizeistreifen im Internet",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anlassunabhängige Internetüberwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bedeutung der Internetkultur",
+      "fineSubject": "Internet Culture",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Selbstregulierungskräfte im Netz",
+      "fineSubject": "Self-Regulation",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Twitterstörsender",
+      "fineSubject": "Social Media",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rolle der etablierten Medien",
+      "fineSubject": "Traditional Media",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Unmöglichkeit der Regulierung des Internets",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einschränkung der Meinungsfreiheit durch Zensurgesetze",
+      "fineSubject": "Freedom of Speech",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Nazipropaganda vs. Meinung vs. Tatsachenbehauptung",
+      "fineSubject": "Propaganda",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Grauzonen im Internet",
+      "fineSubject": "Legal Gray Areas",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verlautbarungsjournalismus",
+      "fineSubject": "Journalism",
+      "topicIndex": 14,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einschränkung der Bürgerrechte",
+      "fineSubject": "Civil Rights",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Befugnisse der Behörden",
+      "fineSubject": "Government Powers",
+      "topicIndex": 16,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 17,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Repressive Staaten und Konformismus",
+      "fineSubject": "Repression",
+      "topicIndex": 18,
+      "untimed": true
+    }
+  ]
+}

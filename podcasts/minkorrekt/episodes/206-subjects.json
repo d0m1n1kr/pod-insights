@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 206,
+  "title": "Mi206 - \"Zwischen den Jahren\"",
+  "generatedAt": "2026-01-05T15:18:17.372Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.19960899315738026,
+      "Culture": 0.19374389051808408,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.23049853372434018,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.05826001955034213,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.31788856304985336,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1021,
+      "Culture": 991,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1179,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 298,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1626,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 5115,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 175,
+      "endSec": 660,
+      "durationSec": 485,
+      "topic": "Ruhepause",
+      "fineSubject": "Leisure",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 660,
+      "endSec": 958,
+      "durationSec": 298,
+      "topic": "Gastauftritte in Podcasts",
+      "fineSubject": "Podcasts",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 3049,
+      "endSec": 4125,
+      "durationSec": 1076,
+      "topic": "Kommentare",
+      "fineSubject": "Feedback",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 4125,
+      "endSec": 4190,
+      "durationSec": 65,
+      "topic": "Themen der Woche",
+      "fineSubject": "Weekly Topics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7674,
+      "endSec": 8853,
+      "durationSec": 1179,
+      "topic": "Thema 2: \"It's not a bug…\"",
+      "fineSubject": "Software",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 8853,
+      "endSec": 9874,
+      "durationSec": 1021,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Weekly Experiment",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9874,
+      "endSec": 10865,
+      "durationSec": 991,
+      "topic": "Thema 3: \"grüner Weihnachtsstern\"",
+      "fineSubject": "Traditions",
+      "topicIndex": 8
+    }
+  ]
+}

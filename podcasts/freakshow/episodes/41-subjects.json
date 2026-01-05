@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 41,
+  "title": "MM041 Jeder nur ein Kreuz",
+  "generatedAt": "2026-01-05T15:17:51.063Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0.9680451127819549,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.03195488721804511,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 8755,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 289,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9044,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 106,
+      "endSec": 395,
+      "durationSec": 289,
+      "topic": "Quartalszahlen",
+      "fineSubject": "Financials",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 395,
+      "endSec": 9150,
+      "durationSec": 8755,
+      "topic": "iPad",
+      "fineSubject": "iPad",
+      "topicIndex": 1
+    }
+  ]
+}

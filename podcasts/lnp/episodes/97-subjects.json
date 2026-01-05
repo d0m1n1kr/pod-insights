@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 97,
+  "title": "LNP097 Garantiert nippelfrei",
+  "generatedAt": "2026-01-05T15:17:57.588Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5028201378734072,
+      "Technology": 0,
+      "Law": 0.4971798621265929,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2407,
+      "Technology": 0,
+      "Law": 2380,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4787,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 137,
+      "endSec": 2544,
+      "durationSec": 2407,
+      "topic": "Netzsperren in der Türkei",
+      "fineSubject": "Internet Censorship",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 2544,
+      "endSec": 4259,
+      "durationSec": 1715,
+      "topic": "Jugendmedienschutzstaatsvertrag",
+      "fineSubject": "Media Protection",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 4260,
+      "endSec": 4925,
+      "durationSec": 665,
+      "topic": "EuGH erlaubt Urheberrechts-Netzsperren",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    }
+  ]
+}

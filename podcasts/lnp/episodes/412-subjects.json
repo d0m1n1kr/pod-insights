@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 412,
+  "title": "LNP412 Kuss auf die Nuss",
+  "generatedAt": "2026-01-05T15:17:57.630Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.13869676010192938,
+      "Technology": 0.05915544230069166,
+      "Law": 0,
+      "Security": 0.2537313432835821,
+      "Social": 0,
+      "Media": 0.03785948307244266,
+      "Health": 0.5105569712413542,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 762,
+      "Technology": 325,
+      "Law": 0,
+      "Security": 1394,
+      "Social": 0,
+      "Media": 208,
+      "Health": 2805,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 3,
+      "Social": 0,
+      "Media": 1,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5494,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1102,
+      "endSec": 1225,
+      "durationSec": 123,
+      "topic": "Vorträge von Linus",
+      "fineSubject": "Presentations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1226,
+      "endSec": 1428,
+      "durationSec": 202,
+      "topic": "HTTP Status Code 412",
+      "fineSubject": "HTTP Status Codes",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1428,
+      "endSec": 1636,
+      "durationSec": 208,
+      "topic": "Feedback: Drachenlord",
+      "fineSubject": "Feedback",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1637,
+      "endSec": 2399,
+      "durationSec": 762,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2399,
+      "endSec": 5204,
+      "durationSec": 2805,
+      "topic": "Corona-Apps und Impfung",
+      "fineSubject": "Vaccination",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 5204,
+      "endSec": 5368,
+      "durationSec": 164,
+      "topic": "NSO auf US-Blacklist",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 5369,
+      "endSec": 5721,
+      "durationSec": 352,
+      "topic": "Kopfgeld auf REvil",
+      "fineSubject": "Ransomware",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 5721,
+      "endSec": 6599,
+      "durationSec": 878,
+      "topic": "Hildmann-Hack",
+      "fineSubject": "Hacking",
+      "topicIndex": 7
+    }
+  ]
+}

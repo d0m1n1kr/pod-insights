@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 330,
+  "title": "LNP330 Thüü-üü-üü-üü-üü-üü-üü-üüringen",
+  "generatedAt": "2026-01-05T15:17:57.618Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6102311643835616,
+      "Technology": 0.1560359589041096,
+      "Law": 0,
+      "Security": 0.03831335616438356,
+      "Social": 0,
+      "Media": 0.18043664383561644,
+      "Health": 0.014982876712328766,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5702,
+      "Technology": 1458,
+      "Law": 0,
+      "Security": 358,
+      "Social": 0,
+      "Media": 1686,
+      "Health": 140,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 2,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 9344,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 147,
+      "endSec": 583,
+      "durationSec": 436,
+      "topic": "Feedback: Indymedia und Altermedia",
+      "fineSubject": "Indymedia",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 584,
+      "endSec": 4390,
+      "durationSec": 3806,
+      "topic": "Nils Melzer über Julian Assange",
+      "fineSubject": "Julian Assange",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4390,
+      "endSec": 5018,
+      "durationSec": 628,
+      "topic": "Wahl-Theater in Iowa",
+      "fineSubject": "Elections",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5019,
+      "endSec": 6287,
+      "durationSec": 1268,
+      "topic": "Wahl-Theater Thüringen",
+      "fineSubject": "Elections",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6287,
+      "endSec": 7305,
+      "durationSec": 1018,
+      "topic": "Tesla deaktiviert Autopilot",
+      "fineSubject": "Automotive",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 7306,
+      "endSec": 7664,
+      "durationSec": 358,
+      "topic": "Polizisten missbrauchen Datenbanken",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 7665,
+      "endSec": 8915,
+      "durationSec": 1250,
+      "topic": "Spannervideos",
+      "fineSubject": "Surveillance",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8915,
+      "endSec": 9311,
+      "durationSec": 396,
+      "topic": "Datensammler Avast",
+      "fineSubject": "Data Collection",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9312,
+      "endSec": 9356,
+      "durationSec": 44,
+      "topic": "mailbox.org doch nicht gesperrt",
+      "fineSubject": "Email Services",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 9357,
+      "endSec": 9497,
+      "durationSec": 140,
+      "topic": "5.000 Coronavirus-Studien befreit",
+      "fineSubject": "Research",
+      "topicIndex": 9
+    }
+  ]
+}

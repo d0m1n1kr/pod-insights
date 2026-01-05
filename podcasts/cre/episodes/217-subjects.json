@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 217,
+  "title": "CRE217 Mythos 68er",
+  "generatedAt": "2026-01-05T15:17:54.395Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.08018327605956473,
+      "Social": 0.09824654154551062,
+      "Media": 0.09137368931183364,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.4557229711868887,
+      "Security": 0,
+      "History": 0.27447352189620233,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 910,
+      "Social": 1115,
+      "Media": 1037,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 5172,
+      "Security": 0,
+      "History": 3115,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 1,
+      "Media": 1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 3,
+      "Security": 0,
+      "History": 3,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 11349,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "History",
+      "startSec": 48,
+      "endSec": 1163,
+      "durationSec": 1115,
+      "topic": "68er-Bewegung",
+      "fineSubject": "Social Movements",
+      "topicIndex": 0
+    },
+    {
+      "subject": "History",
+      "startSec": 48,
+      "endSec": 1227,
+      "durationSec": 1179,
+      "topic": "Deutscher Herbst",
+      "fineSubject": "Terrorism",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 48,
+      "endSec": 1163,
+      "durationSec": 1115,
+      "topic": "Nachwirkungen der 68er-Bewegung",
+      "fineSubject": "Cultural Impact",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 126,
+      "endSec": 1163,
+      "durationSec": 1037,
+      "topic": "Gründung der tageszeitung",
+      "fineSubject": "Newspapers",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 126,
+      "endSec": 1163,
+      "durationSec": 1037,
+      "topic": "Gründung der Grünen",
+      "fineSubject": "Political Parties",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 230,
+      "endSec": 1913,
+      "durationSec": 1683,
+      "topic": "Marsch durch die Institutionen",
+      "fineSubject": "Political Strategy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 350,
+      "endSec": 2802,
+      "durationSec": 2452,
+      "topic": "Ziviler Widerstand",
+      "fineSubject": "Civil Rights",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1003,
+      "endSec": 1913,
+      "durationSec": 910,
+      "topic": "Chaos Computer Club",
+      "fineSubject": "Hacker Culture",
+      "topicIndex": 7
+    },
+    {
+      "subject": "History",
+      "startSec": 1638,
+      "endSec": 2459,
+      "durationSec": 821,
+      "topic": "Radikalisierung",
+      "fineSubject": "Political Radicalism",
+      "topicIndex": 2
+    }
+  ]
+}

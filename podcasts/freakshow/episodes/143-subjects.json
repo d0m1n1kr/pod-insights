@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 143,
+  "title": "FS143 Hättst ja mal Air sagen können",
+  "generatedAt": "2026-01-05T15:17:51.078Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.40589711417816815,
+      "Software": 0.3171267252195734,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.2013801756587202,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.07559598494353827,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3882,
+      "Software": 3033,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1926,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 723,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 9564,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 3657,
+      "endSec": 4248,
+      "durationSec": 591,
+      "topic": "RoboVM",
+      "fineSubject": "RoboVM",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 4248,
+      "endSec": 4971,
+      "durationSec": 723,
+      "topic": "Spiel des Lebens",
+      "fineSubject": "Game Mechanics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6057,
+      "endSec": 6971,
+      "durationSec": 914,
+      "topic": "Tim war im Apple Store",
+      "fineSubject": "Apple Store",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7361,
+      "endSec": 8753,
+      "durationSec": 1392,
+      "topic": "José Mité",
+      "fineSubject": "José Mité",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8753,
+      "endSec": 10066,
+      "durationSec": 1313,
+      "topic": "Pimp my Mac",
+      "fineSubject": "Mac",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 10066,
+      "endSec": 12508,
+      "durationSec": 2442,
+      "topic": "FreeBSD",
+      "fineSubject": "FreeBSD",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 12508,
+      "endSec": 13042,
+      "durationSec": 534,
+      "topic": "Lichtinstallation entlang der Berliner Mauer",
+      "fineSubject": "Public Art",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13042,
+      "endSec": 14697,
+      "durationSec": 1655,
+      "topic": "Diverses & Apps",
+      "fineSubject": "Miscellaneous",
+      "topicIndex": 10
+    }
+  ]
+}

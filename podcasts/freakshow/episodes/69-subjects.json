@@ -1,0 +1,756 @@
+{
+  "episodeNumber": 69,
+  "title": "MM069 Mach den Affen weg",
+  "generatedAt": "2026-01-05T15:17:51.066Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.8494809688581315,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.023906888958792075,
+      "Media": 0.044825416797735135,
+      "Social": 0,
+      "Culture": 0.003067002201950299,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.078719723183391,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 10802,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 304,
+      "Media": 570,
+      "Social": 0,
+      "Culture": 39,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1001,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 58,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 8,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 10,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12716,
+    "totalTopics": 86
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 119,
+      "endSec": 157,
+      "durationSec": 38,
+      "topic": "Bumm Zack Return",
+      "fineSubject": "Comedy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 253,
+      "endSec": 284,
+      "durationSec": 31,
+      "topic": "Instant Rimshot",
+      "fineSubject": "Comedy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 302,
+      "endSec": 382,
+      "durationSec": 80,
+      "topic": "Tim war offline und berichtet",
+      "fineSubject": "Internet",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 440,
+      "endSec": 479,
+      "durationSec": 39,
+      "topic": "Drei-Stream-Gesellschaft",
+      "fineSubject": "Media",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 479,
+      "endSec": 704,
+      "durationSec": 225,
+      "topic": "Linux 3.0",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 704,
+      "endSec": 741,
+      "durationSec": 37,
+      "topic": "Witz über Plan 9",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 741,
+      "endSec": 790,
+      "durationSec": 49,
+      "topic": "Mac OS X 10.7 Lion",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 790,
+      "endSec": 882,
+      "durationSec": 92,
+      "topic": "Playboy Interview mit Steve Jobs",
+      "fineSubject": "Interviews",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Business",
+      "startSec": 882,
+      "endSec": 1092,
+      "durationSec": 210,
+      "topic": "Quartalsergebnisse von Nokia",
+      "fineSubject": "Finance",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Business",
+      "startSec": 1092,
+      "endSec": 1162,
+      "durationSec": 70,
+      "topic": "Quartalsergebnisse von Apple",
+      "fineSubject": "Finance",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1162,
+      "endSec": 1573,
+      "durationSec": 411,
+      "topic": "Die anstehende “Product Transition”",
+      "fineSubject": "Product Development",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1573,
+      "endSec": 1673,
+      "durationSec": 100,
+      "topic": "Prosumer",
+      "fineSubject": "Consumer Electronics",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1673,
+      "endSec": 1772,
+      "durationSec": 99,
+      "topic": "Mac Pro",
+      "fineSubject": "Hardware",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1772,
+      "endSec": 1960,
+      "durationSec": 188,
+      "topic": "Das neue MacBook Air",
+      "fineSubject": "Hardware",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 1960,
+      "endSec": 1988,
+      "durationSec": 28,
+      "topic": "Hukl und Tim rappen",
+      "fineSubject": "Music",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1988,
+      "endSec": 2071,
+      "durationSec": 83,
+      "topic": "Das neue MacBook Air",
+      "fineSubject": "Hardware",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2071,
+      "endSec": 2100,
+      "durationSec": 29,
+      "topic": "Mikroeinstellung",
+      "fineSubject": "Hardware",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2100,
+      "endSec": 2405,
+      "durationSec": 305,
+      "topic": "Das Thunderbolt Display",
+      "fineSubject": "Hardware",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2405,
+      "endSec": 2492,
+      "durationSec": 87,
+      "topic": "Sonnet Technologies’ Thunderbolt Produkte und die Ankündigungen zur NAB 2011",
+      "fineSubject": "Hardware",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2492,
+      "endSec": 2618,
+      "durationSec": 126,
+      "topic": "Ethernet - damals in Klondike",
+      "fineSubject": "Networking",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2618,
+      "endSec": 3056,
+      "durationSec": 438,
+      "topic": "USB 3.0 vs. Thunderbolt",
+      "fineSubject": "Networking",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3056,
+      "endSec": 3072,
+      "durationSec": 16,
+      "topic": "Das neue MacBook Air",
+      "fineSubject": "Hardware",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3072,
+      "endSec": 3180,
+      "durationSec": 108,
+      "topic": "Der neue Mac mini",
+      "fineSubject": "Hardware",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3180,
+      "endSec": 3278,
+      "durationSec": 98,
+      "topic": "hukls Spur geht kaputt",
+      "fineSubject": "Hardware",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3278,
+      "endSec": 3295,
+      "durationSec": 17,
+      "topic": "Wiimotes sind schuld",
+      "fineSubject": "Gaming",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3295,
+      "endSec": 3355,
+      "durationSec": 60,
+      "topic": "Der neue Mac mini",
+      "fineSubject": "Hardware",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Media",
+      "startSec": 3355,
+      "endSec": 3412,
+      "durationSec": 57,
+      "topic": "Die Sendung rockt",
+      "fineSubject": "Media",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3412,
+      "endSec": 3426,
+      "durationSec": 14,
+      "topic": "Überleitung zu Lion",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3426,
+      "endSec": 3623,
+      "durationSec": 197,
+      "topic": "Lion: Scrollbalken",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 29
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3623,
+      "endSec": 3750,
+      "durationSec": 127,
+      "topic": "Lion: Safari, Webkit und Chrome",
+      "fineSubject": "Web Browsers",
+      "topicIndex": 30
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3750,
+      "endSec": 3840,
+      "durationSec": 90,
+      "topic": "Siracusa’s Lion Review",
+      "fineSubject": "Reviews",
+      "topicIndex": 31
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3840,
+      "endSec": 3970,
+      "durationSec": 130,
+      "topic": "Lion: Filesystem, FileVault",
+      "fineSubject": "File Systems",
+      "topicIndex": 32
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3970,
+      "endSec": 4196,
+      "durationSec": 226,
+      "topic": "Lion: Prozesse, Sandboxing",
+      "fineSubject": "Security",
+      "topicIndex": 33
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4196,
+      "endSec": 4230,
+      "durationSec": 34,
+      "topic": "Lion: Resolution Independence",
+      "fineSubject": "Graphics",
+      "topicIndex": 34
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4367,
+      "endSec": 4867,
+      "durationSec": 500,
+      "topic": "Lion: Kleinigkeiten",
+      "fineSubject": "User Experience",
+      "topicIndex": 36
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4867,
+      "endSec": 4974,
+      "durationSec": 107,
+      "topic": "Lion: Text-to-Speech",
+      "fineSubject": "Accessibility",
+      "topicIndex": 37
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4974,
+      "endSec": 5129,
+      "durationSec": 155,
+      "topic": "Lion: FileVault mit mehreren Usern",
+      "fineSubject": "Security",
+      "topicIndex": 38
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5129,
+      "endSec": 5230,
+      "durationSec": 101,
+      "topic": "Lion: Tim irrt über Safari",
+      "fineSubject": "Web Browsers",
+      "topicIndex": 39
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5230,
+      "endSec": 5619,
+      "durationSec": 389,
+      "topic": "AirDrop",
+      "fineSubject": "Networking",
+      "topicIndex": 40
+    },
+    {
+      "subject": "Media",
+      "startSec": 5619,
+      "endSec": 5658,
+      "durationSec": 39,
+      "topic": "Tim besteht auf Sendungsfortführung",
+      "fineSubject": "Media",
+      "topicIndex": 41
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5658,
+      "endSec": 7188,
+      "durationSec": 1530,
+      "topic": "hukls Backup-Experiences",
+      "fineSubject": "Backup",
+      "topicIndex": 42
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7188,
+      "endSec": 7602,
+      "durationSec": 414,
+      "topic": "Das \"NAS-Storage-Problem\"",
+      "fineSubject": "Storage",
+      "topicIndex": 43
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7602,
+      "endSec": 7800,
+      "durationSec": 198,
+      "topic": "De-Duplication bei Online-Backup",
+      "fineSubject": "Backup",
+      "topicIndex": 44
+    },
+    {
+      "subject": "Business",
+      "startSec": 7800,
+      "endSec": 7845,
+      "durationSec": 45,
+      "topic": "Dennis Buzzwordalarm",
+      "fineSubject": "Trends",
+      "topicIndex": 45
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7845,
+      "endSec": 7960,
+      "durationSec": 115,
+      "topic": "Ärger mit netatalk",
+      "fineSubject": "Networking",
+      "topicIndex": 46
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7960,
+      "endSec": 8168,
+      "durationSec": 208,
+      "topic": "und sourceforge ist doof",
+      "fineSubject": "Open Source",
+      "topicIndex": 47
+    },
+    {
+      "subject": "Business",
+      "startSec": 8168,
+      "endSec": 8309,
+      "durationSec": 141,
+      "topic": "Lizenzkram",
+      "fineSubject": "Legal",
+      "topicIndex": 48
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8309,
+      "endSec": 8389,
+      "durationSec": 80,
+      "topic": "Tim's FreeNAS ist kaputt",
+      "fineSubject": "Backup",
+      "topicIndex": 49
+    },
+    {
+      "subject": "Business",
+      "startSec": 8389,
+      "endSec": 8455,
+      "durationSec": 66,
+      "topic": "Geschäftsmodell vom netatalk-Mensch",
+      "fineSubject": "Business Models",
+      "topicIndex": 50
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8700,
+      "endSec": 8744,
+      "durationSec": 44,
+      "topic": "Mac OS X 10.8 Liger",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 52
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8744,
+      "endSec": 8838,
+      "durationSec": 94,
+      "topic": "Liger: Filesystem",
+      "fineSubject": "File Systems",
+      "topicIndex": 53
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8838,
+      "endSec": 8906,
+      "durationSec": 68,
+      "topic": "Liger: VNC mit Abstrakt",
+      "fineSubject": "Remote Access",
+      "topicIndex": 54
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8906,
+      "endSec": 8957,
+      "durationSec": 51,
+      "topic": "Remote einloggen in Lion",
+      "fineSubject": "Remote Access",
+      "topicIndex": 55
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8957,
+      "endSec": 9003,
+      "durationSec": 46,
+      "topic": "Liger: Refinements, TRIM, Sync",
+      "fineSubject": "Performance",
+      "topicIndex": 56
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9003,
+      "endSec": 9308,
+      "durationSec": 305,
+      "topic": "Test: Remote Login",
+      "fineSubject": "Remote Access",
+      "topicIndex": 57
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9336,
+      "endSec": 9360,
+      "durationSec": 24,
+      "topic": "Stream ist hinüber",
+      "fineSubject": "Internet",
+      "topicIndex": 59
+    },
+    {
+      "subject": "Media",
+      "startSec": 9360,
+      "endSec": 9365,
+      "durationSec": 5,
+      "topic": "Tim will ranten",
+      "fineSubject": "Rants",
+      "topicIndex": 60
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9395,
+      "endSec": 9855,
+      "durationSec": 460,
+      "topic": "Tim rantet: Audioprogramme",
+      "fineSubject": "Audio",
+      "topicIndex": 62
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9855,
+      "endSec": 9918,
+      "durationSec": 63,
+      "topic": "Tim fängt an zu recherchieren",
+      "fineSubject": "Research",
+      "topicIndex": 63
+    },
+    {
+      "subject": "Business",
+      "startSec": 9918,
+      "endSec": 10005,
+      "durationSec": 87,
+      "topic": "Patenttrolle",
+      "fineSubject": "Legal",
+      "topicIndex": 64
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10005,
+      "endSec": 10309,
+      "durationSec": 304,
+      "topic": "BTCMP-Bericht: Dennis hat Verluste, aber viel Spaß",
+      "fineSubject": "Investments",
+      "topicIndex": 65
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10346,
+      "endSec": 10443,
+      "durationSec": 97,
+      "topic": "Tim ist fertig mit recherchieren und berichtet",
+      "fineSubject": "Research",
+      "topicIndex": 67
+    },
+    {
+      "subject": "Media",
+      "startSec": 10443,
+      "endSec": 10652,
+      "durationSec": 209,
+      "topic": "Gelächter (Affe, Autocorrection)",
+      "fineSubject": "Comedy",
+      "topicIndex": 68
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11251,
+      "endSec": 11405,
+      "durationSec": 154,
+      "topic": "Tim träumt von Logic Pro und ruft um Hilfe",
+      "fineSubject": "Audio",
+      "topicIndex": 70
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11405,
+      "endSec": 11790,
+      "durationSec": 385,
+      "topic": "Tim kaufte Software (Flinc, Vector Designer)",
+      "fineSubject": "Software",
+      "topicIndex": 71
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11790,
+      "endSec": 11901,
+      "durationSec": 111,
+      "topic": "mobileMacs-Statistik",
+      "fineSubject": "Statistics",
+      "topicIndex": 72
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11901,
+      "endSec": 12055,
+      "durationSec": 154,
+      "topic": "Quicktime",
+      "fineSubject": "Media",
+      "topicIndex": 73
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12055,
+      "endSec": 12510,
+      "durationSec": 455,
+      "topic": "Developer Geschichten (ARC und LLVM)",
+      "fineSubject": "Development",
+      "topicIndex": 74
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12510,
+      "endSec": 13228,
+      "durationSec": 718,
+      "topic": "Es wird nicht über Google+ geredet",
+      "fineSubject": "Social Media",
+      "topicIndex": 75
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13228,
+      "endSec": 13305,
+      "durationSec": 77,
+      "topic": "Activity Monitor",
+      "fineSubject": "Performance",
+      "topicIndex": 76
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13305,
+      "endSec": 13405,
+      "durationSec": 100,
+      "topic": "iTunes, Adium, Fefe, iChat, iMessage",
+      "fineSubject": "Messaging",
+      "topicIndex": 77
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13405,
+      "endSec": 13551,
+      "durationSec": 146,
+      "topic": "iChat Passwörter",
+      "fineSubject": "Security",
+      "topicIndex": 78
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13551,
+      "endSec": 13568,
+      "durationSec": 17,
+      "topic": "Delta-Updates",
+      "fineSubject": "Software Updates",
+      "topicIndex": 79
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13568,
+      "endSec": 13630,
+      "durationSec": 62,
+      "topic": "Tweetbot macht Push",
+      "fineSubject": "Mobile Apps",
+      "topicIndex": 80
+    },
+    {
+      "subject": "Media",
+      "startSec": 13630,
+      "endSec": 13793,
+      "durationSec": 163,
+      "topic": "Die Luft ist raus",
+      "fineSubject": "Media",
+      "topicIndex": 81
+    },
+    {
+      "subject": "Business",
+      "startSec": 13951,
+      "endSec": 14058,
+      "durationSec": 107,
+      "topic": "Paypal und Webseiten",
+      "fineSubject": "Payments",
+      "topicIndex": 83
+    },
+    {
+      "subject": "Business",
+      "startSec": 14058,
+      "endSec": 14105,
+      "durationSec": 47,
+      "topic": "Terminfindung",
+      "fineSubject": "Scheduling",
+      "topicIndex": 84
+    },
+    {
+      "subject": "Business",
+      "startSec": 14105,
+      "endSec": 14241,
+      "durationSec": 136,
+      "topic": "iCal-Gerante (siehe vorherige Folge)",
+      "fineSubject": "Scheduling",
+      "topicIndex": 85
+    }
+  ]
+}

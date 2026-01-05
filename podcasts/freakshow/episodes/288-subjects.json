@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 288,
+  "title": "FS288 Schleife der Verzweiflung",
+  "generatedAt": "2026-01-05T15:17:51.120Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.06578839028406752,
+      "Software": 0.29888843145327293,
+      "Hardware": 0.4104569781803211,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.051132153149444214,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.17373404693289418
+    },
+    "durations": {
+      "Technology": 799,
+      "Software": 3630,
+      "Hardware": 4985,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 621,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 2110
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 3,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 7
+    },
+    "totalDurationSec": 12145,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 104,
+      "endSec": 669,
+      "durationSec": 565,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Mac",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 669,
+      "endSec": 957,
+      "durationSec": 288,
+      "topic": "38C3 mit Kindern",
+      "fineSubject": "38C3",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 957,
+      "endSec": 1438,
+      "durationSec": 481,
+      "topic": "38C3: Display Hacking",
+      "fineSubject": "38C3",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Event",
+      "startSec": 1439,
+      "endSec": 1698,
+      "durationSec": 259,
+      "topic": "38C3: Chaospatinnen",
+      "fineSubject": "38C3",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Event",
+      "startSec": 1699,
+      "endSec": 1954,
+      "durationSec": 255,
+      "topic": "38C3: Ultraschall",
+      "fineSubject": "38C3",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Event",
+      "startSec": 1955,
+      "endSec": 2172,
+      "durationSec": 217,
+      "topic": "38C3: Rodecaster-Workshop",
+      "fineSubject": "38C3",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Event",
+      "startSec": 2172,
+      "endSec": 2512,
+      "durationSec": 340,
+      "topic": "38C3: Musikprogramm",
+      "fineSubject": "38C3",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Event",
+      "startSec": 2512,
+      "endSec": 2782,
+      "durationSec": 270,
+      "topic": "38C3: Heralds",
+      "fineSubject": "38C3",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3040,
+      "endSec": 3179,
+      "durationSec": 139,
+      "topic": "Roborock Sorus",
+      "fineSubject": "Roborock",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3179,
+      "endSec": 3909,
+      "durationSec": 730,
+      "topic": "Neue Entwicklungen bei Nvidia und Nintendo",
+      "fineSubject": "Nvidia",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 4062,
+      "endSec": 4826,
+      "durationSec": 764,
+      "topic": "Altes macOS und NextStep im Web",
+      "fineSubject": "macOS",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Social",
+      "startSec": 4994,
+      "endSec": 5615,
+      "durationSec": 621,
+      "topic": "Meta goes MAGA",
+      "fineSubject": "Meta",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6892,
+      "endSec": 7691,
+      "durationSec": 799,
+      "topic": "Wir wissen wo Dein Auto steht",
+      "fineSubject": "Auto",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 7691,
+      "endSec": 9992,
+      "durationSec": 2301,
+      "topic": "Cursor Revisited",
+      "fineSubject": "Cursor",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9993,
+      "endSec": 14109,
+      "durationSec": 4116,
+      "topic": "Apple Vision Pro Revisited",
+      "fineSubject": "Apple Vision Pro",
+      "topicIndex": 19
+    }
+  ]
+}

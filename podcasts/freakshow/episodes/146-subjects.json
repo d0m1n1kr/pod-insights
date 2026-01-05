@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 146,
+  "title": "FS146 Online Manager",
+  "generatedAt": "2026-01-05T15:17:51.079Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3658049705559437,
+      "Software": 0.16009581794590277,
+      "Hardware": 0.14492464317796186,
+      "Finance": 0.09192534185048408,
+      "Media": 0.04501447250224573,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.1922347539674618,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3665,
+      "Software": 1604,
+      "Hardware": 1452,
+      "Finance": 921,
+      "Media": 451,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1926,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 2,
+      "Hardware": 2,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10019,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 4989,
+      "endSec": 5429,
+      "durationSec": 440,
+      "topic": "3D-Controller",
+      "fineSubject": "3D Controllers",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5429,
+      "endSec": 7024,
+      "durationSec": 1595,
+      "topic": "WLAN im ICE",
+      "fineSubject": "WLAN",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Finance",
+      "startSec": 7024,
+      "endSec": 7945,
+      "durationSec": 921,
+      "topic": "Währungen: von analog bis Bitcoin",
+      "fineSubject": "Currencies",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7945,
+      "endSec": 8553,
+      "durationSec": 608,
+      "topic": "Internet in Kuba",
+      "fineSubject": "Cuba",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8553,
+      "endSec": 10015,
+      "durationSec": 1462,
+      "topic": "Neue Angebote in magenta",
+      "fineSubject": "Offers",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10015,
+      "endSec": 11027,
+      "durationSec": 1012,
+      "topic": "Apple-Geräte",
+      "fineSubject": "Apple Devices",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 11027,
+      "endSec": 11478,
+      "durationSec": 451,
+      "topic": "Spiele",
+      "fineSubject": "Games",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 11478,
+      "endSec": 13404,
+      "durationSec": 1926,
+      "topic": "Chaos Communication Congress (31C3)",
+      "fineSubject": "Conferences",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 13404,
+      "endSec": 13999,
+      "durationSec": 595,
+      "topic": "OS X Yosemite",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 13999,
+      "endSec": 15008,
+      "durationSec": 1009,
+      "topic": "Flash",
+      "fineSubject": "Flash",
+      "topicIndex": 11
+    }
+  ]
+}

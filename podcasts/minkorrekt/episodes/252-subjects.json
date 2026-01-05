@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 252,
+  "title": "Mi252 – „Moussierpunkt“",
+  "generatedAt": "2026-01-05T15:18:17.378Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.36399694889397405,
+      "Culture": 0.3109077040427155,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0.26666666666666666,
+      "Education": 0,
+      "Social": 0.058428680396643784,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2386,
+      "Culture": 2038,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 1748,
+      "Education": 0,
+      "Social": 383,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 1,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6555,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 301,
+      "endSec": 1010,
+      "durationSec": 709,
+      "topic": "Pfingsten in der Steinzeit",
+      "fineSubject": "Prehistoric Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1632,
+      "endSec": 2015,
+      "durationSec": 383,
+      "topic": "Protest an der Nordsee",
+      "fineSubject": "Protests",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2015,
+      "endSec": 2825,
+      "durationSec": 810,
+      "topic": "Pint of Science",
+      "fineSubject": "Public Engagement",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2825,
+      "endSec": 3307,
+      "durationSec": 482,
+      "topic": "A sign in space",
+      "fineSubject": "Space Signage",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3725,
+      "endSec": 5054,
+      "durationSec": 1329,
+      "topic": "Thema 1: “Edward mit den Riesenfingern”",
+      "fineSubject": "Literature",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 5054,
+      "endSec": 5835,
+      "durationSec": 781,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Physik",
+      "startSec": 5835,
+      "endSec": 7583,
+      "durationSec": 1748,
+      "topic": "Thema 2: \"Subatomare Hügel und Dellen\"",
+      "fineSubject": "Subatomic Particles",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 7583,
+      "endSec": 7896,
+      "durationSec": 313,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 8048,
+      "endSec": 8048,
+      "durationSec": 0,
+      "topic": "Audiokommentar von Markus",
+      "fineSubject": "Comments",
+      "topicIndex": 9
+    }
+  ]
+}

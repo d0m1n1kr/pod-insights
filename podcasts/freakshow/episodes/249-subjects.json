@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 249,
+  "title": "FS249 Hemmungsloser Hinterhoftoilettensex",
+  "generatedAt": "2026-01-05T15:17:51.108Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.660900629876845,
+      "Software": 0.16508414026511234,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.010717307511516404,
+      "Social": 0.05386857196577983,
+      "Culture": 0,
+      "Security": 0.10942935038074646,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 7030,
+      "Software": 1756,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 114,
+      "Social": 573,
+      "Culture": 0,
+      "Security": 1164,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10637,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 361,
+      "endSec": 934,
+      "durationSec": 573,
+      "topic": "Rainer",
+      "fineSubject": "Personal Stories",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2024,
+      "endSec": 3686,
+      "durationSec": 1662,
+      "topic": "Corona Apps",
+      "fineSubject": "Apps",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4415,
+      "endSec": 5883,
+      "durationSec": 1468,
+      "topic": "IPv6",
+      "fineSubject": "Networking",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6796,
+      "endSec": 8350,
+      "durationSec": 1554,
+      "topic": "Headsets und Audio",
+      "fineSubject": "Audio",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8351,
+      "endSec": 8501,
+      "durationSec": 150,
+      "topic": "Magic Mouse",
+      "fineSubject": "Peripherals",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 9257,
+      "endSec": 10421,
+      "durationSec": 1164,
+      "topic": "Differential Privacy",
+      "fineSubject": "Data Protection",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10422,
+      "endSec": 11503,
+      "durationSec": 1081,
+      "topic": "Apple Tags und Bluetooth",
+      "fineSubject": "Bluetooth",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11503,
+      "endSec": 12618,
+      "durationSec": 1115,
+      "topic": "macOS auf ARM",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 12619,
+      "endSec": 14375,
+      "durationSec": 1756,
+      "topic": "Meaningful Code",
+      "fineSubject": "Software Development",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 14622,
+      "endSec": 14736,
+      "durationSec": 114,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 14
+    }
+  ]
+}

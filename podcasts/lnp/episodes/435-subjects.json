@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 435,
+  "title": "LNP435 Zentralstelle zur Pflege antifaschistischen Brauchtums",
+  "generatedAt": "2026-01-05T15:17:57.633Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.03332011106703689,
+      "Technology": 0.13070210234034113,
+      "Law": 0.01725505751685839,
+      "Security": 0.4954383181277271,
+      "Social": 0.07358191193970647,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.24970249900833003,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 168,
+      "Technology": 659,
+      "Law": 87,
+      "Security": 2498,
+      "Social": 371,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1259,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5042,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 104,
+      "endSec": 475,
+      "durationSec": 371,
+      "topic": "Feedback: Genderdeutsch",
+      "fineSubject": "Language",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 476,
+      "endSec": 943,
+      "durationSec": 467,
+      "topic": "Elon Musk kauft Twitter nicht",
+      "fineSubject": "Technology",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 943,
+      "endSec": 3441,
+      "durationSec": 2498,
+      "topic": "Cyber-Sicherheitsagenda",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3442,
+      "endSec": 3786,
+      "durationSec": 344,
+      "topic": "Messenger-Interoperabilität",
+      "fineSubject": "Communication",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3786,
+      "endSec": 4101,
+      "durationSec": 315,
+      "topic": "Office-Macros doch nicht deaktiviert",
+      "fineSubject": "Productivity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4102,
+      "endSec": 4270,
+      "durationSec": 168,
+      "topic": "EU-Netzneutralität",
+      "fineSubject": "Internet",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4271,
+      "endSec": 4358,
+      "durationSec": 87,
+      "topic": "Verfassungsbeschwerde Staatstrojaner",
+      "fineSubject": "Privacy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 4359,
+      "endSec": 5151,
+      "durationSec": 792,
+      "topic": "Anonyme Zahlungen",
+      "fineSubject": "Payments",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 99,
+  "title": "MM099 Brainwashanlage",
+  "generatedAt": "2026-01-05T15:17:51.070Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.5118665811417575,
+      "Hardware": 0.34830019243104554,
+      "Finance": 0.06670942912123155,
+      "Media": 0,
+      "Social": 0.07312379730596537,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 3990,
+      "Hardware": 2715,
+      "Finance": 520,
+      "Media": 0,
+      "Social": 570,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 2,
+      "Hardware": 4,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7795,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 3660,
+      "endSec": 5370,
+      "durationSec": 1710,
+      "topic": "LV(M) und Filesystem",
+      "fineSubject": "Technology / LV(M)",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5370,
+      "endSec": 6480,
+      "durationSec": 1110,
+      "topic": "Apple iPad Mini",
+      "fineSubject": "Product / iPad Mini",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6480,
+      "endSec": 6840,
+      "durationSec": 360,
+      "topic": "Neue Macs",
+      "fineSubject": "Product / New Models",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6840,
+      "endSec": 7485,
+      "durationSec": 645,
+      "topic": "Microsoft Surface",
+      "fineSubject": "Product / Microsoft Surface",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8730,
+      "endSec": 9330,
+      "durationSec": 600,
+      "topic": "AVM Fritz!Box",
+      "fineSubject": "Product / AVM Fritz!Box",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 9330,
+      "endSec": 9900,
+      "durationSec": 570,
+      "topic": "App.net",
+      "fineSubject": "Platform / App.net",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9900,
+      "endSec": 10420,
+      "durationSec": 520,
+      "topic": "Apple Bank",
+      "fineSubject": "Service / Apple Bank",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 10420,
+      "endSec": 12700,
+      "durationSec": 2280,
+      "topic": "Apps und Applications",
+      "fineSubject": "Category / Apps",
+      "topicIndex": 11
+    }
+  ]
+}

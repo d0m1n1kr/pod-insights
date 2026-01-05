@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 285,
+  "title": "LNP285 Corvus Corone Corone",
+  "generatedAt": "2026-01-05T15:17:57.611Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1696520485896644,
+      "Technology": 0.491455631047972,
+      "Law": 0,
+      "Security": 0.07453160387070208,
+      "Social": 0.1012970969734404,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.16306361951822113,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 824,
+      "Technology": 2387,
+      "Law": 0,
+      "Security": 362,
+      "Social": 492,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 792,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 4857,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 98,
+      "endSec": 534,
+      "durationSec": 436,
+      "topic": "Feedback: E-Voting Moratorium Schweiz",
+      "fineSubject": "E-Voting",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 534,
+      "endSec": 2437,
+      "durationSec": 1903,
+      "topic": "Apple sperrt Enterprise-Zertifikat von Facebook und Google",
+      "fineSubject": "Enterprise Security",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2438,
+      "endSec": 2930,
+      "durationSec": 492,
+      "topic": "Facebook will Messenger zusammenführen",
+      "fineSubject": "Messaging",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2930,
+      "endSec": 3412,
+      "durationSec": 482,
+      "topic": "BVfG zwingt Posteo zur Überwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3413,
+      "endSec": 3801,
+      "durationSec": 388,
+      "topic": "Schwachstelle bei Online-Wahl der Arbeiterkammer Österreich",
+      "fineSubject": "Online Voting",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3801,
+      "endSec": 4111,
+      "durationSec": 310,
+      "topic": "noyb-Strafe gegen Google",
+      "fineSubject": "Regulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4112,
+      "endSec": 4596,
+      "durationSec": 484,
+      "topic": "Report Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 4596,
+      "endSec": 4958,
+      "durationSec": 362,
+      "topic": "Project Raven",
+      "fineSubject": "Cyber Operations",
+      "topicIndex": 7
+    }
+  ]
+}

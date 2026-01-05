@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 190,
+  "title": "FS190 Bitte werfen Sie eine Münze ein",
+  "generatedAt": "2026-01-05T15:17:51.089Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2392807745504841,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.1908713692946058,
+      "Social": 0.21265560165975103,
+      "Culture": 0.1843015214384509,
+      "Security": 0.06258644536652835,
+      "Events": 0.1103042876901798,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 692,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 552,
+      "Social": 615,
+      "Culture": 533,
+      "Security": 181,
+      "Events": 319,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 4,
+      "Social": 2,
+      "Culture": 3,
+      "Security": 1,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 2892,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 271,
+      "endSec": 452,
+      "durationSec": 181,
+      "topic": "Passwörter",
+      "fineSubject": "Passwords",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 452,
+      "endSec": 539,
+      "durationSec": 87,
+      "topic": "Kopfhörer",
+      "fineSubject": "Headphones",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 970,
+      "endSec": 1296,
+      "durationSec": 326,
+      "topic": "Kopfhörerpartys",
+      "fineSubject": "Parties",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Events",
+      "startSec": 1297,
+      "endSec": 1507,
+      "durationSec": 210,
+      "topic": "33C3 Lounge",
+      "fineSubject": "Conferences",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 1507,
+      "endSec": 1634,
+      "durationSec": 127,
+      "topic": "Glücksmelodieautomat",
+      "fineSubject": "Games",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 1634,
+      "endSec": 1808,
+      "durationSec": 174,
+      "topic": "There is no game",
+      "fineSubject": "Games",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2054,
+      "endSec": 2289,
+      "durationSec": 235,
+      "topic": "Carrie Fisher",
+      "fineSubject": "Celebrities",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 2290,
+      "endSec": 2399,
+      "durationSec": 109,
+      "topic": "33C3 Kidspace",
+      "fineSubject": "Kidspace",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3162,
+      "endSec": 3562,
+      "durationSec": 400,
+      "topic": "Webverzeichnis",
+      "fineSubject": "Directories",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3562,
+      "endSec": 3854,
+      "durationSec": 292,
+      "topic": "Startseiten",
+      "fineSubject": "Start Pages",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3855,
+      "endSec": 4034,
+      "durationSec": 179,
+      "topic": "Verhinderte Kunstprojekte",
+      "fineSubject": "Projects",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4390,
+      "endSec": 4509,
+      "durationSec": 119,
+      "topic": "Einhornliebe",
+      "fineSubject": "Love",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 4509,
+      "endSec": 4673,
+      "durationSec": 164,
+      "topic": "Ardutouch Synthesizer",
+      "fineSubject": "Synthesizers",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Social",
+      "startSec": 5036,
+      "endSec": 5325,
+      "durationSec": 289,
+      "topic": "Soziale Feedbackschleife",
+      "fineSubject": "Feedback Loops",
+      "topicIndex": 19
+    }
+  ]
+}

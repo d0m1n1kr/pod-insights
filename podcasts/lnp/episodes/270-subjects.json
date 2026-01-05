@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 270,
+  "title": "LNP270 Mit der Blockchain wird der Netzausbau endlich in Ordnung kommen",
+  "generatedAt": "2026-01-05T15:17:57.609Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.6124613345117101,
+      "Law": 0.27596111356606273,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.11157755192222714,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2772,
+      "Law": 1249,
+      "Security": 0,
+      "Social": 0,
+      "Media": 505,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 5,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4526,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 225,
+      "endSec": 973,
+      "durationSec": 748,
+      "topic": "Daten von 50 Millionen Facebook Nutzern gestohlen",
+      "fineSubject": "Social / Facebook",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 974,
+      "endSec": 1533,
+      "durationSec": 559,
+      "topic": "Österreich: Vorratsdatenspeicherung verhindert",
+      "fineSubject": "Geography / Austria",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1533,
+      "endSec": 2223,
+      "durationSec": 690,
+      "topic": "Österreich: Umweltorganisationen müssen Mitgliederlisten offenlegen",
+      "fineSubject": "Geography / Austria",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2224,
+      "endSec": 2510,
+      "durationSec": 286,
+      "topic": "Privacy International wurde überwacht",
+      "fineSubject": "Organization / Privacy International",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2510,
+      "endSec": 3152,
+      "durationSec": 642,
+      "topic": "Netzneutralität in den USA",
+      "fineSubject": "Geography / USA",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3153,
+      "endSec": 3844,
+      "durationSec": 691,
+      "topic": "Netzneutralität in den EU",
+      "fineSubject": "Geography / EU",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3845,
+      "endSec": 4250,
+      "durationSec": 405,
+      "topic": "Neuseeland möchte gerne Dein Passwort haben",
+      "fineSubject": "Geography / New Zealand",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 4463,
+      "endSec": 4968,
+      "durationSec": 505,
+      "topic": "Wikipedia und Diversität",
+      "fineSubject": "Social / Diversity",
+      "topicIndex": 8
+    }
+  ]
+}

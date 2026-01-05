@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 483,
+  "title": "LNP483 Hackerzugriffsverbesserungsgesetz",
+  "generatedAt": "2026-01-05T15:17:57.640Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.06386386386386386,
+      "Technology": 0.44604604604604603,
+      "Law": 0.30930930930930933,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.15455455455455455,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.026226226226226227,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 319,
+      "Technology": 2228,
+      "Law": 1545,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 772,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 131,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 6,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 4995,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 112,
+      "endSec": 190,
+      "durationSec": 78,
+      "topic": "Feedback: Sand",
+      "fineSubject": "Sand",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 190,
+      "endSec": 250,
+      "durationSec": 60,
+      "topic": "Feedback: Teppich",
+      "fineSubject": "Teppich",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 251,
+      "endSec": 555,
+      "durationSec": 304,
+      "topic": "Feedback: Post Office Skandal in UK",
+      "fineSubject": "Post Office Skandal in UK",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 556,
+      "endSec": 650,
+      "durationSec": 94,
+      "topic": "Feedback: Propaganda in Ungarn",
+      "fineSubject": "Propaganda in Ungarn",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 650,
+      "endSec": 846,
+      "durationSec": 196,
+      "topic": "Feedback: Funkzellenabfrage",
+      "fineSubject": "Funkzellenabfrage",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 846,
+      "endSec": 886,
+      "durationSec": 40,
+      "topic": "Feedback: Rohrpost",
+      "fineSubject": "Rohrpost",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 886,
+      "endSec": 2201,
+      "durationSec": 1315,
+      "topic": "Hackerparagraph",
+      "fineSubject": "Hackerparagraph",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2202,
+      "endSec": 2521,
+      "durationSec": 319,
+      "topic": "Keine weitere Amtszeit für Ulrich Kelber",
+      "fineSubject": "Ulrich Kelber",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2522,
+      "endSec": 4176,
+      "durationSec": 1654,
+      "topic": "Apples Anpassungen an den Digital Markets Act",
+      "fineSubject": "Digital Markets Act",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4176,
+      "endSec": 4383,
+      "durationSec": 207,
+      "topic": "Digital Services Act",
+      "fineSubject": "Digital Services Act",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 4383,
+      "endSec": 4613,
+      "durationSec": 230,
+      "topic": "Künast vs Facebook",
+      "fineSubject": "Künast vs Facebook",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4614,
+      "endSec": 4981,
+      "durationSec": 367,
+      "topic": "fritz.box",
+      "fineSubject": "fritz.box",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4981,
+      "endSec": 5112,
+      "durationSec": 131,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 12
+    }
+  ]
+}

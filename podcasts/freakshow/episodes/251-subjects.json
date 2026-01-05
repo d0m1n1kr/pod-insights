@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 251,
+  "title": "FS251 Bürgermeisterladesäulen",
+  "generatedAt": "2026-01-05T15:17:51.109Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.22572314049586778,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.7742768595041323,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 874,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2998,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 4,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 3872,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 7120,
+      "endSec": 7994,
+      "durationSec": 874,
+      "topic": "Walled Gardens und Bedenken",
+      "fineSubject": "Walled Gardens",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 7994,
+      "endSec": 9724,
+      "durationSec": 1730,
+      "topic": "Elektromainstream",
+      "fineSubject": "E-Mobilität",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9724,
+      "endSec": 10324,
+      "durationSec": 600,
+      "topic": "Elektro-Gebrauchtmarkt",
+      "fineSubject": "Gebrauchtmarkt",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10703,
+      "endSec": 10856,
+      "durationSec": 153,
+      "topic": "Skalierungsfaktoren",
+      "fineSubject": "Skalierung",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10856,
+      "endSec": 11371,
+      "durationSec": 515,
+      "topic": "Kostenparität und Folgekosten",
+      "fineSubject": "Kosten",
+      "topicIndex": 12
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "episodeNumber": 144,
+  "title": "DU144 - Die Stürme auf Neptun",
+  "generatedAt": "2026-01-05T15:18:22.113Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.9948979591836735,
+      "Raumfahrt": 0,
+      "Kultur": 0.00510204081632653,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 3900,
+      "Raumfahrt": 0,
+      "Kultur": 20,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 4,
+      "Raumfahrt": 0,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 3920,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 2180,
+      "durationSec": 2180,
+      "topic": "Forschung zu Gasplaneten",
+      "fineSubject": "Planetologie",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "Einfälle in Science Fiction",
+      "fineSubject": "Science Fiction",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 100,
+      "endSec": 1820,
+      "durationSec": 1720,
+      "topic": "Stürme auf Neptun und Uranus",
+      "fineSubject": "Planetologie",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Expansion des Universums",
+      "fineSubject": "Kosmologie",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Asteroideneinschläge auf Jupiter",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

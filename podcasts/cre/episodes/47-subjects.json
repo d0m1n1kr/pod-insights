@@ -1,0 +1,124 @@
+{
+  "episodeNumber": 47,
+  "title": "CRE047 Der Elektronische Reisepass",
+  "generatedAt": "2026-01-05T15:17:54.368Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.42857142857142855,
+      "Politics": 0.2857142857142857,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0.2857142857142857
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 3,
+      "Politics": 2,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 2
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technik des elektronischen Reisepasses",
+      "fineSubject": "Reisepass",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Sicherheit",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Biometrische Merkmale im Grenzverkehr",
+      "fineSubject": "Biometrie",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Effektivität biometrischer Erkennungssysteme",
+      "fineSubject": "Biometrische Systeme",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anforderungen für Passfotos",
+      "fineSubject": "Passfoto-Vorgaben",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "RFID-Technik im Chip des Passes",
+      "fineSubject": "RFID",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Sicherheit",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheitsmerkmale der Pässe",
+      "fineSubject": "Sicherheitsmerkmale",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erfassung von Fingerabdrücken",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

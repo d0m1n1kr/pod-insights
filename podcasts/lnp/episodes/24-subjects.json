@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 24,
+  "title": "LNP024 Episches Mäandern",
+  "generatedAt": "2026-01-05T15:17:57.575Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.275030649775235,
+      "Law": 0.1473232529628116,
+      "Security": 0.19574989783408256,
+      "Social": 0.18655496526358806,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.19534123416428278,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1346,
+      "Law": 721,
+      "Security": 958,
+      "Social": 913,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 956,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4894,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 54,
+      "endSec": 967,
+      "durationSec": 913,
+      "topic": "Anonymous “leakt” Urheber-Adressen",
+      "fineSubject": "Privacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 967,
+      "endSec": 1925,
+      "durationSec": 958,
+      "topic": "BKA scheitert am Bundestrojaner",
+      "fineSubject": "Malware",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1926,
+      "endSec": 2647,
+      "durationSec": 721,
+      "topic": "Meinungsfreiheit für Suchmaschinen?",
+      "fineSubject": "Freedom of Speech",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2647,
+      "endSec": 3993,
+      "durationSec": 1346,
+      "topic": "Der Kampf gegen Piratebay",
+      "fineSubject": "File Sharing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 3993,
+      "endSec": 4949,
+      "durationSec": 956,
+      "topic": "Flattr und der iOS App Store",
+      "fineSubject": "App Distribution",
+      "topicIndex": 4
+    }
+  ]
+}

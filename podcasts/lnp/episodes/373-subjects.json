@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 373,
+  "title": "LNP373 Weihnachten und Ostern in einem",
+  "generatedAt": "2026-01-05T15:17:57.625Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.1964759378552482,
+      "Law": 0,
+      "Security": 0.1419098143236074,
+      "Social": 0.22679045092838196,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.3543008715422509,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.08052292535051156
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1037,
+      "Law": 0,
+      "Security": 749,
+      "Social": 1197,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1870,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 425
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 3,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 4,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 5278,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 35,
+      "endSec": 1232,
+      "durationSec": 1197,
+      "topic": "Pandemischer Prolog",
+      "fineSubject": "Pandemic",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1233,
+      "endSec": 1407,
+      "durationSec": 174,
+      "topic": "Feedback: Anhörungsfristen",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1407,
+      "endSec": 1485,
+      "durationSec": 78,
+      "topic": "Feedback: Digitalvorbehalt",
+      "fineSubject": "Digital Rights",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1485,
+      "endSec": 2701,
+      "durationSec": 1216,
+      "topic": "Super-Wednesday: ITSIG, TKG und BND-Gesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2701,
+      "endSec": 3103,
+      "durationSec": 402,
+      "topic": "Bundestagsanhörung Registermodernisierungsgesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3104,
+      "endSec": 3620,
+      "durationSec": 516,
+      "topic": "Datenabfragen und Datenschutz",
+      "fineSubject": "Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3620,
+      "endSec": 3790,
+      "durationSec": 170,
+      "topic": "Messenger-Überwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 3791,
+      "endSec": 4116,
+      "durationSec": 325,
+      "topic": "USA wurde gecybert",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4116,
+      "endSec": 4541,
+      "durationSec": 425,
+      "topic": "Querschenken",
+      "fineSubject": "Gift Giving",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4541,
+      "endSec": 5062,
+      "durationSec": 521,
+      "topic": "CWA auf älteren Apples",
+      "fineSubject": "Apple",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 5063,
+      "endSec": 5317,
+      "durationSec": 254,
+      "topic": "Überwachung-Zertifikat wird blockiert",
+      "fineSubject": "Certificates",
+      "topicIndex": 10
+    }
+  ]
+}

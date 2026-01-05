@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 324,
+  "title": "Mi324 – \"Die Wartehalle für Weihnachten\"",
+  "generatedAt": "2026-01-05T15:18:17.387Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.14559934653869716,
+      "Culture": 0.32734327139064734,
+      "Wissenschaft": 0,
+      "Health": 0.24014702879313865,
+      "Technology": 0.027159485399224016,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.08188686951194608,
+      "Physik": 0,
+      "Education": 0.17786399836634675,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 713,
+      "Culture": 1603,
+      "Wissenschaft": 0,
+      "Health": 1176,
+      "Technology": 133,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 401,
+      "Physik": 0,
+      "Education": 871,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4897,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Education",
+      "startSec": 938,
+      "endSec": 1809,
+      "durationSec": 871,
+      "topic": "Studierendenzahlen",
+      "fineSubject": "Student Numbers",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1809,
+      "endSec": 2210,
+      "durationSec": 401,
+      "topic": "Podcast: \"Jetzt mal ganz in Ruhe\", \"das Klima\"",
+      "fineSubject": "Podcast Discussion",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2210,
+      "endSec": 2343,
+      "durationSec": 133,
+      "topic": "Kommentar zum KI Adventskalender",
+      "fineSubject": "AI",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2343,
+      "endSec": 3946,
+      "durationSec": 1603,
+      "topic": "Thema 1: Die Gedanken der Anderen\"",
+      "fineSubject": "Thoughts of Others",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3946,
+      "endSec": 5122,
+      "durationSec": 1176,
+      "topic": "Thema 2: \"Pasta Express\"",
+      "fineSubject": "Pasta",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 5122,
+      "endSec": 5835,
+      "durationSec": 713,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 5
+    }
+  ]
+}

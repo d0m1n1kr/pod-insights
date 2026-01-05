@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 122,
+  "title": "FS122 Personal Audio Jesus",
+  "generatedAt": "2026-01-05T15:17:51.074Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.7230660543977393,
+      "Media": 0.20752384316495937,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.06941010243730131,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 4094,
+      "Media": 1175,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 393,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 5662,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 5378,
+      "endSec": 6553,
+      "durationSec": 1175,
+      "topic": "Audio",
+      "fineSubject": "Audio",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Events",
+      "startSec": 6553,
+      "endSec": 6946,
+      "durationSec": 393,
+      "topic": "30C3",
+      "fineSubject": "Conferences",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 6946,
+      "endSec": 11040,
+      "durationSec": 4094,
+      "topic": "Bitcoins",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 2
+    }
+  ]
+}

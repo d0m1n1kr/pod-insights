@@ -1,0 +1,101 @@
+{
+  "episodeNumber": 119,
+  "title": "DU119 - Weihnachten in der dunkelsten Galaxie",
+  "generatedAt": "2026-01-05T15:18:22.108Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0.9706744868035191,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0.02932551319648094
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 1324,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 40
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 2,
+      "Space": 1,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 2
+    },
+    "totalDurationSec": 1364,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Astronomy",
+      "startSec": 0,
+      "endSec": 1324,
+      "durationSec": 1324,
+      "topic": "Dunkelste Galaxie und dunkle Materie",
+      "fineSubject": "Galaxies",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Physics",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "Dunkle Materie und ihre Eigenschaften",
+      "fineSubject": "Dark Matter",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Physics",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "Fragen zur dunklen Materie",
+      "fineSubject": "Cosmology",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Erste Sterne des Universums",
+      "fineSubject": "Stellar Formation",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "NASA und Hobby-Astronauten",
+      "fineSubject": "Space Exploration",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

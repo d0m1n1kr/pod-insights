@@ -1,0 +1,243 @@
+{
+  "episodeNumber": 156,
+  "title": "FS156 Großes Loch alleine reicht nicht",
+  "generatedAt": "2026-01-05T15:17:51.081Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.34521214153949353,
+      "Software": 0.08024484319973167,
+      "Hardware": 0.05467046788529264,
+      "Finance": 0.03504947174241154,
+      "Media": 0.21725641455643133,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.23025322824081837,
+      "Events": 0,
+      "Business": 0.03731343283582089,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4117,
+      "Software": 957,
+      "Hardware": 652,
+      "Finance": 418,
+      "Media": 2591,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 2746,
+      "Events": 0,
+      "Business": 445,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 3,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 5,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 6,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11926,
+    "totalTopics": 28
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 367,
+      "endSec": 1717,
+      "durationSec": 1350,
+      "topic": "Apple Music",
+      "fineSubject": "Streaming Services",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1718,
+      "endSec": 2079,
+      "durationSec": 361,
+      "topic": "hukls Band",
+      "fineSubject": "hukls Band",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2079,
+      "endSec": 2814,
+      "durationSec": 735,
+      "topic": "IPv6",
+      "fineSubject": "IPv6",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2815,
+      "endSec": 4943,
+      "durationSec": 2128,
+      "topic": "Network Delay Reduction",
+      "fineSubject": "Network Delay Reduction",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 4944,
+      "endSec": 5600,
+      "durationSec": 656,
+      "topic": "Let's Encrypt / DANE",
+      "fineSubject": "Let's Encrypt",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 5600,
+      "endSec": 5838,
+      "durationSec": 238,
+      "topic": "XARA Zero-Day",
+      "fineSubject": "Zero-Day Exploits",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 5838,
+      "endSec": 5996,
+      "durationSec": 158,
+      "topic": "Kaspersky Hack",
+      "fineSubject": "Kaspersky Hack",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 5997,
+      "endSec": 6269,
+      "durationSec": 272,
+      "topic": "LastPass",
+      "fineSubject": "LastPass",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 7262,
+      "endSec": 8046,
+      "durationSec": 784,
+      "topic": "Schwache SSH Keys",
+      "fineSubject": "SSH Keys",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 8047,
+      "endSec": 8685,
+      "durationSec": 638,
+      "topic": "GPGTools",
+      "fineSubject": "GPGTools",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 8964,
+      "endSec": 9199,
+      "durationSec": 235,
+      "topic": "Fuzzmeasure",
+      "fineSubject": "Fuzzmeasure",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 9199,
+      "endSec": 9659,
+      "durationSec": 460,
+      "topic": "Auphonic Multitrack",
+      "fineSubject": "Auphonic",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9880,
+      "endSec": 10830,
+      "durationSec": 950,
+      "topic": "AI",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 10831,
+      "endSec": 11288,
+      "durationSec": 457,
+      "topic": "Bitcode",
+      "fineSubject": "Bitcode",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Finance",
+      "startSec": 11288,
+      "endSec": 11706,
+      "durationSec": 418,
+      "topic": "Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 12681,
+      "endSec": 12842,
+      "durationSec": 161,
+      "topic": "Codeshapes",
+      "fineSubject": "Codeshapes",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Software",
+      "startSec": 12842,
+      "endSec": 13181,
+      "durationSec": 339,
+      "topic": "Dash",
+      "fineSubject": "Dash",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13181,
+      "endSec": 13833,
+      "durationSec": 652,
+      "topic": "SSDs",
+      "fineSubject": "SSDs",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14144,
+      "endSec": 14448,
+      "durationSec": 304,
+      "topic": "hitch: TLS network proxy",
+      "fineSubject": "TLS Proxy",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Business",
+      "startSec": 14448,
+      "endSec": 14893,
+      "durationSec": 445,
+      "topic": "Vemedio stellt den Betrieb ein",
+      "fineSubject": "Vemedio",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Media",
+      "startSec": 15329,
+      "endSec": 15514,
+      "durationSec": 185,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 27
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 39,
+  "title": "LNP039 Die nach oben offene Meister-Skala für Grundrechtseinschränkungen",
+  "generatedAt": "2026-01-05T15:17:57.578Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6353300055463117,
+      "Technology": 0.3646699944536883,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2291,
+      "Technology": 1315,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3606,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 100,
+      "endSec": 492,
+      "durationSec": 392,
+      "topic": "VDS-Konferenz der SPD",
+      "fineSubject": "Political Parties",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 492,
+      "endSec": 1930,
+      "durationSec": 1438,
+      "topic": "Piratenpartei und das Urheberrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1931,
+      "endSec": 2853,
+      "durationSec": 922,
+      "topic": "CleanIT",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2853,
+      "endSec": 3133,
+      "durationSec": 280,
+      "topic": "Exkurs EU",
+      "fineSubject": "European Union",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3133,
+      "endSec": 3314,
+      "durationSec": 181,
+      "topic": "Meldegesetz kommt nicht durch den Bundesrat",
+      "fineSubject": "Legislation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3314,
+      "endSec": 3707,
+      "durationSec": 393,
+      "topic": "Facebook schaltet in Europa die Gesichtserkennung aus",
+      "fineSubject": "Facial Recognition",
+      "topicIndex": 5
+    }
+  ]
+}

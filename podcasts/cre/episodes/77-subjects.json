@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 77,
+  "title": "CRE077 TUWAT.TXT",
+  "generatedAt": "2026-01-05T15:17:54.372Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.3333333333333333,
+      "Social": 0.1111111111111111,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.2222222222222222,
+      "Security": 0,
+      "History": 0.3333333333333333,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 3,
+      "Social": 1,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 2,
+      "Security": 0,
+      "History": 3,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geschichte des TUWAT-Treffens",
+      "fineSubject": "Events",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Gründung des Chaos Computer Clubs",
+      "fineSubject": "Organizations",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Motivationen der Technik-Aktivisten",
+      "fineSubject": "Activism",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Prägende Momente der Zeitgeschichte",
+      "fineSubject": "Social Movements",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Demonstrationen gegen Atomkraftwerke",
+      "fineSubject": "Protests",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Notstandsgesetze und die 68er-Bewegung",
+      "fineSubject": "Legislation",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "RAF und Gegenöffentlichkeit",
+      "fineSubject": "Terrorism",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technik der 70er Jahre",
+      "fineSubject": "Communication",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Politik und Computer",
+      "fineSubject": "Politics",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

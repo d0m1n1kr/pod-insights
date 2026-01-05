@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 25,
+  "title": "LNP025 Von führenden Diktatoren empfohlen",
+  "generatedAt": "2026-01-05T15:17:57.575Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.05521472392638037,
+      "Law": 0.038225578102878716,
+      "Security": 0.6040585181689476,
+      "Social": 0,
+      "Media": 0.3025011798017933,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 117,
+      "Law": 81,
+      "Security": 1280,
+      "Social": 0,
+      "Media": 641,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 3,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2119,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 22,
+      "endSec": 565,
+      "durationSec": 543,
+      "topic": "Staatstrojaner",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 566,
+      "endSec": 1176,
+      "durationSec": 610,
+      "topic": "Exploithandel, full und responsible disclosure",
+      "fineSubject": "Exploits",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1176,
+      "endSec": 1293,
+      "durationSec": 117,
+      "topic": "Verletzungen der Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1294,
+      "endSec": 1375,
+      "durationSec": 81,
+      "topic": "Innenminister bietet Kompromiss bei Vorratsdatenspeicherung an",
+      "fineSubject": "Data Retention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1482,
+      "endSec": 1736,
+      "durationSec": 254,
+      "topic": "Gema vs. YouTube 2. Teil",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 1736,
+      "endSec": 2123,
+      "durationSec": 387,
+      "topic": "SIGINT: C3S als Gema-Alternative",
+      "fineSubject": "Alternatives",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2123,
+      "endSec": 2250,
+      "durationSec": 127,
+      "topic": "Nachtrag zur SIGINT",
+      "fineSubject": "Surveillance",
+      "topicIndex": 6
+    }
+  ]
+}

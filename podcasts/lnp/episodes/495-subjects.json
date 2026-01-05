@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 495,
+  "title": "LNP495 Digitalisierungsluftbrücke",
+  "generatedAt": "2026-01-05T15:17:57.641Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1677124928693668,
+      "Technology": 0.29406731317741014,
+      "Law": 0,
+      "Security": 0.008556759840273816,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.5296634341129492,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 588,
+      "Technology": 1031,
+      "Law": 0,
+      "Security": 30,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1857,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3506,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 116,
+      "endSec": 704,
+      "durationSec": 588,
+      "topic": "Europawahl",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1052,
+      "endSec": 2083,
+      "durationSec": 1031,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Privacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 2954,
+      "endSec": 3794,
+      "durationSec": 840,
+      "topic": "Innovationswettbewerb Digital Wallet",
+      "fineSubject": "Digital Wallets",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 3922,
+      "endSec": 4939,
+      "durationSec": 1017,
+      "topic": "Meta vs. Telekom",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 4940,
+      "endSec": 4970,
+      "durationSec": 30,
+      "topic": "CDU gehackt",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 5
+    }
+  ]
+}

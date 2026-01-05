@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 168,
+  "title": "FS168 Staubsauger as a Service",
+  "generatedAt": "2026-01-05T15:17:51.085Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1470019342359768,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.02562862669245648,
+      "Media": 0.2011605415860735,
+      "Social": 0.2620889748549323,
+      "Culture": 0.03916827852998066,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.06673114119922631,
+      "Event": 0.25822050290135395
+    },
+    "durations": {
+      "Technology": 304,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 53,
+      "Media": 416,
+      "Social": 542,
+      "Culture": 81,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 138,
+      "Event": 534
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 4,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 2,
+      "Event": 3
+    },
+    "totalDurationSec": 2068,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 298,
+      "endSec": 453,
+      "durationSec": 155,
+      "topic": "Clemens ruft an",
+      "fineSubject": "Communication",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 453,
+      "endSec": 522,
+      "durationSec": 69,
+      "topic": "Getränkesituation",
+      "fineSubject": "Beverages",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 523,
+      "endSec": 576,
+      "durationSec": 53,
+      "topic": "Kasse",
+      "fineSubject": "Cash Management",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 576,
+      "endSec": 745,
+      "durationSec": 169,
+      "topic": "Club-Mate vs. Flora Power",
+      "fineSubject": "Beverages",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 746,
+      "endSec": 895,
+      "durationSec": 149,
+      "topic": "Tschunk",
+      "fineSubject": "Beverages",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Event",
+      "startSec": 1479,
+      "endSec": 1573,
+      "durationSec": 94,
+      "topic": "Congress-Alltag",
+      "fineSubject": "Congress",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 1574,
+      "endSec": 1801,
+      "durationSec": 227,
+      "topic": "Star Wars",
+      "fineSubject": "Movies",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 1802,
+      "endSec": 1909,
+      "durationSec": 107,
+      "topic": "Themenwürfel",
+      "fineSubject": "Dice Games",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 1909,
+      "endSec": 2098,
+      "durationSec": 189,
+      "topic": "3D Kinos",
+      "fineSubject": "Cinema",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2098,
+      "endSec": 2402,
+      "durationSec": 304,
+      "topic": "Wünsche an das Internet",
+      "fineSubject": "Internet",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Event",
+      "startSec": 2835,
+      "endSec": 2949,
+      "durationSec": 114,
+      "topic": "C3 Garderobe",
+      "fineSubject": "Congress",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 2950,
+      "endSec": 2981,
+      "durationSec": 31,
+      "topic": "Bingo?",
+      "fineSubject": "Bingo",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Event",
+      "startSec": 3147,
+      "endSec": 3473,
+      "durationSec": 326,
+      "topic": "C3 Organisation",
+      "fineSubject": "Organization",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3684,
+      "endSec": 3765,
+      "durationSec": 81,
+      "topic": "Nerds und Fußball",
+      "fineSubject": "Sports",
+      "topicIndex": 19
+    }
+  ]
+}

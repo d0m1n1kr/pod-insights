@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 92,
+  "title": "UKW092 Krieg in der Ukraine",
+  "generatedAt": "2026-01-05T15:18:03.023Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.20525494276795006,
+      "Military": 0.3141692681234825,
+      "Technology": 0,
+      "Economics": 0.25251474158862297,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.2280610475199445
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2367,
+      "Military": 3623,
+      "Technology": 0,
+      "Economics": 2912,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 2630
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 3,
+      "Military": 4,
+      "Technology": 0,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 4
+    },
+    "totalDurationSec": 11532,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 66,
+      "endSec": 938,
+      "durationSec": 872,
+      "topic": "Was qualifiziert uns?",
+      "fineSubject": "Qualifications",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 1207,
+      "endSec": 1880,
+      "durationSec": 673,
+      "topic": "Die Ukraine",
+      "fineSubject": "Ukraine",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 1880,
+      "endSec": 2254,
+      "durationSec": 374,
+      "topic": "Was sind Russlands Ziele",
+      "fineSubject": "Russia",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2254,
+      "endSec": 2971,
+      "durationSec": 717,
+      "topic": "Vladimir Putin",
+      "fineSubject": "Vladimir Putin",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2972,
+      "endSec": 3750,
+      "durationSec": 778,
+      "topic": "Wolodymyr Selensky",
+      "fineSubject": "Wolodymyr Selensky",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 3751,
+      "endSec": 5361,
+      "durationSec": 1610,
+      "topic": "Der Angriff Russlands",
+      "fineSubject": "Russian Aggression",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 5361,
+      "endSec": 6162,
+      "durationSec": 801,
+      "topic": "Mögliche Szenarien für ein Kriegsende",
+      "fineSubject": "War Scenarios",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 6162,
+      "endSec": 6824,
+      "durationSec": 662,
+      "topic": "Eingesetze Waffensysteme",
+      "fineSubject": "Weapon Systems",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Economics",
+      "startSec": 6825,
+      "endSec": 8739,
+      "durationSec": 1914,
+      "topic": "Die Sanktionen des Westens",
+      "fineSubject": "Sanctions",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Economics",
+      "startSec": 8740,
+      "endSec": 9738,
+      "durationSec": 998,
+      "topic": "Auswirkungen auf Russland",
+      "fineSubject": "Impact on Russia",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 9738,
+      "endSec": 9994,
+      "durationSec": 256,
+      "topic": "UK und Russland",
+      "fineSubject": "UK and Russia",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 9994,
+      "endSec": 11321,
+      "durationSec": 1327,
+      "topic": "Deutschland und die osteuropäischen EU-Länder",
+      "fineSubject": "Germany and Eastern EU",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Military",
+      "startSec": 11322,
+      "endSec": 11872,
+      "durationSec": 550,
+      "topic": "Eskalationspotential",
+      "fineSubject": "Escalation Potential",
+      "topicIndex": 12
+    }
+  ]
+}

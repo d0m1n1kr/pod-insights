@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 286,
+  "title": "LNP286 Zeitsouveränes Cybervoting",
+  "generatedAt": "2026-01-05T15:17:57.611Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.030726256983240222,
+      "Technology": 0,
+      "Law": 0.37725015518311605,
+      "Security": 0.05291744258224705,
+      "Social": 0,
+      "Media": 0.20810055865921787,
+      "Health": 0,
+      "Feedback": 0.15037243947858472,
+      "Legal": 0,
+      "Business": 0.18063314711359404,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 198,
+      "Technology": 0,
+      "Law": 2431,
+      "Security": 341,
+      "Social": 0,
+      "Media": 1341,
+      "Health": 0,
+      "Feedback": 969,
+      "Legal": 0,
+      "Business": 1164,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 3,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6444,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 131,
+      "endSec": 570,
+      "durationSec": 439,
+      "topic": "Linus im KiKa",
+      "fineSubject": "Children's Television",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 571,
+      "endSec": 669,
+      "durationSec": 98,
+      "topic": "Feedback: Posteo",
+      "fineSubject": "Email Services",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 670,
+      "endSec": 1003,
+      "durationSec": 333,
+      "topic": "Feedback: Netzneutralität-Studie",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1003,
+      "endSec": 1541,
+      "durationSec": 538,
+      "topic": "Feedback: Cybervoting",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2095,
+      "endSec": 2964,
+      "durationSec": 869,
+      "topic": "Artikel 13 Showdown",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2965,
+      "endSec": 3750,
+      "durationSec": 785,
+      "topic": "Facebook vor dem Kartellamt",
+      "fineSubject": "Social Media",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 3842,
+      "endSec": 5006,
+      "durationSec": 1164,
+      "topic": "Huawei-Theater",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 5006,
+      "endSec": 5908,
+      "durationSec": 902,
+      "topic": "Live-Streaming",
+      "fineSubject": "Streaming Services",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 5909,
+      "endSec": 6686,
+      "durationSec": 777,
+      "topic": "Impressumsantrag im Bundestag",
+      "fineSubject": "Government Transparency",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 6686,
+      "endSec": 6808,
+      "durationSec": 122,
+      "topic": "Hack & Back",
+      "fineSubject": "Hacking",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 6924,
+      "endSec": 6975,
+      "durationSec": 51,
+      "topic": "Neues Leak",
+      "fineSubject": "Data Breaches",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Security",
+      "startSec": 6976,
+      "endSec": 7144,
+      "durationSec": 168,
+      "topic": "Sicher ist sicher",
+      "fineSubject": "Privacy",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7182,
+      "endSec": 7380,
+      "durationSec": 198,
+      "topic": "BND Umzug abgeschlossen",
+      "fineSubject": "Intelligence",
+      "topicIndex": 15
+    }
+  ]
+}

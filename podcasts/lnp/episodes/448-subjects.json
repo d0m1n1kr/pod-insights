@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 448,
+  "title": "LNP448 Duty Calls",
+  "generatedAt": "2026-01-05T15:17:57.635Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.11732476856225203,
+      "Technology": 0.1535990931418855,
+      "Law": 0,
+      "Security": 0.08974116757982241,
+      "Social": 0,
+      "Media": 0.34328358208955223,
+      "Health": 0.10296618174948044,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.1273379935764217,
+      "Privacy": 0,
+      "Culture": 0.06574721330058568
+    },
+    "durations": {
+      "Politics": 621,
+      "Technology": 813,
+      "Law": 0,
+      "Security": 475,
+      "Social": 0,
+      "Media": 1817,
+      "Health": 545,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 674,
+      "Privacy": 0,
+      "Culture": 348
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 5293,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 122,
+      "endSec": 189,
+      "durationSec": 67,
+      "topic": "Kabul-Luftbrücke",
+      "fineSubject": "International Relations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 189,
+      "endSec": 537,
+      "durationSec": 348,
+      "topic": "Einhornstandarte",
+      "fineSubject": "Symbolism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 538,
+      "endSec": 1013,
+      "durationSec": 475,
+      "topic": "Feedback: Warntag",
+      "fineSubject": "Emergency Management",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1014,
+      "endSec": 1491,
+      "durationSec": 477,
+      "topic": "Feedback: ChatGPT",
+      "fineSubject": "AI",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1492,
+      "endSec": 1828,
+      "durationSec": 336,
+      "topic": "Feedback: Advanced Data Protection",
+      "fineSubject": "Data Protection",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1828,
+      "endSec": 2382,
+      "durationSec": 554,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2383,
+      "endSec": 2928,
+      "durationSec": 545,
+      "topic": "Korruptionsverdacht Gematik-Konnektoren",
+      "fineSubject": "Corruption",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 2929,
+      "endSec": 4746,
+      "durationSec": 1817,
+      "topic": "Twitter-Saga (contd.)",
+      "fineSubject": "Controversies",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 4746,
+      "endSec": 5420,
+      "durationSec": 674,
+      "topic": "Luca verballert Investorenkohle erfolglos",
+      "fineSubject": "Investment",
+      "topicIndex": 8
+    }
+  ]
+}

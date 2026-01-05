@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 229,
+  "title": "LNP229 Deine Sandburg ist auf Sand gebaut",
+  "generatedAt": "2026-01-05T15:17:57.604Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4345582486317435,
+      "Technology": 0.13354182955433933,
+      "Law": 0.21282251759186865,
+      "Security": 0.18451915559030493,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.03455824863174355,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2779,
+      "Technology": 854,
+      "Law": 1361,
+      "Security": 1180,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 221,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6395,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 106,
+      "endSec": 957,
+      "durationSec": 851,
+      "topic": "Feedback: PC-Wahl",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 958,
+      "endSec": 2138,
+      "durationSec": 1180,
+      "topic": "BND vs. Tor",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2138,
+      "endSec": 2594,
+      "durationSec": 456,
+      "topic": "Zitis-Eröffnung",
+      "fineSubject": "Legislation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2595,
+      "endSec": 4523,
+      "durationSec": 1928,
+      "topic": "Wahlkampf",
+      "fineSubject": "Campaigning",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 4524,
+      "endSec": 5429,
+      "durationSec": 905,
+      "topic": "linksunten-Verbot",
+      "fineSubject": "Censorship",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5429,
+      "endSec": 6283,
+      "durationSec": 854,
+      "topic": "Cloudflare und Daily Stormer",
+      "fineSubject": "Content Moderation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 6671,
+      "endSec": 6892,
+      "durationSec": 221,
+      "topic": "Bonus Track: Public Money Public Code",
+      "fineSubject": "Public Funding",
+      "topicIndex": 6
+    }
+  ]
+}

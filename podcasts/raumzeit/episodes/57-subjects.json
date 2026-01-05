@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 57,
+  "title": "RZ057 Gaia",
+  "generatedAt": "2026-01-05T15:18:06.281Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.2,
+      "Astronomie": 0.4,
+      "Wissenschaft": 0.2,
+      "Technologie": 0.2,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 1,
+      "Astronomie": 2,
+      "Wissenschaft": 1,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vermessung der Galaxis",
+      "fineSubject": "Galaxien",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Gaia-Mission",
+      "fineSubject": "Weltraummissionen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sternenkatalog",
+      "fineSubject": "Sternenkataloge",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kamerasystem der Gaia-Mission",
+      "fineSubject": "Kameratechnologie",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wissenschaftliche Erkenntnisse über das Universum",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 537,
+  "title": "LNP537 Der Einbruch ist einfach, der Ausbruch wird schwierig",
+  "generatedAt": "2026-01-05T15:17:57.646Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.07414870038283296,
+      "Technology": 0.12190207535764659,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.05279065081603869,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.614547652629458,
+      "Business": 0.1366109208140238,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 368,
+      "Technology": 605,
+      "Law": 0,
+      "Security": 0,
+      "Social": 262,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 3050,
+      "Business": 678,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4963,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 458,
+      "endSec": 720,
+      "durationSec": 262,
+      "topic": "“Freiwillige” Chatkontrolle mit Überprüfungsklausel",
+      "fineSubject": "Privacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 721,
+      "endSec": 2277,
+      "durationSec": 1556,
+      "topic": "Gema vs OpenAI",
+      "fineSubject": "Copyright",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2277,
+      "endSec": 3771,
+      "durationSec": 1494,
+      "topic": "EU-Omnibus soll Datenschutz- und Verbraucherrecht aufweichen",
+      "fineSubject": "Data Protection",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3772,
+      "endSec": 4140,
+      "durationSec": 368,
+      "topic": "BaWü-Polizeigesetz schafft Grundlage für Palantir-Nutzung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4141,
+      "endSec": 4746,
+      "durationSec": 605,
+      "topic": "BSI-Lagebericht und NIS2-Richtlinie",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 4747,
+      "endSec": 5425,
+      "durationSec": 678,
+      "topic": "Telekom verdient nicht genug Geld mit Glasfaser",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 5
+    }
+  ]
+}

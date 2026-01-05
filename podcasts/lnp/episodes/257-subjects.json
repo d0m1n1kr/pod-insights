@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 257,
+  "title": "LNP257 Digitalkommissar der Herzen",
+  "generatedAt": "2026-01-05T15:17:57.608Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2713798977853492,
+      "Technology": 0,
+      "Law": 0.258603066439523,
+      "Security": 0.04616695059625213,
+      "Social": 0,
+      "Media": 0.19608177172061328,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.07666098807495741,
+      "Business": 0,
+      "Privacy": 0.15110732538330493,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1593,
+      "Technology": 0,
+      "Law": 1518,
+      "Security": 271,
+      "Social": 0,
+      "Media": 1151,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 450,
+      "Business": 0,
+      "Privacy": 887,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 5870,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 358,
+      "endSec": 665,
+      "durationSec": 307,
+      "topic": "AFD Wegbassen",
+      "fineSubject": "AFD",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 665,
+      "endSec": 936,
+      "durationSec": 271,
+      "topic": "Das Bundestagsnetz ist jetzt sicher",
+      "fineSubject": "Network Security",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 937,
+      "endSec": 2455,
+      "durationSec": 1518,
+      "topic": "EU: LSR und Uploadfilter",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2456,
+      "endSec": 2947,
+      "durationSec": 491,
+      "topic": "Neues vom Terrorhorst",
+      "fineSubject": "Terrorism",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2947,
+      "endSec": 3468,
+      "durationSec": 521,
+      "topic": "DSGVO: Noyb & LQDN nehmen Ihre Arbeit auf",
+      "fineSubject": "DSGVO",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3468,
+      "endSec": 3834,
+      "durationSec": 366,
+      "topic": "DSGVO: Abmahnungen?",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3835,
+      "endSec": 4285,
+      "durationSec": 450,
+      "topic": "EUGH-Urteil zu Facebook-Seiten",
+      "fineSubject": "Court Rulings",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4285,
+      "endSec": 5080,
+      "durationSec": 795,
+      "topic": "FDP klagt gegen NetzDG",
+      "fineSubject": "Legal Actions",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 5080,
+      "endSec": 6231,
+      "durationSec": 1151,
+      "topic": "Medienenquette in Österreich",
+      "fineSubject": "Media Ethics",
+      "topicIndex": 8
+    }
+  ]
+}

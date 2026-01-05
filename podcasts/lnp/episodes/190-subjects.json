@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 190,
+  "title": "LNP190 Wenn die Katze aus dem Haus ist",
+  "generatedAt": "2026-01-05T15:17:57.598Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4403751674854846,
+      "Technology": 0.44506476105404197,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.11456007146047342,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1972,
+      "Technology": 1993,
+      "Law": 0,
+      "Security": 0,
+      "Social": 513,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 7,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4478,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 96,
+      "endSec": 271,
+      "durationSec": 175,
+      "topic": "Feedback: Polizeiverhalten",
+      "fineSubject": "Policing",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 272,
+      "endSec": 559,
+      "durationSec": 287,
+      "topic": "Feedback: Erdogan",
+      "fineSubject": "Erdogan",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 653,
+      "endSec": 697,
+      "durationSec": 44,
+      "topic": "Feedback: Cyber-Schäden",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 698,
+      "endSec": 1003,
+      "durationSec": 305,
+      "topic": "Feedback: Präsidentenwahl Gore/Bush",
+      "fineSubject": "Elections",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1003,
+      "endSec": 1080,
+      "durationSec": 77,
+      "topic": "Feedback: Mobiltelefonüberwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 1081,
+      "endSec": 1335,
+      "durationSec": 254,
+      "topic": "Feedback: Accountsperrung auf Twitter",
+      "fineSubject": "Social Media",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1335,
+      "endSec": 1399,
+      "durationSec": 64,
+      "topic": "Feedback: Plattformen",
+      "fineSubject": "Platforms",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 1399,
+      "endSec": 1483,
+      "durationSec": 84,
+      "topic": "Feedback: Balkonschreier angezeigt",
+      "fineSubject": "Public Behavior",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1484,
+      "endSec": 2864,
+      "durationSec": 1380,
+      "topic": "De Maiziere: Plan zu Erhöhung der Sicherheit in Deutschland",
+      "fineSubject": "Security Policy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2864,
+      "endSec": 3029,
+      "durationSec": 165,
+      "topic": "Geplante europäische Aktion gegen Verschlüsselung",
+      "fineSubject": "Encryption",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3029,
+      "endSec": 3707,
+      "durationSec": 678,
+      "topic": "Staatstrojaner: FinFisher in der Hinterhand",
+      "fineSubject": "Surveillance Tools",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3708,
+      "endSec": 4272,
+      "durationSec": 564,
+      "topic": "Appelbaum Aftermath",
+      "fineSubject": "Privacy",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5986,
+      "endSec": 6387,
+      "durationSec": 401,
+      "topic": "SHA 2017",
+      "fineSubject": "Cryptography",
+      "topicIndex": 14
+    }
+  ]
+}

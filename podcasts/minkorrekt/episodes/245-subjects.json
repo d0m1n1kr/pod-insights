@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 245,
+  "title": "Mi245 – „Rudis Resterampe“",
+  "generatedAt": "2026-01-05T15:18:17.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.36928327645051195,
+      "Culture": 0.40102389078498296,
+      "Wissenschaft": 0,
+      "Health": 0.03617747440273038,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0.19351535836177475,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1082,
+      "Culture": 1175,
+      "Wissenschaft": 0,
+      "Health": 106,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 567,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 2930,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 426,
+      "endSec": 532,
+      "durationSec": 106,
+      "topic": "Reha",
+      "fineSubject": "Rehabilitation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 1355,
+      "endSec": 1922,
+      "durationSec": 567,
+      "topic": "Dinospuren",
+      "fineSubject": "Fossils",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 1922,
+      "endSec": 2299,
+      "durationSec": 377,
+      "topic": "Ostfriesland",
+      "fineSubject": "Ostfriesland",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4004,
+      "endSec": 4709,
+      "durationSec": 705,
+      "topic": "Experiment",
+      "fineSubject": "Experiments",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4709,
+      "endSec": 5884,
+      "durationSec": 1175,
+      "topic": "Thema 2: \"Auf dem Trockenen\"",
+      "fineSubject": "Sustainability",
+      "topicIndex": 6
+    }
+  ]
+}

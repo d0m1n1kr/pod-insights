@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 52,
+  "title": "Minkorrekt Folge 52 “Gangsta Style”",
+  "generatedAt": "2026-01-05T15:18:17.356Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0.2,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0.4,
+      "Biologie": 0.4,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 1,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 2,
+      "Biologie": 2,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Graphen-Segel für Raumschiffe",
+      "fineSubject": "Materialwissenschaft",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Unmoralische Vögel",
+      "fineSubject": "Verhalten",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kochende Affen",
+      "fineSubject": "Tierverhalten",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Selbstzerstörerische Mikrochips",
+      "fineSubject": "Halbleiter",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Experiment der Woche: Autoballon",
+      "fineSubject": "Experimente",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "episodeNumber": 273,
+  "title": "FS273 Papst von China",
+  "generatedAt": "2026-01-05T15:17:51.116Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.023364140480591496,
+      "Software": 0.07438077634011091,
+      "Hardware": 0.15918669131238447,
+      "Finance": 0.027134935304990757,
+      "Media": 0,
+      "Social": 0.2579667282809612,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.3327911275415896,
+      "Business": 0.09101663585951941,
+      "Gaming": 0.03415896487985213,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 316,
+      "Software": 1006,
+      "Hardware": 2153,
+      "Finance": 367,
+      "Media": 0,
+      "Social": 3489,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 4501,
+      "Business": 1231,
+      "Gaming": 462,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 1,
+      "Hardware": 3,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 4,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 10,
+      "Business": 1,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 13525,
+    "totalTopics": 25
+  },
+  "timeline": [
+    {
+      "subject": "Finance",
+      "startSec": 1730,
+      "endSec": 2097,
+      "durationSec": 367,
+      "topic": "15 Jahre Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Events",
+      "startSec": 2098,
+      "endSec": 2706,
+      "durationSec": 608,
+      "topic": "37C3: Location",
+      "fineSubject": "37C3",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Events",
+      "startSec": 2706,
+      "endSec": 3041,
+      "durationSec": 335,
+      "topic": "37C3: Meme",
+      "fineSubject": "37C3",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Events",
+      "startSec": 3041,
+      "endSec": 3283,
+      "durationSec": 242,
+      "topic": "37C3: Prompt Battle",
+      "fineSubject": "37C3",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Events",
+      "startSec": 3284,
+      "endSec": 3827,
+      "durationSec": 543,
+      "topic": "37C3: Chaos Post",
+      "fineSubject": "37C3",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Events",
+      "startSec": 3827,
+      "endSec": 4080,
+      "durationSec": 253,
+      "topic": "37C3: Congress mit Kindern",
+      "fineSubject": "37C3",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Events",
+      "startSec": 4080,
+      "endSec": 5075,
+      "durationSec": 995,
+      "topic": "37C3: Medien",
+      "fineSubject": "37C3",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 5075,
+      "endSec": 5304,
+      "durationSec": 229,
+      "topic": "37C3: CCC bei Logo",
+      "fineSubject": "37C3",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Events",
+      "startSec": 5305,
+      "endSec": 5811,
+      "durationSec": 506,
+      "topic": "37C3: Talks",
+      "fineSubject": "37C3",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Events",
+      "startSec": 5812,
+      "endSec": 6487,
+      "durationSec": 675,
+      "topic": "37C3: SMTP Smuggling",
+      "fineSubject": "37C3",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Events",
+      "startSec": 6488,
+      "endSec": 6603,
+      "durationSec": 115,
+      "topic": "37C3: Breaking \"DRM\" in Polish trains",
+      "fineSubject": "37C3",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 6603,
+      "endSec": 7065,
+      "durationSec": 462,
+      "topic": "The True Killscreen",
+      "fineSubject": "Killscreen",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 7066,
+      "endSec": 8072,
+      "durationSec": 1006,
+      "topic": "macOS Utilities",
+      "fineSubject": "macOS",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Business",
+      "startSec": 8072,
+      "endSec": 9303,
+      "durationSec": 1231,
+      "topic": "Buchhaltung",
+      "fineSubject": "Buchhaltung",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9304,
+      "endSec": 10311,
+      "durationSec": 1007,
+      "topic": "iPad vs. Mac",
+      "fineSubject": "iPad",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Social",
+      "startSec": 12308,
+      "endSec": 13534,
+      "durationSec": 1226,
+      "topic": "State of Social Media",
+      "fineSubject": "Social Media",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Social",
+      "startSec": 13535,
+      "endSec": 13931,
+      "durationSec": 396,
+      "topic": "Social Media Competence",
+      "fineSubject": "Social Media",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Social",
+      "startSec": 13932,
+      "endSec": 14975,
+      "durationSec": 1043,
+      "topic": "BlueSky und das AT-Protocol",
+      "fineSubject": "BlueSky",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Social",
+      "startSec": 14975,
+      "endSec": 15799,
+      "durationSec": 824,
+      "topic": "Blocking",
+      "fineSubject": "Blocking",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15800,
+      "endSec": 16116,
+      "durationSec": 316,
+      "topic": "Ice Cubes und Ivory",
+      "fineSubject": "Ice Cubes",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 16116,
+      "endSec": 16585,
+      "durationSec": 469,
+      "topic": "Rabbit R1",
+      "fineSubject": "Rabbit R1",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 16586,
+      "endSec": 17263,
+      "durationSec": 677,
+      "topic": "Apple Vision Pro ante portas",
+      "fineSubject": "Apple Vision Pro",
+      "topicIndex": 24
+    }
+  ]
+}

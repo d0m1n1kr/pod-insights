@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 170,
+  "title": "FS170 Laden läuft",
+  "generatedAt": "2026-01-05T15:17:51.085Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.26333025442942315,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.1694516752036275,
+      "Media": 0.5672180703669494,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3136,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2018,
+      "Media": 6755,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 8,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11909,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Finance",
+      "startSec": 356,
+      "endSec": 2374,
+      "durationSec": 2018,
+      "topic": "Bitcoin Trouble",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 2374,
+      "endSec": 4536,
+      "durationSec": 2162,
+      "topic": "Wikipedia-Relevanz",
+      "fineSubject": "Wikipedia",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 4537,
+      "endSec": 5516,
+      "durationSec": 979,
+      "topic": "Mobile Soundsysteme",
+      "fineSubject": "Mobile Systems",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 5516,
+      "endSec": 6879,
+      "durationSec": 1363,
+      "topic": "HiFi-Kram in den 80ern",
+      "fineSubject": "HiFi",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 6880,
+      "endSec": 7455,
+      "durationSec": 575,
+      "topic": "Videotext-Archäologie",
+      "fineSubject": "Television",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 7455,
+      "endSec": 7630,
+      "durationSec": 175,
+      "topic": "Untertitel",
+      "fineSubject": "Subtitles",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 7631,
+      "endSec": 8650,
+      "durationSec": 1019,
+      "topic": "Star Wars",
+      "fineSubject": "Movies",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 8650,
+      "endSec": 8944,
+      "durationSec": 294,
+      "topic": "Troll Bridge",
+      "fineSubject": "Games",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8945,
+      "endSec": 9717,
+      "durationSec": 772,
+      "topic": "iPhone 5s und Apple Store",
+      "fineSubject": "Mobile Devices",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9718,
+      "endSec": 9971,
+      "durationSec": 253,
+      "topic": "iPhone 5se",
+      "fineSubject": "Mobile Devices",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9972,
+      "endSec": 10695,
+      "durationSec": 723,
+      "topic": "iOS 9.3",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10695,
+      "endSec": 12083,
+      "durationSec": 1388,
+      "topic": "Telekom Kundencenter",
+      "fineSubject": "Customer Service",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 12294,
+      "endSec": 12482,
+      "durationSec": 188,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 12
+    }
+  ]
+}

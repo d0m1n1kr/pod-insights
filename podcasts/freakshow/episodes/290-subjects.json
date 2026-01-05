@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 290,
+  "title": "FS290 Das Popcorn-Problem",
+  "generatedAt": "2026-01-05T15:17:51.120Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.34180576631259485,
+      "Software": 0.21289833080424886,
+      "Hardware": 0.2656297420333839,
+      "Finance": 0.015326251896813354,
+      "Media": 0.11267071320182094,
+      "Social": 0.05166919575113809,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4505,
+      "Software": 2806,
+      "Hardware": 3501,
+      "Finance": 202,
+      "Media": 1485,
+      "Social": 681,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 8,
+      "Software": 2,
+      "Hardware": 2,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13180,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1610,
+      "endSec": 2073,
+      "durationSec": 463,
+      "topic": "SIMs im Ausland",
+      "fineSubject": "SIM Cards",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2073,
+      "endSec": 2328,
+      "durationSec": 255,
+      "topic": "Visual Intelligence",
+      "fineSubject": "Visual Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2328,
+      "endSec": 2918,
+      "durationSec": 590,
+      "topic": "Maps und Navigation",
+      "fineSubject": "Maps and Navigation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3526,
+      "endSec": 4207,
+      "durationSec": 681,
+      "topic": "Save Social",
+      "fineSubject": "Social Media",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4207,
+      "endSec": 4673,
+      "durationSec": 466,
+      "topic": "Fedipol",
+      "fineSubject": "Fedipol",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 4674,
+      "endSec": 4751,
+      "durationSec": 77,
+      "topic": "Ton auf dem Klo",
+      "fineSubject": "Sound Quality",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 4751,
+      "endSec": 5857,
+      "durationSec": 1106,
+      "topic": "Vibe Coding",
+      "fineSubject": "Vibe Coding",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 5858,
+      "endSec": 7558,
+      "durationSec": 1700,
+      "topic": "Bots programmieren",
+      "fineSubject": "Bot Development",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7559,
+      "endSec": 8613,
+      "durationSec": 1054,
+      "topic": "Claude Sonnet und Cursor Updates",
+      "fineSubject": "Updates",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8613,
+      "endSec": 8858,
+      "durationSec": 245,
+      "topic": "Gibberlink",
+      "fineSubject": "Gibberlink",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8859,
+      "endSec": 9614,
+      "durationSec": 755,
+      "topic": "MCP Server Anwendungen",
+      "fineSubject": "MCP Server Applications",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9614,
+      "endSec": 10348,
+      "durationSec": 734,
+      "topic": "Neue Macs",
+      "fineSubject": "New Macs",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10349,
+      "endSec": 10551,
+      "durationSec": 202,
+      "topic": "MoneyMoney",
+      "fineSubject": "Money Management",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10551,
+      "endSec": 11228,
+      "durationSec": 677,
+      "topic": "Was ist denn nun mit Apple Intelligence?",
+      "fineSubject": "Apple Intelligence",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11229,
+      "endSec": 13996,
+      "durationSec": 2767,
+      "topic": "Apple Vision Pro",
+      "fineSubject": "Apple Vision Pro",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 15201,
+      "endSec": 16609,
+      "durationSec": 1408,
+      "topic": "Severance",
+      "fineSubject": "Severance",
+      "topicIndex": 18
+    }
+  ]
+}

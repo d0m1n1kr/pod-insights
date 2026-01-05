@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 87,
+  "title": "LNP087 Kusselkopf",
+  "generatedAt": "2026-01-05T15:17:57.587Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6010928961748634,
+      "Technology": 0,
+      "Law": 0.14511232544019428,
+      "Security": 0.2537947783849423,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 990,
+      "Technology": 0,
+      "Law": 239,
+      "Security": 418,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 1647,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 378,
+      "endSec": 1174,
+      "durationSec": 796,
+      "topic": "Der Koalitionsvertrag",
+      "fineSubject": "Coalition Agreement",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1174,
+      "endSec": 1413,
+      "durationSec": 239,
+      "topic": "EuGH-Generalanwalt zu Netzsperren",
+      "fineSubject": "Net Blocking",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1413,
+      "endSec": 1831,
+      "durationSec": 418,
+      "topic": "NSA infizierte über 50.000 Netzwerke mit Späh-Software",
+      "fineSubject": "Cyber Espionage",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2769,
+      "endSec": 2963,
+      "durationSec": 194,
+      "topic": "UNO-Resolution gegen Abhöraktionen",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    }
+  ]
+}

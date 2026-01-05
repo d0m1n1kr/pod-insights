@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 193,
+  "title": "LNP193 Objektiv notwendige Optimierung",
+  "generatedAt": "2026-01-05T15:17:57.599Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.25813221406086045,
+      "Technology": 0,
+      "Law": 0.7418677859391396,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 738,
+      "Technology": 0,
+      "Law": 2121,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2859,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 160,
+      "endSec": 2281,
+      "durationSec": 2121,
+      "topic": "Die BEREC-Entscheidung zu Netzneutralität",
+      "fineSubject": "Entscheidung / BEREC",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2281,
+      "endSec": 2578,
+      "durationSec": 297,
+      "topic": "Der politische Prozess",
+      "fineSubject": "Aktivismus / politischer Prozess",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2579,
+      "endSec": 3020,
+      "durationSec": 441,
+      "topic": "3 Jahre Aktivismus",
+      "fineSubject": "Erfahrungen / 3 Jahre",
+      "topicIndex": 2
+    }
+  ]
+}

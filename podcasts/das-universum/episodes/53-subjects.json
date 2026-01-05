@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 53,
+  "title": "DU053 - Wenn schwarze Löcher mit Sternen kollidieren…",
+  "generatedAt": "2026-01-05T15:18:22.097Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.5,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.3333333333333333,
+      "Wissenschaft": 0,
+      "Bildung": 0.16666666666666666,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 2,
+      "Wissenschaft": 0,
+      "Bildung": 1,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kollisionen von schwarzen Löchern und Sternen",
+      "fineSubject": "Schwarze Löcher",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Primordiale schwarze Löcher in Planetensystemen",
+      "fineSubject": "Dunkle Materie",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bestimmung der Erdmasse",
+      "fineSubject": "Gravitation",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beobachtung ferner Galaxien",
+      "fineSubject": "Galaxien",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Neutrinos und ihre Eigenschaften",
+      "fineSubject": "Teilchenphysik",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Bildung",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wissenschaftskommunikation",
+      "fineSubject": "Wissenschaftskommunikation",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

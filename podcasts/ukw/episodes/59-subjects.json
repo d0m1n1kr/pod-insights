@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 59,
+  "title": "UKW059 Corona Weekly: Zensur ist ein Beitrag zum Infektionsschutz",
+  "generatedAt": "2026-01-05T15:18:03.013Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5889,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 13,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5889,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 153,
+      "endSec": 1528,
+      "durationSec": 1375,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation in Germany",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1528,
+      "endSec": 1922,
+      "durationSec": 394,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "COVID-19 Situation in Federal States",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1922,
+      "endSec": 3094,
+      "durationSec": 1172,
+      "topic": "Tests und Positivquote",
+      "fineSubject": "COVID-19 Testing and Positivity Rate",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 3095,
+      "endSec": 3401,
+      "durationSec": 306,
+      "topic": "Situation in Berlin",
+      "fineSubject": "COVID-19 Situation in Berlin",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3401,
+      "endSec": 4028,
+      "durationSec": 627,
+      "topic": "Situation in Europa",
+      "fineSubject": "COVID-19 Situation in Europe",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4688,
+      "endSec": 5029,
+      "durationSec": 341,
+      "topic": "Digitaler Schnelltest aus Australien",
+      "fineSubject": "Digital Rapid Test from Australia",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5030,
+      "endSec": 5078,
+      "durationSec": 48,
+      "topic": "SARS-CoV-2 unter dem Heliumionenmikroskop",
+      "fineSubject": "SARS-CoV-2 Imaging",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 5078,
+      "endSec": 5524,
+      "durationSec": 446,
+      "topic": "Impfung in Israel",
+      "fineSubject": "Vaccination in Israel",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5525,
+      "endSec": 5684,
+      "durationSec": 159,
+      "topic": "COVAX",
+      "fineSubject": "COVAX Initiative",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5684,
+      "endSec": 5746,
+      "durationSec": 62,
+      "topic": "Schweiz lässt AstraZeneca nicht zu",
+      "fineSubject": "AstraZeneca Vaccine Approval in Switzerland",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 5747,
+      "endSec": 6491,
+      "durationSec": 744,
+      "topic": "Phase III Zwischenergebnisse zu Sputnik V",
+      "fineSubject": "Sputnik V Phase III Results",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 6492,
+      "endSec": 6638,
+      "durationSec": 146,
+      "topic": "Corona-Warn-App Updates",
+      "fineSubject": "Corona-Warn-App Updates",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 6638,
+      "endSec": 6707,
+      "durationSec": 69,
+      "topic": "Corona-Spürhunde in Niedersachsen",
+      "fineSubject": "COVID-19 Detection Dogs in Lower Saxony",
+      "topicIndex": 12
+    }
+  ]
+}

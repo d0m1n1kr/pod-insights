@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 123,
+  "title": "FS123 Schland unter",
+  "generatedAt": "2026-01-05T15:15:52.351Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.525,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.11061320754716981,
+      "Media": 0.21367924528301888,
+      "Social": 0,
+      "Culture": 0.0938679245283019,
+      "Security": 0,
+      "Events": 0.056839622641509435,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4452,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 938,
+      "Media": 1812,
+      "Social": 0,
+      "Culture": 796,
+      "Security": 0,
+      "Events": 482,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8480,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 970,
+      "endSec": 1766,
+      "durationSec": 796,
+      "topic": "Schland unter",
+      "fineSubject": "Germany",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1766,
+      "endSec": 3553,
+      "durationSec": 1787,
+      "topic": "Layer-8-Probleme",
+      "fineSubject": "Networking",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 3553,
+      "endSec": 5365,
+      "durationSec": 1812,
+      "topic": "Live aus dem Ableton-Kerker",
+      "fineSubject": "Production",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7165,
+      "endSec": 8532,
+      "durationSec": 1367,
+      "topic": "Rechnerbau und ZFS",
+      "fineSubject": "Hardware",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8532,
+      "endSec": 9023,
+      "durationSec": 491,
+      "topic": "Kommandozeile",
+      "fineSubject": "Command Line",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9023,
+      "endSec": 9961,
+      "durationSec": 938,
+      "topic": "Bitcoin und IPv6",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9961,
+      "endSec": 10768,
+      "durationSec": 807,
+      "topic": "Apple-Klimbim",
+      "fineSubject": "Apple",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 12261,
+      "endSec": 12743,
+      "durationSec": 482,
+      "topic": "30C3",
+      "fineSubject": "Conferences",
+      "topicIndex": 10
+    }
+  ]
+}

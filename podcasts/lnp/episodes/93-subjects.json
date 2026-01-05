@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 93,
+  "title": "LNP093 Ninjakostüme bereithalten",
+  "generatedAt": "2026-01-05T15:17:57.588Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3379,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 6,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3379,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 563,
+      "endSec": 1860,
+      "durationSec": 1297,
+      "topic": "Edathy",
+      "fineSubject": "Politics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1860,
+      "endSec": 2329,
+      "durationSec": 469,
+      "topic": "Netzneutralität",
+      "fineSubject": "Internet",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2329,
+      "endSec": 3074,
+      "durationSec": 745,
+      "topic": "Vorratsdatenspeicherung",
+      "fineSubject": "Privacy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 3075,
+      "endSec": 3423,
+      "durationSec": 348,
+      "topic": "Internetzensur in der Türkei",
+      "fineSubject": "Censorship",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3423,
+      "endSec": 3730,
+      "durationSec": 307,
+      "topic": "Schengen-Security",
+      "fineSubject": "Security",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3731,
+      "endSec": 3944,
+      "durationSec": 213,
+      "topic": "Ernst machen mit dem Leistungsschutzrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 5
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 108,
+  "title": "MM108 Funktional kaputt",
+  "generatedAt": "2026-01-05T15:17:51.072Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5086541858000706,
+      "Software": 0.08053691275167785,
+      "Hardware": 0,
+      "Finance": 0.04924055104203462,
+      "Media": 0.07940657011656659,
+      "Social": 0.08018368067820558,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.13274461321087955,
+      "Gaming": 0,
+      "Event": 0.06923348640056518
+    },
+    "durations": {
+      "Technology": 7200,
+      "Software": 1140,
+      "Hardware": 0,
+      "Finance": 697,
+      "Media": 1124,
+      "Social": 1135,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1879,
+      "Gaming": 0,
+      "Event": 980
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 14155,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1665,
+      "endSec": 2996,
+      "durationSec": 1331,
+      "topic": "Telekomdrosselung",
+      "fineSubject": "Regulation / Throttling",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 2996,
+      "endSec": 4875,
+      "durationSec": 1879,
+      "topic": "Böse Firmen und Engines",
+      "fineSubject": "Corporate Behavior / Engines",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 4875,
+      "endSec": 6010,
+      "durationSec": 1135,
+      "topic": "Facebook",
+      "fineSubject": "Platform / Facebook",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6010,
+      "endSec": 6956,
+      "durationSec": 946,
+      "topic": "Plattformkrieg",
+      "fineSubject": "Market / Platform Wars",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6956,
+      "endSec": 9683,
+      "durationSec": 2727,
+      "topic": "ADN - App.net",
+      "fineSubject": "Platform / App.net",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9683,
+      "endSec": 10380,
+      "durationSec": 697,
+      "topic": "BitCoin",
+      "fineSubject": "Currency / BitCoin",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10380,
+      "endSec": 12576,
+      "durationSec": 2196,
+      "topic": "Audiotools",
+      "fineSubject": "Tools / Audiotools",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 12576,
+      "endSec": 13700,
+      "durationSec": 1124,
+      "topic": "Podcasts",
+      "fineSubject": "Format / Podcasts",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Event",
+      "startSec": 13700,
+      "endSec": 14680,
+      "durationSec": 980,
+      "topic": "Musikmesse Frankfurt",
+      "fineSubject": "Location / Musikmesse Frankfurt",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 14680,
+      "endSec": 15820,
+      "durationSec": 1140,
+      "topic": "Apps",
+      "fineSubject": "Type / Apps",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 374,
+  "title": "Mi374 – \"Ig-Nobelpreis-Sonderfolge 2025\"",
+  "generatedAt": "2026-01-05T15:18:17.396Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.2990529545151394,
+      "Culture": 0.14752567693744165,
+      "Wissenschaft": 0,
+      "Health": 0.10190742963852208,
+      "Technology": 0.1600640256102441,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.2914499132986528,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2242,
+      "Culture": 1106,
+      "Wissenschaft": 0,
+      "Health": 764,
+      "Technology": 1200,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2185,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2,
+      "Biology": 0
+    },
+    "totalDurationSec": 7497,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 122,
+      "endSec": 1510,
+      "durationSec": 1388,
+      "topic": "Lokalpolitik Essen",
+      "fineSubject": "Local Politics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2612,
+      "endSec": 3033,
+      "durationSec": 421,
+      "topic": "Ignobel-Europe Tour 2026",
+      "fineSubject": "Tours",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3033,
+      "endSec": 3718,
+      "durationSec": 685,
+      "topic": "Literatur",
+      "fineSubject": "Literature",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 3718,
+      "endSec": 4389,
+      "durationSec": 671,
+      "topic": "Psychologie",
+      "fineSubject": "Psychology",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4389,
+      "endSec": 4822,
+      "durationSec": 433,
+      "topic": "Ernährung",
+      "fineSubject": "Nutrition",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4822,
+      "endSec": 5153,
+      "durationSec": 331,
+      "topic": "Pädiatrie",
+      "fineSubject": "Pediatrics",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Science",
+      "startSec": 5153,
+      "endSec": 5621,
+      "durationSec": 468,
+      "topic": "Biologie",
+      "fineSubject": "Biology",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Science",
+      "startSec": 5621,
+      "endSec": 6177,
+      "durationSec": 556,
+      "topic": "Chemie",
+      "fineSubject": "Chemistry",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 6177,
+      "endSec": 6974,
+      "durationSec": 797,
+      "topic": "Frieden",
+      "fineSubject": "Peace",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6974,
+      "endSec": 7734,
+      "durationSec": 760,
+      "topic": "Engineering Design",
+      "fineSubject": "Design",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7734,
+      "endSec": 8174,
+      "durationSec": 440,
+      "topic": "Luftfahrt",
+      "fineSubject": "Aviation",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Science",
+      "startSec": 8174,
+      "endSec": 8721,
+      "durationSec": 547,
+      "topic": "Physik",
+      "fineSubject": "Physics",
+      "topicIndex": 14
+    }
+  ]
+}

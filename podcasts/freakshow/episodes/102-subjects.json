@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 102,
+  "title": "MM102 Nur noch mit Profis",
+  "generatedAt": "2026-01-05T15:17:51.071Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.133739406779661,
+      "Software": 0.3803848870056497,
+      "Hardware": 0.14804025423728814,
+      "Finance": 0.04855225988700565,
+      "Media": 0,
+      "Social": 0.04731638418079096,
+      "Culture": 0,
+      "Security": 0.022422316384180793,
+      "Events": 0.21954449152542374,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1515,
+      "Software": 4309,
+      "Hardware": 1677,
+      "Finance": 550,
+      "Media": 0,
+      "Social": 536,
+      "Culture": 0,
+      "Security": 254,
+      "Events": 2487,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 3,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 4,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11328,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 490,
+      "endSec": 1271,
+      "durationSec": 781,
+      "topic": "Onlinezugang und Provider",
+      "fineSubject": "Onlinezugang",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Events",
+      "startSec": 1271,
+      "endSec": 2795,
+      "durationSec": 1524,
+      "topic": "Der Kongress 29C3",
+      "fineSubject": "29C3",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 2795,
+      "endSec": 3049,
+      "durationSec": 254,
+      "topic": "Sicherheitsprobleme bei Kongressen und  Kongresscentern",
+      "fineSubject": "Sicherheitsprobleme",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Events",
+      "startSec": 3049,
+      "endSec": 3280,
+      "durationSec": 231,
+      "topic": "Kongress 2",
+      "fineSubject": "Kongress 2",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Events",
+      "startSec": 3280,
+      "endSec": 3914,
+      "durationSec": 634,
+      "topic": "Events Munich Erlang Factory Lite",
+      "fineSubject": "Munich Erlang Factory Lite",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5210,
+      "endSec": 5944,
+      "durationSec": 734,
+      "topic": "IP und Netzmasken",
+      "fineSubject": "Netzmasken",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Finance",
+      "startSec": 7640,
+      "endSec": 8190,
+      "durationSec": 550,
+      "topic": "Aktien und Internetdienste",
+      "fineSubject": "Internetdienste",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 8190,
+      "endSec": 9557,
+      "durationSec": 1367,
+      "topic": "Maps und iCloud",
+      "fineSubject": "Maps",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 9557,
+      "endSec": 9655,
+      "durationSec": 98,
+      "topic": "Applestore Berlin",
+      "fineSubject": "Berlin",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9655,
+      "endSec": 11332,
+      "durationSec": 1677,
+      "topic": "Mac Mini, Platten und Performance",
+      "fineSubject": "Performance",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 11332,
+      "endSec": 12632,
+      "durationSec": 1300,
+      "topic": "iWorld",
+      "fineSubject": "Apple",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 12632,
+      "endSec": 14274,
+      "durationSec": 1642,
+      "topic": "Bugs und der AppStore",
+      "fineSubject": "AppStore",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Social",
+      "startSec": 16448,
+      "endSec": 16984,
+      "durationSec": 536,
+      "topic": "Microblogginglandschaftsbeleuchtung",
+      "fineSubject": "Landschaftsbeleuchtung",
+      "topicIndex": 14
+    }
+  ]
+}

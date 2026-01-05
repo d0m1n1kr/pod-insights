@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 214,
+  "title": "LNP214 Abstrakte Gefährder",
+  "generatedAt": "2026-01-05T15:17:57.602Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.13046577946768062,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.7003326996197718,
+      "Culture": 0.16920152091254753
+    },
+    "durations": {
+      "Politics": 549,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2947,
+      "Culture": 712
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 1
+    },
+    "totalDurationSec": 4208,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 178,
+      "endSec": 727,
+      "durationSec": 549,
+      "topic": "Politische Realität in Österreich",
+      "fineSubject": "Austrian Politics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 727,
+      "endSec": 3674,
+      "durationSec": 2947,
+      "topic": "Überwachungspaket für Österreich",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3675,
+      "endSec": 4387,
+      "durationSec": 712,
+      "topic": "Rettet die Meme",
+      "fineSubject": "Memes",
+      "topicIndex": 2
+    }
+  ]
+}

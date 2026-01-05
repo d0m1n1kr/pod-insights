@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 111,
+  "title": "UKW111 Ukraine: Die Gegenoffensive",
+  "generatedAt": "2026-01-05T15:18:03.029Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.11596588358521621,
+      "Military": 0.5762382163698938,
+      "Technology": 0,
+      "Economics": 0.30779590004489,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 775,
+      "Military": 3851,
+      "Technology": 0,
+      "Economics": 2057,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 2,
+      "Military": 4,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6683,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 74,
+      "endSec": 250,
+      "durationSec": 176,
+      "topic": "Stand nach der letzten Sendung",
+      "fineSubject": "Ukraine Conflict",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 251,
+      "endSec": 1542,
+      "durationSec": 1291,
+      "topic": "Angriffe auf Belgorod",
+      "fineSubject": "Tactics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 1543,
+      "endSec": 2564,
+      "durationSec": 1021,
+      "topic": "Bakhmut, Wagner und die Tschetschenen",
+      "fineSubject": "Personnel",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 2564,
+      "endSec": 3401,
+      "durationSec": 837,
+      "topic": "Ausstattung der Ukrainischen Armee",
+      "fineSubject": "Equipment",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 3401,
+      "endSec": 4103,
+      "durationSec": 702,
+      "topic": "Die Ukrainische Gegenoffensive",
+      "fineSubject": "Operations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Economics",
+      "startSec": 4104,
+      "endSec": 6161,
+      "durationSec": 2057,
+      "topic": "Nova Khakowka Damm zerstört",
+      "fineSubject": "Destruction",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6161,
+      "endSec": 6760,
+      "durationSec": 599,
+      "topic": "Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 6
+    }
+  ]
+}

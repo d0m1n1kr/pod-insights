@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 86,
+  "title": "LNP086 Wir müssen Apple opfern",
+  "generatedAt": "2026-01-05T15:17:57.587Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.8593571917027581,
+      "Technology": 0.14064280829724185,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3770,
+      "Technology": 617,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4387,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 230,
+      "endSec": 2487,
+      "durationSec": 2257,
+      "topic": "Schlandnet Executive Summary",
+      "fineSubject": "Government",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2488,
+      "endSec": 2912,
+      "durationSec": 424,
+      "topic": "Kein förmliches Ermittlungsverfahren der Bundesanwaltschaft in der NSA-Affäre",
+      "fineSubject": "Legal",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2912,
+      "endSec": 4001,
+      "durationSec": 1089,
+      "topic": "Digitale Agenda für Deutschland 2013 – 2017",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4002,
+      "endSec": 4619,
+      "durationSec": 617,
+      "topic": "Das Ende der Netzpolitik (wie wir sie kennen)",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 3
+    }
+  ]
+}

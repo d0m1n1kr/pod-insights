@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 181,
+  "title": "LNP181 Die Eichhörnchen gewinnen den Cyberwar",
+  "generatedAt": "2026-01-05T15:17:57.597Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2522104652848239,
+      "Technology": 0,
+      "Law": 0.25018118567908393,
+      "Security": 0.22249601391506016,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.27511233512103206,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1740,
+      "Technology": 0,
+      "Law": 1726,
+      "Security": 1535,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1898,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 4,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6899,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 365,
+      "endSec": 1428,
+      "durationSec": 1063,
+      "topic": "TTIP Leaks",
+      "fineSubject": "Leaks",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 2693,
+      "endSec": 3279,
+      "durationSec": 586,
+      "topic": "Malware und Werbenetzwerke",
+      "fineSubject": "Malware",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 3279,
+      "endSec": 5177,
+      "durationSec": 1898,
+      "topic": "Flattr Plus",
+      "fineSubject": "Crowdfunding",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5177,
+      "endSec": 5787,
+      "durationSec": 610,
+      "topic": "Panama Papers: Manifest von John Doe",
+      "fineSubject": "Panama Papers",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 5788,
+      "endSec": 6221,
+      "durationSec": 433,
+      "topic": "E-Justice",
+      "fineSubject": "E-Justice",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 6221,
+      "endSec": 6491,
+      "durationSec": 270,
+      "topic": "Eichhörnchen vs. Cyberterroristen",
+      "fineSubject": "Cyberterrorism",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 6491,
+      "endSec": 7334,
+      "durationSec": 843,
+      "topic": "Elsevier klagt gegen Sci-Hub",
+      "fineSubject": "Copyright",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7335,
+      "endSec": 7402,
+      "durationSec": 67,
+      "topic": "US-Geheimgericht winkte wieder alle Überwachungsanträge durch",
+      "fineSubject": "Surveillance",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 7402,
+      "endSec": 7610,
+      "durationSec": 208,
+      "topic": "Fingerabdruck ist nicht geheim",
+      "fineSubject": "Biometrics",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 7611,
+      "endSec": 8082,
+      "durationSec": 471,
+      "topic": "Torsploit: Früheres Mitglied der Tor-Entwickler half dem FBI",
+      "fineSubject": "Tor Network",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Law",
+      "startSec": 8082,
+      "endSec": 8532,
+      "durationSec": 450,
+      "topic": "Regulation von Modellflug und Drohnen",
+      "fineSubject": "Drones",
+      "topicIndex": 11
+    }
+  ]
+}

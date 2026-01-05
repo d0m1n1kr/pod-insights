@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 57,
+  "title": "LNP057 Es kann nur einen geben",
+  "generatedAt": "2026-01-05T15:17:57.580Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4638856701429123,
+      "Technology": 0,
+      "Law": 0.5361143298570876,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1201,
+      "Technology": 0,
+      "Law": 1388,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2589,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 43,
+      "endSec": 1000,
+      "durationSec": 957,
+      "topic": "Leistungsschutzrecht beschlossen",
+      "fineSubject": "Legislation / Leistungsschutzrecht",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1000,
+      "endSec": 1654,
+      "durationSec": 654,
+      "topic": "Bradley Manning gesteht, aber nicht den Landesverrat",
+      "fineSubject": "Case / Bradley Manning",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2493,
+      "endSec": 2697,
+      "durationSec": 204,
+      "topic": "Kanada: ACTA ist zurück",
+      "fineSubject": "Agreement / ACTA",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2698,
+      "endSec": 3129,
+      "durationSec": 431,
+      "topic": "Copyright-Kontrollen in Frankreich und Amerika",
+      "fineSubject": "Enforcement / Copyright-Kontrollen",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3130,
+      "endSec": 3473,
+      "durationSec": 343,
+      "topic": "Lobbyplag und Parltrack Crowdfunding",
+      "fineSubject": "Campaign / Lobbyplag",
+      "topicIndex": 5
+    }
+  ]
+}

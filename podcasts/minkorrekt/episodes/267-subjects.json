@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 267,
+  "title": "Mi267 – \"KI Enkeltrick\"",
+  "generatedAt": "2026-01-05T15:18:17.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.07580853816300129,
+      "Culture": 0.5156532988357051,
+      "Wissenschaft": 0,
+      "Health": 0.144372574385511,
+      "Technology": 0.26416558861578265,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 586,
+      "Culture": 3986,
+      "Wissenschaft": 0,
+      "Health": 1116,
+      "Technology": 2042,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 7730,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 152,
+      "endSec": 796,
+      "durationSec": 644,
+      "topic": "KI Intro",
+      "fineSubject": "AI",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 796,
+      "endSec": 2194,
+      "durationSec": 1398,
+      "topic": "Stimme",
+      "fineSubject": "Voice",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 2194,
+      "endSec": 3110,
+      "durationSec": 916,
+      "topic": "Arztgespräche",
+      "fineSubject": "Medical Conversations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3110,
+      "endSec": 3451,
+      "durationSec": 341,
+      "topic": "Kommentar zu forbidden bacon",
+      "fineSubject": "Food",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3451,
+      "endSec": 4930,
+      "durationSec": 1479,
+      "topic": "Thema 1: “Gourmet Waschbär”",
+      "fineSubject": "Animals",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4930,
+      "endSec": 5516,
+      "durationSec": 586,
+      "topic": "Snackable Science: Nobelpreistrick",
+      "fineSubject": "Nobel Prize",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5516,
+      "endSec": 6686,
+      "durationSec": 1170,
+      "topic": "Thema 2: \"Effizient nichts tun!\"",
+      "fineSubject": "Leisure",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6686,
+      "endSec": 7682,
+      "durationSec": 996,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Miscellaneous",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 7860,
+      "endSec": 8060,
+      "durationSec": 200,
+      "topic": "Audiokommentar Pascal Diabetes",
+      "fineSubject": "Diabetes",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 8060,
+      "endSec": 8060,
+      "durationSec": 0,
+      "topic": "Audiokommentar Leon Petitionswesen",
+      "fineSubject": "Petitions",
+      "topicIndex": 9
+    }
+  ]
+}

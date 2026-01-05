@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 493,
+  "title": "LNP493 Seniorenberater",
+  "generatedAt": "2026-01-05T15:17:57.641Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.10197663971248877,
+      "Technology": 0.5074123989218329,
+      "Law": 0.023809523809523808,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.28728661275831086,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.07951482479784366,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 454,
+      "Technology": 2259,
+      "Law": 106,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1279,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 354,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 5,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4452,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 187,
+      "endSec": 598,
+      "durationSec": 411,
+      "topic": "Europawahl und AfD",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 599,
+      "endSec": 642,
+      "durationSec": 43,
+      "topic": "31. August 2024",
+      "fineSubject": "Elections",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 642,
+      "endSec": 996,
+      "durationSec": 354,
+      "topic": "Feedback: Erstattung von Transaktionen",
+      "fineSubject": "Transactions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 997,
+      "endSec": 1356,
+      "durationSec": 359,
+      "topic": "Funklochamt stellt Betrieb erfolglos ein",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1357,
+      "endSec": 1987,
+      "durationSec": 630,
+      "topic": "Endlich keine Frequenzversteigerung",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 1987,
+      "endSec": 2093,
+      "durationSec": 106,
+      "topic": "Neue Bundesdatenschutzbeauftragte",
+      "fineSubject": "Data Protection",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2094,
+      "endSec": 3112,
+      "durationSec": 1018,
+      "topic": "Tornado Cash",
+      "fineSubject": "Regulation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 3113,
+      "endSec": 4392,
+      "durationSec": 1279,
+      "topic": "Volksverpetzer und Gemeinnützigkeit",
+      "fineSubject": "Non-Profit",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4392,
+      "endSec": 4428,
+      "durationSec": 36,
+      "topic": "AVM gehört jetzt fritz.box",
+      "fineSubject": "Networking",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4428,
+      "endSec": 4644,
+      "durationSec": 216,
+      "topic": "Podcast: Systemeinstellungen",
+      "fineSubject": "Settings",
+      "topicIndex": 9
+    }
+  ]
+}

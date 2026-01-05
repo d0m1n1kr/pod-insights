@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 279,
+  "title": "FS279 Und wir tragen Sonnenbrillen",
+  "generatedAt": "2026-01-05T15:17:51.119Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7533003300330033,
+      "Software": 0.020792079207920793,
+      "Hardware": 0,
+      "Finance": 0.009158415841584158,
+      "Media": 0.02334983498349835,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.026485148514851484,
+      "Events": 0.1349009900990099,
+      "Business": 0,
+      "Gaming": 0.032013201320132016,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 9130,
+      "Software": 252,
+      "Hardware": 0,
+      "Finance": 111,
+      "Media": 283,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 321,
+      "Events": 1635,
+      "Business": 0,
+      "Gaming": 388,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 12,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 12120,
+    "totalTopics": 23
+  },
+  "timeline": [
+    {
+      "subject": "Gaming",
+      "startSec": 546,
+      "endSec": 934,
+      "durationSec": 388,
+      "topic": "40 Jahre Tetris",
+      "fineSubject": "Tetris",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Events",
+      "startSec": 935,
+      "endSec": 2106,
+      "durationSec": 1171,
+      "topic": "Electromagnetic Field",
+      "fineSubject": "Electromagnetic Field",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2357,
+      "endSec": 2742,
+      "durationSec": 385,
+      "topic": "Keysmart SmartCard",
+      "fineSubject": "SmartCard",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3684,
+      "endSec": 3967,
+      "durationSec": 283,
+      "topic": "Blues Brothers",
+      "fineSubject": "Blues Brothers",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3968,
+      "endSec": 5361,
+      "durationSec": 1393,
+      "topic": "VÖBB KI Chatbot",
+      "fineSubject": "Chatbot",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5361,
+      "endSec": 5812,
+      "durationSec": 451,
+      "topic": "paperless mit ChatGPT",
+      "fineSubject": "ChatGPT",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Events",
+      "startSec": 5812,
+      "endSec": 6276,
+      "durationSec": 464,
+      "topic": "WWDC Keynote",
+      "fineSubject": "WWDC",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6277,
+      "endSec": 10064,
+      "durationSec": 3787,
+      "topic": "Apple Intelligence",
+      "fineSubject": "Apple Intelligence",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 10303,
+      "endSec": 10624,
+      "durationSec": 321,
+      "topic": "Passwords",
+      "fineSubject": "Passwörter",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10625,
+      "endSec": 10778,
+      "durationSec": 153,
+      "topic": "iPhone Mirroring",
+      "fineSubject": "iPhone",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10779,
+      "endSec": 10890,
+      "durationSec": 111,
+      "topic": "Tap to Cash",
+      "fineSubject": "Zahlungssysteme",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11000,
+      "endSec": 11121,
+      "durationSec": 121,
+      "topic": "Eye Tracking",
+      "fineSubject": "Eye Tracking",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11121,
+      "endSec": 11204,
+      "durationSec": 83,
+      "topic": "iPhone Button Press Visualisierung",
+      "fineSubject": "iPhone",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11205,
+      "endSec": 11342,
+      "durationSec": 137,
+      "topic": "Safari Summary & Highlights",
+      "fineSubject": "Safari",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11342,
+      "endSec": 11684,
+      "durationSec": 342,
+      "topic": "macOS Window Resizing",
+      "fineSubject": "macOS",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11685,
+      "endSec": 12092,
+      "durationSec": 407,
+      "topic": "Home Screen Adjustments",
+      "fineSubject": "Home Screen",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12093,
+      "endSec": 12296,
+      "durationSec": 203,
+      "topic": "Control Center",
+      "fineSubject": "Control Center",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Software",
+      "startSec": 12296,
+      "endSec": 12548,
+      "durationSec": 252,
+      "topic": "Developerkram",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12549,
+      "endSec": 14217,
+      "durationSec": 1668,
+      "topic": "Vision Pro kommt nach Deutschland",
+      "fineSubject": "Vision Pro",
+      "topicIndex": 22
+    }
+  ]
+}

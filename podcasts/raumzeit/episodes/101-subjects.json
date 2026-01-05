@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 101,
+  "title": "RZ101 Exoplaneten-Beobachtung",
+  "generatedAt": "2026-01-05T15:18:06.288Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0.5848985725018783,
+      "Wissenschaft": 0,
+      "Technologie": 0.41510142749812173,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 3114,
+      "Wissenschaft": 0,
+      "Technologie": 2210,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 2,
+      "Wissenschaft": 0,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 5324,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 945,
+      "durationSec": 931,
+      "topic": "Exoplaneten-Beobachtung",
+      "fineSubject": "Exoplaneten",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 2197,
+      "durationSec": 2183,
+      "topic": "Erforschung des Sonnensystems",
+      "fineSubject": "Sonnensystem",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 755,
+      "endSec": 2965,
+      "durationSec": 2210,
+      "topic": "Entwicklung von Weltraumteleskopen",
+      "fineSubject": "Weltraumteleskope",
+      "topicIndex": 1
+    }
+  ]
+}

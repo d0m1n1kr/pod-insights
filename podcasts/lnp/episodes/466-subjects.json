@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 466,
+  "title": "LNP466 Wodka Red Bull",
+  "generatedAt": "2026-01-05T15:17:57.637Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.03588354773188896,
+      "Technology": 0,
+      "Law": 0.642067253441661,
+      "Security": 0.040622884224779957,
+      "Social": 0,
+      "Media": 0.28142631460167006,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 159,
+      "Technology": 0,
+      "Law": 2845,
+      "Security": 180,
+      "Social": 0,
+      "Media": 1247,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4431,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 551,
+      "endSec": 710,
+      "durationSec": 159,
+      "topic": "Die Ibiza-Affäre",
+      "fineSubject": "Politics / Ibiza-Affäre",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 711,
+      "endSec": 1958,
+      "durationSec": 1247,
+      "topic": "Das Ibiza-Video",
+      "fineSubject": "Media / Ibiza-Video",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1958,
+      "endSec": 2138,
+      "durationSec": 180,
+      "topic": "Operational Security",
+      "fineSubject": "Security / Operational Security",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3344,
+      "endSec": 5685,
+      "durationSec": 2341,
+      "topic": "Die Anklage und der Knast",
+      "fineSubject": "Law / Anklage und Knast",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 5685,
+      "endSec": 5849,
+      "durationSec": 164,
+      "topic": "Nicht-Verfolgung der Anderen",
+      "fineSubject": "Law / Nicht-Verfolgung der Anderen",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 5850,
+      "endSec": 6190,
+      "durationSec": 340,
+      "topic": "Berufung",
+      "fineSubject": "Law / Berufung",
+      "topicIndex": 7
+    }
+  ]
+}

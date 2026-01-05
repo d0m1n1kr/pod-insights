@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 286,
+  "title": "FS286 Zurück zur Vision",
+  "generatedAt": "2026-01-05T15:17:51.120Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7420683513302906,
+      "Software": 0,
+      "Hardware": 0.21718802181899144,
+      "Finance": 0,
+      "Media": 0.027830346209506845,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.012913280641211177,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6666,
+      "Software": 0,
+      "Hardware": 1951,
+      "Finance": 0,
+      "Media": 250,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 116,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 0,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8983,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1020,
+      "endSec": 3167,
+      "durationSec": 2147,
+      "topic": "BlueSky",
+      "fineSubject": "BlueSky",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3168,
+      "endSec": 5119,
+      "durationSec": 1951,
+      "topic": "Mac mini und Gaming",
+      "fineSubject": "Mac mini",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6978,
+      "endSec": 7410,
+      "durationSec": 432,
+      "topic": "LLMs und Programmieren",
+      "fineSubject": "LLMs and Programming",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7410,
+      "endSec": 8411,
+      "durationSec": 1001,
+      "topic": "Die Wahrhaftigkeit von LLMs",
+      "fineSubject": "Truthfulness of LLMs",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Events",
+      "startSec": 8412,
+      "endSec": 8528,
+      "durationSec": 116,
+      "topic": "Der geheime KI Workshop in Berlin",
+      "fineSubject": "Secret AI Workshop in Berlin",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8528,
+      "endSec": 9001,
+      "durationSec": 473,
+      "topic": "Universal Control ist toll",
+      "fineSubject": "Universal Control",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9001,
+      "endSec": 9549,
+      "durationSec": 548,
+      "topic": "Vision Pro",
+      "fineSubject": "Vision Pro",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10186,
+      "endSec": 12251,
+      "durationSec": 2065,
+      "topic": "Dreidimensionale Fotos",
+      "fineSubject": "3D Photos",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 12252,
+      "endSec": 12502,
+      "durationSec": 250,
+      "topic": "Ultraschall 5.1",
+      "fineSubject": "Surround Sound 5.1",
+      "topicIndex": 11
+    }
+  ]
+}

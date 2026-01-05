@@ -1,0 +1,127 @@
+{
+  "episodeNumber": 123,
+  "title": "DU123 - Unsere extragalaktische Herkunft und der lange Weg des Kohlenstoff",
+  "generatedAt": "2026-01-05T15:18:22.109Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.5042471042471043,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.4957528957528958,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 4571,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 4494,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 7,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 1,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 9065,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "Asteroiden und Raumsonden",
+      "fineSubject": "Asteroiden",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Physik",
+      "startSec": 0,
+      "endSec": 4494,
+      "durationSec": 4494,
+      "topic": "Zeitreisen in Filmen und Quantenmechanik",
+      "fineSubject": "Quantenmechanik",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "Quasisatellit Cardea",
+      "fineSubject": "Satelliten",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 1315,
+      "durationSec": 1315,
+      "topic": "Gefahren für die ESO in Chile",
+      "fineSubject": "Sternwarten",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1275,
+      "endSec": 1370,
+      "durationSec": 95,
+      "topic": "Raumsonde GAIA und Andromeda",
+      "fineSubject": "Raumsonden",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1330,
+      "endSec": 3484,
+      "durationSec": 2154,
+      "topic": "Kohlenstoffförderband",
+      "fineSubject": "Galaxien",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 3444,
+      "endSec": 4411,
+      "durationSec": 967,
+      "topic": "Fragen aus der Hörerschaft",
+      "fineSubject": "Hörerfragen",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Planetenparade 2025",
+      "fineSubject": "Planeten",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

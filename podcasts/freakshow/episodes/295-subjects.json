@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 295,
+  "title": "FS295 Probier doch mal die Joints aus",
+  "generatedAt": "2026-01-05T15:17:51.122Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7503530076249647,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.14769839028523016,
+      "Social": 0,
+      "Culture": 0.10194860208980513,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5314,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1046,
+      "Social": 0,
+      "Culture": 722,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7082,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 2175,
+      "endSec": 2269,
+      "durationSec": 94,
+      "topic": "Laden mit USB",
+      "fineSubject": "USB",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2269,
+      "endSec": 3636,
+      "durationSec": 1367,
+      "topic": "Sensorproblematik",
+      "fineSubject": "Sensors",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6863,
+      "endSec": 7585,
+      "durationSec": 722,
+      "topic": "IKEA-Museum",
+      "fineSubject": "Museums",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7777,
+      "endSec": 9015,
+      "durationSec": 1238,
+      "topic": "Login by E-Mail",
+      "fineSubject": "Authentication",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9015,
+      "endSec": 10291,
+      "durationSec": 1276,
+      "topic": "Audio CDs brennen",
+      "fineSubject": "Media",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10808,
+      "endSec": 12147,
+      "durationSec": 1339,
+      "topic": "AI Coding Update",
+      "fineSubject": "AI",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 12148,
+      "endSec": 13194,
+      "durationSec": 1046,
+      "topic": "Audio-Esoterik",
+      "fineSubject": "Audio",
+      "topicIndex": 15
+    }
+  ]
+}

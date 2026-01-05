@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 114,
+  "title": "MM114 Über State redet man nicht, State hat man",
+  "generatedAt": "2026-01-05T15:17:51.073Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.5076690973095298,
+      "Hardware": 0.2158243231916855,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.27650657949878465,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 6057,
+      "Hardware": 2575,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 3299,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 3,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11931,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 342,
+      "endSec": 904,
+      "durationSec": 562,
+      "topic": "Studio Steuerung und Aufnahme Software",
+      "fineSubject": "Studio Steuerung und Aufnahme",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 904,
+      "endSec": 2316,
+      "durationSec": 1412,
+      "topic": "Development",
+      "fineSubject": "Allgemein",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2316,
+      "endSec": 3822,
+      "durationSec": 1506,
+      "topic": "Das neue MacBook Air",
+      "fineSubject": "MacBook Air",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3822,
+      "endSec": 4891,
+      "durationSec": 1069,
+      "topic": "Alte Apple Hardware",
+      "fineSubject": "Apple",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 5338,
+      "endSec": 9421,
+      "durationSec": 4083,
+      "topic": "iOS 7",
+      "fineSubject": "iOS",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 9421,
+      "endSec": 12720,
+      "durationSec": 3299,
+      "topic": "Crypto",
+      "fineSubject": "Crypto",
+      "topicIndex": 5
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 108,
+  "title": "LNP108 Beifang im Datenschleppnetz",
+  "generatedAt": "2026-01-05T15:17:57.589Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.25094073377234244,
+      "Technology": 0.31138287864534336,
+      "Law": 0.3400752587017874,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.09760112888052681,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1067,
+      "Technology": 1324,
+      "Law": 1446,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 415,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 4252,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 150,
+      "endSec": 1217,
+      "durationSec": 1067,
+      "topic": "BND-Mitarbeiter spioniert für die CIA",
+      "fineSubject": "Espionage",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1218,
+      "endSec": 2542,
+      "durationSec": 1324,
+      "topic": "XKeyScore targets revealed",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2542,
+      "endSec": 2957,
+      "durationSec": 415,
+      "topic": "90% der NSA-Opfer sind keine Zielpersonen",
+      "fineSubject": "Data Protection",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2957,
+      "endSec": 4403,
+      "durationSec": 1446,
+      "topic": "Recht auf Vergessen: Google fängt an, Ergebnisse zu löschen",
+      "fineSubject": "Right to be Forgotten",
+      "topicIndex": 3
+    }
+  ]
+}

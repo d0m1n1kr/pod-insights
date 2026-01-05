@@ -9,6 +9,7 @@ import SpeakingTimeFlowChart from '@/components/SpeakingTimeFlowChart.vue';
 import SpeakerBoxPlot from '@/components/SpeakerBoxPlot.vue';
 import SpeakerScatterPlot from '@/components/SpeakerScatterPlot.vue';
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
+import EpisodeRadarChart from '@/components/EpisodeRadarChart.vue';
 
 const route = useRoute();
 const router = useRouter();
@@ -101,6 +102,49 @@ const speakerStats = ref<SpeakerStats | null>(null);
 const episodeTopics = ref<EpisodeTopics | null>(null);
 const activeStat = ref<'flow' | 'boxplot' | 'scatter'>('flow');
 const statsLoading = ref(false);
+const episodeSubjectsData = ref<any | null>(null);
+const searchResultsSubjectsData = ref<Map<number, any>>(new Map());
+const loadingSearchResultsSubjects = ref<Set<number>>(new Set());
+
+// Load episode subjects data for selected episode
+const loadEpisodeSubjects = async (episodeNumber: number) => {
+  if (episodeSubjectsData.value?.episodeNumber === episodeNumber) {
+    return;
+  }
+  
+  try {
+    const url = getPodcastFileUrl(`episodes/${episodeNumber}-subjects.json`);
+    const response = await fetch(url);
+    if (response.ok) {
+      episodeSubjectsData.value = await response.json();
+    } else {
+      episodeSubjectsData.value = null;
+    }
+  } catch (e) {
+    episodeSubjectsData.value = null;
+  }
+};
+
+// Load episode subjects data for search results
+const loadSearchResultSubjects = async (episodeNumber: number, podcastId?: string) => {
+  if (searchResultsSubjectsData.value.has(episodeNumber) || loadingSearchResultsSubjects.value.has(episodeNumber)) {
+    return;
+  }
+  
+  loadingSearchResultsSubjects.value.add(episodeNumber);
+  try {
+    const url = getPodcastFileUrl(`episodes/${episodeNumber}-subjects.json`, podcastId);
+    const response = await fetch(url);
+    if (response.ok) {
+      const data = await response.json();
+      searchResultsSubjectsData.value.set(episodeNumber, data);
+    }
+  } catch (e) {
+    // Silently fail - not all episodes have subjects data
+  } finally {
+    loadingSearchResultsSubjects.value.delete(episodeNumber);
+  }
+};
 
 // Track current speaker from audio player
 const currentSpeaker = ref<string | null>(null);
@@ -272,6 +316,12 @@ const loadLatestEpisodes = async (append = false) => {
     } else {
       currentOffset.value = data.episodes?.length || 0;
     }
+    
+    // Load subjects data for all episodes in the results
+    const episodesToLoad = data.episodes || [];
+    episodesToLoad.forEach((episode: EpisodeSearchResult) => {
+      loadSearchResultSubjects(episode.episodeNumber, episode.podcastId);
+    });
   } catch (e) {
     error.value = e instanceof Error ? e.message : String(e);
     if (!append) {
@@ -315,7 +365,8 @@ const searchEpisodes = async (append = false) => {
   // Deselect episode when starting a new search
   if (!append) {
     // Clear results immediately when starting a new search
-    searchResults.value = [];
+      searchResults.value = [];
+    searchResultsSubjectsData.value.clear();
     selectedEpisode.value = null;
     speakerStats.value = null;
     episodeTopics.value = null;
@@ -378,6 +429,12 @@ const searchEpisodes = async (append = false) => {
     } else {
       currentOffset.value = data.episodes?.length || 0;
     }
+    
+    // Load subjects data for all episodes in the results
+    const episodesToLoad = data.episodes || [];
+    episodesToLoad.forEach((episode: EpisodeSearchResult) => {
+      loadSearchResultSubjects(episode.episodeNumber, episode.podcastId);
+    });
   } catch (e) {
     error.value = e instanceof Error ? e.message : String(e);
     if (!append) {
@@ -491,6 +548,9 @@ const loadEpisodeData = async (episodeNumber: number, podcastIdOverride?: string
     } else {
       episodeTopics.value = null;
     }
+
+    // Load episode subjects data
+    await loadEpisodeSubjects(episodeNumber);
   } catch (e) {
     error.value = e instanceof Error ? e.message : String(e);
   } finally {
@@ -602,6 +662,7 @@ watch(
       // Clear search query and results
       searchQuery.value = '';
       searchResults.value = [];
+      searchResultsSubjectsData.value.clear();
       currentQuery.value = '';
       currentOffset.value = 0;
       hasMore.value = false;
@@ -610,6 +671,7 @@ watch(
       selectedEpisode.value = null;
       speakerStats.value = null;
       episodeTopics.value = null;
+      episodeSubjectsData.value = null;
       transcriptData.value = null;
       currentSpeaker.value = null;
 
@@ -837,6 +899,11 @@ const getPodcastInfo = (podcastId: string) => {
               </div>
             </div>
             <div class="flex items-center gap-3 flex-wrap">
+              <EpisodeRadarChart
+                v-if="searchResultsSubjectsData.has(episode.episodeNumber)"
+                :data="searchResultsSubjectsData.get(episode.episodeNumber)"
+                class="hidden sm:block w-24 h-24 sm:w-32 sm:h-32 flex-shrink-0"
+              />
               <template v-if="episode.positionsSec && episode.positionsSec.length > 0">
                 <button
                   v-for="(positionSec, idx) in episode.positionsSec"
@@ -880,15 +947,23 @@ const getPodcastInfo = (podcastId: string) => {
     <div v-if="selectedEpisode" class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
       <div class="p-4 md:p-6 border-b border-gray-200 dark:border-gray-700">
         <div class="flex items-start gap-4 mb-4">
-          <img
-            :src="getEpisodeImageUrl(selectedEpisode.number)"
-            :alt="selectedEpisode.title"
-            @error="($event.target as HTMLImageElement).style.display = 'none'"
-            class="w-24 h-24 sm:w-32 sm:h-32 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-700"
-          />
+          <div class="flex items-start gap-3 flex-shrink-0">
+            <img
+              :src="getEpisodeImageUrl(selectedEpisode.number)"
+              :alt="selectedEpisode.title"
+              @error="($event.target as HTMLImageElement).style.display = 'none'"
+              class="w-24 h-24 sm:w-32 sm:h-32 rounded-lg object-cover flex-shrink-0 border border-gray-200 dark:border-gray-700"
+            />
+            <EpisodeRadarChart
+              v-if="episodeSubjectsData"
+              :data="episodeSubjectsData"
+              class="hidden sm:block w-32 h-32 sm:w-40 sm:h-40 mt-2"
+            />
+          </div>
           <div class="flex-1 min-w-0">
-            <div class="flex items-start justify-between gap-4">
-              <h3 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
+            <div class="flex items-center justify-between gap-4">
+              <div class="flex-1"></div>
+              <h3 class="text-xl md:text-2xl font-bold text-gray-900 dark:text-white text-center flex-1">
                 {{ selectedEpisode.title }}
               </h3>
               <button

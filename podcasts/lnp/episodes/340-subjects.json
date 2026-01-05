@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 340,
+  "title": "LNP340 Autokorso im Autokino",
+  "generatedAt": "2026-01-05T15:17:57.619Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.1790273556231003,
+      "Law": 0.6328267477203647,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.18814589665653494,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 589,
+      "Law": 2082,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 619,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3290,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 447,
+      "endSec": 1066,
+      "durationSec": 619,
+      "topic": "Corona Datenspende",
+      "fineSubject": "Health / Data Donation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1067,
+      "endSec": 1656,
+      "durationSec": 589,
+      "topic": "Apple/Google Contact Detection Service",
+      "fineSubject": "Technology / Contact Tracing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1657,
+      "endSec": 2052,
+      "durationSec": 395,
+      "topic": "1 Jahr Urheberrechtsrichtlinie",
+      "fineSubject": "Law / EU Regulations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2052,
+      "endSec": 2416,
+      "durationSec": 364,
+      "topic": "ClearView und Copyright",
+      "fineSubject": "Law / Facial Recognition",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2416,
+      "endSec": 3739,
+      "durationSec": 1323,
+      "topic": "GFF: Control Copyright",
+      "fineSubject": "Law / Control Mechanisms",
+      "topicIndex": 4
+    }
+  ]
+}

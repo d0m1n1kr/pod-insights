@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 454,
+  "title": "LNP454 Besorgter Surfer",
+  "generatedAt": "2026-01-05T15:17:57.636Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.24416638484950964,
+      "Technology": 0.44098748731822796,
+      "Law": 0.12309773419005748,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.006763611768684477,
+      "Health": 0,
+      "Feedback": 0.18498478187352047,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 722,
+      "Technology": 1304,
+      "Law": 364,
+      "Security": 0,
+      "Social": 0,
+      "Media": 20,
+      "Health": 0,
+      "Feedback": 547,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2957,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 478,
+      "endSec": 580,
+      "durationSec": 102,
+      "topic": "Feedback: Primzahl",
+      "fineSubject": "Mathematics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 580,
+      "endSec": 967,
+      "durationSec": 387,
+      "topic": "Feedback: Bayern-ID",
+      "fineSubject": "Identity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 968,
+      "endSec": 1026,
+      "durationSec": 58,
+      "topic": "Feedback: Dinosaurier",
+      "fineSubject": "Paleontology",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1026,
+      "endSec": 1748,
+      "durationSec": 722,
+      "topic": "Ein Jahr Krieg",
+      "fineSubject": "War",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3793,
+      "endSec": 5064,
+      "durationSec": 1271,
+      "topic": "ChatBING: Sydney",
+      "fineSubject": "AI",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 5533,
+      "endSec": 5897,
+      "durationSec": 364,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Internet Control",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 5897,
+      "endSec": 5917,
+      "durationSec": 20,
+      "topic": "Facebook soll Geld kosten",
+      "fineSubject": "Monetization",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5917,
+      "endSec": 5950,
+      "durationSec": 33,
+      "topic": "Cell Broadcast startet",
+      "fineSubject": "Broadcasting",
+      "topicIndex": 12
+    }
+  ]
+}

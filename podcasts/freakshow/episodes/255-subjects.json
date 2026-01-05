@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 255,
+  "title": "FS255 Bitcoin Recycling",
+  "generatedAt": "2026-01-05T15:17:51.111Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3083938660209847,
+      "Software": 0.14358353510895883,
+      "Hardware": 0.2572235673930589,
+      "Finance": 0.10702179176755448,
+      "Media": 0.13462469733656174,
+      "Social": 0.024132364810330913,
+      "Culture": 0.025020177562550445,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3821,
+      "Software": 1779,
+      "Hardware": 3187,
+      "Finance": 1326,
+      "Media": 1668,
+      "Social": 299,
+      "Culture": 310,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 3,
+      "Hardware": 4,
+      "Finance": 2,
+      "Media": 3,
+      "Social": 1,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12390,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 231,
+      "endSec": 530,
+      "durationSec": 299,
+      "topic": "Namensgebung",
+      "fineSubject": "Naming",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 593,
+      "endSec": 1258,
+      "durationSec": 665,
+      "topic": "Podcast Clients",
+      "fineSubject": "Podcast Clients",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1259,
+      "endSec": 2046,
+      "durationSec": 787,
+      "topic": "Podcasttips",
+      "fineSubject": "Podcast Tips",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2046,
+      "endSec": 2356,
+      "durationSec": 310,
+      "topic": "2020: Corona",
+      "fineSubject": "Pandemic",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2357,
+      "endSec": 2628,
+      "durationSec": 271,
+      "topic": "2020: Zoom",
+      "fineSubject": "Video Conferencing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 2629,
+      "endSec": 2757,
+      "durationSec": 128,
+      "topic": "2020: Gewinner des Jahres",
+      "fineSubject": "Winners of the Year",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4003,
+      "endSec": 5306,
+      "durationSec": 1303,
+      "topic": "2020: Tesla und Apple",
+      "fineSubject": "Automotive",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 5306,
+      "endSec": 6504,
+      "durationSec": 1198,
+      "topic": "2020: Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6505,
+      "endSec": 7193,
+      "durationSec": 688,
+      "topic": "iPhone 12 Pro: LiDAR",
+      "fineSubject": "Smartphones",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7194,
+      "endSec": 7443,
+      "durationSec": 249,
+      "topic": "iPhone 12: MagSafe und Zubehör",
+      "fineSubject": "Smartphone Accessories",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7443,
+      "endSec": 7559,
+      "durationSec": 116,
+      "topic": "M1 SoC",
+      "fineSubject": "Processors",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7560,
+      "endSec": 8864,
+      "durationSec": 1304,
+      "topic": "M1 Mac mini",
+      "fineSubject": "Computers",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 8864,
+      "endSec": 9206,
+      "durationSec": 342,
+      "topic": "Software für M1 und Big Sur",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9207,
+      "endSec": 10517,
+      "durationSec": 1310,
+      "topic": "M1 Zukunft",
+      "fineSubject": "Future of Computing",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 10518,
+      "endSec": 11713,
+      "durationSec": 1195,
+      "topic": "OpenZFS 2.0",
+      "fineSubject": "File Systems",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11713,
+      "endSec": 12583,
+      "durationSec": 870,
+      "topic": "NAS Solution",
+      "fineSubject": "Storage Solutions",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 12583,
+      "endSec": 12825,
+      "durationSec": 242,
+      "topic": "Sequel Ace",
+      "fineSubject": "Database Management",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12826,
+      "endSec": 13723,
+      "durationSec": 897,
+      "topic": "Externe Bildschirme und MonitorControl",
+      "fineSubject": "Displays",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Media",
+      "startSec": 13999,
+      "endSec": 14215,
+      "durationSec": 216,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 19
+    }
+  ]
+}

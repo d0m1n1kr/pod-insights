@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 433,
+  "title": "LNP433 Von und zu",
+  "generatedAt": "2026-01-05T15:17:57.633Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.15483182060864922,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.07794981313400962,
+      "Social": 0,
+      "Media": 0.5680726107848372,
+      "Health": 0,
+      "Feedback": 0.08791599928812956,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.11122975618437445
+    },
+    "durations": {
+      "Politics": 870,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 438,
+      "Social": 0,
+      "Media": 3192,
+      "Health": 0,
+      "Feedback": 494,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 625
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 5,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 5619,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 215,
+      "endSec": 397,
+      "durationSec": 182,
+      "topic": "Feedback: TrustPID",
+      "fineSubject": "TrustPID",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 398,
+      "endSec": 581,
+      "durationSec": 183,
+      "topic": "Feedback: Cell Broadcast",
+      "fineSubject": "Cell Broadcast",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 581,
+      "endSec": 710,
+      "durationSec": 129,
+      "topic": "Feedback: Verordnungen und Richtlinien",
+      "fineSubject": "Verordnungen und Richtlinien",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 710,
+      "endSec": 2643,
+      "durationSec": 1933,
+      "topic": "Linus bei Markus Lanz",
+      "fineSubject": "Talkshow",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2643,
+      "endSec": 2755,
+      "durationSec": 112,
+      "topic": "Linus bei Freiheit Deluxe",
+      "fineSubject": "Talkshow",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 2756,
+      "endSec": 3269,
+      "durationSec": 513,
+      "topic": "Linus bei \"Was kann ich was bewegen\"",
+      "fineSubject": "Talkshow",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 3270,
+      "endSec": 3631,
+      "durationSec": 361,
+      "topic": "Linus bei \"The Next Web\"",
+      "fineSubject": "Talkshow",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4140,
+      "endSec": 4581,
+      "durationSec": 441,
+      "topic": "Assange soll ausgeliefert werden",
+      "fineSubject": "Extradition",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4582,
+      "endSec": 5011,
+      "durationSec": 429,
+      "topic": "Deutschland positioniert sich gegen Chatkontrolle",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 5011,
+      "endSec": 5218,
+      "durationSec": 207,
+      "topic": "Italienischer Staatstrojaner",
+      "fineSubject": "Staatstrojaner",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 5218,
+      "endSec": 5449,
+      "durationSec": 231,
+      "topic": "Piratenpartei-Server beschlagnahmt",
+      "fineSubject": "Serverbeschlagnahme",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5450,
+      "endSec": 6075,
+      "durationSec": 625,
+      "topic": "Deep Klitschko",
+      "fineSubject": "Entertainment",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 6076,
+      "endSec": 6349,
+      "durationSec": 273,
+      "topic": "Ulm zockt Verschwörhaus ab",
+      "fineSubject": "Verschwörhaus",
+      "topicIndex": 14
+    }
+  ]
+}

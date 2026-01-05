@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 160,
+  "title": "LNP160 Krisennummer",
+  "generatedAt": "2026-01-05T15:17:57.595Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4971560985885823,
+      "Technology": 0.3570676216557826,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.14577627975563515,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2360,
+      "Technology": 1695,
+      "Law": 0,
+      "Security": 0,
+      "Social": 692,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4747,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 123,
+      "endSec": 923,
+      "durationSec": 800,
+      "topic": "Terreur en France",
+      "fineSubject": "Terrorism",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 924,
+      "endSec": 1728,
+      "durationSec": 804,
+      "topic": "Anonymous",
+      "fineSubject": "Hacking",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1728,
+      "endSec": 2472,
+      "durationSec": 744,
+      "topic": "Abgeordnete erhalten Einblick in BND-Selektoren",
+      "fineSubject": "Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2473,
+      "endSec": 3364,
+      "durationSec": 891,
+      "topic": "Universität greift Tor für FBI an",
+      "fineSubject": "Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3364,
+      "endSec": 4056,
+      "durationSec": 692,
+      "topic": "Facebook-Datenschutz in Belgien",
+      "fineSubject": "Data Protection",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4057,
+      "endSec": 4873,
+      "durationSec": 816,
+      "topic": "Referendum gegen Schweizer Nachrichtendienstegesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 5
+    }
+  ]
+}

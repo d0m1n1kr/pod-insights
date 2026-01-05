@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 78,
+  "title": "UKW078 Corona Weekly: Gefühlte Fakten",
+  "generatedAt": "2026-01-05T15:18:03.019Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7352,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 18,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7352,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 158,
+      "endSec": 764,
+      "durationSec": 606,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 764,
+      "endSec": 1242,
+      "durationSec": 478,
+      "topic": "Verbreitung von Delta",
+      "fineSubject": "COVID-19 Variants",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1242,
+      "endSec": 1393,
+      "durationSec": 151,
+      "topic": "Prognosen und Modellrechnungen",
+      "fineSubject": "COVID-19 Predictions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1394,
+      "endSec": 1684,
+      "durationSec": 290,
+      "topic": "Inzidenzen von Stadtteilen in Großstädten",
+      "fineSubject": "COVID-19 Incidence",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1685,
+      "endSec": 2287,
+      "durationSec": 602,
+      "topic": "Impfkampagne in Deutschland",
+      "fineSubject": "Vaccination Campaign",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2287,
+      "endSec": 2792,
+      "durationSec": 505,
+      "topic": "STIKO zur Impfung von Kindern",
+      "fineSubject": "Vaccination Guidelines",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2793,
+      "endSec": 3015,
+      "durationSec": 222,
+      "topic": "Lieferprobleme Johnson & Johnson",
+      "fineSubject": "Vaccine Supply Issues",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3015,
+      "endSec": 3111,
+      "durationSec": 96,
+      "topic": "Lieferprognosen Biontech",
+      "fineSubject": "Vaccine Supply Forecasts",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3111,
+      "endSec": 3153,
+      "durationSec": 42,
+      "topic": "Lieferprobleme mit Moderna",
+      "fineSubject": "Vaccine Supply Issues",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3154,
+      "endSec": 3324,
+      "durationSec": 170,
+      "topic": "Strategische Probleme mit AstraZeneca",
+      "fineSubject": "Vaccine Strategic Issues",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 3324,
+      "endSec": 3893,
+      "durationSec": 569,
+      "topic": "Das CureVac-Drama",
+      "fineSubject": "Vaccine Development",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 3893,
+      "endSec": 4646,
+      "durationSec": 753,
+      "topic": "Novavax-Impfstoff ante portas",
+      "fineSubject": "Vaccine Development",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 4646,
+      "endSec": 4894,
+      "durationSec": 248,
+      "topic": "Moderna macht Impfstoffe gegen HIV, Grippe und andere Viren",
+      "fineSubject": "Vaccine Research",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 4895,
+      "endSec": 5125,
+      "durationSec": 230,
+      "topic": "Das Team ist geimpft",
+      "fineSubject": "Vaccination Status",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 5126,
+      "endSec": 5674,
+      "durationSec": 548,
+      "topic": "Digitaler Impfnachweis",
+      "fineSubject": "Digital Health",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 5675,
+      "endSec": 6136,
+      "durationSec": 461,
+      "topic": "1 Jahr Corona Warn App",
+      "fineSubject": "Digital Health",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Health",
+      "startSec": 6137,
+      "endSec": 6564,
+      "durationSec": 427,
+      "topic": "Ursprung des Virus",
+      "fineSubject": "Virus Origin",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Health",
+      "startSec": 6564,
+      "endSec": 7518,
+      "durationSec": 954,
+      "topic": "Fazit",
+      "fineSubject": "COVID-19 Summary",
+      "topicIndex": 17
+    }
+  ]
+}

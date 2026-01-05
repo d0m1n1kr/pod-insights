@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 13,
+  "title": "UKW013 Corona: Intensivmedizin",
+  "generatedAt": "2026-01-05T15:18:03.000Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 4977,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 8,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 4977,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 254,
+      "endSec": 581,
+      "durationSec": 327,
+      "topic": "Intensivstationen",
+      "fineSubject": "Intensive Care Units",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 582,
+      "endSec": 1154,
+      "durationSec": 572,
+      "topic": "Ausstattung",
+      "fineSubject": "Medical Equipment",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1154,
+      "endSec": 1858,
+      "durationSec": 704,
+      "topic": "Behandlung von COVID-19",
+      "fineSubject": "COVID-19 Treatment",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1858,
+      "endSec": 3032,
+      "durationSec": 1174,
+      "topic": "Schutzausrüstungen",
+      "fineSubject": "Protective Equipment",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3033,
+      "endSec": 3742,
+      "durationSec": 709,
+      "topic": "Vorbereitung der Krankenhäuser",
+      "fineSubject": "Hospital Preparedness",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3742,
+      "endSec": 4064,
+      "durationSec": 322,
+      "topic": "Temporäre Krankenhäuser",
+      "fineSubject": "Temporary Hospitals",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4064,
+      "endSec": 4523,
+      "durationSec": 459,
+      "topic": "Internationale Situation",
+      "fineSubject": "International Situation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4524,
+      "endSec": 5234,
+      "durationSec": 710,
+      "topic": "Zukünftiger Umgang mit dem Virus",
+      "fineSubject": "Future Management",
+      "topicIndex": 7
+    }
+  ]
+}

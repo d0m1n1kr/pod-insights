@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 427,
+  "title": "LNP427 Hackback-Rakete",
+  "generatedAt": "2026-01-05T15:17:57.632Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.126693605894937,
+      "Technology": 0.06845733301640124,
+      "Law": 0.10197290230568101,
+      "Security": 0.3287378179225101,
+      "Social": 0.126693605894937,
+      "Media": 0.038031851675778466,
+      "Health": 0.18255288804373662,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.02685999524601854
+    },
+    "durations": {
+      "Politics": 533,
+      "Technology": 288,
+      "Law": 429,
+      "Security": 1383,
+      "Social": 533,
+      "Media": 160,
+      "Health": 768,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 113
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 2,
+      "Social": 1,
+      "Media": 1,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4207,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 653,
+      "endSec": 763,
+      "durationSec": 110,
+      "topic": "HTTP Status Code 426",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 763,
+      "endSec": 1296,
+      "durationSec": 533,
+      "topic": "Ukrainische Familie",
+      "fineSubject": "Ukrainian Family",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1297,
+      "endSec": 1457,
+      "durationSec": 160,
+      "topic": "Feedback: Wunderheiler im Fernsehen",
+      "fineSubject": "Health Remedies",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1458,
+      "endSec": 1571,
+      "durationSec": 113,
+      "topic": "Feedback: Einhornstandarte",
+      "fineSubject": "Standards",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 1922,
+      "endSec": 2691,
+      "durationSec": 769,
+      "topic": "Cyberwar",
+      "fineSubject": "Cyberwarfare",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2692,
+      "endSec": 3306,
+      "durationSec": 614,
+      "topic": "Hackbacks",
+      "fineSubject": "Hackbacks",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3307,
+      "endSec": 3485,
+      "durationSec": 178,
+      "topic": "Digitale Blockchain-Zeugnisse doch nicht so einfach",
+      "fineSubject": "Digital Certificates",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3486,
+      "endSec": 3639,
+      "durationSec": 153,
+      "topic": "DSA/DMA: DMA-Text steht",
+      "fineSubject": "DMA",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3639,
+      "endSec": 4200,
+      "durationSec": 561,
+      "topic": "Corona-Warn-App Hotline belegt",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4200,
+      "endSec": 4407,
+      "durationSec": 207,
+      "topic": "Luca stellt Contact Tracing ein",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4408,
+      "endSec": 4941,
+      "durationSec": 533,
+      "topic": "eID und Online-Wahl",
+      "fineSubject": "eID and Online Voting",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Law",
+      "startSec": 4942,
+      "endSec": 5218,
+      "durationSec": 276,
+      "topic": "Künast-Urteil",
+      "fineSubject": "Künast Verdict",
+      "topicIndex": 12
+    }
+  ]
+}

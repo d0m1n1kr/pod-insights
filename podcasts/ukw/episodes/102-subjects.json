@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 102,
+  "title": "UKW102 Ukraine: Russki Go Home",
+  "generatedAt": "2026-01-05T15:18:03.026Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 1,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 6044,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 8,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6044,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 134,
+      "endSec": 327,
+      "durationSec": 193,
+      "topic": "Die Cherson-Offensive",
+      "fineSubject": "Military Operations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 327,
+      "endSec": 1882,
+      "durationSec": 1555,
+      "topic": "Die Charkiv-Offensive",
+      "fineSubject": "Military Operations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1883,
+      "endSec": 2637,
+      "durationSec": 754,
+      "topic": "Weitere Ereignisse und Auswirkungen",
+      "fineSubject": "Impact Analysis",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2638,
+      "endSec": 3483,
+      "durationSec": 845,
+      "topic": "Zufall oder Plan?",
+      "fineSubject": "Strategic Analysis",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3483,
+      "endSec": 3547,
+      "durationSec": 64,
+      "topic": "Situation in Luhansk und Donetsk",
+      "fineSubject": "Regional Conflict",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3548,
+      "endSec": 3798,
+      "durationSec": 250,
+      "topic": "Gefangennahme eines General",
+      "fineSubject": "Military Events",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3798,
+      "endSec": 5361,
+      "durationSec": 1563,
+      "topic": "Was kann Moskau jetzt tun?",
+      "fineSubject": "Strategic Options",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5362,
+      "endSec": 6182,
+      "durationSec": 820,
+      "topic": "Reaktion des Westens",
+      "fineSubject": "International Relations",
+      "topicIndex": 7
+    }
+  ]
+}

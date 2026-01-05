@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 295,
+  "title": "Mi295 – \"Gipfel der überzogenen Erwartungen\"",
+  "generatedAt": "2026-01-05T15:18:17.384Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.23170570332142384,
+      "Culture": 0.1531030832340876,
+      "Wissenschaft": 0,
+      "Health": 0.33386264390631204,
+      "Technology": 0.1773190419478629,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.10400952759031362,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1751,
+      "Culture": 1157,
+      "Wissenschaft": 0,
+      "Health": 2523,
+      "Technology": 1340,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 786,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 2,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 7557,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 112,
+      "endSec": 1498,
+      "durationSec": 1386,
+      "topic": "Ende Reini Reha",
+      "fineSubject": "Rehabilitation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Education",
+      "startSec": 1498,
+      "endSec": 1899,
+      "durationSec": 401,
+      "topic": "Klimaringvorlesung",
+      "fineSubject": "Lectures",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1899,
+      "endSec": 2222,
+      "durationSec": 323,
+      "topic": "Pint of Science 2024",
+      "fineSubject": "Science Festivals",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2222,
+      "endSec": 3359,
+      "durationSec": 1137,
+      "topic": "Garmin Daily Workouts",
+      "fineSubject": "Workout Programs",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3359,
+      "endSec": 5110,
+      "durationSec": 1751,
+      "topic": "Thema 1: “Blättchengold”",
+      "fineSubject": "Materials",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Education",
+      "startSec": 5110,
+      "endSec": 5495,
+      "durationSec": 385,
+      "topic": "Snackable Science",
+      "fineSubject": "Science Communication",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5495,
+      "endSec": 6835,
+      "durationSec": 1340,
+      "topic": "Thema 2: \"Break Stuff\"",
+      "fineSubject": "Innovation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6835,
+      "endSec": 7303,
+      "durationSec": 468,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7766,
+      "endSec": 8132,
+      "durationSec": 366,
+      "topic": "Minkorrekt Radtour",
+      "fineSubject": "Cycling",
+      "topicIndex": 9
+    }
+  ]
+}

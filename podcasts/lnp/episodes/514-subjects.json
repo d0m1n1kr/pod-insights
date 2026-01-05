@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 514,
+  "title": "LNP514 Alles gar nicht so rosig wie einem das immer so vorkommt",
+  "generatedAt": "2026-01-05T15:17:57.643Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5417066155321189,
+      "Technology": 0.21131351869606904,
+      "Law": 0,
+      "Security": 0.24697986577181208,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2825,
+      "Technology": 1102,
+      "Law": 0,
+      "Security": 1288,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5215,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 154,
+      "endSec": 452,
+      "durationSec": 298,
+      "topic": "Golf von Mexico",
+      "fineSubject": "Gulf of Mexico",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 453,
+      "endSec": 629,
+      "durationSec": 176,
+      "topic": "Feedback: BSW und Zustrombegrenzungsgesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 629,
+      "endSec": 1064,
+      "durationSec": 435,
+      "topic": "Feedback: Wahl-O-Mat",
+      "fineSubject": "Elections",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1065,
+      "endSec": 2006,
+      "durationSec": 941,
+      "topic": "Feedback: Politische Arbeit im Bundestag",
+      "fineSubject": "Parliamentary Work",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2006,
+      "endSec": 2549,
+      "durationSec": 543,
+      "topic": "Feedback: China und KI",
+      "fineSubject": "AI and China",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2549,
+      "endSec": 3524,
+      "durationSec": 975,
+      "topic": "Kanzlerduell",
+      "fineSubject": "Debates",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3524,
+      "endSec": 4812,
+      "durationSec": 1288,
+      "topic": "Münchner Sicherheitskonferenz",
+      "fineSubject": "Conferences",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4813,
+      "endSec": 5372,
+      "durationSec": 559,
+      "topic": "Aktionsgipfel zur Künstlichen Intelligenz",
+      "fineSubject": "AI Summit",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 62,
+  "title": "UKW062 Corona Weekly: Mal wieder richtig Welle machen",
+  "generatedAt": "2026-01-05T15:18:03.014Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7095,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 13,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7095,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 224,
+      "endSec": 1242,
+      "durationSec": 1018,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1242,
+      "endSec": 1520,
+      "durationSec": 278,
+      "topic": "Internationaler Ausblick",
+      "fineSubject": "COVID-19",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1521,
+      "endSec": 1779,
+      "durationSec": 258,
+      "topic": "Maßnahmen",
+      "fineSubject": "COVID-19",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1779,
+      "endSec": 2065,
+      "durationSec": 286,
+      "topic": "Impfungen in Deutschland",
+      "fineSubject": "Vaccination",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2065,
+      "endSec": 3171,
+      "durationSec": 1106,
+      "topic": "Änderung des Impfregimes",
+      "fineSubject": "Vaccination",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3172,
+      "endSec": 4120,
+      "durationSec": 948,
+      "topic": "Corona und Veranstaltungen",
+      "fineSubject": "Events",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4121,
+      "endSec": 4471,
+      "durationSec": 350,
+      "topic": "Digitaler Impfpass",
+      "fineSubject": "Digital Health",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4471,
+      "endSec": 5127,
+      "durationSec": 656,
+      "topic": "Wirksamkeit von Impfstoffen",
+      "fineSubject": "Vaccination",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5128,
+      "endSec": 6080,
+      "durationSec": 952,
+      "topic": "Funktionsweise von Impfstoffen",
+      "fineSubject": "Vaccination",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 6080,
+      "endSec": 6299,
+      "durationSec": 219,
+      "topic": "Updates für die Corona-Warn-App",
+      "fineSubject": "Digital Health",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 6299,
+      "endSec": 6789,
+      "durationSec": 490,
+      "topic": "Nützlichkeit von Covid-19 Warn-Apps",
+      "fineSubject": "Digital Health",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 6789,
+      "endSec": 6870,
+      "durationSec": 81,
+      "topic": "SafeVac App vom Paul-Ehrlich-Institut",
+      "fineSubject": "Digital Health",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 6871,
+      "endSec": 7324,
+      "durationSec": 453,
+      "topic": "Ausblick",
+      "fineSubject": "COVID-19",
+      "topicIndex": 12
+    }
+  ]
+}

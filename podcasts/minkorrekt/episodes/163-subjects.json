@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 163,
+  "title": "Minkorrekt Folge 163 - \"Teneriffa delüx\"",
+  "generatedAt": "2026-01-05T15:18:17.368Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.25,
+      "Wissenschaft": 0,
+      "Health": 0.25,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.5,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "maskiertes Blut",
+      "fineSubject": "Medizin",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Krönung",
+      "fineSubject": "Ereignisse",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Corona-Verschwörungen",
+      "fineSubject": "Verschwörungstheorien",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Experiment der Woche: Klopapierrennen",
+      "fineSubject": "Spiele",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

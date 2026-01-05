@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 201,
+  "title": "LNP201 Das Trumpeltier regiert die Welt",
+  "generatedAt": "2026-01-05T15:17:57.600Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3623654186083882,
+      "Technology": 0,
+      "Law": 0.258556966093524,
+      "Security": 0.240880604210188,
+      "Social": 0,
+      "Media": 0.04708340028924956,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.01124859392575928,
+      "Privacy": 0.0798650168728909,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2255,
+      "Technology": 0,
+      "Law": 1609,
+      "Security": 1499,
+      "Social": 0,
+      "Media": 293,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 70,
+      "Privacy": 497,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 2,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 6223,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1792,
+      "endSec": 3609,
+      "durationSec": 1817,
+      "topic": "Trump",
+      "fineSubject": "Trump",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 3610,
+      "endSec": 4007,
+      "durationSec": 397,
+      "topic": "Cyber-Sicherheitsstrategie",
+      "fineSubject": "Cybersecurity Strategy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 4008,
+      "endSec": 5110,
+      "durationSec": 1102,
+      "topic": "Lagebericht IT-Sicherheit",
+      "fineSubject": "IT Security",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 5110,
+      "endSec": 6178,
+      "durationSec": 1068,
+      "topic": "Internetüberwachung: Verfassungsbeschwerde gegen BND-Datenstaubsauger",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 6178,
+      "endSec": 6719,
+      "durationSec": 541,
+      "topic": "Bundesverfassungsgericht: NSA-Selektoren bleiben geheim",
+      "fineSubject": "NSA",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 6719,
+      "endSec": 6988,
+      "durationSec": 269,
+      "topic": "Assanchez hat Damenbesuch",
+      "fineSubject": "Public Figures",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 6989,
+      "endSec": 7414,
+      "durationSec": 425,
+      "topic": "NDR-Recherche: Daten zu Surfverhalten von Millionen Deutschen als \"kostenlose Probe\"",
+      "fineSubject": "Data Collection",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 7415,
+      "endSec": 7487,
+      "durationSec": 72,
+      "topic": "WhatsApp unterbricht Datenweitergabe an Facebook",
+      "fineSubject": "Data Sharing",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7704,
+      "endSec": 7875,
+      "durationSec": 171,
+      "topic": "Oettinger wechselt ins EU-Haushaltsministerium",
+      "fineSubject": "EU Politics",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7876,
+      "endSec": 8143,
+      "durationSec": 267,
+      "topic": "Steinmeier wird Präsident",
+      "fineSubject": "Presidency",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 8143,
+      "endSec": 8167,
+      "durationSec": 24,
+      "topic": "Linus bei SWR1 Leute",
+      "fineSubject": "Interviews",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Business",
+      "startSec": 8168,
+      "endSec": 8238,
+      "durationSec": 70,
+      "topic": "Das Weihnachtsgeld geht in die Netzpolitik",
+      "fineSubject": "Politics and Finance",
+      "topicIndex": 13
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 195,
+  "title": "LNP195 WLAN-Fahrtenbuch",
+  "generatedAt": "2026-01-05T15:17:57.599Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6186423084907618,
+      "Technology": 0,
+      "Law": 0.3124351255968445,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.06892256591239361,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2980,
+      "Technology": 0,
+      "Law": 1505,
+      "Security": 0,
+      "Social": 0,
+      "Media": 332,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4817,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 114,
+      "endSec": 1053,
+      "durationSec": 939,
+      "topic": "WLAN-Haftung",
+      "fineSubject": "WLAN Liability",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1053,
+      "endSec": 1705,
+      "durationSec": 652,
+      "topic": "Linkfreiheit",
+      "fineSubject": "Link Freedom",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1706,
+      "endSec": 2272,
+      "durationSec": 566,
+      "topic": "DE-CIX verklagt BND",
+      "fineSubject": "DE-CIX vs BND",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2272,
+      "endSec": 2899,
+      "durationSec": 627,
+      "topic": "Reformvorschläge zum Europäischen digitalen Binnenmarkt",
+      "fineSubject": "European Digital Market Reform",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2899,
+      "endSec": 3231,
+      "durationSec": 332,
+      "topic": "Netzpolitik.org und Maas",
+      "fineSubject": "Netzpolitik.org and Maas",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3231,
+      "endSec": 3447,
+      "durationSec": 216,
+      "topic": "Chelsea Manning Hungerstreik",
+      "fineSubject": "Chelsea Manning Hunger Strike",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3447,
+      "endSec": 3977,
+      "durationSec": 530,
+      "topic": "Doch kein EU-Roaming",
+      "fineSubject": "EU Roaming",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3978,
+      "endSec": 4306,
+      "durationSec": 328,
+      "topic": "Zehn Jahre Piratenpartei",
+      "fineSubject": "Piratenpartei",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4307,
+      "endSec": 4934,
+      "durationSec": 627,
+      "topic": "Zwei Jahre Digitale Agenda",
+      "fineSubject": "Digital Agenda Progress",
+      "topicIndex": 8
+    }
+  ]
+}

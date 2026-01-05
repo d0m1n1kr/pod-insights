@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 271,
+  "title": "FS271 Ich glaube das wird ein bisschen mehr Aufwand im Schnitt",
+  "generatedAt": "2026-01-05T15:17:51.115Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4829566644290296,
+      "Software": 0.16319832923099872,
+      "Hardware": 0.30767509509957486,
+      "Finance": 0,
+      "Media": 0.04616991124039681,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6475,
+      "Software": 2188,
+      "Hardware": 4125,
+      "Finance": 0,
+      "Media": 619,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 1,
+      "Hardware": 4,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13407,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 404,
+      "endSec": 714,
+      "durationSec": 310,
+      "topic": "CRE028 Recut",
+      "fineSubject": "Audio / Recut",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 714,
+      "endSec": 1950,
+      "durationSec": 1236,
+      "topic": "Rodecaster Pro II",
+      "fineSubject": "Mixer / Rodecaster Pro II",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1950,
+      "endSec": 3023,
+      "durationSec": 1073,
+      "topic": "Apple Keynote und Tastaturen",
+      "fineSubject": "Keyboards / Apple Keynote",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3024,
+      "endSec": 4327,
+      "durationSec": 1303,
+      "topic": "Macintosh Kaufberatung",
+      "fineSubject": "Macintosh / Kaufberatung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4327,
+      "endSec": 4840,
+      "durationSec": 513,
+      "topic": "Monitore",
+      "fineSubject": "Monitors",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 4840,
+      "endSec": 5149,
+      "durationSec": 309,
+      "topic": "Shot on iPhone",
+      "fineSubject": "Mobile / Shot on iPhone",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 6037,
+      "endSec": 8225,
+      "durationSec": 2188,
+      "topic": "macOS Launcher und Automatisierung",
+      "fineSubject": "macOS / Launcher",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8226,
+      "endSec": 10363,
+      "durationSec": 2137,
+      "topic": "Neues von OpenAI",
+      "fineSubject": "Updates / OpenAI",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10363,
+      "endSec": 13148,
+      "durationSec": 2785,
+      "topic": "Prompt Battles",
+      "fineSubject": "Competitions / Prompt Battles",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13149,
+      "endSec": 14702,
+      "durationSec": 1553,
+      "topic": "Progress in AI",
+      "fineSubject": "Progress / AI Development",
+      "topicIndex": 10
+    }
+  ]
+}

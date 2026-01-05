@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 226,
+  "title": "FS226 Die kochen auch nur mit Milch",
+  "generatedAt": "2026-01-05T15:17:51.100Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0.8541293907147566,
+      "Finance": 0.09096901779828609,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.05490159148695734,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 9070,
+      "Finance": 966,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 583,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 7,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 2,
+      "Event": 0
+    },
+    "totalDurationSec": 10619,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 2784,
+      "endSec": 4026,
+      "durationSec": 1242,
+      "topic": "MacBook Air",
+      "fineSubject": "MacBook Air",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4027,
+      "endSec": 5148,
+      "durationSec": 1121,
+      "topic": "Mac mini",
+      "fineSubject": "Mac mini",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5148,
+      "endSec": 6166,
+      "durationSec": 1018,
+      "topic": "Pimp My Mac: SSD",
+      "fineSubject": "SSD Upgrade",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6166,
+      "endSec": 7354,
+      "durationSec": 1188,
+      "topic": "Pimp My Mac: Firmware Mac Pro",
+      "fineSubject": "Firmware Mac Pro",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7355,
+      "endSec": 9947,
+      "durationSec": 2592,
+      "topic": "iPad Pro",
+      "fineSubject": "iPad Pro",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9948,
+      "endSec": 10423,
+      "durationSec": 475,
+      "topic": "iPhones vertragen kein Helium",
+      "fineSubject": "iPhones",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 10423,
+      "endSec": 10782,
+      "durationSec": 359,
+      "topic": "The Return of the Obra Dinn",
+      "fineSubject": "The Return of the Obra Dinn",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 10783,
+      "endSec": 11007,
+      "durationSec": 224,
+      "topic": "Spiele spielen",
+      "fineSubject": "Playing Games",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11007,
+      "endSec": 12441,
+      "durationSec": 1434,
+      "topic": "Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12441,
+      "endSec": 13407,
+      "durationSec": 966,
+      "topic": "Apple Pay",
+      "fineSubject": "Apple Pay",
+      "topicIndex": 13
+    }
+  ]
+}

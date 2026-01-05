@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 409,
+  "title": "LNP409 Komplexer dargestellt",
+  "generatedAt": "2026-01-05T15:17:57.629Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.30873575691806837,
+      "Technology": 0.2631578947368421,
+      "Law": 0,
+      "Security": 0.11285946825827456,
+      "Social": 0.23385784047748237,
+      "Media": 0.08138903960933261,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1707,
+      "Technology": 1455,
+      "Law": 0,
+      "Security": 624,
+      "Social": 1293,
+      "Media": 450,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 2,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5529,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 118,
+      "endSec": 190,
+      "durationSec": 72,
+      "topic": "HTTP 409",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 190,
+      "endSec": 278,
+      "durationSec": 88,
+      "topic": "Feedback: Fahrzeug digital ummelden",
+      "fineSubject": "Vehicle Registration",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 278,
+      "endSec": 711,
+      "durationSec": 433,
+      "topic": "Feedback: Digitale Signaturen",
+      "fineSubject": "Authentication",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 712,
+      "endSec": 1103,
+      "durationSec": 391,
+      "topic": "Feedback: Digitale Wahlen",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1103,
+      "endSec": 1782,
+      "durationSec": 679,
+      "topic": "CCC Regierungsprogramm",
+      "fineSubject": "CCC Initiatives",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 1782,
+      "endSec": 3075,
+      "durationSec": 1293,
+      "topic": "Facebook down",
+      "fineSubject": "Service Outages",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3076,
+      "endSec": 3625,
+      "durationSec": 549,
+      "topic": "Facebook zersetzt die Demokratie",
+      "fineSubject": "Democracy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 3625,
+      "endSec": 3816,
+      "durationSec": 191,
+      "topic": "BND nutzt Pegasus",
+      "fineSubject": "Pegasus",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3817,
+      "endSec": 5200,
+      "durationSec": 1383,
+      "topic": "Modern Solution",
+      "fineSubject": "Innovative Approaches",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 5201,
+      "endSec": 5651,
+      "durationSec": 450,
+      "topic": "The Billion Dollar Code",
+      "fineSubject": "Intellectual Property",
+      "topicIndex": 9
+    }
+  ]
+}

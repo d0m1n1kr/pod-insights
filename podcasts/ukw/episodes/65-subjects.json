@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 65,
+  "title": "UKW065 Corona Weekly: Wären eigentlich gefordert zu handeln, haben uns aktuell aber anders entschieden",
+  "generatedAt": "2026-01-05T15:18:03.015Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7101,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 15,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7101,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 424,
+      "endSec": 1311,
+      "durationSec": 887,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1311,
+      "endSec": 2127,
+      "durationSec": 816,
+      "topic": "Voraussagen",
+      "fineSubject": "COVID-19 Predictions",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 2128,
+      "endSec": 2690,
+      "durationSec": 562,
+      "topic": "Auswertung nach Alter und Geschlecht",
+      "fineSubject": "COVID-19 Demographics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2690,
+      "endSec": 3684,
+      "durationSec": 994,
+      "topic": "Das AstraZeneca-Desaster",
+      "fineSubject": "Vaccine Issues",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3684,
+      "endSec": 3890,
+      "durationSec": 206,
+      "topic": "Impfungen in Deutschland",
+      "fineSubject": "Vaccination in Germany",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3891,
+      "endSec": 4343,
+      "durationSec": 452,
+      "topic": "Impfdosenverteilungsgerechtigkeit",
+      "fineSubject": "Vaccine Distribution Equity",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4343,
+      "endSec": 4667,
+      "durationSec": 324,
+      "topic": "Brasilien und P.1",
+      "fineSubject": "COVID-19 Variants",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4667,
+      "endSec": 5657,
+      "durationSec": 990,
+      "topic": "Zukunft der Mutationen",
+      "fineSubject": "Future of Variants",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5658,
+      "endSec": 5896,
+      "durationSec": 238,
+      "topic": "Neue „Variant under investigation“ aus Frankreich",
+      "fineSubject": "New Variants",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5896,
+      "endSec": 5985,
+      "durationSec": 89,
+      "topic": "Antikörper von Impfung von Mutter an Neugeborenes",
+      "fineSubject": "Immunity Transfer",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 5986,
+      "endSec": 6569,
+      "durationSec": 583,
+      "topic": "Wie Viren unseren Körper angreifen",
+      "fineSubject": "Viral Infection Mechanisms",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 6569,
+      "endSec": 6909,
+      "durationSec": 340,
+      "topic": "Neues von BioNTech",
+      "fineSubject": "BioNTech Updates",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 6909,
+      "endSec": 7059,
+      "durationSec": 150,
+      "topic": "Neues von Moderna",
+      "fineSubject": "Moderna Updates",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 7060,
+      "endSec": 7319,
+      "durationSec": 259,
+      "topic": "Autopsie-Studie der Charité",
+      "fineSubject": "Autopsy Studies",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 7319,
+      "endSec": 7530,
+      "durationSec": 211,
+      "topic": "Fazit",
+      "fineSubject": "Conclusion",
+      "topicIndex": 14
+    }
+  ]
+}

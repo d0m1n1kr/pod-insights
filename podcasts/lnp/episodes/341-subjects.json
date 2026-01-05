@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 341,
+  "title": "LNP341 Corona Hotel",
+  "generatedAt": "2026-01-05T15:17:57.619Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.7698302254383523,
+      "Feedback": 0.23016977456164764,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 2766,
+      "Feedback": 827,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 3,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3593,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 66,
+      "endSec": 141,
+      "durationSec": 75,
+      "topic": "Feedback: Control-C",
+      "fineSubject": "Control-C",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 142,
+      "endSec": 510,
+      "durationSec": 368,
+      "topic": "Feedback: Bluetooth-Perfektion",
+      "fineSubject": "Bluetooth",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 510,
+      "endSec": 894,
+      "durationSec": 384,
+      "topic": "Feedback: Corona Datenspende",
+      "fineSubject": "Corona",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1045,
+      "endSec": 1673,
+      "durationSec": 628,
+      "topic": "Covid-Verschwörungstheorien",
+      "fineSubject": "Verschwörungstheorien",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1674,
+      "endSec": 3149,
+      "durationSec": 1475,
+      "topic": "Contact Tracing Debatte",
+      "fineSubject": "Debatte",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3149,
+      "endSec": 3812,
+      "durationSec": 663,
+      "topic": "Seuchenpass und Corona-Privileg",
+      "fineSubject": "Corona-Privileg",
+      "topicIndex": 6
+    }
+  ]
+}

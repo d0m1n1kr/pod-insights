@@ -1,0 +1,110 @@
+{
+  "episodeNumber": 104,
+  "title": "RZ104 Cherenkov Telescope Array",
+  "generatedAt": "2026-01-05T15:18:06.288Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0.6079385403329065,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0.3920614596670935,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 2374,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 1531,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 3,
+      "Wissenschaft": 0,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 2,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 3905,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 905,
+      "durationSec": 891,
+      "topic": "Gammastrahlen-Teleskope",
+      "fineSubject": "Gammastrahlen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Physik",
+      "startSec": 14,
+      "endSec": 1545,
+      "durationSec": 1531,
+      "topic": "Kosmische Teilchenstrahlung",
+      "fineSubject": "Teilchenstrahlung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 404,
+      "durationSec": 390,
+      "topic": "Cherenkov Telescope Array",
+      "fineSubject": "Teleskope",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 681,
+      "endSec": 1774,
+      "durationSec": 1093,
+      "topic": "Multimessenger-Astronomie",
+      "fineSubject": "Multimessenger",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Tscherenkow-Blitze",
+      "fineSubject": "Strahlung",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beobachtungstechnologien",
+      "fineSubject": "Beobachtung",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

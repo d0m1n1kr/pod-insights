@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 105,
+  "title": "LNP105 Seniorenheim und Orgelbau",
+  "generatedAt": "2026-01-05T15:17:57.589Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5010046885465506,
+      "Technology": 0.10783657066309445,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.22438044206296048,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.1667782987273945,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1496,
+      "Technology": 322,
+      "Law": 0,
+      "Security": 0,
+      "Social": 670,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 498,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2986,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 125,
+      "endSec": 1356,
+      "durationSec": 1231,
+      "topic": "NSA in Deutschland",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1357,
+      "endSec": 1622,
+      "durationSec": 265,
+      "topic": "BND expandiert",
+      "fineSubject": "Intelligence",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1623,
+      "endSec": 2293,
+      "durationSec": 670,
+      "topic": "Facebook wandert vor den EuGH",
+      "fineSubject": "Social Network",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2294,
+      "endSec": 2792,
+      "durationSec": 498,
+      "topic": "VG Media verklagt",
+      "fineSubject": "Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2793,
+      "endSec": 3115,
+      "durationSec": 322,
+      "topic": "Netzneutralität in Österreich und der Schweiz",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 4
+    }
+  ]
+}

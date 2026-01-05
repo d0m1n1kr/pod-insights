@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 138,
+  "title": "LNP138 Stand der Technik",
+  "generatedAt": "2026-01-05T15:17:57.592Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.5279530128344573,
+      "Law": 0.295627583206439,
+      "Security": 0.09549706330215357,
+      "Social": 0,
+      "Media": 0.08092234065695018,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2427,
+      "Law": 1359,
+      "Security": 439,
+      "Social": 0,
+      "Media": 372,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4597,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 105,
+      "endSec": 477,
+      "durationSec": 372,
+      "topic": "TV5MONDE Nachtrag",
+      "fineSubject": "Television",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 478,
+      "endSec": 2203,
+      "durationSec": 1725,
+      "topic": "VDS Reloaded",
+      "fineSubject": "Security",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 2203,
+      "endSec": 2642,
+      "durationSec": 439,
+      "topic": "DDoS-Teenager verhaftet",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2642,
+      "endSec": 4001,
+      "durationSec": 1359,
+      "topic": "IT-Sicherheitsgesetz",
+      "fineSubject": "IT Regulation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4360,
+      "endSec": 5062,
+      "durationSec": 702,
+      "topic": "Flugzeuge fernsteuern und hacken",
+      "fineSubject": "Hacking",
+      "topicIndex": 5
+    }
+  ]
+}

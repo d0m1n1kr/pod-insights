@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 146,
+  "title": "LNP146 Harmonetarisiertes Urheberrecht",
+  "generatedAt": "2026-01-05T15:17:57.593Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.25387380686748484,
+      "Technology": 0.26267509607041034,
+      "Law": 0,
+      "Security": 0.29552497830668156,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.18792611875542334,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2048,
+      "Technology": 2119,
+      "Law": 0,
+      "Security": 2384,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1516,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 4,
+      "Culture": 0
+    },
+    "totalDurationSec": 8067,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Privacy",
+      "startSec": 253,
+      "endSec": 354,
+      "durationSec": 101,
+      "topic": "Frankreich: Internet-Überwachung sehr stark",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 355,
+      "endSec": 951,
+      "durationSec": 596,
+      "topic": "Spiegel-Spionage: Vorbeck-Fall",
+      "fineSubject": "Espionage",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 952,
+      "endSec": 1890,
+      "durationSec": 938,
+      "topic": "Pofalla im NSA-UA",
+      "fineSubject": "Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 1890,
+      "endSec": 2423,
+      "durationSec": 533,
+      "topic": "Wikileaks veröffentlicht Selektoren und Abhörprotokolle",
+      "fineSubject": "Leaks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2424,
+      "endSec": 4406,
+      "durationSec": 1982,
+      "topic": "Hacked Team",
+      "fineSubject": "Hacking",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 4406,
+      "endSec": 4808,
+      "durationSec": 402,
+      "topic": "CCC zum Staatstrojaner",
+      "fineSubject": "Malware",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4809,
+      "endSec": 5350,
+      "durationSec": 541,
+      "topic": "Bundestag baut Geheimdienstbefugnisse deutlich aus",
+      "fineSubject": "Legislation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5350,
+      "endSec": 7469,
+      "durationSec": 2119,
+      "topic": "Wahlcomputer in Argentinien und anderswo",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7469,
+      "endSec": 8038,
+      "durationSec": 569,
+      "topic": "Der Reda-Bericht wurde angenommen",
+      "fineSubject": "Reports",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 8039,
+      "endSec": 8325,
+      "durationSec": 286,
+      "topic": "Caspar Bowden",
+      "fineSubject": "Advocacy",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 196,
+  "title": "FS196 Nickt nicht!",
+  "generatedAt": "2026-01-05T15:17:51.091Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0.5714285714285714,
+      "Finance": 0.1839226256540352,
+      "Media": 0.15601712383066435,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.08863167908672903,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 3604,
+      "Finance": 1160,
+      "Media": 984,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 559,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 3,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 6307,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Gaming",
+      "startSec": 1268,
+      "endSec": 1827,
+      "durationSec": 559,
+      "topic": "Thimbleweed Park",
+      "fineSubject": "Adventure Games",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1828,
+      "endSec": 2812,
+      "durationSec": 984,
+      "topic": "Plattenspieler",
+      "fineSubject": "Turntables",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4901,
+      "endSec": 6064,
+      "durationSec": 1163,
+      "topic": "Mac Pro",
+      "fineSubject": "Computers",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6065,
+      "endSec": 7442,
+      "durationSec": 1377,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Mac",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7442,
+      "endSec": 8506,
+      "durationSec": 1064,
+      "topic": "MacBook Pro Ranting",
+      "fineSubject": "MacBook",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9623,
+      "endSec": 10783,
+      "durationSec": 1160,
+      "topic": "Finanzbuchhaltung und Lua",
+      "fineSubject": "Accounting",
+      "topicIndex": 11
+    }
+  ]
+}

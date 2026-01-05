@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 196,
+  "title": "LNP196 Bundesnachrichtendienstleistung",
+  "generatedAt": "2026-01-05T15:17:57.600Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.20978077571669476,
+      "Technology": 0.37099494097807756,
+      "Law": 0,
+      "Security": 0.16323777403035414,
+      "Social": 0.1342327150084317,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.12175379426644183,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 622,
+      "Technology": 1100,
+      "Law": 0,
+      "Security": 484,
+      "Social": 398,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 361,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2965,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 212,
+      "endSec": 610,
+      "durationSec": 398,
+      "topic": "Lauri Love",
+      "fineSubject": "Privacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 611,
+      "endSec": 943,
+      "durationSec": 332,
+      "topic": "BND-Gesetzreform unter Feuer",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 943,
+      "endSec": 1233,
+      "durationSec": 290,
+      "topic": "BND als Nachrichtendienstleister",
+      "fineSubject": "Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1234,
+      "endSec": 1972,
+      "durationSec": 738,
+      "topic": "Deutsche Cyberwehr",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 1972,
+      "endSec": 2456,
+      "durationSec": 484,
+      "topic": "Drohnenmord per Mobilfunk",
+      "fineSubject": "Drone Warfare",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2457,
+      "endSec": 2819,
+      "durationSec": 362,
+      "topic": "Open Access Strategie",
+      "fineSubject": "Open Access",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 2819,
+      "endSec": 3180,
+      "durationSec": 361,
+      "topic": "O2 will mal wieder Location-Daten verkaufen",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 6
+    }
+  ]
+}

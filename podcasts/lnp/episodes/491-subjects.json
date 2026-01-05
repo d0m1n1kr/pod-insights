@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 491,
+  "title": "LNP491 Wenn nicht auf meinem Grab getanzt wird, ist es nicht meine Beerdigung",
+  "generatedAt": "2026-01-05T15:17:57.640Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.23177723177723178,
+      "Social": 0.48075348075348073,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.20584220584220583,
+      "Business": 0.08162708162708163,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1698,
+      "Social": 3522,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1508,
+      "Business": 598,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7326,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 601,
+      "endSec": 2383,
+      "durationSec": 1782,
+      "topic": "Arschverletztheit und Humor im Angesicht des Todes",
+      "fineSubject": "Death and Humor",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 2383,
+      "endSec": 4081,
+      "durationSec": 1698,
+      "topic": "xz-Backdoor",
+      "fineSubject": "Backdoors",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 4082,
+      "endSec": 5822,
+      "durationSec": 1740,
+      "topic": "TikTok-Verbot",
+      "fineSubject": "Social Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 5823,
+      "endSec": 6421,
+      "durationSec": 598,
+      "topic": "Bezahlkarte",
+      "fineSubject": "Payment Methods",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 6421,
+      "endSec": 6863,
+      "durationSec": 442,
+      "topic": "Ermittlungen gegen epicenter.works wegen angeblichen Hackings",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 6864,
+      "endSec": 7930,
+      "durationSec": 1066,
+      "topic": "noyb: ChatGPT vs. DSGVO",
+      "fineSubject": "Data Protection",
+      "topicIndex": 5
+    }
+  ]
+}

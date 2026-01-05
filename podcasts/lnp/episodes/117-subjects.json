@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 117,
+  "title": "LNP117 Springergeführte Koalition",
+  "generatedAt": "2026-01-05T15:17:57.590Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.110337972166998,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.455765407554672,
+      "Social": 0,
+      "Media": 0.17296222664015903,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.26093439363817095,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 444,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1834,
+      "Social": 0,
+      "Media": 696,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1050,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4024,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 410,
+      "endSec": 2244,
+      "durationSec": 1834,
+      "topic": "Eikonal: BND überwacht DE-CIX",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 2244,
+      "endSec": 2940,
+      "durationSec": 696,
+      "topic": "VG Media verzweifelt",
+      "fineSubject": "Copyright",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2940,
+      "endSec": 3384,
+      "durationSec": 444,
+      "topic": "EU-Kommissar will VDS-Richtlinie zurück bringen",
+      "fineSubject": "Legislation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3384,
+      "endSec": 4434,
+      "durationSec": 1050,
+      "topic": "Twitter klagt gegen Schweigepflicht",
+      "fineSubject": "Litigation",
+      "topicIndex": 3
+    }
+  ]
+}

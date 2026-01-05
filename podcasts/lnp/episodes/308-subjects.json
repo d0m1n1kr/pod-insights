@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 308,
+  "title": "LNP308 Sternchenministerkonferenz",
+  "generatedAt": "2026-01-05T15:17:57.614Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.3956297743826612,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.5741694794812577,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.030200746136081008
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2227,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3232,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 170
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 0,
+      "Social": 7,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 5629,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 607,
+      "endSec": 1228,
+      "durationSec": 621,
+      "topic": "Feedback: Libra",
+      "fineSubject": "Finance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1228,
+      "endSec": 1367,
+      "durationSec": 139,
+      "topic": "Feedback: Zensursula",
+      "fineSubject": "Politics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1367,
+      "endSec": 1574,
+      "durationSec": 207,
+      "topic": "Feedback: Fusion",
+      "fineSubject": "Politics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1574,
+      "endSec": 2231,
+      "durationSec": 657,
+      "topic": "Lauschangriff über Alexa",
+      "fineSubject": "Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 2232,
+      "endSec": 2624,
+      "durationSec": 392,
+      "topic": "Zensursula 2.0",
+      "fineSubject": "Politics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 4022,
+      "endSec": 5331,
+      "durationSec": 1309,
+      "topic": "Crazy Maaßen",
+      "fineSubject": "Politics",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5331,
+      "endSec": 6626,
+      "durationSec": 1295,
+      "topic": "E-Voting beim VfB Stuttgart",
+      "fineSubject": "Voting",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 6627,
+      "endSec": 6949,
+      "durationSec": 322,
+      "topic": "5 Milliarden Dollar Strafe für Facebook",
+      "fineSubject": "Finance",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6950,
+      "endSec": 7225,
+      "durationSec": 275,
+      "topic": "Theater um IPTC Codes in Facebook Images",
+      "fineSubject": "Media",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7225,
+      "endSec": 7395,
+      "durationSec": 170,
+      "topic": "Alan Turing auf der 50-Pfund-Note",
+      "fineSubject": "History",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 7395,
+      "endSec": 7637,
+      "durationSec": 242,
+      "topic": "Impfung gegen Fake News",
+      "fineSubject": "Media",
+      "topicIndex": 11
+    }
+  ]
+}

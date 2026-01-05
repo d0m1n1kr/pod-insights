@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 247,
+  "title": "LNP247 Lastesel mit Glasfaseranschluss",
+  "generatedAt": "2026-01-05T15:17:57.606Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.346432424102327,
+      "Technology": 0.21898597626752966,
+      "Law": 0.12821698258591463,
+      "Security": 0.032362459546925564,
+      "Social": 0,
+      "Media": 0.2339343504392048,
+      "Health": 0,
+      "Feedback": 0.014948374171675143,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.02511943288642318,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2248,
+      "Technology": 1421,
+      "Law": 832,
+      "Security": 210,
+      "Social": 0,
+      "Media": 1518,
+      "Health": 0,
+      "Feedback": 97,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 163,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 1,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 6489,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 1541,
+      "endSec": 1638,
+      "durationSec": 97,
+      "topic": "Feedback: Local Horst",
+      "fineSubject": "Local Issues",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1639,
+      "endSec": 2583,
+      "durationSec": 944,
+      "topic": "Feedback: Journalismus-Finanzierung",
+      "fineSubject": "Funding",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2584,
+      "endSec": 4131,
+      "durationSec": 1547,
+      "topic": "Bundeshack Aftermath",
+      "fineSubject": "Events",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4131,
+      "endSec": 4832,
+      "durationSec": 701,
+      "topic": "SPD-Ministerriege",
+      "fineSubject": "Government",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5821,
+      "endSec": 7242,
+      "durationSec": 1421,
+      "topic": "Glasförderung soll nur noch Glas fördern",
+      "fineSubject": "Fiber Optics",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 7242,
+      "endSec": 7452,
+      "durationSec": 210,
+      "topic": "Malware-Schleuder Provider",
+      "fineSubject": "Malware",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 7452,
+      "endSec": 8284,
+      "durationSec": 832,
+      "topic": "Gerätehaftung und Open Source",
+      "fineSubject": "Open Source",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 8566,
+      "endSec": 9140,
+      "durationSec": 574,
+      "topic": "Polizei auf Twitter",
+      "fineSubject": "Police",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 9140,
+      "endSec": 9303,
+      "durationSec": 163,
+      "topic": "Datenschutz Telekom Austria",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 11
+    }
+  ]
+}

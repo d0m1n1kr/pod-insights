@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 363,
+  "title": "Mi363 – \"Pommes Punkte\"",
+  "generatedAt": "2026-01-05T15:18:17.394Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.10201311920380005,
+      "Culture": 0.10676317575209229,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.4888034381361683,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.3024202669079394,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 451,
+      "Culture": 472,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2161,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1337,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 4421,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 2291,
+      "endSec": 2422,
+      "durationSec": 131,
+      "topic": "Kommentar von Rene zu gekrümmter Raumzeit",
+      "fineSubject": "Raumzeit",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 2422,
+      "endSec": 4583,
+      "durationSec": 2161,
+      "topic": "Thema 1: \"Deep Lying\"",
+      "fineSubject": "Deep Lying",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 4583,
+      "endSec": 4903,
+      "durationSec": 320,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 4903,
+      "endSec": 6240,
+      "durationSec": 1337,
+      "topic": "Thema 2: \"Pentagon auf Eis\"",
+      "fineSubject": "Pentagon",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6240,
+      "endSec": 6712,
+      "durationSec": 472,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Schwurbel",
+      "topicIndex": 5
+    }
+  ]
+}

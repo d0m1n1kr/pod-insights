@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 80,
+  "title": "LNP080 Digitaler Klimawandel",
+  "generatedAt": "2026-01-05T15:17:57.586Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5127679697351829,
+      "Technology": 0.20586380832282472,
+      "Law": 0.15762925598991173,
+      "Security": 0.12373896595208071,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3253,
+      "Technology": 1306,
+      "Law": 1000,
+      "Security": 785,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6344,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 56,
+      "endSec": 3309,
+      "durationSec": 3253,
+      "topic": "Es war Wahl",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3309,
+      "endSec": 4615,
+      "durationSec": 1306,
+      "topic": "TouchID is no more",
+      "fineSubject": "Biometrics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 4616,
+      "endSec": 5616,
+      "durationSec": 1000,
+      "topic": "BNetzA-Anhörung zu Zwangsroutern",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 5616,
+      "endSec": 5976,
+      "durationSec": 360,
+      "topic": "Geheimdienste überwachen Belgacom",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 5977,
+      "endSec": 6160,
+      "durationSec": 183,
+      "topic": "Geheimdienste überwachen ihre Geliebten",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 6161,
+      "endSec": 6403,
+      "durationSec": 242,
+      "topic": "Geheimdienste überwachen Journalisten",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 109,
+  "title": "LNP109 Presseähnliche Tätigkeit",
+  "generatedAt": "2026-01-05T15:17:57.589Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.34791571232249197,
+      "Technology": 0.2624828218048557,
+      "Law": 0.2347686669720568,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.1548327989005955,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1519,
+      "Technology": 1146,
+      "Law": 1025,
+      "Security": 0,
+      "Social": 0,
+      "Media": 676,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4366,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 59,
+      "endSec": 686,
+      "durationSec": 627,
+      "topic": "Spion & Spion",
+      "fineSubject": "Espionage",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 687,
+      "endSec": 1301,
+      "durationSec": 614,
+      "topic": "Provider-Unterstützung beim Abhören des DE-CIX?",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1301,
+      "endSec": 1980,
+      "durationSec": 679,
+      "topic": "Großbritannien baut Überwachung mit Notstandsgesetz aus",
+      "fineSubject": "Legislation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1980,
+      "endSec": 2656,
+      "durationSec": 676,
+      "topic": "BPjM-Sperrlisten-Leak",
+      "fineSubject": "Censorship",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2656,
+      "endSec": 3098,
+      "durationSec": 442,
+      "topic": "Plagiator nutzt Copyright, um Untersuchung seiner Doktorarbeit zu verhindern",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3099,
+      "endSec": 3312,
+      "durationSec": 213,
+      "topic": "Frag den Staat gewinnt Klage gegen Bundesregierung für Informationsfreiheit",
+      "fineSubject": "Freedom of Information",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3312,
+      "endSec": 3844,
+      "durationSec": 532,
+      "topic": "Freifunk will uns von der Störerhaftung erlösen",
+      "fineSubject": "Internet Freedom",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3844,
+      "endSec": 4427,
+      "durationSec": 583,
+      "topic": "Metrolaut gewinnt vor Gericht",
+      "fineSubject": "Court Rulings",
+      "topicIndex": 7
+    }
+  ]
+}

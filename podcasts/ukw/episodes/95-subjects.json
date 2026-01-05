@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 95,
+  "title": "UKW095 Ukraine: Der Verlust des Zweifels",
+  "generatedAt": "2026-01-05T15:18:03.024Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.19011379285351887,
+      "Politics": 0.09458577951728636,
+      "Military": 0.2761469884757556,
+      "Technology": 0,
+      "Economics": 0.01681524969196202,
+      "Media": 0,
+      "Miscellaneous": 0.055446836268754074,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.36689135319272304
+    },
+    "durations": {
+      "Health": 2623,
+      "Politics": 1305,
+      "Military": 3810,
+      "Technology": 0,
+      "Economics": 232,
+      "Media": 0,
+      "Miscellaneous": 765,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 5062
+    },
+    "topicCounts": {
+      "Health": 2,
+      "Politics": 3,
+      "Military": 5,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 6
+    },
+    "totalDurationSec": 13797,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Miscellaneous",
+      "startSec": 197,
+      "endSec": 962,
+      "durationSec": 765,
+      "topic": "Otto von Bismarck",
+      "fineSubject": "Bismarck",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 962,
+      "endSec": 2321,
+      "durationSec": 1359,
+      "topic": "Der Krieg am Boden",
+      "fineSubject": "Ground Warfare",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 2322,
+      "endSec": 2836,
+      "durationSec": 514,
+      "topic": "Krieg in der Luft",
+      "fineSubject": "Aerial Warfare",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 2836,
+      "endSec": 3142,
+      "durationSec": 306,
+      "topic": "No-Fly-Zone",
+      "fineSubject": "No-Fly Zones",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 3142,
+      "endSec": 3760,
+      "durationSec": 618,
+      "topic": "MIG-29 für die Ukraine?",
+      "fineSubject": "Aircraft Supply",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 3761,
+      "endSec": 4774,
+      "durationSec": 1013,
+      "topic": "Drohnenkrieg",
+      "fineSubject": "Drone Warfare",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 4774,
+      "endSec": 5439,
+      "durationSec": 665,
+      "topic": "Lage im Schwarzen Meer",
+      "fineSubject": "Black Sea",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5440,
+      "endSec": 6039,
+      "durationSec": 599,
+      "topic": "Politische Lage im Westen",
+      "fineSubject": "Western Politics",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6039,
+      "endSec": 6305,
+      "durationSec": 266,
+      "topic": "Selenskys Ansprachen",
+      "fineSubject": "Leadership Communication",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Economics",
+      "startSec": 6305,
+      "endSec": 6537,
+      "durationSec": 232,
+      "topic": "Steuerreform in der Ukraine",
+      "fineSubject": "Tax Reform",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 6538,
+      "endSec": 7036,
+      "durationSec": 498,
+      "topic": "Israel",
+      "fineSubject": "Israel",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 7037,
+      "endSec": 8049,
+      "durationSec": 1012,
+      "topic": "China und der Weizen",
+      "fineSubject": "China and Agriculture",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 8049,
+      "endSec": 8984,
+      "durationSec": 935,
+      "topic": "Deutschland im Konflikt",
+      "fineSubject": "Germany in Conflict",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8985,
+      "endSec": 9425,
+      "durationSec": 440,
+      "topic": "Putin im Stadion",
+      "fineSubject": "Putin's Public Image",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 10308,
+      "endSec": 11189,
+      "durationSec": 881,
+      "topic": "Zukunftsszenario: Best Case für Putin",
+      "fineSubject": "Future Scenarios",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 11190,
+      "endSec": 12261,
+      "durationSec": 1071,
+      "topic": "Zukunftsszenario: Best Case für die Welt",
+      "fineSubject": "Global Future Scenarios",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Health",
+      "startSec": 12261,
+      "endSec": 13602,
+      "durationSec": 1341,
+      "topic": "Kampf um die Köpfe",
+      "fineSubject": "Public Opinion",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Health",
+      "startSec": 13602,
+      "endSec": 14884,
+      "durationSec": 1282,
+      "topic": "Verzweifelung und Resignation",
+      "fineSubject": "Despair and Resignation",
+      "topicIndex": 18
+    }
+  ]
+}

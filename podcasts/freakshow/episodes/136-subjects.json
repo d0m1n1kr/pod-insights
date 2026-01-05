@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 136,
+  "title": "FS136 Helga!",
+  "generatedAt": "2026-01-05T15:17:51.076Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.10553070353802359,
+      "Software": 0.466958113054087,
+      "Hardware": 0.12850752338348922,
+      "Finance": 0,
+      "Media": 0.1315575437169581,
+      "Social": 0,
+      "Culture": 0.16744611630744205,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1038,
+      "Software": 4593,
+      "Hardware": 1264,
+      "Finance": 0,
+      "Media": 1294,
+      "Social": 0,
+      "Culture": 1647,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 5,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9836,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 702,
+      "endSec": 2489,
+      "durationSec": 1787,
+      "topic": "CouchDB",
+      "fineSubject": "Datenbanken",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 2489,
+      "endSec": 2814,
+      "durationSec": 325,
+      "topic": "Wikimedia",
+      "fineSubject": "Wikis",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 2814,
+      "endSec": 4753,
+      "durationSec": 1939,
+      "topic": "Hood.ie",
+      "fineSubject": "Webanwendungen",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 4753,
+      "endSec": 5275,
+      "durationSec": 522,
+      "topic": "Jan war bei Monty Python",
+      "fineSubject": "Film",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5275,
+      "endSec": 6922,
+      "durationSec": 1647,
+      "topic": "Konferenzen und Diversity",
+      "fineSubject": "Diversity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7532,
+      "endSec": 8796,
+      "durationSec": 1264,
+      "topic": "Smartwatches",
+      "fineSubject": "Wearables",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8796,
+      "endSec": 9834,
+      "durationSec": 1038,
+      "topic": "O2 Tarife",
+      "fineSubject": "Tarife",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 9834,
+      "endSec": 10606,
+      "durationSec": 772,
+      "topic": "Hardchor",
+      "fineSubject": "Musik",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 10606,
+      "endSec": 10730,
+      "durationSec": 124,
+      "topic": "Instacast",
+      "fineSubject": "Podcasts",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 11008,
+      "endSec": 11426,
+      "durationSec": 418,
+      "topic": "Neuigkeiten in Swift",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 11
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 346,
+  "title": "Mi346 – \"Powered Pants\"",
+  "generatedAt": "2026-01-05T15:18:17.392Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.24588880187940484,
+      "Culture": 0.3610023492560689,
+      "Wissenschaft": 0,
+      "Health": 0.2845732184808144,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.10853563038371182,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1570,
+      "Culture": 2305,
+      "Wissenschaft": 0,
+      "Health": 1817,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 693,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 3,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6385,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 294,
+      "endSec": 448,
+      "durationSec": 154,
+      "topic": "Puerto Patida",
+      "fineSubject": "Puerto Patida",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 448,
+      "endSec": 1394,
+      "durationSec": 946,
+      "topic": "freestyle-physics",
+      "fineSubject": "Physics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1394,
+      "endSec": 1638,
+      "durationSec": 244,
+      "topic": "Podcast: Raus aus der Depression",
+      "fineSubject": "Depression",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1638,
+      "endSec": 2331,
+      "durationSec": 693,
+      "topic": "bypass methode gegen Desinformationen",
+      "fineSubject": "Disinformation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2737,
+      "endSec": 2892,
+      "durationSec": 155,
+      "topic": "Nocebos im klinischen Alltag",
+      "fineSubject": "Nocebos",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2892,
+      "endSec": 4310,
+      "durationSec": 1418,
+      "topic": "Thema 1: “Snack Wars”",
+      "fineSubject": "Snack Wars",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 4310,
+      "endSec": 4934,
+      "durationSec": 624,
+      "topic": "Experiment",
+      "fineSubject": "Scientific Experiment",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4934,
+      "endSec": 7085,
+      "durationSec": 2151,
+      "topic": "Thema 2: \"Auf gehts, ab gehts, drei Tage wach!\"",
+      "fineSubject": "Party Culture",
+      "topicIndex": 8
+    }
+  ]
+}

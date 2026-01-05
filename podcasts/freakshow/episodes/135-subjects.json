@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 135,
+  "title": "FS135 Das Update ist jetzt freigegeben",
+  "generatedAt": "2026-01-05T15:17:51.076Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.34223259028857783,
+      "Software": 0.5940038016243304,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.06376360808709176,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3961,
+      "Software": 6875,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 738,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 4,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 11574,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 111,
+      "endSec": 1516,
+      "durationSec": 1405,
+      "topic": "Fußball, WWDC-Nachlese und Google I/O",
+      "fineSubject": "Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1516,
+      "endSec": 2258,
+      "durationSec": 742,
+      "topic": "AVAudioEngine",
+      "fineSubject": "Audio",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 2258,
+      "endSec": 5840,
+      "durationSec": 3582,
+      "topic": "Swift",
+      "fineSubject": "Programming Language",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 5840,
+      "endSec": 6987,
+      "durationSec": 1147,
+      "topic": "Metal",
+      "fineSubject": "Graphics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 7791,
+      "endSec": 9195,
+      "durationSec": 1404,
+      "topic": "Tim gibt iOS 7 frei",
+      "fineSubject": "Mobile OS",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 9195,
+      "endSec": 9933,
+      "durationSec": 738,
+      "topic": "Wikidata Game",
+      "fineSubject": "Trivia",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9933,
+      "endSec": 11692,
+      "durationSec": 1759,
+      "topic": "LTE",
+      "fineSubject": "Networking",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11692,
+      "endSec": 12489,
+      "durationSec": 797,
+      "topic": "OpenVPN",
+      "fineSubject": "Networking",
+      "topicIndex": 7
+    }
+  ]
+}

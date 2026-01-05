@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 289,
+  "title": "LNP289 Untersuchung von Sicherheitsriesen",
+  "generatedAt": "2026-01-05T15:17:57.612Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 4443,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 4,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4443,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 187,
+      "endSec": 1773,
+      "durationSec": 1586,
+      "topic": "Cybervoting in Tübingen",
+      "fineSubject": "Cybervoting",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1774,
+      "endSec": 2825,
+      "durationSec": 1051,
+      "topic": "Cyberhackback in Russland",
+      "fineSubject": "Cyberattack",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 2826,
+      "endSec": 4274,
+      "durationSec": 1448,
+      "topic": "Cyberwarnungen des BSI",
+      "fineSubject": "Cyberwarnings",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 4274,
+      "endSec": 4632,
+      "durationSec": 358,
+      "topic": "Cybersicherheitsgesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 73,
+  "title": "LNP073 Wimpel im Wind",
+  "generatedAt": "2026-01-05T15:17:57.583Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.0755883052056097,
+      "Law": 0,
+      "Security": 0.4587592108390777,
+      "Social": 0.2716900404088424,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.19396244354647016,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 318,
+      "Law": 0,
+      "Security": 1930,
+      "Social": 1143,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 816,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4207,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 80,
+      "endSec": 1223,
+      "durationSec": 1143,
+      "topic": "Pornofilter in UK",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 1223,
+      "endSec": 2039,
+      "durationSec": 816,
+      "topic": "Paypal und VISA und Mastercard sperren IPredator",
+      "fineSubject": "Payment Services",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 2039,
+      "endSec": 3969,
+      "durationSec": 1930,
+      "topic": "Kooperation von BND & NSA",
+      "fineSubject": "Intelligence Agencies",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3970,
+      "endSec": 4060,
+      "durationSec": 90,
+      "topic": "Vodafone RED ist kein grenzenloses Surfen",
+      "fineSubject": "Mobile Services",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4060,
+      "endSec": 4288,
+      "durationSec": 228,
+      "topic": "Diskriminierungsfreie Managed Services der Telekom",
+      "fineSubject": "Managed Services",
+      "topicIndex": 4
+    }
+  ]
+}

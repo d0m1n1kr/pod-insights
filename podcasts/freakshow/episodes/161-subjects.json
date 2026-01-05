@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 161,
+  "title": "FS161 Turbobienenblitz-Award mit Goldkante",
+  "generatedAt": "2026-01-05T15:17:51.082Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6338555858310627,
+      "Software": 0.18349795640326977,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.052963215258855584,
+      "Social": 0.007833787465940054,
+      "Culture": 0,
+      "Security": 0.12184945504087194,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 7444,
+      "Software": 2155,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 622,
+      "Social": 92,
+      "Culture": 0,
+      "Security": 1431,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 3,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 2,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11744,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 41,
+      "endSec": 133,
+      "durationSec": 92,
+      "topic": "Geiler Hall",
+      "fineSubject": "Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 930,
+      "endSec": 1238,
+      "durationSec": 308,
+      "topic": "Isch hab jetzt Android",
+      "fineSubject": "Android",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2985,
+      "endSec": 3207,
+      "durationSec": 222,
+      "topic": "Apple Keynote",
+      "fineSubject": "Apple Keynote",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3207,
+      "endSec": 4098,
+      "durationSec": 891,
+      "topic": "Apple Watch",
+      "fineSubject": "Wearables",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4099,
+      "endSec": 6376,
+      "durationSec": 2277,
+      "topic": "iPad Pro",
+      "fineSubject": "Tablets",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6376,
+      "endSec": 8819,
+      "durationSec": 2443,
+      "topic": "Apple TV",
+      "fineSubject": "Streaming Devices",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8819,
+      "endSec": 9973,
+      "durationSec": 1154,
+      "topic": "iPhone 6S",
+      "fineSubject": "Smartphones",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 9974,
+      "endSec": 10625,
+      "durationSec": 651,
+      "topic": "E-Mail Clients",
+      "fineSubject": "Email",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 10625,
+      "endSec": 11432,
+      "durationSec": 807,
+      "topic": "GPG und S/MIME",
+      "fineSubject": "Encryption",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 11432,
+      "endSec": 12056,
+      "durationSec": 624,
+      "topic": "Let's Encrypt",
+      "fineSubject": "Certificates",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12057,
+      "endSec": 12514,
+      "durationSec": 457,
+      "topic": "VPN mit iOS 9 und El Capitan",
+      "fineSubject": "VPN",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 12515,
+      "endSec": 13137,
+      "durationSec": 622,
+      "topic": "RSS",
+      "fineSubject": "RSS",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 13137,
+      "endSec": 14333,
+      "durationSec": 1196,
+      "topic": "Content Blocker",
+      "fineSubject": "Web Browsing",
+      "topicIndex": 15
+    }
+  ]
+}

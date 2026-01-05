@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 261,
+  "title": "FS261 Bei Dir piept’s wohl nicht",
+  "generatedAt": "2026-01-05T15:17:51.113Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5090937845959197,
+      "Software": 0.12936897042543097,
+      "Hardware": 0,
+      "Finance": 0.05266487426854341,
+      "Media": 0.22078127471137118,
+      "Social": 0,
+      "Culture": 0.021350624703463546,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.06674047129527123,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3219,
+      "Software": 818,
+      "Hardware": 0,
+      "Finance": 333,
+      "Media": 1396,
+      "Social": 0,
+      "Culture": 135,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 422,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 5,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 6323,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 322,
+      "endSec": 457,
+      "durationSec": 135,
+      "topic": "Klagelieder",
+      "fineSubject": "Music",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 458,
+      "endSec": 880,
+      "durationSec": 422,
+      "topic": "Zavala",
+      "fineSubject": "Characters",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 880,
+      "endSec": 1698,
+      "durationSec": 818,
+      "topic": "Apps mit Tastatur bedienen",
+      "fineSubject": "Productivity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2426,
+      "endSec": 3767,
+      "durationSec": 1341,
+      "topic": "AirTags und das FindMy Network",
+      "fineSubject": "Location Services",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 4860,
+      "endSec": 5193,
+      "durationSec": 333,
+      "topic": "Barcode ins Wallet",
+      "fineSubject": "Digital Wallets",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8699,
+      "endSec": 8947,
+      "durationSec": 248,
+      "topic": "Vorkalibrierte Geräte",
+      "fineSubject": "Calibration",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 8947,
+      "endSec": 9316,
+      "durationSec": 369,
+      "topic": "vocTV",
+      "fineSubject": "Television",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 9316,
+      "endSec": 9499,
+      "durationSec": 183,
+      "topic": "Soundboards",
+      "fineSubject": "Sound",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 9500,
+      "endSec": 9697,
+      "durationSec": 197,
+      "topic": "Sound Libraries",
+      "fineSubject": "Sound",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 9697,
+      "endSec": 10105,
+      "durationSec": 408,
+      "topic": "MIDI Controller und Reaper",
+      "fineSubject": "Production",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 10106,
+      "endSec": 10345,
+      "durationSec": 239,
+      "topic": "Metaebene Studio Setup",
+      "fineSubject": "Setup",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10345,
+      "endSec": 10943,
+      "durationSec": 598,
+      "topic": "DNS over TLS",
+      "fineSubject": "Networking",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10944,
+      "endSec": 11660,
+      "durationSec": 716,
+      "topic": "3D UV Resin Printer",
+      "fineSubject": "3D Printing",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11660,
+      "endSec": 11976,
+      "durationSec": 316,
+      "topic": "Technology Connections",
+      "fineSubject": "Connections",
+      "topicIndex": 18
+    }
+  ]
+}

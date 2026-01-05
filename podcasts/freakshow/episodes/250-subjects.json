@@ -1,0 +1,243 @@
+{
+  "episodeNumber": 250,
+  "title": "FS250 Die Ente bleibt draußen",
+  "generatedAt": "2026-01-05T15:17:51.109Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.11347308335793721,
+      "Software": 0.2972148410589509,
+      "Hardware": 0.4561558901682905,
+      "Finance": 0.008955811435882295,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.12420037397893909,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1153,
+      "Software": 3020,
+      "Hardware": 4635,
+      "Finance": 91,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1262,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 10,
+      "Hardware": 6,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10161,
+    "totalTopics": 25
+  },
+  "timeline": [
+    {
+      "subject": "Events",
+      "startSec": 284,
+      "endSec": 1274,
+      "durationSec": 990,
+      "topic": "Konferenzformate",
+      "fineSubject": "Konferenzformate",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Events",
+      "startSec": 1274,
+      "endSec": 1546,
+      "durationSec": 272,
+      "topic": "WWDC Keynote",
+      "fineSubject": "WWDC Keynote",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1547,
+      "endSec": 3458,
+      "durationSec": 1911,
+      "topic": "ARM-Macs",
+      "fineSubject": "ARM-Macs",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 3608,
+      "endSec": 4442,
+      "durationSec": 834,
+      "topic": "macOS BS",
+      "fineSubject": "macOS BS",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 4442,
+      "endSec": 5134,
+      "durationSec": 692,
+      "topic": "APFS und TimeMachine",
+      "fineSubject": "APFS und TimeMachine",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5135,
+      "endSec": 6030,
+      "durationSec": 895,
+      "topic": "Encrypted DNS",
+      "fineSubject": "Encrypted DNS",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6030,
+      "endSec": 6288,
+      "durationSec": 258,
+      "topic": "Portal Working Group",
+      "fineSubject": "Portal Working Group",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 6289,
+      "endSec": 6395,
+      "durationSec": 106,
+      "topic": "Scribble",
+      "fineSubject": "Scribble",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 6396,
+      "endSec": 6555,
+      "durationSec": 159,
+      "topic": "Photo Picker",
+      "fineSubject": "Photo Picker",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 6555,
+      "endSec": 6815,
+      "durationSec": 260,
+      "topic": "Maps",
+      "fineSubject": "Maps",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6815,
+      "endSec": 7100,
+      "durationSec": 285,
+      "topic": "CarKeys und CarPlay",
+      "fineSubject": "CarKeys und CarPlay",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 7101,
+      "endSec": 7298,
+      "durationSec": 197,
+      "topic": "watchOS",
+      "fineSubject": "watchOS",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7299,
+      "endSec": 7439,
+      "durationSec": 140,
+      "topic": "Apple TV Multiuser",
+      "fineSubject": "Apple TV Multiuser",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 7439,
+      "endSec": 7601,
+      "durationSec": 162,
+      "topic": "Apple TV Workout Apps",
+      "fineSubject": "Apple TV Workout Apps",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9425,
+      "endSec": 10017,
+      "durationSec": 592,
+      "topic": "Elgato StreamDeck",
+      "fineSubject": "Elgato StreamDeck",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10018,
+      "endSec": 11472,
+      "durationSec": 1454,
+      "topic": "MacBook Pro 13\"",
+      "fineSubject": "MacBook Pro 13\"",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 11473,
+      "endSec": 11732,
+      "durationSec": 259,
+      "topic": "Mac-Windows-Transition",
+      "fineSubject": "Mac-Windows-Transition",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 11732,
+      "endSec": 12019,
+      "durationSec": 287,
+      "topic": "HexFiend",
+      "fineSubject": "HexFiend",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 12019,
+      "endSec": 12083,
+      "durationSec": 64,
+      "topic": "Programmiersprachen-Prinzipien",
+      "fineSubject": "Programmiersprachen-Prinzipien",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12274,
+      "endSec": 12365,
+      "durationSec": 91,
+      "topic": "Bitcoin Halvening",
+      "fineSubject": "Bitcoin Halvening",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12558,
+      "endSec": 12811,
+      "durationSec": 253,
+      "topic": "Hauswasserwerk",
+      "fineSubject": "Hauswasserwerk",
+      "topicIndex": 23
+    }
+  ]
+}

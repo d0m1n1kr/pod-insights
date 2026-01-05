@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 89,
+  "title": "LNP089 Botschaft bedeutet Botschaft",
+  "generatedAt": "2026-01-05T15:17:57.587Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5478865703584804,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.2723381487426431,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.10058855002675228,
+      "Feedback": 0,
+      "Legal": 0.07918673087212413,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3072,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1527,
+      "Social": 0,
+      "Media": 0,
+      "Health": 564,
+      "Feedback": 0,
+      "Legal": 444,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5607,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1136,
+      "endSec": 1610,
+      "durationSec": 474,
+      "topic": "Vorratsdatenspeicherung in Europa",
+      "fineSubject": "Privacy / Europe",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1610,
+      "endSec": 2590,
+      "durationSec": 980,
+      "topic": "Netzneutralität in Europa",
+      "fineSubject": "Internet / Europe",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2591,
+      "endSec": 3155,
+      "durationSec": 564,
+      "topic": "Elektronische Gesundheitsakte (ELGA)",
+      "fineSubject": "Policy / ELGA",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3156,
+      "endSec": 4683,
+      "durationSec": 1527,
+      "topic": "Neues von der NSA",
+      "fineSubject": "Government / NSA",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4683,
+      "endSec": 5127,
+      "durationSec": 444,
+      "topic": "Streaming-Abmahnungen",
+      "fineSubject": "Media / Streaming",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5128,
+      "endSec": 5562,
+      "durationSec": 434,
+      "topic": "Die neue Bundesbeauftragte für Datenschutz und Informationsfreiheit",
+      "fineSubject": "Government / Germany",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5562,
+      "endSec": 6625,
+      "durationSec": 1063,
+      "topic": "Die neuen Internet-Minister",
+      "fineSubject": "Government / Ministers",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6626,
+      "endSec": 6747,
+      "durationSec": 121,
+      "topic": "Der neue Ausschuss \"Internet und Digitale Agenda\"",
+      "fineSubject": "Government / Committees",
+      "topicIndex": 8
+    }
+  ]
+}

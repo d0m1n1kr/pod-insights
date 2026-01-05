@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 375,
+  "title": "LNP375 No Durian",
+  "generatedAt": "2026-01-05T15:17:57.625Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.01639344262295082,
+      "Technology": 0.07994333130945153,
+      "Law": 0.67719085205424,
+      "Security": 0.055049585104229914,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.1714227889091277,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 81,
+      "Technology": 395,
+      "Law": 3346,
+      "Security": 272,
+      "Social": 0,
+      "Media": 0,
+      "Health": 847,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4941,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 2335,
+      "endSec": 2811,
+      "durationSec": 476,
+      "topic": "Feedback: Corona-Warn-App",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2812,
+      "endSec": 2893,
+      "durationSec": 81,
+      "topic": "Feedback: Jens Spahn und die Impf-Ethik",
+      "fineSubject": "Feedback",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2893,
+      "endSec": 3072,
+      "durationSec": 179,
+      "topic": "Feedback: Datenzugriff Polizei",
+      "fineSubject": "Feedback",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3073,
+      "endSec": 5127,
+      "durationSec": 2054,
+      "topic": "Urteil im Assange-Verfahren",
+      "fineSubject": "Assange",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 5127,
+      "endSec": 5498,
+      "durationSec": 371,
+      "topic": "Contact Tracing Singapore",
+      "fineSubject": "Singapore",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 5498,
+      "endSec": 5770,
+      "durationSec": 272,
+      "topic": "NSO-Angriffe auf katarische Journalisten",
+      "fineSubject": "Journalists",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5771,
+      "endSec": 6166,
+      "durationSec": 395,
+      "topic": "Palantir und die Impfstoffverteilung",
+      "fineSubject": "Vaccine Distribution",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 6167,
+      "endSec": 7280,
+      "durationSec": 1113,
+      "topic": "Digital Services Act & Digital Markets Act",
+      "fineSubject": "Acts",
+      "topicIndex": 8
+    }
+  ]
+}

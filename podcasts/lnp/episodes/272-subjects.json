@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 272,
+  "title": "LNP272 Alles zerfragen",
+  "generatedAt": "2026-01-05T15:17:57.610Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.09682828000558893,
+      "Technology": 0.733827022495459,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.09068045270364677,
+      "Media": 0.05588933910856504,
+      "Health": 0,
+      "Feedback": 0.022774905686740253,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 693,
+      "Technology": 5252,
+      "Law": 0,
+      "Security": 0,
+      "Social": 649,
+      "Media": 400,
+      "Health": 0,
+      "Feedback": 163,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 7,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 1,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7157,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 41,
+      "endSec": 690,
+      "durationSec": 649,
+      "topic": "Prixit",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 691,
+      "endSec": 1091,
+      "durationSec": 400,
+      "topic": "Podcastgeschichte wird gemacht",
+      "fineSubject": "Podcasting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1091,
+      "endSec": 1254,
+      "durationSec": 163,
+      "topic": "Feedback: Jiff und Kicks",
+      "fineSubject": "Audience",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1254,
+      "endSec": 1947,
+      "durationSec": 693,
+      "topic": "Wahlen in Bayern",
+      "fineSubject": "Elections",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1948,
+      "endSec": 2326,
+      "durationSec": 378,
+      "topic": "Cyberwar: Motivation zum Thema",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2326,
+      "endSec": 3194,
+      "durationSec": 868,
+      "topic": "Cyberwar: Begriffsdefinition",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3195,
+      "endSec": 3822,
+      "durationSec": 627,
+      "topic": "Cyberwar: Security Nightmares",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3822,
+      "endSec": 4875,
+      "durationSec": 1053,
+      "topic": "Cyberwar: Urknall Stuxnet",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4875,
+      "endSec": 5893,
+      "durationSec": 1018,
+      "topic": "Cyberwar: Defensivstrategien: Nicht-Angriffspakte",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5894,
+      "endSec": 6643,
+      "durationSec": 749,
+      "topic": "Cyberwar: Defensivstrategien: Softwarequalität und Bildung",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6644,
+      "endSec": 7203,
+      "durationSec": 559,
+      "topic": "Cyberwar: Angriff auf Gefühl und Gedanken",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 10
+    }
+  ]
+}

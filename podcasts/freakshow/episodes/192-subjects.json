@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 192,
+  "title": "FS192 Rechnungswesen im Autohaus",
+  "generatedAt": "2026-01-05T15:17:51.090Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.12584171403585484,
+      "Software": 0.3166593790992567,
+      "Hardware": 0.26803672933974637,
+      "Finance": 0.26077831219938785,
+      "Media": 0.011106252732837779,
+      "Social": 0,
+      "Culture": 0.017577612592916486,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1439,
+      "Software": 3621,
+      "Hardware": 3065,
+      "Finance": 2982,
+      "Media": 127,
+      "Social": 0,
+      "Culture": 201,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 4,
+      "Hardware": 4,
+      "Finance": 4,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11435,
+    "totalTopics": 24
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 86,
+      "endSec": 471,
+      "durationSec": 385,
+      "topic": "Make the Mac great again",
+      "fineSubject": "Mac",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 496,
+      "endSec": 733,
+      "durationSec": 237,
+      "topic": "Adapter-Spritzbesteck",
+      "fineSubject": "Adapter",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 734,
+      "endSec": 1937,
+      "durationSec": 1203,
+      "topic": "Receipts",
+      "fineSubject": "Receipts",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 1937,
+      "endSec": 2850,
+      "durationSec": 913,
+      "topic": "MoneyMoney",
+      "fineSubject": "Money Management",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Finance",
+      "startSec": 2851,
+      "endSec": 3352,
+      "durationSec": 501,
+      "topic": "Skrill und der Fintech-Wahnsinn",
+      "fineSubject": "Fintech",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3352,
+      "endSec": 3717,
+      "durationSec": 365,
+      "topic": "Spass mit Rechnungswesen",
+      "fineSubject": "Accounting",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 4066,
+      "endSec": 4126,
+      "durationSec": 60,
+      "topic": "Transkriptionen",
+      "fineSubject": "Transcription",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5028,
+      "endSec": 5487,
+      "durationSec": 459,
+      "topic": "Bitcoin-Datengarten im CCCB",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 6409,
+      "endSec": 8646,
+      "durationSec": 2237,
+      "topic": "hukl macht jetzt in Go",
+      "fineSubject": "Programming",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 8646,
+      "endSec": 9282,
+      "durationSec": 636,
+      "topic": "Programmiererfragen am Wochenende",
+      "fineSubject": "Questions",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9283,
+      "endSec": 9484,
+      "durationSec": 201,
+      "topic": "How Many People Will Die in 2017",
+      "fineSubject": "Predictions",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9484,
+      "endSec": 10464,
+      "durationSec": 980,
+      "topic": "Chris Lattner bei ATP",
+      "fineSubject": "Interviews",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 10464,
+      "endSec": 10827,
+      "durationSec": 363,
+      "topic": "APFS auf iOS",
+      "fineSubject": "File Systems",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10828,
+      "endSec": 12808,
+      "durationSec": 1980,
+      "topic": "Bluetooth Headphones",
+      "fineSubject": "Audio",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12808,
+      "endSec": 13306,
+      "durationSec": 498,
+      "topic": "nettop",
+      "fineSubject": "Computers",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13307,
+      "endSec": 13657,
+      "durationSec": 350,
+      "topic": "USB Meter",
+      "fineSubject": "Measurement",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Media",
+      "startSec": 13657,
+      "endSec": 13724,
+      "durationSec": 67,
+      "topic": "Roddi beim Metercast",
+      "fineSubject": "Podcasting",
+      "topicIndex": 21
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 52,
+  "title": "UKW052 Corona Weekly: Privatpersonen, die nichts wichtiges vorhaben",
+  "generatedAt": "2026-01-05T15:18:03.011Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.8930949877322117,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0.08307045215562565,
+      "Miscellaneous": 0.023834560112162635,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7644,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 711,
+      "Miscellaneous": 204,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 14,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 1,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8559,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 162,
+      "endSec": 265,
+      "durationSec": 103,
+      "topic": "Told-You-So der Woche",
+      "fineSubject": "COVID-19",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 266,
+      "endSec": 614,
+      "durationSec": 348,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 614,
+      "endSec": 733,
+      "durationSec": 119,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "COVID-19",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 734,
+      "endSec": 819,
+      "durationSec": 85,
+      "topic": "Situation in den Landkreisen",
+      "fineSubject": "COVID-19",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 819,
+      "endSec": 986,
+      "durationSec": 167,
+      "topic": "Situation in Berlin",
+      "fineSubject": "COVID-19",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 987,
+      "endSec": 1280,
+      "durationSec": 293,
+      "topic": "Quarantäne in Berlin",
+      "fineSubject": "COVID-19",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 1281,
+      "endSec": 1992,
+      "durationSec": 711,
+      "topic": "Einfluss der Nachrichtenlage",
+      "fineSubject": "News",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 1992,
+      "endSec": 2229,
+      "durationSec": 237,
+      "topic": "Chinesische Verhältnisse",
+      "fineSubject": "COVID-19",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 2229,
+      "endSec": 2906,
+      "durationSec": 677,
+      "topic": "Neue SARS-CoV-2 Variante in UK",
+      "fineSubject": "COVID-19",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 2907,
+      "endSec": 3298,
+      "durationSec": 391,
+      "topic": "Greift der Impfstoff noch?",
+      "fineSubject": "Vaccination",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 3299,
+      "endSec": 4142,
+      "durationSec": 843,
+      "topic": "Sequenzierung des Virus",
+      "fineSubject": "Virus Research",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4142,
+      "endSec": 4614,
+      "durationSec": 472,
+      "topic": "Wer impft schon und wieviel?",
+      "fineSubject": "Vaccination",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 4614,
+      "endSec": 5081,
+      "durationSec": 467,
+      "topic": "Langzeitfolgen von Impfungen",
+      "fineSubject": "Vaccination",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5082,
+      "endSec": 7553,
+      "durationSec": 2471,
+      "topic": "Vitamin D und COVID-19",
+      "fineSubject": "Nutrition",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 7553,
+      "endSec": 8524,
+      "durationSec": 971,
+      "topic": "Ausblick",
+      "fineSubject": "COVID-19",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 8524,
+      "endSec": 8728,
+      "durationSec": 204,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 15
+    }
+  ]
+}

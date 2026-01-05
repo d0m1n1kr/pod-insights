@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 462,
+  "title": "LNP462 Qualität aus Europa",
+  "generatedAt": "2026-01-05T15:17:57.637Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.027960526315789474,
+      "Technology": 0.364766081871345,
+      "Law": 0.16392543859649122,
+      "Security": 0,
+      "Social": 0.24725877192982457,
+      "Media": 0.13760964912280702,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.05847953216374269,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 153,
+      "Technology": 1996,
+      "Law": 897,
+      "Security": 0,
+      "Social": 1353,
+      "Media": 753,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 320,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 0,
+      "Social": 2,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5472,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 363,
+      "endSec": 1366,
+      "durationSec": 1003,
+      "topic": "Feedback: Letzte Generation",
+      "fineSubject": "Activism",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1367,
+      "endSec": 1717,
+      "durationSec": 350,
+      "topic": "Feedback: Generations-Zugehörigkeit",
+      "fineSubject": "Generational Studies",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1718,
+      "endSec": 1871,
+      "durationSec": 153,
+      "topic": "Feedback: Faeser/Schönbohm",
+      "fineSubject": "Security",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1871,
+      "endSec": 2624,
+      "durationSec": 753,
+      "topic": "Feedback: Journalismus vs. Comedy",
+      "fineSubject": "Journalism",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2625,
+      "endSec": 3522,
+      "durationSec": 897,
+      "topic": "5 Jahre DSGVO",
+      "fineSubject": "Data Protection",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3522,
+      "endSec": 3860,
+      "durationSec": 338,
+      "topic": "Ende der De-Mail",
+      "fineSubject": "Communication",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3860,
+      "endSec": 5145,
+      "durationSec": 1285,
+      "topic": "KI == Ende der Menschheit?",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5146,
+      "endSec": 5519,
+      "durationSec": 373,
+      "topic": "Cell Broadcast",
+      "fineSubject": "Emergency Services",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 5519,
+      "endSec": 5839,
+      "durationSec": 320,
+      "topic": "Jobs",
+      "fineSubject": "Employment",
+      "topicIndex": 8
+    }
+  ]
+}

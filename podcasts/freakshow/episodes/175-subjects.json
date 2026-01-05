@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 175,
+  "title": "FS175 Die Bits waren zu keiner Zeit gefährdet",
+  "generatedAt": "2026-01-05T15:17:51.086Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.5268239166209545,
+      "Hardware": 0.4446516730663741,
+      "Finance": 0,
+      "Media": 0.02852441031267142,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 4802,
+      "Hardware": 4053,
+      "Finance": 0,
+      "Media": 260,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 5,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9115,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 631,
+      "endSec": 650,
+      "durationSec": 19,
+      "topic": "Freak Show Bingo",
+      "fineSubject": "Freak Show",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 650,
+      "endSec": 1716,
+      "durationSec": 1066,
+      "topic": "ZFS to the rescue",
+      "fineSubject": "ZFS",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 1717,
+      "endSec": 2586,
+      "durationSec": 869,
+      "topic": "User Interface Latency",
+      "fineSubject": "User Interface",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2586,
+      "endSec": 4371,
+      "durationSec": 1785,
+      "topic": "iPhone SE",
+      "fineSubject": "iPhone",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8295,
+      "endSec": 8862,
+      "durationSec": 567,
+      "topic": "MacBook Pro Motherboard-Tausch",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 8863,
+      "endSec": 9090,
+      "durationSec": 227,
+      "topic": "Keychain Syncing",
+      "fineSubject": "Keychain",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9090,
+      "endSec": 10791,
+      "durationSec": 1701,
+      "topic": "Zukünftige MacBook Pros",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 10791,
+      "endSec": 12960,
+      "durationSec": 2169,
+      "topic": "macOS",
+      "fineSubject": "macOS",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 12960,
+      "endSec": 13431,
+      "durationSec": 471,
+      "topic": "Zukünftiges File System",
+      "fineSubject": "File System",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 13760,
+      "endSec": 14001,
+      "durationSec": 241,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 14
+    }
+  ]
+}

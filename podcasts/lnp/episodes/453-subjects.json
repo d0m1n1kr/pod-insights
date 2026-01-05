@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 453,
+  "title": "LNP453 +5 auf Überwachungsgesetze",
+  "generatedAt": "2026-01-05T15:17:57.636Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2111792177466433,
+      "Technology": 0.23394629305312317,
+      "Law": 0.11748394629305313,
+      "Security": 0,
+      "Social": 0.36500291885580854,
+      "Media": 0.07238762405137186,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1447,
+      "Technology": 1603,
+      "Law": 805,
+      "Security": 0,
+      "Social": 2501,
+      "Media": 496,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 4,
+      "Law": 1,
+      "Security": 0,
+      "Social": 4,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6852,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 116,
+      "endSec": 295,
+      "durationSec": 179,
+      "topic": "Feedback: Schweden",
+      "fineSubject": "Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 296,
+      "endSec": 1051,
+      "durationSec": 755,
+      "topic": "Feedback: Der Herr der Ringe",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1052,
+      "endSec": 1313,
+      "durationSec": 261,
+      "topic": "Neue Chefin für das BSI",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1313,
+      "endSec": 2118,
+      "durationSec": 805,
+      "topic": "Update Chatkontrolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2118,
+      "endSec": 3286,
+      "durationSec": 1168,
+      "topic": "Starlink und kritische Infrastruktur",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3287,
+      "endSec": 3704,
+      "durationSec": 417,
+      "topic": "Letzte Generation und Daten",
+      "fineSubject": "Activism",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3704,
+      "endSec": 4890,
+      "durationSec": 1186,
+      "topic": "Bund ID und Energiekostenzuschuss",
+      "fineSubject": "Identity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 4891,
+      "endSec": 6041,
+      "durationSec": 1150,
+      "topic": "Twitter und Co",
+      "fineSubject": "Media",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 6042,
+      "endSec": 6538,
+      "durationSec": 496,
+      "topic": "GFF produziert gute Nachrichten",
+      "fineSubject": "News",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6538,
+      "endSec": 6619,
+      "durationSec": 81,
+      "topic": "Kurznachrichten: TrustPID",
+      "fineSubject": "Privacy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6620,
+      "endSec": 6672,
+      "durationSec": 52,
+      "topic": "Kurznachrichten: Content Moderation",
+      "fineSubject": "Content Moderation",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6673,
+      "endSec": 6975,
+      "durationSec": 302,
+      "topic": "Bing wird depressiv",
+      "fineSubject": "AI",
+      "topicIndex": 11
+    }
+  ]
+}

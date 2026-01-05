@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 67,
+  "title": "LNP067 Schon lange nichts mehr auf NSA gepostet",
+  "generatedAt": "2026-01-05T15:17:57.582Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.14475834695307027,
+      "Technology": 0.09502685033854774,
+      "Law": 0.03899136119542377,
+      "Security": 0.2281111370534672,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.493112304459491,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 620,
+      "Technology": 407,
+      "Law": 167,
+      "Security": 977,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2112,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 4283,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Privacy",
+      "startSec": 210,
+      "endSec": 2322,
+      "durationSec": 2112,
+      "topic": "PRISM",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2322,
+      "endSec": 2677,
+      "durationSec": 355,
+      "topic": "EU: LobbyPlag Update",
+      "fineSubject": "Lobbying",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2678,
+      "endSec": 3085,
+      "durationSec": 407,
+      "topic": "Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 3086,
+      "endSec": 3253,
+      "durationSec": 167,
+      "topic": "Prozessauftakt Bradley Manning",
+      "fineSubject": "Court Cases",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3253,
+      "endSec": 3518,
+      "durationSec": 265,
+      "topic": "E-Government-Gesetz passiert den Bundesrat",
+      "fineSubject": "E-Government",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3518,
+      "endSec": 4495,
+      "durationSec": 977,
+      "topic": "EU: Hackertool-Verbot & Cyberangriff-Meldepflicht",
+      "fineSubject": "Legislation",
+      "topicIndex": 5
+    }
+  ]
+}

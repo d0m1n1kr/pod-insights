@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 121,
+  "title": "FS121 You Will Never Leave The American Sector",
+  "generatedAt": "2026-01-05T15:17:51.074Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1508446347846776,
+      "Software": 0.4495994924260449,
+      "Hardware": 0.08287730985803791,
+      "Finance": 0,
+      "Media": 0.2793242921722579,
+      "Social": 0,
+      "Culture": 0.03735427075898168,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1902,
+      "Software": 5669,
+      "Hardware": 1045,
+      "Finance": 0,
+      "Media": 3522,
+      "Social": 0,
+      "Culture": 471,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 2,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12609,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 388,
+      "endSec": 3910,
+      "durationSec": 3522,
+      "topic": "VFX, 3D und Kino",
+      "fineSubject": "VFX",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 3910,
+      "endSec": 7978,
+      "durationSec": 4068,
+      "topic": "Software für 3D und Apples neue Rechner",
+      "fineSubject": "3D",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7978,
+      "endSec": 9023,
+      "durationSec": 1045,
+      "topic": "Geschenke und iPads",
+      "fineSubject": "iPad",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 9023,
+      "endSec": 10624,
+      "durationSec": 1601,
+      "topic": "Mavericks",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10624,
+      "endSec": 12526,
+      "durationSec": 1902,
+      "topic": "Carrier Grade NAT",
+      "fineSubject": "NAT",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 12526,
+      "endSec": 12997,
+      "durationSec": 471,
+      "topic": "Kulturelles",
+      "fineSubject": "General",
+      "topicIndex": 5
+    }
+  ]
+}

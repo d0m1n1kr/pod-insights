@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 246,
+  "title": "Mi246 – „Blume der Wissenschaft“",
+  "generatedAt": "2026-01-05T15:18:17.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.3447570332480818,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.4132992327365729,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.24194373401534527,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1348,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1616,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 946,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 3910,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 911,
+      "endSec": 1334,
+      "durationSec": 423,
+      "topic": "Ticket to Mars",
+      "fineSubject": "Mars Exploration",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1334,
+      "endSec": 1598,
+      "durationSec": 264,
+      "topic": "Karte vom Mars",
+      "fineSubject": "Mars Mapping",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1598,
+      "endSec": 2544,
+      "durationSec": 946,
+      "topic": "Reale Fotos oder Fake?",
+      "fineSubject": "Photography",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4357,
+      "endSec": 5018,
+      "durationSec": 661,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5018,
+      "endSec": 6634,
+      "durationSec": 1616,
+      "topic": "Thema 2: \"I am sorry Dave, you shouldn`t do that\"",
+      "fineSubject": "AI Ethics",
+      "topicIndex": 6
+    }
+  ]
+}

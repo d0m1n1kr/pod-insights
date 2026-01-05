@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 507,
+  "title": "LNP507 Fundamentalisten der Herzen",
+  "generatedAt": "2026-01-05T15:17:57.642Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3232600732600733,
+      "Technology": 0.3663003663003663,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.030906593406593408,
+      "Privacy": 0,
+      "Culture": 0.27953296703296704
+    },
+    "durations": {
+      "Politics": 1412,
+      "Technology": 1600,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 135,
+      "Privacy": 0,
+      "Culture": 1221
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 2
+    },
+    "totalDurationSec": 4368,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 460,
+      "endSec": 1116,
+      "durationSec": 656,
+      "topic": "Es war nicht alles schlecht mit der FDP",
+      "fineSubject": "Political Parties",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1117,
+      "endSec": 1873,
+      "durationSec": 756,
+      "topic": "AFD Verbot",
+      "fineSubject": "Political Movements",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1873,
+      "endSec": 2587,
+      "durationSec": 714,
+      "topic": "AI Scamware",
+      "fineSubject": "Scams",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2588,
+      "endSec": 3063,
+      "durationSec": 475,
+      "topic": "Grandma Daisy",
+      "fineSubject": "Family",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3063,
+      "endSec": 3391,
+      "durationSec": 328,
+      "topic": "US-Justizministerium: Google soll sich von Chrome trennen",
+      "fineSubject": "Web Browsers",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3392,
+      "endSec": 3950,
+      "durationSec": 558,
+      "topic": "Facebook Datenleck",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 3950,
+      "endSec": 4085,
+      "durationSec": 135,
+      "topic": "Jobs",
+      "fineSubject": "Employment",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4085,
+      "endSec": 4831,
+      "durationSec": 746,
+      "topic": "Weihnachten",
+      "fineSubject": "Holidays",
+      "topicIndex": 7
+    }
+  ]
+}

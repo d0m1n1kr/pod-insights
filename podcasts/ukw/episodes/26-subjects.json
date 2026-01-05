@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 26,
+  "title": "UKW026 Corona: Quarano",
+  "generatedAt": "2026-01-05T15:18:03.003Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 2632,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 3,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 2632,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 224,
+      "endSec": 713,
+      "durationSec": 489,
+      "topic": "Wir vs. Virus Hackathon",
+      "fineSubject": "Public Health",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 713,
+      "endSec": 1520,
+      "durationSec": 807,
+      "topic": "Realität Gesundsheitsamt",
+      "fineSubject": "Health Administration",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1521,
+      "endSec": 2857,
+      "durationSec": 1336,
+      "topic": "Quarano",
+      "fineSubject": "Health Technology",
+      "topicIndex": 3
+    }
+  ]
+}

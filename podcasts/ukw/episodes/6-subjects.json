@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 6,
+  "title": "UKW006 Brexit: Dead in a ditch",
+  "generatedAt": "2026-01-05T15:18:02.998Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.9829545454545454,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0.017045454545454544,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 7439,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 129,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 13,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7568,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Travel",
+      "startSec": 45,
+      "endSec": 174,
+      "durationSec": 129,
+      "topic": "Jon auf Reisen",
+      "fineSubject": "Personal Experience",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 175,
+      "endSec": 854,
+      "durationSec": 679,
+      "topic": "Prorogation of Parlament",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 855,
+      "endSec": 1473,
+      "durationSec": 618,
+      "topic": "Entscheidung des Supreme Courts",
+      "fineSubject": "Judicial Decisions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1474,
+      "endSec": 2333,
+      "durationSec": 859,
+      "topic": "Das neue Withdrawal Agreement (WA) mit der EU",
+      "fineSubject": "International Agreements",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2333,
+      "endSec": 3103,
+      "durationSec": 770,
+      "topic": "Abstimmung über WA und WAB im Parlament",
+      "fineSubject": "Legislative Process",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3103,
+      "endSec": 3651,
+      "durationSec": 548,
+      "topic": "Neuwahlen oder Referendum",
+      "fineSubject": "Elections",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3652,
+      "endSec": 4033,
+      "durationSec": 381,
+      "topic": "Mr. Speaker John Bercow",
+      "fineSubject": "Political Figures",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4034,
+      "endSec": 4407,
+      "durationSec": 373,
+      "topic": "Rückblick auf das Parlament 2017-2019",
+      "fineSubject": "Historical Overview",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4408,
+      "endSec": 5799,
+      "durationSec": 1391,
+      "topic": "Die Parteien vor der Wahl",
+      "fineSubject": "Political Parties",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5799,
+      "endSec": 6264,
+      "durationSec": 465,
+      "topic": "Wahlausgangszenarien",
+      "fineSubject": "Election Outcomes",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6264,
+      "endSec": 6738,
+      "durationSec": 474,
+      "topic": "Boris Johnson und die Korruption",
+      "fineSubject": "Corruption",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6739,
+      "endSec": 7254,
+      "durationSec": 515,
+      "topic": "When Brexit happens",
+      "fineSubject": "Brexit",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7254,
+      "endSec": 7425,
+      "durationSec": 171,
+      "topic": "Optimistischer Ausblick",
+      "fineSubject": "Future Perspectives",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7426,
+      "endSec": 7621,
+      "durationSec": 195,
+      "topic": "Wahlregistrierung",
+      "fineSubject": "Voter Registration",
+      "topicIndex": 13
+    }
+  ]
+}

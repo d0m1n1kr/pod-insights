@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 131,
+  "title": "FS131 Vier Maschen pro Pixel",
+  "generatedAt": "2026-01-05T15:17:51.076Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5478490913273522,
+      "Software": 0.11214630779848171,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.3400046008741661,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4763,
+      "Software": 975,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 2956,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 2,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8694,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 4647,
+      "endSec": 5817,
+      "durationSec": 1170,
+      "topic": "Heartbleed",
+      "fineSubject": "Heartbleed",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 7128,
+      "endSec": 8914,
+      "durationSec": 1786,
+      "topic": "Zertifikate",
+      "fineSubject": "Zertifikate",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8914,
+      "endSec": 10293,
+      "durationSec": 1379,
+      "topic": "Schlechtes Internet",
+      "fineSubject": "Schlechtes Internet",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 10827,
+      "endSec": 11802,
+      "durationSec": 975,
+      "topic": "Software-Umstellungen in der Metaebene",
+      "fineSubject": "Metaebene",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12000,
+      "endSec": 12405,
+      "durationSec": 405,
+      "topic": "Cosmos",
+      "fineSubject": "Cosmos",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12405,
+      "endSec": 15384,
+      "durationSec": 2979,
+      "topic": "Netzwerkkram",
+      "fineSubject": "Netzwerkkram",
+      "topicIndex": 10
+    }
+  ]
+}

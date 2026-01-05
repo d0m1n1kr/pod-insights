@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 274,
+  "title": "Mi274 – \"Zwangsinformiert\"",
+  "generatedAt": "2026-01-05T15:18:17.381Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.1765221200175208,
+      "Culture": 0.4650313914440064,
+      "Wissenschaft": 0,
+      "Health": 0.12717184990509564,
+      "Technology": 0.08278580814717477,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.08921010366476857,
+      "Physik": 0,
+      "Education": 0.059278726821433786,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1209,
+      "Culture": 3185,
+      "Wissenschaft": 0,
+      "Health": 871,
+      "Technology": 567,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 611,
+      "Physik": 0,
+      "Education": 406,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6849,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 456,
+      "endSec": 557,
+      "durationSec": 101,
+      "topic": "Auftritte Bremen und München",
+      "fineSubject": "Auftritte",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 557,
+      "endSec": 1168,
+      "durationSec": 611,
+      "topic": "Spezialgelagert Podcast Gastauftritt",
+      "fineSubject": "Podcast",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1168,
+      "endSec": 1735,
+      "durationSec": 567,
+      "topic": "AI Audio",
+      "fineSubject": "AI",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 1735,
+      "endSec": 1870,
+      "durationSec": 135,
+      "topic": "Science Notes",
+      "fineSubject": "Notes",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1870,
+      "endSec": 1949,
+      "durationSec": 79,
+      "topic": "Homöopathie und Techniker Krankenkasse",
+      "fineSubject": "Homöopathie",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Education",
+      "startSec": 1949,
+      "endSec": 2355,
+      "durationSec": 406,
+      "topic": "Drachen und Waldorfschulen",
+      "fineSubject": "Waldorfschulen",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2355,
+      "endSec": 3519,
+      "durationSec": 1164,
+      "topic": "Thema 1: “Der nächste Zombiewurm”",
+      "fineSubject": "Zombiewurm",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 3519,
+      "endSec": 4593,
+      "durationSec": 1074,
+      "topic": "Snackable Science: Wieviele Menschen",
+      "fineSubject": "Demografie",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4593,
+      "endSec": 6513,
+      "durationSec": 1920,
+      "topic": "Thema 2: \"beati pauperes spiritu\"",
+      "fineSubject": "Spiritualität",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 6513,
+      "endSec": 7305,
+      "durationSec": 792,
+      "topic": "Schwurbel der Woche: Bor OZ5",
+      "fineSubject": "Schwurbel",
+      "topicIndex": 9
+    }
+  ]
+}

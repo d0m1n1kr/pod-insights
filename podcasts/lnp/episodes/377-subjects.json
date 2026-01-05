@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 377,
+  "title": "LNP377 Zauberlehrling Reloaded",
+  "generatedAt": "2026-01-05T15:17:57.625Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.15473251028806584,
+      "Technology": 0.32592592592592595,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.3786008230452675,
+      "Media": 0.14074074074074075,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 564,
+      "Technology": 1188,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1380,
+      "Media": 513,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3645,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 113,
+      "endSec": 236,
+      "durationSec": 123,
+      "topic": "Feedback: Wahlpersonen USA",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 237,
+      "endSec": 678,
+      "durationSec": 441,
+      "topic": "Feedback: Trump-Sperre",
+      "fineSubject": "Trump",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 679,
+      "endSec": 825,
+      "durationSec": 146,
+      "topic": "Feedback: Wikipedia-Diktat",
+      "fineSubject": "Wikipedia",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 825,
+      "endSec": 1192,
+      "durationSec": 367,
+      "topic": "Deltachat, Matrix, Signal, Threema",
+      "fineSubject": "Messaging Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 1192,
+      "endSec": 2572,
+      "durationSec": 1380,
+      "topic": "Clubhouse",
+      "fineSubject": "Audio Platforms",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2573,
+      "endSec": 3278,
+      "durationSec": 705,
+      "topic": "Digitalversagen Deutschland",
+      "fineSubject": "Digital Issues",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3278,
+      "endSec": 3761,
+      "durationSec": 483,
+      "topic": "Missstand Cookie-Banner",
+      "fineSubject": "User Experience",
+      "topicIndex": 6
+    }
+  ]
+}

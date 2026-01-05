@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 214,
+  "title": "Mi214 – „Wertschätzungsbasis“",
+  "generatedAt": "2026-01-05T15:18:17.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.13068522740909636,
+      "Culture": 0.2956918276731069,
+      "Wissenschaft": 0,
+      "Health": 0.3110524420976839,
+      "Technology": 0.04452178087123485,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.015480619224768991,
+      "Physik": 0,
+      "Education": 0.18852754110164407,
+      "Social": 0.014040561622464899,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1089,
+      "Culture": 2464,
+      "Wissenschaft": 0,
+      "Health": 2592,
+      "Technology": 371,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 129,
+      "Physik": 0,
+      "Education": 1571,
+      "Social": 117,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 8333,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 329,
+      "endSec": 1418,
+      "durationSec": 1089,
+      "topic": "Pseudowissenschaft, Gastpodcast, Vortrag",
+      "fineSubject": "Podcast / Lecture",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1829,
+      "endSec": 2200,
+      "durationSec": 371,
+      "topic": "iNaturalist",
+      "fineSubject": "Nature / iNaturalist",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2338,
+      "endSec": 2455,
+      "durationSec": 117,
+      "topic": "Themen der Woche",
+      "fineSubject": "Discussion / Weekly Themes",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Education",
+      "startSec": 2455,
+      "endSec": 4026,
+      "durationSec": 1571,
+      "topic": "Thema 1: “Besser lernen, besser lernen”",
+      "fineSubject": "Methodology / Better Learning",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4026,
+      "endSec": 5795,
+      "durationSec": 1769,
+      "topic": "Thema 2: \"Wes News ich seh des Lied ich sing\"",
+      "fineSubject": "Media / News",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5795,
+      "endSec": 7061,
+      "durationSec": 1266,
+      "topic": "Thema 3: “Antibabypille für Covid”",
+      "fineSubject": "Pharmaceuticals / COVID-19",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 7061,
+      "endSec": 8387,
+      "durationSec": 1326,
+      "topic": "Thema 4: \"Übergewicht im Standardmodell\"",
+      "fineSubject": "Obesity / Standard Model",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8488,
+      "endSec": 9183,
+      "durationSec": 695,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Discussion / Weekly Nonsense",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 9351,
+      "endSec": 9480,
+      "durationSec": 129,
+      "topic": "Miguel über PDT",
+      "fineSubject": "Discussion / PDT",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 9480,
+      "endSec": 9480,
+      "durationSec": 0,
+      "topic": "Harald über PDT",
+      "fineSubject": "Discussion / PDT",
+      "topicIndex": 10
+    }
+  ]
+}

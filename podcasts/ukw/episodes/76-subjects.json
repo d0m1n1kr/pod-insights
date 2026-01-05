@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 76,
+  "title": "UKW076 Corona Weekly: Alles wird gut, wir wissen nur nicht warum",
+  "generatedAt": "2026-01-05T15:18:03.018Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 8682,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 16,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8682,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 91,
+      "endSec": 1357,
+      "durationSec": 1266,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation Germany",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1357,
+      "endSec": 1831,
+      "durationSec": 474,
+      "topic": "Situation in den Bundesländer",
+      "fineSubject": "COVID-19 Situation Federal States",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1831,
+      "endSec": 2138,
+      "durationSec": 307,
+      "topic": "Testzahlen und Positivquote",
+      "fineSubject": "COVID-19 Testing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2139,
+      "endSec": 2961,
+      "durationSec": 822,
+      "topic": "Vierte Welle durch Indische Variante?",
+      "fineSubject": "COVID-19 Variants",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2962,
+      "endSec": 3200,
+      "durationSec": 238,
+      "topic": "Die Seychellen",
+      "fineSubject": "COVID-19 Global Situation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3200,
+      "endSec": 3570,
+      "durationSec": 370,
+      "topic": "Impfkampagne Deutschland",
+      "fineSubject": "Vaccination Campaign Germany",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3571,
+      "endSec": 4138,
+      "durationSec": 567,
+      "topic": "Impfstrategie, STIKO und Kinder",
+      "fineSubject": "Vaccination Strategy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4138,
+      "endSec": 4559,
+      "durationSec": 421,
+      "topic": "Impfbereitschaft in Deutschland",
+      "fineSubject": "Vaccination Willingness",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4560,
+      "endSec": 4622,
+      "durationSec": 62,
+      "topic": "BioNTech/Pfizer für 12+ zugelassen",
+      "fineSubject": "Vaccines for Children",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4622,
+      "endSec": 4783,
+      "durationSec": 161,
+      "topic": "Moderna für 12+ getestet",
+      "fineSubject": "Vaccines for Children",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4783,
+      "endSec": 5027,
+      "durationSec": 244,
+      "topic": "Sputnik V gegen P.1",
+      "fineSubject": "Vaccines",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 5028,
+      "endSec": 5813,
+      "durationSec": 785,
+      "topic": "Desinformationskampagne aus Russland",
+      "fineSubject": "Disinformation",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5813,
+      "endSec": 6160,
+      "durationSec": 347,
+      "topic": "Studie von Drosten et al zu Viral Load",
+      "fineSubject": "Research Studies",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 6161,
+      "endSec": 7195,
+      "durationSec": 1034,
+      "topic": "Studie zu Verktorimpfstoffen und Thrombosen",
+      "fineSubject": "Research Studies",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 7195,
+      "endSec": 7424,
+      "durationSec": 229,
+      "topic": "Pilzerkrankung in Indien",
+      "fineSubject": "Health Issues",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 7425,
+      "endSec": 8780,
+      "durationSec": 1355,
+      "topic": "Fazit und Ausbilck",
+      "fineSubject": "COVID-19 Outlook",
+      "topicIndex": 15
+    }
+  ]
+}

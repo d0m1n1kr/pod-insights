@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 246,
+  "title": "LNP246 Mailand oder Madrid, Hauptsache Rußland!",
+  "generatedAt": "2026-01-05T15:17:57.606Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.758574947887057,
+      "Technology": 0,
+      "Law": 0.12829259048701913,
+      "Security": 0.04945992040932348,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.06367254121660035,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4003,
+      "Technology": 0,
+      "Law": 677,
+      "Security": 261,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 336,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5277,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 180,
+      "endSec": 516,
+      "durationSec": 336,
+      "topic": "Feedback: Schufa",
+      "fineSubject": "Credit Score",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 517,
+      "endSec": 778,
+      "durationSec": 261,
+      "topic": "Feedback: Passwörter im Browser",
+      "fineSubject": "Browser Passwords",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 778,
+      "endSec": 2855,
+      "durationSec": 2077,
+      "topic": "Bundeshack",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2855,
+      "endSec": 4564,
+      "durationSec": 1709,
+      "topic": "Digitale Minister",
+      "fineSubject": "Digital Governance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 4565,
+      "endSec": 5242,
+      "durationSec": 677,
+      "topic": "Upload-Filter ante Portas",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6509,
+      "endSec": 6726,
+      "durationSec": 217,
+      "topic": "AfD geht weiter gegen kritische Seiten vor",
+      "fineSubject": "Censorship",
+      "topicIndex": 6
+    }
+  ]
+}

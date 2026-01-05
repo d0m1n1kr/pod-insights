@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 263,
+  "title": "Mi263 – „Schreigranate“",
+  "generatedAt": "2026-01-05T15:18:17.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.8228805546801135,
+      "Culture": 0.14796722344784116,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.029152221872045383,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 5222,
+      "Culture": 939,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 185,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 6,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6346,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 73,
+      "endSec": 258,
+      "durationSec": 185,
+      "topic": "10 Jahre Minkorrekt Show",
+      "fineSubject": "Anniversary",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 258,
+      "endSec": 1047,
+      "durationSec": 789,
+      "topic": "Pflanzkorrekt",
+      "fineSubject": "Plant Care",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1047,
+      "endSec": 1710,
+      "durationSec": 663,
+      "topic": "Hochtemperatursupraleitung",
+      "fineSubject": "Superconductivity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 1710,
+      "endSec": 3438,
+      "durationSec": 1728,
+      "topic": "Balkonkraftwerk",
+      "fineSubject": "Solar Power",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4209,
+      "endSec": 4953,
+      "durationSec": 744,
+      "topic": "Kommentar: Kernenergieraketen",
+      "fineSubject": "Nuclear",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4953,
+      "endSec": 5119,
+      "durationSec": 166,
+      "topic": "Kommentar: Cäsars Atem",
+      "fineSubject": "Historical Figures",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5119,
+      "endSec": 5806,
+      "durationSec": 687,
+      "topic": "Thema 1: “Crocodile baby”",
+      "fineSubject": "Pop Culture",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 5806,
+      "endSec": 6938,
+      "durationSec": 1132,
+      "topic": "Thema 2: \"Civilization on Mars\"",
+      "fineSubject": "Mars Exploration",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7835,
+      "endSec": 8087,
+      "durationSec": 252,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 9
+    }
+  ]
+}

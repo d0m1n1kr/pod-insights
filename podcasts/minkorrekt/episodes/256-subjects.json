@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 256,
+  "title": "Mi256 – \"Problemhaus\"",
+  "generatedAt": "2026-01-05T15:18:17.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.39939485627836613,
+      "Culture": 0.2364382969526691,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.36416684676896477,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1848,
+      "Culture": 1094,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1685,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 4627,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 2268,
+      "endSec": 2852,
+      "durationSec": 584,
+      "topic": "Schwurbler in den Knast",
+      "fineSubject": "Schwurbler in den Knast",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2852,
+      "endSec": 3946,
+      "durationSec": 1094,
+      "topic": "Museen in Kopenhagen",
+      "fineSubject": "Museen in Kopenhagen",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3946,
+      "endSec": 4891,
+      "durationSec": 945,
+      "topic": "Thema 1: “Ameisen-Triage”",
+      "fineSubject": "Ameisen-Triage",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4891,
+      "endSec": 5794,
+      "durationSec": 903,
+      "topic": "Experiment: Tanzende Erdnuss",
+      "fineSubject": "Tanzende Erdnuss",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 5794,
+      "endSec": 6895,
+      "durationSec": 1101,
+      "topic": "Thema 2: \"Gemeinsam alt werden\"",
+      "fineSubject": "Gemeinsam alt werden",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 6895,
+      "endSec": 6895,
+      "durationSec": 0,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Schwurbel der Woche",
+      "topicIndex": 6
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 368,
+  "title": "Mi368 – \"frische Körper\"",
+  "generatedAt": "2026-01-05T15:18:17.395Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.28566806858621807,
+      "Culture": 0.7143319314137819,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 883,
+      "Culture": 2208,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 3091,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 310,
+      "endSec": 752,
+      "durationSec": 442,
+      "topic": "Halloween",
+      "fineSubject": "Holidays",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1342,
+      "endSec": 1465,
+      "durationSec": 123,
+      "topic": "Artemis",
+      "fineSubject": "Artemis Program",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 1465,
+      "endSec": 1791,
+      "durationSec": 326,
+      "topic": "Science Slam",
+      "fineSubject": "Public Engagement",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1893,
+      "endSec": 3659,
+      "durationSec": 1766,
+      "topic": "Thema 1: “Aus einem Kosmos vor unserer Zeit”",
+      "fineSubject": "Cosmology",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 3659,
+      "endSec": 4093,
+      "durationSec": 434,
+      "topic": "Science Snack",
+      "fineSubject": "Short Presentations",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7454,
+      "endSec": 7454,
+      "durationSec": 0,
+      "topic": "Song \"Die Erde ist eine Scheibe\" von David",
+      "fineSubject": "Songs",
+      "topicIndex": 9
+    }
+  ]
+}

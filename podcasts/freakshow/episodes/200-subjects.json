@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 200,
+  "title": "FS200 Alle Fuzzies freuen sich",
+  "generatedAt": "2026-01-05T15:17:51.092Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2118232890704801,
+      "Software": 0.2754085801838611,
+      "Hardware": 0.2974974463738509,
+      "Finance": 0.11018896833503575,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.026813074565883555,
+      "Security": 0,
+      "Events": 0.07826864147088866,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1659,
+      "Software": 2157,
+      "Hardware": 2330,
+      "Finance": 863,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 210,
+      "Security": 0,
+      "Events": 613,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 6,
+      "Hardware": 5,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7832,
+    "totalTopics": 29
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 1074,
+      "endSec": 1554,
+      "durationSec": 480,
+      "topic": "USB-C Adapter und Keyboards",
+      "fineSubject": "Adapters and Keyboards",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1555,
+      "endSec": 1765,
+      "durationSec": 210,
+      "topic": "Keine Schoki für die Freak Show",
+      "fineSubject": "Freak Show",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 1766,
+      "endSec": 1927,
+      "durationSec": 161,
+      "topic": "FreeBSD",
+      "fineSubject": "FreeBSD",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Events",
+      "startSec": 1928,
+      "endSec": 2541,
+      "durationSec": 613,
+      "topic": "WWDC",
+      "fineSubject": "WWDC",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3628,
+      "endSec": 4491,
+      "durationSec": 863,
+      "topic": "Apple Pay",
+      "fineSubject": "Apple Pay",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 4491,
+      "endSec": 5201,
+      "durationSec": 710,
+      "topic": "macOS: Neue Audio und Video Codecs",
+      "fineSubject": "Audio and Video Codecs",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5841,
+      "endSec": 5935,
+      "durationSec": 94,
+      "topic": "CoreNFC",
+      "fineSubject": "CoreNFC",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5935,
+      "endSec": 6670,
+      "durationSec": 735,
+      "topic": "Machine Learning",
+      "fineSubject": "Machine Learning",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 7437,
+      "endSec": 7958,
+      "durationSec": 521,
+      "topic": "64 Bit Transition",
+      "fineSubject": "64 Bit Transition",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8284,
+      "endSec": 9114,
+      "durationSec": 830,
+      "topic": "OS Networking Changes",
+      "fineSubject": "OS Changes",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 9115,
+      "endSec": 9172,
+      "durationSec": 57,
+      "topic": "iOS Video Player und Volume Control",
+      "fineSubject": "iOS Video Player",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 9350,
+      "endSec": 9545,
+      "durationSec": 195,
+      "topic": "PDFOutliner",
+      "fineSubject": "PDFOutliner",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9837,
+      "endSec": 10112,
+      "durationSec": 275,
+      "topic": "Neue iMacs",
+      "fineSubject": "iMacs",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10113,
+      "endSec": 10438,
+      "durationSec": 325,
+      "topic": "iMac Pro",
+      "fineSubject": "iMac Pro",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Software",
+      "startSec": 10438,
+      "endSec": 10951,
+      "durationSec": 513,
+      "topic": "Computer Name Spaces",
+      "fineSubject": "Name Spaces",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11428,
+      "endSec": 11532,
+      "durationSec": 104,
+      "topic": "Externe GPUs und Mac Pro",
+      "fineSubject": "External GPUs",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11532,
+      "endSec": 12678,
+      "durationSec": 1146,
+      "topic": "HomePod",
+      "fineSubject": "HomePod",
+      "topicIndex": 27
+    }
+  ]
+}

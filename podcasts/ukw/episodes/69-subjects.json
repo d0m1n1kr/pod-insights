@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 69,
+  "title": "UKW069 Corona Weekly: Inzidenzen interessieren keine Sau",
+  "generatedAt": "2026-01-05T15:18:03.017Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.88246215367038,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0.015281348186232505,
+      "Society": 0.05769780062839189,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0.044558697514995714,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 6179,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 107,
+      "Society": 404,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 312,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 15,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 1,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 1,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7002,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Economy",
+      "startSec": 278,
+      "endSec": 590,
+      "durationSec": 312,
+      "topic": "Feedback: Wirtschaft",
+      "fineSubject": "Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 590,
+      "endSec": 1343,
+      "durationSec": 753,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1344,
+      "endSec": 1538,
+      "durationSec": 194,
+      "topic": "Saisonalität",
+      "fineSubject": "Seasonality",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1539,
+      "endSec": 2001,
+      "durationSec": 462,
+      "topic": "Impfungen in Deutschland",
+      "fineSubject": "Vaccinations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2001,
+      "endSec": 2106,
+      "durationSec": 105,
+      "topic": "Impfstofflieferungen",
+      "fineSubject": "Vaccine Supply",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2107,
+      "endSec": 2235,
+      "durationSec": 128,
+      "topic": "J&J-Impfstoff in den USA",
+      "fineSubject": "Vaccine Types",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2235,
+      "endSec": 2761,
+      "durationSec": 526,
+      "topic": "Untersuchung zu Sinusthrombosen",
+      "fineSubject": "Research",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2762,
+      "endSec": 3120,
+      "durationSec": 358,
+      "topic": "Effizienz von Impfstoffen",
+      "fineSubject": "Vaccine Efficacy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3120,
+      "endSec": 3462,
+      "durationSec": 342,
+      "topic": "Corona-Ausbruch in Altenheim nach Impfung",
+      "fineSubject": "Outbreaks",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3463,
+      "endSec": 3721,
+      "durationSec": 258,
+      "topic": "Wirken Impfstoffe gegen neue Varianten?",
+      "fineSubject": "Variants",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 3721,
+      "endSec": 4024,
+      "durationSec": 303,
+      "topic": "Registrieren für Impfstudien",
+      "fineSubject": "Clinical Trials",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4024,
+      "endSec": 5101,
+      "durationSec": 1077,
+      "topic": "Impffortschritte in anderen Ländern",
+      "fineSubject": "Global Vaccination",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5101,
+      "endSec": 5704,
+      "durationSec": 603,
+      "topic": "Anti-Covid-Wirkung durch Asthmamittel",
+      "fineSubject": "Treatment Research",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5704,
+      "endSec": 6263,
+      "durationSec": 559,
+      "topic": "Schnellltests",
+      "fineSubject": "Testing",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 6264,
+      "endSec": 6615,
+      "durationSec": 351,
+      "topic": "Pool-PCR",
+      "fineSubject": "Testing Methods",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 6616,
+      "endSec": 6776,
+      "durationSec": 160,
+      "topic": "Abwassertests",
+      "fineSubject": "Testing Methods",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Society",
+      "startSec": 6776,
+      "endSec": 7180,
+      "durationSec": 404,
+      "topic": "Kartelle der Angst",
+      "fineSubject": "Public Perception",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 7320,
+      "endSec": 7427,
+      "durationSec": 107,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 17
+    }
+  ]
+}

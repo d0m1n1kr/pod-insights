@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 42,
+  "title": "LNP042 Kann Spuren von Wahrheit enthalten",
+  "generatedAt": "2026-01-05T15:17:57.578Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6079734219269103,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.3920265780730897,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1464,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 944,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2408,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 103,
+      "endSec": 272,
+      "durationSec": 169,
+      "topic": "LSR-Petition erwartungsgemäß gescheitert",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 273,
+      "endSec": 522,
+      "durationSec": 249,
+      "topic": "Anhörung zur VDS-Petition",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 523,
+      "endSec": 996,
+      "durationSec": 473,
+      "topic": "Österreich: VDS gegen Urheberrechtsverletzungen",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 996,
+      "endSec": 1281,
+      "durationSec": 285,
+      "topic": "EU will Dokumente zur Vorratsdatenspeicherung aus dem Netz klagen",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1282,
+      "endSec": 1570,
+      "durationSec": 288,
+      "topic": "Bundestag will Gutachten zur Abgeordnetenkorruption aus dem Netz klagen",
+      "fineSubject": "Corruption",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 1571,
+      "endSec": 2515,
+      "durationSec": 944,
+      "topic": "Paywall bei Wikileaks",
+      "fineSubject": "Access",
+      "topicIndex": 5
+    }
+  ]
+}

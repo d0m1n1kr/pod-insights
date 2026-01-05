@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 518,
+  "title": "LNP518 Verständnis für IT",
+  "generatedAt": "2026-01-05T15:17:57.644Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6933652121936641,
+      "Technology": 0.3066347878063359,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3480,
+      "Technology": 1539,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5019,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 80,
+      "endSec": 556,
+      "durationSec": 476,
+      "topic": "Open Tech Fund vor dem Aus",
+      "fineSubject": "Tech Policy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 556,
+      "endSec": 901,
+      "durationSec": 345,
+      "topic": "Feedback: Big Tech @ Trump Inauguration",
+      "fineSubject": "Big Tech",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 902,
+      "endSec": 1006,
+      "durationSec": 104,
+      "topic": "Feedback: Links und Rechts",
+      "fineSubject": "Ideology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1007,
+      "endSec": 1354,
+      "durationSec": 347,
+      "topic": "Neue Bundesregierung",
+      "fineSubject": "Government",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1355,
+      "endSec": 2614,
+      "durationSec": 1259,
+      "topic": "Digitalministerium",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2614,
+      "endSec": 3563,
+      "durationSec": 949,
+      "topic": "Snooper's Charter in UK",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3564,
+      "endSec": 5103,
+      "durationSec": 1539,
+      "topic": "Chatbot-Manipulation",
+      "fineSubject": "AI",
+      "topicIndex": 6
+    }
+  ]
+}

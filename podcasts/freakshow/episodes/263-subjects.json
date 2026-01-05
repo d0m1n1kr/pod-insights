@@ -1,0 +1,288 @@
+{
+  "episodeNumber": 263,
+  "title": "FS263 Performance Performance Performance",
+  "generatedAt": "2026-01-05T15:17:51.113Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.00618921308576481,
+      "Software": 0.47630415561450046,
+      "Hardware": 0.28116710875331563,
+      "Finance": 0.1358974358974359,
+      "Media": 0.1004420866489832,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 70,
+      "Software": 5387,
+      "Hardware": 3180,
+      "Finance": 1537,
+      "Media": 1136,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 11,
+      "Hardware": 9,
+      "Finance": 1,
+      "Media": 4,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11310,
+    "totalTopics": 28
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 374,
+      "endSec": 623,
+      "durationSec": 249,
+      "topic": "MacBook Pro: Kaufentscheidungen",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 624,
+      "endSec": 778,
+      "durationSec": 154,
+      "topic": "Auto-Konfiguratoren",
+      "fineSubject": "Auto-Konfiguratoren",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 778,
+      "endSec": 1472,
+      "durationSec": 694,
+      "topic": "MacBook Pro: Virtualisierungen",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1473,
+      "endSec": 1562,
+      "durationSec": 89,
+      "topic": "MacBook Pro: SD Card",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1562,
+      "endSec": 1709,
+      "durationSec": 147,
+      "topic": "MacBook Pro: The Notch",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1710,
+      "endSec": 1988,
+      "durationSec": 278,
+      "topic": "MacBook Pro: ProMotion",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1988,
+      "endSec": 2361,
+      "durationSec": 373,
+      "topic": "MacBook Pro: Power",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2362,
+      "endSec": 2573,
+      "durationSec": 211,
+      "topic": "MacBook Pro: Gewicht",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 2574,
+      "endSec": 3365,
+      "durationSec": 791,
+      "topic": "macOS Support für alte Macs",
+      "fineSubject": "macOS",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 3365,
+      "endSec": 4081,
+      "durationSec": 716,
+      "topic": "macOS 12 Monterey",
+      "fineSubject": "macOS",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 4082,
+      "endSec": 4192,
+      "durationSec": 110,
+      "topic": "Live Text",
+      "fineSubject": "macOS",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4193,
+      "endSec": 5001,
+      "durationSec": 808,
+      "topic": "Neues iPhone",
+      "fineSubject": "iPhone",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 5002,
+      "endSec": 5456,
+      "durationSec": 454,
+      "topic": "ceelight",
+      "fineSubject": "ceelight",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 5456,
+      "endSec": 6754,
+      "durationSec": 1298,
+      "topic": "Enterprise Deployment",
+      "fineSubject": "Enterprise Deployment",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 6754,
+      "endSec": 7671,
+      "durationSec": 917,
+      "topic": "Apple Configurator 2",
+      "fineSubject": "Apple Configurator",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 7672,
+      "endSec": 8342,
+      "durationSec": 670,
+      "topic": "MDM Systeme",
+      "fineSubject": "MDM Systeme",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8342,
+      "endSec": 8673,
+      "durationSec": 331,
+      "topic": "iPhone 13 Pro Max",
+      "fineSubject": "iPhone",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 11207,
+      "endSec": 11724,
+      "durationSec": 517,
+      "topic": "Van Gogh TV - Piazza Virtuale",
+      "fineSubject": "Van Gogh TV",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Finance",
+      "startSec": 11725,
+      "endSec": 13262,
+      "durationSec": 1537,
+      "topic": "Bitcoin Update",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Media",
+      "startSec": 13262,
+      "endSec": 13719,
+      "durationSec": 457,
+      "topic": "YouTube Channel Tipps: Math",
+      "fineSubject": "YouTube",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Media",
+      "startSec": 13720,
+      "endSec": 13809,
+      "durationSec": 89,
+      "topic": "YouTube Channel Tipps: Gaming",
+      "fineSubject": "YouTube",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Media",
+      "startSec": 13809,
+      "endSec": 13882,
+      "durationSec": 73,
+      "topic": "YouTube Channel Tipps: Music",
+      "fineSubject": "YouTube",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Software",
+      "startSec": 13883,
+      "endSec": 13939,
+      "durationSec": 56,
+      "topic": "UNIX Tools: TouchID für sudo",
+      "fineSubject": "UNIX Tools",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Software",
+      "startSec": 13939,
+      "endSec": 13993,
+      "durationSec": 54,
+      "topic": "micro Text Editor",
+      "fineSubject": "Text Editor",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Software",
+      "startSec": 13994,
+      "endSec": 14161,
+      "durationSec": 167,
+      "topic": "gitui",
+      "fineSubject": "git",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14161,
+      "endSec": 14231,
+      "durationSec": 70,
+      "topic": "Erste Pizzabestellung durch einen Computer",
+      "fineSubject": "AI",
+      "topicIndex": 27
+    }
+  ]
+}

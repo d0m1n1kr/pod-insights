@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 154,
+  "title": "FS154 Das Epilierungszentrum der Popkultur",
+  "generatedAt": "2026-01-05T15:17:51.080Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5053886141752251,
+      "Software": 0,
+      "Hardware": 0.40598453150754404,
+      "Finance": 0,
+      "Media": 0.038544440218080386,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.01698998351718017,
+      "Event": 0.03309243058197033
+    },
+    "durations": {
+      "Technology": 3986,
+      "Software": 0,
+      "Hardware": 3202,
+      "Finance": 0,
+      "Media": 304,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 134,
+      "Event": 261
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 2
+    },
+    "totalDurationSec": 7887,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 127,
+      "endSec": 431,
+      "durationSec": 304,
+      "topic": "Fernsehen",
+      "fineSubject": "Television",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 581,
+      "endSec": 698,
+      "durationSec": 117,
+      "topic": "re:publica 15",
+      "fineSubject": "re:publica",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 699,
+      "endSec": 1632,
+      "durationSec": 933,
+      "topic": "Verplattformung des Internets",
+      "fineSubject": "Platforming",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3999,
+      "endSec": 6488,
+      "durationSec": 2489,
+      "topic": "Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6488,
+      "endSec": 7201,
+      "durationSec": 713,
+      "topic": "MacBook und Apples Quartail",
+      "fineSubject": "MacBook",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7201,
+      "endSec": 7672,
+      "durationSec": 471,
+      "topic": "Android World",
+      "fineSubject": "Android",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8315,
+      "endSec": 10276,
+      "durationSec": 1961,
+      "topic": "Flip-Dot-Display im Friedel-Richter",
+      "fineSubject": "Displays",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10276,
+      "endSec": 10897,
+      "durationSec": 621,
+      "topic": "Lantern",
+      "fineSubject": "Lanterns",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 11477,
+      "endSec": 11611,
+      "durationSec": 134,
+      "topic": "Spiel des Lebens",
+      "fineSubject": "Game of Life",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Event",
+      "startSec": 11612,
+      "endSec": 11756,
+      "durationSec": 144,
+      "topic": "OpenTechSummit",
+      "fineSubject": "OpenTechSummit",
+      "topicIndex": 15
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 338,
+  "title": "LNP338 Corona Tracking App",
+  "generatedAt": "2026-01-05T15:17:57.619Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.8500096394833236,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.1499903605166763,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 4409,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 778,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5187,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 120,
+      "endSec": 898,
+      "durationSec": 778,
+      "topic": "Von Mäusen und Masken",
+      "fineSubject": "Public Health",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 899,
+      "endSec": 5308,
+      "durationSec": 4409,
+      "topic": "Corona Tracking App",
+      "fineSubject": "Apps",
+      "topicIndex": 1
+    }
+  ]
+}

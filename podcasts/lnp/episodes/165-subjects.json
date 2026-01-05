@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 165,
+  "title": "LNP165 Rap-Battle im Verfassungsgericht",
+  "generatedAt": "2026-01-05T15:17:57.595Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 3028,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 7,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3028,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 0,
+      "endSec": 145,
+      "durationSec": 145,
+      "topic": "Krisennummer",
+      "fineSubject": "Legal / Treason",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 243,
+      "endSec": 391,
+      "durationSec": 148,
+      "topic": "Ulf Buermeyer",
+      "fineSubject": "Legal / Individual Rights",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 392,
+      "endSec": 905,
+      "durationSec": 513,
+      "topic": "Landesverrat",
+      "fineSubject": "Legal / Whistleblowing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 905,
+      "endSec": 1428,
+      "durationSec": 523,
+      "topic": "Datenhehlerei und Whistleblower",
+      "fineSubject": "Legal / Data Protection",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1429,
+      "endSec": 2435,
+      "durationSec": 1006,
+      "topic": "Die VDS und das Verfassungsgericht",
+      "fineSubject": "Legal / Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2436,
+      "endSec": 2956,
+      "durationSec": 520,
+      "topic": "Störerhaftung",
+      "fineSubject": "Legal / Störerhaftung",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2956,
+      "endSec": 3129,
+      "durationSec": 173,
+      "topic": "Datenschutzgrundverordnung",
+      "fineSubject": "Legal / GDPR",
+      "topicIndex": 6
+    }
+  ]
+}

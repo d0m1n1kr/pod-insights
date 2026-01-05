@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 440,
+  "title": "LNP440 Widersprechanlage",
+  "generatedAt": "2026-01-05T15:17:57.634Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.007730043109855805,
+      "Technology": 0.11996432287795451,
+      "Law": 0.5348595213319459,
+      "Security": 0.08428720083246619,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.14018135870373125,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.11297755314404638,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 52,
+      "Technology": 807,
+      "Law": 3598,
+      "Security": 567,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 943,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 760,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 2,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 6727,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 197,
+      "endSec": 477,
+      "durationSec": 280,
+      "topic": "Feedback: Panzerschloss",
+      "fineSubject": "Security",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 477,
+      "endSec": 1140,
+      "durationSec": 663,
+      "topic": "Feedback: Online-Apotheken",
+      "fineSubject": "Pharmacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1141,
+      "endSec": 4502,
+      "durationSec": 3361,
+      "topic": "Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4503,
+      "endSec": 5310,
+      "durationSec": 807,
+      "topic": "Internet im Iran",
+      "fineSubject": "Censorship",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5311,
+      "endSec": 5459,
+      "durationSec": 148,
+      "topic": "Videoüberwachung bei Demonstrationen",
+      "fineSubject": "Protests",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5459,
+      "endSec": 6071,
+      "durationSec": 612,
+      "topic": "Ring-Videos: Amazon gibt ohne Beschluss an Polizei weiter",
+      "fineSubject": "Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 6071,
+      "endSec": 6308,
+      "durationSec": 237,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chat Control",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6309,
+      "endSec": 6361,
+      "durationSec": 52,
+      "topic": "Pegasus-Untersuchungsausschuss",
+      "fineSubject": "Investigations",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 6361,
+      "endSec": 6483,
+      "durationSec": 122,
+      "topic": "Uber Hack",
+      "fineSubject": "Hacking",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 6484,
+      "endSec": 6929,
+      "durationSec": 445,
+      "topic": "Twitter Whistleblower",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 9
+    }
+  ]
+}

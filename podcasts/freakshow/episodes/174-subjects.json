@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 174,
+  "title": "FS174 Legacy Keystroke Importer",
+  "generatedAt": "2026-01-05T15:17:51.086Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.3749852368017007,
+      "Hardware": 0.1717255226172198,
+      "Finance": 0,
+      "Media": 0.13393173497106414,
+      "Social": 0.2971536553678989,
+      "Culture": 0.018778788236683594,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.003425062005432857,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 3175,
+      "Hardware": 1454,
+      "Finance": 0,
+      "Media": 1134,
+      "Social": 2516,
+      "Culture": 159,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 29,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 4,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 2,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 8467,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 422,
+      "endSec": 509,
+      "durationSec": 87,
+      "topic": "Gast",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 510,
+      "endSec": 669,
+      "durationSec": 159,
+      "topic": "Dildo Generator",
+      "fineSubject": "Adult Industry",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2499,
+      "endSec": 4928,
+      "durationSec": 2429,
+      "topic": "Metaebene Community Slack",
+      "fineSubject": "Community",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4928,
+      "endSec": 5471,
+      "durationSec": 543,
+      "topic": "Blackberry Passport",
+      "fineSubject": "Smartphones",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 6697,
+      "endSec": 6726,
+      "durationSec": 29,
+      "topic": "Bingo",
+      "fineSubject": "Bingo",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6727,
+      "endSec": 7378,
+      "durationSec": 651,
+      "topic": "iPhone SE",
+      "fineSubject": "Smartphones",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7379,
+      "endSec": 7639,
+      "durationSec": 260,
+      "topic": "iPad Pro",
+      "fineSubject": "Tablets",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 7639,
+      "endSec": 9460,
+      "durationSec": 1821,
+      "topic": "Das JavaScript Desaster",
+      "fineSubject": "JavaScript",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 9461,
+      "endSec": 10335,
+      "durationSec": 874,
+      "topic": "homebrew",
+      "fineSubject": "Package Management",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 10335,
+      "endSec": 11469,
+      "durationSec": 1134,
+      "topic": "Star Wars 7",
+      "fineSubject": "Film",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 11470,
+      "endSec": 11550,
+      "durationSec": 80,
+      "topic": "FreeBSD 10.3",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 11964,
+      "endSec": 12364,
+      "durationSec": 400,
+      "topic": "neovim",
+      "fineSubject": "Text Editors",
+      "topicIndex": 15
+    }
+  ]
+}

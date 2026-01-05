@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 385,
+  "title": "LNP385 Fümpf Blockchains!!!",
+  "generatedAt": "2026-01-05T15:17:57.626Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.9267087565193521,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.07329124348064782,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 6752,
+      "Law": 0,
+      "Security": 0,
+      "Social": 534,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 4,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7286,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 155,
+      "endSec": 689,
+      "durationSec": 534,
+      "topic": "Feedback: Privilegien vs. Grundrechte",
+      "fineSubject": "Rights",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 690,
+      "endSec": 1079,
+      "durationSec": 389,
+      "topic": "Feedback: IT-SiG 2.0 Anhörung",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1079,
+      "endSec": 1285,
+      "durationSec": 206,
+      "topic": "Feedback: Klemmbausteine",
+      "fineSubject": "Toys",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1286,
+      "endSec": 4143,
+      "durationSec": 2857,
+      "topic": "Digitaler Impfausweis mit 5 Blockchains",
+      "fineSubject": "Blockchain",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4144,
+      "endSec": 7444,
+      "durationSec": 3300,
+      "topic": "Luca vs. CrowdNotifier",
+      "fineSubject": "Apps",
+      "topicIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 299,
+  "title": "Mi299 – \"Alpakakaka\"",
+  "generatedAt": "2026-01-05T15:18:17.384Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.3123813541446952,
+      "Culture": 0.2839063488715461,
+      "Wissenschaft": 0,
+      "Health": 0.4037122969837587,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1481,
+      "Culture": 1346,
+      "Wissenschaft": 0,
+      "Health": 1914,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 3,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4741,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 136,
+      "endSec": 1373,
+      "durationSec": 1237,
+      "topic": "Pint of Science",
+      "fineSubject": "Pint of Science",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1373,
+      "endSec": 1740,
+      "durationSec": 367,
+      "topic": "Green Hospital",
+      "fineSubject": "Green Hospital",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1740,
+      "endSec": 2442,
+      "durationSec": 702,
+      "topic": "Knarzendes Gesundheitssystem",
+      "fineSubject": "Health System",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2675,
+      "endSec": 4021,
+      "durationSec": 1346,
+      "topic": "Thema 1: “Bier auf Gel, quietschfidel!”",
+      "fineSubject": "Beer Culture",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4021,
+      "endSec": 4265,
+      "durationSec": 244,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4265,
+      "endSec": 5110,
+      "durationSec": 845,
+      "topic": "Thema 2: \"Stehen Sie bequem!\"",
+      "fineSubject": "Comfort in Health",
+      "topicIndex": 6
+    }
+  ]
+}

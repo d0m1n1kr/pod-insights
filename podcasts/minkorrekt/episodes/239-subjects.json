@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 239,
+  "title": "Mi239 – „Innerlich in Pension“",
+  "generatedAt": "2026-01-05T15:18:17.376Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.6242679784492855,
+      "Culture": 0.2550948699929726,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.12063715155774186,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2665,
+      "Culture": 1089,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 515,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4269,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Education",
+      "startSec": 671,
+      "endSec": 1186,
+      "durationSec": 515,
+      "topic": "Kanzler an der Uni",
+      "fineSubject": "University",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1186,
+      "endSec": 1660,
+      "durationSec": 474,
+      "topic": "Strommix Live",
+      "fineSubject": "Electricity Mix",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1660,
+      "endSec": 2166,
+      "durationSec": 506,
+      "topic": "Umzug in den Pott",
+      "fineSubject": "Relocation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2166,
+      "endSec": 2749,
+      "durationSec": 583,
+      "topic": "mypiday",
+      "fineSubject": "mypiday",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3198,
+      "endSec": 4334,
+      "durationSec": 1136,
+      "topic": "Thema 1: “Das Salz in der subglazialen Suppe”",
+      "fineSubject": "Geology",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4334,
+      "endSec": 5389,
+      "durationSec": 1055,
+      "topic": "Experiment \"Eiszwitschern\"",
+      "fineSubject": "Ice Research",
+      "topicIndex": 5
+    }
+  ]
+}

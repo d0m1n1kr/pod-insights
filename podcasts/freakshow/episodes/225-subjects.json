@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 225,
+  "title": "FS225 Frontend von Judäa",
+  "generatedAt": "2026-01-05T15:17:51.099Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.34727317192467594,
+      "Software": 0.5898752751283932,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.02070595907719899,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.0421455938697318
+    },
+    "durations": {
+      "Technology": 4260,
+      "Software": 7236,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 254,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 517
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 3,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 2
+    },
+    "totalDurationSec": 12267,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 347,
+      "endSec": 720,
+      "durationSec": 373,
+      "topic": "Vorgezogene Congress-Keynote",
+      "fineSubject": "Keynote",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2789,
+      "endSec": 3069,
+      "durationSec": 280,
+      "topic": "Webkonferenzen",
+      "fineSubject": "Web Conferences",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 3164,
+      "endSec": 5807,
+      "durationSec": 2643,
+      "topic": "Agile Entwicklungsmethoden",
+      "fineSubject": "Agile",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5807,
+      "endSec": 7646,
+      "durationSec": 1839,
+      "topic": "Die Welt ist eine Google",
+      "fineSubject": "Search Engines",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 7647,
+      "endSec": 9184,
+      "durationSec": 1537,
+      "topic": "Open Source Development",
+      "fineSubject": "Software Development",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9184,
+      "endSec": 9794,
+      "durationSec": 610,
+      "topic": "gigatron TTL Color Computer",
+      "fineSubject": "Vintage Computers",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9795,
+      "endSec": 10612,
+      "durationSec": 817,
+      "topic": "Voice Coder und Skynet",
+      "fineSubject": "Voice Coding",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10613,
+      "endSec": 10856,
+      "durationSec": 243,
+      "topic": "Machine learning failures",
+      "fineSubject": "Machine Learning",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 10856,
+      "endSec": 13912,
+      "durationSec": 3056,
+      "topic": "Der Frontend Report",
+      "fineSubject": "Frontend Report",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13913,
+      "endSec": 14384,
+      "durationSec": 471,
+      "topic": "Internetprobleme in Thüringen",
+      "fineSubject": "Internet Issues",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Event",
+      "startSec": 14385,
+      "endSec": 14529,
+      "durationSec": 144,
+      "topic": "JavaScript Meetup in Jena",
+      "fineSubject": "JavaScript",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 14810,
+      "endSec": 15064,
+      "durationSec": 254,
+      "topic": "Bonus Track",
+      "fineSubject": "Track",
+      "topicIndex": 15
+    }
+  ]
+}

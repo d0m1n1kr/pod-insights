@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 432,
+  "title": "LNP432 AlgorithmWatch",
+  "generatedAt": "2026-01-05T15:17:57.633Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.17383381924198252,
+      "Technology": 0.5379008746355685,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.16399416909620992,
+      "Media": 0.12427113702623907,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 954,
+      "Technology": 2952,
+      "Law": 0,
+      "Security": 0,
+      "Social": 900,
+      "Media": 682,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 4,
+      "Law": 0,
+      "Security": 0,
+      "Social": 5,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5488,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 61,
+      "endSec": 177,
+      "durationSec": 116,
+      "topic": "Matthias Spielkamp",
+      "fineSubject": "Matthias Spielkamp",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 178,
+      "endSec": 611,
+      "durationSec": 433,
+      "topic": "Algorithmen und Journalismus",
+      "fineSubject": "Journalism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 611,
+      "endSec": 860,
+      "durationSec": 249,
+      "topic": "Datenjournalismus",
+      "fineSubject": "Data Journalism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 861,
+      "endSec": 1196,
+      "durationSec": 335,
+      "topic": "AlgorithmWatch",
+      "fineSubject": "AlgorithmWatch",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 1197,
+      "endSec": 1460,
+      "durationSec": 263,
+      "topic": "Metathemen",
+      "fineSubject": "Meta Topics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1461,
+      "endSec": 3008,
+      "durationSec": 1547,
+      "topic": "Automatisierte Entscheidungsfindung",
+      "fineSubject": "Automated Decision Making",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3009,
+      "endSec": 3455,
+      "durationSec": 446,
+      "topic": "OpenSCHUFA",
+      "fineSubject": "OpenSCHUFA",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3456,
+      "endSec": 3973,
+      "durationSec": 517,
+      "topic": "Konkreter Aktivismus",
+      "fineSubject": "Concrete Activism",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 3973,
+      "endSec": 4186,
+      "durationSec": 213,
+      "topic": "Interne Meinungsbildung",
+      "fineSubject": "Internal Opinion Formation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4186,
+      "endSec": 4623,
+      "durationSec": 437,
+      "topic": "KI-EU-Verordnung",
+      "fineSubject": "AI Regulation",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 4623,
+      "endSec": 4866,
+      "durationSec": 243,
+      "topic": "Weitere Themenfelder",
+      "fineSubject": "Additional Topics",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 4867,
+      "endSec": 4932,
+      "durationSec": 65,
+      "topic": "Nachhaltigkeit",
+      "fineSubject": "Sustainability",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4932,
+      "endSec": 5556,
+      "durationSec": 624,
+      "topic": "Nachvollziehbarkeit von Künstlicher Intelligenz",
+      "fineSubject": "AI Explainability",
+      "topicIndex": 12
+    }
+  ]
+}

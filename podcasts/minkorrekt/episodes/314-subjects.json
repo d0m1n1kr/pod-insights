@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 314,
+  "title": "Mi314 – \"Flatterstrom\"",
+  "generatedAt": "2026-01-05T15:18:17.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5433202059981823,
+      "Culture": 0.08694335049984853,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.3697364435019691,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3587,
+      "Culture": 574,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 2441,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 6,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6602,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 492,
+      "endSec": 1001,
+      "durationSec": 509,
+      "topic": "\"Das muss man so machen!\"",
+      "fineSubject": "Methodology",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1001,
+      "endSec": 1274,
+      "durationSec": 273,
+      "topic": "Verpackungswahnsinn",
+      "fineSubject": "Packaging",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1274,
+      "endSec": 1556,
+      "durationSec": 282,
+      "topic": "Menschgemachte Sternschnuppen",
+      "fineSubject": "Astronomy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 1556,
+      "endSec": 1796,
+      "durationSec": 240,
+      "topic": "Kommentar zu Brechungsindex",
+      "fineSubject": "Physics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1796,
+      "endSec": 4237,
+      "durationSec": 2441,
+      "topic": "Thema 1: “Debunkbot”",
+      "fineSubject": "Bots",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4237,
+      "endSec": 5062,
+      "durationSec": 825,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 5062,
+      "endSec": 6520,
+      "durationSec": 1458,
+      "topic": "Thema 2: \"Viel hilft viel!\"",
+      "fineSubject": "Philosophy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6520,
+      "endSec": 7094,
+      "durationSec": 574,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 7
+    }
+  ]
+}

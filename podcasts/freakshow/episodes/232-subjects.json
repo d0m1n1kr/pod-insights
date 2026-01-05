@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 232,
+  "title": "FS232 Wurstkatastrophe im Bällebad",
+  "generatedAt": "2026-01-05T15:17:51.101Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.17455179282868527,
+      "Software": 0.19534362549800796,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.35893924302788843,
+      "Social": 0,
+      "Culture": 0.20692231075697212,
+      "Security": 0.06424302788844621,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1402,
+      "Software": 1569,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2883,
+      "Social": 0,
+      "Culture": 1662,
+      "Security": 516,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8032,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 397,
+      "endSec": 1603,
+      "durationSec": 1206,
+      "topic": "Heimcomputer und Spielekonsolen",
+      "fineSubject": "Heimcomputer und Spielekonsolen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 1603,
+      "endSec": 3172,
+      "durationSec": 1569,
+      "topic": "Grafiksoftware",
+      "fineSubject": "Grafiksoftware",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3173,
+      "endSec": 4835,
+      "durationSec": 1662,
+      "topic": "Kunst",
+      "fineSubject": "Kunst",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 10261,
+      "endSec": 13144,
+      "durationSec": 2883,
+      "topic": "Neues aus Barcelona",
+      "fineSubject": "Neues aus Barcelona",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 13145,
+      "endSec": 13661,
+      "durationSec": 516,
+      "topic": "E-Roller Security",
+      "fineSubject": "E-Roller Security",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13661,
+      "endSec": 13857,
+      "durationSec": 196,
+      "topic": "Free Wifi an Flughäfen",
+      "fineSubject": "Free Wifi an Flughäfen",
+      "topicIndex": 9
+    }
+  ]
+}

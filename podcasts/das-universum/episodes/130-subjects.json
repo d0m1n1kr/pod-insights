@@ -1,0 +1,110 @@
+{
+  "episodeNumber": 130,
+  "title": "DU130 - Alien-Kepler mit zwei Sonnen",
+  "generatedAt": "2026-01-05T15:18:22.110Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 1,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 4945,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 4,
+      "Raumfahrt": 0,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 1,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 4945,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 40,
+      "durationSec": 40,
+      "topic": "Kepler und seine Gesetze",
+      "fineSubject": "Kepler",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 1298,
+      "durationSec": 1298,
+      "topic": "Doppelsternsysteme",
+      "fineSubject": "Sternsysteme",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 290,
+      "endSec": 2401,
+      "durationSec": 2111,
+      "topic": "Stabile Planetenbahnen",
+      "fineSubject": "Planetenbewegung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1283,
+      "endSec": 2779,
+      "durationSec": 1496,
+      "topic": "Zirkumtrinäre Planeten",
+      "fineSubject": "Planeten",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Besuch im Kepler-Museum",
+      "fineSubject": "Museen",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Forschung zu Mehrfachsternsystemen",
+      "fineSubject": "Astronomie",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

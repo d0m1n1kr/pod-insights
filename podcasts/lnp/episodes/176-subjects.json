@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 176,
+  "title": "LNP176 Das müsste man auch mal schremsen",
+  "generatedAt": "2026-01-05T15:17:57.597Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.4653369009973243,
+      "Law": 0.24422281683288738,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.2904402821697884,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1913,
+      "Law": 1004,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1194,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4111,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 939,
+      "endSec": 2133,
+      "durationSec": 1194,
+      "topic": "Digitales Wirtschaftswunder",
+      "fineSubject": "Digital Economy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 2133,
+      "endSec": 2686,
+      "durationSec": 553,
+      "topic": "Verfassungsklage Staatsschutzgesetz",
+      "fineSubject": "Constitutional Law",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2687,
+      "endSec": 4600,
+      "durationSec": 1913,
+      "topic": "SaveTheInternet.eu und BEREC-Konsultation",
+      "fineSubject": "Regulation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 4600,
+      "endSec": 5051,
+      "durationSec": 451,
+      "topic": "Störerhaftung",
+      "fineSubject": "Liability",
+      "topicIndex": 3
+    }
+  ]
+}

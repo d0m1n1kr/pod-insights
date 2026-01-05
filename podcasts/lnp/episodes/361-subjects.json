@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 361,
+  "title": "LNP361 Zu fünft mit İdil Baydar",
+  "generatedAt": "2026-01-05T15:17:57.622Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.19598607413475322,
+      "Technology": 0,
+      "Law": 0.22568093385214008,
+      "Security": 0.059389719434773704,
+      "Social": 0.518943272578333,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 957,
+      "Technology": 0,
+      "Law": 1102,
+      "Security": 290,
+      "Social": 2534,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 1,
+      "Social": 8,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4883,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 971,
+      "endSec": 1175,
+      "durationSec": 204,
+      "topic": "Rollenspiele und Hass im Netz",
+      "fineSubject": "Cyberbullying / Hate Speech",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1176,
+      "endSec": 1327,
+      "durationSec": 151,
+      "topic": "Politische Wirkung und Aktivismus",
+      "fineSubject": "Political Impact / Social Change",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1327,
+      "endSec": 1617,
+      "durationSec": 290,
+      "topic": "Bedrohungen",
+      "fineSubject": "Personal Safety / Online Threats",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1618,
+      "endSec": 2160,
+      "durationSec": 542,
+      "topic": "Mangelnde Kooperation der Polizei",
+      "fineSubject": "Cooperation Issues / Police Response",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2161,
+      "endSec": 2311,
+      "durationSec": 150,
+      "topic": "Mangelnde Konsequenzen",
+      "fineSubject": "Consequences / Legal System",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2311,
+      "endSec": 2721,
+      "durationSec": 410,
+      "topic": "Strukturelle Probleme der Polizei",
+      "fineSubject": "Structural Problems / Police System",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 2722,
+      "endSec": 3065,
+      "durationSec": 343,
+      "topic": "Willkür und Rassismus",
+      "fineSubject": "Racism / Injustice",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 3065,
+      "endSec": 3169,
+      "durationSec": 104,
+      "topic": "Empathie für Nazis",
+      "fineSubject": "Understanding Extremism / Empathy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 3170,
+      "endSec": 3342,
+      "durationSec": 172,
+      "topic": "Rassismus als menschliches Problem",
+      "fineSubject": "Human Rights / Social Problems",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 3343,
+      "endSec": 3760,
+      "durationSec": 417,
+      "topic": "Sexismus und Autorität",
+      "fineSubject": "Sexism / Authority",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 4228,
+      "endSec": 4540,
+      "durationSec": 312,
+      "topic": "Wege zu einer kultivierten Gesellschaft",
+      "fineSubject": "Cultural Development / Social Progress",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Social",
+      "startSec": 4541,
+      "endSec": 5123,
+      "durationSec": 582,
+      "topic": "Spaltung und Cancel Culture",
+      "fineSubject": "Cancel Culture / Social Polarization",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5123,
+      "endSec": 5689,
+      "durationSec": 566,
+      "topic": "Normalisierung rechter Parteien",
+      "fineSubject": "Right-Wing Politics / Normalization",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Social",
+      "startSec": 6115,
+      "endSec": 6515,
+      "durationSec": 400,
+      "topic": "Machtdynamik",
+      "fineSubject": "Power Relations / Social Influence",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6515,
+      "endSec": 6755,
+      "durationSec": 240,
+      "topic": "Maßnahmen",
+      "fineSubject": "Measures / Political Action",
+      "topicIndex": 17
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 238,
+  "title": "LNP238 Was macht Ihr da eigentlich?",
+  "generatedAt": "2026-01-05T15:17:57.605Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.25822669104204754,
+      "Technology": 0.09369287020109689,
+      "Law": 0.4936014625228519,
+      "Security": 0.06147166361974406,
+      "Social": 0.047074954296160876,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.007312614259597806,
+      "Culture": 0.03861974405850092
+    },
+    "durations": {
+      "Politics": 1130,
+      "Technology": 410,
+      "Law": 2160,
+      "Security": 269,
+      "Social": 206,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 32,
+      "Culture": 169
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 4,
+      "Security": 3,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 1
+    },
+    "totalDurationSec": 4376,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 233,
+      "endSec": 846,
+      "durationSec": 613,
+      "topic": "NetzDG führt zu Sperrchaos",
+      "fineSubject": "NetzDG",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 846,
+      "endSec": 2221,
+      "durationSec": 1375,
+      "topic": "Das besonders merkwürdige Anwaltspostfach",
+      "fineSubject": "Anwaltspostfach",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2222,
+      "endSec": 3352,
+      "durationSec": 1130,
+      "topic": "Österreichisches Regierungsprogramm veröffentlicht",
+      "fineSubject": "Österreich",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5325,
+      "endSec": 5684,
+      "durationSec": 359,
+      "topic": "34C3: Social Bots",
+      "fineSubject": "Social Bots",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5684,
+      "endSec": 5853,
+      "durationSec": 169,
+      "topic": "34C3:QualityLand",
+      "fineSubject": "QualityLand",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5854,
+      "endSec": 5905,
+      "durationSec": 51,
+      "topic": "34C3: Antipatterns",
+      "fineSubject": "Antipatterns",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 5906,
+      "endSec": 5969,
+      "durationSec": 63,
+      "topic": "34C3: PC-Wahl Hack",
+      "fineSubject": "PC-Wahl Hack",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5969,
+      "endSec": 6001,
+      "durationSec": 32,
+      "topic": "34C3: Protecting Your Privacy at the Border",
+      "fineSubject": "Border Privacy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 6001,
+      "endSec": 6207,
+      "durationSec": 206,
+      "topic": "34C3: Social Cooling",
+      "fineSubject": "Social Cooling",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Law",
+      "startSec": 6406,
+      "endSec": 6523,
+      "durationSec": 117,
+      "topic": "34C3: Policing in the age of data exploitation",
+      "fineSubject": "Data Exploitation",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Security",
+      "startSec": 6523,
+      "endSec": 6640,
+      "durationSec": 117,
+      "topic": "34C3: All Computers Are Beschlagnahmt",
+      "fineSubject": "Computer Seizures",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Security",
+      "startSec": 6640,
+      "endSec": 6729,
+      "durationSec": 89,
+      "topic": "34C3: Spy vs. Spy",
+      "fineSubject": "Spy vs. Spy",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Law",
+      "startSec": 7066,
+      "endSec": 7121,
+      "durationSec": 55,
+      "topic": "34C3: Net Neutraliy Enforcement in the EU",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 17
+    }
+  ]
+}

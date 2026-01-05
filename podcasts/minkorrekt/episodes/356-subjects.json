@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 356,
+  "title": "Mi356 – \"+1 auf Stroopwafel\"",
+  "generatedAt": "2026-01-05T15:18:17.393Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.06113622960487517,
+      "Culture": 0.45409868291724004,
+      "Wissenschaft": 0,
+      "Health": 0.4847650874778848,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 311,
+      "Culture": 2310,
+      "Wissenschaft": 0,
+      "Health": 2466,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5087,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 189,
+      "endSec": 729,
+      "durationSec": 540,
+      "topic": "Allgäu",
+      "fineSubject": "Allgäu",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 729,
+      "endSec": 2100,
+      "durationSec": 1371,
+      "topic": "Reinis Europareise",
+      "fineSubject": "Reinis Europareise",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2100,
+      "endSec": 2149,
+      "durationSec": 49,
+      "topic": "Science Slam",
+      "fineSubject": "Science Slam",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2149,
+      "endSec": 2548,
+      "durationSec": 399,
+      "topic": "Katzenvideos",
+      "fineSubject": "Katzenvideos",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3960,
+      "endSec": 4222,
+      "durationSec": 262,
+      "topic": "Science Snack",
+      "fineSubject": "Science Snack",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4222,
+      "endSec": 6688,
+      "durationSec": 2466,
+      "topic": "Thema 2: \"Fast Fat\"",
+      "fineSubject": "Fast Fat",
+      "topicIndex": 6
+    }
+  ]
+}

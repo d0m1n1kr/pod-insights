@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 489,
+  "title": "LNP489 Das Kabinett ist nicht maschinenlesbar",
+  "generatedAt": "2026-01-05T15:17:57.640Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5056630486078338,
+      "Technology": 0,
+      "Law": 0.4943369513921661,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2143,
+      "Technology": 0,
+      "Law": 2095,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 4,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4238,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 173,
+      "endSec": 1009,
+      "durationSec": 836,
+      "topic": "Parlamentsrevue",
+      "fineSubject": "Parliamentary Review",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1010,
+      "endSec": 2317,
+      "durationSec": 1307,
+      "topic": "Der Bundestagszusammenfasser",
+      "fineSubject": "Bundestag",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2317,
+      "endSec": 2819,
+      "durationSec": 502,
+      "topic": "Digitale Gesetze für Bürger und Wirtschaft",
+      "fineSubject": "Digital Legislation for Citizens and Economy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2820,
+      "endSec": 3078,
+      "durationSec": 258,
+      "topic": "Digitale Gesetze für den Staat",
+      "fineSubject": "Digital Legislation for State",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3078,
+      "endSec": 3877,
+      "durationSec": 799,
+      "topic": "Onlinezugangsgesetz 2.0",
+      "fineSubject": "Online Access Law",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3877,
+      "endSec": 4413,
+      "durationSec": 536,
+      "topic": "Gesetz zum kontrollierten Umgang mit Cannabis",
+      "fineSubject": "Cannabis Regulation",
+      "topicIndex": 5
+    }
+  ]
+}

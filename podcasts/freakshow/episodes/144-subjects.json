@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 144,
+  "title": "FS144 Desperate Mode",
+  "generatedAt": "2026-01-05T15:17:51.078Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3466289782244556,
+      "Software": 0.15221943048576214,
+      "Hardware": 0,
+      "Finance": 0.05485762144053601,
+      "Media": 0.12573283082077052,
+      "Social": 0.13724874371859297,
+      "Culture": 0.076214405360134,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.10709798994974874,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3311,
+      "Software": 1454,
+      "Hardware": 0,
+      "Finance": 524,
+      "Media": 1201,
+      "Social": 1311,
+      "Culture": 728,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1023,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 2,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 9552,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 3172,
+      "endSec": 3512,
+      "durationSec": 340,
+      "topic": "Wienerisch mit hukl",
+      "fineSubject": "Wienerisch",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3512,
+      "endSec": 5903,
+      "durationSec": 2391,
+      "topic": "Clemens auf Hawaii (IETF)",
+      "fineSubject": "IETF",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5903,
+      "endSec": 6380,
+      "durationSec": 477,
+      "topic": "Chaos Communication Camp 2015",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 6380,
+      "endSec": 6710,
+      "durationSec": 330,
+      "topic": "Twitter Index",
+      "fineSubject": "Twitter Index",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 6710,
+      "endSec": 7733,
+      "durationSec": 1023,
+      "topic": "Minecraft",
+      "fineSubject": "Minecraft",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 9655,
+      "endSec": 11109,
+      "durationSec": 1454,
+      "topic": "Git Clients",
+      "fineSubject": "Git Clients",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 11109,
+      "endSec": 11633,
+      "durationSec": 524,
+      "topic": "Micropayment",
+      "fineSubject": "Micropayment",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 11633,
+      "endSec": 12614,
+      "durationSec": 981,
+      "topic": "ADN und Empfehlungen",
+      "fineSubject": "ADN und Empfehlungen",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12614,
+      "endSec": 13057,
+      "durationSec": 443,
+      "topic": "Netzwerk",
+      "fineSubject": "Netzwerk",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Culture",
+      "startSec": 13057,
+      "endSec": 13445,
+      "durationSec": 388,
+      "topic": "Flauschige Themen am Abend",
+      "fineSubject": "Flauschige Themen",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 13445,
+      "endSec": 14646,
+      "durationSec": 1201,
+      "topic": "Other News",
+      "fineSubject": "Other News",
+      "topicIndex": 12
+    }
+  ]
+}

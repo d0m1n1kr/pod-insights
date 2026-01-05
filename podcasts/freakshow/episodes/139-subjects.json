@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 139,
+  "title": "FS139 体温传感器位置直肠",
+  "generatedAt": "2026-01-05T15:17:51.077Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.09891748233616386,
+      "Software": 0.04881052699812018,
+      "Hardware": 0.7863486095806055,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.06592338108511052,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1526,
+      "Software": 753,
+      "Hardware": 12131,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1017,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 1,
+      "Hardware": 5,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 15427,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 739,
+      "endSec": 1756,
+      "durationSec": 1017,
+      "topic": "Max ist zu Gast",
+      "fineSubject": "Guest Appearance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1756,
+      "endSec": 3282,
+      "durationSec": 1526,
+      "topic": "Apple Keynote",
+      "fineSubject": "Events",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3282,
+      "endSec": 9431,
+      "durationSec": 6149,
+      "topic": "iPhone 6",
+      "fineSubject": "iPhone",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9431,
+      "endSec": 14125,
+      "durationSec": 4694,
+      "topic": "Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 14125,
+      "endSec": 14625,
+      "durationSec": 500,
+      "topic": "MacPro Wifi-Karte",
+      "fineSubject": "MacPro",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 14625,
+      "endSec": 14730,
+      "durationSec": 105,
+      "topic": "Charger Doctor",
+      "fineSubject": "Accessories",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 14730,
+      "endSec": 15483,
+      "durationSec": 753,
+      "topic": "FreeBSD auf dem MacPro",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 15483,
+      "endSec": 16166,
+      "durationSec": 683,
+      "topic": "JackPair",
+      "fineSubject": "Accessories",
+      "topicIndex": 7
+    }
+  ]
+}

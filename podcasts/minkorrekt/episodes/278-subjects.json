@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 278,
+  "title": "Mi278 – \"Flutschmeister\"",
+  "generatedAt": "2026-01-05T15:18:17.381Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5761937716262976,
+      "Culture": 0.1627681660899654,
+      "Wissenschaft": 0,
+      "Health": 0.1619377162629758,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.09910034602076125,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 4163,
+      "Culture": 1176,
+      "Wissenschaft": 0,
+      "Health": 1170,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 716,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 5,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 7225,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 665,
+      "endSec": 1088,
+      "durationSec": 423,
+      "topic": "Dashboard-Deutschland",
+      "fineSubject": "Dashboard",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Education",
+      "startSec": 1088,
+      "endSec": 1804,
+      "durationSec": 716,
+      "topic": "Mercator Professur",
+      "fineSubject": "Professorship",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1804,
+      "endSec": 2974,
+      "durationSec": 1170,
+      "topic": "Mentale Gesundheit",
+      "fineSubject": "Mental Health",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2974,
+      "endSec": 3113,
+      "durationSec": 139,
+      "topic": "DPG Tagung und WissKomm",
+      "fineSubject": "Communication",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3113,
+      "endSec": 4845,
+      "durationSec": 1732,
+      "topic": "Thema 1: “Das Dolomitproblem”",
+      "fineSubject": "Geology",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4845,
+      "endSec": 5410,
+      "durationSec": 565,
+      "topic": "Snackable Science: \"Alles Banane\"",
+      "fineSubject": "Food",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 5410,
+      "endSec": 6714,
+      "durationSec": 1304,
+      "topic": "Thema 2: \"Energie aus dem Nichts\"",
+      "fineSubject": "Renewable Energy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6714,
+      "endSec": 7890,
+      "durationSec": 1176,
+      "topic": "Schwurbel der Woche: \"Human Design\"",
+      "fineSubject": "Trends",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 261,
+  "title": "LNP261 Elchtest für die Bundesregierung",
+  "generatedAt": "2026-01-05T15:17:57.608Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.032497875955819884,
+      "Technology": 0.23322005097706033,
+      "Law": 0.296304163126593,
+      "Security": 0.3392098555649958,
+      "Social": 0.05649957519116398,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.04226847918436703,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 153,
+      "Technology": 1098,
+      "Law": 1395,
+      "Security": 1597,
+      "Social": 266,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 199,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4708,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 210,
+      "endSec": 363,
+      "durationSec": 153,
+      "topic": "Feedback: EU-Parlament-Abstimmung",
+      "fineSubject": "EU Parliament",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 364,
+      "endSec": 563,
+      "durationSec": 199,
+      "topic": "Feedback: Bankauskunft",
+      "fineSubject": "Banking",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 563,
+      "endSec": 896,
+      "durationSec": 333,
+      "topic": "Feedback: Polizei",
+      "fineSubject": "Police",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 896,
+      "endSec": 1994,
+      "durationSec": 1098,
+      "topic": "Provisorische Funkzelle in Kleßen-Görne errichtet",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 1994,
+      "endSec": 3385,
+      "durationSec": 1391,
+      "topic": "Trojaner-Hersteller schämen sich",
+      "fineSubject": "Malware",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3386,
+      "endSec": 4448,
+      "durationSec": 1062,
+      "topic": "BGH-Urteil zum Digitalen Erbe",
+      "fineSubject": "Digital Legacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4877,
+      "endSec": 5083,
+      "durationSec": 206,
+      "topic": "BND hört deutsche Unternehmen in der EU ab",
+      "fineSubject": "Surveillance",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 5083,
+      "endSec": 5349,
+      "durationSec": 266,
+      "topic": "Tausende demonstrieren gegen Polizeigesetz NRW",
+      "fineSubject": "Protests",
+      "topicIndex": 8
+    }
+  ]
+}

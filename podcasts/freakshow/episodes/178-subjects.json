@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 178,
+  "title": "FS178 Make the MacBook Pro pro again",
+  "generatedAt": "2026-01-05T15:17:51.087Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.16336569579288027,
+      "Software": 0.38601941747572815,
+      "Hardware": 0.41527508090614884,
+      "Finance": 0,
+      "Media": 0.035339805825242716,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1262,
+      "Software": 2982,
+      "Hardware": 3208,
+      "Finance": 0,
+      "Media": 273,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 4,
+      "Hardware": 4,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7725,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 1106,
+      "endSec": 3253,
+      "durationSec": 2147,
+      "topic": "MacBook Pro Ausblick",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3254,
+      "endSec": 3709,
+      "durationSec": 455,
+      "topic": "Mac Pro",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3710,
+      "endSec": 3983,
+      "durationSec": 273,
+      "topic": "Audio-Performance via Thunderbolt",
+      "fineSubject": "Performance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3983,
+      "endSec": 4434,
+      "durationSec": 451,
+      "topic": "Mac Pro Teil 2",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 5144,
+      "endSec": 6899,
+      "durationSec": 1755,
+      "topic": "Ultraschall 2.2 und Studio Link",
+      "fineSubject": "Audio Tools",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 6900,
+      "endSec": 7285,
+      "durationSec": 385,
+      "topic": "Groundwire SIP Client für iOS",
+      "fineSubject": "SIP Clients",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7676,
+      "endSec": 8097,
+      "durationSec": 421,
+      "topic": "Kraftwerk",
+      "fineSubject": "Power Supply",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 8097,
+      "endSec": 8498,
+      "durationSec": 401,
+      "topic": "App und Akku Size",
+      "fineSubject": "Apps",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 8499,
+      "endSec": 8940,
+      "durationSec": 441,
+      "topic": "Tabs vs. Spaces vs. vim vs. emacs",
+      "fineSubject": "Text Editors",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8940,
+      "endSec": 9245,
+      "durationSec": 305,
+      "topic": "Shining 360",
+      "fineSubject": "360-Degree Video",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9246,
+      "endSec": 9401,
+      "durationSec": 155,
+      "topic": "Bluetooth Gear",
+      "fineSubject": "Bluetooth Devices",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9402,
+      "endSec": 9938,
+      "durationSec": 536,
+      "topic": "IPv6",
+      "fineSubject": "IPv6",
+      "topicIndex": 16
+    }
+  ]
+}

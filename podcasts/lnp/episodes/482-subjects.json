@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 482,
+  "title": "LNP482 Meuchelpuffer",
+  "generatedAt": "2026-01-05T15:17:57.639Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 5099,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 8,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5099,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 287,
+      "endSec": 437,
+      "durationSec": 150,
+      "topic": "Jean Peters",
+      "fineSubject": "Media / Jean Peters",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 437,
+      "endSec": 776,
+      "durationSec": 339,
+      "topic": "Peng",
+      "fineSubject": "Media / Peng",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 777,
+      "endSec": 1147,
+      "durationSec": 370,
+      "topic": "Böhmermann",
+      "fineSubject": "Media / Böhmermann",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1147,
+      "endSec": 2059,
+      "durationSec": 912,
+      "topic": "correctiv",
+      "fineSubject": "Media / correctiv",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 6779,
+      "endSec": 8457,
+      "durationSec": 1678,
+      "topic": "Reaktionen auf den Bericht",
+      "fineSubject": "Media / Reports",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 8458,
+      "endSec": 8704,
+      "durationSec": 246,
+      "topic": "Das Saunaboot",
+      "fineSubject": "Media / Das Saunaboot",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 8704,
+      "endSec": 9594,
+      "durationSec": 890,
+      "topic": "Das Theaterstück im Berliner Ensemble",
+      "fineSubject": "Media / Theaterstück",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 9594,
+      "endSec": 10108,
+      "durationSec": 514,
+      "topic": "Drohungen gegen die correctiv-Redaktion",
+      "fineSubject": "Media / correctiv-Redaktion",
+      "topicIndex": 8
+    }
+  ]
+}

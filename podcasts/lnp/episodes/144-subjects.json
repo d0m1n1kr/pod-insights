@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 144,
+  "title": "LNP144 Vermeintliche Regierungsfähigkeit",
+  "generatedAt": "2026-01-05T15:17:57.593Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.46589643652561247,
+      "Technology": 0.15534521158129175,
+      "Law": 0.0626391982182628,
+      "Security": 0.21130289532293986,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.1048162583518931,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3347,
+      "Technology": 1116,
+      "Law": 450,
+      "Security": 1518,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 753,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 7184,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 245,
+      "endSec": 2264,
+      "durationSec": 2019,
+      "topic": "Erpressung bei der SPD, um VDS-Beschluss durchzubringen",
+      "fineSubject": "Political Manipulation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2265,
+      "endSec": 3381,
+      "durationSec": 1116,
+      "topic": "Netzneutralität vs. Roaming",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3382,
+      "endSec": 3775,
+      "durationSec": 393,
+      "topic": "Frankreich ist schockiert. Schockiert!",
+      "fineSubject": "Public Reaction",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3775,
+      "endSec": 4528,
+      "durationSec": 753,
+      "topic": "GCHQ hat illegal Menschenrechtsorganisationen überwacht",
+      "fineSubject": "Human Rights",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4528,
+      "endSec": 5241,
+      "durationSec": 713,
+      "topic": "Streit um den Vermittler im NSA-Untersuchungsausschuss",
+      "fineSubject": "Investigative Committees",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 5241,
+      "endSec": 5691,
+      "durationSec": 450,
+      "topic": "Panoramafreiheit gefährdet",
+      "fineSubject": "Copyright",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 5692,
+      "endSec": 7210,
+      "durationSec": 1518,
+      "topic": "Cyber Cyber: Analyse der Rechner der Linken-Fraktion zeigt nach Rußland",
+      "fineSubject": "Political Analysis",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7211,
+      "endSec": 7433,
+      "durationSec": 222,
+      "topic": "Arbeiten des Wissenschaftlichen Dienstes des Bundestags müssen zugänglich gemacht werden",
+      "fineSubject": "Transparency",
+      "topicIndex": 7
+    }
+  ]
+}

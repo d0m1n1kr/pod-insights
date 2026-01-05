@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 242,
+  "title": "FS242 Speed Dating for Scientists",
+  "generatedAt": "2026-01-05T15:17:51.105Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.43855693348365277,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.2797991185815312,
+      "Media": 0,
+      "Social": 0.2697550476580916,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.011888900276724403
+    },
+    "durations": {
+      "Technology": 4279,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2730,
+      "Media": 0,
+      "Social": 2632,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 116
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2,
+      "Media": 0,
+      "Social": 5,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 9757,
+    "totalTopics": 25
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 130,
+      "endSec": 1393,
+      "durationSec": 1263,
+      "topic": "Brillenstudio",
+      "fineSubject": "Brillenstudio",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1393,
+      "endSec": 2101,
+      "durationSec": 708,
+      "topic": "Extinction Rebellion",
+      "fineSubject": "Extinction Rebellion",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2102,
+      "endSec": 2220,
+      "durationSec": 118,
+      "topic": "MP3 Experiment",
+      "fineSubject": "MP3 Experiment",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2220,
+      "endSec": 2426,
+      "durationSec": 206,
+      "topic": "Rebellion und App Stores",
+      "fineSubject": "Rebellion und App Stores",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Finance",
+      "startSec": 2426,
+      "endSec": 4117,
+      "durationSec": 1691,
+      "topic": "Banking",
+      "fineSubject": "Banking",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 4118,
+      "endSec": 5157,
+      "durationSec": 1039,
+      "topic": "bunq",
+      "fineSubject": "bunq",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 5158,
+      "endSec": 5495,
+      "durationSec": 337,
+      "topic": "Stenkelfeld",
+      "fineSubject": "Stenkelfeld",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10684,
+      "endSec": 11061,
+      "durationSec": 377,
+      "topic": "PC-Ärger",
+      "fineSubject": "PC-Ärger",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11061,
+      "endSec": 12328,
+      "durationSec": 1267,
+      "topic": "macOS Catalina",
+      "fineSubject": "macOS Catalina",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12328,
+      "endSec": 13749,
+      "durationSec": 1421,
+      "topic": "Roboter",
+      "fineSubject": "Roboter",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Event",
+      "startSec": 13750,
+      "endSec": 13866,
+      "durationSec": 116,
+      "topic": "36C3",
+      "fineSubject": "36C3",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13866,
+      "endSec": 14019,
+      "durationSec": 153,
+      "topic": "VCFB",
+      "fineSubject": "VCFB",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14019,
+      "endSec": 14495,
+      "durationSec": 476,
+      "topic": "Megaprocessor",
+      "fineSubject": "Megaprocessor",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14496,
+      "endSec": 15081,
+      "durationSec": 585,
+      "topic": "Text bearbeiten und eingeben auf iOS 13",
+      "fineSubject": "Text bearbeiten auf iOS",
+      "topicIndex": 24
+    }
+  ]
+}

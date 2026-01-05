@@ -1,0 +1,174 @@
+{
+  "episodeNumber": 167,
+  "title": "CRE167 node.js",
+  "generatedAt": "2026-01-05T15:17:54.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.9166666666666666,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.08333333333333333,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 11,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 1,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "event-basierte Programmierung",
+      "fineSubject": "Programmierung",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "asynchrone Programmierung",
+      "fineSubject": "Programmierung",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Performance-Bottlenecks",
+      "fineSubject": "Performance",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "node.js Architektur",
+      "fineSubject": "Architektur",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Umgang mit gleichzeitigen Verbindungen",
+      "fineSubject": "Netzwerk",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "serverseitiges Web Browsing",
+      "fineSubject": "Webentwicklung",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "asynchrones Rendering von Templates",
+      "fineSubject": "Rendering",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "asynchrone Kommunikation mit Datenbanken",
+      "fineSubject": "Datenbanken",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Debugging",
+      "fineSubject": "Fehlerbehebung",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Node Package Manager",
+      "fineSubject": "Pakete",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Module und Addons",
+      "fineSubject": "Erweiterungen",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "node.js auf Embedded-Systemen",
+      "fineSubject": "Embedded-Systeme",
+      "topicIndex": 11,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 398,
+  "title": "LNP398 Unbefriedigender Vorgang mit befriedigendem Ausgang",
+  "generatedAt": "2026-01-05T15:17:57.628Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.17222994900324526,
+      "Technology": 0.2114047287899861,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.2561427909133055,
+      "Media": 0,
+      "Health": 0.3184979137691238,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.04172461752433936,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 743,
+      "Technology": 912,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1105,
+      "Media": 0,
+      "Health": 1374,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 180,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4314,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 53,
+      "endSec": 921,
+      "durationSec": 868,
+      "topic": "Impfpass in Deutschland",
+      "fineSubject": "Vaccination",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 921,
+      "endSec": 1427,
+      "durationSec": 506,
+      "topic": "EU-Impfpass",
+      "fineSubject": "Vaccination",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1428,
+      "endSec": 2171,
+      "durationSec": 743,
+      "topic": "Staatstrojaner: Bundespolizeigesetz & Verfassungsschutznovelle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2171,
+      "endSec": 3083,
+      "durationSec": 912,
+      "topic": "AN0M",
+      "fineSubject": "Encryption",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3084,
+      "endSec": 4189,
+      "durationSec": 1105,
+      "topic": "Telegram Kanal Hildmann",
+      "fineSubject": "Messaging",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 4190,
+      "endSec": 4370,
+      "durationSec": 180,
+      "topic": "Jobs",
+      "fineSubject": "Employment",
+      "topicIndex": 5
+    }
+  ]
+}

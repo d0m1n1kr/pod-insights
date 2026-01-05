@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 37,
+  "title": "UKW037 Corona Weekly: Weihnachten wird’s ungemütlich",
+  "generatedAt": "2026-01-05T15:18:03.006Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9638764808700718,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0.036123519129928144,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 4963,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 186,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 14,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 1,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5149,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 245,
+      "endSec": 358,
+      "durationSec": 113,
+      "topic": "Es war einmal das Leben",
+      "fineSubject": "COVID-19",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 359,
+      "endSec": 697,
+      "durationSec": 338,
+      "topic": "Zahlen in Deutschland",
+      "fineSubject": "Statistics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 698,
+      "endSec": 1108,
+      "durationSec": 410,
+      "topic": "Mysterium 1. Welle",
+      "fineSubject": "COVID-19",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1109,
+      "endSec": 1536,
+      "durationSec": 427,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "Regional Response",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1536,
+      "endSec": 1715,
+      "durationSec": 179,
+      "topic": "Wie es jetzt weiter geht",
+      "fineSubject": "COVID-19",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 1716,
+      "endSec": 1881,
+      "durationSec": 165,
+      "topic": "Zahlen in Berlin",
+      "fineSubject": "Statistics",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 1882,
+      "endSec": 2277,
+      "durationSec": 395,
+      "topic": "Wo steckt man sich an?",
+      "fineSubject": "Transmission",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 2278,
+      "endSec": 2945,
+      "durationSec": 667,
+      "topic": "Centogene PCR-Test für Zuhause",
+      "fineSubject": "Testing",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 2945,
+      "endSec": 3566,
+      "durationSec": 621,
+      "topic": "Schnelltests von Roche",
+      "fineSubject": "Testing",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 3566,
+      "endSec": 4271,
+      "durationSec": 705,
+      "topic": "Corona Warn App",
+      "fineSubject": "Technology",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4272,
+      "endSec": 4435,
+      "durationSec": 163,
+      "topic": "Irland: National Framework for living with COVID-19",
+      "fineSubject": "Policy",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 4436,
+      "endSec": 4805,
+      "durationSec": 369,
+      "topic": "Hunde schnüffeln Corona",
+      "fineSubject": "Innovations",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 4805,
+      "endSec": 4933,
+      "durationSec": 128,
+      "topic": "Immunitätsausweis",
+      "fineSubject": "Documentation",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Social",
+      "startSec": 4934,
+      "endSec": 5120,
+      "durationSec": 186,
+      "topic": "Finnland und die Social Influencer",
+      "fineSubject": "Influencers",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 5120,
+      "endSec": 5403,
+      "durationSec": 283,
+      "topic": "microCOVID Project",
+      "fineSubject": "Research",
+      "topicIndex": 15
+    }
+  ]
+}

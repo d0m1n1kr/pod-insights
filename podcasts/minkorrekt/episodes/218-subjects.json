@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 218,
+  "title": "Mi218 – „Blutopfer“",
+  "generatedAt": "2026-01-05T15:18:17.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.2396180660806305,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.17262806911185208,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.5877538648075175,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1581,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1139,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3878,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 4,
+      "Biology": 0
+    },
+    "totalDurationSec": 6598,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 460,
+      "endSec": 2350,
+      "durationSec": 1890,
+      "topic": "Rallye-Reini",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 2350,
+      "endSec": 3489,
+      "durationSec": 1139,
+      "topic": "Chemo",
+      "fineSubject": "Chemotherapy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 3489,
+      "endSec": 3623,
+      "durationSec": 134,
+      "topic": "Unterstützerinnen",
+      "fineSubject": "Support",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3957,
+      "endSec": 5072,
+      "durationSec": 1115,
+      "topic": "Thema 1: Salzwasser",
+      "fineSubject": "Oceanography",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 5072,
+      "endSec": 5538,
+      "durationSec": 466,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 5538,
+      "endSec": 7392,
+      "durationSec": 1854,
+      "topic": "Thema 2: \"Depressive Gesellschaft\"",
+      "fineSubject": "Mental Health",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 7425,
+      "endSec": 7425,
+      "durationSec": 0,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy",
+      "topicIndex": 8
+    }
+  ]
+}

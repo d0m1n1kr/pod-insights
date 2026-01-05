@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 301,
+  "title": "LNP301 Unzureichende Beschallung",
+  "generatedAt": "2026-01-05T15:17:57.613Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6508186397984886,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.26983627204030225,
+      "Social": 0.07934508816120907,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4134,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1714,
+      "Social": 504,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 3,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6352,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 524,
+      "endSec": 639,
+      "durationSec": 115,
+      "topic": "Europawahl 2019",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1372,
+      "endSec": 4899,
+      "durationSec": 3527,
+      "topic": "Fusion in Gefahr",
+      "fineSubject": "Fusion",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 5045,
+      "endSec": 5617,
+      "durationSec": 572,
+      "topic": "WhatsApp Vulnerabilities",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 5618,
+      "endSec": 6438,
+      "durationSec": 820,
+      "topic": "ABUS Kameras verwundbar",
+      "fineSubject": "Cameras",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 6439,
+      "endSec": 6811,
+      "durationSec": 372,
+      "topic": "#twittersperrt",
+      "fineSubject": "Twitter",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 6811,
+      "endSec": 7133,
+      "durationSec": 322,
+      "topic": "fxmsp hackt Anti-Viren-Unternehmen",
+      "fineSubject": "Hacking",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 7133,
+      "endSec": 7265,
+      "durationSec": 132,
+      "topic": "Facebook zerschlagen",
+      "fineSubject": "Facebook",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7585,
+      "endSec": 7967,
+      "durationSec": 382,
+      "topic": "Julian Assange in Haft",
+      "fineSubject": "Activism",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7967,
+      "endSec": 8077,
+      "durationSec": 110,
+      "topic": "Chelsea Manning",
+      "fineSubject": "Activism",
+      "topicIndex": 11
+    }
+  ]
+}

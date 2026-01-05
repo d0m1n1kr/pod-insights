@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 75,
+  "title": "LNP075 Blick in die Schüssel",
+  "generatedAt": "2026-01-05T15:17:57.584Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5039469529523208,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.3037574992106094,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.19229554783706979,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1596,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 962,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 609,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 3167,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 171,
+      "endSec": 1133,
+      "durationSec": 962,
+      "topic": "E-Mail Made in Germany",
+      "fineSubject": "E-Mail",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1134,
+      "endSec": 2419,
+      "durationSec": 1285,
+      "topic": "Pofalla erklärt NSA-Affäre für beendet",
+      "fineSubject": "NSA",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2420,
+      "endSec": 2731,
+      "durationSec": 311,
+      "topic": "Obama-Rede",
+      "fineSubject": "Obama",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2731,
+      "endSec": 3046,
+      "durationSec": 315,
+      "topic": "Telekom: Auswertung von Telefondaten",
+      "fineSubject": "Telekom",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3047,
+      "endSec": 3341,
+      "durationSec": 294,
+      "topic": "IFG-Anfrage zu FinFisher",
+      "fineSubject": "FinFisher",
+      "topicIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 54,
+  "title": "LNP054 30-Stunden-Woche für Blogs",
+  "generatedAt": "2026-01-05T15:17:57.580Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.46258503401360546,
+      "Technology": 0.20408163265306123,
+      "Law": 0.11882086167800454,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.2145124716553288,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2040,
+      "Technology": 900,
+      "Law": 524,
+      "Security": 0,
+      "Social": 0,
+      "Media": 946,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4410,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 89,
+      "endSec": 1916,
+      "durationSec": 1827,
+      "topic": "LobbyPlag",
+      "fineSubject": "Lobbying",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1916,
+      "endSec": 2440,
+      "durationSec": 524,
+      "topic": "Anti-Abmahn-Abzock-Gesetz verhindert",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2441,
+      "endSec": 3341,
+      "durationSec": 900,
+      "topic": "OECD-Beschwerde gegen Hersteller von Überwachungssoftware",
+      "fineSubject": "Surveillance Software",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 3341,
+      "endSec": 3927,
+      "durationSec": 586,
+      "topic": "Peerblog",
+      "fineSubject": "Blogging",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3928,
+      "endSec": 4141,
+      "durationSec": 213,
+      "topic": "Guttenbergs Reisekosten",
+      "fineSubject": "Public Spending",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 4141,
+      "endSec": 4501,
+      "durationSec": 360,
+      "topic": "The Pirate Bay - Away From Keyboard",
+      "fineSubject": "File Sharing",
+      "topicIndex": 5
+    }
+  ]
+}

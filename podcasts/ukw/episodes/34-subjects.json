@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 34,
+  "title": "UKW034 Corona Weekly: Internetkarneval",
+  "generatedAt": "2026-01-05T15:18:03.005Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.645127670661803,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.35487232933819696,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 2476,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1362,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 5,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 3838,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 330,
+      "endSec": 1110,
+      "durationSec": 780,
+      "topic": "Entwicklung der Infektionszahlen",
+      "fineSubject": "Infection Rates",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1111,
+      "endSec": 1337,
+      "durationSec": 226,
+      "topic": "Prognosen",
+      "fineSubject": "Prognosis",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1338,
+      "endSec": 1547,
+      "durationSec": 209,
+      "topic": "Schnelltests",
+      "fineSubject": "Testing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1548,
+      "endSec": 1916,
+      "durationSec": 368,
+      "topic": "Winter Blues",
+      "fineSubject": "Mental Health",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2671,
+      "endSec": 3564,
+      "durationSec": 893,
+      "topic": "Lichtblicke und Impfstoffe",
+      "fineSubject": "Vaccines",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3565,
+      "endSec": 4927,
+      "durationSec": 1362,
+      "topic": "Corona-Warn-App",
+      "fineSubject": "Apps",
+      "topicIndex": 6
+    }
+  ]
+}

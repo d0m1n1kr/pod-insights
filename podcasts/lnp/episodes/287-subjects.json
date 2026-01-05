@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 287,
+  "title": "LNP287 IT-Sicherheitsgesetz 3.11 für Workgroups",
+  "generatedAt": "2026-01-05T15:17:57.612Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.18111490329920363,
+      "Technology": 0.05597269624573379,
+      "Law": 0,
+      "Security": 0.6668941979522184,
+      "Social": 0.09601820250284414,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 796,
+      "Technology": 246,
+      "Law": 0,
+      "Security": 2931,
+      "Social": 422,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 5,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4395,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 582,
+      "endSec": 818,
+      "durationSec": 236,
+      "topic": "Feedback: Cyberwar",
+      "fineSubject": "Cyberwar",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 819,
+      "endSec": 1007,
+      "durationSec": 188,
+      "topic": "Feedback: Artikel 13",
+      "fineSubject": "Article 13 Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1007,
+      "endSec": 2468,
+      "durationSec": 1461,
+      "topic": "Artikel 13",
+      "fineSubject": "Article 13",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2469,
+      "endSec": 2891,
+      "durationSec": 422,
+      "topic": "Immer mehr Stuss zu Social Bots",
+      "fineSubject": "Social Bots",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2892,
+      "endSec": 3499,
+      "durationSec": 607,
+      "topic": "Cybervoting",
+      "fineSubject": "Cybervoting",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3500,
+      "endSec": 3746,
+      "durationSec": 246,
+      "topic": "5G Anhörung im Bundestag",
+      "fineSubject": "5G",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3746,
+      "endSec": 4661,
+      "durationSec": 915,
+      "topic": "IT-Sicherheitsgesetz 2.0 ante portas",
+      "fineSubject": "IT-Security Law",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4662,
+      "endSec": 4851,
+      "durationSec": 189,
+      "topic": "Japan: der Staat macht Audits",
+      "fineSubject": "Audits",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 4893,
+      "endSec": 5024,
+      "durationSec": 131,
+      "topic": "Biometrische Personalausweise",
+      "fineSubject": "Biometric ID",
+      "topicIndex": 9
+    }
+  ]
+}

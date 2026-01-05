@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 90,
+  "title": "UKW090 Corona Weekly: Mit dem Angriff von Omikron wird das alles in Ordnung kommen",
+  "generatedAt": "2026-01-05T15:18:03.022Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 6523,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 14,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6523,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 156,
+      "endSec": 791,
+      "durationSec": 635,
+      "topic": "Situation Deutschland",
+      "fineSubject": "COVID-19",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 791,
+      "endSec": 1219,
+      "durationSec": 428,
+      "topic": "Situation in Berlin",
+      "fineSubject": "COVID-19",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1219,
+      "endSec": 1413,
+      "durationSec": 194,
+      "topic": "Variantenverteilung",
+      "fineSubject": "COVID-19",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1413,
+      "endSec": 1609,
+      "durationSec": 196,
+      "topic": "Positivquote",
+      "fineSubject": "COVID-19",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1610,
+      "endSec": 1883,
+      "durationSec": 273,
+      "topic": "Hospitalisierung",
+      "fineSubject": "COVID-19",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1883,
+      "endSec": 2286,
+      "durationSec": 403,
+      "topic": "Vergleichbarkeit internationaler Zahlen",
+      "fineSubject": "COVID-19",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2287,
+      "endSec": 3213,
+      "durationSec": 926,
+      "topic": "Omikron: Gefährlichkeit",
+      "fineSubject": "COVID-19",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3213,
+      "endSec": 3478,
+      "durationSec": 265,
+      "topic": "Omikron: Varianten",
+      "fineSubject": "COVID-19",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3479,
+      "endSec": 4864,
+      "durationSec": 1385,
+      "topic": "Schon alles vorbei?",
+      "fineSubject": "COVID-19",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4864,
+      "endSec": 4976,
+      "durationSec": 112,
+      "topic": "Impfstoffe",
+      "fineSubject": "Vaccines",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4976,
+      "endSec": 5649,
+      "durationSec": 673,
+      "topic": "Frühwarnsystem von BioNTech",
+      "fineSubject": "Vaccines",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 5650,
+      "endSec": 5778,
+      "durationSec": 128,
+      "topic": "Quebec macht Ernst",
+      "fineSubject": "COVID-19",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5778,
+      "endSec": 5901,
+      "durationSec": 123,
+      "topic": "Kiffen rettet die Gesundheit",
+      "fineSubject": "Health Policy",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5902,
+      "endSec": 6684,
+      "durationSec": 782,
+      "topic": "Genesenenstatus und Impfpflicht",
+      "fineSubject": "Health Policy",
+      "topicIndex": 13
+    }
+  ]
+}

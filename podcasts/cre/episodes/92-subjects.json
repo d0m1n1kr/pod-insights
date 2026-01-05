@@ -1,0 +1,234 @@
+{
+  "episodeNumber": 92,
+  "title": "CRE092 Virtualisierung",
+  "generatedAt": "2026-01-05T15:17:54.375Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.7222222222222222,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.2777777777777778,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 13,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 5,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Virtualisierung",
+      "fineSubject": "Virtualisierungstechniken",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Emulation",
+      "fineSubject": "Emulatoren",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Paravirtualisierung",
+      "fineSubject": "Paravirtualisierung",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Betriebssysteme",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Memory Management Units (MMU)",
+      "fineSubject": "Speicherverwaltung",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheit in Server-Systemen",
+      "fineSubject": "Sicherheitsmaßnahmen",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "x86-Architektur",
+      "fineSubject": "Architekturen",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kernel Mode Nutzung",
+      "fineSubject": "Kernel-Architektur",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "64-Bit Modus der x86-Architektur",
+      "fineSubject": "Architekturen",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Virtualisierungslücke des x86",
+      "fineSubject": "Sicherheitslücken",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "VMware Methoden",
+      "fineSubject": "Virtualisierungstechniken",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Xen",
+      "fineSubject": "Hypervisor",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Time Scheduling des Hypervisors",
+      "fineSubject": "Hypervisor-Management",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "DMA und Virtualisierung",
+      "fineSubject": "DMA-Technologien",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "QEMU",
+      "fineSubject": "Emulatoren",
+      "topicIndex": 14,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Embedded-System-Entwicklung",
+      "fineSubject": "Embedded-Systeme",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hardware-Unterstützung für Virtualisierung",
+      "fineSubject": "Hardware-Technologien",
+      "topicIndex": 16,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheitsaspekte bei Virtualisierungssoftware",
+      "fineSubject": "Sicherheitsmaßnahmen",
+      "topicIndex": 17,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 143,
+  "title": "LNP143 Kopfläuse in der Kita",
+  "generatedAt": "2026-01-05T15:17:57.593Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.55346133521226,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.44653866478774,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 3142,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2535,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 4,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5677,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 122,
+      "endSec": 1237,
+      "durationSec": 1115,
+      "topic": "Vorratsdatenspeicherung vorabgestimmt",
+      "fineSubject": "Legislation / Data Retention",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1237,
+      "endSec": 1750,
+      "durationSec": 513,
+      "topic": "IT-Sicherheitsgesetz beschlossen",
+      "fineSubject": "Legislation / IT Security Act",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1751,
+      "endSec": 4893,
+      "durationSec": 3142,
+      "topic": "Braucht der Bundestag ein komplett neues Computernetz?",
+      "fineSubject": "Infrastructure / Computer Networks",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4893,
+      "endSec": 5300,
+      "durationSec": 407,
+      "topic": "Generalprüfanwalt stellt Ermittlungen in Sachen Merkel-Handy ein",
+      "fineSubject": "Case / Merkel Phone",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5301,
+      "endSec": 5801,
+      "durationSec": 500,
+      "topic": "Uhrlau im BND-Untersuchungssausschuss",
+      "fineSubject": "Investigation / BND",
+      "topicIndex": 4
+    }
+  ]
+}

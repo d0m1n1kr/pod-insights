@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 85,
+  "title": "LNP085 Tatmittel Internet",
+  "generatedAt": "2026-01-05T15:17:57.587Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.6,
+      "Security": 0.4,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 600,
+      "Security": 400,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 1000,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 4069,
+      "endSec": 4469,
+      "durationSec": 400,
+      "topic": "BND schnorchelt mit",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 4470,
+      "endSec": 5070,
+      "durationSec": 600,
+      "topic": "Meldepflicht für Tor",
+      "fineSubject": "Internet Privacy",
+      "topicIndex": 4
+    }
+  ]
+}

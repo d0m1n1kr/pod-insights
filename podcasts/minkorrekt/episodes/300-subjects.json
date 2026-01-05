@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 300,
+  "title": "Mi300 – \"Die Sonne ist ein Rabbit Hole\"",
+  "generatedAt": "2026-01-05T15:18:17.384Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5236943907156673,
+      "Culture": 0.4763056092843327,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2166,
+      "Culture": 1970,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4136,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 266,
+      "endSec": 708,
+      "durationSec": 442,
+      "topic": "Oberhummer Award in Wien",
+      "fineSubject": "Location / Wien",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 708,
+      "endSec": 1737,
+      "durationSec": 1029,
+      "topic": "Coffee Shop Effekt",
+      "fineSubject": "Social / Coffee Shop",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 4065,
+      "endSec": 4981,
+      "durationSec": 916,
+      "topic": "Snackable Science",
+      "fineSubject": "Content / Snackable Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6679,
+      "endSec": 8207,
+      "durationSec": 1528,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Media / Schwurbel",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 8427,
+      "endSec": 8648,
+      "durationSec": 221,
+      "topic": "Audiokommentar Owen zu isotopenreinem Silizum",
+      "fineSubject": "Material / Silizium",
+      "topicIndex": 7
+    }
+  ]
+}

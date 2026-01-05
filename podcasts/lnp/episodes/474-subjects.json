@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 474,
+  "title": "LNP474 Autobahnkreuzigung",
+  "generatedAt": "2026-01-05T15:17:57.638Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.20095044127630685,
+      "Social": 0.017651052274270197,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.3408010862186015,
+      "Legal": 0,
+      "Business": 0.44059742023082143,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1184,
+      "Social": 104,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 2008,
+      "Legal": 0,
+      "Business": 2596,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5892,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 728,
+      "endSec": 1278,
+      "durationSec": 550,
+      "topic": "Feedback: BL Brute Forcing",
+      "fineSubject": "Brute Forcing",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1279,
+      "endSec": 1602,
+      "durationSec": 323,
+      "topic": "Feedback: Menschliches Wissen steht der KI im Weg",
+      "fineSubject": "KI und menschliches Wissen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1602,
+      "endSec": 2737,
+      "durationSec": 1135,
+      "topic": "Feedback: KI-Regulierung",
+      "fineSubject": "KI-Regulierung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2738,
+      "endSec": 2842,
+      "durationSec": 104,
+      "topic": "Micro-Targeting durch Ylva Johansson",
+      "fineSubject": "Micro-Targeting",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 2843,
+      "endSec": 3251,
+      "durationSec": 408,
+      "topic": "Google lässt sich #1 was kosten",
+      "fineSubject": "Google",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 3251,
+      "endSec": 5439,
+      "durationSec": 2188,
+      "topic": "Meta: Personalisierte Werbung",
+      "fineSubject": "Personalisierte Werbung",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 5439,
+      "endSec": 6623,
+      "durationSec": 1184,
+      "topic": "Jabber.ru MITM",
+      "fineSubject": "MITM",
+      "topicIndex": 6
+    }
+  ]
+}

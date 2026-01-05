@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 70,
+  "title": "LNP070 Loben und Strafen",
+  "generatedAt": "2026-01-05T15:17:57.583Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.8146911519198664,
+      "Technology": 0.18530884808013356,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2928,
+      "Technology": 666,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3594,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1044,
+      "endSec": 2645,
+      "durationSec": 1601,
+      "topic": "Snowden",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2646,
+      "endSec": 3408,
+      "durationSec": 762,
+      "topic": "NSA spioniert die EU aus",
+      "fineSubject": "Espionage",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3409,
+      "endSec": 3974,
+      "durationSec": 565,
+      "topic": "FBI-Spitzel bei WikiLeaks",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3974,
+      "endSec": 4640,
+      "durationSec": 666,
+      "topic": "Adblock Plus",
+      "fineSubject": "Ad Blocking",
+      "topicIndex": 3
+    }
+  ]
+}

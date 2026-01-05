@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 404,
+  "title": "LNP404 Sie haben Ihr Ziel erreicht",
+  "generatedAt": "2026-01-05T15:17:57.628Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.22075782537067545,
+      "Technology": 0.5013728720483251,
+      "Law": 0,
+      "Security": 0.14186344499359327,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.1360058575874062,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1206,
+      "Technology": 2739,
+      "Law": 0,
+      "Security": 775,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 743,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5463,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 190,
+      "endSec": 2929,
+      "durationSec": 2739,
+      "topic": "Quad 9",
+      "fineSubject": "Security / Quad 9",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2930,
+      "endSec": 3686,
+      "durationSec": 756,
+      "topic": "Terror-Vorwurf gegen Kunst-Kollektiv “peng”",
+      "fineSubject": "Controversy / Terrorism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 3686,
+      "endSec": 4171,
+      "durationSec": 485,
+      "topic": "Biometrie-Systeme in Händen der Taliban",
+      "fineSubject": "Politics / Taliban",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 4171,
+      "endSec": 4461,
+      "durationSec": 290,
+      "topic": "Hack des iranischen Folterknasts Evin",
+      "fineSubject": "Politics / Iran",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4462,
+      "endSec": 5205,
+      "durationSec": 743,
+      "topic": "noyb-Beschwerden gegen “PUR”-Abos",
+      "fineSubject": "Consumer Rights / Subscriptions",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5205,
+      "endSec": 5655,
+      "durationSec": 450,
+      "topic": "USA: Cyber-Security Pact",
+      "fineSubject": "Security / Cybersecurity",
+      "topicIndex": 5
+    }
+  ]
+}

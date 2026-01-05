@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 97,
+  "title": "UKW097 Ukraine: Er hat das Memo nicht gelesen",
+  "generatedAt": "2026-01-05T15:18:03.025Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0.7810793095914355,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.21892069040856457
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 7150,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 2004
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 10,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 5
+    },
+    "totalDurationSec": 9154,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Geopolitics",
+      "startSec": 336,
+      "endSec": 750,
+      "durationSec": 414,
+      "topic": "Situation im Südwesten der Ukraine",
+      "fineSubject": "Ukraine",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 751,
+      "endSec": 1608,
+      "durationSec": 857,
+      "topic": "Versenkung der Moskva",
+      "fineSubject": "Naval Warfare",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 1608,
+      "endSec": 1752,
+      "durationSec": 144,
+      "topic": "Transnistrien",
+      "fineSubject": "Transnistria",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 1753,
+      "endSec": 1869,
+      "durationSec": 116,
+      "topic": "Angriff auf die Schlangeninsel",
+      "fineSubject": "Island Warfare",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 1870,
+      "endSec": 2226,
+      "durationSec": 356,
+      "topic": "Situation im Süden",
+      "fineSubject": "Southern Ukraine",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 2226,
+      "endSec": 2562,
+      "durationSec": 336,
+      "topic": "Angriffe und Sabotage auf russischem Gebiet",
+      "fineSubject": "Sabotage",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 2563,
+      "endSec": 3644,
+      "durationSec": 1081,
+      "topic": "Die Ostfront und russische Verluste",
+      "fineSubject": "Eastern Front",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 3644,
+      "endSec": 3801,
+      "durationSec": 157,
+      "topic": "Mariupol und Asovstal",
+      "fineSubject": "Urban Warfare",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 3802,
+      "endSec": 5341,
+      "durationSec": 1539,
+      "topic": "Schwere Waffen für die Ukraine",
+      "fineSubject": "Weapons Supply",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 5342,
+      "endSec": 5896,
+      "durationSec": 554,
+      "topic": "Deutschlands Rolle und die beleidigte Leberwurst",
+      "fineSubject": "Germany",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Military",
+      "startSec": 5896,
+      "endSec": 7241,
+      "durationSec": 1345,
+      "topic": "Das atomare Tabu",
+      "fineSubject": "Taboos",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Military",
+      "startSec": 7242,
+      "endSec": 7729,
+      "durationSec": 487,
+      "topic": "Nukleares Mindesthaltbarkeitsdatum",
+      "fineSubject": "Arms Control",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Military",
+      "startSec": 7730,
+      "endSec": 7978,
+      "durationSec": 248,
+      "topic": "Risiko eines Atomkriegs",
+      "fineSubject": "Risk Assessment",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Military",
+      "startSec": 7978,
+      "endSec": 8962,
+      "durationSec": 984,
+      "topic": "Mögliche Eskalation und Mobilimachung",
+      "fineSubject": "Mobilization",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 8963,
+      "endSec": 9499,
+      "durationSec": 536,
+      "topic": "Wie geht es weiter?",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 14
+    }
+  ]
+}

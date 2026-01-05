@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 176,
+  "title": "FS176 Sein Deutsch deterioriert zunehmend",
+  "generatedAt": "2026-01-05T15:17:51.086Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3810437452033768,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.25681120491174214,
+      "Media": 0.06811204911742133,
+      "Social": 0,
+      "Culture": 0.10869148119723715,
+      "Security": 0.046910974673829625,
+      "Events": 0,
+      "Business": 0.05132386799693016,
+      "Gaming": 0.08710667689946278,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3972,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2677,
+      "Media": 710,
+      "Social": 0,
+      "Culture": 1133,
+      "Security": 489,
+      "Events": 0,
+      "Business": 535,
+      "Gaming": 908,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 3,
+      "Security": 1,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 2,
+      "Event": 0
+    },
+    "totalDurationSec": 10424,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 452,
+      "endSec": 810,
+      "durationSec": 358,
+      "topic": "Diaabend",
+      "fineSubject": "Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1324,
+      "endSec": 2345,
+      "durationSec": 1021,
+      "topic": "Electronic Magnetic Field",
+      "fineSubject": "Electromagnetism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 2345,
+      "endSec": 2880,
+      "durationSec": 535,
+      "topic": "Location fürs internationale Meetings",
+      "fineSubject": "Meetings",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2881,
+      "endSec": 3298,
+      "durationSec": 417,
+      "topic": "CSD und Love Parade",
+      "fineSubject": "Festivals",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3298,
+      "endSec": 4113,
+      "durationSec": 815,
+      "topic": "IPv6 bei T-Mobile",
+      "fineSubject": "Networking",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4113,
+      "endSec": 4891,
+      "durationSec": 778,
+      "topic": "Netz auf der re:publica",
+      "fineSubject": "Conferences",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 5294,
+      "endSec": 5783,
+      "durationSec": 489,
+      "topic": "Malware und Ad-Networks",
+      "fineSubject": "Malware",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5783,
+      "endSec": 6331,
+      "durationSec": 548,
+      "topic": "Captive Portals",
+      "fineSubject": "Networking",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Finance",
+      "startSec": 6332,
+      "endSec": 9009,
+      "durationSec": 2677,
+      "topic": "Flattr Plus",
+      "fineSubject": "Crowdfunding",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 10531,
+      "endSec": 10740,
+      "durationSec": 209,
+      "topic": "Don't Starve",
+      "fineSubject": "Survival",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 11241,
+      "endSec": 11940,
+      "durationSec": 699,
+      "topic": "Miegakure",
+      "fineSubject": "Puzzle",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 11940,
+      "endSec": 12381,
+      "durationSec": 441,
+      "topic": "Awards",
+      "fineSubject": "Awards",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12382,
+      "endSec": 12654,
+      "durationSec": 272,
+      "topic": "Studio Link und VoIP",
+      "fineSubject": "VoIP",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12655,
+      "endSec": 13193,
+      "durationSec": 538,
+      "topic": "Billige Headsets & DIY Audio",
+      "fineSubject": "Audio",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Culture",
+      "startSec": 13194,
+      "endSec": 13552,
+      "durationSec": 358,
+      "topic": "Roddibier",
+      "fineSubject": "Beverages",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 13553,
+      "endSec": 13822,
+      "durationSec": 269,
+      "topic": "The West Wing",
+      "fineSubject": "TV Shows",
+      "topicIndex": 18
+    }
+  ]
+}

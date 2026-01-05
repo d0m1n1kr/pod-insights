@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 10,
+  "title": "LNP010 We’re doin‘ it live",
+  "generatedAt": "2026-01-05T15:17:57.572Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2527859237536657,
+      "Technology": 0.4046920821114369,
+      "Law": 0.2434017595307918,
+      "Security": 0,
+      "Social": 0.060117302052785926,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.03900293255131965
+    },
+    "durations": {
+      "Politics": 862,
+      "Technology": 1380,
+      "Law": 830,
+      "Security": 0,
+      "Social": 205,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 133
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 3410,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 57,
+      "endSec": 603,
+      "durationSec": 546,
+      "topic": "Echtes Netz",
+      "fineSubject": "Netzkultur",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 764,
+      "endSec": 1594,
+      "durationSec": 830,
+      "topic": "SOPA",
+      "fineSubject": "SOPA",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1595,
+      "endSec": 1728,
+      "durationSec": 133,
+      "topic": "Filesharing als Religion",
+      "fineSubject": "Religiöse Aspekte",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1728,
+      "endSec": 1879,
+      "durationSec": 151,
+      "topic": "Netzsperren in Finnland",
+      "fineSubject": "Zensur",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1880,
+      "endSec": 2563,
+      "durationSec": 683,
+      "topic": "Netzsperren in Weißrußland",
+      "fineSubject": "Zensur",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2563,
+      "endSec": 2980,
+      "durationSec": 417,
+      "topic": "Nazileaks",
+      "fineSubject": "Nazileaks",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2981,
+      "endSec": 3426,
+      "durationSec": 445,
+      "topic": "Nazis und der 28C3",
+      "fineSubject": "Nazis",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 3426,
+      "endSec": 3631,
+      "durationSec": 205,
+      "topic": "28C3 Genderdebatte",
+      "fineSubject": "Debatte",
+      "topicIndex": 8
+    }
+  ]
+}

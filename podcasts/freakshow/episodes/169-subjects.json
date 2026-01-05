@@ -1,0 +1,333 @@
+{
+  "episodeNumber": 169,
+  "title": "FS169 Hauptschuhle",
+  "generatedAt": "2026-01-05T15:17:51.085Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.13795127678309363,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.066334018197828,
+      "Media": 0.30319929556794833,
+      "Social": 0.02142647490460816,
+      "Culture": 0.05650132081009686,
+      "Security": 0.03940416788963898,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.37518344584678603
+    },
+    "durations": {
+      "Technology": 1880,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 904,
+      "Media": 4132,
+      "Social": 292,
+      "Culture": 770,
+      "Security": 537,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 5113
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 7,
+      "Social": 2,
+      "Culture": 2,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 14
+    },
+    "totalDurationSec": 13628,
+    "totalTopics": 34
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 246,
+      "endSec": 464,
+      "durationSec": 218,
+      "topic": "32C3: Freak Show Live",
+      "fineSubject": "32C3: Freak Show Live",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 464,
+      "endSec": 845,
+      "durationSec": 381,
+      "topic": "32C3 Partyzones",
+      "fineSubject": "32C3 Partyzones",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Event",
+      "startSec": 846,
+      "endSec": 1262,
+      "durationSec": 416,
+      "topic": "32C3: Toilet Party",
+      "fineSubject": "32C3: Toilet Party",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 1262,
+      "endSec": 1476,
+      "durationSec": 214,
+      "topic": "Unisex Toiletten",
+      "fineSubject": "Unisex Toiletten",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1786,
+      "endSec": 2169,
+      "durationSec": 383,
+      "topic": "Mobilfunknetzstrukturen",
+      "fineSubject": "Mobilfunknetzstrukturen",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Event",
+      "startSec": 2169,
+      "endSec": 2323,
+      "durationSec": 154,
+      "topic": "32C3: Methodisch Inkorrekt",
+      "fineSubject": "32C3: Methodisch Inkorrekt",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Event",
+      "startSec": 2324,
+      "endSec": 2966,
+      "durationSec": 642,
+      "topic": "32C3: Dieselgate",
+      "fineSubject": "32C3: Dieselgate",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Event",
+      "startSec": 2967,
+      "endSec": 3031,
+      "durationSec": 64,
+      "topic": "32C3: Stromtankstellen",
+      "fineSubject": "32C3: Stromtankstellen",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3031,
+      "endSec": 3558,
+      "durationSec": 527,
+      "topic": "Elektromobilität und Tesla",
+      "fineSubject": "Elektromobilität und Tesla",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Event",
+      "startSec": 3559,
+      "endSec": 3905,
+      "durationSec": 346,
+      "topic": "32C3: Beyond Your Cable Modem",
+      "fineSubject": "32C3: Beyond Your Cable Modem",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Event",
+      "startSec": 3905,
+      "endSec": 3979,
+      "durationSec": 74,
+      "topic": "32C3: 20 Oscilators in 20 Minutes",
+      "fineSubject": "32C3: 20 Oscilators in 20 Minutes",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Event",
+      "startSec": 3980,
+      "endSec": 4065,
+      "durationSec": 85,
+      "topic": "32C3: Intelexit",
+      "fineSubject": "32C3: Intelexit",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Security",
+      "startSec": 4066,
+      "endSec": 4603,
+      "durationSec": 537,
+      "topic": "32C3: (Un)Sicherheit von App-basierten TAN-Verfahren",
+      "fineSubject": "32C3: (Un)Sicherheit von App-basierten TAN-Verfahren",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Event",
+      "startSec": 4603,
+      "endSec": 4921,
+      "durationSec": 318,
+      "topic": "32C3: QRtistry",
+      "fineSubject": "32C3: QRtistry",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Event",
+      "startSec": 5474,
+      "endSec": 5700,
+      "durationSec": 226,
+      "topic": "32C3: rad1o++",
+      "fineSubject": "32C3: rad1o++",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Event",
+      "startSec": 5701,
+      "endSec": 7270,
+      "durationSec": 1569,
+      "topic": "32C3 Design",
+      "fineSubject": "32C3 Design",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7270,
+      "endSec": 7735,
+      "durationSec": 465,
+      "topic": "HGich.T",
+      "fineSubject": "HGich.T",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7736,
+      "endSec": 8057,
+      "durationSec": 321,
+      "topic": "Automatic Slides",
+      "fineSubject": "Automatic Slides",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Event",
+      "startSec": 8057,
+      "endSec": 8486,
+      "durationSec": 429,
+      "topic": "32C3 Opening",
+      "fineSubject": "32C3 Opening",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Media",
+      "startSec": 8487,
+      "endSec": 8629,
+      "durationSec": 142,
+      "topic": "32C3 Recap Comic",
+      "fineSubject": "32C3 Recap Comic",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8629,
+      "endSec": 8934,
+      "durationSec": 305,
+      "topic": "Strandbeest",
+      "fineSubject": "Strandbeest",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Media",
+      "startSec": 8935,
+      "endSec": 9199,
+      "durationSec": 264,
+      "topic": "32C3 Medienecho",
+      "fineSubject": "32C3 Medienecho",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Media",
+      "startSec": 9200,
+      "endSec": 9844,
+      "durationSec": 644,
+      "topic": "Camp-Dokufilm: All Creatures Welcome",
+      "fineSubject": "Camp-Dokufilm: All Creatures Welcome",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Media",
+      "startSec": 9844,
+      "endSec": 10821,
+      "durationSec": 977,
+      "topic": "CCC TV",
+      "fineSubject": "CCC TV",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Media",
+      "startSec": 10822,
+      "endSec": 12691,
+      "durationSec": 1869,
+      "topic": "Star Wars Despecialized Version",
+      "fineSubject": "Star Wars Despecialized Version",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Media",
+      "startSec": 12691,
+      "endSec": 12810,
+      "durationSec": 119,
+      "topic": "Star Wars Intro Creator",
+      "fineSubject": "Star Wars Intro Creator",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Social",
+      "startSec": 12810,
+      "endSec": 12888,
+      "durationSec": 78,
+      "topic": "Mate-Wachablösung",
+      "fineSubject": "Mate-Wachablösung",
+      "topicIndex": 29
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12889,
+      "endSec": 13793,
+      "durationSec": 904,
+      "topic": "Flattr",
+      "fineSubject": "Flattr",
+      "topicIndex": 30
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13794,
+      "endSec": 14443,
+      "durationSec": 649,
+      "topic": "Falcon 9 Landing",
+      "fineSubject": "Falcon 9 Landing",
+      "topicIndex": 31
+    },
+    {
+      "subject": "Media",
+      "startSec": 14443,
+      "endSec": 14560,
+      "durationSec": 117,
+      "topic": "The Martian",
+      "fineSubject": "The Martian",
+      "topicIndex": 32
+    },
+    {
+      "subject": "Event",
+      "startSec": 14682,
+      "endSec": 14873,
+      "durationSec": 191,
+      "topic": "Bonus Track: Auf dem Congress feat. Methodisch Inkorrekt",
+      "fineSubject": "Bonus Track: Auf dem Congress feat. Methodisch Inkorrekt",
+      "topicIndex": 33
+    }
+  ]
+}

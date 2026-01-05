@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 257,
+  "title": "Mi257 – \"Cleaning the House-Syndrom\"",
+  "generatedAt": "2026-01-05T15:18:17.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.7200245952039352,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.16191842590694813,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0.11805697888911662,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3513,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 790,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 576,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4879,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 139,
+      "endSec": 929,
+      "durationSec": 790,
+      "topic": "Lauftraining Reini",
+      "fineSubject": "Fitness",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 929,
+      "endSec": 2771,
+      "durationSec": 1842,
+      "topic": "Paretoprinzip und Parkinsonsche Gesetze",
+      "fineSubject": "Principles",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2771,
+      "endSec": 4442,
+      "durationSec": 1671,
+      "topic": "Thema 1: “Hintergrundbrummen”",
+      "fineSubject": "Acoustics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 4442,
+      "endSec": 5018,
+      "durationSec": 576,
+      "topic": "Snackable Science: Der Pfeilstorch",
+      "fineSubject": "Birds",
+      "topicIndex": 3
+    }
+  ]
+}

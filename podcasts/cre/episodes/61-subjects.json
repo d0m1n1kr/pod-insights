@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 61,
+  "title": "CRE061 Medienformate und Codecs",
+  "generatedAt": "2026-01-05T15:17:54.370Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.16666666666666666,
+      "Technology": 0.16666666666666666,
+      "Social": 0,
+      "Media": 0.5,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.16666666666666666,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 1,
+      "Technology": 1,
+      "Social": 0,
+      "Media": 3,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Multimedia-Datenformate",
+      "fineSubject": "Formats",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Videoformate",
+      "fineSubject": "Video",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Multimedia-Frameworks",
+      "fineSubject": "Frameworks",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Containerformate",
+      "fineSubject": "Container Formats",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technische Besonderheiten von Formaten",
+      "fineSubject": "Technical Aspects",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Patente und Lizenzzahlungen",
+      "fineSubject": "Patents and Licensing",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

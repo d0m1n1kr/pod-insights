@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 539,
+  "title": "LNP539 Spanien kriegt nix",
+  "generatedAt": "2026-01-05T15:17:57.646Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4391592920353982,
+      "Technology": 0.15634218289085547,
+      "Law": 0.40449852507374634,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1191,
+      "Technology": 424,
+      "Law": 1097,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 4,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2712,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 926,
+      "endSec": 1215,
+      "durationSec": 289,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Privacy / Chatkontrolle",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1215,
+      "endSec": 1679,
+      "durationSec": 464,
+      "topic": "EU vs. X",
+      "fineSubject": "Policy / EU vs. X",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1680,
+      "endSec": 2104,
+      "durationSec": 424,
+      "topic": "X Location Feature",
+      "fineSubject": "Location / X Location Feature",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2104,
+      "endSec": 2831,
+      "durationSec": 727,
+      "topic": "Social Media Verbot in Australien",
+      "fineSubject": "Censorship / Social Media Verbot in Australien",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2832,
+      "endSec": 3445,
+      "durationSec": 613,
+      "topic": "Hackerparagraph Portugal",
+      "fineSubject": "Legislation / Hackerparagraph Portugal",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3446,
+      "endSec": 3526,
+      "durationSec": 80,
+      "topic": "Neue Polizeigesetze: Berlin",
+      "fineSubject": "Legislation / Neue Polizeigesetze: Berlin",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 3526,
+      "endSec": 3641,
+      "durationSec": 115,
+      "topic": "Neue Polizeigesetze: Sachsen",
+      "fineSubject": "Legislation / Neue Polizeigesetze: Sachsen",
+      "topicIndex": 6
+    }
+  ]
+}

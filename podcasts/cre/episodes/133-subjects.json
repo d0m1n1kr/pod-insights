@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 133,
+  "title": "CRE133 Piraten",
+  "generatedAt": "2026-01-05T15:17:54.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.3333333333333333,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.2222222222222222,
+      "Technologie": 0,
+      "Politics": 0.1111111111111111,
+      "Security": 0,
+      "History": 0.3333333333333333,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 3,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 2,
+      "Technologie": 0,
+      "Politics": 1,
+      "Security": 0,
+      "History": 3,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mythos und Kindertraum Pirat",
+      "fineSubject": "Mythology",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beginn der Seefahrt und der Piraterie in der Antike",
+      "fineSubject": "Ancient Civilizations",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Klaus Störtebeker und die Hanse",
+      "fineSubject": "Medieval Europe",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "History",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Die Neue Welt und das Goldene Zeitalter der Piraten",
+      "fineSubject": "Colonialism",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Piratenfrauen und die Frauen der Piraten",
+      "fineSubject": "Gender Studies",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lebensgemeinschaften unter Piraten",
+      "fineSubject": "Communities",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Die Piraten, die Popkultur und Hollywood",
+      "fineSubject": "Media",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Piraterie heute",
+      "fineSubject": "Modern Piracy",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rassismus",
+      "fineSubject": "Race Relations",
+      "topicIndex": 10,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 244,
+  "title": "Mi244 – „Todesschreie aus der Ketchupflasche“",
+  "generatedAt": "2026-01-05T15:18:17.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.446159122085048,
+      "Culture": 0.23628257887517146,
+      "Wissenschaft": 0,
+      "Health": 0.3175582990397805,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1301,
+      "Culture": 689,
+      "Wissenschaft": 0,
+      "Health": 926,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 2916,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 253,
+      "endSec": 1179,
+      "durationSec": 926,
+      "topic": "Familienorientierte-Reha",
+      "fineSubject": "Family-Oriented",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2062,
+      "endSec": 2525,
+      "durationSec": 463,
+      "topic": "Oberes Belvedere",
+      "fineSubject": "Upper Belvedere",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2525,
+      "endSec": 3230,
+      "durationSec": 705,
+      "topic": "Grenzen der Wissenschaft",
+      "fineSubject": "Boundaries of Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3230,
+      "endSec": 3456,
+      "durationSec": 226,
+      "topic": "Science Slam Buch",
+      "fineSubject": "Science Slam Book",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4969,
+      "endSec": 5565,
+      "durationSec": 596,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiment of the Week",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 6343,
+      "endSec": 6343,
+      "durationSec": 0,
+      "topic": "Schwurbel der Woche: Zentralsonne",
+      "fineSubject": "Central Sun",
+      "topicIndex": 9
+    }
+  ]
+}

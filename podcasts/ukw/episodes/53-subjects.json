@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 53,
+  "title": "UKW053 Corona Weekly: Der Impfstoff ist ’ne App",
+  "generatedAt": "2026-01-05T15:18:03.011Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9914637695217771,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.008536230478222911,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 10221,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 88,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 15,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 10309,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 134,
+      "endSec": 1046,
+      "durationSec": 912,
+      "topic": "Zahlen in Deutschland",
+      "fineSubject": "Statistics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1046,
+      "endSec": 1313,
+      "durationSec": 267,
+      "topic": "Situation in den Ländern und Kreisen",
+      "fineSubject": "Regional Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1313,
+      "endSec": 1444,
+      "durationSec": 131,
+      "topic": "Situation in Europa",
+      "fineSubject": "Regional Situation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1445,
+      "endSec": 2858,
+      "durationSec": 1413,
+      "topic": "Der UK-Virus",
+      "fineSubject": "Virus Variants",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2858,
+      "endSec": 3637,
+      "durationSec": 779,
+      "topic": "Kinderinfektiösität und Superspreading an Schulen",
+      "fineSubject": "Transmission",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3638,
+      "endSec": 3967,
+      "durationSec": 329,
+      "topic": "CentoKit aus Wettbewerbsgründen vorerst nicht verfügbar",
+      "fineSubject": "Vaccine Availability",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3968,
+      "endSec": 5035,
+      "durationSec": 1067,
+      "topic": "Impfungen in Deutschland und Israel",
+      "fineSubject": "Vaccination",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 5035,
+      "endSec": 5783,
+      "durationSec": 748,
+      "topic": "Ich will mich nicht impfen lassen weil…",
+      "fineSubject": "Vaccine Hesitancy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5783,
+      "endSec": 5973,
+      "durationSec": 190,
+      "topic": "Wie lange hält die Immunisierung?",
+      "fineSubject": "Immunity Duration",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5974,
+      "endSec": 6448,
+      "durationSec": 474,
+      "topic": "Zulassung von Astra Zeneca Impfstoff in EU zieht sich",
+      "fineSubject": "Vaccine Approval",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 6448,
+      "endSec": 7208,
+      "durationSec": 760,
+      "topic": "Impfregister und Impfpflicht",
+      "fineSubject": "Vaccination Policy",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 7209,
+      "endSec": 7611,
+      "durationSec": 402,
+      "topic": "Feedback zu Vitamin D",
+      "fineSubject": "Nutrition",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 7611,
+      "endSec": 8910,
+      "durationSec": 1299,
+      "topic": "mRNA aus Sicht eines Informatikers",
+      "fineSubject": "Vaccine Technology",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8910,
+      "endSec": 8998,
+      "durationSec": 88,
+      "topic": "Die kommenden Kandidaten für den Nobelpreis",
+      "fineSubject": "Awards",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 8999,
+      "endSec": 10184,
+      "durationSec": 1185,
+      "topic": "Ein neuer Weg, Impfstoffe zu entwickeln",
+      "fineSubject": "Vaccine Development",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 10185,
+      "endSec": 10450,
+      "durationSec": 265,
+      "topic": "Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 15
+    }
+  ]
+}

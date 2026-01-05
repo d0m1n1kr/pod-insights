@@ -1,0 +1,184 @@
+{
+  "episodeNumber": 84,
+  "title": "CRE084 LISP",
+  "generatedAt": "2026-01-05T15:17:54.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.9230769230769231,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.07692307692307693,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 12,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 1,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Eigenschaften von LISP",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Syntax von LISP",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Umgang mit Listen in LISP",
+      "fineSubject": "Datenstrukturen",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Anonyme Funktionen in LISP",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Namensräume in LISP",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Lisp-Dialekte",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Common List Object System",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Multiple Dispatch in LISP",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Metaobjektprotokolle in LISP",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entstehung und Vergangenheit von LISP",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "LISP Machines",
+      "fineSubject": "Spezielle Hardware",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verfügbare LISP-Implementierungen",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Open Source LISP-Compiler",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 12,
+      "untimed": true
+    }
+  ]
+}

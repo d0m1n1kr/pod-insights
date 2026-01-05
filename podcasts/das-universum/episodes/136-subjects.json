@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 136,
+  "title": "DU136 - Polarlichter auf dem Mars",
+  "generatedAt": "2026-01-05T15:18:22.111Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 1,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 1062,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 2,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 1062,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Astronomy",
+      "startSec": 90,
+      "endSec": 642,
+      "durationSec": 552,
+      "topic": "Polarlichter auf dem Mars",
+      "fineSubject": "Planetary Science",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": 602,
+      "endSec": 1112,
+      "durationSec": 510,
+      "topic": "Miyake-Ereignisse",
+      "fineSubject": "Solar Activity",
+      "topicIndex": 1
+    }
+  ]
+}

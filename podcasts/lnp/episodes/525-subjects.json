@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 525,
+  "title": "LNP525 Denk doch mal einer an die Hacker",
+  "generatedAt": "2026-01-05T15:17:57.645Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.42909647779479326,
+      "Technology": 0.22603369065849924,
+      "Law": 0,
+      "Security": 0.06860643185298622,
+      "Social": 0.07258805513016846,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.1540581929555896,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.04961715160796325
+    },
+    "durations": {
+      "Politics": 1401,
+      "Technology": 738,
+      "Law": 0,
+      "Security": 224,
+      "Social": 237,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 503,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 162
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 3265,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 1179,
+      "endSec": 1356,
+      "durationSec": 177,
+      "topic": "Feedback: Papst",
+      "fineSubject": "Religion",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1357,
+      "endSec": 1548,
+      "durationSec": 191,
+      "topic": "Feedback: OpenAI Speicherung",
+      "fineSubject": "Data Storage",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1548,
+      "endSec": 1638,
+      "durationSec": 90,
+      "topic": "Feedback: Copilot",
+      "fineSubject": "AI Tools",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 1639,
+      "endSec": 1699,
+      "durationSec": 60,
+      "topic": "Feedback: Mr. Bates gegen die Post",
+      "fineSubject": "Communication",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1699,
+      "endSec": 1962,
+      "durationSec": 263,
+      "topic": "Digitalabgabe",
+      "fineSubject": "Digital Law",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1963,
+      "endSec": 2637,
+      "durationSec": 674,
+      "topic": "Exekutive interessiert sich nicht mehr für Judikative",
+      "fineSubject": "Judiciary",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2637,
+      "endSec": 3364,
+      "durationSec": 727,
+      "topic": "USA wollen bei Visa noch mehr Social Media kontrollieren",
+      "fineSubject": "Social Media",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3364,
+      "endSec": 3821,
+      "durationSec": 457,
+      "topic": "pCloudBw mit \"Google Cloud Air-Gapped\"",
+      "fineSubject": "Cloud Services",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3822,
+      "endSec": 4062,
+      "durationSec": 240,
+      "topic": "Verfahren gegen Porno-Seiten",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 4062,
+      "endSec": 4286,
+      "durationSec": 224,
+      "topic": "Datenleck bei Corplife",
+      "fineSubject": "Data Breaches",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4287,
+      "endSec": 4449,
+      "durationSec": 162,
+      "topic": "John Young R.I.P.",
+      "fineSubject": "Obituaries",
+      "topicIndex": 10
+    }
+  ]
+}

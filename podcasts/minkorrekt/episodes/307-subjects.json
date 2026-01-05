@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 307,
+  "title": "Mi307 – \"Fortgeschrittene Seele\"",
+  "generatedAt": "2026-01-05T15:18:17.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.09832775919732442,
+      "Culture": 0.8145484949832776,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.087123745819398,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 588,
+      "Culture": 4871,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 521,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5980,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 106,
+      "endSec": 1060,
+      "durationSec": 954,
+      "topic": "Taylor Swift",
+      "fineSubject": "Music",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3196,
+      "endSec": 3717,
+      "durationSec": 521,
+      "topic": "Compensators.org",
+      "fineSubject": "Websites",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3717,
+      "endSec": 5372,
+      "durationSec": 1655,
+      "topic": "Thema 1: “Die Höhle der Lunaren”",
+      "fineSubject": "Metaphysics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 5372,
+      "endSec": 5960,
+      "durationSec": 588,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5960,
+      "endSec": 7466,
+      "durationSec": 1506,
+      "topic": "Thema 2: \"Gamberetto Salvatore\"",
+      "fineSubject": "Food",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7466,
+      "endSec": 8222,
+      "durationSec": 756,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 6
+    }
+  ]
+}

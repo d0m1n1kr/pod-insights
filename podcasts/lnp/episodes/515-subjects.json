@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 515,
+  "title": "LNP515 Die Demokratie hat ein Platzproblem",
+  "generatedAt": "2026-01-05T15:17:57.644Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.828427065026362,
+      "Technology": 0.14257469244288226,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.02899824253075571,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3771,
+      "Technology": 649,
+      "Law": 0,
+      "Security": 0,
+      "Social": 132,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4552,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 93,
+      "endSec": 304,
+      "durationSec": 211,
+      "topic": "Weltuntergang abgewendet",
+      "fineSubject": "Democracy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 304,
+      "endSec": 436,
+      "durationSec": 132,
+      "topic": "Feedback: Vom Petting zum Fucking",
+      "fineSubject": "Relationships",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 436,
+      "endSec": 1551,
+      "durationSec": 1115,
+      "topic": "Taiwan",
+      "fineSubject": "International Relations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2959,
+      "endSec": 4217,
+      "durationSec": 1258,
+      "topic": "Bundestagswahl 2025",
+      "fineSubject": "Elections",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4217,
+      "endSec": 5404,
+      "durationSec": 1187,
+      "topic": "Regierungsbildung in Österreich",
+      "fineSubject": "Government Formation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5405,
+      "endSec": 5608,
+      "durationSec": 203,
+      "topic": "Netzbremse",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5608,
+      "endSec": 5978,
+      "durationSec": 370,
+      "topic": "eIDAS Update",
+      "fineSubject": "Digital Identity",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5978,
+      "endSec": 6054,
+      "durationSec": 76,
+      "topic": "\"Dear MEP\" Software-Release",
+      "fineSubject": "Software Development",
+      "topicIndex": 8
+    }
+  ]
+}

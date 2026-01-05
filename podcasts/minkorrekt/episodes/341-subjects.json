@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 341,
+  "title": "Mi341 – \"Erdcrouton\"",
+  "generatedAt": "2026-01-05T15:18:17.390Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.6453790238836968,
+      "Wissenschaft": 0,
+      "Health": 0.08532364139840776,
+      "Technology": 0.08393907926618208,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.11163032191069575,
+      "Social": 0.07372793354101766,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 3729,
+      "Wissenschaft": 0,
+      "Health": 493,
+      "Technology": 485,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 645,
+      "Social": 426,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 2,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 5778,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 412,
+      "endSec": 897,
+      "durationSec": 485,
+      "topic": "Flixtrain",
+      "fineSubject": "Service / Flixtrain",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Education",
+      "startSec": 897,
+      "endSec": 1408,
+      "durationSec": 511,
+      "topic": "Science Fair",
+      "fineSubject": "Science / Events",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 1408,
+      "endSec": 1834,
+      "durationSec": 426,
+      "topic": "Soziale Batterien",
+      "fineSubject": "Psychology / Batteries",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Education",
+      "startSec": 1834,
+      "endSec": 1968,
+      "durationSec": 134,
+      "topic": "Klimaringvorlesung",
+      "fineSubject": "Science / Climate",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1968,
+      "endSec": 3318,
+      "durationSec": 1350,
+      "topic": "Thema 1: \"Dripping States of America\"",
+      "fineSubject": "Geography / USA",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3318,
+      "endSec": 3811,
+      "durationSec": 493,
+      "topic": "Science Snack",
+      "fineSubject": "Science / Education",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3811,
+      "endSec": 5497,
+      "durationSec": 1686,
+      "topic": "Thema 2: \"Immer geradeaus!\"",
+      "fineSubject": "Culture / Directions",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5497,
+      "endSec": 6190,
+      "durationSec": 693,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Media / Misinformation",
+      "topicIndex": 8
+    }
+  ]
+}

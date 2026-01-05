@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 259,
+  "title": "FS259 Nasenfaktor",
+  "generatedAt": "2026-01-05T15:17:51.112Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6887290706820991,
+      "Software": 0.018091920440498933,
+      "Hardware": 0,
+      "Finance": 0.11630520283177885,
+      "Media": 0.09720193280143836,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.07967187324418475,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6129,
+      "Software": 161,
+      "Hardware": 0,
+      "Finance": 1035,
+      "Media": 865,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 709,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 10,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 2,
+      "Event": 0
+    },
+    "totalDurationSec": 8899,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 612,
+      "endSec": 1159,
+      "durationSec": 547,
+      "topic": "Nominierungssaison",
+      "fineSubject": "Award Season",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1159,
+      "endSec": 1477,
+      "durationSec": 318,
+      "topic": "Zahlensender",
+      "fineSubject": "Broadcasting",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 1478,
+      "endSec": 2513,
+      "durationSec": 1035,
+      "topic": "Finanzierungsfragen",
+      "fineSubject": "Funding Issues",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5183,
+      "endSec": 5420,
+      "durationSec": 237,
+      "topic": "Apple Event",
+      "fineSubject": "Apple Events",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5421,
+      "endSec": 6312,
+      "durationSec": 891,
+      "topic": "Apple TV",
+      "fineSubject": "Apple TV",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6312,
+      "endSec": 7451,
+      "durationSec": 1139,
+      "topic": "Neuer iMac",
+      "fineSubject": "iMac",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7452,
+      "endSec": 7826,
+      "durationSec": 374,
+      "topic": "Zukunft des iMac",
+      "fineSubject": "Future of iMac",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7826,
+      "endSec": 8814,
+      "durationSec": 988,
+      "topic": "iPad Pro",
+      "fineSubject": "iPad Pro",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8814,
+      "endSec": 10308,
+      "durationSec": 1494,
+      "topic": "AirTag",
+      "fineSubject": "AirTag",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10309,
+      "endSec": 10681,
+      "durationSec": 372,
+      "topic": "OpenHaystack",
+      "fineSubject": "OpenHaystack",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10681,
+      "endSec": 10840,
+      "durationSec": 159,
+      "topic": "Spotlight-Probleme auf Big Sur",
+      "fineSubject": "Big Sur Issues",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11442,
+      "endSec": 11698,
+      "durationSec": 256,
+      "topic": "SpatialChat",
+      "fineSubject": "SpatialChat",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11699,
+      "endSec": 11918,
+      "durationSec": 219,
+      "topic": "Teltonika RUT X.11",
+      "fineSubject": "Teltonika RUT",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 11918,
+      "endSec": 12079,
+      "durationSec": 161,
+      "topic": "SwiftDefaultApps",
+      "fineSubject": "Swift Default Apps",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 12080,
+      "endSec": 12366,
+      "durationSec": 286,
+      "topic": "Cards",
+      "fineSubject": "Cards",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 12367,
+      "endSec": 12790,
+      "durationSec": 423,
+      "topic": "Spiele spielen",
+      "fineSubject": "Playing Games",
+      "topicIndex": 18
+    }
+  ]
+}

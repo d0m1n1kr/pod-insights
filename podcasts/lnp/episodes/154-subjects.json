@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 154,
+  "title": "LNP154 Risiko disziplinarischer Ermittlungen",
+  "generatedAt": "2026-01-05T15:17:57.594Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5605479452054795,
+      "Technology": 0.07698630136986301,
+      "Law": 0.1715068493150685,
+      "Security": 0.19095890410958904,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2046,
+      "Technology": 281,
+      "Law": 626,
+      "Security": 697,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3650,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 97,
+      "endSec": 1540,
+      "durationSec": 1443,
+      "topic": "Feedback: WLAN-Gesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1541,
+      "endSec": 2167,
+      "durationSec": 626,
+      "topic": "Safe Harbour",
+      "fineSubject": "International Law",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 2167,
+      "endSec": 2864,
+      "durationSec": 697,
+      "topic": "NSA-UA: Selektoren versehentlich gelöscht",
+      "fineSubject": "Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2865,
+      "endSec": 3146,
+      "durationSec": 281,
+      "topic": "Strategische Initiative Technik",
+      "fineSubject": "Initiatives",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3147,
+      "endSec": 3750,
+      "durationSec": 603,
+      "topic": "Intelexit",
+      "fineSubject": "Digital Rights",
+      "topicIndex": 4
+    }
+  ]
+}

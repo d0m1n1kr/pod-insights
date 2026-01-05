@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 36,
+  "title": "MM036 Trust Me",
+  "generatedAt": "2026-01-05T15:17:51.062Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.04262358894511483,
+      "Software": 0.5595562475671467,
+      "Hardware": 0.2748151031529778,
+      "Finance": 0.08738808875048656,
+      "Media": 0.035616971584274036,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 219,
+      "Software": 2875,
+      "Hardware": 1412,
+      "Finance": 449,
+      "Media": 183,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 5,
+      "Hardware": 5,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 5138,
+    "totalTopics": 24
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 110,
+      "endSec": 293,
+      "durationSec": 183,
+      "topic": "eBooks",
+      "fineSubject": "eBooks",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 293,
+      "endSec": 595,
+      "durationSec": 302,
+      "topic": "Chapter Tool und MacPorts",
+      "fineSubject": "Chapter Tool",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 810,
+      "endSec": 920,
+      "durationSec": 110,
+      "topic": "Google Wave",
+      "fineSubject": "Google Wave",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1270,
+      "endSec": 1318,
+      "durationSec": 48,
+      "topic": "Drobo",
+      "fineSubject": "Drobo",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2366,
+      "endSec": 2590,
+      "durationSec": 224,
+      "topic": "Time Capsule",
+      "fineSubject": "Time Capsule",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2590,
+      "endSec": 3167,
+      "durationSec": 577,
+      "topic": "Mac Mini Server",
+      "fineSubject": "Mac Mini Server",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 3167,
+      "endSec": 3380,
+      "durationSec": 213,
+      "topic": "Waveboard",
+      "fineSubject": "Waveboard",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5122,
+      "endSec": 5410,
+      "durationSec": 288,
+      "topic": "Apple Remote & Nostalgie",
+      "fineSubject": "Apple Remote",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5410,
+      "endSec": 5685,
+      "durationSec": 275,
+      "topic": "UMTS Stick",
+      "fineSubject": "UMTS Stick",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5685,
+      "endSec": 5779,
+      "durationSec": 94,
+      "topic": "iPhone Tethering reaktivieren",
+      "fineSubject": "iPhone Tethering",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Finance",
+      "startSec": 5779,
+      "endSec": 6228,
+      "durationSec": 449,
+      "topic": "Apples Quartalszahlen",
+      "fineSubject": "Apple Quarterly Results",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 6228,
+      "endSec": 7890,
+      "durationSec": 1662,
+      "topic": "MacRuby",
+      "fineSubject": "MacRuby",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 7890,
+      "endSec": 8478,
+      "durationSec": 588,
+      "topic": "Google Wave als Produktivtool",
+      "fineSubject": "Google Wave as Productivity Tool",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8747,
+      "endSec": 8872,
+      "durationSec": 125,
+      "topic": "HTML5",
+      "fineSubject": "HTML5",
+      "topicIndex": 21
+    }
+  ]
+}

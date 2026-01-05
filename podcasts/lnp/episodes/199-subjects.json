@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 199,
+  "title": "LNP199 Tod oder Internet",
+  "generatedAt": "2026-01-05T15:17:57.600Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.41830610203401136,
+      "Technology": 0.22407469156385462,
+      "Law": 0.35761920640213407,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2509,
+      "Technology": 1344,
+      "Law": 2145,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5998,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 429,
+      "endSec": 1392,
+      "durationSec": 963,
+      "topic": "BND-Gesetz beschlossen",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1392,
+      "endSec": 1610,
+      "durationSec": 218,
+      "topic": "BND im NSA-UA",
+      "fineSubject": "Intelligence",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1610,
+      "endSec": 2001,
+      "durationSec": 391,
+      "topic": "Bundesregierung verweigert NSA-UA Informationen zu Vorwürfen gegen Snowden",
+      "fineSubject": "Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2002,
+      "endSec": 2208,
+      "durationSec": 206,
+      "topic": "UK-Überwachung illegal",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2208,
+      "endSec": 3243,
+      "durationSec": 1035,
+      "topic": "EUGH zu IP-Adressen",
+      "fineSubject": "Privacy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3244,
+      "endSec": 3975,
+      "durationSec": 731,
+      "topic": "Julio Assanchez ohne Netz",
+      "fineSubject": "Activism",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3975,
+      "endSec": 5319,
+      "durationSec": 1344,
+      "topic": "Mirai-botnet",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 5319,
+      "endSec": 6247,
+      "durationSec": 928,
+      "topic": "EU-Copyright",
+      "fineSubject": "Copyright",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 7170,
+      "endSec": 7352,
+      "durationSec": 182,
+      "topic": "Gesetz gegen Abmahn-Abzocke ist unwirksam",
+      "fineSubject": "Consumer Protection",
+      "topicIndex": 9
+    }
+  ]
+}

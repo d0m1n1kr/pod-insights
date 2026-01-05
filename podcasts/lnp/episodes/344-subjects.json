@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 344,
+  "title": "LNP344 Klarnamenpflicht bei der FAZ",
+  "generatedAt": "2026-01-05T15:17:57.619Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.38923708666522583,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.053382321158417984,
+      "Health": 0.23751891074130105,
+      "Feedback": 0.3198616814350551,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1801,
+      "Security": 0,
+      "Social": 0,
+      "Media": 247,
+      "Health": 1099,
+      "Feedback": 1480,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 2,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4627,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 173,
+      "endSec": 839,
+      "durationSec": 666,
+      "topic": "Feedback: Tracing Support Apps",
+      "fineSubject": "Tracing Support Apps",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 840,
+      "endSec": 916,
+      "durationSec": 76,
+      "topic": "Feedback: Logbuch:Freiheit",
+      "fineSubject": "Logbuch:Freiheit",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 916,
+      "endSec": 1654,
+      "durationSec": 738,
+      "topic": "Feedback: Nerdrepublik Deutschland",
+      "fineSubject": "Nerdrepublik Deutschland",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1655,
+      "endSec": 2184,
+      "durationSec": 529,
+      "topic": "LNP Corona Avantgarde Rückblick",
+      "fineSubject": "Corona",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2184,
+      "endSec": 2768,
+      "durationSec": 584,
+      "topic": "Rechtliche Regelung von Tracing Support Apps",
+      "fineSubject": "Tracing Support Apps",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2769,
+      "endSec": 3385,
+      "durationSec": 616,
+      "topic": "Polizei greift auf Infektionsdaten zu",
+      "fineSubject": "Infektionsdaten",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3386,
+      "endSec": 3956,
+      "durationSec": 570,
+      "topic": "Immunitätsausweis",
+      "fineSubject": "Immunitätsausweis",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 3957,
+      "endSec": 4204,
+      "durationSec": 247,
+      "topic": "Gute Nachrichten: .org bleibt unabhängig",
+      "fineSubject": ".org",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 4204,
+      "endSec": 4805,
+      "durationSec": 601,
+      "topic": "Haftbefehl gegen russischen Hacker",
+      "fineSubject": "Cyberkriminalität",
+      "topicIndex": 8
+    }
+  ]
+}

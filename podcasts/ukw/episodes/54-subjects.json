@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 54,
+  "title": "UKW054 Corona Weekly: Erdnüsse sind schlimmer",
+  "generatedAt": "2026-01-05T15:18:03.012Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5930,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 9,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5930,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 56,
+      "endSec": 751,
+      "durationSec": 695,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 752,
+      "endSec": 898,
+      "durationSec": 146,
+      "topic": "Situation in Berlin",
+      "fineSubject": "COVID-19",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 898,
+      "endSec": 1185,
+      "durationSec": 287,
+      "topic": "Ländervergleich",
+      "fineSubject": "COVID-19",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1186,
+      "endSec": 2375,
+      "durationSec": 1189,
+      "topic": "Schulen und Maßnahmen",
+      "fineSubject": "Education",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2375,
+      "endSec": 3295,
+      "durationSec": 920,
+      "topic": "Die neuen Virus-Varianten",
+      "fineSubject": "Virus Variants",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3296,
+      "endSec": 4500,
+      "durationSec": 1204,
+      "topic": "Wirkung von Impfstoffen",
+      "fineSubject": "Vaccines",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4500,
+      "endSec": 4892,
+      "durationSec": 392,
+      "topic": "Die Impfkampagne",
+      "fineSubject": "Vaccination Campaign",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4893,
+      "endSec": 5822,
+      "durationSec": 929,
+      "topic": "Zahl der Impfungen",
+      "fineSubject": "Vaccination Statistics",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5822,
+      "endSec": 5990,
+      "durationSec": 168,
+      "topic": "Aerosole aus der Badewanne",
+      "fineSubject": "Aerosols",
+      "topicIndex": 8
+    }
+  ]
+}

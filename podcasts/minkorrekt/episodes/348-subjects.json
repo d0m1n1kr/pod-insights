@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 348,
+  "title": "Mi348 – \"Machen lassen kommt von machen“",
+  "generatedAt": "2026-01-05T15:18:17.392Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.31992127706101026,
+      "Culture": 0.6512136453094249,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.028865077629564837,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1463,
+      "Culture": 2978,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 132,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4573,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 551,
+      "endSec": 986,
+      "durationSec": 435,
+      "topic": "Weltraum-Selfie",
+      "fineSubject": "Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1475,
+      "endSec": 2280,
+      "durationSec": 805,
+      "topic": "Hameln",
+      "fineSubject": "Cities",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Education",
+      "startSec": 2280,
+      "endSec": 2412,
+      "durationSec": 132,
+      "topic": "Uni-Kids",
+      "fineSubject": "Children",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2412,
+      "endSec": 2663,
+      "durationSec": 251,
+      "topic": "Kommentar Florian zu Luftqualität",
+      "fineSubject": "Air Quality",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4204,
+      "endSec": 4611,
+      "durationSec": 407,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4611,
+      "endSec": 6861,
+      "durationSec": 2250,
+      "topic": "Thema 2: \"Neues vom 6-Mio-$-Mann\"",
+      "fineSubject": "Television",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6861,
+      "endSec": 7154,
+      "durationSec": 293,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Humor",
+      "topicIndex": 8
+    }
+  ]
+}

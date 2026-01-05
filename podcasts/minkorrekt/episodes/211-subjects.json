@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 211,
+  "title": "Mi211 – \"Free Sitting\"",
+  "generatedAt": "2026-01-05T15:18:17.373Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.0968903109689031,
+      "Culture": 0.5135486451354865,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.1620837916208379,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.22747725227477253,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 969,
+      "Culture": 5136,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1621,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2275,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 5,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2,
+      "Biology": 0
+    },
+    "totalDurationSec": 10001,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 57,
+      "endSec": 2274,
+      "durationSec": 2217,
+      "topic": "Ukraine",
+      "fineSubject": "Ukraine",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 2274,
+      "endSec": 3243,
+      "durationSec": 969,
+      "topic": "Österreich",
+      "fineSubject": "Austria",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 3743,
+      "endSec": 3801,
+      "durationSec": 58,
+      "topic": "Themen der Woche",
+      "fineSubject": "Weekly Topics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3801,
+      "endSec": 5259,
+      "durationSec": 1458,
+      "topic": "Thema 1: “‘Best of’ beim Gang ins Licht”",
+      "fineSubject": "Best of",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5259,
+      "endSec": 6880,
+      "durationSec": 1621,
+      "topic": "Thema 2: \"Open World für Geistesblitze\"",
+      "fineSubject": "Open World",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6880,
+      "endSec": 6951,
+      "durationSec": 71,
+      "topic": "Kein Experiment",
+      "fineSubject": "Experiments",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6951,
+      "endSec": 8275,
+      "durationSec": 1324,
+      "topic": "Thema 3: “Spiderman vs. Batman”",
+      "fineSubject": "Comics",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8275,
+      "endSec": 9084,
+      "durationSec": 809,
+      "topic": "Thema 4: \"Potentiell warm\"",
+      "fineSubject": "Warmth",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9157,
+      "endSec": 10631,
+      "durationSec": 1474,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Weekly Highlights",
+      "topicIndex": 8
+    }
+  ]
+}

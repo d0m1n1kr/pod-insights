@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 487,
+  "title": "LNP487 Das Internet ist undankbar",
+  "generatedAt": "2026-01-05T15:17:57.640Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.07191316146540028,
+      "Security": 0.27578018995929443,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.4796472184531886,
+      "Legal": 0,
+      "Business": 0.17265943012211668,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 212,
+      "Security": 813,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1414,
+      "Legal": 0,
+      "Business": 509,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 4,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2948,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 232,
+      "endSec": 410,
+      "durationSec": 178,
+      "topic": "Feedback: Anonyme Bewertungen",
+      "fineSubject": "Anonyme Bewertungen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 410,
+      "endSec": 741,
+      "durationSec": 331,
+      "topic": "Feedback: iOS-WebApps",
+      "fineSubject": "iOS-WebApps",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 742,
+      "endSec": 988,
+      "durationSec": 246,
+      "topic": "Feedback: Content Warnings",
+      "fineSubject": "Content Warnings",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 988,
+      "endSec": 1647,
+      "durationSec": 659,
+      "topic": "Feedback: Defediverse",
+      "fineSubject": "Defediverse",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 4232,
+      "endSec": 4444,
+      "durationSec": 212,
+      "topic": "AI Act ohne strenge Einschränkungen",
+      "fineSubject": "AI Act",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 4445,
+      "endSec": 5258,
+      "durationSec": 813,
+      "topic": "Abgehörte WebEx-Konferenz der Bundeswehr",
+      "fineSubject": "WebEx-Konferenz",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 5258,
+      "endSec": 5767,
+      "durationSec": 509,
+      "topic": "Europäische Normen und Bezahlschranken",
+      "fineSubject": "Europäische Normen",
+      "topicIndex": 6
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 100,
+  "title": "UKW100 Brexit: Kopf unter der Decke",
+  "generatedAt": "2026-01-05T15:18:03.026Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.9149341649341649,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.02772002772002772,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.05734580734580735,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 5281,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 160,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 331,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 12,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5772,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 119,
+      "endSec": 228,
+      "durationSec": 109,
+      "topic": "Brexit-Auswirkungen",
+      "fineSubject": "Brexit",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Economics",
+      "startSec": 228,
+      "endSec": 388,
+      "durationSec": 160,
+      "topic": "Lieferschwierigkeiten und Energiekrise",
+      "fineSubject": "Supply Chain",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 389,
+      "endSec": 908,
+      "durationSec": 519,
+      "topic": "Partygate",
+      "fineSubject": "Scandals",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 908,
+      "endSec": 1691,
+      "durationSec": 783,
+      "topic": "Streit um das Nordirland-Abkommen",
+      "fineSubject": "Northern Ireland",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1692,
+      "endSec": 2026,
+      "durationSec": 334,
+      "topic": "Die Perspektive Irlands",
+      "fineSubject": "Ireland",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2026,
+      "endSec": 2367,
+      "durationSec": 341,
+      "topic": "UK und der Krieg in der Ukraine",
+      "fineSubject": "International Relations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2368,
+      "endSec": 2806,
+      "durationSec": 438,
+      "topic": "Die Ruanda-Lösung",
+      "fineSubject": "Immigration Policy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2807,
+      "endSec": 3466,
+      "durationSec": 659,
+      "topic": "Der Sturz Boris Johnsons",
+      "fineSubject": "Leadership Changes",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3466,
+      "endSec": 4452,
+      "durationSec": 986,
+      "topic": "Leadership Contest",
+      "fineSubject": "Political Contests",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4453,
+      "endSec": 4519,
+      "durationSec": 66,
+      "topic": "UK in der Übergangszeit",
+      "fineSubject": "Transition Period",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4519,
+      "endSec": 4824,
+      "durationSec": 305,
+      "topic": "Die Rolle der Opposition",
+      "fineSubject": "Opposition",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4825,
+      "endSec": 5472,
+      "durationSec": 647,
+      "topic": "Unabhängigskeitsreferendum in Schottland",
+      "fineSubject": "Referendums",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Society",
+      "startSec": 5472,
+      "endSec": 5803,
+      "durationSec": 331,
+      "topic": "Situation der Britischen Gesellschaft",
+      "fineSubject": "Social Issues",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5804,
+      "endSec": 5898,
+      "durationSec": 94,
+      "topic": "Die Hoffnung stirbt zuletzt",
+      "fineSubject": "Public Sentiment",
+      "topicIndex": 13
+    }
+  ]
+}

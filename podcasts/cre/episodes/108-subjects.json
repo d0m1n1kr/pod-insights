@@ -1,0 +1,154 @@
+{
+  "episodeNumber": 108,
+  "title": "CRE108 Schusswaffen",
+  "generatedAt": "2026-01-05T15:17:54.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.2,
+      "Media": 0.2,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.4,
+      "Politics": 0.2,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 2,
+      "Media": 2,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 4,
+      "Politics": 2,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Waffentechnik und Gesetzgebung",
+      "fineSubject": "Waffenbesitzkarte",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Typen von Handfeuerwaffen",
+      "fineSubject": "Handfeuerwaffen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verbreitung von Schusswaffen",
+      "fineSubject": "Schusswaffenverbreitung",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Darstellung von Schusswaffen in Filmen",
+      "fineSubject": "Film",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verbindung zwischen Waffennarren und Autoliebhabern",
+      "fineSubject": "Hobbys",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Funktionsweise einer Schusswaffe",
+      "fineSubject": "Mechanik",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Eigenbau von Patronen",
+      "fineSubject": "Munition",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Realitätsgehalt von Spielfilmen",
+      "fineSubject": "Film",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Durchschlagskraft von Feuerwaffen",
+      "fineSubject": "Feuerwaffen",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verbot des privaten Waffenbesitzes in Großbritannien",
+      "fineSubject": "Waffenrecht",
+      "topicIndex": 14,
+      "untimed": true
+    }
+  ]
+}

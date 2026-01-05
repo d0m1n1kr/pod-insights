@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 101,
+  "title": "MM101 Pirate Match",
+  "generatedAt": "2026-01-05T15:17:51.070Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.17891221374045801,
+      "Software": 0.12118320610687022,
+      "Hardware": 0.32633587786259544,
+      "Finance": 0.07251908396946564,
+      "Media": 0.1693702290076336,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.03435114503816794,
+      "Business": 0.09732824427480916,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1875,
+      "Software": 1270,
+      "Hardware": 3420,
+      "Finance": 760,
+      "Media": 1775,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 360,
+      "Business": 1020,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 1,
+      "Hardware": 2,
+      "Finance": 1,
+      "Media": 3,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10480,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 1360,
+      "endSec": 1950,
+      "durationSec": 590,
+      "topic": "Hukl erklärt 300 Hz",
+      "fineSubject": "Audio / 300 Hz",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1950,
+      "endSec": 2175,
+      "durationSec": 225,
+      "topic": "Audiotechnik",
+      "fineSubject": "Audio / Audiotechnik",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2175,
+      "endSec": 2850,
+      "durationSec": 675,
+      "topic": "Internetfoo",
+      "fineSubject": "Internet / Internetfoo",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2850,
+      "endSec": 5490,
+      "durationSec": 2640,
+      "topic": "iPhone 5",
+      "fineSubject": "Hardware / iPhone 5",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 5490,
+      "endSec": 6760,
+      "durationSec": 1270,
+      "topic": "iTunes 11",
+      "fineSubject": "Software / iTunes 11",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8040,
+      "endSec": 9240,
+      "durationSec": 1200,
+      "topic": "Dropbox",
+      "fineSubject": "Cloud / Dropbox",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9380,
+      "endSec": 10140,
+      "durationSec": 760,
+      "topic": "Bitcoins",
+      "fineSubject": "Finance / Bitcoins",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 10140,
+      "endSec": 11100,
+      "durationSec": 960,
+      "topic": "Podcast Publishing",
+      "fineSubject": "Media / Podcast Publishing",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Events",
+      "startSec": 11100,
+      "endSec": 11460,
+      "durationSec": 360,
+      "topic": "Der Congress",
+      "fineSubject": "Events / Der Congress",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11460,
+      "endSec": 12240,
+      "durationSec": 780,
+      "topic": "Apple TV",
+      "fineSubject": "Hardware / Apple TV",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Business",
+      "startSec": 12240,
+      "endSec": 13260,
+      "durationSec": 1020,
+      "topic": "Apple produziert in den USA",
+      "fineSubject": "Business / Apple produziert in den USA",
+      "topicIndex": 12
+    }
+  ]
+}

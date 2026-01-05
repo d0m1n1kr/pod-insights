@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 276,
+  "title": "LNP276 Tripfolie",
+  "generatedAt": "2026-01-05T15:17:57.610Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.24074074074074073,
+      "Technology": 0.2088888888888889,
+      "Law": 0.15308641975308643,
+      "Security": 0.39728395061728394,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 975,
+      "Technology": 846,
+      "Law": 620,
+      "Security": 1609,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4050,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 413,
+      "endSec": 1392,
+      "durationSec": 979,
+      "topic": "Feedback: Identitäten und Berechtigungen",
+      "fineSubject": "Permissions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 4590,
+      "endSec": 5085,
+      "durationSec": 495,
+      "topic": "BKA hortet Sicherheitslücken",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5085,
+      "endSec": 5826,
+      "durationSec": 741,
+      "topic": "Wahlchaos in Hessen",
+      "fineSubject": "Elections",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5826,
+      "endSec": 6672,
+      "durationSec": 846,
+      "topic": "Deutschland im Deep Web",
+      "fineSubject": "Deep Web",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 6673,
+      "endSec": 7293,
+      "durationSec": 620,
+      "topic": "Funkzellenabfragen-Transparenz-System Berlin",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7500,
+      "endSec": 7734,
+      "durationSec": 234,
+      "topic": "Freiheit für Phineas Fisher!",
+      "fineSubject": "Freedom",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 7735,
+      "endSec": 7870,
+      "durationSec": 135,
+      "topic": "Cyberfriedensangebot aus Paris",
+      "fineSubject": "Peace Initiatives",
+      "topicIndex": 8
+    }
+  ]
+}

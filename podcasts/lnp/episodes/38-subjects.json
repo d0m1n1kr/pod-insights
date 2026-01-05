@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 38,
+  "title": "LNP038 Potenzielle Ehrverletzung",
+  "generatedAt": "2026-01-05T15:17:57.577Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.6268306971294669,
+      "Law": 0.18014059753954306,
+      "Security": 0,
+      "Social": 0.19302870533099004,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2140,
+      "Law": 615,
+      "Security": 0,
+      "Social": 659,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3414,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 162,
+      "endSec": 2302,
+      "durationSec": 2140,
+      "topic": "Google integriert die Fahrplandaten der Deutschen Bahn",
+      "fineSubject": "Data Integration",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 2302,
+      "endSec": 2961,
+      "durationSec": 659,
+      "topic": "Rechtsextremismus-Datei",
+      "fineSubject": "Extremism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 3451,
+      "endSec": 3674,
+      "durationSec": 223,
+      "topic": "Informationsfreiheitsgesetz gilt auch für Erzeugnisse des wissenschaftlichen Dienstes des Bundestags",
+      "fineSubject": "Freedom of Information",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3674,
+      "endSec": 4066,
+      "durationSec": 392,
+      "topic": "Eine ganz normale Woche mit dem Urheberrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    }
+  ]
+}

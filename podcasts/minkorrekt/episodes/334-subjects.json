@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 334,
+  "title": "Mi334 – \"Am Auge vorbei essen\"",
+  "generatedAt": "2026-01-05T15:18:17.389Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.4401486988847584,
+      "Wissenschaft": 0.15588599752168525,
+      "Health": 0.27558859975216854,
+      "Technology": 0.12837670384138786,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 1776,
+      "Wissenschaft": 629,
+      "Health": 1112,
+      "Technology": 518,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 2,
+      "Wissenschaft": 1,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4035,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 319,
+      "endSec": 716,
+      "durationSec": 397,
+      "topic": "Auftritt in Ahaus",
+      "fineSubject": "Event / Ahaus",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 716,
+      "endSec": 1234,
+      "durationSec": 518,
+      "topic": "Flixtrain",
+      "fineSubject": "Transport / Flixtrain",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1710,
+      "endSec": 2822,
+      "durationSec": 1112,
+      "topic": "Thema 1: \"Das perfekte Ei\"",
+      "fineSubject": "Essen / Ei",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 2822,
+      "endSec": 3451,
+      "durationSec": 629,
+      "topic": "Snackable Science",
+      "fineSubject": "Wissenschaft / Snackable Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3451,
+      "endSec": 4830,
+      "durationSec": 1379,
+      "topic": "Thema 2: \"Was haben die Römer je für uns getan?\"",
+      "fineSubject": "Geschichte / Römer",
+      "topicIndex": 5
+    }
+  ]
+}

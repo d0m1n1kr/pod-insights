@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 50,
+  "title": "LNP050 Spionage mit menschlichem Antlitz",
+  "generatedAt": "2026-01-05T15:17:57.579Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.30015748031496065,
+      "Technology": 0,
+      "Law": 0.4636220472440945,
+      "Security": 0.23622047244094488,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 953,
+      "Technology": 0,
+      "Law": 1472,
+      "Security": 750,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3175,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 268,
+      "endSec": 1018,
+      "durationSec": 750,
+      "topic": "FinFisher auch in Deutschland",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1018,
+      "endSec": 1971,
+      "durationSec": 953,
+      "topic": "USA 6 strikes",
+      "fineSubject": "International Relations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1972,
+      "endSec": 2377,
+      "durationSec": 405,
+      "topic": "Österreich: Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2377,
+      "endSec": 3183,
+      "durationSec": 806,
+      "topic": "Österreich: Urheberrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3184,
+      "endSec": 3445,
+      "durationSec": 261,
+      "topic": "Leistungsschutzrecht im Bundestag",
+      "fineSubject": "Copyright Law",
+      "topicIndex": 4
+    }
+  ]
+}

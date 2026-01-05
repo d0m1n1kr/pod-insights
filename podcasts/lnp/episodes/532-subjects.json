@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 532,
+  "title": "LNP532 Die sind alle nur neidisch",
+  "generatedAt": "2026-01-05T15:17:57.646Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.5486777099680326,
+      "Law": 0.08834641092705608,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.1935483870967742,
+      "Feedback": 0.16942749200813717,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1888,
+      "Law": 304,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 666,
+      "Feedback": 583,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 4,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3441,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 187,
+      "endSec": 378,
+      "durationSec": 191,
+      "topic": "Feedback: GNSS in China",
+      "fineSubject": "GNSS",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 378,
+      "endSec": 505,
+      "durationSec": 127,
+      "topic": "Feedback: GPS im Flugzeug",
+      "fineSubject": "GPS",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 505,
+      "endSec": 719,
+      "durationSec": 214,
+      "topic": "Feedback: Von der Leyen-Flug",
+      "fineSubject": "Flug",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 720,
+      "endSec": 771,
+      "durationSec": 51,
+      "topic": "Feedback: PayPal Echtzeitüberweisung",
+      "fineSubject": "Echtzeitüberweisung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 771,
+      "endSec": 2659,
+      "durationSec": 1888,
+      "topic": "Web retten: Make AI pay for it",
+      "fineSubject": "AI",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2660,
+      "endSec": 3326,
+      "durationSec": 666,
+      "topic": "Elektronische Patientenakte ist jetzt KI-ready",
+      "fineSubject": "Patientenakte",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4188,
+      "endSec": 4492,
+      "durationSec": 304,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 7
+    }
+  ]
+}

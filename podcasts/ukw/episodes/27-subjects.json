@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 27,
+  "title": "UKW027 Corona Weekly: Superrot und Supergrün",
+  "generatedAt": "2026-01-05T15:18:03.003Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7405,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 10,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7405,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 137,
+      "endSec": 1128,
+      "durationSec": 991,
+      "topic": "Aktuelle Zahlen",
+      "fineSubject": "Statistics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1128,
+      "endSec": 2415,
+      "durationSec": 1287,
+      "topic": "Daten und die Risikotabelle",
+      "fineSubject": "Data Analysis",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 2416,
+      "endSec": 3510,
+      "durationSec": 1094,
+      "topic": "OpenCoronaData-Appell",
+      "fineSubject": "Advocacy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 3510,
+      "endSec": 4165,
+      "durationSec": 655,
+      "topic": "Our World In Data",
+      "fineSubject": "Data Sources",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 4165,
+      "endSec": 4423,
+      "durationSec": 258,
+      "topic": "Wirre Zahlen aus Schweden",
+      "fineSubject": "International Comparison",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4424,
+      "endSec": 4711,
+      "durationSec": 287,
+      "topic": "Lockdown früher oder später",
+      "fineSubject": "Policy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4711,
+      "endSec": 5096,
+      "durationSec": 385,
+      "topic": "Wahrheit und Geschlossenheit",
+      "fineSubject": "Communication",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 5096,
+      "endSec": 5341,
+      "durationSec": 245,
+      "topic": "Corona Warn App",
+      "fineSubject": "Technology",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5341,
+      "endSec": 6710,
+      "durationSec": 1369,
+      "topic": "CWA Systemstruktur",
+      "fineSubject": "Technology",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 6710,
+      "endSec": 7544,
+      "durationSec": 834,
+      "topic": "Tracing Interoperability",
+      "fineSubject": "Technology",
+      "topicIndex": 9
+    }
+  ]
+}

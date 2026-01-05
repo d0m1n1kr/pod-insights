@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 74,
+  "title": "CRE074 Hubschrauberkultur",
+  "generatedAt": "2026-01-05T15:17:54.371Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.3333333333333333,
+      "Technologie": 0.5,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0.16666666666666666
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 2,
+      "Technologie": 3,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 1
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geschichte der Hubschrauber",
+      "fineSubject": "Luftfahrt",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kulturelle Auswirkungen der Drehflüglertechnik",
+      "fineSubject": "Technologiekultur",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technische Unterschiede in der Rotorenrotation",
+      "fineSubject": "Luftfahrt",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Sicherheit",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheitsaspekte bei Hubschraubern",
+      "fineSubject": "Luftfahrt",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fehlschläge in der Hubschraubergeschichte",
+      "fineSubject": "Luftfahrt",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Darstellung von Hubschraubern in Märchen und Kinderliteratur",
+      "fineSubject": "Literatur",
+      "topicIndex": 7,
+      "untimed": true
+    }
+  ]
+}

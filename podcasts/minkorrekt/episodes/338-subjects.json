@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 338,
+  "title": "Mi338 – \"Kognitiver Abgang\"",
+  "generatedAt": "2026-01-05T15:18:17.389Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.541801948051948,
+      "Culture": 0.07954545454545454,
+      "Wissenschaft": 0,
+      "Health": 0.3528814935064935,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0.025771103896103896,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2670,
+      "Culture": 392,
+      "Wissenschaft": 0,
+      "Health": 1739,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 127,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4928,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 737,
+      "endSec": 1391,
+      "durationSec": 654,
+      "topic": "Schlaf",
+      "fineSubject": "Sleep",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1391,
+      "endSec": 1569,
+      "durationSec": 178,
+      "topic": "Kommentar von Volker zu Kraftwerksvergleichen",
+      "fineSubject": "Power Plants",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 1569,
+      "endSec": 1696,
+      "durationSec": 127,
+      "topic": "Kommentar von Julian zur gezielten Evolution",
+      "fineSubject": "Targeted Evolution",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 1696,
+      "endSec": 3226,
+      "durationSec": 1530,
+      "topic": "Thema 1: \"Wasser-Kippmoment\"",
+      "fineSubject": "Water Dynamics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3226,
+      "endSec": 4188,
+      "durationSec": 962,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4188,
+      "endSec": 5273,
+      "durationSec": 1085,
+      "topic": "Thema 2: \"Use it or lose it\"",
+      "fineSubject": "Cognitive Health",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5273,
+      "endSec": 5665,
+      "durationSec": 392,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 6
+    }
+  ]
+}

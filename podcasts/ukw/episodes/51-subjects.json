@@ -1,0 +1,252 @@
+{
+  "episodeNumber": 51,
+  "title": "UKW051 Corona Weekly: Weihnachten ist nur ein Datum",
+  "generatedAt": "2026-01-05T15:18:03.010Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.877331072899007,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.10741099539840154,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0.015257931702591427,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7245,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 887,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 126,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 19,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 2,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8258,
+    "totalTopics": 22
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 347,
+      "endSec": 635,
+      "durationSec": 288,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Situation in Germany",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 636,
+      "endSec": 1244,
+      "durationSec": 608,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "Situation in the Federal States",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1245,
+      "endSec": 1382,
+      "durationSec": 137,
+      "topic": "Testzahlen",
+      "fineSubject": "Test Numbers",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1383,
+      "endSec": 1749,
+      "durationSec": 366,
+      "topic": "Situation in Berlin",
+      "fineSubject": "Situation in Berlin",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1750,
+      "endSec": 2383,
+      "durationSec": 633,
+      "topic": "Situation in Nachbarländern",
+      "fineSubject": "Situation in Neighboring Countries",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2383,
+      "endSec": 2834,
+      "durationSec": 451,
+      "topic": "Der Lockdown",
+      "fineSubject": "The Lockdown",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2835,
+      "endSec": 3208,
+      "durationSec": 373,
+      "topic": "Studie zu Auswirkungen von Maßnahmen",
+      "fineSubject": "Study on Effects of Measures",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3208,
+      "endSec": 3539,
+      "durationSec": 331,
+      "topic": "Schutzmaßnahmen in Tübingen",
+      "fineSubject": "Protective Measures in Tübingen",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3539,
+      "endSec": 4179,
+      "durationSec": 640,
+      "topic": "Lockdowns effektiv gestalten",
+      "fineSubject": "Effective Lockdowns",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4180,
+      "endSec": 4330,
+      "durationSec": 150,
+      "topic": "Covid-19-Fall in Italien im November 2019",
+      "fineSubject": "COVID-19 Case in Italy in November 2019",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4331,
+      "endSec": 4919,
+      "durationSec": 588,
+      "topic": "Genetische Disposition bei COVID-19",
+      "fineSubject": "Genetic Disposition in COVID-19",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4920,
+      "endSec": 5201,
+      "durationSec": 281,
+      "topic": "BioNTech-Impfstoff: Zulassung vorgezogen",
+      "fineSubject": "BioNTech Vaccine Approval",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5202,
+      "endSec": 5423,
+      "durationSec": 221,
+      "topic": "Moderna hat ähnliche Erfolgszahlen wie BioNTech",
+      "fineSubject": "Moderna Vaccine Success Rates",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5423,
+      "endSec": 5593,
+      "durationSec": 170,
+      "topic": "Verfügbarkeit der Impfstoffe",
+      "fineSubject": "Vaccine Availability",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 5593,
+      "endSec": 5934,
+      "durationSec": 341,
+      "topic": "Impfplan",
+      "fineSubject": "Vaccination Plan",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 5935,
+      "endSec": 6355,
+      "durationSec": 420,
+      "topic": "Entwicklungskosten und Preise für Impfstoffe",
+      "fineSubject": "Development Costs and Prices for Vaccines",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Health",
+      "startSec": 6355,
+      "endSec": 6978,
+      "durationSec": 623,
+      "topic": "Vaccine Trackers",
+      "fineSubject": "Vaccine Trackers",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Health",
+      "startSec": 6979,
+      "endSec": 7429,
+      "durationSec": 450,
+      "topic": "Szenarien für die Auswirkungen der Impfung",
+      "fineSubject": "Scenarios for Vaccination Effects",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Health",
+      "startSec": 7429,
+      "endSec": 7603,
+      "durationSec": 174,
+      "topic": "Exposure Notifications",
+      "fineSubject": "Exposure Notifications",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7604,
+      "endSec": 7730,
+      "durationSec": 126,
+      "topic": "CWA-Support für alte iPhones",
+      "fineSubject": "CWA Support for Old iPhones",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7731,
+      "endSec": 8492,
+      "durationSec": 761,
+      "topic": "Corona-Warn-App",
+      "fineSubject": "Corona Warning App",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 8752,
+      "endSec": 8878,
+      "durationSec": 126,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 21
+    }
+  ]
+}

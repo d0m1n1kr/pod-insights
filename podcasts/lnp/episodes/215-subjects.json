@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 215,
+  "title": "LNP215 Ich mach mir ’ne Tomate warm",
+  "generatedAt": "2026-01-05T15:17:57.602Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4195577196185839,
+      "Technology": 0.1428281598701562,
+      "Law": 0.2882937715560966,
+      "Security": 0.11300466626090484,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.03631568269425847,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2068,
+      "Technology": 704,
+      "Law": 1421,
+      "Security": 557,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 179,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 4929,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 348,
+      "endSec": 1165,
+      "durationSec": 817,
+      "topic": "Bundestag braucht Adblocker",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1165,
+      "endSec": 2416,
+      "durationSec": 1251,
+      "topic": "Türkei spioniert in Deutschland",
+      "fineSubject": "Espionage",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2416,
+      "endSec": 3157,
+      "durationSec": 741,
+      "topic": "Netzwerkdurchsetzungsgesetz",
+      "fineSubject": "Internet Law",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 3158,
+      "endSec": 3715,
+      "durationSec": 557,
+      "topic": "Polizei warnte vor Amri, las Nachrichten mit",
+      "fineSubject": "Terrorism",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3716,
+      "endSec": 4396,
+      "durationSec": 680,
+      "topic": "Neues Datenschutzgesetz DSAnpUG",
+      "fineSubject": "Data Protection",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4396,
+      "endSec": 4575,
+      "durationSec": 179,
+      "topic": "VPN-Provider soll Daten rausgeben",
+      "fineSubject": "Data Sharing",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4576,
+      "endSec": 4944,
+      "durationSec": 368,
+      "topic": "Bundesnetzagentur schnappt sich Jabber-Clients",
+      "fineSubject": "Communication Tools",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5322,
+      "endSec": 5658,
+      "durationSec": 336,
+      "topic": "Internet ist langsamer als versprochen",
+      "fineSubject": "Internet Speed",
+      "topicIndex": 8
+    }
+  ]
+}

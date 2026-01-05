@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 70,
+  "title": "Minkorrekt Folge 70 „Bonoboporno”",
+  "generatedAt": "2026-01-05T15:18:17.358Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.2,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0.2,
+      "Education": 0,
+      "Social": 0.2,
+      "Biology": 0.2
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 1,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 1
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Crystal Meth",
+      "fineSubject": "Substance Abuse",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Tinder",
+      "fineSubject": "Dating Apps",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Biology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bonobos",
+      "fineSubject": "Primatologie",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einstein Podolsky Rosen Paradoxon",
+      "fineSubject": "Quantum Mechanics",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Intransitive Würfel",
+      "fineSubject": "Probability",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

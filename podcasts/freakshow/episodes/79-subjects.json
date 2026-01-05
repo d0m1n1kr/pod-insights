@@ -1,0 +1,279 @@
+{
+  "episodeNumber": 79,
+  "title": "MM079 Folgen heißt Maul halten",
+  "generatedAt": "2026-01-05T15:17:51.067Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.367918140094801,
+      "Hardware": 0.27213904145662476,
+      "Finance": 0,
+      "Media": 0.20006019110676398,
+      "Social": 0.018057332029192685,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.14182529531261756,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 4890,
+      "Hardware": 3617,
+      "Finance": 0,
+      "Media": 2659,
+      "Social": 240,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1885,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 8,
+      "Hardware": 12,
+      "Finance": 0,
+      "Media": 3,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 13291,
+    "totalTopics": 25
+  },
+  "timeline": [
+    {
+      "subject": "Gaming",
+      "startSec": 580,
+      "endSec": 2465,
+      "durationSec": 1885,
+      "topic": "Rätselauflösung",
+      "fineSubject": "Rätsel",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 2465,
+      "endSec": 2575,
+      "durationSec": 110,
+      "topic": "The Restart Page",
+      "fineSubject": "Webseiten",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2575,
+      "endSec": 3268,
+      "durationSec": 693,
+      "topic": "Tims Mac Pro",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3268,
+      "endSec": 3320,
+      "durationSec": 52,
+      "topic": "Audinate Dante PCIe Card",
+      "fineSubject": "PCIe Karten",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 3320,
+      "endSec": 4188,
+      "durationSec": 868,
+      "topic": "Mac OS X Lion WindowServer Crash",
+      "fineSubject": "Mac OS X",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4188,
+      "endSec": 4718,
+      "durationSec": 530,
+      "topic": "Hardware-RAIDs",
+      "fineSubject": "RAIDs",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 4718,
+      "endSec": 5050,
+      "durationSec": 332,
+      "topic": "“ZFS for Ten” heißt jetzt Zevo",
+      "fineSubject": "Dateisysteme",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5050,
+      "endSec": 5130,
+      "durationSec": 80,
+      "topic": "hukl hat jetzt ein iPad",
+      "fineSubject": "iPad",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 5130,
+      "endSec": 6840,
+      "durationSec": 1710,
+      "topic": "iPad-App-Empfehlungen (siehe Show Notes)",
+      "fineSubject": "Apps",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6840,
+      "endSec": 7049,
+      "durationSec": 209,
+      "topic": "AtomUhr (Gorgy Timing)",
+      "fineSubject": "Uhren",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 7049,
+      "endSec": 7710,
+      "durationSec": 661,
+      "topic": "Annoying Orange",
+      "fineSubject": "Unterhaltung",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7710,
+      "endSec": 7915,
+      "durationSec": 205,
+      "topic": "iPad 3 Glaskugel",
+      "fineSubject": "iPad",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 7915,
+      "endSec": 8520,
+      "durationSec": 605,
+      "topic": "iWork und der morgige Education Event",
+      "fineSubject": "iWork",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8520,
+      "endSec": 8575,
+      "durationSec": 55,
+      "topic": "Das Keyboard",
+      "fineSubject": "Tastaturen",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8575,
+      "endSec": 8750,
+      "durationSec": 175,
+      "topic": "Dvorak-Tastaturbelegung",
+      "fineSubject": "Tastaturen",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8750,
+      "endSec": 9032,
+      "durationSec": 282,
+      "topic": "Beamer spielt Videos vom Mac auf AirPlay-Devices",
+      "fineSubject": "Beamer",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 9032,
+      "endSec": 10195,
+      "durationSec": 1163,
+      "topic": "This American Life: Mr. Daisey and the Apple Factory",
+      "fineSubject": "Dokumentationen",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 10195,
+      "endSec": 10260,
+      "durationSec": 65,
+      "topic": "Duck Duck Go",
+      "fineSubject": "Suchmaschinen",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Social",
+      "startSec": 10260,
+      "endSec": 10500,
+      "durationSec": 240,
+      "topic": "Ecosia und Slacktivism",
+      "fineSubject": "Aktivismus",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Media",
+      "startSec": 10500,
+      "endSec": 11335,
+      "durationSec": 835,
+      "topic": "Die Contentindustrie",
+      "fineSubject": "Industrie",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Software",
+      "startSec": 11335,
+      "endSec": 12310,
+      "durationSec": 975,
+      "topic": "Wunderkit Beta",
+      "fineSubject": "Beta-Software",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Software",
+      "startSec": 12310,
+      "endSec": 12535,
+      "durationSec": 225,
+      "topic": "Showbot",
+      "fineSubject": "Bots",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12535,
+      "endSec": 13110,
+      "durationSec": 575,
+      "topic": "Boblbee Megalopolis Aero",
+      "fineSubject": "Rucksäcke",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13110,
+      "endSec": 13320,
+      "durationSec": 210,
+      "topic": "Zik Parrot Bluetooth Headphones",
+      "fineSubject": "Kopfhörer",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13320,
+      "endSec": 13871,
+      "durationSec": 551,
+      "topic": "Thunderbolt Hardware",
+      "fineSubject": "Thunderbolt",
+      "topicIndex": 24
+    }
+  ]
+}

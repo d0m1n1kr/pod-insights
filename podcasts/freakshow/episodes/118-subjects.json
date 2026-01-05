@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 118,
+  "title": "FS118 Hühnerfreakassee",
+  "generatedAt": "2026-01-05T15:17:51.074Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.12571904329397518,
+      "Software": 0.2850438994853164,
+      "Hardware": 0.5161973963063882,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.024069028156221618,
+      "Business": 0,
+      "Gaming": 0.048970632758098695,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1661,
+      "Software": 3766,
+      "Hardware": 6820,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 318,
+      "Business": 0,
+      "Gaming": 647,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 5,
+      "Hardware": 7,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 13212,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 473,
+      "endSec": 1471,
+      "durationSec": 998,
+      "topic": "Apple Software",
+      "fineSubject": "Apple Software",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1471,
+      "endSec": 2033,
+      "durationSec": 562,
+      "topic": "Keynote - Kritik",
+      "fineSubject": "Keynote",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2033,
+      "endSec": 3273,
+      "durationSec": 1240,
+      "topic": "Prozessorgefreake",
+      "fineSubject": "Prozessor",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3273,
+      "endSec": 3928,
+      "durationSec": 655,
+      "topic": "Die 64Bit-Vermutung",
+      "fineSubject": "64Bit",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3928,
+      "endSec": 5550,
+      "durationSec": 1622,
+      "topic": "Neue LTE-Freakquenzen",
+      "fineSubject": "LTE",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5550,
+      "endSec": 6799,
+      "durationSec": 1249,
+      "topic": "Touch ID",
+      "fineSubject": "Touch ID",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6799,
+      "endSec": 7241,
+      "durationSec": 442,
+      "topic": "Verbesserte Kamera des iPhone 5s",
+      "fineSubject": "Kamera",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7241,
+      "endSec": 8123,
+      "durationSec": 882,
+      "topic": "Das neue iPhone 5c",
+      "fineSubject": "iPhone",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 8123,
+      "endSec": 8770,
+      "durationSec": 647,
+      "topic": "Freakgames - Humble Bundle",
+      "fineSubject": "Humble Bundle",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 8770,
+      "endSec": 9733,
+      "durationSec": 963,
+      "topic": "App Store und Appprogrammierung",
+      "fineSubject": "App Store",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9733,
+      "endSec": 10713,
+      "durationSec": 980,
+      "topic": "Audio/Video over Ethernet",
+      "fineSubject": "Audio/Video",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10713,
+      "endSec": 11443,
+      "durationSec": 730,
+      "topic": "Freakphones",
+      "fineSubject": "Smartphones",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Events",
+      "startSec": 11443,
+      "endSec": 11761,
+      "durationSec": 318,
+      "topic": "Konferenzen",
+      "fineSubject": "Konferenzen",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11761,
+      "endSec": 12442,
+      "durationSec": 681,
+      "topic": "Mobile Wifi Accesspoints",
+      "fineSubject": "Wifi",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 13043,
+      "endSec": 13313,
+      "durationSec": 270,
+      "topic": "iOS Rant",
+      "fineSubject": "iOS",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 13313,
+      "endSec": 14286,
+      "durationSec": 973,
+      "topic": "OpenZFS",
+      "fineSubject": "OpenZFS",
+      "topicIndex": 16
+    }
+  ]
+}

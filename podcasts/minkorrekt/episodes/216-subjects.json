@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 216,
+  "title": "Mi216 – „Nuke Festival“",
+  "generatedAt": "2026-01-05T15:18:17.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.22817606359487708,
+      "Culture": 0.44295598410128073,
+      "Wissenschaft": 0,
+      "Health": 0.2345061092300898,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0.08258501398498454,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.01177682908876785,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1550,
+      "Culture": 3009,
+      "Wissenschaft": 0,
+      "Health": 1593,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 561,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 80,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6793,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 857,
+      "endSec": 2304,
+      "durationSec": 1447,
+      "topic": "Reini in Wien",
+      "fineSubject": "City Travel",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2304,
+      "endSec": 3129,
+      "durationSec": 825,
+      "topic": "Klimawandel",
+      "fineSubject": "Climate Change",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3129,
+      "endSec": 3502,
+      "durationSec": 373,
+      "topic": "Bahnreise",
+      "fineSubject": "Train Travel",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3839,
+      "endSec": 3919,
+      "durationSec": 80,
+      "topic": "Themen der Woche",
+      "fineSubject": "Weekly Topics",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3968,
+      "endSec": 4940,
+      "durationSec": 972,
+      "topic": "Thema 1: „Mehr summ als sein“",
+      "fineSubject": "Existentialism",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 5849,
+      "endSec": 6574,
+      "durationSec": 725,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Weekly Experiment",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6574,
+      "endSec": 6791,
+      "durationSec": 217,
+      "topic": "Musik",
+      "fineSubject": "General Music",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 6791,
+      "endSec": 8384,
+      "durationSec": 1593,
+      "topic": "Thema 3: „Weight Watcher werden älter“",
+      "fineSubject": "Weight Management",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 8384,
+      "endSec": 8945,
+      "durationSec": 561,
+      "topic": "Thema 4: „Die Flora der Anderen“",
+      "fineSubject": "Flora Studies",
+      "topicIndex": 12
+    }
+  ]
+}

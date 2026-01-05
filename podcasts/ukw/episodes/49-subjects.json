@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 49,
+  "title": "UKW049 Corona Weekly: Schlechtes Jahr für Duftkerzen",
+  "generatedAt": "2026-01-05T15:18:03.010Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.7690024519292812,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.19809007613885662,
+      "Economics": 0.017679700606529875,
+      "Media": 0.0152277713253323,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5959,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1535,
+      "Economics": 137,
+      "Media": 118,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 14,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1,
+      "Economics": 1,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7749,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 300,
+      "endSec": 476,
+      "durationSec": 176,
+      "topic": "Nachtrag zu Theorien zu anderen Virusverbreitungen",
+      "fineSubject": "Health / Theories",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 476,
+      "endSec": 1109,
+      "durationSec": 633,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Health / Germany",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1110,
+      "endSec": 1659,
+      "durationSec": 549,
+      "topic": "Funktioniert der Lockdown Light?",
+      "fineSubject": "Health / Effectiveness",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1660,
+      "endSec": 2180,
+      "durationSec": 520,
+      "topic": "Lockdown-Verlängerung bis Januar",
+      "fineSubject": "Health / Extension",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2180,
+      "endSec": 2647,
+      "durationSec": 467,
+      "topic": "Situation in Europa",
+      "fineSubject": "Health / Europe",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2648,
+      "endSec": 3014,
+      "durationSec": 366,
+      "topic": "Moderna beantragt Zulassung für RNA-Impfstoff  in USA und EU",
+      "fineSubject": "Health / Moderna",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3014,
+      "endSec": 3159,
+      "durationSec": 145,
+      "topic": "UK lässt Moderna und Biontech-Impfstoffe bereits zu",
+      "fineSubject": "Health / Approval",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3159,
+      "endSec": 3272,
+      "durationSec": 113,
+      "topic": "BioNtech/Pfizer hat Probleme mit der Produktion",
+      "fineSubject": "Health / Production Issues",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3273,
+      "endSec": 3574,
+      "durationSec": 301,
+      "topic": "Nachtrag zu Oxford/AstraZeneca",
+      "fineSubject": "Health / Oxford/AstraZeneca",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 3574,
+      "endSec": 3770,
+      "durationSec": 196,
+      "topic": "Sputnik V",
+      "fineSubject": "Health / Sputnik V",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 3771,
+      "endSec": 4782,
+      "durationSec": 1011,
+      "topic": "Vortrag zu Impfstoffen",
+      "fineSubject": "Health / Presentation",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 4782,
+      "endSec": 5751,
+      "durationSec": 969,
+      "topic": "Island vs. Corona",
+      "fineSubject": "Health / Iceland",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5752,
+      "endSec": 6209,
+      "durationSec": 457,
+      "topic": "Schnelltests in der Slowakei",
+      "fineSubject": "Health / Rapid Tests",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6209,
+      "endSec": 7744,
+      "durationSec": 1535,
+      "topic": "Google AlphaFold",
+      "fineSubject": "Technology / Research",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 7745,
+      "endSec": 7801,
+      "durationSec": 56,
+      "topic": "Fetisch-Club macht Schnelltests",
+      "fineSubject": "Health / Unique Cases",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Economics",
+      "startSec": 7802,
+      "endSec": 7939,
+      "durationSec": 137,
+      "topic": "Duftkerzen-Reviews werden schlechter",
+      "fineSubject": "Market / Reviews",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 8265,
+      "endSec": 8383,
+      "durationSec": 118,
+      "topic": "Bonus Track",
+      "fineSubject": "Entertainment / Track",
+      "topicIndex": 17
+    }
+  ]
+}

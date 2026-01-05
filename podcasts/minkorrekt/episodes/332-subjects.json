@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 332,
+  "title": "Mi332 – \"Mischbär\"",
+  "generatedAt": "2026-01-05T15:18:17.389Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.14814814814814814,
+      "Culture": 0.40411522633744856,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.4477366255144033,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 720,
+      "Culture": 1964,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2176,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 4860,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 169,
+      "endSec": 829,
+      "durationSec": 660,
+      "topic": "CDC",
+      "fineSubject": "Political Parties",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 829,
+      "endSec": 1599,
+      "durationSec": 770,
+      "topic": "Podcast: \"Was will die AfD?\"",
+      "fineSubject": "Political Commentary",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1599,
+      "endSec": 2345,
+      "durationSec": 746,
+      "topic": "Esoterik in den Sozialen Medien",
+      "fineSubject": "Social Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2345,
+      "endSec": 2783,
+      "durationSec": 438,
+      "topic": "Kommentar von Ina zu Keramik",
+      "fineSubject": "Ceramics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4562,
+      "endSec": 4948,
+      "durationSec": 386,
+      "topic": "Snackable Science",
+      "fineSubject": "Research",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4948,
+      "endSec": 6131,
+      "durationSec": 1183,
+      "topic": "Thema 2: \"Anti-Eis-Bär\"",
+      "fineSubject": "Metaphors",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6131,
+      "endSec": 6474,
+      "durationSec": 343,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 6474,
+      "endSec": 6808,
+      "durationSec": 334,
+      "topic": "Audiokommentar von Matthias zu Biofilmen",
+      "fineSubject": "Biofilms",
+      "topicIndex": 8
+    }
+  ]
+}

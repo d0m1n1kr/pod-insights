@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 83,
+  "title": "UKW083 Corona Weekly: Wir werden es verkacken, aber nicht völlig",
+  "generatedAt": "2026-01-05T15:18:03.020Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 9733,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 11,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9733,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 182,
+      "endSec": 1509,
+      "durationSec": 1327,
+      "topic": "Infektionsgeschehen in Deutschland",
+      "fineSubject": "Infection Rates",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1509,
+      "endSec": 1764,
+      "durationSec": 255,
+      "topic": "Tests und Positivquote",
+      "fineSubject": "Testing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1765,
+      "endSec": 2195,
+      "durationSec": 430,
+      "topic": "Infektionsgeschehen in Europa",
+      "fineSubject": "Infection Rates",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2195,
+      "endSec": 2962,
+      "durationSec": 767,
+      "topic": "Impfkampagne in Deutschland",
+      "fineSubject": "Vaccination Campaigns",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2962,
+      "endSec": 3088,
+      "durationSec": 126,
+      "topic": "Booster-Impfungen",
+      "fineSubject": "Vaccination",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3089,
+      "endSec": 3772,
+      "durationSec": 683,
+      "topic": "Die Israel-Situation",
+      "fineSubject": "International Situations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3772,
+      "endSec": 4300,
+      "durationSec": 528,
+      "topic": "Impfstoffe für Kinder ab 5",
+      "fineSubject": "Vaccination for Children",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4301,
+      "endSec": 5394,
+      "durationSec": 1093,
+      "topic": "Das Kimmich-Syndrom",
+      "fineSubject": "Public Perception",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5394,
+      "endSec": 6151,
+      "durationSec": 757,
+      "topic": "Impfstoff-Klassifikation",
+      "fineSubject": "Vaccines",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 6151,
+      "endSec": 6935,
+      "durationSec": 784,
+      "topic": "Meinungen in der Öffentlichkeit",
+      "fineSubject": "Public Opinion",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 6936,
+      "endSec": 9919,
+      "durationSec": 2983,
+      "topic": "Was sind jetzt die richtigen Maßnahmen?",
+      "fineSubject": "Public Policy",
+      "topicIndex": 10
+    }
+  ]
+}

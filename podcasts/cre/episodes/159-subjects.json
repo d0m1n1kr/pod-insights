@@ -1,0 +1,124 @@
+{
+  "episodeNumber": 159,
+  "title": "CRE159 Nachrichtendienste",
+  "generatedAt": "2026-01-05T15:17:54.384Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.14285714285714285,
+      "Media": 0.14285714285714285,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.42857142857142855,
+      "Security": 0.2857142857142857,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 1,
+      "Media": 1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 3,
+      "Security": 2,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geheimdienste in Deutschland",
+      "fineSubject": "Intelligence Services",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aufgaben und Struktur der Geheimdienste",
+      "fineSubject": "Government Structure",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geheimhaltungsstufen und Sicherheitsüberprüfungen",
+      "fineSubject": "Confidentiality Levels",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Arbeiten mit Deckfirmen und Tarnnamen",
+      "fineSubject": "Cover Operations",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Überwachung der Geheimdienste",
+      "fineSubject": "Oversight",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wikileaks als öffentlicher Nachrichtendienst",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vertrauen in Nachrichtendienste",
+      "fineSubject": "Trust Issues",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

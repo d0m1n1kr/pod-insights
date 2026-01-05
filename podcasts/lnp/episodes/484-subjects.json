@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 484,
+  "title": "LNP484 Auf alten Schiffen lernt man das Segeln",
+  "generatedAt": "2026-01-05T15:17:57.640Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.05632235084594835,
+      "Technology": 0,
+      "Law": 0.6467052537845058,
+      "Security": 0.21861086375779162,
+      "Social": 0,
+      "Media": 0.07836153161175423,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 253,
+      "Technology": 0,
+      "Law": 2905,
+      "Security": 982,
+      "Social": 0,
+      "Media": 352,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 5,
+      "Security": 2,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4492,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 917,
+      "endSec": 1780,
+      "durationSec": 863,
+      "topic": "AI Act",
+      "fineSubject": "AI Regulation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1780,
+      "endSec": 2528,
+      "durationSec": 748,
+      "topic": "Deepfake CEO Fraud",
+      "fineSubject": "Fraud",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2529,
+      "endSec": 2881,
+      "durationSec": 352,
+      "topic": "Meta: Kennzeichnung von KI-generierten Bildern",
+      "fineSubject": "AI-Generated Content",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2881,
+      "endSec": 3134,
+      "durationSec": 253,
+      "topic": "Maaßen als Rechtsextremist vom BfVS geführt",
+      "fineSubject": "Extremism",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 3134,
+      "endSec": 3703,
+      "durationSec": 569,
+      "topic": "UN Cybercrime Convention",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3704,
+      "endSec": 4293,
+      "durationSec": 589,
+      "topic": "Canada will Flipper Zero verbieten",
+      "fineSubject": "Device Regulation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 4293,
+      "endSec": 4527,
+      "durationSec": 234,
+      "topic": "VAULT7 Leaker verurteilt",
+      "fineSubject": "Leaks",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 4528,
+      "endSec": 4644,
+      "durationSec": 116,
+      "topic": "e-Privacy-Ausnahme “Freiwillige Chatkontrolle”",
+      "fineSubject": "Privacy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 4644,
+      "endSec": 5412,
+      "durationSec": 768,
+      "topic": "Datenschutzgesetznovelle",
+      "fineSubject": "Data Protection",
+      "topicIndex": 10
+    }
+  ]
+}

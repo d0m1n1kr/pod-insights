@@ -1,0 +1,270 @@
+{
+  "episodeNumber": 39,
+  "title": "MM039 Home Alone",
+  "generatedAt": "2026-01-05T15:17:51.062Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.8967462039045553,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.05488069414316703,
+      "Social": 0,
+      "Culture": 0.03253796095444685,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.0158351409978308,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4134,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 253,
+      "Social": 0,
+      "Culture": 150,
+      "Security": 0,
+      "Events": 0,
+      "Business": 73,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 20,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 4610,
+    "totalTopics": 24
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 123,
+      "endSec": 208,
+      "durationSec": 85,
+      "topic": "Top 10 iPhone Annoyances",
+      "fineSubject": "Mobile / iPhone",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 209,
+      "endSec": 427,
+      "durationSec": 218,
+      "topic": "AutoRotate und CoverFlow",
+      "fineSubject": "Mobile / iPhone",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 428,
+      "endSec": 572,
+      "durationSec": 144,
+      "topic": "Podcast AutoPlay",
+      "fineSubject": "Media / Podcasting",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 572,
+      "endSec": 920,
+      "durationSec": 348,
+      "topic": "Bluetooth-Kopfhörer",
+      "fineSubject": "Audio / Bluetooth",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 921,
+      "endSec": 1134,
+      "durationSec": 213,
+      "topic": "iPhone Dashboard",
+      "fineSubject": "Mobile / iPhone",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1135,
+      "endSec": 1223,
+      "durationSec": 88,
+      "topic": "Address Book Syncing",
+      "fineSubject": "Mobile / iPhone",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1223,
+      "endSec": 1509,
+      "durationSec": 286,
+      "topic": "iPhone App Settings",
+      "fineSubject": "Mobile / iPhone",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1509,
+      "endSec": 1769,
+      "durationSec": 260,
+      "topic": "Auto Brightness",
+      "fineSubject": "Mobile / iPhone",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1769,
+      "endSec": 2358,
+      "durationSec": 589,
+      "topic": "iPhone Tethering",
+      "fineSubject": "Mobile / iPhone",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 2359,
+      "endSec": 2612,
+      "durationSec": 253,
+      "topic": "Podcastsordnung",
+      "fineSubject": "Podcasting",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2612,
+      "endSec": 2668,
+      "durationSec": 56,
+      "topic": "MM Public Wave",
+      "fineSubject": "Social / Community",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Business",
+      "startSec": 2668,
+      "endSec": 2741,
+      "durationSec": 73,
+      "topic": "Apple Store FFM",
+      "fineSubject": "Retail / Apple Store",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2742,
+      "endSec": 2906,
+      "durationSec": 164,
+      "topic": "Apple Tablet",
+      "fineSubject": "Mobile / Tablet",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3069,
+      "endSec": 3106,
+      "durationSec": 37,
+      "topic": "Think Different",
+      "fineSubject": "Business / Branding",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3106,
+      "endSec": 3404,
+      "durationSec": 298,
+      "topic": "iPhone Docks mit LineIn",
+      "fineSubject": "Mobile / iPhone",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3404,
+      "endSec": 3640,
+      "durationSec": 236,
+      "topic": "Gizmo",
+      "fineSubject": "Gadgets / Gizmo",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3641,
+      "endSec": 3762,
+      "durationSec": 121,
+      "topic": "AirLock",
+      "fineSubject": "Security / AirLock",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3763,
+      "endSec": 3886,
+      "durationSec": 123,
+      "topic": "Tweetie",
+      "fineSubject": "Social / Twitter",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3886,
+      "endSec": 4025,
+      "durationSec": 139,
+      "topic": "Google Goggles",
+      "fineSubject": "Search / Google",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4026,
+      "endSec": 4210,
+      "durationSec": 184,
+      "topic": "Nokia",
+      "fineSubject": "Mobile / Nokia",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4210,
+      "endSec": 4272,
+      "durationSec": 62,
+      "topic": "FreeNAS",
+      "fineSubject": "Storage / FreeNAS",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4273,
+      "endSec": 4532,
+      "durationSec": 259,
+      "topic": "Google DNS",
+      "fineSubject": "Networking / DNS",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4532,
+      "endSec": 4645,
+      "durationSec": 113,
+      "topic": "Google is evil",
+      "fineSubject": "Business / Ethics",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4646,
+      "endSec": 4907,
+      "durationSec": 261,
+      "topic": "mobileMacs",
+      "fineSubject": "Mobile / Mac",
+      "topicIndex": 23
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "episodeNumber": 90,
+  "title": "RZ090 Weltraumstaub",
+  "generatedAt": "2026-01-05T15:18:06.286Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 1,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 7762,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 1,
+      "Astronomie": 3,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 7762,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 6502,
+      "durationSec": 6488,
+      "topic": "Weltraumstaub",
+      "fineSubject": "Partikelastronomie",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 1288,
+      "durationSec": 1274,
+      "topic": "Neue Astronomie",
+      "fineSubject": "Entwicklungen",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Raumfahrtgefahren",
+      "fineSubject": "Risiken",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Partikelströme",
+      "fineSubject": "Partikelbewegung",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

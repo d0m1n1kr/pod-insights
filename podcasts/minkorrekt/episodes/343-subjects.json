@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 343,
+  "title": "Mi343 – \"Mauer von Hui\"",
+  "generatedAt": "2026-01-05T15:18:17.391Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.1992228366462412,
+      "Culture": 0.3249140636676132,
+      "Wissenschaft": 0,
+      "Health": 0.05051561799432073,
+      "Technology": 0.3781198625018682,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.04722761918995666,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1333,
+      "Culture": 2174,
+      "Wissenschaft": 0,
+      "Health": 338,
+      "Technology": 2530,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 316,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6691,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 356,
+      "endSec": 672,
+      "durationSec": 316,
+      "topic": "Sedisvakanz",
+      "fineSubject": "Vacancy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 672,
+      "endSec": 1009,
+      "durationSec": 337,
+      "topic": "Belgien",
+      "fineSubject": "Belgium",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1009,
+      "endSec": 1347,
+      "durationSec": 338,
+      "topic": "Blutspenden",
+      "fineSubject": "Blood Donation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1347,
+      "endSec": 2590,
+      "durationSec": 1243,
+      "topic": "ChatGPT zum Basteln",
+      "fineSubject": "AI Applications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2590,
+      "endSec": 3177,
+      "durationSec": 587,
+      "topic": "Dinant",
+      "fineSubject": "Dinant",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3662,
+      "endSec": 4949,
+      "durationSec": 1287,
+      "topic": "Thema 1: \"Digital Defense statt digital Demenz\"",
+      "fineSubject": "Digital Defense",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 4949,
+      "endSec": 5358,
+      "durationSec": 409,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5358,
+      "endSec": 7532,
+      "durationSec": 2174,
+      "topic": "Thema 2: \"Ist irgendwer da draußen?\"",
+      "fineSubject": "Existential Questions",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 513,
+  "title": "LNP513 Fascho-Fritz fischt frische Faschos",
+  "generatedAt": "2026-01-05T15:17:57.643Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.22254013670322684,
+      "Technology": 0.5709744078842791,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.20648545541249405,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1400,
+      "Technology": 3592,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1299,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6291,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 140,
+      "endSec": 2604,
+      "durationSec": 2464,
+      "topic": "Brandmauer",
+      "fineSubject": "Security",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 2605,
+      "endSec": 3904,
+      "durationSec": 1299,
+      "topic": "DOGE",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3904,
+      "endSec": 5032,
+      "durationSec": 1128,
+      "topic": "DeepSeek Apocalypse",
+      "fineSubject": "AI",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5033,
+      "endSec": 5421,
+      "durationSec": 388,
+      "topic": "Löschen statt Sperren",
+      "fineSubject": "Censorship",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5421,
+      "endSec": 6433,
+      "durationSec": 1012,
+      "topic": "Wahl- und Real-o-mat",
+      "fineSubject": "Voting",
+      "topicIndex": 4
+    }
+  ]
+}

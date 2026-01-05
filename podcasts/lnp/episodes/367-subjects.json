@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 367,
+  "title": "LNP367 Ich höre den Klang des Regens im Überfluss",
+  "generatedAt": "2026-01-05T15:17:57.623Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2846168997439433,
+      "Technology": 0,
+      "Law": 0.07051408311995273,
+      "Security": 0.2605869608036242,
+      "Social": 0.09218042150876501,
+      "Media": 0.014181603309040771,
+      "Health": 0.25920819381524524,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.018711837699428798,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1445,
+      "Technology": 0,
+      "Law": 358,
+      "Security": 1323,
+      "Social": 468,
+      "Media": 72,
+      "Health": 1316,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 95,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 2,
+      "Social": 1,
+      "Media": 1,
+      "Health": 3,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5077,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 131,
+      "endSec": 1367,
+      "durationSec": 1236,
+      "topic": "Auszählung der US Wahl",
+      "fineSubject": "US Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1516,
+      "endSec": 1711,
+      "durationSec": 195,
+      "topic": "Feedback: Corona-Kompensation",
+      "fineSubject": "COVID-19 Compensation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 1712,
+      "endSec": 1807,
+      "durationSec": 95,
+      "topic": "Feedback: Snowden: Umsatz mit Buchverkauf",
+      "fineSubject": "Snowden",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1808,
+      "endSec": 1880,
+      "durationSec": 72,
+      "topic": "Feedback: Obst-Taxi vermutlich Fake",
+      "fineSubject": "Fake News",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1880,
+      "endSec": 1939,
+      "durationSec": 59,
+      "topic": "Feedback: EU Raterei",
+      "fineSubject": "EU Governance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 1939,
+      "endSec": 2062,
+      "durationSec": 123,
+      "topic": "Feedback: Terroristinnen",
+      "fineSubject": "Female Terrorists",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2063,
+      "endSec": 2213,
+      "durationSec": 150,
+      "topic": "Feedback: Parlamentarische Beteiligung an den Corona-Maßnahmen",
+      "fineSubject": "COVID-19 Measures",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 2213,
+      "endSec": 3413,
+      "durationSec": 1200,
+      "topic": "Terror in Wien",
+      "fineSubject": "Terror in Vienna",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 3413,
+      "endSec": 3771,
+      "durationSec": 358,
+      "topic": "Terrorist Content Regulation",
+      "fineSubject": "Terrorist Content",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 3771,
+      "endSec": 4239,
+      "durationSec": 468,
+      "topic": "Hass im Netz in AT",
+      "fineSubject": "Hate Speech",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4240,
+      "endSec": 4823,
+      "durationSec": 583,
+      "topic": "Corona-Warn-App Update-Pläne",
+      "fineSubject": "COVID-19 Apps",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5207,
+      "endSec": 5745,
+      "durationSec": 538,
+      "topic": "Elektronischer Impfpass",
+      "fineSubject": "Digital Health Pass",
+      "topicIndex": 13
+    }
+  ]
+}

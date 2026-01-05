@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 210,
+  "title": "CRE210 Die Jagd",
+  "generatedAt": "2026-01-05T15:17:54.394Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.2800759814267623,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.2551709582102153,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0.4647530603630224,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 1327,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1209,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 2202,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 1,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 1,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 4738,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 29,
+      "endSec": 1238,
+      "durationSec": 1209,
+      "topic": "Bedeutung der Jagd",
+      "fineSubject": "Hunting Significance",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 29,
+      "endSec": 1356,
+      "durationSec": 1327,
+      "topic": "Verhältnis der modernen Gesellschaft zum Jägertum",
+      "fineSubject": "Perception of Hunting",
+      "topicIndex": 7
+    },
+    {
+      "subject": "History",
+      "startSec": 322,
+      "endSec": 2524,
+      "durationSec": 2202,
+      "topic": "Evolution des Homo sapiens",
+      "fineSubject": "Human Evolution",
+      "topicIndex": 3
+    }
+  ]
+}

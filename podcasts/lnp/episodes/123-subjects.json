@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 123,
+  "title": "LNP123 Wir können auch Heißluft",
+  "generatedAt": "2026-01-05T15:17:57.591Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.471499176276771,
+      "Technology": 0.128500823723229,
+      "Law": 0,
+      "Security": 0.4,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1431,
+      "Technology": 390,
+      "Law": 0,
+      "Security": 1214,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3035,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 156,
+      "endSec": 1001,
+      "durationSec": 845,
+      "topic": "Spionage-Trojaner Regin",
+      "fineSubject": "Malware",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1002,
+      "endSec": 1392,
+      "durationSec": 390,
+      "topic": "GERONTIC = Cable & Wireless = Vodafone",
+      "fineSubject": "Companies",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1392,
+      "endSec": 1750,
+      "durationSec": 358,
+      "topic": "Geheimdienst-UA ist streng geheim",
+      "fineSubject": "Intelligence",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1750,
+      "endSec": 2633,
+      "durationSec": 883,
+      "topic": "Merkelfon-Ermittlungen eingestellt",
+      "fineSubject": "Investigations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2634,
+      "endSec": 2824,
+      "durationSec": 190,
+      "topic": "PNR-Abkommen mit Kanada auf der Prüfbank",
+      "fineSubject": "International Relations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2824,
+      "endSec": 3193,
+      "durationSec": 369,
+      "topic": "Detekt: Eigenen Computer auf Trojaner checken",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 5
+    }
+  ]
+}

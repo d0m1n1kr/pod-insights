@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 220,
+  "title": "CRE220 Sprechendes Denken",
+  "generatedAt": "2026-01-05T15:17:54.395Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.1587195731910637,
+      "Technology": 0,
+      "Social": 0.31177059019673226,
+      "Media": 0.5295098366122041,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 476,
+      "Technology": 0,
+      "Social": 935,
+      "Media": 1588,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 1,
+      "Technology": 0,
+      "Social": 1,
+      "Media": 1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 2999,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 61,
+      "endSec": 537,
+      "durationSec": 476,
+      "topic": "Programmieren als Funktionssprache",
+      "fineSubject": "Programmierung",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 8639,
+      "endSec": 10227,
+      "durationSec": 1588,
+      "topic": "Freie Gesprächsführung",
+      "fineSubject": "Gesprächsführung",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 9314,
+      "endSec": 10249,
+      "durationSec": 935,
+      "topic": "Fehlerkultur",
+      "fineSubject": "Kultur",
+      "topicIndex": 7
+    }
+  ]
+}

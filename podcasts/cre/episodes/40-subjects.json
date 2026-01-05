@@ -1,0 +1,100 @@
+{
+  "episodeNumber": 40,
+  "title": "CRE040 Digitale Telefonnetze",
+  "generatedAt": "2026-01-05T15:17:54.366Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 4772,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 4,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 1
+    },
+    "totalDurationSec": 4772,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 96,
+      "endSec": 1328,
+      "durationSec": 1232,
+      "topic": "ISDN und digitale Protokolle",
+      "fineSubject": "ISDN",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 396,
+      "endSec": 1194,
+      "durationSec": 798,
+      "topic": "Entwicklung der Telefonnetze",
+      "fineSubject": "Telefonnetze",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 396,
+      "endSec": 1846,
+      "durationSec": 1450,
+      "topic": "Neue Dienste in digitalen Telefonnetzen",
+      "fineSubject": "Digitale Dienste",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1383,
+      "endSec": 2675,
+      "durationSec": 1292,
+      "topic": "Mobile Telefonnetztechniken",
+      "fineSubject": "GSM und UMTS",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Sicherheit",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheitsaspekte in digitalen Telefonnetzen",
+      "fineSubject": "Hacking",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

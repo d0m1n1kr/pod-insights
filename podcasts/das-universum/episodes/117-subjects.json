@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 117,
+  "title": "DU117 - Der Fressflash des schwarzen Lochs",
+  "generatedAt": "2026-01-05T15:18:22.108Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.6781292984869326,
+      "Raumfahrt": 0,
+      "Kultur": 0.3218707015130674,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 1479,
+      "Raumfahrt": 0,
+      "Kultur": 702,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 1,
+      "Raumfahrt": 0,
+      "Kultur": 2,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 2181,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 4,
+      "endSec": 1483,
+      "durationSec": 1479,
+      "topic": "Falsche Bilder von schwarzen Löchern",
+      "fineSubject": "Bildgebung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 3592,
+      "endSec": 3709,
+      "durationSec": 117,
+      "topic": "Schwarze Monolithen in der Science Fiction",
+      "fineSubject": "Science Fiction",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 3669,
+      "endSec": 4254,
+      "durationSec": 585,
+      "topic": "Film '2010 - Das Jahr, in dem wir Kontakt aufnehmen'",
+      "fineSubject": "Film",
+      "topicIndex": 7
+    }
+  ]
+}

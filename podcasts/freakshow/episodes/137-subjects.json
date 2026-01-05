@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 137,
+  "title": "FS137 Didahdahdidahdit",
+  "generatedAt": "2026-01-05T15:17:51.077Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.24191374663072776,
+      "Hardware": 0,
+      "Finance": 0.0660377358490566,
+      "Media": 0.125,
+      "Social": 0,
+      "Culture": 0.14765835579514824,
+      "Security": 0.05306603773584906,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.3663241239892183,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 2872,
+      "Hardware": 0,
+      "Finance": 784,
+      "Media": 1484,
+      "Social": 0,
+      "Culture": 1753,
+      "Security": 630,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 4349,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 3,
+      "Event": 0
+    },
+    "totalDurationSec": 11872,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 342,
+      "endSec": 1833,
+      "durationSec": 1491,
+      "topic": "Programmieren",
+      "fineSubject": "Programmieren",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1833,
+      "endSec": 3586,
+      "durationSec": 1753,
+      "topic": "Affenschwanz am Lattenzaun",
+      "fineSubject": "Humor",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 3586,
+      "endSec": 4216,
+      "durationSec": 630,
+      "topic": "Backdoors in iOS?",
+      "fineSubject": "Mobile Security",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 4216,
+      "endSec": 5000,
+      "durationSec": 784,
+      "topic": "Bitcoin",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 5000,
+      "endSec": 6144,
+      "durationSec": 1144,
+      "topic": "Minecraft",
+      "fineSubject": "Minecraft",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 6144,
+      "endSec": 9035,
+      "durationSec": 2891,
+      "topic": "Spiele, die das Leben verändern",
+      "fineSubject": "Impactful Games",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 9035,
+      "endSec": 10519,
+      "durationSec": 1484,
+      "topic": "Podcast-Apps",
+      "fineSubject": "Podcasting",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 10519,
+      "endSec": 10833,
+      "durationSec": 314,
+      "topic": "Ingress",
+      "fineSubject": "Ingress",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 10833,
+      "endSec": 12214,
+      "durationSec": 1381,
+      "topic": "Git Clients",
+      "fineSubject": "Version Control",
+      "topicIndex": 8
+    }
+  ]
+}

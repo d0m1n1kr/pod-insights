@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 17,
+  "title": "UKW017 Corona: Situation in den Schulen",
+  "generatedAt": "2026-01-05T15:18:03.000Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.2467941507311586,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.7532058492688414,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1097,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 3348,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 2,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 8,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 4445,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Society",
+      "startSec": 82,
+      "endSec": 176,
+      "durationSec": 94,
+      "topic": "Jöran Muuß-Merholz",
+      "fineSubject": "Experts",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Society",
+      "startSec": 177,
+      "endSec": 1115,
+      "durationSec": 938,
+      "topic": "Aktuelle Situation in den Schulen",
+      "fineSubject": "School Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Society",
+      "startSec": 1115,
+      "endSec": 1755,
+      "durationSec": 640,
+      "topic": "Situation der Lehrer",
+      "fineSubject": "Teachers",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Society",
+      "startSec": 1756,
+      "endSec": 2056,
+      "durationSec": 300,
+      "topic": "Situation der Eltern",
+      "fineSubject": "Parents",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Society",
+      "startSec": 2056,
+      "endSec": 2174,
+      "durationSec": 118,
+      "topic": "Situation der Schülern",
+      "fineSubject": "Students",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Society",
+      "startSec": 2175,
+      "endSec": 2518,
+      "durationSec": 343,
+      "topic": "Neue Erfahrungen",
+      "fineSubject": "Experiences",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2518,
+      "endSec": 2981,
+      "durationSec": 463,
+      "topic": "Digitale Schulinfrastruktur",
+      "fineSubject": "Digital Infrastructure",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2982,
+      "endSec": 3616,
+      "durationSec": 634,
+      "topic": "Schulen und die Clouds",
+      "fineSubject": "Cloud Services",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Society",
+      "startSec": 3616,
+      "endSec": 4310,
+      "durationSec": 694,
+      "topic": "Werkzeuge für den Schulbetrieb",
+      "fineSubject": "Tools",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Society",
+      "startSec": 4310,
+      "endSec": 4531,
+      "durationSec": 221,
+      "topic": "Was bleibt?",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 9
+    }
+  ]
+}

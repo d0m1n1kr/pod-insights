@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 113,
+  "title": "LNP113 Cyber",
+  "generatedAt": "2026-01-05T15:17:57.590Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.470074812967581,
+      "Technology": 0,
+      "Law": 0.36462415390096187,
+      "Security": 0.10277876736729605,
+      "Social": 0,
+      "Media": 0.06252226576416102,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2639,
+      "Technology": 0,
+      "Law": 2047,
+      "Security": 577,
+      "Social": 0,
+      "Media": 351,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5614,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 78,
+      "endSec": 2717,
+      "durationSec": 2639,
+      "topic": "Digitale Agenda",
+      "fineSubject": "Digital Agenda",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 2718,
+      "endSec": 4765,
+      "durationSec": 2047,
+      "topic": "IT-Sicherheitsgesetz",
+      "fineSubject": "IT Security Law",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 4765,
+      "endSec": 5342,
+      "durationSec": 577,
+      "topic": "Der Der BND kann das auch…",
+      "fineSubject": "BND",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 5342,
+      "endSec": 5693,
+      "durationSec": 351,
+      "topic": "Assange wird bald die Botschaft verlassen, sagt aber nicht wie",
+      "fineSubject": "Assange",
+      "topicIndex": 3
+    }
+  ]
+}

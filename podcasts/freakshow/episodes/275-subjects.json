@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 275,
+  "title": "FS275 Scheinriesenfenster",
+  "generatedAt": "2026-01-05T15:17:51.118Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 13787,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 17,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13787,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 215,
+      "endSec": 370,
+      "durationSec": 155,
+      "topic": "Raumzeit Live",
+      "fineSubject": "Live Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 371,
+      "endSec": 1367,
+      "durationSec": 996,
+      "topic": "Podcast VJing",
+      "fineSubject": "Media Production",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1367,
+      "endSec": 1775,
+      "durationSec": 408,
+      "topic": "Staubsauger-Cloud",
+      "fineSubject": "Cloud Computing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1776,
+      "endSec": 2700,
+      "durationSec": 924,
+      "topic": "Vision Pro: First Thoughts",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2701,
+      "endSec": 3392,
+      "durationSec": 691,
+      "topic": "Vision Pro: Unboxing und Komponenten",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3393,
+      "endSec": 4264,
+      "durationSec": 871,
+      "topic": "Vision Pro: Kameras und Schärfe",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4264,
+      "endSec": 4779,
+      "durationSec": 515,
+      "topic": "Vision Pro: Setup",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4780,
+      "endSec": 5961,
+      "durationSec": 1181,
+      "topic": "Vision Pro: Bedienung von Menü und Fenstern",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5961,
+      "endSec": 6717,
+      "durationSec": 756,
+      "topic": "Vision Pro: Mac Screen Sharing",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6718,
+      "endSec": 7504,
+      "durationSec": 786,
+      "topic": "Vision Pro: Environments",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7505,
+      "endSec": 8747,
+      "durationSec": 1242,
+      "topic": "Vision Pro: Filme und Videos",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8747,
+      "endSec": 9428,
+      "durationSec": 681,
+      "topic": "Vision Pro: Fotos und Panoramas",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9428,
+      "endSec": 10239,
+      "durationSec": 811,
+      "topic": "Vision Pro: EyeSight und Personas",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10239,
+      "endSec": 10597,
+      "durationSec": 358,
+      "topic": "Vision Pro: Screen Sharing und Optic ID",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10598,
+      "endSec": 12851,
+      "durationSec": 2253,
+      "topic": "Vision Pro: Apps und zukünftige Anwendungen",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12851,
+      "endSec": 13281,
+      "durationSec": 430,
+      "topic": "Vision Pro: Fazit",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13282,
+      "endSec": 14011,
+      "durationSec": 729,
+      "topic": "3D-Drucker",
+      "fineSubject": "3D Printing",
+      "topicIndex": 16
+    }
+  ]
+}

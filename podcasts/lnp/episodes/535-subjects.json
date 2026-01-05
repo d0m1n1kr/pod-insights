@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 535,
+  "title": "LNP535 Zeitsprunginnovationen",
+  "generatedAt": "2026-01-05T15:17:57.646Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.35614285714285715,
+      "Law": 0.6438571428571429,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2493,
+      "Law": 4507,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 5,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7000,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 447,
+      "endSec": 2607,
+      "durationSec": 2160,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chat Control",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2607,
+      "endSec": 3357,
+      "durationSec": 750,
+      "topic": "Altersverifikation",
+      "fineSubject": "Age Verification",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3358,
+      "endSec": 4940,
+      "durationSec": 1582,
+      "topic": "EUDI-Wallet",
+      "fineSubject": "EUDI-Wallet",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 4940,
+      "endSec": 5769,
+      "durationSec": 829,
+      "topic": "Europa-Omnibus",
+      "fineSubject": "Omnibus",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5770,
+      "endSec": 6681,
+      "durationSec": 911,
+      "topic": "Apple/Google nehmen ICEBlock aus den App Stores",
+      "fineSubject": "App Stores",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 6681,
+      "endSec": 7041,
+      "durationSec": 360,
+      "topic": "UN Cybercrime Convention",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 7436,
+      "endSec": 7844,
+      "durationSec": 408,
+      "topic": "Österreich: IFG und Videoüberwachung",
+      "fineSubject": "Video Surveillance",
+      "topicIndex": 8
+    }
+  ]
+}

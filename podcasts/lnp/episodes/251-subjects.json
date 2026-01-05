@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 251,
+  "title": "LNP251 Ferteidigung der diskordischen Grundordnung",
+  "generatedAt": "2026-01-05T15:17:57.607Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16308397821725423,
+      "Technology": 0.06821438807681283,
+      "Law": 0.2820292347377472,
+      "Security": 0,
+      "Social": 0.3456577815993121,
+      "Media": 0,
+      "Health": 0.08741759816566351,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.05359701920321009,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 569,
+      "Technology": 238,
+      "Law": 984,
+      "Security": 0,
+      "Social": 1206,
+      "Media": 0,
+      "Health": 305,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 187,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 4,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3489,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 184,
+      "endSec": 1239,
+      "durationSec": 1055,
+      "topic": "LNP256 steht vor der Tür",
+      "fineSubject": "Social Network",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1240,
+      "endSec": 1449,
+      "durationSec": 209,
+      "topic": "Feedback: Bundesregierung wirbt auf Facebook",
+      "fineSubject": "Government",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1449,
+      "endSec": 1754,
+      "durationSec": 305,
+      "topic": "Feedback: Digitales Gesundheitssystem",
+      "fineSubject": "Digital Health",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 1755,
+      "endSec": 1942,
+      "durationSec": 187,
+      "topic": "Facebook schließt 1,5 Milliarden Nutzer von EU-Datenschutz aus",
+      "fineSubject": "Data Protection",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1942,
+      "endSec": 2180,
+      "durationSec": 238,
+      "topic": "Wenigstens Adblocker bleiben legal",
+      "fineSubject": "Ad Blocking",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2181,
+      "endSec": 2304,
+      "durationSec": 123,
+      "topic": "Sicherheitspaket Österreich mit Zähnen",
+      "fineSubject": "Security Legislation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2305,
+      "endSec": 2868,
+      "durationSec": 563,
+      "topic": "DSGVO in Österreich ohne Zähne",
+      "fineSubject": "Data Protection",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2868,
+      "endSec": 3228,
+      "durationSec": 360,
+      "topic": "Brexit könnte UK-Unternehmen die Domain kosten",
+      "fineSubject": "Brexit",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3599,
+      "endSec": 3829,
+      "durationSec": 230,
+      "topic": "Affe hat keine Rechte an seinem Selfie",
+      "fineSubject": "Copyright",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 3830,
+      "endSec": 3898,
+      "durationSec": 68,
+      "topic": "VDS bleibt europarechtswidrig",
+      "fineSubject": "Data Retention",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 3898,
+      "endSec": 4049,
+      "durationSec": 151,
+      "topic": "Rainer Wendt, du bist kein echter Polizist",
+      "fineSubject": "Law Enforcement",
+      "topicIndex": 11
+    }
+  ]
+}

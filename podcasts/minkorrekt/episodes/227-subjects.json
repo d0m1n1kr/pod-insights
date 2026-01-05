@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 227,
+  "title": "Mi227 – \"Kinetischer Impaktor\"",
+  "generatedAt": "2026-01-05T15:18:17.375Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5118891797556719,
+      "Culture": 0.381217277486911,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.10689354275741711,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 4693,
+      "Culture": 3495,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 980,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 9168,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 144,
+      "endSec": 416,
+      "durationSec": 272,
+      "topic": "Minkorrekt Tour",
+      "fineSubject": "Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 416,
+      "endSec": 923,
+      "durationSec": 507,
+      "topic": "TKKG Retro-Folgen",
+      "fineSubject": "Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 923,
+      "endSec": 1994,
+      "durationSec": 1071,
+      "topic": "Periodensystem",
+      "fineSubject": "Chemistry",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2357,
+      "endSec": 3966,
+      "durationSec": 1609,
+      "topic": "Thema 1: “Bullseye im Weltall”",
+      "fineSubject": "Astronomy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 3966,
+      "endSec": 5630,
+      "durationSec": 1664,
+      "topic": "Thema 2: “Spezialgelagerter Sondertraum\"",
+      "fineSubject": "Physics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 5630,
+      "endSec": 5979,
+      "durationSec": 349,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5979,
+      "endSec": 7036,
+      "durationSec": 1057,
+      "topic": "Thema 3: “Issa fein?!”",
+      "fineSubject": "Food",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7036,
+      "endSec": 8016,
+      "durationSec": 980,
+      "topic": "Thema 4: \"Ellie 1350\"",
+      "fineSubject": "Devices",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8060,
+      "endSec": 9719,
+      "durationSec": 1659,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 10
+    }
+  ]
+}

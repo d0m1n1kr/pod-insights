@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 170,
+  "title": "LNP170 Verwalter werden verwalten",
+  "generatedAt": "2026-01-05T15:17:57.596Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.29462616822429905,
+      "Technology": 0,
+      "Law": 0.10397196261682243,
+      "Security": 0,
+      "Social": 0.5004672897196262,
+      "Media": 0.10093457943925234,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1261,
+      "Technology": 0,
+      "Law": 445,
+      "Security": 0,
+      "Social": 2142,
+      "Media": 432,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4280,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 143,
+      "endSec": 2285,
+      "durationSec": 2142,
+      "topic": "All Creatures Welcome",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2286,
+      "endSec": 2423,
+      "durationSec": 137,
+      "topic": "Feedback: Geheime Köpfe",
+      "fineSubject": "Public Opinion",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2423,
+      "endSec": 2954,
+      "durationSec": 531,
+      "topic": "Frag den Bundestag",
+      "fineSubject": "Government",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2954,
+      "endSec": 3547,
+      "durationSec": 593,
+      "topic": "NSA-UA am 28. Januar",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3547,
+      "endSec": 3992,
+      "durationSec": 445,
+      "topic": "Klagen gegen die Vorratsdatenspeicherung",
+      "fineSubject": "Data Protection",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 3993,
+      "endSec": 4425,
+      "durationSec": 432,
+      "topic": "Gema vs. YouTube",
+      "fineSubject": "Copyright",
+      "topicIndex": 5
+    }
+  ]
+}

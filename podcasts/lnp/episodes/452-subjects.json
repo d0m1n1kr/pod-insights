@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 452,
+  "title": "LNP452 Mit rechten Dingen",
+  "generatedAt": "2026-01-05T15:17:57.636Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1688421766401085,
+      "Technology": 0.2439396507882692,
+      "Law": 0.3492117308018308,
+      "Security": 0.14171893541278183,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.01440922190201729,
+      "Feedback": 0,
+      "Legal": 0.08187828445499237,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 996,
+      "Technology": 1439,
+      "Law": 2060,
+      "Security": 836,
+      "Social": 0,
+      "Media": 0,
+      "Health": 85,
+      "Feedback": 0,
+      "Legal": 483,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 4,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5899,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 731,
+      "endSec": 1316,
+      "durationSec": 585,
+      "topic": "H.G. Maaßen",
+      "fineSubject": "Political Figures",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1316,
+      "endSec": 1824,
+      "durationSec": 508,
+      "topic": "Zitis-Legalisierungs- und Ausbau-Gesetz",
+      "fineSubject": "Surveillance Laws",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1825,
+      "endSec": 2603,
+      "durationSec": 778,
+      "topic": "Staatstrojaner",
+      "fineSubject": "Surveillance Technology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2604,
+      "endSec": 2793,
+      "durationSec": 189,
+      "topic": "Übersicht über globale Verwendung von Spyware 2011-2022",
+      "fineSubject": "Spyware",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2793,
+      "endSec": 3204,
+      "durationSec": 411,
+      "topic": "Schwedische Ratspräsidentschaft für Massenüberwachung",
+      "fineSubject": "International Relations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3205,
+      "endSec": 3677,
+      "durationSec": 472,
+      "topic": "Nutzung von Verknüpften Daten an EU Außengrenzen",
+      "fineSubject": "Data Usage",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 3930,
+      "endSec": 4798,
+      "durationSec": 868,
+      "topic": "Chatkontrolle, es könnte ganz schnell gehen",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 4798,
+      "endSec": 5366,
+      "durationSec": 568,
+      "topic": "Online Safety Bill",
+      "fineSubject": "Online Safety",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 5366,
+      "endSec": 6202,
+      "durationSec": 836,
+      "topic": "Hive hacked",
+      "fineSubject": "Hacking Incidents",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Legal",
+      "startSec": 6202,
+      "endSec": 6685,
+      "durationSec": 483,
+      "topic": "Verschwörhaus Klage",
+      "fineSubject": "Litigation",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 6686,
+      "endSec": 6771,
+      "durationSec": 85,
+      "topic": "Update EHDS - Entscheidung fällt noch dieses Jahr",
+      "fineSubject": "Health Data",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Law",
+      "startSec": 6772,
+      "endSec": 6888,
+      "durationSec": 116,
+      "topic": "Age verification in der Schweiz kommt",
+      "fineSubject": "Age Verification",
+      "topicIndex": 12
+    }
+  ]
+}

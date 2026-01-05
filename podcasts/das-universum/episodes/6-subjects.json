@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 6,
+  "title": "DU006 - Aliens im 8-dimensionalen kosmischen Heuhafen",
+  "generatedAt": "2026-01-05T15:18:22.087Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.6666666666666666,
+      "Raumfahrt": 0,
+      "Kultur": 0.16666666666666666,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.16666666666666666,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 4,
+      "Raumfahrt": 0,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 1,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Suche nach intelligenten außerirdischen Wesen",
+      "fineSubject": "Außerirdisches Leben",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kosmischer Heuhaufen und Dimensionen",
+      "fineSubject": "Dimensionen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fermi-Paradox",
+      "fineSubject": "Paradoxe",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "SETI und die Suche nach Aliens",
+      "fineSubject": "SETI",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "4. Dimension und deren Verständnis",
+      "fineSubject": "Dimensionen",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einfluss von Medien auf die Wahrnehmung von Aliens",
+      "fineSubject": "Film",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

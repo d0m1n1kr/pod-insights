@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 60,
+  "title": "UKW060 Corona Weekly: Jag den Mutanten",
+  "generatedAt": "2026-01-05T15:18:03.014Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9142455482661668,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0.08575445173383317,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5853,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 549,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 10,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6402,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 472,
+      "endSec": 971,
+      "durationSec": 499,
+      "topic": "Maskenwirkung",
+      "fineSubject": "Maskenwirkung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 971,
+      "endSec": 2051,
+      "durationSec": 1080,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Situation in Deutschland",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2052,
+      "endSec": 2462,
+      "durationSec": 410,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "Situation in den Bundesländern",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2462,
+      "endSec": 2788,
+      "durationSec": 326,
+      "topic": "Situation in Berlin",
+      "fineSubject": "Situation in Berlin",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2788,
+      "endSec": 3521,
+      "durationSec": 733,
+      "topic": "Impfungen in Deutschland",
+      "fineSubject": "Impfungen in Deutschland",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3522,
+      "endSec": 3962,
+      "durationSec": 440,
+      "topic": "Impfungen in Israel",
+      "fineSubject": "Impfungen in Israel",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3963,
+      "endSec": 4131,
+      "durationSec": 168,
+      "topic": "Situation International",
+      "fineSubject": "Situation International",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4643,
+      "endSec": 4773,
+      "durationSec": 130,
+      "topic": "Maßnahmen in Australien",
+      "fineSubject": "Maßnahmen in Australien",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 4773,
+      "endSec": 5300,
+      "durationSec": 527,
+      "topic": "Varianten und ihre Folgen",
+      "fineSubject": "Varianten und ihre Folgen",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5301,
+      "endSec": 6841,
+      "durationSec": 1540,
+      "topic": "Produktion der mRNA Impfstoffe",
+      "fineSubject": "Produktion der mRNA Impfstoffe",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Travel",
+      "startSec": 6842,
+      "endSec": 7391,
+      "durationSec": 549,
+      "topic": "Impfen und Reisen",
+      "fineSubject": "Impfen und Reisen",
+      "topicIndex": 14
+    }
+  ]
+}

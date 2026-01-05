@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 316,
+  "title": "LNP316 Naziloser",
+  "generatedAt": "2026-01-05T15:17:57.616Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6078714197403667,
+      "Technology": 0.12404698124871213,
+      "Law": 0,
+      "Security": 0.08077477848753349,
+      "Social": 0.1873068205233876,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2950,
+      "Technology": 602,
+      "Law": 0,
+      "Security": 392,
+      "Social": 909,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4853,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 79,
+      "endSec": 988,
+      "durationSec": 909,
+      "topic": "Feedback: Extinction Rebellion",
+      "fineSubject": "Activism",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 989,
+      "endSec": 2871,
+      "durationSec": 1882,
+      "topic": "Terroranschlag in Halle",
+      "fineSubject": "Terrorism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2871,
+      "endSec": 3473,
+      "durationSec": 602,
+      "topic": "FinFisher gegen netzpolitik.org",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3473,
+      "endSec": 4541,
+      "durationSec": 1068,
+      "topic": "Apple, Hong Kong, China",
+      "fineSubject": "International Relations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 4541,
+      "endSec": 4933,
+      "durationSec": 392,
+      "topic": "Hackback auf Ransomware",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 4
+    }
+  ]
+}

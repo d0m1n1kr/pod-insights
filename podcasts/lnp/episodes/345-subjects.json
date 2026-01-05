@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 345,
+  "title": "LNP345 Am Anfang vom Ende der ersten Welle",
+  "generatedAt": "2026-01-05T15:17:57.620Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.1811787072243346,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.8188212927756654,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 953,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 4307,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 5,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5260,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 329,
+      "endSec": 941,
+      "durationSec": 612,
+      "topic": "Feedback: Infektiösität",
+      "fineSubject": "Infectiousness",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 942,
+      "endSec": 1513,
+      "durationSec": 571,
+      "topic": "Feedback: Studien und Meinungen",
+      "fineSubject": "Studies and Opinions",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1513,
+      "endSec": 1856,
+      "durationSec": 343,
+      "topic": "Feedback: LNP auf Blacklists",
+      "fineSubject": "Blacklists",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1857,
+      "endSec": 2031,
+      "durationSec": 174,
+      "topic": "Feedback: Covidioten",
+      "fineSubject": "Covidiots",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2031,
+      "endSec": 4638,
+      "durationSec": 2607,
+      "topic": "Infodemie",
+      "fineSubject": "Infodemic",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4638,
+      "endSec": 5591,
+      "durationSec": 953,
+      "topic": "Tracing-App-Privilegien",
+      "fineSubject": "Tracing Apps",
+      "topicIndex": 5
+    }
+  ]
+}

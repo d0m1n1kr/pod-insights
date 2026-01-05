@@ -1,0 +1,297 @@
+{
+  "episodeNumber": 166,
+  "title": "LNP166 32C3 Spezial",
+  "generatedAt": "2026-01-05T15:17:57.596Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4705128205128205,
+      "Technology": 0.2976923076923077,
+      "Law": 0,
+      "Security": 0.05076923076923077,
+      "Social": 0.07871794871794872,
+      "Media": 0.07512820512820513,
+      "Health": 0.02717948717948718,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1835,
+      "Technology": 1161,
+      "Law": 0,
+      "Security": 198,
+      "Social": 307,
+      "Media": 293,
+      "Health": 106,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 12,
+      "Technology": 9,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 2,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3900,
+    "totalTopics": 32
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 992,
+      "endSec": 1053,
+      "durationSec": 61,
+      "topic": "Hacking EU Funding",
+      "fineSubject": "EU Funding",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1054,
+      "endSec": 1143,
+      "durationSec": 89,
+      "topic": "radio++",
+      "fineSubject": "radio++",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1342,
+      "endSec": 1567,
+      "durationSec": 225,
+      "topic": "The exhaust emissions scandal („Dieselgate“)",
+      "fineSubject": "Dieselgate",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1567,
+      "endSec": 1699,
+      "durationSec": 132,
+      "topic": "NSA-Untersuchungsausschuss: Zwischen Aufklärungswillen und Mauern aus Schweigen",
+      "fineSubject": "NSA",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1836,
+      "endSec": 1906,
+      "durationSec": 70,
+      "topic": "Avoiding kernel panic: Europe’s biggest fails in digital policy-making",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2318,
+      "endSec": 2516,
+      "durationSec": 198,
+      "topic": "Cyber all the Wassenaars",
+      "fineSubject": "Wassenaars",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2516,
+      "endSec": 2966,
+      "durationSec": 450,
+      "topic": "Let's Encrypt - What launching a free CA looks like",
+      "fineSubject": "Let's Encrypt",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2966,
+      "endSec": 3053,
+      "durationSec": 87,
+      "topic": "Net Neutrality in Europe",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3054,
+      "endSec": 3117,
+      "durationSec": 63,
+      "topic": "Netzpolitik in der Schweiz",
+      "fineSubject": "Netzpolitik Schweiz",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3364,
+      "endSec": 3473,
+      "durationSec": 109,
+      "topic": "Graphs, Drones & Phones",
+      "fineSubject": "Graphs, Drones & Phones",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3473,
+      "endSec": 3920,
+      "durationSec": 447,
+      "topic": "Intelexit",
+      "fineSubject": "Intelexit",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 4035,
+      "endSec": 4259,
+      "durationSec": 224,
+      "topic": "Methodisch Inkorrekt & Fnord-Jahresrückblick",
+      "fineSubject": "Fnord-Jahresrückblick",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4260,
+      "endSec": 4328,
+      "durationSec": 68,
+      "topic": "State of the Onion",
+      "fineSubject": "State of the Onion",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Social",
+      "startSec": 4329,
+      "endSec": 4525,
+      "durationSec": 196,
+      "topic": "Lessons learned: Freifunk für Geflüchtete",
+      "fineSubject": "Freifunk für Geflüchtete",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4526,
+      "endSec": 4774,
+      "durationSec": 248,
+      "topic": "The Price of Dissent",
+      "fineSubject": "The Price of Dissent",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4774,
+      "endSec": 4908,
+      "durationSec": 134,
+      "topic": "Safe Harbor",
+      "fineSubject": "Safe Harbor",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4909,
+      "endSec": 4938,
+      "durationSec": 29,
+      "topic": "Say hi to your new boss: How algorithms might soon control our lives.",
+      "fineSubject": "Algorithms Control",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Social",
+      "startSec": 5108,
+      "endSec": 5219,
+      "durationSec": 111,
+      "topic": "Wie Jugendschutzprogramme nicht nur die Jugend schädigen",
+      "fineSubject": "Jugendschutzprogramme",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5220,
+      "endSec": 5345,
+      "durationSec": 125,
+      "topic": "Collect It All: Open Source Intelligence (OSINT) for Everyone",
+      "fineSubject": "Open Source Intelligence",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5345,
+      "endSec": 5487,
+      "durationSec": 142,
+      "topic": "Stromtankstellen",
+      "fineSubject": "Stromtankstellen",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Media",
+      "startSec": 5488,
+      "endSec": 5557,
+      "durationSec": 69,
+      "topic": "CCC Jahresrückblick",
+      "fineSubject": "CCC Jahresrückblick",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5557,
+      "endSec": 5633,
+      "durationSec": 76,
+      "topic": "Grundrechte gelten nicht im Weltall!",
+      "fineSubject": "Grundrechte im Weltall",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5634,
+      "endSec": 5718,
+      "durationSec": 84,
+      "topic": "Crypto ist Abwehr, IFG ist Angriff!",
+      "fineSubject": "Crypto und IFG",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Health",
+      "startSec": 5718,
+      "endSec": 5824,
+      "durationSec": 106,
+      "topic": "How Open Source Software helped stop Ebola",
+      "fineSubject": "Open Source Software Ebola",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5824,
+      "endSec": 5911,
+      "durationSec": 87,
+      "topic": "32C3 Infrastructure Review",
+      "fineSubject": "32C3 Infrastructure",
+      "topicIndex": 29
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5912,
+      "endSec": 6120,
+      "durationSec": 208,
+      "topic": "Free Software and Hardware bring National Sovereignty",
+      "fineSubject": "Free Software and Hardware",
+      "topicIndex": 30
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6121,
+      "endSec": 6183,
+      "durationSec": 62,
+      "topic": "Dissecting VoLTE",
+      "fineSubject": "Dissecting VoLTE",
+      "topicIndex": 31
+    }
+  ]
+}

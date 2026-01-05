@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 230,
+  "title": "Mi230 – „Tauschkörper“",
+  "generatedAt": "2026-01-05T15:18:17.376Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.7949422759758109,
+      "Culture": 0.10582737768004398,
+      "Wissenschaft": 0,
+      "Health": 0.09923034634414514,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 5784,
+      "Culture": 770,
+      "Wissenschaft": 0,
+      "Health": 722,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 5,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 7276,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 254,
+      "endSec": 786,
+      "durationSec": 532,
+      "topic": "Das Universum in Herten",
+      "fineSubject": "Astronomy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 786,
+      "endSec": 1474,
+      "durationSec": 688,
+      "topic": "Teslaspule und Periodensystem",
+      "fineSubject": "Chemistry",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1474,
+      "endSec": 2196,
+      "durationSec": 722,
+      "topic": "Erste Hilfe Kurs",
+      "fineSubject": "First Aid",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2345,
+      "endSec": 4101,
+      "durationSec": 1756,
+      "topic": "Thema 1: “Täuschkörper der Nase”",
+      "fineSubject": "Biology",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4101,
+      "endSec": 6309,
+      "durationSec": 2208,
+      "topic": "Thema 2: \"Welt aus Plastik\"",
+      "fineSubject": "Plastic Pollution",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6309,
+      "endSec": 7079,
+      "durationSec": 770,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Skepticism",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 7079,
+      "endSec": 7679,
+      "durationSec": 600,
+      "topic": "Experiment",
+      "fineSubject": "Experiments",
+      "topicIndex": 6
+    }
+  ]
+}

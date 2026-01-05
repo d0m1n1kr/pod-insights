@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 243,
+  "title": "LNP243 Auch ohne Regierung machen wir keinen Fortschritt",
+  "generatedAt": "2026-01-05T15:17:57.605Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7896285399043766,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.06436189775652813,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.14600956233909526
+    },
+    "durations": {
+      "Politics": 4294,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 350,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 794
+    },
+    "topicCounts": {
+      "Politics": 7,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 5438,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 420,
+      "endSec": 562,
+      "durationSec": 142,
+      "topic": "Feedback: Strava",
+      "fineSubject": "Strava",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 563,
+      "endSec": 674,
+      "durationSec": 111,
+      "topic": "Feedback: AfD-Rede",
+      "fineSubject": "AfD-Rede",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 675,
+      "endSec": 772,
+      "durationSec": 97,
+      "topic": "Feedback: beA",
+      "fineSubject": "beA",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 772,
+      "endSec": 1545,
+      "durationSec": 773,
+      "topic": "Was erlaube Schulz?",
+      "fineSubject": "Schulz",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1546,
+      "endSec": 2183,
+      "durationSec": 637,
+      "topic": "Koalitionsvertrag: Digitale Infrastruktur",
+      "fineSubject": "Digitale Infrastruktur",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2184,
+      "endSec": 2828,
+      "durationSec": 644,
+      "topic": "Koalitionsvertrag: Digitale Bildungsoffensive",
+      "fineSubject": "Digitale Bildungsoffensive",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2828,
+      "endSec": 3249,
+      "durationSec": 421,
+      "topic": "Koalitionsvertrag: Innere Sicherheit",
+      "fineSubject": "Innere Sicherheit",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3250,
+      "endSec": 3478,
+      "durationSec": 228,
+      "topic": "Koalitionsvertrag: Urheberrecht",
+      "fineSubject": "Urheberrecht",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3479,
+      "endSec": 3624,
+      "durationSec": 145,
+      "topic": "Koalitionsvertrag: Resumee",
+      "fineSubject": "Resumee",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3624,
+      "endSec": 5070,
+      "durationSec": 1446,
+      "topic": "Gesetz zur Neuausrichtung des Verfassungsschutzes in Hessen",
+      "fineSubject": "Verfassungsschutz",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5071,
+      "endSec": 5865,
+      "durationSec": 794,
+      "topic": "John Perry Barlow",
+      "fineSubject": "John Perry Barlow",
+      "topicIndex": 10
+    }
+  ]
+}

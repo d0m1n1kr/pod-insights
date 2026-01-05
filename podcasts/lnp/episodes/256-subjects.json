@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 256,
+  "title": "LNP256 10.000 Leute auf 1,3 Stellen",
+  "generatedAt": "2026-01-05T15:17:57.608Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 9280,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 4,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 9280,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 797,
+      "endSec": 2827,
+      "durationSec": 2030,
+      "topic": "Geraldine de Bastion",
+      "fineSubject": "Public Figures",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 2827,
+      "endSec": 6673,
+      "durationSec": 3846,
+      "topic": "Jan Philip Albrecht",
+      "fineSubject": "Public Figures",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 6737,
+      "endSec": 8656,
+      "durationSec": 1919,
+      "topic": "Martina Renner",
+      "fineSubject": "Public Figures",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 8656,
+      "endSec": 10141,
+      "durationSec": 1485,
+      "topic": "Arne Semsrott",
+      "fineSubject": "Public Figures",
+      "topicIndex": 4
+    }
+  ]
+}

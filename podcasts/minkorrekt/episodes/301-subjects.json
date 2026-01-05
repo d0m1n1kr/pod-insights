@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 301,
+  "title": "Mi301 – \"Funghi Nostra\"",
+  "generatedAt": "2026-01-05T15:18:17.384Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.11093051605038602,
+      "Culture": 0.16497358797236897,
+      "Wissenschaft": 0,
+      "Health": 0.4681023973994311,
+      "Technology": 0.2559934985778139,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 273,
+      "Culture": 406,
+      "Wissenschaft": 0,
+      "Health": 1152,
+      "Technology": 630,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 2461,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 2420,
+      "endSec": 3050,
+      "durationSec": 630,
+      "topic": "ESP32",
+      "fineSubject": "Microcontrollers",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 3050,
+      "endSec": 4202,
+      "durationSec": 1152,
+      "topic": "Thema 1: \"Fressfeind in die Aura fächeln\"",
+      "fineSubject": "Culinary Arts",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4202,
+      "endSec": 4475,
+      "durationSec": 273,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Content",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5537,
+      "endSec": 5943,
+      "durationSec": 406,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 6
+    }
+  ]
+}

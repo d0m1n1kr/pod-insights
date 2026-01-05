@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 118,
+  "title": "UKW118 Ukraine: Russisches Roulette",
+  "generatedAt": "2026-01-05T15:18:03.030Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.30118208006357405,
+      "Military": 0.2525081950928777,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.15178305354127347,
+      "Travel": 0.1798947054733287,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.11463196582894607
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 3032,
+      "Military": 2542,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 1528,
+      "Travel": 1811,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 1154
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 4,
+      "Military": 1,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 2,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 1
+    },
+    "totalDurationSec": 10067,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Travel",
+      "startSec": 146,
+      "endSec": 1957,
+      "durationSec": 1811,
+      "topic": "Reisen in die Ukraine",
+      "fineSubject": "Ukraine",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Society",
+      "startSec": 1957,
+      "endSec": 2739,
+      "durationSec": 782,
+      "topic": "Leben an der Front",
+      "fineSubject": "War Impact",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2739,
+      "endSec": 3218,
+      "durationSec": 479,
+      "topic": "Wie gut funktioniert der Staat",
+      "fineSubject": "Functionality",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3218,
+      "endSec": 3687,
+      "durationSec": 469,
+      "topic": "Korruption",
+      "fineSubject": "Ukraine",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Society",
+      "startSec": 4214,
+      "endSec": 4960,
+      "durationSec": 746,
+      "topic": "Resilienz der Gesellschaft",
+      "fineSubject": "Resilience",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4960,
+      "endSec": 6671,
+      "durationSec": 1711,
+      "topic": "Wie steht die Ukraine zu Europa?",
+      "fineSubject": "Ukraine and Europe",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 6672,
+      "endSec": 7826,
+      "durationSec": 1154,
+      "topic": "USA und UK",
+      "fineSubject": "USA and UK",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7827,
+      "endSec": 8200,
+      "durationSec": 373,
+      "topic": "Deutsche Politik und der Krieg",
+      "fineSubject": "Germany and War",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 8200,
+      "endSec": 10742,
+      "durationSec": 2542,
+      "topic": "Panzer nach Berlin",
+      "fineSubject": "Tanks",
+      "topicIndex": 9
+    }
+  ]
+}

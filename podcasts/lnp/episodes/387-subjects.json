@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 387,
+  "title": "LNP387 Magisches Denken",
+  "generatedAt": "2026-01-05T15:17:57.626Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.7139055222887558,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.05681969394544245,
+      "Media": 0,
+      "Health": 0.22927478376580174,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 5365,
+      "Law": 0,
+      "Security": 0,
+      "Social": 427,
+      "Media": 0,
+      "Health": 1723,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 5,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7515,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 98,
+      "endSec": 525,
+      "durationSec": 427,
+      "topic": "Eva Wolfangel",
+      "fineSubject": "Eva Wolfangel",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 526,
+      "endSec": 935,
+      "durationSec": 409,
+      "topic": "Digitale Lösungen für die Coronakrise",
+      "fineSubject": "Digital Solutions",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 935,
+      "endSec": 1652,
+      "durationSec": 717,
+      "topic": "Problemstellung Contact Tracing",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1652,
+      "endSec": 2767,
+      "durationSec": 1115,
+      "topic": "Digitale Kontakterfassung",
+      "fineSubject": "Digital Contact Tracking",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2767,
+      "endSec": 3314,
+      "durationSec": 547,
+      "topic": "Check-In-Apps für Gastronomie",
+      "fineSubject": "Check-In Apps",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3315,
+      "endSec": 5727,
+      "durationSec": 2412,
+      "topic": "Luca App",
+      "fineSubject": "Luca App",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5728,
+      "endSec": 6610,
+      "durationSec": 882,
+      "topic": "Luca App als Open Source",
+      "fineSubject": "Open Source",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 6610,
+      "endSec": 7616,
+      "durationSec": 1006,
+      "topic": "Zukunft der Corona-Warn-App",
+      "fineSubject": "Corona Warning App",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "episodeNumber": 9,
+  "title": "DU009 - Das Geheimnis der dunklen Galaxie",
+  "generatedAt": "2026-01-05T15:18:22.088Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0.25,
+      "Space": 0.25,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0.25,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0.25
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 1,
+      "Space": 1,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 1,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 1
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Weltraummission OSIRIS-REx",
+      "fineSubject": "Asteroids",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomy",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Dunkle Galaxien",
+      "fineSubject": "Galaxies",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Reißerische Methoden der Wissenschaft",
+      "fineSubject": "Publication Ethics",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Dunkle Materie",
+      "fineSubject": "Dark Matter",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

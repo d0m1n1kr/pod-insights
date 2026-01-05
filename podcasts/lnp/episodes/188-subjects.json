@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 188,
+  "title": "LNP188 Tempomat mit Lenkomat",
+  "generatedAt": "2026-01-05T15:17:57.598Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.12843382090617195,
+      "Technology": 0.2433107384944702,
+      "Law": 0.1441312879058152,
+      "Security": 0.14752051373528363,
+      "Social": 0.13521227256510882,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.2013913663931502,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 720,
+      "Technology": 1364,
+      "Law": 808,
+      "Security": 827,
+      "Social": 758,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1129,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5606,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 110,
+      "endSec": 1474,
+      "durationSec": 1364,
+      "topic": "Tesla Autopilot",
+      "fineSubject": "Autonomous Driving",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1475,
+      "endSec": 1598,
+      "durationSec": 123,
+      "topic": "EU-Netzsperren",
+      "fineSubject": "Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1599,
+      "endSec": 1908,
+      "durationSec": 309,
+      "topic": "BÜPF-Referendum gescheitert",
+      "fineSubject": "Referendum",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1908,
+      "endSec": 2531,
+      "durationSec": 623,
+      "topic": "Privacy Shield",
+      "fineSubject": "Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2532,
+      "endSec": 2587,
+      "durationSec": 55,
+      "topic": "Bayerischer Verfassungsschutz hat Zugriff auf die VDS",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 2588,
+      "endSec": 3717,
+      "durationSec": 1129,
+      "topic": "Bundeskartellamt begünstigt Sofortüberweisung",
+      "fineSubject": "Payment Systems",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3718,
+      "endSec": 4490,
+      "durationSec": 772,
+      "topic": "Cyber-Sicherheits-Strategie 2016",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 4490,
+      "endSec": 5248,
+      "durationSec": 758,
+      "topic": "Selbstmordversuch von Chelsea Manning",
+      "fineSubject": "Mental Health",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5249,
+      "endSec": 5537,
+      "durationSec": 288,
+      "topic": "Datenschutzbericht peinlich und geheim",
+      "fineSubject": "Transparency",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 5538,
+      "endSec": 5723,
+      "durationSec": 185,
+      "topic": "Landesverrat eingestellt",
+      "fineSubject": "Criminal Justice",
+      "topicIndex": 9
+    }
+  ]
+}

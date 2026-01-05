@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 240,
+  "title": "LNP240 Lichtgeschwindigkeit ist nicht genug",
+  "generatedAt": "2026-01-05T15:17:57.605Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.1752115480338477,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.19661523145843704,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.6281732205077153,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 704,
+      "Law": 0,
+      "Security": 0,
+      "Social": 790,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2524,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 4,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4018,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 95,
+      "endSec": 885,
+      "durationSec": 790,
+      "topic": "European Digital Rights (EDRi)",
+      "fineSubject": "Digital Rights",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 885,
+      "endSec": 2278,
+      "durationSec": 1393,
+      "topic": "NetzDG und Platform-Regulierung",
+      "fineSubject": "Platform Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2279,
+      "endSec": 2797,
+      "durationSec": 518,
+      "topic": "ePrivacy-Verordnung",
+      "fineSubject": "Privacy Regulation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2797,
+      "endSec": 3177,
+      "durationSec": 380,
+      "topic": "e-evidence Richtlinie",
+      "fineSubject": "Evidence Law",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3572,
+      "endSec": 4276,
+      "durationSec": 704,
+      "topic": "Internet in Deutschland ist langsam",
+      "fineSubject": "Internet Speed",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4276,
+      "endSec": 4509,
+      "durationSec": 233,
+      "topic": "Automatische Datenschutzverletzung in Österreich",
+      "fineSubject": "Data Protection",
+      "topicIndex": 5
+    }
+  ]
+}

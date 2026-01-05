@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 335,
+  "title": "Mi335 – \"Elfengärtner\"",
+  "generatedAt": "2026-01-05T15:18:17.389Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.11168915623475857,
+      "Culture": 0.5924239960981954,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.04178182409364331,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.2541050235734027,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 687,
+      "Culture": 3644,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 257,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1563,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 6151,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 67,
+      "endSec": 956,
+      "durationSec": 889,
+      "topic": "Wahl",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 956,
+      "endSec": 1229,
+      "durationSec": 273,
+      "topic": "Diskussionskultur",
+      "fineSubject": "Discussion Culture",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1229,
+      "endSec": 1630,
+      "durationSec": 401,
+      "topic": "Zensur unter Trump",
+      "fineSubject": "Censorship",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1630,
+      "endSec": 1887,
+      "durationSec": 257,
+      "topic": "Kommentare",
+      "fineSubject": "Comments",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1887,
+      "endSec": 3422,
+      "durationSec": 1535,
+      "topic": "Thema 1: “Doch keine kosmische Single-Party!”",
+      "fineSubject": "Events",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 3422,
+      "endSec": 4109,
+      "durationSec": 687,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4109,
+      "endSec": 5633,
+      "durationSec": 1524,
+      "topic": "Thema 2: \"Objektiv Abstrakt\"",
+      "fineSubject": "Abstract Concepts",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5633,
+      "endSec": 6218,
+      "durationSec": 585,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 7
+    }
+  ]
+}

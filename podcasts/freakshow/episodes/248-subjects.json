@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 248,
+  "title": "FS248 Public Static Final",
+  "generatedAt": "2026-01-05T15:17:51.108Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5764021164021164,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.08455026455026456,
+      "Media": 0.0656084656084656,
+      "Social": 0,
+      "Culture": 0.2734391534391534,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5447,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 799,
+      "Media": 620,
+      "Social": 0,
+      "Culture": 2584,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 11,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 5,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9450,
+    "totalTopics": 23
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 370,
+      "endSec": 1526,
+      "durationSec": 1156,
+      "topic": "Audio über Internet",
+      "fineSubject": "Audio",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1527,
+      "endSec": 2848,
+      "durationSec": 1321,
+      "topic": "Corona und Klopapier",
+      "fineSubject": "Pandemic",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2849,
+      "endSec": 2983,
+      "durationSec": 134,
+      "topic": "Bevorratung",
+      "fineSubject": "Supply",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 2984,
+      "endSec": 3325,
+      "durationSec": 341,
+      "topic": "Shortages",
+      "fineSubject": "Shortages",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3596,
+      "endSec": 4249,
+      "durationSec": 653,
+      "topic": "Internetversorgung",
+      "fineSubject": "Internet",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4249,
+      "endSec": 4426,
+      "durationSec": 177,
+      "topic": "Wartenummern im Internet",
+      "fineSubject": "Web Services",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4427,
+      "endSec": 5222,
+      "durationSec": 795,
+      "topic": "Mangelhafte Digitalaffinität in Deutschland",
+      "fineSubject": "Digital Literacy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5222,
+      "endSec": 5420,
+      "durationSec": 198,
+      "topic": "Digitale Infrastruktur",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5421,
+      "endSec": 5620,
+      "durationSec": 199,
+      "topic": "Büchertips",
+      "fineSubject": "Books",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5620,
+      "endSec": 6279,
+      "durationSec": 659,
+      "topic": "Nützliche Onlinetools für die Quarantäne",
+      "fineSubject": "Online Tools",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 7671,
+      "endSec": 8291,
+      "durationSec": 620,
+      "topic": "Brettspiele Online",
+      "fineSubject": "Games",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8642,
+      "endSec": 9537,
+      "durationSec": 895,
+      "topic": "MacBook Air und Zubehör",
+      "fineSubject": "Hardware",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9537,
+      "endSec": 9737,
+      "durationSec": 200,
+      "topic": "iPad mit Maus",
+      "fineSubject": "iPad",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9737,
+      "endSec": 10076,
+      "durationSec": 339,
+      "topic": "WWDC Online",
+      "fineSubject": "Events",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10077,
+      "endSec": 10206,
+      "durationSec": 129,
+      "topic": "Online-Immersion",
+      "fineSubject": "Online Experiences",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10206,
+      "endSec": 10703,
+      "durationSec": 497,
+      "topic": "Konferenz online",
+      "fineSubject": "Conferences",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10704,
+      "endSec": 11162,
+      "durationSec": 458,
+      "topic": "MoneyMoney",
+      "fineSubject": "Personal Finance",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11163,
+      "endSec": 11707,
+      "durationSec": 544,
+      "topic": "Videos runterladen",
+      "fineSubject": "Video",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Culture",
+      "startSec": 11707,
+      "endSec": 11842,
+      "durationSec": 135,
+      "topic": "Pokemon Go und Corona",
+      "fineSubject": "Gaming",
+      "topicIndex": 22
+    }
+  ]
+}

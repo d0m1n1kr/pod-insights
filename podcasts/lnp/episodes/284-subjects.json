@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 284,
+  "title": "LNP284 Urteil des Bundesverfassungsschutzes",
+  "generatedAt": "2026-01-05T15:17:57.611Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.18063336000914598,
+      "Technology": 0.12690065165199496,
+      "Law": 0.1751457642620327,
+      "Security": 0.3414885103464045,
+      "Social": 0.1171830341831485,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.058648679547273354,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1580,
+      "Technology": 1110,
+      "Law": 1532,
+      "Security": 2987,
+      "Social": 1025,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 513,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 3,
+      "Security": 5,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 2,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 8747,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 74,
+      "endSec": 497,
+      "durationSec": 423,
+      "topic": "Feedback: HIBP",
+      "fineSubject": "HIBP",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 497,
+      "endSec": 587,
+      "durationSec": 90,
+      "topic": "Feedback: Dichter und Denker",
+      "fineSubject": "Dichter und Denker",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 588,
+      "endSec": 1346,
+      "durationSec": 758,
+      "topic": "Ist Open Source gleichbedeutend mit “sicher”?",
+      "fineSubject": "Open Source",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1346,
+      "endSec": 1869,
+      "durationSec": 523,
+      "topic": "Nachtrag: Password-Sicherheit",
+      "fineSubject": "Password",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2116,
+      "endSec": 2664,
+      "durationSec": 548,
+      "topic": "BfVS vs. AFD",
+      "fineSubject": "BfVS vs. AFD",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 2665,
+      "endSec": 3256,
+      "durationSec": 591,
+      "topic": "Charme-Offensive von Mark Zuckerberg",
+      "fineSubject": "Mark Zuckerberg",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3256,
+      "endSec": 4070,
+      "durationSec": 814,
+      "topic": "YouTube nutzt ML gegen Verschwörungstheoretiker",
+      "fineSubject": "Machine Learning",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 4071,
+      "endSec": 4505,
+      "durationSec": 434,
+      "topic": "WhatsApp gegen virale Fake News",
+      "fineSubject": "WhatsApp",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 5289,
+      "endSec": 6117,
+      "durationSec": 828,
+      "topic": "IT-Sicherheit im Gesundheitswesen",
+      "fineSubject": "Healthcare",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 6118,
+      "endSec": 6764,
+      "durationSec": 646,
+      "topic": "Angriffsversuche auf CitizenLab",
+      "fineSubject": "CitizenLab",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 6765,
+      "endSec": 6997,
+      "durationSec": 232,
+      "topic": "Eurotrojaner",
+      "fineSubject": "Eurotrojaner",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6997,
+      "endSec": 7717,
+      "durationSec": 720,
+      "topic": "Schweiz: Volksinitiative für e-Voting Moratorium",
+      "fineSubject": "e-Voting",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Law",
+      "startSec": 7718,
+      "endSec": 8439,
+      "durationSec": 721,
+      "topic": "BKA testet die europaweite Vernetzung von Polizeiakten",
+      "fineSubject": "Police Records",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Law",
+      "startSec": 8440,
+      "endSec": 8926,
+      "durationSec": 486,
+      "topic": "Rechtsextreme Polizisten nutzen polizeiliches Informationssystem",
+      "fineSubject": "Right-Wing Extremism",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Law",
+      "startSec": 8926,
+      "endSec": 9251,
+      "durationSec": 325,
+      "topic": "Sächsisches Polizeigesetz",
+      "fineSubject": "Policing",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9252,
+      "endSec": 9564,
+      "durationSec": 312,
+      "topic": "Österreich: Smart-Meter-Verweigerer verlieren Stromanschluss",
+      "fineSubject": "Smart Meter",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9564,
+      "endSec": 9860,
+      "durationSec": 296,
+      "topic": "5G-Auktion",
+      "fineSubject": "5G",
+      "topicIndex": 18
+    }
+  ]
+}

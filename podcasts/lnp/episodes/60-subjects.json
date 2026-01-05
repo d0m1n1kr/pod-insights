@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 60,
+  "title": "LNP060 Näheres regelt ein Bundesgesetz",
+  "generatedAt": "2026-01-05T15:17:57.581Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.14201377500819942,
+      "Technology": 0.6667759921285668,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.19121023286323385,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 433,
+      "Technology": 2033,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 583,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3049,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 77,
+      "endSec": 2110,
+      "durationSec": 2033,
+      "topic": "DRM in HTML5",
+      "fineSubject": "Web Standards",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2110,
+      "endSec": 2693,
+      "durationSec": 583,
+      "topic": "Filesharing for the greater good",
+      "fineSubject": "Copyright",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2694,
+      "endSec": 3127,
+      "durationSec": 433,
+      "topic": "Bericht über Abhörungsmaßnahmen des BND",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    }
+  ]
+}

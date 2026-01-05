@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 73,
+  "title": "UKW073 Corona Weekly: Kontrolle hatten wir nie",
+  "generatedAt": "2026-01-05T15:18:03.018Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9720357941834452,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0.02796420581655481,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 6083,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 175,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 12,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6258,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 226,
+      "endSec": 764,
+      "durationSec": 538,
+      "topic": "Feedback: China",
+      "fineSubject": "Global Health",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 764,
+      "endSec": 2579,
+      "durationSec": 1815,
+      "topic": "Feedback: Patente und mRNA-Technologie",
+      "fineSubject": "Pharmaceuticals",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 2580,
+      "endSec": 3070,
+      "durationSec": 490,
+      "topic": "Infektionszahlen in Deutschland",
+      "fineSubject": "Epidemiology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 3071,
+      "endSec": 3282,
+      "durationSec": 211,
+      "topic": "Tests und Positienrate",
+      "fineSubject": "Testing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3282,
+      "endSec": 4570,
+      "durationSec": 1288,
+      "topic": "Fortschritt der Impfkampagne",
+      "fineSubject": "Vaccination",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4571,
+      "endSec": 4619,
+      "durationSec": 48,
+      "topic": "WHO erteilt Notfallzulassung für Sinopharm",
+      "fineSubject": "Regulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4620,
+      "endSec": 4692,
+      "durationSec": 72,
+      "topic": "WHO: B.1.617 ist eine Variant of Concern (VoC)",
+      "fineSubject": "Variants",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4692,
+      "endSec": 4943,
+      "durationSec": 251,
+      "topic": "USA lässt BP für 12-15-jährige zu",
+      "fineSubject": "Vaccination",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4943,
+      "endSec": 5378,
+      "durationSec": 435,
+      "topic": "Digitaler Impfpass",
+      "fineSubject": "Digital Health",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5378,
+      "endSec": 5467,
+      "durationSec": 89,
+      "topic": "Corona-Warn-App",
+      "fineSubject": "Digital Health",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 5468,
+      "endSec": 5890,
+      "durationSec": 422,
+      "topic": "\"Krise\" in Taiwan",
+      "fineSubject": "Global Health",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 5890,
+      "endSec": 6314,
+      "durationSec": 424,
+      "topic": "Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 6315,
+      "endSec": 6490,
+      "durationSec": 175,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 12
+    }
+  ]
+}

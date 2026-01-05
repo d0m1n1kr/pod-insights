@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 235,
+  "title": "LNP235 Nobody is leaking like we do",
+  "generatedAt": "2026-01-05T15:17:57.604Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4481675392670157,
+      "Technology": 0,
+      "Law": 0.33133881824981304,
+      "Security": 0,
+      "Social": 0.22049364248317127,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2996,
+      "Technology": 0,
+      "Law": 2215,
+      "Security": 0,
+      "Social": 1474,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 4,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6685,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 907,
+      "endSec": 1234,
+      "durationSec": 327,
+      "topic": "Vier Jahre Snowden",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1234,
+      "endSec": 2407,
+      "durationSec": 1173,
+      "topic": "International Governance Forum",
+      "fineSubject": "International Relations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2408,
+      "endSec": 4623,
+      "durationSec": 2215,
+      "topic": "Klage gegen Massenüberwachung vor dem EGMR",
+      "fineSubject": "Human Rights",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4623,
+      "endSec": 6119,
+      "durationSec": 1496,
+      "topic": "Die Trumps und Wikileaks",
+      "fineSubject": "Media",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 6119,
+      "endSec": 6813,
+      "durationSec": 694,
+      "topic": "Facebook will Deinen Porn",
+      "fineSubject": "Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 6813,
+      "endSec": 7045,
+      "durationSec": 232,
+      "topic": "Followerverlust auf Facebook",
+      "fineSubject": "Social Media",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 7046,
+      "endSec": 7300,
+      "durationSec": 254,
+      "topic": "Vom Sinn und Unsinn von Facebook",
+      "fineSubject": "Social Media",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 7301,
+      "endSec": 7595,
+      "durationSec": 294,
+      "topic": "Digitale Gesellschaft sucht Geschäftsführung",
+      "fineSubject": "Digital Society",
+      "topicIndex": 8
+    }
+  ]
+}

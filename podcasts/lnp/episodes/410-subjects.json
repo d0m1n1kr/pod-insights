@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 410,
+  "title": "LNP410 Status-Kurz",
+  "generatedAt": "2026-01-05T15:17:57.629Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6306429548563611,
+      "Technology": 0.11103511171910625,
+      "Law": 0.2364341085271318,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.02188782489740082,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2766,
+      "Technology": 487,
+      "Law": 1037,
+      "Security": 0,
+      "Social": 0,
+      "Media": 96,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4386,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 71,
+      "endSec": 127,
+      "durationSec": 56,
+      "topic": "HTTP Status 410",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 128,
+      "endSec": 2894,
+      "durationSec": 2766,
+      "topic": "Kurz-Österreich-Affäre",
+      "fineSubject": "Affairs",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2894,
+      "endSec": 3931,
+      "durationSec": 1037,
+      "topic": "Strafverfolgung des Ibiza Aufdeckers",
+      "fineSubject": "Investigations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3931,
+      "endSec": 4362,
+      "durationSec": 431,
+      "topic": "Netzneutralität Update",
+      "fineSubject": "Updates",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 4363,
+      "endSec": 4459,
+      "durationSec": 96,
+      "topic": "Job bei Reporter ohne Grenzen",
+      "fineSubject": "Organizations",
+      "topicIndex": 4
+    }
+  ]
+}

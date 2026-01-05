@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 279,
+  "title": "LNP279 Ende der Versorgung",
+  "generatedAt": "2026-01-05T15:17:57.611Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.22435282837967402,
+      "Technology": 0.13806327900287632,
+      "Law": 0.27804410354745923,
+      "Security": 0.09851390220517738,
+      "Social": 0.26102588686481304,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 936,
+      "Technology": 576,
+      "Law": 1160,
+      "Security": 411,
+      "Social": 1089,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4172,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 145,
+      "endSec": 640,
+      "durationSec": 495,
+      "topic": "Kleßen-Görne",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 640,
+      "endSec": 1234,
+      "durationSec": 594,
+      "topic": "All Creatures Welcome",
+      "fineSubject": "Inclusion",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1235,
+      "endSec": 1353,
+      "durationSec": 118,
+      "topic": "Feedback: Digitalmarxismus",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1353,
+      "endSec": 1401,
+      "durationSec": 48,
+      "topic": "Feedback: Digitalpakt",
+      "fineSubject": "Education Policy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1401,
+      "endSec": 2171,
+      "durationSec": 770,
+      "topic": "Brexit Update",
+      "fineSubject": "International Relations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2171,
+      "endSec": 2554,
+      "durationSec": 383,
+      "topic": "Cum-Ex und correctiv",
+      "fineSubject": "Financial Regulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2554,
+      "endSec": 2782,
+      "durationSec": 228,
+      "topic": "Gesetz zum Schutz des Geschäftsgeheimnisses",
+      "fineSubject": "Intellectual Property",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2783,
+      "endSec": 3359,
+      "durationSec": 576,
+      "topic": "OffeneGesetze stellt Bundesgesetzblätter online",
+      "fineSubject": "Open Data",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3360,
+      "endSec": 3909,
+      "durationSec": 549,
+      "topic": "Uploadfilter für Terror",
+      "fineSubject": "Censorship",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 3910,
+      "endSec": 4321,
+      "durationSec": 411,
+      "topic": "Emotet",
+      "fineSubject": "Malware",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 208,
+  "title": "LNP208 Verbesserungsgesetz",
+  "generatedAt": "2026-01-05T15:17:57.601Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7540186915887851,
+      "Technology": 0,
+      "Law": 0.24598130841121496,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 6051,
+      "Technology": 0,
+      "Law": 1974,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 8025,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 116,
+      "endSec": 1379,
+      "durationSec": 1263,
+      "topic": "BKA-Verbesserungsgesetz",
+      "fineSubject": "BKA-Verbesserungsgesetz",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1380,
+      "endSec": 1580,
+      "durationSec": 200,
+      "topic": "Datenschutzverbesserungsgesetz",
+      "fineSubject": "Datenschutzverbesserungsgesetz",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1581,
+      "endSec": 2092,
+      "durationSec": 511,
+      "topic": "Videoüberwachungsverbesserungsgesetz",
+      "fineSubject": "Videoüberwachungsverbesserungsgesetz",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2092,
+      "endSec": 3404,
+      "durationSec": 1312,
+      "topic": "Martin Schulz",
+      "fineSubject": "Martin Schulz",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3404,
+      "endSec": 4227,
+      "durationSec": 823,
+      "topic": "Ramstein",
+      "fineSubject": "Ramstein",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4228,
+      "endSec": 6885,
+      "durationSec": 2657,
+      "topic": "Trump",
+      "fineSubject": "Trump",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6886,
+      "endSec": 8145,
+      "durationSec": 1259,
+      "topic": "Anwerbungsversuche",
+      "fineSubject": "Anwerbungsversuche",
+      "topicIndex": 6
+    }
+  ]
+}

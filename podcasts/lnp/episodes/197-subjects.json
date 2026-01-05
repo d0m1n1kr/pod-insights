@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 197,
+  "title": "LNP197 Kulturell-demokratische Zukunft",
+  "generatedAt": "2026-01-05T15:17:57.600Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.19030708167954877,
+      "Technology": 0.1366200125339461,
+      "Law": 0,
+      "Security": 0.3413411322331314,
+      "Social": 0.1065385418842699,
+      "Media": 0.22519323166910382,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 911,
+      "Technology": 654,
+      "Law": 0,
+      "Security": 1634,
+      "Social": 510,
+      "Media": 1078,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 3,
+      "Social": 3,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4787,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 88,
+      "endSec": 285,
+      "durationSec": 197,
+      "topic": "Nachrichtendienstgesetz in der Schweiz mit 65% im Referendum bestätigt",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 286,
+      "endSec": 833,
+      "durationSec": 547,
+      "topic": "Diskussion um das BND-Gesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 834,
+      "endSec": 1419,
+      "durationSec": 585,
+      "topic": "BND verheimlicht NSA-Sicherheitslücken",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1420,
+      "endSec": 1789,
+      "durationSec": 369,
+      "topic": "NSA verheimlicht 3 Jahre lang ihr Cyberwaffenleak",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1789,
+      "endSec": 2867,
+      "durationSec": 1078,
+      "topic": "Oettinger schwört Verleger auf EU-LSR ein",
+      "fineSubject": "Regulation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2867,
+      "endSec": 3521,
+      "durationSec": 654,
+      "topic": "Jetzt doch wieder Roaming",
+      "fineSubject": "Roaming",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 3522,
+      "endSec": 3836,
+      "durationSec": 314,
+      "topic": "Caspar vs. Whatsapp & Facebook",
+      "fineSubject": "Messaging",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 3837,
+      "endSec": 4517,
+      "durationSec": 680,
+      "topic": "Vorratsdatenspeicherung as a Service",
+      "fineSubject": "Data Retention",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 4517,
+      "endSec": 4647,
+      "durationSec": 130,
+      "topic": "Chelsea Manning wird für Suizidversuch bestraft",
+      "fineSubject": "Prisoner Treatment",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4647,
+      "endSec": 4814,
+      "durationSec": 167,
+      "topic": "5 Jahre \"Frag den Staat\"",
+      "fineSubject": "Transparency",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 4814,
+      "endSec": 4880,
+      "durationSec": 66,
+      "topic": "Chaostreff Villingen-Schwenningen",
+      "fineSubject": "Meetups",
+      "topicIndex": 10
+    }
+  ]
+}

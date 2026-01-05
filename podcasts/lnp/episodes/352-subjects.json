@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 352,
+  "title": "LNP352 Datenklo der Republik",
+  "generatedAt": "2026-01-05T15:17:57.621Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.15279812481687666,
+      "Law": 0.36067975388221507,
+      "Security": 0,
+      "Social": 0.05991796073835336,
+      "Media": 0.06314093173161442,
+      "Health": 0.14225021974802227,
+      "Feedback": 0.09668912979783181,
+      "Legal": 0,
+      "Business": 0.051421037210665106,
+      "Privacy": 0.07310284207442133,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1043,
+      "Law": 2462,
+      "Security": 0,
+      "Social": 409,
+      "Media": 431,
+      "Health": 971,
+      "Feedback": 660,
+      "Legal": 0,
+      "Business": 351,
+      "Privacy": 499,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 2,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 6826,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 115,
+      "endSec": 309,
+      "durationSec": 194,
+      "topic": "Feedback aus Stuttgart",
+      "fineSubject": "Stuttgart",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 309,
+      "endSec": 452,
+      "durationSec": 143,
+      "topic": "Feedback: CWA-Meldungen auswerten",
+      "fineSubject": "CWA-Meldungen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 453,
+      "endSec": 776,
+      "durationSec": 323,
+      "topic": "Feedback: App-Gesetz",
+      "fineSubject": "App-Gesetz",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 777,
+      "endSec": 2241,
+      "durationSec": 1464,
+      "topic": "EU: Digital Services Act",
+      "fineSubject": "Digital Services Act",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 2241,
+      "endSec": 2650,
+      "durationSec": 409,
+      "topic": "G20 Gewalt",
+      "fineSubject": "G20 Gewalt",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2651,
+      "endSec": 3483,
+      "durationSec": 832,
+      "topic": "EU: Netzneutralitätsreform",
+      "fineSubject": "Netzneutralitätsreform",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 3483,
+      "endSec": 3914,
+      "durationSec": 431,
+      "topic": "Facebook widerspricht Trumps Lügen",
+      "fineSubject": "Facebook",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3915,
+      "endSec": 4729,
+      "durationSec": 814,
+      "topic": "Österreich: Stopp Corona App",
+      "fineSubject": "Corona App",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4729,
+      "endSec": 4886,
+      "durationSec": 157,
+      "topic": "Österreich: Immunitätsausweis",
+      "fineSubject": "Immunitätsausweis",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 4886,
+      "endSec": 5052,
+      "durationSec": 166,
+      "topic": "Verhaftungswelle nach Münster",
+      "fineSubject": "Verhaftungswelle",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 5053,
+      "endSec": 5552,
+      "durationSec": 499,
+      "topic": "Österreich: Datenskandal rund um das ERsB",
+      "fineSubject": "Datenskandal",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5552,
+      "endSec": 6595,
+      "durationSec": 1043,
+      "topic": "Österreich: AMS Algorithmus",
+      "fineSubject": "Algorithmus",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Business",
+      "startSec": 6836,
+      "endSec": 7187,
+      "durationSec": 351,
+      "topic": "Finanzproblem epicenter.works",
+      "fineSubject": "epicenter.works",
+      "topicIndex": 13
+    }
+  ]
+}

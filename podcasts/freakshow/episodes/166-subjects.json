@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 166,
+  "title": "FS166 Schleifenlängenvergleich",
+  "generatedAt": "2026-01-05T15:17:51.084Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.19031543411752294,
+      "Hardware": 0.4302141576115624,
+      "Finance": 0,
+      "Media": 0.1018039877624222,
+      "Social": 0,
+      "Culture": 0.0560185673594261,
+      "Security": 0.09948306783415972,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.12216478531490664,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 1804,
+      "Hardware": 4078,
+      "Finance": 0,
+      "Media": 965,
+      "Social": 0,
+      "Culture": 531,
+      "Security": 943,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1158,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 3,
+      "Hardware": 4,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 2,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 2,
+      "Event": 0
+    },
+    "totalDurationSec": 9479,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 505,
+      "endSec": 1292,
+      "durationSec": 787,
+      "topic": "Bingo OS",
+      "fineSubject": "Operating System",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1293,
+      "endSec": 1850,
+      "durationSec": 557,
+      "topic": "32C3 und Mobilfunk",
+      "fineSubject": "Mobile Network",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1851,
+      "endSec": 4045,
+      "durationSec": 2194,
+      "topic": "iPad Pro",
+      "fineSubject": "iPad",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4045,
+      "endSec": 4578,
+      "durationSec": 533,
+      "topic": "Atom Routerboard",
+      "fineSubject": "Router",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 5233,
+      "endSec": 6017,
+      "durationSec": 784,
+      "topic": "Cloud Gaming selbstgemacht",
+      "fineSubject": "Cloud Gaming",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6018,
+      "endSec": 6812,
+      "durationSec": 794,
+      "topic": "Building a PC for Fallout 4",
+      "fineSubject": "PC Building",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 6812,
+      "endSec": 7186,
+      "durationSec": 374,
+      "topic": "Cloud Gaming Provider",
+      "fineSubject": "Cloud Gaming Provider",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 7187,
+      "endSec": 7798,
+      "durationSec": 611,
+      "topic": "Secure Messaging Scorecard",
+      "fineSubject": "Messaging",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 9036,
+      "endSec": 9368,
+      "durationSec": 332,
+      "topic": "Mail Server mit Crypto",
+      "fineSubject": "Mail Server",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 9368,
+      "endSec": 10001,
+      "durationSec": 633,
+      "topic": "WordPress.com Calypso Admin Client",
+      "fineSubject": "Web Application",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 10002,
+      "endSec": 10386,
+      "durationSec": 384,
+      "topic": "OSX: File System Thumbnails",
+      "fineSubject": "File System",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 10386,
+      "endSec": 11351,
+      "durationSec": 965,
+      "topic": "Audio Tips",
+      "fineSubject": "Tips",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Culture",
+      "startSec": 11352,
+      "endSec": 11883,
+      "durationSec": 531,
+      "topic": "10 Jahre Metaebene",
+      "fineSubject": "Anniversary",
+      "topicIndex": 14
+    }
+  ]
+}

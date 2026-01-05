@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 202,
+  "title": "LNP202 I will look into it at the time",
+  "generatedAt": "2026-01-05T15:17:57.600Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.8265451947123973,
+      "Technology": 0.1546981064665952,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.018756698821007504,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4627,
+      "Technology": 866,
+      "Law": 0,
+      "Security": 0,
+      "Social": 105,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5598,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 45,
+      "endSec": 150,
+      "durationSec": 105,
+      "topic": "Feedback: Kommentarkultur",
+      "fineSubject": "Comment Culture",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 151,
+      "endSec": 609,
+      "durationSec": 458,
+      "topic": "Feedback: US-Wahlergebnis",
+      "fineSubject": "US Elections",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 610,
+      "endSec": 1815,
+      "durationSec": 1205,
+      "topic": "Feedback: Trumps Wahlkampf",
+      "fineSubject": "Trump Campaign",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1815,
+      "endSec": 2391,
+      "durationSec": 576,
+      "topic": "Bericht über mögliche Unregelmäßigkeiten bei elektronischer Wahl",
+      "fineSubject": "Election Irregularities",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2392,
+      "endSec": 4146,
+      "durationSec": 1754,
+      "topic": "Erste Schritte auf dem Trumpelpfad",
+      "fineSubject": "Trump Path",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4146,
+      "endSec": 4537,
+      "durationSec": 391,
+      "topic": "Merkel kandidiert wieder",
+      "fineSubject": "Merkel Candidacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4537,
+      "endSec": 4780,
+      "durationSec": 243,
+      "topic": "NSA-UA darf Bundesregierung bitten, Snowden einzuladen",
+      "fineSubject": "Snowden Invitation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4781,
+      "endSec": 5238,
+      "durationSec": 457,
+      "topic": "Frustrierter PlayStation-Spieler legte Teile des Internets lahm",
+      "fineSubject": "Internet Disruption",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5239,
+      "endSec": 5309,
+      "durationSec": 70,
+      "topic": "Proxtube deinstallieren",
+      "fineSubject": "Browser Extensions",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5309,
+      "endSec": 5648,
+      "durationSec": 339,
+      "topic": ".box TLD",
+      "fineSubject": "Domain Names",
+      "topicIndex": 9
+    }
+  ]
+}

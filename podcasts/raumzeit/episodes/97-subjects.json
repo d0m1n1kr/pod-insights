@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 97,
+  "title": "RZ097 Wettersatelliten",
+  "generatedAt": "2026-01-05T15:18:06.287Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0.3510827121050763,
+      "Technology": 0.6489172878949236,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 989,
+      "Technology": 1828,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 1,
+      "Technology": 2,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 2817,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 13,
+      "endSec": 927,
+      "durationSec": 914,
+      "topic": "Entwicklung der europäischen Wettersatelliten",
+      "fineSubject": "Satelliten",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13,
+      "endSec": 927,
+      "durationSec": 914,
+      "topic": "Meteosat- und MetOp-Satelliten",
+      "fineSubject": "Wettersatelliten",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 59,
+      "endSec": 1048,
+      "durationSec": 989,
+      "topic": "Zukünftige Herausforderungen der Wetterbeobachtung",
+      "fineSubject": "Meteorologie",
+      "topicIndex": 4
+    }
+  ]
+}

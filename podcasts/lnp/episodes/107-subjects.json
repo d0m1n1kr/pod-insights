@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 107,
+  "title": "LNP107 Ohne Gummi kostet extra",
+  "generatedAt": "2026-01-05T15:17:57.589Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.28528468323977546,
+      "Technology": 0.26002405773857257,
+      "Law": 0.1834402566158781,
+      "Security": 0,
+      "Social": 0.2712510024057739,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1423,
+      "Technology": 1297,
+      "Law": 915,
+      "Security": 0,
+      "Social": 1353,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4988,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 127,
+      "endSec": 590,
+      "durationSec": 463,
+      "topic": "BGH-Urteil: Kein Auskunftsanspruch gegen Internet-Portal",
+      "fineSubject": "Internet Law",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 591,
+      "endSec": 731,
+      "durationSec": 140,
+      "topic": "VDS in Österreich ist Geschichte",
+      "fineSubject": "Austria",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 732,
+      "endSec": 2085,
+      "durationSec": 1353,
+      "topic": "Facebook-Studie",
+      "fineSubject": "Facebook",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2085,
+      "endSec": 2811,
+      "durationSec": 726,
+      "topic": "O2-Drossel",
+      "fineSubject": "Data Throttling",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2811,
+      "endSec": 3640,
+      "durationSec": 829,
+      "topic": "NSA-Ausschuss",
+      "fineSubject": "NSA",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3641,
+      "endSec": 4212,
+      "durationSec": 571,
+      "topic": "De-Mail City Dresden",
+      "fineSubject": "E-Government",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4213,
+      "endSec": 4667,
+      "durationSec": 454,
+      "topic": "Bundestag und Verizon",
+      "fineSubject": "Verizon",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4668,
+      "endSec": 5120,
+      "durationSec": 452,
+      "topic": "Klagen von CCC und EFF",
+      "fineSubject": "Civil Society",
+      "topicIndex": 7
+    }
+  ]
+}

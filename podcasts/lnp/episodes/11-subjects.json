@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 11,
+  "title": "LNP011 Popcorn-Potential",
+  "generatedAt": "2026-01-05T15:17:57.572Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.12845303867403315,
+      "Technology": 0.7746316758747698,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.09691528545119706,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 558,
+      "Technology": 3365,
+      "Law": 0,
+      "Security": 0,
+      "Social": 421,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4344,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 58,
+      "endSec": 2185,
+      "durationSec": 2127,
+      "topic": "Funkzellenüberwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2185,
+      "endSec": 2743,
+      "durationSec": 558,
+      "topic": "SOPA-Blackout",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2744,
+      "endSec": 3165,
+      "durationSec": 421,
+      "topic": "Neonazi-Zentraldatei",
+      "fineSubject": "Extremism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3165,
+      "endSec": 4403,
+      "durationSec": 1238,
+      "topic": "Megaupload",
+      "fineSubject": "File Sharing",
+      "topicIndex": 3
+    }
+  ]
+}

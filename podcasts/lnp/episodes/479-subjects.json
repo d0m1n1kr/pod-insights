@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 479,
+  "title": "LNP479 Prokrastination ist Fortschritt",
+  "generatedAt": "2026-01-05T15:17:57.639Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.11509776254787342,
+      "Technology": 0.2822011691191292,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.0705502922797823,
+      "Media": 0,
+      "Health": 0.07337230397097359,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.4378149566619633,
+      "Privacy": 0,
+      "Culture": 0.02096351542027817
+    },
+    "durations": {
+      "Politics": 571,
+      "Technology": 1400,
+      "Law": 0,
+      "Security": 0,
+      "Social": 350,
+      "Media": 0,
+      "Health": 364,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2172,
+      "Privacy": 0,
+      "Culture": 104
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4961,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 35,
+      "endSec": 385,
+      "durationSec": 350,
+      "topic": "Prolog",
+      "fineSubject": "Prokrastination",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 385,
+      "endSec": 717,
+      "durationSec": 332,
+      "topic": "Feedback: 2038",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 717,
+      "endSec": 993,
+      "durationSec": 276,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 994,
+      "endSec": 1891,
+      "durationSec": 897,
+      "topic": "Push Notifications",
+      "fineSubject": "Push Notifications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 1891,
+      "endSec": 3511,
+      "durationSec": 1620,
+      "topic": "Google Kartell",
+      "fineSubject": "Google Kartell",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3512,
+      "endSec": 3807,
+      "durationSec": 295,
+      "topic": "AI Act",
+      "fineSubject": "AI Act",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3807,
+      "endSec": 4171,
+      "durationSec": 364,
+      "topic": "e-Rezept und Patientenakte",
+      "fineSubject": "e-Rezept",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 4172,
+      "endSec": 4724,
+      "durationSec": 552,
+      "topic": "Binance",
+      "fineSubject": "Binance",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4725,
+      "endSec": 4829,
+      "durationSec": 104,
+      "topic": "Woke Grok",
+      "fineSubject": "Woke Grok",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4830,
+      "endSec": 5001,
+      "durationSec": 171,
+      "topic": "ChatGPT liest BILD",
+      "fineSubject": "ChatGPT",
+      "topicIndex": 9
+    }
+  ]
+}

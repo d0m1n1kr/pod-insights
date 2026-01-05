@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 1,
+  "title": "UKW001 Schalke ist durchgeimpft",
+  "generatedAt": "2026-01-05T15:18:02.995Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.1654729562855026,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0.47616695480365523,
+      "Miscellaneous": 0,
+      "Society": 0.3583600889108422,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 670,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 1928,
+      "Miscellaneous": 0,
+      "Society": 1451,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 4,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 4049,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 219,
+      "endSec": 479,
+      "durationSec": 260,
+      "topic": "Methodisch Inkorrekt",
+      "fineSubject": "Content / Methodology",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 479,
+      "endSec": 675,
+      "durationSec": 196,
+      "topic": "UKW in der Zukunft",
+      "fineSubject": "Future / Trends",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 676,
+      "endSec": 1346,
+      "durationSec": 670,
+      "topic": "Lampenfieber und Rollenverständnis",
+      "fineSubject": "Anxiety / Roles",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1347,
+      "endSec": 2142,
+      "durationSec": 795,
+      "topic": "Wenn Podcasts Leben retten",
+      "fineSubject": "Impact / Health",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Society",
+      "startSec": 3492,
+      "endSec": 4943,
+      "durationSec": 1451,
+      "topic": "Der Zustand der Welt",
+      "fineSubject": "Condition / World",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 4943,
+      "endSec": 5620,
+      "durationSec": 677,
+      "topic": "Abschließende Fragen",
+      "fineSubject": "Discussion / Questions",
+      "topicIndex": 6
+    }
+  ]
+}

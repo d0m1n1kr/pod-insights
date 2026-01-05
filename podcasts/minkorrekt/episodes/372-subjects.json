@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 372,
+  "title": "Mi372 – \"Moosgraffiti\"",
+  "generatedAt": "2026-01-05T15:18:17.396Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.7244188356844824,
+      "Culture": 0.08861514007550168,
+      "Wissenschaft": 0,
+      "Health": 0.1869660242400159,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3646,
+      "Culture": 446,
+      "Wissenschaft": 0,
+      "Health": 941,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5033,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 1114,
+      "endSec": 2055,
+      "durationSec": 941,
+      "topic": "PubMed Abhängigkeit",
+      "fineSubject": "Addiction",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2055,
+      "endSec": 3587,
+      "durationSec": 1532,
+      "topic": "Thema 1: \"Space Moss: Resistance was not futile\"",
+      "fineSubject": "Biology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3587,
+      "endSec": 4143,
+      "durationSec": 556,
+      "topic": "Science Snack",
+      "fineSubject": "Quick Facts",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4143,
+      "endSec": 5701,
+      "durationSec": 1558,
+      "topic": "Thema 2: \"The big five\"",
+      "fineSubject": "Ecology",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5701,
+      "endSec": 6147,
+      "durationSec": 446,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 5
+    }
+  ]
+}

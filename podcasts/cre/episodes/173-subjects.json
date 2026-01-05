@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 173,
+  "title": "CRE173 Rollenspiele",
+  "generatedAt": "2026-01-05T15:17:54.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.3333333333333333,
+      "Social": 0.3333333333333333,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.3333333333333333,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 1,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 22
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rollenspiele und Nerds",
+      "fineSubject": "Nerd Culture",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Die Nervosität der Geheimdienste",
+      "fineSubject": "Surveillance",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Multimediale Begleitung von Rollenspiel-Sessions",
+      "fineSubject": "Multimedia",
+      "topicIndex": 19,
+      "untimed": true
+    }
+  ]
+}

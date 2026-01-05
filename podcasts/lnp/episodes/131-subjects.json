@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 131,
+  "title": "LNP131 Internet der kurzen Wege",
+  "generatedAt": "2026-01-05T15:17:57.592Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.46893617021276596,
+      "Technology": 0.531063829787234,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1102,
+      "Technology": 1248,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2350,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1010,
+      "endSec": 1373,
+      "durationSec": 363,
+      "topic": "TTIP Nachtrag",
+      "fineSubject": "Trade Agreements",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1373,
+      "endSec": 2151,
+      "durationSec": 778,
+      "topic": "FCC stimmt bald über Net Neutrality ab",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2152,
+      "endSec": 2622,
+      "durationSec": 470,
+      "topic": "Telekom erhöht Kapazitäten am DE-CIX",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2622,
+      "endSec": 3361,
+      "durationSec": 739,
+      "topic": "BND-Initiative gegen Aufklärer?",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    }
+  ]
+}

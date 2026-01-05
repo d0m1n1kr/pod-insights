@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 197,
+  "title": "FS197 Trucker’s Hitch",
+  "generatedAt": "2026-01-05T15:17:51.091Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.13209512237458776,
+      "Software": 0,
+      "Hardware": 0.3728519354278771,
+      "Finance": 0.42787710466932827,
+      "Media": 0.06717583752820691,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 761,
+      "Software": 0,
+      "Hardware": 2148,
+      "Finance": 2465,
+      "Media": 387,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 0,
+      "Hardware": 3,
+      "Finance": 3,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 5761,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 6321,
+      "endSec": 7498,
+      "durationSec": 1177,
+      "topic": "Pimp My Mac: SSD",
+      "fineSubject": "Mac",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7498,
+      "endSec": 8232,
+      "durationSec": 734,
+      "topic": "Pimp My Mac: Xserve G5 Netzteil",
+      "fineSubject": "Xserve G5",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8233,
+      "endSec": 8470,
+      "durationSec": 237,
+      "topic": "Pimp My Mac: Northbridge",
+      "fineSubject": "Northbridge",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8470,
+      "endSec": 9879,
+      "durationSec": 1409,
+      "topic": "Bitcoin Update",
+      "fineSubject": "Bitcoin Update",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9880,
+      "endSec": 10705,
+      "durationSec": 825,
+      "topic": "Bitcoin-Kurse ermitteln",
+      "fineSubject": "Bitcoin Prices",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10706,
+      "endSec": 10937,
+      "durationSec": 231,
+      "topic": "Bitcoin Core",
+      "fineSubject": "Bitcoin Core",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10938,
+      "endSec": 11012,
+      "durationSec": 74,
+      "topic": "Flash",
+      "fineSubject": "Flash",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 11012,
+      "endSec": 11232,
+      "durationSec": 220,
+      "topic": "Alte Filme",
+      "fineSubject": "Old Movies",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 11233,
+      "endSec": 11400,
+      "durationSec": 167,
+      "topic": "The Economist",
+      "fineSubject": "The Economist",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11962,
+      "endSec": 12260,
+      "durationSec": 298,
+      "topic": "Building an 8-bit breadboard computer",
+      "fineSubject": "8-bit Computer",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12261,
+      "endSec": 12650,
+      "durationSec": 389,
+      "topic": "iPhone wiederfinden",
+      "fineSubject": "iPhone",
+      "topicIndex": 17
+    }
+  ]
+}

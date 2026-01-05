@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 29,
+  "title": "UKW029 Corona Weekly: Neuer Fall nur Gestern",
+  "generatedAt": "2026-01-05T15:18:03.004Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.6736572118286059,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.2475859987929994,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0.07875678937839468,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 4465,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1641,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 522,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 6,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 2,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 1,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6628,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 186,
+      "endSec": 749,
+      "durationSec": 563,
+      "topic": "Internationale Corona-Situation",
+      "fineSubject": "Pandemic",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 750,
+      "endSec": 1336,
+      "durationSec": 586,
+      "topic": "Antikörpertests und Virusmutationen",
+      "fineSubject": "Testing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1336,
+      "endSec": 2096,
+      "durationSec": 760,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Country Situation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2097,
+      "endSec": 2525,
+      "durationSec": 428,
+      "topic": "Risiko-Tabelle nach Ländern und Kreisen",
+      "fineSubject": "Statistics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2525,
+      "endSec": 3434,
+      "durationSec": 909,
+      "topic": "Meldeverzögerungen in Hamburg",
+      "fineSubject": "Reporting",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3434,
+      "endSec": 4653,
+      "durationSec": 1219,
+      "topic": "Lockerungen und Veranstaltungen",
+      "fineSubject": "Regulations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4654,
+      "endSec": 5869,
+      "durationSec": 1215,
+      "topic": "Corona Warn App",
+      "fineSubject": "Mobile Apps",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5869,
+      "endSec": 6295,
+      "durationSec": 426,
+      "topic": "Internationales App Release",
+      "fineSubject": "App Development",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 6296,
+      "endSec": 6818,
+      "durationSec": 522,
+      "topic": "Vertrauensfragen",
+      "fineSubject": "Trust",
+      "topicIndex": 8
+    }
+  ]
+}

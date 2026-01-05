@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 401,
+  "title": "LNP401 Gespaltenes Verhältnis zu Sonderzeichen",
+  "generatedAt": "2026-01-05T15:17:57.628Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.050870147255689425,
+      "Technology": 0.535475234270415,
+      "Law": 0,
+      "Security": 0.1898705934850513,
+      "Social": 0,
+      "Media": 0.22378402498884425,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 228,
+      "Technology": 2400,
+      "Law": 0,
+      "Security": 851,
+      "Social": 0,
+      "Media": 1003,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4482,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 186,
+      "endSec": 1189,
+      "durationSec": 1003,
+      "topic": "Filmpremiere: Alles ist eins",
+      "fineSubject": "Film",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1190,
+      "endSec": 3107,
+      "durationSec": 1917,
+      "topic": "NSO Pegasus",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 4568,
+      "endSec": 5419,
+      "durationSec": 851,
+      "topic": "Impfzertifikate-Apotheken-Hack",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5419,
+      "endSec": 5902,
+      "durationSec": 483,
+      "topic": "Lucafails",
+      "fineSubject": "Apps",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5903,
+      "endSec": 6131,
+      "durationSec": 228,
+      "topic": "10 Jahre Frag den Staat",
+      "fineSubject": "Transparency",
+      "topicIndex": 5
+    }
+  ]
+}

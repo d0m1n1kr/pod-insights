@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 107,
+  "title": "UKW107 Ukraine: Winter is coming",
+  "generatedAt": "2026-01-05T15:18:03.028Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 1,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 9362,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 13,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9362,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 94,
+      "endSec": 617,
+      "durationSec": 523,
+      "topic": "Nachtrag Krimbrücke",
+      "fineSubject": "Geopolitics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 618,
+      "endSec": 3020,
+      "durationSec": 2402,
+      "topic": "Befreiung von Cherson",
+      "fineSubject": "Military Operations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3021,
+      "endSec": 3693,
+      "durationSec": 672,
+      "topic": "Lohansk-Offensive",
+      "fineSubject": "Military Operations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3694,
+      "endSec": 4322,
+      "durationSec": 628,
+      "topic": "Donetsk und Zaporischschja",
+      "fineSubject": "Military Operations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4322,
+      "endSec": 5241,
+      "durationSec": 919,
+      "topic": "Lügen zerstören Armeen",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5241,
+      "endSec": 5690,
+      "durationSec": 449,
+      "topic": "Winterkampf",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5690,
+      "endSec": 6389,
+      "durationSec": 699,
+      "topic": "Mobilisierung und Kräftegenerierung",
+      "fineSubject": "Military Operations",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6389,
+      "endSec": 7237,
+      "durationSec": 848,
+      "topic": "Weitere Unterstützung für die Ukraine",
+      "fineSubject": "International Support",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7238,
+      "endSec": 8612,
+      "durationSec": 1374,
+      "topic": "Die 4. Phase",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8612,
+      "endSec": 8802,
+      "durationSec": 190,
+      "topic": "Nuklearthema ist durch",
+      "fineSubject": "Nuclear Issues",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8803,
+      "endSec": 8921,
+      "durationSec": 118,
+      "topic": "Nord Stream",
+      "fineSubject": "Energy Security",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8921,
+      "endSec": 9114,
+      "durationSec": 193,
+      "topic": "Belarus",
+      "fineSubject": "Geopolitics",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9115,
+      "endSec": 9462,
+      "durationSec": 347,
+      "topic": "Raketen auf Polen",
+      "fineSubject": "Military Incidents",
+      "topicIndex": 12
+    }
+  ]
+}

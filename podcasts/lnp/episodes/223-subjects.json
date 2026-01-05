@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 223,
+  "title": "LNP223 Was damals Unrecht war, muss heute Recht sein",
+  "generatedAt": "2026-01-05T15:17:57.603Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9525166191832859,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.04748338081671415,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5015,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 250,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5265,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 34,
+      "endSec": 3334,
+      "durationSec": 3300,
+      "topic": "Anhörung im Rechtsausschuss zu Staatstrojaner",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3334,
+      "endSec": 4707,
+      "durationSec": 1373,
+      "topic": "Anhörung: Strategie der Stellungnahme",
+      "fineSubject": "Public Statements",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4708,
+      "endSec": 5050,
+      "durationSec": 342,
+      "topic": "Anhörung: Situation der SPD",
+      "fineSubject": "Political Parties",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 5050,
+      "endSec": 5300,
+      "durationSec": 250,
+      "topic": "StreamOn: Thomas auf der Telekom Hauptversammlung",
+      "fineSubject": "Corporate Events",
+      "topicIndex": 3
+    }
+  ]
+}

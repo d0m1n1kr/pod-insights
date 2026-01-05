@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 268,
+  "title": "FS268 /dev/stdnrd",
+  "generatedAt": "2026-01-05T15:17:51.114Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.35994107011317217,
+      "Software": 0.10259157570481484,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.06870689077881202,
+      "Social": 0.08779213821737092,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.20263845175115516,
+      "Business": 0,
+      "Gaming": 0.17832987343467488,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5375,
+      "Software": 1532,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1026,
+      "Social": 1311,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 3026,
+      "Business": 0,
+      "Gaming": 2663,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 14933,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 173,
+      "endSec": 926,
+      "durationSec": 753,
+      "topic": "Gitarrenmusik",
+      "fineSubject": "Guitar",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Events",
+      "startSec": 927,
+      "endSec": 1918,
+      "durationSec": 991,
+      "topic": "Konzerte besuchen",
+      "fineSubject": "Concerts",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1918,
+      "endSec": 2458,
+      "durationSec": 540,
+      "topic": "LoRaWAN",
+      "fineSubject": "LoRaWAN",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 2458,
+      "endSec": 2859,
+      "durationSec": 401,
+      "topic": "Elixir",
+      "fineSubject": "Elixir",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Events",
+      "startSec": 2860,
+      "endSec": 4895,
+      "durationSec": 2035,
+      "topic": "Camp 2023",
+      "fineSubject": "Camp",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4895,
+      "endSec": 7114,
+      "durationSec": 2219,
+      "topic": "Blinkenlights Polychrome",
+      "fineSubject": "Blinkenlights",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 7115,
+      "endSec": 8426,
+      "durationSec": 1311,
+      "topic": "Mastodon",
+      "fineSubject": "Mastodon",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 8426,
+      "endSec": 9557,
+      "durationSec": 1131,
+      "topic": "Programmieren mit ChatGPT4",
+      "fineSubject": "ChatGPT",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 9558,
+      "endSec": 12221,
+      "durationSec": 2663,
+      "topic": "Starfield und xbox Cloud Gaming",
+      "fineSubject": "Starfield",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12221,
+      "endSec": 13405,
+      "durationSec": 1184,
+      "topic": "Synology Erfahrungen",
+      "fineSubject": "Synology",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14586,
+      "endSec": 16018,
+      "durationSec": 1432,
+      "topic": "Solarupdate von Roddi",
+      "fineSubject": "Solar",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 16746,
+      "endSec": 17019,
+      "durationSec": 273,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Track",
+      "topicIndex": 13
+    }
+  ]
+}

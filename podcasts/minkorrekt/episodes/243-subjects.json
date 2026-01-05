@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 243,
+  "title": "Mi243 – „Wild wars!“",
+  "generatedAt": "2026-01-05T15:18:17.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.1318595578673602,
+      "Culture": 0.7778933680104031,
+      "Wissenschaft": 0,
+      "Health": 0.09024707412223668,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 507,
+      "Culture": 2991,
+      "Wissenschaft": 0,
+      "Health": 347,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 3845,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 742,
+      "endSec": 925,
+      "durationSec": 183,
+      "topic": "Ausschreibung H2Giga",
+      "fineSubject": "Energy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 925,
+      "endSec": 1272,
+      "durationSec": 347,
+      "topic": "Reini hat Corona",
+      "fineSubject": "Infectious Diseases",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2846,
+      "endSec": 4183,
+      "durationSec": 1337,
+      "topic": "Thema 1: “Der Terminator bringt Leben”",
+      "fineSubject": "Movies",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4183,
+      "endSec": 4507,
+      "durationSec": 324,
+      "topic": "Snackable Science: Die teuersten Elemente",
+      "fineSubject": "Chemistry",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4507,
+      "endSec": 6161,
+      "durationSec": 1654,
+      "topic": "Thema 2: \"To to to toooooooot!\"",
+      "fineSubject": "Music",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 6161,
+      "endSec": 6161,
+      "durationSec": 0,
+      "topic": "Schwurbel: EM-Keramik",
+      "fineSubject": "Materials",
+      "topicIndex": 7
+    }
+  ]
+}

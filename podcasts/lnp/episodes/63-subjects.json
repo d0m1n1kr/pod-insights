@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 63,
+  "title": "LNP063 Here You Are All Equally Worthless",
+  "generatedAt": "2026-01-05T15:17:57.581Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.21624629080118693,
+      "Technology": 0.2997032640949555,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.06342729970326409,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.4206231454005935,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 583,
+      "Technology": 808,
+      "Law": 0,
+      "Security": 0,
+      "Social": 171,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1134,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2696,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 269,
+      "endSec": 852,
+      "durationSec": 583,
+      "topic": "BKA kauft FinFisher",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 852,
+      "endSec": 1986,
+      "durationSec": 1134,
+      "topic": "Die Telekom will es wissen",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1987,
+      "endSec": 2795,
+      "durationSec": 808,
+      "topic": "Online-Programm zum Offline-Gehen",
+      "fineSubject": "Digital Detox",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2795,
+      "endSec": 2966,
+      "durationSec": 171,
+      "topic": "Datenschutzkampagne",
+      "fineSubject": "Privacy",
+      "topicIndex": 3
+    }
+  ]
+}

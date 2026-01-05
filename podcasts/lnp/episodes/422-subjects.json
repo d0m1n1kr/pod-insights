@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 422,
+  "title": "LNP422 Bundesverdienstcoin",
+  "generatedAt": "2026-01-05T15:17:57.631Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.8449638473179755,
+      "Law": 0,
+      "Security": 0.04758701866487305,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.1074491340171515,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 5025,
+      "Law": 0,
+      "Security": 283,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 639,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 6,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5947,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 108,
+      "endSec": 328,
+      "durationSec": 220,
+      "topic": "kantorkel",
+      "fineSubject": "Miscellaneous",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 328,
+      "endSec": 459,
+      "durationSec": 131,
+      "topic": "HTTP Status Code 422",
+      "fineSubject": "HTTP",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 1145,
+      "endSec": 1421,
+      "durationSec": 276,
+      "topic": "Feedback: Der Wert von Gold",
+      "fineSubject": "Gold",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1422,
+      "endSec": 1790,
+      "durationSec": 368,
+      "topic": "Feedback: Blockchain-Zentralisierung",
+      "fineSubject": "Blockchain",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1791,
+      "endSec": 2068,
+      "durationSec": 277,
+      "topic": "Feedback: Blockchain in Projektvergabe",
+      "fineSubject": "Blockchain",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2069,
+      "endSec": 2352,
+      "durationSec": 283,
+      "topic": "Feedback: Kryptogeld und Ransomware",
+      "fineSubject": "Ransomware",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 2352,
+      "endSec": 2715,
+      "durationSec": 363,
+      "topic": "Feedback: NFTs und das Kryptogeldproblem",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2716,
+      "endSec": 6211,
+      "durationSec": 3495,
+      "topic": "6.4 Mio Datensätze in 50 Leaks",
+      "fineSubject": "Leaks",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6212,
+      "endSec": 6746,
+      "durationSec": 534,
+      "topic": "Clearview AI",
+      "fineSubject": "AI",
+      "topicIndex": 9
+    }
+  ]
+}

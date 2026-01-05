@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 339,
+  "title": "LNP339 Die Fantasie kennt keine Grenzen beim Setzen von Grenzen",
+  "generatedAt": "2026-01-05T15:17:57.619Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.08722986247544204,
+      "Technology": 0.33104125736738704,
+      "Law": 0.07328094302554028,
+      "Security": 0,
+      "Social": 0.13732809430255402,
+      "Media": 0,
+      "Health": 0.26129666011787817,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.10982318271119842,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 444,
+      "Technology": 1685,
+      "Law": 373,
+      "Security": 0,
+      "Social": 699,
+      "Media": 0,
+      "Health": 1330,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 559,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 4,
+      "Law": 1,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 3,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5090,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 294,
+      "endSec": 853,
+      "durationSec": 559,
+      "topic": "Feedback: Wirtschaft und Corona",
+      "fineSubject": "Pandemic Impact",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 853,
+      "endSec": 1107,
+      "durationSec": 254,
+      "topic": "Strategiepapier Innenministerium",
+      "fineSubject": "Government Strategy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1108,
+      "endSec": 1481,
+      "durationSec": 373,
+      "topic": "Corona-Polizeilisten",
+      "fineSubject": "Pandemic Measures",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 1482,
+      "endSec": 1973,
+      "durationSec": 491,
+      "topic": "Grundrechte in Krisenzeiten",
+      "fineSubject": "Crisis Management",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1973,
+      "endSec": 2371,
+      "durationSec": 398,
+      "topic": "Contact Tracing: Epidemiologischer Sinn oder Unsinn",
+      "fineSubject": "Epidemiology",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2372,
+      "endSec": 2619,
+      "durationSec": 247,
+      "topic": "Contact Tracing: Allgemeine Lage",
+      "fineSubject": "Epidemiology",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 2619,
+      "endSec": 2827,
+      "durationSec": 208,
+      "topic": "Contact Tracing: Gesellschaftliche Wirkung",
+      "fineSubject": "Public Health",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2828,
+      "endSec": 4007,
+      "durationSec": 1179,
+      "topic": "Contact Tracing: Technische Details",
+      "fineSubject": "Health Tech",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4008,
+      "endSec": 4070,
+      "durationSec": 62,
+      "topic": "Contact Tracing: Palantir",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4071,
+      "endSec": 4756,
+      "durationSec": 685,
+      "topic": "Contact Tracing: Projekte und Proposals",
+      "fineSubject": "Public Health Initiatives",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4756,
+      "endSec": 4900,
+      "durationSec": 144,
+      "topic": "Quarantänen-App in Polen",
+      "fineSubject": "Health Apps",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4900,
+      "endSec": 5200,
+      "durationSec": 300,
+      "topic": "Zoom karp0tt",
+      "fineSubject": "Communication Tools",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5789,
+      "endSec": 5979,
+      "durationSec": 190,
+      "topic": "EU-Parlament wählt jetzt per E-Mail",
+      "fineSubject": "E-Governance",
+      "topicIndex": 13
+    }
+  ]
+}

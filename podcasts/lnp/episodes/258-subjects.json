@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 258,
+  "title": "LNP258 Zarte Gefühle für Angela Merkel",
+  "generatedAt": "2026-01-05T15:17:57.608Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.03623611922852133,
+      "Technology": 0,
+      "Law": 0.3976232222871615,
+      "Security": 0.24196376388077148,
+      "Social": 0.1371517631015001,
+      "Media": 0.10559127216052991,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.08143385934151569,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 186,
+      "Technology": 0,
+      "Law": 2041,
+      "Security": 1242,
+      "Social": 704,
+      "Media": 542,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 418,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 1,
+      "Social": 2,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5133,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 250,
+      "endSec": 792,
+      "durationSec": 542,
+      "topic": "LNP256 Review 2. Teil",
+      "fineSubject": "Podcast / Episode Analysis",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 793,
+      "endSec": 979,
+      "durationSec": 186,
+      "topic": "Meinhard Starostik",
+      "fineSubject": "Politics / Angela Merkel",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 979,
+      "endSec": 2221,
+      "durationSec": 1242,
+      "topic": "Hessentrojaner",
+      "fineSubject": "Security / Malware",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2221,
+      "endSec": 2549,
+      "durationSec": 328,
+      "topic": "Amnesty beklagt Trojaner-Angriffe auf Aktivisten",
+      "fineSubject": "Security / Cyber Attacks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2550,
+      "endSec": 2981,
+      "durationSec": 431,
+      "topic": "EU: E-Evidence! Zugriff auf Online-Kommunikation",
+      "fineSubject": "Privacy / Online Communication",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 2982,
+      "endSec": 3400,
+      "durationSec": 418,
+      "topic": "Google, Amazon und das Militär",
+      "fineSubject": "Technology / Military",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 3400,
+      "endSec": 3776,
+      "durationSec": 376,
+      "topic": "Wem Facebook alles Daten gibt",
+      "fineSubject": "Social / Social Media",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3777,
+      "endSec": 4367,
+      "durationSec": 590,
+      "topic": "Polizeigesetz NRW",
+      "fineSubject": "Security / Police Laws",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 4367,
+      "endSec": 5387,
+      "durationSec": 1020,
+      "topic": "WhatsApp: Bundesjustizministerin fordert Offenlegung der Schnittstellen",
+      "fineSubject": "Technology / Communication",
+      "topicIndex": 8
+    }
+  ]
+}

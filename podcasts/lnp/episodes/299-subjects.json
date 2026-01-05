@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 299,
+  "title": "LNP299 Volksentscheid Transparenzgesetz",
+  "generatedAt": "2026-01-05T15:17:57.613Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3175,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3175,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 145,
+      "endSec": 261,
+      "durationSec": 116,
+      "topic": "FragDenStaat und Co.",
+      "fineSubject": "Transparency Initiatives",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 261,
+      "endSec": 1307,
+      "durationSec": 1046,
+      "topic": "Informationsfreiheitsgesetze",
+      "fineSubject": "Freedom of Information",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1308,
+      "endSec": 1987,
+      "durationSec": 679,
+      "topic": "Transparenzgesetz für Berlin",
+      "fineSubject": "Legislation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1987,
+      "endSec": 2688,
+      "durationSec": 701,
+      "topic": "Der Volksentscheid",
+      "fineSubject": "Referendums",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2689,
+      "endSec": 3322,
+      "durationSec": 633,
+      "topic": "Was noch zu tun ist",
+      "fineSubject": "Future Actions",
+      "topicIndex": 4
+    }
+  ]
+}

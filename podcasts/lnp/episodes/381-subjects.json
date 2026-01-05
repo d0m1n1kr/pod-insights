@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 381,
+  "title": "LNP381 Das merken die nie",
+  "generatedAt": "2026-01-05T15:17:57.626Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.26386170906718853,
+      "Security": 0.46705805609915196,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.2126549249836921,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.05642530984996738,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 809,
+      "Security": 1432,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 652,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 173,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 4,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3066,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 480,
+      "endSec": 534,
+      "durationSec": 54,
+      "topic": "Feedback: SMS-Länge",
+      "fineSubject": "SMS",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 534,
+      "endSec": 653,
+      "durationSec": 119,
+      "topic": "Feedback: Uploadfilter als Zensur",
+      "fineSubject": "Zensur",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 653,
+      "endSec": 839,
+      "durationSec": 186,
+      "topic": "Feedback: Linux in der Verwaltung",
+      "fineSubject": "Linux",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 840,
+      "endSec": 1133,
+      "durationSec": 293,
+      "topic": "Feedback: Digitale Bildung",
+      "fineSubject": "Bildung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 1134,
+      "endSec": 2566,
+      "durationSec": 1432,
+      "topic": "Emotet-Hackback",
+      "fineSubject": "Hacking",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3718,
+      "endSec": 4407,
+      "durationSec": 689,
+      "topic": "Bestandsdatenauskunft",
+      "fineSubject": "Datenauskunft",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4407,
+      "endSec": 4580,
+      "durationSec": 173,
+      "topic": "Massenüberwachung des BND muss vor EGMR",
+      "fineSubject": "BND",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 4580,
+      "endSec": 4700,
+      "durationSec": 120,
+      "topic": "Schwächung der ePrivacy-Richtlinie",
+      "fineSubject": "ePrivacy",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 133,
+  "title": "DU133 - 5 Jahre “Das Universum” und ein Blick auf die Raumsonden und Teleskope der Zukunft",
+  "generatedAt": "2026-01-05T15:18:22.111Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 1,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 1189,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 2,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 1189,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": 0,
+      "endSec": 38,
+      "durationSec": 38,
+      "topic": "Zukünftige Raumsonden zur Venus",
+      "fineSubject": "Venus Missions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Space",
+      "startSec": 0,
+      "endSec": 1151,
+      "durationSec": 1151,
+      "topic": "Neue Teleskope und deren Entwicklungen",
+      "fineSubject": "Telescopes",
+      "topicIndex": 1
+    }
+  ]
+}

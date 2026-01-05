@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 296,
+  "title": "Mi296 – \"Dart Endgame\"",
+  "generatedAt": "2026-01-05T15:18:17.384Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 6336,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 7,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6336,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 543,
+      "endSec": 595,
+      "durationSec": 52,
+      "topic": "Pint of Science",
+      "fineSubject": "Public Engagement",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 595,
+      "endSec": 915,
+      "durationSec": 320,
+      "topic": "Klima-Ringvorlesung",
+      "fineSubject": "Climate",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 915,
+      "endSec": 2514,
+      "durationSec": 1599,
+      "topic": "AI in der Materialwissenschaft",
+      "fineSubject": "Material Science",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2514,
+      "endSec": 3946,
+      "durationSec": 1432,
+      "topic": "Thema 1: “Triple garnix”",
+      "fineSubject": "Research",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3946,
+      "endSec": 4748,
+      "durationSec": 802,
+      "topic": "Snackable Science",
+      "fineSubject": "Communication",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4748,
+      "endSec": 6528,
+      "durationSec": 1780,
+      "topic": "Thema 2: \"Der illegale Zahn der Zeit\"",
+      "fineSubject": "Philosophy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 6528,
+      "endSec": 6879,
+      "durationSec": 351,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Critique",
+      "topicIndex": 6
+    }
+  ]
+}

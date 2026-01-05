@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 7,
+  "title": "LNP007 Politisches CARE-Paket",
+  "generatedAt": "2026-01-05T15:17:57.572Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9182338511856092,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.024529844644317254,
+      "Media": 0.05723630417007359,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3369,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 90,
+      "Media": 210,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3669,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 119,
+      "endSec": 404,
+      "durationSec": 285,
+      "topic": "Hermes-Bürgschaften für Überwachungstechnologie",
+      "fineSubject": "Surveillance Technology",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 405,
+      "endSec": 495,
+      "durationSec": 90,
+      "topic": "Facebook-Datenpanne",
+      "fineSubject": "Data Breach",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 495,
+      "endSec": 705,
+      "durationSec": 210,
+      "topic": "Sonnenallee auf YouTube",
+      "fineSubject": "YouTube",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 705,
+      "endSec": 963,
+      "durationSec": 258,
+      "topic": "ACTA und das niederländische Parlament",
+      "fineSubject": "Copyright Legislation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 964,
+      "endSec": 2151,
+      "durationSec": 1187,
+      "topic": "Netzpolitische Ergebnisse des SPD-Parteitags",
+      "fineSubject": "Party Conference",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2152,
+      "endSec": 2217,
+      "durationSec": 65,
+      "topic": "Aktionstag zur Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2217,
+      "endSec": 3791,
+      "durationSec": 1574,
+      "topic": "Das Guttenberg-EU-\"Comeback\"",
+      "fineSubject": "Political Comeback",
+      "topicIndex": 6
+    }
+  ]
+}

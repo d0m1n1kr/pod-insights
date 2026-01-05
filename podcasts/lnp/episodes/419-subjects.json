@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 419,
+  "title": "LNP419 Und ähnlich verschworene Gemeinschaften",
+  "generatedAt": "2026-01-05T15:17:57.630Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6068569439610163,
+      "Technology": 0.07309432648799165,
+      "Law": 0.08249216846501914,
+      "Security": 0,
+      "Social": 0.13069961712495648,
+      "Media": 0,
+      "Health": 0.10685694396101636,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3487,
+      "Technology": 420,
+      "Law": 474,
+      "Security": 0,
+      "Social": 751,
+      "Media": 0,
+      "Health": 614,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 2,
+      "Security": 0,
+      "Social": 5,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5746,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 213,
+      "endSec": 327,
+      "durationSec": 114,
+      "topic": "Feedback: Polizei-Abfragen vergessen",
+      "fineSubject": "Law Enforcement",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 327,
+      "endSec": 382,
+      "durationSec": 55,
+      "topic": "Feedback: Luca-Domino",
+      "fineSubject": "Health",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 383,
+      "endSec": 589,
+      "durationSec": 206,
+      "topic": "Feedback: Impfstatus",
+      "fineSubject": "Health",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 589,
+      "endSec": 700,
+      "durationSec": 111,
+      "topic": "Feedback: §269",
+      "fineSubject": "Law",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 701,
+      "endSec": 845,
+      "durationSec": 144,
+      "topic": "Feedback: yt-dlp",
+      "fineSubject": "Software",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1885,
+      "endSec": 4081,
+      "durationSec": 2196,
+      "topic": "Bundesservice Telekommunikation Teil 2",
+      "fineSubject": "Telecommunication",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4082,
+      "endSec": 5373,
+      "durationSec": 1291,
+      "topic": "Digitalisierung des Staates",
+      "fineSubject": "Digitalization",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 5373,
+      "endSec": 5987,
+      "durationSec": 614,
+      "topic": "Impfzertifikate",
+      "fineSubject": "Certification",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 5988,
+      "endSec": 6044,
+      "durationSec": 56,
+      "topic": "Assange darf in Berufung gehen",
+      "fineSubject": "Human Rights",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 6044,
+      "endSec": 6309,
+      "durationSec": 265,
+      "topic": "Facebook-Klarnamenpflicht fällt vor BGH",
+      "fineSubject": "Social Media",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6309,
+      "endSec": 6476,
+      "durationSec": 167,
+      "topic": "Anom-Daten in Deutschland verwertbar",
+      "fineSubject": "Privacy",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6477,
+      "endSec": 6586,
+      "durationSec": 109,
+      "topic": "Telegram wird vorerst nicht abgeschaltet",
+      "fineSubject": "Messaging",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Law",
+      "startSec": 6587,
+      "endSec": 7005,
+      "durationSec": 418,
+      "topic": "Adblocker verstoßen nicht gegen Urheberrecht",
+      "fineSubject": "Copyright",
+      "topicIndex": 12
+    }
+  ]
+}

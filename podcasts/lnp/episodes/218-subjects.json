@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 218,
+  "title": "LNP218 Wahlsicherheit durch Obskurität",
+  "generatedAt": "2026-01-05T15:17:57.602Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16731316265839152,
+      "Technology": 0.1817946728730282,
+      "Law": 0.23713472976467545,
+      "Security": 0.2717869149211275,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.14197051978277736,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 647,
+      "Technology": 703,
+      "Law": 917,
+      "Security": 1051,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 549,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3867,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 227,
+      "endSec": 836,
+      "durationSec": 609,
+      "topic": "Cyberwehr und das BSI",
+      "fineSubject": "BSI",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 836,
+      "endSec": 1278,
+      "durationSec": 442,
+      "topic": "Shadowbrokers Exploit Leak",
+      "fineSubject": "Exploit Leak",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1279,
+      "endSec": 2196,
+      "durationSec": 917,
+      "topic": "TKG-Änderung: DPI und Sperren für die Sicherheit",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2196,
+      "endSec": 2843,
+      "durationSec": 647,
+      "topic": "AfD auf Twitter",
+      "fineSubject": "Social Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2844,
+      "endSec": 3547,
+      "durationSec": 703,
+      "topic": "IVU.elect in Berlin",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3547,
+      "endSec": 4096,
+      "durationSec": 549,
+      "topic": "Bose-Spione",
+      "fineSubject": "Corporate Espionage",
+      "topicIndex": 5
+    }
+  ]
+}

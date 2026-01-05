@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 71,
+  "title": "LNP071 Schönes Land haben Sie da",
+  "generatedAt": "2026-01-05T15:17:57.583Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9045443616253908,
+      "Technology": 0.09545563837460928,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3762,
+      "Technology": 397,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4159,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 91,
+      "endSec": 2584,
+      "durationSec": 2493,
+      "topic": "Der Abhörskandal, die EU und Deutschland",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2584,
+      "endSec": 2812,
+      "durationSec": 228,
+      "topic": "VDS-Debatte in Deutschland",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2812,
+      "endSec": 3853,
+      "durationSec": 1041,
+      "topic": "VDS vor dem Europäischen Gerichtshof",
+      "fineSubject": "Legal Proceedings",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3853,
+      "endSec": 4250,
+      "durationSec": 397,
+      "topic": "Netzneutralität à la EU-Kommission",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 3
+    }
+  ]
+}

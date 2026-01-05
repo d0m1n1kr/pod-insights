@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 222,
+  "title": "FS222 Der ultimative Bit-Orgasmus",
+  "generatedAt": "2026-01-05T15:17:51.097Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.026644047500249478,
+      "Hardware": 0.7030236503342979,
+      "Finance": 0.03093503642351063,
+      "Media": 0,
+      "Social": 0.01786248877357549,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.22153477696836643
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 267,
+      "Hardware": 7045,
+      "Finance": 310,
+      "Media": 0,
+      "Social": 179,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 2220
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 2,
+      "Hardware": 7,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 3
+    },
+    "totalDurationSec": 10021,
+    "totalTopics": 22
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 113,
+      "endSec": 489,
+      "durationSec": 376,
+      "topic": "Blinkenlights",
+      "fineSubject": "Blinkenlights",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1351,
+      "endSec": 1530,
+      "durationSec": 179,
+      "topic": "Feedback: Mastodon",
+      "fineSubject": "Mastodon",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1530,
+      "endSec": 2311,
+      "durationSec": 781,
+      "topic": "Feedback: NAS-Systeme",
+      "fineSubject": "NAS-Systeme",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Finance",
+      "startSec": 2311,
+      "endSec": 2621,
+      "durationSec": 310,
+      "topic": "Feedback: Apple Pay",
+      "fineSubject": "Apple Pay",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Event",
+      "startSec": 4341,
+      "endSec": 6221,
+      "durationSec": 1880,
+      "topic": "EMF Camp",
+      "fineSubject": "EMF Camp",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 6221,
+      "endSec": 6314,
+      "durationSec": 93,
+      "topic": "iOS 12",
+      "fineSubject": "iOS 12",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Event",
+      "startSec": 6315,
+      "endSec": 6453,
+      "durationSec": 138,
+      "topic": "Apple Keynote",
+      "fineSubject": "Apple Keynote",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6453,
+      "endSec": 8521,
+      "durationSec": 2068,
+      "topic": "Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8522,
+      "endSec": 11280,
+      "durationSec": 2758,
+      "topic": "iPhone Xs/Xr",
+      "fineSubject": "iPhone Xs/Xr",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11280,
+      "endSec": 11489,
+      "durationSec": 209,
+      "topic": "HomePod",
+      "fineSubject": "HomePod",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11490,
+      "endSec": 11898,
+      "durationSec": 408,
+      "topic": "Mac und Kabelkram",
+      "fineSubject": "Mac",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13267,
+      "endSec": 13712,
+      "durationSec": 445,
+      "topic": "Ventilatoren",
+      "fineSubject": "Ventilatoren",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 13712,
+      "endSec": 13886,
+      "durationSec": 174,
+      "topic": "GuitarDoc",
+      "fineSubject": "GuitarDoc",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Event",
+      "startSec": 13887,
+      "endSec": 14089,
+      "durationSec": 202,
+      "topic": "Podstock",
+      "fineSubject": "Podstock",
+      "topicIndex": 20
+    }
+  ]
+}

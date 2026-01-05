@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 93,
+  "title": "RZ093 Das James-Webb-Weltraumteleskop",
+  "generatedAt": "2026-01-05T15:18:06.287Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0.37387755102040815,
+      "Wissenschaft": 0.3946938775510204,
+      "Technologie": 0.23142857142857143,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 1832,
+      "Wissenschaft": 1934,
+      "Technologie": 1134,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 1,
+      "Wissenschaft": 1,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 4900,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 1846,
+      "durationSec": 1832,
+      "topic": "James-Webb-Weltraumteleskop",
+      "fineSubject": "Weltraumteleskope",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 336,
+      "endSec": 2270,
+      "durationSec": 1934,
+      "topic": "Wissenschaftliche Erkenntnisse",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 1136,
+      "endSec": 2270,
+      "durationSec": 1134,
+      "topic": "Komplexität der Instrumente",
+      "fineSubject": "Instrumententechnologie",
+      "topicIndex": 1
+    }
+  ]
+}

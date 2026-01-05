@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 142,
+  "title": "DU142 - Das dunkle Monster im fernen Universum",
+  "generatedAt": "2026-01-05T15:18:22.113Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.56296500413337,
+      "Raumfahrt": 0,
+      "Kultur": 0.3485808762744558,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0.08845411959217415,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 2043,
+      "Raumfahrt": 0,
+      "Kultur": 1265,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 321,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 2,
+      "Raumfahrt": 0,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 1,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 3629,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 676,
+      "endSec": 1241,
+      "durationSec": 565,
+      "topic": "Der junge Stern und Beteigeuze",
+      "fineSubject": "Sterne",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1201,
+      "endSec": 2679,
+      "durationSec": 1478,
+      "topic": "Dunkles Massenmonster",
+      "fineSubject": "Dunkle Materie",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 2639,
+      "endSec": 3904,
+      "durationSec": 1265,
+      "topic": "Kampf von Halloween gegen die Wissenschaft",
+      "fineSubject": "Halloween",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 4016,
+      "endSec": 4337,
+      "durationSec": 321,
+      "topic": "Wissenschaft und Betrug",
+      "fineSubject": "Ethik",
+      "topicIndex": 4
+    }
+  ]
+}

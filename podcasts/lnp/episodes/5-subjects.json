@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 5,
+  "title": "LNP005 Unter 42 Minuten",
+  "generatedAt": "2026-01-05T15:17:57.571Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4313562836997097,
+      "Technology": 0.1368726669431771,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.43177104935711325,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1040,
+      "Technology": 330,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1041,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 3,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2411,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 53,
+      "endSec": 379,
+      "durationSec": 326,
+      "topic": "Stop Online Piracy ACt (SOPA)",
+      "fineSubject": "Legislation / SOPA",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 380,
+      "endSec": 956,
+      "durationSec": 576,
+      "topic": "EuGH zu Netzsperren",
+      "fineSubject": "Court Rulings / Netzsperren",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 957,
+      "endSec": 1997,
+      "durationSec": 1040,
+      "topic": "Grüne Netzpolitik",
+      "fineSubject": "Internet Policy / Netzpolitik",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1997,
+      "endSec": 2327,
+      "durationSec": 330,
+      "topic": "Handy-Ortung in NRW",
+      "fineSubject": "Privacy / Handy-Ortung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2328,
+      "endSec": 2467,
+      "durationSec": 139,
+      "topic": "Jan Delay und die Abmahnungen",
+      "fineSubject": "Abmahnungen / Jan Delay",
+      "topicIndex": 4
+    }
+  ]
+}

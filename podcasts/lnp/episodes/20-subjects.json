@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 20,
+  "title": "LNP020 Die Achillesferse",
+  "generatedAt": "2026-01-05T15:17:57.574Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 2660,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 4,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2660,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 168,
+      "endSec": 735,
+      "durationSec": 567,
+      "topic": "Nach SOPA kommt CISPA",
+      "fineSubject": "Legislation / CISPA",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 735,
+      "endSec": 1172,
+      "durationSec": 437,
+      "topic": "Facebook-Abmahnung",
+      "fineSubject": "Enforcement / Facebook",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1173,
+      "endSec": 2360,
+      "durationSec": 1187,
+      "topic": "Urheberrechtspropaganda geht weiter",
+      "fineSubject": "Propaganda / Awareness",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2361,
+      "endSec": 2830,
+      "durationSec": 469,
+      "topic": "WLAN-Störerhaftung",
+      "fineSubject": "WLAN / Störerhaftung",
+      "topicIndex": 3
+    }
+  ]
+}

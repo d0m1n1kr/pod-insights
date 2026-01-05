@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 529,
+  "title": "LNP529 You’re prompting it wrong",
+  "generatedAt": "2026-01-05T15:17:57.645Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.23919043238270468,
+      "Law": 0.1655933762649494,
+      "Security": 0.0906163753449862,
+      "Social": 0,
+      "Media": 0.19871205151793928,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.3058877644894204,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 520,
+      "Law": 360,
+      "Security": 197,
+      "Social": 0,
+      "Media": 432,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 665,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2174,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 527,
+      "endSec": 1057,
+      "durationSec": 530,
+      "topic": "Feedback: KI-Geschäftsmodelle",
+      "fineSubject": "AI Business Models",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1593,
+      "endSec": 1719,
+      "durationSec": 126,
+      "topic": "Feedback: KI und Programmieren",
+      "fineSubject": "AI and Programming",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 2212,
+      "endSec": 2644,
+      "durationSec": 432,
+      "topic": "Das M!perium schlägt zurück",
+      "fineSubject": "Gaming",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3036,
+      "endSec": 3396,
+      "durationSec": 360,
+      "topic": "Palantir-Verfassungsbeschwerde",
+      "fineSubject": "Palantir Constitutional Complaint",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 3396,
+      "endSec": 3593,
+      "durationSec": 197,
+      "topic": "UK encryption backdoor abgesagt",
+      "fineSubject": "UK Encryption Backdoor",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Business",
+      "startSec": 4399,
+      "endSec": 4534,
+      "durationSec": 135,
+      "topic": "CUII gibt auf",
+      "fineSubject": "CUII",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4534,
+      "endSec": 4928,
+      "durationSec": 394,
+      "topic": "Funklöcher",
+      "fineSubject": "Connectivity Issues",
+      "topicIndex": 13
+    }
+  ]
+}

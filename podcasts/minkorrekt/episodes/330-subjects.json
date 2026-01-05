@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 330,
+  "title": "Mi330 – \"Drill, baby, drill!\"",
+  "generatedAt": "2026-01-05T15:18:17.388Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.47514836795252224,
+      "Culture": 0.13705489614243324,
+      "Wissenschaft": 0,
+      "Health": 0.06769287833827893,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.2127225519287834,
+      "Physik": 0,
+      "Education": 0.10738130563798219,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2562,
+      "Culture": 739,
+      "Wissenschaft": 0,
+      "Health": 365,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1147,
+      "Physik": 0,
+      "Education": 579,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5392,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 663,
+      "endSec": 1028,
+      "durationSec": 365,
+      "topic": "Krankenhaus",
+      "fineSubject": "Hospital",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1028,
+      "endSec": 1770,
+      "durationSec": 742,
+      "topic": "Experimente basteln",
+      "fineSubject": "Experiments",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1770,
+      "endSec": 3590,
+      "durationSec": 1820,
+      "topic": "Thema 1: \"Vulkan im Vorgarten\"",
+      "fineSubject": "Volcano",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Education",
+      "startSec": 3590,
+      "endSec": 4169,
+      "durationSec": 579,
+      "topic": "Snackable Science",
+      "fineSubject": "Science Communication",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 4169,
+      "endSec": 5316,
+      "durationSec": 1147,
+      "topic": "Thema 2: \"Der Pate läuft und läuft und läuft ...\"",
+      "fineSubject": "Film",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5316,
+      "endSec": 6055,
+      "durationSec": 739,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 5
+    }
+  ]
+}

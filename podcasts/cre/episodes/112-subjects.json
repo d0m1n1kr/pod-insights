@@ -1,0 +1,134 @@
+{
+  "episodeNumber": 112,
+  "title": "CRE112 Roboterfussball",
+  "generatedAt": "2026-01-05T15:17:54.378Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.125,
+      "Technology": 0.5,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.375,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 1,
+      "Technology": 4,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 3,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Strategien der Robotik",
+      "fineSubject": "Game Strategies",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technik der Fußballroboter",
+      "fineSubject": "Hardware",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Code Sharing in der Robotik",
+      "fineSubject": "Collaboration",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Leistungsfähigkeit der Hardware",
+      "fineSubject": "Performance",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Roboterbausätze und modulare Systeme",
+      "fineSubject": "Robotics Kits",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kommunikation der Fußballroboter",
+      "fineSubject": "Communication",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wahrnehmung der Roboter",
+      "fineSubject": "Perception",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Motoren und Sensoren",
+      "fineSubject": "Actuators",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

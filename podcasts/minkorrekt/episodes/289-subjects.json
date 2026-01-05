@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 289,
+  "title": "Mi289  – \"Schwurbelgranate\"",
+  "generatedAt": "2026-01-05T15:18:17.383Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5518181818181818,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.4481818181818182,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2428,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1972,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4400,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 128,
+      "endSec": 2100,
+      "durationSec": 1972,
+      "topic": "Männergrippe",
+      "fineSubject": "Illness",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 2100,
+      "endSec": 2632,
+      "durationSec": 532,
+      "topic": "Schwurbel bei Jugend forscht",
+      "fineSubject": "Youth Research",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2632,
+      "endSec": 3409,
+      "durationSec": 777,
+      "topic": "freestyle physics 2024",
+      "fineSubject": "Physics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3997,
+      "endSec": 5116,
+      "durationSec": 1119,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 5
+    }
+  ]
+}

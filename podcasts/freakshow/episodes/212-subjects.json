@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 212,
+  "title": "FS212 Die anomalischen Vier",
+  "generatedAt": "2026-01-05T15:17:51.094Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5890948745910578,
+      "Software": 0.0386041439476554,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.24830970556161397,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.12399127589967285,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5402,
+      "Software": 354,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 2277,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1137,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 1,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9170,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 271,
+      "endSec": 2548,
+      "durationSec": 2277,
+      "topic": "Filmklassiker",
+      "fineSubject": "Film / Filmklassiker",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 4518,
+      "endSec": 4872,
+      "durationSec": 354,
+      "topic": "Hammock-driven Development",
+      "fineSubject": "Entwicklung / Hammock-driven Development",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4873,
+      "endSec": 5602,
+      "durationSec": 729,
+      "topic": "Google Earth und Space Navigator",
+      "fineSubject": "Technologie / Google Earth",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 9147,
+      "endSec": 10284,
+      "durationSec": 1137,
+      "topic": "Online Shops und Rechnungen",
+      "fineSubject": "E-Commerce / Rechnungen",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10285,
+      "endSec": 11563,
+      "durationSec": 1278,
+      "topic": "DIN61 und andere Gadgets",
+      "fineSubject": "Technologie / DIN61",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11564,
+      "endSec": 13542,
+      "durationSec": 1978,
+      "topic": "VLC 3 und 360 Fotografie",
+      "fineSubject": "Technologie / VLC 3",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13543,
+      "endSec": 14960,
+      "durationSec": 1417,
+      "topic": "Denis hat Vectoring",
+      "fineSubject": "Technologie / Vectoring",
+      "topicIndex": 12
+    }
+  ]
+}

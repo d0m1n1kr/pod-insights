@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 153,
+  "title": "FS153 International Bitterness Unit",
+  "generatedAt": "2026-01-05T15:17:51.080Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.02993348115299335,
+      "Software": 0.2734947978850418,
+      "Hardware": 0.2179771448064131,
+      "Finance": 0.04707487634316903,
+      "Media": 0.20202967763943375,
+      "Social": 0.04050827221558929,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.16552959235886064,
+      "Business": 0,
+      "Gaming": 0.02345215759849906,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 351,
+      "Software": 3207,
+      "Hardware": 2556,
+      "Finance": 552,
+      "Media": 2369,
+      "Social": 475,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1941,
+      "Business": 0,
+      "Gaming": 275,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 6,
+      "Hardware": 3,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 11726,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 378,
+      "endSec": 646,
+      "durationSec": 268,
+      "topic": "Yosemite",
+      "fineSubject": "Yosemite",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 646,
+      "endSec": 832,
+      "durationSec": 186,
+      "topic": "Toto / nxtbgthng",
+      "fineSubject": "Toto / nxtbgthng",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Events",
+      "startSec": 832,
+      "endSec": 2600,
+      "durationSec": 1768,
+      "topic": "Konferenzen und Apps",
+      "fineSubject": "Konferenzen und Apps",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Events",
+      "startSec": 2601,
+      "endSec": 2774,
+      "durationSec": 173,
+      "topic": "Developer Conferences",
+      "fineSubject": "Developer Conferences",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 2774,
+      "endSec": 3233,
+      "durationSec": 459,
+      "topic": "Programmierkram",
+      "fineSubject": "Programmierkram",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3545,
+      "endSec": 4020,
+      "durationSec": 475,
+      "topic": "Bierspenden",
+      "fineSubject": "Bierspenden",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 4021,
+      "endSec": 4455,
+      "durationSec": 434,
+      "topic": "YouTube macht 360-Grad-Videos",
+      "fineSubject": "YouTube 360-Grad-Videos",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 4455,
+      "endSec": 4795,
+      "durationSec": 340,
+      "topic": "Web Browser",
+      "fineSubject": "Web Browser",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4796,
+      "endSec": 5610,
+      "durationSec": 814,
+      "topic": "Force Touch Trackpad",
+      "fineSubject": "Force Touch Trackpad",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 5610,
+      "endSec": 6787,
+      "durationSec": 1177,
+      "topic": "Reactive Programming",
+      "fineSubject": "Reactive Programming",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6787,
+      "endSec": 7511,
+      "durationSec": 724,
+      "topic": "USB-C",
+      "fineSubject": "USB-C",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7512,
+      "endSec": 8530,
+      "durationSec": 1018,
+      "topic": "Tastaturen und Trackpads",
+      "fineSubject": "Tastaturen und Trackpads",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8530,
+      "endSec": 9082,
+      "durationSec": 552,
+      "topic": "Bitcoin Mining Pool Server",
+      "fineSubject": "Bitcoin Mining Pool Server",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 9083,
+      "endSec": 9860,
+      "durationSec": 777,
+      "topic": "Kalenders- und Kontakte-Software",
+      "fineSubject": "Kalenders- und Kontakte-Software",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 11252,
+      "endSec": 13187,
+      "durationSec": 1935,
+      "topic": "Podcast Apps, Statistiken und Podlove",
+      "fineSubject": "Podcast Apps, Statistiken und Podlove",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 13188,
+      "endSec": 13463,
+      "durationSec": 275,
+      "topic": "Spieltips",
+      "fineSubject": "Spieltips",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13463,
+      "endSec": 13814,
+      "durationSec": 351,
+      "topic": "Mobilfunk",
+      "fineSubject": "Mobilfunk",
+      "topicIndex": 18
+    }
+  ]
+}

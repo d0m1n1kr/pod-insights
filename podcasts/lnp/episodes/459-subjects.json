@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 459,
+  "title": "LNP459 Kein von, kein zu",
+  "generatedAt": "2026-01-05T15:17:57.636Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.10273500344748333,
+      "Technology": 0.2974028958860032,
+      "Law": 0.5088485405653873,
+      "Security": 0,
+      "Social": 0.034704665594116293,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.056308894507009884,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 447,
+      "Technology": 1294,
+      "Law": 2214,
+      "Security": 0,
+      "Social": 151,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 245,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4351,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 947,
+      "endSec": 1098,
+      "durationSec": 151,
+      "topic": "Feedback: Shedhalle",
+      "fineSubject": "Community Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1099,
+      "endSec": 1199,
+      "durationSec": 100,
+      "topic": "Feedback: Wahlen in Berlin",
+      "fineSubject": "Elections",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1199,
+      "endSec": 3286,
+      "durationSec": 2087,
+      "topic": "UN Cybercrime Convention",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3287,
+      "endSec": 3971,
+      "durationSec": 684,
+      "topic": "eIDAS",
+      "fineSubject": "Digital Identity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3972,
+      "endSec": 4582,
+      "durationSec": 610,
+      "topic": "Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 4582,
+      "endSec": 4827,
+      "durationSec": 245,
+      "topic": "DSIRF",
+      "fineSubject": "Data Analysis",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4828,
+      "endSec": 4955,
+      "durationSec": 127,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4955,
+      "endSec": 5302,
+      "durationSec": 347,
+      "topic": "Ibiza",
+      "fineSubject": "Scandals",
+      "topicIndex": 7
+    }
+  ]
+}

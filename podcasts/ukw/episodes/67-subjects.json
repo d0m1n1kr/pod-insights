@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 67,
+  "title": "UKW067 Corona Weekly: Nicht ganz illusionsfrei",
+  "generatedAt": "2026-01-05T15:18:03.016Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.7603420630678781,
+      "Politics": 0.11170497060395511,
+      "Military": 0,
+      "Technology": 0.07332977017637626,
+      "Economics": 0.03837520042757883,
+      "Media": 0,
+      "Miscellaneous": 0.01624799572421165,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7113,
+      "Politics": 1045,
+      "Military": 0,
+      "Technology": 686,
+      "Economics": 359,
+      "Media": 0,
+      "Miscellaneous": 152,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 12,
+      "Politics": 1,
+      "Military": 0,
+      "Technology": 1,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9355,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 78,
+      "endSec": 1123,
+      "durationSec": 1045,
+      "topic": "Politikerdämmerung",
+      "fineSubject": "Political Climate",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1123,
+      "endSec": 1809,
+      "durationSec": 686,
+      "topic": "Wissenschaft vs. Politik",
+      "fineSubject": "Science vs Politics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1809,
+      "endSec": 2742,
+      "durationSec": 933,
+      "topic": "Die Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation in Germany",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2743,
+      "endSec": 3884,
+      "durationSec": 1141,
+      "topic": "The Road Ahead",
+      "fineSubject": "Future of COVID-19",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3884,
+      "endSec": 4607,
+      "durationSec": 723,
+      "topic": "Impfstrategie",
+      "fineSubject": "Vaccination Strategy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4608,
+      "endSec": 5216,
+      "durationSec": 608,
+      "topic": "Hoffnung und Vernunft",
+      "fineSubject": "Hope and Reason",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5216,
+      "endSec": 5607,
+      "durationSec": 391,
+      "topic": "Feedback: Schnelltests",
+      "fineSubject": "Feedback on Rapid Tests",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 5607,
+      "endSec": 6840,
+      "durationSec": 1233,
+      "topic": "Feedback: Testkonzept Fusion",
+      "fineSubject": "Feedback on Test Concept",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 6841,
+      "endSec": 6970,
+      "durationSec": 129,
+      "topic": "BioNTech: Werk in Marburg",
+      "fineSubject": "BioNTech Facility in Marburg",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 6970,
+      "endSec": 7280,
+      "durationSec": 310,
+      "topic": "BioNTech: Neue Erkenntnisse",
+      "fineSubject": "BioNTech New Findings",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 7280,
+      "endSec": 7862,
+      "durationSec": 582,
+      "topic": "Sputnik V",
+      "fineSubject": "Sputnik V",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 7863,
+      "endSec": 8072,
+      "durationSec": 209,
+      "topic": "Moderna verzichtet auf Patentdurchsetzung",
+      "fineSubject": "Moderna Patent Policy",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 8072,
+      "endSec": 8303,
+      "durationSec": 231,
+      "topic": "WHO Untersuchung des Ursprungs des Virus",
+      "fineSubject": "WHO Virus Origin Investigation",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Economics",
+      "startSec": 8551,
+      "endSec": 8910,
+      "durationSec": 359,
+      "topic": "Krisengewinnler",
+      "fineSubject": "Crisis Profiteers",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 8960,
+      "endSec": 9583,
+      "durationSec": 623,
+      "topic": "Erwartungshaltungen und Ausblick",
+      "fineSubject": "Expectations and Outlook",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 9754,
+      "endSec": 9906,
+      "durationSec": 152,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 17
+    }
+  ]
+}

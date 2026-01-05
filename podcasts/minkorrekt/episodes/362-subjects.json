@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 362,
+  "title": "Mi362 – \"Wehwehchen der Woche\"",
+  "generatedAt": "2026-01-05T15:18:17.394Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.1540216771249287,
+      "Culture": 0.05932686822589846,
+      "Wissenschaft": 0,
+      "Health": 0.7866514546491729,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 270,
+      "Culture": 104,
+      "Wissenschaft": 0,
+      "Health": 1379,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 1753,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 350,
+      "endSec": 1307,
+      "durationSec": 957,
+      "topic": "Krankheit",
+      "fineSubject": "Illness",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2736,
+      "endSec": 2840,
+      "durationSec": 104,
+      "topic": "Lauscherlounge",
+      "fineSubject": "Podcast",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 4760,
+      "endSec": 5030,
+      "durationSec": 270,
+      "topic": "Science Snack",
+      "fineSubject": "Snack",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 6205,
+      "endSec": 6627,
+      "durationSec": 422,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy",
+      "topicIndex": 8
+    }
+  ]
+}

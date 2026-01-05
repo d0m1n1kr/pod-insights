@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 124,
+  "title": "DU124 - Wie verhindert man einen Asteroideneinschlag?",
+  "generatedAt": "2026-01-05T15:18:22.109Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.12796208530805686,
+      "Raumfahrt": 0,
+      "Kultur": 0.014582573824279986,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0.8574553408676632,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 351,
+      "Raumfahrt": 0,
+      "Kultur": 40,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 2352,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 1,
+      "Raumfahrt": 0,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 1,
+      "Physics": 0
+    },
+    "totalDurationSec": 2743,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 236,
+      "endSec": 587,
+      "durationSec": 351,
+      "topic": "Asteroideneinschlag und planetare Verteidigung",
+      "fineSubject": "Asteroiden",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 968,
+      "endSec": 1008,
+      "durationSec": 40,
+      "topic": "Science Fiction und Asteroideneinschläge",
+      "fineSubject": "Film",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 968,
+      "endSec": 3320,
+      "durationSec": 2352,
+      "topic": "Zukünftige Ereignisse in der Asteroidenforschung",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 5
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 378,
+  "title": "LNP378 Der schwarze Block fährt jetzt Tesla",
+  "generatedAt": "2026-01-05T15:17:57.625Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.04940304652120214,
+      "Law": 0,
+      "Security": 0.14862083161794978,
+      "Social": 0.14285714285714285,
+      "Media": 0,
+      "Health": 0.08384794840126253,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.5752710306024427,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 360,
+      "Law": 0,
+      "Security": 1083,
+      "Social": 1041,
+      "Media": 0,
+      "Health": 611,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 4192,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7287,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 2107,
+      "endSec": 2547,
+      "durationSec": 440,
+      "topic": "Clubhouse Vulnerabilities",
+      "fineSubject": "Social Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 3173,
+      "endSec": 7365,
+      "durationSec": 4192,
+      "topic": "GameStop",
+      "fineSubject": "Stock Market",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7365,
+      "endSec": 7725,
+      "durationSec": 360,
+      "topic": "ClearView AI",
+      "fineSubject": "AI",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 7726,
+      "endSec": 8809,
+      "durationSec": 1083,
+      "topic": "Emotet",
+      "fineSubject": "Malware",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 8810,
+      "endSec": 9421,
+      "durationSec": 611,
+      "topic": "Impfportale völlig überlastet",
+      "fineSubject": "Public Health",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 9422,
+      "endSec": 10023,
+      "durationSec": 601,
+      "topic": "Corona im Berliner Untergrund",
+      "fineSubject": "Societal Issues",
+      "topicIndex": 5
+    }
+  ]
+}

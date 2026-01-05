@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 510,
+  "title": "LNP510 Unvorhergesehene Betriebszustände",
+  "generatedAt": "2026-01-05T15:17:57.643Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6482661004953999,
+      "Technology": 0.35173389950460016,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2748,
+      "Technology": 1491,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4239,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 632,
+      "endSec": 3380,
+      "durationSec": 2748,
+      "topic": "Now trending: Faschismus",
+      "fineSubject": "Fascism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3381,
+      "endSec": 4872,
+      "durationSec": 1491,
+      "topic": "Still trending: AI",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 2
+    }
+  ]
+}

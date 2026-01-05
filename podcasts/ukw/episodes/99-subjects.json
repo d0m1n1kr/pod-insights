@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 99,
+  "title": "UKW099 Ukraine: Daneben schießen verboten",
+  "generatedAt": "2026-01-05T15:18:03.026Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0.5873113265431341,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0.02466560314148975,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.38802307031537614
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 4786,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 201,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 3162
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 8,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 1,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 6
+    },
+    "totalDurationSec": 8149,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 224,
+      "endSec": 865,
+      "durationSec": 641,
+      "topic": "Militärische Lage im Osten",
+      "fineSubject": "Eastern Front",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 865,
+      "endSec": 1134,
+      "durationSec": 269,
+      "topic": "Ost-Munition geht zur Neige",
+      "fineSubject": "Ammunition Supply",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 1135,
+      "endSec": 1529,
+      "durationSec": 394,
+      "topic": "Militärische Lage im Süden",
+      "fineSubject": "Southern Front",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 1529,
+      "endSec": 1697,
+      "durationSec": 168,
+      "topic": "Truppenverluste und Mobilisierung",
+      "fineSubject": "Casualties and Mobilization",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 1698,
+      "endSec": 3198,
+      "durationSec": 1500,
+      "topic": "Waffenversorgung der Ukraine",
+      "fineSubject": "Arms Supply",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 3199,
+      "endSec": 4516,
+      "durationSec": 1317,
+      "topic": "Luftabwehrsysteme",
+      "fineSubject": "Air Defense Systems",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 4517,
+      "endSec": 4805,
+      "durationSec": 288,
+      "topic": "Droneneinsatz",
+      "fineSubject": "Drone Operations",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 4805,
+      "endSec": 5014,
+      "durationSec": 209,
+      "topic": "Kampf zur See",
+      "fineSubject": "Naval Combat",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 5014,
+      "endSec": 5296,
+      "durationSec": 282,
+      "topic": "Kaliningrad",
+      "fineSubject": "Kaliningrad",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 5297,
+      "endSec": 6349,
+      "durationSec": 1052,
+      "topic": "Die Strategie des Westens",
+      "fineSubject": "Western Strategy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 6350,
+      "endSec": 7190,
+      "durationSec": 840,
+      "topic": "Moldawien",
+      "fineSubject": "Moldova",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 7190,
+      "endSec": 7476,
+      "durationSec": 286,
+      "topic": "Der Westen im Krieg mit Russland",
+      "fineSubject": "West vs Russia",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 7477,
+      "endSec": 7821,
+      "durationSec": 344,
+      "topic": "Situation Russlands",
+      "fineSubject": "Situation in Russia",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 7822,
+      "endSec": 8180,
+      "durationSec": 358,
+      "topic": "Aussichten für die nächsten Monate",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Miscellaneous",
+      "startSec": 8180,
+      "endSec": 8381,
+      "durationSec": 201,
+      "topic": "Schlusskuriosität",
+      "fineSubject": "Curiosity",
+      "topicIndex": 14
+    }
+  ]
+}

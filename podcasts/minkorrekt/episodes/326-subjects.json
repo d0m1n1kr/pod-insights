@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 326,
+  "title": "Mi326 – \"Nobelpreissonderfolge 2024\"",
+  "generatedAt": "2026-01-05T15:18:17.388Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.7424422050978068,
+      "Culture": 0.032157676348547715,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.06965026674570243,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.1557498518079431,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 5010,
+      "Culture": 217,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 470,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1051,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6748,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 1574,
+      "endSec": 1756,
+      "durationSec": 182,
+      "topic": "Audiokommentar Schatten durch Licht von Florian",
+      "fineSubject": "Commentary",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1756,
+      "endSec": 3751,
+      "durationSec": 1995,
+      "topic": "Physiknobelpreis",
+      "fineSubject": "Physics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 3751,
+      "endSec": 5736,
+      "durationSec": 1985,
+      "topic": "Chemienobelpreis",
+      "fineSubject": "Chemistry",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 5736,
+      "endSec": 6766,
+      "durationSec": 1030,
+      "topic": "Medizinnobelpreis",
+      "fineSubject": "Medicine",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 6766,
+      "endSec": 7054,
+      "durationSec": 288,
+      "topic": "Musik Sicherheitsunterweisung von Lea",
+      "fineSubject": "Music",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7054,
+      "endSec": 7271,
+      "durationSec": 217,
+      "topic": "Literaturnobelpreis",
+      "fineSubject": "Awards",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 7271,
+      "endSec": 8322,
+      "durationSec": 1051,
+      "topic": "Friedensnobelpreis",
+      "fineSubject": "Peace",
+      "topicIndex": 6
+    }
+  ]
+}

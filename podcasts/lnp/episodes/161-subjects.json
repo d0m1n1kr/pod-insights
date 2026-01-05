@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 161,
+  "title": "LNP161 Viel mehr Tele",
+  "generatedAt": "2026-01-05T15:17:57.595Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1242272593464822,
+      "Technology": 0,
+      "Law": 0.3588460406240801,
+      "Security": 0.2764203709155137,
+      "Social": 0.040624080070650576,
+      "Media": 0.12569914630556372,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.07418310273770974,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 422,
+      "Technology": 0,
+      "Law": 1219,
+      "Security": 939,
+      "Social": 138,
+      "Media": 427,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 252,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 2,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3397,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 78,
+      "endSec": 216,
+      "durationSec": 138,
+      "topic": "Feedback: ISIS und Social Media",
+      "fineSubject": "Social Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 217,
+      "endSec": 469,
+      "durationSec": 252,
+      "topic": "Feedback: Tracking",
+      "fineSubject": "Tracking",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 469,
+      "endSec": 891,
+      "durationSec": 422,
+      "topic": "Feedback: Thomas de Maizière und Frank Rieger auf dem IT-Gipfel",
+      "fineSubject": "IT Policy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 891,
+      "endSec": 1599,
+      "durationSec": 708,
+      "topic": "BGH-Urteil zu Netzsperren",
+      "fineSubject": "Net Regulations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1599,
+      "endSec": 2110,
+      "durationSec": 511,
+      "topic": "Gericht: Google muss GMail als Telekommunikations-Dienst anmelden",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 2111,
+      "endSec": 2538,
+      "durationSec": 427,
+      "topic": "Crowdfunding-Kampagne: Abgemahnter Youtuber will Bild.de verklagen",
+      "fineSubject": "YouTube",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2539,
+      "endSec": 3077,
+      "durationSec": 538,
+      "topic": "NSAUA: Neuer UA wg. Selektoren?",
+      "fineSubject": "Surveillance",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 3077,
+      "endSec": 3478,
+      "durationSec": 401,
+      "topic": "NSAUA: BND-Zeugenbefragung",
+      "fineSubject": "Intelligence",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 292,
+  "title": "Mi292 – \"Taxipatient\"",
+  "generatedAt": "2026-01-05T15:18:17.383Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.12707261292166952,
+      "Culture": 0.07647226986849628,
+      "Wissenschaft": 0,
+      "Health": 0.6139222412807318,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.028158947970268727,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.15437392795883362,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 889,
+      "Culture": 535,
+      "Wissenschaft": 0,
+      "Health": 4295,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 197,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1080,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 4,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6996,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 114,
+      "endSec": 1203,
+      "durationSec": 1089,
+      "topic": "Reha Reini",
+      "fineSubject": "Rehabilitation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1203,
+      "endSec": 2701,
+      "durationSec": 1498,
+      "topic": "DPG Tagung",
+      "fineSubject": "Conferences",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 2963,
+      "endSec": 3160,
+      "durationSec": 197,
+      "topic": "Versäumte Bilder",
+      "fineSubject": "Photography",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3160,
+      "endSec": 3482,
+      "durationSec": 322,
+      "topic": "Kommentar Regina zu Implantaten",
+      "fineSubject": "Implants",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3482,
+      "endSec": 4562,
+      "durationSec": 1080,
+      "topic": "Thema 1: “Keine Einigung auf Pandora”",
+      "fineSubject": "Negotiations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 4562,
+      "endSec": 5451,
+      "durationSec": 889,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 5451,
+      "endSec": 6837,
+      "durationSec": 1386,
+      "topic": "Thema 2: \"Die Fleischampel\"",
+      "fineSubject": "Nutrition",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6837,
+      "endSec": 7372,
+      "durationSec": 535,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 8
+    }
+  ]
+}

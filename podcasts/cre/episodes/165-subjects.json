@@ -1,0 +1,184 @@
+{
+  "episodeNumber": 165,
+  "title": "CRE165 Privatsphäre",
+  "generatedAt": "2026-01-05T15:17:54.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.15384615384615385,
+      "Social": 0.5384615384615384,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.23076923076923078,
+      "Security": 0.07692307692307693,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 2,
+      "Social": 7,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 3,
+      "Security": 1,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Privatsphäre und Datenschutz",
+      "fineSubject": "Privacy",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Intimsphäre und Sozialsphäre",
+      "fineSubject": "Personal Space",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Öffentlichkeit und Politik",
+      "fineSubject": "Public Sphere",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bedrohung durch Staaten",
+      "fineSubject": "State Surveillance",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Trennung privater und öffentlicher Momente",
+      "fineSubject": "Public vs Private",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Transparenzgebot des Staates",
+      "fineSubject": "Government Transparency",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Maschinenlesbare Regierung",
+      "fineSubject": "Digital Governance",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Selbstentblößung im Netz",
+      "fineSubject": "Online Behavior",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "LiquidFeedback und Privatheit",
+      "fineSubject": "Political Participation",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "digitale Parallelgesellschaft",
+      "fineSubject": "Digital Society",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Auswirkungen laxeren Umgangs mit Privatsphäre",
+      "fineSubject": "Individual Impact",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vision des Weltgehirns",
+      "fineSubject": "Collective Intelligence",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Chancen einer kommunikationsoffeneren Gesellschaft",
+      "fineSubject": "Open Communication",
+      "topicIndex": 13,
+      "untimed": true
+    }
+  ]
+}

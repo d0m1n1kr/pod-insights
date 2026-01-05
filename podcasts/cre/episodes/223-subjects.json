@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 223,
+  "title": "CRE223 Die Sendung mit der Maus",
+  "generatedAt": "2026-01-05T15:17:54.396Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 5008,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 2,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 5008,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 67,
+      "endSec": 3346,
+      "durationSec": 3279,
+      "topic": "Die Sendung mit der Maus",
+      "fineSubject": "Children's Television",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 67,
+      "endSec": 1796,
+      "durationSec": 1729,
+      "topic": "Entwicklung des Kinderfernsehens",
+      "fineSubject": "Television History",
+      "topicIndex": 2
+    }
+  ]
+}

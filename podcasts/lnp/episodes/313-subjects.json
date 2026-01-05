@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 313,
+  "title": "LNP313 Hodldiplom",
+  "generatedAt": "2026-01-05T15:17:57.615Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2629205688518904,
+      "Technology": 0,
+      "Law": 0.26222684703433924,
+      "Security": 0,
+      "Social": 0.07006590357266736,
+      "Media": 0,
+      "Health": 0.09712105445716268,
+      "Feedback": 0.3076656260839403,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 758,
+      "Technology": 0,
+      "Law": 756,
+      "Security": 0,
+      "Social": 202,
+      "Media": 0,
+      "Health": 280,
+      "Feedback": 887,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 4,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2883,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 655,
+      "endSec": 1098,
+      "durationSec": 443,
+      "topic": "Feedback: Web vs. App",
+      "fineSubject": "Web vs. App",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1098,
+      "endSec": 1280,
+      "durationSec": 182,
+      "topic": "Feedback: TAN ohne Smartphone",
+      "fineSubject": "TAN ohne Smartphone",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1281,
+      "endSec": 1543,
+      "durationSec": 262,
+      "topic": "Feedback: Mehrere Konten",
+      "fineSubject": "Mehrere Konten",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 1712,
+      "endSec": 1914,
+      "durationSec": 202,
+      "topic": "Facebook Apps",
+      "fineSubject": "Facebook Apps",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1915,
+      "endSec": 2195,
+      "durationSec": 280,
+      "topic": "Internet of Patientendaten",
+      "fineSubject": "Patientendaten",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2196,
+      "endSec": 2413,
+      "durationSec": 217,
+      "topic": "32 VDS-Fehlurteile in Dänemark",
+      "fineSubject": "VDS-Fehlurteile",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 2413,
+      "endSec": 2585,
+      "durationSec": 172,
+      "topic": "VDS bleibt in Deutschland vorerst ausgesetzt",
+      "fineSubject": "VDS",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 2585,
+      "endSec": 2827,
+      "durationSec": 242,
+      "topic": "Drecksfotzenrichter",
+      "fineSubject": "Richter",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 2828,
+      "endSec": 2953,
+      "durationSec": 125,
+      "topic": "Uploadfilter überraschend alternativlos",
+      "fineSubject": "Uploadfilter",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3239,
+      "endSec": 3997,
+      "durationSec": 758,
+      "topic": "Blockchainstrategie der Bundesregierung",
+      "fineSubject": "Blockchainstrategie",
+      "topicIndex": 11
+    }
+  ]
+}

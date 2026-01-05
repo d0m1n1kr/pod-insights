@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 11,
+  "title": "Minkorrekt Folge 11 „Knallharte Erleuchtung!“",
+  "generatedAt": "2026-01-05T15:18:17.350Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.2,
+      "Culture": 0,
+      "Wissenschaft": 0.2,
+      "Health": 0.2,
+      "Technology": 0.2,
+      "Technologie": 0,
+      "Biologie": 0.2,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 1,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Biologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Genetische Vielfalt in Indien",
+      "fineSubject": "Genetik",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Straßenlärm",
+      "fineSubject": "Lärmbelastung",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Strategien ein Flugzeug zu beladen",
+      "fineSubject": "Luftfahrt",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Health",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Tabakkonsum in Indien",
+      "fineSubject": "Suchtverhalten",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Experiment der Woche: Knallharte Erleuchtung",
+      "fineSubject": "Experimente",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

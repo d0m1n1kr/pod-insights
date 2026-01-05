@@ -1,0 +1,243 @@
+{
+  "episodeNumber": 183,
+  "title": "FS183 Zukunftstechnologie Spreizblatt",
+  "generatedAt": "2026-01-05T15:17:51.088Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.05476303693136789,
+      "Software": 0.37224599778094786,
+      "Hardware": 0.49556189570454906,
+      "Finance": 0.016880646695197336,
+      "Media": 0.02036772864162308,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.02615311459819306,
+      "Event": 0.014027579648121732
+    },
+    "durations": {
+      "Technology": 691,
+      "Software": 4697,
+      "Hardware": 6253,
+      "Finance": 213,
+      "Media": 257,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 330,
+      "Event": 177
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 6,
+      "Hardware": 10,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 1
+    },
+    "totalDurationSec": 12618,
+    "totalTopics": 22
+  },
+  "timeline": [
+    {
+      "subject": "Event",
+      "startSec": 431,
+      "endSec": 608,
+      "durationSec": 177,
+      "topic": "Apple Keynote",
+      "fineSubject": "Apple / Keynote",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 608,
+      "endSec": 938,
+      "durationSec": 330,
+      "topic": "Nintendo",
+      "fineSubject": "Nintendo / Gaming",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 938,
+      "endSec": 1195,
+      "durationSec": 257,
+      "topic": "Isao Tomita",
+      "fineSubject": "Isao Tomita / Music",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 1196,
+      "endSec": 1561,
+      "durationSec": 365,
+      "topic": "iWork",
+      "fineSubject": "iWork / Software",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1561,
+      "endSec": 2997,
+      "durationSec": 1436,
+      "topic": "Neue Apple Watch",
+      "fineSubject": "Apple Watch / Hardware",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2997,
+      "endSec": 3729,
+      "durationSec": 732,
+      "topic": "iPhone SE kaputt",
+      "fineSubject": "iPhone SE / Hardware",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 3730,
+      "endSec": 4221,
+      "durationSec": 491,
+      "topic": "Watch OS 3",
+      "fineSubject": "Watch OS / Software",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4222,
+      "endSec": 4925,
+      "durationSec": 703,
+      "topic": "iPhone 7",
+      "fineSubject": "iPhone 7 / Hardware",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4925,
+      "endSec": 5385,
+      "durationSec": 460,
+      "topic": "Keine Klinke",
+      "fineSubject": "iPhone / Audio",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5386,
+      "endSec": 5815,
+      "durationSec": 429,
+      "topic": "AirPods",
+      "fineSubject": "AirPods / Hardware",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5816,
+      "endSec": 6100,
+      "durationSec": 284,
+      "topic": "Beyerdynamic Kopfhörer",
+      "fineSubject": "Beyerdynamic / Hardware",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6100,
+      "endSec": 6762,
+      "durationSec": 662,
+      "topic": "A10 Fusion",
+      "fineSubject": "A10 Fusion / Hardware",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6762,
+      "endSec": 6957,
+      "durationSec": 195,
+      "topic": "iPhone Kamera",
+      "fineSubject": "iPhone Kamera / Hardware",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6958,
+      "endSec": 7353,
+      "durationSec": 395,
+      "topic": "Olloclip",
+      "fineSubject": "Olloclip / Hardware",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 7354,
+      "endSec": 7628,
+      "durationSec": 274,
+      "topic": "Pro Apps",
+      "fineSubject": "Pro Apps / Software",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 7628,
+      "endSec": 7812,
+      "durationSec": 184,
+      "topic": "Slack for Mac",
+      "fineSubject": "Slack / Software",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Finance",
+      "startSec": 7812,
+      "endSec": 8025,
+      "durationSec": 213,
+      "topic": "ApplePay",
+      "fineSubject": "ApplePay / Finance",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 8026,
+      "endSec": 9449,
+      "durationSec": 1423,
+      "topic": "iOS 10",
+      "fineSubject": "iOS 10 / Software",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9449,
+      "endSec": 10140,
+      "durationSec": 691,
+      "topic": "Networking in iOS 10 und Mac OS Sierra",
+      "fineSubject": "iOS 10 / Mac OS Sierra",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 10140,
+      "endSec": 12100,
+      "durationSec": 1960,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Pimp My Mac / Software",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12101,
+      "endSec": 13058,
+      "durationSec": 957,
+      "topic": "Neue Macs",
+      "fineSubject": "Neue Macs / Hardware",
+      "topicIndex": 20
+    }
+  ]
+}

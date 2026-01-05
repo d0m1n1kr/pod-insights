@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 138,
+  "title": "UKW138 Ukraine: Entscheidend ist auf’m Platz",
+  "generatedAt": "2026-01-05T15:18:03.035Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 0.3727210574293528,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.6272789425706472
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 3271,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 5505
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 0,
+      "Military": 12,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 7
+    },
+    "totalDurationSec": 8776,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Geopolitics",
+      "startSec": 141,
+      "endSec": 648,
+      "durationSec": 507,
+      "topic": "Situation in Pokrovsk",
+      "fineSubject": "Ukraine Conflict",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 648,
+      "endSec": 900,
+      "durationSec": 252,
+      "topic": "Sommeroffensive der Russen war nicht sehr erfolgreich",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 900,
+      "endSec": 1034,
+      "durationSec": 134,
+      "topic": "RU versenkt UA-Aufklärungsschiff",
+      "fineSubject": "Naval Operations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 1035,
+      "endSec": 1090,
+      "durationSec": 55,
+      "topic": "Nach Eseln jetzt auch Pferde",
+      "fineSubject": "Logistics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 1091,
+      "endSec": 1343,
+      "durationSec": 252,
+      "topic": "Russische Soldaten an der Front drehen langsam durch",
+      "fineSubject": "Soldier Morale",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 1343,
+      "endSec": 2298,
+      "durationSec": 955,
+      "topic": "Angriffe auf die Russische Petro-Infrastruktur",
+      "fineSubject": "Infrastructure Attacks",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 2299,
+      "endSec": 2920,
+      "durationSec": 621,
+      "topic": "Angriff auf die Druschba Pipeline",
+      "fineSubject": "Infrastructure Attacks",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 2921,
+      "endSec": 3185,
+      "durationSec": 264,
+      "topic": "Kampagne gegen Luftabwehr auf der Krim",
+      "fineSubject": "Air Defense",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 3186,
+      "endSec": 3335,
+      "durationSec": 149,
+      "topic": "Ukraine greift Eisenbahn-Infrastruktur an",
+      "fineSubject": "Infrastructure Attacks",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 3335,
+      "endSec": 3600,
+      "durationSec": 265,
+      "topic": "Angriffe auf russisches Wärmekraftwerk",
+      "fineSubject": "Infrastructure Attacks",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Military",
+      "startSec": 3601,
+      "endSec": 3807,
+      "durationSec": 206,
+      "topic": "Ukraine steigert die Waffenproduktion",
+      "fineSubject": "Weapons Production",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Military",
+      "startSec": 3808,
+      "endSec": 3905,
+      "durationSec": 97,
+      "topic": "Neue Version der Neptun",
+      "fineSubject": "Weapon Systems",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Military",
+      "startSec": 3906,
+      "endSec": 4632,
+      "durationSec": 726,
+      "topic": "Interceptor Drones",
+      "fineSubject": "Drones",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Military",
+      "startSec": 4632,
+      "endSec": 5048,
+      "durationSec": 416,
+      "topic": "Flamingo FP-5",
+      "fineSubject": "Drones",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Military",
+      "startSec": 5048,
+      "endSec": 5226,
+      "durationSec": 178,
+      "topic": "USA liefern ERAM Missiles",
+      "fineSubject": "Missiles",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Military",
+      "startSec": 5226,
+      "endSec": 5755,
+      "durationSec": 529,
+      "topic": "NATO-Draht gegen Glasfaser-Drohnen",
+      "fineSubject": "Countermeasures",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 5755,
+      "endSec": 6541,
+      "durationSec": 786,
+      "topic": "Situation in Russland",
+      "fineSubject": "Domestic Situation",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 6541,
+      "endSec": 7409,
+      "durationSec": 868,
+      "topic": "Russland verletzt EU-Luftraum",
+      "fineSubject": "Airspace Violations",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 7410,
+      "endSec": 8926,
+      "durationSec": 1516,
+      "topic": "Was der Westen jetzt tun müsste",
+      "fineSubject": "Western Response",
+      "topicIndex": 18
+    }
+  ]
+}

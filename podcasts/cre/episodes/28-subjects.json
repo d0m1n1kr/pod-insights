@@ -1,0 +1,129 @@
+{
+  "episodeNumber": 28,
+  "title": "CRE028 Extreme Programming",
+  "generatedAt": "2026-01-05T15:17:54.363Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 1,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 7241,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 8,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 7241,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 30,
+      "endSec": 1328,
+      "durationSec": 1298,
+      "topic": "Extreme Programming",
+      "fineSubject": "Entwicklungsmethoden",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 30,
+      "endSec": 3600,
+      "durationSec": 3570,
+      "topic": "Schnelle Releases",
+      "fineSubject": "Release-Management",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 534,
+      "endSec": 1161,
+      "durationSec": 627,
+      "topic": "Testbarkeit von Systemen",
+      "fineSubject": "Qualitätssicherung",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 3323,
+      "endSec": 4223,
+      "durationSec": 900,
+      "topic": "Iterative Verfeinerungen",
+      "fineSubject": "Entwicklungsprozesse",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 4173,
+      "endSec": 5019,
+      "durationSec": 846,
+      "topic": "Erfahrungen mit XP",
+      "fineSubject": "Praxisberichte",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kooperative Entwicklungsmodelle",
+      "fineSubject": "Teamarbeit",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Umstellung auf XP",
+      "fineSubject": "Organisationsentwicklung",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Langfristige Effekte von XP",
+      "fineSubject": "Wirkungsanalyse",
+      "topicIndex": 7,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 508,
+  "title": "LNP508 Hello-Kitty-Koalition",
+  "generatedAt": "2026-01-05T15:17:57.642Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.31031837360951287,
+      "Technology": 0.21921749136939012,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.19831223628691982,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.07345607978519371,
+      "Legal": 0,
+      "Business": 0.1986958189489835,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1618,
+      "Technology": 1143,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1034,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 383,
+      "Legal": 0,
+      "Business": 1036,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5214,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 450,
+      "endSec": 833,
+      "durationSec": 383,
+      "topic": "Feedback: Zeitnah",
+      "fineSubject": "Zeitnah",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 833,
+      "endSec": 1649,
+      "durationSec": 816,
+      "topic": "Regierungsbildung in Österreich",
+      "fineSubject": "Regierungsbildung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1650,
+      "endSec": 2452,
+      "durationSec": 802,
+      "topic": "Neue EU Kommission",
+      "fineSubject": "EU Kommission",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2453,
+      "endSec": 3487,
+      "durationSec": 1034,
+      "topic": "Australien verbietet Kindern Social Media",
+      "fineSubject": "Social Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3487,
+      "endSec": 4630,
+      "durationSec": 1143,
+      "topic": "eIDAS Update",
+      "fineSubject": "eIDAS",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 4630,
+      "endSec": 4929,
+      "durationSec": 299,
+      "topic": "Epicenter.works hat im Oktober ums Überleben gekämpft",
+      "fineSubject": "Finanzierung",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 4929,
+      "endSec": 5666,
+      "durationSec": 737,
+      "topic": "Community-basierte Finanzierung",
+      "fineSubject": "Community-basierte Finanzierung",
+      "topicIndex": 6
+    }
+  ]
+}

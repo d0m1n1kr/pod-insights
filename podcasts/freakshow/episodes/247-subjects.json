@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 247,
+  "title": "FS247 Pulp-Fiction-Koffermoment",
+  "generatedAt": "2026-01-05T15:17:51.108Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7065495044446715,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.18790231940329008,
+      "Media": 0,
+      "Social": 0.07642791458056605,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.02912026157147236,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6915,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1839,
+      "Media": 0,
+      "Social": 748,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 285,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 7,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9787,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 590,
+      "endSec": 1338,
+      "durationSec": 748,
+      "topic": "Dinge loswerden",
+      "fineSubject": "Personal Experiences",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1990,
+      "endSec": 2440,
+      "durationSec": 450,
+      "topic": "Internet ins Haus",
+      "fineSubject": "Internet",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2440,
+      "endSec": 3329,
+      "durationSec": 889,
+      "topic": "Smart Home",
+      "fineSubject": "Smart Home",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3329,
+      "endSec": 4390,
+      "durationSec": 1061,
+      "topic": "Bezahlen im Web",
+      "fineSubject": "Online Payments",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 4390,
+      "endSec": 5168,
+      "durationSec": 778,
+      "topic": "Finanzierungsplattformen",
+      "fineSubject": "Crowdfunding",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5168,
+      "endSec": 6547,
+      "durationSec": 1379,
+      "topic": "Podlove Web Player 5 und WordPress",
+      "fineSubject": "Podcasting",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6547,
+      "endSec": 8248,
+      "durationSec": 1701,
+      "topic": "Podlove Publisher und Shownotes",
+      "fineSubject": "Podcasting",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8249,
+      "endSec": 10070,
+      "durationSec": 1821,
+      "topic": "Podlove Radiator",
+      "fineSubject": "Podcasting",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10071,
+      "endSec": 10433,
+      "durationSec": 362,
+      "topic": "Betreutes Programmieren und Elixir",
+      "fineSubject": "Programming",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Events",
+      "startSec": 10433,
+      "endSec": 10718,
+      "durationSec": 285,
+      "topic": "bobconf",
+      "fineSubject": "Conferences",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14167,
+      "endSec": 14480,
+      "durationSec": 313,
+      "topic": "Dennis am Mac",
+      "fineSubject": "Computers",
+      "topicIndex": 17
+    }
+  ]
+}

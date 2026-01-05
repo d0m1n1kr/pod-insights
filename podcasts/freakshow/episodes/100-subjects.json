@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 100,
+  "title": "MM100 Lemon Soaked Paper Napkins",
+  "generatedAt": "2026-01-05T15:17:51.070Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2920487106017192,
+      "Software": 0.3398997134670487,
+      "Hardware": 0.1729942693409742,
+      "Finance": 0.05365329512893983,
+      "Media": 0.11891117478510028,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.022492836676217765,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4077,
+      "Software": 4745,
+      "Hardware": 2415,
+      "Finance": 749,
+      "Media": 1660,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 314,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 6,
+      "Hardware": 2,
+      "Finance": 1,
+      "Media": 3,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13960,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Finance",
+      "startSec": 680,
+      "endSec": 1429,
+      "durationSec": 749,
+      "topic": "BitCoin",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1429,
+      "endSec": 2075,
+      "durationSec": 646,
+      "topic": "Semantic Web",
+      "fineSubject": "Web",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2075,
+      "endSec": 3150,
+      "durationSec": 1075,
+      "topic": "Nokia Maps",
+      "fineSubject": "Mapping",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 3150,
+      "endSec": 4070,
+      "durationSec": 920,
+      "topic": "Podcasting",
+      "fineSubject": "Podcasting",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 4070,
+      "endSec": 4260,
+      "durationSec": 190,
+      "topic": "Podlove Podcast Publisher und Web Player",
+      "fineSubject": "Podcasting Tools",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 4260,
+      "endSec": 4830,
+      "durationSec": 570,
+      "topic": "C Headers",
+      "fineSubject": "C Language",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4830,
+      "endSec": 4966,
+      "durationSec": 136,
+      "topic": "Streamabbruch Erklärung",
+      "fineSubject": "Streaming",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 4966,
+      "endSec": 5280,
+      "durationSec": 314,
+      "topic": "Eröffnung AppleStore und Flughafen Berlin",
+      "fineSubject": "Retail",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 5280,
+      "endSec": 5830,
+      "durationSec": 550,
+      "topic": "Podcast mit Insightful Content - App.net",
+      "fineSubject": "Content Platforms",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5830,
+      "endSec": 6090,
+      "durationSec": 260,
+      "topic": "Streaming",
+      "fineSubject": "Streaming",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6090,
+      "endSec": 7485,
+      "durationSec": 1395,
+      "topic": "(Max') Drucker",
+      "fineSubject": "Printers",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 7485,
+      "endSec": 9000,
+      "durationSec": 1515,
+      "topic": "Softwareupdates",
+      "fineSubject": "Updates",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9000,
+      "endSec": 10020,
+      "durationSec": 1020,
+      "topic": "Mobilgeräte",
+      "fineSubject": "Mobile Devices",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10020,
+      "endSec": 10790,
+      "durationSec": 770,
+      "topic": "Siri und KI",
+      "fineSubject": "AI",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 10790,
+      "endSec": 11280,
+      "durationSec": 490,
+      "topic": "Safari",
+      "fineSubject": "Web Browsers",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 11280,
+      "endSec": 12280,
+      "durationSec": 1000,
+      "topic": "Android Jellybean vs. iOS",
+      "fineSubject": "Mobile OS",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12280,
+      "endSec": 13470,
+      "durationSec": 1190,
+      "topic": "Amazon Cloud Storage",
+      "fineSubject": "Storage",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Software",
+      "startSec": 13470,
+      "endSec": 14070,
+      "durationSec": 600,
+      "topic": "Versionkontrolle",
+      "fineSubject": "Version Control",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 14070,
+      "endSec": 14640,
+      "durationSec": 570,
+      "topic": "Kalender und AppStore",
+      "fineSubject": "Calendars",
+      "topicIndex": 18
+    }
+  ]
+}

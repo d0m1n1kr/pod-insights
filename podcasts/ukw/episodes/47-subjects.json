@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 47,
+  "title": "UKW047 Corona Weekly: Space Karen",
+  "generatedAt": "2026-01-05T15:18:03.009Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9839557006957262,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0.016044299304273747,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 6930,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 113,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 14,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7043,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 112,
+      "endSec": 219,
+      "durationSec": 107,
+      "topic": "Situation International",
+      "fineSubject": "COVID-19",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 219,
+      "endSec": 1090,
+      "durationSec": 871,
+      "topic": "Situation in Europa",
+      "fineSubject": "COVID-19",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1091,
+      "endSec": 1658,
+      "durationSec": 567,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1659,
+      "endSec": 2107,
+      "durationSec": 448,
+      "topic": "Geändertes Testregime",
+      "fineSubject": "Testing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2108,
+      "endSec": 2342,
+      "durationSec": 234,
+      "topic": "Situation in Berlin",
+      "fineSubject": "COVID-19",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2342,
+      "endSec": 2618,
+      "durationSec": 276,
+      "topic": "Intensivregister",
+      "fineSubject": "Healthcare System",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2619,
+      "endSec": 2841,
+      "durationSec": 222,
+      "topic": "Ergebnisse der Ministerpräsidentenkonferenz",
+      "fineSubject": "Policy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2841,
+      "endSec": 3717,
+      "durationSec": 876,
+      "topic": "Auswirkungen von Maßnahmen (NPIs) auf R",
+      "fineSubject": "Impact of Measures",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3718,
+      "endSec": 4442,
+      "durationSec": 724,
+      "topic": "Die November-Maßnahmen",
+      "fineSubject": "Policy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4442,
+      "endSec": 5158,
+      "durationSec": 716,
+      "topic": "Neues von den Impfstoffen",
+      "fineSubject": "Vaccines",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 5159,
+      "endSec": 5306,
+      "durationSec": 147,
+      "topic": "N95 Masken",
+      "fineSubject": "Personal Protective Equipment",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 5307,
+      "endSec": 5606,
+      "durationSec": 299,
+      "topic": "Schnelltests und Space Karen",
+      "fineSubject": "Testing",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5606,
+      "endSec": 6129,
+      "durationSec": 523,
+      "topic": "Ablehnung der Corona-Warn-App",
+      "fineSubject": "Technology",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 6130,
+      "endSec": 7050,
+      "durationSec": 920,
+      "topic": "Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 7051,
+      "endSec": 7164,
+      "durationSec": 113,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 14
+    }
+  ]
+}

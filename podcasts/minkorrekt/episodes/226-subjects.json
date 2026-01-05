@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 226,
+  "title": "Mi226 – „Warm unterm Aluhut“",
+  "generatedAt": "2026-01-05T15:18:17.375Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.1246995994659546,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.018691588785046728,
+      "Technology": 0.39292389853137516,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.17156208277703605,
+      "Social": 0.29212283044058746,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 934,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 140,
+      "Technology": 2943,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1285,
+      "Social": 2188,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 2,
+      "Biology": 0
+    },
+    "totalDurationSec": 7490,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Education",
+      "startSec": 508,
+      "endSec": 1793,
+      "durationSec": 1285,
+      "topic": "Lehrerfortbildung",
+      "fineSubject": "Teacher Training",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1793,
+      "endSec": 2123,
+      "durationSec": 330,
+      "topic": "Humor in der Wissenschaft",
+      "fineSubject": "Humor",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2250,
+      "endSec": 3009,
+      "durationSec": 759,
+      "topic": "Bahnlob",
+      "fineSubject": "Railways",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 3104,
+      "endSec": 3244,
+      "durationSec": 140,
+      "topic": "Kommentar Alkoholeinlauf",
+      "fineSubject": "Alcohol",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3244,
+      "endSec": 3330,
+      "durationSec": 86,
+      "topic": "Themen der Woche",
+      "fineSubject": "Weekly Topics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3330,
+      "endSec": 5432,
+      "durationSec": 2102,
+      "topic": "Thema 1: “Die blaue Stasi Pille”",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5432,
+      "endSec": 7616,
+      "durationSec": 2184,
+      "topic": "Thema 2: \"Digitales Öl\"",
+      "fineSubject": "Digital Resources",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 7616,
+      "endSec": 8130,
+      "durationSec": 514,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 11249,
+      "endSec": 11339,
+      "durationSec": 90,
+      "topic": "Audiokommentar Flüssiggas Patrick",
+      "fineSubject": "Liquefied Gas",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Science",
+      "startSec": 11339,
+      "endSec": 11339,
+      "durationSec": 0,
+      "topic": "Kommentar Wasserstoff Raphael",
+      "fineSubject": "Hydrogen",
+      "topicIndex": 11
+    }
+  ]
+}

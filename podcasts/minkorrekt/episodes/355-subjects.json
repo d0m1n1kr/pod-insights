@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 355,
+  "title": "Mi355 – \"shadow hidden irgendwatt\"",
+  "generatedAt": "2026-01-05T15:18:17.393Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.058684943242664385,
+      "Culture": 0.2223174127222103,
+      "Wissenschaft": 0,
+      "Health": 0.47633326194045833,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.24266438209466695,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 274,
+      "Culture": 1038,
+      "Wissenschaft": 0,
+      "Health": 2224,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1133,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4669,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 220,
+      "endSec": 500,
+      "durationSec": 280,
+      "topic": "eMpirie",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 500,
+      "endSec": 623,
+      "durationSec": 123,
+      "topic": "Spezialauftritt in Duisburg",
+      "fineSubject": "Local",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 623,
+      "endSec": 1258,
+      "durationSec": 635,
+      "topic": "Besuch Stauder Brauerei",
+      "fineSubject": "Brewery",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Education",
+      "startSec": 1415,
+      "endSec": 2548,
+      "durationSec": 1133,
+      "topic": "Wissenstransfer und Wissensmanagement",
+      "fineSubject": "Knowledge Management",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4209,
+      "endSec": 4483,
+      "durationSec": 274,
+      "topic": "Science Snack",
+      "fineSubject": "Education",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4483,
+      "endSec": 6072,
+      "durationSec": 1589,
+      "topic": "Thema 2: \"Gut Schmelz will Weile haben\"",
+      "fineSubject": "Cooking",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6072,
+      "endSec": 6707,
+      "durationSec": 635,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Humor",
+      "topicIndex": 8
+    }
+  ]
+}

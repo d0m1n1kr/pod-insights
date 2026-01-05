@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 429,
+  "title": "LNP429 Endlich sind wir am Anfang angekommen",
+  "generatedAt": "2026-01-05T15:17:57.632Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.7180232558139535,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.2819767441860465,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 3458,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1358,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4816,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 130,
+      "endSec": 1488,
+      "durationSec": 1358,
+      "topic": "Elon Musk will Twitter kaufen",
+      "fineSubject": "Social Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1489,
+      "endSec": 2638,
+      "durationSec": 1149,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2638,
+      "endSec": 4947,
+      "durationSec": 2309,
+      "topic": "Digital Services Act im Trilog",
+      "fineSubject": "Digital Services",
+      "topicIndex": 2
+    }
+  ]
+}

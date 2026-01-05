@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 443,
+  "title": "LNP443 Auf YOLO konfigurieren",
+  "generatedAt": "2026-01-05T15:17:57.635Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 5718,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 7,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5718,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 183,
+      "endSec": 438,
+      "durationSec": 255,
+      "topic": "Digitalisierung des Gesundheitswesens / Gematik",
+      "fineSubject": "Health / Gematik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 438,
+      "endSec": 950,
+      "durationSec": 512,
+      "topic": "Die Gesundheitskarte (eGK)",
+      "fineSubject": "Health / eGK",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 951,
+      "endSec": 2055,
+      "durationSec": 1104,
+      "topic": "Elektronische Patientenakte (ePA)",
+      "fineSubject": "Health / ePA",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2056,
+      "endSec": 2525,
+      "durationSec": 469,
+      "topic": "Akzeptanz und Nutzen des Gesamtsystems",
+      "fineSubject": "Health / Overall System",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2526,
+      "endSec": 3914,
+      "durationSec": 1388,
+      "topic": "Konnektoren mit Verfallsdatum",
+      "fineSubject": "Health / Connectors",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3914,
+      "endSec": 5103,
+      "durationSec": 1189,
+      "topic": "Der Konnektor-Hack",
+      "fineSubject": "Health / Connector Hack",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5104,
+      "endSec": 5905,
+      "durationSec": 801,
+      "topic": "Hack-Nebeneffekte",
+      "fineSubject": "Health / Hack Side Effects",
+      "topicIndex": 6
+    }
+  ]
+}

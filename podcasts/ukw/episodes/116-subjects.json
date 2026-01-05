@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 116,
+  "title": "UKW116 Ukraine: Tod den Hubschraubern",
+  "generatedAt": "2026-01-05T15:18:03.029Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.5946687573500588,
+      "Military": 0,
+      "Technology": 0.3561348490787926,
+      "Economics": 0.04919639357114857,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 3034,
+      "Military": 0,
+      "Technology": 1817,
+      "Economics": 251,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 5,
+      "Military": 0,
+      "Technology": 2,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5102,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 112,
+      "endSec": 696,
+      "durationSec": 584,
+      "topic": "Stand der Ukrainischen Gegenoffensive",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 696,
+      "endSec": 1414,
+      "durationSec": 718,
+      "topic": "Angriff auf Avdiivka",
+      "fineSubject": "Military Operations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1799,
+      "endSec": 2251,
+      "durationSec": 452,
+      "topic": "UA-Vorstöße bei Cherson",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2252,
+      "endSec": 3786,
+      "durationSec": 1534,
+      "topic": "ATACMS im Einsatz",
+      "fineSubject": "Military Equipment",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3786,
+      "endSec": 4069,
+      "durationSec": 283,
+      "topic": "Erfolg bestimmter Waffensysteme",
+      "fineSubject": "Military Equipment",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4070,
+      "endSec": 4285,
+      "durationSec": 215,
+      "topic": "Anpassung der russischen Taktik",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Economics",
+      "startSec": 4285,
+      "endSec": 4536,
+      "durationSec": 251,
+      "topic": "Leck an Finnisch-Estnischer-Gaspipeline",
+      "fineSubject": "Energy Supply",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4537,
+      "endSec": 5602,
+      "durationSec": 1065,
+      "topic": "Ausblick auf den Herbst und Winter",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 56,
+  "title": "UKW056 Brexit: Alle unsere Regale sind voll",
+  "generatedAt": "2026-01-05T15:18:03.013Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.6088848594741614,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.3095194922937443,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.0815956482320943,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 3358,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1707,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 450,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 12,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 2,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5515,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 67,
+      "endSec": 252,
+      "durationSec": 185,
+      "topic": "Brexit has come",
+      "fineSubject": "Brexit",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 253,
+      "endSec": 693,
+      "durationSec": 440,
+      "topic": "Das Ende der Verhandlungen",
+      "fineSubject": "Brexit Negotiations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 693,
+      "endSec": 800,
+      "durationSec": 107,
+      "topic": "Der Deal",
+      "fineSubject": "Brexit Deal",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 801,
+      "endSec": 1085,
+      "durationSec": 284,
+      "topic": "Beschränkungen der Bewegungsfreiheit",
+      "fineSubject": "Freedom of Movement",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1086,
+      "endSec": 2564,
+      "durationSec": 1478,
+      "topic": "Warenverkehr",
+      "fineSubject": "Trade",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2564,
+      "endSec": 2793,
+      "durationSec": 229,
+      "topic": "Dienstleistungen",
+      "fineSubject": "Services",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Society",
+      "startSec": 2794,
+      "endSec": 3079,
+      "durationSec": 285,
+      "topic": "Erasmus und Horizon",
+      "fineSubject": "Erasmus Program",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Society",
+      "startSec": 3079,
+      "endSec": 3244,
+      "durationSec": 165,
+      "topic": "Teilnahme anderen Programmen",
+      "fineSubject": "International Programs",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3244,
+      "endSec": 3531,
+      "durationSec": 287,
+      "topic": "Die Zukunft von Großbritannien",
+      "fineSubject": "Future of the UK",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3532,
+      "endSec": 4127,
+      "durationSec": 595,
+      "topic": "Situation in Nordirland",
+      "fineSubject": "Northern Ireland",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4127,
+      "endSec": 4245,
+      "durationSec": 118,
+      "topic": "Gibraltar und Overseas Territories",
+      "fineSubject": "Gibraltar",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4246,
+      "endSec": 4426,
+      "durationSec": 180,
+      "topic": "interessen der Tories",
+      "fineSubject": "Political Interests",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4427,
+      "endSec": 4995,
+      "durationSec": 568,
+      "topic": "Unabhändigkeit von Schottland",
+      "fineSubject": "Scottish Independence",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4995,
+      "endSec": 5330,
+      "durationSec": 335,
+      "topic": "Die nationale Delusion",
+      "fineSubject": "National Delusion",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5330,
+      "endSec": 5474,
+      "durationSec": 144,
+      "topic": "Situation in Wales",
+      "fineSubject": "Wales",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5475,
+      "endSec": 5590,
+      "durationSec": 115,
+      "topic": "Dynamik der Entwicklung",
+      "fineSubject": "Development Dynamics",
+      "topicIndex": 15
+    }
+  ]
+}

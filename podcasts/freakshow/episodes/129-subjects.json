@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 129,
+  "title": "FS129 Einfach mal die Internet-Schnauze halten",
+  "generatedAt": "2026-01-05T15:17:51.075Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.03359580052493438,
+      "Software": 0.5516310461192351,
+      "Hardware": 0.08361454818147732,
+      "Finance": 0.26186726659167603,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.06929133858267716,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 448,
+      "Software": 7356,
+      "Hardware": 1115,
+      "Finance": 3492,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 924,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 6,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13335,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 660,
+      "endSec": 1555,
+      "durationSec": 895,
+      "topic": "Kompression",
+      "fineSubject": "Kompression",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1555,
+      "endSec": 3952,
+      "durationSec": 2397,
+      "topic": "Progammiersprachenentwicklungen und Parserbau",
+      "fineSubject": "Programmiersprachen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3952,
+      "endSec": 7444,
+      "durationSec": 3492,
+      "topic": "Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 7444,
+      "endSec": 8368,
+      "durationSec": 924,
+      "topic": "Facebook kauft Oculus Rift",
+      "fineSubject": "Akquisition",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 8368,
+      "endSec": 10301,
+      "durationSec": 1933,
+      "topic": "keybase.io",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 10301,
+      "endSec": 11002,
+      "durationSec": 701,
+      "topic": "zsh",
+      "fineSubject": "Shell",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 11002,
+      "endSec": 11514,
+      "durationSec": 512,
+      "topic": "hukls Soundcloud Klon",
+      "fineSubject": "Plattformen",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11514,
+      "endSec": 11962,
+      "durationSec": 448,
+      "topic": "Multipeer Connectivity",
+      "fineSubject": "Multipeer Connectivity",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11962,
+      "endSec": 13077,
+      "durationSec": 1115,
+      "topic": "Hardwarebastel",
+      "fineSubject": "Basteln",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 13077,
+      "endSec": 13995,
+      "durationSec": 918,
+      "topic": "Mozilla",
+      "fineSubject": "Browser",
+      "topicIndex": 9
+    }
+  ]
+}

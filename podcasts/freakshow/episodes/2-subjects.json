@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 2,
+  "title": "MM002 Pwnage",
+  "generatedAt": "2026-01-05T15:17:51.054Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.09770768980653552,
+      "Software": 0.7478458787189075,
+      "Hardware": 0.15444643147455697,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 601,
+      "Software": 4600,
+      "Hardware": 950,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 4,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 6151,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "iPhone 2G und Stores (aus Amerika)",
+      "fineSubject": "iPhone",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 0,
+      "endSec": 210,
+      "durationSec": 210,
+      "topic": "Macbook Air",
+      "fineSubject": "Macbook",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 210,
+      "endSec": 2100,
+      "durationSec": 1890,
+      "topic": "Pwnage",
+      "fineSubject": "Pwnage",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 2100,
+      "endSec": 2700,
+      "durationSec": 600,
+      "topic": "iTunes",
+      "fineSubject": "iTunes",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2700,
+      "endSec": 3440,
+      "durationSec": 740,
+      "topic": "Republica und Asus Eee PC",
+      "fineSubject": "Asus Eee PC",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 3440,
+      "endSec": 5160,
+      "durationSec": 1720,
+      "topic": "ZFS",
+      "fineSubject": "ZFS",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 5160,
+      "endSec": 5550,
+      "durationSec": 390,
+      "topic": "MacFuse und Amazon S3",
+      "fineSubject": "MacFuse",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5550,
+      "endSec": 6151,
+      "durationSec": 601,
+      "topic": "64-Bit",
+      "fineSubject": "64-Bit",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 293,
+  "title": "Mi293 – \"Ringpodcast\"",
+  "generatedAt": "2026-01-05T15:18:17.383Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.07742584213172449,
+      "Culture": 0.2379336349924585,
+      "Wissenschaft": 0,
+      "Health": 0.43916540975364504,
+      "Technology": 0.048768225238813474,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.08697838109602815,
+      "Physik": 0,
+      "Education": 0.10972850678733032,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 616,
+      "Culture": 1893,
+      "Wissenschaft": 0,
+      "Health": 3494,
+      "Technology": 388,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 692,
+      "Physik": 0,
+      "Education": 873,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 7956,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 118,
+      "endSec": 1442,
+      "durationSec": 1324,
+      "topic": "Ostern mit Reha und Corona",
+      "fineSubject": "Rehabilitation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1442,
+      "endSec": 1566,
+      "durationSec": 124,
+      "topic": "Solaris Hörspiel",
+      "fineSubject": "Audio Drama",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1566,
+      "endSec": 1865,
+      "durationSec": 299,
+      "topic": "Das drei Körper Problem",
+      "fineSubject": "Physics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Education",
+      "startSec": 1865,
+      "endSec": 2738,
+      "durationSec": 873,
+      "topic": "Klimaringvorlesung",
+      "fineSubject": "Lectures",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2738,
+      "endSec": 3126,
+      "durationSec": 388,
+      "topic": "Kommentar Tobias Notfall-App",
+      "fineSubject": "Apps",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3126,
+      "endSec": 5296,
+      "durationSec": 2170,
+      "topic": "Thema 1: “KI Bier”",
+      "fineSubject": "Beverages",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 5296,
+      "endSec": 5613,
+      "durationSec": 317,
+      "topic": "Snackable Science",
+      "fineSubject": "Research",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5613,
+      "endSec": 6447,
+      "durationSec": 834,
+      "topic": "Thema 2: \"Die Apokalypse …\"",
+      "fineSubject": "Apocalypse",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6447,
+      "endSec": 7506,
+      "durationSec": 1059,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 7672,
+      "endSec": 8240,
+      "durationSec": 568,
+      "topic": "Audiokommentar Simon",
+      "fineSubject": "Comments",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "episodeNumber": 171,
+  "title": "CRE171 Die Eisenbahn",
+  "generatedAt": "2026-01-05T15:17:54.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.6,
+      "Politics": 0.1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0.3
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 6,
+      "Politics": 1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 3
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Stromsysteme",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Sicherheit",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheit und Streckenblöcke",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Regulierung",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Sicherheit",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Schutzweichen",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zugbremsung",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Räder",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Sicherheit",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sicherheitssysteme",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Automatische Bremssysteme",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Globale Technologie der Eisenbahn",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Internet im Zug",
+      "fineSubject": "Eisenbahn",
+      "topicIndex": 16,
+      "untimed": true
+    }
+  ]
+}

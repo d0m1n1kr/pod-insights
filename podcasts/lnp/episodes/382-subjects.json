@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 382,
+  "title": "LNP382 Das ganz grobe Feingefühl",
+  "generatedAt": "2026-01-05T15:17:57.626Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.148940816772221,
+      "Law": 0.45512120550338503,
+      "Security": 0.13605590740336318,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.022057217733129506,
+      "Feedback": 0.0995850622406639,
+      "Legal": 0,
+      "Business": 0.02402271238261629,
+      "Privacy": 0.11421707796462109,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 682,
+      "Law": 2084,
+      "Security": 623,
+      "Social": 0,
+      "Media": 0,
+      "Health": 101,
+      "Feedback": 456,
+      "Legal": 0,
+      "Business": 110,
+      "Privacy": 523,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 2,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 2,
+      "Culture": 0
+    },
+    "totalDurationSec": 4579,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 189,
+      "endSec": 275,
+      "durationSec": 86,
+      "topic": "Feedback: Wohnwagen shorten",
+      "fineSubject": "Wohnwagen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 276,
+      "endSec": 646,
+      "durationSec": 370,
+      "topic": "Feedback: Emotet-Takedown",
+      "fineSubject": "Emotet",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 646,
+      "endSec": 918,
+      "durationSec": 272,
+      "topic": "Reclaim Your Face!",
+      "fineSubject": "Gesichtserkennung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 919,
+      "endSec": 1639,
+      "durationSec": 720,
+      "topic": "Anhörung IT-Sicherheitsgesetz",
+      "fineSubject": "IT-Sicherheitsgesetz",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1639,
+      "endSec": 2060,
+      "durationSec": 421,
+      "topic": "Anhörung BND-Gesetz",
+      "fineSubject": "BND-Gesetz",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2970,
+      "endSec": 3913,
+      "durationSec": 943,
+      "topic": "Linksteuer in Australien",
+      "fineSubject": "Linksteuer",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3914,
+      "endSec": 4596,
+      "durationSec": 682,
+      "topic": "Hiring-AI hat die zu erwartenden Vorurteile",
+      "fineSubject": "Vorurteile",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4596,
+      "endSec": 4847,
+      "durationSec": 251,
+      "topic": "US-Polizei nutzt ring-Videoaufnahmen",
+      "fineSubject": "US-Polizei",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 4848,
+      "endSec": 5139,
+      "durationSec": 291,
+      "topic": "Trinkwasser-Hack in Oldsmar",
+      "fineSubject": "Trinkwasser-Hack",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Business",
+      "startSec": 5139,
+      "endSec": 5249,
+      "durationSec": 110,
+      "topic": "GameStop aftermath",
+      "fineSubject": "GameStop",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 5249,
+      "endSec": 5581,
+      "durationSec": 332,
+      "topic": "USA klagen nordkoreanische Hacker an",
+      "fineSubject": "nordkoreanische Hacker",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5582,
+      "endSec": 5683,
+      "durationSec": 101,
+      "topic": "Immunitätsausweis",
+      "fineSubject": "Immunitätsausweis",
+      "topicIndex": 13
+    }
+  ]
+}

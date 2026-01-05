@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 402,
+  "title": "LNP402 Katastrophe Pro",
+  "generatedAt": "2026-01-05T15:17:57.628Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.23741252773510838,
+      "Technology": 0.07851169141491722,
+      "Law": 0.1621437105308073,
+      "Security": 0.3425499231950845,
+      "Social": 0,
+      "Media": 0.010582010582010581,
+      "Health": 0.16880013654207202,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1391,
+      "Technology": 460,
+      "Law": 950,
+      "Security": 2007,
+      "Social": 0,
+      "Media": 62,
+      "Health": 989,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 4,
+      "Social": 0,
+      "Media": 1,
+      "Health": 3,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5859,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 591,
+      "endSec": 1362,
+      "durationSec": 771,
+      "topic": "Feedback: Warnsysteme",
+      "fineSubject": "Feedback / Systems",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1362,
+      "endSec": 1557,
+      "durationSec": 195,
+      "topic": "Feedback: Telematikinfrastruktur in Apotheken",
+      "fineSubject": "Feedback / Pharmacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1558,
+      "endSec": 1809,
+      "durationSec": 251,
+      "topic": "Feedback: Impfzertikate zurückziehen",
+      "fineSubject": "Feedback / Vaccination",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1810,
+      "endSec": 1939,
+      "durationSec": 129,
+      "topic": "Feedback: NSO Pegasus",
+      "fineSubject": "Feedback / Software",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1939,
+      "endSec": 2001,
+      "durationSec": 62,
+      "topic": "Kino-Termine für Alles ist eins",
+      "fineSubject": "Release / Events",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2002,
+      "endSec": 2952,
+      "durationSec": 950,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Privacy / Chat",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2952,
+      "endSec": 4343,
+      "durationSec": 1391,
+      "topic": "CDU zeigt Sicherheitsforscherin an",
+      "fineSubject": "Incident / Reporting",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4343,
+      "endSec": 4886,
+      "durationSec": 543,
+      "topic": "UHG-Reform tritt in Kraft",
+      "fineSubject": "Legislation / Implementation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4886,
+      "endSec": 5346,
+      "durationSec": 460,
+      "topic": "Sony vs. Quad9",
+      "fineSubject": "Dispute / Legal",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 5347,
+      "endSec": 6263,
+      "durationSec": 916,
+      "topic": "Kaseya / REvil",
+      "fineSubject": "Ransomware / Attacks",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Security",
+      "startSec": 6264,
+      "endSec": 6455,
+      "durationSec": 191,
+      "topic": "Hack Anhalt-Bitterfeld",
+      "fineSubject": "Hacking / Local",
+      "topicIndex": 10
+    }
+  ]
+}

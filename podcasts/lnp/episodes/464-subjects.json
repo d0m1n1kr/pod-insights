@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 464,
+  "title": "LNP464 Nur wenn dafür Parkplätze wegfallen",
+  "generatedAt": "2026-01-05T15:17:57.637Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3333333333333333,
+      "Technology": 0.08454987834549878,
+      "Law": 0.3610097323600973,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.06204379562043796,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.1590632603406326,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1096,
+      "Technology": 278,
+      "Law": 1187,
+      "Security": 0,
+      "Social": 0,
+      "Media": 204,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 523,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3288,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 865,
+      "endSec": 1709,
+      "durationSec": 844,
+      "topic": "Feedback: Letzte Generation",
+      "fineSubject": "Social Movements",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1709,
+      "endSec": 1876,
+      "durationSec": 167,
+      "topic": "Feedback: eIDAS",
+      "fineSubject": "Regulations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1877,
+      "endSec": 2081,
+      "durationSec": 204,
+      "topic": "Feedback: linksunten",
+      "fineSubject": "Community Guidelines",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2082,
+      "endSec": 2193,
+      "durationSec": 111,
+      "topic": "Feedback: Cell Broadcast",
+      "fineSubject": "Emergency Services",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2193,
+      "endSec": 2651,
+      "durationSec": 458,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Privacy Issues",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2652,
+      "endSec": 3381,
+      "durationSec": 729,
+      "topic": "Meta vs. DSGVO",
+      "fineSubject": "Compliance",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3382,
+      "endSec": 3634,
+      "durationSec": 252,
+      "topic": "BSI wird weniger unabhängig",
+      "fineSubject": "Independence",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 3635,
+      "endSec": 4158,
+      "durationSec": 523,
+      "topic": "Jobs",
+      "fineSubject": "Job Market",
+      "topicIndex": 8
+    }
+  ]
+}

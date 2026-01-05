@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 90,
+  "title": "LNP090 Vorratsdatenspeicherungssprachregelung",
+  "generatedAt": "2026-01-05T15:17:57.587Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2680158621632709,
+      "Technology": 0.3470531929440722,
+      "Law": 0.28934773690687815,
+      "Security": 0.09558320798577875,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1960,
+      "Technology": 2538,
+      "Law": 2116,
+      "Security": 699,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7313,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 80,
+      "endSec": 2618,
+      "durationSec": 2538,
+      "topic": "Das Internet ist kaputt",
+      "fineSubject": "Internet Issues",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2619,
+      "endSec": 3793,
+      "durationSec": 1174,
+      "topic": "Obama-Rede",
+      "fineSubject": "Speeches",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3793,
+      "endSec": 4579,
+      "durationSec": 786,
+      "topic": "Netzneutralität in den USA gekippt",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 4579,
+      "endSec": 5494,
+      "durationSec": 915,
+      "topic": "Einigung auf Sprachregelung bei der Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 5495,
+      "endSec": 6194,
+      "durationSec": 699,
+      "topic": "16 Mio Email-Konten \"geklaut\"",
+      "fineSubject": "Data Breaches",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 6194,
+      "endSec": 6954,
+      "durationSec": 760,
+      "topic": "Porno-Abmahnungen",
+      "fineSubject": "Copyright Issues",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 6955,
+      "endSec": 7396,
+      "durationSec": 441,
+      "topic": "#Zensurheberrecht",
+      "fineSubject": "Censorship",
+      "topicIndex": 6
+    }
+  ]
+}

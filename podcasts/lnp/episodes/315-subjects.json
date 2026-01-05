@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 315,
+  "title": "LNP315 Rebellionstinder",
+  "generatedAt": "2026-01-05T15:17:57.616Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1976602485985864,
+      "Technology": 0.15305873750913965,
+      "Law": 0,
+      "Security": 0.07189861077260541,
+      "Social": 0.4467462832074092,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.13063611991225932,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 811,
+      "Technology": 628,
+      "Law": 0,
+      "Security": 295,
+      "Social": 1833,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 536,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4103,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 132,
+      "endSec": 1965,
+      "durationSec": 1833,
+      "topic": "Unser Feind sind wir",
+      "fineSubject": "Self-Reflection",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1965,
+      "endSec": 2776,
+      "durationSec": 811,
+      "topic": "USA wollen E2E einschränken",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2777,
+      "endSec": 3405,
+      "durationSec": 628,
+      "topic": "Apple bannt vorübergehend HKmap.live",
+      "fineSubject": "App Regulation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 3405,
+      "endSec": 3700,
+      "durationSec": 295,
+      "topic": "BSI warnt, Parteien seien im Visier von Hackern",
+      "fineSubject": "Cyber Threats",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 3700,
+      "endSec": 4236,
+      "durationSec": 536,
+      "topic": "PayPal steigt bei Libra aus",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 4
+    }
+  ]
+}

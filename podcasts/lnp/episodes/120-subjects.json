@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 120,
+  "title": "LNP120 Widerrufliche Gratiseinwilligung",
+  "generatedAt": "2026-01-05T15:17:57.590Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.24408783783783783,
+      "Technology": 0.25,
+      "Law": 0.3640202702702703,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.14189189189189189,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 867,
+      "Technology": 888,
+      "Law": 1293,
+      "Security": 0,
+      "Social": 0,
+      "Media": 504,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3552,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 124,
+      "endSec": 755,
+      "durationSec": 631,
+      "topic": "Leistungsschutzrecht: VG Media macht Rückzieher",
+      "fineSubject": "Copyright / Leistungsschutzrecht",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 756,
+      "endSec": 1623,
+      "durationSec": 867,
+      "topic": "Internetsteuer in Ungarn",
+      "fineSubject": "Tax / Internetsteuer",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1624,
+      "endSec": 2001,
+      "durationSec": 377,
+      "topic": "EuGH erlaubt YouTube-Embedding",
+      "fineSubject": "Copyright / YouTube-Embedding",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2001,
+      "endSec": 2505,
+      "durationSec": 504,
+      "topic": "KinoX.to",
+      "fineSubject": "Streaming / KinoX",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2506,
+      "endSec": 2791,
+      "durationSec": 285,
+      "topic": "Pirate Bay Mitgründer in Dänemark verurteilt",
+      "fineSubject": "Criminal Law / Pirate Bay",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2791,
+      "endSec": 3679,
+      "durationSec": 888,
+      "topic": "CryptoWars 2.0",
+      "fineSubject": "Security / CryptoWars",
+      "topicIndex": 5
+    }
+  ]
+}

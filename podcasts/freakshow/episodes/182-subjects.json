@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 182,
+  "title": "FS182 Britzelpieps",
+  "generatedAt": "2026-01-05T15:17:51.087Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2723937995503491,
+      "Software": 0.13868181280321856,
+      "Hardware": 0.16305762631641227,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.2709738492486096,
+      "Events": 0.11513430363270619,
+      "Business": 0,
+      "Gaming": 0.0397586084487043,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2302,
+      "Software": 1172,
+      "Hardware": 1378,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 2290,
+      "Events": 973,
+      "Business": 0,
+      "Gaming": 336,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 2,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 2,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 8451,
+    "totalTopics": 23
+  },
+  "timeline": [
+    {
+      "subject": "Gaming",
+      "startSec": 77,
+      "endSec": 413,
+      "durationSec": 336,
+      "topic": "Pokémon Go",
+      "fineSubject": "Pokémon Go",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 834,
+      "endSec": 1614,
+      "durationSec": 780,
+      "topic": "Podcast Apps",
+      "fineSubject": "Podcast Apps",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2103,
+      "endSec": 2324,
+      "durationSec": 221,
+      "topic": "Google As A Fetish",
+      "fineSubject": "Google",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2324,
+      "endSec": 2642,
+      "durationSec": 318,
+      "topic": "Cloud Hype",
+      "fineSubject": "Cloud Computing",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3876,
+      "endSec": 4174,
+      "durationSec": 298,
+      "topic": "Roddi und die Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 5047,
+      "endSec": 6020,
+      "durationSec": 973,
+      "topic": "EMF Camp",
+      "fineSubject": "EMF Camp",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 6020,
+      "endSec": 6412,
+      "durationSec": 392,
+      "topic": "Windows 10",
+      "fineSubject": "Windows 10",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6413,
+      "endSec": 7791,
+      "durationSec": 1378,
+      "topic": "iPhone ohne Kopfhörerbuchse",
+      "fineSubject": "iPhone",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8092,
+      "endSec": 8994,
+      "durationSec": 902,
+      "topic": "Fahrstühle",
+      "fineSubject": "Fahrstühle",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Security",
+      "startSec": 9991,
+      "endSec": 11346,
+      "durationSec": 1355,
+      "topic": "Passwort vergessen",
+      "fineSubject": "Passwort",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Security",
+      "startSec": 11347,
+      "endSec": 12282,
+      "durationSec": 935,
+      "topic": "Alternativen zum Passwort",
+      "fineSubject": "Alternativen zum Passwort",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12282,
+      "endSec": 12525,
+      "durationSec": 243,
+      "topic": "Ausstieg aus der Computertechnologie",
+      "fineSubject": "Computertechnologie",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14367,
+      "endSec": 14687,
+      "durationSec": 320,
+      "topic": "Emerging Technology Hype Cycle",
+      "fineSubject": "Emerging Technology",
+      "topicIndex": 22
+    }
+  ]
+}

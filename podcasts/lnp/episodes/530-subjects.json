@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 530,
+  "title": "LNP530 Wir wollen nur den Internetknopf kaufen",
+  "generatedAt": "2026-01-05T15:17:57.645Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.24807514628888205,
+      "Technology": 0.1890976285802279,
+      "Law": 0,
+      "Security": 0.18370803818909762,
+      "Social": 0.21773945180166307,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.07991992608561749,
+      "Business": 0.08145980905451186,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1611,
+      "Technology": 1228,
+      "Law": 0,
+      "Security": 1193,
+      "Social": 1414,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 519,
+      "Business": 529,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 2,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6494,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 399,
+      "endSec": 1621,
+      "durationSec": 1222,
+      "topic": "MyBoyfriendIsNotChatGPT5",
+      "fineSubject": "Relationships",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1621,
+      "endSec": 2621,
+      "durationSec": 1000,
+      "topic": "KI-Verordnung",
+      "fineSubject": "Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2622,
+      "endSec": 3460,
+      "durationSec": 838,
+      "topic": "Perplexity bietet auf Chrome",
+      "fineSubject": "Browser",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 3460,
+      "endSec": 3989,
+      "durationSec": 529,
+      "topic": "PayPal-Ausfall",
+      "fineSubject": "Payment Systems",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3989,
+      "endSec": 4379,
+      "durationSec": 390,
+      "topic": "Digitale Souveränität",
+      "fineSubject": "Digital Sovereignty",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 4380,
+      "endSec": 5166,
+      "durationSec": 786,
+      "topic": "Cyber Dome",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 5166,
+      "endSec": 5573,
+      "durationSec": 407,
+      "topic": "Sicherheitspaket 2.0",
+      "fineSubject": "Safety Packages",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5573,
+      "endSec": 6184,
+      "durationSec": 611,
+      "topic": "Staatstrojanernutzung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Legal",
+      "startSec": 6184,
+      "endSec": 6703,
+      "durationSec": 519,
+      "topic": "Modern Solution: Verfassungsbeschwerde",
+      "fineSubject": "Constitutional Complaints",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 6703,
+      "endSec": 6895,
+      "durationSec": 192,
+      "topic": "Keine politische Werbung mehr bei Facebook",
+      "fineSubject": "Advertising",
+      "topicIndex": 9
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 251,
+  "title": "Mi251 – \"Fettsack Heldenreise\"",
+  "generatedAt": "2026-01-05T15:18:17.378Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.07993197278911565,
+      "Culture": 0.5082199546485261,
+      "Wissenschaft": 0,
+      "Health": 0.15150226757369614,
+      "Technology": 0.08786848072562359,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.17247732426303855,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 564,
+      "Culture": 3586,
+      "Wissenschaft": 0,
+      "Health": 1069,
+      "Technology": 620,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1217,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 7056,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 541,
+      "endSec": 1610,
+      "durationSec": 1069,
+      "topic": "Sport und Ziele",
+      "fineSubject": "Fitness",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1610,
+      "endSec": 2350,
+      "durationSec": 740,
+      "topic": "Stadtteilwandern",
+      "fineSubject": "Local Exploration",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2350,
+      "endSec": 2970,
+      "durationSec": 620,
+      "topic": "Chat GPT Plagiate",
+      "fineSubject": "AI",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2970,
+      "endSec": 4371,
+      "durationSec": 1401,
+      "topic": "Thema 1: “Perlenkette im Sekt”",
+      "fineSubject": "Art",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4371,
+      "endSec": 4935,
+      "durationSec": 564,
+      "topic": "Snackable Science: Schwarze Löcher",
+      "fineSubject": "Astrophysics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4935,
+      "endSec": 6380,
+      "durationSec": 1445,
+      "topic": "Thema 2: \"Du riechst so gut!\"",
+      "fineSubject": "Scent",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 6380,
+      "endSec": 7597,
+      "durationSec": 1217,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 6
+    }
+  ]
+}

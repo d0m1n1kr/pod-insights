@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 259,
+  "title": "Mi259 – „Mehrgenerationen Spielplatz“",
+  "generatedAt": "2026-01-05T15:18:17.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.05260375363468147,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.5734866508062384,
+      "Technology": 0.0964842717420037,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.2774253238170764,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 398,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 4339,
+      "Technology": 730,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2099,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 3,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 7566,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 608,
+      "endSec": 2094,
+      "durationSec": 1486,
+      "topic": "Morgenroutine nach Huberman",
+      "fineSubject": "Routine",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2094,
+      "endSec": 2824,
+      "durationSec": 730,
+      "topic": "Reini hat ein Fahrrad bestellt",
+      "fineSubject": "Bicycles",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2824,
+      "endSec": 3222,
+      "durationSec": 398,
+      "topic": "Kommentar: Plastikmüll im Meer",
+      "fineSubject": "Pollution",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 3222,
+      "endSec": 4680,
+      "durationSec": 1458,
+      "topic": "Thema 1: “Zeckenmagnet”",
+      "fineSubject": "Ticks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 4680,
+      "endSec": 6075,
+      "durationSec": 1395,
+      "topic": "Experimenteller Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 6075,
+      "endSec": 8174,
+      "durationSec": 2099,
+      "topic": "Thema 2: \"Gruppenbildung\"",
+      "fineSubject": "Group Dynamics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8174,
+      "endSec": 8174,
+      "durationSec": 0,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 6
+    }
+  ]
+}

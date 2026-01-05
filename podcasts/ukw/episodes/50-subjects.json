@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 50,
+  "title": "UKW050 Corona Weekly: Die Chewbacca-Verteidigung",
+  "generatedAt": "2026-01-05T15:18:03.010Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5526,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 10,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5526,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 142,
+      "endSec": 858,
+      "durationSec": 716,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 859,
+      "endSec": 1603,
+      "durationSec": 744,
+      "topic": "Situation in Berlin",
+      "fineSubject": "COVID-19",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1603,
+      "endSec": 2469,
+      "durationSec": 866,
+      "topic": "Robert-Koch-Institut",
+      "fineSubject": "Public Health",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2470,
+      "endSec": 3758,
+      "durationSec": 1288,
+      "topic": "Lockdown is coming",
+      "fineSubject": "COVID-19",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3758,
+      "endSec": 4144,
+      "durationSec": 386,
+      "topic": "Impfstoff Update",
+      "fineSubject": "Vaccination",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4144,
+      "endSec": 4224,
+      "durationSec": 80,
+      "topic": "Aufbau von Impfzentren",
+      "fineSubject": "Vaccination",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4225,
+      "endSec": 4845,
+      "durationSec": 620,
+      "topic": "Wirksamkeit und Nebenwirkungen",
+      "fineSubject": "Vaccination",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4845,
+      "endSec": 5114,
+      "durationSec": 269,
+      "topic": "Weniger anteckende Krankheiten in Deutschland",
+      "fineSubject": "Epidemiology",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5115,
+      "endSec": 5550,
+      "durationSec": 435,
+      "topic": "Vortrag über die Sichtbarkeit des Virus",
+      "fineSubject": "Public Health",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5550,
+      "endSec": 5672,
+      "durationSec": 122,
+      "topic": "Vortrag über Aerosole",
+      "fineSubject": "Public Health",
+      "topicIndex": 9
+    }
+  ]
+}

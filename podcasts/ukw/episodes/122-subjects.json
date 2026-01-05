@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 122,
+  "title": "UKW122 Ukraine: Eskalationsmanagement",
+  "generatedAt": "2026-01-05T15:18:03.032Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.35151006711409394,
+      "Military": 0.5529721955896453,
+      "Technology": 0,
+      "Economics": 0.09551773729626079,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2933,
+      "Military": 4614,
+      "Technology": 0,
+      "Economics": 797,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 5,
+      "Military": 10,
+      "Technology": 0,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8344,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 106,
+      "endSec": 167,
+      "durationSec": 61,
+      "topic": "Überblick",
+      "fineSubject": "Overview",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 168,
+      "endSec": 2751,
+      "durationSec": 2583,
+      "topic": "Militärische Situation",
+      "fineSubject": "Military Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 2751,
+      "endSec": 2861,
+      "durationSec": 110,
+      "topic": "Mobilisierung",
+      "fineSubject": "Mobilization",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 2862,
+      "endSec": 2943,
+      "durationSec": 81,
+      "topic": "Neue Waffensysteme",
+      "fineSubject": "New Weapon Systems",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 2943,
+      "endSec": 3512,
+      "durationSec": 569,
+      "topic": "F16-Kampfjets",
+      "fineSubject": "F16 Fighter Jets",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 3513,
+      "endSec": 3638,
+      "durationSec": 125,
+      "topic": "Mirage 2000-5 aus Frankreich",
+      "fineSubject": "Mirage 2000-5 from France",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 3639,
+      "endSec": 3918,
+      "durationSec": 279,
+      "topic": "Weitere Bombensysteme auf beiden Seiten",
+      "fineSubject": "Bombing Systems",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 3919,
+      "endSec": 3992,
+      "durationSec": 73,
+      "topic": "Drone vs Drone",
+      "fineSubject": "Drone Warfare",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Military",
+      "startSec": 3992,
+      "endSec": 4185,
+      "durationSec": 193,
+      "topic": "Seedrohnen",
+      "fineSubject": "Seed Drones",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 4186,
+      "endSec": 4348,
+      "durationSec": 162,
+      "topic": "Luftabwehrsysteme",
+      "fineSubject": "Air Defense Systems",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Military",
+      "startSec": 4348,
+      "endSec": 4787,
+      "durationSec": 439,
+      "topic": "NATO-Soldaten in die Ukraine",
+      "fineSubject": "NATO Soldiers in Ukraine",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4787,
+      "endSec": 5221,
+      "durationSec": 434,
+      "topic": "Friedenskonferenz in der Schweiz",
+      "fineSubject": "Peace Conference",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Economics",
+      "startSec": 5222,
+      "endSec": 5759,
+      "durationSec": 537,
+      "topic": "Wirtschaftliche Situation in Russland",
+      "fineSubject": "Economic Situation in Russia",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5759,
+      "endSec": 6695,
+      "durationSec": 936,
+      "topic": "Russland und China",
+      "fineSubject": "Russia and China",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6696,
+      "endSec": 7177,
+      "durationSec": 481,
+      "topic": "Putin in Nordkorea",
+      "fineSubject": "Putin in North Korea",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Economics",
+      "startSec": 7178,
+      "endSec": 7438,
+      "durationSec": 260,
+      "topic": "Finanzierung der Ukraine aus russischen Zinsen",
+      "fineSubject": "Financing Ukraine",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7438,
+      "endSec": 8459,
+      "durationSec": 1021,
+      "topic": "Die Wahlen in den USA",
+      "fineSubject": "US Elections",
+      "topicIndex": 16
+    }
+  ]
+}

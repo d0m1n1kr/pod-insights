@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 8,
+  "title": "UKW008 Nach dem Brexit ist vor dem Brexit",
+  "generatedAt": "2026-01-05T15:18:02.999Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.8882007822685789,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.043676662320730114,
+      "Media": 0.06812255541069101,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 5450,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 268,
+      "Media": 418,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 7,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6136,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 99,
+      "endSec": 913,
+      "durationSec": 814,
+      "topic": "Rückblick auf die Wahlen",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 914,
+      "endSec": 1281,
+      "durationSec": 367,
+      "topic": "Labour und Liberale",
+      "fineSubject": "Political Parties",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1282,
+      "endSec": 2020,
+      "durationSec": 738,
+      "topic": "SNP und Schottland",
+      "fineSubject": "Regional Politics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2020,
+      "endSec": 2709,
+      "durationSec": 689,
+      "topic": "Situation in Nordirland und Irland",
+      "fineSubject": "International Relations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2709,
+      "endSec": 4176,
+      "durationSec": 1467,
+      "topic": "Die kommenden Verhandlungen",
+      "fineSubject": "Negotiations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4176,
+      "endSec": 5047,
+      "durationSec": 871,
+      "topic": "Mögliche Radikalisierung von UK",
+      "fineSubject": "Radicalization",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5048,
+      "endSec": 5552,
+      "durationSec": 504,
+      "topic": "Situation in den Überseegebieten",
+      "fineSubject": "Overseas Territories",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Economics",
+      "startSec": 5552,
+      "endSec": 5820,
+      "durationSec": 268,
+      "topic": "Steuerfluchtgebiete",
+      "fineSubject": "Tax Havens",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 5821,
+      "endSec": 6239,
+      "durationSec": 418,
+      "topic": "Medienlandschaft in UK",
+      "fineSubject": "Media Landscape",
+      "topicIndex": 8
+    }
+  ]
+}

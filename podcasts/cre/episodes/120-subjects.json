@@ -1,0 +1,134 @@
+{
+  "episodeNumber": 120,
+  "title": "CRE120 OpenBSC",
+  "generatedAt": "2026-01-05T15:17:54.378Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.25,
+      "Technology": 0.5,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.125,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0.125
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 2,
+      "Technology": 4,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 1,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 1
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Eigenes GSM-Netzwerk",
+      "fineSubject": "GSM",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "OpenBSC-Projekt",
+      "fineSubject": "Betriebssoftware",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Notwendige Hardware",
+      "fineSubject": "Netzwerktechnik",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Frequenzen für GSM-Betrieb",
+      "fineSubject": "Frequenzen",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "GSM-Netzwerke auf Schiffen",
+      "fineSubject": "Anwendungen",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Datenübertragung in GSM-Netzen",
+      "fineSubject": "Datenübertragung",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Sicherheit",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Nutzung von Verschlüsselung",
+      "fineSubject": "Verschlüsselung",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "OpenBSC vs. OpenBTS",
+      "fineSubject": "Projektvergleich",
+      "topicIndex": 7,
+      "untimed": true
+    }
+  ]
+}

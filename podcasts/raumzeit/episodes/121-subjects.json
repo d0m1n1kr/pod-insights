@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 121,
+  "title": "RZ121 EarthCARE",
+  "generatedAt": "2026-01-05T15:18:06.290Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0.3291433891992551,
+      "Technologie": 0,
+      "Space": 0.34450651769087526,
+      "Science": 0.3263500931098696,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 1414,
+      "Technologie": 0,
+      "Space": 1480,
+      "Science": 1402,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 2,
+      "Technologie": 0,
+      "Space": 1,
+      "Science": 1,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 4296,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Space",
+      "startSec": 15,
+      "endSec": 1495,
+      "durationSec": 1480,
+      "topic": "EarthCARE Mission",
+      "fineSubject": "Satellite Missions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 231,
+      "endSec": 938,
+      "durationSec": 707,
+      "topic": "Wolken und Aerosole",
+      "fineSubject": "Atmospheric Science",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 231,
+      "endSec": 938,
+      "durationSec": 707,
+      "topic": "Einfluss auf das Erdklima",
+      "fineSubject": "Climate Change",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 535,
+      "endSec": 1937,
+      "durationSec": 1402,
+      "topic": "Globale Beobachtungen",
+      "fineSubject": "Remote Sensing",
+      "topicIndex": 3
+    }
+  ]
+}

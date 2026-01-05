@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 242,
+  "title": "Mi242 – „Dry aged Quantenmechanik“",
+  "generatedAt": "2026-01-05T15:18:17.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.0856269113149847,
+      "Culture": 0,
+      "Wissenschaft": 0.02253339771446966,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.20972155158538547,
+      "Social": 0.6821181393851602,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 532,
+      "Culture": 0,
+      "Wissenschaft": 140,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1303,
+      "Social": 4238,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 1,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 6213,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Wissenschaft",
+      "startSec": 1098,
+      "endSec": 1238,
+      "durationSec": 140,
+      "topic": "Klimaringvorlesung",
+      "fineSubject": "Wissenschaft / Klimaring",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Education",
+      "startSec": 1238,
+      "endSec": 2541,
+      "durationSec": 1303,
+      "topic": "WissZeitVG",
+      "fineSubject": "Bildung / WissZeitVG",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 3403,
+      "endSec": 5598,
+      "durationSec": 2195,
+      "topic": "Thema 1: \"Widerstand ist zwecklos”",
+      "fineSubject": "Gesellschaft / Zwecklos",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 5598,
+      "endSec": 6130,
+      "durationSec": 532,
+      "topic": "Experiment: Dichromatisches Kürbiskernöl",
+      "fineSubject": "Experiment / Kürbiskernöl",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 6130,
+      "endSec": 7269,
+      "durationSec": 1139,
+      "topic": "Thema 2: \"Against all odds\"",
+      "fineSubject": "Gesellschaft / Against all odds",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 7269,
+      "endSec": 8173,
+      "durationSec": 904,
+      "topic": "Schwurbel: Schwurbelpyramiden",
+      "fineSubject": "Gesellschaft / Schwurbelpyramiden",
+      "topicIndex": 6
+    }
+  ]
+}

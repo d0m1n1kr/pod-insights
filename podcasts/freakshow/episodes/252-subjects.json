@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 252,
+  "title": "FS252 Keine grobe Feinheit",
+  "generatedAt": "2026-01-05T15:17:51.110Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.10916454742394273,
+      "Software": 0.2636337948573043,
+      "Hardware": 0.4702835075821795,
+      "Finance": 0.010737496467928794,
+      "Media": 0.09842705095601394,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.04775360271263069,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1159,
+      "Software": 2799,
+      "Hardware": 4993,
+      "Finance": 114,
+      "Media": 1045,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 507,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 5,
+      "Hardware": 6,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 2,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10617,
+    "totalTopics": 22
+  },
+  "timeline": [
+    {
+      "subject": "Finance",
+      "startSec": 190,
+      "endSec": 304,
+      "durationSec": 114,
+      "topic": "Kontowechsel",
+      "fineSubject": "Account Management",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 304,
+      "endSec": 415,
+      "durationSec": 111,
+      "topic": "Freak Show Pause",
+      "fineSubject": "Show",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1661,
+      "endSec": 2231,
+      "durationSec": 570,
+      "topic": "iPhone 12",
+      "fineSubject": "iPhone",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2232,
+      "endSec": 3171,
+      "durationSec": 939,
+      "topic": "Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 3171,
+      "endSec": 3623,
+      "durationSec": 452,
+      "topic": "iOS 14 und AirPods Pro",
+      "fineSubject": "iOS",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3624,
+      "endSec": 4783,
+      "durationSec": 1159,
+      "topic": "Augmented Reality",
+      "fineSubject": "Augmented Reality",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 4783,
+      "endSec": 5933,
+      "durationSec": 1150,
+      "topic": "Big Sur",
+      "fineSubject": "macOS",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5933,
+      "endSec": 8311,
+      "durationSec": 2378,
+      "topic": "Die neuen Macs",
+      "fineSubject": "Macs",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8312,
+      "endSec": 8651,
+      "durationSec": 339,
+      "topic": "5G im Mac",
+      "fineSubject": "5G",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 8652,
+      "endSec": 9008,
+      "durationSec": 356,
+      "topic": "Loopback und SoundSource",
+      "fineSubject": "Audio",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 9008,
+      "endSec": 9432,
+      "durationSec": 424,
+      "topic": "Keychains",
+      "fineSubject": "Keychains",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Security",
+      "startSec": 9432,
+      "endSec": 9515,
+      "durationSec": 83,
+      "topic": "Face ID",
+      "fineSubject": "Face ID",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9516,
+      "endSec": 9991,
+      "durationSec": 475,
+      "topic": "Tastaturen",
+      "fineSubject": "Keyboards",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 11233,
+      "endSec": 12167,
+      "durationSec": 934,
+      "topic": "Audiointerfaces für Corona",
+      "fineSubject": "Interfaces",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12567,
+      "endSec": 12859,
+      "durationSec": 292,
+      "topic": "20 Macs for 2020",
+      "fineSubject": "Macs",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Software",
+      "startSec": 12859,
+      "endSec": 13255,
+      "durationSec": 396,
+      "topic": "Software auf ARM portieren",
+      "fineSubject": "Porting",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Software",
+      "startSec": 13255,
+      "endSec": 13700,
+      "durationSec": 445,
+      "topic": "Swift UI",
+      "fineSubject": "Swift",
+      "topicIndex": 21
+    }
+  ]
+}

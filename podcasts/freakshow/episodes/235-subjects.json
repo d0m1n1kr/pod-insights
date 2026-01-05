@@ -1,0 +1,333 @@
+{
+  "episodeNumber": 235,
+  "title": "FS235 Sechzehn Bar, blondes Haar",
+  "generatedAt": "2026-01-05T15:17:51.102Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4371729733828771,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.5175551679684538,
+      "Social": 0.045271858648669144,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5765,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 6825,
+      "Social": 597,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 14,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 16,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13187,
+    "totalTopics": 31
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 151,
+      "endSec": 748,
+      "durationSec": 597,
+      "topic": "Vornamensfragen",
+      "fineSubject": "Names",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 748,
+      "endSec": 868,
+      "durationSec": 120,
+      "topic": "Moritz Simon Geist",
+      "fineSubject": "Artists",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 868,
+      "endSec": 1379,
+      "durationSec": 511,
+      "topic": "Techno in Hardware",
+      "fineSubject": "Techno",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1380,
+      "endSec": 2109,
+      "durationSec": 729,
+      "topic": "Tracker",
+      "fineSubject": "Trackers",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2109,
+      "endSec": 2869,
+      "durationSec": 760,
+      "topic": "Tastatursteuerung als Geisteszustand",
+      "fineSubject": "Performance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2870,
+      "endSec": 3437,
+      "durationSec": 567,
+      "topic": "AppleScript",
+      "fineSubject": "Scripting",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3437,
+      "endSec": 3659,
+      "durationSec": 222,
+      "topic": "UI-Stabilität",
+      "fineSubject": "UI",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 3659,
+      "endSec": 5066,
+      "durationSec": 1407,
+      "topic": "MR-303",
+      "fineSubject": "Instruments",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 5066,
+      "endSec": 5568,
+      "durationSec": 502,
+      "topic": "Künstleridentität",
+      "fineSubject": "Identity",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 5569,
+      "endSec": 5841,
+      "durationSec": 272,
+      "topic": "Roboterbands",
+      "fineSubject": "Robots",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 5841,
+      "endSec": 6223,
+      "durationSec": 382,
+      "topic": "Trautonium",
+      "fineSubject": "Instruments",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 6224,
+      "endSec": 6666,
+      "durationSec": 442,
+      "topic": "Tripods One",
+      "fineSubject": "Instruments",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 6667,
+      "endSec": 7131,
+      "durationSec": 464,
+      "topic": "to thrupp",
+      "fineSubject": "Techniques",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 7131,
+      "endSec": 7565,
+      "durationSec": 434,
+      "topic": "Vibraphon-Roboter",
+      "fineSubject": "Robots",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 7566,
+      "endSec": 7943,
+      "durationSec": 377,
+      "topic": "Techno auf klassischen Musikinstrumenten",
+      "fineSubject": "Instruments",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 7944,
+      "endSec": 8183,
+      "durationSec": 239,
+      "topic": "Elektronische Musik am Wendepunkt",
+      "fineSubject": "Trends",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8184,
+      "endSec": 8366,
+      "durationSec": 182,
+      "topic": "Electronics",
+      "fineSubject": "Electronics",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 8366,
+      "endSec": 8490,
+      "durationSec": 124,
+      "topic": "Black Metal AI",
+      "fineSubject": "AI",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 8490,
+      "endSec": 8591,
+      "durationSec": 101,
+      "topic": "Komposition und Musikerzeugung",
+      "fineSubject": "Composition",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8592,
+      "endSec": 9047,
+      "durationSec": 455,
+      "topic": "Humanoide Roboter vs. Robotische Instrumente",
+      "fineSubject": "Robots",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Media",
+      "startSec": 9047,
+      "endSec": 9263,
+      "durationSec": 216,
+      "topic": "Musik mit Druckluft",
+      "fineSubject": "Techniques",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Media",
+      "startSec": 9264,
+      "endSec": 9738,
+      "durationSec": 474,
+      "topic": "Musik mit Gemüse",
+      "fineSubject": "Techniques",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9738,
+      "endSec": 10134,
+      "durationSec": 396,
+      "topic": "Pimp My Mac: Bluetooth Controller",
+      "fineSubject": "Controllers",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10134,
+      "endSec": 10962,
+      "durationSec": 828,
+      "topic": "Keynote Live",
+      "fineSubject": "Presentations",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10963,
+      "endSec": 11627,
+      "durationSec": 664,
+      "topic": "Rødecaster Pro",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11627,
+      "endSec": 12095,
+      "durationSec": 468,
+      "topic": "Vorratsbehälter",
+      "fineSubject": "Containers",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12096,
+      "endSec": 12405,
+      "durationSec": 309,
+      "topic": "Küchenmaschine",
+      "fineSubject": "Kitchen Appliances",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12405,
+      "endSec": 12694,
+      "durationSec": 289,
+      "topic": "Eismaschinen",
+      "fineSubject": "Kitchen Appliances",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12695,
+      "endSec": 12787,
+      "durationSec": 92,
+      "topic": "Braumeister",
+      "fineSubject": "Kitchen Appliances",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12788,
+      "endSec": 12861,
+      "durationSec": 73,
+      "topic": "Milchschäumer",
+      "fineSubject": "Kitchen Appliances",
+      "topicIndex": 29
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12862,
+      "endSec": 13353,
+      "durationSec": 491,
+      "topic": "Kaffeezubereitung",
+      "fineSubject": "Kitchen Appliances",
+      "topicIndex": 30
+    }
+  ]
+}

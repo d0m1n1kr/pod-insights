@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 162,
+  "title": "LNP162 Einseitige Freistellung",
+  "generatedAt": "2026-01-05T15:17:57.595Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.07706380059455752,
+      "Technology": 0.2634347130116625,
+      "Law": 0.08346672764692431,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.28493025383032244,
+      "Privacy": 0,
+      "Culture": 0.2911045049165333
+    },
+    "durations": {
+      "Politics": 337,
+      "Technology": 1152,
+      "Law": 365,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1246,
+      "Privacy": 0,
+      "Culture": 1273
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4373,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 183,
+      "endSec": 520,
+      "durationSec": 337,
+      "topic": "Netzsperren-Debatte",
+      "fineSubject": "Netzsperren",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 521,
+      "endSec": 1767,
+      "durationSec": 1246,
+      "topic": "Internetvergütung",
+      "fineSubject": "Internetvergütung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1767,
+      "endSec": 3040,
+      "durationSec": 1273,
+      "topic": "Barbie und Vtech",
+      "fineSubject": "Medien",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3040,
+      "endSec": 3351,
+      "durationSec": 311,
+      "topic": "Vodafone Kabeldrossel",
+      "fineSubject": "Internetprovider",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3351,
+      "endSec": 4192,
+      "durationSec": 841,
+      "topic": "Netzneutralität: Hetzner Double Paid Traffic",
+      "fineSubject": "Netzneutralität",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 4193,
+      "endSec": 4558,
+      "durationSec": 365,
+      "topic": "National Security Letter",
+      "fineSubject": "Sicherheitsgesetze",
+      "topicIndex": 5
+    }
+  ]
+}

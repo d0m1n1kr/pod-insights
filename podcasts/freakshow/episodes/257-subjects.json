@@ -1,0 +1,270 @@
+{
+  "episodeNumber": 257,
+  "title": "FS257 Nerd Hotel",
+  "generatedAt": "2026-01-05T15:17:51.112Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.15003606636210629,
+      "Hardware": 0.3725254468221528,
+      "Finance": 0,
+      "Media": 0.09345195159092731,
+      "Social": 0.38398653522481363,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 1872,
+      "Hardware": 4648,
+      "Finance": 0,
+      "Media": 1166,
+      "Social": 4791,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 7,
+      "Hardware": 6,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 9,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12477,
+    "totalTopics": 27
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 1118,
+      "endSec": 2180,
+      "durationSec": 1062,
+      "topic": "Desktop Macs",
+      "fineSubject": "Computers / Macs",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2180,
+      "endSec": 2963,
+      "durationSec": 783,
+      "topic": "Desktop Monitore",
+      "fineSubject": "Monitors",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2964,
+      "endSec": 4026,
+      "durationSec": 1062,
+      "topic": "M1 Corner",
+      "fineSubject": "Processors / M1",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 4026,
+      "endSec": 4526,
+      "durationSec": 500,
+      "topic": "croc",
+      "fineSubject": "Utilities / croc",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 4526,
+      "endSec": 4772,
+      "durationSec": 246,
+      "topic": "broot",
+      "fineSubject": "Utilities / broot",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 4773,
+      "endSec": 5183,
+      "durationSec": 410,
+      "topic": "oh my zsh",
+      "fineSubject": "Shell / oh my zsh",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 5184,
+      "endSec": 5432,
+      "durationSec": 248,
+      "topic": "topgrade",
+      "fineSubject": "Utilities / topgrade",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 5432,
+      "endSec": 5490,
+      "durationSec": 58,
+      "topic": "wormhole",
+      "fineSubject": "Utilities / wormhole",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 5491,
+      "endSec": 5934,
+      "durationSec": 443,
+      "topic": "Social Bookmarking",
+      "fineSubject": "Tools / Social Bookmarking",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5935,
+      "endSec": 6929,
+      "durationSec": 994,
+      "topic": "Dongle Hell",
+      "fineSubject": "Connectivity / Dongle Hell",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6929,
+      "endSec": 7436,
+      "durationSec": 507,
+      "topic": "Tastaturen",
+      "fineSubject": "Keyboards",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 7437,
+      "endSec": 7664,
+      "durationSec": 227,
+      "topic": "ffmpeg schneller auf Intel",
+      "fineSubject": "Multimedia / ffmpeg",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 7664,
+      "endSec": 7847,
+      "durationSec": 183,
+      "topic": "Kaleidoscope",
+      "fineSubject": "Utilities / Kaleidoscope",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7848,
+      "endSec": 8088,
+      "durationSec": 240,
+      "topic": "Synology NAS",
+      "fineSubject": "Network / Synology NAS",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 8221,
+      "endSec": 8364,
+      "durationSec": 143,
+      "topic": "Fernsehberichte von der Villa",
+      "fineSubject": "Television / Fernsehberichte",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Social",
+      "startSec": 8364,
+      "endSec": 9439,
+      "durationSec": 1075,
+      "topic": "Clubhouse: First Impressions",
+      "fineSubject": "Impressions / First Impressions",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Social",
+      "startSec": 9440,
+      "endSec": 10503,
+      "durationSec": 1063,
+      "topic": "Clubhouse: Funktionsweise und Dynamik",
+      "fineSubject": "Functionality / Funktionsweise",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Media",
+      "startSec": 10503,
+      "endSec": 11526,
+      "durationSec": 1023,
+      "topic": "Clubhouse vs. Radio vs. Podcasts",
+      "fineSubject": "Formats / Clubhouse vs. Radio vs. Podcasts",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Social",
+      "startSec": 11526,
+      "endSec": 11682,
+      "durationSec": 156,
+      "topic": "Clubhouse und Konferenzen",
+      "fineSubject": "Events / Konferenzen",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Social",
+      "startSec": 11683,
+      "endSec": 11871,
+      "durationSec": 188,
+      "topic": "Clubhouse vs. Twitter",
+      "fineSubject": "Comparison / Clubhouse vs. Twitter",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Social",
+      "startSec": 11872,
+      "endSec": 12304,
+      "durationSec": 432,
+      "topic": "Clubhouse und andere Plattformen",
+      "fineSubject": "Platforms / andere Plattformen",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Social",
+      "startSec": 12304,
+      "endSec": 12653,
+      "durationSec": 349,
+      "topic": "Clubhouse: Communities und Trolle",
+      "fineSubject": "Community / Communities und Trolle",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Social",
+      "startSec": 12654,
+      "endSec": 13007,
+      "durationSec": 353,
+      "topic": "Clubhouse: Clubs und Bezahlmodelle",
+      "fineSubject": "Business / Clubs und Bezahlmodelle",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Social",
+      "startSec": 13007,
+      "endSec": 13739,
+      "durationSec": 732,
+      "topic": "Cloubhouse: Fazit",
+      "fineSubject": "Summary / Fazit",
+      "topicIndex": 26
+    }
+  ]
+}

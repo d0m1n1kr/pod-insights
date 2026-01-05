@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 33,
+  "title": "UKW033 Corona Weekly: Mit dem eigenen PKW durch Bayern",
+  "generatedAt": "2026-01-05T15:18:03.005Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.22697126013264554,
+      "Politics": 0.02671333824613117,
+      "Military": 0,
+      "Technology": 0.501105379513633,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0.039240972733972,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.20596904937361826
+    },
+    "durations": {
+      "Health": 1232,
+      "Politics": 145,
+      "Military": 0,
+      "Technology": 2720,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 213,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 1118
+    },
+    "topicCounts": {
+      "Health": 4,
+      "Politics": 1,
+      "Military": 0,
+      "Technology": 6,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 3
+    },
+    "totalDurationSec": 5428,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 101,
+      "endSec": 454,
+      "durationSec": 353,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Travel",
+      "startSec": 455,
+      "endSec": 668,
+      "durationSec": 213,
+      "topic": "Schulferien und Urlaub",
+      "fineSubject": "Holidays",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 668,
+      "endSec": 1183,
+      "durationSec": 515,
+      "topic": "RKI, Vorfälle und Maßnahmen",
+      "fineSubject": "COVID-19 Measures",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1184,
+      "endSec": 1235,
+      "durationSec": 51,
+      "topic": "Kostenlose Tests",
+      "fineSubject": "Testing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 1236,
+      "endSec": 2042,
+      "durationSec": 806,
+      "topic": "USA",
+      "fineSubject": "USA",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2043,
+      "endSec": 2188,
+      "durationSec": 145,
+      "topic": "Pandemie und Populismus",
+      "fineSubject": "Populism",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 2188,
+      "endSec": 2346,
+      "durationSec": 158,
+      "topic": "Schweden",
+      "fineSubject": "Sweden",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 2346,
+      "endSec": 2500,
+      "durationSec": 154,
+      "topic": "Tschechien und Rumänien",
+      "fineSubject": "Czech Republic and Romania",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2501,
+      "endSec": 3647,
+      "durationSec": 1146,
+      "topic": "CWA: Verbreitung",
+      "fineSubject": "Contact Tracing Apps",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3648,
+      "endSec": 3849,
+      "durationSec": 201,
+      "topic": "CWA: Erfolgreiche Tests",
+      "fineSubject": "Contact Tracing Apps",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3849,
+      "endSec": 4568,
+      "durationSec": 719,
+      "topic": "CWA: Erfolgreiche Meldungen",
+      "fineSubject": "Contact Tracing Apps",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4569,
+      "endSec": 4868,
+      "durationSec": 299,
+      "topic": "Tracing Apps in Europa",
+      "fineSubject": "Contact Tracing Apps in Europe",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4869,
+      "endSec": 4950,
+      "durationSec": 81,
+      "topic": "CWA: Internationale Kooperation",
+      "fineSubject": "International Cooperation",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4951,
+      "endSec": 5225,
+      "durationSec": 274,
+      "topic": "Frankreich und die App",
+      "fineSubject": "France and the App",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 5225,
+      "endSec": 5538,
+      "durationSec": 313,
+      "topic": "Abwasserstudie in Barcelona",
+      "fineSubject": "Wastewater Studies",
+      "topicIndex": 14
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 391,
+  "title": "LNP391 Die zwei ?? und die Märtyrerlegende",
+  "generatedAt": "2026-01-05T15:17:57.627Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.06320431161195493,
+      "Law": 0,
+      "Security": 0.13400293973542382,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.39000489955903966,
+      "Legal": 0,
+      "Business": 0.12395884370406664,
+      "Privacy": 0.28882900538951495,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 258,
+      "Law": 0,
+      "Security": 547,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1592,
+      "Legal": 0,
+      "Business": 506,
+      "Privacy": 1179,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 5,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 4082,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 322,
+      "endSec": 529,
+      "durationSec": 207,
+      "topic": "Feedback: die dritte ???",
+      "fineSubject": "Apps",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 530,
+      "endSec": 1068,
+      "durationSec": 538,
+      "topic": "Feedback: Check In Apps",
+      "fineSubject": "Apps",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1069,
+      "endSec": 1414,
+      "durationSec": 345,
+      "topic": "Feedback: Digitaler Impfnachweis",
+      "fineSubject": "Health",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1414,
+      "endSec": 1698,
+      "durationSec": 284,
+      "topic": "Feedback: pretix & CWA",
+      "fineSubject": "Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1699,
+      "endSec": 1917,
+      "durationSec": 218,
+      "topic": "Feedback: Grundrechtsgelaber",
+      "fineSubject": "Rights",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2325,
+      "endSec": 2872,
+      "durationSec": 547,
+      "topic": "Brief von 77 Security-Forscherinnen",
+      "fineSubject": "Research",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2872,
+      "endSec": 3130,
+      "durationSec": 258,
+      "topic": "Luca, wo es Luca nicht gibt",
+      "fineSubject": "Location Services",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 3131,
+      "endSec": 3520,
+      "durationSec": 389,
+      "topic": "Justiz “verliert” Bitcoins",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Business",
+      "startSec": 3520,
+      "endSec": 3637,
+      "durationSec": 117,
+      "topic": "Augustus Intelligence insolvent",
+      "fineSubject": "Insolvency",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3638,
+      "endSec": 4817,
+      "durationSec": 1179,
+      "topic": "Privacy Battles",
+      "fineSubject": "Conflicts",
+      "topicIndex": 10
+    }
+  ]
+}

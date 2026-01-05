@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 260,
+  "title": "Mi260 – „Kleinster gemeinsamer Urlaub“",
+  "generatedAt": "2026-01-05T15:18:17.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5747901678657075,
+      "Culture": 0.22497002398081534,
+      "Wissenschaft": 0,
+      "Health": 0.07464028776978417,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.05620503597122302,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.06939448441247002,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3835,
+      "Culture": 1501,
+      "Wissenschaft": 0,
+      "Health": 498,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 375,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 463,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 6672,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 234,
+      "endSec": 415,
+      "durationSec": 181,
+      "topic": "Auftritt und Treffen Hoaxilla",
+      "fineSubject": "Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 415,
+      "endSec": 790,
+      "durationSec": 375,
+      "topic": "Max Ost 11Leben",
+      "fineSubject": "Entertainment",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 790,
+      "endSec": 1117,
+      "durationSec": 327,
+      "topic": "MS Wissenschaft",
+      "fineSubject": "Exhibitions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1117,
+      "endSec": 2618,
+      "durationSec": 1501,
+      "topic": "DRAMMA Urlaubstheorie",
+      "fineSubject": "Theories",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2618,
+      "endSec": 3116,
+      "durationSec": 498,
+      "topic": "Entspannung",
+      "fineSubject": "Relaxation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3116,
+      "endSec": 3398,
+      "durationSec": 282,
+      "topic": "Kommentar von Lars",
+      "fineSubject": "Comments",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 3398,
+      "endSec": 4866,
+      "durationSec": 1468,
+      "topic": "Thema 1: “Spiegelwelten”",
+      "fineSubject": "Theories",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 4866,
+      "endSec": 6476,
+      "durationSec": 1610,
+      "topic": "Thema 2: \"Im Fahrstuhl wieg ich weniger!\"",
+      "fineSubject": "Perception",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 6476,
+      "endSec": 6906,
+      "durationSec": 430,
+      "topic": "Snackable Science: Fließendes Glas",
+      "fineSubject": "Materials",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 7182,
+      "endSec": 7182,
+      "durationSec": 0,
+      "topic": "Audiokommentar",
+      "fineSubject": "Feedback",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "episodeNumber": 101,
+  "title": "DU101 - Multi Messenger Astrologie: Neutrinos im fünften Haus",
+  "generatedAt": "2026-01-05T15:18:22.104Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.42857142857142855,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.14285714285714285,
+      "Wissenschaft": 0.14285714285714285,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0.2857142857142857,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 1,
+      "Wissenschaft": 1,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 2,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "USS Voyager und planetare Ringe",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hubble-Tension",
+      "fineSubject": "Kosmologie",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Literatur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wissenschaft von 'Die unendliche Geschichte'",
+      "fineSubject": "Science-Fiction",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aprilscherze in der Wissenschaft",
+      "fineSubject": "Humor",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Physik",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Optische Interferometrie",
+      "fineSubject": "Optik",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Tod im All ohne Raumanzug",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Literatur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Science Busters Buch",
+      "fineSubject": "Wissenschaft",
+      "topicIndex": 10,
+      "untimed": true
+    }
+  ]
+}

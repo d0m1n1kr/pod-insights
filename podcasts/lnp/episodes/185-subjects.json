@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 185,
+  "title": "LNP185 Was hat Großbritannien jemals für uns getan?",
+  "generatedAt": "2026-01-05T15:17:57.598Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.8876309085762808,
+      "Security": 0,
+      "Social": 0.11236909142371922,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 3136,
+      "Security": 0,
+      "Social": 397,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 6,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3533,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 226,
+      "endSec": 623,
+      "durationSec": 397,
+      "topic": "Digitale Gesellschaft Schweiz",
+      "fineSubject": "Digital Society",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 624,
+      "endSec": 1933,
+      "durationSec": 1309,
+      "topic": "CH: Bundesgesetz zur Überwachung des Post- und Fernmeldeverkehrs (BÜPF)",
+      "fineSubject": "Surveillance Law",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1933,
+      "endSec": 2356,
+      "durationSec": 423,
+      "topic": "CH: Referendum Nachrichtendienstgesetz (NDG)",
+      "fineSubject": "Intelligence Law",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2357,
+      "endSec": 2778,
+      "durationSec": 421,
+      "topic": "CH: Drei neue Netzsperrengesetze",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2779,
+      "endSec": 3117,
+      "durationSec": 338,
+      "topic": "UK: Investigatory Powers Bill",
+      "fineSubject": "Surveillance Law",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 3117,
+      "endSec": 3465,
+      "durationSec": 348,
+      "topic": "USA: Netzneutralität",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 3465,
+      "endSec": 3762,
+      "durationSec": 297,
+      "topic": "EU: BEREC-Beratungen über Netzneutralität",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 6
+    }
+  ]
+}

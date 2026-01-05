@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 481,
+  "title": "LNP481 Lorem Ipsum war gestern",
+  "generatedAt": "2026-01-05T15:17:57.639Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.23612875900042354,
+      "Technology": 0.1567132570944515,
+      "Law": 0.2909783989834816,
+      "Security": 0,
+      "Social": 0.031130876747141042,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.03303684879288437,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.1645489199491741,
+      "Culture": 0.08746293943244388
+    },
+    "durations": {
+      "Politics": 1115,
+      "Technology": 740,
+      "Law": 1374,
+      "Security": 0,
+      "Social": 147,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 156,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 777,
+      "Culture": 413
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 2,
+      "Culture": 1
+    },
+    "totalDurationSec": 4722,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 727,
+      "endSec": 874,
+      "durationSec": 147,
+      "topic": "Regenschirme",
+      "fineSubject": "Umbrellas",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 874,
+      "endSec": 1239,
+      "durationSec": 365,
+      "topic": "Grüße aus dem Faschismus",
+      "fineSubject": "Fascism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1240,
+      "endSec": 1501,
+      "durationSec": 261,
+      "topic": "Anti-AfD-Demo",
+      "fineSubject": "Demonstrations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1501,
+      "endSec": 1678,
+      "durationSec": 177,
+      "topic": "Feedback: Sicherheitsverwahrung",
+      "fineSubject": "Security Detention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1679,
+      "endSec": 1835,
+      "durationSec": 156,
+      "topic": "Feedback: Geil",
+      "fineSubject": "Positive",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1835,
+      "endSec": 2018,
+      "durationSec": 183,
+      "topic": "Feedback: Wahlen 2024",
+      "fineSubject": "Elections",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2019,
+      "endSec": 2325,
+      "durationSec": 306,
+      "topic": "Die Vertreibungspläne der AfD",
+      "fineSubject": "AfD",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3219,
+      "endSec": 3522,
+      "durationSec": 303,
+      "topic": "37C3: Datenelch",
+      "fineSubject": "Data",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6320,
+      "endSec": 6733,
+      "durationSec": 413,
+      "topic": "Freak Show",
+      "fineSubject": "Entertainment",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Law",
+      "startSec": 6734,
+      "endSec": 7931,
+      "durationSec": 1197,
+      "topic": "Justizirrtum in Großbritannien",
+      "fineSubject": "Judicial Errors",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 7932,
+      "endSec": 8194,
+      "durationSec": 262,
+      "topic": "Überwachungsgesamtrechnung",
+      "fineSubject": "Transparency",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 8194,
+      "endSec": 8709,
+      "durationSec": 515,
+      "topic": "Funkzellenabfrage-Transparenz",
+      "fineSubject": "Data Requests",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8710,
+      "endSec": 9147,
+      "durationSec": 437,
+      "topic": "noyb vs Meta “Pay or Okay”",
+      "fineSubject": "Privacy",
+      "topicIndex": 14
+    }
+  ]
+}

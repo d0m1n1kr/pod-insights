@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 27,
+  "title": "LNP027 Vogel des Jahres",
+  "generatedAt": "2026-01-05T15:17:57.575Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2657969832857725,
+      "Technology": 0.37178964533224623,
+      "Law": 0,
+      "Security": 0.36241337138198126,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 652,
+      "Technology": 912,
+      "Law": 0,
+      "Security": 889,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2453,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 32,
+      "endSec": 944,
+      "durationSec": 912,
+      "topic": "IPv6 kommt. (Jetzt aber wirklich)",
+      "fineSubject": "Networking",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 944,
+      "endSec": 1833,
+      "durationSec": 889,
+      "topic": "Die Bundeswehr macht jetzt auch Cyberwar",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1834,
+      "endSec": 2086,
+      "durationSec": 252,
+      "topic": "VDS-Verfahren in Brüssel",
+      "fineSubject": "Legislation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2086,
+      "endSec": 2486,
+      "durationSec": 400,
+      "topic": "ACTA",
+      "fineSubject": "International Agreements",
+      "topicIndex": 3
+    }
+  ]
+}

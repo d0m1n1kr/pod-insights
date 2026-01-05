@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 98,
+  "title": "MM098 Der Hörer sitzt",
+  "generatedAt": "2026-01-05T15:17:51.070Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.0853395061728395,
+      "Hardware": 0.36612654320987653,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.33217592592592593,
+      "Culture": 0.10833333333333334,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.10802469135802469,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 1106,
+      "Hardware": 4745,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 4305,
+      "Culture": 1404,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1400,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 1,
+      "Hardware": 4,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 3,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12960,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 660,
+      "endSec": 1410,
+      "durationSec": 750,
+      "topic": "Metatalk",
+      "fineSubject": "Metatalk",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1410,
+      "endSec": 3120,
+      "durationSec": 1710,
+      "topic": "iPhone 5",
+      "fineSubject": "iPhone",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3120,
+      "endSec": 4320,
+      "durationSec": 1200,
+      "topic": "Nexus 7",
+      "fineSubject": "Nexus",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 4320,
+      "endSec": 4980,
+      "durationSec": 660,
+      "topic": "Apple",
+      "fineSubject": "Apple",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 4980,
+      "endSec": 6900,
+      "durationSec": 1920,
+      "topic": "Gerüchteküche/Glaskugeling",
+      "fineSubject": "Gerüchte",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6900,
+      "endSec": 7414,
+      "durationSec": 514,
+      "topic": "Musik",
+      "fineSubject": "Musik",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 7414,
+      "endSec": 8520,
+      "durationSec": 1106,
+      "topic": "iOSX",
+      "fineSubject": "iOS",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 8520,
+      "endSec": 10155,
+      "durationSec": 1635,
+      "topic": "App.net",
+      "fineSubject": "App.net",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10155,
+      "endSec": 11040,
+      "durationSec": 885,
+      "topic": "Fritzbox",
+      "fineSubject": "Fritzbox",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11040,
+      "endSec": 11990,
+      "durationSec": 950,
+      "topic": "E-Book-Reader und andere Nerd-Themen",
+      "fineSubject": "E-Book-Reader",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 11990,
+      "endSec": 12880,
+      "durationSec": 890,
+      "topic": "Bier",
+      "fineSubject": "Bier",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Business",
+      "startSec": 12880,
+      "endSec": 13620,
+      "durationSec": 740,
+      "topic": "Apple-Store und Zubehör",
+      "fineSubject": "Apple-Store",
+      "topicIndex": 11
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 80,
+  "title": "RZ080 Europäische Raumfahrtpolitik",
+  "generatedAt": "2026-01-05T15:18:06.284Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.8917087593938647,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0.10829124060613528
+    },
+    "durations": {
+      "Raumfahrt": 7238,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 879
+    },
+    "topicCounts": {
+      "Raumfahrt": 3,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 1
+    },
+    "totalDurationSec": 8117,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": 14,
+      "endSec": 2483,
+      "durationSec": 2469,
+      "topic": "Zukunft der ISS",
+      "fineSubject": "Internationale Raumstation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 14,
+      "endSec": 881,
+      "durationSec": 867,
+      "topic": "Herausforderungen der europäischen Raumfahrt",
+      "fineSubject": "Europäische Raumfahrtpolitik",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 85,
+      "endSec": 3987,
+      "durationSec": 3902,
+      "topic": "Entwicklung von Launchern",
+      "fineSubject": "Launcher-Technologie",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Wirtschaft",
+      "startSec": 178,
+      "endSec": 1057,
+      "durationSec": 879,
+      "topic": "Rolle privater Unternehmen",
+      "fineSubject": "Private Raumfahrtunternehmen",
+      "topicIndex": 4
+    }
+  ]
+}

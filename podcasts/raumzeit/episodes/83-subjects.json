@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 83,
+  "title": "RZ083 SpaceX",
+  "generatedAt": "2026-01-05T15:18:06.285Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 1,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 16596,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 9,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 16596,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": 15,
+      "endSec": 2607,
+      "durationSec": 2592,
+      "topic": "Geschichte von SpaceX",
+      "fineSubject": "Unternehmen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 15,
+      "endSec": 1773,
+      "durationSec": 1758,
+      "topic": "Methodik der Raumfahrt",
+      "fineSubject": "Technologie",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 15,
+      "endSec": 2443,
+      "durationSec": 2428,
+      "topic": "Philosophie von SpaceX",
+      "fineSubject": "Innovation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 15,
+      "endSec": 1773,
+      "durationSec": 1758,
+      "topic": "Kostenreduktion in der Raumfahrt",
+      "fineSubject": "Wirtschaftlichkeit",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 87,
+      "endSec": 1280,
+      "durationSec": 1193,
+      "topic": "Falcon 9 Rakete",
+      "fineSubject": "Raketen",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 87,
+      "endSec": 2486,
+      "durationSec": 2399,
+      "topic": "Starship-Projekt",
+      "fineSubject": "Zukunftsprojekte",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 378,
+      "endSec": 1498,
+      "durationSec": 1120,
+      "topic": "Transportweg zum Mars",
+      "fineSubject": "Erforschung",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 774,
+      "endSec": 2607,
+      "durationSec": 1833,
+      "topic": "Landung der ersten Stufe der Rakete",
+      "fineSubject": "Technologie",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 2637,
+      "endSec": 4152,
+      "durationSec": 1515,
+      "topic": "Falcon Heavy",
+      "fineSubject": "Raketen",
+      "topicIndex": 6
+    }
+  ]
+}

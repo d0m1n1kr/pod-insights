@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 115,
+  "title": "Minkorrekt Folge 115 “Mindeststudiendauer”",
+  "generatedAt": "2026-01-05T15:18:17.363Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.3333333333333333,
+      "Culture": 0.16666666666666666,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.16666666666666666,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0.3333333333333333
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 2
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Batman",
+      "fineSubject": "Comics",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Plutonium",
+      "fineSubject": "Chemistry",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Biology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Blitzlicht-Augen",
+      "fineSubject": "Vision",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Biology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "grüne Biologie",
+      "fineSubject": "Ecology",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "singender Stab",
+      "fineSubject": "Physics",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beamer",
+      "fineSubject": "Projectors",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

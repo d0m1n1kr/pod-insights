@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 96,
+  "title": "UKW096 Ukraine: Weltkrieg 2.5",
+  "generatedAt": "2026-01-05T15:18:03.025Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.1487279843444227,
+      "Military": 0.38967710371819964,
+      "Technology": 0,
+      "Economics": 0.07999021526418787,
+      "Media": 0.2837573385518591,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0.09784735812133072,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 1216,
+      "Military": 3186,
+      "Technology": 0,
+      "Economics": 654,
+      "Media": 2320,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 800,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 2,
+      "Military": 2,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8176,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Travel",
+      "startSec": 680,
+      "endSec": 1480,
+      "durationSec": 800,
+      "topic": "Reise nach Kiew",
+      "fineSubject": "Kiew",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1480,
+      "endSec": 2279,
+      "durationSec": 799,
+      "topic": "Situation in Bucha",
+      "fineSubject": "Bucha",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 2280,
+      "endSec": 2772,
+      "durationSec": 492,
+      "topic": "Festung Kiew",
+      "fineSubject": "Kiew",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2773,
+      "endSec": 5093,
+      "durationSec": 2320,
+      "topic": "Journalisten in Kiew",
+      "fineSubject": "Journalismus",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5093,
+      "endSec": 5510,
+      "durationSec": 417,
+      "topic": "Innenpolitik der Ukraine",
+      "fineSubject": "Ukrainische Innenpolitik",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 5511,
+      "endSec": 8205,
+      "durationSec": 2694,
+      "topic": "Militärische Situation",
+      "fineSubject": "Militärische Situation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Economics",
+      "startSec": 8206,
+      "endSec": 8860,
+      "durationSec": 654,
+      "topic": "BRICS",
+      "fineSubject": "BRICS",
+      "topicIndex": 6
+    }
+  ]
+}

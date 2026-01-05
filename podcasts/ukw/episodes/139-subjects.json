@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 139,
+  "title": "UKW139 Ukraine: Bombenwetter",
+  "generatedAt": "2026-01-05T15:18:03.035Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.09438610138726825,
+      "Military": 0.6409957215091404,
+      "Technology": 0,
+      "Economics": 0.15298846103980293,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.11162971606378841,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 728,
+      "Military": 4944,
+      "Technology": 0,
+      "Economics": 1180,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 861,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 1,
+      "Military": 7,
+      "Technology": 0,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 2,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7713,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 90,
+      "endSec": 818,
+      "durationSec": 728,
+      "topic": "Sanktionen",
+      "fineSubject": "Sanctions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 818,
+      "endSec": 1339,
+      "durationSec": 521,
+      "topic": "Waffenproduktion der Ukraine",
+      "fineSubject": "Weapon Production",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 1339,
+      "endSec": 1723,
+      "durationSec": 384,
+      "topic": "Europäische Kampfflugzeuge",
+      "fineSubject": "European Fighter Jets",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 1723,
+      "endSec": 1873,
+      "durationSec": 150,
+      "topic": "Wettrüsten",
+      "fineSubject": "Arms Race",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1873,
+      "endSec": 2457,
+      "durationSec": 584,
+      "topic": "Energieversorgung",
+      "fineSubject": "Energy Supply",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 2458,
+      "endSec": 3643,
+      "durationSec": 1185,
+      "topic": "Luftangriffe auf die Städte",
+      "fineSubject": "Airstrikes",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 3644,
+      "endSec": 5401,
+      "durationSec": 1757,
+      "topic": "Ausflug an die Front in Pokrovsk",
+      "fineSubject": "Frontline Visit",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 5402,
+      "endSec": 5904,
+      "durationSec": 502,
+      "topic": "Ausflug an die Front in Vovchansk",
+      "fineSubject": "Frontline Visit",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Society",
+      "startSec": 5905,
+      "endSec": 6272,
+      "durationSec": 367,
+      "topic": "Resilienz der Bevölkerung",
+      "fineSubject": "Resilience",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 6499,
+      "endSec": 6944,
+      "durationSec": 445,
+      "topic": "Situation in Sumy",
+      "fineSubject": "Situation Report",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Economics",
+      "startSec": 6945,
+      "endSec": 7541,
+      "durationSec": 596,
+      "topic": "Verkehrsrealität",
+      "fineSubject": "Traffic Reality",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Society",
+      "startSec": 7541,
+      "endSec": 8035,
+      "durationSec": 494,
+      "topic": "Austellung zum Krieg in Ennos Bunker",
+      "fineSubject": "War Exhibition",
+      "topicIndex": 12
+    }
+  ]
+}

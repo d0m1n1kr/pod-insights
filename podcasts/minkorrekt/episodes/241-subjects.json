@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 241,
+  "title": "Mi241 – „Pflanzen-All-In“",
+  "generatedAt": "2026-01-05T15:18:17.377Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5167454688731284,
+      "Culture": 0.27245862884160754,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.210795902285264,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2623,
+      "Culture": 1383,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1070,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 5076,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 197,
+      "endSec": 330,
+      "durationSec": 133,
+      "topic": "Wie geht's?",
+      "fineSubject": "Wellbeing",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1203,
+      "endSec": 2577,
+      "durationSec": 1374,
+      "topic": "Wissenschaftsbarometer 2022",
+      "fineSubject": "Research",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2978,
+      "endSec": 3312,
+      "durationSec": 334,
+      "topic": "Kommentare: Katzenkaffee",
+      "fineSubject": "Community",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4169,
+      "endSec": 5418,
+      "durationSec": 1249,
+      "topic": "Thema 1: \"Zwei Grad über Keimen”",
+      "fineSubject": "Climate Change",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5418,
+      "endSec": 6801,
+      "durationSec": 1383,
+      "topic": "Thema 2: \"McFlurry für den Frieden\"",
+      "fineSubject": "Food",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 6801,
+      "endSec": 7404,
+      "durationSec": 603,
+      "topic": "Schwurbel",
+      "fineSubject": "Discourse",
+      "topicIndex": 7
+    }
+  ]
+}

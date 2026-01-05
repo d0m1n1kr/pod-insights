@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 331,
+  "title": "Mi331 – \"Greisblett\"",
+  "generatedAt": "2026-01-05T15:18:17.388Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5761194029850746,
+      "Culture": 0.2474469756480754,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.014139827179890024,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.16229379418695994,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3667,
+      "Culture": 1575,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 90,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1033,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 5,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6365,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 162,
+      "endSec": 706,
+      "durationSec": 544,
+      "topic": "Premiere Show 3.0",
+      "fineSubject": "Show / 3.0",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 776,
+      "endSec": 1181,
+      "durationSec": 405,
+      "topic": "Laacher See",
+      "fineSubject": "Location / Laacher See",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1181,
+      "endSec": 1271,
+      "durationSec": 90,
+      "topic": "Vibrosens",
+      "fineSubject": "Product / Vibrosens",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 1271,
+      "endSec": 1594,
+      "durationSec": 323,
+      "topic": "Bakterien-Brennstoffzellen",
+      "fineSubject": "Biotechnology / Bacterial",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Education",
+      "startSec": 1594,
+      "endSec": 2627,
+      "durationSec": 1033,
+      "topic": "KI Shortcuts und Informatikunterricht",
+      "fineSubject": "AI / Shortcuts",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 2627,
+      "endSec": 4144,
+      "durationSec": 1517,
+      "topic": "Thema 1: \"Sonnensteine\"",
+      "fineSubject": "Topic / Sonnensteine",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 4144,
+      "endSec": 4477,
+      "durationSec": 333,
+      "topic": "Snackable Science",
+      "fineSubject": "Format / Snackable",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 4477,
+      "endSec": 5566,
+      "durationSec": 1089,
+      "topic": "Thema 2: \"Bakterielle Wohngemeinschaft\"",
+      "fineSubject": "Concept / Bacterial Community",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5566,
+      "endSec": 6597,
+      "durationSec": 1031,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Discussion / Schwurbel",
+      "topicIndex": 9
+    }
+  ]
+}

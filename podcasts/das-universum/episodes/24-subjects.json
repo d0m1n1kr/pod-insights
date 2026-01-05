@@ -1,0 +1,84 @@
+{
+  "episodeNumber": 24,
+  "title": "DU024 - Auf der Suche nach den Antisternen",
+  "generatedAt": "2026-01-05T15:18:22.093Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0.6666666666666666,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0.3333333333333333,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 2,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 1,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Astronautenbewerbung",
+      "fineSubject": "Astronauten",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hüpfen auf anderen Himmelskörpern",
+      "fineSubject": "Planeten",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Bildung",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vorurteile im Astronomiestudium",
+      "fineSubject": "Astronomie",
+      "topicIndex": 5,
+      "untimed": true
+    }
+  ]
+}

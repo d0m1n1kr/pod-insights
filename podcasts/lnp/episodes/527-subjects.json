@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 527,
+  "title": "LNP527 Es wird auch ohne AI alles ganz schlimm werden",
+  "generatedAt": "2026-01-05T15:17:57.645Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.34741466711726937,
+      "Technology": 0.4249746535991889,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.18469077391010477,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.04291990537343697,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2056,
+      "Technology": 2515,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1093,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 254,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 6,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 2,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5918,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 417,
+      "endSec": 491,
+      "durationSec": 74,
+      "topic": "Apokalypse und Filterkaffee",
+      "fineSubject": "Crisis",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 491,
+      "endSec": 622,
+      "durationSec": 131,
+      "topic": "Feedback: Wiener Postleitzahlen",
+      "fineSubject": "Geography",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 622,
+      "endSec": 745,
+      "durationSec": 123,
+      "topic": "Feedback: National Guard",
+      "fineSubject": "Military",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 745,
+      "endSec": 1108,
+      "durationSec": 363,
+      "topic": "Künstliche Intelligenz",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1109,
+      "endSec": 1557,
+      "durationSec": 448,
+      "topic": "Die Entwicklung der KI",
+      "fineSubject": "Artificial Intelligence Development",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1558,
+      "endSec": 2357,
+      "durationSec": 799,
+      "topic": "KI als Unterstützung in der Programmierung",
+      "fineSubject": "Programming",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3255,
+      "endSec": 3514,
+      "durationSec": 259,
+      "topic": "Technologische Lösungen vs. menschliche Fähigkeiten",
+      "fineSubject": "Human Skills",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 3515,
+      "endSec": 4258,
+      "durationSec": 743,
+      "topic": "Emotionale Beziehungen zu KI",
+      "fineSubject": "Relationships",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4258,
+      "endSec": 4420,
+      "durationSec": 162,
+      "topic": "Die Suche nach Daten",
+      "fineSubject": "Information Retrieval",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4420,
+      "endSec": 4904,
+      "durationSec": 484,
+      "topic": "Die Zukunft der KI-Forschung",
+      "fineSubject": "Future of AI Research",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4905,
+      "endSec": 6081,
+      "durationSec": 1176,
+      "topic": "Die Rolle der Zentralisierung",
+      "fineSubject": "Centralization",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6082,
+      "endSec": 6703,
+      "durationSec": 621,
+      "topic": "Überwachung und Macht",
+      "fineSubject": "Surveillance",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6703,
+      "endSec": 6962,
+      "durationSec": 259,
+      "topic": "Geopolitische Abhängigkeiten",
+      "fineSubject": "Geopolitics",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Social",
+      "startSec": 6962,
+      "endSec": 7238,
+      "durationSec": 276,
+      "topic": "Perspektiven auf die Zukunft",
+      "fineSubject": "Future Perspectives",
+      "topicIndex": 14
+    }
+  ]
+}

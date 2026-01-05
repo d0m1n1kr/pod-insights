@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 213,
+  "title": "FS213 Bitte melde Dich",
+  "generatedAt": "2026-01-05T15:17:51.095Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.43481053307642903,
+      "Software": 0.2594733461785485,
+      "Hardware": 0.20304615102302964,
+      "Finance": 0.03899440315625287,
+      "Media": 0.04679328378750344,
+      "Social": 0,
+      "Culture": 0.016882282778236536,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4739,
+      "Software": 2828,
+      "Hardware": 2213,
+      "Finance": 425,
+      "Media": 510,
+      "Social": 0,
+      "Culture": 184,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 4,
+      "Hardware": 4,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10899,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 373,
+      "endSec": 1493,
+      "durationSec": 1120,
+      "topic": "Sprechende Zylinder",
+      "fineSubject": "Devices",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1493,
+      "endSec": 2097,
+      "durationSec": 604,
+      "topic": "Automatische Übersetzung",
+      "fineSubject": "Translation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2098,
+      "endSec": 2607,
+      "durationSec": 509,
+      "topic": "Eliza und Co",
+      "fineSubject": "AI",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2607,
+      "endSec": 3891,
+      "durationSec": 1284,
+      "topic": "iPhone X",
+      "fineSubject": "Smartphones",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3892,
+      "endSec": 4106,
+      "durationSec": 214,
+      "topic": "Kopfhörer und Co.",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4225,
+      "endSec": 4303,
+      "durationSec": 78,
+      "topic": "Geräte verleihen",
+      "fineSubject": "Device Sharing",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4303,
+      "endSec": 4474,
+      "durationSec": 171,
+      "topic": "Focusrite mit USB-C",
+      "fineSubject": "Audio Interfaces",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Finance",
+      "startSec": 5044,
+      "endSec": 5469,
+      "durationSec": 425,
+      "topic": "Geld im Internet",
+      "fineSubject": "Online Money",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6601,
+      "endSec": 7721,
+      "durationSec": 1120,
+      "topic": "Things",
+      "fineSubject": "IoT",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 7722,
+      "endSec": 8167,
+      "durationSec": 445,
+      "topic": "Sublime Text",
+      "fineSubject": "Text Editors",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 8167,
+      "endSec": 9357,
+      "durationSec": 1190,
+      "topic": "Mac Tools",
+      "fineSubject": "Utilities",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 9357,
+      "endSec": 9691,
+      "durationSec": 334,
+      "topic": "Newstral",
+      "fineSubject": "News Aggregation",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9691,
+      "endSec": 10999,
+      "durationSec": 1308,
+      "topic": "Serveradministration",
+      "fineSubject": "Server Management",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 10999,
+      "endSec": 11466,
+      "durationSec": 467,
+      "topic": "Erlang und fail early",
+      "fineSubject": "Programming",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 11467,
+      "endSec": 12193,
+      "durationSec": 726,
+      "topic": "JavaScript",
+      "fineSubject": "Programming",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12194,
+      "endSec": 12738,
+      "durationSec": 544,
+      "topic": "Zoom L-12",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Culture",
+      "startSec": 12738,
+      "endSec": 12922,
+      "durationSec": 184,
+      "topic": "Principia Discordia",
+      "fineSubject": "Philosophy",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 13098,
+      "endSec": 13274,
+      "durationSec": 176,
+      "topic": "Klaus Kinski",
+      "fineSubject": "Film",
+      "topicIndex": 19
+    }
+  ]
+}

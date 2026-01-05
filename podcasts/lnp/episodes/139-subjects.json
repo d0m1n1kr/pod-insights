@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 139,
+  "title": "LNP139 Staatstrojaner as a Service",
+  "generatedAt": "2026-01-05T15:17:57.592Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.40204257767548907,
+      "Technology": 0.40276179516685845,
+      "Law": 0.16124856156501727,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.03394706559263521,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2795,
+      "Technology": 2800,
+      "Law": 1121,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 236,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 6952,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Privacy",
+      "startSec": 25,
+      "endSec": 261,
+      "durationSec": 236,
+      "topic": "Prolog: Überwachung",
+      "fineSubject": "Monitoring",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 261,
+      "endSec": 3056,
+      "durationSec": 2795,
+      "topic": "BND-Skandal",
+      "fineSubject": "Scandals",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3056,
+      "endSec": 3941,
+      "durationSec": 885,
+      "topic": "Staatstrojaner",
+      "fineSubject": "Spyware",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 3942,
+      "endSec": 5063,
+      "durationSec": 1121,
+      "topic": "Neues Polizeiliches Staatsschutzgesetz in Österreich",
+      "fineSubject": "Legislation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5063,
+      "endSec": 6326,
+      "durationSec": 1263,
+      "topic": "Netzneutralität in Indien",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6327,
+      "endSec": 6979,
+      "durationSec": 652,
+      "topic": "SaveTheInternet.eu Relaunch",
+      "fineSubject": "Campaigns",
+      "topicIndex": 5
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 125,
+  "title": "LNP125 Die haben alle ihren Kafka gelesen",
+  "generatedAt": "2026-01-05T15:17:57.591Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4890,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4890,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 350,
+      "endSec": 1796,
+      "durationSec": 1446,
+      "topic": "Bundesregierung braucht keine Netzneutralität",
+      "fineSubject": "Netzneutralität",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1797,
+      "endSec": 2365,
+      "durationSec": 568,
+      "topic": "Bundesregierung gibt keine Auskunft, was die USA Snowden vorwerfen",
+      "fineSubject": "Überwachung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2366,
+      "endSec": 2767,
+      "durationSec": 401,
+      "topic": "GCHQ verstößt nicht gegen Menschenrechte",
+      "fineSubject": "Menschenrechte",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2767,
+      "endSec": 3659,
+      "durationSec": 892,
+      "topic": "Lügen im NSA-Untersuchungsausschuss?",
+      "fineSubject": "NSA",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3660,
+      "endSec": 4273,
+      "durationSec": 613,
+      "topic": "Wirtschaftministerium will etwas gegen Zwangsrouter tun",
+      "fineSubject": "Technologie",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4273,
+      "endSec": 5243,
+      "durationSec": 970,
+      "topic": "UK blockiert den CCC verbietet bestimmte Stellungen in Schaukelvideos",
+      "fineSubject": "Zensur",
+      "topicIndex": 5
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 178,
+  "title": "LNP178 Postmortale Jungferninseln",
+  "generatedAt": "2026-01-05T15:17:57.597Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.04823221300742034,
+      "Technology": 0.06787429070274989,
+      "Law": 0.2101702313400262,
+      "Security": 0.2588389349628983,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.07071147970318638,
+      "Business": 0.3441728502837189,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 221,
+      "Technology": 311,
+      "Law": 963,
+      "Security": 1186,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 324,
+      "Business": 1577,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4582,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 65,
+      "endSec": 1375,
+      "durationSec": 1310,
+      "topic": "Panama Papers",
+      "fineSubject": "Panama Papers",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1375,
+      "endSec": 1686,
+      "durationSec": 311,
+      "topic": "WhatsApp-Crypto für alle",
+      "fineSubject": "WhatsApp-Crypto",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1687,
+      "endSec": 2578,
+      "durationSec": 891,
+      "topic": "Feinstein-Burr-Bill: Compliance with Court Orders Act of 2016",
+      "fineSubject": "Compliance Legislation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2579,
+      "endSec": 3765,
+      "durationSec": 1186,
+      "topic": "Bundestrojaner",
+      "fineSubject": "Bundestrojaner",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3765,
+      "endSec": 3837,
+      "durationSec": 72,
+      "topic": "Exportkontrollen für Hacking Team",
+      "fineSubject": "Export Controls",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3838,
+      "endSec": 4162,
+      "durationSec": 324,
+      "topic": "Links sind legal",
+      "fineSubject": "Links Legality",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4163,
+      "endSec": 4384,
+      "durationSec": 221,
+      "topic": "Referendum für Volksabstimmung gegen BÜPF",
+      "fineSubject": "Referendum",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 4468,
+      "endSec": 4735,
+      "durationSec": 267,
+      "topic": "Anhörung Steuergesetz",
+      "fineSubject": "Tax Legislation",
+      "topicIndex": 7
+    }
+  ]
+}

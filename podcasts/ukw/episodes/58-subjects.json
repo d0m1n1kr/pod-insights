@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 58,
+  "title": "UKW058 Corona Weekly: Irgendjemand muss ja das Geld verdienen",
+  "generatedAt": "2026-01-05T15:18:03.013Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 6166,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 15,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6166,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 114,
+      "endSec": 631,
+      "durationSec": 517,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19 Situation Germany",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 632,
+      "endSec": 844,
+      "durationSec": 212,
+      "topic": "Situation in den Bundesländern",
+      "fineSubject": "COVID-19 Situation Federal States",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 844,
+      "endSec": 1070,
+      "durationSec": 226,
+      "topic": "Tests und Positivenquote",
+      "fineSubject": "COVID-19 Testing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1071,
+      "endSec": 1369,
+      "durationSec": 298,
+      "topic": "Situation in Berlin",
+      "fineSubject": "COVID-19 Situation Berlin",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1370,
+      "endSec": 1566,
+      "durationSec": 196,
+      "topic": "Internationale Situation",
+      "fineSubject": "COVID-19 International Situation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1566,
+      "endSec": 1776,
+      "durationSec": 210,
+      "topic": "FFP2-Masken",
+      "fineSubject": "FFP2 Masks",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 1777,
+      "endSec": 1915,
+      "durationSec": 138,
+      "topic": "NoCovid",
+      "fineSubject": "NoCovid Strategy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 1916,
+      "endSec": 2259,
+      "durationSec": 343,
+      "topic": "Antikörper-Medikament in Deutschland",
+      "fineSubject": "Antibody Medication Germany",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 2260,
+      "endSec": 2858,
+      "durationSec": 598,
+      "topic": "Sequenzierung durch die Labore",
+      "fineSubject": "Laboratory Sequencing",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 2858,
+      "endSec": 3016,
+      "durationSec": 158,
+      "topic": "Impfungen in Deutschland",
+      "fineSubject": "Vaccinations Germany",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 3017,
+      "endSec": 3695,
+      "durationSec": 678,
+      "topic": "Impfungen in Israel",
+      "fineSubject": "Vaccinations Israel",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 3695,
+      "endSec": 4546,
+      "durationSec": 851,
+      "topic": "AstraZeneca-Impfstoff in EU zugelassen",
+      "fineSubject": "AstraZeneca Vaccine EU Approval",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 4547,
+      "endSec": 4707,
+      "durationSec": 160,
+      "topic": "EU und CureVac",
+      "fineSubject": "EU and CureVac",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 4707,
+      "endSec": 4928,
+      "durationSec": 221,
+      "topic": "Merck",
+      "fineSubject": "Merck",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 4929,
+      "endSec": 6289,
+      "durationSec": 1360,
+      "topic": "Ende der Pandemie",
+      "fineSubject": "End of Pandemic",
+      "topicIndex": 14
+    }
+  ]
+}

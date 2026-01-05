@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 534,
+  "title": "LNP534 Phonetischer Sumpf",
+  "generatedAt": "2026-01-05T15:17:57.646Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5379050925925926,
+      "Technology": 0.09461805555555555,
+      "Law": 0.1863425925925926,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.03587962962962963,
+      "Health": 0,
+      "Feedback": 0.14525462962962962,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1859,
+      "Technology": 327,
+      "Law": 644,
+      "Security": 0,
+      "Social": 0,
+      "Media": 124,
+      "Health": 0,
+      "Feedback": 502,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3456,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 124,
+      "endSec": 360,
+      "durationSec": 236,
+      "topic": "Feedback: Palzlied",
+      "fineSubject": "Palzlied",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 360,
+      "endSec": 545,
+      "durationSec": 185,
+      "topic": "Feedback: Irische Datenschutzbehörde",
+      "fineSubject": "Irische Datenschutzbehörde",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 546,
+      "endSec": 627,
+      "durationSec": 81,
+      "topic": "Feedback: Julia Ruhs",
+      "fineSubject": "Julia Ruhs",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 627,
+      "endSec": 751,
+      "durationSec": 124,
+      "topic": "Jimmy Kimmel Live wieder live",
+      "fineSubject": "Jimmy Kimmel Live",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 752,
+      "endSec": 1368,
+      "durationSec": 616,
+      "topic": "Trump-Mafia vs. freie Medien",
+      "fineSubject": "Trump-Mafia",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1368,
+      "endSec": 2611,
+      "durationSec": 1243,
+      "topic": "Terrororganisation Antifa",
+      "fineSubject": "Antifa",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2612,
+      "endSec": 3256,
+      "durationSec": 644,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3256,
+      "endSec": 3583,
+      "durationSec": 327,
+      "topic": "ePA: alle machen mit",
+      "fineSubject": "ePA",
+      "topicIndex": 7
+    }
+  ]
+}

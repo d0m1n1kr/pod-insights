@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 470,
+  "title": "LNP470 Farbtöne sind auch ein Teil der Wahrheit",
+  "generatedAt": "2026-01-05T15:17:57.638Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6145484949832776,
+      "Technology": 0.07775919732441472,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.3076923076923077,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1470,
+      "Technology": 186,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 736,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2392,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 628,
+      "endSec": 874,
+      "durationSec": 246,
+      "topic": "Feedback: Störerhaftung",
+      "fineSubject": "Störerhaftung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 874,
+      "endSec": 1364,
+      "durationSec": 490,
+      "topic": "Chatkontrolle: Entscheidung vertagt",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1365,
+      "endSec": 2835,
+      "durationSec": 1470,
+      "topic": "Chatkontrolle: Lobbygeflecht",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2836,
+      "endSec": 3022,
+      "durationSec": 186,
+      "topic": "Predator",
+      "fineSubject": "Predator",
+      "topicIndex": 3
+    }
+  ]
+}

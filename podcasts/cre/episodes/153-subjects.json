@@ -1,0 +1,124 @@
+{
+  "episodeNumber": 153,
+  "title": "CRE153 Feuerwehr",
+  "generatedAt": "2026-01-05T15:17:54.383Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.7142857142857143,
+      "Media": 0,
+      "Hardware": 0.2857142857142857,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 5,
+      "Media": 0,
+      "Hardware": 2,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Struktur und Aufgaben der Feuerwehr",
+      "fineSubject": "Emergency Services",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Freiwillige und Berufsfeuerwehr",
+      "fineSubject": "Firefighting",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mitgliederstruktur der Feuerwehren",
+      "fineSubject": "Community Engagement",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aufgabengebiete und Einsätze der Feuerwehr",
+      "fineSubject": "Emergency Response",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Feuerwehrausrüstung und -Fahrzeuge",
+      "fineSubject": "Firefighting Equipment",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rettungsgeräte und Schutzkleidung",
+      "fineSubject": "Safety Gear",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verhältnis zum Technischen Hilfswerk (THW)",
+      "fineSubject": "Collaboration",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

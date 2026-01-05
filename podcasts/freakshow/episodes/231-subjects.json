@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 231,
+  "title": "FS231 Marmorkuchenstadt Hommelbach",
+  "generatedAt": "2026-01-05T15:17:51.101Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.9436288243864172,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.056371175613582875,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 8420,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 503,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 10,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8923,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 401,
+      "endSec": 908,
+      "durationSec": 507,
+      "topic": "@bleeptrack",
+      "fineSubject": "Tracking",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 908,
+      "endSec": 2606,
+      "durationSec": 1698,
+      "topic": "beetlesbot",
+      "fineSubject": "Bots",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6649,
+      "endSec": 7152,
+      "durationSec": 503,
+      "topic": "Japan",
+      "fineSubject": "Countries",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7152,
+      "endSec": 9277,
+      "durationSec": 2125,
+      "topic": "NFC",
+      "fineSubject": "NFC",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9277,
+      "endSec": 10095,
+      "durationSec": 818,
+      "topic": "Lorawan",
+      "fineSubject": "Networking",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10096,
+      "endSec": 10788,
+      "durationSec": 692,
+      "topic": "Wikidata",
+      "fineSubject": "Data",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11095,
+      "endSec": 11294,
+      "durationSec": 199,
+      "topic": "WordPress",
+      "fineSubject": "Web Development",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11294,
+      "endSec": 11951,
+      "durationSec": 657,
+      "topic": "Static Website Generators",
+      "fineSubject": "Web Development",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11952,
+      "endSec": 13086,
+      "durationSec": 1134,
+      "topic": "Ultrawide Monitore und Window Manager",
+      "fineSubject": "Hardware",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13087,
+      "endSec": 13315,
+      "durationSec": 228,
+      "topic": "Macs kaufen",
+      "fineSubject": "Hardware",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13316,
+      "endSec": 13678,
+      "durationSec": 362,
+      "topic": "iPhone Xs",
+      "fineSubject": "Hardware",
+      "topicIndex": 13
+    }
+  ]
+}

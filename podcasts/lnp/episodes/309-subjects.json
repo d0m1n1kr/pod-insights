@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 309,
+  "title": "LNP309 Bin ich schon raus oder was?",
+  "generatedAt": "2026-01-05T15:17:57.614Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2889544114311635,
+      "Technology": 0,
+      "Law": 0.22408709457926967,
+      "Security": 0.2184168745747335,
+      "Social": 0.02381492401905194,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.24472669539578135,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1274,
+      "Technology": 0,
+      "Law": 988,
+      "Security": 963,
+      "Social": 105,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1079,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4409,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 321,
+      "endSec": 426,
+      "durationSec": 105,
+      "topic": "Feedback: Die H&M-Konfusion",
+      "fineSubject": "Fashion",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 426,
+      "endSec": 1700,
+      "durationSec": 1274,
+      "topic": "Kasachstan in the middle",
+      "fineSubject": "Central Asia",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1700,
+      "endSec": 2619,
+      "durationSec": 919,
+      "topic": "Advanced Persistent Threats",
+      "fineSubject": "Cyber Threats",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2620,
+      "endSec": 3608,
+      "durationSec": 988,
+      "topic": "Österreich: SIM-swapping zur Strafverfolgung?",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Business",
+      "startSec": 3609,
+      "endSec": 3971,
+      "durationSec": 362,
+      "topic": "Facebook-Strafe",
+      "fineSubject": "Regulation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 3971,
+      "endSec": 4688,
+      "durationSec": 717,
+      "topic": "Huawei-Boykott",
+      "fineSubject": "Trade",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4688,
+      "endSec": 4732,
+      "durationSec": 44,
+      "topic": "Sytech-Hack",
+      "fineSubject": "Hacking",
+      "topicIndex": 6
+    }
+  ]
+}

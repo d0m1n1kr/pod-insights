@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 359,
+  "title": "Mi359 – \"Esoterik Spirograph\"",
+  "generatedAt": "2026-01-05T15:18:17.394Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.056699398162812796,
+      "Culture": 0.7516629711751663,
+      "Wissenschaft": 0,
+      "Health": 0.1916376306620209,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 358,
+      "Culture": 4746,
+      "Wissenschaft": 0,
+      "Health": 1210,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 5,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6314,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 450,
+      "endSec": 583,
+      "durationSec": 133,
+      "topic": "ganzohr 2025",
+      "fineSubject": "Trends",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 583,
+      "endSec": 792,
+      "durationSec": 209,
+      "topic": "Kurbeln statt Schwurbeln",
+      "fineSubject": "Debate",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 792,
+      "endSec": 2737,
+      "durationSec": 1945,
+      "topic": "Leuchtturm 1917",
+      "fineSubject": "Events",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2737,
+      "endSec": 3947,
+      "durationSec": 1210,
+      "topic": "Thema 1: \"Volume Up! durch Psychotherapie\"",
+      "fineSubject": "Psychotherapy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3947,
+      "endSec": 4305,
+      "durationSec": 358,
+      "topic": "Science Snack",
+      "fineSubject": "Snacks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4305,
+      "endSec": 6280,
+      "durationSec": 1975,
+      "topic": "Thema 2: \"Wir leben in der Zukunft von 1996\"",
+      "fineSubject": "Futurism",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6280,
+      "endSec": 6764,
+      "durationSec": 484,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Critique",
+      "topicIndex": 6
+    }
+  ]
+}

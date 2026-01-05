@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 320,
+  "title": "Mi320 – \"Dambedei in Mittelerde\"",
+  "generatedAt": "2026-01-05T15:18:17.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.7675887606186016,
+      "Wissenschaft": 0,
+      "Health": 0.23241123938139838,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 3524,
+      "Wissenschaft": 0,
+      "Health": 1067,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4591,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 102,
+      "endSec": 492,
+      "durationSec": 390,
+      "topic": "Halloween",
+      "fineSubject": "Holidays",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 492,
+      "endSec": 1389,
+      "durationSec": 897,
+      "topic": "Philips Museum Eindhoven",
+      "fineSubject": "Museums",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1389,
+      "endSec": 3014,
+      "durationSec": 1625,
+      "topic": "Thema 1: \"Rekord-Pirouette\"",
+      "fineSubject": "Performance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 3014,
+      "endSec": 4081,
+      "durationSec": 1067,
+      "topic": "Snackable Experiment ;)",
+      "fineSubject": "Snacks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5360,
+      "endSec": 5972,
+      "durationSec": 612,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 5
+    }
+  ]
+}

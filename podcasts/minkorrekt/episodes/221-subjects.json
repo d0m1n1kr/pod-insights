@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 221,
+  "title": "Mi221 – „Sabbernde Hecke“",
+  "generatedAt": "2026-01-05T15:18:17.375Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.027574041407483055,
+      "Culture": 0.3256893510351871,
+      "Wissenschaft": 0,
+      "Health": 0.12960727880419645,
+      "Technology": 0.030730665676353172,
+      "Technologie": 0,
+      "Biologie": 0.06601058397548974,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.4203880791012905,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 297,
+      "Culture": 3508,
+      "Wissenschaft": 0,
+      "Health": 1396,
+      "Technology": 331,
+      "Technologie": 0,
+      "Biologie": 711,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 4528,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 2,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 4,
+      "Biology": 0
+    },
+    "totalDurationSec": 10771,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Biologie",
+      "startSec": 532,
+      "endSec": 930,
+      "durationSec": 398,
+      "topic": "Ameisen in Wien",
+      "fineSubject": "Ants",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 930,
+      "endSec": 1243,
+      "durationSec": 313,
+      "topic": "Maulwürfe",
+      "fineSubject": "Moles",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1620,
+      "endSec": 3119,
+      "durationSec": 1499,
+      "topic": "Reini im Schwurbelreich",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3119,
+      "endSec": 3606,
+      "durationSec": 487,
+      "topic": "Homöopathie",
+      "fineSubject": "Homeopathy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3979,
+      "endSec": 4310,
+      "durationSec": 331,
+      "topic": "3d Drucker",
+      "fineSubject": "3D Printers",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4310,
+      "endSec": 5701,
+      "durationSec": 1391,
+      "topic": "Marie",
+      "fineSubject": "Marie",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 5701,
+      "endSec": 5751,
+      "durationSec": 50,
+      "topic": "Themen der Woche",
+      "fineSubject": "Weekly Topics",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 5751,
+      "endSec": 6813,
+      "durationSec": 1062,
+      "topic": "Thema 1: “Frankenschwein”",
+      "fineSubject": "Frankenschwein",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 6996,
+      "endSec": 9718,
+      "durationSec": 2722,
+      "topic": "Thema 2: \"Ich war Armutsbetroffen\"",
+      "fineSubject": "Poverty",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Science",
+      "startSec": 9718,
+      "endSec": 10015,
+      "durationSec": 297,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Weekly Experiment",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 10015,
+      "endSec": 10924,
+      "durationSec": 909,
+      "topic": "Thema 3: “Patient Zero”",
+      "fineSubject": "Patient Zero",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Social",
+      "startSec": 10924,
+      "endSec": 11618,
+      "durationSec": 694,
+      "topic": "Thema 4: \"Stay home, be smart!\"",
+      "fineSubject": "Stay Home",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Culture",
+      "startSec": 11716,
+      "endSec": 12334,
+      "durationSec": 618,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Weekly Conspiracy",
+      "topicIndex": 14
+    }
+  ]
+}

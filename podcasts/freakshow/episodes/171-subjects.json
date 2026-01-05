@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 171,
+  "title": "FS171 Invasion!",
+  "generatedAt": "2026-01-05T15:17:51.085Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.073218761188686,
+      "Software": 0.3557107053347655,
+      "Hardware": 0.2534908700322234,
+      "Finance": 0,
+      "Media": 0.12880415324024347,
+      "Social": 0.05764411027568922,
+      "Culture": 0,
+      "Security": 0.1311313999283924,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 818,
+      "Software": 3974,
+      "Hardware": 2832,
+      "Finance": 0,
+      "Media": 1439,
+      "Social": 644,
+      "Culture": 0,
+      "Security": 1465,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 6,
+      "Hardware": 5,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 2,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11172,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 298,
+      "endSec": 1116,
+      "durationSec": 818,
+      "topic": "IETF Meeting Netzwerk",
+      "fineSubject": "IETF Meeting",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 2020,
+      "endSec": 2136,
+      "durationSec": 116,
+      "topic": "Freak Show Bingo",
+      "fineSubject": "Freak Show Bingo",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4646,
+      "endSec": 5094,
+      "durationSec": 448,
+      "topic": "iPhone Akkukalibration",
+      "fineSubject": "iPhone",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5094,
+      "endSec": 5460,
+      "durationSec": 366,
+      "topic": "Alte iPads und iPod touches",
+      "fineSubject": "iPads and iPod touches",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 5461,
+      "endSec": 6105,
+      "durationSec": 644,
+      "topic": "Find My Friends",
+      "fineSubject": "Find My Friends",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6105,
+      "endSec": 6972,
+      "durationSec": 867,
+      "topic": "iPhone Music Player",
+      "fineSubject": "iPhone Music Player",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6973,
+      "endSec": 7910,
+      "durationSec": 937,
+      "topic": "Apple Watch",
+      "fineSubject": "Apple Watch",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 7910,
+      "endSec": 8589,
+      "durationSec": 679,
+      "topic": "Kommandozeile: System Appreciation",
+      "fineSubject": "Command Line",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 8698,
+      "endSec": 9155,
+      "durationSec": 457,
+      "topic": "Kommandozeile: Remote Deployment",
+      "fineSubject": "Command Line",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 9156,
+      "endSec": 9870,
+      "durationSec": 714,
+      "topic": "Kommandozeile: Man Pages",
+      "fineSubject": "Command Line",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 9871,
+      "endSec": 10681,
+      "durationSec": 810,
+      "topic": "Kommandozeile: screen vs. tmux",
+      "fineSubject": "Command Line",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 10681,
+      "endSec": 12004,
+      "durationSec": 1323,
+      "topic": "Star Wars: Machete Order & Phantom Edit",
+      "fineSubject": "Star Wars",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12004,
+      "endSec": 12218,
+      "durationSec": 214,
+      "topic": "Kopfhörer-Ersatzteile",
+      "fineSubject": "Headphones",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 12218,
+      "endSec": 13082,
+      "durationSec": 864,
+      "topic": "Dante",
+      "fineSubject": "Dante",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Software",
+      "startSec": 13083,
+      "endSec": 13533,
+      "durationSec": 450,
+      "topic": "Dante Via",
+      "fineSubject": "Dante Via",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Security",
+      "startSec": 13533,
+      "endSec": 14170,
+      "durationSec": 637,
+      "topic": "Internet of Things Security",
+      "fineSubject": "Internet of Things",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Security",
+      "startSec": 14171,
+      "endSec": 14999,
+      "durationSec": 828,
+      "topic": "That One Privacy Guy's VPN Comparison Chart",
+      "fineSubject": "VPN Comparison",
+      "topicIndex": 18
+    }
+  ]
+}

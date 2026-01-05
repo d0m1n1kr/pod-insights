@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 439,
+  "title": "LNP439 IT-Sicherheit ist nicht alles",
+  "generatedAt": "2026-01-05T15:17:57.634Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.14772727272727273,
+      "Technology": 0.08065410199556541,
+      "Law": 0,
+      "Security": 0.15465631929046564,
+      "Social": 0.1834811529933481,
+      "Media": 0,
+      "Health": 0.40188470066518844,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.03159645232815964,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 533,
+      "Technology": 291,
+      "Law": 0,
+      "Security": 558,
+      "Social": 662,
+      "Media": 0,
+      "Health": 1450,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 114,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3608,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 616,
+      "endSec": 1278,
+      "durationSec": 662,
+      "topic": "Feedback: Postident und e-Perso",
+      "fineSubject": "Identity Verification",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1278,
+      "endSec": 1569,
+      "durationSec": 291,
+      "topic": "Feedback: AI-Art",
+      "fineSubject": "AI",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 1569,
+      "endSec": 1683,
+      "durationSec": 114,
+      "topic": "Feedback: EFTA",
+      "fineSubject": "Trade Agreements",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1684,
+      "endSec": 3134,
+      "durationSec": 1450,
+      "topic": "e-Rezept",
+      "fineSubject": "Digital Health Services",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3134,
+      "endSec": 3667,
+      "durationSec": 533,
+      "topic": "Porno-Netzsperren",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 3667,
+      "endSec": 4225,
+      "durationSec": 558,
+      "topic": "Cyberresilienz",
+      "fineSubject": "Cyber Resilience",
+      "topicIndex": 5
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "episodeNumber": 41,
+  "title": "RZ041 Envisat",
+  "generatedAt": "2026-01-05T15:18:06.279Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.1,
+      "Astronomie": 0,
+      "Wissenschaft": 0.9,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 1,
+      "Astronomie": 0,
+      "Wissenschaft": 9,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einfluss von Envisat auf die Erdbeobachtung",
+      "fineSubject": "Erdbeobachtung",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Umweltforschung durch Envisat",
+      "fineSubject": "Forschung",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beobachtung von Ozeanverschmutzung",
+      "fineSubject": "Verschmutzung",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Tropenwaldabholzung und ihre Auswirkungen",
+      "fineSubject": "Abholzung",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Luftverschmutzung durch Industrie",
+      "fineSubject": "Luftqualität",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vermessung der Erde mit Envisat",
+      "fineSubject": "Satellitenvermessung",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beobachtung von Erdbeben und deren Auswirkungen",
+      "fineSubject": "Erdbeben",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beobachtung von Vulkanen",
+      "fineSubject": "Vulkanismus",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beobachtung des Ozonlochs",
+      "fineSubject": "Ozon",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Übergang von Forschung zu wissenschaftlicher Dienstleistung",
+      "fineSubject": "Dienstleistungen",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

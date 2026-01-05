@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 72,
+  "title": "LNP072 Innenpolitischer Tritonus",
+  "generatedAt": "2026-01-05T15:17:57.583Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9401008827238335,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.05989911727616646,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2982,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 190,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3172,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 87,
+      "endSec": 525,
+      "durationSec": 438,
+      "topic": "Razzia bei der Telekom",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 525,
+      "endSec": 773,
+      "durationSec": 248,
+      "topic": "HADOPI soll abgewickelt werden",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 773,
+      "endSec": 963,
+      "durationSec": 190,
+      "topic": "C3S crowdfunding",
+      "fineSubject": "Crowdfunding",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 963,
+      "endSec": 2712,
+      "durationSec": 1749,
+      "topic": "IM Friedrich auf großer Reise",
+      "fineSubject": "Travel",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2712,
+      "endSec": 2970,
+      "durationSec": 258,
+      "topic": "Spaziergang auf dem Dagger Complex bei Griesheim",
+      "fineSubject": "Military",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2970,
+      "endSec": 3259,
+      "durationSec": 289,
+      "topic": "EU: Glückspiel-Websperren",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 5
+    }
+  ]
+}

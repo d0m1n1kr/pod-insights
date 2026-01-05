@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 396,
+  "title": "LNP396 Hochsicherheit kommt vor dem Fall",
+  "generatedAt": "2026-01-05T15:17:57.627Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 5301,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5301,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 969,
+      "endSec": 2844,
+      "durationSec": 1875,
+      "topic": "Luca: Was bisher geschah",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2844,
+      "endSec": 6270,
+      "durationSec": 3426,
+      "topic": "Luca: Die neueste Schwachstelle",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 3
+    }
+  ]
+}

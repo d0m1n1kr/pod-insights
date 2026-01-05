@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 232,
+  "title": "Mi232 – „Darmdoping“",
+  "generatedAt": "2026-01-05T15:18:17.376Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.37294151050539465,
+      "Wissenschaft": 0,
+      "Health": 0.29116978989210673,
+      "Technology": 0.2761215218625781,
+      "Technologie": 0,
+      "Biologie": 0.051959114139693355,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.007808063600227144,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 2627,
+      "Wissenschaft": 0,
+      "Health": 2051,
+      "Technology": 1945,
+      "Technologie": 0,
+      "Biologie": 366,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 55,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 7044,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 318,
+      "endSec": 1013,
+      "durationSec": 695,
+      "topic": "Shades Tour",
+      "fineSubject": "Art",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1013,
+      "endSec": 2240,
+      "durationSec": 1227,
+      "topic": "Chaos und Ordnung",
+      "fineSubject": "Order",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 2240,
+      "endSec": 2606,
+      "durationSec": 366,
+      "topic": "Monet Garten",
+      "fineSubject": "Gardening",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2606,
+      "endSec": 4300,
+      "durationSec": 1694,
+      "topic": "ChatGPT",
+      "fineSubject": "AI",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4300,
+      "endSec": 4551,
+      "durationSec": 251,
+      "topic": "Lego Curiosity Rover",
+      "fineSubject": "Robotics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 4877,
+      "endSec": 4932,
+      "durationSec": 55,
+      "topic": "Themen der Woche",
+      "fineSubject": "Weekly Topics",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4932,
+      "endSec": 5850,
+      "durationSec": 918,
+      "topic": "Thema 1: “Verfluchte Drecksstudie”",
+      "fineSubject": "Research",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5850,
+      "endSec": 6983,
+      "durationSec": 1133,
+      "topic": "Thema 2: \"Unmotivierte Scheiße\"",
+      "fineSubject": "Motivation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6983,
+      "endSec": 7688,
+      "durationSec": 705,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 7777,
+      "endSec": 7777,
+      "durationSec": 0,
+      "topic": "Gedicht",
+      "fineSubject": "Poetry",
+      "topicIndex": 10
+    }
+  ]
+}

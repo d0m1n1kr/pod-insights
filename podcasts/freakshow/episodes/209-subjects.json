@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 209,
+  "title": "FS209 Wir müssen einfach die Wurst wegknallen",
+  "generatedAt": "2026-01-05T15:17:51.094Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.21638304971638306,
+      "Hardware": 0.22080413747080413,
+      "Finance": 0.43902235568902237,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.010510510510510511,
+      "Security": 0,
+      "Events": 0.11327994661327995,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 2594,
+      "Hardware": 2647,
+      "Finance": 5263,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 126,
+      "Security": 0,
+      "Events": 1358,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 1,
+      "Hardware": 2,
+      "Finance": 3,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11988,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 141,
+      "endSec": 267,
+      "durationSec": 126,
+      "topic": "Klimbim",
+      "fineSubject": "Miscellaneous",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 490,
+      "endSec": 2404,
+      "durationSec": 1914,
+      "topic": "Prozessoren",
+      "fineSubject": "Processors",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2505,
+      "endSec": 3238,
+      "durationSec": 733,
+      "topic": "Kupfer ist Glasfaser",
+      "fineSubject": "Fiber Optics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3561,
+      "endSec": 4863,
+      "durationSec": 1302,
+      "topic": "Finanzierungsplattformen",
+      "fineSubject": "Crowdfunding",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Finance",
+      "startSec": 4864,
+      "endSec": 8025,
+      "durationSec": 3161,
+      "topic": "Bitcoin Hype",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8025,
+      "endSec": 8825,
+      "durationSec": 800,
+      "topic": "Bitcoin Verschwörungen",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 8826,
+      "endSec": 11420,
+      "durationSec": 2594,
+      "topic": "Apple Software Quality & Security",
+      "fineSubject": "Quality & Security",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Events",
+      "startSec": 11421,
+      "endSec": 12779,
+      "durationSec": 1358,
+      "topic": "34C3 and Rhythm and Poetry",
+      "fineSubject": "Conferences",
+      "topicIndex": 7
+    }
+  ]
+}

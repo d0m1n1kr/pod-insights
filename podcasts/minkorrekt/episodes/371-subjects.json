@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 371,
+  "title": "Mi371 – \"Organisierte Konflikte\"",
+  "generatedAt": "2026-01-05T15:18:17.396Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.40985010706638114,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.5901498929336189,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 957,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1378,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 2335,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 440,
+      "endSec": 1025,
+      "durationSec": 585,
+      "topic": "Mondwasser",
+      "fineSubject": "Water",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 2930,
+      "endSec": 4308,
+      "durationSec": 1378,
+      "topic": "Thema 2: \"Das wird kurz nicht weh tun\"",
+      "fineSubject": "Pain",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 4308,
+      "endSec": 4680,
+      "durationSec": 372,
+      "topic": "Schwurbel",
+      "fineSubject": "Misinformation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5173,
+      "endSec": 5173,
+      "durationSec": 0,
+      "topic": "KI-Song von Patrick",
+      "fineSubject": "Music",
+      "topicIndex": 4
+    }
+  ]
+}

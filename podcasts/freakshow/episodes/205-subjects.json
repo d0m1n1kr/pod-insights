@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 205,
+  "title": "FS205 Modern und treibend",
+  "generatedAt": "2026-01-05T15:17:51.093Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6464740190880169,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.23223753976670203,
+      "Media": 0.12128844114528102,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4877,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1752,
+      "Media": 915,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 9,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7544,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Finance",
+      "startSec": 4515,
+      "endSec": 6267,
+      "durationSec": 1752,
+      "topic": "Grundeinkommen",
+      "fineSubject": "Universal Basic Income",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7640,
+      "endSec": 8717,
+      "durationSec": 1077,
+      "topic": "iOS 11",
+      "fineSubject": "Mobile Operating Systems",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9218,
+      "endSec": 9474,
+      "durationSec": 256,
+      "topic": "Alte iMacs kaufen",
+      "fineSubject": "Computers",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9475,
+      "endSec": 9638,
+      "durationSec": 163,
+      "topic": "Mac (Book) Pro",
+      "fineSubject": "Laptops",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9638,
+      "endSec": 10612,
+      "durationSec": 974,
+      "topic": "A11 Performance",
+      "fineSubject": "Performance",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10612,
+      "endSec": 10782,
+      "durationSec": 170,
+      "topic": "Mac-Prozessorplattformen",
+      "fineSubject": "Processors",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10783,
+      "endSec": 10928,
+      "durationSec": 145,
+      "topic": "Touch Bar",
+      "fineSubject": "User Interface",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10928,
+      "endSec": 11174,
+      "durationSec": 246,
+      "topic": "Shortcut Alert",
+      "fineSubject": "Software Tools",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 11175,
+      "endSec": 12090,
+      "durationSec": 915,
+      "topic": "Die Blogosphäre",
+      "fineSubject": "Blogging",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12090,
+      "endSec": 12997,
+      "durationSec": 907,
+      "topic": "Reaper Spektraleditor",
+      "fineSubject": "Audio Software",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12997,
+      "endSec": 13936,
+      "durationSec": 939,
+      "topic": "Apple Watch",
+      "fineSubject": "Wearable Devices",
+      "topicIndex": 16
+    }
+  ]
+}

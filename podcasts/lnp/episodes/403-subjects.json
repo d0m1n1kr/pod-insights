@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 403,
+  "title": "LNP403 Leichte Schläge auf den Hinterkopf",
+  "generatedAt": "2026-01-05T15:17:57.628Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.06119430578665187,
+      "Technology": 0.778702163061564,
+      "Law": 0.04936217415418746,
+      "Security": 0.032723239046034386,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.07801811795156222,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 331,
+      "Technology": 4212,
+      "Law": 267,
+      "Security": 177,
+      "Social": 0,
+      "Media": 0,
+      "Health": 422,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 4,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5409,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 178,
+      "endSec": 405,
+      "durationSec": 227,
+      "topic": "Feedback: Herkunft der Status Codes",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 405,
+      "endSec": 554,
+      "durationSec": 149,
+      "topic": "Feedback: Status Code Drehbuch",
+      "fineSubject": "Status Codes",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 555,
+      "endSec": 732,
+      "durationSec": 177,
+      "topic": "Feedback: Ransomware",
+      "fineSubject": "Ransomware",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 733,
+      "endSec": 1064,
+      "durationSec": 331,
+      "topic": "Feedback: CDU connect",
+      "fineSubject": "CDU",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1064,
+      "endSec": 1486,
+      "durationSec": 422,
+      "topic": "Impfzertifikate",
+      "fineSubject": "Impfzertifikate",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1487,
+      "endSec": 4996,
+      "durationSec": 3509,
+      "topic": "Apples Child Safety Initiative",
+      "fineSubject": "Child Safety",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4997,
+      "endSec": 5324,
+      "durationSec": 327,
+      "topic": "Lucafails",
+      "fineSubject": "Lucafails",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 5324,
+      "endSec": 5591,
+      "durationSec": 267,
+      "topic": "DSGVO-Strafe für veraltete Software",
+      "fineSubject": "DSGVO",
+      "topicIndex": 7
+    }
+  ]
+}

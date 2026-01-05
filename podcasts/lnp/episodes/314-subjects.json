@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 314,
+  "title": "LNP314 That’s just like, your opinion, man",
+  "generatedAt": "2026-01-05T15:17:57.615Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3215799614643545,
+      "Technology": 0.21040462427745665,
+      "Law": 0.43082851637764935,
+      "Security": 0,
+      "Social": 0.0371868978805395,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1669,
+      "Technology": 1092,
+      "Law": 2236,
+      "Security": 0,
+      "Social": 193,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5190,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 161,
+      "endSec": 1192,
+      "durationSec": 1031,
+      "topic": "Brexit",
+      "fineSubject": "Brexit",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1193,
+      "endSec": 2582,
+      "durationSec": 1389,
+      "topic": "EuGH-Entscheidung: Cookie-Banner",
+      "fineSubject": "Privacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2582,
+      "endSec": 3429,
+      "durationSec": 847,
+      "topic": "EuGH-Entscheidung: Beleidigungen",
+      "fineSubject": "Defamation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3430,
+      "endSec": 4522,
+      "durationSec": 1092,
+      "topic": "Cyberbunker",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 4523,
+      "endSec": 4716,
+      "durationSec": 193,
+      "topic": "Social Bots sitzen schon in den Parlamenten",
+      "fineSubject": "Social Bots",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4716,
+      "endSec": 5354,
+      "durationSec": 638,
+      "topic": "Krisenradar: CDU plant schnelle Online-Eingreiftruppe nach Rezo-Alarm",
+      "fineSubject": "Political Strategy",
+      "topicIndex": 5
+    }
+  ]
+}

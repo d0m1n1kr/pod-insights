@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 217,
+  "title": "FS217 Überspezifisches Dementi",
+  "generatedAt": "2026-01-05T15:17:51.096Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.0927766732935719,
+      "Software": 0.13626573889993374,
+      "Hardware": 0.22722001325381047,
+      "Finance": 0.25960901259111996,
+      "Media": 0.06386679920477137,
+      "Social": 0,
+      "Culture": 0.1640987408880053,
+      "Security": 0.05616302186878728,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1120,
+      "Software": 1645,
+      "Hardware": 2743,
+      "Finance": 3134,
+      "Media": 771,
+      "Social": 0,
+      "Culture": 1981,
+      "Security": 678,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 3,
+      "Hardware": 3,
+      "Finance": 2,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12072,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 418,
+      "endSec": 1189,
+      "durationSec": 771,
+      "topic": "Streaming",
+      "fineSubject": "Streaming",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Finance",
+      "startSec": 1189,
+      "endSec": 2854,
+      "durationSec": 1665,
+      "topic": "Marktanteile",
+      "fineSubject": "Market Shares",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2855,
+      "endSec": 3703,
+      "durationSec": 848,
+      "topic": "Google IO",
+      "fineSubject": "Google IO",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 4646,
+      "endSec": 4958,
+      "durationSec": 312,
+      "topic": "Literate Programming",
+      "fineSubject": "Literate Programming",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4958,
+      "endSec": 6939,
+      "durationSec": 1981,
+      "topic": "Deutscher Humor",
+      "fineSubject": "Humor",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Finance",
+      "startSec": 6939,
+      "endSec": 8408,
+      "durationSec": 1469,
+      "topic": "Bitcoin Lightning Networks",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8409,
+      "endSec": 8899,
+      "durationSec": 490,
+      "topic": "Mac Wärmeprobleme",
+      "fineSubject": "Mac",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8900,
+      "endSec": 9719,
+      "durationSec": 819,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Mac Customization",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9719,
+      "endSec": 11153,
+      "durationSec": 1434,
+      "topic": "iMac Pro",
+      "fineSubject": "iMac",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 11153,
+      "endSec": 11552,
+      "durationSec": 399,
+      "topic": "Espresso Update",
+      "fineSubject": "Updates",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 11552,
+      "endSec": 12486,
+      "durationSec": 934,
+      "topic": "Zoom L-12 Update",
+      "fineSubject": "Updates",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Security",
+      "startSec": 12487,
+      "endSec": 13165,
+      "durationSec": 678,
+      "topic": "Spamfrei dank Rspamd",
+      "fineSubject": "Email",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13165,
+      "endSec": 13437,
+      "durationSec": 272,
+      "topic": "DNS selbst gemacht",
+      "fineSubject": "DNS",
+      "topicIndex": 14
+    }
+  ]
+}

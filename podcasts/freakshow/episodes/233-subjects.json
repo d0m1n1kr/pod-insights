@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 233,
+  "title": "FS233 API für Opi",
+  "generatedAt": "2026-01-05T15:17:51.101Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.8030568535825545,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.09676791277258567,
+      "Media": 0.1001752336448598,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 8249,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 994,
+      "Media": 1029,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 10,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10272,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 4338,
+      "endSec": 5639,
+      "durationSec": 1301,
+      "topic": "Elektroscooter",
+      "fineSubject": "Electric Scooters",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5640,
+      "endSec": 6408,
+      "durationSec": 768,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Pimp My Mac",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6408,
+      "endSec": 8115,
+      "durationSec": 1707,
+      "topic": "Bilderrahmen",
+      "fineSubject": "Picture Frames",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8116,
+      "endSec": 8439,
+      "durationSec": 323,
+      "topic": "Über Macs reden",
+      "fineSubject": "Talking About Macs",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8439,
+      "endSec": 10737,
+      "durationSec": 2298,
+      "topic": "ARM Macs",
+      "fineSubject": "ARM Macs",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 10738,
+      "endSec": 11767,
+      "durationSec": 1029,
+      "topic": "Podcast-Transkription",
+      "fineSubject": "Podcast Transcription",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11768,
+      "endSec": 12186,
+      "durationSec": 418,
+      "topic": "Xserve",
+      "fineSubject": "Xserve",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12186,
+      "endSec": 12428,
+      "durationSec": 242,
+      "topic": "Macmoji",
+      "fineSubject": "Macmoji",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12429,
+      "endSec": 13423,
+      "durationSec": 994,
+      "topic": "Banking im Ausland",
+      "fineSubject": "Banking Abroad",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13423,
+      "endSec": 13691,
+      "durationSec": 268,
+      "topic": "USB 4",
+      "fineSubject": "USB 4",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13691,
+      "endSec": 14356,
+      "durationSec": 665,
+      "topic": "E-Auto Ladebuchsen",
+      "fineSubject": "E-Car Charging Ports",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14357,
+      "endSec": 14616,
+      "durationSec": 259,
+      "topic": "AVR Development",
+      "fineSubject": "AVR Development",
+      "topicIndex": 18
+    }
+  ]
+}

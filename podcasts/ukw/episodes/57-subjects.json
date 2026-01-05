@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 57,
+  "title": "UKW057 Corona Weekly: Überbackene Fernbedienung",
+  "generatedAt": "2026-01-05T15:18:03.013Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 3488,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 8,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 3488,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 872,
+      "endSec": 1552,
+      "durationSec": 680,
+      "topic": "Zahlen in Deutschland",
+      "fineSubject": "Zahlen in Deutschland",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1552,
+      "endSec": 2381,
+      "durationSec": 829,
+      "topic": "Schulen, Mobilität und neue Varianten",
+      "fineSubject": "Schulen und Mobilität",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2382,
+      "endSec": 2817,
+      "durationSec": 435,
+      "topic": "Sequenzierung in Deutschland",
+      "fineSubject": "Sequenzierung",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2817,
+      "endSec": 3274,
+      "durationSec": 457,
+      "topic": "Neue Variante 501Y.V2 in Südafrika",
+      "fineSubject": "Neue Variante",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3274,
+      "endSec": 3504,
+      "durationSec": 230,
+      "topic": "Impfungen in Deutschland",
+      "fineSubject": "Impfungen in Deutschland",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3505,
+      "endSec": 3689,
+      "durationSec": 184,
+      "topic": "Impfungen in Israel",
+      "fineSubject": "Impfungen in Israel",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 3689,
+      "endSec": 4180,
+      "durationSec": 491,
+      "topic": "Wiederverwendung von FFP2-Masken",
+      "fineSubject": "FFP2-Masken",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4180,
+      "endSec": 4362,
+      "durationSec": 182,
+      "topic": "Ausblick",
+      "fineSubject": "Ausblick",
+      "topicIndex": 11
+    }
+  ]
+}

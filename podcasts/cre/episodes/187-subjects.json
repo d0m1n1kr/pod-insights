@@ -1,0 +1,134 @@
+{
+  "episodeNumber": 187,
+  "title": "CRE187 Paparazzi",
+  "generatedAt": "2026-01-05T15:17:54.389Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0.625,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0.125,
+      "Culture": 0,
+      "Technologie": 0.25,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 5,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 1,
+      "Culture": 0,
+      "Technologie": 2,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entwicklung von Flugsteuerungs-Software",
+      "fineSubject": "Flugsteuerung",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Hardware",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Modellflugzeuge und Quadrocopter",
+      "fineSubject": "Modellflugzeuge",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einsatz in meteorologischen Anwendungen",
+      "fineSubject": "Meteorologie",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kollisionsvermeidung",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einsatz bei Naturkatastrophen",
+      "fineSubject": "Katastrophenmanagement",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Integration der Software in größere Modellflugzeuge",
+      "fineSubject": "Integration",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Automatisierter Parabelflug",
+      "fineSubject": "Flugmanöver",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Software",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Beobachtung von Waldbränden",
+      "fineSubject": "Umweltschutz",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

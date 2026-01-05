@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 499,
+  "title": "LNP499 Denn sie wissen nicht, was sie tun",
+  "generatedAt": "2026-01-05T15:17:57.642Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.23259493670886075,
+      "Law": 0,
+      "Security": 0.0949367088607595,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.6724683544303798,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 441,
+      "Law": 0,
+      "Security": 180,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1275,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 1896,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 354,
+      "endSec": 461,
+      "durationSec": 107,
+      "topic": "Feedback: Weißblechdosen",
+      "fineSubject": "Weißblechdosen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 462,
+      "endSec": 543,
+      "durationSec": 81,
+      "topic": "Feedback: Filmdosen",
+      "fineSubject": "Filmdosen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 544,
+      "endSec": 1631,
+      "durationSec": 1087,
+      "topic": "Feedback: Google-Monopol",
+      "fineSubject": "Google-Monopol",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1631,
+      "endSec": 2072,
+      "durationSec": 441,
+      "topic": "Meta vs. Telekom",
+      "fineSubject": "Meta vs. Telekom",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2862,
+      "endSec": 3042,
+      "durationSec": 180,
+      "topic": "Günther Öttinger ist Berater für Cybersicherheit",
+      "fineSubject": "Cybersicherheit",
+      "topicIndex": 7
+    }
+  ]
+}

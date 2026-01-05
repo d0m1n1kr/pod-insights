@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 22,
+  "title": "LNP022 Du willst es doch auch!",
+  "generatedAt": "2026-01-05T15:17:57.574Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.44857296715131934,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.5514270328486807,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 833,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1024,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 1857,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 21,
+      "endSec": 854,
+      "durationSec": 833,
+      "topic": "Vorratsdaten: Deutschland lässt es drauf ankommen",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 854,
+      "endSec": 1878,
+      "durationSec": 1024,
+      "topic": "GEMA vs. YouTube – 1:1 in Hamburg",
+      "fineSubject": "Copyright",
+      "topicIndex": 1
+    }
+  ]
+}

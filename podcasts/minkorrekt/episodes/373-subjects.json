@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 373,
+  "title": "Mi373 – \"Nobelpreissonderfolge 2025\"",
+  "generatedAt": "2026-01-05T15:18:17.396Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.689928628072958,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.2759714512291832,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.03409992069785884,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 870,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 348,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 43,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 1261,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 341,
+      "endSec": 1211,
+      "durationSec": 870,
+      "topic": "EDC Tasche",
+      "fineSubject": "Accessories",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1211,
+      "endSec": 1559,
+      "durationSec": 348,
+      "topic": "Ampelschaltung",
+      "fineSubject": "Traffic Systems",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 2169,
+      "endSec": 2212,
+      "durationSec": 43,
+      "topic": "Vlog Nicolas",
+      "fineSubject": "Vlogging",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 8115,
+      "endSec": 8115,
+      "durationSec": 0,
+      "topic": "Audiokommentar Georg zu pubmed",
+      "fineSubject": "Commentary",
+      "topicIndex": 10
+    }
+  ]
+}

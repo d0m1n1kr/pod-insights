@@ -1,0 +1,252 @@
+{
+  "episodeNumber": 78,
+  "title": "MM078 Casual Minecraft Wannabes",
+  "generatedAt": "2026-01-05T15:17:51.067Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.26377856031447056,
+      "Software": 0.3297846204242077,
+      "Hardware": 0.17459667512898205,
+      "Finance": 0,
+      "Media": 0.012284006223896487,
+      "Social": 0.11137498976332814,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.045450823028417,
+      "Gaming": 0.06273032511669806,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3221,
+      "Software": 4027,
+      "Hardware": 2132,
+      "Finance": 0,
+      "Media": 150,
+      "Social": 1360,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 555,
+      "Gaming": 766,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 8,
+      "Software": 7,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 12211,
+    "totalTopics": 23
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 317,
+      "endSec": 467,
+      "durationSec": 150,
+      "topic": "iTunes Rewind",
+      "fineSubject": "Media / iTunes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 789,
+      "endSec": 1428,
+      "durationSec": 639,
+      "topic": "Carrier IQ",
+      "fineSubject": "Technology / Carrier IQ",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2304,
+      "endSec": 2420,
+      "durationSec": 116,
+      "topic": "Sandboxing",
+      "fineSubject": "Technology / Sandboxing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2780,
+      "endSec": 4475,
+      "durationSec": 1695,
+      "topic": "iMac oder Mac Pro?",
+      "fineSubject": "Hardware / iMac vs Mac Pro",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4608,
+      "endSec": 5195,
+      "durationSec": 587,
+      "topic": "Glonas",
+      "fineSubject": "Technology / Glonas",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 5195,
+      "endSec": 5750,
+      "durationSec": 555,
+      "topic": "Neuer AppleStore in Hamburg",
+      "fineSubject": "Business / Apple Store",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 5825,
+      "endSec": 6189,
+      "durationSec": 364,
+      "topic": "Twitter 4",
+      "fineSubject": "Social / Twitter",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 6189,
+      "endSec": 7002,
+      "durationSec": 813,
+      "topic": "Textmate 2",
+      "fineSubject": "Software / Textmate",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7002,
+      "endSec": 7164,
+      "durationSec": 162,
+      "topic": "Ping",
+      "fineSubject": "Technology / Ping",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7164,
+      "endSec": 7868,
+      "durationSec": 704,
+      "topic": "WebOS",
+      "fineSubject": "Technology / WebOS",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 7868,
+      "endSec": 9048,
+      "durationSec": 1180,
+      "topic": "Office fürs iPad & Microsofts Situation",
+      "fineSubject": "Software / Microsoft Office",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9125,
+      "endSec": 9562,
+      "durationSec": 437,
+      "topic": "Zeppelin Air",
+      "fineSubject": "Hardware / Zeppelin Air",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9562,
+      "endSec": 9932,
+      "durationSec": 370,
+      "topic": "Airplay & Shairport",
+      "fineSubject": "Technology / Airplay",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Social",
+      "startSec": 10040,
+      "endSec": 11036,
+      "durationSec": 996,
+      "topic": "Facebook & Social Networks",
+      "fineSubject": "Social / Facebook",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 11036,
+      "endSec": 11802,
+      "durationSec": 766,
+      "topic": "Game Center & Spiele-Empfehlungen",
+      "fineSubject": "Gaming / Game Center",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12565,
+      "endSec": 12856,
+      "durationSec": 291,
+      "topic": "Heimautomatisierung",
+      "fineSubject": "Technology / Smart Home",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12856,
+      "endSec": 13208,
+      "durationSec": 352,
+      "topic": "nAnl – hacken, kracken, kacken",
+      "fineSubject": "Technology / nAnl",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Software",
+      "startSec": 13456,
+      "endSec": 13903,
+      "durationSec": 447,
+      "topic": "Microsoft OneNote für iOS",
+      "fineSubject": "Software / OneNote",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 13903,
+      "endSec": 14615,
+      "durationSec": 712,
+      "topic": "Kalender",
+      "fineSubject": "Software / Calendar",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Software",
+      "startSec": 14615,
+      "endSec": 14707,
+      "durationSec": 92,
+      "topic": "Google Currents",
+      "fineSubject": "Software / Google Currents",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Software",
+      "startSec": 14707,
+      "endSec": 14802,
+      "durationSec": 95,
+      "topic": "Flipboard",
+      "fineSubject": "Software / Flipboard",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Software",
+      "startSec": 14802,
+      "endSec": 15490,
+      "durationSec": 688,
+      "topic": "Zite",
+      "fineSubject": "Software / Zite",
+      "topicIndex": 22
+    }
+  ]
+}

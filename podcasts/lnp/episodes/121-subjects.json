@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 121,
+  "title": "LNP121 Best Fail",
+  "generatedAt": "2026-01-05T15:17:57.591Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.41584645669291337,
+      "Technology": 0.18700787401574803,
+      "Law": 0.1687992125984252,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.2283464566929134,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1690,
+      "Technology": 760,
+      "Law": 686,
+      "Security": 0,
+      "Social": 0,
+      "Media": 928,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4064,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 278,
+      "endSec": 1206,
+      "durationSec": 928,
+      "topic": "Springer verliert Traffic",
+      "fineSubject": "Traffic",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1207,
+      "endSec": 2897,
+      "durationSec": 1690,
+      "topic": "BND auf Shopping-Tour",
+      "fineSubject": "Intelligence",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4133,
+      "endSec": 4893,
+      "durationSec": 760,
+      "topic": "Breitband: Oettinger will Anbieterwechsel einschränken",
+      "fineSubject": "Regulation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 4893,
+      "endSec": 5579,
+      "durationSec": 686,
+      "topic": "Raubkopierer in Haft",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    }
+  ]
+}

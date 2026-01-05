@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 113,
+  "title": "RZ113 CERN: Der ALICE-Detektor",
+  "generatedAt": "2026-01-05T15:18:06.289Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0.2782485875706215,
+      "Technology": 0,
+      "Physik": 0.3644067796610169,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0.3573446327683616,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 788,
+      "Technology": 0,
+      "Physik": 1032,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 1012,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 1,
+      "Technology": 0,
+      "Physik": 1,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 1,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 2832,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 14,
+      "endSec": 802,
+      "durationSec": 788,
+      "topic": "ALICE-Experiment",
+      "fineSubject": "Particle Physics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Research",
+      "startSec": 14,
+      "endSec": 1026,
+      "durationSec": 1012,
+      "topic": "CERN",
+      "fineSubject": "Particle Accelerator",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Physik",
+      "startSec": 762,
+      "endSec": 1794,
+      "durationSec": 1032,
+      "topic": "Quark-Gluon-Plasma",
+      "fineSubject": "State of Matter",
+      "topicIndex": 1
+    }
+  ]
+}

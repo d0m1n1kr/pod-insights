@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 203,
+  "title": "FS203 Stock aus dem Arsch und Schlauch in den Boden",
+  "generatedAt": "2026-01-05T15:17:51.092Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3470134874759152,
+      "Software": 0.22909441233140654,
+      "Hardware": 0.15183044315992292,
+      "Finance": 0.2119460500963391,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.06011560693641618,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1801,
+      "Software": 1189,
+      "Hardware": 788,
+      "Finance": 1100,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 312,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 1,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 5190,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 22,
+      "endSec": 334,
+      "durationSec": 312,
+      "topic": "Freak Show ist wieder da",
+      "fineSubject": "Entertainment",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3876,
+      "endSec": 4976,
+      "durationSec": 1100,
+      "topic": "Bitcoin Core vs. Bitcoin Cash",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4977,
+      "endSec": 5418,
+      "durationSec": 441,
+      "topic": "Trezor",
+      "fineSubject": "Hardware",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10485,
+      "endSec": 11741,
+      "durationSec": 1256,
+      "topic": "34C3",
+      "fineSubject": "Conferences",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 14824,
+      "endSec": 16013,
+      "durationSec": 1189,
+      "topic": "High Sierra: APFS by default",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 16014,
+      "endSec": 16802,
+      "durationSec": 788,
+      "topic": "iPad Pro 10,5",
+      "fineSubject": "Tablets",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 16839,
+      "endSec": 16943,
+      "durationSec": 104,
+      "topic": "Edge Computing",
+      "fineSubject": "Computing",
+      "topicIndex": 11
+    }
+  ]
+}

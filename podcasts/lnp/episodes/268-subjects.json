@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 268,
+  "title": "LNP268 Schauen wir in die Zukunft, schauen wir nach Österreich!",
+  "generatedAt": "2026-01-05T15:17:57.609Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.689060560077252,
+      "Technology": 0,
+      "Law": 0.2965926334666851,
+      "Security": 0,
+      "Social": 0.014346806456062905,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 4995,
+      "Technology": 0,
+      "Law": 2150,
+      "Security": 0,
+      "Social": 104,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7249,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 122,
+      "endSec": 226,
+      "durationSec": 104,
+      "topic": "Feedback: Brandtner du alte Hippe",
+      "fineSubject": "Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 227,
+      "endSec": 599,
+      "durationSec": 372,
+      "topic": "Feedback: Brexit",
+      "fineSubject": "Brexit",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 600,
+      "endSec": 1994,
+      "durationSec": 1394,
+      "topic": "EU-Urheberrichtlinie",
+      "fineSubject": "EU-Urheberrichtlinie",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1994,
+      "endSec": 2750,
+      "durationSec": 756,
+      "topic": "Anti-Terror Verordnung der EU",
+      "fineSubject": "Anti-Terror Verordnung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2751,
+      "endSec": 3028,
+      "durationSec": 277,
+      "topic": "Feedback: Maaßen, AfD und PKGr",
+      "fineSubject": "Maaßen und AfD",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3028,
+      "endSec": 3638,
+      "durationSec": 610,
+      "topic": "Maaßen-Upgrade",
+      "fineSubject": "Maaßen-Upgrade",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3639,
+      "endSec": 5902,
+      "durationSec": 2263,
+      "topic": "Die BVT-Affäre in Österreich",
+      "fineSubject": "BVT-Affäre",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5903,
+      "endSec": 6901,
+      "durationSec": 998,
+      "topic": "Österreichische Politik vor der Kern-Schmelze",
+      "fineSubject": "Österreichische Politik",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6901,
+      "endSec": 7376,
+      "durationSec": 475,
+      "topic": "Österreichische Ratspräsidentschaft",
+      "fineSubject": "Ratspräsidentschaft",
+      "topicIndex": 8
+    }
+  ]
+}

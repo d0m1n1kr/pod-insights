@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 142,
+  "title": "FS142 Prime Directive",
+  "generatedAt": "2026-01-05T15:17:51.078Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.44419873212442873,
+      "Software": 0.15398791095385522,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.04091110128261831,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.06332006486805249,
+      "Events": 0.29758219077104525,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6026,
+      "Software": 2089,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 555,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 859,
+      "Events": 4037,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 8,
+      "Software": 3,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 2,
+      "Events": 3,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13566,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Events",
+      "startSec": 1150,
+      "endSec": 3521,
+      "durationSec": 2371,
+      "topic": "Konferenzen",
+      "fineSubject": "Konferenzen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Events",
+      "startSec": 3521,
+      "endSec": 4363,
+      "durationSec": 842,
+      "topic": "Kongress-Tipps",
+      "fineSubject": "Kongress-Tipps",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4363,
+      "endSec": 4678,
+      "durationSec": 315,
+      "topic": "Apple Keynote",
+      "fineSubject": "Apple Keynote",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4678,
+      "endSec": 5254,
+      "durationSec": 576,
+      "topic": "Robustheit von Notebooks",
+      "fineSubject": "Robustheit von Notebooks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 5254,
+      "endSec": 5504,
+      "durationSec": 250,
+      "topic": "Markdown-Editoren",
+      "fineSubject": "Markdown-Editoren",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 5504,
+      "endSec": 6273,
+      "durationSec": 769,
+      "topic": "Yosemite",
+      "fineSubject": "Yosemite",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 6273,
+      "endSec": 7343,
+      "durationSec": 1070,
+      "topic": "OS X Server",
+      "fineSubject": "OS X Server",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 7343,
+      "endSec": 7714,
+      "durationSec": 371,
+      "topic": "Apple-Zertifikate",
+      "fineSubject": "Apple-Zertifikate",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 7714,
+      "endSec": 8538,
+      "durationSec": 824,
+      "topic": "IT-Gipfel",
+      "fineSubject": "IT-Gipfel",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9650,
+      "endSec": 10408,
+      "durationSec": 758,
+      "topic": "iPhone VPN",
+      "fineSubject": "iPhone VPN",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10408,
+      "endSec": 11708,
+      "durationSec": 1300,
+      "topic": "Mac-Hardware",
+      "fineSubject": "Mac-Hardware",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11708,
+      "endSec": 12007,
+      "durationSec": 299,
+      "topic": "SIM-Karten",
+      "fineSubject": "SIM-Karten",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12007,
+      "endSec": 12846,
+      "durationSec": 839,
+      "topic": "Mac-Hardware Teil 2",
+      "fineSubject": "Mac-Hardware Teil 2",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12846,
+      "endSec": 14558,
+      "durationSec": 1712,
+      "topic": "Pimp my Mac",
+      "fineSubject": "Pimp my Mac",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14558,
+      "endSec": 14785,
+      "durationSec": 227,
+      "topic": "Internet",
+      "fineSubject": "Internet",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Security",
+      "startSec": 14785,
+      "endSec": 15273,
+      "durationSec": 488,
+      "topic": "POODLE",
+      "fineSubject": "POODLE",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 15273,
+      "endSec": 15828,
+      "durationSec": 555,
+      "topic": "Podcasting",
+      "fineSubject": "Podcasting",
+      "topicIndex": 18
+    }
+  ]
+}

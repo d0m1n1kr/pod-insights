@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 98,
+  "title": "LNP098 Tag der Deutschen Sicherheit",
+  "generatedAt": "2026-01-05T15:17:57.588Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.45670191483280936,
+      "Technology": 0.1414689911403258,
+      "Law": 0,
+      "Security": 0.3035152900828808,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.098313803943984,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1598,
+      "Technology": 495,
+      "Law": 0,
+      "Security": 1062,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 344,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 3,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 3499,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 84,
+      "endSec": 1682,
+      "durationSec": 1598,
+      "topic": "EU-Parlament stimmt für Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1683,
+      "endSec": 2178,
+      "durationSec": 495,
+      "topic": "WePromise.eu",
+      "fineSubject": "Internet Initiatives",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 2178,
+      "endSec": 2958,
+      "durationSec": 780,
+      "topic": "NSA-Downgrade auf Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2958,
+      "endSec": 3195,
+      "durationSec": 237,
+      "topic": "Schlandnet jetzt noch sicherer",
+      "fineSubject": "Network Security",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3196,
+      "endSec": 3241,
+      "durationSec": 45,
+      "topic": "BSI findet Passwörter",
+      "fineSubject": "Password Management",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3242,
+      "endSec": 3586,
+      "durationSec": 344,
+      "topic": "Microsoft liest mit",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    }
+  ]
+}

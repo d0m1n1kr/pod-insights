@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 39,
+  "title": "UKW039 Corona: Impfstoffe",
+  "generatedAt": "2026-01-05T15:18:03.007Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9334932402965548,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.06650675970344527,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 4281,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 305,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 11,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 2,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 4586,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 79,
+      "endSec": 189,
+      "durationSec": 110,
+      "topic": "Lars Fischer",
+      "fineSubject": "Virology",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 189,
+      "endSec": 384,
+      "durationSec": 195,
+      "topic": "Faszination für Viren und Seuchen",
+      "fineSubject": "Epidemiology",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 384,
+      "endSec": 1183,
+      "durationSec": 799,
+      "topic": "Stand der Dinge bei SARS-Cov-2",
+      "fineSubject": "Infectious Diseases",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1184,
+      "endSec": 1299,
+      "durationSec": 115,
+      "topic": "Der PCR-Test",
+      "fineSubject": "Diagnostics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1299,
+      "endSec": 2053,
+      "durationSec": 754,
+      "topic": "Inaktivierte Viren",
+      "fineSubject": "Vaccines",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2053,
+      "endSec": 2678,
+      "durationSec": 625,
+      "topic": "DNA/RNA und Vektorimpfstoffe",
+      "fineSubject": "Vaccines",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2679,
+      "endSec": 2816,
+      "durationSec": 137,
+      "topic": "Lebendimpfstoffe",
+      "fineSubject": "Vaccines",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 2817,
+      "endSec": 2960,
+      "durationSec": 143,
+      "topic": "Virusähnliche Partikel",
+      "fineSubject": "Vaccines",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 2960,
+      "endSec": 3416,
+      "durationSec": 456,
+      "topic": "Welche Impfstoffe können helfen?",
+      "fineSubject": "Vaccines",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3417,
+      "endSec": 3584,
+      "durationSec": 167,
+      "topic": "Mögliche negative Auswirkungen",
+      "fineSubject": "Vaccines",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 3584,
+      "endSec": 3904,
+      "durationSec": 320,
+      "topic": "Impfstoffentwicklung in Deutschland",
+      "fineSubject": "Pharmaceuticals",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 3904,
+      "endSec": 4283,
+      "durationSec": 379,
+      "topic": "Ausblick",
+      "fineSubject": "Public Health",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 4284,
+      "endSec": 4670,
+      "durationSec": 386,
+      "topic": "Mutation und Behandlungsoptionen",
+      "fineSubject": "Infectious Diseases",
+      "topicIndex": 12
+    }
+  ]
+}

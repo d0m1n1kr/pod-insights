@@ -1,0 +1,109 @@
+{
+  "episodeNumber": 146,
+  "title": "DU146 - Das Universum schaut in die Zukunft",
+  "generatedAt": "2026-01-05T15:18:22.113Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.18680149015433742,
+      "Raumfahrt": 0.7919105907397552,
+      "Kultur": 0.021287919105907396,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 351,
+      "Raumfahrt": 1488,
+      "Kultur": 40,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 1,
+      "Raumfahrt": 3,
+      "Kultur": 2,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 1879,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 957,
+      "endSec": 1308,
+      "durationSec": 351,
+      "topic": "Nancy Grace Roman Space Telescope",
+      "fineSubject": "Teleskope",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 1268,
+      "endSec": 2059,
+      "durationSec": 791,
+      "topic": "Tianwen 2 und der Quasisatellit",
+      "fineSubject": "Raumsonden",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 2019,
+      "endSec": 2237,
+      "durationSec": 218,
+      "topic": "BepiColombo und der Merkur",
+      "fineSubject": "Merkurforschung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 2197,
+      "endSec": 2676,
+      "durationSec": 479,
+      "topic": "Hera und der Asteroid",
+      "fineSubject": "Asteroidenforschung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Kultur",
+      "startSec": 3863,
+      "endSec": 3903,
+      "durationSec": 40,
+      "topic": "Filme über Wissenschaft",
+      "fineSubject": "Film",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Project Hail Mary",
+      "fineSubject": "Film",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

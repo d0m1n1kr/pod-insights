@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 414,
+  "title": "LNP414 Omi Krohn",
+  "generatedAt": "2026-01-05T15:17:57.630Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.30626736647113306,
+      "Technology": 0.17088607594936708,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.3022537820314912,
+      "Feedback": 0,
+      "Legal": 0.1915714726767521,
+      "Business": 0.007564062982401976,
+      "Privacy": 0,
+      "Culture": 0.021457239888854583
+    },
+    "durations": {
+      "Politics": 1984,
+      "Technology": 1107,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1958,
+      "Feedback": 0,
+      "Legal": 1241,
+      "Business": 49,
+      "Privacy": 0,
+      "Culture": 139
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 4,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 6478,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 544,
+      "endSec": 593,
+      "durationSec": 49,
+      "topic": "Shirtverkauf",
+      "fineSubject": "Merchandising",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 594,
+      "endSec": 733,
+      "durationSec": 139,
+      "topic": "Feedback-Kultur",
+      "fineSubject": "Feedback",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 733,
+      "endSec": 1691,
+      "durationSec": 958,
+      "topic": "Feedback: Impffragen",
+      "fineSubject": "Vaccination",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1692,
+      "endSec": 1778,
+      "durationSec": 86,
+      "topic": "Feedback: Relative Häufigkeiten",
+      "fineSubject": "Statistics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2434,
+      "endSec": 2589,
+      "durationSec": 155,
+      "topic": "Feedback: Impfquoten",
+      "fineSubject": "Vaccination Rates",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2590,
+      "endSec": 3349,
+      "durationSec": 759,
+      "topic": "Feedback: Verlorener Impfpass",
+      "fineSubject": "Vaccination Documentation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3476,
+      "endSec": 3992,
+      "durationSec": 516,
+      "topic": "Rote Warnung in der CWA",
+      "fineSubject": "Apps",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3993,
+      "endSec": 5713,
+      "durationSec": 1720,
+      "topic": "Der Koalitionsvertrag",
+      "fineSubject": "Legislation",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5714,
+      "endSec": 6744,
+      "durationSec": 1030,
+      "topic": "Apple verklagt NSO",
+      "fineSubject": "Lawsuit",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6744,
+      "endSec": 7335,
+      "durationSec": 591,
+      "topic": "Welcher Messenger liefert welche Daten?",
+      "fineSubject": "Privacy",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7336,
+      "endSec": 7600,
+      "durationSec": 264,
+      "topic": "Rüge an BMI für De-Mail",
+      "fineSubject": "Government",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Legal",
+      "startSec": 7600,
+      "endSec": 7811,
+      "durationSec": 211,
+      "topic": "Quad9 verliert in erster Instanz",
+      "fineSubject": "Court Case",
+      "topicIndex": 13
+    }
+  ]
+}

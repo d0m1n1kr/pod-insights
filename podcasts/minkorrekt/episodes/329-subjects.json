@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 329,
+  "title": "Mi329 – “Mogel-KI“",
+  "generatedAt": "2026-01-05T15:18:17.388Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.23496027241770714,
+      "Culture": 0.12599318955732122,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.6390465380249716,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 414,
+      "Culture": 222,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1126,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 1762,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 185,
+      "endSec": 407,
+      "durationSec": 222,
+      "topic": "Tourvorbereitungen",
+      "fineSubject": "Preparation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 407,
+      "endSec": 1533,
+      "durationSec": 1126,
+      "topic": "Alte Apple Hardware",
+      "fineSubject": "Apple",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 3251,
+      "endSec": 3665,
+      "durationSec": 414,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6125,
+      "endSec": 6125,
+      "durationSec": 0,
+      "topic": "Musik: Lorem Ipsum und Shakatak",
+      "fineSubject": "Artists",
+      "topicIndex": 6
+    }
+  ]
+}

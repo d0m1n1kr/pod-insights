@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 224,
+  "title": "LNP224 Mit dem Abgriff in Frankfurt wird das alles in Ordnung kommen",
+  "generatedAt": "2026-01-05T15:17:57.603Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7254212182929087,
+      "Technology": 0.27457878170709127,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3918,
+      "Technology": 1483,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5401,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 224,
+      "endSec": 2040,
+      "durationSec": 1816,
+      "topic": "Staatstrojaner kommt",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2041,
+      "endSec": 3702,
+      "durationSec": 1661,
+      "topic": "NSAUA-Minderheitenvotum ist geheim",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3702,
+      "endSec": 4052,
+      "durationSec": 350,
+      "topic": "Surprise: VDS ist europarechtswidrig",
+      "fineSubject": "Legislation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4461,
+      "endSec": 4552,
+      "durationSec": 91,
+      "topic": "BND–NSA 1:1",
+      "fineSubject": "Intelligence",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4552,
+      "endSec": 5087,
+      "durationSec": 535,
+      "topic": "Real und die Post wollen Dich beobachten",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5446,
+      "endSec": 6394,
+      "durationSec": 948,
+      "topic": "Dawn of AI",
+      "fineSubject": "AI",
+      "topicIndex": 5
+    }
+  ]
+}

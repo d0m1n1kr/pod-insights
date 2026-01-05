@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 40,
+  "title": "UKW040 Corona: Pimp My CWA",
+  "generatedAt": "2026-01-05T15:18:03.007Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.06074240719910011,
+      "Politics": 0.2173790776152981,
+      "Military": 0,
+      "Technology": 0.7218785151856018,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 216,
+      "Politics": 773,
+      "Military": 0,
+      "Technology": 2567,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 1,
+      "Politics": 3,
+      "Military": 0,
+      "Technology": 7,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 3556,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 223,
+      "endSec": 783,
+      "durationSec": 560,
+      "topic": "Entwicklung der App",
+      "fineSubject": "App Development",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 783,
+      "endSec": 948,
+      "durationSec": 165,
+      "topic": "Entwicklung Laboranbindung",
+      "fineSubject": "Labor Integration",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 949,
+      "endSec": 1281,
+      "durationSec": 332,
+      "topic": "Die Rolle von Apple und Google",
+      "fineSubject": "Apple and Google",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1282,
+      "endSec": 1577,
+      "durationSec": 295,
+      "topic": "Digitale Pandemiepolitik der EU",
+      "fineSubject": "EU Pandemic Policy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1577,
+      "endSec": 1735,
+      "durationSec": 158,
+      "topic": "D64 und die SPD",
+      "fineSubject": "D64 and SPD",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2756,
+      "endSec": 3302,
+      "durationSec": 546,
+      "topic": "Clustererkennung",
+      "fineSubject": "Cluster Detection",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3303,
+      "endSec": 3616,
+      "durationSec": 313,
+      "topic": "Kontakttagebuch",
+      "fineSubject": "Contact Diary",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3616,
+      "endSec": 3832,
+      "durationSec": 216,
+      "topic": "Risikoparameter",
+      "fineSubject": "Risk Parameters",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3833,
+      "endSec": 4207,
+      "durationSec": 374,
+      "topic": "Innenraumerkennnung",
+      "fineSubject": "Indoor Recognition",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4208,
+      "endSec": 4485,
+      "durationSec": 277,
+      "topic": "CrowdNotifier / Presence Tracking",
+      "fineSubject": "CrowdNotifier",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4486,
+      "endSec": 4806,
+      "durationSec": 320,
+      "topic": "Trägheit der Politik und App Marketing",
+      "fineSubject": "Political Inertia and App Marketing",
+      "topicIndex": 12
+    }
+  ]
+}

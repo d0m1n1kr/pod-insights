@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 460,
+  "title": "LNP460 Meister der elliptischen Kurven",
+  "generatedAt": "2026-01-05T15:17:57.637Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.05849440488301119,
+      "Technology": 0.1780264496439471,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.551881993896236,
+      "Media": 0,
+      "Health": 0.12894201424211596,
+      "Feedback": 0,
+      "Legal": 0.08265513733468972,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 230,
+      "Technology": 700,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2170,
+      "Media": 0,
+      "Health": 507,
+      "Feedback": 0,
+      "Legal": 325,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3932,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 602,
+      "endSec": 1275,
+      "durationSec": 673,
+      "topic": "Feedback: Digitale Gewalt",
+      "fineSubject": "Digital Violence",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1276,
+      "endSec": 1783,
+      "durationSec": 507,
+      "topic": "Corona-Warn-App is dead",
+      "fineSubject": "Pandemic Response",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1784,
+      "endSec": 2014,
+      "durationSec": 230,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2014,
+      "endSec": 2714,
+      "durationSec": 700,
+      "topic": "Amthor Augustus Intelligence",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2715,
+      "endSec": 3040,
+      "durationSec": 325,
+      "topic": "Google Font Abmahnungen",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3041,
+      "endSec": 4538,
+      "durationSec": 1497,
+      "topic": "Tracker Stalking",
+      "fineSubject": "Privacy",
+      "topicIndex": 5
+    }
+  ]
+}

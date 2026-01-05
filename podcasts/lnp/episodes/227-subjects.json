@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 227,
+  "title": "LNP227 Magenta Terrorfrei",
+  "generatedAt": "2026-01-05T15:17:57.603Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6617065798651477,
+      "Technology": 0.09300162752848175,
+      "Law": 0.027202976052080913,
+      "Security": 0,
+      "Social": 0.1434550104626831,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.07463380609160661,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2846,
+      "Technology": 400,
+      "Law": 117,
+      "Security": 0,
+      "Social": 617,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 321,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4301,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 38,
+      "endSec": 218,
+      "durationSec": 180,
+      "topic": "Sprechpause Tim",
+      "fineSubject": "Sprechpause",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 219,
+      "endSec": 2937,
+      "durationSec": 2718,
+      "topic": "Überwachungspaket Österreich",
+      "fineSubject": "Überwachung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2938,
+      "endSec": 3055,
+      "durationSec": 117,
+      "topic": "EuGH-Urteil bremst PNR",
+      "fineSubject": "EuGH-Urteil",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3055,
+      "endSec": 3183,
+      "durationSec": 128,
+      "topic": "EU startet neuen Anlauf zur Vorratsdatenspeicherung",
+      "fineSubject": "Vorratsdatenspeicherung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 3183,
+      "endSec": 3620,
+      "durationSec": 437,
+      "topic": "#Istanbul10",
+      "fineSubject": "#Istanbul10",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3621,
+      "endSec": 4021,
+      "durationSec": 400,
+      "topic": "Urteil Telekom-Router",
+      "fineSubject": "Telekom-Router",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 4022,
+      "endSec": 4343,
+      "durationSec": 321,
+      "topic": "BTC-e",
+      "fineSubject": "BTC-e",
+      "topicIndex": 6
+    }
+  ]
+}

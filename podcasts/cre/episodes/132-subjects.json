@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 132,
+  "title": "CRE132 UBERMORGEN.COM",
+  "generatedAt": "2026-01-05T15:17:54.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.3333333333333333,
+      "Social": 0.3333333333333333,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.16666666666666666,
+      "Technologie": 0,
+      "Politics": 0.16666666666666666,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 2,
+      "Social": 2,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 1,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aufmerksamkeitserzeugung",
+      "fineSubject": "Attention Economy",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Techno und Drogen",
+      "fineSubject": "Music",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mailbombentests",
+      "fineSubject": "Internet Testing",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wählerstimmenhandel",
+      "fineSubject": "Voting",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Formulargeneratoren",
+      "fineSubject": "Web Tools",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Nazi-Aussteiger",
+      "fineSubject": "Extremism",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

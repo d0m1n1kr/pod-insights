@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 207,
+  "title": "LNP207 Pressebrecher",
+  "generatedAt": "2026-01-05T15:17:57.601Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6579902390188963,
+      "Technology": 0.0410461769490677,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.30096358403203605,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5258,
+      "Technology": 328,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2405,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 7,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7991,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 286,
+      "endSec": 2691,
+      "durationSec": 2405,
+      "topic": "Über Logbuch:Netzpolitik",
+      "fineSubject": "Podcast",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2692,
+      "endSec": 3537,
+      "durationSec": 845,
+      "topic": "Chelsea Manning",
+      "fineSubject": "Activism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3537,
+      "endSec": 5036,
+      "durationSec": 1499,
+      "topic": "Trump: Inauguration",
+      "fineSubject": "Inauguration",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5036,
+      "endSec": 5503,
+      "durationSec": 467,
+      "topic": "Trump: Erste Maßnahmen",
+      "fineSubject": "Policy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5503,
+      "endSec": 5625,
+      "durationSec": 122,
+      "topic": "Trump: Cyber",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5626,
+      "endSec": 6227,
+      "durationSec": 601,
+      "topic": "Trump: Netzneutralität",
+      "fineSubject": "Net neutrality",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6227,
+      "endSec": 6575,
+      "durationSec": 348,
+      "topic": "Women's March on Washington",
+      "fineSubject": "Protests",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6576,
+      "endSec": 7952,
+      "durationSec": 1376,
+      "topic": "Höcke und die neuen Nazis",
+      "fineSubject": "Extremism",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7953,
+      "endSec": 8025,
+      "durationSec": 72,
+      "topic": "Bot-Studie",
+      "fineSubject": "Bots",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8026,
+      "endSec": 8282,
+      "durationSec": 256,
+      "topic": "Mirai Botnet",
+      "fineSubject": "Botnets",
+      "topicIndex": 10
+    }
+  ]
+}

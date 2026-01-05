@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 315,
+  "title": "Mi315 – \"Energieholz-Seelenflöte\"",
+  "generatedAt": "2026-01-05T15:18:17.386Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.03992166315155167,
+      "Culture": 0.2957216028924375,
+      "Wissenschaft": 0,
+      "Health": 0.11253389575173245,
+      "Technology": 0.3354926182585116,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.2163302199457668,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 265,
+      "Culture": 1963,
+      "Wissenschaft": 0,
+      "Health": 747,
+      "Technology": 2227,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1436,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 6638,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 711,
+      "endSec": 1665,
+      "durationSec": 954,
+      "topic": "Nevermined",
+      "fineSubject": "Blockchain",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1665,
+      "endSec": 2412,
+      "durationSec": 747,
+      "topic": "Depression",
+      "fineSubject": "Mental Health",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2447,
+      "endSec": 3883,
+      "durationSec": 1436,
+      "topic": "Spaß mit Bürokratie",
+      "fineSubject": "Bureaucracy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3883,
+      "endSec": 5422,
+      "durationSec": 1539,
+      "topic": "Thema 1: \"Wir sehen uns! Unwahrscheinlich!\"",
+      "fineSubject": "Social Interaction",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 5422,
+      "endSec": 5687,
+      "durationSec": 265,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5687,
+      "endSec": 6960,
+      "durationSec": 1273,
+      "topic": "Thema 2: \"Simulieren, wo noch nie ein Mensch zuvor gewesen ist!\"",
+      "fineSubject": "Simulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6960,
+      "endSec": 7384,
+      "durationSec": 424,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 6
+    }
+  ]
+}

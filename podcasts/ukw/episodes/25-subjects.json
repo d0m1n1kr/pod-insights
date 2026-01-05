@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 25,
+  "title": "UKW025 Corona Weekly: Zombies im Bus",
+  "generatedAt": "2026-01-05T15:18:03.003Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.8919386745796242,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.06787833827893175,
+      "Travel": 0.04018298714144412,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 7214,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 549,
+      "Travel": 325,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 11,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8088,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 143,
+      "endSec": 310,
+      "durationSec": 167,
+      "topic": "Gangelt-Studie und das Konfidenzinterfall",
+      "fineSubject": "Study / Gangelt Study",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 310,
+      "endSec": 666,
+      "durationSec": 356,
+      "topic": "Das geglättete R",
+      "fineSubject": "Statistics / R",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 666,
+      "endSec": 1054,
+      "durationSec": 388,
+      "topic": "Pavels Nowcasting",
+      "fineSubject": "Forecasting / Nowcasting",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1054,
+      "endSec": 2261,
+      "durationSec": 1207,
+      "topic": "Aktuelle Zahlen und Teststrategien",
+      "fineSubject": "Data / Testing Strategies",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2262,
+      "endSec": 2871,
+      "durationSec": 609,
+      "topic": "Lockerungen und Ampelsysteme",
+      "fineSubject": "Policy / Restrictions",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Society",
+      "startSec": 2872,
+      "endSec": 3421,
+      "durationSec": 549,
+      "topic": "Schulöffnungen",
+      "fineSubject": "Policy / Openings",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Travel",
+      "startSec": 3421,
+      "endSec": 3746,
+      "durationSec": 325,
+      "topic": "Grenzen und Flugreisen",
+      "fineSubject": "Policy / Borders",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3746,
+      "endSec": 5664,
+      "durationSec": 1918,
+      "topic": "COVID Risiko Deutschland nach Landkreisen",
+      "fineSubject": "Risk / Regional Analysis",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5665,
+      "endSec": 5790,
+      "durationSec": 125,
+      "topic": "Internationale Situation",
+      "fineSubject": "Global / International Situation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5791,
+      "endSec": 5962,
+      "durationSec": 171,
+      "topic": "False Positives",
+      "fineSubject": "Testing / False Positives",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 5963,
+      "endSec": 7194,
+      "durationSec": 1231,
+      "topic": "Corona-Warn-App",
+      "fineSubject": "Technology / Apps",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 7195,
+      "endSec": 7349,
+      "durationSec": 154,
+      "topic": "Roaming von Tracing Apps",
+      "fineSubject": "Technology / Tracing Apps",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 7349,
+      "endSec": 8237,
+      "durationSec": 888,
+      "topic": "Apps in anderen Ländern",
+      "fineSubject": "Technology / International Apps",
+      "topicIndex": 12
+    }
+  ]
+}

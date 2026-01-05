@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 32,
+  "title": "UKW032 Corona Weekly: Sensornetze und Wurmlöcher",
+  "generatedAt": "2026-01-05T15:18:03.005Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.6990854730918045,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.3009145269081956,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 3975,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 1711,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 5,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 4,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5686,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 105,
+      "endSec": 1169,
+      "durationSec": 1064,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "COVID-19",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1170,
+      "endSec": 2196,
+      "durationSec": 1026,
+      "topic": "Mögliche Maßnahmen und Datenprobleme",
+      "fineSubject": "Data Issues",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2196,
+      "endSec": 2891,
+      "durationSec": 695,
+      "topic": "Corona-Warn-App Launch Day",
+      "fineSubject": "Apps",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2892,
+      "endSec": 3170,
+      "durationSec": 278,
+      "topic": "Schnelle Verbreitung",
+      "fineSubject": "COVID-19 Spread",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4850,
+      "endSec": 5365,
+      "durationSec": 515,
+      "topic": "Interview mit den Entwicklern",
+      "fineSubject": "Interviews",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 5365,
+      "endSec": 6434,
+      "durationSec": 1069,
+      "topic": "Fehlalarme und App-Wirksamkeit",
+      "fineSubject": "App Effectiveness",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6435,
+      "endSec": 6790,
+      "durationSec": 355,
+      "topic": "Internationale Kompatibilität",
+      "fineSubject": "International Standards",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6790,
+      "endSec": 6936,
+      "durationSec": 146,
+      "topic": "App Store Probleme",
+      "fineSubject": "App Store",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 6937,
+      "endSec": 7475,
+      "durationSec": 538,
+      "topic": "App-Zwang und Erfolgsmessung",
+      "fineSubject": "App Usage",
+      "topicIndex": 9
+    }
+  ]
+}

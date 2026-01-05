@@ -1,0 +1,114 @@
+{
+  "episodeNumber": 84,
+  "title": "DU084 - Wilde Begegnungen zwischen galaktischen Quallen",
+  "generatedAt": "2026-01-05T15:18:22.102Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.5,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0.5,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 3,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "mysteriöse Galaxie",
+      "fineSubject": "Galaxien",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "galaktische Gezeiten",
+      "fineSubject": "Galaktische Phänomene",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "leuchtschwache Galaxien ohne dunkle Materie",
+      "fineSubject": "Dunkle Materie",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Literatur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Science Busters Buch",
+      "fineSubject": "Wissenschaft",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Literatur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Ruths Buch: Per Lastenrad durch die Galaxis",
+      "fineSubject": "Wissenschaft",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Literatur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Florians Buch: Eine Geschichte der Welt in 100 Mikroorganismen",
+      "fineSubject": "Wissenschaft",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

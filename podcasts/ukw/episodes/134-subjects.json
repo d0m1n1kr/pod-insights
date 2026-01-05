@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 134,
+  "title": "UKW134 Ukraine: Bombensicher",
+  "generatedAt": "2026-01-05T15:18:03.035Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.3182498752287473,
+      "Military": 0.6817501247712527,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 1913,
+      "Military": 4098,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 4,
+      "Military": 4,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6011,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 136,
+      "endSec": 705,
+      "durationSec": 569,
+      "topic": "Feedback",
+      "fineSubject": "Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 706,
+      "endSec": 1573,
+      "durationSec": 867,
+      "topic": "Allgemeine Kriegslage",
+      "fineSubject": "War Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1574,
+      "endSec": 2099,
+      "durationSec": 525,
+      "topic": "Europäische Koalition der Willigen",
+      "fineSubject": "Coalition",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2099,
+      "endSec": 2504,
+      "durationSec": 405,
+      "topic": "Die “Friedensverhandlungen”",
+      "fineSubject": "Peace Negotiations",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 2504,
+      "endSec": 4810,
+      "durationSec": 2306,
+      "topic": "Operation Spiderweb",
+      "fineSubject": "Operations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 4811,
+      "endSec": 5401,
+      "durationSec": 590,
+      "topic": "Bombenanschlag auf die Krim-Brücke",
+      "fineSubject": "Attacks",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 5402,
+      "endSec": 5737,
+      "durationSec": 335,
+      "topic": "F-16 schießt SU-35 ab",
+      "fineSubject": "Aerial Combat",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5738,
+      "endSec": 6152,
+      "durationSec": 414,
+      "topic": "Merz trifft Trump",
+      "fineSubject": "Diplomacy",
+      "topicIndex": 7
+    }
+  ]
+}

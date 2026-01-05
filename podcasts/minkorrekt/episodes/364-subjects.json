@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 364,
+  "title": "Mi364 – \"Forschungspflichtdienst\"",
+  "generatedAt": "2026-01-05T15:18:17.394Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 1261,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 1261,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 740,
+      "endSec": 1653,
+      "durationSec": 913,
+      "topic": "Quantenkonzert",
+      "fineSubject": "Quantenkonzert",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1653,
+      "endSec": 2001,
+      "durationSec": 348,
+      "topic": "Science Slam Duisburg",
+      "fineSubject": "Science Slam Duisburg",
+      "topicIndex": 2
+    }
+  ]
+}

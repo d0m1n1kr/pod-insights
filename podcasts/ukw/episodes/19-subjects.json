@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 19,
+  "title": "UKW019 Corona: Welt in Aufruhr",
+  "generatedAt": "2026-01-05T15:18:03.001Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.23845410628019323,
+      "Military": 0,
+      "Technology": 0.02357487922705314,
+      "Economics": 0.29043478260869565,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0.44753623188405794,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 1234,
+      "Military": 0,
+      "Technology": 122,
+      "Economics": 1503,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 2316,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 2,
+      "Military": 0,
+      "Technology": 1,
+      "Economics": 3,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 3,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5175,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 96,
+      "endSec": 879,
+      "durationSec": 783,
+      "topic": "Allgemeine Situation",
+      "fineSubject": "General Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 879,
+      "endSec": 1687,
+      "durationSec": 808,
+      "topic": "Auflösungserscheinungen in den USA",
+      "fineSubject": "USA",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1688,
+      "endSec": 1930,
+      "durationSec": 242,
+      "topic": "China als Nutznießer der Krise",
+      "fineSubject": "China",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1930,
+      "endSec": 2237,
+      "durationSec": 307,
+      "topic": "Schwellenländer und Produktion",
+      "fineSubject": "Emerging Markets",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2238,
+      "endSec": 2664,
+      "durationSec": 426,
+      "topic": "Globale Machtverschiebungen",
+      "fineSubject": "Global Power Shifts",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2665,
+      "endSec": 3619,
+      "durationSec": 954,
+      "topic": "Zustand des Kapitalismus",
+      "fineSubject": "Capitalism",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 3619,
+      "endSec": 4204,
+      "durationSec": 585,
+      "topic": "Die Welt wieder hochfahren",
+      "fineSubject": "Recovery",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 4204,
+      "endSec": 5152,
+      "durationSec": 948,
+      "topic": "Verschwörungstheorien",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5152,
+      "endSec": 5274,
+      "durationSec": 122,
+      "topic": "Zahlen und Wissenschaft",
+      "fineSubject": "Data and Research",
+      "topicIndex": 8
+    }
+  ]
+}

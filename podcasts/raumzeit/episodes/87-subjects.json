@@ -1,0 +1,100 @@
+{
+  "episodeNumber": 87,
+  "title": "RZ087 Amateurastronomie",
+  "generatedAt": "2026-01-05T15:18:06.285Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0.21618328052644406,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0.382890567877163,
+      "Technology": 0.4009261515963929,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 887,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 1571,
+      "Technology": 1645,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 1,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 2,
+      "Technology": 2,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 4103,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 13,
+      "endSec": 1584,
+      "durationSec": 1571,
+      "topic": "Beobachtungen zur Unterstützung der Wissenschaft",
+      "fineSubject": "Citizen Science",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 418,
+      "endSec": 1414,
+      "durationSec": 996,
+      "topic": "Satelliten und deren Auswirkungen",
+      "fineSubject": "Satellites",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1164,
+      "endSec": 1813,
+      "durationSec": 649,
+      "topic": "Teleskope und Kameras",
+      "fineSubject": "Optics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 4795,
+      "endSec": 5682,
+      "durationSec": 887,
+      "topic": "Lichtverschmutzung",
+      "fineSubject": "Pollution",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Amateurastronomie",
+      "fineSubject": "Astronomy",
+      "topicIndex": 0,
+      "untimed": true
+    }
+  ]
+}

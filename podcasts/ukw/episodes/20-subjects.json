@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 20,
+  "title": "UKW020 Corona Weekly: Zahlen und Apps",
+  "generatedAt": "2026-01-05T15:18:03.001Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.5382124352331606,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.46178756476683935,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 4155,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 3565,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 8,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 2,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7720,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 129,
+      "endSec": 973,
+      "durationSec": 844,
+      "topic": "Aktuelle Zahlen aus Deutschland",
+      "fineSubject": "Statistics / Germany",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 974,
+      "endSec": 1136,
+      "durationSec": 162,
+      "topic": "Vergleich mit der letzten Prognose",
+      "fineSubject": "Forecasting / Comparison",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1136,
+      "endSec": 1537,
+      "durationSec": 401,
+      "topic": "Belastung des Gesundheitssystems",
+      "fineSubject": "Capacity / Strain",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1537,
+      "endSec": 2170,
+      "durationSec": 633,
+      "topic": "Situation in anderen Ländern",
+      "fineSubject": "International / Situation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2171,
+      "endSec": 3179,
+      "durationSec": 1008,
+      "topic": "Gangelt-Studie und Fallsterblichkeit",
+      "fineSubject": "Research / Studies",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3179,
+      "endSec": 3672,
+      "durationSec": 493,
+      "topic": "Rest von Europa und USA",
+      "fineSubject": "International / Europe and USA",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3673,
+      "endSec": 4187,
+      "durationSec": 514,
+      "topic": "Wie geht es weiter?",
+      "fineSubject": "Future / Outlook",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4188,
+      "endSec": 5455,
+      "durationSec": 1267,
+      "topic": "Apple/Google Tracing API",
+      "fineSubject": "Health / Tracing API",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5456,
+      "endSec": 7754,
+      "durationSec": 2298,
+      "topic": "Contact Tracing Apps",
+      "fineSubject": "Health / Contact Tracing",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 7754,
+      "endSec": 7854,
+      "durationSec": 100,
+      "topic": "Es besteht Hoffnung",
+      "fineSubject": "Outlook / Hope",
+      "topicIndex": 9
+    }
+  ]
+}

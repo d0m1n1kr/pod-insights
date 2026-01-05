@@ -1,0 +1,243 @@
+{
+  "episodeNumber": 35,
+  "title": "UKW035 Corona Weekly: Grillpartys auch weiterhin nur draußen",
+  "generatedAt": "2026-01-05T15:18:03.005Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.6108451174702149,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0.3891548825297851,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5486,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 3495,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 14,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 7,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8981,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 238,
+      "endSec": 425,
+      "durationSec": 187,
+      "topic": "Die Risikotabelle",
+      "fineSubject": "Risk Assessment",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 425,
+      "endSec": 1204,
+      "durationSec": 779,
+      "topic": "Situation in Deutschland",
+      "fineSubject": "Country Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1204,
+      "endSec": 1396,
+      "durationSec": 192,
+      "topic": "Sterblichkeit",
+      "fineSubject": "Mortality",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1397,
+      "endSec": 2035,
+      "durationSec": 638,
+      "topic": "Perkolationstheorie",
+      "fineSubject": "Percolation Theory",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2035,
+      "endSec": 3016,
+      "durationSec": 981,
+      "topic": "Die Bradykinin-Hypothese",
+      "fineSubject": "Bradykinin Hypothesis",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3016,
+      "endSec": 3700,
+      "durationSec": 684,
+      "topic": "Infektionswege und -schutz",
+      "fineSubject": "Transmission and Protection",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3701,
+      "endSec": 3958,
+      "durationSec": 257,
+      "topic": "Veranstaltungen",
+      "fineSubject": "Public Gatherings",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3959,
+      "endSec": 4098,
+      "durationSec": 139,
+      "topic": "Faröer rotten Corona aus",
+      "fineSubject": "Faroe Islands",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4098,
+      "endSec": 4422,
+      "durationSec": 324,
+      "topic": "Hintergrundimmunität in Afrika",
+      "fineSubject": "Background Immunity",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4422,
+      "endSec": 4554,
+      "durationSec": 132,
+      "topic": "Situation in den USA",
+      "fineSubject": "Country Situation",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 4555,
+      "endSec": 4827,
+      "durationSec": 272,
+      "topic": "Antigentests",
+      "fineSubject": "Antigen Tests",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4827,
+      "endSec": 5210,
+      "durationSec": 383,
+      "topic": "Falschpositive",
+      "fineSubject": "False Positives",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 5211,
+      "endSec": 5371,
+      "durationSec": 160,
+      "topic": "Funktionsweise von RT-PCR",
+      "fineSubject": "RT-PCR Functionality",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5371,
+      "endSec": 5729,
+      "durationSec": 358,
+      "topic": "Test-Eigenbedarf",
+      "fineSubject": "Self-Testing",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5729,
+      "endSec": 5921,
+      "durationSec": 192,
+      "topic": "Corona-Warn-App",
+      "fineSubject": "Corona-Warn-App",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5921,
+      "endSec": 6050,
+      "durationSec": 129,
+      "topic": "Source Code Release",
+      "fineSubject": "Source Code",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6051,
+      "endSec": 6187,
+      "durationSec": 136,
+      "topic": "Bluetooth-Kalibrierung",
+      "fineSubject": "Bluetooth Calibration",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6187,
+      "endSec": 6251,
+      "durationSec": 64,
+      "topic": "Framework-Verbesserungen",
+      "fineSubject": "Framework Improvements",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6251,
+      "endSec": 6670,
+      "durationSec": 419,
+      "topic": "CWA Roaming",
+      "fineSubject": "CWA Roaming",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6671,
+      "endSec": 7729,
+      "durationSec": 1058,
+      "topic": "Exposure Notification Express",
+      "fineSubject": "Exposure Notification Express",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7729,
+      "endSec": 9226,
+      "durationSec": 1497,
+      "topic": "CWA Verbesserungsvorschläge",
+      "fineSubject": "CWA Suggestions",
+      "topicIndex": 20
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 44,
+  "title": "LNP044 Schlangenkuchen",
+  "generatedAt": "2026-01-05T15:17:57.578Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.285175514940528,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.714824485059472,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 983,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2464,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 4,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3447,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 309,
+      "endSec": 1953,
+      "durationSec": 1644,
+      "topic": "Urheberrechts-Abmahnungen für Blogger",
+      "fineSubject": "Legal / Blogger Rights",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1953,
+      "endSec": 2415,
+      "durationSec": 462,
+      "topic": "Wahlen per Email in New Jersey",
+      "fineSubject": "Politics / Email Voting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2805,
+      "endSec": 3056,
+      "durationSec": 251,
+      "topic": "Bradley Manning",
+      "fineSubject": "Politics / Bradley Manning",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3056,
+      "endSec": 3384,
+      "durationSec": 328,
+      "topic": "Schmerzensgeld für das blaue T-Shirt",
+      "fineSubject": "Legal / Personal Injury",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3385,
+      "endSec": 3576,
+      "durationSec": 191,
+      "topic": "Anhörung zur Antiterrordatei",
+      "fineSubject": "Legal / Anti-Terrorism",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3577,
+      "endSec": 3878,
+      "durationSec": 301,
+      "topic": "Petitionsanhörung zur GEMA-Vermutung",
+      "fineSubject": "Legal / GEMA",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3878,
+      "endSec": 4148,
+      "durationSec": 270,
+      "topic": "Netzsperren in Ägypten und Australien",
+      "fineSubject": "Politics / Internet Censorship",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 228,
+  "title": "LNP228 Interessierte Bürger",
+  "generatedAt": "2026-01-05T15:17:57.603Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3048427900252982,
+      "Technology": 0.33447777376219734,
+      "Law": 0,
+      "Security": 0.36067943621250453,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1687,
+      "Technology": 1851,
+      "Law": 0,
+      "Security": 1996,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5534,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 164,
+      "endSec": 365,
+      "durationSec": 201,
+      "topic": "Quo Vadis Wahlcomputer?",
+      "fineSubject": "Voting Technology",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 365,
+      "endSec": 1188,
+      "durationSec": 823,
+      "topic": "PC-Wahl und die Auszählung der Wahl",
+      "fineSubject": "Voting Process",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1189,
+      "endSec": 1813,
+      "durationSec": 624,
+      "topic": "PC-Wahl: Konfiguration im Web",
+      "fineSubject": "Web Configuration",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1813,
+      "endSec": 3809,
+      "durationSec": 1996,
+      "topic": "PC-Wahl: Schwachstellen und Angriffsszenarien",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3809,
+      "endSec": 5036,
+      "durationSec": 1227,
+      "topic": "PC-Wahl: Bug Fixes und Updates",
+      "fineSubject": "Software Maintenance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6067,
+      "endSec": 6730,
+      "durationSec": 663,
+      "topic": "PC-Wahl: Abschließende Gedanken",
+      "fineSubject": "Voting Technology",
+      "topicIndex": 6
+    }
+  ]
+}

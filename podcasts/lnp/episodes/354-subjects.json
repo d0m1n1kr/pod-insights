@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 354,
+  "title": "LNP354 „Schrems II“",
+  "generatedAt": "2026-01-05T15:17:57.621Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 2767,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 9,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2767,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 93,
+      "endSec": 259,
+      "durationSec": 166,
+      "topic": "Auskunftsrecht",
+      "fineSubject": "Rights / Access Rights",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 260,
+      "endSec": 722,
+      "durationSec": 462,
+      "topic": "Streitpunkt",
+      "fineSubject": "Disputes / Legal Disputes",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 723,
+      "endSec": 1269,
+      "durationSec": 546,
+      "topic": "Safe Harbour",
+      "fineSubject": "Frameworks / Safe Harbour",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1269,
+      "endSec": 1424,
+      "durationSec": 155,
+      "topic": "Neues Logo: Privacy Shield",
+      "fineSubject": "Frameworks / Privacy Shield",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1425,
+      "endSec": 1763,
+      "durationSec": 338,
+      "topic": "Rechtliche Situation",
+      "fineSubject": "Legal Situation / Current Status",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 1763,
+      "endSec": 2130,
+      "durationSec": 367,
+      "topic": "Irischer Datenschutz gegen Schrems und Facebook",
+      "fineSubject": "Cases / Schrems vs. Facebook",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2131,
+      "endSec": 2259,
+      "durationSec": 128,
+      "topic": "Europäische Überwachungsgesetze",
+      "fineSubject": "Legislation / European Laws",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 2260,
+      "endSec": 2555,
+      "durationSec": 295,
+      "topic": "Bedeutung des Urteils",
+      "fineSubject": "Judgments / Significance of Rulings",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 2556,
+      "endSec": 2866,
+      "durationSec": 310,
+      "topic": "Metaperspektive: Weltweit",
+      "fineSubject": "Trends / Worldwide Impact",
+      "topicIndex": 8
+    }
+  ]
+}

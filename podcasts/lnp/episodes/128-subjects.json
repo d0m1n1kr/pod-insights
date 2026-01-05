@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 128,
+  "title": "LNP128 Der Fernsehturm muss bleiben",
+  "generatedAt": "2026-01-05T15:17:57.591Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.7215609756097561,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.2784390243902439,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3698,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1427,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5125,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1007,
+      "endSec": 2628,
+      "durationSec": 1621,
+      "topic": "David Cameron will keine verschlüsselte Kommunikation mehr",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2629,
+      "endSec": 3774,
+      "durationSec": 1145,
+      "topic": "Neue Rufe nach Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3774,
+      "endSec": 4167,
+      "durationSec": 393,
+      "topic": "USA verweigern der EU Einblick in SWIFT-Dokumente",
+      "fineSubject": "International Relations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 4168,
+      "endSec": 5595,
+      "durationSec": 1427,
+      "topic": "TTIP kommt wohl nicht so gut an",
+      "fineSubject": "Trade Agreements",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5596,
+      "endSec": 6135,
+      "durationSec": 539,
+      "topic": "Liste mit 3500 BND-Agenten an NSA verkauft",
+      "fineSubject": "Intelligence",
+      "topicIndex": 4
+    }
+  ]
+}

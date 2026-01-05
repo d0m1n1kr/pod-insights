@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 488,
+  "title": "LNP488 Der Fluch des Graugesichts",
+  "generatedAt": "2026-01-05T15:17:57.640Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.14994142912924638,
+      "Technology": 0,
+      "Law": 0.3896915267473643,
+      "Security": 0.2760640374853573,
+      "Social": 0.184303006638032,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 768,
+      "Technology": 0,
+      "Law": 1996,
+      "Security": 1414,
+      "Social": 944,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5122,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 2621,
+      "endSec": 3565,
+      "durationSec": 944,
+      "topic": "TikTok as a Cyberweapon",
+      "fineSubject": "Social Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3565,
+      "endSec": 4011,
+      "durationSec": 446,
+      "topic": "Etappensieg gegen die Auslieferung von Julian Assange",
+      "fineSubject": "Human Rights",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 4012,
+      "endSec": 4546,
+      "durationSec": 534,
+      "topic": "EGMR bestärkt Verschlüsselung",
+      "fineSubject": "Encryption",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 4546,
+      "endSec": 5891,
+      "durationSec": 1345,
+      "topic": "Leitungsschutzrecht: Internet-Maut",
+      "fineSubject": "Internet Regulation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 5892,
+      "endSec": 6772,
+      "durationSec": 880,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 6773,
+      "endSec": 7424,
+      "durationSec": 651,
+      "topic": "UN Cybercrime Convention",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7425,
+      "endSec": 7747,
+      "durationSec": 322,
+      "topic": "Keine anonymen IFG-Anfragen mehr?",
+      "fineSubject": "Transparency",
+      "topicIndex": 6
+    }
+  ]
+}

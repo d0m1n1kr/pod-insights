@@ -1,0 +1,109 @@
+{
+  "episodeNumber": 143,
+  "title": "DU143 - Auf der Suche nach den Planeten anderer Galaxien",
+  "generatedAt": "2026-01-05T15:18:22.113Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 1,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 328,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 5,
+      "Raumfahrt": 1,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 328,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 54,
+      "durationSec": 54,
+      "topic": "Suche nach extragalaktischen Planeten",
+      "fineSubject": "Exoplaneten",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 92,
+      "durationSec": 78,
+      "topic": "Beobachtung von Galaxien",
+      "fineSubject": "Galaxien",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 52,
+      "endSec": 108,
+      "durationSec": 56,
+      "topic": "VOYAGERS Survey",
+      "fineSubject": "Forschung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 68,
+      "endSec": 140,
+      "durationSec": 72,
+      "topic": "Chemische Bedingungen in Zwerggalaxien",
+      "fineSubject": "Galaxien",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 100,
+      "endSec": 168,
+      "durationSec": 68,
+      "topic": "Gaia Enceladus Sausage",
+      "fineSubject": "Galaxien",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "DART-Mission",
+      "fineSubject": "Missionen",
+      "topicIndex": 7,
+      "untimed": true
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 205,
+  "title": "LNP205 Wir haben Cyber gemacht bevor es cool war und so hieß",
+  "generatedAt": "2026-01-05T15:17:57.601Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6408312271833755,
+      "Technology": 0,
+      "Law": 0.14967705700645886,
+      "Security": 0.20949171581016568,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2282,
+      "Technology": 0,
+      "Law": 533,
+      "Security": 746,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3561,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 184,
+      "endSec": 930,
+      "durationSec": 746,
+      "topic": "Terrorteil",
+      "fineSubject": "Terrorism",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 930,
+      "endSec": 1463,
+      "durationSec": 533,
+      "topic": "Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1463,
+      "endSec": 3745,
+      "durationSec": 2282,
+      "topic": "Wahlcyber in den USA",
+      "fineSubject": "Election Security",
+      "topicIndex": 2
+    }
+  ]
+}

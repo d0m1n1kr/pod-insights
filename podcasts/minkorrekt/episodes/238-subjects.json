@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 238,
+  "title": "Mi238 – „Mö Mö“",
+  "generatedAt": "2026-01-05T15:18:17.376Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.1578765545831414,
+      "Culture": 0.5184246890833717,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.09534776600644865,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.06356517733763242,
+      "Physik": 0,
+      "Education": 0.1647858129894058,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1371,
+      "Culture": 4502,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 828,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 552,
+      "Physik": 0,
+      "Education": 1431,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 5,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 8684,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 115,
+      "endSec": 654,
+      "durationSec": 539,
+      "topic": "Karneval",
+      "fineSubject": "Festivals",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 654,
+      "endSec": 1380,
+      "durationSec": 726,
+      "topic": "Baden Rollettmuseum",
+      "fineSubject": "Museums",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1380,
+      "endSec": 1869,
+      "durationSec": 489,
+      "topic": "GSI Darmstadt",
+      "fineSubject": "Institutions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1869,
+      "endSec": 2482,
+      "durationSec": 613,
+      "topic": "Astrofotos und Storytelling",
+      "fineSubject": "Photography",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2482,
+      "endSec": 2947,
+      "durationSec": 465,
+      "topic": "WTF Code",
+      "fineSubject": "Programming",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2947,
+      "endSec": 3310,
+      "durationSec": 363,
+      "topic": "Google",
+      "fineSubject": "Search Engines",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Education",
+      "startSec": 3494,
+      "endSec": 4925,
+      "durationSec": 1431,
+      "topic": "Thema 1: “Chanel No. Prüfungsphase”",
+      "fineSubject": "Exams",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4925,
+      "endSec": 6076,
+      "durationSec": 1151,
+      "topic": "Thema 2: \"Der frühe Vogel läuft mit Fett\"",
+      "fineSubject": "Proverbs",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 6076,
+      "endSec": 6958,
+      "durationSec": 882,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6958,
+      "endSec": 8431,
+      "durationSec": 1473,
+      "topic": "Schwurbel",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 8732,
+      "endSec": 9284,
+      "durationSec": 552,
+      "topic": "Audiokommentar Florian",
+      "fineSubject": "Commentary",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 9284,
+      "endSec": 9284,
+      "durationSec": 0,
+      "topic": "Audiokommentar Jonas",
+      "fineSubject": "Commentary",
+      "topicIndex": 11
+    }
+  ]
+}

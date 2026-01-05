@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 93,
+  "title": "UKW093 Ukraine: Stellungskrieg",
+  "generatedAt": "2026-01-05T15:18:03.023Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.5212207916070577,
+      "Military": 0.21959942775393418,
+      "Technology": 0,
+      "Economics": 0.2591797806390081,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 4372,
+      "Military": 1842,
+      "Technology": 0,
+      "Economics": 2174,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 4,
+      "Military": 2,
+      "Technology": 0,
+      "Economics": 4,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 8388,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 120,
+      "endSec": 1123,
+      "durationSec": 1003,
+      "topic": "Krisendiplomatie im Vorfeld des Krieges",
+      "fineSubject": "Diplomacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 1124,
+      "endSec": 2006,
+      "durationSec": 882,
+      "topic": "FSB-Leak zur Situation der Russischen Armee",
+      "fineSubject": "Intelligence",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2006,
+      "endSec": 2896,
+      "durationSec": 890,
+      "topic": "Auswirkungen der Sanktionen",
+      "fineSubject": "Sanctions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Economics",
+      "startSec": 2897,
+      "endSec": 3592,
+      "durationSec": 695,
+      "topic": "Energiefragen: wer schützt wen?",
+      "fineSubject": "Geopolitics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3593,
+      "endSec": 3892,
+      "durationSec": 299,
+      "topic": "Rohstoffe",
+      "fineSubject": "Commodities",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 3893,
+      "endSec": 4853,
+      "durationSec": 960,
+      "topic": "Strategische Situation in der Ukraine",
+      "fineSubject": "Strategy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Economics",
+      "startSec": 5616,
+      "endSec": 5906,
+      "durationSec": 290,
+      "topic": "Ukrainische Infrastruktur",
+      "fineSubject": "Ukrainian",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5907,
+      "endSec": 7692,
+      "durationSec": 1785,
+      "topic": "Was ist das Endgame?",
+      "fineSubject": "Conflict Resolution",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7692,
+      "endSec": 8913,
+      "durationSec": 1221,
+      "topic": "Putins Taktik und die mögliche Reaktion des Westens",
+      "fineSubject": "Military Strategy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8913,
+      "endSec": 9276,
+      "durationSec": 363,
+      "topic": "Anstehende Entwicklungen",
+      "fineSubject": "Future Developments",
+      "topicIndex": 10
+    }
+  ]
+}

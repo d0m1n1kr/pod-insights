@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 114,
+  "title": "LNP114 Cyber Cyber",
+  "generatedAt": "2026-01-05T15:17:57.590Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.07388252678241596,
+      "Law": 0,
+      "Security": 0.15349094939046914,
+      "Social": 0.21315108976727004,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.18692279275951237,
+      "Business": 0.3725526413003325,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 400,
+      "Law": 0,
+      "Security": 831,
+      "Social": 1154,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1012,
+      "Business": 2017,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5414,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 466,
+      "endSec": 1620,
+      "durationSec": 1154,
+      "topic": "Freiheit statt Angst 2014",
+      "fineSubject": "Privacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1620,
+      "endSec": 2451,
+      "durationSec": 831,
+      "topic": "Lagebild Cybercrime",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2452,
+      "endSec": 3316,
+      "durationSec": 864,
+      "topic": "VG Media scheitert mit Kartellbeschwerde",
+      "fineSubject": "Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 3317,
+      "endSec": 5334,
+      "durationSec": 2017,
+      "topic": "Uber und die Share Economy",
+      "fineSubject": "Sharing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5335,
+      "endSec": 5735,
+      "durationSec": 400,
+      "topic": "SS7 Location Tracking",
+      "fineSubject": "Tracking",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5736,
+      "endSec": 5884,
+      "durationSec": 148,
+      "topic": "Verbot des Weiterverkaufs von eBooks",
+      "fineSubject": "Copyright",
+      "topicIndex": 5
+    }
+  ]
+}

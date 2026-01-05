@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 347,
+  "title": "Mi347 – \"Gelogene Restkilometer\"",
+  "generatedAt": "2026-01-05T15:18:17.392Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 5834,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 7,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5834,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 784,
+      "endSec": 1282,
+      "durationSec": 498,
+      "topic": "Citizen Science Galaxy Zoo",
+      "fineSubject": "Citizen Science",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1282,
+      "endSec": 1847,
+      "durationSec": 565,
+      "topic": "Aura-Forschung",
+      "fineSubject": "Aura Research",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1847,
+      "endSec": 1957,
+      "durationSec": 110,
+      "topic": "freestyle physics",
+      "fineSubject": "Physics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 1957,
+      "endSec": 3596,
+      "durationSec": 1639,
+      "topic": "Thema 1: \"Sterne lügen nicht – oder doch?\"",
+      "fineSubject": "Astronomy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3596,
+      "endSec": 4143,
+      "durationSec": 547,
+      "topic": "Science Snack",
+      "fineSubject": "Science Snack",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4143,
+      "endSec": 6069,
+      "durationSec": 1926,
+      "topic": "Thema 2: \"Say my Name!\"",
+      "fineSubject": "Name Theory",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 6069,
+      "endSec": 6618,
+      "durationSec": 549,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Miscellaneous",
+      "topicIndex": 6
+    }
+  ]
+}

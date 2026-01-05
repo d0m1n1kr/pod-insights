@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 372,
+  "title": "LNP372 Das beste Gericht bei McDonald’s",
+  "generatedAt": "2026-01-05T15:17:57.624Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.5833853841349157,
+      "Security": 0,
+      "Social": 0.14470122839891733,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.271913387466167,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 2802,
+      "Security": 0,
+      "Social": 695,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1306,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 5,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 4,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4803,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 356,
+      "endSec": 838,
+      "durationSec": 482,
+      "topic": "Feedback: Amadeu-Antonio-Stiftung und Ken Jebsen",
+      "fineSubject": "Amadeu-Antonio-Stiftung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 838,
+      "endSec": 1089,
+      "durationSec": 251,
+      "topic": "Feedback: RKI digital",
+      "fineSubject": "RKI",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1089,
+      "endSec": 1537,
+      "durationSec": 448,
+      "topic": "Feedback: Kontaktverfolgung",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1538,
+      "endSec": 1663,
+      "durationSec": 125,
+      "topic": "Feedback: Gesichtserkennung",
+      "fineSubject": "Facial Recognition",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 1663,
+      "endSec": 2121,
+      "durationSec": 458,
+      "topic": "TERREG Trilog abgeschlossen",
+      "fineSubject": "TERREG",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2122,
+      "endSec": 2610,
+      "durationSec": 488,
+      "topic": "IT-Sicherheitsgesetz",
+      "fineSubject": "IT Security Law",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 2610,
+      "endSec": 3027,
+      "durationSec": 417,
+      "topic": "TKG-Novelle",
+      "fineSubject": "TKG Amendment",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 3028,
+      "endSec": 4274,
+      "durationSec": 1246,
+      "topic": "Update-Pflicht für digitale Produkte",
+      "fineSubject": "Update Obligation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 4274,
+      "endSec": 4467,
+      "durationSec": 193,
+      "topic": "BVerfG Urteil zu Antiterrordateigesetz",
+      "fineSubject": "BVerfG Ruling",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Social",
+      "startSec": 4468,
+      "endSec": 4736,
+      "durationSec": 268,
+      "topic": "Freifunk gemeinnützig",
+      "fineSubject": "Freifunk",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 4737,
+      "endSec": 5164,
+      "durationSec": 427,
+      "topic": "Freie Corona-Warn-App",
+      "fineSubject": "Corona Warning App",
+      "topicIndex": 11
+    }
+  ]
+}

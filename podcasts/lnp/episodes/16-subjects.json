@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 16,
+  "title": "LNP016 Das Reich der Spekulationen",
+  "generatedAt": "2026-01-05T15:17:57.573Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.14444019870080244,
+      "Technology": 0.3504012227741689,
+      "Law": 0.1650745128009171,
+      "Security": 0.3400840657241116,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 378,
+      "Technology": 917,
+      "Law": 432,
+      "Security": 890,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2617,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 67,
+      "endSec": 445,
+      "durationSec": 378,
+      "topic": "CSU wirft BMJ Manipulation von VDS-Gutachten vor",
+      "fineSubject": "Government",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 445,
+      "endSec": 877,
+      "durationSec": 432,
+      "topic": "Verbraucherzentrale-Bundesverband gewinnt Klage gegen Facebook",
+      "fineSubject": "Consumer Rights",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 877,
+      "endSec": 1794,
+      "durationSec": 917,
+      "topic": "White IT Hash-Datenbank",
+      "fineSubject": "Data Management",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1794,
+      "endSec": 2684,
+      "durationSec": 890,
+      "topic": "LulzSec, FBI und WikiLeaks",
+      "fineSubject": "Hacking",
+      "topicIndex": 3
+    }
+  ]
+}

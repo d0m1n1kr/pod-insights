@@ -1,0 +1,134 @@
+{
+  "episodeNumber": 43,
+  "title": "CRE043 Wikipedia für Fortgeschrittene",
+  "generatedAt": "2026-01-05T15:17:54.367Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.5,
+      "Social": 0.375,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.125,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 4,
+      "Social": 3,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Historie des Wikipedia-Projektes",
+      "fineSubject": "Wikipedia",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aktuelle Probleme und Herausforderungen der Wikipedia",
+      "fineSubject": "Wikipedia",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Qualitätssicherung in der Wikipedia",
+      "fineSubject": "Quality Assurance",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Stabiles Versionssystem in Wikipedia",
+      "fineSubject": "Version Control",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Culture",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Konflikt um den Artikel über den Hacker Tron",
+      "fineSubject": "Hacking",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Inkludisten vs. Exkludisten in Wikipedia",
+      "fineSubject": "Community Dynamics",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Löschdiskussionen in Wikipedia",
+      "fineSubject": "Content Moderation",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wikipedia-Konferenzen und Community-Treffen",
+      "fineSubject": "Community Events",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

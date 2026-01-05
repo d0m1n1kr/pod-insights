@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 148,
+  "title": "LNP148 Hört auf zu schreddern und kümmert Euch um die Nazis",
+  "generatedAt": "2026-01-05T15:17:57.593Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5216659655027346,
+      "Technology": 0.47833403449726547,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1240,
+      "Technology": 1137,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2377,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 345,
+      "endSec": 452,
+      "durationSec": 107,
+      "topic": "Errata: Flash",
+      "fineSubject": "Software",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 452,
+      "endSec": 800,
+      "durationSec": 348,
+      "topic": "Nachtrag Wahlcomputer",
+      "fineSubject": "Elections",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 801,
+      "endSec": 1693,
+      "durationSec": 892,
+      "topic": "Kanzleramt beendete Ermittlungen der Bundesnetzagentur",
+      "fineSubject": "Government",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1694,
+      "endSec": 2724,
+      "durationSec": 1030,
+      "topic": "Prüfung der Selektoren beginnt",
+      "fineSubject": "Security",
+      "topicIndex": 3
+    }
+  ]
+}

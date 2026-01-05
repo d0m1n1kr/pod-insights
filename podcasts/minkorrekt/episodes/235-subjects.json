@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 235,
+  "title": "Mi235 – „Blutspende live“",
+  "generatedAt": "2026-01-05T15:18:17.376Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.8712519058106047,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.03930204980518381,
+      "Physik": 0,
+      "Education": 0.08944604438421142,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 5143,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 232,
+      "Physik": 0,
+      "Education": 528,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 6,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5903,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 136,
+      "endSec": 432,
+      "durationSec": 296,
+      "topic": "Wie läuft es bei uns?",
+      "fineSubject": "Blood Donation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Education",
+      "startSec": 432,
+      "endSec": 960,
+      "durationSec": 528,
+      "topic": "Schullabor SFB1242",
+      "fineSubject": "Research Labs",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1280,
+      "endSec": 1512,
+      "durationSec": 232,
+      "topic": "Audiokommentar Miguel",
+      "fineSubject": "Audio Commentary",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1512,
+      "endSec": 2261,
+      "durationSec": 749,
+      "topic": "DRK Essen Ankunft",
+      "fineSubject": "Blood Donation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2261,
+      "endSec": 2845,
+      "durationSec": 584,
+      "topic": "Anamnesebögen",
+      "fineSubject": "Medical Forms",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 2845,
+      "endSec": 3204,
+      "durationSec": 359,
+      "topic": "Zum Arzt",
+      "fineSubject": "Medical Consultation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 3204,
+      "endSec": 3892,
+      "durationSec": 688,
+      "topic": "Blutabnahme",
+      "fineSubject": "Blood Collection",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 3892,
+      "endSec": 6359,
+      "durationSec": 2467,
+      "topic": "Interview DRK",
+      "fineSubject": "Interviews",
+      "topicIndex": 8
+    }
+  ]
+}

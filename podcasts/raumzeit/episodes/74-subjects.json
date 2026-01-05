@@ -1,0 +1,127 @@
+{
+  "episodeNumber": 74,
+  "title": "RZ074 Schwarze Löcher",
+  "generatedAt": "2026-01-05T15:18:06.283Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0.7228864477756873,
+      "Wissenschaft": 0,
+      "Technologie": 0.27711355222431266,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 11911,
+      "Wissenschaft": 0,
+      "Technologie": 4566,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 6,
+      "Wissenschaft": 0,
+      "Technologie": 2,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 16477,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 3776,
+      "durationSec": 3762,
+      "topic": "Schwarze Löcher",
+      "fineSubject": "Schwarze Löcher",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 14,
+      "endSec": 1077,
+      "durationSec": 1063,
+      "topic": "Event Horizon Telescope",
+      "fineSubject": "Teleskope",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 971,
+      "durationSec": 957,
+      "topic": "Neutronensterne",
+      "fineSubject": "Neutronensterne",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 474,
+      "endSec": 1114,
+      "durationSec": 640,
+      "topic": "Gravitationswellen",
+      "fineSubject": "Gravitationswellen",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 729,
+      "endSec": 4232,
+      "durationSec": 3503,
+      "topic": "Verschmelzung von Schwarzen Löchern",
+      "fineSubject": "Kollisionen",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 729,
+      "endSec": 4232,
+      "durationSec": 3503,
+      "topic": "Visualisierung von Schwarzen Löchern",
+      "fineSubject": "Bildgebung",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 729,
+      "endSec": 3778,
+      "durationSec": 3049,
+      "topic": "Theorien zur Entstehung von Schwarzen Löchern",
+      "fineSubject": "Theorien",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Singularitäten",
+      "fineSubject": "Singularitäten",
+      "topicIndex": 1,
+      "untimed": true
+    }
+  ]
+}

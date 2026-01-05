@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 428,
+  "title": "LNP428 Meine Telefonnummer hat sich geändert",
+  "generatedAt": "2026-01-05T15:17:57.632Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16798970178073375,
+      "Technology": 0.0871057712937138,
+      "Law": 0.2154044196524351,
+      "Security": 0.24157906028749196,
+      "Social": 0.0860330401201459,
+      "Media": 0,
+      "Health": 0.11092040334692126,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.09096760351855825,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 783,
+      "Technology": 406,
+      "Law": 1004,
+      "Security": 1126,
+      "Social": 401,
+      "Media": 0,
+      "Health": 517,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 424,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 2,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4661,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 209,
+      "endSec": 270,
+      "durationSec": 61,
+      "topic": "HTTP Status 428",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 271,
+      "endSec": 788,
+      "durationSec": 517,
+      "topic": "Feedback: Corona Warn App",
+      "fineSubject": "COVID-19",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1446,
+      "endSec": 2229,
+      "durationSec": 783,
+      "topic": "Feedback: Online-Wahlen bei Parteitagen",
+      "fineSubject": "Online Voting",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2230,
+      "endSec": 2330,
+      "durationSec": 100,
+      "topic": "Feedback: Marjorie-Wiki",
+      "fineSubject": "Wikis",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2331,
+      "endSec": 3219,
+      "durationSec": 888,
+      "topic": "BSI-Präsident fordert Hackback",
+      "fineSubject": "Hacking",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3220,
+      "endSec": 3862,
+      "durationSec": 642,
+      "topic": "Digital Services Act",
+      "fineSubject": "Regulations",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 3862,
+      "endSec": 4100,
+      "durationSec": 238,
+      "topic": "Pegasus",
+      "fineSubject": "Spyware",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 4100,
+      "endSec": 4462,
+      "durationSec": 362,
+      "topic": "Assange-Auslieferung",
+      "fineSubject": "Assange",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4463,
+      "endSec": 4708,
+      "durationSec": 245,
+      "topic": "Luca Sell-out",
+      "fineSubject": "Apps",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Business",
+      "startSec": 4708,
+      "endSec": 5132,
+      "durationSec": 424,
+      "topic": "EU tüftelt an Bitcoin-Verbot",
+      "fineSubject": "Regulation",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Social",
+      "startSec": 5133,
+      "endSec": 5534,
+      "durationSec": 401,
+      "topic": "Hassreden-Tracker",
+      "fineSubject": "Hate Speech",
+      "topicIndex": 12
+    }
+  ]
+}

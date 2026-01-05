@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 106,
+  "title": "UKW106 Brexit: She was high on her own supply",
+  "generatedAt": "2026-01-05T15:18:03.027Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.6781847842206733,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.3218152157793267,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 4573,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 2170,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 8,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6743,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 160,
+      "endSec": 902,
+      "durationSec": 742,
+      "topic": "Brexit in der UK-Öffentlichkeit",
+      "fineSubject": "Public Opinion",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 903,
+      "endSec": 1330,
+      "durationSec": 427,
+      "topic": "Der Abgang von Boris Johnson",
+      "fineSubject": "Leadership Changes",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1331,
+      "endSec": 1983,
+      "durationSec": 652,
+      "topic": "Die Wahl von Liz Truss",
+      "fineSubject": "Leadership Changes",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1983,
+      "endSec": 3329,
+      "durationSec": 1346,
+      "topic": "The Queen is dead",
+      "fineSubject": "Monarchy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3330,
+      "endSec": 5500,
+      "durationSec": 2170,
+      "topic": "Das Truss-Kabinett und das Mini-Budget",
+      "fineSubject": "Budget",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5501,
+      "endSec": 5815,
+      "durationSec": 314,
+      "topic": "Der Anfang vom Ende von Brexit?",
+      "fineSubject": "Brexit",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5815,
+      "endSec": 6076,
+      "durationSec": 261,
+      "topic": "Nordirland und Schottland",
+      "fineSubject": "Regional Issues",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6077,
+      "endSec": 6400,
+      "durationSec": 323,
+      "topic": "EU und UK",
+      "fineSubject": "International Relations",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6401,
+      "endSec": 6909,
+      "durationSec": 508,
+      "topic": "Ausblick",
+      "fineSubject": "Future Outlook",
+      "topicIndex": 8
+    }
+  ]
+}

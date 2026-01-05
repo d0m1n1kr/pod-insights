@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 101,
+  "title": "UKW101 Ukraine: Die Dritte Phase",
+  "generatedAt": "2026-01-05T15:18:03.026Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.10105561277033985,
+      "Military": 0.47180741503604534,
+      "Technology": 0,
+      "Economics": 0.42713697219361485,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 785,
+      "Military": 3665,
+      "Technology": 0,
+      "Economics": 3318,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 3,
+      "Military": 5,
+      "Technology": 0,
+      "Economics": 4,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7768,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 103,
+      "endSec": 907,
+      "durationSec": 804,
+      "topic": "Militärische Situation",
+      "fineSubject": "Military Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 908,
+      "endSec": 1306,
+      "durationSec": 398,
+      "topic": "Angriffe auf der Krim",
+      "fineSubject": "Attacks on Crimea",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 1307,
+      "endSec": 2994,
+      "durationSec": 1687,
+      "topic": "Die Gegenoffensive in Cherson",
+      "fineSubject": "Counteroffensive in Kherson",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2995,
+      "endSec": 3373,
+      "durationSec": 378,
+      "topic": "Politische Auswirkungen auf Russland",
+      "fineSubject": "Political Impact on Russia",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 3373,
+      "endSec": 3509,
+      "durationSec": 136,
+      "topic": "Aktuelle Gesamtsituation",
+      "fineSubject": "Current Overall Situation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3509,
+      "endSec": 3715,
+      "durationSec": 206,
+      "topic": "Kernkraftwerk bei Ernodar",
+      "fineSubject": "Nuclear Power Plant in Enerhodar",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3715,
+      "endSec": 4828,
+      "durationSec": 1113,
+      "topic": "Gasversorgung Europas",
+      "fineSubject": "Gas Supply in Europe",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Economics",
+      "startSec": 4829,
+      "endSec": 5789,
+      "durationSec": 960,
+      "topic": "Russische Gasinfrastruktur",
+      "fineSubject": "Russian Gas Infrastructure",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Economics",
+      "startSec": 5789,
+      "endSec": 6828,
+      "durationSec": 1039,
+      "topic": "Auswirkungen der Sanktionen",
+      "fineSubject": "Impact of Sanctions",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6828,
+      "endSec": 7028,
+      "durationSec": 200,
+      "topic": "Solidarität Europas",
+      "fineSubject": "European Solidarity",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7028,
+      "endSec": 7235,
+      "durationSec": 207,
+      "topic": "Unterstützung der USA",
+      "fineSubject": "Support from the USA",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Military",
+      "startSec": 7236,
+      "endSec": 7876,
+      "durationSec": 640,
+      "topic": "Sieg oder Niederlage",
+      "fineSubject": "Victory or Defeat",
+      "topicIndex": 11
+    }
+  ]
+}

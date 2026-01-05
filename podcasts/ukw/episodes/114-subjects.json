@@ -1,0 +1,351 @@
+{
+  "episodeNumber": 114,
+  "title": "UKW114 Ukraine: Abnutzungskrieg",
+  "generatedAt": "2026-01-05T15:18:03.029Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.07364271635907543,
+      "Military": 0.5537538075613689,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0.2506719225945171,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.12193155348503852
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 822,
+      "Military": 6181,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 2798,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 1361
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 3,
+      "Military": 10,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 18,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 2
+    },
+    "totalDurationSec": 11162,
+    "totalTopics": 35
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 144,
+      "endSec": 220,
+      "durationSec": 76,
+      "topic": "Frontverlauf",
+      "fineSubject": "Military / Frontline Development",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 220,
+      "endSec": 1042,
+      "durationSec": 822,
+      "topic": "Militärische Lage an der Front",
+      "fineSubject": "Military / Situation Analysis",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 1043,
+      "endSec": 2204,
+      "durationSec": 1161,
+      "topic": "Krim",
+      "fineSubject": "Geopolitics / Territorial Issues",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 2204,
+      "endSec": 2384,
+      "durationSec": 180,
+      "topic": "Angriffe auf russische Gebiete",
+      "fineSubject": "Military / Offensive Actions",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 2384,
+      "endSec": 2597,
+      "durationSec": 213,
+      "topic": "Bauaktivitäten Russlands",
+      "fineSubject": "Military / Construction Activities",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 2598,
+      "endSec": 3171,
+      "durationSec": 573,
+      "topic": "Neue Militärtechnik",
+      "fineSubject": "Military / New Equipment",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 3171,
+      "endSec": 3384,
+      "durationSec": 213,
+      "topic": "Neue Waffenlieferungen",
+      "fineSubject": "Military / Weapon Deliveries",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 4422,
+      "endSec": 7526,
+      "durationSec": 3104,
+      "topic": "Stand der Offensive",
+      "fineSubject": "Military / Offensive Status",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7526,
+      "endSec": 7981,
+      "durationSec": 455,
+      "topic": "Politische Unterstützung EU und USA",
+      "fineSubject": "Politics / EU and US Support",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 7981,
+      "endSec": 8181,
+      "durationSec": 200,
+      "topic": "Nord- und Südkorea",
+      "fineSubject": "Geopolitics / North Korea",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8181,
+      "endSec": 8297,
+      "durationSec": 116,
+      "topic": "Fragen: NordStream",
+      "fineSubject": "Politics / NordStream",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8298,
+      "endSec": 8549,
+      "durationSec": 251,
+      "topic": "Fragen: Lend and Lease",
+      "fineSubject": "Politics / Lend and Lease",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Military",
+      "startSec": 8549,
+      "endSec": 9047,
+      "durationSec": 498,
+      "topic": "Fragen: Russische Aufklärung",
+      "fineSubject": "Military / Russian Reconnaissance",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Military",
+      "startSec": 9047,
+      "endSec": 9515,
+      "durationSec": 468,
+      "topic": "Frage: Antwort der Russen auf Long Range Waffen",
+      "fineSubject": "Military / Russian Response",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 9516,
+      "endSec": 9768,
+      "durationSec": 252,
+      "topic": "Frage: Twitter als Quelle",
+      "fineSubject": "Media / Social Media",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 9768,
+      "endSec": 10333,
+      "durationSec": 565,
+      "topic": "Unsere Quellen auf YouTube",
+      "fineSubject": "Media / YouTube",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 10333,
+      "endSec": 10448,
+      "durationSec": 115,
+      "topic": "YT: Reporting from Ukraine",
+      "fineSubject": "Media / Ukraine Coverage",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Media",
+      "startSec": 10449,
+      "endSec": 10551,
+      "durationSec": 102,
+      "topic": "YT: The Enforcer",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Media",
+      "startSec": 10552,
+      "endSec": 10670,
+      "durationSec": 118,
+      "topic": "YT: Jake Broe",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Media",
+      "startSec": 10670,
+      "endSec": 10846,
+      "durationSec": 176,
+      "topic": "YT: Ryan McBeth",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Media",
+      "startSec": 10846,
+      "endSec": 11012,
+      "durationSec": 166,
+      "topic": "YT: Torsten Heinrich",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Media",
+      "startSec": 11012,
+      "endSec": 11140,
+      "durationSec": 128,
+      "topic": "YT: Ukraine Matters",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Media",
+      "startSec": 11141,
+      "endSec": 11229,
+      "durationSec": 88,
+      "topic": "YT: Suchominus",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Media",
+      "startSec": 11230,
+      "endSec": 11374,
+      "durationSec": 144,
+      "topic": "YT: Perun",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Media",
+      "startSec": 11374,
+      "endSec": 11427,
+      "durationSec": 53,
+      "topic": "YT: Anders Puck Nielsen",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Media",
+      "startSec": 11427,
+      "endSec": 11587,
+      "durationSec": 160,
+      "topic": "YT: Vlad Vexler",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Media",
+      "startSec": 11587,
+      "endSec": 11680,
+      "durationSec": 93,
+      "topic": "YT: Arthur Rehi",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Media",
+      "startSec": 11681,
+      "endSec": 11777,
+      "durationSec": 96,
+      "topic": "YT: William Spaniel",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 29
+    },
+    {
+      "subject": "Media",
+      "startSec": 11777,
+      "endSec": 11896,
+      "durationSec": 119,
+      "topic": "YT: 1420",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 30
+    },
+    {
+      "subject": "Media",
+      "startSec": 11896,
+      "endSec": 12009,
+      "durationSec": 113,
+      "topic": "YT: Anna from Ukraine",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 31
+    },
+    {
+      "subject": "Media",
+      "startSec": 12010,
+      "endSec": 12197,
+      "durationSec": 187,
+      "topic": "YT: Caspian Report",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 32
+    },
+    {
+      "subject": "Media",
+      "startSec": 12198,
+      "endSec": 12321,
+      "durationSec": 123,
+      "topic": "YT: Russian Media Monitor",
+      "fineSubject": "Media / Influencers",
+      "topicIndex": 33
+    },
+    {
+      "subject": "Military",
+      "startSec": 12322,
+      "endSec": 12356,
+      "durationSec": 34,
+      "topic": "YT: Bundeswehr und Bundesheer",
+      "fineSubject": "Military / Defense Forces",
+      "topicIndex": 34
+    }
+  ]
+}

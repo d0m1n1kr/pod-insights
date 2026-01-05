@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 218,
+  "title": "CRE218 Diamanten",
+  "generatedAt": "2026-01-05T15:17:54.395Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.47659274903203097,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.523407250967969,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 1354,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1487,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 2841,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 109,
+      "endSec": 1596,
+      "durationSec": 1487,
+      "topic": "Kultur von Diamanten",
+      "fineSubject": "Luxury",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 109,
+      "endSec": 1463,
+      "durationSec": 1354,
+      "topic": "Herstellung von Diamanten",
+      "fineSubject": "Manufacturing",
+      "topicIndex": 2
+    }
+  ]
+}

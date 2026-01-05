@@ -1,0 +1,119 @@
+{
+  "episodeNumber": 138,
+  "title": "DU138 - Epic Öpik: Astronomischer Visionär aus Estland",
+  "generatedAt": "2026-01-05T15:18:22.112Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 1,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 4038,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 7,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 4038,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 141,
+      "endSec": 2044,
+      "durationSec": 1903,
+      "topic": "Ernst Öpik",
+      "fineSubject": "Astronomy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 408,
+      "endSec": 646,
+      "durationSec": 238,
+      "topic": "Neuer Uranusmond",
+      "fineSubject": "Astronomy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 606,
+      "endSec": 1140,
+      "durationSec": 534,
+      "topic": "Supernova",
+      "fineSubject": "Astrophysics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 1100,
+      "endSec": 1724,
+      "durationSec": 624,
+      "topic": "Oortschen Wolke",
+      "fineSubject": "Astronomy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 1684,
+      "endSec": 2423,
+      "durationSec": 739,
+      "topic": "Andromeda-Galaxie",
+      "fineSubject": "Astronomy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Galaktische Barriere",
+      "fineSubject": "Astrophysics",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Science Busters Buch",
+      "fineSubject": "Publication",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

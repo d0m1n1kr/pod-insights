@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 172,
+  "title": "LNP172 10 Gründe, warum sich Regierungen besser raushalten sollten",
+  "generatedAt": "2026-01-05T15:17:57.596Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5769985974754558,
+      "Technology": 0.16577840112201964,
+      "Law": 0,
+      "Security": 0.11640953716690042,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.14081346423562413,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2057,
+      "Technology": 591,
+      "Law": 0,
+      "Security": 415,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 502,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3565,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 127,
+      "endSec": 718,
+      "durationSec": 591,
+      "topic": "Unbegrenzte Daten sind unbegrenzt",
+      "fineSubject": "Data Limitations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 719,
+      "endSec": 1567,
+      "durationSec": 848,
+      "topic": "Netzneutrallalala in Indien",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1567,
+      "endSec": 1803,
+      "durationSec": 236,
+      "topic": "Ende von Safe Harbor",
+      "fineSubject": "Safe Harbor",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1804,
+      "endSec": 2185,
+      "durationSec": 381,
+      "topic": "Mehr VDS nun auch auf Servern",
+      "fineSubject": "Data Retention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2185,
+      "endSec": 2600,
+      "durationSec": 415,
+      "topic": "Internet of Spooks",
+      "fineSubject": "Government Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 2601,
+      "endSec": 3103,
+      "durationSec": 502,
+      "topic": "Paypal sperrt VPN-Anbieter UnoTelly",
+      "fineSubject": "Payment Providers",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3104,
+      "endSec": 3696,
+      "durationSec": 592,
+      "topic": "Julio Assanchez",
+      "fineSubject": "Whistleblowers",
+      "topicIndex": 6
+    }
+  ]
+}

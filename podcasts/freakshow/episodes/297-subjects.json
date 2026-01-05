@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 297,
+  "title": "FS297 Monochromverläufe",
+  "generatedAt": "2026-01-05T15:17:51.122Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.16224978855370736,
+      "Software": 0.34324781505497604,
+      "Hardware": 0.24161263039188047,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.07400620242458415,
+      "Event": 0.178883563574852
+    },
+    "durations": {
+      "Technology": 1151,
+      "Software": 2435,
+      "Hardware": 1714,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 525,
+      "Event": 1269
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 3,
+      "Hardware": 5,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 2
+    },
+    "totalDurationSec": 7094,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 152,
+      "endSec": 286,
+      "durationSec": 134,
+      "topic": "Dickes Trackpad",
+      "fineSubject": "Trackpad",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 2786,
+      "endSec": 3022,
+      "durationSec": 236,
+      "topic": "Goatmire / NervesConf",
+      "fineSubject": "NervesConf",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3023,
+      "endSec": 3383,
+      "durationSec": 360,
+      "topic": "Open Vehicle Control System",
+      "fineSubject": "Vehicle Control",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 3384,
+      "endSec": 3677,
+      "durationSec": 293,
+      "topic": "Sonic Pi",
+      "fineSubject": "Sonic Pi",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 3677,
+      "endSec": 4570,
+      "durationSec": 893,
+      "topic": "Nerves",
+      "fineSubject": "Nerves",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Event",
+      "startSec": 4571,
+      "endSec": 5604,
+      "durationSec": 1033,
+      "topic": "Trellis / Name Badge",
+      "fineSubject": "Trellis",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5604,
+      "endSec": 6205,
+      "durationSec": 601,
+      "topic": "Tolino E-Reader",
+      "fineSubject": "E-Reader",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 6206,
+      "endSec": 6731,
+      "durationSec": 525,
+      "topic": "3D-Spiel mit Dithering",
+      "fineSubject": "3D-Spiel",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6731,
+      "endSec": 7162,
+      "durationSec": 431,
+      "topic": "Neue iPhones",
+      "fineSubject": "iPhone",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7163,
+      "endSec": 7425,
+      "durationSec": 262,
+      "topic": "Neue AirPods Pro",
+      "fineSubject": "AirPods",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 7425,
+      "endSec": 8674,
+      "durationSec": 1249,
+      "topic": "OS 26 Serie",
+      "fineSubject": "Operating System",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8674,
+      "endSec": 9465,
+      "durationSec": 791,
+      "topic": "Warum LLMs halluzinieren",
+      "fineSubject": "LLMs",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10898,
+      "endSec": 11184,
+      "durationSec": 286,
+      "topic": "RØDE Call Me",
+      "fineSubject": "Microphone",
+      "topicIndex": 15
+    }
+  ]
+}

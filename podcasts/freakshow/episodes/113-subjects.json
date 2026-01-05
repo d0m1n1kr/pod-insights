@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 113,
+  "title": "MM113 Unser Dorf soll schneller werden",
+  "generatedAt": "2026-01-05T15:17:51.073Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.6944092219020173,
+      "Hardware": 0.250835734870317,
+      "Finance": 0,
+      "Media": 0.05475504322766571,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 6024,
+      "Hardware": 2176,
+      "Finance": 0,
+      "Media": 475,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 3,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8675,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 254,
+      "endSec": 2131,
+      "durationSec": 1877,
+      "topic": "Mavericks",
+      "fineSubject": "Mavericks",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 2131,
+      "endSec": 4347,
+      "durationSec": 2216,
+      "topic": "iOS",
+      "fineSubject": "iOS",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4347,
+      "endSec": 6523,
+      "durationSec": 2176,
+      "topic": "Mac Pro",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 7943,
+      "endSec": 8418,
+      "durationSec": 475,
+      "topic": "iRadio und Musik",
+      "fineSubject": "iRadio und Musik",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 8418,
+      "endSec": 10349,
+      "durationSec": 1931,
+      "topic": "Office Software",
+      "fineSubject": "Office Software",
+      "topicIndex": 5
+    }
+  ]
+}

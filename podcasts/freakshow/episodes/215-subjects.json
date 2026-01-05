@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 215,
+  "title": "FS215 C größer",
+  "generatedAt": "2026-01-05T15:17:51.095Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1493245271690183,
+      "Software": 0.10609426598619033,
+      "Hardware": 0.10465325728009607,
+      "Finance": 0.08249774842389673,
+      "Media": 0.5211648153707595,
+      "Social": 0.029300510357250075,
+      "Culture": 0,
+      "Security": 0.006964875412788952,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2487,
+      "Software": 1767,
+      "Hardware": 1743,
+      "Finance": 1374,
+      "Media": 8680,
+      "Social": 488,
+      "Culture": 0,
+      "Security": 116,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 4,
+      "Hardware": 3,
+      "Finance": 1,
+      "Media": 6,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 16655,
+    "totalTopics": 23
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 201,
+      "endSec": 3957,
+      "durationSec": 3756,
+      "topic": "Rückblick auf 10 Jahre Freak Show",
+      "fineSubject": "History / Freak Show",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3958,
+      "endSec": 5332,
+      "durationSec": 1374,
+      "topic": "#fragfs: Bitcoin",
+      "fineSubject": "Bitcoin / General",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 5332,
+      "endSec": 6118,
+      "durationSec": 786,
+      "topic": "#fragfs: Swift",
+      "fineSubject": "Swift / General",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 6118,
+      "endSec": 8630,
+      "durationSec": 2512,
+      "topic": "#fragfs: 10 Jahre in die Zukunft",
+      "fineSubject": "Future / Predictions",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 8927,
+      "endSec": 9243,
+      "durationSec": 316,
+      "topic": "10 Jahre GitHub",
+      "fineSubject": "GitHub / History",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 9244,
+      "endSec": 9732,
+      "durationSec": 488,
+      "topic": "#BreakingMyTwitter",
+      "fineSubject": "Twitter / Issues",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9732,
+      "endSec": 10582,
+      "durationSec": 850,
+      "topic": "Capuccino und Espresso (E-Auto)",
+      "fineSubject": "Electric Cars / General",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11501,
+      "endSec": 12657,
+      "durationSec": 1156,
+      "topic": "1.1.1.1",
+      "fineSubject": "1.1.1.1 / General",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12658,
+      "endSec": 13139,
+      "durationSec": 481,
+      "topic": "DSL-Vectoring",
+      "fineSubject": "DSL-Vectoring / General",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 13139,
+      "endSec": 13710,
+      "durationSec": 571,
+      "topic": "Command Line Magic",
+      "fineSubject": "Command Line / General",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 13711,
+      "endSec": 13827,
+      "durationSec": 116,
+      "topic": "LNP256",
+      "fineSubject": "LNP256 / General",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 13828,
+      "endSec": 14599,
+      "durationSec": 771,
+      "topic": "SUBSCRIBE 10: Location gesucht",
+      "fineSubject": "Location / General",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 14599,
+      "endSec": 14722,
+      "durationSec": 123,
+      "topic": "Tim bei der heise show",
+      "fineSubject": "Heise Show / General",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Media",
+      "startSec": 15248,
+      "endSec": 16460,
+      "durationSec": 1212,
+      "topic": "Podcast-Transkripte",
+      "fineSubject": "Transcripts / General",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Media",
+      "startSec": 16460,
+      "endSec": 16766,
+      "durationSec": 306,
+      "topic": "Podlove NG",
+      "fineSubject": "Podlove / General",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 16766,
+      "endSec": 17419,
+      "durationSec": 653,
+      "topic": "Thunderbolt",
+      "fineSubject": "Thunderbolt / General",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 17420,
+      "endSec": 17935,
+      "durationSec": 515,
+      "topic": "Macs auf ARM",
+      "fineSubject": "ARM / Macs",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 17935,
+      "endSec": 18029,
+      "durationSec": 94,
+      "topic": "Swift for AI",
+      "fineSubject": "Swift / Applications",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 18143,
+      "endSec": 18718,
+      "durationSec": 575,
+      "topic": "Mac Pro erst 2019",
+      "fineSubject": "Mac Pro / Release",
+      "topicIndex": 20
+    }
+  ]
+}

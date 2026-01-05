@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 321,
+  "title": "Mi321 – \"Schimpansen-Generationsraumschiff\"",
+  "generatedAt": "2026-01-05T15:18:17.387Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.278197593059054,
+      "Culture": 0.6260845228099636,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.09571788413098237,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 994,
+      "Culture": 2237,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 342,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 3573,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 711,
+      "endSec": 1074,
+      "durationSec": 363,
+      "topic": "Unsicherheiten",
+      "fineSubject": "Uncertainties",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1864,
+      "endSec": 2206,
+      "durationSec": 342,
+      "topic": "Bikecommute im Winter",
+      "fineSubject": "Bike Commuting",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2206,
+      "endSec": 2314,
+      "durationSec": 108,
+      "topic": "Kommentare zu Schwarzen Löchern",
+      "fineSubject": "Black Holes",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3422,
+      "endSec": 3945,
+      "durationSec": 523,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Content",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3945,
+      "endSec": 6182,
+      "durationSec": 2237,
+      "topic": "Thema 2: \"Unendlichkeit ist nicht verfügbar\"",
+      "fineSubject": "Infinity",
+      "topicIndex": 6
+    }
+  ]
+}

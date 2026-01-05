@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 215,
+  "title": "Mi215 – „Im Zentrum der Mikrowelle“",
+  "generatedAt": "2026-01-05T15:18:17.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.2842345141910089,
+      "Culture": 0.4445825564532836,
+      "Wissenschaft": 0,
+      "Health": 0.11000621504039776,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.14833229749326704,
+      "Social": 0.012844416822042676,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1372,
+      "Culture": 2146,
+      "Wissenschaft": 0,
+      "Health": 531,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 716,
+      "Social": 62,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 4827,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Education",
+      "startSec": 1232,
+      "endSec": 1948,
+      "durationSec": 716,
+      "topic": "Klimaringvorlesung",
+      "fineSubject": "Lectures",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 2656,
+      "endSec": 2718,
+      "durationSec": 62,
+      "topic": "Themen der Woche",
+      "fineSubject": "Weekly Topics",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2718,
+      "endSec": 3843,
+      "durationSec": 1125,
+      "topic": "Thema 1: “Katastrophen Blend”",
+      "fineSubject": "Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3843,
+      "endSec": 5215,
+      "durationSec": 1372,
+      "topic": "Thema 2: \"Cold Brew DNA\"",
+      "fineSubject": "Biology",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8069,
+      "endSec": 9090,
+      "durationSec": 1021,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 9304,
+      "endSec": 9835,
+      "durationSec": 531,
+      "topic": "Audiokommentar Clara über T-Zellen",
+      "fineSubject": "Immunology",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 9835,
+      "endSec": 9835,
+      "durationSec": 0,
+      "topic": "Audiokommentar Philipp Coronaimpfung",
+      "fineSubject": "Vaccination",
+      "topicIndex": 9
+    }
+  ]
+}

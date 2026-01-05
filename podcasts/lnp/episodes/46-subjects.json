@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 46,
+  "title": "LNP046 Bekennerschreiben der Regierung",
+  "generatedAt": "2026-01-05T15:17:57.579Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.37575757575757573,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.57003367003367,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.054208754208754206
+    },
+    "durations": {
+      "Politics": 1116,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1693,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 161
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 3,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 2970,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 85,
+      "endSec": 1355,
+      "durationSec": 1270,
+      "topic": "Leistungsschutzrecht",
+      "fineSubject": "Intellectual Property / Leistungsschutzrecht",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1355,
+      "endSec": 1573,
+      "durationSec": 218,
+      "topic": "Vorratsdatenspeicherung in Österreich",
+      "fineSubject": "Surveillance / Vorratsdatenspeicherung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1573,
+      "endSec": 1824,
+      "durationSec": 251,
+      "topic": "Syrien schaltet das Internet ab",
+      "fineSubject": "Censorship / Internet Shutdowns",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1825,
+      "endSec": 2290,
+      "durationSec": 465,
+      "topic": "Die ITU-Konferenz steht vor der Tür",
+      "fineSubject": "Conferences / ITU",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2290,
+      "endSec": 2690,
+      "durationSec": 400,
+      "topic": "Netzneutralität: Digiges startet Vodafail-Kampagne",
+      "fineSubject": "Net Neutrality / Campaigns",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2691,
+      "endSec": 2896,
+      "durationSec": 205,
+      "topic": "Blogger stellt Strafanzeige gegen Urheberrechts-Trolle",
+      "fineSubject": "Litigation / Urheberrechts-Trolle",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2896,
+      "endSec": 3057,
+      "durationSec": 161,
+      "topic": "Die Liga der Internetschurken",
+      "fineSubject": "Subcultures / Internetschurken",
+      "topicIndex": 6
+    }
+  ]
+}

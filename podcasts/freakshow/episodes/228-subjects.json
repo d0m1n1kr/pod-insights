@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 228,
+  "title": "FS228 Letty im Datenteich",
+  "generatedAt": "2026-01-05T15:17:51.100Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3783783783783784,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.19866786217497118,
+      "Media": 0,
+      "Social": 0.05648776738824132,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.36646599205840913
+    },
+    "durations": {
+      "Technology": 2954,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1551,
+      "Media": 0,
+      "Social": 441,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 2861
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 2
+    },
+    "totalDurationSec": 7807,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 268,
+      "endSec": 709,
+      "durationSec": 441,
+      "topic": "All Creatures Welcome",
+      "fineSubject": "Community",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Event",
+      "startSec": 710,
+      "endSec": 1897,
+      "durationSec": 1187,
+      "topic": "35C3",
+      "fineSubject": "Conference",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 8996,
+      "endSec": 10179,
+      "durationSec": 1183,
+      "topic": "Apple Pay",
+      "fineSubject": "Payment Systems",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10180,
+      "endSec": 10548,
+      "durationSec": 368,
+      "topic": "iZettle",
+      "fineSubject": "Payment Solutions",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Event",
+      "startSec": 10549,
+      "endSec": 12223,
+      "durationSec": 1674,
+      "topic": "CeBIT",
+      "fineSubject": "Trade Show",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12223,
+      "endSec": 12434,
+      "durationSec": 211,
+      "topic": "Hetzner Volumes",
+      "fineSubject": "Cloud Services",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12434,
+      "endSec": 12904,
+      "durationSec": 470,
+      "topic": "DNS via TCP und TLS",
+      "fineSubject": "DNS",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12905,
+      "endSec": 13567,
+      "durationSec": 662,
+      "topic": "DNS via HTTPS und Cloudflare",
+      "fineSubject": "DNS",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13567,
+      "endSec": 13909,
+      "durationSec": 342,
+      "topic": "EveryMac",
+      "fineSubject": "Hardware",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14767,
+      "endSec": 15201,
+      "durationSec": 434,
+      "topic": "iPhone Dual SIM",
+      "fineSubject": "Mobile",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15202,
+      "endSec": 16037,
+      "durationSec": 835,
+      "topic": "iPad Pro",
+      "fineSubject": "Mobile",
+      "topicIndex": 20
+    }
+  ]
+}

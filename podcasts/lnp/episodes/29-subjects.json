@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 29,
+  "title": "LNP029 Einmal Asyl und ’ne Flex, bitte!",
+  "generatedAt": "2026-01-05T15:17:57.576Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6608040201005025,
+      "Technology": 0,
+      "Law": 0.28248384781048097,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.032663316582914576,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.02404881550610194
+    },
+    "durations": {
+      "Politics": 1841,
+      "Technology": 0,
+      "Law": 787,
+      "Security": 0,
+      "Social": 0,
+      "Media": 91,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 67
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 2786,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 100,
+      "endSec": 1120,
+      "durationSec": 1020,
+      "topic": "Julian Assange beantragt Asyl in Ecuador",
+      "fineSubject": "Asylum",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1120,
+      "endSec": 1305,
+      "durationSec": 185,
+      "topic": "ACTA auch im Handelsausschuss abgelehnt",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1305,
+      "endSec": 1941,
+      "durationSec": 636,
+      "topic": "Kampagne gegen das Leistungsschutzrecht von D64",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1941,
+      "endSec": 2728,
+      "durationSec": 787,
+      "topic": "Klage gegen die Vorratsdatenspeicherung vor dem EuGH",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2729,
+      "endSec": 2820,
+      "durationSec": 91,
+      "topic": "Metronauten klagen gegen Beschlagnahme ihres Podcast-Buses",
+      "fineSubject": "Podcasting",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2820,
+      "endSec": 2887,
+      "durationSec": 67,
+      "topic": "Erbin verbietet Loriot-Briefmarken in Wikipedia",
+      "fineSubject": "Intellectual Property",
+      "topicIndex": 5
+    }
+  ]
+}

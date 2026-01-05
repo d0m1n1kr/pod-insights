@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 103,
+  "title": "UKW103 Ukraine: Atomkrieg nicht vor Weihnachten",
+  "generatedAt": "2026-01-05T15:18:03.027Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.1432637571157495,
+      "Military": 0.7790427999156652,
+      "Technology": 0,
+      "Economics": 0.07769344296858528,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 1359,
+      "Military": 7390,
+      "Technology": 0,
+      "Economics": 737,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 2,
+      "Military": 9,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9486,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 159,
+      "endSec": 329,
+      "durationSec": 170,
+      "topic": "Militärische Situation",
+      "fineSubject": "Current Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 329,
+      "endSec": 891,
+      "durationSec": 562,
+      "topic": "Cherson-Offensive",
+      "fineSubject": "Operations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 892,
+      "endSec": 1475,
+      "durationSec": 583,
+      "topic": "Charkiv-Offensive",
+      "fineSubject": "Operations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Economics",
+      "startSec": 1475,
+      "endSec": 2212,
+      "durationSec": 737,
+      "topic": "Eisenbahnlinien und Brücken",
+      "fineSubject": "Transport",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2213,
+      "endSec": 2477,
+      "durationSec": 264,
+      "topic": "Fake-Referenden",
+      "fineSubject": "Referendums",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 2477,
+      "endSec": 4396,
+      "durationSec": 1919,
+      "topic": "Die Mobilisierung",
+      "fineSubject": "Mobilization",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Military",
+      "startSec": 4396,
+      "endSec": 4849,
+      "durationSec": 453,
+      "topic": "Diskussion um Deserteure",
+      "fineSubject": "Desertion",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Military",
+      "startSec": 4850,
+      "endSec": 5169,
+      "durationSec": 319,
+      "topic": "Der Gefangenenaustausch",
+      "fineSubject": "Prisoner Exchange",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5169,
+      "endSec": 6264,
+      "durationSec": 1095,
+      "topic": "Die Rolle Deutschlands",
+      "fineSubject": "International Relations",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 6265,
+      "endSec": 6684,
+      "durationSec": 419,
+      "topic": "Neue Waffensysteme",
+      "fineSubject": "Weapons Systems",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Military",
+      "startSec": 6684,
+      "endSec": 8563,
+      "durationSec": 1879,
+      "topic": "Qualität vs. Quantität im Krieg",
+      "fineSubject": "Strategy",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Military",
+      "startSec": 8564,
+      "endSec": 9650,
+      "durationSec": 1086,
+      "topic": "Nukleare Drohungen",
+      "fineSubject": "Nuclear Threats",
+      "topicIndex": 11
+    }
+  ]
+}

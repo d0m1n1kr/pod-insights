@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 340,
+  "title": "Mi340 – \"Jenseits der Schmerzschwelle\"",
+  "generatedAt": "2026-01-05T15:18:17.390Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.48676548438327155,
+      "Culture": 0.09528851244044469,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.2660137638962414,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.02726310217046056,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.12466913710958179,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1839,
+      "Culture": 360,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1005,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 103,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 471,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 3778,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 300,
+      "endSec": 1305,
+      "durationSec": 1005,
+      "topic": "GPT",
+      "fineSubject": "AI",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1476,
+      "endSec": 1947,
+      "durationSec": 471,
+      "topic": "Twitter Account gelöscht",
+      "fineSubject": "Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1947,
+      "endSec": 2050,
+      "durationSec": 103,
+      "topic": "Podcast mit den Science Busters",
+      "fineSubject": "Podcast",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2747,
+      "endSec": 4176,
+      "durationSec": 1429,
+      "topic": "Thema 1: \"Symmetriebruch mit Folgen\"",
+      "fineSubject": "Physics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4176,
+      "endSec": 4586,
+      "durationSec": 410,
+      "topic": "Science Snack",
+      "fineSubject": "Food",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5959,
+      "endSec": 6319,
+      "durationSec": 360,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Critique",
+      "topicIndex": 7
+    }
+  ]
+}

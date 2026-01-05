@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 134,
+  "title": "LNP134 Da kommt einer von rechts",
+  "generatedAt": "2026-01-05T15:17:57.592Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.26731182795698927,
+      "Technology": 0.36752688172043013,
+      "Law": 0.3313978494623656,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.03376344086021505,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1243,
+      "Technology": 1709,
+      "Law": 1541,
+      "Security": 0,
+      "Social": 0,
+      "Media": 157,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4650,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 86,
+      "endSec": 243,
+      "durationSec": 157,
+      "topic": "Feedback Astro-TV Hack",
+      "fineSubject": "Media / Astro-TV",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 244,
+      "endSec": 434,
+      "durationSec": 190,
+      "topic": "Feedback FCC-Regelung Netzneutralität",
+      "fineSubject": "Regulation / Netzneutralität",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 434,
+      "endSec": 1677,
+      "durationSec": 1243,
+      "topic": "Netzneutralität Taliban",
+      "fineSubject": "Politics / Taliban",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1678,
+      "endSec": 2661,
+      "durationSec": 983,
+      "topic": "Gesetzentwurf zur Störerhaftung",
+      "fineSubject": "Law / Störerhaftung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2661,
+      "endSec": 4370,
+      "durationSec": 1709,
+      "topic": "De-Mail am Ende-zu-Ende",
+      "fineSubject": "Technology / De-Mail",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 4371,
+      "endSec": 4739,
+      "durationSec": 368,
+      "topic": "Wiedereinführung der Vorratsdatenspeicherung?",
+      "fineSubject": "Law / Vorratsdatenspeicherung",
+      "topicIndex": 5
+    }
+  ]
+}

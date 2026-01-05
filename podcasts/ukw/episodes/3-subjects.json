@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 3,
+  "title": "UKW003 Brexit: Brextension",
+  "generatedAt": "2026-01-05T15:18:02.997Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.9223619464188081,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.07763805358119191,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 5061,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 426,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 13,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5487,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 122,
+      "endSec": 310,
+      "durationSec": 188,
+      "topic": "Die Brexit-Debatte in Europa",
+      "fineSubject": "Brexit Debate",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 311,
+      "endSec": 487,
+      "durationSec": 176,
+      "topic": "Die Blockade",
+      "fineSubject": "Blockade",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 488,
+      "endSec": 932,
+      "durationSec": 444,
+      "topic": "Jon's Brexit Diagrams",
+      "fineSubject": "Brexit Diagrams",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 932,
+      "endSec": 1405,
+      "durationSec": 473,
+      "topic": "The Independent Group",
+      "fineSubject": "Independent Group",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1406,
+      "endSec": 1881,
+      "durationSec": 475,
+      "topic": "Das Parlament übernimmt die Kontrolle",
+      "fineSubject": "Parliament Control",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1882,
+      "endSec": 2162,
+      "durationSec": 280,
+      "topic": "Labour und People's Vote",
+      "fineSubject": "Labour Party",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2162,
+      "endSec": 2449,
+      "durationSec": 287,
+      "topic": "Meaningful Vote 3 und der Speaker",
+      "fineSubject": "Meaningful Vote",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2450,
+      "endSec": 2584,
+      "durationSec": 134,
+      "topic": "Indicative Votes",
+      "fineSubject": "Indicative Votes",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2584,
+      "endSec": 3213,
+      "durationSec": 629,
+      "topic": "Stimmung in der EU",
+      "fineSubject": "EU Sentiment",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3213,
+      "endSec": 3491,
+      "durationSec": 278,
+      "topic": "Stimmung in der Bevölkerung UKs",
+      "fineSubject": "UK Public Sentiment",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Economics",
+      "startSec": 3492,
+      "endSec": 3918,
+      "durationSec": 426,
+      "topic": "Wirtschaftliche Situation",
+      "fineSubject": "Economic Situation",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3918,
+      "endSec": 4633,
+      "durationSec": 715,
+      "topic": "Europawahl",
+      "fineSubject": "European Elections",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4634,
+      "endSec": 4789,
+      "durationSec": 155,
+      "topic": "UKIP und Brexit Party",
+      "fineSubject": "UKIP and Brexit Party",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4790,
+      "endSec": 5617,
+      "durationSec": 827,
+      "topic": "Wie sieht UK in der Zukunft aus?",
+      "fineSubject": "Future of UK",
+      "topicIndex": 13
+    }
+  ]
+}

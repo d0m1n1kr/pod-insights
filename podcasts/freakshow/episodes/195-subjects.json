@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 195,
+  "title": "FS195 Dein Butler ist ein Zombie",
+  "generatedAt": "2026-01-05T15:17:51.090Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.18091222690686087,
+      "Software": 0.2772134917592948,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.4408777309313913,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.10099655040245305,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1888,
+      "Software": 2893,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 4601,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1054,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 3,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 5,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10436,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 1039,
+      "endSec": 2871,
+      "durationSec": 1832,
+      "topic": "Freie Softwareentwicklung",
+      "fineSubject": "Development",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 3995,
+      "endSec": 4980,
+      "durationSec": 985,
+      "topic": "Ultraschall 3",
+      "fineSubject": "Tools",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 4980,
+      "endSec": 5056,
+      "durationSec": 76,
+      "topic": "Podlove Publisher 2.5",
+      "fineSubject": "Publishing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 5057,
+      "endSec": 5933,
+      "durationSec": 876,
+      "topic": "Podcast Emanzipation",
+      "fineSubject": "Podcasting",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 5933,
+      "endSec": 6293,
+      "durationSec": 360,
+      "topic": "Clarett 4Pre Teil 1",
+      "fineSubject": "Equipment",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 6294,
+      "endSec": 7348,
+      "durationSec": 1054,
+      "topic": "iOS Security und App Store",
+      "fineSubject": "Mobile",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 7349,
+      "endSec": 8164,
+      "durationSec": 815,
+      "topic": "Clarett 4Pre Teil 2",
+      "fineSubject": "Equipment",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 8164,
+      "endSec": 9925,
+      "durationSec": 1761,
+      "topic": "Heimkino",
+      "fineSubject": "Home Theater",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9925,
+      "endSec": 11436,
+      "durationSec": 1511,
+      "topic": "Virtual Reality",
+      "fineSubject": "Virtual Reality",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Media",
+      "startSec": 11436,
+      "endSec": 12225,
+      "durationSec": 789,
+      "topic": "Gaming",
+      "fineSubject": "Gaming",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13813,
+      "endSec": 14190,
+      "durationSec": 377,
+      "topic": "Online-Registrierung per Video",
+      "fineSubject": "Online Services",
+      "topicIndex": 12
+    }
+  ]
+}

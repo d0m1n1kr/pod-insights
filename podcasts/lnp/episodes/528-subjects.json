@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 528,
+  "title": "LNP528 Es droht Zukunft",
+  "generatedAt": "2026-01-05T15:17:57.645Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.0635169574593217,
+      "Technology": 0.36071358557145655,
+      "Law": 0.2440697902372084,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.2393648304254068,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.09233483630660655,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 324,
+      "Technology": 1840,
+      "Law": 1245,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1221,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 471,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5101,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 948,
+      "endSec": 1600,
+      "durationSec": 652,
+      "topic": "Feedback: KI und Programmieren",
+      "fineSubject": "AI and Programming",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1601,
+      "endSec": 2789,
+      "durationSec": 1188,
+      "topic": "Feedback: KI und Ressourcenverbrauch",
+      "fineSubject": "AI and Resource Consumption",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 2790,
+      "endSec": 4011,
+      "durationSec": 1221,
+      "topic": "Feedback: KI-Psychotherapie",
+      "fineSubject": "AI in Psychotherapy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 4996,
+      "endSec": 6051,
+      "durationSec": 1055,
+      "topic": "Digital Markets Act",
+      "fineSubject": "Digital Markets Act",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6051,
+      "endSec": 6375,
+      "durationSec": 324,
+      "topic": "Innenministerkonferenz",
+      "fineSubject": "Interior Minister Conference",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 6376,
+      "endSec": 6566,
+      "durationSec": 190,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chat Control",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Business",
+      "startSec": 6566,
+      "endSec": 7037,
+      "durationSec": 471,
+      "topic": "Palantir und Peter Thiel",
+      "fineSubject": "Palantir and Peter Thiel",
+      "topicIndex": 8
+    }
+  ]
+}

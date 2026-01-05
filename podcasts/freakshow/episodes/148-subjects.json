@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 148,
+  "title": "FS148 Ein Gate wird kommen",
+  "generatedAt": "2026-01-05T15:17:51.079Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5999018645731109,
+      "Software": 0,
+      "Hardware": 0.08537782139352307,
+      "Finance": 0.08429833169774288,
+      "Media": 0.23042198233562317,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6113,
+      "Software": 0,
+      "Hardware": 870,
+      "Finance": 859,
+      "Media": 2348,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 0,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10190,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1492,
+      "endSec": 3824,
+      "durationSec": 2332,
+      "topic": "Video-Setup auf dem 31C3",
+      "fineSubject": "Video Setup",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 3824,
+      "endSec": 6172,
+      "durationSec": 2348,
+      "topic": "Subtitles",
+      "fineSubject": "Subtitles",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 6172,
+      "endSec": 7031,
+      "durationSec": 859,
+      "topic": "Bitcoin",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7031,
+      "endSec": 7866,
+      "durationSec": 835,
+      "topic": "Apple-Rants",
+      "fineSubject": "Apple",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7866,
+      "endSec": 8736,
+      "durationSec": 870,
+      "topic": "Aktuelle Thinkpadlage",
+      "fineSubject": "Thinkpad",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8736,
+      "endSec": 11117,
+      "durationSec": 2381,
+      "topic": "Hukls Mailserversetup",
+      "fineSubject": "Mail Server",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11117,
+      "endSec": 11682,
+      "durationSec": 565,
+      "topic": "ZFS",
+      "fineSubject": "File Systems",
+      "topicIndex": 6
+    }
+  ]
+}

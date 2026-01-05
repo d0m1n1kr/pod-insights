@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 370,
+  "title": "Mi370 – \"LichtlanD\"",
+  "generatedAt": "2026-01-05T15:18:17.395Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.7676693568109563,
+      "Wissenschaft": 0,
+      "Health": 0.01883101002690144,
+      "Technology": 0.13083883590119832,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.082660797260944,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 3139,
+      "Wissenschaft": 0,
+      "Health": 77,
+      "Technology": 535,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 338,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4089,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 493,
+      "endSec": 1028,
+      "durationSec": 535,
+      "topic": "Tastatur",
+      "fineSubject": "Tastatur",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2586,
+      "endSec": 3789,
+      "durationSec": 1203,
+      "topic": "Thema 1: “360° Retro Augen”",
+      "fineSubject": "Retro",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Education",
+      "startSec": 3789,
+      "endSec": 4127,
+      "durationSec": 338,
+      "topic": "Science Snack",
+      "fineSubject": "Science Snack",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4127,
+      "endSec": 4204,
+      "durationSec": 77,
+      "topic": "DKMS",
+      "fineSubject": "DKMS",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4204,
+      "endSec": 5617,
+      "durationSec": 1413,
+      "topic": "Thema 2: \"Cinderellas Schuster\"",
+      "fineSubject": "Cinderella",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5617,
+      "endSec": 6140,
+      "durationSec": 523,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Schwurbel",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 6339,
+      "endSec": 6339,
+      "durationSec": 0,
+      "topic": "Audiokommentar Sebastian",
+      "fineSubject": "Audiokommentar",
+      "topicIndex": 8
+    }
+  ]
+}

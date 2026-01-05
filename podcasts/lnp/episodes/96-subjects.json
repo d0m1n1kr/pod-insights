@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 96,
+  "title": "LNP096 Bin ich schon drin?",
+  "generatedAt": "2026-01-05T15:17:57.588Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6575121163166397,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.34248788368336025,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2035,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1060,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3095,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 162,
+      "endSec": 584,
+      "durationSec": 422,
+      "topic": "Datenschutzverordnung passiert Parlament",
+      "fineSubject": "Data Protection",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 584,
+      "endSec": 1178,
+      "durationSec": 594,
+      "topic": "Netzneutralität im ITRE",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1178,
+      "endSec": 1738,
+      "durationSec": 560,
+      "topic": "Bundestag: NSA-Untersuchungsausschuss",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1739,
+      "endSec": 2354,
+      "durationSec": 615,
+      "topic": "Automatische Malware-Infektion & Abhören eines ganzen Landes",
+      "fineSubject": "Malware",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2354,
+      "endSec": 2813,
+      "durationSec": 459,
+      "topic": "USA wollen Kontrolle über ICANN abgeben",
+      "fineSubject": "Internet Governance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2814,
+      "endSec": 3259,
+      "durationSec": 445,
+      "topic": "Außer Reichweite / Komplizen",
+      "fineSubject": "Espionage",
+      "topicIndex": 5
+    }
+  ]
+}

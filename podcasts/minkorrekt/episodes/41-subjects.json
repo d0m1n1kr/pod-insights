@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 41,
+  "title": "Minkorrekt Folge 41 „Die falsche 42“",
+  "generatedAt": "2026-01-05T15:18:17.355Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.9011627906976745,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.09883720930232558,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 4495,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 493,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 6,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4988,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 1436,
+      "endSec": 1929,
+      "durationSec": 493,
+      "topic": "Bier der Woche",
+      "fineSubject": "Beverages",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1929,
+      "endSec": 2399,
+      "durationSec": 470,
+      "topic": "Methan auf dem Mars",
+      "fineSubject": "Astrobiology",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2399,
+      "endSec": 3633,
+      "durationSec": 1234,
+      "topic": "Raketen",
+      "fineSubject": "Rocketry",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3633,
+      "endSec": 4736,
+      "durationSec": 1103,
+      "topic": "Lesen bei Nacht",
+      "fineSubject": "Physics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 4736,
+      "endSec": 5123,
+      "durationSec": 387,
+      "topic": "Eisenatome stapeln",
+      "fineSubject": "Physics",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 5123,
+      "endSec": 5418,
+      "durationSec": 295,
+      "topic": "Bewegungserhaltung",
+      "fineSubject": "Physics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 5418,
+      "endSec": 6424,
+      "durationSec": 1006,
+      "topic": "Magnetexperimente",
+      "fineSubject": "Experiments",
+      "topicIndex": 6
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "episodeNumber": 72,
+  "title": "RZ072 Die Zukunft der Raumfahrt",
+  "generatedAt": "2026-01-05T15:18:06.283Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 1,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 6807,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 7,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 6807,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": 20,
+      "endSec": 901,
+      "durationSec": 881,
+      "topic": "Zukunft der bemannten Raumfahrt",
+      "fineSubject": "Missionen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 20,
+      "endSec": 2038,
+      "durationSec": 2018,
+      "topic": "Rolle des Mondes in der Raumfahrt",
+      "fineSubject": "Mond",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 20,
+      "endSec": 901,
+      "durationSec": 881,
+      "topic": "Militärische Aspekte der Raumfahrt",
+      "fineSubject": "Militär",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 200,
+      "endSec": 1667,
+      "durationSec": 1467,
+      "topic": "Forschung auf der Internationalen Raumstation",
+      "fineSubject": "ISS",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 3090,
+      "endSec": 3807,
+      "durationSec": 717,
+      "topic": "Entsorgung von Weltraumschrott",
+      "fineSubject": "Weltraumschrott",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 3169,
+      "endSec": 4012,
+      "durationSec": 843,
+      "topic": "Technologien für Marsmissionen",
+      "fineSubject": "Technologie",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Herausforderungen der Marsreise",
+      "fineSubject": "Mars",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

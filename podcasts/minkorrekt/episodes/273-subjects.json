@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 273,
+  "title": "Mi273 – \"moderne Steinheilkunde\"",
+  "generatedAt": "2026-01-05T15:18:17.380Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.46494992846924177,
+      "Culture": 0.08054363376251789,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.06466380543633762,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.040915593705293275,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.34892703862660945,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 3250,
+      "Culture": 563,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 452,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 286,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 2439,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 6990,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 468,
+      "endSec": 1587,
+      "durationSec": 1119,
+      "topic": "Baustellen der Nation",
+      "fineSubject": "Infrastructure",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1587,
+      "endSec": 2039,
+      "durationSec": 452,
+      "topic": "Mietwagen Interface-Hölle",
+      "fineSubject": "User Interface",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2568,
+      "endSec": 2950,
+      "durationSec": 382,
+      "topic": "Wisskomm auf der DPG",
+      "fineSubject": "Communication",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2962,
+      "endSec": 3168,
+      "durationSec": 206,
+      "topic": "Bernd zu Lithium",
+      "fineSubject": "Materials",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 3168,
+      "endSec": 3754,
+      "durationSec": 586,
+      "topic": "Elmar zu Zechenklau",
+      "fineSubject": "Cultural Heritage",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 3754,
+      "endSec": 4040,
+      "durationSec": 286,
+      "topic": "Audiokommentar Michi",
+      "fineSubject": "Audio Commentary",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 4040,
+      "endSec": 5631,
+      "durationSec": 1591,
+      "topic": "Thema 1: “Periodensystem Season 2”",
+      "fineSubject": "Chemistry",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5631,
+      "endSec": 6194,
+      "durationSec": 563,
+      "topic": "Musik von Joachim",
+      "fineSubject": "Music",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Science",
+      "startSec": 6194,
+      "endSec": 7265,
+      "durationSec": 1071,
+      "topic": "Thema 2: \"Smells like Satelite\"",
+      "fineSubject": "Space",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 7265,
+      "endSec": 7999,
+      "durationSec": 734,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy",
+      "topicIndex": 11
+    }
+  ]
+}

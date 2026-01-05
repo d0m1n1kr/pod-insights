@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 147,
+  "title": "FS147 That escalatored quickly",
+  "generatedAt": "2026-01-05T15:17:51.079Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.12838022398251844,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.13029226987161976,
+      "Events": 0.7413275061458617,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 470,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 477,
+      "Events": 2714,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 3,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 3661,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Events",
+      "startSec": 951,
+      "endSec": 2613,
+      "durationSec": 1662,
+      "topic": "Weihnachten und Congress",
+      "fineSubject": "Weihnachten und Congress",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Events",
+      "startSec": 2613,
+      "endSec": 3322,
+      "durationSec": 709,
+      "topic": "Chaos Communication Camp",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Events",
+      "startSec": 3322,
+      "endSec": 3665,
+      "durationSec": 343,
+      "topic": "Congress Teil 2",
+      "fineSubject": "Congress Teil 2",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 3665,
+      "endSec": 4142,
+      "durationSec": 477,
+      "topic": "Sony-Hack und so",
+      "fineSubject": "Sony-Hack",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4142,
+      "endSec": 4612,
+      "durationSec": 470,
+      "topic": "Irgendwas mit Apple",
+      "fineSubject": "Apple",
+      "topicIndex": 4
+    }
+  ]
+}

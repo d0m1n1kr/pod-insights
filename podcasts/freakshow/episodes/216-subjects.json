@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 216,
+  "title": "FS216 Eine Prise Bits",
+  "generatedAt": "2026-01-05T15:17:51.095Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.44529841540943166,
+      "Hardware": 0,
+      "Finance": 0.13587626909573963,
+      "Media": 0,
+      "Social": 0.3225163677768289,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.0963089477179998,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 4693,
+      "Hardware": 0,
+      "Finance": 1432,
+      "Media": 0,
+      "Social": 3399,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1015,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 5,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 2,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10539,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 110,
+      "endSec": 713,
+      "durationSec": 603,
+      "topic": "Mimibyte",
+      "fineSubject": "Mimibyte",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 1862,
+      "endSec": 2155,
+      "durationSec": 293,
+      "topic": "SEO und SM",
+      "fineSubject": "SEO",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 2156,
+      "endSec": 2249,
+      "durationSec": 93,
+      "topic": "Das Auto-Update",
+      "fineSubject": "Auto-Update",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 2249,
+      "endSec": 2971,
+      "durationSec": 722,
+      "topic": "Amazon Fails",
+      "fineSubject": "E-Commerce",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 2971,
+      "endSec": 3042,
+      "durationSec": 71,
+      "topic": "Bier auf GitHub",
+      "fineSubject": "GitHub",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 3042,
+      "endSec": 4602,
+      "durationSec": 1560,
+      "topic": "Dokumente schreiben im Internet",
+      "fineSubject": "Document Editing",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 4603,
+      "endSec": 6969,
+      "durationSec": 2366,
+      "topic": "macOS und 64 Bit und ARM und die Cloud",
+      "fineSubject": "macOS",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 10040,
+      "endSec": 13439,
+      "durationSec": 3399,
+      "topic": "Social Media und Podcasts",
+      "fineSubject": "Media",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Finance",
+      "startSec": 13440,
+      "endSec": 14872,
+      "durationSec": 1432,
+      "topic": "Buchhaltung im Web",
+      "fineSubject": "Online Accounting",
+      "topicIndex": 11
+    }
+  ]
+}

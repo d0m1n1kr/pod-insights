@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 504,
+  "title": "LNP504 The politics of intellectual shame",
+  "generatedAt": "2026-01-05T15:17:57.642Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.23164335664335664,
+      "Technology": 0.3940850815850816,
+      "Law": 0,
+      "Security": 0.07094988344988346,
+      "Social": 0.14437645687645687,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.041666666666666664,
+      "Privacy": 0,
+      "Culture": 0.11727855477855478
+    },
+    "durations": {
+      "Politics": 1590,
+      "Technology": 2705,
+      "Law": 0,
+      "Security": 487,
+      "Social": 991,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 286,
+      "Privacy": 0,
+      "Culture": 805
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 6,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 6864,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 80,
+      "endSec": 211,
+      "durationSec": 131,
+      "topic": "The Signal Project",
+      "fineSubject": "Signal Project",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 212,
+      "endSec": 1203,
+      "durationSec": 991,
+      "topic": "Meredith Whittaker",
+      "fineSubject": "Meredith Whittaker",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1203,
+      "endSec": 1981,
+      "durationSec": 778,
+      "topic": "AI Institute",
+      "fineSubject": "AI Institute",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1981,
+      "endSec": 2722,
+      "durationSec": 741,
+      "topic": "Google Walkouts",
+      "fineSubject": "Google Walkouts",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3126,
+      "endSec": 3613,
+      "durationSec": 487,
+      "topic": "The call for encryption",
+      "fineSubject": "Encryption",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3613,
+      "endSec": 3929,
+      "durationSec": 316,
+      "topic": "The aims of Signal",
+      "fineSubject": "Signal Aims",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3930,
+      "endSec": 4334,
+      "durationSec": 404,
+      "topic": "Messenger Interoperability",
+      "fineSubject": "Messenger Interoperability",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4335,
+      "endSec": 5140,
+      "durationSec": 805,
+      "topic": "An American view of Europe",
+      "fineSubject": "American View of Europe",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5140,
+      "endSec": 5989,
+      "durationSec": 849,
+      "topic": "EU regulation",
+      "fineSubject": "EU Regulation",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5990,
+      "endSec": 6425,
+      "durationSec": 435,
+      "topic": "Telegram and Transparency",
+      "fineSubject": "Telegram Transparency",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Business",
+      "startSec": 6425,
+      "endSec": 6711,
+      "durationSec": 286,
+      "topic": "The Signal Company",
+      "fineSubject": "Signal Company",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6711,
+      "endSec": 7352,
+      "durationSec": 641,
+      "topic": "AI Dynamics",
+      "fineSubject": "AI Dynamics",
+      "topicIndex": 12
+    }
+  ]
+}

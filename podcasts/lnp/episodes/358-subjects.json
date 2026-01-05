@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 358,
+  "title": "LNP358 Das ist mir hier zu unterkomplex",
+  "generatedAt": "2026-01-05T15:17:57.621Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.1354122170012815,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.6633917129431867,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.14075181546347715,
+      "Legal": 0.06044425459205468,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 634,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3106,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 659,
+      "Legal": 283,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 3,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4682,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 282,
+      "endSec": 645,
+      "durationSec": 363,
+      "topic": "Feedback: CWA Meldungen",
+      "fineSubject": "CWA Meldungen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 645,
+      "endSec": 789,
+      "durationSec": 144,
+      "topic": "Feedback: CWA Laboranbindung",
+      "fineSubject": "CWA Laboranbindung",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 790,
+      "endSec": 942,
+      "durationSec": 152,
+      "topic": "Feedback: CWA Roaming",
+      "fineSubject": "CWA Roaming",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 942,
+      "endSec": 1576,
+      "durationSec": 634,
+      "topic": "Exposure Notifcations Express",
+      "fineSubject": "Exposure Notifications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 1577,
+      "endSec": 3806,
+      "durationSec": 2229,
+      "topic": "Covidioten-Demo",
+      "fineSubject": "Demonstrations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3806,
+      "endSec": 4089,
+      "durationSec": 283,
+      "topic": "Gericht erklärt NSA-Vorratsdatenspeicherung für illegal",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Social",
+      "startSec": 4089,
+      "endSec": 4897,
+      "durationSec": 808,
+      "topic": "Coronalisten, die zweite",
+      "fineSubject": "Coronakritik",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 4898,
+      "endSec": 4967,
+      "durationSec": 69,
+      "topic": "Facebook stoppt politische Anzeigen vor US-Wahl",
+      "fineSubject": "Politik",
+      "topicIndex": 7
+    }
+  ]
+}

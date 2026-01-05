@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 509,
+  "title": "LNP509 Nicht einmal für Katzenbilder",
+  "generatedAt": "2026-01-05T15:17:57.643Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2052368117058144,
+      "Technology": 0.4118213323065075,
+      "Law": 0,
+      "Security": 0.3829418559876781,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1066,
+      "Technology": 2139,
+      "Law": 0,
+      "Security": 1989,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 5,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5194,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 81,
+      "endSec": 360,
+      "durationSec": 279,
+      "topic": "US Geheimdienste rufen zu Verschlüsselung auf",
+      "fineSubject": "Encryption",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 360,
+      "endSec": 566,
+      "durationSec": 206,
+      "topic": "Chatkontrolle vorerst gestoppt",
+      "fineSubject": "Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 567,
+      "endSec": 1009,
+      "durationSec": 442,
+      "topic": "Ungarische Geheimdienste hacken EU Beamte",
+      "fineSubject": "Hacking",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1010,
+      "endSec": 3149,
+      "durationSec": 2139,
+      "topic": "Sprin-D Funke Event zur EUDI Wallet",
+      "fineSubject": "Digital Wallet",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3149,
+      "endSec": 3917,
+      "durationSec": 768,
+      "topic": "UN Cybercrime Convention",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3917,
+      "endSec": 4983,
+      "durationSec": 1066,
+      "topic": "Wahlmanipulation in Rumänien",
+      "fineSubject": "Election",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4984,
+      "endSec": 5278,
+      "durationSec": 294,
+      "topic": "Cyber Resilience Act tritt in Kraft",
+      "fineSubject": "Legislation",
+      "topicIndex": 6
+    }
+  ]
+}

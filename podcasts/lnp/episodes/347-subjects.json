@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 347,
+  "title": "LNP347 Pralinen zum Geburtstag",
+  "generatedAt": "2026-01-05T15:17:57.620Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.2052952300903551,
+      "Law": 0.4711073754990544,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.2227358688800168,
+      "Health": 0.10086152553057365,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 977,
+      "Law": 2242,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1060,
+      "Health": 480,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 6,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4759,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 368,
+      "endSec": 572,
+      "durationSec": 204,
+      "topic": "Das Grundgesetz verstößt gegen die Geheimdienste",
+      "fineSubject": "Privacy / Intelligence Agencies",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 572,
+      "endSec": 730,
+      "durationSec": 158,
+      "topic": "Feedback: Grundrechte",
+      "fineSubject": "Feedback / Rights Discussion",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 731,
+      "endSec": 851,
+      "durationSec": 120,
+      "topic": "Feedback: Uneinsichtige Intensivtäter",
+      "fineSubject": "Feedback / Crime Prevention",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 851,
+      "endSec": 953,
+      "durationSec": 102,
+      "topic": "Feedback: Automatisierte Überwachung",
+      "fineSubject": "Feedback / Automated Monitoring",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 954,
+      "endSec": 2251,
+      "durationSec": 1297,
+      "topic": "IT-Sicherheitsgesetz 2 (ITSIG2)",
+      "fineSubject": "Legislation / IT Security Law",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2251,
+      "endSec": 2502,
+      "durationSec": 251,
+      "topic": "Patientendatenschutzgesetz (PDSG)",
+      "fineSubject": "Legislation / Patient Data Protection",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2502,
+      "endSec": 3377,
+      "durationSec": 875,
+      "topic": "Corona Tracing App",
+      "fineSubject": "Health / Contact Tracing",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 3378,
+      "endSec": 4438,
+      "durationSec": 1060,
+      "topic": "BILD vs. Drosten",
+      "fineSubject": "Controversy / Public Figures",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 4438,
+      "endSec": 4650,
+      "durationSec": 212,
+      "topic": "2 Jahre DSGVO",
+      "fineSubject": "Regulation / GDPR",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 4650,
+      "endSec": 5130,
+      "durationSec": 480,
+      "topic": "OpenCoronaData Appell RKI",
+      "fineSubject": "Advocacy / Data Transparency",
+      "topicIndex": 9
+    }
+  ]
+}

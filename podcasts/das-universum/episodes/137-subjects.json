@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 137,
+  "title": "DU137 - 3I/ATLAS: Interstellarer Komet oder feindliches Raumschiff?",
+  "generatedAt": "2026-01-05T15:18:22.112Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.8591433278418451,
+      "Raumfahrt": 0.14085667215815487,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 2086,
+      "Raumfahrt": 342,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 1,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 2428,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 940,
+      "endSec": 2030,
+      "durationSec": 1090,
+      "topic": "3I/ATLAS - interstellarer Komet",
+      "fineSubject": "Interstellare Objekte",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1990,
+      "endSec": 2312,
+      "durationSec": 322,
+      "topic": "Bahnbestimmungen und Bewegungsparameter von 3I/ATLAS",
+      "fineSubject": "Orbitalmechanik",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 2272,
+      "endSec": 2614,
+      "durationSec": 342,
+      "topic": "Beobachtungsmöglichkeiten durch Raumsonden",
+      "fineSubject": "Raumsonden",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 2574,
+      "endSec": 3248,
+      "durationSec": 674,
+      "topic": "Vergleich mit früheren interstellaren Besuchern",
+      "fineSubject": "Vergleichende Analysen",
+      "topicIndex": 4
+    }
+  ]
+}

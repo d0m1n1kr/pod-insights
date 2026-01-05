@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 473,
+  "title": "LNP473 Enkeltrick beim Hacker-Silberrücken",
+  "generatedAt": "2026-01-05T15:17:57.638Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.06089787060897871,
+      "Technology": 0.6114200461142004,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.11718432117184321,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.03295809032958091,
+      "Legal": 0,
+      "Business": 0.042045300420453006,
+      "Privacy": 0.13549437135494372,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 449,
+      "Technology": 4508,
+      "Law": 0,
+      "Security": 0,
+      "Social": 864,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 243,
+      "Legal": 0,
+      "Business": 310,
+      "Privacy": 999,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 2,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 7373,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 1739,
+      "endSec": 1779,
+      "durationSec": 40,
+      "topic": "Feedback: Motel One",
+      "fineSubject": "Motel One",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1779,
+      "endSec": 1982,
+      "durationSec": 203,
+      "topic": "Feedback: Hässliches Auto",
+      "fineSubject": "Hässliches Auto",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3005,
+      "endSec": 4004,
+      "durationSec": 999,
+      "topic": "Chatkontrolle nur bei Verdacht?",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4004,
+      "endSec": 4453,
+      "durationSec": 449,
+      "topic": "Ylva Johannson \"rechtfertigt\" sich nicht",
+      "fineSubject": "Ylva Johannson",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 4454,
+      "endSec": 5318,
+      "durationSec": 864,
+      "topic": "1 Jahr Shitter",
+      "fineSubject": "Shitter",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5318,
+      "endSec": 9826,
+      "durationSec": 4508,
+      "topic": "Künstliche Intelligenz und Regulierung",
+      "fineSubject": "Künstliche Intelligenz",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 9827,
+      "endSec": 10137,
+      "durationSec": 310,
+      "topic": "NFTs steigen im Wert",
+      "fineSubject": "NFTs",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 209,
+  "title": "LNP209 Das jüngste Gerücht",
+  "generatedAt": "2026-01-05T15:17:57.601Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.22314933675652546,
+      "Technology": 0,
+      "Law": 0.28433889602053913,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.4925117672229354,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1043,
+      "Technology": 0,
+      "Law": 1329,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2302,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4674,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 227,
+      "endSec": 1765,
+      "durationSec": 1538,
+      "topic": "Merkel-Selfie und Fake News",
+      "fineSubject": "Fake News",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1766,
+      "endSec": 2809,
+      "durationSec": 1043,
+      "topic": "Social Bots Anhörung im Bundestag",
+      "fineSubject": "Social Bots",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2809,
+      "endSec": 3396,
+      "durationSec": 587,
+      "topic": "VDS-Gutachten des Wissenschaftlichen Dienstes",
+      "fineSubject": "Data Protection",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 3397,
+      "endSec": 3712,
+      "durationSec": 315,
+      "topic": "FBI-Datenzugriff auf ausländische Konten",
+      "fineSubject": "Data Access",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3713,
+      "endSec": 4477,
+      "durationSec": 764,
+      "topic": "Tobis Tricks versus Bild: Adblocker-Blocker-Verbot",
+      "fineSubject": "Adblocker",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 4477,
+      "endSec": 4904,
+      "durationSec": 427,
+      "topic": "Rechtswidrige Gebühren für Informationsfreiheitsauskünfte",
+      "fineSubject": "Information Freedom",
+      "topicIndex": 5
+    }
+  ]
+}

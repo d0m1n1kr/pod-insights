@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 152,
+  "title": "LNP152 Wahlhelfer in Deiner Nähe wollen kumulieren und panaschieren",
+  "generatedAt": "2026-01-05T15:17:57.594Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16751269035532995,
+      "Technology": 0.45892939547761885,
+      "Law": 0.2754960775265344,
+      "Security": 0.07706506691278264,
+      "Social": 0,
+      "Media": 0.020996769727734194,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 726,
+      "Technology": 1989,
+      "Law": 1194,
+      "Security": 334,
+      "Social": 0,
+      "Media": 91,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4334,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 157,
+      "endSec": 330,
+      "durationSec": 173,
+      "topic": "Feedback Wahlcomputer-Diskussion",
+      "fineSubject": "Voting Technology",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 331,
+      "endSec": 689,
+      "durationSec": 358,
+      "topic": "Feedback Gutachten Graulich",
+      "fineSubject": "Legal Opinions",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 689,
+      "endSec": 1033,
+      "durationSec": 344,
+      "topic": "Feedback PGP bei United Internet",
+      "fineSubject": "Cryptography",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1034,
+      "endSec": 1796,
+      "durationSec": 762,
+      "topic": "Akteneinsicht zum Landesverrat",
+      "fineSubject": "National Security",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 1796,
+      "endSec": 2130,
+      "durationSec": 334,
+      "topic": "Glotaic: Ungefiltertes Abhören durch die CIA mit Hilfe des BND",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2131,
+      "endSec": 2563,
+      "durationSec": 432,
+      "topic": "Datenschutzabkommen zwischen EU und USA",
+      "fineSubject": "International Agreements",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2564,
+      "endSec": 4209,
+      "durationSec": 1645,
+      "topic": "Firmwarezwang für Router",
+      "fineSubject": "Networking",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4209,
+      "endSec": 4243,
+      "durationSec": 34,
+      "topic": "Interrrupt",
+      "fineSubject": "Legislation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4244,
+      "endSec": 4405,
+      "durationSec": 161,
+      "topic": "Initiative Stop BÜPF",
+      "fineSubject": "Civil Liberties",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 4405,
+      "endSec": 4496,
+      "durationSec": 91,
+      "topic": "11. Geburtstag von netzpolitik.org",
+      "fineSubject": "Digital Activism",
+      "topicIndex": 9
+    }
+  ]
+}

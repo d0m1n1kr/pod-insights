@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 540,
+  "title": "LNP540 Respektschelle",
+  "generatedAt": "2026-01-05T15:17:57.647Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3498530029399412,
+      "Technology": 0.47921041579168416,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.17093658126837463
+    },
+    "durations": {
+      "Politics": 1666,
+      "Technology": 2282,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 814
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 4762,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 294,
+      "endSec": 660,
+      "durationSec": 366,
+      "topic": "Feedback: Selfmade AI",
+      "fineSubject": "AI",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 660,
+      "endSec": 1474,
+      "durationSec": 814,
+      "topic": "Claudius",
+      "fineSubject": "Media",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1474,
+      "endSec": 3154,
+      "durationSec": 1680,
+      "topic": "End of 10",
+      "fineSubject": "Gaming",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3155,
+      "endSec": 3391,
+      "durationSec": 236,
+      "topic": "ResidentBat",
+      "fineSubject": "Gaming",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3391,
+      "endSec": 5057,
+      "durationSec": 1666,
+      "topic": "AI- und Drohnenkrieg",
+      "fineSubject": "War",
+      "topicIndex": 4
+    }
+  ]
+}

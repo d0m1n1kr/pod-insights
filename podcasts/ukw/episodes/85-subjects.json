@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 85,
+  "title": "UKW085 Corona Weekly: Die meisten von uns werden es überleben",
+  "generatedAt": "2026-01-05T15:18:03.021Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 5923,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 11,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5923,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 80,
+      "endSec": 247,
+      "durationSec": 167,
+      "topic": "Überblick über die Gesamtsituation",
+      "fineSubject": "Epidemiology",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 248,
+      "endSec": 630,
+      "durationSec": 382,
+      "topic": "Booster-Impfung",
+      "fineSubject": "Vaccination",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 630,
+      "endSec": 1996,
+      "durationSec": 1366,
+      "topic": "Infektionsgeschehen in Deutschland",
+      "fineSubject": "Infection Rates",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1997,
+      "endSec": 3352,
+      "durationSec": 1355,
+      "topic": "Impfdurchbrüche",
+      "fineSubject": "Vaccine Efficacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3352,
+      "endSec": 3667,
+      "durationSec": 315,
+      "topic": "Belastung der Krankenhäuser",
+      "fineSubject": "Healthcare System",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3668,
+      "endSec": 4182,
+      "durationSec": 514,
+      "topic": "Situation der Pflege",
+      "fineSubject": "Caregiving",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4183,
+      "endSec": 4393,
+      "durationSec": 210,
+      "topic": "Impfstoff für Kinder",
+      "fineSubject": "Pediatric Care",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 4393,
+      "endSec": 5611,
+      "durationSec": 1218,
+      "topic": "Ivermectin und Paxlovid",
+      "fineSubject": "Treatment Options",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 5612,
+      "endSec": 5804,
+      "durationSec": 192,
+      "topic": "Videos des Vaccine Makers Project",
+      "fineSubject": "Vaccine Development",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 5804,
+      "endSec": 5840,
+      "durationSec": 36,
+      "topic": "Entwicklung des Covid-PCR-Tests",
+      "fineSubject": "Testing",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 5841,
+      "endSec": 6009,
+      "durationSec": 168,
+      "topic": "Fazit",
+      "fineSubject": "Summary",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 265,
+  "title": "LNP265 Bundesmysterium für Bildung und Frauen",
+  "generatedAt": "2026-01-05T15:17:57.609Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6655094956095569,
+      "Technology": 0.09332244231161936,
+      "Law": 0,
+      "Security": 0.20053093730855626,
+      "Social": 0,
+      "Media": 0.04063712477026751,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3259,
+      "Technology": 457,
+      "Law": 0,
+      "Security": 982,
+      "Social": 0,
+      "Media": 199,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 7,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4897,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 655,
+      "endSec": 705,
+      "durationSec": 50,
+      "topic": "Ermittlungen gegen Mo eingestellt",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 705,
+      "endSec": 813,
+      "durationSec": 108,
+      "topic": "Feedback: Hillary Clinton vs. Julio Assanchez",
+      "fineSubject": "Public Figures",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 814,
+      "endSec": 1136,
+      "durationSec": 322,
+      "topic": "Feedback: Freie Rede vs. Freie Meinungsäußerung",
+      "fineSubject": "Free Speech",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1137,
+      "endSec": 1336,
+      "durationSec": 199,
+      "topic": "Feedback: Öffentlicher Rundfunk",
+      "fineSubject": "Public Broadcasting",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1336,
+      "endSec": 1626,
+      "durationSec": 290,
+      "topic": "G20 Gesichtserkennung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1626,
+      "endSec": 2287,
+      "durationSec": 661,
+      "topic": "Bundesregierung beruft Digitalrat",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 2288,
+      "endSec": 2763,
+      "durationSec": 475,
+      "topic": "Cyberwaffen-Agentur",
+      "fineSubject": "Cyber Weapons",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2763,
+      "endSec": 3280,
+      "durationSec": 517,
+      "topic": "Alternative für Maaßen",
+      "fineSubject": "Political Parties",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3280,
+      "endSec": 4164,
+      "durationSec": 884,
+      "topic": "Algorithmengläubiges BAMF",
+      "fineSubject": "Bureaucracy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 4846,
+      "endSec": 5353,
+      "durationSec": 507,
+      "topic": "Der Russe hackt mal wieder die Wahl",
+      "fineSubject": "Election Security",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5353,
+      "endSec": 6070,
+      "durationSec": 717,
+      "topic": "Verfassungsbeschwerden gegen Staatstrojaner",
+      "fineSubject": "Legal Challenges",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6070,
+      "endSec": 6237,
+      "durationSec": 167,
+      "topic": "Google sammelt Standortdaten auch wenn man des Feature deaktiviert",
+      "fineSubject": "Privacy",
+      "topicIndex": 12
+    }
+  ]
+}

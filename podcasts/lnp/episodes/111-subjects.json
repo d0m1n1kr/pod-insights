@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 111,
+  "title": "LNP111 Das goldene Häkchen",
+  "generatedAt": "2026-01-05T15:17:57.589Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.22153991497401984,
+      "Technology": 0.4232404345772319,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.3552196504487482,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 469,
+      "Technology": 896,
+      "Law": 0,
+      "Security": 0,
+      "Social": 752,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2117,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 132,
+      "endSec": 884,
+      "durationSec": 752,
+      "topic": "Bundeswehr nutzt soziale Medien zur Aufklärung von Stimmungslagen",
+      "fineSubject": "Social Media",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 885,
+      "endSec": 1781,
+      "durationSec": 896,
+      "topic": "Kabel Deutschland hat Ärger wegen der Filesharing-Drossel",
+      "fineSubject": "Filesharing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1781,
+      "endSec": 2250,
+      "durationSec": 469,
+      "topic": "Maas empfiehlt Snowden Rückkehr in die USA",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 2
+    }
+  ]
+}

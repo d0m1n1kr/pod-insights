@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 319,
+  "title": "LNP319 Der Kapitalismus fickt immer in beide Richtungen",
+  "generatedAt": "2026-01-05T15:17:57.616Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6585520075877331,
+      "Technology": 0.21962272104542102,
+      "Law": 0.024660132785330382,
+      "Security": 0,
+      "Social": 0.09716513858151545,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 6249,
+      "Technology": 2084,
+      "Law": 234,
+      "Security": 0,
+      "Social": 922,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 11,
+      "Technology": 4,
+      "Law": 1,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 9489,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 413,
+      "endSec": 662,
+      "durationSec": 249,
+      "topic": "50 Jahre Internet",
+      "fineSubject": "Internet",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 662,
+      "endSec": 957,
+      "durationSec": 295,
+      "topic": "Feedback: Staatstrojaner-Paranoia",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 958,
+      "endSec": 1147,
+      "durationSec": 189,
+      "topic": "Feedback: Wahlcomputer",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1148,
+      "endSec": 1432,
+      "durationSec": 284,
+      "topic": "Feedback: Briefwahl vs. Onlinewahl",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1432,
+      "endSec": 1995,
+      "durationSec": 563,
+      "topic": "Feedback: Onlinewahl-Konzepte",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1995,
+      "endSec": 2679,
+      "durationSec": 684,
+      "topic": "Feedback: Onlinewahl der Gesellschaft für Informatik",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2680,
+      "endSec": 3297,
+      "durationSec": 617,
+      "topic": "WhatsApp klagt gegen NSO",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3297,
+      "endSec": 3661,
+      "durationSec": 364,
+      "topic": "Anhörung von Zuckerberg im US-Congress",
+      "fineSubject": "Regulation",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 3662,
+      "endSec": 4335,
+      "durationSec": 673,
+      "topic": "Twitter bannt politische Werbung",
+      "fineSubject": "Advertising",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 4335,
+      "endSec": 4584,
+      "durationSec": 249,
+      "topic": "Facebook erleichtert Zusammenarbeit mit Behörden",
+      "fineSubject": "Collaboration",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 4584,
+      "endSec": 4818,
+      "durationSec": 234,
+      "topic": "e-evidence",
+      "fineSubject": "Digital Evidence",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4819,
+      "endSec": 5479,
+      "durationSec": 660,
+      "topic": "Österreich: generelle Situation nach Ibiza",
+      "fineSubject": "Political Situation",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5479,
+      "endSec": 6042,
+      "durationSec": 563,
+      "topic": "Österreich: AMS Algorithmus",
+      "fineSubject": "Algorithms",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6043,
+      "endSec": 6698,
+      "durationSec": 655,
+      "topic": "Digitalgipfel",
+      "fineSubject": "Conferences",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6698,
+      "endSec": 7215,
+      "durationSec": 517,
+      "topic": "Russland macht Internet dicht",
+      "fineSubject": "Internet Censorship",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7216,
+      "endSec": 8329,
+      "durationSec": 1113,
+      "topic": "Neue EU-Legislaturperiode und geplante Gesetze",
+      "fineSubject": "Legislation",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Politics",
+      "startSec": 8329,
+      "endSec": 9661,
+      "durationSec": 1332,
+      "topic": "Netzneutralitätsreform",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9662,
+      "endSec": 9910,
+      "durationSec": 248,
+      "topic": "Österreich: Post Datenskandal",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 17
+    }
+  ]
+}

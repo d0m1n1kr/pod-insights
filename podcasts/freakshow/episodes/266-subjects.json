@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 266,
+  "title": "FS266 Mehr Bums",
+  "generatedAt": "2026-01-05T15:17:51.114Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 1,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 10828,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 12,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10828,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1334,
+      "endSec": 2155,
+      "durationSec": 821,
+      "topic": "Die AI Revolution",
+      "fineSubject": "AI Revolution",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3166,
+      "endSec": 4881,
+      "durationSec": 1715,
+      "topic": "Die Dekade des Machine Learnings",
+      "fineSubject": "Machine Learning",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4881,
+      "endSec": 5291,
+      "durationSec": 410,
+      "topic": "Large Language Models",
+      "fineSubject": "Large Language Models",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5292,
+      "endSec": 5681,
+      "durationSec": 389,
+      "topic": "OpenAI",
+      "fineSubject": "OpenAI",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5682,
+      "endSec": 6168,
+      "durationSec": 486,
+      "topic": "LLM Hostinganforderungen",
+      "fineSubject": "LLM Hosting",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6168,
+      "endSec": 7440,
+      "durationSec": 1272,
+      "topic": "ChatGPT Integrationen und Plugins",
+      "fineSubject": "ChatGPT Integrations",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7441,
+      "endSec": 9375,
+      "durationSec": 1934,
+      "topic": "Programmieren mit ChatGPT",
+      "fineSubject": "Programming with ChatGPT",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9375,
+      "endSec": 12556,
+      "durationSec": 3181,
+      "topic": "XR-Produkt von Apple",
+      "fineSubject": "Apple XR Product",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12557,
+      "endSec": 12693,
+      "durationSec": 136,
+      "topic": "macOS Ventura",
+      "fineSubject": "macOS Ventura",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12693,
+      "endSec": 12741,
+      "durationSec": 48,
+      "topic": "Ivory für Mac",
+      "fineSubject": "Ivory for Mac",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12742,
+      "endSec": 12870,
+      "durationSec": 128,
+      "topic": "SkyBridge",
+      "fineSubject": "SkyBridge",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12870,
+      "endSec": 13178,
+      "durationSec": 308,
+      "topic": "iPhone als Kamera",
+      "fineSubject": "iPhone Camera",
+      "topicIndex": 14
+    }
+  ]
+}

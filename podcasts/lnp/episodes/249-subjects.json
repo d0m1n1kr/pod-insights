@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 249,
+  "title": "LNP249 Qualitätspromo",
+  "generatedAt": "2026-01-05T15:17:57.606Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.044120664888159244,
+      "Technology": 0.06033244407962241,
+      "Law": 0.17607223476297967,
+      "Security": 0.2041863328545044,
+      "Social": 0.40549969218140774,
+      "Media": 0.04986661194336138,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.059922019289965114,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 215,
+      "Technology": 294,
+      "Law": 858,
+      "Security": 995,
+      "Social": 1976,
+      "Media": 243,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 292,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 2,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 4873,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 81,
+      "endSec": 324,
+      "durationSec": 243,
+      "topic": "LNP256",
+      "fineSubject": "Podcast",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 325,
+      "endSec": 2301,
+      "durationSec": 1976,
+      "topic": "Facebook",
+      "fineSubject": "Social Network",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2301,
+      "endSec": 2593,
+      "durationSec": 292,
+      "topic": "Datenschutz Apokalypso",
+      "fineSubject": "Data Protection",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2594,
+      "endSec": 3340,
+      "durationSec": 746,
+      "topic": "Guccifer 2.0 mit IP vom GRU",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3341,
+      "endSec": 4199,
+      "durationSec": 858,
+      "topic": "Bayrisches Polizeigesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 4199,
+      "endSec": 4448,
+      "durationSec": 249,
+      "topic": "Kritis-Hack in Saudi-Arabien",
+      "fineSubject": "Cyber Attacks",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4448,
+      "endSec": 4663,
+      "durationSec": 215,
+      "topic": "Referendum in den Niederlanden",
+      "fineSubject": "Referendum",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4664,
+      "endSec": 4767,
+      "durationSec": 103,
+      "topic": "Spectre-Fixes lassen auf sich warten",
+      "fineSubject": "Security Vulnerabilities",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5381,
+      "endSec": 5572,
+      "durationSec": 191,
+      "topic": "Google Drive löscht Promos",
+      "fineSubject": "Cloud Services",
+      "topicIndex": 9
+    }
+  ]
+}

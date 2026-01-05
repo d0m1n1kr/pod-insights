@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 371,
+  "title": "LNP371 Der Kunde will es ohne Fehlstelle haben",
+  "generatedAt": "2026-01-05T15:17:57.624Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16060066174599136,
+      "Technology": 0.17332654619496055,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.4204632221939425,
+      "Feedback": 0.1852888775769916,
+      "Legal": 0.06032069228811402,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 631,
+      "Technology": 681,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1652,
+      "Feedback": 728,
+      "Legal": 237,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 3,
+      "Feedback": 2,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3929,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 926,
+      "endSec": 956,
+      "durationSec": 30,
+      "topic": "Feedback: Pushie der Verkehrshamster",
+      "fineSubject": "Social / Community",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 956,
+      "endSec": 1654,
+      "durationSec": 698,
+      "topic": "Feedback: Schwurbler und Hippies",
+      "fineSubject": "Social / Community",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1654,
+      "endSec": 2285,
+      "durationSec": 631,
+      "topic": "BND-Gesetz",
+      "fineSubject": "Privacy / BND-Gesetz",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2286,
+      "endSec": 2721,
+      "durationSec": 435,
+      "topic": "Tutanota",
+      "fineSubject": "Privacy / Tutanota",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 2721,
+      "endSec": 3810,
+      "durationSec": 1089,
+      "topic": "Corona-Warn-App und Datenschutz",
+      "fineSubject": "Privacy / Corona-Warn-App",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3811,
+      "endSec": 4251,
+      "durationSec": 440,
+      "topic": "RKI bekommt 4 von 68 beantragten IT-Stellen",
+      "fineSubject": "IT / RKI",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4251,
+      "endSec": 4497,
+      "durationSec": 246,
+      "topic": "Corona-kompatible Gesichtserkennung",
+      "fineSubject": "Health / Face Recognition",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 4498,
+      "endSec": 4621,
+      "durationSec": 123,
+      "topic": "Psychische Gesundheit bei Social Distancing und Isolation",
+      "fineSubject": "Social / Isolation",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4621,
+      "endSec": 4858,
+      "durationSec": 237,
+      "topic": "fragdenstaat sucht Volljuristin",
+      "fineSubject": "Social / Activism",
+      "topicIndex": 9
+    }
+  ]
+}

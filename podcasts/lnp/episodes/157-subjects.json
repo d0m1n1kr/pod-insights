@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 157,
+  "title": "LNP157 Ich habe den Flux-Kompensator falsch eingestellt",
+  "generatedAt": "2026-01-05T15:17:57.595Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.3605021921084097,
+      "Law": 0.3626943005181347,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.06795536070147469,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.20884814667198087,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1809,
+      "Law": 1820,
+      "Security": 0,
+      "Social": 0,
+      "Media": 341,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1048,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5018,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 1203,
+      "endSec": 2442,
+      "durationSec": 1239,
+      "topic": "Vorratsdatenspeicherung beschlossen",
+      "fineSubject": "Data Retention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 2442,
+      "endSec": 3023,
+      "durationSec": 581,
+      "topic": "Abstimmung zu Netzneutralität im EU-Parlament",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 3023,
+      "endSec": 4071,
+      "durationSec": 1048,
+      "topic": "Drohnenpilot im NSA-UA",
+      "fineSubject": "Drones",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4072,
+      "endSec": 5881,
+      "durationSec": 1809,
+      "topic": "Werbeblocker-Krieg",
+      "fineSubject": "Ad Blocking",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 5882,
+      "endSec": 6223,
+      "durationSec": 341,
+      "topic": "Dokumentarfilm \"Democracy – Im Rausch der Daten\"",
+      "fineSubject": "Documentaries",
+      "topicIndex": 7
+    }
+  ]
+}

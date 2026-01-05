@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 133,
+  "title": "LNP133 Staatsbegräbnis in purem Gold",
+  "generatedAt": "2026-01-05T15:17:57.592Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.18401707374911075,
+      "Law": 0.3630543040075883,
+      "Security": 0.13255869101256817,
+      "Social": 0,
+      "Media": 0.32036993123073276,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 776,
+      "Law": 1531,
+      "Security": 559,
+      "Social": 0,
+      "Media": 1351,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 2,
+      "Social": 0,
+      "Media": 2,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4217,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 177,
+      "endSec": 498,
+      "durationSec": 321,
+      "topic": "Nachlese: SIM-Malware",
+      "fineSubject": "Malware",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 499,
+      "endSec": 737,
+      "durationSec": 238,
+      "topic": "Nachlese: Gemalto wurde gar nicht gehackt",
+      "fineSubject": "Hacking",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 737,
+      "endSec": 809,
+      "durationSec": 72,
+      "topic": "Nachlese: MS entfernt Superfish",
+      "fineSubject": "Security",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 809,
+      "endSec": 1332,
+      "durationSec": 523,
+      "topic": "FCC hat die Netzneutralität geregelt",
+      "fineSubject": "Netzneutralität",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1333,
+      "endSec": 2037,
+      "durationSec": 704,
+      "topic": "Zwangsrouter",
+      "fineSubject": "Router",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2037,
+      "endSec": 3045,
+      "durationSec": 1008,
+      "topic": "WLAN-Gesetzesentwurf",
+      "fineSubject": "WLAN",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 3046,
+      "endSec": 4090,
+      "durationSec": 1044,
+      "topic": "De-Mail noch ohne kritische Masse",
+      "fineSubject": "De-Mail",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 4090,
+      "endSec": 4397,
+      "durationSec": 307,
+      "topic": "CitizenFour und Oscar",
+      "fineSubject": "Documentary",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 119,
+  "title": "RZ119 Das Ariane-Raketenprogramm",
+  "generatedAt": "2026-01-05T15:18:06.290Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 6860,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 3,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 6860,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Technologie",
+      "startSec": 15,
+      "endSec": 2929,
+      "durationSec": 2914,
+      "topic": "Geschichte der Ariane-Raketen",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 15,
+      "endSec": 1988,
+      "durationSec": 1973,
+      "topic": "Ariane 6",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 15,
+      "endSec": 1988,
+      "durationSec": 1973,
+      "topic": "Ariane 5",
+      "fineSubject": "Raumfahrt",
+      "topicIndex": 2
+    }
+  ]
+}

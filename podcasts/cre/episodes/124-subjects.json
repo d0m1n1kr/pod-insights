@@ -1,0 +1,154 @@
+{
+  "episodeNumber": 124,
+  "title": "CRE124 Kampf gegen Zensursula",
+  "generatedAt": "2026-01-05T15:17:54.379Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.2,
+      "Media": 0.1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.2,
+      "Politics": 0.4,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0.1
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 2,
+      "Media": 1,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 2,
+      "Politics": 4,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 1
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Widerstand gegen Internetzensur",
+      "fineSubject": "Internetzensur",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Selbstfindung der Netzgemeinde",
+      "fineSubject": "Bürgerbewegungen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hintergründe des Engagements",
+      "fineSubject": "Persönliche Geschichten",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Markt der Kinderpornographie",
+      "fineSubject": "Kriminalität",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sperrlisten in anderen Ländern",
+      "fineSubject": "Internetpolitik",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Sicherheit",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Phishing-Websites und Banken",
+      "fineSubject": "Cyberkriminalität",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Hausdurchsuchungen",
+      "fineSubject": "Strafverfolgung",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wikileaks",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Technische Realisierung von KiPo-Angeboten",
+      "fineSubject": "Internetdienste",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Mobilisierung der Szene",
+      "fineSubject": "Community-Engagement",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

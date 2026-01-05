@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 200,
+  "title": "LNP200 Aus Mitlike",
+  "generatedAt": "2026-01-05T15:17:57.600Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 6307,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 4,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6307,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 334,
+      "endSec": 1753,
+      "durationSec": 1419,
+      "topic": "Rayk Anders",
+      "fineSubject": "Rayk Anders",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 1754,
+      "endSec": 2916,
+      "durationSec": 1162,
+      "topic": "Maria Reimer",
+      "fineSubject": "Maria Reimer",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2982,
+      "endSec": 4542,
+      "durationSec": 1560,
+      "topic": "Judith Horchert",
+      "fineSubject": "Judith Horchert",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 4640,
+      "endSec": 6806,
+      "durationSec": 2166,
+      "topic": "Anke und Daniel Domscheit-Berg",
+      "fineSubject": "Anke und Daniel Domscheit-Berg",
+      "topicIndex": 3
+    }
+  ]
+}

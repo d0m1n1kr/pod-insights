@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 212,
+  "title": "Mi212 – \"Wasserstoffquanten in der Blockchain\"",
+  "generatedAt": "2026-01-05T15:18:17.373Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.120223752151463,
+      "Culture": 0.0878657487091222,
+      "Wissenschaft": 0,
+      "Health": 0.49578313253012046,
+      "Technology": 0.21411359724612736,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.058433734939759036,
+      "Social": 0.004044750430292599,
+      "Biology": 0.01953528399311532
+    },
+    "durations": {
+      "Science": 1397,
+      "Culture": 1021,
+      "Wissenschaft": 0,
+      "Health": 5761,
+      "Technology": 2488,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 679,
+      "Social": 47,
+      "Biology": 227
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 6,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 1,
+      "Biology": 1
+    },
+    "totalDurationSec": 11620,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 141,
+      "endSec": 850,
+      "durationSec": 709,
+      "topic": "Corona Update",
+      "fineSubject": "Pandemics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 850,
+      "endSec": 1503,
+      "durationSec": 653,
+      "topic": "Fahrradstraßen",
+      "fineSubject": "Urban Planning",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Education",
+      "startSec": 1503,
+      "endSec": 2182,
+      "durationSec": 679,
+      "topic": "Grundschule",
+      "fineSubject": "Primary School",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2182,
+      "endSec": 2442,
+      "durationSec": 260,
+      "topic": "Ringvorlesung Klima",
+      "fineSubject": "Climate Change",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2442,
+      "endSec": 3872,
+      "durationSec": 1430,
+      "topic": "Depression",
+      "fineSubject": "Mental Health",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 4088,
+      "endSec": 4135,
+      "durationSec": 47,
+      "topic": "Themen der Woche",
+      "fineSubject": "Weekly Topics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4135,
+      "endSec": 5970,
+      "durationSec": 1835,
+      "topic": "Thema 1: “Nicolas’ monolithischer Diamanttransistor”",
+      "fineSubject": "Transistors",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 7250,
+      "endSec": 8024,
+      "durationSec": 774,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 8024,
+      "endSec": 8767,
+      "durationSec": 743,
+      "topic": "Ernährung",
+      "fineSubject": "Nutrition",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8767,
+      "endSec": 9172,
+      "durationSec": 405,
+      "topic": "Musik",
+      "fineSubject": "Music",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 9172,
+      "endSec": 10596,
+      "durationSec": 1424,
+      "topic": "Thema 3: “Wirkt nicht über Placebo? No shit Sherlock!”",
+      "fineSubject": "Placebo Effect",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 10596,
+      "endSec": 11931,
+      "durationSec": 1335,
+      "topic": "Thema 4: \"Zum Frühstück: Blaue Bohnen!\"",
+      "fineSubject": "Unusual Ingredients",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Culture",
+      "startSec": 12013,
+      "endSec": 12629,
+      "durationSec": 616,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 13038,
+      "endSec": 13158,
+      "durationSec": 120,
+      "topic": "Sophia: ADHS",
+      "fineSubject": "ADHD",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Science",
+      "startSec": 13158,
+      "endSec": 13521,
+      "durationSec": 363,
+      "topic": "Niklas: Graphen",
+      "fineSubject": "Materials",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Biology",
+      "startSec": 13521,
+      "endSec": 13748,
+      "durationSec": 227,
+      "topic": "Merlin: Fledermäuse",
+      "fineSubject": "Bats",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Culture",
+      "startSec": 13748,
+      "endSec": 13748,
+      "durationSec": 0,
+      "topic": "Jörg Grönland",
+      "fineSubject": "Personalities",
+      "topicIndex": 17
+    }
+  ]
+}

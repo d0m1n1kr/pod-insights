@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 323,
+  "title": "Mi323 – “Dufte Wissenschaft”",
+  "generatedAt": "2026-01-05T15:18:17.387Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.8711563447379818,
+      "Culture": 0.04937202252057168,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.07947163274144652,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 4023,
+      "Culture": 228,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 367,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 4,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4618,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 809,
+      "endSec": 1176,
+      "durationSec": 367,
+      "topic": "Rufnummernmitnahme",
+      "fineSubject": "Number Portability",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1176,
+      "endSec": 1404,
+      "durationSec": 228,
+      "topic": "PiA Adventskalender",
+      "fineSubject": "Advent Calendar",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 1404,
+      "endSec": 2851,
+      "durationSec": 1447,
+      "topic": "Thema 1: \"Fettgedächtnis\"",
+      "fineSubject": "Fat Memory",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2851,
+      "endSec": 3315,
+      "durationSec": 464,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Weekly Experiment",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3315,
+      "endSec": 4627,
+      "durationSec": 1312,
+      "topic": "Thema 2: \"Wo Licht ist, ist auch Schatten\"",
+      "fineSubject": "Light and Shadow",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4627,
+      "endSec": 5427,
+      "durationSec": 800,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Weekly Nonsense",
+      "topicIndex": 5
+    }
+  ]
+}

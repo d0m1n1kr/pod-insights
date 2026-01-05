@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 35,
+  "title": "LNP035 Ehrenamtlicher Internet-Mitarbeiter",
+  "generatedAt": "2026-01-05T15:17:57.577Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1295029639762882,
+      "Technology": 0,
+      "Law": 0.5148198814409485,
+      "Security": 0.04742362061103511,
+      "Social": 0,
+      "Media": 0.3082535339717282,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 568,
+      "Technology": 0,
+      "Law": 2258,
+      "Security": 208,
+      "Social": 0,
+      "Media": 1352,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4386,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 42,
+      "endSec": 631,
+      "durationSec": 589,
+      "topic": "GEMA-Vermutung erstinstanzlich bestätigt",
+      "fineSubject": "GEMA",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 631,
+      "endSec": 1614,
+      "durationSec": 983,
+      "topic": "Kabinett beschließt Gesetzesentwurf für das Leistungsschutzrecht",
+      "fineSubject": "Leistungsschutzrecht",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1615,
+      "endSec": 2183,
+      "durationSec": 568,
+      "topic": "Die Lobby für Warnhinweismodelle legt eine “Studie” vor",
+      "fineSubject": "Warnhinweismodelle",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2183,
+      "endSec": 2869,
+      "durationSec": 686,
+      "topic": "Abmahner wollen neben Geldstrafen auch noch einen Pranger",
+      "fineSubject": "Pranger",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2869,
+      "endSec": 3077,
+      "durationSec": 208,
+      "topic": "FinSpy auch für Mobiltelefone entdeckt",
+      "fineSubject": "FinSpy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 3078,
+      "endSec": 4430,
+      "durationSec": 1352,
+      "topic": "Hörerfeedback und der Umgang mit Kommentaren",
+      "fineSubject": "Kommentare",
+      "topicIndex": 5
+    }
+  ]
+}

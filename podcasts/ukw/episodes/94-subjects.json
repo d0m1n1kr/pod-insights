@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 94,
+  "title": "UKW094 Ukraine: Taktische Wahrheit",
+  "generatedAt": "2026-01-05T15:18:03.024Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.4600357683312698,
+      "Military": 0.282844958040996,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0.25711927362773423
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 3344,
+      "Military": 2056,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 1869
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 2,
+      "Military": 2,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 2
+    },
+    "totalDurationSec": 7269,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 122,
+      "endSec": 1567,
+      "durationSec": 1445,
+      "topic": "Militärische Situation",
+      "fineSubject": "Military Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 1567,
+      "endSec": 2178,
+      "durationSec": 611,
+      "topic": "Stärke der Russischen Armee",
+      "fineSubject": "Russian Army Strength",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 2179,
+      "endSec": 3133,
+      "durationSec": 954,
+      "topic": "Was ist eigentlich mit China?",
+      "fineSubject": "China",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Geopolitics",
+      "startSec": 3134,
+      "endSec": 4049,
+      "durationSec": 915,
+      "topic": "Russland und die Welt",
+      "fineSubject": "Russia and the World",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4049,
+      "endSec": 6387,
+      "durationSec": 2338,
+      "topic": "Das Russische Machtsystem",
+      "fineSubject": "Russian Power System",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6387,
+      "endSec": 7393,
+      "durationSec": 1006,
+      "topic": "Wer könnte Putin gefährlich werden?",
+      "fineSubject": "Putin's Threats",
+      "topicIndex": 5
+    }
+  ]
+}

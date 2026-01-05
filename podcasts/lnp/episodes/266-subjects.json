@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 266,
+  "title": "LNP266 Datenlos durch die Nacht",
+  "generatedAt": "2026-01-05T15:17:57.609Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2858693966185823,
+      "Technology": 0.05568481464246937,
+      "Law": 0.20164417558554365,
+      "Security": 0.13789359391965256,
+      "Social": 0.06855901969908484,
+      "Media": 0.21265704979060027,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.037691949744067005,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1843,
+      "Technology": 359,
+      "Law": 1300,
+      "Security": 889,
+      "Social": 442,
+      "Media": 1371,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 243,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 2,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6447,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 127,
+      "endSec": 569,
+      "durationSec": 442,
+      "topic": "Die Vorfälle in Chemnitz",
+      "fineSubject": "Incidents",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 569,
+      "endSec": 1835,
+      "durationSec": 1266,
+      "topic": "Seehofer, Maaßen und #wirsindmehr",
+      "fineSubject": "Public Figures",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1836,
+      "endSec": 3207,
+      "durationSec": 1371,
+      "topic": "USA: Infowars und Social Media Anhörung",
+      "fineSubject": "Social Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 3208,
+      "endSec": 3675,
+      "durationSec": 467,
+      "topic": "Copyright-Reform",
+      "fineSubject": "Copyright",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3676,
+      "endSec": 4035,
+      "durationSec": 359,
+      "topic": "beA geht an den Start",
+      "fineSubject": "Legal Tech",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4035,
+      "endSec": 4612,
+      "durationSec": 577,
+      "topic": "Five Eyes wollen freiwillige Kooperation erzwingen",
+      "fineSubject": "Intelligence",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 4613,
+      "endSec": 4856,
+      "durationSec": 243,
+      "topic": "Google kungelt mit Mastercard",
+      "fineSubject": "Corporate Partnerships",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4856,
+      "endSec": 5504,
+      "durationSec": 648,
+      "topic": "Kleine Anfrage zu Durchsuchungen in Dortmund",
+      "fineSubject": "Search and Seizure",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 5504,
+      "endSec": 5689,
+      "durationSec": 185,
+      "topic": "Zwiebelfreunde-Durchsuchungen rechtswidrig",
+      "fineSubject": "Legal Proceedings",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 5962,
+      "endSec": 6352,
+      "durationSec": 390,
+      "topic": "PNR-Überwachung startet",
+      "fineSubject": "Surveillance",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 6353,
+      "endSec": 6852,
+      "durationSec": 499,
+      "topic": "Agentur für Cybersicherheit",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 11
+    }
+  ]
+}

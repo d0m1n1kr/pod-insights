@@ -1,0 +1,284 @@
+{
+  "episodeNumber": 196,
+  "title": "CRE196 Feminismus",
+  "generatedAt": "2026-01-05T15:17:54.391Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.8695652173913043,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0.13043478260869565,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 20,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 3,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 24
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Geschichte des Feminismus",
+      "fineSubject": "Feminismus",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Gleichstellung der Geschlechter",
+      "fineSubject": "Gleichberechtigung",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Persönliche Sozialisierung in Ost und West",
+      "fineSubject": "Sozialisation",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Frauen in der DDR",
+      "fineSubject": "Frauenrollen",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Frauenquoten in Parteien",
+      "fineSubject": "Repräsentation",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Vorbilder und Stereotypen",
+      "fineSubject": "Stereotypen",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Stellung der Frau in der Demokratie",
+      "fineSubject": "Demokratie",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wahlrecht für Frauen",
+      "fineSubject": "Wahlrecht",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rechtliche Benachteiligung von Frauen",
+      "fineSubject": "Rechte",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Macht über den eigenen Körper",
+      "fineSubject": "Körperrechte",
+      "topicIndex": 9,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Die Rolle von Alice Schwarzer",
+      "fineSubject": "Einfluss",
+      "topicIndex": 10,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Pornografie und BDSM",
+      "fineSubject": "Sexualität",
+      "topicIndex": 11,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Dritte Welle des Feminismus",
+      "fineSubject": "Feminismus",
+      "topicIndex": 12,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Benachteiligung von Frauen im Alltag",
+      "fineSubject": "Alltagsdiskriminierung",
+      "topicIndex": 13,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Frauen in der Bundeswehr",
+      "fineSubject": "Frauenrollen",
+      "topicIndex": 15,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Biologismus",
+      "fineSubject": "Wissenschaft",
+      "topicIndex": 16,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Wie Männer vom Feminismus profitieren",
+      "fineSubject": "Männerrollen",
+      "topicIndex": 17,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sexismus",
+      "fineSubject": "Diskriminierung",
+      "topicIndex": 18,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kampf ums Sorgerecht",
+      "fineSubject": "Familienrecht",
+      "topicIndex": 19,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sprache und feministische Auseinandersetzung",
+      "fineSubject": "Sprache",
+      "topicIndex": 20,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Sexistisches Männerbild in der Werbung",
+      "fineSubject": "Medien",
+      "topicIndex": 21,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Rollenbilder von Männern",
+      "fineSubject": "Männerrollen",
+      "topicIndex": 22,
+      "untimed": true
+    },
+    {
+      "subject": "Social",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Feminismus und Freiheit",
+      "fineSubject": "Freiheit",
+      "topicIndex": 23,
+      "untimed": true
+    }
+  ]
+}

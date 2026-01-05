@@ -1,0 +1,74 @@
+{
+  "episodeNumber": 32,
+  "title": "MM032 La Ola",
+  "generatedAt": "2026-01-05T15:17:51.061Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.5,
+      "Media": 0.5,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Nachrichtenlage",
+      "fineSubject": "Aktuelle Ereignisse",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Finance",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Quartalszahlen",
+      "fineSubject": "Finanzberichte",
+      "topicIndex": 1,
+      "untimed": true
+    }
+  ]
+}

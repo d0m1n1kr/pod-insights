@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 337,
+  "title": "Mi337 – \"Sozialer Kuchen\"",
+  "generatedAt": "2026-01-05T15:18:17.389Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.034545454545454546,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.13727272727272727,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.8281818181818181,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 152,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 604,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 3644,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4400,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1194,
+      "endSec": 1798,
+      "durationSec": 604,
+      "topic": "Digitalisierung",
+      "fineSubject": "Digitalization",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1798,
+      "endSec": 1950,
+      "durationSec": 152,
+      "topic": "DPG Tagung",
+      "fineSubject": "Conference",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1950,
+      "endSec": 3642,
+      "durationSec": 1692,
+      "topic": "Thema 1: \"Furassic Park\"",
+      "fineSubject": "Film",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 5509,
+      "endSec": 7461,
+      "durationSec": 1952,
+      "topic": "Thema 2: \"Birdie oder Windmühle?\"",
+      "fineSubject": "Games",
+      "topicIndex": 4
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 480,
+  "title": "LNP480 Einfach nur geil",
+  "generatedAt": "2026-01-05T15:17:57.639Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.31111929307805597,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.688880706921944,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 845,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 1871,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 4,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2716,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 458,
+      "endSec": 1206,
+      "durationSec": 748,
+      "topic": "Feedback: Battle Royale",
+      "fineSubject": "Gaming",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1206,
+      "endSec": 1528,
+      "durationSec": 322,
+      "topic": "Feedback: AI Act",
+      "fineSubject": "Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 1528,
+      "endSec": 2001,
+      "durationSec": 473,
+      "topic": "Feedback: App Stores",
+      "fineSubject": "Technology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 2002,
+      "endSec": 2330,
+      "durationSec": 328,
+      "topic": "Feedback: Push Tokens",
+      "fineSubject": "Security",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3857,
+      "endSec": 4234,
+      "durationSec": 377,
+      "topic": "Porn-Seiten unter DSA",
+      "fineSubject": "Internet",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 4234,
+      "endSec": 4702,
+      "durationSec": 468,
+      "topic": "EU eröffnet Verfahren gegen X",
+      "fineSubject": "Plattform",
+      "topicIndex": 8
+    }
+  ]
+}

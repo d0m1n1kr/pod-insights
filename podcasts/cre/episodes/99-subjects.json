@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 99,
+  "title": "CRE099 Domain Name System",
+  "generatedAt": "2026-01-05T15:17:54.376Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0.2,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.4,
+      "Politics": 0.2,
+      "Security": 0.2,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 2,
+      "Politics": 1,
+      "Security": 1,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Aktivitäten und Trends der DNS-Szene",
+      "fineSubject": "Domain Name System",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Einfluss von Organisationen auf das DNS",
+      "fineSubject": "Internet Organisationen",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Security",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Datenschutz bei Domain-Eigentümer-Datenbanken",
+      "fineSubject": "Datenbanken",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Fünf Rs des Domain-Systems",
+      "fineSubject": "Domain Management",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Eintragung und Transfer von Domains",
+      "fineSubject": "Domain Verwaltung",
+      "topicIndex": 6,
+      "untimed": true
+    }
+  ]
+}

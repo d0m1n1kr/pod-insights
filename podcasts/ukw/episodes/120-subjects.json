@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 120,
+  "title": "UKW120 Ukraine: Loch im Museum",
+  "generatedAt": "2026-01-05T15:18:03.031Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.29543762628948206,
+      "Military": 0.5554610230777411,
+      "Technology": 0.0373285121769648,
+      "Economics": 0,
+      "Media": 0.015314261405934277,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0.0964585770498777,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2778,
+      "Military": 5223,
+      "Technology": 351,
+      "Economics": 0,
+      "Media": 144,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 907,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 6,
+      "Military": 9,
+      "Technology": 1,
+      "Economics": 0,
+      "Media": 1,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 2,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 9403,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 155,
+      "endSec": 789,
+      "durationSec": 634,
+      "topic": "Russische Bodenoffensiven",
+      "fineSubject": "Military / Ground Operations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 789,
+      "endSec": 993,
+      "durationSec": 204,
+      "topic": "Russische Luftangriffe",
+      "fineSubject": "Military / Air Operations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 994,
+      "endSec": 1589,
+      "durationSec": 595,
+      "topic": "Politische Inaktivität gegenüber Russland",
+      "fineSubject": "Politics / Russia",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 1589,
+      "endSec": 1692,
+      "durationSec": 103,
+      "topic": "Angriff auf Dnipro-Staudamm",
+      "fineSubject": "Military / Attacks",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 1693,
+      "endSec": 2097,
+      "durationSec": 404,
+      "topic": "Angriffe diverser Russischer Freiheitsgruppen in Belgorod",
+      "fineSubject": "Military / Guerrilla Warfare",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 2097,
+      "endSec": 2761,
+      "durationSec": 664,
+      "topic": "Drohnenangriffe der Ukraine",
+      "fineSubject": "Military / Drones",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2762,
+      "endSec": 3113,
+      "durationSec": 351,
+      "topic": "GPS Jamming in Europa",
+      "fineSubject": "Technology / GPS",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3113,
+      "endSec": 3524,
+      "durationSec": 411,
+      "topic": "Putins Wahl und Mobilisierung",
+      "fineSubject": "Politics / Russia",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3525,
+      "endSec": 3818,
+      "durationSec": 293,
+      "topic": "Mobilisierungsgesetz in UA",
+      "fineSubject": "Politics / Ukraine",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Military",
+      "startSec": 3818,
+      "endSec": 4034,
+      "durationSec": 216,
+      "topic": "Militärproduktion und Lieferungen",
+      "fineSubject": "Military / Supplies",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4034,
+      "endSec": 4758,
+      "durationSec": 724,
+      "topic": "Tschechien engagiert sich",
+      "fineSubject": "Politics / Czech Republic",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Military",
+      "startSec": 4759,
+      "endSec": 5425,
+      "durationSec": 666,
+      "topic": "NATO",
+      "fineSubject": "Military / NATO",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Military",
+      "startSec": 5425,
+      "endSec": 6554,
+      "durationSec": 1129,
+      "topic": "Diskussion um Truppen-Präsenz in der Ukraine",
+      "fineSubject": "Military / Troops",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Military",
+      "startSec": 6555,
+      "endSec": 7758,
+      "durationSec": 1203,
+      "topic": "Crocus City Terroranschlag",
+      "fineSubject": "Terrorism / Attacks",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7759,
+      "endSec": 8140,
+      "durationSec": 381,
+      "topic": "False Flag in Transnistrien",
+      "fineSubject": "Politics / False Flag Operations",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Economy",
+      "startSec": 8140,
+      "endSec": 8759,
+      "durationSec": 619,
+      "topic": "Niedergang der russischen Militärexporte",
+      "fineSubject": "Economy / Exports",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Economy",
+      "startSec": 8760,
+      "endSec": 9048,
+      "durationSec": 288,
+      "topic": "Wirtschaftliche Situation in Rußland",
+      "fineSubject": "Economy / Russia",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Media",
+      "startSec": 9048,
+      "endSec": 9192,
+      "durationSec": 144,
+      "topic": "Video-Tipps",
+      "fineSubject": "Media / Videos",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Politics",
+      "startSec": 9445,
+      "endSec": 9819,
+      "durationSec": 374,
+      "topic": "Ausblick",
+      "fineSubject": "Politics / Outlook",
+      "topicIndex": 19
+    }
+  ]
+}

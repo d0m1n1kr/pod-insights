@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 100,
+  "title": "RZ100 Raumzeit und Gravitation",
+  "generatedAt": "2026-01-05T15:18:06.287Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0.15439119895580833,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0.8456088010441917,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 1656,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 9070,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 1,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 4,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 10726,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Physik",
+      "startSec": 16,
+      "endSec": 1087,
+      "durationSec": 1071,
+      "topic": "Wesen der Raumzeit",
+      "fineSubject": "Raumzeit",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 16,
+      "endSec": 1672,
+      "durationSec": 1656,
+      "topic": "Entstehung des Universums",
+      "fineSubject": "Universumsentstehung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Physik",
+      "startSec": 16,
+      "endSec": 5636,
+      "durationSec": 5620,
+      "topic": "Theoretische Physik und Kosmologie",
+      "fineSubject": "Forschung",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Physik",
+      "startSec": 268,
+      "endSec": 1709,
+      "durationSec": 1441,
+      "topic": "Formeln von Newton und Einstein",
+      "fineSubject": "Theoretische Physik",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Physik",
+      "startSec": 771,
+      "endSec": 1709,
+      "durationSec": 938,
+      "topic": "Gravitation",
+      "fineSubject": "Gravitationstheorien",
+      "topicIndex": 1
+    }
+  ]
+}

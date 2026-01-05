@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 281,
+  "title": "FS281 Café Achteck",
+  "generatedAt": "2026-01-05T15:17:51.119Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3752241238793806,
+      "Software": 0.287041564792176,
+      "Hardware": 0.23993480032599837,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.097799511002445,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2302,
+      "Software": 1761,
+      "Hardware": 1472,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 600,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 4,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 6135,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 758,
+      "endSec": 1039,
+      "durationSec": 281,
+      "topic": "Feedback: Universal Control",
+      "fineSubject": "Universal Control",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1039,
+      "endSec": 1409,
+      "durationSec": 370,
+      "topic": "iOS18 kann was, was iOS 17 schon konnte",
+      "fineSubject": "iOS",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1410,
+      "endSec": 2243,
+      "durationSec": 833,
+      "topic": "Feedback: Prediction Websites",
+      "fineSubject": "Prediction Websites",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Events",
+      "startSec": 4166,
+      "endSec": 4766,
+      "durationSec": 600,
+      "topic": "Blinkenlights @ Nation of Gondwana",
+      "fineSubject": "Nation of Gondwana",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4766,
+      "endSec": 5210,
+      "durationSec": 444,
+      "topic": "Victron Equipment",
+      "fineSubject": "Victron Equipment",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5573,
+      "endSec": 5992,
+      "durationSec": 419,
+      "topic": "Mobiles Internet",
+      "fineSubject": "Mobiles Internet",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5992,
+      "endSec": 6293,
+      "durationSec": 301,
+      "topic": "StarLink Updates",
+      "fineSubject": "StarLink",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6294,
+      "endSec": 7208,
+      "durationSec": 914,
+      "topic": "Intel hat Probleme",
+      "fineSubject": "Intel",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7449,
+      "endSec": 8198,
+      "durationSec": 749,
+      "topic": "WordPress Themes",
+      "fineSubject": "WordPress",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 8199,
+      "endSec": 8394,
+      "durationSec": 195,
+      "topic": "SingleFile",
+      "fineSubject": "SingleFile",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 8394,
+      "endSec": 9309,
+      "durationSec": 915,
+      "topic": "Apple Maps im Web",
+      "fineSubject": "Apple Maps",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 9835,
+      "endSec": 9949,
+      "durationSec": 114,
+      "topic": "Roddi sucht das AirPort Case",
+      "fineSubject": "AirPort Case",
+      "topicIndex": 15
+    }
+  ]
+}

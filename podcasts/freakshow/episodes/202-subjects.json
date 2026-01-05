@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 202,
+  "title": "FS202 Dauerregensendung",
+  "generatedAt": "2026-01-05T15:17:51.092Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.6070631970260223,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.29913258983890956,
+      "Media": 0,
+      "Social": 0.09380421313506815,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4899,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 2414,
+      "Media": 0,
+      "Social": 757,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 9,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 3,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 8070,
+    "totalTopics": 21
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 46,
+      "endSec": 481,
+      "durationSec": 435,
+      "topic": "Status Codes",
+      "fineSubject": "Web Development",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 683,
+      "endSec": 1297,
+      "durationSec": 614,
+      "topic": "StudioLink OnAir und Podlive",
+      "fineSubject": "Podcasting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1709,
+      "endSec": 2466,
+      "durationSec": 757,
+      "topic": "Sommerpartybeteiligungsstrategien",
+      "fineSubject": "Event Planning",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4384,
+      "endSec": 5001,
+      "durationSec": 617,
+      "topic": "ecocapsule",
+      "fineSubject": "Sustainable Living",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5681,
+      "endSec": 5869,
+      "durationSec": 188,
+      "topic": "Podcasts für Elektromobiltät",
+      "fineSubject": "Electric Vehicles",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5869,
+      "endSec": 6962,
+      "durationSec": 1093,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Computers",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Finance",
+      "startSec": 6963,
+      "endSec": 7896,
+      "durationSec": 933,
+      "topic": "Probleme mit Kryptowährungen",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Finance",
+      "startSec": 7896,
+      "endSec": 9049,
+      "durationSec": 1153,
+      "topic": "Bitcoin Umstellung",
+      "fineSubject": "Bitcoin",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Finance",
+      "startSec": 9050,
+      "endSec": 9378,
+      "durationSec": 328,
+      "topic": "Bitcoin-based ICOs",
+      "fineSubject": "Initial Coin Offerings",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10748,
+      "endSec": 11921,
+      "durationSec": 1173,
+      "topic": "Blockchain für andere Dinge?",
+      "fineSubject": "Blockchain",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11921,
+      "endSec": 12113,
+      "durationSec": 192,
+      "topic": "Machine Learning on a stick",
+      "fineSubject": "Machine Learning",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12114,
+      "endSec": 12583,
+      "durationSec": 469,
+      "topic": "ZFS und SSDs",
+      "fineSubject": "Storage Solutions",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13114,
+      "endSec": 13232,
+      "durationSec": 118,
+      "topic": "Flash is dead",
+      "fineSubject": "Web Technologies",
+      "topicIndex": 20
+    }
+  ]
+}

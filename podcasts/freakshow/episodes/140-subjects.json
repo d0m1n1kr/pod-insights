@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 140,
+  "title": "FS140 Der Supersensor greift an",
+  "generatedAt": "2026-01-05T15:17:51.077Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.2766364468102803,
+      "Hardware": 0.10712800465773933,
+      "Finance": 0.13648839723862596,
+      "Media": 0,
+      "Social": 0.43999001913000085,
+      "Culture": 0.039757132163353574,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 3326,
+      "Hardware": 1288,
+      "Finance": 1641,
+      "Media": 0,
+      "Social": 5290,
+      "Culture": 478,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 2,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 2,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12023,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 1672,
+      "endSec": 4108,
+      "durationSec": 2436,
+      "topic": "Wetter und andere Maps",
+      "fineSubject": "Maps",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 4108,
+      "endSec": 6674,
+      "durationSec": 2566,
+      "topic": "iOS 8.0.1 und iPhone6(plus)",
+      "fineSubject": "iOS",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 6674,
+      "endSec": 7434,
+      "durationSec": 760,
+      "topic": "Sharing Extensions",
+      "fineSubject": "Extensions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 7434,
+      "endSec": 10288,
+      "durationSec": 2854,
+      "topic": "Apple als Bewahrer der Privatsphäre",
+      "fineSubject": "Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10288,
+      "endSec": 11929,
+      "durationSec": 1641,
+      "topic": "Payment",
+      "fineSubject": "Payment",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11929,
+      "endSec": 13217,
+      "durationSec": 1288,
+      "topic": "ZFS und Hardware",
+      "fineSubject": "ZFS",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 13217,
+      "endSec": 13695,
+      "durationSec": 478,
+      "topic": "Song a Day",
+      "fineSubject": "Music",
+      "topicIndex": 6
+    }
+  ]
+}

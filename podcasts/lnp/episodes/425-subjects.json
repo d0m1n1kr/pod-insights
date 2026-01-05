@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 425,
+  "title": "LNP425 Der Geist von Horst Seehofer",
+  "generatedAt": "2026-01-05T15:17:57.631Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6585308056872038,
+      "Technology": 0.0509478672985782,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.12251184834123223,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.1680094786729858,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2779,
+      "Technology": 215,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 517,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 709,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4220,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 177,
+      "endSec": 392,
+      "durationSec": 215,
+      "topic": "HTTP Status Code 425",
+      "fineSubject": "Web Protocols",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 393,
+      "endSec": 815,
+      "durationSec": 422,
+      "topic": "Volksentscheid Transparenzgesetz",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 815,
+      "endSec": 1404,
+      "durationSec": 589,
+      "topic": "Anfragen",
+      "fineSubject": "Inquiries",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1405,
+      "endSec": 2042,
+      "durationSec": 637,
+      "topic": "Klagen",
+      "fineSubject": "Litigation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2042,
+      "endSec": 2767,
+      "durationSec": 725,
+      "topic": "Kampagnen",
+      "fineSubject": "Campaigns",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 2767,
+      "endSec": 3284,
+      "durationSec": 517,
+      "topic": "Journalismus",
+      "fineSubject": "Journalism",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 3285,
+      "endSec": 3994,
+      "durationSec": 709,
+      "topic": "Freiheitsfonds",
+      "fineSubject": "Funding",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3995,
+      "endSec": 4401,
+      "durationSec": 406,
+      "topic": "Zukünftige Entwicklungen",
+      "fineSubject": "Future Developments",
+      "topicIndex": 7
+    }
+  ]
+}

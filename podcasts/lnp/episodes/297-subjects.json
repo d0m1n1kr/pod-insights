@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 297,
+  "title": "LNP297 Ein rechtskonformes Gesetz",
+  "generatedAt": "2026-01-05T15:17:57.613Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.034830729166666664,
+      "Technology": 0.03515625,
+      "Law": 0.6416015625,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.2884114583333333,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 107,
+      "Technology": 108,
+      "Law": 1971,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 886,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 5,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 2,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3072,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 151,
+      "endSec": 497,
+      "durationSec": 346,
+      "topic": "LNP300",
+      "fineSubject": "LNP300",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1876,
+      "endSec": 2675,
+      "durationSec": 799,
+      "topic": "Free Ola Bini!",
+      "fineSubject": "Ola Bini",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2676,
+      "endSec": 2763,
+      "durationSec": 87,
+      "topic": "Mueller Report",
+      "fineSubject": "Mueller Report",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 2763,
+      "endSec": 3674,
+      "durationSec": 911,
+      "topic": "Uploadfilter entschieden",
+      "fineSubject": "Uploadfilter",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3675,
+      "endSec": 4152,
+      "durationSec": 477,
+      "topic": "Terrorfilter abgewendet",
+      "fineSubject": "Terrorfilter",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 6374,
+      "endSec": 6490,
+      "durationSec": 116,
+      "topic": ".eu: Whistleblowerschutz",
+      "fineSubject": "Whistleblowerschutz",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 6490,
+      "endSec": 6611,
+      "durationSec": 121,
+      "topic": ".eu: Vorratsdatenspeicherung",
+      "fineSubject": "Vorratsdatenspeicherung",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6680,
+      "endSec": 6788,
+      "durationSec": 108,
+      "topic": ".at: Gesichtserkennung",
+      "fineSubject": "Gesichtserkennung",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6788,
+      "endSec": 6895,
+      "durationSec": 107,
+      "topic": "EU-Wahl",
+      "fineSubject": "EU-Wahl",
+      "topicIndex": 11
+    }
+  ]
+}

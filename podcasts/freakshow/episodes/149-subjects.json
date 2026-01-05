@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 149,
+  "title": "FS149 Schnapsglas voll Popcorn",
+  "generatedAt": "2026-01-05T15:17:51.079Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.30199131606527924,
+      "Software": 0.22353645755352597,
+      "Hardware": 0.12441982332684534,
+      "Finance": 0.0657284024554574,
+      "Media": 0,
+      "Social": 0.28432400059889207,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2017,
+      "Software": 1493,
+      "Hardware": 831,
+      "Finance": 439,
+      "Media": 0,
+      "Social": 1899,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 2,
+      "Hardware": 1,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 6679,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 1364,
+      "endSec": 2179,
+      "durationSec": 815,
+      "topic": "Apple und Windows",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 2179,
+      "endSec": 4078,
+      "durationSec": 1899,
+      "topic": "Sendegate",
+      "fineSubject": "Community Issues",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4078,
+      "endSec": 5255,
+      "durationSec": 1177,
+      "topic": "Webhosting",
+      "fineSubject": "Hosting",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Finance",
+      "startSec": 5255,
+      "endSec": 5694,
+      "durationSec": 439,
+      "topic": "Bitcoin",
+      "fineSubject": "Cryptocurrency",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 5694,
+      "endSec": 6372,
+      "durationSec": 678,
+      "topic": "Dateisysteme",
+      "fineSubject": "Filesystems",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6372,
+      "endSec": 7203,
+      "durationSec": 831,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Mac",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10157,
+      "endSec": 10997,
+      "durationSec": 840,
+      "topic": "Clock Deviation",
+      "fineSubject": "Timekeeping",
+      "topicIndex": 8
+    }
+  ]
+}

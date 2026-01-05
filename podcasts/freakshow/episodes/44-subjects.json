@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 44,
+  "title": "MM044 Schöner Buchen",
+  "generatedAt": "2026-01-05T15:17:51.063Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.4683436002737851,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.29842573579739906,
+      "Media": 0.1406570841889117,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.09257357973990417,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2737,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1744,
+      "Media": 822,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 541,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 11,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 5844,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 274,
+      "endSec": 1096,
+      "durationSec": 822,
+      "topic": "Serving Podcasts",
+      "fineSubject": "Distribution / Serving",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2361,
+      "endSec": 2638,
+      "durationSec": 277,
+      "topic": "Syncing",
+      "fineSubject": "Data Management",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2885,
+      "endSec": 3313,
+      "durationSec": 428,
+      "topic": "Wikipedia@iPhone",
+      "fineSubject": "Applications / Wikipedia",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3313,
+      "endSec": 5057,
+      "durationSec": 1744,
+      "topic": "Finanzsoftware",
+      "fineSubject": "Financial Management",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5057,
+      "endSec": 5338,
+      "durationSec": 281,
+      "topic": "CrashPlan",
+      "fineSubject": "Software / CrashPlan",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 5338,
+      "endSec": 5879,
+      "durationSec": 541,
+      "topic": "Valve Steam",
+      "fineSubject": "Valve / Steam",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5879,
+      "endSec": 6087,
+      "durationSec": 208,
+      "topic": "iPad Vorschau",
+      "fineSubject": "Devices / iPad",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6087,
+      "endSec": 6331,
+      "durationSec": 244,
+      "topic": "Apple A4",
+      "fineSubject": "Apple / A4",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6331,
+      "endSec": 6651,
+      "durationSec": 320,
+      "topic": "iPad Porn",
+      "fineSubject": "Content / iPad",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6651,
+      "endSec": 6852,
+      "durationSec": 201,
+      "topic": "Tethered",
+      "fineSubject": "Tethering",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6852,
+      "endSec": 6936,
+      "durationSec": 84,
+      "topic": "Five Pressure Points",
+      "fineSubject": "User Experience / Pressure Points",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6936,
+      "endSec": 7052,
+      "durationSec": 116,
+      "topic": "Jailbreak News",
+      "fineSubject": "Jailbreak",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7052,
+      "endSec": 7258,
+      "durationSec": 206,
+      "topic": "Tethering kaputt",
+      "fineSubject": "Tethering Issues",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7258,
+      "endSec": 7630,
+      "durationSec": 372,
+      "topic": "Opera Mini",
+      "fineSubject": "Opera Mini",
+      "topicIndex": 16
+    }
+  ]
+}

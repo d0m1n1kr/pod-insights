@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 9,
+  "title": "LNP009 28C3 Spezial",
+  "generatedAt": "2026-01-05T15:17:57.572Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3133097762073027,
+      "Technology": 0.37868080094228507,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.3080094228504123,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1596,
+      "Technology": 1929,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1569,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5094,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 82,
+      "endSec": 870,
+      "durationSec": 788,
+      "topic": "Transparenzgesetz (Dodger)",
+      "fineSubject": "Transparency Law",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 870,
+      "endSec": 1678,
+      "durationSec": 808,
+      "topic": "Frag den Staat (Stefan Wehrmeyer)",
+      "fineSubject": "Public Inquiry",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 1679,
+      "endSec": 3248,
+      "durationSec": 1569,
+      "topic": "Vorratsdatenspeicherung (Alvar Freude)",
+      "fineSubject": "Data Retention",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3248,
+      "endSec": 5177,
+      "durationSec": 1929,
+      "topic": "Tor Project (Jacob Appelbaum)",
+      "fineSubject": "Anonymity Networks",
+      "topicIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 47,
+  "title": "LNP047 Fernmeldetechnische Internationale",
+  "generatedAt": "2026-01-05T15:17:57.579Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 2247,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2247,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 90,
+      "endSec": 1344,
+      "durationSec": 1254,
+      "topic": "WCIT: Weltkongress der internationalen Fernmeldeunion",
+      "fineSubject": "Internationale Konferenzen",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1344,
+      "endSec": 2337,
+      "durationSec": 993,
+      "topic": "Google sind die Taliban und eine Hehlerbande",
+      "fineSubject": "Unternehmen",
+      "topicIndex": 1
+    }
+  ]
+}

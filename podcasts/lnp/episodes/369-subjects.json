@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 369,
+  "title": "LNP369 Die geplagte Seele der Deutschen",
+  "generatedAt": "2026-01-05T15:17:57.624Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1662344398340249,
+      "Technology": 0.2362551867219917,
+      "Law": 0.18179460580912862,
+      "Security": 0.10477178423236515,
+      "Social": 0,
+      "Media": 0.31094398340248963,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 641,
+      "Technology": 911,
+      "Law": 701,
+      "Security": 404,
+      "Social": 0,
+      "Media": 1199,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3856,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 317,
+      "endSec": 958,
+      "durationSec": 641,
+      "topic": "US-Wahl und Wahlcomputer",
+      "fineSubject": "Elections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 958,
+      "endSec": 1362,
+      "durationSec": 404,
+      "topic": "CWA-Server Lücke",
+      "fineSubject": "Vulnerabilities",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1363,
+      "endSec": 1791,
+      "durationSec": 428,
+      "topic": "Spahn demonstriert, warum CWA Cluster-Erkennung braucht",
+      "fineSubject": "Software Development",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1792,
+      "endSec": 2493,
+      "durationSec": 701,
+      "topic": "Justizministerinnen fordern Vorratsdatenspeicherung",
+      "fineSubject": "Data Retention",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2494,
+      "endSec": 2977,
+      "durationSec": 483,
+      "topic": "youtube-dl is back",
+      "fineSubject": "Open Source",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 2977,
+      "endSec": 4176,
+      "durationSec": 1199,
+      "topic": "KenFM von YouTube gesperrt",
+      "fineSubject": "Content Moderation",
+      "topicIndex": 5
+    }
+  ]
+}

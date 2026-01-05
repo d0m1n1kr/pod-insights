@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 224,
+  "title": "Mi224 – „Homöopathieäther“",
+  "generatedAt": "2026-01-05T15:18:17.375Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.5670631466976115,
+      "Culture": 0.023015182284111788,
+      "Wissenschaft": 0,
+      "Health": 0.0837443187312639,
+      "Technology": 0.08113335267382264,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.2450439996131902,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 5864,
+      "Culture": 238,
+      "Wissenschaft": 0,
+      "Health": 866,
+      "Technology": 839,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 2534,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 7,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 4,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 10341,
+    "totalTopics": 19
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 809,
+      "endSec": 1095,
+      "durationSec": 286,
+      "topic": "Blutplasmaspende",
+      "fineSubject": "Health / Plasma Donation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1095,
+      "endSec": 1587,
+      "durationSec": 492,
+      "topic": "Marie",
+      "fineSubject": "Science / Marie",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1587,
+      "endSec": 1825,
+      "durationSec": 238,
+      "topic": "DPG Tagung",
+      "fineSubject": "Science / DPG Conference",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1825,
+      "endSec": 2664,
+      "durationSec": 839,
+      "topic": "H2Giga",
+      "fineSubject": "Science / H2Giga",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 2664,
+      "endSec": 3050,
+      "durationSec": 386,
+      "topic": "Science Busters in Wien",
+      "fineSubject": "Science / Science Busters",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 3050,
+      "endSec": 3561,
+      "durationSec": 511,
+      "topic": "ARD Schwurbel",
+      "fineSubject": "Media / ARD Schwurbel",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 3561,
+      "endSec": 4141,
+      "durationSec": 580,
+      "topic": "HomöopaTea",
+      "fineSubject": "Health / HomöopaTea",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Media",
+      "startSec": 4141,
+      "endSec": 4863,
+      "durationSec": 722,
+      "topic": "Sendungsbewusstsein",
+      "fineSubject": "Media / Broadcast Awareness",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 4878,
+      "endSec": 5310,
+      "durationSec": 432,
+      "topic": "Gasentnahmemenge",
+      "fineSubject": "Science / Gas Extraction",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Science",
+      "startSec": 5844,
+      "endSec": 7131,
+      "durationSec": 1287,
+      "topic": "Thema 1: “Diamantminen im Sonnensystem”",
+      "fineSubject": "Science / Diamond Mines",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Science",
+      "startSec": 7131,
+      "endSec": 8487,
+      "durationSec": 1356,
+      "topic": "Thema 2: \"Oberflächlich kaputt\"",
+      "fineSubject": "Science / Surface Damage",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Science",
+      "startSec": 8487,
+      "endSec": 8704,
+      "durationSec": 217,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Science / Weekly Experiment",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Science",
+      "startSec": 8704,
+      "endSec": 10031,
+      "durationSec": 1327,
+      "topic": "Thema 3: “Nicht dick, nur schwere Gene”",
+      "fineSubject": "Genetics / Heavy Genes",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Science",
+      "startSec": 10031,
+      "endSec": 10784,
+      "durationSec": 753,
+      "topic": "Thema 4: \"Rundum Reaktiv\"",
+      "fineSubject": "Chemistry / Round Reactivity",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Media",
+      "startSec": 10835,
+      "endSec": 11750,
+      "durationSec": 915,
+      "topic": "Schwurbel",
+      "fineSubject": "Media / Schwurbel",
+      "topicIndex": 18
+    }
+  ]
+}

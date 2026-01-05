@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 209,
+  "title": "Mi209 – „Ibiza Rave Chart“",
+  "generatedAt": "2026-01-05T15:18:17.373Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.6777935300940843,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0.1815955664389741,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.13274906560123728,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.007861837865704343,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 5259,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1409,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1030,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 61,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 5,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 7759,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 1136,
+      "endSec": 2166,
+      "durationSec": 1030,
+      "topic": "Bild vs. Wissenschaft",
+      "fineSubject": "Media / Bild vs. Science",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2166,
+      "endSec": 3090,
+      "durationSec": 924,
+      "topic": "Milchschaumforschung",
+      "fineSubject": "Science / Milk Foam Research",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 4156,
+      "endSec": 4217,
+      "durationSec": 61,
+      "topic": "Themen der Woche",
+      "fineSubject": "Current Events / Topics of the Week",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4217,
+      "endSec": 5569,
+      "durationSec": 1352,
+      "topic": "Thema 1: “Baum-Miliz”",
+      "fineSubject": "Science / Tree Militia",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 5569,
+      "endSec": 7211,
+      "durationSec": 1642,
+      "topic": "Thema 2: \"Stete Welle bremst den Tropfen\"",
+      "fineSubject": "Science / Constant Wave Slows Drop",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 7211,
+      "endSec": 7405,
+      "durationSec": 194,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Science / Experiment of the Week",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 7405,
+      "endSec": 8814,
+      "durationSec": 1409,
+      "topic": "Thema 3: “Baum-Ambulanz”",
+      "fineSubject": "Health / Tree Ambulance",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Science",
+      "startSec": 8814,
+      "endSec": 9961,
+      "durationSec": 1147,
+      "topic": "Thema 4: \"Es leuchtet blau!\"",
+      "fineSubject": "Science / It Glows Blue!",
+      "topicIndex": 9
+    }
+  ]
+}

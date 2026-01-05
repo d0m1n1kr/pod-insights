@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 88,
+  "title": "LNP088 Schamoffensive",
+  "generatedAt": "2026-01-05T15:17:57.587Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.21239393160195422,
+      "Technology": 0.12342504499871432,
+      "Law": 0.25584983286191826,
+      "Security": 0.391874517870918,
+      "Social": 0,
+      "Media": 0.016456672666495243,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 826,
+      "Technology": 480,
+      "Law": 995,
+      "Security": 1524,
+      "Social": 0,
+      "Media": 64,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3889,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 163,
+      "endSec": 643,
+      "durationSec": 480,
+      "topic": "Telekom streicht Drosselklauseln",
+      "fineSubject": "Drosselklauseln",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 644,
+      "endSec": 1639,
+      "durationSec": 995,
+      "topic": "Abmahnungen wg. Schaukelvideos",
+      "fineSubject": "Abmahnungen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1639,
+      "endSec": 2995,
+      "durationSec": 1356,
+      "topic": "NSA-Handyüberwachung über SS7",
+      "fineSubject": "Überwachung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2995,
+      "endSec": 3163,
+      "durationSec": 168,
+      "topic": "NSA lauert auch bei Second Life und WoW",
+      "fineSubject": "Überwachung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3164,
+      "endSec": 3228,
+      "durationSec": 64,
+      "topic": "Alan Rusbridger macht Patriotismus-Test",
+      "fineSubject": "Journalismus",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3228,
+      "endSec": 3631,
+      "durationSec": 403,
+      "topic": "Sigmar Gabriel wirbt für die Vorratsdatenspeicherung",
+      "fineSubject": "Datenspeicherung",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3632,
+      "endSec": 4055,
+      "durationSec": 423,
+      "topic": "Protest gegen NSA-Überwachung",
+      "fineSubject": "Überwachung",
+      "topicIndex": 6
+    }
+  ]
+}

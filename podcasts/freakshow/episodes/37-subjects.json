@@ -1,0 +1,315 @@
+{
+  "episodeNumber": 37,
+  "title": "MM037 Bullet Time",
+  "generatedAt": "2026-01-05T15:17:51.062Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7024757334496674,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.08157923437670411,
+      "Social": 0,
+      "Culture": 0.031955502235794526,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0.18398952993783402,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6441,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 748,
+      "Social": 0,
+      "Culture": 293,
+      "Security": 0,
+      "Events": 0,
+      "Business": 1687,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 18,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 3,
+      "Social": 0,
+      "Culture": 4,
+      "Security": 0,
+      "Events": 0,
+      "Business": 4,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9169,
+    "totalTopics": 30
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 0,
+      "endSec": 58,
+      "durationSec": 58,
+      "topic": "Aus dem Party-Weltall",
+      "fineSubject": "Space",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 58,
+      "endSec": 114,
+      "durationSec": 56,
+      "topic": "Prinzessin Leia",
+      "fineSubject": "Film",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 140,
+      "endSec": 320,
+      "durationSec": 180,
+      "topic": "Chat + Chapters + Wordpress",
+      "fineSubject": "Web",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Business",
+      "startSec": 368,
+      "endSec": 520,
+      "durationSec": 152,
+      "topic": "Apple-Angestellte bei Denis auf Arbeit (Steves Verwandte)",
+      "fineSubject": "Employment",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 520,
+      "endSec": 725,
+      "durationSec": 205,
+      "topic": "\"Mein Kampf\" im App-Store ab 9 Jahre",
+      "fineSubject": "Censorship",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 835,
+      "endSec": 1303,
+      "durationSec": 468,
+      "topic": "Bild.de nur noch als Pay-Content für das iPhone",
+      "fineSubject": "Business Model",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 1303,
+      "endSec": 1560,
+      "durationSec": 257,
+      "topic": "Denis überlegt ob Werbung im Netz sich lohnt",
+      "fineSubject": "Advertising",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1560,
+      "endSec": 1827,
+      "durationSec": 267,
+      "topic": "AppleTV 3.0",
+      "fineSubject": "Streaming",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1827,
+      "endSec": 1920,
+      "durationSec": 93,
+      "topic": "AppleTV Videoformate",
+      "fineSubject": "Video",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1920,
+      "endSec": 2460,
+      "durationSec": 540,
+      "topic": "AppleTV Filme",
+      "fineSubject": "Film",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2460,
+      "endSec": 2640,
+      "durationSec": 180,
+      "topic": "AppleTV Alternativen",
+      "fineSubject": "Alternatives",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2640,
+      "endSec": 2808,
+      "durationSec": 168,
+      "topic": "XBMC",
+      "fineSubject": "Software",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2808,
+      "endSec": 3060,
+      "durationSec": 252,
+      "topic": "Google Maps mit Turn-by-Turn",
+      "fineSubject": "Navigation",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Business",
+      "startSec": 3060,
+      "endSec": 3363,
+      "durationSec": 303,
+      "topic": "Apple vs. Google",
+      "fineSubject": "Competition",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3363,
+      "endSec": 3854,
+      "durationSec": 491,
+      "topic": "Der Smartphone-Markt",
+      "fineSubject": "Market",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3854,
+      "endSec": 4230,
+      "durationSec": 376,
+      "topic": "MacRuby Nachtrag",
+      "fineSubject": "Development",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4230,
+      "endSec": 4309,
+      "durationSec": 79,
+      "topic": "Das Schoki-Problem",
+      "fineSubject": "Food",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Business",
+      "startSec": 4309,
+      "endSec": 5284,
+      "durationSec": 975,
+      "topic": "Apple-Store in Hamburg",
+      "fineSubject": "Retail",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5284,
+      "endSec": 5688,
+      "durationSec": 404,
+      "topic": "Max macht iPhone-Jailbreak",
+      "fineSubject": "Hacking",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5688,
+      "endSec": 6180,
+      "durationSec": 492,
+      "topic": "Apple Magic Mouse",
+      "fineSubject": "Hardware",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6180,
+      "endSec": 6330,
+      "durationSec": 150,
+      "topic": "Tims Couch-Keyboard-Traum",
+      "fineSubject": "Hardware",
+      "topicIndex": 21
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6330,
+      "endSec": 6397,
+      "durationSec": 67,
+      "topic": "Asus eeeKeyboard",
+      "fineSubject": "Hardware",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6397,
+      "endSec": 6770,
+      "durationSec": 373,
+      "topic": "iPhone in China mit Einschränkungen",
+      "fineSubject": "Market",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6770,
+      "endSec": 7531,
+      "durationSec": 761,
+      "topic": "TimeMachine über Netatalk 2.0.5 auf FreeBSD mit ZFS",
+      "fineSubject": "Backup",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7531,
+      "endSec": 7702,
+      "durationSec": 171,
+      "topic": "ZFS-Laberei",
+      "fineSubject": "File System",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7702,
+      "endSec": 8300,
+      "durationSec": 598,
+      "topic": "Geheule, da es kein ZFS im Mac geben wird",
+      "fineSubject": "File System",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Culture",
+      "startSec": 8300,
+      "endSec": 8400,
+      "durationSec": 100,
+      "topic": "Bullet Time bei mobileMacs",
+      "fineSubject": "Media",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8400,
+      "endSec": 9278,
+      "durationSec": 878,
+      "topic": "VPN auf dem iPhone",
+      "fineSubject": "Networking",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Media",
+      "startSec": 9278,
+      "endSec": 9353,
+      "durationSec": 75,
+      "topic": "Bad Recording Day",
+      "fineSubject": "Production",
+      "topicIndex": 29
+    }
+  ]
+}

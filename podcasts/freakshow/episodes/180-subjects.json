@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 180,
+  "title": "FS180 Hypershitloop",
+  "generatedAt": "2026-01-05T15:17:51.087Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5757481296758105,
+      "Software": 0.26974231088944306,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.09081463009143807,
+      "Business": 0.06369492934330839,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 5541,
+      "Software": 2596,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 874,
+      "Business": 613,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 1,
+      "Business": 1,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9624,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Business",
+      "startSec": 2038,
+      "endSec": 2651,
+      "durationSec": 613,
+      "topic": "Berliner Startupkultur",
+      "fineSubject": "Startup Culture",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2652,
+      "endSec": 3848,
+      "durationSec": 1196,
+      "topic": "Connected Car",
+      "fineSubject": "Connected Car",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3848,
+      "endSec": 5961,
+      "durationSec": 2113,
+      "topic": "OBD Hacking",
+      "fineSubject": "OBD Hacking",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10347,
+      "endSec": 11776,
+      "durationSec": 1429,
+      "topic": "d3.js",
+      "fineSubject": "d3.js",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 11777,
+      "endSec": 13272,
+      "durationSec": 1495,
+      "topic": "JavaScript",
+      "fineSubject": "JavaScript",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 13273,
+      "endSec": 14374,
+      "durationSec": 1101,
+      "topic": "Swift 3 und API Evolution",
+      "fineSubject": "Swift 3",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Events",
+      "startSec": 14374,
+      "endSec": 15248,
+      "durationSec": 874,
+      "topic": "hukl reacts to WWDC",
+      "fineSubject": "WWDC",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15248,
+      "endSec": 16051,
+      "durationSec": 803,
+      "topic": "Wearables",
+      "fineSubject": "Wearables",
+      "topicIndex": 11
+    }
+  ]
+}

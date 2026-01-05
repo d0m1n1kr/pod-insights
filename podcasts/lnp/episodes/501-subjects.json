@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 501,
+  "title": "LNP501 Im Hass-Business",
+  "generatedAt": "2026-01-05T15:17:57.642Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4168437832093517,
+      "Technology": 0.10268331562167907,
+      "Law": 0,
+      "Security": 0.18716790648246545,
+      "Social": 0,
+      "Media": 0.29330499468650373,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3138,
+      "Technology": 773,
+      "Law": 0,
+      "Security": 1409,
+      "Social": 0,
+      "Media": 2208,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 2,
+      "Social": 0,
+      "Media": 3,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7528,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 204,
+      "endSec": 469,
+      "durationSec": 265,
+      "topic": "LNP500 Review",
+      "fineSubject": "Podcast Review",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 470,
+      "endSec": 545,
+      "durationSec": 75,
+      "topic": "LNP on tour?",
+      "fineSubject": "Touring",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 546,
+      "endSec": 797,
+      "durationSec": 251,
+      "topic": "HTTP Status Codes",
+      "fineSubject": "HTTP",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1431,
+      "endSec": 3299,
+      "durationSec": 1868,
+      "topic": "Pager-Anschläge",
+      "fineSubject": "Publications",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3300,
+      "endSec": 4625,
+      "durationSec": 1325,
+      "topic": "Tor Deanonymisierung",
+      "fineSubject": "Anonymity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4626,
+      "endSec": 5917,
+      "durationSec": 1291,
+      "topic": "Russische Desinformation",
+      "fineSubject": "Disinformation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5918,
+      "endSec": 6769,
+      "durationSec": 851,
+      "topic": "Pavel Durow Verhaftung",
+      "fineSubject": "Arrests",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 6769,
+      "endSec": 6853,
+      "durationSec": 84,
+      "topic": "Sicherheitspaket: nächstes Mal",
+      "fineSubject": "Software",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6854,
+      "endSec": 7376,
+      "durationSec": 522,
+      "topic": "Wahlsoftware",
+      "fineSubject": "Voting",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7377,
+      "endSec": 8373,
+      "durationSec": 996,
+      "topic": "Schönbohm",
+      "fineSubject": "Individuals",
+      "topicIndex": 9
+    }
+  ]
+}

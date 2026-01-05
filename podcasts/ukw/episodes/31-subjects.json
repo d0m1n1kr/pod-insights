@@ -1,0 +1,234 @@
+{
+  "episodeNumber": 31,
+  "title": "UKW031 Brexit: Mogg Conga",
+  "generatedAt": "2026-01-05T15:18:03.004Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.14503194236781297,
+      "Politics": 0.7304607856463232,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.050292238684246295,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0.07421503330161751,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 1067,
+      "Politics": 5374,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 370,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 546,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 3,
+      "Politics": 15,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 1,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7357,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 94,
+      "endSec": 380,
+      "durationSec": 286,
+      "topic": "Situation nach dem Austritt",
+      "fineSubject": "Brexit",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 381,
+      "endSec": 594,
+      "durationSec": 213,
+      "topic": "Übergangsperiode",
+      "fineSubject": "Brexit",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 595,
+      "endSec": 768,
+      "durationSec": 173,
+      "topic": "No-Deal Vorbereitungen",
+      "fineSubject": "Brexit",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 768,
+      "endSec": 1159,
+      "durationSec": 391,
+      "topic": "Corona-Krise in UK",
+      "fineSubject": "Pandemic",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 1160,
+      "endSec": 1727,
+      "durationSec": 567,
+      "topic": "National Health Service",
+      "fineSubject": "National Health Service",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1727,
+      "endSec": 1836,
+      "durationSec": 109,
+      "topic": "Track and Trace",
+      "fineSubject": "Pandemic",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1837,
+      "endSec": 2083,
+      "durationSec": 246,
+      "topic": "Reaktion der Regierung",
+      "fineSubject": "Government Response",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2084,
+      "endSec": 2632,
+      "durationSec": 548,
+      "topic": "Boris Johnson erkrankt",
+      "fineSubject": "Leadership",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2632,
+      "endSec": 2990,
+      "durationSec": 358,
+      "topic": "Regierungspersonal",
+      "fineSubject": "Government",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2991,
+      "endSec": 3453,
+      "durationSec": 462,
+      "topic": "Dominic Cummings-Skandal",
+      "fineSubject": "Scandal",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3454,
+      "endSec": 3798,
+      "durationSec": 344,
+      "topic": "Brexit vs. Corona",
+      "fineSubject": "Brexit",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Social",
+      "startSec": 3799,
+      "endSec": 4345,
+      "durationSec": 546,
+      "topic": "Black Lives Matter und Statuensturz",
+      "fineSubject": "Protests",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4345,
+      "endSec": 4761,
+      "durationSec": 416,
+      "topic": "Keir Starmer",
+      "fineSubject": "Opposition",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4762,
+      "endSec": 5910,
+      "durationSec": 1148,
+      "topic": "Künftige Beziehungen UK-EU",
+      "fineSubject": "International Relations",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Economics",
+      "startSec": 5910,
+      "endSec": 6280,
+      "durationSec": 370,
+      "topic": "Disaster Capitalism",
+      "fineSubject": "Capitalism",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6280,
+      "endSec": 6344,
+      "durationSec": 64,
+      "topic": "Johnson ist amtsmüde",
+      "fineSubject": "Leadership",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6344,
+      "endSec": 6509,
+      "durationSec": 165,
+      "topic": "Schottland",
+      "fineSubject": "Regional Issues",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6510,
+      "endSec": 6717,
+      "durationSec": 207,
+      "topic": "Nordirland",
+      "fineSubject": "Regional Issues",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6718,
+      "endSec": 7151,
+      "durationSec": 433,
+      "topic": "Handelsvertrag mit der EU",
+      "fineSubject": "Trade",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7151,
+      "endSec": 7462,
+      "durationSec": 311,
+      "topic": "Fazit",
+      "fineSubject": "Conclusion",
+      "topicIndex": 19
+    }
+  ]
+}

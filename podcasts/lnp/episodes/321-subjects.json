@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 321,
+  "title": "LNP321 Verluste durch außergewöhnliche Schadensfälle",
+  "generatedAt": "2026-01-05T15:17:57.616Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0.06623702112423917,
+      "Security": 0.5773361976369495,
+      "Social": 0.033655567490153956,
+      "Media": 0,
+      "Health": 0.24704618689581095,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.06301467955603295,
+      "Culture": 0.012710347296813463
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 370,
+      "Security": 3225,
+      "Social": 188,
+      "Media": 0,
+      "Health": 1380,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 352,
+      "Culture": 71
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 1
+    },
+    "totalDurationSec": 5586,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 120,
+      "endSec": 300,
+      "durationSec": 180,
+      "topic": "Feedback: Gesundheitsdatenspeicherung",
+      "fineSubject": "Health / Health Data Management",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 300,
+      "endSec": 1500,
+      "durationSec": 1200,
+      "topic": "Feedback: Nutzung von Gesundheitsdaten",
+      "fineSubject": "Health / Health Data Ethics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 1501,
+      "endSec": 4726,
+      "durationSec": 3225,
+      "topic": "Emotet Ransomware",
+      "fineSubject": "Security / Ransomware",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4726,
+      "endSec": 5078,
+      "durationSec": 352,
+      "topic": "Tutanota muss Kundendaten preisgeben",
+      "fineSubject": "Privacy / Customer Data",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 5078,
+      "endSec": 5448,
+      "durationSec": 370,
+      "topic": "US-Bundesgericht sagt verdachtslose Durchsuchung von Geräten von Reisenden ist verfassungswidrig",
+      "fineSubject": "Law / Search and Seizure",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 5449,
+      "endSec": 5637,
+      "durationSec": 188,
+      "topic": "Instagram testet verstecken der Likes",
+      "fineSubject": "Social / Instagram",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5801,
+      "endSec": 5872,
+      "durationSec": 71,
+      "topic": "Coding Da Vinci Kulturhackathon",
+      "fineSubject": "Culture / Hackathons",
+      "topicIndex": 7
+    }
+  ]
+}

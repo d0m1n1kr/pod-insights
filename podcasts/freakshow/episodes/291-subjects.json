@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 291,
+  "title": "FS291 Klopapier ist eine Scheißidee",
+  "generatedAt": "2026-01-05T15:17:51.121Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.3851608439986164,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.2921134555517122,
+      "Social": 0,
+      "Culture": 0.24334140435835352,
+      "Security": 0,
+      "Events": 0.030785195434105846,
+      "Business": 0,
+      "Gaming": 0.048599100657212034,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2227,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1689,
+      "Social": 0,
+      "Culture": 1407,
+      "Security": 0,
+      "Events": 178,
+      "Business": 0,
+      "Gaming": 281,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 4,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 5782,
+    "totalTopics": 22
+  },
+  "timeline": [
+    {
+      "subject": "Events",
+      "startSec": 773,
+      "endSec": 951,
+      "durationSec": 178,
+      "topic": "AlchemyConf 2025",
+      "fineSubject": "Conferences",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 951,
+      "endSec": 1997,
+      "durationSec": 1046,
+      "topic": "Severance",
+      "fineSubject": "TV Shows",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1997,
+      "endSec": 2350,
+      "durationSec": 353,
+      "topic": "Minecraft-Film",
+      "fineSubject": "Films",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 2351,
+      "endSec": 2481,
+      "durationSec": 130,
+      "topic": "The LEGO Movies",
+      "fineSubject": "Films",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 2482,
+      "endSec": 2642,
+      "durationSec": 160,
+      "topic": "Super-Mario-Film",
+      "fineSubject": "Films",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 2642,
+      "endSec": 2923,
+      "durationSec": 281,
+      "topic": "Das efolgreichste Spiel aller Zeiten",
+      "fineSubject": "Games",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3398,
+      "endSec": 4450,
+      "durationSec": 1052,
+      "topic": "Scheißthema",
+      "fineSubject": "Topics",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5343,
+      "endSec": 5614,
+      "durationSec": 271,
+      "topic": "Candela",
+      "fineSubject": "Lighting",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5615,
+      "endSec": 5998,
+      "durationSec": 383,
+      "topic": "Cursor Updates",
+      "fineSubject": "Software",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5998,
+      "endSec": 6466,
+      "durationSec": 468,
+      "topic": "Cursor Support Fail",
+      "fineSubject": "Software",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6466,
+      "endSec": 6821,
+      "durationSec": 355,
+      "topic": "Slopsquatting",
+      "fineSubject": "Trends",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7182,
+      "endSec": 7937,
+      "durationSec": 755,
+      "topic": "3D Engines",
+      "fineSubject": "Gaming",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10435,
+      "endSec": 10785,
+      "durationSec": 350,
+      "topic": "Natriumbatterien aus China",
+      "fineSubject": "Batteries",
+      "topicIndex": 19
+    }
+  ]
+}

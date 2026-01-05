@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 370,
+  "title": "LNP370 Nichts wird besser durch Beatrix von Storch",
+  "generatedAt": "2026-01-05T15:17:57.624Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.09344660194174757,
+      "Technology": 0.25485436893203883,
+      "Law": 0.1383495145631068,
+      "Security": 0.22026699029126215,
+      "Social": 0.09648058252427184,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.1966019417475728,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 154,
+      "Technology": 420,
+      "Law": 228,
+      "Security": 363,
+      "Social": 159,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 324,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 1648,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 170,
+      "endSec": 329,
+      "durationSec": 159,
+      "topic": "Kokstaxi Reloaded",
+      "fineSubject": "Subkultur",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 330,
+      "endSec": 750,
+      "durationSec": 420,
+      "topic": "Remote Chaos Experience",
+      "fineSubject": "Chaos Computer Club",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 750,
+      "endSec": 1074,
+      "durationSec": 324,
+      "topic": "Schufa CheckNow",
+      "fineSubject": "Kreditwesen",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 1074,
+      "endSec": 1437,
+      "durationSec": 363,
+      "topic": "Darknet-Bekämpfung",
+      "fineSubject": "Cybercrime",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1438,
+      "endSec": 1592,
+      "durationSec": 154,
+      "topic": "EU-Verteidigungsminister",
+      "fineSubject": "EU-Politik",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 1592,
+      "endSec": 1741,
+      "durationSec": 149,
+      "topic": "VDS bleibt verfassungswidrig",
+      "fineSubject": "Verfassungsrecht",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 1742,
+      "endSec": 1821,
+      "durationSec": 79,
+      "topic": "Verfassungsklage Staatstrojaner",
+      "fineSubject": "Staatstrojaner",
+      "topicIndex": 6
+    }
+  ]
+}

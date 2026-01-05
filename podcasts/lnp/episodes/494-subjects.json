@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 494,
+  "title": "LNP494 Dienst-nach-Vorschrift-Antifa",
+  "generatedAt": "2026-01-05T15:17:57.641Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2486,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2486,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 920,
+      "endSec": 2716,
+      "durationSec": 1796,
+      "topic": "Die aktuelle Realität und was passieren könnte",
+      "fineSubject": "Aktuelle Realität",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 2717,
+      "endSec": 3407,
+      "durationSec": 690,
+      "topic": "Sollbruchstellen im System",
+      "fineSubject": "Sollbruchstellen",
+      "topicIndex": 3
+    }
+  ]
+}

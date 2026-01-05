@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 61,
+  "title": "LNP061 Skaliert nicht auf Bundesniveau",
+  "generatedAt": "2026-01-05T15:17:57.581Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4045285569449138,
+      "Technology": 0.36059479553903345,
+      "Law": 0.23487664751605272,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1197,
+      "Technology": 1067,
+      "Law": 695,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2959,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1349,
+      "endSec": 2238,
+      "durationSec": 889,
+      "topic": "De-Mail, zweite Runde",
+      "fineSubject": "Digital Communication",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2239,
+      "endSec": 2547,
+      "durationSec": 308,
+      "topic": "Magere Demos gegen die Bestandsdatenauskunft",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2548,
+      "endSec": 3038,
+      "durationSec": 490,
+      "topic": "Das Internet ist gar nicht so schnell, wie drauf steht",
+      "fineSubject": "Internet Speed",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3202,
+      "endSec": 3779,
+      "durationSec": 577,
+      "topic": "Autos, die bei der Versicherung petzen",
+      "fineSubject": "Automotive",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3780,
+      "endSec": 4199,
+      "durationSec": 419,
+      "topic": "Funkzellenabfrage in Dresden war verhältnismäßig",
+      "fineSubject": "Surveillance",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 4199,
+      "endSec": 4475,
+      "durationSec": 276,
+      "topic": "Quellen-TKÜ, quo vadis?",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 5
+    }
+  ]
+}

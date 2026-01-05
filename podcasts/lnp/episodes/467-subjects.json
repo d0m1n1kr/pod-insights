@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 467,
+  "title": "LNP467 Generationsflüchtling",
+  "generatedAt": "2026-01-05T15:17:57.637Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.11186340889019723,
+      "Technology": 0.022961436561672065,
+      "Law": 0.19311156903149837,
+      "Security": 0.1969384751251104,
+      "Social": 0,
+      "Media": 0.18869590815425374,
+      "Health": 0.20047100382690608,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.030320871357079775,
+      "Privacy": 0,
+      "Culture": 0.05563732705328231
+    },
+    "durations": {
+      "Politics": 380,
+      "Technology": 78,
+      "Law": 656,
+      "Security": 669,
+      "Social": 0,
+      "Media": 641,
+      "Health": 681,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 103,
+      "Privacy": 0,
+      "Culture": 189
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 2,
+      "Social": 0,
+      "Media": 1,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 3397,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 1116,
+      "endSec": 1619,
+      "durationSec": 503,
+      "topic": "FBI legt Quakbot lahm",
+      "fineSubject": "Operation / Quakbot",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 1619,
+      "endSec": 1785,
+      "durationSec": 166,
+      "topic": "Hacker legen Stalkerware lahm",
+      "fineSubject": "Operation / Stalkerware",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1785,
+      "endSec": 1863,
+      "durationSec": 78,
+      "topic": "Digital Fail: Deutschland im Datenstau",
+      "fineSubject": "Issue / Datenstau",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1863,
+      "endSec": 2243,
+      "durationSec": 380,
+      "topic": "Ampel: Digitalpolitik",
+      "fineSubject": "Government / Ampel",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 2244,
+      "endSec": 2925,
+      "durationSec": 681,
+      "topic": "Digitale Patientenakte und E-Rezept",
+      "fineSubject": "Service / Patientenakte",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 2925,
+      "endSec": 3379,
+      "durationSec": 454,
+      "topic": "Selbstbestimmungsgesetz",
+      "fineSubject": "Legislation / Selbstbestimmungsgesetz",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Media",
+      "startSec": 3380,
+      "endSec": 4021,
+      "durationSec": 641,
+      "topic": "Twitter ist jetzt X",
+      "fineSubject": "Rebranding / Twitter to X",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Law",
+      "startSec": 4021,
+      "endSec": 4115,
+      "durationSec": 94,
+      "topic": "Durchsuchung bei Radio Dreyeckland",
+      "fineSubject": "Incident / Radio Dreyeckland",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Law",
+      "startSec": 4116,
+      "endSec": 4224,
+      "durationSec": 108,
+      "topic": "Abhörmaßnahmen Letzte Generation",
+      "fineSubject": "Incident / Letzte Generation",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4225,
+      "endSec": 4414,
+      "durationSec": 189,
+      "topic": "Clown gegen Clown",
+      "fineSubject": "Event / Clown",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Business",
+      "startSec": 4775,
+      "endSec": 4878,
+      "durationSec": 103,
+      "topic": "Jobs",
+      "fineSubject": "Topic / Jobs",
+      "topicIndex": 16
+    }
+  ]
+}

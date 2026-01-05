@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 135,
+  "title": "DU135 - Die unsichtbare Gefahr von der Venus?",
+  "generatedAt": "2026-01-05T15:18:22.111Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 1,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 1459,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 4,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 1459,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 80,
+      "endSec": 344,
+      "durationSec": 264,
+      "topic": "Asteroidensuche in Niederösterreich",
+      "fineSubject": "Asteroiden",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 304,
+      "endSec": 960,
+      "durationSec": 656,
+      "topic": "Unsichtbare Gefahr von der Venus",
+      "fineSubject": "Planetenkollision",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 920,
+      "endSec": 1035,
+      "durationSec": 115,
+      "topic": "Wissenschaftliche Arbeit über Asteroiden in Resonanz mit der Venus",
+      "fineSubject": "Orbitalmechanik",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 995,
+      "endSec": 1419,
+      "durationSec": 424,
+      "topic": "Beobachtungsmethoden für Asteroiden",
+      "fineSubject": "Beobachtungsinstrumente",
+      "topicIndex": 3
+    }
+  ]
+}

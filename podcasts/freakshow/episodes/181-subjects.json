@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 181,
+  "title": "FS181 Und ich hab selten Hals",
+  "generatedAt": "2026-01-05T15:17:51.087Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.38805837337604554,
+      "Software": 0.1585691404164442,
+      "Hardware": 0.1604378003203417,
+      "Finance": 0.20822210357714896,
+      "Media": 0.03345791066025983,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.05125467164975974,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4361,
+      "Software": 1782,
+      "Hardware": 1803,
+      "Finance": 2340,
+      "Media": 376,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 576,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 4,
+      "Hardware": 3,
+      "Finance": 2,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11238,
+    "totalTopics": 15
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 552,
+      "endSec": 3962,
+      "durationSec": 3410,
+      "topic": "Telefonnetze",
+      "fineSubject": "Technology / Telefonnetze",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3962,
+      "endSec": 4913,
+      "durationSec": 951,
+      "topic": "Messenger",
+      "fineSubject": "Technology / Messenger",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 4914,
+      "endSec": 5702,
+      "durationSec": 788,
+      "topic": "Mac Onboarding",
+      "fineSubject": "Operating System / macOS",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 5703,
+      "endSec": 6154,
+      "durationSec": 451,
+      "topic": "macOS Sierra",
+      "fineSubject": "Operating System / macOS Sierra",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 6154,
+      "endSec": 6305,
+      "durationSec": 151,
+      "topic": "APFS",
+      "fineSubject": "Technology / APFS",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6306,
+      "endSec": 7451,
+      "durationSec": 1145,
+      "topic": "I/O Port Death Chart",
+      "fineSubject": "Technology / Port Death Chart",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7451,
+      "endSec": 7687,
+      "durationSec": 236,
+      "topic": "Ethernet",
+      "fineSubject": "Technology / Ethernet",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Finance",
+      "startSec": 7688,
+      "endSec": 9879,
+      "durationSec": 2191,
+      "topic": "Apple Pay",
+      "fineSubject": "Technology / Apple Pay",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Security",
+      "startSec": 9879,
+      "endSec": 10455,
+      "durationSec": 576,
+      "topic": "Blitzschutz",
+      "fineSubject": "Technology / Blitzschutz",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10456,
+      "endSec": 10878,
+      "durationSec": 422,
+      "topic": "Schwächen des MacBook Pros",
+      "fineSubject": "Technology / MacBook Pro",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 10878,
+      "endSec": 11270,
+      "durationSec": 392,
+      "topic": "iOS 10 Device Support",
+      "fineSubject": "Operating System / iOS 10",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Finance",
+      "startSec": 11271,
+      "endSec": 11420,
+      "durationSec": 149,
+      "topic": "Bitcoin Halving Party",
+      "fineSubject": "Event / Bitcoin Halving Party",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Media",
+      "startSec": 11420,
+      "endSec": 11796,
+      "durationSec": 376,
+      "topic": "iTunes Match",
+      "fineSubject": "Service / iTunes Match",
+      "topicIndex": 13
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 71,
+  "title": "UKW071 Corona Weekly: Impftermine helfen gegen Corona",
+  "generatedAt": "2026-01-05T15:18:03.017Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0.9100588400112076,
+      "Politics": 0.07242925189128607,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0.017511908097506305,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 6496,
+      "Politics": 517,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 125,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 14,
+      "Politics": 2,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 1,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7138,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 79,
+      "endSec": 612,
+      "durationSec": 533,
+      "topic": "Infektions- und Sterbezahlen",
+      "fineSubject": "Infection Statistics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 612,
+      "endSec": 760,
+      "durationSec": 148,
+      "topic": "Pseudo-R-Werte",
+      "fineSubject": "R-Values",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 761,
+      "endSec": 839,
+      "durationSec": 78,
+      "topic": "Fallsterblichkeit",
+      "fineSubject": "Mortality Rate",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 840,
+      "endSec": 987,
+      "durationSec": 147,
+      "topic": "Tests und Positivrate",
+      "fineSubject": "Testing",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 987,
+      "endSec": 1331,
+      "durationSec": 344,
+      "topic": "Bundesländer",
+      "fineSubject": "Federal States",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 1332,
+      "endSec": 1457,
+      "durationSec": 125,
+      "topic": "Öffnungsneid",
+      "fineSubject": "Public Sentiment",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 1457,
+      "endSec": 1778,
+      "durationSec": 321,
+      "topic": "Vergleich mit den Nachbarländern",
+      "fineSubject": "International Comparison",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 1779,
+      "endSec": 1912,
+      "durationSec": 133,
+      "topic": "Künftige Entwicklung der Zahlen",
+      "fineSubject": "Future Projections",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 1912,
+      "endSec": 3168,
+      "durationSec": 1256,
+      "topic": "Impfungen in Deutschland",
+      "fineSubject": "Vaccination",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 3169,
+      "endSec": 3963,
+      "durationSec": 794,
+      "topic": "Situation in Indien",
+      "fineSubject": "International Situation",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 3964,
+      "endSec": 4385,
+      "durationSec": 421,
+      "topic": "Glücksimpfung in Bhutan",
+      "fineSubject": "Vaccination Strategies",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 4385,
+      "endSec": 4961,
+      "durationSec": 576,
+      "topic": "BioNTech/Pfizer-Impfstoff für Kinder",
+      "fineSubject": "Pediatric Vaccines",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 4962,
+      "endSec": 5063,
+      "durationSec": 101,
+      "topic": "Produktion des BioNTech-Impfstoffs",
+      "fineSubject": "Vaccine Production",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 5063,
+      "endSec": 6114,
+      "durationSec": 1051,
+      "topic": "Zweifel an Sputnik V",
+      "fineSubject": "Vaccine Doubts",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6115,
+      "endSec": 6288,
+      "durationSec": 173,
+      "topic": "EU-Kommission verklagt AstraZeneca",
+      "fineSubject": "Legal Actions",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 6288,
+      "endSec": 7045,
+      "durationSec": 757,
+      "topic": "Studien über Impfstoff-Wirksamkeit",
+      "fineSubject": "Vaccine Efficacy Studies",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Health",
+      "startSec": 7046,
+      "endSec": 7226,
+      "durationSec": 180,
+      "topic": "Ausblick",
+      "fineSubject": "Outlook",
+      "topicIndex": 16
+    }
+  ]
+}

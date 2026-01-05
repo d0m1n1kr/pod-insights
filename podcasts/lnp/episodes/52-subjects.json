@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 52,
+  "title": "LNP052 Es gibt noch Hoffnung",
+  "generatedAt": "2026-01-05T15:17:57.580Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5336463223787168,
+      "Technology": 0,
+      "Law": 0.14303599374021908,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.3233176838810642,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1705,
+      "Technology": 0,
+      "Law": 457,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1033,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 0,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3195,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 183,
+      "endSec": 1010,
+      "durationSec": 827,
+      "topic": "Letzte Sitzung der Internet-Enquete",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1010,
+      "endSec": 1617,
+      "durationSec": 607,
+      "topic": "Leistungsschutzrecht im Bundestag",
+      "fineSubject": "Copyright Law",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1618,
+      "endSec": 2075,
+      "durationSec": 457,
+      "topic": "Abmahnungs-Deckelung",
+      "fineSubject": "Abmahnungen",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2075,
+      "endSec": 3108,
+      "durationSec": 1033,
+      "topic": "GEMA vs. YouTubes Top 1000",
+      "fineSubject": "Music Industry",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3109,
+      "endSec": 3295,
+      "durationSec": 186,
+      "topic": "Netzneutralität in Slowenien",
+      "fineSubject": "Netzneutralität",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3295,
+      "endSec": 3380,
+      "durationSec": 85,
+      "topic": "Kampagne Datenschutzreform",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 5
+    }
+  ]
+}

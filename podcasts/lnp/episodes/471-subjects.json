@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 471,
+  "title": "LNP471 Der Führer sitzt im Fernsehen",
+  "generatedAt": "2026-01-05T15:17:57.638Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1275693730729702,
+      "Technology": 0.0790082219938335,
+      "Law": 0.25038540596094555,
+      "Security": 0,
+      "Social": 0.05845323741007194,
+      "Media": 0.42407502569373073,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.0605087358684481,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 993,
+      "Technology": 615,
+      "Law": 1949,
+      "Security": 0,
+      "Social": 455,
+      "Media": 3301,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 471,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7784,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 701,
+      "endSec": 1092,
+      "durationSec": 391,
+      "topic": "Feedback: CDU-Farben",
+      "fineSubject": "CDU",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1093,
+      "endSec": 1695,
+      "durationSec": 602,
+      "topic": "Feedback: Adenauer",
+      "fineSubject": "Adenauer",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 1696,
+      "endSec": 2151,
+      "durationSec": 455,
+      "topic": "Feedback: Social Media",
+      "fineSubject": "Social Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2151,
+      "endSec": 2766,
+      "durationSec": 615,
+      "topic": "Der Niedergang von TwiX",
+      "fineSubject": "Social Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 3666,
+      "endSec": 4741,
+      "durationSec": 1075,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chatkontrolle",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 4742,
+      "endSec": 5616,
+      "durationSec": 874,
+      "topic": "Mach Meldung: Hinweisgeberschutzgesetz",
+      "fineSubject": "Hinweisgeberschutzgesetz",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 5616,
+      "endSec": 6087,
+      "durationSec": 471,
+      "topic": "Deutsche Post macht jetzt auf NFT",
+      "fineSubject": "NFT",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Media",
+      "startSec": 6087,
+      "endSec": 9388,
+      "durationSec": 3301,
+      "topic": "Podcasts und Finanzierungsmodelle im Wandel",
+      "fineSubject": "Podcasts",
+      "topicIndex": 8
+    }
+  ]
+}

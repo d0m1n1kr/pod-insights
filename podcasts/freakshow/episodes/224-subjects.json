@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 224,
+  "title": "FS224 Lass uns reich werden mit toten Menschen",
+  "generatedAt": "2026-01-05T15:17:51.098Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5068780296082799,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0.0617057513428534,
+      "Social": 0,
+      "Culture": 0.3590986505960959,
+      "Security": 0.07231756845277086,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 3869,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 471,
+      "Social": 0,
+      "Culture": 2741,
+      "Security": 552,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 2,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 7633,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 325,
+      "endSec": 741,
+      "durationSec": 416,
+      "topic": "Tala in Japan",
+      "fineSubject": "Japan",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 741,
+      "endSec": 3066,
+      "durationSec": 2325,
+      "topic": "Leben in Japan",
+      "fineSubject": "Japan",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5738,
+      "endSec": 6015,
+      "durationSec": 277,
+      "topic": "Apple Watch und das EKG",
+      "fineSubject": "Wearables",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7488,
+      "endSec": 8640,
+      "durationSec": 1152,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Computers",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 8640,
+      "endSec": 9192,
+      "durationSec": 552,
+      "topic": "Hardware-Spy-Hoax",
+      "fineSubject": "Hardware",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9193,
+      "endSec": 9452,
+      "durationSec": 259,
+      "topic": "The Sequence: Update",
+      "fineSubject": "Software Updates",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9452,
+      "endSec": 10067,
+      "durationSec": 615,
+      "topic": "Web Log Analyzer",
+      "fineSubject": "Web Analytics",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10068,
+      "endSec": 10820,
+      "durationSec": 752,
+      "topic": "MS-DOS und Vintage Computing",
+      "fineSubject": "Vintage Computing",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10820,
+      "endSec": 11634,
+      "durationSec": 814,
+      "topic": "Prozessorposter",
+      "fineSubject": "Hardware",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Media",
+      "startSec": 11635,
+      "endSec": 12106,
+      "durationSec": 471,
+      "topic": "The Incredibles 2",
+      "fineSubject": "Film",
+      "topicIndex": 12
+    }
+  ]
+}

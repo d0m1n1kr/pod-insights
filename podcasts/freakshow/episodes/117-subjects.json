@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 117,
+  "title": "FS117 Yksi Kaksi",
+  "generatedAt": "2026-01-05T15:17:51.073Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.20780582211112006,
+      "Software": 0.12136118054995565,
+      "Hardware": 0.18232400612853802,
+      "Finance": 0,
+      "Media": 0.20804773808563826,
+      "Social": 0,
+      "Culture": 0.280461253124748,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2577,
+      "Software": 1505,
+      "Hardware": 2261,
+      "Finance": 0,
+      "Media": 2580,
+      "Social": 0,
+      "Culture": 3478,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 1,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12401,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 296,
+      "endSec": 1047,
+      "durationSec": 751,
+      "topic": "Shredder und Scanner",
+      "fineSubject": "Shredder and Scanner",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1047,
+      "endSec": 4525,
+      "durationSec": 3478,
+      "topic": "NOKIA, finnische Sprache, Tanzen",
+      "fineSubject": "Language and Dance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 4525,
+      "endSec": 6030,
+      "durationSec": 1505,
+      "topic": "Apple Keynote",
+      "fineSubject": "Apple Keynote",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 6030,
+      "endSec": 8610,
+      "durationSec": 2580,
+      "topic": "Nachrichten aus dem Apple-Land",
+      "fineSubject": "Apple",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8610,
+      "endSec": 10135,
+      "durationSec": 1525,
+      "topic": "Android & Telekommunikation",
+      "fineSubject": "Android",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 10135,
+      "endSec": 11645,
+      "durationSec": 1510,
+      "topic": "IFA: AVM neue Fritz!Box",
+      "fineSubject": "Fritz!Box",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11645,
+      "endSec": 12292,
+      "durationSec": 647,
+      "topic": "Stress mit Telekom-DSL-Routern",
+      "fineSubject": "DSL Routers",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14415,
+      "endSec": 14820,
+      "durationSec": 405,
+      "topic": "DynDNS",
+      "fineSubject": "DynDNS",
+      "topicIndex": 8
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 120,
+  "title": "FS120 Good Riddance",
+  "generatedAt": "2026-01-05T15:17:51.074Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.2701408180860236,
+      "Software": 0.3702461921640004,
+      "Hardware": 0.28441421592106525,
+      "Finance": 0.07519877382891081,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2820,
+      "Software": 3865,
+      "Hardware": 2969,
+      "Finance": 785,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 1,
+      "Hardware": 2,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10439,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1343,
+      "endSec": 1971,
+      "durationSec": 628,
+      "topic": "Clemens vs. Telekom",
+      "fineSubject": "Anbieter",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1971,
+      "endSec": 3263,
+      "durationSec": 1292,
+      "topic": "WebRTC",
+      "fineSubject": "Kommunikation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3263,
+      "endSec": 4723,
+      "durationSec": 1460,
+      "topic": "Fritz!Box, SIP & Netzwerk",
+      "fineSubject": "Netzwerk",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 4723,
+      "endSec": 8588,
+      "durationSec": 3865,
+      "topic": "Mac OS X 10.9 - Mavericks",
+      "fineSubject": "Betriebssystem",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8588,
+      "endSec": 10097,
+      "durationSec": 1509,
+      "topic": "iPad Air",
+      "fineSubject": "Tablet",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Finance",
+      "startSec": 10097,
+      "endSec": 10882,
+      "durationSec": 785,
+      "topic": "Bitcoin",
+      "fineSubject": "Kryptowährung",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10882,
+      "endSec": 11782,
+      "durationSec": 900,
+      "topic": "ARM Trustzones",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 6
+    }
+  ]
+}

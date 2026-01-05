@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 55,
+  "title": "Mi55 – „Bestattungszwang“",
+  "generatedAt": "2026-01-05T15:18:17.356Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.3333333333333333,
+      "Culture": 0.4444444444444444,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.2222222222222222,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "AiF",
+      "fineSubject": "Projects / Initiatives",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "Pluto",
+      "fineSubject": "Planets / Dwarf Planets",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "Thema 1: \"Fußbälle schlucken Sternenlicht\"",
+      "fineSubject": "Creative Works / Concepts",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "Thema 2: \"Mein Garry-Express....Uiiiiii\"",
+      "fineSubject": "Experiences / Anecdotes",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Research / Activities",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Culture",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "Thema 3: \"Durch Mark und Bein\"",
+      "fineSubject": "Creative Works / Narratives",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "Chinagadget der Woche",
+      "fineSubject": "Innovations / Products",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "Thema 4: \"Stimmung GPS\"",
+      "fineSubject": "Applications / Tools",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Culture",
+      "startSec": 0,
+      "endSec": 0,
+      "durationSec": 0,
+      "topic": "Eierschaukel",
+      "fineSubject": "Comedy / Jokes",
+      "topicIndex": 12
+    }
+  ]
+}

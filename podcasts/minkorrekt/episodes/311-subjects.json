@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 311,
+  "title": "Mi311 – \"Bob der Bohrmeister\"",
+  "generatedAt": "2026-01-05T15:18:17.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.039884207140559666,
+      "Culture": 0.46108073335477645,
+      "Wissenschaft": 0,
+      "Health": 0.332100353811515,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0.039884207140559666,
+      "Media": 0.12705049855258926,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 248,
+      "Culture": 2867,
+      "Wissenschaft": 0,
+      "Health": 2065,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 248,
+      "Media": 790,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 3,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 1,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6218,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 115,
+      "endSec": 317,
+      "durationSec": 202,
+      "topic": "Tour 2025",
+      "fineSubject": "Tour",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 317,
+      "endSec": 1107,
+      "durationSec": 790,
+      "topic": "Fernsehdrama",
+      "fineSubject": "Drama",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 1730,
+      "endSec": 3384,
+      "durationSec": 1654,
+      "topic": "Thema 1: “Blasen als Nahrungserwerb”",
+      "fineSubject": "Nourishment",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 3384,
+      "endSec": 3632,
+      "durationSec": 248,
+      "topic": "Snackable Science: Pi nochmal",
+      "fineSubject": "Mathematics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3632,
+      "endSec": 5404,
+      "durationSec": 1772,
+      "topic": "Thema 2: \"Vorspulen auf Langeweile\"",
+      "fineSubject": "Boredom",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5546,
+      "endSec": 6439,
+      "durationSec": 893,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Trends",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 6794,
+      "endSec": 7205,
+      "durationSec": 411,
+      "topic": "Audiokommentar Orthopäde",
+      "fineSubject": "Orthopedics",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Biologie",
+      "startSec": 7205,
+      "endSec": 7453,
+      "durationSec": 248,
+      "topic": "Audiokommentar Bienen Sandra",
+      "fineSubject": "Bees",
+      "topicIndex": 8
+    }
+  ]
+}

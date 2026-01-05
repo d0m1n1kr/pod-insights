@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 206,
+  "title": "LNP206 Goldene Zeiten",
+  "generatedAt": "2026-01-05T15:17:57.601Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.16332011766210514,
+      "Technology": 0.34441744468602126,
+      "Law": 0.31922240695741144,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.17304003069446222,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1277,
+      "Technology": 2693,
+      "Law": 2496,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1353,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7819,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 149,
+      "endSec": 2645,
+      "durationSec": 2496,
+      "topic": "Verfassungsbeschwerde gegen Anti-Whistleblower-Gesetz",
+      "fineSubject": "Legal Challenges / Whistleblower Protection",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2646,
+      "endSec": 3553,
+      "durationSec": 907,
+      "topic": "Das Trump-Dossier",
+      "fineSubject": "Political Scandals / Trump",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 3554,
+      "endSec": 4907,
+      "durationSec": 1353,
+      "topic": "Fake News",
+      "fineSubject": "Fake News / Disinformation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4907,
+      "endSec": 6116,
+      "durationSec": 1209,
+      "topic": "WhatsApp-Angriff",
+      "fineSubject": "Cybersecurity / Messaging Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6117,
+      "endSec": 6487,
+      "durationSec": 370,
+      "topic": "Abschiedsgeschenk an die NSA",
+      "fineSubject": "Government Actions / NSA",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6488,
+      "endSec": 7972,
+      "durationSec": 1484,
+      "topic": "Maaßen und die Cyberwaffen",
+      "fineSubject": "Cyber Weapons / Security",
+      "topicIndex": 5
+    }
+  ]
+}

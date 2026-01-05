@@ -1,0 +1,261 @@
+{
+  "episodeNumber": 160,
+  "title": "FS160 Der Hund hat die Datei gefressen",
+  "generatedAt": "2026-01-05T15:17:51.082Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0,
+      "Software": 0.1848999822977518,
+      "Hardware": 0.281465746149761,
+      "Finance": 0.14374225526641884,
+      "Media": 0.04921224995574438,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.34067976633032393,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 0,
+      "Software": 2089,
+      "Hardware": 3180,
+      "Finance": 1624,
+      "Media": 556,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 3849,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 0,
+      "Software": 3,
+      "Hardware": 5,
+      "Finance": 2,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 12,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11298,
+    "totalTopics": 26
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 874,
+      "endSec": 1047,
+      "durationSec": 173,
+      "topic": "Podcast-Aufnahmesoftware",
+      "fineSubject": "Podcast-Aufnahmesoftware",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1048,
+      "endSec": 1238,
+      "durationSec": 190,
+      "topic": "Tolle Apple-Produkte",
+      "fineSubject": "Apple-Produkte",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 1238,
+      "endSec": 1757,
+      "durationSec": 519,
+      "topic": "Schwarmtaler",
+      "fineSubject": "Schwarmtaler",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 1758,
+      "endSec": 3494,
+      "durationSec": 1736,
+      "topic": "Podcasting-Apps",
+      "fineSubject": "Podcasting-Apps",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Events",
+      "startSec": 3494,
+      "endSec": 3913,
+      "durationSec": 419,
+      "topic": "Chaos Communication Camp 2015",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Events",
+      "startSec": 3914,
+      "endSec": 4302,
+      "durationSec": 388,
+      "topic": "Camp: Der Fernsehturm",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Events",
+      "startSec": 4303,
+      "endSec": 4557,
+      "durationSec": 254,
+      "topic": "Camp: Teslaspulenmusik",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Events",
+      "startSec": 4557,
+      "endSec": 4600,
+      "durationSec": 43,
+      "topic": "Camp: Fußballroboter",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Events",
+      "startSec": 4600,
+      "endSec": 4637,
+      "durationSec": 37,
+      "topic": "Camp: Licht und Züge",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Events",
+      "startSec": 4638,
+      "endSec": 4991,
+      "durationSec": 353,
+      "topic": "Camp: Freak Show Live",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Events",
+      "startSec": 4991,
+      "endSec": 5667,
+      "durationSec": 676,
+      "topic": "Camp: Das Gewitter und die Evakuierung",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Events",
+      "startSec": 5668,
+      "endSec": 6160,
+      "durationSec": 492,
+      "topic": "Camp: Eröffnung",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Events",
+      "startSec": 6161,
+      "endSec": 6387,
+      "durationSec": 226,
+      "topic": "Camp: Aktivitäten und Specials",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Events",
+      "startSec": 6387,
+      "endSec": 6547,
+      "durationSec": 160,
+      "topic": "32C3",
+      "fineSubject": "32C3",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6548,
+      "endSec": 7703,
+      "durationSec": 1155,
+      "topic": "Tesla Store Berlin",
+      "fineSubject": "Tesla Store",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7704,
+      "endSec": 8029,
+      "durationSec": 325,
+      "topic": "Apple Store: MacBook Pro Fail",
+      "fineSubject": "MacBook Pro",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8030,
+      "endSec": 8270,
+      "durationSec": 240,
+      "topic": "Grafikkarten für alten Mac Pro",
+      "fineSubject": "Grafikkarten",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Events",
+      "startSec": 8270,
+      "endSec": 8702,
+      "durationSec": 432,
+      "topic": "Camp: The Incredible Herrengedeck",
+      "fineSubject": "Chaos Communication Camp",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Events",
+      "startSec": 8702,
+      "endSec": 9071,
+      "durationSec": 369,
+      "topic": "Martin-Dieselhorst-Vierer",
+      "fineSubject": "Martin-Dieselhorst-Vierer",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Software",
+      "startSec": 9184,
+      "endSec": 9364,
+      "durationSec": 180,
+      "topic": "c-booc",
+      "fineSubject": "c-booc",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Media",
+      "startSec": 10555,
+      "endSec": 11111,
+      "durationSec": 556,
+      "topic": "Digitale Plattformen für Filme und Musik",
+      "fineSubject": "Digitale Plattformen",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11111,
+      "endSec": 12381,
+      "durationSec": 1270,
+      "topic": "Apple TV Strategie",
+      "fineSubject": "Apple TV",
+      "topicIndex": 23
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12382,
+      "endSec": 13487,
+      "durationSec": 1105,
+      "topic": "Mobile Bitcoin Wallets",
+      "fineSubject": "Mobile Bitcoin Wallets",
+      "topicIndex": 24
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 533,
+  "title": "LNP533 Das Schweigen der Kälber",
+  "generatedAt": "2026-01-05T15:17:57.646Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.07802340702210664,
+      "Technology": 0.14759427828348504,
+      "Law": 0,
+      "Security": 0.055049848287819676,
+      "Social": 0.5719549198092762,
+      "Media": 0.14737754659731253,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 360,
+      "Technology": 681,
+      "Law": 0,
+      "Security": 254,
+      "Social": 2639,
+      "Media": 680,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4614,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 350,
+      "endSec": 589,
+      "durationSec": 239,
+      "topic": "Feedback: KI-Crawler",
+      "fineSubject": "AI",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 589,
+      "endSec": 2202,
+      "durationSec": 1613,
+      "topic": "Hass im Internet",
+      "fineSubject": "Hate Speech",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 2203,
+      "endSec": 3229,
+      "durationSec": 1026,
+      "topic": "Strategien im Umgang mit Rechtsextremen",
+      "fineSubject": "Extremism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 3230,
+      "endSec": 3910,
+      "durationSec": 680,
+      "topic": "TikTok-Taco",
+      "fineSubject": "Social Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3910,
+      "endSec": 4113,
+      "durationSec": 203,
+      "topic": "DeepSeek gibt Chinas Feinden schlechten Rat",
+      "fineSubject": "International Relations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4113,
+      "endSec": 4311,
+      "durationSec": 198,
+      "topic": "Meta stellt nun ihren eigenen Datenschützer",
+      "fineSubject": "Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4311,
+      "endSec": 4555,
+      "durationSec": 244,
+      "topic": "BKA trainiert Biometrie-KIs mit INPOL-Z",
+      "fineSubject": "Biometrics",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 4556,
+      "endSec": 4810,
+      "durationSec": 254,
+      "topic": "Flughafencyber",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4810,
+      "endSec": 4967,
+      "durationSec": 157,
+      "topic": "NRW-Wahlergebnis-Übermittlung",
+      "fineSubject": "Elections",
+      "topicIndex": 8
+    }
+  ]
+}

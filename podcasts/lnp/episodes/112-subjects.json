@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 112,
+  "title": "LNP112 Die Werdung des Snowdens",
+  "generatedAt": "2026-01-05T15:17:57.590Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2533968342905169,
+      "Technology": 0.5073539711444179,
+      "Law": 0.1386748844375963,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.10057431012746883,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1809,
+      "Technology": 3622,
+      "Law": 990,
+      "Security": 0,
+      "Social": 0,
+      "Media": 718,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7139,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 788,
+      "endSec": 1721,
+      "durationSec": 933,
+      "topic": "CIA gibt zu, ihr eigenes parlamentarisches Kontrollgremium überwacht zu haben",
+      "fineSubject": "Surveillance",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1721,
+      "endSec": 2711,
+      "durationSec": 990,
+      "topic": "7-Tage-IP-Speicherzeit vom BGH genehmigt",
+      "fineSubject": "Data Retention",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 2711,
+      "endSec": 3429,
+      "durationSec": 718,
+      "topic": "Greenwald sagt Auftritt im NSAUA ab",
+      "fineSubject": "Journalism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3429,
+      "endSec": 4305,
+      "durationSec": 876,
+      "topic": "Noch ein Snowden? The Intercept enthüllt Terror-Liste",
+      "fineSubject": "Terrorism",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4305,
+      "endSec": 5723,
+      "durationSec": 1418,
+      "topic": "Finfisher gehackt",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5723,
+      "endSec": 6376,
+      "durationSec": 653,
+      "topic": "Email-Scans nach illegalen Dateien",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6376,
+      "endSec": 7927,
+      "durationSec": 1551,
+      "topic": "Überwachungsmaßnahmen im Mobilfunk nehmen zu",
+      "fineSubject": "Surveillance",
+      "topicIndex": 6
+    }
+  ]
+}

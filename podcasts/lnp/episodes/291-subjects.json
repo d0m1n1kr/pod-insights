@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 291,
+  "title": "LNP291 Für mich immer noch Sir!",
+  "generatedAt": "2026-01-05T15:17:57.612Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6921690366513118,
+      "Technology": 0.2100941317844983,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.09773683156418987,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3456,
+      "Technology": 1049,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 488,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 7,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4993,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 229,
+      "endSec": 674,
+      "durationSec": 445,
+      "topic": "Feedback",
+      "fineSubject": "Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 675,
+      "endSec": 1180,
+      "durationSec": 505,
+      "topic": "Cybervoting in der Schweiz",
+      "fineSubject": "Cybervoting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1180,
+      "endSec": 2128,
+      "durationSec": 948,
+      "topic": "Abstimmungstermin Copyright Directive",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2128,
+      "endSec": 2354,
+      "durationSec": 226,
+      "topic": "TerrReg passiert nächsten Ausschuss",
+      "fineSubject": "Regulation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2355,
+      "endSec": 2948,
+      "durationSec": 593,
+      "topic": "StreamOn",
+      "fineSubject": "Streaming",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2949,
+      "endSec": 3405,
+      "durationSec": 456,
+      "topic": "Bandbreiten-Studie der BNetzA",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3405,
+      "endSec": 4224,
+      "durationSec": 819,
+      "topic": "Wehrrechtsänderungsgesetz in Österreich",
+      "fineSubject": "Military Law",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 4225,
+      "endSec": 4713,
+      "durationSec": 488,
+      "topic": "Huawei",
+      "fineSubject": "Technology",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4714,
+      "endSec": 4960,
+      "durationSec": 246,
+      "topic": "Chelsea Manning",
+      "fineSubject": "Activism",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4960,
+      "endSec": 5227,
+      "durationSec": 267,
+      "topic": "EU-Whistleblowerschutz",
+      "fineSubject": "Whistleblower Protection",
+      "topicIndex": 9
+    }
+  ]
+}

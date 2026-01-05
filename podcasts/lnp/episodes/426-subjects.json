@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 426,
+  "title": "LNP426 Pilgerstätte für Arschgeigen",
+  "generatedAt": "2026-01-05T15:17:57.632Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.06967724061504363,
+      "Technology": 0.20681534838620308,
+      "Law": 0.13035046405319295,
+      "Security": 0.06704529713256684,
+      "Social": 0,
+      "Media": 0.10887934616982961,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.26014683474165395,
+      "Privacy": 0,
+      "Culture": 0.1570854689015099
+    },
+    "durations": {
+      "Politics": 503,
+      "Technology": 1493,
+      "Law": 941,
+      "Security": 484,
+      "Social": 0,
+      "Media": 786,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1878,
+      "Privacy": 0,
+      "Culture": 1134
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 7219,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 139,
+      "endSec": 642,
+      "durationSec": 503,
+      "topic": "Hilfe für Ukraine",
+      "fineSubject": "International Aid",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 643,
+      "endSec": 1617,
+      "durationSec": 974,
+      "topic": "FinFisher ist pleite",
+      "fineSubject": "Bankruptcy",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1617,
+      "endSec": 1955,
+      "durationSec": 338,
+      "topic": "Assange-Auslieferung",
+      "fineSubject": "Extradition",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1955,
+      "endSec": 2558,
+      "durationSec": 603,
+      "topic": "Hessenthaler-Urteil",
+      "fineSubject": "Court Ruling",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2559,
+      "endSec": 3306,
+      "durationSec": 747,
+      "topic": "EncroChat-Daten",
+      "fineSubject": "Data Security",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Business",
+      "startSec": 3307,
+      "endSec": 4211,
+      "durationSec": 904,
+      "topic": "EU will Krytpogeld regulieren",
+      "fineSubject": "Cryptocurrency Regulation",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 4211,
+      "endSec": 4997,
+      "durationSec": 786,
+      "topic": "Zensur und Krieg der Influencer",
+      "fineSubject": "Censorship",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4998,
+      "endSec": 5744,
+      "durationSec": 746,
+      "topic": "Open Source Datensabotage",
+      "fineSubject": "Open Source",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 5744,
+      "endSec": 6228,
+      "durationSec": 484,
+      "topic": "Cyberwar: Im Westen nichts Neues",
+      "fineSubject": "Cyberwarfare",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6348,
+      "endSec": 7482,
+      "durationSec": 1134,
+      "topic": "Drachenlord",
+      "fineSubject": "Internet Personalities",
+      "topicIndex": 10
+    }
+  ]
+}

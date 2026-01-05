@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 141,
+  "title": "LNP141 Irgendwas ist vielleicht passiert",
+  "generatedAt": "2026-01-05T15:17:57.593Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.20797266514806378,
+      "Technology": 0.19726651480637813,
+      "Law": 0.4733485193621868,
+      "Security": 0.1214123006833713,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 913,
+      "Technology": 866,
+      "Law": 2078,
+      "Security": 533,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4390,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 264,
+      "endSec": 2342,
+      "durationSec": 2078,
+      "topic": "VDS-Gesetz",
+      "fineSubject": "Data Protection",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2342,
+      "endSec": 3255,
+      "durationSec": 913,
+      "topic": "Deutsche Telekom spionierte für BND und NSA",
+      "fineSubject": "Intelligence Agencies",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 3753,
+      "endSec": 4286,
+      "durationSec": 533,
+      "topic": "Cyber-Angriff auf den Bundestag",
+      "fineSubject": "Government",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4287,
+      "endSec": 5153,
+      "durationSec": 866,
+      "topic": "Netzneutralität und Werbeblocker",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 4
+    }
+  ]
+}

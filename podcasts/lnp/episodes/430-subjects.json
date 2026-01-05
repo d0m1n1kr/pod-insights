@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 430,
+  "title": "LNP430 Die größte Koalition aller Zeiten",
+  "generatedAt": "2026-01-05T15:17:57.632Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9650037230081906,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.034996276991809384,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 5184,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 188,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5372,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 264,
+      "endSec": 452,
+      "durationSec": 188,
+      "topic": "Linus hatte mal recht",
+      "fineSubject": "Opinion",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 998,
+      "endSec": 6182,
+      "durationSec": 5184,
+      "topic": "OCSA-Richtlinie / Chatkontrolle",
+      "fineSubject": "Regulation",
+      "topicIndex": 2
+    }
+  ]
+}

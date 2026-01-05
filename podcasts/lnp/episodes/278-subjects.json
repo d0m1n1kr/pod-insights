@@ -1,0 +1,171 @@
+{
+  "episodeNumber": 278,
+  "title": "LNP278 Nach Art des Scheiches",
+  "generatedAt": "2026-01-05T15:17:57.610Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.42275411874417157,
+      "Technology": 0.15138327634442028,
+      "Law": 0.0643456636617967,
+      "Security": 0.06994093876282251,
+      "Social": 0.20111905502020516,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.09045694746658377,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2720,
+      "Technology": 974,
+      "Law": 414,
+      "Security": 450,
+      "Social": 1294,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 582,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 6434,
+    "totalTopics": 14
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 88,
+      "endSec": 218,
+      "durationSec": 130,
+      "topic": "Peter Altmaier schämt sich",
+      "fineSubject": "CDU",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 218,
+      "endSec": 724,
+      "durationSec": 506,
+      "topic": "CeBIT ist nicht mehr",
+      "fineSubject": "CeBIT",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 725,
+      "endSec": 1168,
+      "durationSec": 443,
+      "topic": "Brexit is dying",
+      "fineSubject": "Brexit",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1168,
+      "endSec": 1546,
+      "durationSec": 378,
+      "topic": "Wahl des CDU-Vorsitz",
+      "fineSubject": "CDU Leadership",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1546,
+      "endSec": 1854,
+      "durationSec": 308,
+      "topic": "5G-Vergabebedigungen stehen fest",
+      "fineSubject": "5G",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 2427,
+      "endSec": 3009,
+      "durationSec": 582,
+      "topic": "Robert Tibbo",
+      "fineSubject": "Robert Tibbo",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3009,
+      "endSec": 3560,
+      "durationSec": 551,
+      "topic": "NSO und Kashoggi",
+      "fineSubject": "NSO Group",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 3561,
+      "endSec": 4855,
+      "durationSec": 1294,
+      "topic": "Die Facebook-Krise",
+      "fineSubject": "Facebook",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4855,
+      "endSec": 5947,
+      "durationSec": 1092,
+      "topic": "Google in China",
+      "fineSubject": "Google",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 5948,
+      "endSec": 6362,
+      "durationSec": 414,
+      "topic": "Artikel 13 im Trilog",
+      "fineSubject": "Copyright",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6363,
+      "endSec": 6489,
+      "durationSec": 126,
+      "topic": "Vosshoff geht",
+      "fineSubject": "Vosshoff",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 6489,
+      "endSec": 6939,
+      "durationSec": 450,
+      "topic": "Marriott-Hack",
+      "fineSubject": "Marriott Hack",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6940,
+      "endSec": 7100,
+      "durationSec": 160,
+      "topic": "StreamOn",
+      "fineSubject": "Streaming",
+      "topicIndex": 13
+    }
+  ]
+}

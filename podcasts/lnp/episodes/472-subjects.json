@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 472,
+  "title": "LNP472 Prophetisches Perfekt",
+  "generatedAt": "2026-01-05T15:17:57.638Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.47995724211651525,
+      "Technology": 0.13522180652057722,
+      "Law": 0.21726349545697488,
+      "Security": 0.16755745590593266,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1796,
+      "Technology": 506,
+      "Law": 813,
+      "Security": 627,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 2,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3742,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 601,
+      "endSec": 738,
+      "durationSec": 137,
+      "topic": "Feedback: TwiX",
+      "fineSubject": "TwiX",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 738,
+      "endSec": 893,
+      "durationSec": 155,
+      "topic": "Feedback: NFT-Briefmarken",
+      "fineSubject": "NFT Stamps",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1203,
+      "endSec": 2211,
+      "durationSec": 1008,
+      "topic": "Wahlergebnisse",
+      "fineSubject": "Election Results",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 2211,
+      "endSec": 2825,
+      "durationSec": 614,
+      "topic": "Chatkontrolle",
+      "fineSubject": "Chat Control",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2826,
+      "endSec": 3614,
+      "durationSec": 788,
+      "topic": "Israel, Palästina und X",
+      "fineSubject": "Israel and Palestine",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 3614,
+      "endSec": 3813,
+      "durationSec": 199,
+      "topic": "Leitungsschutzrecht",
+      "fineSubject": "Protection Rights",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3814,
+      "endSec": 4028,
+      "durationSec": 214,
+      "topic": "Predator",
+      "fineSubject": "Predator",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Security",
+      "startSec": 4028,
+      "endSec": 4532,
+      "durationSec": 504,
+      "topic": "Motel One Hack",
+      "fineSubject": "Motel One Hack",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Security",
+      "startSec": 4533,
+      "endSec": 4656,
+      "durationSec": 123,
+      "topic": "MGM-Hack",
+      "fineSubject": "MGM Hack",
+      "topicIndex": 12
+    }
+  ]
+}

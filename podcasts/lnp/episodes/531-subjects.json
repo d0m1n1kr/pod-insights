@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 531,
+  "title": "LNP531 Datenschutzfaktor 30",
+  "generatedAt": "2026-01-05T15:17:57.645Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.043516406387085454,
+      "Technology": 0.5372872433760308,
+      "Law": 0.2595192138971749,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.15967713633970873,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 248,
+      "Technology": 3062,
+      "Law": 1479,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 910,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 5,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5699,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 243,
+      "endSec": 491,
+      "durationSec": 248,
+      "topic": "Adenauer-Tour",
+      "fineSubject": "Historical Figures",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 491,
+      "endSec": 775,
+      "durationSec": 284,
+      "topic": "Feedback: Internetsituation",
+      "fineSubject": "Internet",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 776,
+      "endSec": 1857,
+      "durationSec": 1081,
+      "topic": "Feedback: Wero",
+      "fineSubject": "Internet",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1857,
+      "endSec": 1975,
+      "durationSec": 118,
+      "topic": "Feedback: Tamagotchi",
+      "fineSubject": "Gaming",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1975,
+      "endSec": 2423,
+      "durationSec": 448,
+      "topic": "Google Kartellverfahren",
+      "fineSubject": "Antitrust",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 2424,
+      "endSec": 3151,
+      "durationSec": 727,
+      "topic": "Safe Harbour Privacy Shield 2.0",
+      "fineSubject": "Privacy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Business",
+      "startSec": 3152,
+      "endSec": 4062,
+      "durationSec": 910,
+      "topic": "Anthropic zahlt für Bücher",
+      "fineSubject": "Publishing",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4062,
+      "endSec": 4390,
+      "durationSec": 328,
+      "topic": "AI-Manipulation",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Law",
+      "startSec": 4390,
+      "endSec": 4694,
+      "durationSec": 304,
+      "topic": "VDS-Konsultation",
+      "fineSubject": "Privacy",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4695,
+      "endSec": 5946,
+      "durationSec": 1251,
+      "topic": "Galileo und Spoofing",
+      "fineSubject": "Navigation",
+      "topicIndex": 9
+    }
+  ]
+}

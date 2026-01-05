@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 64,
+  "title": "LNP064 Fehlschlaginduzierte Depression",
+  "generatedAt": "2026-01-05T15:17:57.582Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.3799426934097421,
+      "Law": 0.23982808022922636,
+      "Security": 0.27765042979942695,
+      "Social": 0,
+      "Media": 0.10257879656160458,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1326,
+      "Law": 837,
+      "Security": 969,
+      "Social": 0,
+      "Media": 358,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3490,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 180,
+      "endSec": 1506,
+      "durationSec": 1326,
+      "topic": "Die Drossel und die Netzneutralität",
+      "fineSubject": "Regulierung / Drosselung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1507,
+      "endSec": 2344,
+      "durationSec": 837,
+      "topic": "Verfassungsbeschwerde gegen Bestandsdatenauskunft",
+      "fineSubject": "Datenschutz / Bestandsdatenauskunft",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 2345,
+      "endSec": 3314,
+      "durationSec": 969,
+      "topic": "USA planen Chat-Zugriff für das FBI",
+      "fineSubject": "FBI / Chat-Zugriff",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 3314,
+      "endSec": 3672,
+      "durationSec": 358,
+      "topic": "Syrien ohne Telefon und Internet",
+      "fineSubject": "Krisensituation / Syrien",
+      "topicIndex": 3
+    }
+  ]
+}

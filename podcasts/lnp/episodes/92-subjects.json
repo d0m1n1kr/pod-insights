@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 92,
+  "title": "LNP092 Noch Fiction",
+  "generatedAt": "2026-01-05T15:17:57.587Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.12821680710544295,
+      "Technology": 0.13823730357549532,
+      "Law": 0.3293099521749032,
+      "Security": 0.21885675244818947,
+      "Social": 0,
+      "Media": 0.10316556593031201,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.08221361876565703,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 563,
+      "Technology": 607,
+      "Law": 1446,
+      "Security": 961,
+      "Social": 0,
+      "Media": 453,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 361,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 4391,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 194,
+      "endSec": 1640,
+      "durationSec": 1446,
+      "topic": "Strafanzeige des CCC",
+      "fineSubject": "Legal Actions / CCC",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 1640,
+      "endSec": 2001,
+      "durationSec": 361,
+      "topic": "Auch Schröder abgehört",
+      "fineSubject": "Political Figures / Schröder",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 2002,
+      "endSec": 2840,
+      "durationSec": 838,
+      "topic": "GCHQ macht DDoS gegen Anonymous",
+      "fineSubject": "DDoS / Anonymous",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Security",
+      "startSec": 2840,
+      "endSec": 2963,
+      "durationSec": 123,
+      "topic": "Gezielter Angriff auf Kryptographen",
+      "fineSubject": "Targeted Attacks / Cryptographers",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3283,
+      "endSec": 3736,
+      "durationSec": 453,
+      "topic": "The Intercept",
+      "fineSubject": "Investigative Journalism / The Intercept",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3737,
+      "endSec": 4300,
+      "durationSec": 563,
+      "topic": "Fuck the EU",
+      "fineSubject": "Public Sentiment / Anti-EU",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4300,
+      "endSec": 4907,
+      "durationSec": 607,
+      "topic": "Verizon bremst Netflix und die ganze Amazon-Cloud gleich mit",
+      "fineSubject": "Streaming / Netflix and Amazon",
+      "topicIndex": 7
+    }
+  ]
+}

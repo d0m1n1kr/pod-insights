@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 252,
+  "title": "LNP252 Vegane  Nazihipster",
+  "generatedAt": "2026-01-05T15:17:57.607Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.49624454148471614,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.5037554585152838,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2841,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2884,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 2,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5725,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 626,
+      "endSec": 3467,
+      "durationSec": 2841,
+      "topic": "Lösch dich!",
+      "fineSubject": "Cancel Culture",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Business",
+      "startSec": 3467,
+      "endSec": 5055,
+      "durationSec": 1588,
+      "topic": "Schufa",
+      "fineSubject": "Credit Reporting",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Business",
+      "startSec": 5056,
+      "endSec": 6352,
+      "durationSec": 1296,
+      "topic": "Payment Services Directive 2",
+      "fineSubject": "Payment Regulation",
+      "topicIndex": 2
+    }
+  ]
+}

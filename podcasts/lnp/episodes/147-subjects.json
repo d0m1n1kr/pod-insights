@@ -1,0 +1,72 @@
+{
+  "episodeNumber": 147,
+  "title": "LNP147 Dann laber ich hier einfach so lange, bis Ihre Zeit vorbei ist",
+  "generatedAt": "2026-01-05T15:17:57.593Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3377,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3377,
+    "totalTopics": 2
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 147,
+      "endSec": 1685,
+      "durationSec": 1538,
+      "topic": "Ermittlungen des Generalprüfanwalts",
+      "fineSubject": "Legal Investigations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1686,
+      "endSec": 3525,
+      "durationSec": 1839,
+      "topic": "NSA-Untersuchungsausschuss",
+      "fineSubject": "Government Oversight",
+      "topicIndex": 1
+    }
+  ]
+}

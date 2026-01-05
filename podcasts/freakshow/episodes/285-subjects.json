@@ -1,0 +1,180 @@
+{
+  "episodeNumber": 285,
+  "title": "FS285 Gib den Maschinen eine Chance",
+  "generatedAt": "2026-01-05T15:17:51.120Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5450819672131147,
+      "Software": 0.12940355772584583,
+      "Hardware": 0.1454482036972445,
+      "Finance": 0,
+      "Media": 0.09740146494593652,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0.0826648064178584
+    },
+    "durations": {
+      "Technology": 6251,
+      "Software": 1484,
+      "Hardware": 1668,
+      "Finance": 0,
+      "Media": 1117,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 948
+    },
+    "topicCounts": {
+      "Technology": 4,
+      "Software": 5,
+      "Hardware": 3,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 1
+    },
+    "totalDurationSec": 11468,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 178,
+      "endSec": 1295,
+      "durationSec": 1117,
+      "topic": "Feedumstellung bei der Freak Show",
+      "fineSubject": "Feed Management",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1296,
+      "endSec": 1430,
+      "durationSec": 134,
+      "topic": "Bugs in iOS",
+      "fineSubject": "Bugs",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1430,
+      "endSec": 2182,
+      "durationSec": 752,
+      "topic": "AirPods 4 mit ANC",
+      "fineSubject": "AirPods",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 2182,
+      "endSec": 2858,
+      "durationSec": 676,
+      "topic": "Roborock First Use",
+      "fineSubject": "Roborock",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Event",
+      "startSec": 2859,
+      "endSec": 3807,
+      "durationSec": 948,
+      "topic": "CodeBEAM Conference",
+      "fineSubject": "CodeBEAM",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 3807,
+      "endSec": 4390,
+      "durationSec": 583,
+      "topic": "BetterDisplay",
+      "fineSubject": "BetterDisplay",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4390,
+      "endSec": 5791,
+      "durationSec": 1401,
+      "topic": "The Trilogy Meter",
+      "fineSubject": "Trilogy Meter",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 6248,
+      "endSec": 6569,
+      "durationSec": 321,
+      "topic": "OpenInfraMap",
+      "fineSubject": "OpenInfraMap",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 6570,
+      "endSec": 6737,
+      "durationSec": 167,
+      "topic": "Consent-O-Matic",
+      "fineSubject": "Consent-O-Matic",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6737,
+      "endSec": 6977,
+      "durationSec": 240,
+      "topic": "MacBook Fake Holes",
+      "fineSubject": "MacBook",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7993,
+      "endSec": 10939,
+      "durationSec": 2946,
+      "topic": "LLM State of the Union",
+      "fineSubject": "LLM",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 10940,
+      "endSec": 11219,
+      "durationSec": 279,
+      "topic": "Siri und Apple Watch",
+      "fineSubject": "Siri",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11219,
+      "endSec": 12565,
+      "durationSec": 1346,
+      "topic": "Wärmepumpen",
+      "fineSubject": "Wärmepumpen",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12566,
+      "endSec": 13124,
+      "durationSec": 558,
+      "topic": "Single Source of Failure",
+      "fineSubject": "Single Point of Failure",
+      "topicIndex": 15
+    }
+  ]
+}

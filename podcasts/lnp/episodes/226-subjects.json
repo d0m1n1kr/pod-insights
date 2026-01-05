@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 226,
+  "title": "LNP226 Merkelsche Rück",
+  "generatedAt": "2026-01-05T15:17:57.603Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5908493294767289,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.38232973967920064,
+      "Social": 0.02682093084407047,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2247,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1454,
+      "Social": 102,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3803,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 73,
+      "endSec": 1974,
+      "durationSec": 1901,
+      "topic": "Feedback: G20",
+      "fineSubject": "International Relations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1975,
+      "endSec": 2830,
+      "durationSec": 855,
+      "topic": "Malware in Mexiko",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2831,
+      "endSec": 3017,
+      "durationSec": 186,
+      "topic": "Erdoğan klinkt sich ins Telefonnetz ein",
+      "fineSubject": "International Relations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 3018,
+      "endSec": 3120,
+      "durationSec": 102,
+      "topic": "Inhaftierte Menschenrechtler in der Türkei",
+      "fineSubject": "Political Prisoners",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3121,
+      "endSec": 3720,
+      "durationSec": 599,
+      "topic": "Katar Hack",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3720,
+      "endSec": 3880,
+      "durationSec": 160,
+      "topic": "Venezuela",
+      "fineSubject": "International Relations",
+      "topicIndex": 5
+    }
+  ]
+}

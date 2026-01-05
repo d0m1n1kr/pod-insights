@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 297,
+  "title": "Mi297 – \"Knackis streicheln mit der Faust\"",
+  "generatedAt": "2026-01-05T15:18:17.384Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.44743417259273494,
+      "Culture": 0.552565827407265,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 2328,
+      "Culture": 2875,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5203,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 346,
+      "endSec": 472,
+      "durationSec": 126,
+      "topic": "Unterwegs auf Tour",
+      "fineSubject": "Tour",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 472,
+      "endSec": 1030,
+      "durationSec": 558,
+      "topic": "Aus dem Labor",
+      "fineSubject": "Laboratory",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1030,
+      "endSec": 1232,
+      "durationSec": 202,
+      "topic": "Stadtteilwanderung",
+      "fineSubject": "Neighborhood Walk",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1232,
+      "endSec": 2665,
+      "durationSec": 1433,
+      "topic": "Thema 1: “Es klappert wieder am rauschenden Bach”",
+      "fineSubject": "Folklore",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 2665,
+      "endSec": 3661,
+      "durationSec": 996,
+      "topic": "Snackable Science",
+      "fineSubject": "Snackable Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 3661,
+      "endSec": 4435,
+      "durationSec": 774,
+      "topic": "Thema 2: \"Alles ist 0\"",
+      "fineSubject": "Binary",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 4435,
+      "endSec": 5549,
+      "durationSec": 1114,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Misinformation",
+      "topicIndex": 6
+    }
+  ]
+}

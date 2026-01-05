@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 362,
+  "title": "LNP362 Unkontrolliertes Jekami",
+  "generatedAt": "2026-01-05T15:17:57.622Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2961278586278586,
+      "Technology": 0.11122661122661123,
+      "Law": 0.5926455301455301,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2279,
+      "Technology": 856,
+      "Law": 4561,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 4,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7696,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 299,
+      "endSec": 1619,
+      "durationSec": 1320,
+      "topic": "Patrick Breyer",
+      "fineSubject": "Political Figures",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1620,
+      "endSec": 3509,
+      "durationSec": 1889,
+      "topic": "Terreg (Terror Upload Filter)",
+      "fineSubject": "Content Regulation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 3509,
+      "endSec": 4596,
+      "durationSec": 1087,
+      "topic": "DSA (Digital Services Act)",
+      "fineSubject": "Digital Services",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 4597,
+      "endSec": 5773,
+      "durationSec": 1176,
+      "topic": "e-Privacy Derogation",
+      "fineSubject": "Privacy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 5773,
+      "endSec": 6182,
+      "durationSec": 409,
+      "topic": "Urheberrechtsreform",
+      "fineSubject": "Copyright",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6183,
+      "endSec": 7039,
+      "durationSec": 856,
+      "topic": "Huawei-Ban",
+      "fineSubject": "Telecommunications",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7039,
+      "endSec": 7488,
+      "durationSec": 449,
+      "topic": "Wahlsoftware in der Schweiz",
+      "fineSubject": "Voting Technology",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7489,
+      "endSec": 7879,
+      "durationSec": 390,
+      "topic": "Remote Voting im EU-Parlament",
+      "fineSubject": "Voting Systems",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7879,
+      "endSec": 7999,
+      "durationSec": 120,
+      "topic": "Beteiligungsplattformen",
+      "fineSubject": "Participation Platforms",
+      "topicIndex": 8
+    }
+  ]
+}

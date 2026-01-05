@@ -1,0 +1,315 @@
+{
+  "episodeNumber": 237,
+  "title": "FS237 Nicht genug Eierstöcke im Team",
+  "generatedAt": "2026-01-05T15:17:51.103Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.9473233070988857,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.05267669290111431,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 12157,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 676,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 27,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 2,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12833,
+    "totalTopics": 34
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 872,
+      "endSec": 1179,
+      "durationSec": 307,
+      "topic": "@monkeydom",
+      "fineSubject": "Social Media Handle",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1180,
+      "endSec": 1527,
+      "durationSec": 347,
+      "topic": "WWDC: Keynote",
+      "fineSubject": "WWDC Keynote",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1527,
+      "endSec": 3379,
+      "durationSec": 1852,
+      "topic": "WWDC: Mac Pro",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3380,
+      "endSec": 4666,
+      "durationSec": 1286,
+      "topic": "WWDC: Pro Display XDR",
+      "fineSubject": "Pro Display XDR",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4666,
+      "endSec": 4742,
+      "durationSec": 76,
+      "topic": "Apple Keyboards",
+      "fineSubject": "Apple Keyboards",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4743,
+      "endSec": 5108,
+      "durationSec": 365,
+      "topic": "Mac Pro Anwendungsfälle",
+      "fineSubject": "Mac Pro Use Cases",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5108,
+      "endSec": 5339,
+      "durationSec": 231,
+      "topic": "Audio Devices",
+      "fineSubject": "Audio Devices",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5339,
+      "endSec": 6036,
+      "durationSec": 697,
+      "topic": "tvOS 13",
+      "fineSubject": "tvOS 13",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6037,
+      "endSec": 6183,
+      "durationSec": 146,
+      "topic": "iOS 13",
+      "fineSubject": "iOS 13",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6184,
+      "endSec": 6464,
+      "durationSec": 280,
+      "topic": "Dark Mode und Night Shift",
+      "fineSubject": "Dark Mode",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6465,
+      "endSec": 6624,
+      "durationSec": 159,
+      "topic": "CarPlay",
+      "fineSubject": "CarPlay",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Social",
+      "startSec": 6624,
+      "endSec": 6993,
+      "durationSec": 369,
+      "topic": "Make International Pro Again",
+      "fineSubject": "International Relations",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6993,
+      "endSec": 7105,
+      "durationSec": 112,
+      "topic": "Keyboard Swiping",
+      "fineSubject": "Keyboard Swiping",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7106,
+      "endSec": 7183,
+      "durationSec": 77,
+      "topic": "Machine Learning für Share Sheets",
+      "fineSubject": "Share Sheets",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7184,
+      "endSec": 7771,
+      "durationSec": 587,
+      "topic": "Maps und Location Services",
+      "fineSubject": "Maps and Location Services",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7771,
+      "endSec": 8220,
+      "durationSec": 449,
+      "topic": "Sign In With Apple",
+      "fineSubject": "Sign In With Apple",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8220,
+      "endSec": 8280,
+      "durationSec": 60,
+      "topic": "RIP 3D Touch",
+      "fineSubject": "3D Touch",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8280,
+      "endSec": 8609,
+      "durationSec": 329,
+      "topic": "Siri",
+      "fineSubject": "Siri",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8610,
+      "endSec": 9700,
+      "durationSec": 1090,
+      "topic": "iPad OS",
+      "fineSubject": "iPad OS",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11903,
+      "endSec": 12090,
+      "durationSec": 187,
+      "topic": "Kopfhörer im Wasser",
+      "fineSubject": "Waterproof Headphones",
+      "topicIndex": 22
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12630,
+      "endSec": 12854,
+      "durationSec": 224,
+      "topic": "Große Bildschirme",
+      "fineSubject": "Large Screens",
+      "topicIndex": 24
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12854,
+      "endSec": 13180,
+      "durationSec": 326,
+      "topic": "iOS und RFID",
+      "fineSubject": "iOS and RFID",
+      "topicIndex": 25
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13180,
+      "endSec": 13806,
+      "durationSec": 626,
+      "topic": "System Extensions und DriverKit",
+      "fineSubject": "System Extensions",
+      "topicIndex": 26
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13807,
+      "endSec": 14177,
+      "durationSec": 370,
+      "topic": "APFS Volume Groups",
+      "fineSubject": "APFS Volume Groups",
+      "topicIndex": 27
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14177,
+      "endSec": 14303,
+      "durationSec": 126,
+      "topic": "APFS Volume Replication",
+      "fineSubject": "APFS Volume Replication",
+      "topicIndex": 28
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14303,
+      "endSec": 14718,
+      "durationSec": 415,
+      "topic": "macOS Catalina",
+      "fineSubject": "macOS Catalina",
+      "topicIndex": 29
+    },
+    {
+      "subject": "Technology",
+      "startSec": 14719,
+      "endSec": 15145,
+      "durationSec": 426,
+      "topic": "Security und Notarization",
+      "fineSubject": "Notarization",
+      "topicIndex": 30
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15145,
+      "endSec": 15471,
+      "durationSec": 326,
+      "topic": "Sidecar und Find My",
+      "fineSubject": "Sidecar",
+      "topicIndex": 31
+    },
+    {
+      "subject": "Technology",
+      "startSec": 15471,
+      "endSec": 16459,
+      "durationSec": 988,
+      "topic": "Catalyst",
+      "fineSubject": "Catalyst",
+      "topicIndex": 32
+    }
+  ]
+}

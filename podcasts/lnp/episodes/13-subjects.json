@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 13,
+  "title": "LNP013 L’Entartement du Monde",
+  "generatedAt": "2026-01-05T15:17:57.573Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.6341085271317829,
+      "Technology": 0,
+      "Law": 0.36589147286821705,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1636,
+      "Technology": 0,
+      "Law": 944,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2580,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 43,
+      "endSec": 488,
+      "durationSec": 445,
+      "topic": "ACTA in Osteuropa",
+      "fineSubject": "International Relations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 488,
+      "endSec": 906,
+      "durationSec": 418,
+      "topic": "Berufungsanhörung Julian Assange",
+      "fineSubject": "Human Rights",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 907,
+      "endSec": 1091,
+      "durationSec": 184,
+      "topic": "Bradley Manning wird vor Militärgericht gestellt",
+      "fineSubject": "Military Justice",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Law",
+      "startSec": 1091,
+      "endSec": 1433,
+      "durationSec": 342,
+      "topic": "Urteil gegen Piratebay-Gründer rechtskräftig",
+      "fineSubject": "Copyright",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1433,
+      "endSec": 2624,
+      "durationSec": 1191,
+      "topic": "Telecomix, Guttenberg und die Torte",
+      "fineSubject": "Media",
+      "topicIndex": 4
+    }
+  ]
+}

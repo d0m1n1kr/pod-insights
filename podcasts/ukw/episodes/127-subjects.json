@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 127,
+  "title": "UKW127 Ukraine: Krisenhafte Anpassungserscheinungen",
+  "generatedAt": "2026-01-05T15:18:03.033Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.9519783564423402,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0.04802164355765979,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 5630,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 284,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 9,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 1,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 5914,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 133,
+      "endSec": 725,
+      "durationSec": 592,
+      "topic": "Militärische Entwicklung",
+      "fineSubject": "Military Development",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 726,
+      "endSec": 1050,
+      "durationSec": 324,
+      "topic": "Nordkoreanische Soldaten an der Front",
+      "fineSubject": "International Relations",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1051,
+      "endSec": 1341,
+      "durationSec": 290,
+      "topic": "Zelenskys Siegesplan",
+      "fineSubject": "Leadership Strategies",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1342,
+      "endSec": 1579,
+      "durationSec": 237,
+      "topic": "Die US-Wahl",
+      "fineSubject": "Elections",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1579,
+      "endSec": 1814,
+      "durationSec": 235,
+      "topic": "Was wird Trump tun?",
+      "fineSubject": "Political Actions",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1814,
+      "endSec": 2685,
+      "durationSec": 871,
+      "topic": "Plan für Friedensverhandlungen",
+      "fineSubject": "Peace Negotiations",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2686,
+      "endSec": 3865,
+      "durationSec": 1179,
+      "topic": "Die Reaktion Europas",
+      "fineSubject": "International Response",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3865,
+      "endSec": 5221,
+      "durationSec": 1356,
+      "topic": "Innenpolitische Folgen in den USA",
+      "fineSubject": "Domestic Politics",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Economics",
+      "startSec": 5222,
+      "endSec": 5506,
+      "durationSec": 284,
+      "topic": "Wirtschaftliche Folgen",
+      "fineSubject": "Economic Impact",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5506,
+      "endSec": 6052,
+      "durationSec": 546,
+      "topic": "Andere Konflikte",
+      "fineSubject": "Global Conflicts",
+      "topicIndex": 9
+    }
+  ]
+}

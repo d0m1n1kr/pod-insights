@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 135,
+  "title": "UKW135 Ukraine: Ausgerechnet Alaska",
+  "generatedAt": "2026-01-05T15:18:03.035Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.36163069544364507,
+      "Military": 0.5008792965627498,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0.1374900079936051,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2262,
+      "Military": 3133,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 860,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 4,
+      "Military": 6,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 1,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6255,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Military",
+      "startSec": 91,
+      "endSec": 740,
+      "durationSec": 649,
+      "topic": "Militärische Situation am Boden",
+      "fineSubject": "Military / Ground Operations",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 741,
+      "endSec": 1554,
+      "durationSec": 813,
+      "topic": "Neue Taktiken",
+      "fineSubject": "Military / New Tactics",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Military",
+      "startSec": 1554,
+      "endSec": 2389,
+      "durationSec": 835,
+      "topic": "Kampfflugzeuge",
+      "fineSubject": "Military / Fighter Jets",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 2390,
+      "endSec": 2807,
+      "durationSec": 417,
+      "topic": "Interceptor-Drohnen",
+      "fineSubject": "Military / Interceptor Drones",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Military",
+      "startSec": 2807,
+      "endSec": 2989,
+      "durationSec": 182,
+      "topic": "Bodendrohnen",
+      "fineSubject": "Military / Ground Drones",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 2990,
+      "endSec": 3227,
+      "durationSec": 237,
+      "topic": "Waffentechnik",
+      "fineSubject": "Military / Weapon Technology",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3228,
+      "endSec": 3708,
+      "durationSec": 480,
+      "topic": "Anti-Korruptions-Gesetz UA",
+      "fineSubject": "Politics / Anti-Corruption Law",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Economy",
+      "startSec": 3708,
+      "endSec": 4568,
+      "durationSec": 860,
+      "topic": "Russische Wirtschaft und Sanktionen",
+      "fineSubject": "Economy / Russian Economy",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4568,
+      "endSec": 5023,
+      "durationSec": 455,
+      "topic": "US-Regierung dysfuntktional",
+      "fineSubject": "Politics / US Government",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5024,
+      "endSec": 5432,
+      "durationSec": 408,
+      "topic": "Taco-Trumps 50-Tage-Ultimatum",
+      "fineSubject": "Politics / Taco-Trump's Ultimatum",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5433,
+      "endSec": 6352,
+      "durationSec": 919,
+      "topic": "Trump-Putin-Treffen in Alaska",
+      "fineSubject": "Politics / Trump-Putin Meeting",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 284,
+  "title": "Mi284 – \"Digitales Leadmanagement\"",
+  "generatedAt": "2026-01-05T15:18:17.382Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0,
+      "Culture": 0.11555420404439715,
+      "Wissenschaft": 0.09350767827276874,
+      "Health": 0.04029192641021742,
+      "Technology": 0,
+      "Technologie": 0.09533221833662764,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0.655313972935989,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 760,
+      "Wissenschaft": 615,
+      "Health": 265,
+      "Technology": 0,
+      "Technologie": 627,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 4310,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 0,
+      "Culture": 1,
+      "Wissenschaft": 2,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 1,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 3,
+      "Biology": 0
+    },
+    "totalDurationSec": 6577,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 1058,
+      "endSec": 1818,
+      "durationSec": 760,
+      "topic": "Stars of the Galaxy",
+      "fineSubject": "Popkultur",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 1818,
+      "endSec": 2225,
+      "durationSec": 407,
+      "topic": "behind science",
+      "fineSubject": "Forschung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 2225,
+      "endSec": 2852,
+      "durationSec": 627,
+      "topic": "A40",
+      "fineSubject": "Fahrzeuge",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2852,
+      "endSec": 3117,
+      "durationSec": 265,
+      "topic": "Audiokommentar Jonas zu Zulassung Medizinprodukt",
+      "fineSubject": "Medizinprodukte",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 3117,
+      "endSec": 4487,
+      "durationSec": 1370,
+      "topic": "Thema 1: “An der Nase eines Mannes …”",
+      "fineSubject": "Kultur",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 4487,
+      "endSec": 4695,
+      "durationSec": 208,
+      "topic": "Snackable Science: Fortpflanzung der Feige",
+      "fineSubject": "Biologie",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 4695,
+      "endSec": 6374,
+      "durationSec": 1679,
+      "topic": "Thema 2: \"Auf die Größe kommt es an\"",
+      "fineSubject": "Kultur",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 6374,
+      "endSec": 7635,
+      "durationSec": 1261,
+      "topic": "Schwurbel: Betanztes Brot",
+      "fineSubject": "Kultur",
+      "topicIndex": 8
+    }
+  ]
+}

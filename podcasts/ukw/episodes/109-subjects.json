@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 109,
+  "title": "UKW109 Ukraine: Mentaler Einmarsch",
+  "generatedAt": "2026-01-05T15:18:03.028Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 1,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 6157,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 7,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6157,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 160,
+      "endSec": 769,
+      "durationSec": 609,
+      "topic": "Militärische Lage",
+      "fineSubject": "Military Situation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 770,
+      "endSec": 1638,
+      "durationSec": 868,
+      "topic": "Waffenlieferungen",
+      "fineSubject": "Arms Deliveries",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1638,
+      "endSec": 2577,
+      "durationSec": 939,
+      "topic": "Leopard-Panzer",
+      "fineSubject": "Military Equipment",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2578,
+      "endSec": 3786,
+      "durationSec": 1208,
+      "topic": "Unterstützung durch den Westen",
+      "fineSubject": "Western Support",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3787,
+      "endSec": 4955,
+      "durationSec": 1168,
+      "topic": "Worum geht es eigentlich?",
+      "fineSubject": "Context",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5453,
+      "endSec": 6532,
+      "durationSec": 1079,
+      "topic": "Die NordStream-These von Seymour Hersh",
+      "fineSubject": "NordStream Theory",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6533,
+      "endSec": 6819,
+      "durationSec": 286,
+      "topic": "Ausblick",
+      "fineSubject": "Outlook",
+      "topicIndex": 7
+    }
+  ]
+}

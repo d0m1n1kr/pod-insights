@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 231,
+  "title": "LNP231 Chronische Bitknappheit",
+  "generatedAt": "2026-01-05T15:17:57.604Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.4199616122840691,
+      "Technology": 0.18886756238003838,
+      "Law": 0.03838771593090211,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.3527831094049904,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1094,
+      "Technology": 492,
+      "Law": 100,
+      "Security": 0,
+      "Social": 0,
+      "Media": 919,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2605,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 944,
+      "endSec": 1248,
+      "durationSec": 304,
+      "topic": "Ausfälle bei der Wahlerfassung",
+      "fineSubject": "Election",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1249,
+      "endSec": 1741,
+      "durationSec": 492,
+      "topic": "G20: Akkreditierungen",
+      "fineSubject": "Accreditation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1741,
+      "endSec": 2660,
+      "durationSec": 919,
+      "topic": "G20: Video-Ausweritung",
+      "fineSubject": "Video Analysis",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2660,
+      "endSec": 3152,
+      "durationSec": 492,
+      "topic": "Vodafone Pass bricht Netzneutralität",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3677,
+      "endSec": 3834,
+      "durationSec": 157,
+      "topic": "EU: Piraterie-Studie versteckt",
+      "fineSubject": "Piracy",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3835,
+      "endSec": 3976,
+      "durationSec": 141,
+      "topic": "Generalbundesanwalt beendet NSA-Affäre nach 4 Jahren",
+      "fineSubject": "NSA",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3976,
+      "endSec": 4076,
+      "durationSec": 100,
+      "topic": "Aktivist verurteilt, weil er Passwort nicht rausgibt",
+      "fineSubject": "Privacy",
+      "topicIndex": 7
+    }
+  ]
+}

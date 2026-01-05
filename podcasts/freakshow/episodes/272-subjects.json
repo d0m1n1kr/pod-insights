@@ -1,0 +1,189 @@
+{
+  "episodeNumber": 272,
+  "title": "FS272 Sorgenfreie Intelligenz",
+  "generatedAt": "2026-01-05T15:17:51.115Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.05361199454793276,
+      "Software": 0.2227775253672573,
+      "Hardware": 0.6936241102529154,
+      "Finance": 0,
+      "Media": 0.029986369831894594,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 708,
+      "Software": 2942,
+      "Hardware": 9160,
+      "Finance": 0,
+      "Media": 396,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 4,
+      "Hardware": 8,
+      "Finance": 0,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13206,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 559,
+      "endSec": 692,
+      "durationSec": 133,
+      "topic": "Roddi singt",
+      "fineSubject": "Music",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 693,
+      "endSec": 3712,
+      "durationSec": 3019,
+      "topic": "Quest 3",
+      "fineSubject": "VR Headsets",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3713,
+      "endSec": 4661,
+      "durationSec": 948,
+      "topic": "Beeper Mini",
+      "fineSubject": "Wearables",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4662,
+      "endSec": 6037,
+      "durationSec": 1375,
+      "topic": "Fahrräder und AirTags",
+      "fineSubject": "Tracking Devices",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6038,
+      "endSec": 7035,
+      "durationSec": 997,
+      "topic": "Neuer Mac Studio und Monitor",
+      "fineSubject": "Computers",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 7035,
+      "endSec": 7569,
+      "durationSec": 534,
+      "topic": "Lunar Pro und MonitorControl",
+      "fineSubject": "Display Management",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 7570,
+      "endSec": 7948,
+      "durationSec": 378,
+      "topic": "SoundSource",
+      "fineSubject": "Audio Management",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 7949,
+      "endSec": 9809,
+      "durationSec": 1860,
+      "topic": "Remote Control auf dem Mac",
+      "fineSubject": "Remote Control",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9809,
+      "endSec": 10517,
+      "durationSec": 708,
+      "topic": "Tailscale",
+      "fineSubject": "VPN",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 11746,
+      "endSec": 11916,
+      "durationSec": 170,
+      "topic": "ShowMIDI und MIDIMonitor",
+      "fineSubject": "MIDI Tools",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 11916,
+      "endSec": 12471,
+      "durationSec": 555,
+      "topic": "Flipper Zero",
+      "fineSubject": "Devices",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12472,
+      "endSec": 12885,
+      "durationSec": 413,
+      "topic": "USB-C Ladegeräte-Wahnsinn",
+      "fineSubject": "Charging Accessories",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 12886,
+      "endSec": 13369,
+      "durationSec": 483,
+      "topic": "Thermokleidung und USB und Akku",
+      "fineSubject": "Clothing",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13370,
+      "endSec": 14740,
+      "durationSec": 1370,
+      "topic": "Staubsaugerroboter",
+      "fineSubject": "Home Appliances",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 14976,
+      "endSec": 15239,
+      "durationSec": 263,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 15
+    }
+  ]
+}

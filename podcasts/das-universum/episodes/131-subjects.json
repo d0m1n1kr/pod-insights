@@ -1,0 +1,128 @@
+{
+  "episodeNumber": 131,
+  "title": "DU131 - Zeitreisen im rotierenden Universum",
+  "generatedAt": "2026-01-05T15:18:22.110Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0.7920025798129635,
+      "Raumfahrt": 0.0032247662044501773,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0.20477265398258626,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 4912,
+      "Raumfahrt": 20,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 1270,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 5,
+      "Raumfahrt": 1,
+      "Kultur": 1,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 1,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 6202,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Raumfahrt",
+      "startSec": 0,
+      "endSec": 20,
+      "durationSec": 20,
+      "topic": "Sparpläne der NASA",
+      "fineSubject": "NASA",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 1683,
+      "durationSec": 1683,
+      "topic": "Das Ende des Universums",
+      "fineSubject": "Kosmologie",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Physik",
+      "startSec": 0,
+      "endSec": 1270,
+      "durationSec": 1270,
+      "topic": "Hawking-Strahlung",
+      "fineSubject": "Schwarze Löcher",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1230,
+      "endSec": 4019,
+      "durationSec": 2789,
+      "topic": "Hörerfragen zur Oortschen Wolke",
+      "fineSubject": "Oortsche Wolke",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 3979,
+      "endSec": 4281,
+      "durationSec": 302,
+      "topic": "Lagrange-Punkte",
+      "fineSubject": "Gravitationsfelder",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 4241,
+      "endSec": 4379,
+      "durationSec": 138,
+      "topic": "Lunarstationäre Umlaufbahn",
+      "fineSubject": "Umlaufbahnen",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Zeitreisen im rotierenden Universum",
+      "fineSubject": "Zeitreisen",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Kultur",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Film 'Agora' und Astronomie",
+      "fineSubject": "Film",
+      "topicIndex": 8,
+      "untimed": true
+    }
+  ]
+}

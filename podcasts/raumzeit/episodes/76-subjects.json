@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 76,
+  "title": "RZ076 Der Gaia-Sternkatalog",
+  "generatedAt": "2026-01-05T15:18:06.283Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.2704286154794943,
+      "Astronomie": 0.5892691951896393,
+      "Wissenschaft": 0.1403021893308665,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 1754,
+      "Astronomie": 3822,
+      "Wissenschaft": 910,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 1,
+      "Astronomie": 2,
+      "Wissenschaft": 1,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 6486,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 17,
+      "endSec": 1771,
+      "durationSec": 1754,
+      "topic": "Gaia-Sternkatalog",
+      "fineSubject": "Sternkataloge",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 17,
+      "endSec": 1771,
+      "durationSec": 1754,
+      "topic": "Raumsonde Gaia",
+      "fineSubject": "Raumsonden",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Wissenschaft",
+      "startSec": 17,
+      "endSec": 927,
+      "durationSec": 910,
+      "topic": "Astronomische Forschung",
+      "fineSubject": "Astrophysik",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1291,
+      "endSec": 3359,
+      "durationSec": 2068,
+      "topic": "Daten über Sterne",
+      "fineSubject": "Sternbewegung",
+      "topicIndex": 1
+    }
+  ]
+}

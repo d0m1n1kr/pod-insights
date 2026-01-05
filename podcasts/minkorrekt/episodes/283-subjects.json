@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 283,
+  "title": "Mi283 – \"Unterhaltungsmathematik\"",
+  "generatedAt": "2026-01-05T15:18:17.381Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.383587387763625,
+      "Culture": 0.05846732094382961,
+      "Wissenschaft": 0,
+      "Health": 0.19189809981206932,
+      "Technology": 0.3660471914804761,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1837,
+      "Culture": 280,
+      "Wissenschaft": 0,
+      "Health": 919,
+      "Technology": 1753,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4789,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 253,
+      "endSec": 1330,
+      "durationSec": 1077,
+      "topic": "Technikfaszination",
+      "fineSubject": "Fascination",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1330,
+      "endSec": 1610,
+      "durationSec": 280,
+      "topic": "Dr. Whatson live",
+      "fineSubject": "Live Events",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1610,
+      "endSec": 2286,
+      "durationSec": 676,
+      "topic": "Software Audacity",
+      "fineSubject": "Audio Editing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2286,
+      "endSec": 3795,
+      "durationSec": 1509,
+      "topic": "Thema 1: “Diamantregen”",
+      "fineSubject": "Thematic Exploration",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3795,
+      "endSec": 4123,
+      "durationSec": 328,
+      "topic": "Experiment",
+      "fineSubject": "Experiments",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 4123,
+      "endSec": 5042,
+      "durationSec": 919,
+      "topic": "Thema 2: \"Druck auf der Hüfte\"",
+      "fineSubject": "Physical Pressure",
+      "topicIndex": 5
+    }
+  ]
+}

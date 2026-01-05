@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 116,
+  "title": "FS116 Raus mit der Erratik",
+  "generatedAt": "2026-01-05T15:17:51.073Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.9015855658829962,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.09841443411700383,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 4947,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 540,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 2,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 5487,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 0,
+      "endSec": 540,
+      "durationSec": 540,
+      "topic": "Webseitenschließungen aufgrund von Datenspionage",
+      "fineSubject": "Privacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2313,
+      "endSec": 4194,
+      "durationSec": 1881,
+      "topic": "Apple",
+      "fineSubject": "Apple",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6085,
+      "endSec": 9151,
+      "durationSec": 3066,
+      "topic": "Hardware",
+      "fineSubject": "Hardware",
+      "topicIndex": 3
+    }
+  ]
+}

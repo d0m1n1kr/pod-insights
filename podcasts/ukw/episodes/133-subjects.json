@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 133,
+  "title": "UKW133 Ukraine: Wir sind nicht für die Sicherheit der Besucher der russischen Militärparade zuständig",
+  "generatedAt": "2026-01-05T15:18:03.034Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 0,
+      "Politics": 0.27397608750953956,
+      "Military": 0.3748410073772577,
+      "Technology": 0.10073772576952429,
+      "Economics": 0.17718137878402443,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0.05176799796489443,
+      "Travel": 0.021495802594759604,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 0,
+      "Politics": 2154,
+      "Military": 2947,
+      "Technology": 792,
+      "Economics": 1393,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 407,
+      "Travel": 169,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 0,
+      "Politics": 3,
+      "Military": 4,
+      "Technology": 1,
+      "Economics": 2,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 1,
+      "Travel": 1,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 7862,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Travel",
+      "startSec": 86,
+      "endSec": 255,
+      "durationSec": 169,
+      "topic": "Rundreise durch die USA",
+      "fineSubject": "USA",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Military",
+      "startSec": 255,
+      "endSec": 1179,
+      "durationSec": 924,
+      "topic": "Militärische Situation",
+      "fineSubject": "Situation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Society",
+      "startSec": 1180,
+      "endSec": 1587,
+      "durationSec": 407,
+      "topic": "Siegesfeiern zum 9. Mai",
+      "fineSubject": "Victory Celebrations",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Military",
+      "startSec": 1588,
+      "endSec": 1866,
+      "durationSec": 278,
+      "topic": "Rückzug aus Kursk",
+      "fineSubject": "Retreat",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1867,
+      "endSec": 2659,
+      "durationSec": 792,
+      "topic": "Drohnen-Technologie",
+      "fineSubject": "Drones",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Military",
+      "startSec": 2659,
+      "endSec": 3508,
+      "durationSec": 849,
+      "topic": "Neue Flugzeug- und Luftabwehrsysteme",
+      "fineSubject": "Aircraft and Defense Systems",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 3509,
+      "endSec": 4218,
+      "durationSec": 709,
+      "topic": "Pete Hegseths Fuckups",
+      "fineSubject": "Media",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4219,
+      "endSec": 5272,
+      "durationSec": 1053,
+      "topic": "Trumps „Friedensverhandlungen“",
+      "fineSubject": "Negotiations",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Economics",
+      "startSec": 5272,
+      "endSec": 5655,
+      "durationSec": 383,
+      "topic": "Der USA/UA-„Rohstoffdeal\"",
+      "fineSubject": "Resource Deals",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Economics",
+      "startSec": 5656,
+      "endSec": 6666,
+      "durationSec": 1010,
+      "topic": "Trumps Zoll-Politik stellt die Welt neu auf",
+      "fineSubject": "Trade Policy",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Military",
+      "startSec": 6667,
+      "endSec": 7563,
+      "durationSec": 896,
+      "topic": "Auswirkungen auf die Sicherheitsarchitektur",
+      "fineSubject": "Architecture",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7564,
+      "endSec": 7956,
+      "durationSec": 392,
+      "topic": "Neue Allianzen in Europa und der Welt",
+      "fineSubject": "Alliances",
+      "topicIndex": 11
+    }
+  ]
+}

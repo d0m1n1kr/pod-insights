@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 164,
+  "title": "CRE164 Urheberrecht",
+  "generatedAt": "2026-01-05T15:17:54.385Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0.2222222222222222,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0.1111111111111111,
+      "Politics": 0.6666666666666666,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0,
+      "Media": 2,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 1,
+      "Politics": 6,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Urheberrecht und digitale Rechte",
+      "fineSubject": "Urheberrecht",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Entstehungsgeschichte des Urheberrechts",
+      "fineSubject": "Geschichte",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Journalismus und Urheberrecht",
+      "fineSubject": "Journalismus",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Bedeutung des Urheberrechts im 21. Jahrhundert",
+      "fineSubject": "Aktuelle Entwicklungen",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Technologie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kopierschutzmaßnahmen",
+      "fineSubject": "Kopierschutz",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Open Access und alternative Verwertungswege",
+      "fineSubject": "Verwertung",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Verwertungsgesellschaften",
+      "fineSubject": "Rechtewahrnehmung",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Globale Harmonisierung des Urheberrechts",
+      "fineSubject": "Internationale Abkommen",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Politics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Privatkopie als Schranke des Urheberrechts",
+      "fineSubject": "Nutzungsrechte",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

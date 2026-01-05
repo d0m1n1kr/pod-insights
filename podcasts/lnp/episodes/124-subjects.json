@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 124,
+  "title": "LNP124 Honi Soit Qui Mal Y Pense",
+  "generatedAt": "2026-01-05T15:17:57.591Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.0911214953271028,
+      "Technology": 0.6243509865005192,
+      "Law": 0.1949636552440291,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.0895638629283489,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 351,
+      "Technology": 2405,
+      "Law": 751,
+      "Security": 0,
+      "Social": 0,
+      "Media": 345,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3852,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 222,
+      "endSec": 1985,
+      "durationSec": 1763,
+      "topic": "Zerschlagt Google!",
+      "fineSubject": "Privacy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1985,
+      "endSec": 2336,
+      "durationSec": 351,
+      "topic": "BND und Bundesregierung wissen seit 2005 Bescheid",
+      "fineSubject": "Government",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 2337,
+      "endSec": 3088,
+      "durationSec": 751,
+      "topic": "Strafanzeige der Bundesregierung gegen unbekannt",
+      "fineSubject": "Legal Actions",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3088,
+      "endSec": 3730,
+      "durationSec": 642,
+      "topic": "Berlin: Benachrichtigung bei Funkzellenabfrage",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 3730,
+      "endSec": 4075,
+      "durationSec": 345,
+      "topic": "Glenn Greenwald will Snowden-Dokumente anderen Journalisten zur Verfügung stellen",
+      "fineSubject": "Journalism",
+      "topicIndex": 4
+    }
+  ]
+}

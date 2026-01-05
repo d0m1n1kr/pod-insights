@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 335,
+  "title": "LNP335 Nicht informationsaffin",
+  "generatedAt": "2026-01-05T15:17:57.618Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.287602382725242,
+      "Technology": 0.22338049143708116,
+      "Law": 0,
+      "Security": 0.020662695457930008,
+      "Social": 0.05547282204020849,
+      "Media": 0.11969471332836933,
+      "Health": 0.21816827997021593,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.07501861504095308,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1545,
+      "Technology": 1200,
+      "Law": 0,
+      "Security": 111,
+      "Social": 298,
+      "Media": 643,
+      "Health": 1172,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 403,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 3,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 1,
+      "Social": 1,
+      "Media": 1,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5372,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 37,
+      "endSec": 1066,
+      "durationSec": 1029,
+      "topic": "Corona-Situation",
+      "fineSubject": "Pandemic",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1067,
+      "endSec": 1210,
+      "durationSec": 143,
+      "topic": "Feedback: Umgang mit Quarantäne",
+      "fineSubject": "Quarantine",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1210,
+      "endSec": 1256,
+      "durationSec": 46,
+      "topic": "Feedback: Auswirkung auf die Demokratie",
+      "fineSubject": "Democracy",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1257,
+      "endSec": 1900,
+      "durationSec": 643,
+      "topic": "Feedback: Corona Fake News",
+      "fineSubject": "Misinformation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1901,
+      "endSec": 2083,
+      "durationSec": 182,
+      "topic": "Videokonferenzen und Ferntherapie",
+      "fineSubject": "Telecommunication",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 2083,
+      "endSec": 2381,
+      "durationSec": 298,
+      "topic": "Nachbarschaftshilfe und Hackathons",
+      "fineSubject": "Support",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2381,
+      "endSec": 3409,
+      "durationSec": 1028,
+      "topic": "Netzpolitische Dimensionen der Covid-19-Krise",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 3410,
+      "endSec": 3521,
+      "durationSec": 111,
+      "topic": "Ransomware-Waffenstillstand",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3522,
+      "endSec": 4374,
+      "durationSec": 852,
+      "topic": "Netzneutralität in Zeiten der Krise",
+      "fineSubject": "Internet",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4374,
+      "endSec": 4540,
+      "durationSec": 166,
+      "topic": "Gebt das Datenvolumen frei",
+      "fineSubject": "Data Usage",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 4540,
+      "endSec": 4943,
+      "durationSec": 403,
+      "topic": "Verwendung von Bewegungsprofilen",
+      "fineSubject": "Data Tracking",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4944,
+      "endSec": 5415,
+      "durationSec": 471,
+      "topic": "Covid-19 Gesetzesverschärfungen in Österreich",
+      "fineSubject": "Legislation",
+      "topicIndex": 11
+    }
+  ]
+}

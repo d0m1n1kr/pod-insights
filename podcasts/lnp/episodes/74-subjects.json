@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 74,
+  "title": "LNP074 Politische Reise nach Jerusalem",
+  "generatedAt": "2026-01-05T15:17:57.583Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.8897357723577236,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.09730691056910569,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0.012957317073170731,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3502,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 383,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 51,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 6,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3936,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 1160,
+      "endSec": 1242,
+      "durationSec": 82,
+      "topic": "Errata LNP073",
+      "fineSubject": "Corrections",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4315,
+      "endSec": 4772,
+      "durationSec": 457,
+      "topic": "Edward Snowden",
+      "fineSubject": "Whistleblowers",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4772,
+      "endSec": 7268,
+      "durationSec": 2496,
+      "topic": "NSA-Skandal Update",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7268,
+      "endSec": 7424,
+      "durationSec": 156,
+      "topic": "Netzneutralitäts-Verordnung",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7425,
+      "endSec": 7622,
+      "durationSec": 197,
+      "topic": "Urteil Bradley Manning",
+      "fineSubject": "Legal Cases",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7622,
+      "endSec": 7736,
+      "durationSec": 114,
+      "topic": "E-Government-Gesetz in Kraft",
+      "fineSubject": "E-Government",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 7737,
+      "endSec": 7788,
+      "durationSec": 51,
+      "topic": "C3S erreicht 50k€",
+      "fineSubject": "Crowdfunding",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 7821,
+      "endSec": 8204,
+      "durationSec": 383,
+      "topic": "Hacking is not allow in the Netherlands",
+      "fineSubject": "Hacking",
+      "topicIndex": 8
+    }
+  ]
+}

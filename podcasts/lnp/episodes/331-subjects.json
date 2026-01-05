@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 331,
+  "title": "LNP331 Kritische Infrastruktur",
+  "generatedAt": "2026-01-05T15:17:57.618Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.35034106412005456,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0.5500682128240109,
+      "Social": 0.09959072305593451,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1284,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 2016,
+      "Social": 365,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 2,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3665,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 1284,
+      "endSec": 1874,
+      "durationSec": 590,
+      "topic": "DefensiveCon",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 3216,
+      "endSec": 4642,
+      "durationSec": 1426,
+      "topic": "Gefahren für Infratruktur",
+      "fineSubject": "Threats",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4643,
+      "endSec": 5927,
+      "durationSec": 1284,
+      "topic": "Die Digitalisierung und die Politik",
+      "fineSubject": "Digitalization",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Social",
+      "startSec": 7086,
+      "endSec": 7451,
+      "durationSec": 365,
+      "topic": "Mithelfen",
+      "fineSubject": "Participation",
+      "topicIndex": 8
+    }
+  ]
+}

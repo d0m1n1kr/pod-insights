@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 151,
+  "title": "LNP151 Lesezirkel im Keller",
+  "generatedAt": "2026-01-05T15:17:57.594Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.5388973632599695,
+      "Technology": 0.3146655044672042,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.14643713227282631,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2473,
+      "Technology": 1444,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 672,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4589,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 566,
+      "endSec": 1519,
+      "durationSec": 953,
+      "topic": "Landesverrat Update",
+      "fineSubject": "National Security",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1520,
+      "endSec": 2367,
+      "durationSec": 847,
+      "topic": "XKeyScore-Vertrag von NSA, BFV, BND",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2368,
+      "endSec": 3812,
+      "durationSec": 1444,
+      "topic": "Ashley Madison Hack",
+      "fineSubject": "Cybersecurity",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 3812,
+      "endSec": 4484,
+      "durationSec": 672,
+      "topic": "Dieter Gorny unhaltbar",
+      "fineSubject": "Public Figures",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4485,
+      "endSec": 4758,
+      "durationSec": 273,
+      "topic": "Kurt Graulich gegen VDS",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4758,
+      "endSec": 4889,
+      "durationSec": 131,
+      "topic": "Posteo gegen VDS",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4890,
+      "endSec": 5159,
+      "durationSec": 269,
+      "topic": "Heveling löst Bosbach an Spitze von Innenausschuss ab",
+      "fineSubject": "Government",
+      "topicIndex": 6
+    }
+  ]
+}

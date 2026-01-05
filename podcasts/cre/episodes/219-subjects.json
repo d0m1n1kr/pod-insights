@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 219,
+  "title": "CRE219 Partykultur",
+  "generatedAt": "2026-01-05T15:17:54.395Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 0.18266492186898622,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0.07451312447078746,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0.17465937957047187,
+      "History": 0.5681625740897545,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 2373,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 968,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 2269,
+      "History": 7381,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 0,
+      "Social": 1,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 1,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 1,
+      "History": 1,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 12991,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 59,
+      "endSec": 1027,
+      "durationSec": 968,
+      "topic": "Partykultur und Freiräume",
+      "fineSubject": "Party Culture",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 59,
+      "endSec": 2328,
+      "durationSec": 2269,
+      "topic": "Sicherheitsgefühl auf Veranstaltungen",
+      "fineSubject": "Event Safety",
+      "topicIndex": 7
+    },
+    {
+      "subject": "History",
+      "startSec": 320,
+      "endSec": 7701,
+      "durationSec": 7381,
+      "topic": "Einfluss der Maueröffnung auf die Ravekultur",
+      "fineSubject": "German History",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 3970,
+      "endSec": 6343,
+      "durationSec": 2373,
+      "topic": "Verantwortung zwischen Veranstaltern und Gästen",
+      "fineSubject": "Event Responsibility",
+      "topicIndex": 5
+    }
+  ]
+}

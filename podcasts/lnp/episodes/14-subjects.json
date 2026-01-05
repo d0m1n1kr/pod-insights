@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 14,
+  "title": "LNP014 Snake Oil",
+  "generatedAt": "2026-01-05T15:17:57.573Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.2875,
+      "Technology": 0.6820454545454545,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.030454545454545453,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1265,
+      "Technology": 3001,
+      "Law": 0,
+      "Security": 0,
+      "Social": 134,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4400,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 0,
+      "endSec": 134,
+      "durationSec": 134,
+      "topic": "Wiederauferstehung",
+      "fineSubject": "Resurrection",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 134,
+      "endSec": 1023,
+      "durationSec": 889,
+      "topic": "ACTA, ACTA, ACTA",
+      "fineSubject": "ACTA",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1024,
+      "endSec": 2181,
+      "durationSec": 1157,
+      "topic": "Datenschutz bei Mobile Apps",
+      "fineSubject": "Mobile Apps",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2181,
+      "endSec": 2557,
+      "durationSec": 376,
+      "topic": "Leak des Staatstrojaner-Datenschutzberichts",
+      "fineSubject": "Surveillance",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2558,
+      "endSec": 3633,
+      "durationSec": 1075,
+      "topic": "37 Millionen E-Mails",
+      "fineSubject": "Email",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3633,
+      "endSec": 4402,
+      "durationSec": 769,
+      "topic": "Wikileaks veröffentlicht Stratfor-E-Mails",
+      "fineSubject": "Leaks",
+      "topicIndex": 5
+    }
+  ]
+}

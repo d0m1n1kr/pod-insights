@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 112,
+  "title": "MM112 In Werbung bewegen",
+  "generatedAt": "2026-01-05T15:17:51.073Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.016196236559139786,
+      "Software": 0.6440188172043011,
+      "Hardware": 0.11263440860215054,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0.2271505376344086,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 241,
+      "Software": 9583,
+      "Hardware": 1676,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 3380,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 3,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 2,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 14880,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 775,
+      "endSec": 1016,
+      "durationSec": 241,
+      "topic": "Telekom",
+      "fineSubject": "Telekom",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Events",
+      "startSec": 1016,
+      "endSec": 3679,
+      "durationSec": 2663,
+      "topic": "Non-WWDC Premium Content",
+      "fineSubject": "Non-WWDC Content",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Events",
+      "startSec": 3679,
+      "endSec": 4396,
+      "durationSec": 717,
+      "topic": "WWDC Keynote",
+      "fineSubject": "WWDC Keynote",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 4396,
+      "endSec": 6072,
+      "durationSec": 1676,
+      "topic": "Mac Pro (Der Mülleimer)",
+      "fineSubject": "Mac Pro",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 6072,
+      "endSec": 10635,
+      "durationSec": 4563,
+      "topic": "OS X Mavericks (Sea Lion)",
+      "fineSubject": "OS X Mavericks",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 10635,
+      "endSec": 14645,
+      "durationSec": 4010,
+      "topic": "iOS 7",
+      "fineSubject": "iOS 7",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 14645,
+      "endSec": 15655,
+      "durationSec": 1010,
+      "topic": "Bugs und andere Probleme",
+      "fineSubject": "Bugs",
+      "topicIndex": 6
+    }
+  ]
+}

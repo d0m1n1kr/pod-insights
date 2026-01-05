@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 141,
+  "title": "FS141 Braunkohle essen und Benzin trinken",
+  "generatedAt": "2026-01-05T15:17:51.078Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.8609769189479335,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.13902308105206657,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 9624,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1554,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11178,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1262,
+      "endSec": 4138,
+      "durationSec": 2876,
+      "topic": "Mobile Computing",
+      "fineSubject": "Mobile Computing",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4138,
+      "endSec": 5582,
+      "durationSec": 1444,
+      "topic": "iOS 8",
+      "fineSubject": "iOS",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5582,
+      "endSec": 6249,
+      "durationSec": 667,
+      "topic": "Podlove",
+      "fineSubject": "Podlove",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8368,
+      "endSec": 11802,
+      "durationSec": 3434,
+      "topic": "Pimp my Mac",
+      "fineSubject": "Mac",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11802,
+      "endSec": 12765,
+      "durationSec": 963,
+      "topic": "Vintage Computing ist auch nichts neues",
+      "fineSubject": "Vintage Computing",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 12765,
+      "endSec": 13005,
+      "durationSec": 240,
+      "topic": "Roddis USB Leuchte",
+      "fineSubject": "USB Devices",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 13005,
+      "endSec": 14559,
+      "durationSec": 1554,
+      "topic": "Shellshock",
+      "fineSubject": "Shellshock",
+      "topicIndex": 7
+    }
+  ]
+}

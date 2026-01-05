@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 175,
+  "title": "LNP175 Dann platzt Google",
+  "generatedAt": "2026-01-05T15:17:57.596Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.1602897181546213,
+      "Technology": 0.43646669815777045,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.40324358368760826,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1018,
+      "Technology": 2772,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2561,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 2,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 6351,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 69,
+      "endSec": 2654,
+      "durationSec": 2585,
+      "topic": "Künstliche Intelligenz",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 2654,
+      "endSec": 3612,
+      "durationSec": 958,
+      "topic": "Social Plugins und Tracking",
+      "fineSubject": "Plugins and Tracking",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 3613,
+      "endSec": 5216,
+      "durationSec": 1603,
+      "topic": "Social Bot Bullshit",
+      "fineSubject": "Bots",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5216,
+      "endSec": 6234,
+      "durationSec": 1018,
+      "topic": "Schmidt macht auf Staat",
+      "fineSubject": "State Influence",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6235,
+      "endSec": 6422,
+      "durationSec": 187,
+      "topic": "Respect my net",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 4
+    }
+  ]
+}

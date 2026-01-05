@@ -1,0 +1,198 @@
+{
+  "episodeNumber": 194,
+  "title": "FS194 Cloudschmerzen",
+  "generatedAt": "2026-01-05T15:17:51.090Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.1237795796789674,
+      "Software": 0.36140989574714544,
+      "Hardware": 0.37911633294721164,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.016961773953334435,
+      "Security": 0.11873241767334106,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1496,
+      "Software": 4368,
+      "Hardware": 4582,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 205,
+      "Security": 1435,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 3,
+      "Software": 6,
+      "Hardware": 5,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12086,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 229,
+      "endSec": 1187,
+      "durationSec": 958,
+      "topic": "Pimp My Mac",
+      "fineSubject": "Mac",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 1187,
+      "endSec": 2298,
+      "durationSec": 1111,
+      "topic": "AirPods",
+      "fineSubject": "AirPods",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Software",
+      "startSec": 2298,
+      "endSec": 3098,
+      "durationSec": 800,
+      "topic": "Reden mit dem Computer",
+      "fineSubject": "Sprachsteuerung",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3139,
+      "endSec": 3708,
+      "durationSec": 569,
+      "topic": "Amazon S3 Downtime",
+      "fineSubject": "Downtime",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3708,
+      "endSec": 4221,
+      "durationSec": 513,
+      "topic": "Cloudbleed",
+      "fineSubject": "Sicherheit",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4222,
+      "endSec": 5657,
+      "durationSec": 1435,
+      "topic": "SHA-1 Collision",
+      "fineSubject": "Kollisionsangriffe",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 5657,
+      "endSec": 6032,
+      "durationSec": 375,
+      "topic": "Neue Akkutechnologien",
+      "fineSubject": "Akkutechnologien",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 6032,
+      "endSec": 6542,
+      "durationSec": 510,
+      "topic": "Oxygen Not Included",
+      "fineSubject": "Spiele",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Software",
+      "startSec": 6542,
+      "endSec": 7074,
+      "durationSec": 532,
+      "topic": "The Sequence",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 7075,
+      "endSec": 8195,
+      "durationSec": 1120,
+      "topic": "Stative",
+      "fineSubject": "Stative",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 8195,
+      "endSec": 9213,
+      "durationSec": 1018,
+      "topic": "Ultraschall 3",
+      "fineSubject": "Ultraschall",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Culture",
+      "startSec": 9213,
+      "endSec": 9418,
+      "durationSec": 205,
+      "topic": "Diskordische Bibelstunde",
+      "fineSubject": "Diskordische Bibelstunde",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 9418,
+      "endSec": 9669,
+      "durationSec": 251,
+      "topic": "Anti-Rant Captcha",
+      "fineSubject": "Captcha",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 9670,
+      "endSec": 11635,
+      "durationSec": 1965,
+      "topic": "FreeBSD auf Servern",
+      "fineSubject": "Betriebssysteme",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Software",
+      "startSec": 11636,
+      "endSec": 11946,
+      "durationSec": 310,
+      "topic": "WebAssembly",
+      "fineSubject": "WebAssembly",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11946,
+      "endSec": 12360,
+      "durationSec": 414,
+      "topic": "Space X Internetsatelliten",
+      "fineSubject": "Satelliten",
+      "topicIndex": 16
+    }
+  ]
+}

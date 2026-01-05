@@ -1,0 +1,104 @@
+{
+  "episodeNumber": 56,
+  "title": "Minkorrekt Folge 56 „Verfassungsfeindlich“",
+  "generatedAt": "2026-01-05T15:18:17.356Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.2,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0.4,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.2,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0.2
+    },
+    "durations": {
+      "Science": 0,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 0,
+      "Wissenschaft": 0,
+      "Health": 0,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 1
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Papierbildschirme",
+      "fineSubject": "Displays",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Media",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "alte DVDs",
+      "fineSubject": "Physical Media",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Biology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Würgeschlangen",
+      "fineSubject": "Reptiles",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Technology",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "synchronen Uhren",
+      "fineSubject": "Timekeeping",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Teeblätterkarussell",
+      "fineSubject": "Tea Science",
+      "topicIndex": 4,
+      "untimed": true
+    }
+  ]
+}

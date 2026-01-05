@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 56,
+  "title": "LNP056 Kleinste Textausschnitte",
+  "generatedAt": "2026-01-05T15:17:57.580Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.8969634936881611,
+      "Technology": 0.10303650631183896,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 2629,
+      "Technology": 302,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 5,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2931,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 132,
+      "endSec": 921,
+      "durationSec": 789,
+      "topic": "Bundestag will am Freitag  Leistungsschutzrecht beschließen",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 922,
+      "endSec": 1751,
+      "durationSec": 829,
+      "topic": "EU-Datenschutzreform",
+      "fineSubject": "Data Protection",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1752,
+      "endSec": 2326,
+      "durationSec": 574,
+      "topic": "Urheberrechtsreform in Österreich",
+      "fineSubject": "Copyright",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2327,
+      "endSec": 2595,
+      "durationSec": 268,
+      "topic": "Transparenzgesetz in Österreich",
+      "fineSubject": "Transparency",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2596,
+      "endSec": 2765,
+      "durationSec": 169,
+      "topic": "FragDenStaat.at gestartet",
+      "fineSubject": "Transparency",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2765,
+      "endSec": 3067,
+      "durationSec": 302,
+      "topic": "Netzwerker für Netzneutralität-Monitoring gesucht",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 5
+    }
+  ]
+}

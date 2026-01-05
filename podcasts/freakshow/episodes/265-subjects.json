@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 265,
+  "title": "FS265 Mansplaining as a Service",
+  "generatedAt": "2026-01-05T15:17:51.114Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.8366981058539247,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0.0560448982773404,
+      "Culture": 0.1072569958687349,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 10734,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 719,
+      "Culture": 1376,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 5,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12829,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 415,
+      "endSec": 1791,
+      "durationSec": 1376,
+      "topic": "May the Fourth",
+      "fineSubject": "Events",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 2779,
+      "endSec": 3498,
+      "durationSec": 719,
+      "topic": "Mastodon und BlueSky",
+      "fineSubject": "Social Network",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3499,
+      "endSec": 3981,
+      "durationSec": 482,
+      "topic": "Nebenläufigkeit und Parallelität",
+      "fineSubject": "Concurrency",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3982,
+      "endSec": 4940,
+      "durationSec": 958,
+      "topic": "Elixir in der Praxis",
+      "fineSubject": "Programming",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4941,
+      "endSec": 5304,
+      "durationSec": 363,
+      "topic": "Elixir Nerves",
+      "fineSubject": "Embedded Systems",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5304,
+      "endSec": 11655,
+      "durationSec": 6351,
+      "topic": "ChatGPT und die Anwendung von AI",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11655,
+      "endSec": 14235,
+      "durationSec": 2580,
+      "topic": "LED-Steuerung",
+      "fineSubject": "Hardware",
+      "topicIndex": 8
+    }
+  ]
+}

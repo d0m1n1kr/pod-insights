@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 486,
+  "title": "LNP486 Das fünfte Element",
+  "generatedAt": "2026-01-05T15:17:57.640Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.074928736256278,
+      "Technology": 0.5494773992127053,
+      "Law": 0.24718338536717796,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.12841047916383874,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 552,
+      "Technology": 4048,
+      "Law": 1821,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 946,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 3,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7367,
+    "totalTopics": 6
+  },
+  "timeline": [
+    {
+      "subject": "Law",
+      "startSec": 716,
+      "endSec": 1183,
+      "durationSec": 467,
+      "topic": "Product Liability Directive",
+      "fineSubject": "Regulation / Directive",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 1184,
+      "endSec": 1828,
+      "durationSec": 644,
+      "topic": "Cyber Resilience Act",
+      "fineSubject": "Regulation / Act",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Law",
+      "startSec": 1829,
+      "endSec": 2539,
+      "durationSec": 710,
+      "topic": "Platform Workers Directive",
+      "fineSubject": "Regulation / Directive",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2540,
+      "endSec": 3486,
+      "durationSec": 946,
+      "topic": "European Health Data Space",
+      "fineSubject": "Regulation / EU Initiative",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3486,
+      "endSec": 7534,
+      "durationSec": 4048,
+      "topic": "AI Act",
+      "fineSubject": "Regulation / Act",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7535,
+      "endSec": 8087,
+      "durationSec": 552,
+      "topic": "Ausblick auf die EU",
+      "fineSubject": "Future / Outlook",
+      "topicIndex": 5
+    }
+  ]
+}

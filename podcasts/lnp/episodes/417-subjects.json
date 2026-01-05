@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 417,
+  "title": "LNP417 Ich hänge nicht an der Pandemie",
+  "generatedAt": "2026-01-05T15:17:57.630Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.1799253584757415,
+      "Law": 0.10921233549400904,
+      "Security": 0.02691023374582597,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.6839520722844235,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 916,
+      "Law": 556,
+      "Security": 137,
+      "Social": 0,
+      "Media": 0,
+      "Health": 3482,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 3,
+      "Law": 2,
+      "Security": 1,
+      "Social": 0,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5091,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 184,
+      "endSec": 284,
+      "durationSec": 100,
+      "topic": "HTTP Status 417",
+      "fineSubject": "Status Codes",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Law",
+      "startSec": 524,
+      "endSec": 818,
+      "durationSec": 294,
+      "topic": "Keine Mithilfepflicht für Staatstrojaner-Installation",
+      "fineSubject": "Staatstrojaner",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 819,
+      "endSec": 1061,
+      "durationSec": 242,
+      "topic": "Update-Pflicht für digitale Güter",
+      "fineSubject": "Digitale Güter",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1061,
+      "endSec": 3792,
+      "durationSec": 2731,
+      "topic": "Contact Tracing wird endemisch: CWA",
+      "fineSubject": "CWA",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3793,
+      "endSec": 4544,
+      "durationSec": 751,
+      "topic": "Contact Tracing wird endemisch: Luca",
+      "fineSubject": "Luca",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 4544,
+      "endSec": 4806,
+      "durationSec": 262,
+      "topic": "Frankreich verurteilt Google &  Facebook wg. Dark Patterns",
+      "fineSubject": "Dark Patterns",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 4807,
+      "endSec": 4944,
+      "durationSec": 137,
+      "topic": "Pegasus in Polen",
+      "fineSubject": "Pegasus",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4944,
+      "endSec": 5518,
+      "durationSec": 574,
+      "topic": "Norton Crypto",
+      "fineSubject": "Krypto",
+      "topicIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "episodeNumber": 89,
+  "title": "UKW089 Corona Weekly: Der schwarze Ritter aus dem Mäuschenwald",
+  "generatedAt": "2026-01-05T15:18:03.022Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Health": 1,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "durations": {
+      "Health": 6683,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "topicCounts": {
+      "Health": 18,
+      "Politics": 0,
+      "Military": 0,
+      "Technology": 0,
+      "Economics": 0,
+      "Media": 0,
+      "Miscellaneous": 0,
+      "Society": 0,
+      "Travel": 0,
+      "Social": 0,
+      "Economy": 0,
+      "Geopolitics": 0
+    },
+    "totalDurationSec": 6683,
+    "totalTopics": 18
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 153,
+      "endSec": 515,
+      "durationSec": 362,
+      "topic": "Zahlen in Deutschland",
+      "fineSubject": "Statistics / Germany",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 515,
+      "endSec": 672,
+      "durationSec": 157,
+      "topic": "Altersverteilung",
+      "fineSubject": "Demographics / Age Distribution",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 673,
+      "endSec": 871,
+      "durationSec": 198,
+      "topic": "Bundesländer",
+      "fineSubject": "Geography / Federal States",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 872,
+      "endSec": 996,
+      "durationSec": 124,
+      "topic": "Todesfälle",
+      "fineSubject": "Statistics / Deaths",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 997,
+      "endSec": 1155,
+      "durationSec": 158,
+      "topic": "Fallsterblichkeit",
+      "fineSubject": "Statistics / Case Fatality Rate",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1155,
+      "endSec": 1321,
+      "durationSec": 166,
+      "topic": "Berlin",
+      "fineSubject": "Geography / Berlin",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 1321,
+      "endSec": 1887,
+      "durationSec": 566,
+      "topic": "Bewertung der Gesamtsituation",
+      "fineSubject": "Assessment / Overall Situation",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 1888,
+      "endSec": 2012,
+      "durationSec": 124,
+      "topic": "Tests und Positivquote",
+      "fineSubject": "Testing / Positivity Rate",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 2013,
+      "endSec": 2288,
+      "durationSec": 275,
+      "topic": "Dunkelziffer",
+      "fineSubject": "Statistics / Underreporting",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Health",
+      "startSec": 2288,
+      "endSec": 2688,
+      "durationSec": 400,
+      "topic": "Impfkampagne",
+      "fineSubject": "Vaccination / Campaign",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Health",
+      "startSec": 2688,
+      "endSec": 3164,
+      "durationSec": 476,
+      "topic": "Impfpflicht",
+      "fineSubject": "Policy / Vaccination Mandate",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Health",
+      "startSec": 3165,
+      "endSec": 4277,
+      "durationSec": 1112,
+      "topic": "Neues zu Omikron",
+      "fineSubject": "Variants / Omicron",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Health",
+      "startSec": 4278,
+      "endSec": 4770,
+      "durationSec": 492,
+      "topic": "Omikron in anderen Ländern",
+      "fineSubject": "Variants / Omicron in Other Countries",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Health",
+      "startSec": 4771,
+      "endSec": 5068,
+      "durationSec": 297,
+      "topic": "Optimistischer Ausblick",
+      "fineSubject": "Outlook / Optimistic",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Health",
+      "startSec": 5068,
+      "endSec": 5302,
+      "durationSec": 234,
+      "topic": "China",
+      "fineSubject": "Geopolitics / China",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Health",
+      "startSec": 5302,
+      "endSec": 5925,
+      "durationSec": 623,
+      "topic": "Situation der Kinder",
+      "fineSubject": "Impact / Children",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Health",
+      "startSec": 5926,
+      "endSec": 6444,
+      "durationSec": 518,
+      "topic": "Paxlovid",
+      "fineSubject": "Treatment / Paxlovid",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Health",
+      "startSec": 6444,
+      "endSec": 6845,
+      "durationSec": 401,
+      "topic": "Fazit",
+      "fineSubject": "Conclusion / Summary",
+      "topicIndex": 17
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 288,
+  "title": "Mi288 – \"Schließzeit auf dem Spielplatz\"",
+  "generatedAt": "2026-01-05T15:18:17.382Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.11034988989478835,
+      "Culture": 0.3268901394666014,
+      "Wissenschaft": 0,
+      "Health": 0.133594323464644,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0.08123317837044287,
+      "Social": 0.34793246880352335,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 451,
+      "Culture": 1336,
+      "Wissenschaft": 0,
+      "Health": 546,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 332,
+      "Social": 1422,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 4,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 1,
+      "Social": 1,
+      "Biology": 0
+    },
+    "totalDurationSec": 4087,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 298,
+      "endSec": 844,
+      "durationSec": 546,
+      "topic": "krank",
+      "fineSubject": "Illness",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1842,
+      "endSec": 1981,
+      "durationSec": 139,
+      "topic": "Science Cops",
+      "fineSubject": "Media",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1981,
+      "endSec": 2134,
+      "durationSec": 153,
+      "topic": "Dr. Whatson live",
+      "fineSubject": "Live Events",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 2140,
+      "endSec": 2347,
+      "durationSec": 207,
+      "topic": "\"Bier auf Wein …\"",
+      "fineSubject": "Drinking",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 2347,
+      "endSec": 2798,
+      "durationSec": 451,
+      "topic": "Wasserstoff",
+      "fineSubject": "Chemistry",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Education",
+      "startSec": 4036,
+      "endSec": 4368,
+      "durationSec": 332,
+      "topic": "Snackable Science",
+      "fineSubject": "Science",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Social",
+      "startSec": 4368,
+      "endSec": 5790,
+      "durationSec": 1422,
+      "topic": "Thema 2: \"Gehen wir nachher noch ein Bier trinken? Wem willst du winken?\"",
+      "fineSubject": "Social Interaction",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5790,
+      "endSec": 6627,
+      "durationSec": 837,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Conspiracy",
+      "topicIndex": 10
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 179,
+  "title": "LNP179 Flensburg für Verfassungssünder",
+  "generatedAt": "2026-01-05T15:17:57.597Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 5632,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 10,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 5632,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Legal",
+      "startSec": 307,
+      "endSec": 1261,
+      "durationSec": 954,
+      "topic": "Vorgeschichte",
+      "fineSubject": "Legal / Background",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1261,
+      "endSec": 1822,
+      "durationSec": 561,
+      "topic": "2009: BKA-Gesetz",
+      "fineSubject": "Legal / BKA-Gesetz",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 1823,
+      "endSec": 2267,
+      "durationSec": 444,
+      "topic": "2011: Staatstrojaner-Hack",
+      "fineSubject": "Legal / Staatstrojaner",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2267,
+      "endSec": 2833,
+      "durationSec": 566,
+      "topic": "2015: Verfassungsbeschwerde gegen BKA-Gesetz",
+      "fineSubject": "Legal / Verfassungsbeschwerde",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Legal",
+      "startSec": 2833,
+      "endSec": 3161,
+      "durationSec": 328,
+      "topic": "Der neue Staatstrojaner",
+      "fineSubject": "Legal / Staatstrojaner",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3161,
+      "endSec": 3532,
+      "durationSec": 371,
+      "topic": "Urteil zum BKA-Gesetz",
+      "fineSubject": "Legal / BKA-Gesetz",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3533,
+      "endSec": 4586,
+      "durationSec": 1053,
+      "topic": "Konsequenzen aus dem Urteil: TKÜ",
+      "fineSubject": "Legal / TKÜ",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Legal",
+      "startSec": 4587,
+      "endSec": 5120,
+      "durationSec": 533,
+      "topic": "Konsequenzen aus dem Urteil: Online-Durchsuchung",
+      "fineSubject": "Legal / Online-Durchsuchung",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5120,
+      "endSec": 5623,
+      "durationSec": 503,
+      "topic": "Staatstrojaner: die Kostenfrage",
+      "fineSubject": "Legal / Staatstrojaner",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Legal",
+      "startSec": 5624,
+      "endSec": 5943,
+      "durationSec": 319,
+      "topic": "Fazit",
+      "fineSubject": "Legal / Summary",
+      "topicIndex": 9
+    }
+  ]
+}

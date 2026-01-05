@@ -1,0 +1,154 @@
+{
+  "episodeNumber": 44,
+  "title": "DU044 - Relativistische Astrologie",
+  "generatedAt": "2026-01-05T15:18:22.096Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0.5,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0.2,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0.3
+    },
+    "durations": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 0,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 5,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 2,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 3
+    },
+    "totalDurationSec": 0,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Astrologie",
+      "fineSubject": "Astrology",
+      "topicIndex": 0,
+      "untimed": true
+    },
+    {
+      "subject": "Science",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Exo-Astrologie",
+      "fineSubject": "Astrology",
+      "topicIndex": 1,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Tiroler Satelliten",
+      "fineSubject": "Satellites",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Österreichische NASA",
+      "fineSubject": "Space Agencies",
+      "topicIndex": 3,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Asteroiden",
+      "fineSubject": "Asteroids",
+      "topicIndex": 4,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Magnetfelder",
+      "fineSubject": "Magnetic Fields",
+      "topicIndex": 5,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Strahlungsdruck",
+      "fineSubject": "Radiation Pressure",
+      "topicIndex": 6,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "James Webb Weltraumteleskop",
+      "fineSubject": "Telescopes",
+      "topicIndex": 7,
+      "untimed": true
+    },
+    {
+      "subject": "Space",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Navigationssterne",
+      "fineSubject": "Navigation",
+      "topicIndex": 8,
+      "untimed": true
+    },
+    {
+      "subject": "Physics",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Galaxienweites Magnetfeld",
+      "fineSubject": "Magnetic Fields",
+      "topicIndex": 9,
+      "untimed": true
+    }
+  ]
+}

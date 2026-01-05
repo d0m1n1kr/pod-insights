@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 357,
+  "title": "Mi357 – \"Fahrradwahnsinn\"",
+  "generatedAt": "2026-01-05T15:18:17.393Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.21895306859205776,
+      "Culture": 0.08718411552346571,
+      "Wissenschaft": 0,
+      "Health": 0.08718411552346571,
+      "Technology": 0.6066787003610108,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1213,
+      "Culture": 483,
+      "Wissenschaft": 0,
+      "Health": 483,
+      "Technology": 3361,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 2,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 2,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 5540,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 339,
+      "endSec": 1073,
+      "durationSec": 734,
+      "topic": "Allgäu",
+      "fineSubject": "Allgäu",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1073,
+      "endSec": 1556,
+      "durationSec": 483,
+      "topic": "Selber kochen",
+      "fineSubject": "Cooking",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2267,
+      "endSec": 2746,
+      "durationSec": 479,
+      "topic": "Sternwarte Bochum",
+      "fineSubject": "Astronomy",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2746,
+      "endSec": 4482,
+      "durationSec": 1736,
+      "topic": "Thema 1: \"Klein, aber stratosphärisch\"",
+      "fineSubject": "Space",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4482,
+      "endSec": 6107,
+      "durationSec": 1625,
+      "topic": "Thema 2: \"Glasfaser, jetzt auch in der Arktis\"",
+      "fineSubject": "Internet",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 6107,
+      "endSec": 6590,
+      "durationSec": 483,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Miscellaneous",
+      "topicIndex": 6
+    }
+  ]
+}

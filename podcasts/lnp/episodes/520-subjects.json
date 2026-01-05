@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 520,
+  "title": "LNP520 Surfen heißt jetzt Doomscrolling",
+  "generatedAt": "2026-01-05T15:17:57.644Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.44080604534005036,
+      "Technology": 0.14515113350125944,
+      "Law": 0,
+      "Security": 0.25850125944584385,
+      "Social": 0.057304785894206546,
+      "Media": 0,
+      "Health": 0.04880352644836272,
+      "Feedback": 0,
+      "Legal": 0.04943324937027708,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1400,
+      "Technology": 461,
+      "Law": 0,
+      "Security": 821,
+      "Social": 182,
+      "Media": 0,
+      "Health": 155,
+      "Feedback": 0,
+      "Legal": 157,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 1,
+      "Social": 2,
+      "Media": 0,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3176,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 391,
+      "endSec": 541,
+      "durationSec": 150,
+      "topic": "Feedback: Hermeneutik des Verdachts",
+      "fineSubject": "Hermeneutik",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 542,
+      "endSec": 574,
+      "durationSec": 32,
+      "topic": "Feedback: Propaganda",
+      "fineSubject": "Propaganda",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Legal",
+      "startSec": 575,
+      "endSec": 732,
+      "durationSec": 157,
+      "topic": "Feedback: Altersverifikation",
+      "fineSubject": "Altersverifikation",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 732,
+      "endSec": 775,
+      "durationSec": 43,
+      "topic": "Feedback: \"In seiner jetzigen Form\"",
+      "fineSubject": "Digitalisierung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 775,
+      "endSec": 1126,
+      "durationSec": 351,
+      "topic": "Feedback: Digitalministerium",
+      "fineSubject": "Digitalministerium",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1126,
+      "endSec": 1281,
+      "durationSec": 155,
+      "topic": "Elektronische Patientenakte",
+      "fineSubject": "Elektronische Patientenakte",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1282,
+      "endSec": 1700,
+      "durationSec": 418,
+      "topic": "AI Coding Backdoors",
+      "fineSubject": "AI",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1700,
+      "endSec": 2749,
+      "durationSec": 1049,
+      "topic": "Koalitionsvertrag",
+      "fineSubject": "Koalitionsvertrag",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Security",
+      "startSec": 2750,
+      "endSec": 3571,
+      "durationSec": 821,
+      "topic": "CISA und MITRE trump'ed",
+      "fineSubject": "CISA",
+      "topicIndex": 8
+    }
+  ]
+}

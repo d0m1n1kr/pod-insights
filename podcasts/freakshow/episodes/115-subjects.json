@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 115,
+  "title": "FS115 Die blaue Maus auf dem Berg",
+  "generatedAt": "2026-01-05T15:17:51.073Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.18385928608380755,
+      "Software": 0.2141748577340921,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0.4750129332643559,
+      "Events": 0.12695292291774443,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1777,
+      "Software": 2070,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 4591,
+      "Events": 1227,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 2,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 3,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9665,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Software",
+      "startSec": 505,
+      "endSec": 1158,
+      "durationSec": 653,
+      "topic": "Linux != UNIX",
+      "fineSubject": "Operating Systems",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Security",
+      "startSec": 1158,
+      "endSec": 3222,
+      "durationSec": 2064,
+      "topic": "Überwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Security",
+      "startSec": 3222,
+      "endSec": 4851,
+      "durationSec": 1629,
+      "topic": "Verschlüsselung",
+      "fineSubject": "Encryption",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5174,
+      "endSec": 6951,
+      "durationSec": 1777,
+      "topic": "Transporter",
+      "fineSubject": "Transport",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 6951,
+      "endSec": 7849,
+      "durationSec": 898,
+      "topic": "GSM-Hack",
+      "fineSubject": "Hacking",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Events",
+      "startSec": 7849,
+      "endSec": 9076,
+      "durationSec": 1227,
+      "topic": "OHM 2013",
+      "fineSubject": "Conferences",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 9076,
+      "endSec": 10493,
+      "durationSec": 1417,
+      "topic": "iOS 7 Preview",
+      "fineSubject": "Mobile OS",
+      "topicIndex": 7
+    }
+  ]
+}

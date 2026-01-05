@@ -1,0 +1,153 @@
+{
+  "episodeNumber": 348,
+  "title": "LNP348 Fraktal aus verdrehten Fakten",
+  "generatedAt": "2026-01-05T15:17:57.620Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.22509772206496834,
+      "Technology": 0.2683650087612886,
+      "Law": 0.02277935031675428,
+      "Security": 0,
+      "Social": 0.12912791481331715,
+      "Media": 0.3353551691602642,
+      "Health": 0.019274834883407466,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1670,
+      "Technology": 1991,
+      "Law": 169,
+      "Security": 0,
+      "Social": 958,
+      "Media": 2488,
+      "Health": 143,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 3,
+      "Law": 1,
+      "Security": 0,
+      "Social": 1,
+      "Media": 3,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7419,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 83,
+      "endSec": 1041,
+      "durationSec": 958,
+      "topic": "Black Lives Matter und Polizeigewalt",
+      "fineSubject": "Social Justice",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1042,
+      "endSec": 1944,
+      "durationSec": 902,
+      "topic": "Kekulé, BILD und Drosten",
+      "fineSubject": "Journalism",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Media",
+      "startSec": 1944,
+      "endSec": 2339,
+      "durationSec": 395,
+      "topic": "Medienkritik rezo",
+      "fineSubject": "Criticism",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 2340,
+      "endSec": 3531,
+      "durationSec": 1191,
+      "topic": "Walulis Daily",
+      "fineSubject": "Entertainment",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3531,
+      "endSec": 5331,
+      "durationSec": 1800,
+      "topic": "Tracing Apps und Jan Fleischhauer",
+      "fineSubject": "Apps",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5332,
+      "endSec": 6915,
+      "durationSec": 1583,
+      "topic": "Twitter vs. Trump",
+      "fineSubject": "Social Media",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6915,
+      "endSec": 7002,
+      "durationSec": 87,
+      "topic": "Snowden  Angels",
+      "fineSubject": "Surveillance",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7002,
+      "endSec": 7042,
+      "durationSec": 40,
+      "topic": "Google Chrome Inkognito",
+      "fineSubject": "Browsers",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Health",
+      "startSec": 7042,
+      "endSec": 7185,
+      "durationSec": 143,
+      "topic": "Qatars kaputte zentrale Corona App",
+      "fineSubject": "Technology",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7186,
+      "endSec": 7337,
+      "durationSec": 151,
+      "topic": "Konsultation: AI & Gesichtserkennung",
+      "fineSubject": "AI",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Law",
+      "startSec": 7337,
+      "endSec": 7506,
+      "durationSec": 169,
+      "topic": "Konsultation: Digital Services Act",
+      "fineSubject": "Digital Policy",
+      "topicIndex": 10
+    }
+  ]
+}

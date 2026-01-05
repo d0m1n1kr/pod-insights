@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 68,
+  "title": "RZ068 Bodengestützte Astronomie",
+  "generatedAt": "2026-01-05T15:18:06.282Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0.8944825832697686,
+      "Wissenschaft": 0,
+      "Technologie": 0.10551741673023138,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 7036,
+      "Wissenschaft": 0,
+      "Technologie": 830,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 6,
+      "Wissenschaft": 0,
+      "Technologie": 1,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 7866,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 18,
+      "endSec": 876,
+      "durationSec": 858,
+      "topic": "Bodengestützte Astronomie",
+      "fineSubject": "Beobachtung",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 18,
+      "endSec": 1001,
+      "durationSec": 983,
+      "topic": "Entwicklung der Astronomie",
+      "fineSubject": "Entwicklung",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 18,
+      "endSec": 876,
+      "durationSec": 858,
+      "topic": "Multi-Messenger-Astronomie",
+      "fineSubject": "Forschung",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technologie",
+      "startSec": 104,
+      "endSec": 934,
+      "durationSec": 830,
+      "topic": "Teleskop-Technologie",
+      "fineSubject": "Teleskope",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 281,
+      "endSec": 934,
+      "durationSec": 653,
+      "topic": "Europäische Südsternwarte",
+      "fineSubject": "Forschungseinrichtungen",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 281,
+      "endSec": 1106,
+      "durationSec": 825,
+      "topic": "Extremely Large Telescope",
+      "fineSubject": "Zukunftsprojekte",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 2633,
+      "endSec": 5492,
+      "durationSec": 2859,
+      "topic": "Großteleskope",
+      "fineSubject": "Großteleskope",
+      "topicIndex": 2
+    }
+  ]
+}

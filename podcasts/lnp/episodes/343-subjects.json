@@ -1,0 +1,90 @@
+{
+  "episodeNumber": 343,
+  "title": "LNP343 5G-Maskenpflicht",
+  "generatedAt": "2026-01-05T15:17:57.619Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.24387755102040817,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.7561224489795918,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1195,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 3705,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 3,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4900,
+    "totalTopics": 4
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 155,
+      "endSec": 1350,
+      "durationSec": 1195,
+      "topic": "Bundesregierung schwenkt auf dezentrales Modell um",
+      "fineSubject": "Government Policy",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 1351,
+      "endSec": 3474,
+      "durationSec": 2123,
+      "topic": "Contact Tracing in Österreich",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 3475,
+      "endSec": 4260,
+      "durationSec": 785,
+      "topic": "Contact Tracing in Europa",
+      "fineSubject": "Contact Tracing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 4260,
+      "endSec": 5057,
+      "durationSec": 797,
+      "topic": "Sonstige Situation in Österreich",
+      "fineSubject": "Public Health",
+      "topicIndex": 3
+    }
+  ]
+}

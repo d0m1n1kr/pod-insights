@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 95,
+  "title": "MM095 Steve Jobs im Schneewittchensarg",
+  "generatedAt": "2026-01-05T15:17:51.069Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.10475583525850395,
+      "Software": 0.31888791523938503,
+      "Hardware": 0.18043495578746116,
+      "Finance": 0.14339201784434,
+      "Media": 0,
+      "Social": 0.10714570222257627,
+      "Culture": 0,
+      "Security": 0.1453835736477336,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 1315,
+      "Software": 4003,
+      "Hardware": 2265,
+      "Finance": 1800,
+      "Media": 0,
+      "Social": 1345,
+      "Culture": 0,
+      "Security": 1825,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 3,
+      "Hardware": 2,
+      "Finance": 1,
+      "Media": 0,
+      "Social": 1,
+      "Culture": 0,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 12553,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Hardware",
+      "startSec": 440,
+      "endSec": 1440,
+      "durationSec": 1000,
+      "topic": "Handhelds",
+      "fineSubject": "Handhelds",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Software",
+      "startSec": 1440,
+      "endSec": 3060,
+      "durationSec": 1620,
+      "topic": "Gerüchte zum iPhone 5",
+      "fineSubject": "iPhone",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Finance",
+      "startSec": 3060,
+      "endSec": 4860,
+      "durationSec": 1800,
+      "topic": "Bezahl-Infrastruktur heute und morgen",
+      "fineSubject": "Payment Infrastructure",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 4860,
+      "endSec": 6000,
+      "durationSec": 1140,
+      "topic": "Podlove Publishing Plugin für Wordpress",
+      "fineSubject": "Wordpress",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 6000,
+      "endSec": 7265,
+      "durationSec": 1265,
+      "topic": "Gitarren-Schrauberei: Erfolgreicher Einbau neuer Tonabnehmer",
+      "fineSubject": "Guitar",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Social",
+      "startSec": 7265,
+      "endSec": 8610,
+      "durationSec": 1345,
+      "topic": "Neuigkeiten zur Socialmedia-Plattform App.net",
+      "fineSubject": "Social Media",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8610,
+      "endSec": 9925,
+      "durationSec": 1315,
+      "topic": "World Wide Web Diverses",
+      "fineSubject": "Web",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Security",
+      "startSec": 9925,
+      "endSec": 11750,
+      "durationSec": 1825,
+      "topic": "UDID-Hack",
+      "fineSubject": "Hacking",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 11750,
+      "endSec": 12993,
+      "durationSec": 1243,
+      "topic": "App-Empfehlungen",
+      "fineSubject": "Apps",
+      "topicIndex": 8
+    }
+  ]
+}

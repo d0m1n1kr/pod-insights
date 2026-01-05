@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 38,
+  "title": "RZ038 Alpha-Magnet-Spektrometer",
+  "generatedAt": "2026-01-05T15:18:06.279Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 1,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 11354,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 0,
+      "Astronomie": 0,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 5,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 11354,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 22,
+      "endSec": 3134,
+      "durationSec": 3112,
+      "topic": "Alpha-Magnet-Spektrometer",
+      "fineSubject": "Astrophysics",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 121,
+      "endSec": 2229,
+      "durationSec": 2108,
+      "topic": "Dunkle Energie",
+      "fineSubject": "Cosmology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 366,
+      "endSec": 2171,
+      "durationSec": 1805,
+      "topic": "Dunkle Materie",
+      "fineSubject": "Cosmology",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 366,
+      "endSec": 2890,
+      "durationSec": 2524,
+      "topic": "kosmische Strahlung",
+      "fineSubject": "Astrophysics",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 366,
+      "endSec": 2171,
+      "durationSec": 1805,
+      "topic": "Urknall",
+      "fineSubject": "Cosmology",
+      "topicIndex": 4
+    }
+  ]
+}

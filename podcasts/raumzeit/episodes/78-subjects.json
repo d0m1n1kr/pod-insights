@@ -1,0 +1,101 @@
+{
+  "episodeNumber": 78,
+  "title": "RZ078 Pluto und New Horizons",
+  "generatedAt": "2026-01-05T15:18:06.284Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Raumfahrt": 0.3167931504183693,
+      "Astronomie": 0.2949990270480638,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 0.38820782253356684,
+      "Wirtschaft": 0
+    },
+    "durations": {
+      "Raumfahrt": 1628,
+      "Astronomie": 1516,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 1995,
+      "Wirtschaft": 0
+    },
+    "topicCounts": {
+      "Raumfahrt": 1,
+      "Astronomie": 3,
+      "Wissenschaft": 0,
+      "Technologie": 0,
+      "Space": 0,
+      "Science": 0,
+      "Technology": 0,
+      "Physik": 0,
+      "Forschung": 0,
+      "Biologie": 0,
+      "Research": 1,
+      "Wirtschaft": 0
+    },
+    "totalDurationSec": 5139,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 14,
+      "endSec": 1530,
+      "durationSec": 1516,
+      "topic": "Pluto",
+      "fineSubject": "Dwarf Planets",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Research",
+      "startSec": 14,
+      "endSec": 2009,
+      "durationSec": 1995,
+      "topic": "Wissenschaftliche Erkenntnisse",
+      "fineSubject": "Planetary Science",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Raumfahrt",
+      "startSec": 145,
+      "endSec": 1773,
+      "durationSec": 1628,
+      "topic": "Mission New Horizons",
+      "fineSubject": "NASA Missions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Kuipergürtel",
+      "fineSubject": "Celestial Objects",
+      "topicIndex": 2,
+      "untimed": true
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": null,
+      "endSec": null,
+      "durationSec": null,
+      "topic": "Ultimate Thule",
+      "fineSubject": "Trans-Neptunian Objects",
+      "topicIndex": 3,
+      "untimed": true
+    }
+  ]
+}

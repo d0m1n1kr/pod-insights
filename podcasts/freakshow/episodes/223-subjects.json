@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 223,
+  "title": "FS223 Pimpvorlage",
+  "generatedAt": "2026-01-05T15:17:51.098Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.35404920553562275,
+      "Software": 0.24103024090210148,
+      "Hardware": 0.12250128139415685,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.0880317785750897,
+      "Security": 0.13813429010763711,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0.05625320348539211,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 2763,
+      "Software": 1881,
+      "Hardware": 956,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 687,
+      "Security": 1078,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 439,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 6,
+      "Software": 2,
+      "Hardware": 1,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 1,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 1,
+      "Event": 0
+    },
+    "totalDurationSec": 7804,
+    "totalTopics": 20
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 2544,
+      "endSec": 3231,
+      "durationSec": 687,
+      "topic": "Computermuseen und Science Center",
+      "fineSubject": "Museums",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Gaming",
+      "startSec": 3231,
+      "endSec": 3670,
+      "durationSec": 439,
+      "topic": "Logik in Minecraft",
+      "fineSubject": "Minecraft",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3671,
+      "endSec": 3914,
+      "durationSec": 243,
+      "topic": "The Sequence",
+      "fineSubject": "The Sequence",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 3914,
+      "endSec": 4870,
+      "durationSec": 956,
+      "topic": "Bluetooth Headphones",
+      "fineSubject": "Headphones",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4870,
+      "endSec": 5718,
+      "durationSec": 848,
+      "topic": "iPhones und eSIM",
+      "fineSubject": "eSIM",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5719,
+      "endSec": 5822,
+      "durationSec": 103,
+      "topic": "iPhone Background NFC",
+      "fineSubject": "NFC",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5822,
+      "endSec": 6346,
+      "durationSec": 524,
+      "topic": "iPhone Xs First Impressions",
+      "fineSubject": "iPhone Xs",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6347,
+      "endSec": 7111,
+      "durationSec": 764,
+      "topic": "iPhone SE auf X",
+      "fineSubject": "iPhone SE",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Software",
+      "startSec": 7112,
+      "endSec": 7730,
+      "durationSec": 618,
+      "topic": "Undo",
+      "fineSubject": "Undo",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Software",
+      "startSec": 7730,
+      "endSec": 8993,
+      "durationSec": 1263,
+      "topic": "macOS Mojave",
+      "fineSubject": "macOS Mojave",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11378,
+      "endSec": 11659,
+      "durationSec": 281,
+      "topic": "Self-Solving Rubik's Cube",
+      "fineSubject": "Rubik's Cube",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Security",
+      "startSec": 11839,
+      "endSec": 12917,
+      "durationSec": 1078,
+      "topic": "TLS-Zertifikate selber aufsetzen",
+      "fineSubject": "TLS-Zertifikate",
+      "topicIndex": 18
+    }
+  ]
+}

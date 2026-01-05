@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 140,
+  "title": "LNP140 Hoch die internationale Spionageaktivität!",
+  "generatedAt": "2026-01-05T15:17:57.593Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.3562896603210153,
+      "Technology": 0.0752146323254946,
+      "Law": 0.202314296379246,
+      "Security": 0.33202687569988804,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0.0341545352743561,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1909,
+      "Technology": 403,
+      "Law": 1084,
+      "Security": 1779,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 183,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 2,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 1,
+      "Culture": 0
+    },
+    "totalDurationSec": 5358,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Security",
+      "startSec": 106,
+      "endSec": 410,
+      "durationSec": 304,
+      "topic": "Feedback: Flugsicherheit",
+      "fineSubject": "Aviation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Privacy",
+      "startSec": 411,
+      "endSec": 594,
+      "durationSec": 183,
+      "topic": "Feedback: Informationspflicht bei Überwachung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 594,
+      "endSec": 720,
+      "durationSec": 126,
+      "topic": "Feedback: De-Mailer verzweifelt gesucht",
+      "fineSubject": "Email",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1379,
+      "endSec": 2412,
+      "durationSec": 1033,
+      "topic": "No No Spy-Abkommen",
+      "fineSubject": "International Relations",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2412,
+      "endSec": 3288,
+      "durationSec": 876,
+      "topic": "BND-Untersuchungsausschuss",
+      "fineSubject": "Government Oversight",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Security",
+      "startSec": 3289,
+      "endSec": 4764,
+      "durationSec": 1475,
+      "topic": "BND setzt Spionage für NSA aus",
+      "fineSubject": "Surveillance",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 4764,
+      "endSec": 5848,
+      "durationSec": 1084,
+      "topic": "ACLU vs. Clapper",
+      "fineSubject": "Civil Rights",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5849,
+      "endSec": 6126,
+      "durationSec": 277,
+      "topic": "Netzneutralität tötet",
+      "fineSubject": "Net Neutrality",
+      "topicIndex": 8
+    }
+  ]
+}

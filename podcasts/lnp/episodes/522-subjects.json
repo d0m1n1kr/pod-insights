@@ -1,0 +1,135 @@
+{
+  "episodeNumber": 522,
+  "title": "LNP522 Security by Hippocrates",
+  "generatedAt": "2026-01-05T15:17:57.644Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.13670512476522673,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.0332707271263751,
+      "Media": 0,
+      "Health": 0.8300241481083982,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 1019,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 248,
+      "Media": 0,
+      "Health": 6187,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 7,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7454,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 185,
+      "endSec": 433,
+      "durationSec": 248,
+      "topic": "Bianca Kastl",
+      "fineSubject": "Bianca Kastl",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Health",
+      "startSec": 434,
+      "endSec": 681,
+      "durationSec": 247,
+      "topic": "ePA: Digitalisierung des Gesundheitswesens",
+      "fineSubject": "Digitalization",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Health",
+      "startSec": 681,
+      "endSec": 1054,
+      "durationSec": 373,
+      "topic": "ePA: Das E-Rezept und Gesundheitskarte",
+      "fineSubject": "E-Prescription",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 1055,
+      "endSec": 2015,
+      "durationSec": 960,
+      "topic": "ePA: Die Telematik-Infrastruktur",
+      "fineSubject": "Telematics Infrastructure",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2015,
+      "endSec": 3661,
+      "durationSec": 1646,
+      "topic": "ePA: Sicherheitslücken  der Elektronischen Patientenakte",
+      "fineSubject": "Security Vulnerabilities",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 3662,
+      "endSec": 4729,
+      "durationSec": 1067,
+      "topic": "ePA: Reaktionen der Gematik und der Politik",
+      "fineSubject": "Reactions",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Health",
+      "startSec": 4730,
+      "endSec": 6005,
+      "durationSec": 1275,
+      "topic": "ePA: Die neueste Sicherheitslücke",
+      "fineSubject": "Latest Security Vulnerability",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Health",
+      "startSec": 6006,
+      "endSec": 6625,
+      "durationSec": 619,
+      "topic": "ePA: Lässt es sich retten?",
+      "fineSubject": "Crisis Management",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6625,
+      "endSec": 7644,
+      "durationSec": 1019,
+      "topic": "Neue Ministerien und Minister",
+      "fineSubject": "New Ministries",
+      "topicIndex": 8
+    }
+  ]
+}

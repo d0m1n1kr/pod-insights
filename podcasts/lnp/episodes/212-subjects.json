@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 212,
+  "title": "LNP212 Alles voll mit Sexbombe",
+  "generatedAt": "2026-01-05T15:17:57.602Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.8608950656636492,
+      "Technology": 0.09231161545327043,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0.046793318883080456,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 6752,
+      "Technology": 724,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 367,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 11,
+      "Technology": 5,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 7843,
+    "totalTopics": 17
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 78,
+      "endSec": 254,
+      "durationSec": 176,
+      "topic": "Feedback: Flüchtlingshandys",
+      "fineSubject": "Mobile Devices",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Technology",
+      "startSec": 254,
+      "endSec": 398,
+      "durationSec": 144,
+      "topic": "Feedback: Spamkontrolle",
+      "fineSubject": "Spam Control",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 399,
+      "endSec": 567,
+      "durationSec": 168,
+      "topic": "Feedback: Telekom-Router",
+      "fineSubject": "Networking",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 568,
+      "endSec": 692,
+      "durationSec": 124,
+      "topic": "Feedback: Dr. DOS",
+      "fineSubject": "Software",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 693,
+      "endSec": 805,
+      "durationSec": 112,
+      "topic": "Puppe Cayla ist verboten",
+      "fineSubject": "Toys",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Politics",
+      "startSec": 805,
+      "endSec": 1694,
+      "durationSec": 889,
+      "topic": "NSA-UA: Die Protokolle",
+      "fineSubject": "Surveillance",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1695,
+      "endSec": 2444,
+      "durationSec": 749,
+      "topic": "NSA-UA: Der Auftrag und seine Erfüllung",
+      "fineSubject": "Surveillance",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2444,
+      "endSec": 4508,
+      "durationSec": 2064,
+      "topic": "NSA-UA: Geheimniskrämereien",
+      "fineSubject": "Surveillance",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4509,
+      "endSec": 4722,
+      "durationSec": 213,
+      "topic": "NSA-UA: Erfolge",
+      "fineSubject": "Surveillance",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4722,
+      "endSec": 5078,
+      "durationSec": 356,
+      "topic": "NSA-UA: Gesellschaftswandel möglich?",
+      "fineSubject": "Society",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5078,
+      "endSec": 5540,
+      "durationSec": 462,
+      "topic": "NSA-UA: Drohnenkriege",
+      "fineSubject": "Military",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Politics",
+      "startSec": 5541,
+      "endSec": 6026,
+      "durationSec": 485,
+      "topic": "NSA-UA: Arbeit des Ausschusses",
+      "fineSubject": "Government",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6027,
+      "endSec": 6428,
+      "durationSec": 401,
+      "topic": "NSA-UA: Der Abschlussbericht",
+      "fineSubject": "Reports",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6428,
+      "endSec": 6958,
+      "durationSec": 530,
+      "topic": "NSA-UA: Snowden",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Politics",
+      "startSec": 6959,
+      "endSec": 7238,
+      "durationSec": 279,
+      "topic": "NSA-UA: Fazit",
+      "fineSubject": "Surveillance",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Media",
+      "startSec": 7238,
+      "endSec": 7605,
+      "durationSec": 367,
+      "topic": "NSA-UA: Mediale Begleitung",
+      "fineSubject": "Coverage",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Politics",
+      "startSec": 7606,
+      "endSec": 7930,
+      "durationSec": 324,
+      "topic": "NSA-UA: Kollegialität",
+      "fineSubject": "Collaboration",
+      "topicIndex": 16
+    }
+  ]
+}

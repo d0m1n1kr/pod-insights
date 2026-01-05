@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 125,
+  "title": "DU125 - Stellares Engineering mit dem Sonnenbagger",
+  "generatedAt": "2026-01-05T15:18:22.109Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Astronomie": 1,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "durations": {
+      "Astronomie": 1164,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "topicCounts": {
+      "Astronomie": 3,
+      "Raumfahrt": 0,
+      "Kultur": 0,
+      "Astronomy": 0,
+      "Space": 0,
+      "Physik": 0,
+      "Wissenschaft": 0,
+      "Bildung": 0,
+      "Science": 0,
+      "Literatur": 0,
+      "Technologie": 0,
+      "Physics": 0
+    },
+    "totalDurationSec": 1164,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Astronomie",
+      "startSec": 0,
+      "endSec": 315,
+      "durationSec": 315,
+      "topic": "Finsternisse",
+      "fineSubject": "Finsternisse",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 275,
+      "endSec": 738,
+      "durationSec": 463,
+      "topic": "Oort-Spirale",
+      "fineSubject": "Oortsche Wolke",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Astronomie",
+      "startSec": 1962,
+      "endSec": 2348,
+      "durationSec": 386,
+      "topic": "Kernfusion der Sonne",
+      "fineSubject": "Sternenphysik",
+      "topicIndex": 3
+    }
+  ]
+}

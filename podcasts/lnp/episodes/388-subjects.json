@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 388,
+  "title": "LNP388 Guttenberg Public License",
+  "generatedAt": "2026-01-05T15:17:57.626Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0,
+      "Technology": 0.6795446705760607,
+      "Law": 0.02207657813038979,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0.26733356329768887,
+      "Legal": 0,
+      "Business": 0.031045187995860642,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 0,
+      "Technology": 1970,
+      "Law": 64,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 775,
+      "Legal": 0,
+      "Business": 90,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 0,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 4,
+      "Legal": 0,
+      "Business": 1,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2899,
+    "totalTopics": 11
+  },
+  "timeline": [
+    {
+      "subject": "Feedback",
+      "startSec": 168,
+      "endSec": 262,
+      "durationSec": 94,
+      "topic": "Feedback: Verbreitung von Luca",
+      "fineSubject": "Luca",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 262,
+      "endSec": 614,
+      "durationSec": 352,
+      "topic": "Feedback: GPL vs. BSD",
+      "fineSubject": "Lizenzen",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 614,
+      "endSec": 905,
+      "durationSec": 291,
+      "topic": "Feedback: Viren vs. Bakterien",
+      "fineSubject": "Biologie",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Feedback",
+      "startSec": 906,
+      "endSec": 944,
+      "durationSec": 38,
+      "topic": "Feedback: Luca-QR-Codes",
+      "fineSubject": "Luca",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 944,
+      "endSec": 2764,
+      "durationSec": 1820,
+      "topic": "Nachtrag zur Luca-App",
+      "fineSubject": "Luca-App",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2765,
+      "endSec": 2915,
+      "durationSec": 150,
+      "topic": "Social Bots",
+      "fineSubject": "Social Bots",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Law",
+      "startSec": 2916,
+      "endSec": 2980,
+      "durationSec": 64,
+      "topic": "Bestandsdatenauskunft",
+      "fineSubject": "Datenschutz",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Business",
+      "startSec": 2980,
+      "endSec": 3070,
+      "durationSec": 90,
+      "topic": "Schufa CheckNow",
+      "fineSubject": "Schufa",
+      "topicIndex": 7
+    }
+  ]
+}

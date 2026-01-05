@@ -1,0 +1,225 @@
+{
+  "episodeNumber": 244,
+  "title": "FS244 Ottilie Normalcamperin",
+  "generatedAt": "2026-01-05T15:17:51.106Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.5951899951899952,
+      "Software": 0.24405964405964406,
+      "Hardware": 0,
+      "Finance": 0.06531986531986532,
+      "Media": 0.07744107744107744,
+      "Social": 0,
+      "Culture": 0.01798941798941799,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6187,
+      "Software": 2537,
+      "Hardware": 0,
+      "Finance": 679,
+      "Media": 805,
+      "Social": 0,
+      "Culture": 187,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 9,
+      "Software": 6,
+      "Hardware": 0,
+      "Finance": 1,
+      "Media": 2,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 10395,
+    "totalTopics": 22
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1233,
+      "endSec": 3059,
+      "durationSec": 1826,
+      "topic": "Mobilfunktarife",
+      "fineSubject": "Mobile Plans",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3059,
+      "endSec": 3981,
+      "durationSec": 922,
+      "topic": "IP-Erreichbarkeit im Mobilfunknetz",
+      "fineSubject": "Network Accessibility",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Software",
+      "startSec": 3981,
+      "endSec": 4877,
+      "durationSec": 896,
+      "topic": "Command Line Tools",
+      "fineSubject": "Command Line Tools",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Software",
+      "startSec": 4878,
+      "endSec": 5527,
+      "durationSec": 649,
+      "topic": "VSCode / Language Server Protocol",
+      "fineSubject": "Development Tools",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Software",
+      "startSec": 5528,
+      "endSec": 5812,
+      "durationSec": 284,
+      "topic": "Cloud-based Apps",
+      "fineSubject": "Cloud Applications",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Software",
+      "startSec": 5812,
+      "endSec": 6205,
+      "durationSec": 393,
+      "topic": "Command Line Tips contd.",
+      "fineSubject": "Command Line Tips",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Software",
+      "startSec": 6205,
+      "endSec": 6307,
+      "durationSec": 102,
+      "topic": "Command Line Heroes",
+      "fineSubject": "Command Line History",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 6308,
+      "endSec": 6521,
+      "durationSec": 213,
+      "topic": "Shells",
+      "fineSubject": "Shells",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Media",
+      "startSec": 6522,
+      "endSec": 7109,
+      "durationSec": 587,
+      "topic": "DAW und Tools",
+      "fineSubject": "Digital Audio Workstations",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7109,
+      "endSec": 7239,
+      "durationSec": 130,
+      "topic": "Applekram",
+      "fineSubject": "Apple Products",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9515,
+      "endSec": 9729,
+      "durationSec": 214,
+      "topic": "ScanSnap Home",
+      "fineSubject": "Document Scanning",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9730,
+      "endSec": 10312,
+      "durationSec": 582,
+      "topic": ".org Domains",
+      "fineSubject": "Domain Names",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10312,
+      "endSec": 10654,
+      "durationSec": 342,
+      "topic": "10 Gbit Ethernet",
+      "fineSubject": "Ethernet Technology",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10655,
+      "endSec": 12144,
+      "durationSec": 1489,
+      "topic": "LED Farbwiedergabewerte",
+      "fineSubject": "LED Technology",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Culture",
+      "startSec": 12144,
+      "endSec": 12331,
+      "durationSec": 187,
+      "topic": "Lichtkunst",
+      "fineSubject": "Light Art",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12332,
+      "endSec": 13011,
+      "durationSec": 679,
+      "topic": "Apple Pay und mobiles Bezahlen",
+      "fineSubject": "Mobile Payments",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13012,
+      "endSec": 13694,
+      "durationSec": 682,
+      "topic": "Deutsche WLAN",
+      "fineSubject": "Wi-Fi Technology",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13694,
+      "endSec": 13694,
+      "durationSec": 0,
+      "topic": "Fair Queueing",
+      "fineSubject": "Traffic Management",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Media",
+      "startSec": 13907,
+      "endSec": 14125,
+      "durationSec": 218,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 21
+    }
+  ]
+}

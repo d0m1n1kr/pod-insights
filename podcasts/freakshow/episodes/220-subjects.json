@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 220,
+  "title": "FS220 Mein Hotel brennt",
+  "generatedAt": "2026-01-05T15:17:51.097Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.07192732187101133,
+      "Software": 0.396426158119979,
+      "Hardware": 0.1383737517831669,
+      "Finance": 0,
+      "Media": 0.12883850138899317,
+      "Social": 0,
+      "Culture": 0.1569937683009235,
+      "Security": 0,
+      "Events": 0.10744049853592612,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 958,
+      "Software": 5280,
+      "Hardware": 1843,
+      "Finance": 0,
+      "Media": 1716,
+      "Social": 0,
+      "Culture": 2091,
+      "Security": 0,
+      "Events": 1431,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 1,
+      "Software": 4,
+      "Hardware": 2,
+      "Finance": 0,
+      "Media": 1,
+      "Social": 0,
+      "Culture": 3,
+      "Security": 0,
+      "Events": 1,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 13319,
+    "totalTopics": 16
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 230,
+      "endSec": 1031,
+      "durationSec": 801,
+      "topic": "Monkeydom",
+      "fineSubject": "Monkeydom",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1673,
+      "endSec": 2076,
+      "durationSec": 403,
+      "topic": "Apple Park und Meckerkultur",
+      "fineSubject": "Apple Park and Criticism Culture",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Events",
+      "startSec": 2077,
+      "endSec": 3508,
+      "durationSec": 1431,
+      "topic": "WWDC Talk halten",
+      "fineSubject": "WWDC Talk",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Culture",
+      "startSec": 3509,
+      "endSec": 4396,
+      "durationSec": 887,
+      "topic": "Arbeitskultur bei Apple",
+      "fineSubject": "Work Culture at Apple",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Media",
+      "startSec": 5665,
+      "endSec": 7381,
+      "durationSec": 1716,
+      "topic": "Hörerzahlen und Podcast-Finanzierung",
+      "fineSubject": "Podcast Metrics and Financing",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Software",
+      "startSec": 7381,
+      "endSec": 7920,
+      "durationSec": 539,
+      "topic": "ZFS und APFS auf dem Mac",
+      "fineSubject": "ZFS and APFS on Mac",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7921,
+      "endSec": 8879,
+      "durationSec": 958,
+      "topic": "Mobilfunk und Datenverbrauch",
+      "fineSubject": "Mobile Data Usage",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Software",
+      "startSec": 8879,
+      "endSec": 9315,
+      "durationSec": 436,
+      "topic": "iOS 12",
+      "fineSubject": "iOS 12",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Software",
+      "startSec": 9316,
+      "endSec": 9975,
+      "durationSec": 659,
+      "topic": "Die Ablage und Internationalisierung",
+      "fineSubject": "File Management and Internationalization",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Software",
+      "startSec": 9976,
+      "endSec": 13622,
+      "durationSec": 3646,
+      "topic": "Swift und die Zukunft",
+      "fineSubject": "Swift and the Future",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 13622,
+      "endSec": 14169,
+      "durationSec": 547,
+      "topic": "Oculus Go",
+      "fineSubject": "Oculus Go",
+      "topicIndex": 13
+    },
+    {
+      "subject": "Hardware",
+      "startSec": 14170,
+      "endSec": 15466,
+      "durationSec": 1296,
+      "topic": "HomePod",
+      "fineSubject": "HomePod",
+      "topicIndex": 14
+    }
+  ]
+}

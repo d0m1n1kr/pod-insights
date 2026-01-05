@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 288,
+  "title": "LNP288 Wir nennen Namen",
+  "generatedAt": "2026-01-05T15:17:57.612Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.19918826100530754,
+      "Technology": 0.5832032469559788,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0.18607555416796753,
+      "Media": 0.031532937870746174,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 638,
+      "Technology": 1868,
+      "Law": 0,
+      "Security": 0,
+      "Social": 596,
+      "Media": 101,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 2,
+      "Law": 0,
+      "Security": 0,
+      "Social": 3,
+      "Media": 1,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3203,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 191,
+      "endSec": 684,
+      "durationSec": 493,
+      "topic": "Entscheidung im Rechtsausschuss",
+      "fineSubject": "Legislation",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 684,
+      "endSec": 962,
+      "durationSec": 278,
+      "topic": "Verschwörungstheoretiker",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Social",
+      "startSec": 963,
+      "endSec": 1053,
+      "durationSec": 90,
+      "topic": "Jetzt - wirklich - 5 vor 12",
+      "fineSubject": "Urgency",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 1054,
+      "endSec": 1282,
+      "durationSec": 228,
+      "topic": "Demonstration",
+      "fineSubject": "Protests",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1283,
+      "endSec": 1428,
+      "durationSec": 145,
+      "topic": "Petition",
+      "fineSubject": "Public Engagement",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1428,
+      "endSec": 3052,
+      "durationSec": 1624,
+      "topic": "Telefon",
+      "fineSubject": "Communication",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Media",
+      "startSec": 3053,
+      "endSec": 3154,
+      "durationSec": 101,
+      "topic": "Linus bei Rocketbeans",
+      "fineSubject": "Streaming",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3292,
+      "endSec": 3536,
+      "durationSec": 244,
+      "topic": "Bonus: \"Uploadfilter Erklärt\"",
+      "fineSubject": "Copyright",
+      "topicIndex": 8
+    }
+  ]
+}

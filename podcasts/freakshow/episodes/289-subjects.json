@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 289,
+  "title": "FS289 Die Programmiersprache heißt Deutsch",
+  "generatedAt": "2026-01-05T15:17:51.120Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.9328876317819491,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 0.06711236821805092,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 10884,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 783,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 11,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0,
+      "Media": 0,
+      "Social": 0,
+      "Culture": 1,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 11667,
+    "totalTopics": 13
+  },
+  "timeline": [
+    {
+      "subject": "Culture",
+      "startSec": 1414,
+      "endSec": 2197,
+      "durationSec": 783,
+      "topic": "David Lynch",
+      "fineSubject": "Film",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2198,
+      "endSec": 2790,
+      "durationSec": 592,
+      "topic": "Radiacode",
+      "fineSubject": "Software",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 2790,
+      "endSec": 3504,
+      "durationSec": 714,
+      "topic": "Fediverse Activity Tracker",
+      "fineSubject": "Social Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3504,
+      "endSec": 4946,
+      "durationSec": 1442,
+      "topic": "Programmieren mit AI",
+      "fineSubject": "AI",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4947,
+      "endSec": 5381,
+      "durationSec": 434,
+      "topic": "Model Context Protocol",
+      "fineSubject": "Protocols",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 5381,
+      "endSec": 6062,
+      "durationSec": 681,
+      "topic": "Rodecaster Duo",
+      "fineSubject": "Audio Equipment",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6063,
+      "endSec": 6369,
+      "durationSec": 306,
+      "topic": "Rodecaster Video",
+      "fineSubject": "Video Equipment",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Technology",
+      "startSec": 6369,
+      "endSec": 7341,
+      "durationSec": 972,
+      "topic": "Apple Vision Pro Erfahrungen",
+      "fineSubject": "VR",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7341,
+      "endSec": 7530,
+      "durationSec": 189,
+      "topic": "Halterungen für VR-Brillen",
+      "fineSubject": "Accessories",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7531,
+      "endSec": 7820,
+      "durationSec": 289,
+      "topic": "Receipts Space",
+      "fineSubject": "Software",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7821,
+      "endSec": 8172,
+      "durationSec": 351,
+      "topic": "LookScanned",
+      "fineSubject": "Software",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8173,
+      "endSec": 13087,
+      "durationSec": 4914,
+      "topic": "DeepSeek",
+      "fineSubject": "Software",
+      "topicIndex": 12
+    }
+  ]
+}

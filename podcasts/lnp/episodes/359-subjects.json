@@ -1,0 +1,126 @@
+{
+  "episodeNumber": 359,
+  "title": "LNP359 Digitalisierung’s Not Dead",
+  "generatedAt": "2026-01-05T15:17:57.622Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.07830853563038372,
+      "Technology": 0.21848081440877057,
+      "Law": 0.08013573479509266,
+      "Security": 0.29731140694335684,
+      "Social": 0.017749934742886976,
+      "Media": 0.15713912816496997,
+      "Health": 0.11850691725398069,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.0323675280605586
+    },
+    "durations": {
+      "Politics": 300,
+      "Technology": 837,
+      "Law": 307,
+      "Security": 1139,
+      "Social": 68,
+      "Media": 602,
+      "Health": 454,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 124
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 1,
+      "Law": 1,
+      "Security": 1,
+      "Social": 1,
+      "Media": 1,
+      "Health": 1,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 3831,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Health",
+      "startSec": 1052,
+      "endSec": 1506,
+      "durationSec": 454,
+      "topic": "Corona-Warn-App nicht auf kurdisch",
+      "fineSubject": "Corona-Warn-App",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1507,
+      "endSec": 1631,
+      "durationSec": 124,
+      "topic": "Chez Airelle",
+      "fineSubject": "Chez Airelle",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Media",
+      "startSec": 1632,
+      "endSec": 2234,
+      "durationSec": 602,
+      "topic": "Presserat",
+      "fineSubject": "Presserat",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Security",
+      "startSec": 2234,
+      "endSec": 3373,
+      "durationSec": 1139,
+      "topic": "Bundesweiter Warntag",
+      "fineSubject": "Warntag",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3374,
+      "endSec": 4211,
+      "durationSec": 837,
+      "topic": "E2E monitoring",
+      "fineSubject": "E2E Monitoring",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Politics",
+      "startSec": 4777,
+      "endSec": 5077,
+      "durationSec": 300,
+      "topic": "Wikileaks",
+      "fineSubject": "Wikileaks",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Social",
+      "startSec": 5077,
+      "endSec": 5145,
+      "durationSec": 68,
+      "topic": "Für Facebook wird es eng",
+      "fineSubject": "Facebook",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Law",
+      "startSec": 5145,
+      "endSec": 5452,
+      "durationSec": 307,
+      "topic": "Straßburg lehnt GCHQ-Klage vorerst ab",
+      "fineSubject": "GCHQ-Klage",
+      "topicIndex": 9
+    }
+  ]
+}

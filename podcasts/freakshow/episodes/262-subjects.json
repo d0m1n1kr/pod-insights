@@ -1,0 +1,207 @@
+{
+  "episodeNumber": 262,
+  "title": "FS262 Nussverteiler",
+  "generatedAt": "2026-01-05T15:17:51.113Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Technology": 0.7031215651791602,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 0.16454165750714442,
+      "Media": 0.1323367773136953,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "durations": {
+      "Technology": 6397,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 1497,
+      "Media": 1204,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "topicCounts": {
+      "Technology": 11,
+      "Software": 0,
+      "Hardware": 0,
+      "Finance": 3,
+      "Media": 3,
+      "Social": 0,
+      "Culture": 0,
+      "Security": 0,
+      "Events": 0,
+      "Business": 0,
+      "Gaming": 0,
+      "Event": 0
+    },
+    "totalDurationSec": 9098,
+    "totalTopics": 22
+  },
+  "timeline": [
+    {
+      "subject": "Finance",
+      "startSec": 362,
+      "endSec": 914,
+      "durationSec": 552,
+      "topic": "Bankprobleme",
+      "fineSubject": "Banking Issues",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Media",
+      "startSec": 1053,
+      "endSec": 1533,
+      "durationSec": 480,
+      "topic": "The Billion Dollar Code",
+      "fineSubject": "Film and Television",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1534,
+      "endSec": 1857,
+      "durationSec": 323,
+      "topic": "Facebook Outage",
+      "fineSubject": "Social Media",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Media",
+      "startSec": 1858,
+      "endSec": 2486,
+      "durationSec": 628,
+      "topic": "Blogs und RSS-Reader",
+      "fineSubject": "Blogs",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3145,
+      "endSec": 4252,
+      "durationSec": 1107,
+      "topic": "Starlink",
+      "fineSubject": "Satellite Internet",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Finance",
+      "startSec": 6481,
+      "endSec": 7193,
+      "durationSec": 712,
+      "topic": "Energiekrise",
+      "fineSubject": "Energy Crisis",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7194,
+      "endSec": 7795,
+      "durationSec": 601,
+      "topic": "Geklautes iPhone",
+      "fineSubject": "Smartphones",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Technology",
+      "startSec": 7795,
+      "endSec": 8341,
+      "durationSec": 546,
+      "topic": "AirTags und Device Tracking",
+      "fineSubject": "Device Tracking",
+      "topicIndex": 11
+    },
+    {
+      "subject": "Technology",
+      "startSec": 8342,
+      "endSec": 8484,
+      "durationSec": 142,
+      "topic": "Neue iDevices",
+      "fineSubject": "Consumer Electronics",
+      "topicIndex": 12
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9635,
+      "endSec": 9876,
+      "durationSec": 241,
+      "topic": "AirPods Pro",
+      "fineSubject": "Audio Devices",
+      "topicIndex": 14
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9876,
+      "endSec": 10772,
+      "durationSec": 896,
+      "topic": "Neue Macs",
+      "fineSubject": "Computers",
+      "topicIndex": 15
+    },
+    {
+      "subject": "Technology",
+      "startSec": 10773,
+      "endSec": 11042,
+      "durationSec": 269,
+      "topic": "M1 Roadmap",
+      "fineSubject": "Hardware Roadmap",
+      "topicIndex": 16
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11042,
+      "endSec": 11583,
+      "durationSec": 541,
+      "topic": "Desktop Macs",
+      "fineSubject": "Desktop Computers",
+      "topicIndex": 17
+    },
+    {
+      "subject": "Technology",
+      "startSec": 11584,
+      "endSec": 12833,
+      "durationSec": 1249,
+      "topic": "MacBook Pro",
+      "fineSubject": "Laptops",
+      "topicIndex": 18
+    },
+    {
+      "subject": "Finance",
+      "startSec": 12833,
+      "endSec": 13066,
+      "durationSec": 233,
+      "topic": "Was kosten Macs?",
+      "fineSubject": "Pricing",
+      "topicIndex": 19
+    },
+    {
+      "subject": "Technology",
+      "startSec": 13067,
+      "endSec": 13549,
+      "durationSec": 482,
+      "topic": "Mac Tools",
+      "fineSubject": "Software Tools",
+      "topicIndex": 20
+    },
+    {
+      "subject": "Media",
+      "startSec": 13904,
+      "endSec": 14000,
+      "durationSec": 96,
+      "topic": "Bonus Track",
+      "fineSubject": "Bonus Content",
+      "topicIndex": 21
+    }
+  ]
+}

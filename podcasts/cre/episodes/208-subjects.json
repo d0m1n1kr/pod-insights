@@ -1,0 +1,81 @@
+{
+  "episodeNumber": 208,
+  "title": "CRE208 Neuronale Netze",
+  "generatedAt": "2026-01-05T15:17:54.394Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Software": 0,
+      "Technology": 1,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "durations": {
+      "Software": 0,
+      "Technology": 5055,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "topicCounts": {
+      "Software": 0,
+      "Technology": 3,
+      "Social": 0,
+      "Media": 0,
+      "Hardware": 0,
+      "Culture": 0,
+      "Technologie": 0,
+      "Politics": 0,
+      "Security": 0,
+      "History": 0,
+      "Community": 0,
+      "Sicherheit": 0
+    },
+    "totalDurationSec": 5055,
+    "totalTopics": 3
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 1287,
+      "endSec": 4719,
+      "durationSec": 3432,
+      "topic": "Funktion von neuronalen Netzen",
+      "fineSubject": "Neural Networks",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4245,
+      "endSec": 5584,
+      "durationSec": 1339,
+      "topic": "Anwendungen von neuronalen Netzen",
+      "fineSubject": "Applications",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 9376,
+      "endSec": 9660,
+      "durationSec": 284,
+      "topic": "Durchbrüche in der Künstlichen Intelligenz",
+      "fineSubject": "Artificial Intelligence",
+      "topicIndex": 0
+    }
+  ]
+}

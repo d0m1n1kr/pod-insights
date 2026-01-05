@@ -1,0 +1,144 @@
+{
+  "episodeNumber": 253,
+  "title": "LNP253 Hey Siri! Lösch Dich!",
+  "generatedAt": "2026-01-05T15:17:57.607Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.24104953408533594,
+      "Technology": 0.11451692005885238,
+      "Law": 0.07626287395782246,
+      "Security": 0.13609612555174105,
+      "Social": 0.3526238352133399,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0.07945071113290829,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 983,
+      "Technology": 467,
+      "Law": 311,
+      "Security": 555,
+      "Social": 1438,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 324,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 1,
+      "Technology": 2,
+      "Law": 1,
+      "Security": 1,
+      "Social": 4,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 1,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 4078,
+    "totalTopics": 10
+  },
+  "timeline": [
+    {
+      "subject": "Social",
+      "startSec": 132,
+      "endSec": 478,
+      "durationSec": 346,
+      "topic": "Feedback: Schwaben und Baden",
+      "fineSubject": "Regional Feedback",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Social",
+      "startSec": 479,
+      "endSec": 870,
+      "durationSec": 391,
+      "topic": "Feedback: Trolle",
+      "fineSubject": "Online Behavior",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 870,
+      "endSec": 1853,
+      "durationSec": 983,
+      "topic": "Großdemo gegen bayrisches Polizeiaufgabengesetz",
+      "fineSubject": "Protests",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 1853,
+      "endSec": 2252,
+      "durationSec": 399,
+      "topic": "Facebook Fake News Nudging wird geändert",
+      "fineSubject": "Media Manipulation",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Social",
+      "startSec": 2253,
+      "endSec": 2555,
+      "durationSec": 302,
+      "topic": "Auch Twitter dealte mit Cambridge Analytica",
+      "fineSubject": "Data Privacy",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Security",
+      "startSec": 2555,
+      "endSec": 3110,
+      "durationSec": 555,
+      "topic": "Twitter und GitHub haben Passwörter geloggt",
+      "fineSubject": "Password Management",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3110,
+      "endSec": 3542,
+      "durationSec": 432,
+      "topic": "Gesichtserkennung mit Rekordfehlerrate von 92%",
+      "fineSubject": "Facial Recognition",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Law",
+      "startSec": 3543,
+      "endSec": 3854,
+      "durationSec": 311,
+      "topic": "BGH soll entscheiden, ob YouTube für Urheberrechtsverletzungen haftet",
+      "fineSubject": "Copyright",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Legal",
+      "startSec": 3855,
+      "endSec": 4179,
+      "durationSec": 324,
+      "topic": "Digitalcourage abgemahnt",
+      "fineSubject": "Cease and Desist",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Technology",
+      "startSec": 4179,
+      "endSec": 4214,
+      "durationSec": 35,
+      "topic": "EU-Domains auch für Briten und restliche Welt",
+      "fineSubject": "Domain Registration",
+      "topicIndex": 9
+    }
+  ]
+}

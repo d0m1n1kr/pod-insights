@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 164,
+  "title": "LNP164 Die müssen das noch absägen",
+  "generatedAt": "2026-01-05T15:17:57.595Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.17883511074651354,
+      "Technology": 0.33675143560295323,
+      "Law": 0.24077112387202626,
+      "Security": 0,
+      "Social": 0.24364232977850697,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 436,
+      "Technology": 821,
+      "Law": 587,
+      "Security": 0,
+      "Social": 594,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 1,
+      "Law": 2,
+      "Security": 0,
+      "Social": 1,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 2438,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 137,
+      "endSec": 216,
+      "durationSec": 79,
+      "topic": "Oettinger möchte keinen Grundrechte-Katalog",
+      "fineSubject": "Civil Rights",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 217,
+      "endSec": 574,
+      "durationSec": 357,
+      "topic": "Bayern will Verfassungsschutz die VDS geben",
+      "fineSubject": "Surveillance",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Social",
+      "startSec": 574,
+      "endSec": 1168,
+      "durationSec": 594,
+      "topic": "Hatespeech Maas",
+      "fineSubject": "Hate Speech",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Law",
+      "startSec": 1169,
+      "endSec": 1440,
+      "durationSec": 271,
+      "topic": "Trilog zu EU-Datenschutzgrundverordnung abgeschlossen",
+      "fineSubject": "Data Protection",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Law",
+      "startSec": 1440,
+      "endSec": 1756,
+      "durationSec": 316,
+      "topic": "Redtube-Urteil",
+      "fineSubject": "Court Rulings",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Technology",
+      "startSec": 1756,
+      "endSec": 2577,
+      "durationSec": 821,
+      "topic": "32C3",
+      "fineSubject": "Conferences",
+      "topicIndex": 6
+    }
+  ]
+}

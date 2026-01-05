@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 31,
+  "title": "LNP031 Handwerkliche Fehler",
+  "generatedAt": "2026-01-05T15:17:57.576Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.9591185850971296,
+      "Technology": 0.040881414902870394,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "durations": {
+      "Politics": 3308,
+      "Technology": 141,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "topicCounts": {
+      "Politics": 4,
+      "Technology": 1,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0
+    },
+    "totalDurationSec": 3449,
+    "totalTopics": 5
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 164,
+      "endSec": 1089,
+      "durationSec": 925,
+      "topic": "Altes ACTA in neuen Schläuchen",
+      "fineSubject": "Copyright",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Politics",
+      "startSec": 1090,
+      "endSec": 2651,
+      "durationSec": 1561,
+      "topic": "Reform des Meldegesetzes",
+      "fineSubject": "Legislation",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2651,
+      "endSec": 2811,
+      "durationSec": 160,
+      "topic": "Wikileaks veröffentlicht syrische Regierungsmails",
+      "fineSubject": "Whistleblowing",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2812,
+      "endSec": 3474,
+      "durationSec": 662,
+      "topic": "Peter Sundes Begnadigungsgesuch",
+      "fineSubject": "Legal Issues",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3475,
+      "endSec": 3616,
+      "durationSec": 141,
+      "topic": "US-Provider gegen Netzneutralität",
+      "fineSubject": "Internet Policy",
+      "topicIndex": 4
+    }
+  ]
+}

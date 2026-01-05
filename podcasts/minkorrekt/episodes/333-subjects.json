@@ -1,0 +1,108 @@
+{
+  "episodeNumber": 333,
+  "title": "Mi333 – \"Cool-down Ampel\"",
+  "generatedAt": "2026-01-05T15:18:17.389Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.39859707035279557,
+      "Culture": 0.14462554157210647,
+      "Wissenschaft": 0,
+      "Health": 0.2356096554569837,
+      "Technology": 0.2211677326181143,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 1932,
+      "Culture": 701,
+      "Wissenschaft": 0,
+      "Health": 1142,
+      "Technology": 1072,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 3,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 4847,
+    "totalTopics": 7
+  },
+  "timeline": [
+    {
+      "subject": "Technology",
+      "startSec": 193,
+      "endSec": 1265,
+      "durationSec": 1072,
+      "topic": "Bike commute",
+      "fineSubject": "Bike",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1917,
+      "endSec": 2060,
+      "durationSec": 143,
+      "topic": "Das Universum",
+      "fineSubject": "Cosmology",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Health",
+      "startSec": 2752,
+      "endSec": 3894,
+      "durationSec": 1142,
+      "topic": "Thema 1: \"Iss dich jung\"",
+      "fineSubject": "Nutrition",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Science",
+      "startSec": 3894,
+      "endSec": 4159,
+      "durationSec": 265,
+      "topic": "Snackable Science",
+      "fineSubject": "Education",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 4159,
+      "endSec": 5683,
+      "durationSec": 1524,
+      "topic": "Thema 2 \"Anomalien in der Hohlerde\"",
+      "fineSubject": "Anomalies",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5683,
+      "endSec": 6384,
+      "durationSec": 701,
+      "topic": "Schwurbel der Woche",
+      "fineSubject": "Pseudoscience",
+      "topicIndex": 6
+    }
+  ]
+}

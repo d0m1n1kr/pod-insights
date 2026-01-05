@@ -1,0 +1,99 @@
+{
+  "episodeNumber": 317,
+  "title": "LNP317 Cadus",
+  "generatedAt": "2026-01-05T15:17:57.616Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Politics": 0.42589928057553955,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 0.24136690647482015,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 0.3327338129496403
+    },
+    "durations": {
+      "Politics": 1184,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 671,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 925
+    },
+    "topicCounts": {
+      "Politics": 2,
+      "Technology": 0,
+      "Law": 0,
+      "Security": 0,
+      "Social": 0,
+      "Media": 0,
+      "Health": 2,
+      "Feedback": 0,
+      "Legal": 0,
+      "Business": 0,
+      "Privacy": 0,
+      "Culture": 1
+    },
+    "totalDurationSec": 2780,
+    "totalTopics": 9
+  },
+  "timeline": [
+    {
+      "subject": "Politics",
+      "startSec": 814,
+      "endSec": 988,
+      "durationSec": 174,
+      "topic": "Erkundung in Rojava",
+      "fineSubject": "Geopolitics / Rojava",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 989,
+      "endSec": 1390,
+      "durationSec": 401,
+      "topic": "Mobile Hospital",
+      "fineSubject": "Healthcare / Mobile Hospital",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 1390,
+      "endSec": 1660,
+      "durationSec": 270,
+      "topic": "Bau medizinischer Geräte",
+      "fineSubject": "Healthcare / Medical Devices",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1661,
+      "endSec": 2586,
+      "durationSec": 925,
+      "topic": "Hacker- und Makerszene",
+      "fineSubject": "Culture / Hacker and Makers Scene",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Politics",
+      "startSec": 2587,
+      "endSec": 3597,
+      "durationSec": 1010,
+      "topic": "Die aktuelle Situation in Syrien",
+      "fineSubject": "Geopolitics / Syria",
+      "topicIndex": 7
+    }
+  ]
+}

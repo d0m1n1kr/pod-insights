@@ -1,0 +1,117 @@
+{
+  "episodeNumber": 286,
+  "title": "Mi286 – \"Mehr Technokratie wagen!\"",
+  "generatedAt": "2026-01-05T15:18:17.382Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.1439235592714243,
+      "Culture": 0.33741415347865034,
+      "Wissenschaft": 0,
+      "Health": 0.35055240370259777,
+      "Technology": 0.057181248133771276,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0.11092863541355628,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 964,
+      "Culture": 2260,
+      "Wissenschaft": 0,
+      "Health": 2348,
+      "Technology": 383,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 743,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 1,
+      "Culture": 2,
+      "Wissenschaft": 0,
+      "Health": 2,
+      "Technology": 1,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 1,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 6698,
+    "totalTopics": 8
+  },
+  "timeline": [
+    {
+      "subject": "Media",
+      "startSec": 374,
+      "endSec": 1117,
+      "durationSec": 743,
+      "topic": "Oppenheimer",
+      "fineSubject": "Biography / Oppenheimer",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1117,
+      "endSec": 2095,
+      "durationSec": 978,
+      "topic": "Kodak und Atomtests",
+      "fineSubject": "Industry / Kodak",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Science",
+      "startSec": 2095,
+      "endSec": 3059,
+      "durationSec": 964,
+      "topic": "Raumakustik",
+      "fineSubject": "Engineering / Raumakustik",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Technology",
+      "startSec": 3059,
+      "endSec": 3442,
+      "durationSec": 383,
+      "topic": "Tincercad",
+      "fineSubject": "Software / Tinkercad",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 3442,
+      "endSec": 5085,
+      "durationSec": 1643,
+      "topic": "Thema 1: “Hunger Dich gesund!”",
+      "fineSubject": "Diet / Healthy Eating",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Health",
+      "startSec": 5085,
+      "endSec": 5790,
+      "durationSec": 705,
+      "topic": "Snackable Science: Blutzuckermessung",
+      "fineSubject": "Technology / Blood Sugar Monitoring",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Culture",
+      "startSec": 5790,
+      "endSec": 7072,
+      "durationSec": 1282,
+      "topic": "Thema 2: \"Tempus fugit\"",
+      "fineSubject": "Concepts / Tempus fugit",
+      "topicIndex": 6
+    }
+  ]
+}

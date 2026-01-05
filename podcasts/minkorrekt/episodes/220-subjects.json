@@ -1,0 +1,162 @@
+{
+  "episodeNumber": 220,
+  "title": "Mi220 – „Hip Hip Hurra Wissenschaft!“",
+  "generatedAt": "2026-01-05T15:18:17.374Z",
+  "dataSource": "extended-topics",
+  "radarChart": {
+    "values": {
+      "Science": 0.8884187739840598,
+      "Culture": 0.06927088458132441,
+      "Wissenschaft": 0,
+      "Health": 0.04231034143461576,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "durations": {
+      "Science": 9029,
+      "Culture": 704,
+      "Wissenschaft": 0,
+      "Health": 430,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "topicCounts": {
+      "Science": 10,
+      "Culture": 1,
+      "Wissenschaft": 0,
+      "Health": 1,
+      "Technology": 0,
+      "Technologie": 0,
+      "Biologie": 0,
+      "Media": 0,
+      "Physik": 0,
+      "Education": 0,
+      "Social": 0,
+      "Biology": 0
+    },
+    "totalDurationSec": 10163,
+    "totalTopics": 12
+  },
+  "timeline": [
+    {
+      "subject": "Science",
+      "startSec": 649,
+      "endSec": 1339,
+      "durationSec": 690,
+      "topic": "MS Wissenschaft",
+      "fineSubject": "Exhibitions",
+      "topicIndex": 0
+    },
+    {
+      "subject": "Science",
+      "startSec": 1339,
+      "endSec": 1519,
+      "durationSec": 180,
+      "topic": "Dr Whatson",
+      "fineSubject": "Technology",
+      "topicIndex": 1
+    },
+    {
+      "subject": "Culture",
+      "startSec": 1519,
+      "endSec": 2223,
+      "durationSec": 704,
+      "topic": "Bulli",
+      "fineSubject": "Vehicles",
+      "topicIndex": 2
+    },
+    {
+      "subject": "Science",
+      "startSec": 2223,
+      "endSec": 2782,
+      "durationSec": 559,
+      "topic": "Salz auf Straßen",
+      "fineSubject": "Roads",
+      "topicIndex": 3
+    },
+    {
+      "subject": "Health",
+      "startSec": 2782,
+      "endSec": 3212,
+      "durationSec": 430,
+      "topic": "Meditation",
+      "fineSubject": "Wellness",
+      "topicIndex": 4
+    },
+    {
+      "subject": "Science",
+      "startSec": 3458,
+      "endSec": 3544,
+      "durationSec": 86,
+      "topic": "Themen der Woche",
+      "fineSubject": "Current Topics",
+      "topicIndex": 5
+    },
+    {
+      "subject": "Science",
+      "startSec": 3544,
+      "endSec": 5190,
+      "durationSec": 1646,
+      "topic": "Thema 1: “Melitta, vertrau mir Bruder!”",
+      "fineSubject": "Social Issues",
+      "topicIndex": 6
+    },
+    {
+      "subject": "Science",
+      "startSec": 5190,
+      "endSec": 6981,
+      "durationSec": 1791,
+      "topic": "Thema 2: \"Lets Schwing\"",
+      "fineSubject": "Physics",
+      "topicIndex": 7
+    },
+    {
+      "subject": "Science",
+      "startSec": 6981,
+      "endSec": 7388,
+      "durationSec": 407,
+      "topic": "Experiment der Woche",
+      "fineSubject": "Experiments",
+      "topicIndex": 8
+    },
+    {
+      "subject": "Science",
+      "startSec": 7388,
+      "endSec": 8885,
+      "durationSec": 1497,
+      "topic": "Thema 3: “Bauer sucht Ratte”",
+      "fineSubject": "Agriculture",
+      "topicIndex": 9
+    },
+    {
+      "subject": "Science",
+      "startSec": 8885,
+      "endSec": 9996,
+      "durationSec": 1111,
+      "topic": "Thema 4: “In einem Universum vor unserer Zeit\"",
+      "fineSubject": "Cosmology",
+      "topicIndex": 10
+    },
+    {
+      "subject": "Science",
+      "startSec": 10088,
+      "endSec": 11150,
+      "durationSec": 1062,
+      "topic": "Schwurbel",
+      "fineSubject": "Conspiracy Theories",
+      "topicIndex": 11
+    }
+  ]
+}
