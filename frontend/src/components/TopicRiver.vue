@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, computed, watch, nextTick, onUnmounted } from 'vue';
+import { computed as computedImport } from 'vue';
 import {
   select,
   scaleLinear,
@@ -27,12 +28,23 @@ import { useLazyEpisodeDetails, loadEpisodeDetail, getCachedEpisodeDetail } from
 const props = defineProps<{
   data: TopicRiverData;
   color?: 'blue' | 'purple';
+  normalizedView?: boolean;
+  topicFilter?: number;
+}>();
+
+const emit = defineEmits<{
+  (e: 'update:normalizedView', value: boolean): void;
+  (e: 'update:topicFilter', value: number): void;
 }>();
 
 const themeColor = props.color || 'blue';
 
 const settingsStore = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
+
+// Use props if provided, otherwise fall back to store
+const normalizedView = computed(() => props.normalizedView !== undefined ? props.normalizedView : settingsStore.normalizedView);
+const topicFilterValue = computed(() => props.topicFilter !== undefined ? props.topicFilter : settingsStore.topicFilter);
 
 const svgRef = ref<SVGSVGElement | null>(null);
 const containerRef = ref<HTMLDivElement | null>(null);
@@ -52,11 +64,7 @@ const totalTopicsAvailable = computed(() => {
 const topicFilterMax = computed(() => Math.max(5, totalTopicsAvailable.value));
 
 // Default slider value to "max" (but don't override persisted user choice)
-watch(topicFilterMax, (max) => {
-  if (settingsStore.topicFilter === 15 || settingsStore.topicFilter > max) {
-    settingsStore.topicFilter = max;
-  }
-}, { immediate: true });
+// Note: This is now handled by the parent component via props
 
 // Legend search (desktop)
 const legendSearchQuery = ref('');
@@ -72,7 +80,7 @@ const processedData = computed(() => {
   const topics: ProcessedTopicData[] = [];
   const years = props.data.statistics.years;
   
-  console.log('Processing data with topicFilter:', settingsStore.topicFilter);
+  console.log('Processing data with topicFilter:', topicFilterValue.value);
   
   const hasRelevanceData = Object.values(props.data.topics).some(t =>
     Number.isFinite((t as any).totalRelevanceSec) ||
@@ -101,7 +109,7 @@ const processedData = computed(() => {
       const bv = hasRelevanceData ? b.relevanceSec : b.episodeCount;
       return bv - av;
     })
-    .slice(0, settingsStore.topicFilter);
+    .slice(0, topicFilterValue.value);
   
   console.log('Top topics count:', topTopics.length);
   
@@ -280,7 +288,7 @@ const drawRiver = () => {
     .keys(keys)
     // In normierter Ansicht: stackOffsetExpand sorgt für gleich hohe Jahre (0-1)
     // In normaler Ansicht: stackOffsetWiggle für schöne Stream-Optik
-    .offset(settingsStore.normalizedView ? stackOffsetExpand : stackOffsetWiggle)
+    .offset(normalizedView.value ? stackOffsetExpand : stackOffsetWiggle)
     .order(stackOrderInsideOut);
   
   const series = stackFn(stackData);
@@ -294,7 +302,7 @@ const drawRiver = () => {
   const yExtent = extent(flatValues) as [number, number];
   // In normierter Ansicht: Domain immer auf [0, 1] begrenzen, da stackOffsetExpand normalisiert
   // Die Kurveninterpolation kann temporär Werte > 1.0 erzeugen, daher clampen wir die Domain
-  const yDomain = settingsStore.normalizedView 
+  const yDomain = normalizedView.value 
     ? [0, 1] as [number, number]
     : yExtent;
   const yScale = scaleLinear()
@@ -306,12 +314,12 @@ const drawRiver = () => {
     .x((d: any) => xScale(d.data.year))
     .y0((d: any) => {
       // In normierter Ansicht: Werte auf [0, 1] clampen, da Kurveninterpolation Werte außerhalb erzeugen kann
-      const val = settingsStore.normalizedView ? Math.max(0, Math.min(1, d[0])) : d[0];
+      const val = normalizedView.value ? Math.max(0, Math.min(1, d[0])) : d[0];
       return yScale(val);
     })
     .y1((d: any) => {
       // In normierter Ansicht: Werte auf [0, 1] clampen, da Kurveninterpolation Werte außerhalb erzeugen kann
-      const val = settingsStore.normalizedView ? Math.max(0, Math.min(1, d[1])) : d[1];
+      const val = normalizedView.value ? Math.max(0, Math.min(1, d[1])) : d[1];
       return yScale(val);
     })
     // Important: curveBasis is an approximating spline and can visually distort values at exact years.
@@ -477,13 +485,26 @@ const drawRiver = () => {
       }
     })
     .on('click', function(_event: any, d: any) {
-      const wasSelected = selectedTopic.value === d.key;
-      selectedTopic.value = wasSelected ? null : d.key;
-      // Speichere das aktuell gehoverte Jahr beim Klicken
-      if (!wasSelected && hoveredYear.value) {
-        selectedYear.value = hoveredYear.value;
-      } else if (wasSelected) {
-        selectedYear.value = null;
+      const isSameTopic = selectedTopic.value === d.key;
+      
+      if (isSameTopic) {
+        // Same topic clicked
+        if (hoveredYear.value !== null && hoveredYear.value !== selectedYear.value) {
+          // Different year: keep topic selected, update year
+          selectedYear.value = hoveredYear.value;
+        } else {
+          // Same year or no hovered year: deselect topic
+          selectedTopic.value = null;
+          selectedYear.value = null;
+        }
+      } else {
+        // Different topic clicked: select topic and year
+        selectedTopic.value = d.key;
+        if (hoveredYear.value !== null) {
+          selectedYear.value = hoveredYear.value;
+        } else {
+          selectedYear.value = null;
+        }
       }
     });
   
@@ -534,14 +555,14 @@ const updateOpacity = () => {
 };
 
 // Watch für Änderungen
-watch(() => settingsStore.topicFilter, () => {
-  console.log('topicFilter changed to:', settingsStore.topicFilter);
+watch(() => topicFilterValue.value, () => {
+  console.log('topicFilter changed to:', topicFilterValue.value);
   hoveredTopic.value = null; // Clear hover on filter change
   drawRiver();
 });
 
-watch(() => settingsStore.normalizedView, () => {
-  console.log('normalizedView changed to:', settingsStore.normalizedView);
+watch(() => normalizedView.value, () => {
+  console.log('normalizedView changed to:', normalizedView.value);
   hoveredTopic.value = null; // Clear hover on view change
   drawRiver();
 });
@@ -607,7 +628,7 @@ const selectedTopicInfo = computed(() => {
   };
 });
 
-const showEpisodeList = ref(false);
+const showEpisodeList = ref(true);
 const showTopicList = ref(false);
 const episodeDetails = ref<Map<number, any>>(new Map());
 const episodeTopics = ref<Map<number, any>>(new Map());
@@ -977,14 +998,32 @@ const loadAllTopics = async () => {
   // Versuche zuerst die detailed mapping zu laden
   if (!taxonomyData.value) {
     try {
-      const response = await fetch(getPodcastFileUrl('topic-taxonomy-detailed.json'));
+      const url = getPodcastFileUrl('topic-taxonomy-detailed.json');
+      const response = await fetch(url);
       if (response.ok) {
         taxonomyData.value = await response.json();
-        loadingTopics.value = false;
-        return; // Wir haben die Daten, kein Laden von Episode-Topics nötig
+        if (taxonomyData.value.clusters) {
+          const matchingCluster = taxonomyData.value.clusters.find((c: any) => c.id === selectedTopicInfo.value?.id);
+          
+          // If cluster found in taxonomy with topics, we can return early
+          // Otherwise, fall through to load episode topics
+          if (matchingCluster && matchingCluster.topics && matchingCluster.topics.length > 0) {
+            loadingTopics.value = false;
+            return;
+          }
+        }
       }
     } catch (e) {
-      console.log('Detailed taxonomy not found, falling back to episode topics');
+      // Fall through to load episode topics
+    }
+  } else {
+    // Taxonomy already loaded, check if cluster exists
+    if (taxonomyData.value.clusters) {
+      const matchingCluster = taxonomyData.value.clusters.find((c: any) => c.id === selectedTopicInfo.value?.id);
+      if (matchingCluster && matchingCluster.topics && matchingCluster.topics.length > 0) {
+        loadingTopics.value = false;
+        return;
+      }
     }
   }
   
@@ -1258,6 +1297,38 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
     speakersMetaUrl: getSpeakersBaseUrl(),
   });
 };
+
+// Expose methods and state for parent component
+defineExpose({
+  selectedTopic,
+  selectedYear,
+  setSelectedTopic: (topic: string | null) => {
+    selectedTopic.value = topic;
+  },
+  setSelectedYear: (year: number | null) => {
+    selectedYear.value = year;
+  },
+  selectedTopicInfo,
+  showEpisodeList,
+  showTopicList,
+  setShowEpisodeList: (value: boolean) => {
+    showEpisodeList.value = value;
+  },
+  setShowTopicList: (value: boolean) => {
+    showTopicList.value = value;
+  },
+  episodeDetails,
+  loadingEpisodes,
+  loadingTopics,
+  allIndividualTopics,
+  episodeTopics,
+  getTopicOccurrences,
+  formatOccurrenceLabel,
+  formatHmsFromSeconds,
+  formatDuration,
+  playEpisodeAt,
+  loadAllTopics
+});
 </script>
 
 <template>
@@ -1268,325 +1339,6 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
       class="tooltip"
       style="display: none; position: absolute; background: rgba(0, 0, 0, 0.9); color: white; padding: 8px 12px; border-radius: 6px; pointer-events: none; z-index: 1000; font-size: 13px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);"
     ></div>
-    
-    <div class="controls mb-4 sm:mb-6">
-      <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
-        <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
-          <span class="whitespace-nowrap">Anzahl Themen:</span>
-          <div class="flex items-center gap-2">
-            <input
-              v-model.number="settingsStore.topicFilter"
-              type="range"
-              min="5"
-              :max="topicFilterMax"
-              step="1"
-              :class="['flex-1 sm:w-32 md:w-48', themeColor === 'blue' ? 'slider-blue' : 'slider-purple']"
-            />
-            <span :class="['font-semibold min-w-[2rem] text-right', themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400' : 'text-purple-600 dark:text-purple-400']">{{ settingsStore.topicFilter }}</span>
-          </div>
-        </label>
-        
-        <label class="flex items-center gap-2 text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 cursor-pointer">
-          <input
-            v-model="settingsStore.normalizedView"
-            type="checkbox"
-            :class="['w-4 h-4 rounded', themeColor === 'blue' ? 'checkbox-blue' : 'checkbox-purple']"
-          />
-          <span>Normierte Ansicht (100%/Jahr)</span>
-        </label>
-      </div>
-      
-      
-      <div v-if="selectedTopicInfo" :class="['mt-4 p-4 border rounded-lg', themeColor === 'blue' ? 'bg-blue-50 dark:bg-blue-900/20 border-blue-200 dark:border-blue-700' : 'bg-purple-50 dark:bg-purple-900/20 border-purple-200 dark:border-purple-700']">
-        <div class="relative">
-          <div class="min-w-0">
-            <div class="pr-10">
-            <h3 :class="['font-semibold text-lg', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">{{ selectedTopicInfo.name }}</h3>
-            <p :class="['text-sm mt-1', themeColor === 'blue' ? 'text-blue-700 dark:text-blue-300' : 'text-purple-700 dark:text-purple-300']">{{ selectedTopicInfo.description }}</p>
-            
-            <!-- Year Filter Badge -->
-            <div v-if="selectedYear" class="mt-2 inline-flex items-center gap-2 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-              <span>📅 Jahr: {{ selectedYear }}</span>
-              <button 
-                @click="selectedYear = null"
-                class="hover:bg-blue-700 rounded-full w-5 h-5 flex items-center justify-center transition-colors"
-                title="Jahr-Filter entfernen"
-              >
-                ✕
-              </button>
-            </div>
-            
-            <div class="mt-2 flex gap-4">
-              <button
-                @click="showEpisodeList = !showEpisodeList; if (showEpisodeList) showTopicList = false;"
-                :class="['text-sm font-semibold underline', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
-              >
-                {{ showEpisodeList ? 'Episoden ausblenden' : (selectedYear ? `${selectedTopicInfo.filteredCount} von ${selectedTopicInfo.totalEpisodes} Episoden anzeigen` : `${selectedTopicInfo.episodes.length} Episoden anzeigen`) }}
-              </button>
-              <button
-                @click="showTopicList = !showTopicList; if (showTopicList) showEpisodeList = false;"
-                :class="['text-sm font-semibold underline', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
-              >
-                {{ showTopicList ? 'Einzelne Themen ausblenden' : 'Alle einzelnen Themen anzeigen' }}
-              </button>
-            </div>
-            </div>
-            
-            <!-- Episode List -->
-            <div v-if="showEpisodeList" :class="['mt-4 rounded-lg border', themeColor === 'blue' ? 'bg-white dark:bg-gray-900 border-blue-300 dark:border-blue-700' : 'bg-white dark:bg-gray-900 border-purple-300 dark:border-purple-700']">
-              <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
-                Lade Episoden-Details...
-              </div>
-              <div v-else class="max-h-96 overflow-auto">
-                <table class="min-w-full w-max text-sm table-auto">
-                  <thead :class="['sticky top-0', themeColor === 'blue' ? 'bg-blue-100 dark:bg-blue-900' : 'bg-purple-100 dark:bg-purple-900']">
-                    <tr>
-                      <th :class="['px-3 py-2 text-left text-xs font-semibold whitespace-nowrap', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">#</th>
-                      <th :class="['px-3 py-2 text-left text-xs font-semibold whitespace-nowrap', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Bild</th>
-                      <th :class="['px-3 py-2 text-left text-xs font-semibold whitespace-nowrap', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Datum</th>
-                      <th :class="['px-3 py-2 text-left text-xs font-semibold', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Titel</th>
-                      <th :class="['px-3 py-2 text-left text-xs font-semibold whitespace-nowrap', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Play</th>
-                      <th :class="['px-3 py-2 text-left text-xs font-semibold whitespace-nowrap', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Position(en)</th>
-                      <th :class="['px-3 py-2 text-left text-xs font-semibold whitespace-nowrap', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Dauer</th>
-                      <th :class="['px-3 py-2 text-left text-xs font-semibold whitespace-nowrap', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Sprecher</th>
-                      <th :class="['px-3 py-2 text-left text-xs font-semibold whitespace-nowrap', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">Link</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr 
-                      v-for="episode in selectedTopicInfo.episodes" 
-                      :key="episode.number"
-                      :data-episode-row="episode.number"
-                      :class="['border-t', themeColor === 'blue' ? 'border-blue-100 dark:border-blue-800 hover:bg-blue-50 dark:hover:bg-blue-900/20' : 'border-purple-100 dark:border-purple-800 hover:bg-purple-50 dark:hover:bg-purple-900/20']"
-                    >
-                      <template v-if="episodeDetails.has(episode.number) && episodeDetails.get(episode.number)">
-                        <td :class="['px-3 py-2 font-mono text-xs whitespace-nowrap', themeColor === 'blue' ? 'text-blue-700 dark:text-blue-300' : 'text-purple-700 dark:text-purple-300']">{{ episode.number }}</td>
-                        <td class="px-3 py-2">
-                          <img
-                            :src="getEpisodeImageUrl(episode.number)"
-                            :alt="episode.title"
-                            @error="($event.target as HTMLImageElement).style.display = 'none'"
-                            class="w-12 h-12 rounded object-cover border border-gray-200 dark:border-gray-700"
-                          />
-                        </td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
-                          {{ new Date(episode.date).toLocaleDateString('de-DE') }}
-                        </td>
-                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                          <router-link
-                            :to="{ name: 'episodeSearch', query: { episode: episode.number.toString(), podcast: settingsStore.selectedPodcast || 'freakshow' } }"
-                            :class="['truncate hover:underline', themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300' : 'text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300']"
-                          >
-                            {{ episode.title }}
-                          </router-link>
-                        </td>
-                        <td class="px-3 py-2">
-                          <button
-                            type="button"
-                            class="shrink-0 inline-flex items-center justify-center w-6 h-6 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
-                            @click="playEpisodeAt(episode.number, 0, 'Start')"
-                            title="Episode von Anfang abspielen"
-                            aria-label="Episode von Anfang abspielen"
-                          >
-                            ▶︎
-                          </button>
-                        </td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap font-mono">
-                          <template v-if="getTopicOccurrences(episode).length > 0">
-                            <template v-for="(occ, idx) in getTopicOccurrences(episode)" :key="`${episode.number}-${occ.positionSec}-${idx}`">
-                              <button
-                                type="button"
-                                :class="[
-                                  'underline hover:no-underline cursor-pointer',
-                                  themeColor === 'blue'
-                                    ? 'text-blue-700 dark:text-blue-300'
-                                    : 'text-purple-700 dark:text-purple-300'
-                                ]"
-                                @click="playEpisodeAt(episode.number, occ.positionSec, formatOccurrenceLabel(occ))"
-                                :title="`Episode öffnen bei ${formatHmsFromSeconds(occ.positionSec)}`"
-                              >
-                                {{ formatOccurrenceLabel(occ) }}
-                              </button><span v-if="idx < getTopicOccurrences(episode).length - 1">, </span>
-                            </template>
-                          </template>
-                          <span v-else>—</span>
-                        </td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
-                          <template v-if="episodeDetails.get(episode.number)._fallback !== 'minimal' && episodeDetails.get(episode.number).duration">
-                            {{ formatDuration(episodeDetails.get(episode.number).duration) }}
-                          </template>
-                          <template v-else>—</template>
-                        </td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
-                          <template v-if="episodeDetails.get(episode.number).speakers && episodeDetails.get(episode.number).speakers.length > 0">
-                            {{ episodeDetails.get(episode.number).speakers.join(', ') }}
-                          </template>
-                          <template v-else>—</template>
-                        </td>
-                        <td class="px-3 py-2">
-                          <template v-if="episodeDetails.get(episode.number).url">
-                            <a 
-                              :href="episodeDetails.get(episode.number).url"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              :class="['underline text-xs', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
-                            >
-                              🔗
-                            </a>
-                          </template>
-                          <template v-else>
-                            <span class="text-gray-400 dark:text-gray-500 text-xs">—</span>
-                          </template>
-                        </td>
-                      </template>
-                      <template v-else-if="episodeDetails.has(episode.number) && episodeDetails.get(episode.number) === null">
-                        <td :class="['px-3 py-2 font-mono text-xs whitespace-nowrap', themeColor === 'blue' ? 'text-blue-700 dark:text-blue-300' : 'text-purple-700 dark:text-purple-300']">{{ episode.number }}</td>
-                        <td class="px-3 py-2">
-                          <img
-                            :src="getEpisodeImageUrl(episode.number)"
-                            :alt="episode.title"
-                            @error="($event.target as HTMLImageElement).style.display = 'none'"
-                            class="w-12 h-12 rounded object-cover border border-gray-200 dark:border-gray-700"
-                          />
-                        </td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
-                          {{ new Date(episode.date).toLocaleDateString('de-DE') }}
-                        </td>
-                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                          <router-link
-                            :to="{ name: 'episodeSearch', query: { episode: episode.number.toString(), podcast: settingsStore.selectedPodcast || 'freakshow' } }"
-                            :class="['truncate hover:underline', themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300' : 'text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300']"
-                          >
-                            {{ episode.title }}
-                          </router-link>
-                        </td>
-                        <td class="px-3 py-2">
-                          <button
-                            type="button"
-                            class="shrink-0 inline-flex items-center justify-center w-6 h-6 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
-                            @click="playEpisodeAt(episode.number, 0, 'Start')"
-                            title="Episode von Anfang abspielen"
-                            aria-label="Episode von Anfang abspielen"
-                          >
-                            ▶︎
-                          </button>
-                        </td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap font-mono">
-                          <template v-if="getTopicOccurrences(episode).length > 0">
-                            {{ getTopicOccurrences(episode).map(formatOccurrenceLabel).join(', ') }}
-                          </template>
-                          <span v-else>—</span>
-                        </td>
-                        <td colspan="3" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">Details nicht verfügbar (Datei fehlt)</td>
-                      </template>
-                      <template v-else>
-                        <td :class="['px-3 py-2 font-mono text-xs whitespace-nowrap', themeColor === 'blue' ? 'text-blue-700 dark:text-blue-300' : 'text-purple-700 dark:text-purple-300']">{{ episode.number }}</td>
-                        <td class="px-3 py-2">
-                          <img
-                            :src="getEpisodeImageUrl(episode.number)"
-                            :alt="episode.title"
-                            @error="($event.target as HTMLImageElement).style.display = 'none'"
-                            class="w-12 h-12 rounded object-cover border border-gray-200 dark:border-gray-700"
-                          />
-                        </td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
-                          {{ new Date(episode.date).toLocaleDateString('de-DE') }}
-                        </td>
-                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                          <router-link
-                            :to="{ name: 'episodeSearch', query: { episode: episode.number.toString(), podcast: settingsStore.selectedPodcast || 'freakshow' } }"
-                            :class="['truncate hover:underline', themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300' : 'text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300']"
-                          >
-                            {{ episode.title }}
-                          </router-link>
-                        </td>
-                        <td class="px-3 py-2">
-                          <button
-                            type="button"
-                            class="shrink-0 inline-flex items-center justify-center w-6 h-6 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
-                            @click="playEpisodeAt(episode.number, 0, 'Start')"
-                            title="Episode von Anfang abspielen"
-                            aria-label="Episode von Anfang abspielen"
-                          >
-                            ▶︎
-                          </button>
-                        </td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap font-mono">
-                          <template v-if="getTopicOccurrences(episode).length > 0">
-                            {{ getTopicOccurrences(episode).map(formatOccurrenceLabel).join(', ') }}
-                          </template>
-                          <span v-else>—</span>
-                        </td>
-                        <td colspan="3" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">Lädt...</td>
-                      </template>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            
-            <!-- Individual Topics List -->
-            <div v-if="showTopicList" :class="['mt-4 rounded-lg border overflow-hidden', themeColor === 'blue' ? 'bg-white dark:bg-gray-900 border-blue-300 dark:border-blue-700' : 'bg-white dark:bg-gray-900 border-purple-300 dark:border-purple-700']">
-              <div v-if="loadingTopics" class="p-4 text-center text-gray-600 dark:text-gray-400">
-                Lade alle Themen...
-              </div>
-              <div v-else class="max-h-96 overflow-y-auto">
-                <div :class="['p-3 sticky top-0', themeColor === 'blue' ? 'bg-blue-100 dark:bg-blue-900' : 'bg-purple-100 dark:bg-purple-900']">
-                  <p :class="['text-sm font-semibold', themeColor === 'blue' ? 'text-blue-900 dark:text-blue-100' : 'text-purple-900 dark:text-purple-100']">
-                    {{ allIndividualTopics.length }} einzelne Themen gefunden
-                  </p>
-                </div>
-                <div :class="[themeColor === 'blue' ? 'divide-y divide-blue-100 dark:divide-blue-800' : 'divide-y divide-purple-100 dark:divide-purple-800']">
-                  <div 
-                    v-for="(topicItem, index) in allIndividualTopics" 
-                    :key="`${topicItem.episodeNumber}-${index}`"
-                    :class="['p-3', themeColor === 'blue' ? 'hover:bg-blue-50 dark:hover:bg-blue-900/20' : 'hover:bg-purple-50 dark:hover:bg-purple-900/20']"
-                  >
-                    <div class="flex items-start justify-between gap-2">
-                      <div class="flex-1 min-w-0">
-                        <p class="text-sm font-medium text-gray-900 dark:text-gray-100">{{ topicItem.topic }}</p>
-                        <div class="mt-1 flex flex-wrap gap-1 items-center">
-                          <span 
-                            v-if="topicItem.clusterName"
-                            class="inline-block px-2 py-0.5 text-xs bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded font-medium"
-                          >
-                            📁 {{ topicItem.clusterName }}
-                          </span>
-                          <span 
-                            v-for="keyword in topicItem.keywords" 
-                            :key="keyword"
-                            :class="['inline-block px-2 py-0.5 text-xs rounded', themeColor === 'blue' ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300' : 'bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300']"
-                          >
-                            {{ keyword }}
-                          </span>
-                        </div>
-                      </div>
-                      <div class="text-right whitespace-nowrap">
-                        <a 
-                          :href="episodeDetails.get(topicItem.episodeNumber)?.url || `https://freakshow.fm/${topicItem.episodeTitle.toLowerCase().split(' ')[0]}`"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          :class="['text-xs', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
-                        >
-                          {{ topicItem.episodeTitle }}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button
-            @click="selectedTopic = null; selectedYear = null; showEpisodeList = false; showTopicList = false;"
-            :class="['absolute top-2 right-2 font-semibold p-1', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800' : 'text-purple-600 hover:text-purple-800']"
-            aria-label="Schließen"
-          >
-            ✕
-          </button>
-        </div>
-      </div>
-    </div>
     
     <div class="flex flex-col lg:flex-row gap-4">
       <!-- River Chart -->

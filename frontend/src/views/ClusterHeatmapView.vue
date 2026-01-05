@@ -1,232 +1,60 @@
 <template>
-  <div class="flex flex-col h-full bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
-    <!-- Header -->
-    <div class="p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/20 dark:to-orange-900/30 rounded-t-xl">
-      <div v-if="heatmapData" class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
-        <div class="text-center">
-          <div class="text-2xl sm:text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalSpeakers }}</div>
-          <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Sprecher insgesamt</p>
+  <div class="space-y-6">
+    <!-- Main Panel: Statistics, Controls, and Chart -->
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+      <!-- Header -->
+      <div class="p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-orange-50 to-orange-100 dark:from-orange-900/20 dark:to-orange-900/30">
+        <div v-if="heatmapData" class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+          <div class="text-center">
+            <div class="text-2xl sm:text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalSpeakers }}</div>
+            <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Sprecher insgesamt</p>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl sm:text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalClusters }}</div>
+            <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Cluster insgesamt</p>
+          </div>
         </div>
-        <div class="text-center">
-          <div class="text-2xl sm:text-3xl font-bold text-orange-600 dark:text-orange-400">{{ heatmapData.statistics.totalClusters }}</div>
-          <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Cluster insgesamt</p>
+        
+        <!-- Controls -->
+        <div v-if="heatmapData" class="mt-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4 flex-wrap">
+          <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
+            <span class="whitespace-nowrap">Anzahl Sprecher:</span>
+            <div class="flex items-center gap-2">
+              <input
+                v-model.number="topNSpeakersClusterHeatmap"
+                type="range"
+                min="5"
+                :max="heatmapData.statistics.totalSpeakers"
+                step="1"
+                class="flex-1 sm:w-32 md:w-48 slider-orange"
+              />
+              <span class="text-orange-600 dark:text-orange-400 font-semibold min-w-[2rem] text-right">{{ topNSpeakersClusterHeatmap }}</span>
+            </div>
+          </label>
+          
+          <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
+            <span class="whitespace-nowrap">Anzahl Cluster:</span>
+            <div class="flex items-center gap-2">
+              <input
+                v-model.number="topNClustersHeatmap"
+                type="range"
+                min="10"
+                :max="heatmapData.statistics.totalClusters"
+                step="1"
+                class="flex-1 sm:w-32 md:w-48 slider-orange"
+              />
+              <span class="text-orange-600 dark:text-orange-400 font-semibold min-w-[2rem] text-right">{{ topNClustersHeatmap }}</span>
+            </div>
+          </label>
         </div>
       </div>
-    </div>
-
-    <!-- Main Content -->
-    <div class="flex-1 overflow-hidden">
-      <!-- Heatmap -->
+      
+      <!-- Chart Body -->
       <div class="flex-1 overflow-auto p-6" ref="heatmapContainer">
         <div v-if="!heatmapData" class="flex items-center justify-center h-full">
           <p class="text-gray-500 dark:text-gray-400">Lade Daten...</p>
         </div>
         <div v-else>
-          <!-- Controls -->
-          <div class="mb-4 sm:mb-6 flex flex-col sm:flex-row gap-3 sm:gap-6 items-stretch sm:items-center">
-            <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
-              <span class="whitespace-nowrap">Anzahl Sprecher:</span>
-              <div class="flex items-center gap-2">
-                <input
-                  v-model.number="settingsStore.topNSpeakersClusterHeatmap"
-                  type="range"
-                  min="5"
-                  :max="heatmapData.statistics.totalSpeakers"
-                  step="1"
-                  class="flex-1 sm:w-32 md:w-48 slider-orange"
-                />
-                <span class="text-orange-600 dark:text-orange-400 font-semibold min-w-[2rem] text-right">{{ settingsStore.topNSpeakersClusterHeatmap }}</span>
-              </div>
-            </label>
-            
-            <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
-              <span class="whitespace-nowrap">Anzahl Cluster:</span>
-              <div class="flex items-center gap-2">
-                <input
-                  v-model.number="settingsStore.topNClustersHeatmap"
-                  type="range"
-                  min="10"
-                  :max="heatmapData.statistics.totalClusters"
-                  step="1"
-                  class="flex-1 sm:w-32 md:w-48 slider-orange"
-                />
-                <span class="text-orange-600 dark:text-orange-400 font-semibold min-w-[2rem] text-right">{{ settingsStore.topNClustersHeatmap }}</span>
-              </div>
-            </label>
-          </div>
-
-          <!-- Selected Cell Details -->
-          <div v-if="selectedCell" class="mb-6 p-4 bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-700 rounded-lg">
-            <div class="relative">
-              <button
-                @click="clearSelection"
-                class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 p-1"
-                aria-label="Schließen"
-              >
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
-
-              <div class="min-w-0">
-                <div class="pr-10">
-                  <h3 class="font-semibold text-lg text-orange-900 dark:text-orange-100">
-                    {{ selectedCell.speakerName }} → {{ selectedCell.clusterName }}
-                  </h3>
-                  <p class="text-sm text-orange-600 dark:text-orange-400 mt-2">
-                    <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
-                  </p>
-                  
-                  <div class="mt-3">
-                    <button
-                      @click="showEpisodeList = !showEpisodeList"
-                      class="text-sm text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-300 font-semibold underline"
-                    >
-                      {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
-                    </button>
-                  </div>
-                </div>
-
-
-                <!-- Episode List -->
-                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-orange-300 dark:border-orange-700">
-                  <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
-                    Lade Episoden-Details...
-                  </div>
-                  <div v-else class="max-h-96 overflow-auto">
-                    <table class="min-w-full w-max text-sm table-auto">
-                      <thead class="bg-orange-100 dark:bg-orange-900 sticky top-0">
-                        <tr>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">#</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Bild</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Datum</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100">Titel</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Play</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Dauer</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Sprecher</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-orange-900 dark:text-orange-100 whitespace-nowrap">Link</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr 
-                          v-for="episodeNum in selectedCell.episodes" 
-                          :key="episodeNum"
-                          :data-episode-row="episodeNum"
-                          class="border-t border-orange-100 dark:border-orange-800 hover:bg-orange-50 dark:hover:bg-orange-900/50"
-                        >
-                          <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
-                            <td class="px-3 py-2 text-orange-700 dark:text-orange-300 text-xs whitespace-nowrap font-mono">
-                              {{ episodeNum }}
-                            </td>
-                            <td class="px-3 py-2">
-                              <img
-                                :src="getEpisodeImageUrl(episodeNum)"
-                                :alt="episodeDetails.get(episodeNum)?.title || `Episode ${episodeNum}`"
-                                @error="($event.target as HTMLImageElement).style.display = 'none'"
-                                class="w-12 h-12 rounded object-cover border border-gray-200 dark:border-gray-700"
-                              />
-                            </td>
-                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
-                              {{ formatDate(episodeDetails.get(episodeNum)?.date) }}
-                            </td>
-                            <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                              <router-link
-                                :to="{ name: 'episodeSearch', query: { episode: episodeNum.toString(), podcast: settingsStore.selectedPodcast || 'freakshow' } }"
-                                class="truncate text-orange-600 dark:text-orange-400 hover:text-orange-800 dark:hover:text-orange-300 hover:underline"
-                              >
-                                {{ episodeDetails.get(episodeNum)?.title }}
-                              </router-link>
-                            </td>
-                            <td class="px-3 py-2">
-                              <button
-                                type="button"
-                                class="shrink-0 inline-flex items-center justify-center w-6 h-6 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
-                                @click="playEpisodeAt(episodeNum, 0, 'Start')"
-                                title="Episode von Anfang abspielen"
-                                aria-label="Episode von Anfang abspielen"
-                              >
-                                ▶︎
-                              </button>
-                            </td>
-                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
-                              <template v-if="episodeDetails.get(episodeNum)?.duration">
-                                {{ formatDuration(episodeDetails.get(episodeNum)?.duration) }}
-                              </template>
-                              <template v-else>—</template>
-                            </td>
-                            <td class="px-3 py-2 text-xs whitespace-nowrap">
-                              <template v-if="(episodeDetails.get(episodeNum)?.speakers?.length || 0) > 0">
-                                <template v-for="(speaker, idx) in episodeDetails.get(episodeNum)?.speakers || []" :key="`${episodeNum}-${idx}`">
-                                  <span
-                                    :class="[
-                                      'inline-block',
-                                      speaker === selectedCell?.speakerName 
-                                        ? 'font-semibold text-orange-700 dark:text-orange-300 bg-orange-100 dark:bg-orange-900/30 px-1 rounded' 
-                                        : 'text-gray-600 dark:text-gray-400'
-                                    ]"
-                                  >{{ speaker }}</span><span v-if="idx < ((episodeDetails.get(episodeNum)?.speakers?.length || 0) - 1)" class="text-gray-600 dark:text-gray-400">, </span>
-                                </template>
-                              </template>
-                              <template v-else>—</template>
-                            </td>
-                            <td class="px-3 py-2">
-                              <a 
-                                v-if="episodeDetails.get(episodeNum)?.url"
-                                :href="episodeDetails.get(episodeNum)?.url" 
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="text-orange-600 dark:text-orange-400 hover:text-orange-800 dark:hover:text-orange-300 text-xs underline"
-                              >
-                                🔗
-                              </a>
-                              <span v-else class="text-gray-400 dark:text-gray-500 text-xs">—</span>
-                            </td>
-                          </template>
-                          <template v-else-if="episodeDetails.get(episodeNum) === null">
-                            <td class="px-3 py-2 text-orange-700 dark:text-orange-300 text-xs whitespace-nowrap font-mono">
-                              {{ episodeNum }}
-                            </td>
-                            <td class="px-3 py-2">
-                              <img
-                                :src="getEpisodeImageUrl(episodeNum)"
-                                :alt="`Episode ${episodeNum}`"
-                                @error="($event.target as HTMLImageElement).style.display = 'none'"
-                                class="w-12 h-12 rounded object-cover border border-gray-200 dark:border-gray-700"
-                              />
-                            </td>
-                            <td colspan="5" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs italic">
-                              Details nicht verfügbar
-                            </td>
-                          </template>
-                          <template v-else>
-                            <td class="px-3 py-2 text-orange-700 dark:text-orange-300 text-xs whitespace-nowrap font-mono">
-                              {{ episodeNum }}
-                            </td>
-                            <td class="px-3 py-2">
-                              <img
-                                :src="getEpisodeImageUrl(episodeNum)"
-                                :alt="`Episode ${episodeNum}`"
-                                @error="($event.target as HTMLImageElement).style.display = 'none'"
-                                class="w-12 h-12 rounded object-cover border border-gray-200 dark:border-gray-700"
-                              />
-                            </td>
-                            <td colspan="5" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">
-                              Lade...
-                            </td>
-                          </template>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <!-- SVG Container -->
           <svg ref="svgElement" class="w-full"></svg>
           
@@ -241,11 +69,61 @@
         </div>
       </div>
     </div>
+    
+    <!-- Episode Table Panel -->
+    <EpisodeTable
+      ref="episodeTableRef"
+      v-if="selectedCell && showEpisodeList"
+      :episodes="selectedCell.episodes.map(num => {
+        const detail = episodeDetails.get(num);
+        return {
+          number: num,
+          date: detail?.date || '',
+          title: detail?.title || `Episode ${num}`,
+        };
+      })"
+      :episode-details="episodeDetails"
+      :loading-episodes="loadingEpisodes"
+      :get-topic-occurrences="getTopicOccurrences"
+      :play-episode-at="playEpisodeAt"
+      :format-occurrence-label="formatOccurrenceLabel"
+      :format-duration="(dur) => formatDuration(dur)"
+      :format-hms-from-seconds="formatHmsFromSeconds"
+      :get-episode-image-url="getEpisodeImageUrl"
+      theme-color="orange"
+      :show-play-button="true"
+    >
+      <template #header>
+        <div class="flex items-center justify-between">
+          <div class="flex-1">
+            <h3 class="font-semibold text-lg text-orange-900 dark:text-orange-100">
+              {{ selectedCell.speakerName }} → {{ selectedCell.clusterName }}
+            </h3>
+            <p class="text-sm text-orange-600 dark:text-orange-400 mt-2">
+              <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
+            </p>
+          </div>
+          <button
+            @click="clearSelection"
+            class="text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-300 font-semibold ml-4"
+            aria-label="Schließen"
+          >
+            ✕
+          </button>
+        </div>
+      </template>
+    </EpisodeTable>
+    
+    <!-- Footer -->
+    <footer v-if="heatmapData" class="text-center text-gray-500 dark:text-gray-400 text-xs sm:text-sm">
+      <p>Generiert am: {{ new Date(heatmapData.generatedAt).toLocaleString('de-DE') }}</p>
+    </footer>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted, computed, watch, reactive, nextTick, onUnmounted } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 import {
   select,
   selectAll,
@@ -257,7 +135,7 @@ import {
   max,
   range,
   rgb,
-  interpolateBlues
+  interpolateOranges
 } from '@/utils/d3-imports';
 import type { HeatmapData } from '../types';
 import { useSettingsStore } from '../stores/settings';
@@ -267,10 +145,17 @@ import { useAudioPlayerStore } from '@/stores/audioPlayer';
 import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, withBase } from '@/composables/usePodcast';
 import { useLazyEpisodeDetails, type EpisodeDetail as EpisodeDetailType, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
+import EpisodeTable from '../components/EpisodeTable.vue';
 
+const route = useRoute();
+const router = useRouter();
 const settingsStore = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
 const inlinePlayer = reactive(useInlineEpisodePlayer());
+
+// Local state for controls (synced with URL and store)
+const topNSpeakersClusterHeatmap = ref<number>(settingsStore.topNSpeakersClusterHeatmap);
+const topNClustersHeatmap = ref<number>(settingsStore.topNClustersHeatmap);
 
 // Helper function to play episode using global store
 const playEpisodeAt = async (episodeNumber: number, seconds: number, label: string) => {
@@ -301,18 +186,21 @@ const { loadSpeakers, getSpeakerImage } = useSpeakerMeta();
 const heatmapData = ref<HeatmapData | null>(null);
 const svgElement = ref<SVGSVGElement | null>(null);
 const heatmapContainer = ref<HTMLDivElement | null>(null);
+const episodeTableRef = ref<InstanceType<typeof EpisodeTable> | null>(null);
 
 type HeatmapFocus = { type: 'row'; id: string } | { type: 'col'; id: string } | null;
 const activeHeatmapFocus = ref<HeatmapFocus>(null);
 
 const selectedCell = ref<{
+  speakerId: string;
   speakerName: string;
+  clusterId: string;
   clusterName: string;
   count: number;
   episodes: number[];
 } | null>(null);
 
-const showEpisodeList = ref(false);
+const showEpisodeList = ref(true);
 
 async function loadData() {
   try {
@@ -341,10 +229,10 @@ const filteredData = computed(() => {
   if (!heatmapData.value) return { speakers: [], clusters: [] };
   
   // Get top N speakers (already sorted by episodes in the data)
-  const speakers = heatmapData.value.speakers.slice(0, settingsStore.topNSpeakersClusterHeatmap);
+  const speakers = heatmapData.value.speakers.slice(0, topNSpeakersClusterHeatmap.value);
   
   // Get top N clusters (already sorted by episodes in the data)
-  const clusters = (heatmapData.value.clusters || []).slice(0, settingsStore.topNClustersHeatmap);
+  const clusters = (heatmapData.value.clusters || []).slice(0, topNClustersHeatmap.value);
   
   return { speakers, clusters };
 });
@@ -575,12 +463,29 @@ function formatDuration(duration?: string | number | number[]): string {
   return `${minutes}m`;
 }
 
-// Watch for selection changes to load episode details
-watch(selectedCell, async (newCell) => {
-  if (newCell && newCell.episodes.length > 0) {
-    await loadEpisodeDetails(newCell.episodes);
-  }
-});
+const formatHmsFromSeconds = (seconds: number): string => {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = Math.floor(seconds % 60);
+  if (h > 0) return `${h}h ${m}m ${s}s`;
+  if (m > 0) return `${m}m ${s}s`;
+  return `${s}s`;
+};
+
+const getTopicOccurrences = (episode: any): Array<{ positionSec: number; durationSec: number | null; topic: string | null }> => {
+  // Cluster heatmap doesn't have topic occurrences, return empty array
+  return [];
+};
+
+const formatOccurrenceLabel = (occ: { positionSec: number; durationSec: number | null; topic?: string | null }) => {
+  const formatMinutes = (sec: number | null) => {
+    if (!Number.isFinite(sec as number) || (sec as number) <= 0) return null;
+    const m = Math.max(1, Math.round((sec as number) / 60));
+    return `${m}m`;
+  };
+  const m = formatMinutes(occ.durationSec);
+  return m ? `${formatHmsFromSeconds(occ.positionSec)} (${m})` : formatHmsFromSeconds(occ.positionSec);
+};
 
 // Cleanup observers on unmount
 onUnmounted(() => {
@@ -646,7 +551,7 @@ function drawHeatmap() {
 
   const globalDomain = normalizeDomain(globalMin, globalMax);
   let currentDomain: [number, number] = globalDomain;
-  let colorScale = scaleSequential(interpolateBlues).domain(currentDomain);
+  let colorScale = scaleSequential(interpolateOranges).domain(currentDomain);
 
   function getEmptyCellColor() {
     const isDark = document.documentElement.classList.contains('dark');
@@ -769,11 +674,22 @@ function drawHeatmap() {
           selectAll('.heatmap-tooltip').remove();
           
           selectedCell.value = {
+            speakerId: row.speakerId || '',
             speakerName: row.speakerName || '',
+            clusterId: value.clusterId || '',
             clusterName: value.clusterName || '',
             count: value.count,
             episodes: value.episodes
           };
+          
+          // Scroll to table after a short delay to allow DOM update
+          nextTick(() => {
+            setTimeout(() => {
+              if (episodeTableRef.value?.$el) {
+                episodeTableRef.value.$el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }, 100);
+          });
         });
 
       // Add text for non-zero values
@@ -906,7 +822,7 @@ function drawHeatmap() {
 
   function applyDomain(domain: [number, number], focus: HeatmapFocus = null) {
     currentDomain = normalizeDomain(domain[0], domain[1]);
-    colorScale = scaleSequential(interpolateBlues).domain(currentDomain);
+    colorScale = scaleSequential(interpolateOranges).domain(currentDomain);
 
     // Update cells
     g.selectAll<SVGRectElement, unknown>('rect.heatmap-cell')
@@ -993,8 +909,10 @@ function drawHeatmap() {
 }
 
 // Load data on mount
-onMounted(() => {
-  loadData();
+onMounted(async () => {
+  await loadData();
+  await nextTick();
+  readFromUrl();
 });
 
 // Watch for variant changes and reload data
@@ -1007,6 +925,109 @@ watch(() => settingsStore.selectedPodcast, () => {
   loadData();
 });
 
+// URL state management
+const updateUrl = () => {
+  const query: Record<string, string | undefined> = {};
+  
+  if (topNSpeakersClusterHeatmap.value !== 15) {
+    query.speakers = topNSpeakersClusterHeatmap.value.toString();
+  } else {
+    query.speakers = undefined;
+  }
+  
+  if (topNClustersHeatmap.value !== 20) {
+    query.clusters = topNClustersHeatmap.value.toString();
+  } else {
+    query.clusters = undefined;
+  }
+  
+  if (selectedCell.value) {
+    query.speaker = selectedCell.value.speakerId;
+    query.cluster = selectedCell.value.clusterId;
+  } else {
+    query.speaker = undefined;
+    query.cluster = undefined;
+  }
+  
+  // Remove undefined values
+  const mergedQuery: Record<string, string> = {};
+  Object.keys(query).forEach(key => {
+    if (query[key] !== undefined) {
+      mergedQuery[key] = query[key]!;
+    }
+  });
+  
+  // Compare with current route query to avoid unnecessary updates
+  const currentQuery = { ...route.query };
+  const hasChanges = Object.keys(mergedQuery).some(key => mergedQuery[key] !== currentQuery[key]) ||
+    Object.keys(currentQuery).some(key => mergedQuery[key] === undefined && currentQuery[key] !== undefined);
+  
+  if (hasChanges) {
+    router.replace({ query: mergedQuery });
+  }
+};
+
+const readFromUrl = () => {
+  const query = route.query;
+  
+  // Read speaker filter
+  if (query.speakers) {
+    const speakersValue = parseInt(query.speakers as string, 10);
+    if (!isNaN(speakersValue) && speakersValue >= 5 && heatmapData.value) {
+      topNSpeakersClusterHeatmap.value = Math.min(speakersValue, heatmapData.value.statistics.totalSpeakers);
+    }
+  } else if (heatmapData.value) {
+    // Fall back to store value if not in URL, but validate against max
+    const storeValue = settingsStore.topNSpeakersClusterHeatmap;
+    topNSpeakersClusterHeatmap.value = Math.min(storeValue, heatmapData.value.statistics.totalSpeakers);
+  } else {
+    // Use store value if data not loaded yet
+    topNSpeakersClusterHeatmap.value = settingsStore.topNSpeakersClusterHeatmap;
+  }
+  
+  // Read cluster filter
+  if (query.clusters) {
+    const clustersValue = parseInt(query.clusters as string, 10);
+    if (!isNaN(clustersValue) && clustersValue >= 10 && heatmapData.value) {
+      topNClustersHeatmap.value = Math.min(clustersValue, heatmapData.value.statistics.totalClusters || 20);
+    }
+  } else if (heatmapData.value) {
+    // Fall back to store value if not in URL, but validate against max
+    const storeValue = settingsStore.topNClustersHeatmap;
+    topNClustersHeatmap.value = Math.min(storeValue, heatmapData.value.statistics.totalClusters || 20);
+  } else {
+    // Use store value if data not loaded yet
+    topNClustersHeatmap.value = settingsStore.topNClustersHeatmap;
+  }
+  
+  // Read selected cell
+  if (query.speaker && query.cluster && heatmapData.value) {
+    const speakerId = query.speaker as string;
+    const clusterId = query.cluster as string;
+    
+    // Find the cell in the matrix
+    const row = heatmapData.value.matrix.find(r => r.speakerId === speakerId);
+    if (row) {
+      const value = row.values.find(v => v.clusterId === clusterId);
+      if (value && value.count > 0) {
+        const speaker = heatmapData.value.speakers.find(s => s.id === speakerId);
+        const cluster = heatmapData.value.clusters?.find(c => c.id === clusterId);
+        if (speaker && cluster) {
+          selectedCell.value = {
+            speakerId: speaker.id,
+            speakerName: speaker.name,
+            clusterId: cluster.id,
+            clusterName: cluster.name,
+            count: value.count,
+            episodes: value.episodes
+          };
+          showEpisodeList.value = true;
+        }
+      }
+    }
+  }
+};
+
 // Watch for data changes and redraw
 watch([heatmapData, filteredMatrix, filteredClusters, () => settingsStore.isDarkMode], () => {
   if (heatmapData.value) {
@@ -1015,9 +1036,29 @@ watch([heatmapData, filteredMatrix, filteredClusters, () => settingsStore.isDark
 });
 
 // Clear selection when slider values change
-watch([() => settingsStore.topNSpeakersClusterHeatmap, () => settingsStore.topNClustersHeatmap], () => {
+watch([topNSpeakersClusterHeatmap, topNClustersHeatmap], ([speakersValue, clustersValue]) => {
+  // Update store when values change
+  settingsStore.topNSpeakersClusterHeatmap = speakersValue;
+  settingsStore.topNClustersHeatmap = clustersValue;
   selectedCell.value = null;
   showEpisodeList.value = false;
+  updateUrl();
+});
+
+// Watch for URL changes (only if data is loaded)
+watch(() => route.query, () => {
+  if (heatmapData.value) {
+    readFromUrl();
+  }
+}, { deep: true });
+
+// Watch for selection changes to update URL
+watch(selectedCell, (newCell) => {
+  updateUrl();
+  // Load episode details when cell is selected
+  if (newCell && newCell.episodes.length > 0 && showEpisodeList.value) {
+    loadEpisodeDetails(newCell.episodes);
+  }
 });
 
 // Load episode details when episode list is shown
@@ -1025,7 +1066,7 @@ watch(showEpisodeList, (show) => {
   if (show && selectedCell.value) {
     loadEpisodeDetails(selectedCell.value.episodes);
   }
-});
+}, { immediate: true });
 
 // Redraw on container resize
 watch(heatmapContainer, (container) => {

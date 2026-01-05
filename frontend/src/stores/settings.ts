@@ -212,7 +212,9 @@ export const useSettingsStore = defineStore('settings', () => {
     storage: window.localStorage,
     // @ts-ignore - paths is valid but TypeScript types may be outdated
     paths: [
+      'normalizedView',
       'topicFilter',
+      'subjectFilter',
       'speakerFilter',
       'topNSpeakersHeatmap',
       'topNCategoriesHeatmap',

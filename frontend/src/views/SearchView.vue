@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue';
-import { useRoute } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { useSettingsStore } from '@/stores/settings';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
@@ -37,6 +37,7 @@ type SpeakerInfo = {
 };
 
 const route = useRoute();
+const router = useRouter();
 const { t } = useI18n();
 const settings = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
@@ -51,6 +52,82 @@ const searchTitle = computed(() => {
 
 const searchQuery = ref('');
 const q = computed(() => (typeof route.query?.q === 'string' ? route.query.q.trim() : ''));
+
+// Flag to prevent infinite loops when reading from URL
+const isReadingFromUrl = ref(false);
+
+// Update URL with query and speaker parameters
+const updateUrl = () => {
+  if (isReadingFromUrl.value) return;
+  
+  const queryParams: Record<string, string> = { ...route.query as Record<string, string> };
+  
+  // Update query parameter
+  if (searchQuery.value.trim()) {
+    queryParams.q = searchQuery.value.trim();
+  } else {
+    delete queryParams.q;
+  }
+  
+  // Update speaker1 parameter
+  if (settings.selectedSpeaker) {
+    queryParams.speaker1 = settings.selectedSpeaker;
+  } else {
+    delete queryParams.speaker1;
+  }
+  
+  // Update speaker2 parameter
+  if (settings.selectedSpeaker2) {
+    queryParams.speaker2 = settings.selectedSpeaker2;
+  } else {
+    delete queryParams.speaker2;
+  }
+  
+  router.replace({ query: queryParams });
+};
+
+// Read from URL and update component state
+const readFromUrl = () => {
+  isReadingFromUrl.value = true;
+  
+  const query = route.query;
+  
+  // Read query
+  if (query.q && typeof query.q === 'string') {
+    const queryStr = query.q.trim();
+    if (queryStr && queryStr !== searchQuery.value) {
+      searchQuery.value = queryStr;
+    }
+  }
+  
+  // Read speaker1
+  if (query.speaker1 && typeof query.speaker1 === 'string') {
+    const speaker1Slug = query.speaker1.trim();
+    if (speaker1Slug && speaker1Slug !== settings.selectedSpeaker) {
+      settings.setSelectedSpeaker(speaker1Slug);
+    }
+  } else if (query.speaker1 === null || query.speaker1 === undefined) {
+    // Only clear if explicitly removed from URL
+    if (settings.selectedSpeaker) {
+      settings.setSelectedSpeaker(null);
+    }
+  }
+  
+  // Read speaker2
+  if (query.speaker2 && typeof query.speaker2 === 'string') {
+    const speaker2Slug = query.speaker2.trim();
+    if (speaker2Slug && speaker2Slug !== settings.selectedSpeaker2) {
+      settings.setSelectedSpeaker2(speaker2Slug);
+    }
+  } else if (query.speaker2 === null || query.speaker2 === undefined) {
+    // Only clear if explicitly removed from URL
+    if (settings.selectedSpeaker2) {
+      settings.setSelectedSpeaker2(null);
+    }
+  }
+  
+  isReadingFromUrl.value = false;
+};
 
 const loading = ref(false);
 const error = ref<string | null>(null);
@@ -193,8 +270,8 @@ const doSearch = async (query: string) => {
 
 onMounted(() => {
   fetchSpeakers();
+  readFromUrl(); // Read initial state from URL
   if (q.value) {
-    searchQuery.value = q.value;
     doSearch(q.value);
   }
 });
@@ -209,9 +286,25 @@ watch(
 
     availableSpeakers.value = [];
     await fetchSpeakers();
+    
+    // Update URL to remove speaker parameters when podcast changes
+    updateUrl();
   }
 );
 
+// Watch for URL query changes
+watch(
+  () => route.query,
+  () => {
+    readFromUrl();
+    if (q.value && q.value !== searchQuery.value) {
+      doSearch(q.value);
+    }
+  },
+  { deep: true }
+);
+
+// Watch for query changes from URL
 watch(
   () => q.value,
   (next) => {
@@ -222,8 +315,24 @@ watch(
   }
 );
 
+// Watch for speaker changes and update URL
+watch(
+  () => settings.selectedSpeaker,
+  () => {
+    updateUrl();
+  }
+);
+
+watch(
+  () => settings.selectedSpeaker2,
+  () => {
+    updateUrl();
+  }
+);
+
 const handleSearch = () => {
   if (searchQuery.value.trim()) {
+    updateUrl(); // Update URL when search is performed
     doSearch(searchQuery.value);
   }
 };
@@ -245,6 +354,7 @@ const runExample = (query: string, speaker1Slug: string | null = null, speaker2S
   
   // Set the query and search
   searchQuery.value = query;
+  // handleSearch will call updateUrl, so we don't need to call it here
   handleSearch();
 };
 

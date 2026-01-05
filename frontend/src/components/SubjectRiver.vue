@@ -472,13 +472,26 @@ const drawRiver = () => {
       }
     })
     .on('click', function(_event: any, d: any) {
-      const wasSelected = selectedSubject.value === d.key;
-      selectedSubject.value = wasSelected ? null : d.key;
-      // Speichere das aktuell gehoverte Jahr beim Klicken
-      if (!wasSelected && hoveredYear.value) {
-        selectedYear.value = hoveredYear.value;
-      } else if (wasSelected) {
-        selectedYear.value = null;
+      const isSameSubject = selectedSubject.value === d.key;
+      
+      if (isSameSubject) {
+        // Same subject clicked
+        if (hoveredYear.value !== null && hoveredYear.value !== selectedYear.value) {
+          // Different year: keep subject selected, update year
+          selectedYear.value = hoveredYear.value;
+        } else {
+          // Same year or no hovered year: deselect subject
+          selectedSubject.value = null;
+          selectedYear.value = null;
+        }
+      } else {
+        // Different subject clicked: select subject and year
+        selectedSubject.value = d.key;
+        if (hoveredYear.value !== null) {
+          selectedYear.value = hoveredYear.value;
+        } else {
+          selectedYear.value = null;
+        }
       }
     });
   

@@ -87,7 +87,8 @@ export {
   interpolateBlues,
   interpolateBuGn,
   interpolatePurples,
-  interpolateBuPu
+  interpolateBuPu,
+  interpolateOranges
 } from 'd3-scale-chromatic';
 
 // Color manipulation

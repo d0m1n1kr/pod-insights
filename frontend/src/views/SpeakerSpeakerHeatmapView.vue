@@ -1,228 +1,60 @@
 <template>
-  <div class="flex flex-col h-full bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
-    <!-- Header -->
-    <div class="p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-900/30 rounded-t-xl">
-      <div v-if="heatmapData" class="grid grid-cols-2 gap-4">
-        <div class="text-center">
-          <div class="text-3xl font-bold text-teal-600 dark:text-teal-400">{{ heatmapData.statistics.totalSpeakers }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Sprecher insgesamt</p>
+  <div class="space-y-6">
+    <!-- Main Panel: Statistics, Controls, and Chart -->
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+      <!-- Header -->
+      <div class="p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-teal-50 to-teal-100 dark:from-teal-900/20 dark:to-teal-900/30">
+        <div v-if="heatmapData" class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+          <div class="text-center">
+            <div class="text-2xl sm:text-3xl font-bold text-teal-600 dark:text-teal-400">{{ heatmapData.statistics.totalSpeakers }}</div>
+            <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Sprecher insgesamt</p>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl sm:text-3xl font-bold text-teal-600 dark:text-teal-400">{{ heatmapData.statistics.totalCombinations }}</div>
+            <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-1">Kombinationen</p>
+          </div>
         </div>
-        <div class="text-center">
-          <div class="text-3xl font-bold text-teal-600 dark:text-teal-400">{{ heatmapData.statistics.totalCombinations }}</div>
-          <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Kombinationen</p>
+        
+        <!-- Controls -->
+        <div v-if="heatmapData" class="mt-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4 flex-wrap">
+          <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
+            <span class="whitespace-nowrap">Sprecher 1:</span>
+            <div class="flex items-center gap-2">
+              <input
+                v-model.number="topNSpeakersSpeaker1Heatmap"
+                type="range"
+                min="5"
+                :max="heatmapData.statistics.totalSpeakers"
+                step="1"
+                class="flex-1 sm:w-32 md:w-48 slider-teal"
+              />
+              <span class="text-teal-600 dark:text-teal-400 font-semibold min-w-[2rem] text-right">{{ topNSpeakersSpeaker1Heatmap }}</span>
+            </div>
+          </label>
+          
+          <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
+            <span class="whitespace-nowrap">Sprecher 2:</span>
+            <div class="flex items-center gap-2">
+              <input
+                v-model.number="topNSpeakersSpeaker2Heatmap"
+                type="range"
+                min="10"
+                :max="heatmapData.statistics.totalSpeakers"
+                step="1"
+                class="flex-1 sm:w-32 md:w-48 slider-teal"
+              />
+              <span class="text-teal-600 dark:text-teal-400 font-semibold min-w-[2rem] text-right">{{ topNSpeakersSpeaker2Heatmap }}</span>
+            </div>
+          </label>
         </div>
       </div>
-    </div>
-
-    <!-- Main Content -->
-    <div class="flex-1 overflow-hidden">
-      <!-- Heatmap -->
+      
+      <!-- Chart Body -->
       <div class="flex-1 overflow-auto p-6" ref="heatmapContainer">
         <div v-if="!heatmapData" class="flex items-center justify-center h-full">
           <p class="text-gray-500 dark:text-gray-400">Lade Daten...</p>
         </div>
         <div v-else>
-          <!-- Controls -->
-          <div class="mb-6 flex gap-6 flex-wrap items-center">
-            <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-              Sprecher 1:
-              <input
-                v-model.number="settingsStore.topNSpeakersSpeaker1Heatmap"
-                type="range"
-                min="5"
-                :max="heatmapData.statistics.totalSpeakers"
-                step="1"
-                class="ml-2 w-48 slider-teal"
-              />
-              <span class="ml-2 text-teal-600 dark:text-teal-400 font-semibold">{{ settingsStore.topNSpeakersSpeaker1Heatmap }}</span>
-            </label>
-            
-            <label class="text-sm font-medium text-gray-700 dark:text-gray-300">
-              Sprecher 2:
-              <input
-                v-model.number="settingsStore.topNSpeakersSpeaker2Heatmap"
-                type="range"
-                min="10"
-                :max="heatmapData.statistics.totalSpeakers"
-                step="1"
-                class="ml-2 w-48 slider-teal"
-              />
-              <span class="ml-2 text-teal-600 dark:text-teal-400 font-semibold">{{ settingsStore.topNSpeakersSpeaker2Heatmap }}</span>
-            </label>
-          </div>
-
-          <!-- Selected Cell Details -->
-          <div v-if="selectedCell" class="mb-6 p-4 bg-teal-50 dark:bg-teal-900/20 border border-teal-200 dark:border-teal-700 rounded-lg">
-            <div class="relative">
-              <button
-                @click="clearSelection"
-                class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 p-1"
-                aria-label="Schließen"
-              >
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path
-                    fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
-
-              <div class="min-w-0">
-                <div class="pr-10">
-                  <h3 class="font-semibold text-lg text-teal-900 dark:text-teal-100">
-                    {{ selectedCell.speaker1Name }} → {{ selectedCell.speaker2Name }}
-                  </h3>
-                  <p class="text-sm text-teal-600 dark:text-teal-400 mt-2">
-                    <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
-                  </p>
-                  
-                  <div class="mt-3">
-                    <button
-                      @click="showEpisodeList = !showEpisodeList"
-                      class="text-sm text-teal-600 hover:text-teal-800 dark:text-teal-400 dark:hover:text-teal-300 font-semibold underline"
-                    >
-                      {{ showEpisodeList ? 'Episoden ausblenden' : `${selectedCell.episodes.length} Episoden anzeigen` }}
-                    </button>
-                  </div>
-                </div>
-
-
-                <!-- Episode List -->
-                <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-teal-300 dark:border-teal-700">
-                  <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
-                    Lade Episoden-Details...
-                  </div>
-                  <div v-else class="max-h-96 overflow-auto">
-                    <table class="min-w-full w-max text-sm table-auto">
-                      <thead class="bg-teal-100 dark:bg-teal-900 sticky top-0">
-                        <tr>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">#</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Bild</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Datum</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100">Titel</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Play</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Dauer</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Sprecher</th>
-                          <th class="px-3 py-2 text-left text-xs font-semibold text-teal-900 dark:text-teal-100 whitespace-nowrap">Link</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr 
-                          v-for="episodeNum in selectedCell.episodes" 
-                          :key="episodeNum"
-                          :data-episode-row="episodeNum"
-                          class="border-t border-teal-100 dark:border-teal-800 hover:bg-teal-50 dark:hover:bg-teal-900/50"
-                        >
-                          <template v-if="episodeDetails.has(episodeNum) && episodeDetails.get(episodeNum) !== null">
-                            <td class="px-3 py-2 text-teal-700 dark:text-teal-300 text-xs whitespace-nowrap font-mono">
-                              {{ episodeNum }}
-                            </td>
-                            <td class="px-3 py-2">
-                              <img
-                                :src="getEpisodeImageUrl(episodeNum)"
-                                :alt="episodeDetails.get(episodeNum)?.title || `Episode ${episodeNum}`"
-                                @error="($event.target as HTMLImageElement).style.display = 'none'"
-                                class="w-12 h-12 rounded object-cover border border-gray-200 dark:border-gray-700"
-                              />
-                            </td>
-                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
-                              {{ formatDate(episodeDetails.get(episodeNum)?.date) }}
-                            </td>
-                            <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                              <router-link
-                                :to="{ name: 'episodeSearch', query: { episode: episodeNum.toString(), podcast: settingsStore.selectedPodcast || 'freakshow' } }"
-                                class="truncate text-teal-600 dark:text-teal-400 hover:text-teal-800 dark:hover:text-teal-300 hover:underline"
-                              >
-                                {{ episodeDetails.get(episodeNum)?.title }}
-                              </router-link>
-                            </td>
-                            <td class="px-3 py-2">
-                              <button
-                                type="button"
-                                class="shrink-0 inline-flex items-center justify-center w-6 h-6 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
-                                @click="playEpisodeAt(episodeNum, 0, 'Start')"
-                                title="Episode von Anfang abspielen"
-                                aria-label="Episode von Anfang abspielen"
-                              >
-                                ▶︎
-                              </button>
-                            </td>
-                            <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
-                              <template v-if="episodeDetails.get(episodeNum)?.duration">
-                                {{ formatDuration(episodeDetails.get(episodeNum)?.duration) }}
-                              </template>
-                              <template v-else>—</template>
-                            </td>
-                            <td class="px-3 py-2 text-xs whitespace-nowrap">
-                              <template v-if="(episodeDetails.get(episodeNum)?.speakers?.length || 0) > 0">
-                                <template v-for="(speaker, idx) in episodeDetails.get(episodeNum)?.speakers || []" :key="`${episodeNum}-${idx}`">
-                                  <span
-                                    :class="[
-                                      'inline-block',
-                                      speaker === selectedCell?.speaker1Name || speaker === selectedCell?.speaker2Name
-                                        ? 'font-semibold text-teal-700 dark:text-teal-300 bg-teal-100 dark:bg-teal-900/30 px-1 rounded' 
-                                        : 'text-gray-600 dark:text-gray-400'
-                                    ]"
-                                  >{{ speaker }}</span><span v-if="idx < ((episodeDetails.get(episodeNum)?.speakers?.length || 0) - 1)" class="text-gray-600 dark:text-gray-400">, </span>
-                                </template>
-                              </template>
-                              <template v-else>—</template>
-                            </td>
-                            <td class="px-3 py-2">
-                              <a 
-                                v-if="episodeDetails.get(episodeNum)?.url"
-                                :href="episodeDetails.get(episodeNum)?.url" 
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="text-teal-600 dark:text-teal-400 hover:text-teal-800 dark:hover:text-teal-300 text-xs underline"
-                              >
-                                🔗
-                              </a>
-                              <span v-else class="text-gray-400 dark:text-gray-500 text-xs">—</span>
-                            </td>
-                          </template>
-                          <template v-else-if="episodeDetails.get(episodeNum) === null">
-                            <td class="px-3 py-2 text-teal-700 dark:text-teal-300 text-xs whitespace-nowrap font-mono">
-                              {{ episodeNum }}
-                            </td>
-                            <td class="px-3 py-2">
-                              <img
-                                :src="getEpisodeImageUrl(episodeNum)"
-                                :alt="`Episode ${episodeNum}`"
-                                @error="($event.target as HTMLImageElement).style.display = 'none'"
-                                class="w-12 h-12 rounded object-cover border border-gray-200 dark:border-gray-700"
-                              />
-                            </td>
-                            <td colspan="5" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs italic">
-                              Details nicht verfügbar
-                            </td>
-                          </template>
-                          <template v-else>
-                            <td class="px-3 py-2 text-teal-700 dark:text-teal-300 text-xs whitespace-nowrap font-mono">
-                              {{ episodeNum }}
-                            </td>
-                            <td class="px-3 py-2">
-                              <img
-                                :src="getEpisodeImageUrl(episodeNum)"
-                                :alt="`Episode ${episodeNum}`"
-                                @error="($event.target as HTMLImageElement).style.display = 'none'"
-                                class="w-12 h-12 rounded object-cover border border-gray-200 dark:border-gray-700"
-                              />
-                            </td>
-                            <td colspan="5" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">
-                              Lade...
-                            </td>
-                          </template>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <!-- SVG Container -->
           <svg ref="svgElement" class="w-full"></svg>
           
@@ -237,11 +69,61 @@
         </div>
       </div>
     </div>
+    
+    <!-- Episode Table Panel -->
+    <EpisodeTable
+      ref="episodeTableRef"
+      v-if="selectedCell && showEpisodeList"
+      :episodes="selectedCell.episodes.map(num => {
+        const detail = episodeDetails.get(num);
+        return {
+          number: num,
+          date: detail?.date || '',
+          title: detail?.title || `Episode ${num}`,
+        };
+      })"
+      :episode-details="episodeDetails"
+      :loading-episodes="loadingEpisodes"
+      :get-topic-occurrences="getTopicOccurrences"
+      :play-episode-at="playEpisodeAt"
+      :format-occurrence-label="formatOccurrenceLabel"
+      :format-duration="(dur) => formatDuration(dur)"
+      :format-hms-from-seconds="formatHmsFromSeconds"
+      :get-episode-image-url="getEpisodeImageUrl"
+      theme-color="teal"
+      :show-play-button="true"
+    >
+      <template #header>
+        <div class="flex items-center justify-between">
+          <div class="flex-1">
+            <h3 class="font-semibold text-lg text-teal-900 dark:text-teal-100">
+              {{ selectedCell.speaker1Name }} → {{ selectedCell.speaker2Name }}
+            </h3>
+            <p class="text-sm text-teal-600 dark:text-teal-400 mt-2">
+              <strong>{{ selectedCell.episodes.length }}</strong> Episoden in dieser Kombination
+            </p>
+          </div>
+          <button
+            @click="clearSelection"
+            class="text-teal-600 hover:text-teal-800 dark:text-teal-400 dark:hover:text-teal-300 font-semibold ml-4"
+            aria-label="Schließen"
+          >
+            ✕
+          </button>
+        </div>
+      </template>
+    </EpisodeTable>
+    
+    <!-- Footer -->
+    <footer v-if="heatmapData" class="text-center text-gray-500 dark:text-gray-400 text-xs sm:text-sm">
+      <p>Generiert am: {{ new Date(heatmapData.generatedAt).toLocaleString('de-DE') }}</p>
+    </footer>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted, computed, watch, reactive, nextTick, onUnmounted } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 import {
   select,
   selectAll,
@@ -262,10 +144,17 @@ import { getPodcastFileUrl, getSpeakersBaseUrl, getEpisodeImageUrl, getEpisodeUr
 import { useInlineEpisodePlayer } from '@/composables/useInlineEpisodePlayer';
 import { useLazyEpisodeDetails, type EpisodeDetail as EpisodeDetailType, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
+import EpisodeTable from '../components/EpisodeTable.vue';
 
+const route = useRoute();
+const router = useRouter();
 const settingsStore = useSettingsStore();
 const audioPlayerStore = useAudioPlayerStore();
 const inlinePlayer = reactive(useInlineEpisodePlayer());
+
+// Local state for controls (synced with URL and store)
+const topNSpeakersSpeaker1Heatmap = ref<number>(settingsStore.topNSpeakersSpeaker1Heatmap);
+const topNSpeakersSpeaker2Heatmap = ref<number>(settingsStore.topNSpeakersSpeaker2Heatmap);
 
 
 // Helper function to play episode using global store
@@ -297,18 +186,21 @@ const { loadSpeakers, getSpeakerImage } = useSpeakerMeta();
 const heatmapData = ref<HeatmapData | null>(null);
 const svgElement = ref<SVGSVGElement | null>(null);
 const heatmapContainer = ref<HTMLDivElement | null>(null);
+const episodeTableRef = ref<InstanceType<typeof EpisodeTable> | null>(null);
 
 type HeatmapFocus = { type: 'row'; id: string } | { type: 'col'; id: string } | null;
 const activeHeatmapFocus = ref<HeatmapFocus>(null);
 
 const selectedCell = ref<{
+  speaker1Id: string;
   speaker1Name: string;
+  speaker2Id: string;
   speaker2Name: string;
   count: number;
   episodes: number[];
 } | null>(null);
 
-const showEpisodeList = ref(false);
+const showEpisodeList = ref(true);
 const loadingEpisodes = ref(false);
 
 // Use lazy loading composable
@@ -330,10 +222,10 @@ const filteredData = computed(() => {
   if (!heatmapData.value) return { speakers1: [], speakers2: [] };
   
   // Get top N speakers for axis 1 (already sorted by episodes in the data)
-  const speakers1 = heatmapData.value.speakers.slice(0, settingsStore.topNSpeakersSpeaker1Heatmap);
+  const speakers1 = heatmapData.value.speakers.slice(0, topNSpeakersSpeaker1Heatmap.value);
   
   // Get top N speakers for axis 2 (already sorted by episodes in the data)
-  const speakers2 = heatmapData.value.speakers.slice(0, settingsStore.topNSpeakersSpeaker2Heatmap);
+  const speakers2 = heatmapData.value.speakers.slice(0, topNSpeakersSpeaker2Heatmap.value);
   
   return { speakers1, speakers2 };
 });
@@ -721,12 +613,29 @@ function formatDuration(duration: string | number | number[] | undefined): strin
   return `${minutes}m`;
 }
 
-// Watch for selection changes to load episode details
-watch(selectedCell, async (newCell) => {
-  if (newCell && newCell.episodes.length > 0) {
-    await loadEpisodeDetails(newCell.episodes);
-  }
-});
+const formatHmsFromSeconds = (seconds: number): string => {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = Math.floor(seconds % 60);
+  if (h > 0) return `${h}h ${m}m ${s}s`;
+  if (m > 0) return `${m}m ${s}s`;
+  return `${s}s`;
+};
+
+const getTopicOccurrences = (episode: any): Array<{ positionSec: number; durationSec: number | null; topic: string | null }> => {
+  // Speaker-Speaker heatmap doesn't have topic occurrences, return empty array
+  return [];
+};
+
+const formatOccurrenceLabel = (occ: { positionSec: number; durationSec: number | null; topic?: string | null }) => {
+  const formatMinutes = (sec: number | null) => {
+    if (!Number.isFinite(sec as number) || (sec as number) <= 0) return null;
+    const m = Math.max(1, Math.round((sec as number) / 60));
+    return `${m}m`;
+  };
+  const m = formatMinutes(occ.durationSec);
+  return m ? `${formatHmsFromSeconds(occ.positionSec)} (${m})` : formatHmsFromSeconds(occ.positionSec);
+};
 
 // Cleanup observers on unmount
 onUnmounted(() => {
@@ -920,11 +829,22 @@ function drawHeatmap() {
           selectAll('.heatmap-tooltip').remove();
           
           selectedCell.value = {
+            speaker1Id: row.speakerId || '',
             speaker1Name: row.speaker1Name || row.speakerName || '',
+            speaker2Id: value.speakerId || '',
             speaker2Name: value.speaker2Name || '',
             count: value.count,
             episodes: value.episodes
           };
+          
+          // Scroll to table after a short delay to allow DOM update
+          nextTick(() => {
+            setTimeout(() => {
+              if (episodeTableRef.value?.$el) {
+                episodeTableRef.value.$el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }, 100);
+          });
         });
 
       // Add text for non-zero values
@@ -1148,6 +1068,8 @@ onMounted(async () => {
       const speakerNames = heatmapData.value.speakers.map(s => s.name);
       await loadSpeakers(speakerNames);
     }
+    await nextTick();
+    readFromUrl();
   } catch (error) {
     console.error('Failed to load heatmap data:', error);
   }
@@ -1178,10 +1100,132 @@ watch([heatmapData, filteredMatrix, filteredSpeakers2, () => settingsStore.isDar
   }
 });
 
+// URL state management
+const updateUrl = () => {
+  const query: Record<string, string | undefined> = {};
+  
+  if (topNSpeakersSpeaker1Heatmap.value !== 15) {
+    query.speakers1 = topNSpeakersSpeaker1Heatmap.value.toString();
+  } else {
+    query.speakers1 = undefined;
+  }
+  
+  if (topNSpeakersSpeaker2Heatmap.value !== 15) {
+    query.speakers2 = topNSpeakersSpeaker2Heatmap.value.toString();
+  } else {
+    query.speakers2 = undefined;
+  }
+  
+  if (selectedCell.value) {
+    query.speaker1 = selectedCell.value.speaker1Id;
+    query.speaker2 = selectedCell.value.speaker2Id;
+  } else {
+    query.speaker1 = undefined;
+    query.speaker2 = undefined;
+  }
+  
+  // Remove undefined values
+  const mergedQuery: Record<string, string> = {};
+  Object.keys(query).forEach(key => {
+    if (query[key] !== undefined) {
+      mergedQuery[key] = query[key]!;
+    }
+  });
+  
+  // Compare with current route query to avoid unnecessary updates
+  const currentQuery = { ...route.query };
+  const hasChanges = Object.keys(mergedQuery).some(key => mergedQuery[key] !== currentQuery[key]) ||
+    Object.keys(currentQuery).some(key => mergedQuery[key] === undefined && currentQuery[key] !== undefined);
+  
+  if (hasChanges) {
+    router.replace({ query: mergedQuery });
+  }
+};
+
+const readFromUrl = () => {
+  if (!heatmapData.value) return;
+  
+  const query = route.query;
+  
+  // Read speaker1 filter
+  if (query.speakers1) {
+    const speakers1Value = parseInt(query.speakers1 as string, 10);
+    if (!isNaN(speakers1Value) && speakers1Value >= 5) {
+      topNSpeakersSpeaker1Heatmap.value = Math.min(speakers1Value, heatmapData.value.statistics.totalSpeakers);
+    }
+  } else {
+    // Fall back to store value if not in URL, but validate against max
+    const storeValue = settingsStore.topNSpeakersSpeaker1Heatmap;
+    topNSpeakersSpeaker1Heatmap.value = Math.min(storeValue, heatmapData.value.statistics.totalSpeakers);
+  }
+  
+  // Read speaker2 filter
+  if (query.speakers2) {
+    const speakers2Value = parseInt(query.speakers2 as string, 10);
+    if (!isNaN(speakers2Value) && speakers2Value >= 10) {
+      topNSpeakersSpeaker2Heatmap.value = Math.min(speakers2Value, heatmapData.value.statistics.totalSpeakers);
+    }
+  } else {
+    // Fall back to store value if not in URL, but validate against max
+    const storeValue = settingsStore.topNSpeakersSpeaker2Heatmap;
+    topNSpeakersSpeaker2Heatmap.value = Math.min(storeValue, heatmapData.value.statistics.totalSpeakers);
+  }
+  
+  // Read selected cell
+  if (query.speaker1 && query.speaker2) {
+    const speaker1Id = query.speaker1 as string;
+    const speaker2Id = query.speaker2 as string;
+    
+    // Find the cell in the matrix
+    const row = heatmapData.value.matrix.find(r => r.speakerId === speaker1Id);
+    if (row) {
+      const value = row.values.find(v => v.speakerId === speaker2Id);
+      if (value && value.count > 0) {
+        const speaker1 = heatmapData.value.speakers.find(s => s.id === speaker1Id);
+        const speaker2 = heatmapData.value.speakers.find(s => s.id === speaker2Id);
+        if (speaker1 && speaker2) {
+          selectedCell.value = {
+            speaker1Id: speaker1.id,
+            speaker1Name: speaker1.name,
+            speaker2Id: speaker2.id,
+            speaker2Name: speaker2.name,
+            count: value.count,
+            episodes: value.episodes
+          };
+          showEpisodeList.value = true;
+        }
+      }
+    }
+  } else {
+    selectedCell.value = null;
+    showEpisodeList.value = false;
+  }
+};
+
 // Clear selection when slider values change
-watch([() => settingsStore.topNSpeakers1Heatmap, () => settingsStore.topNSpeakers2Heatmap], () => {
+watch([topNSpeakersSpeaker1Heatmap, topNSpeakersSpeaker2Heatmap], ([speakers1Value, speakers2Value]) => {
+  // Update store when values change
+  settingsStore.topNSpeakersSpeaker1Heatmap = speakers1Value;
+  settingsStore.topNSpeakersSpeaker2Heatmap = speakers2Value;
   selectedCell.value = null;
   showEpisodeList.value = false;
+  updateUrl();
+});
+
+// Watch for URL changes (only if data is loaded)
+watch(() => route.query, () => {
+  if (heatmapData.value) {
+    readFromUrl();
+  }
+}, { deep: true });
+
+// Watch for selection changes to update URL
+watch(selectedCell, (newCell) => {
+  updateUrl();
+  // Load episode details when cell is selected
+  if (newCell && newCell.episodes.length > 0 && showEpisodeList.value) {
+    loadEpisodeDetails(newCell.episodes);
+  }
 });
 
 // Load episode details when episode list is shown
@@ -1189,7 +1233,7 @@ watch(showEpisodeList, (show) => {
   if (show && selectedCell.value) {
     loadEpisodeDetails(selectedCell.value.episodes);
   }
-});
+}, { immediate: true });
 
 // Redraw on container resize
 watch(heatmapContainer, (container) => {

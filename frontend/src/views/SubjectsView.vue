@@ -6,7 +6,7 @@ import SubjectRiver from '../components/SubjectRiver.vue';
 import SubjectRadar from '../components/SubjectRadar.vue';
 import EpisodeTable from '../components/EpisodeTable.vue';
 import type { SubjectRiverData } from '../types';
-import { getPodcastFileUrl, getEpisodeImageUrl } from '@/composables/usePodcast';
+import { getPodcastFileUrl, getEpisodeImageUrl, withBase, getSpeakersBaseUrl } from '@/composables/usePodcast';
 import { useSettingsStore } from '@/stores/settings';
 import { useLazyEpisodeDetails, loadEpisodeDetail, getCachedEpisodeDetail } from '@/composables/useEpisodeDetails';
 import { useAudioPlayerStore } from '@/stores/audioPlayer';
@@ -17,14 +17,16 @@ const settings = useSettingsStore();
 const subjectData = ref<SubjectRiverData | null>(null);
 const loading = ref(true);
 const error = ref<string | null>(null);
-const activeChart = ref<'river' | 'radar'>('river');
+const activeChart = ref<'river' | 'radar'>('radar');
 const radarSelectedArea = ref<{ year: number; subject: string } | null>(null);
 const radarComponentRef = ref<InstanceType<typeof SubjectRadar> | null>(null);
 const riverComponentRef = ref<InstanceType<typeof SubjectRiver> | null>(null);
+const riverEpisodeTableRef = ref<InstanceType<typeof EpisodeTable> | null>(null);
+const radarEpisodeTableRef = ref<InstanceType<typeof EpisodeTable> | null>(null);
 
-// Local state for river chart controls (synced with URL)
-const normalizedView = ref(false);
-const subjectFilter = ref(12);
+// Local state for river chart controls (synced with URL and store)
+const normalizedView = ref(settings.normalizedView);
+const subjectFilter = ref(settings.subjectFilter);
 
 // Episode details for radar table
 const { setupLazyLoad } = useLazyEpisodeDetails();
@@ -92,10 +94,69 @@ const formatDuration = (duration: string | [number, number, number] | undefined)
   return '—';
 };
 
+// Helper function to set default years for radar chart
+const setDefaultRadarYears = () => {
+  if (radarComponentRef.value && subjectData.value && radarComponentRef.value.setSelectedYears) {
+    const data = subjectData.value;
+    // Get available years (sorted descending, newest first)
+    const availableYears = data.statistics.years
+      .filter(year => {
+        // Check if any subject has data for this year
+        return Object.values(data.subjects).some(subject => {
+          const yearData = subject.yearData.find(yd => yd.year === year);
+          return yearData && yearData.count > 0;
+        });
+      })
+      .sort((a, b) => b - a); // Descending order (newest first)
+    
+    if (availableYears.length > 0) {
+      const defaultYears: number[] = [];
+      
+      // Always add newest year (first in descending order)
+      const newestYear = availableYears[0];
+      if (newestYear !== undefined) {
+        defaultYears.push(newestYear);
+      }
+      
+      // Always add oldest year (last in descending order)
+      const oldestYear = availableYears[availableYears.length - 1];
+      if (oldestYear !== undefined && oldestYear !== newestYear) {
+        defaultYears.push(oldestYear);
+      }
+      
+      // Add middle year if available and different from newest/oldest
+      if (availableYears.length > 2) {
+        const middleIndex = Math.floor(availableYears.length / 2);
+        const middleYear = availableYears[middleIndex];
+        if (middleYear !== undefined && !defaultYears.includes(middleYear)) {
+          defaultYears.push(middleYear);
+        }
+      } else if (availableYears.length === 2) {
+        // If only two years available, add the second one (oldest)
+        const secondYear = availableYears[1];
+        if (secondYear !== undefined && !defaultYears.includes(secondYear)) {
+          defaultYears.push(secondYear);
+        }
+      }
+      
+      // Set the default years (should be at least 1, up to 3)
+      if (defaultYears.length > 0) {
+        radarComponentRef.value.setSelectedYears(defaultYears);
+      }
+    }
+  }
+};
+
 // Watch for podcast changes and reload data
-watch(() => settings.selectedPodcast, () => {
-  loadData();
+watch(() => settings.selectedPodcast, async () => {
+  await loadData();
   radarEpisodeDetails.value.clear();
+  // Reset years to defaults when podcast changes and we're on radar chart
+  if (activeChart.value === 'radar') {
+    await nextTick();
+    await nextTick(); // Wait for component to mount
+    setDefaultRadarYears();
+  }
 });
 
 // Update URL when selections change
@@ -185,6 +246,11 @@ const readFromUrl = () => {
   if (activeChart.value === 'river') {
     if (query.normalized === '1') {
       normalizedView.value = true;
+    } else if (query.normalized === undefined) {
+      // Fall back to store value if not in URL
+      normalizedView.value = settings.normalizedView;
+    } else {
+      normalizedView.value = false;
     }
     
     if (query.subjects && typeof query.subjects === 'string') {
@@ -195,9 +261,13 @@ const readFromUrl = () => {
         subjectFilter.value = Math.min(filterValue, Math.max(5, maxSubjects));
       }
     } else if (subjectData.value) {
-      // Set default to max if not in URL
+      // Fall back to store value if not in URL, but validate against max
       const maxSubjects = subjectData.value.statistics.subjectsByEpisodeCount.length;
-      subjectFilter.value = Math.max(5, maxSubjects);
+      const storeValue = settings.subjectFilter;
+      subjectFilter.value = Math.min(Math.max(5, storeValue), Math.max(5, maxSubjects));
+    } else {
+      // Use store value if data not loaded yet
+      subjectFilter.value = settings.subjectFilter;
     }
     
     // Subject and year for river chart
@@ -233,6 +303,11 @@ const readFromUrl = () => {
             radarComponentRef.value.setSelectedYears(years);
           }
         }
+      });
+    } else {
+      // Default years if not in URL: newest, oldest, and middle year
+      nextTick(() => {
+        setDefaultRadarYears();
       });
     }
     
@@ -344,13 +419,17 @@ watch(() => riverComponentRef.value?.selectedYear, () => {
 });
 
 // Watch for normalized view and subject filter changes
-watch(normalizedView, () => {
+watch(normalizedView, (newValue) => {
+  // Update store when value changes
+  settings.setNormalizedView(newValue);
   if (activeChart.value === 'river') {
     updateUrl();
   }
 });
 
-watch(subjectFilter, () => {
+watch(subjectFilter, (newValue) => {
+  // Update store when value changes
+  settings.subjectFilter = newValue;
   if (activeChart.value === 'river') {
     updateUrl();
   }
@@ -359,6 +438,28 @@ watch(subjectFilter, () => {
 watch(radarSelectedArea, () => {
   if (activeChart.value === 'radar') {
     updateUrl();
+    // Scroll to radar table when selection is made
+    nextTick(() => {
+      setTimeout(() => {
+        if (radarEpisodeTableRef.value?.$el) {
+          radarEpisodeTableRef.value.$el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    });
+  }
+});
+
+// Watch for river chart selection changes to scroll to table
+watch(() => riverComponentRef.value?.selectedSubjectInfo, (newValue) => {
+  if (newValue && activeChart.value === 'river' && riverComponentRef.value?.showEpisodeList) {
+    // Scroll to river table when a subject is selected
+    nextTick(() => {
+      setTimeout(() => {
+        if (riverEpisodeTableRef.value?.$el) {
+          riverEpisodeTableRef.value.$el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    });
   }
 });
 
@@ -428,6 +529,52 @@ watch(radarSelectedEpisodes, async (episodes) => {
 // Helper functions for episode table
 const audioPlayerStore = useAudioPlayerStore();
 
+// MP3 playback (uses /episodes.json generated from MP3 RSS feed) - same as SubjectRiver
+const mp3IndexLoaded = ref(false);
+const mp3IndexError = ref<string | null>(null);
+const mp3UrlByEpisode = ref<Map<number, string>>(new Map());
+
+const ensureMp3Index = async () => {
+  if (mp3IndexLoaded.value || mp3IndexError.value) return;
+  try {
+    // In dev mode, always reload to get latest data; in production, use cache
+    const res = await fetch(getPodcastFileUrl('episodes.json'), { 
+      cache: import.meta.env.DEV ? 'no-cache' : 'force-cache' 
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    const map = new Map<number, string>();
+    if (data?.byNumber && typeof data.byNumber === 'object') {
+      for (const [k, v] of Object.entries(data.byNumber)) {
+        const n = parseInt(k, 10);
+        const vObj = v as any;
+        const url = typeof vObj?.mp3Url === 'string' ? vObj.mp3Url : null;
+        if (Number.isFinite(n) && url) map.set(n, url);
+      }
+    } else if (Array.isArray(data?.episodes)) {
+      for (const ep of data.episodes) {
+        const epObj = ep as any;
+        const n = epObj?.number;
+        const url = typeof epObj?.mp3Url === 'string' ? epObj.mp3Url : null;
+        if (Number.isFinite(n) && url) map.set(n as number, url);
+      }
+    }
+
+    mp3UrlByEpisode.value = map;
+    mp3IndexLoaded.value = true;
+  } catch (e) {
+    mp3IndexError.value = e instanceof Error ? e.message : String(e);
+  }
+};
+
+// Watch for podcast changes and clear the cached MP3 index
+watch(() => settings.selectedPodcast, () => {
+  mp3IndexLoaded.value = false;
+  mp3IndexError.value = null;
+  mp3UrlByEpisode.value.clear();
+});
+
 const formatHmsFromSeconds = (sec: unknown) => {
   const s0 = Number.isFinite(sec as number) ? Math.max(0, Math.floor(sec as number)) : null;
   if (s0 === null) return '—';
@@ -447,9 +594,31 @@ const formatOccurrenceLabel = (occ: { positionSec: number; durationSec: number |
   return radarComponentRef.value.formatOccurrenceLabel(occ);
 };
 
-const playEpisodeAt = (episodeNumber: number, positionSec: number, label: string) => {
-  if (!radarComponentRef.value) return;
-  radarComponentRef.value.playEpisodeAt(episodeNumber, positionSec, label);
+const playEpisodeAt = async (episodeNumber: number, positionSec: number, label: string) => {
+  await ensureMp3Index();
+
+  const mp3 = mp3UrlByEpisode.value.get(episodeNumber) || null;
+  if (!mp3) {
+    const errorMsg = mp3IndexError.value
+      ? `MP3 Index nicht verfügbar (${mp3IndexError.value})`
+      : 'Keine MP3-URL für diese Episode gefunden (episodes.json)';
+    audioPlayerStore.setError(errorMsg);
+    return;
+  }
+
+  // Get episode title from details if available
+  const details = radarEpisodeDetails.value.get(episodeNumber);
+  const title = details?.title || `Episode ${episodeNumber}`;
+
+  audioPlayerStore.play({
+    src: mp3,
+    title: title,
+    subtitle: label,
+    seekToSec: Math.max(0, Math.floor(positionSec)),
+    autoplay: true,
+    transcriptSrc: withBase(getPodcastFileUrl(`episodes/${episodeNumber}-ts-live.json`)),
+    speakersMetaUrl: getSpeakersBaseUrl(),
+  });
 };
 </script>
 
@@ -482,34 +651,37 @@ const playEpisodeAt = (episodeNumber: number, positionSec: number, label: string
       </div>
       
       <!-- Second-level navigation -->
-      <div class="flex flex-col items-center border-t border-purple-200 dark:border-purple-800 pt-4">
-        <div class="flex gap-2">
-          <button
-            @click="activeChart = 'river'; updateUrl();"
-            :class="[
-              'px-4 py-2 rounded-md text-sm font-medium transition-colors',
-              activeChart === 'river'
-                ? 'bg-purple-600 text-white'
-                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-            ]"
-          >
-            River Chart
-          </button>
-          <button
-            @click="activeChart = 'radar'; updateUrl();"
-            :class="[
-              'px-4 py-2 rounded-md text-sm font-medium transition-colors',
-              activeChart === 'radar'
-                ? 'bg-purple-600 text-white'
-                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-            ]"
-          >
-            Radar Chart
-          </button>
+      <div class="border-t border-purple-200 dark:border-purple-800 pt-4">
+        <!-- Chart Selector -->
+        <div class="flex justify-center mb-4">
+          <div class="flex gap-1 sm:gap-2 bg-white dark:bg-gray-800 rounded-lg p-1 shadow-md w-full sm:w-auto overflow-x-auto">
+            <button
+              @click="activeChart = 'river'; updateUrl();"
+              :class="[
+                'px-3 sm:px-4 py-2 rounded-md transition-colors text-xs sm:text-sm font-medium whitespace-nowrap flex-shrink-0',
+                activeChart === 'river'
+                  ? 'bg-purple-500 text-white'
+                  : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
+              ]"
+            >
+              River Chart
+            </button>
+            <button
+              @click="activeChart = 'radar'; updateUrl();"
+              :class="[
+                'px-3 sm:px-4 py-2 rounded-md transition-colors text-xs sm:text-sm font-medium whitespace-nowrap flex-shrink-0',
+                activeChart === 'radar'
+                  ? 'bg-purple-500 text-white'
+                  : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
+              ]"
+            >
+              Radar Chart
+            </button>
+          </div>
         </div>
         
         <!-- River Chart Controls (only shown when river chart is active) -->
-        <div v-if="activeChart === 'river' && subjectData" class="mt-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4 w-full">
+        <div v-if="activeChart === 'river' && subjectData" class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4 w-full">
           <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
             <span class="whitespace-nowrap">Anzahl {{ $t('nav.subjects') }}:</span>
             <div class="flex items-center gap-2">
@@ -595,6 +767,7 @@ const playEpisodeAt = (episodeNumber: number, positionSec: number, label: string
           Lade Episoden-Details...
         </div>
         <EpisodeTable
+          ref="riverEpisodeTableRef"
           v-else
           :episodes="riverComponentRef.selectedSubjectInfo.episodes"
           :episode-details="riverComponentRef.episodeDetails"
@@ -704,6 +877,7 @@ const playEpisodeAt = (episodeNumber: number, positionSec: number, label: string
     <!-- Episodes Table (for radar chart) -->
     <div v-if="activeChart === 'radar' && radarSelectedArea" class="mt-6">
       <EpisodeTable
+        ref="radarEpisodeTableRef"
         :episodes="radarSelectedEpisodes"
         :episode-details="radarEpisodeDetails"
         :loading-episodes="loadingRadarEpisodes"
@@ -716,9 +890,18 @@ const playEpisodeAt = (episodeNumber: number, positionSec: number, label: string
         :show-play-button="true"
       >
         <template #header>
-          <h2 class="text-lg font-semibold text-purple-900 dark:text-purple-100">
-            Episoden: {{ subjectData.subjects[radarSelectedArea.subject]?.name }} ({{ radarSelectedArea.year }})
-          </h2>
+          <div class="flex items-center justify-between">
+            <h2 class="text-lg font-semibold text-purple-900 dark:text-purple-100">
+              Episoden: {{ subjectData.subjects[radarSelectedArea.subject]?.name }} ({{ radarSelectedArea.year }})
+            </h2>
+            <button
+              @click="radarSelectedArea = null; updateUrl();"
+              class="text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300 font-semibold ml-4"
+              aria-label="Schließen"
+            >
+              ✕
+            </button>
+          </div>
         </template>
       </EpisodeTable>
     </div>

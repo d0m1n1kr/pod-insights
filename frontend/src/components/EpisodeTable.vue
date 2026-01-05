@@ -1,11 +1,28 @@
 <template>
   <div :class="[$slots.header ? 'bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden' : '']">
-    <div v-if="$slots.header" :class="['p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r', themeColor === 'blue' ? 'from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20' : 'from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20']">
+    <div v-if="$slots.header" :class="[
+      'p-3 sm:p-4 md:p-6 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r',
+      themeColor === 'blue' ? 'from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20' :
+      themeColor === 'green' ? 'from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20' :
+      themeColor === 'orange' ? 'from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20' :
+      themeColor === 'teal' ? 'from-teal-50 to-cyan-50 dark:from-teal-900/20 dark:to-cyan-900/20' :
+      themeColor === 'cyan' ? 'from-cyan-50 to-sky-50 dark:from-cyan-900/20 dark:to-sky-900/20' :
+      themeColor === 'violet' ? 'from-violet-50 to-purple-50 dark:from-violet-900/20 dark:to-purple-900/20' :
+      'from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20'
+    ]">
       <slot name="header" />
     </div>
     <div :class="[$slots.header ? 'overflow-x-auto' : 'overflow-x-auto']">
       <table class="w-full text-sm">
-      <thead class="bg-gray-50 dark:bg-gray-900">
+      <thead :class="[
+        themeColor === 'blue' ? 'bg-blue-50 dark:bg-blue-900/30' :
+        themeColor === 'green' ? 'bg-green-50 dark:bg-green-900/30' :
+        themeColor === 'orange' ? 'bg-orange-50 dark:bg-orange-900/30' :
+        themeColor === 'teal' ? 'bg-teal-50 dark:bg-teal-900/30' :
+        themeColor === 'cyan' ? 'bg-cyan-50 dark:bg-cyan-900/30' :
+        themeColor === 'violet' ? 'bg-violet-50 dark:bg-violet-900/30' :
+        'bg-purple-50 dark:bg-purple-900/30'
+      ]">
         <tr>
           <th v-if="showPlayButton" class="px-3 py-2 text-left text-xs font-semibold text-gray-600 dark:text-gray-400">Play</th>
           <th class="px-3 py-2 text-left text-xs font-semibold text-gray-600 dark:text-gray-400">Bild</th>
@@ -50,7 +67,16 @@
           <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
             <router-link
               :to="{ name: 'episodeSearch', query: { episode: episode.number.toString(), podcast: selectedPodcast || 'freakshow' } }"
-              :class="['truncate hover:underline', themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300' : 'text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300']"
+              :class="[
+                'truncate hover:underline',
+                themeColor === 'blue' ? 'text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300' :
+                themeColor === 'green' ? 'text-green-600 dark:text-green-400 hover:text-green-800 dark:hover:text-green-300' :
+                themeColor === 'orange' ? 'text-orange-600 dark:text-orange-400 hover:text-orange-800 dark:hover:text-orange-300' :
+                themeColor === 'teal' ? 'text-teal-600 dark:text-teal-400 hover:text-teal-800 dark:hover:text-teal-300' :
+                themeColor === 'cyan' ? 'text-cyan-600 dark:text-cyan-400 hover:text-cyan-800 dark:hover:text-cyan-300' :
+                themeColor === 'violet' ? 'text-violet-600 dark:text-violet-400 hover:text-violet-800 dark:hover:text-violet-300' :
+                'text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300'
+              ]"
             >
               {{ episode.title }}
             </router-link>
@@ -65,9 +91,13 @@
                       type="button"
                       :class="[
                         'underline hover:no-underline cursor-pointer whitespace-nowrap flex-shrink-0',
-                        themeColor === 'blue'
-                          ? 'text-blue-700 dark:text-blue-300'
-                          : 'text-purple-700 dark:text-purple-300'
+                        themeColor === 'blue' ? 'text-blue-700 dark:text-blue-300' :
+                        themeColor === 'green' ? 'text-green-700 dark:text-green-300' :
+                        themeColor === 'orange' ? 'text-orange-700 dark:text-orange-300' :
+                        themeColor === 'teal' ? 'text-teal-700 dark:text-teal-300' :
+                        themeColor === 'cyan' ? 'text-cyan-700 dark:text-cyan-300' :
+                        themeColor === 'violet' ? 'text-violet-700 dark:text-violet-300' :
+                        'text-purple-700 dark:text-purple-300'
                       ]"
                       @click="playEpisodeAt(episode.number, occ.positionSec, formatOccurrenceLabel(occ))"
                       :title="`Episode öffnen bei ${formatHmsFromSeconds(occ.positionSec)}`"
@@ -110,7 +140,16 @@
                 :href="episodeDetails.get(episode.number).url"
                 target="_blank"
                 rel="noopener noreferrer"
-                :class="['underline text-xs', themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' : 'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300']"
+                :class="[
+                  'underline text-xs',
+                  themeColor === 'blue' ? 'text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300' :
+                  themeColor === 'green' ? 'text-green-600 hover:text-green-800 dark:text-green-400 dark:hover:text-green-300' :
+                  themeColor === 'orange' ? 'text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-300' :
+                  themeColor === 'teal' ? 'text-teal-600 hover:text-teal-800 dark:text-teal-400 dark:hover:text-teal-300' :
+                  themeColor === 'cyan' ? 'text-cyan-600 hover:text-cyan-800 dark:text-cyan-400 dark:hover:text-cyan-300' :
+                  themeColor === 'violet' ? 'text-violet-600 hover:text-violet-800 dark:text-violet-400 dark:hover:text-violet-300' :
+                  'text-purple-600 hover:text-purple-800 dark:text-purple-400 dark:hover:text-purple-300'
+                ]"
               >
                 🔗
               </a>
@@ -151,7 +190,7 @@ interface Props {
   formatOccurrenceLabel: (occ: any) => string;
   formatHmsFromSeconds: (seconds: number) => string;
   formatDuration: (duration: string | [number, number, number] | undefined) => string;
-  themeColor?: 'blue' | 'purple';
+  themeColor?: 'blue' | 'purple' | 'green' | 'orange' | 'teal' | 'cyan' | 'violet';
   showPlayButton?: boolean;
 }
 

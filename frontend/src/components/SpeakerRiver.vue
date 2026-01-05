@@ -15,7 +15,8 @@ import {
   pointer,
   schemeCategory10,
   schemePaired,
-  schemeSet3
+  schemeSet3,
+  easeSinInOut
 } from '@/utils/d3-imports';
 import type { SpeakerRiverData, ProcessedSpeakerData } from '../types';
 import { useSettingsStore } from '../stores/settings';
@@ -26,14 +27,22 @@ import { useSpeakerMeta } from '@/composables/useSpeakerMeta';
 
 const props = defineProps<{
   data: SpeakerRiverData;
+  normalizedView?: boolean;
+  speakerFilter?: number;
+}>();
+
+const emit = defineEmits<{
+  (e: 'update:normalizedView', value: boolean): void;
+  (e: 'update:speakerFilter', value: number): void;
 }>();
 
 const svgRef = ref<SVGSVGElement | null>(null);
 const containerRef = ref<HTMLDivElement | null>(null);
 const selectedSpeaker = ref<string | null>(null);
 const hoveredSpeaker = ref<string | null>(null);
-const speakerFilter = ref<number>(30);
-// Load normalized view preference from localStorage, default to false
+const legendSearchQuery = ref('');
+
+// Use props if provided, otherwise fall back to defaults/localStorage
 const getNormalizedViewPreference = (): boolean => {
   try {
     const saved = localStorage.getItem('speakerRiver.normalizedView');
@@ -42,7 +51,26 @@ const getNormalizedViewPreference = (): boolean => {
     return false;
   }
 };
-const normalizedView = ref<boolean>(getNormalizedViewPreference());
+const normalizedView = computed({
+  get: () => props.normalizedView !== undefined ? props.normalizedView : getNormalizedViewPreference(),
+  set: (value: boolean) => {
+    if (props.normalizedView !== undefined) {
+      emit('update:normalizedView', value);
+    } else {
+      try {
+        localStorage.setItem('speakerRiver.normalizedView', String(value));
+      } catch {}
+    }
+  }
+});
+const speakerFilter = computed({
+  get: () => props.speakerFilter !== undefined ? props.speakerFilter : 30,
+  set: (value: number) => {
+    if (props.speakerFilter !== undefined) {
+      emit('update:speakerFilter', value);
+    }
+  }
+});
 const dimensions = ref({ width: 1200, height: 600 });
 const selectedYear = ref<number | null>(null);
 const tooltipData = ref<{ speakerName: string; speakerImage?: string; year: number; x: number; y: number } | null>(null);
@@ -158,11 +186,12 @@ const drawRiver = () => {
   const height = dimensions.value.height;
   dimensions.value.width = width;
   
-  const margin = { top: 20, right: 280, bottom: 60, left: 60 };
+  const margin = { top: 20, right: 20, bottom: 60, left: 60 };
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
   
   // Lösche vorherigen Inhalt
+  stopPulse();
   select(svgRef.value).selectAll('*').remove();
   
   const svg = select(svgRef.value)
@@ -321,55 +350,6 @@ const drawRiver = () => {
     .style('font-weight', '600')
     .text('Jahr');
   
-  // Legende
-  const legend = g.append('g')
-    .attr('class', 'legend')
-    .attr('transform', `translate(${innerWidth + 20}, 0)`);
-  
-  speakers.forEach((speaker, i) => {
-    const legendRow = legend.append('g')
-      .attr('class', 'legend-item')
-      .attr('data-speaker-id', speaker.id)
-      .attr('transform', `translate(0, ${i * 24})`)
-      .style('cursor', 'pointer')
-      .on('mouseover', function() {
-        hoveredSpeaker.value = speaker.id;
-      })
-      .on('mouseout', function() {
-        // Only clear if we're leaving the current hovered item
-        if (hoveredSpeaker.value === speaker.id) {
-          hoveredSpeaker.value = null;
-        }
-      })
-      .on('click', function() {
-        selectedSpeaker.value = selectedSpeaker.value === speaker.id ? null : speaker.id;
-      });
-    
-    legendRow.append('rect')
-      .attr('width', 16)
-      .attr('height', 16)
-      .attr('fill', speaker.color)
-      .attr('opacity', () => {
-        if (!hoveredSpeaker.value && !selectedSpeaker.value) return 0.8;
-        if (hoveredSpeaker.value === speaker.id || selectedSpeaker.value === speaker.id) return 1;
-        return 0.2;
-      });
-    
-    const text = legendRow.append('text')
-      .attr('x', 22)
-      .attr('y', 12)
-      .attr('fill', '#333')
-      .style('font-size', '11px')
-      .style('font-weight', () => {
-        if (hoveredSpeaker.value === speaker.id || selectedSpeaker.value === speaker.id) return '600';
-        return '400';
-      })
-      .text(`${speaker.name} (${speaker.totalAppearances} Episoden)`);
-    
-    // Tooltip für lange Namen
-    text.append('title').text(`${speaker.name} (${speaker.totalAppearances} Episoden)`);
-  });
-  
   return streams; // Return streams for updating
 };
 
@@ -387,25 +367,69 @@ const updateOpacity = () => {
       if (selectedSpeaker.value && d.key === selectedSpeaker.value) return 1;
       return 0.2;
     });
+};
+
+// Filtered legend speakers based on search query
+const filteredLegendSpeakers = computed(() => {
+  const query = legendSearchQuery.value.trim().toLowerCase();
+  if (!query) return processedData.value.speakers;
   
-  // Update legend opacity and font weight
-  svg.selectAll('.legend-item').each(function() {
-    const item = select(this);
-    const speakerId = item.attr('data-speaker-id');
-    
-    item.select('rect')
-      .attr('opacity', () => {
-        if (!hoveredSpeaker.value && !selectedSpeaker.value) return 0.8;
-        if (hoveredSpeaker.value === speakerId || selectedSpeaker.value === speakerId) return 1;
-        return 0.2;
-      });
-    
-    item.select('text')
-      .style('font-weight', () => {
-        if (hoveredSpeaker.value === speakerId || selectedSpeaker.value === speakerId) return '600';
-        return '400';
-      });
-  });
+  return processedData.value.speakers.filter(speaker => 
+    speaker.name.toLowerCase().includes(query)
+  );
+});
+
+// Pulse animation helpers (for consistency with TopicRiver)
+let pulsingSpeakerKey: string | null = null;
+
+const pulseOnce = (key: string) => {
+  if (!svgRef.value || hoveredSpeaker.value !== key) return;
+
+  const stroke = settings.isDarkMode ? 'rgba(255,255,255,0.75)' : 'rgba(0,0,0,0.45)';
+  const sel = select(svgRef.value)
+    .selectAll<SVGPathElement, any>('.stream')
+    .filter((d: any) => d?.key === key);
+
+  // Continuous pulse (loop) while legend hover stays active.
+  sel.interrupt();
+  sel.attr('stroke', stroke)
+    .attr('stroke-linejoin', 'round')
+    .attr('stroke-linecap', 'round')
+    .attr('stroke-width', 0)
+    .attr('stroke-opacity', 0)
+    .transition()
+    .duration(650)
+    .ease(easeSinInOut)
+    .attr('stroke-width', 2.5)
+    .attr('stroke-opacity', 0.9)
+    .transition()
+    .delay(120)
+    .duration(850)
+    .ease(easeSinInOut)
+    .attr('stroke-width', 0)
+    .attr('stroke-opacity', 0)
+    .on('end', () => {
+      if (pulsingSpeakerKey === key && hoveredSpeaker.value === key) pulseOnce(key);
+      else {
+        // Ensure cleanup if hover ended mid-loop.
+        select(svgRef.value as any).selectAll('.stream').attr('stroke', 'none');
+      }
+    });
+};
+
+const startPulse = (key: string) => {
+  pulsingSpeakerKey = key;
+  pulseOnce(key);
+};
+
+const stopPulse = () => {
+  pulsingSpeakerKey = null;
+  if (!svgRef.value) return;
+  // Stop any in-flight pulse transitions and remove the pulse stroke.
+  select(svgRef.value)
+    .selectAll<SVGPathElement, any>('.stream')
+    .interrupt()
+    .attr('stroke', 'none');
 };
 
 // Watch für Änderungen
@@ -514,7 +538,7 @@ const selectedSpeakerInfo = computed(() => {
   };
 });
 
-const showEpisodeList = ref(false);
+const showEpisodeList = ref(true);
 const episodeDetails = ref<Map<number, any>>(new Map());
 const loadingEpisodes = ref(false);
 
@@ -1068,182 +1092,89 @@ const playEpisodeAt = async (episodeNumber: number, seconds: number, label: stri
     speakersMetaUrl: getSpeakersBaseUrl(),
   });
 };
+
+// Expose methods and state for parent component
+defineExpose({
+  selectedSpeaker,
+  selectedYear,
+  setSelectedSpeaker: (speaker: string | null) => {
+    selectedSpeaker.value = speaker;
+  },
+  setSelectedYear: (year: number | null) => {
+    selectedYear.value = year;
+  },
+  selectedSpeakerInfo,
+  showEpisodeList,
+  setShowEpisodeList: (value: boolean) => {
+    showEpisodeList.value = value;
+  },
+  episodeDetails,
+  loadingEpisodes,
+  playEpisodeAt,
+  formatDuration
+});
 </script>
 
 <template>
   <div class="speaker-river-container">
-    <div class="controls mb-4 sm:mb-6">
-      <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
-        <label class="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 flex flex-col sm:flex-row sm:items-center gap-2">
-          <span class="whitespace-nowrap">Anzahl Speaker:</span>
-          <div class="flex items-center gap-2">
-            <input
-              v-model.number="speakerFilter"
-              type="range"
-              min="5"
-              max="30"
-              step="1"
-              class="flex-1 sm:w-32 md:w-48"
-              @input="(e) => { speakerFilter = Number((e.target as HTMLInputElement).value); }"
-            />
-            <span class="font-semibold min-w-[2rem] text-right text-green-600 dark:text-green-400">{{ speakerFilter }}</span>
-          </div>
-        </label>
-        
-        <label class="flex items-center gap-2 text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 cursor-pointer">
-          <input
-            v-model="normalizedView"
-            type="checkbox"
-            class="w-4 h-4 text-green-600 rounded focus:ring-green-500 dark:focus:ring-green-400"
-          />
-          <span>Normierte Ansicht (100%/Jahr)</span>
-        </label>
+    <!-- Tooltip -->
+    <div 
+      ref="tooltipRef" 
+      class="tooltip"
+      style="display: none; position: absolute; background: rgba(0, 0, 0, 0.9); color: white; padding: 8px 12px; border-radius: 6px; pointer-events: none; z-index: 1000; font-size: 13px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);"
+    ></div>
+    
+    <div class="flex flex-col lg:flex-row gap-4">
+      <!-- River Chart -->
+      <div ref="containerRef" class="flex-1 w-full overflow-x-auto -mx-2 sm:mx-0">
+        <svg ref="svgRef" class="speaker-river-svg"></svg>
       </div>
       
-      <div v-if="selectedSpeakerInfo" class="mt-4 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-700 rounded-lg">
-        <div class="flex items-start justify-between">
-          <div class="flex-1">
-            <h3 class="font-semibold text-lg text-green-900 dark:text-green-100">{{ selectedSpeakerInfo.name }}</h3>
-            <p class="text-sm text-green-700 dark:text-green-300 mt-1">
-              {{ selectedSpeakerInfo.totalAppearances }} Episoden
-              <span v-if="selectedSpeakerInfo.firstAppearance">
-                ({{ selectedSpeakerInfo.firstAppearance }} - {{ selectedSpeakerInfo.lastAppearance }})
-              </span>
-            </p>
-            
-            <!-- Year Filter Badge -->
-            <div v-if="selectedYear" class="mt-2 inline-flex items-center gap-2 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-              <span>📅 Jahr: {{ selectedYear }}</span>
-              <button 
-                @click="selectedYear = null"
-                class="hover:bg-green-700 rounded-full w-5 h-5 flex items-center justify-center transition-colors"
-                title="Jahr-Filter entfernen"
-              >
-                ✕
-              </button>
-            </div>
-            
-            <div class="mt-2">
-              <button
-                @click="showEpisodeList = !showEpisodeList"
-                class="text-sm text-green-600 dark:text-green-400 hover:text-green-800 dark:hover:text-green-300 font-semibold underline"
-              >
-                {{ showEpisodeList ? 'Episoden ausblenden' : (selectedYear ? `${selectedSpeakerInfo.filteredCount} von ${selectedSpeakerInfo.totalEpisodes} Episoden anzeigen` : `${selectedSpeakerInfo.episodeNumbers.length} Episoden anzeigen`) }}
-              </button>
-            </div>
-            
-            <!-- Episode List -->
-            <div v-if="showEpisodeList" class="mt-4 bg-white dark:bg-gray-900 rounded-lg border border-green-300 dark:border-green-700 overflow-hidden">
-              <div v-if="loadingEpisodes" class="p-4 text-center text-gray-600 dark:text-gray-400">
-                Lade Episoden-Details...
-              </div>
-              <div v-else class="max-h-96 overflow-auto">
-                <table class="min-w-full w-max text-sm table-auto">
-                  <thead class="bg-green-100 dark:bg-green-900 sticky top-0">
-                    <tr>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">#</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Datum</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Titel</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Play</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Dauer</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Speaker</th>
-                      <th class="px-3 py-2 text-left text-xs font-semibold text-green-900 dark:text-green-100">Link</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr 
-                      v-for="episodeNum in selectedSpeakerInfo.episodeNumbers" 
-                      :key="episodeNum"
-                      :data-episode-row="episodeNum"
-                      class="border-t border-green-100 dark:border-green-800 hover:bg-green-50 dark:hover:bg-green-900/20"
-                    >
-                      <template v-if="episodeDetails.get(episodeNum)">
-                        <td class="px-3 py-2 text-green-700 dark:text-green-300 font-mono text-xs whitespace-nowrap">{{ episodeNum }}</td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 whitespace-nowrap text-xs">
-                          <template v-if="episodeDetails.get(episodeNum)!.date">
-                            {{ new Date(episodeDetails.get(episodeNum)!.date).toLocaleDateString('de-DE') }}
-                          </template>
-                          <template v-else>—</template>
-                        </td>
-                        <td class="px-3 py-2 text-gray-900 dark:text-gray-100 text-xs">
-                          <router-link
-                            :to="{ name: 'episodeSearch', query: { episode: episodeNum.toString(), podcast: settings.selectedPodcast || 'freakshow' } }"
-                            class="truncate text-green-600 dark:text-green-400 hover:text-green-800 dark:hover:text-green-300 hover:underline"
-                          >
-                            {{ episodeDetails.get(episodeNum)!.title }}
-                          </router-link>
-                        </td>
-                        <td class="px-3 py-2">
-                          <button
-                            type="button"
-                            class="shrink-0 inline-flex items-center justify-center w-6 h-6 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
-                            @click="playEpisodeAt(episodeNum, 0, 'Start')"
-                            title="Episode von Anfang abspielen"
-                            aria-label="Episode von Anfang abspielen"
-                          >
-                            ▶︎
-                          </button>
-                        </td>
-                        <td class="px-3 py-2 text-gray-600 dark:text-gray-400 text-xs whitespace-nowrap">
-                          <template v-if="episodeDetails.get(episodeNum)!._fallback !== 'minimal' && episodeDetails.get(episodeNum)!.duration">
-                            {{ formatDuration(episodeDetails.get(episodeNum)!.duration) }}
-                          </template>
-                          <template v-else>—</template>
-                        </td>
-                        <td class="px-3 py-2 text-xs">
-                          <template v-if="episodeDetails.get(episodeNum)!.speakers && episodeDetails.get(episodeNum)!.speakers.length > 0">
-                            <template v-for="(speaker, idx) in episodeDetails.get(episodeNum)!.speakers" :key="`${episodeNum}-${idx}`">
-                              <span
-                                :class="[
-                                  'inline-block',
-                                  speaker === selectedSpeakerInfo?.name 
-                                    ? 'font-semibold text-green-700 dark:text-green-300 bg-green-100 dark:bg-green-900 px-1 rounded' 
-                                    : 'text-gray-600 dark:text-gray-400'
-                                ]"
-                              >{{ speaker }}</span><span v-if="(idx as number) < (episodeDetails.get(episodeNum)!.speakers.length - 1)" class="text-gray-600 dark:text-gray-400">, </span>
-                            </template>
-                          </template>
-                          <template v-else>—</template>
-                        </td>
-                        <td class="px-3 py-2">
-                          <template v-if="episodeDetails.get(episodeNum)!.url">
-                            <a
-                              :href="episodeDetails.get(episodeNum)!.url"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              class="text-green-600 dark:text-green-400 hover:text-green-800 dark:hover:text-green-300 underline text-xs"
-                            >
-                              🔗
-                            </a>
-                          </template>
-                          <template v-else>—</template>
-                        </td>
-                      </template>
-                      <template v-else-if="episodeDetails.get(episodeNum) === null">
-                        <td colspan="7" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">Episode {{ episodeNum }} - Daten nicht verfügbar</td>
-                      </template>
-                      <template v-else>
-                        <td class="px-3 py-2 text-green-700 dark:text-green-300 font-mono text-xs whitespace-nowrap">{{ episodeNum }}</td>
-                        <td colspan="6" class="px-3 py-2 text-gray-400 dark:text-gray-500 text-xs">—</td>
-                      </template>
-                    </tr>
-                  </tbody>
-                </table>
+      <!-- HTML Legend (Desktop only) -->
+      <div class="hidden lg:block w-64 flex-shrink-0">
+        <div class="sticky top-4 max-h-[600px] overflow-y-auto border border-gray-200 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800 p-4">
+          <h3 class="text-sm font-semibold mb-3 text-gray-900 dark:text-white">Sprecher</h3>
+          <input
+            v-model="legendSearchQuery"
+            type="text"
+            placeholder="Suche…"
+            class="w-full mb-3 px-3 py-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-sm text-gray-900 dark:text-gray-100"
+          />
+          <div class="space-y-2">
+            <div 
+              v-for="speaker in filteredLegendSpeakers" 
+              :key="speaker.id"
+              @mouseenter="hoveredSpeaker = speaker.id; startPulse(speaker.id)"
+              @mouseleave="hoveredSpeaker = null; stopPulse()"
+              @click="selectedSpeaker = selectedSpeaker === speaker.id ? null : speaker.id"
+              class="flex items-start gap-2 p-2 rounded cursor-pointer transition-all hover:bg-gray-50 dark:hover:bg-gray-700"
+              :class="{
+                'bg-gray-100 dark:bg-gray-700': hoveredSpeaker === speaker.id || selectedSpeaker === speaker.id,
+                'opacity-40': (hoveredSpeaker || selectedSpeaker) && hoveredSpeaker !== speaker.id && selectedSpeaker !== speaker.id
+              }"
+            >
+              <div 
+                class="w-4 h-4 rounded flex-shrink-0 mt-0.5" 
+                :style="{ backgroundColor: speaker.color }"
+              ></div>
+              <div class="flex-1 min-w-0">
+                <div 
+                  class="text-xs leading-tight text-gray-900 dark:text-white"
+                  :class="{
+                    'font-semibold': hoveredSpeaker === speaker.id || selectedSpeaker === speaker.id
+                  }"
+                  :title="`${speaker.name} (${speaker.totalAppearances} Episoden)`"
+                >
+                  {{ speaker.name }}
+                </div>
+                <div class="text-xs text-gray-500 dark:text-gray-400">
+                  {{ speaker.totalAppearances }} Episoden
+                </div>
               </div>
             </div>
           </div>
-          <button
-            @click="selectedSpeaker = null; showEpisodeList = false;"
-            class="text-green-600 hover:text-green-800 font-semibold ml-4"
-          >
-            ✕
-          </button>
         </div>
       </div>
-    </div>
-    
-    <div ref="containerRef" class="w-full overflow-x-auto">
-      <svg ref="svgRef" class="speaker-river-svg"></svg>
     </div>
     
     <!-- Tooltip -->

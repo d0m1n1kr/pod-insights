@@ -291,6 +291,27 @@ const searchEpisodes = async (append = false) => {
   
   const query = searchQuery.value.trim();
   
+  // Update URL with search query (only when not appending)
+  if (!append) {
+    const queryParams: Record<string, string> = { ...route.query as Record<string, string> };
+    
+    if (query) {
+      queryParams.q = query;
+    } else {
+      // Remove query parameter if search is empty
+      delete queryParams.q;
+    }
+    
+    // Remove episode parameter when starting a new search
+    delete queryParams.episode;
+    
+    // Update URL without triggering navigation
+    await router.replace({ 
+      name: 'episodeSearch', 
+      query: queryParams
+    });
+  }
+  
   // Deselect episode when starting a new search
   if (!append) {
     // Clear results immediately when starting a new search
