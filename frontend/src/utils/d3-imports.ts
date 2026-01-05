@@ -25,11 +25,15 @@ export { axisBottom, axisLeft, axisTop, axisRight } from 'd3-axis';
 // Shapes (lines, areas, curves)
 export { 
   line, 
-  area, 
+  area,
+  lineRadial,
+  areaRadial,
+  arc,
   curveLinear, 
   curveMonotoneX, 
   curveBasis,
   curveCatmullRom,
+  curveLinearClosed,
   stack,
   stackOffsetExpand,
   stackOffsetWiggle,
