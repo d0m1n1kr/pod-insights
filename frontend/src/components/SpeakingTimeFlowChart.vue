@@ -165,7 +165,6 @@ const updateMarkerGlobal = () => {
   const container = chartRef.value;
   const containerWidth = container.clientWidth || 800;
   const width = containerWidth;
-  const height = Math.max(400, Math.min(600, width * 0.6));
   const progressBarHeight = props.episodeSubjects?.timeline ? 20 : 0;
   const progressBarGap = props.episodeSubjects?.timeline ? 10 : 0;
   const margin = { top: 20 + progressBarHeight + progressBarGap, right: 20, bottom: 60, left: 60 };
