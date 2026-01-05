@@ -157,6 +157,42 @@ const updateSpeakerHighlightGlobal = () => {
   });
 };
 
+// Module-level function to update position marker (always accesses current state)
+const updateMarkerGlobal = () => {
+  if (!positionMarker || !markerCircle || !chartRef.value || !props.data) return;
+  
+  // Recreate the scale based on current chart dimensions
+  const container = chartRef.value;
+  const containerWidth = container.clientWidth || 800;
+  const width = containerWidth;
+  const height = Math.max(400, Math.min(600, width * 0.6));
+  const progressBarHeight = props.episodeSubjects?.timeline ? 20 : 0;
+  const progressBarGap = props.episodeSubjects?.timeline ? 10 : 0;
+  const margin = { top: 20 + progressBarHeight + progressBarGap, right: 20, bottom: 60, left: 60 };
+  const innerWidth = Math.max(0, width - margin.left - margin.right);
+  
+  const xScale = scaleLinear()
+    .domain([0, props.data.episodeDurationSec])
+    .range([0, innerWidth]);
+  
+  // Check if this is the current episode and position is valid
+  const pos = isCurrentEpisode.value ? currentPosition.value : null;
+  
+  if (pos !== null && pos >= 0 && pos <= props.data.episodeDurationSec) {
+    const x = xScale(pos);
+    positionMarker
+      .attr('x1', x)
+      .attr('x2', x)
+      .style('display', null);
+    markerCircle
+      .attr('cx', x)
+      .style('display', null);
+  } else {
+    positionMarker.style('display', 'none');
+    markerCircle.style('display', 'none');
+  }
+};
+
 // Helper function to find the last index <= value in a sorted array
 const findLastIndexLE = (arr: number[], value: number) => {
   let lo = 0;
@@ -1276,36 +1312,14 @@ const drawChart = () => {
     .attr('pointer-events', 'none')
     .style('display', 'none');
   
-  // Update marker position
-  const updateMarker = () => {
-    if (!positionMarker || !markerCircle) return;
-    
-    // Check if this is the current episode and position is valid
-    const pos = isCurrentEpisode.value ? currentPosition.value : null;
-    
-    if (pos !== null && pos >= 0 && pos <= props.data.episodeDurationSec) {
-      const x = xScale(pos);
-      positionMarker
-        .attr('x1', x)
-        .attr('x2', x)
-        .style('display', null);
-      markerCircle
-        .attr('cx', x)
-        .style('display', null);
-    } else {
-      positionMarker.style('display', 'none');
-      markerCircle.style('display', 'none');
-    }
-  };
-  
-  // Initial update
-  updateMarker();
+  // Initial update using module-level functions
+  updateMarkerGlobal();
   updateSpeakerHighlightGlobal();
   
-  // Store update functions for later use
+  // Store update functions for later use (for consistency, though we call module-level functions directly)
   const gNode = g.node();
   if (gNode) {
-    (gNode as any).__updateMarker = updateMarker;
+    (gNode as any).__updateMarker = updateMarkerGlobal;
     (gNode as any).__updateSpeakerHighlight = updateSpeakerHighlightGlobal;
   }
 };
@@ -1322,13 +1336,8 @@ onMounted(() => {
     updateCurrentPosition();
     // Always try to update marker and highlight if chart is drawn
     if (svg && chartRef.value) {
-      const g = select(chartRef.value).select('g');
-      const gNode = g.node();
-      if (gNode) {
-        const updateMarkerFn = (gNode as any)?.__updateMarker;
-        if (updateMarkerFn) updateMarkerFn();
-      }
-      // Always call module-level highlight function directly
+      // Always call module-level functions directly
+      updateMarkerGlobal();
       updateSpeakerHighlightGlobal();
     }
   }, 100); // Update every 100ms
@@ -1359,13 +1368,8 @@ onMounted(() => {
   // Watch for current position and speaker changes to update marker and highlight
   watch([currentPosition, currentSpeaker, isCurrentEpisode], () => {
     if (svg && chartRef.value) {
-      const g = select(chartRef.value).select('g');
-      const gNode = g.node();
-      if (gNode) {
-        const updateMarkerFn = (gNode as any)?.__updateMarker;
-        if (updateMarkerFn) updateMarkerFn();
-      }
-      // Always call module-level highlight function directly
+      // Always call module-level functions directly
+      updateMarkerGlobal();
       updateSpeakerHighlightGlobal();
     }
   }, { immediate: true });
