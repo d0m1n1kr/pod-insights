@@ -309,15 +309,14 @@ const toggleAnimation = () => {
 const startAnimation = () => {
   if (sortedYearsForAnimation.value.length === 0) return;
   
-  isAnimating.value = true;
-  currentAnimatedYearIndex.value = 0;
-  
   // Set only the first year as selected for animation
   const firstYear = sortedYearsForAnimation.value[0];
-  if (firstYear !== undefined) {
-    selectedYears.value = new Set([firstYear]);
-    animationYearLabel.value = firstYear;
-  }
+  if (firstYear === undefined) return;
+  
+  isAnimating.value = true;
+  currentAnimatedYearIndex.value = 0;
+  selectedYears.value = new Set([firstYear]);
+  animationYearLabel.value = firstYear;
   
   // Redraw first frame without animation (since there are no existing paths yet)
   nextTick(() => {
@@ -356,14 +355,18 @@ const animateToNextYear = () => {
     
     currentAnimatedYearIndex.value = nextIndex;
     const nextYear = years[nextIndex];
-    selectedYears.value = new Set([nextYear]);
-    animationYearLabel.value = nextYear;
-    
-    // Redraw with smooth transition
-    nextTick(() => {
-      drawRadar(true);
-      animateToNextYear();
-    });
+    if (nextYear !== undefined) {
+      selectedYears.value = new Set([nextYear]);
+      animationYearLabel.value = nextYear;
+      
+      // Redraw with smooth transition
+      nextTick(() => {
+        drawRadar(true);
+        animateToNextYear();
+      });
+    } else {
+      stopAnimation();
+    }
   }, 300);
 };
 
@@ -401,9 +404,9 @@ const drawRadar = (animate = false) => {
     svg.selectAll('circle, line, text').remove();
   }
   
-  let g = svg.select('g');
+  let g = svg.select<SVGGElement>('g');
   if (g.empty()) {
-    g = svg.append('g');
+    g = svg.append<SVGGElement>('g');
   }
   g.attr('transform', `translate(${centerX},${centerY})`);
   
@@ -501,24 +504,109 @@ const drawRadar = (animate = false) => {
     });
     pathString += ' Z'; // Close path
     
-    let areaPath: ReturnType<typeof g.selectAll<SVGPathElement, unknown>>;
-    
     if (shouldAnimate && existingAnimatedPath) {
       // During animation: reuse the existing path element for smooth morphing
-      areaPath = select(existingAnimatedPath);
+      const areaPath = select<SVGPathElement, unknown>(existingAnimatedPath);
       areaPath
         .transition(transition().duration(300))
         .attr('d', pathString)
         .attr('data-year', yearData.year.toString())
         .attr('fill', yearData.color)
         .attr('stroke', yearData.color);
+      
+      // Re-attach event handlers
+      areaPath
+        .on('mouseover', function(event: MouseEvent) {
+          if (isAnimating.value) return; // Disable hover during animation
+          select(this).attr('fill-opacity', 0.5);
+          
+          // Calculate which subject is being hovered
+          const [mx, my] = pointer(event, svgRef.value);
+          const centerX = width / 2;
+          const centerY = height / 2;
+          const dx = mx - centerX;
+          const dy = my - centerY;
+          const angle = Math.atan2(dy, dx) + (Math.PI / 2);
+          const normalizedAngle = angle < 0 ? angle + (Math.PI * 2) : angle;
+          const subjectIdx = Math.round(normalizedAngle / angleSlice) % subjects.length;
+          const subjectId = subjects[subjectIdx];
+          
+          if (subjectId !== undefined) {
+            const value = yearData.values[subjectIdx];
+            const percentage = value !== undefined ? value : 0;
+            
+            hoveredArea.value = {
+              year: yearData.year,
+              subject: subjectId,
+              percentage: percentage
+            };
+            
+            nextTick(() => {
+              if (tooltipRef.value) {
+                const mouseX = event.clientX || (event as any).pageX || 0;
+                const mouseY = event.clientY || (event as any).pageY || 0;
+                tooltipRef.value.style.display = 'block';
+                tooltipRef.value.style.position = 'fixed';
+                tooltipRef.value.style.left = `${mouseX + 15}px`;
+                tooltipRef.value.style.top = `${mouseY - 10}px`;
+                tooltipRef.value.style.zIndex = '1000';
+              }
+            });
+          }
+        })
+        .on('mousemove', function(event: MouseEvent) {
+          if (isAnimating.value) return;
+          if (tooltipRef.value && hoveredArea.value) {
+            const mouseX = event.clientX || (event as any).pageX || 0;
+            const mouseY = event.clientY || (event as any).pageY || 0;
+            tooltipRef.value.style.left = `${mouseX + 15}px`;
+            tooltipRef.value.style.top = `${mouseY - 10}px`;
+          }
+        })
+        .on('mouseout', function() {
+          if (isAnimating.value) return;
+          if (!selectedArea.value || selectedArea.value.year !== yearData.year) {
+            select(this).attr('fill-opacity', 0.3);
+          }
+          hoveredArea.value = null;
+          if (tooltipRef.value) {
+            tooltipRef.value.style.display = 'none';
+          }
+        })
+        .on('click', function(event) {
+          if (isAnimating.value) {
+            stopAnimation();
+            return;
+          }
+          const [mx, my] = pointer(event, svgRef.value);
+          const centerX = width / 2;
+          const centerY = height / 2;
+          const dx = mx - centerX;
+          const dy = my - centerY;
+          const angle = Math.atan2(dy, dx) + (Math.PI / 2);
+          const normalizedAngle = angle < 0 ? angle + (Math.PI * 2) : angle;
+          const subjectIdx = Math.round(normalizedAngle / angleSlice) % subjects.length;
+          const subjectId = subjects[subjectIdx];
+          
+          if (subjectId !== undefined) {
+            selectedArea.value = { year: yearData.year, subject: subjectId };
+            emit('selected-area', selectedArea.value);
+          }
+          select(svgRef.value).selectAll('.radar-area').attr('fill-opacity', 0.3);
+          select(this).attr('fill-opacity', 0.7);
+        });
+      
+      // Highlight during animation
+      if (yearData.year === animationYearLabel.value) {
+        areaPath.attr('fill-opacity', 0.5);
+      }
     } else {
       // Normal mode: find or create path for this year
-      areaPath = g.selectAll<SVGPathElement, unknown>('.radar-area[data-year="' + yearData.year + '"]');
+      let areaPath = g.selectAll<SVGPathElement, unknown>('.radar-area[data-year="' + yearData.year + '"]');
       
       if (areaPath.empty()) {
         // Create new path
-        areaPath = g.append('path')
+        g.append<SVGPathElement>('path')
           .attr('class', 'radar-area')
           .attr('data-year', yearData.year.toString())
           .attr('d', pathString)
@@ -527,6 +615,9 @@ const drawRadar = (animate = false) => {
           .attr('stroke', yearData.color)
           .attr('stroke-width', 2)
           .style('cursor', 'pointer');
+        
+        // Re-select to get the same type as selectAll
+        areaPath = g.selectAll<SVGPathElement, unknown>('.radar-area[data-year="' + yearData.year + '"]');
       } else {
         // Update existing path
         areaPath
@@ -534,10 +625,9 @@ const drawRadar = (animate = false) => {
           .attr('fill', yearData.color)
           .attr('stroke', yearData.color);
       }
-    }
-    
-    // Re-attach event handlers
-    areaPath
+      
+      // Re-attach event handlers
+      areaPath
       .on('mouseover', function(event: MouseEvent) {
         if (isAnimating.value) return; // Disable hover during animation
         select(this).attr('fill-opacity', 0.5);
@@ -620,12 +710,11 @@ const drawRadar = (animate = false) => {
         select(svgRef.value).selectAll('.radar-area').attr('fill-opacity', 0.3);
         select(this).attr('fill-opacity', 0.7);
       });
-    
-    // Highlight selected area (but not during animation)
-    if (!isAnimating.value && selectedArea.value && selectedArea.value.year === yearData.year) {
-      areaPath.attr('fill-opacity', 0.7);
-    } else if (isAnimating.value && yearData.year === animationYearLabel.value) {
-      areaPath.attr('fill-opacity', 0.5);
+      
+      // Highlight selected area (but not during animation)
+      if (!isAnimating.value && selectedArea.value && selectedArea.value.year === yearData.year) {
+        areaPath.attr('fill-opacity', 0.7);
+      }
     }
   });
   
@@ -640,12 +729,15 @@ const drawRadar = (animate = false) => {
       .remove();
   } else {
     // During animation, remove any extra paths (should only be one)
-    const allPaths = g.selectAll('.radar-area');
+    const allPaths = g.selectAll<SVGPathElement, unknown>('.radar-area');
     if (allPaths.size() > 1) {
-      const pathsArray = Array.from(allPaths.nodes());
+      const pathsArray = Array.from(allPaths.nodes()).filter((node): node is SVGPathElement => node !== null);
       // Keep the first one, remove the rest
       for (let i = 1; i < pathsArray.length; i++) {
-        select(pathsArray[i]).remove();
+        const path = pathsArray[i];
+        if (path) {
+          select(path).remove();
+        }
       }
     }
   }
