@@ -584,30 +584,30 @@ impl AnalyticsDb {
             ))
         }
 
-        // Unique users
+        // Unique users (excluding stats page)
         let unique_users: i64 = if let Some(ref since_str) = since {
             conn.query_row(
-                "SELECT COUNT(DISTINCT user_fingerprint) FROM page_views WHERE created_at >= ?1",
+                "SELECT COUNT(DISTINCT user_fingerprint) FROM page_views WHERE created_at >= ?1 AND path NOT LIKE '/stats%'",
                 params![since_str],
                 |row| row.get(0),
             )?
         } else {
             conn.query_row(
-                "SELECT COUNT(DISTINCT user_fingerprint) FROM page_views",
+                "SELECT COUNT(DISTINCT user_fingerprint) FROM page_views WHERE path NOT LIKE '/stats%'",
                 [],
                 |row| row.get(0),
             )?
         };
 
-        // Total page views
+        // Total page views (excluding stats page)
         let total_page_views: i64 = if let Some(ref since_str) = since {
             conn.query_row(
-                "SELECT COUNT(*) FROM page_views WHERE created_at >= ?1",
+                "SELECT COUNT(*) FROM page_views WHERE created_at >= ?1 AND path NOT LIKE '/stats%'",
                 params![since_str],
                 |row| row.get(0),
             )?
         } else {
-            conn.query_row("SELECT COUNT(*) FROM page_views", [], |row| row.get(0))?
+            conn.query_row("SELECT COUNT(*) FROM page_views WHERE path NOT LIKE '/stats%'", [], |row| row.get(0))?
         };
 
         // Total episode plays
@@ -621,12 +621,12 @@ impl AnalyticsDb {
             conn.query_row("SELECT COUNT(*) FROM episode_plays", [], |row| row.get(0))?
         };
 
-        // Top pages
+        // Top pages (excluding stats page)
         let top_pages = if let Some(ref since_str) = since {
             conn.prepare(
                 "SELECT path, route_name, COUNT(*) as views, COUNT(DISTINCT user_fingerprint) as unique_users
                  FROM page_views
-                 WHERE created_at >= ?1
+                 WHERE created_at >= ?1 AND path NOT LIKE '/stats%'
                  GROUP BY path, route_name
                  ORDER BY views DESC
                  LIMIT 20",
@@ -637,6 +637,7 @@ impl AnalyticsDb {
             conn.prepare(
                 "SELECT path, route_name, COUNT(*) as views, COUNT(DISTINCT user_fingerprint) as unique_users
                  FROM page_views
+                 WHERE path NOT LIKE '/stats%'
                  GROUP BY path, route_name
                  ORDER BY views DESC
                  LIMIT 20",
